@@ -1,18 +1,6 @@
-@Suppress("UNCHECKED_CAST")
-try {
-    System.getenv()
-    val peClass = Class.forName("java.lang.ProcessEnvironment")
-    val envField = peClass.getDeclaredField("theEnvironment")
-    envField.isAccessible = true
-    val envMap = envField.get(null) as MutableMap<String, String>
-    envMap.remove("ANDROID_PREFS_ROOT")
-    
-    val caseInsensitiveEnvField = peClass.getDeclaredField("theCaseInsensitiveEnvironment")
-    caseInsensitiveEnvField.isAccessible = true
-    val caseInsensitiveEnvMap = caseInsensitiveEnvField.get(null) as MutableMap<String, String>
-    caseInsensitiveEnvMap.remove("ANDROID_PREFS_ROOT")
-} catch (_: Exception) {
-}
+// Remove ANDROID_PREFS_ROOT if it was injected by older Android Studio versions.
+// The reflection approach that modifies ProcessEnvironment no longer works on JVM 17+.
+// We rely on Gradle's own environment handling instead.
 
 pluginManagement {
     repositories {
