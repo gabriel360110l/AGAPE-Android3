@@ -50,13 +50,24 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | English Bible | World English Bible Classic (with deuterocanon), ebible.org | Public domain |
 | Dutch Bible | Statenvertaling 1637 with Apocrypha | Public domain |
 | Cross-references | OpenBible.info (votes ≥ 10) | CC BY |
-| Agpeya, menologion, prayers, chapter guides, Father notes | Legacy AGAPE app | Own content |
-| Horologion, Liturgy of the Hours, councils, plans, quizzes, verse notes, Church articles | `app/src/main/assets/content/*.json` | Own content — **sample, to be completed** |
+| Agpeya (all hours, English) | api.coptic.io | Check terms before release |
+| Agpeya (Dutch fixed prayers) | `tools/source/translations_nl.json` | Own translation — review |
+| Horologion: morning/evening rule, Compline, Canons, Communion, Typika | *Orthodox Daily Prayers* (St Tikhon's 1982, Project Gutenberg) via mdws-org/orthodoxprayers | Public domain |
+| Council creeds, definitions, anathemas and canons | NPNF II/14 (Percival, 1900) via newadvent.org | Public domain |
+| Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
+| Menologion, legacy prayers, chapter guides, Father notes | Legacy AGAPE app | Own content |
+| Council stories, Father biographies, Liturgy of the Hours hymns and prayers, plans, quizzes, verse notes | `app/src/main/assets/content/*.json` | Own content (hymns: Neale/Newman, public domain) |
 
 Canon per tradition is defined in `tools/build_content.py` (`BOOKS`). Councils per tradition are in
 `assets/content/councils.json` (`recognizedBy`); Catholic plans stop at 1054.
 
-To change Bible data, edit `tools/source/` or `tools/build_content.py` and run `python tools/build_content.py`.
+Rebuild generated content from the repository root (downloads are cached in `tools/.cache/`):
+
+```
+python tools/build_content.py    # Bible database, cross-references, Father quotes, books
+python tools/build_prayers.py    # Agpeya and Horologion
+python tools/build_councils.py   # council texts and canons
+```
 
 ## Before release
 

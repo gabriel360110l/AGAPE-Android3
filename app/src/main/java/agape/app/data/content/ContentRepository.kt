@@ -28,6 +28,7 @@ class ContentRepository(private val context: Context) {
     val plans: List<PlanDefinition> by lazy { load("plans.json") }
     private val quizFile: QuizFile by lazy { load("quizzes.json") }
     private val church: ChurchFile by lazy { load("church.json") }
+    private val councilTexts: Map<String, CouncilTexts> by lazy { load("council_texts.json") }
     private val saintsEo: List<SaintEntry> by lazy { load("saints_eo.json") }
     private val verseOfDay: VerseOfDayFile by lazy { load("verse_of_day.json") }
     private val verseNotes: JsonObject by lazy {
@@ -42,6 +43,10 @@ class ContentRepository(private val context: Context) {
 
     fun prayerBook(tradition: Tradition): PrayerBook = prayerBooks.getValue(tradition)
     fun prayerBookHourIds(): Set<String> = prayerBooks.values.flatMap { b -> b.hours.map { it.id } }.toSet()
+
+    /** An hour or an extra service of [tradition]'s prayer book. */
+    fun prayerEntry(tradition: Tradition, id: String): PrayerHour? =
+        prayerBook(tradition).let { b -> b.hours.firstOrNull { it.id == id } ?: b.extras.firstOrNull { it.id == id } }
     fun prayer(id: String): Prayer? = prayers.firstOrNull { it.id == id }
     fun listedPrayers(tradition: Tradition): List<Prayer> = prayers.filter { it.listed && tradition in it.traditions }
 
@@ -52,12 +57,14 @@ class ContentRepository(private val context: Context) {
 
     fun councils(tradition: Tradition): List<Council> = councils.filter { tradition in it.recognizedBy }
     fun council(id: String): Council? = councils.firstOrNull { it.id == id }
+    fun councilTexts(id: String): CouncilTexts = councilTexts[id] ?: CouncilTexts()
     fun plan(id: String): PlanDefinition? = plans.firstOrNull { it.id == id }
 
     fun articles(tradition: Tradition, section: ChurchSection): List<ChurchArticle> =
         church.articles.filter { it.section == section && tradition in it.traditions }
     fun article(id: String): ChurchArticle? = church.articles.firstOrNull { it.id == id }
     fun fathers(tradition: Tradition): List<ChurchFather> = church.fathers.filter { tradition in it.traditions }
+    fun father(id: String): ChurchFather? = church.fathers.firstOrNull { it.id == id }
 
     /** The Byzantine menologion entry for a civil date (new calendar). */
     fun saintEo(date: LocalDate): SaintEntry? = saintsEo.firstOrNull { it.month == date.monthValue && it.day == date.dayOfMonth }

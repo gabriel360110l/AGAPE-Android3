@@ -1,74 +1,1345 @@
 {
  "articles": [
   {
-   "id": "history-apostolic", "section": "HISTORY", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
-   "title": {"en": "The apostolic age", "nl": "De apostolische tijd"},
-   "summary": {"en": "From Pentecost to the death of the last apostle.", "nl": "Van Pinksteren tot de dood van de laatste apostel."},
+   "id": "history-apostolic",
+   "section": "HISTORY",
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "title": {
+    "en": "The apostolic age",
+    "nl": "De apostolische tijd"
+   },
+   "summary": {
+    "en": "From Pentecost to the death of the last apostle.",
+    "nl": "Van Pinksteren tot de dood van de laatste apostel."
+   },
    "body": {
-    "en": ["The Church was born at Pentecost, when the Holy Spirit descended on the apostles in Jerusalem. From there the Gospel spread along the roads of the Roman Empire: to Antioch, where the disciples were first called Christians; to Alexandria, Rome, Ephesus and beyond.", "The apostles appointed bishops, presbyters and deacons to shepherd the local churches. The Eucharist, baptism and the laying on of hands were already the centre of the Church's life, as the Acts of the Apostles and the letters of Paul show.", "(Sample article: more detail will be added.)"],
-    "nl": ["De Kerk werd geboren met Pinksteren, toen de Heilige Geest in Jeruzalem op de apostelen neerdaalde. Van daaruit verspreidde het Evangelie zich langs de wegen van het Romeinse Rijk: naar Antiochië, waar de leerlingen voor het eerst christenen werden genoemd; naar Alexandrië, Rome, Efeze en verder.", "De apostelen stelden bisschoppen, priesters en diakens aan om de plaatselijke kerken te hoeden. De eucharistie, de doop en de handoplegging stonden al in het hart van het leven van de Kerk, zoals Handelingen en de brieven van Paulus laten zien.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+    "en": [
+     "The Church was born at Pentecost, when the Holy Spirit descended on the apostles in Jerusalem. From there the Gospel spread along the roads of the Roman Empire: to Antioch, where the disciples were first called Christians; to Alexandria, Rome, Ephesus and beyond.",
+     "The apostles appointed bishops, presbyters and deacons to shepherd the local churches. The Eucharist, baptism and the laying on of hands were already the centre of the Church's life, as the Acts of the Apostles and the letters of Paul show.",
+     "(Sample article: more detail will be added.)"
+    ],
+    "nl": [
+     "De Kerk werd geboren met Pinksteren, toen de Heilige Geest in Jeruzalem op de apostelen neerdaalde. Van daaruit verspreidde het Evangelie zich langs de wegen van het Romeinse Rijk: naar Antiochië, waar de leerlingen voor het eerst christenen werden genoemd; naar Alexandrië, Rome, Efeze en verder.",
+     "De apostelen stelden bisschoppen, priesters en diakens aan om de plaatselijke kerken te hoeden. De eucharistie, de doop en de handoplegging stonden al in het hart van het leven van de Kerk, zoals Handelingen en de brieven van Paulus laten zien.",
+     "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"
+    ]
    }
   },
   {
-   "id": "history-persecutions", "section": "HISTORY", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
-   "title": {"en": "The age of the martyrs", "nl": "De tijd van de martelaren"},
-   "summary": {"en": "Three centuries of witness until the Edict of Milan (313).", "nl": "Drie eeuwen van getuigenis tot het Edict van Milaan (313)."},
+   "id": "history-persecutions",
+   "section": "HISTORY",
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "title": {
+    "en": "The age of the martyrs",
+    "nl": "De tijd van de martelaren"
+   },
+   "summary": {
+    "en": "Three centuries of witness until the Edict of Milan (313).",
+    "nl": "Drie eeuwen van getuigenis tot het Edict van Milaan (313)."
+   },
    "body": {
-    "en": ["For nearly three centuries Christians lived under the threat of persecution. Ignatius of Antioch, Polycarp of Smyrna, Perpetua and Felicity, and countless others gave their lives rather than deny Christ. \"The blood of the martyrs is the seed of the Church,\" wrote Tertullian.", "The Great Persecution under Diocletian (303–311) was the fiercest. In Egypt it was so severe that the Coptic Church still counts its years from 284, the Era of the Martyrs.", "(Sample article: more detail will be added.)"],
-    "nl": ["Bijna drie eeuwen leefden christenen onder de dreiging van vervolging. Ignatius van Antiochië, Polycarpus van Smyrna, Perpetua en Felicitas en talloze anderen gaven hun leven liever dan Christus te verloochenen. \"Het bloed van de martelaren is het zaad van de Kerk,\" schreef Tertullianus.", "De Grote Vervolging onder Diocletianus (303–311) was de zwaarste. In Egypte was zij zo hevig dat de Koptische Kerk haar jaren nog altijd telt vanaf 284, het Tijdperk van de Martelaren.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+    "en": [
+     "For nearly three centuries Christians lived under the threat of persecution. Ignatius of Antioch, Polycarp of Smyrna, Perpetua and Felicity, and countless others gave their lives rather than deny Christ. \"The blood of the martyrs is the seed of the Church,\" wrote Tertullian.",
+     "The Great Persecution under Diocletian (303–311) was the fiercest. In Egypt it was so severe that the Coptic Church still counts its years from 284, the Era of the Martyrs.",
+     "(Sample article: more detail will be added.)"
+    ],
+    "nl": [
+     "Bijna drie eeuwen leefden christenen onder de dreiging van vervolging. Ignatius van Antiochië, Polycarpus van Smyrna, Perpetua en Felicitas en talloze anderen gaven hun leven liever dan Christus te verloochenen. \"Het bloed van de martelaren is het zaad van de Kerk,\" schreef Tertullianus.",
+     "De Grote Vervolging onder Diocletianus (303–311) was de zwaarste. In Egypte was zij zo hevig dat de Koptische Kerk haar jaren nog altijd telt vanaf 284, het Tijdperk van de Martelaren.",
+     "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"
+    ]
    }
   },
   {
-   "id": "history-east-west", "section": "HISTORY", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
-   "title": {"en": "Divisions and dialogue", "nl": "Scheidingen en dialoog"},
-   "summary": {"en": "451, 1054 and the long road back toward unity.", "nl": "451, 1054 en de lange weg terug naar eenheid."},
+   "id": "history-east-west",
+   "section": "HISTORY",
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "title": {
+    "en": "Divisions and dialogue",
+    "nl": "Scheidingen en dialoog"
+   },
+   "summary": {
+    "en": "451, 1054 and the long road back toward unity.",
+    "nl": "451, 1054 en de lange weg terug naar eenheid."
+   },
    "body": {
-    "en": ["After Chalcedon (451) the Oriental Orthodox churches and the Chalcedonian churches went separate ways. In 1054 the mutual excommunications between Rome and Constantinople marked the estrangement of East and West, deepened by the sack of Constantinople in 1204.", "In 1965 Pope Paul VI and Patriarch Athenagoras lifted the excommunications of 1054. Since the 1960s, theological dialogues between all three families of churches have found much common ground, while real differences remain.", "(Sample article: more detail will be added.)"],
-    "nl": ["Na Chalcedon (451) gingen de Oriëntaals-Orthodoxe kerken en de Chalcedonische kerken uiteen. In 1054 markeerden de wederzijdse excommunicaties tussen Rome en Constantinopel de vervreemding van Oost en West, verdiept door de plundering van Constantinopel in 1204.", "In 1965 hieven paus Paulus VI en patriarch Athenagoras de excommunicaties van 1054 op. Sinds de jaren zestig hebben theologische dialogen tussen alle drie de kerkfamilies veel gemeenschappelijke grond gevonden, terwijl er echte verschillen blijven.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+    "en": [
+     "After Chalcedon (451) the Oriental Orthodox churches and the Chalcedonian churches went separate ways. In 1054 the mutual excommunications between Rome and Constantinople marked the estrangement of East and West, deepened by the sack of Constantinople in 1204.",
+     "In 1965 Pope Paul VI and Patriarch Athenagoras lifted the excommunications of 1054. Since the 1960s, theological dialogues between all three families of churches have found much common ground, while real differences remain.",
+     "(Sample article: more detail will be added.)"
+    ],
+    "nl": [
+     "Na Chalcedon (451) gingen de Oriëntaals-Orthodoxe kerken en de Chalcedonische kerken uiteen. In 1054 markeerden de wederzijdse excommunicaties tussen Rome en Constantinopel de vervreemding van Oost en West, verdiept door de plundering van Constantinopel in 1204.",
+     "In 1965 hieven paus Paulus VI en patriarch Athenagoras de excommunicaties van 1054 op. Sinds de jaren zestig hebben theologische dialogen tussen alle drie de kerkfamilies veel gemeenschappelijke grond gevonden, terwijl er echte verschillen blijven.",
+     "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"
+    ]
    }
   },
   {
-   "id": "tradition-eo", "section": "TRADITION", "traditions": ["EASTERN_ORTHODOX"],
-   "title": {"en": "The Eastern Orthodox Church", "nl": "De Oosters-Orthodoxe Kerk"},
-   "summary": {"en": "One faith, many local churches, in communion with Constantinople.", "nl": "Eén geloof, vele lokale kerken, in gemeenschap met Constantinopel."},
+   "id": "tradition-eo",
+   "section": "TRADITION",
+   "traditions": [
+    "EASTERN_ORTHODOX"
+   ],
+   "title": {
+    "en": "The Eastern Orthodox Church",
+    "nl": "De Oosters-Orthodoxe Kerk"
+   },
+   "summary": {
+    "en": "One faith, many local churches, in communion with Constantinople.",
+    "nl": "Eén geloof, vele lokale kerken, in gemeenschap met Constantinopel."
+   },
    "body": {
-    "en": ["The Eastern Orthodox Church is a communion of self-governing churches (Constantinople, Alexandria, Antioch, Jerusalem, Moscow, Serbia, Romania, Greece and others) that share one faith, one liturgy and the seven Ecumenical Councils.", "Its Bible follows the Greek Septuagint for the Old Testament, which is why it includes books such as 1 Esdras, 3 Maccabees and the Prayer of Manasseh. Its life is shaped by the Divine Liturgy, the Horologion, the icons and the teaching of the Fathers on theosis: becoming by grace what God is by nature.", "(Sample article: more detail will be added.)"],
-    "nl": ["De Oosters-Orthodoxe Kerk is een gemeenschap van zelfbesturende kerken (Constantinopel, Alexandrië, Antiochië, Jeruzalem, Moskou, Servië, Roemenië, Griekenland en andere) die één geloof, één liturgie en de zeven Oecumenische Concilies delen.", "Haar Bijbel volgt voor het Oude Testament de Griekse Septuagint; daarom bevat zij boeken als 1 Esdras, 3 Makkabeeën en het Gebed van Manasse. Haar leven wordt gevormd door de Goddelijke Liturgie, het Horologion, de iconen en de leer van de Vaders over theosis: door genade worden wat God van nature is.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+    "en": [
+     "The Eastern Orthodox Church is a communion of self-governing churches (Constantinople, Alexandria, Antioch, Jerusalem, Moscow, Serbia, Romania, Greece and others) that share one faith, one liturgy and the seven Ecumenical Councils.",
+     "Its Bible follows the Greek Septuagint for the Old Testament, which is why it includes books such as 1 Esdras, 3 Maccabees and the Prayer of Manasseh. Its life is shaped by the Divine Liturgy, the Horologion, the icons and the teaching of the Fathers on theosis: becoming by grace what God is by nature.",
+     "(Sample article: more detail will be added.)"
+    ],
+    "nl": [
+     "De Oosters-Orthodoxe Kerk is een gemeenschap van zelfbesturende kerken (Constantinopel, Alexandrië, Antiochië, Jeruzalem, Moskou, Servië, Roemenië, Griekenland en andere) die één geloof, één liturgie en de zeven Oecumenische Concilies delen.",
+     "Haar Bijbel volgt voor het Oude Testament de Griekse Septuagint; daarom bevat zij boeken als 1 Esdras, 3 Makkabeeën en het Gebed van Manasse. Haar leven wordt gevormd door de Goddelijke Liturgie, het Horologion, de iconen en de leer van de Vaders over theosis: door genade worden wat God van nature is.",
+     "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"
+    ]
    }
   },
   {
-   "id": "tradition-oo", "section": "TRADITION", "traditions": ["ORIENTAL_ORTHODOX"],
-   "title": {"en": "The Oriental Orthodox Churches", "nl": "De Oriëntaals-Orthodoxe Kerken"},
-   "summary": {"en": "Coptic, Syriac, Armenian, Ethiopian, Eritrean and Malankara churches.", "nl": "Koptische, Syrische, Armeense, Ethiopische, Eritrese en Malankara-kerken."},
+   "id": "tradition-oo",
+   "section": "TRADITION",
+   "traditions": [
+    "ORIENTAL_ORTHODOX"
+   ],
+   "title": {
+    "en": "The Oriental Orthodox Churches",
+    "nl": "De Oriëntaals-Orthodoxe Kerken"
+   },
+   "summary": {
+    "en": "Coptic, Syriac, Armenian, Ethiopian, Eritrean and Malankara churches.",
+    "nl": "Koptische, Syrische, Armeense, Ethiopische, Eritrese en Malankara-kerken."
+   },
    "body": {
-    "en": ["The Oriental Orthodox Churches receive the first three Ecumenical Councils: Nicaea, Constantinople and Ephesus. With St Cyril of Alexandria they confess the one incarnate nature of God the Word, fully divine and fully human, without mixture or separation.", "The Coptic Orthodox Church of Alexandria traces its founding to St Mark the Evangelist. Its prayer is shaped by the Agpeya, the Psalmody and the Synaxarium, and by the witness of the desert fathers of Egypt such as St Anthony and St Macarius.", "(Sample article: more detail will be added.)"],
-    "nl": ["De Oriëntaals-Orthodoxe Kerken aanvaarden de eerste drie Oecumenische Concilies: Nicea, Constantinopel en Efeze. Met de heilige Cyrillus van Alexandrië belijden zij de ene vleesgeworden natuur van God het Woord, volkomen goddelijk en volkomen menselijk, zonder vermenging of scheiding.", "De Koptisch-Orthodoxe Kerk van Alexandrië voert haar stichting terug op de heilige evangelist Marcus. Haar gebed wordt gevormd door de Agpeya, de Psalmodie en het Synaxarium, en door het getuigenis van de woestijnvaders van Egypte zoals de heilige Antonius en de heilige Macarius.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+    "en": [
+     "The Oriental Orthodox Churches receive the first three Ecumenical Councils: Nicaea, Constantinople and Ephesus. With St Cyril of Alexandria they confess the one incarnate nature of God the Word, fully divine and fully human, without mixture or separation.",
+     "The Coptic Orthodox Church of Alexandria traces its founding to St Mark the Evangelist. Its prayer is shaped by the Agpeya, the Psalmody and the Synaxarium, and by the witness of the desert fathers of Egypt such as St Anthony and St Macarius.",
+     "(Sample article: more detail will be added.)"
+    ],
+    "nl": [
+     "De Oriëntaals-Orthodoxe Kerken aanvaarden de eerste drie Oecumenische Concilies: Nicea, Constantinopel en Efeze. Met de heilige Cyrillus van Alexandrië belijden zij de ene vleesgeworden natuur van God het Woord, volkomen goddelijk en volkomen menselijk, zonder vermenging of scheiding.",
+     "De Koptisch-Orthodoxe Kerk van Alexandrië voert haar stichting terug op de heilige evangelist Marcus. Haar gebed wordt gevormd door de Agpeya, de Psalmodie en het Synaxarium, en door het getuigenis van de woestijnvaders van Egypte zoals de heilige Antonius en de heilige Macarius.",
+     "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"
+    ]
    }
   },
   {
-   "id": "tradition-ca", "section": "TRADITION", "traditions": ["CATHOLIC"],
-   "title": {"en": "The Catholic Church", "nl": "De Katholieke Kerk"},
-   "summary": {"en": "The Latin Church and the Eastern Catholic Churches in communion with Rome.", "nl": "De Latijnse Kerk en de Oosters-Katholieke Kerken in gemeenschap met Rome."},
+   "id": "tradition-ca",
+   "section": "TRADITION",
+   "traditions": [
+    "CATHOLIC"
+   ],
+   "title": {
+    "en": "The Catholic Church",
+    "nl": "De Katholieke Kerk"
+   },
+   "summary": {
+    "en": "The Latin Church and the Eastern Catholic Churches in communion with Rome.",
+    "nl": "De Latijnse Kerk en de Oosters-Katholieke Kerken in gemeenschap met Rome."
+   },
    "body": {
-    "en": ["The Catholic Church is a communion of the Latin Church and twenty-three Eastern Catholic Churches, united with the Bishop of Rome as successor of St Peter. It counts twenty-one ecumenical councils, from Nicaea (325) to the Second Vatican Council (1962–1965).", "Its Bible has seventy-three books, including Tobit, Judith, Wisdom, Sirach, Baruch and 1–2 Maccabees. The Mass and the Liturgy of the Hours form the rhythm of its prayer.", "(Sample article: more detail will be added.)"],
-    "nl": ["De Katholieke Kerk is een gemeenschap van de Latijnse Kerk en drieëntwintig Oosters-Katholieke Kerken, verenigd met de bisschop van Rome als opvolger van de heilige Petrus. Zij telt eenentwintig oecumenische concilies, van Nicea (325) tot het Tweede Vaticaans Concilie (1962–1965).", "Haar Bijbel telt drieënzeventig boeken, waaronder Tobit, Judit, Wijsheid, Sirach, Baruch en 1–2 Makkabeeën. De Mis en het Getijdengebed vormen het ritme van haar gebed.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+    "en": [
+     "The Catholic Church is a communion of the Latin Church and twenty-three Eastern Catholic Churches, united with the Bishop of Rome as successor of St Peter. It counts twenty-one ecumenical councils, from Nicaea (325) to the Second Vatican Council (1962–1965).",
+     "Its Bible has seventy-three books, including Tobit, Judith, Wisdom, Sirach, Baruch and 1–2 Maccabees. The Mass and the Liturgy of the Hours form the rhythm of its prayer.",
+     "(Sample article: more detail will be added.)"
+    ],
+    "nl": [
+     "De Katholieke Kerk is een gemeenschap van de Latijnse Kerk en drieëntwintig Oosters-Katholieke Kerken, verenigd met de bisschop van Rome als opvolger van de heilige Petrus. Zij telt eenentwintig oecumenische concilies, van Nicea (325) tot het Tweede Vaticaans Concilie (1962–1965).",
+     "Haar Bijbel telt drieënzeventig boeken, waaronder Tobit, Judit, Wijsheid, Sirach, Baruch en 1–2 Makkabeeën. De Mis en het Getijdengebed vormen het ritme van haar gebed.",
+     "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"
+    ]
    }
   }
  ],
  "fathers": [
-  {"id": "ignatius", "name": {"en": "Ignatius of Antioch", "nl": "Ignatius van Antiochië"}, "era": "† c. 107", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop and martyr; his seven letters on the way to Rome witness to the bishop, the Eucharist and the unity of the Church.", "nl": "Bisschop en martelaar; zijn zeven brieven op weg naar Rome getuigen van de bisschop, de eucharistie en de eenheid van de Kerk."}},
-  {"id": "irenaeus", "name": {"en": "Irenaeus of Lyon", "nl": "Irenaeus van Lyon"}, "era": "† c. 202", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Against the Gnostics he defended the unity of Scripture and the apostolic tradition: \"the glory of God is a human being fully alive.\"", "nl": "Tegen de gnostici verdedigde hij de eenheid van de Schrift en de apostolische overlevering: \"de heerlijkheid van God is de levende mens.\""}},
-  {"id": "athanasius", "name": {"en": "Athanasius of Alexandria", "nl": "Athanasius van Alexandrië"}, "era": "† 373", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Defender of Nicaea through five exiles; author of On the Incarnation and the Life of Antony.", "nl": "Verdediger van Nicea door vijf ballingschappen heen; schrijver van Over de menswording en het Leven van Antonius."}},
-  {"id": "basil", "name": {"en": "Basil the Great", "nl": "Basilius de Grote"}, "era": "† 379", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop of Caesarea, father of Eastern monasticism; wrote On the Holy Spirit and the Hexaemeron.", "nl": "Bisschop van Caesarea, vader van het oosterse monnikendom; schreef Over de Heilige Geest en de Hexaëmeron."}},
-  {"id": "gregory-theologian", "name": {"en": "Gregory the Theologian", "nl": "Gregorius de Theoloog"}, "era": "† 390", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Gregory of Nazianzus; his Five Theological Orations are classic teaching on the Trinity.", "nl": "Gregorius van Nazianze; zijn Vijf Theologische Redevoeringen zijn klassieke leer over de Drie-eenheid."}},
-  {"id": "ephrem", "name": {"en": "Ephrem the Syrian", "nl": "Efrem de Syriër"}, "era": "† 373", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Deacon and poet of Nisibis and Edessa, \"the Harp of the Spirit\"; his hymns teach theology in song.", "nl": "Diaken en dichter van Nisibis en Edessa, \"de Harp van de Geest\"; zijn hymnen leren theologie in gezang."}},
-  {"id": "chrysostom", "name": {"en": "John Chrysostom", "nl": "Johannes Chrysostomus"}, "era": "† 407", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Archbishop of Constantinople, the great preacher of Scripture; his homilies cover much of the Bible.", "nl": "Aartsbisschop van Constantinopel, de grote prediker van de Schrift; zijn homilieën bestrijken een groot deel van de Bijbel."}},
-  {"id": "augustine", "name": {"en": "Augustine of Hippo", "nl": "Augustinus van Hippo"}, "era": "† 430", "traditions": ["EASTERN_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop in North Africa; the Confessions and the City of God shaped Western Christianity.", "nl": "Bisschop in Noord-Afrika; de Belijdenissen en De stad van God vormden het westerse christendom."}},
-  {"id": "cyril", "name": {"en": "Cyril of Alexandria", "nl": "Cyrillus van Alexandrië"}, "era": "† 444", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Defender of the Theotokos at Ephesus; his teaching on the one incarnate Word is shared by all three families.", "nl": "Verdediger van de Theotokos op Efeze; zijn leer over het ene vleesgeworden Woord wordt door alle drie de families gedeeld."}},
-  {"id": "leo", "name": {"en": "Leo the Great", "nl": "Leo de Grote"}, "era": "† 461", "traditions": ["EASTERN_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop of Rome; his Tome was received at Chalcedon.", "nl": "Bisschop van Rome; zijn Tomus werd op Chalcedon aanvaard."}},
-  {"id": "severus", "name": {"en": "Severus of Antioch", "nl": "Severus van Antiochië"}, "era": "† 538", "traditions": ["ORIENTAL_ORTHODOX"], "summary": {"en": "Patriarch of Antioch and the great theologian of the non-Chalcedonian churches.", "nl": "Patriarch van Antiochië en de grote theoloog van de niet-Chalcedonische kerken."}},
-  {"id": "maximus", "name": {"en": "Maximus the Confessor", "nl": "Maximus de Belijder"}, "era": "† 662", "traditions": ["EASTERN_ORTHODOX", "CATHOLIC"], "summary": {"en": "Monk who defended Christ's human will and suffered for it; teacher of theosis.", "nl": "Monnik die de menselijke wil van Christus verdedigde en daarvoor leed; leraar van de theosis."}},
-  {"id": "john-damascus", "name": {"en": "John of Damascus", "nl": "Johannes van Damascus"}, "era": "† 749", "traditions": ["EASTERN_ORTHODOX", "CATHOLIC"], "summary": {"en": "Defender of the icons; his Exact Exposition of the Orthodox Faith summarises the Fathers.", "nl": "Verdediger van de iconen; zijn Nauwkeurige uiteenzetting van het orthodoxe geloof vat de Vaders samen."}},
-  {"id": "isaac", "name": {"en": "Isaac the Syrian", "nl": "Isaak de Syriër"}, "era": "7th century", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop of Nineveh and teacher of prayer and of God's boundless mercy.", "nl": "Bisschop van Nineve en leraar van het gebed en van Gods grenzeloze barmhartigheid."}}
+  {
+   "id": "ignatius",
+   "name": {
+    "en": "Ignatius of Antioch",
+    "nl": "Ignatius van Antiochië"
+   },
+   "era": "† c. 107",
+   "place": {
+    "en": "Antioch, Syria",
+    "nl": "Antiochië, Syrië"
+   },
+   "feast": {
+    "en": "20 December (East) · 17 October (West)",
+    "nl": "20 december (Oost) · 17 oktober (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "APOSTOLIC",
+   "summary": {
+    "en": "Bishop and martyr; his seven letters on the way to Rome witness to the bishop, the Eucharist and the unity of the Church.",
+    "nl": "Bisschop en martelaar; zijn zeven brieven op weg naar Rome getuigen van de bisschop, de eucharistie en de eenheid van de Kerk."
+   },
+   "life": {
+    "en": [
+     "Ignatius was the third bishop of Antioch, according to tradition a disciple of the apostle John. Under Emperor Trajan he was arrested and taken under guard to Rome to be thrown to the beasts.",
+     "On the journey he wrote seven letters to the churches of Asia Minor and to Rome. They are among the earliest Christian writings after the New Testament."
+    ],
+    "nl": [
+     "Ignatius was de derde bisschop van Antiochië, volgens de overlevering een leerling van de apostel Johannes. Onder keizer Trajanus werd hij gearresteerd en onder bewaking naar Rome gebracht om voor de wilde dieren te worden geworpen.",
+     "Onderweg schreef hij zeven brieven aan de kerken van Klein-Azië en aan Rome. Ze behoren tot de vroegste christelijke geschriften na het Nieuwe Testament."
+    ]
+   },
+   "works": [
+    {
+     "en": "Letters to the Ephesians, Magnesians, Trallians, Romans, Philadelphians, Smyrnaeans and to Polycarp",
+     "nl": "Brieven aan de Efeziërs, Magnesiërs, Trallianen, Romeinen, Filadelfiërs, Smyrnaeërs en aan Polycarpus"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "He is the first to call the Church \"catholic\". He insists on unity around the bishop, the presbyters and the deacons, and calls the Eucharist \"the medicine of immortality\". Against those who said Christ only seemed to suffer, he stresses the real flesh of the Lord."
+    ],
+    "nl": [
+     "Hij is de eerste die de Kerk \"katholiek\" noemt. Hij dringt aan op eenheid rond de bisschop, de priesters en de diakens, en noemt de eucharistie \"het medicijn van de onsterfelijkheid\". Tegen wie zeiden dat Christus slechts schijnbaar leed, benadrukt hij het werkelijke vlees van de Heer."
+    ]
+   },
+   "quote": {
+    "en": "Wherever the bishop appears, there let the people be; even as wherever Jesus Christ is, there is the catholic Church.",
+    "nl": "Waar de bisschop verschijnt, daar moet het volk zijn; zoals waar Jezus Christus is, daar de katholieke Kerk is."
+   },
+   "quoteSource": "To the Smyrnaeans 8",
+   "dbName": "Ignatius of Antioch"
+  },
+  {
+   "id": "irenaeus",
+   "name": {
+    "en": "Irenaeus of Lyon",
+    "nl": "Irenaeus van Lyon"
+   },
+   "era": "† c. 202",
+   "place": {
+    "en": "Smyrna and Lyon",
+    "nl": "Smyrna en Lyon"
+   },
+   "feast": {
+    "en": "23 August (East) · 28 June (West)",
+    "nl": "23 augustus (Oost) · 28 juni (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "EARLY",
+   "summary": {
+    "en": "Against the Gnostics he defended the unity of Scripture and the apostolic tradition.",
+    "nl": "Tegen de gnostici verdedigde hij de eenheid van de Schrift en de apostolische overlevering."
+   },
+   "life": {
+    "en": [
+     "As a boy in Smyrna Irenaeus heard Polycarp, the disciple of John. He went to Gaul and became bishop of Lyon after the persecution of 177.",
+     "He wrote the first great refutation of the Gnostic systems, which taught that the world was made by a lesser god and that salvation was secret knowledge."
+    ],
+    "nl": [
+     "Als jongen in Smyrna hoorde Irenaeus Polycarpus, de leerling van Johannes. Hij ging naar Gallië en werd na de vervolging van 177 bisschop van Lyon.",
+     "Hij schreef de eerste grote weerlegging van de gnostische stelsels, die leerden dat de wereld door een lagere god gemaakt was en dat het heil geheime kennis was."
+    ]
+   },
+   "works": [
+    {
+     "en": "Against Heresies (five books)",
+     "nl": "Tegen de ketterijen (vijf boeken)"
+    },
+    {
+     "en": "Demonstration of the Apostolic Preaching",
+     "nl": "Uiteenzetting van de apostolische prediking"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Irenaeus teaches recapitulation: Christ sums up and heals the whole of human history, the new Adam undoing the disobedience of the first. The rule of faith handed down by the bishops in apostolic succession is the key to Scripture."
+    ],
+    "nl": [
+     "Irenaeus leert de recapitulatie: Christus vat de hele menselijke geschiedenis samen en geneest haar; de nieuwe Adam maakt de ongehoorzaamheid van de eerste ongedaan. De geloofsregel, doorgegeven door de bisschoppen in apostolische opvolging, is de sleutel tot de Schrift."
+    ]
+   },
+   "quote": {
+    "en": "The glory of God is a living man; and the life of man is the vision of God.",
+    "nl": "De heerlijkheid van God is de levende mens; en het leven van de mens is het zien van God."
+   },
+   "quoteSource": "Against Heresies IV.20.7",
+   "dbName": "Irenaeus"
+  },
+  {
+   "id": "athanasius",
+   "name": {
+    "en": "Athanasius the Great",
+    "nl": "Athanasius de Grote"
+   },
+   "era": "c. 296–373",
+   "place": {
+    "en": "Alexandria, Egypt",
+    "nl": "Alexandrië, Egypte"
+   },
+   "feast": {
+    "en": "18 January (East) · 7 Pashons (Coptic) · 2 May (West)",
+    "nl": "18 januari (Oost) · 7 Pashons (Koptisch) · 2 mei (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "NICENE",
+   "summary": {
+    "en": "Defender of Nicaea through five exiles; author of On the Incarnation and the Life of Antony.",
+    "nl": "Verdediger van Nicea door vijf ballingschappen heen; schrijver van Over de menswording en het Leven van Antonius."
+   },
+   "life": {
+    "en": [
+     "As a deacon Athanasius accompanied Bishop Alexander to Nicaea. In 328 he became Pope of Alexandria and spent seventeen of his forty-five years as bishop in exile, sometimes hidden among the desert monks.",
+     "\"Athanasius against the world\" became a proverb: when emperors and councils favoured Arianism, he held to the faith of Nicaea."
+    ],
+    "nl": [
+     "Als diaken vergezelde Athanasius bisschop Alexander naar Nicea. In 328 werd hij paus van Alexandrië en bracht hij zeventien van zijn vijfenveertig jaren als bisschop in ballingschap door, soms verborgen onder de woestijnmonniken.",
+     "\"Athanasius tegen de wereld\" werd een spreekwoord: toen keizers en synodes het arianisme begunstigden, hield hij vast aan het geloof van Nicea."
+    ]
+   },
+   "works": [
+    {
+     "en": "On the Incarnation of the Word",
+     "nl": "Over de menswording van het Woord"
+    },
+    {
+     "en": "Orations against the Arians",
+     "nl": "Redevoeringen tegen de arianen"
+    },
+    {
+     "en": "Life of Antony",
+     "nl": "Leven van Antonius"
+    },
+    {
+     "en": "Festal Letter 39 (the canon of Scripture)",
+     "nl": "Paasbrief 39 (de canon van de Schrift)"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Only God can save: if the Son were a creature, we would not be united to God. The Word took a body so that death might be destroyed and we might share in the divine life."
+    ],
+    "nl": [
+     "Alleen God kan redden: als de Zoon een schepsel was, zouden wij niet met God verenigd zijn. Het Woord nam een lichaam aan, opdat de dood vernietigd zou worden en wij zouden delen in het goddelijk leven."
+    ]
+   },
+   "quote": {
+    "en": "He became man that we might become god.",
+    "nl": "Hij werd mens opdat wij god zouden worden."
+   },
+   "quoteSource": "On the Incarnation 54",
+   "dbName": "Athanasius of Alexandria"
+  },
+  {
+   "id": "anthony",
+   "name": {
+    "en": "Anthony the Great",
+    "nl": "Antonius de Grote"
+   },
+   "era": "c. 251–356",
+   "place": {
+    "en": "The Egyptian desert",
+    "nl": "De Egyptische woestijn"
+   },
+   "feast": {
+    "en": "17 January (East and West) · 22 Tobi (Coptic)",
+    "nl": "17 januari (Oost en West) · 22 Tobi (Koptisch)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "DESERT",
+   "summary": {
+    "en": "Father of monks; his life, written by Athanasius, inspired monasticism everywhere.",
+    "nl": "Vader van de monniken; zijn leven, beschreven door Athanasius, inspireerde het kloosterleven overal."
+   },
+   "life": {
+    "en": [
+     "Hearing the Gospel \"Go, sell what you have and give to the poor\", the young Anthony gave away his inheritance and withdrew into the desert. He fought the demons in solitude for twenty years and emerged, as Athanasius says, \"as from a holy shrine\".",
+     "Disciples gathered around him, and the desert became a city. He visited Alexandria to encourage the martyrs and to oppose the Arians."
+    ],
+    "nl": [
+     "Toen de jonge Antonius het Evangelie hoorde: \"Ga, verkoop wat u hebt en geef het aan de armen\", gaf hij zijn erfenis weg en trok zich terug in de woestijn. Twintig jaar streed hij in eenzaamheid tegen de demonen en kwam hij, zoals Athanasius zegt, tevoorschijn \"als uit een heilig heiligdom\".",
+     "Leerlingen verzamelden zich rond hem en de woestijn werd een stad. Hij bezocht Alexandrië om de martelaren te bemoedigen en de arianen te weerstaan."
+    ]
+   },
+   "works": [
+    {
+     "en": "Seven letters",
+     "nl": "Zeven brieven"
+    },
+    {
+     "en": "Sayings in the Apophthegmata Patrum",
+     "nl": "Uitspraken in de Apophthegmata Patrum"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Watchfulness, humility and discernment; the monk prays without ceasing and fights the passions, not people."
+    ],
+    "nl": [
+     "Waakzaamheid, nederigheid en onderscheiding; de monnik bidt zonder ophouden en strijdt tegen de hartstochten, niet tegen mensen."
+    ]
+   },
+   "quote": {
+    "en": "I saw the snares that the enemy spreads over the world, and I said groaning: What can get through such snares? Then I heard a voice saying: Humility.",
+    "nl": "Ik zag de strikken die de vijand over de wereld uitspreidt, en ik zei zuchtend: Wat kan door zulke strikken heen? Toen hoorde ik een stem: De nederigheid."
+   },
+   "quoteSource": "Apophthegmata, Anthony 7",
+   "dbName": null
+  },
+  {
+   "id": "basil",
+   "name": {
+    "en": "Basil the Great",
+    "nl": "Basilius de Grote"
+   },
+   "era": "c. 330–379",
+   "place": {
+    "en": "Caesarea, Cappadocia",
+    "nl": "Caesarea, Cappadocië"
+   },
+   "feast": {
+    "en": "1 January (East) · 2 January (West)",
+    "nl": "1 januari (Oost) · 2 januari (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "CAPPADOCIAN",
+   "summary": {
+    "en": "Bishop of Caesarea, father of Eastern monasticism; wrote On the Holy Spirit and the Hexaemeron.",
+    "nl": "Bisschop van Caesarea, vader van het oosterse monnikendom; schreef Over de Heilige Geest en de Hexaëmeron."
+   },
+   "life": {
+    "en": [
+     "Educated in Athens with his friend Gregory, Basil left a brilliant career to live as a monk. As bishop of Caesarea he resisted an Arian emperor to his face and built the \"Basiliad\", a city of care for the poor and the sick.",
+     "His monastic rules still shape Orthodox monasteries, and the Divine Liturgy of St Basil is served on the great feasts and the Sundays of Lent."
+    ],
+    "nl": [
+     "Basilius werd met zijn vriend Gregorius in Athene opgeleid en verliet een schitterende loopbaan om als monnik te leven. Als bisschop van Caesarea weerstond hij een ariaanse keizer in zijn gezicht en bouwde hij de \"Basilias\", een stad van zorg voor armen en zieken.",
+     "Zijn kloosterregels vormen nog altijd de orthodoxe kloosters, en de Goddelijke Liturgie van de heilige Basilius wordt op de grote feesten en de zondagen van de Vasten gevierd."
+    ]
+   },
+   "works": [
+    {
+     "en": "On the Holy Spirit",
+     "nl": "Over de Heilige Geest"
+    },
+    {
+     "en": "Hexaemeron (homilies on the six days)",
+     "nl": "Hexaëmeron (homilieën over de zes dagen)"
+    },
+    {
+     "en": "The Longer and Shorter Rules",
+     "nl": "De Grote en Kleine Regels"
+    },
+    {
+     "en": "Address to Young Men on Greek Literature",
+     "nl": "Rede tot jonge mannen over de Griekse literatuur"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "God is one essence (ousia) in three persons (hypostaseis). The Holy Spirit is to be glorified with the Father and the Son. Love for neighbour is inseparable from the love of God: the bread you keep belongs to the hungry."
+    ],
+    "nl": [
+     "God is één wezen (ousia) in drie personen (hypostasen). De Heilige Geest moet met de Vader en de Zoon worden verheerlijkt. Liefde tot de naaste is onlosmakelijk verbonden met de liefde tot God: het brood dat u bewaart, behoort de hongerige toe."
+    ]
+   },
+   "quote": {
+    "en": "The bread which you keep belongs to the hungry; the coat which you store in your chest belongs to the naked.",
+    "nl": "Het brood dat u bewaart, behoort de hongerige toe; de mantel die u in uw kist opbergt, behoort de naakte toe."
+   },
+   "quoteSource": "Homily on \"I will pull down my barns\"",
+   "dbName": "Basil of Caesarea"
+  },
+  {
+   "id": "gregory-theologian",
+   "name": {
+    "en": "Gregory the Theologian",
+    "nl": "Gregorius de Theoloog"
+   },
+   "era": "c. 329–390",
+   "place": {
+    "en": "Nazianzus and Constantinople",
+    "nl": "Nazianze en Constantinopel"
+   },
+   "feast": {
+    "en": "25 January (East) · 2 January (West)",
+    "nl": "25 januari (Oost) · 2 januari (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "CAPPADOCIAN",
+   "summary": {
+    "en": "His Five Theological Orations are the classic teaching on the Holy Trinity.",
+    "nl": "Zijn Vijf Theologische Redevoeringen zijn de klassieke leer over de Heilige Drie-eenheid."
+   },
+   "life": {
+    "en": [
+     "A poet and lover of solitude, Gregory was ordained almost against his will. In 379 he came to the small Nicene community in Arian Constantinople and preached in a house chapel, the Anastasia.",
+     "He presided briefly over the Council of 381 and then withdrew to write poetry and pray. The Orthodox Church gives the title \"Theologian\" only to him, the apostle John and Symeon the New Theologian."
+    ],
+    "nl": [
+     "Gregorius, dichter en minnaar van de eenzaamheid, werd bijna tegen zijn wil gewijd. In 379 kwam hij naar de kleine nicene gemeente in het ariaanse Constantinopel en preekte in een huiskapel, de Anastasia.",
+     "Hij zat korte tijd het concilie van 381 voor en trok zich daarna terug om te dichten en te bidden. De Orthodoxe Kerk geeft de titel \"Theoloog\" alleen aan hem, de apostel Johannes en Symeon de Nieuwe Theoloog."
+    ]
+   },
+   "works": [
+    {
+     "en": "Five Theological Orations (27–31)",
+     "nl": "Vijf Theologische Redevoeringen (27–31)"
+    },
+    {
+     "en": "Orations for Pascha and Theophany",
+     "nl": "Redevoeringen voor Pasen en Theofanie"
+    },
+    {
+     "en": "Letters to Cledonius against Apollinarius",
+     "nl": "Brieven aan Cledonius tegen Apollinarius"
+    },
+    {
+     "en": "Poems",
+     "nl": "Gedichten"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Theology is done in purity of heart and prayer. Against Apollinarius he insists that Christ took a full human soul and mind."
+    ],
+    "nl": [
+     "Theologie wordt bedreven in reinheid van hart en in gebed. Tegen Apollinarius benadrukt hij dat Christus een volledige menselijke ziel en geest aannam."
+    ]
+   },
+   "quote": {
+    "en": "That which He has not assumed He has not healed; but that which is united to His Godhead is also saved.",
+    "nl": "Wat Hij niet heeft aangenomen, heeft Hij niet genezen; maar wat met Zijn godheid verenigd is, wordt ook gered."
+   },
+   "quoteSource": "Letter 101 to Cledonius",
+   "dbName": "Gregory of Nazianzus"
+  },
+  {
+   "id": "gregory-nyssa",
+   "name": {
+    "en": "Gregory of Nyssa",
+    "nl": "Gregorius van Nyssa"
+   },
+   "era": "c. 335–395",
+   "place": {
+    "en": "Nyssa, Cappadocia",
+    "nl": "Nyssa, Cappadocië"
+   },
+   "feast": {
+    "en": "10 January (East) · 9 March (West)",
+    "nl": "10 januari (Oost) · 9 maart (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "CAPPADOCIAN",
+   "summary": {
+    "en": "Mystical theologian of endless ascent into God.",
+    "nl": "Mystiek theoloog van de eindeloze opgang naar God."
+   },
+   "life": {
+    "en": [
+     "The younger brother of Basil, Gregory was a teacher of rhetoric and married before becoming bishop of the small town of Nyssa. After Basil's death he became one of the leading voices of the Council of 381."
+    ],
+    "nl": [
+     "Gregorius, de jongere broer van Basilius, was leraar retorica en getrouwd voordat hij bisschop werd van het stadje Nyssa. Na de dood van Basilius werd hij een van de leidende stemmen van het concilie van 381."
+    ]
+   },
+   "works": [
+    {
+     "en": "The Life of Moses",
+     "nl": "Het leven van Mozes"
+    },
+    {
+     "en": "Catechetical Oration",
+     "nl": "Catechetische rede"
+    },
+    {
+     "en": "Homilies on the Song of Songs",
+     "nl": "Homilieën over het Hooglied"
+    },
+    {
+     "en": "Life of Macrina",
+     "nl": "Leven van Macrina"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "God is infinite, so the soul's journey into God never ends: perfection is constant growth (epektasis)."
+    ],
+    "nl": [
+     "God is oneindig, dus de reis van de ziel naar God eindigt nooit: volmaaktheid is voortdurende groei (epektasis)."
+    ]
+   },
+   "quote": {
+    "en": "This truly is the vision of God: never to be satisfied in the desire to see Him.",
+    "nl": "Dit is waarlijk het zien van God: nooit verzadigd raken in het verlangen Hem te zien."
+   },
+   "quoteSource": "Life of Moses II.239",
+   "dbName": "Gregory of Nyssa"
+  },
+  {
+   "id": "ephrem",
+   "name": {
+    "en": "Ephrem the Syrian",
+    "nl": "Efrem de Syriër"
+   },
+   "era": "c. 306–373",
+   "place": {
+    "en": "Nisibis and Edessa",
+    "nl": "Nisibis en Edessa"
+   },
+   "feast": {
+    "en": "28 January (East) · 9 June (West)",
+    "nl": "28 januari (Oost) · 9 juni (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "SYRIAC",
+   "summary": {
+    "en": "Deacon and poet, \"the Harp of the Spirit\"; his hymns teach theology in song.",
+    "nl": "Diaken en dichter, \"de Harp van de Geest\"; zijn hymnen leren theologie in gezang."
+   },
+   "life": {
+    "en": [
+     "Ephrem served as a deacon and teacher in Nisibis on the Persian frontier. When the city was ceded to Persia in 363 he moved to Edessa, where he organised women's choirs to sing his hymns against heresy.",
+     "He died caring for the victims of a famine. All three families of churches honour him; Rome named him a Doctor of the Church."
+    ],
+    "nl": [
+     "Efrem diende als diaken en leraar in Nisibis, aan de Perzische grens. Toen de stad in 363 aan Perzië werd afgestaan, verhuisde hij naar Edessa, waar hij vrouwenkoren oprichtte om zijn hymnen tegen de ketterij te zingen.",
+     "Hij stierf terwijl hij de slachtoffers van een hongersnood verzorgde. Alle drie de kerkfamilies vereren hem; Rome noemde hem Kerkleraar."
+    ]
+   },
+   "works": [
+    {
+     "en": "Hymns on Faith, on the Nativity, on Paradise",
+     "nl": "Hymnen over het geloof, de geboorte, het paradijs"
+    },
+    {
+     "en": "Commentary on the Diatessaron",
+     "nl": "Commentaar op het Diatessaron"
+    },
+    {
+     "en": "The Prayer of St Ephrem (attributed)",
+     "nl": "Het gebed van de heilige Efrem (toegeschreven)"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "God is known through symbols and types in Scripture and nature. Theology is wonder and praise rather than prying analysis."
+    ],
+    "nl": [
+     "God wordt gekend door symbolen en voorafbeeldingen in de Schrift en de natuur. Theologie is verwondering en lofprijzing, geen nieuwsgierige ontleding."
+    ]
+   },
+   "quote": {
+    "en": "Who is able to grasp, Lord, all the richness of even one of Your words? What we understand is much less than what we leave behind.",
+    "nl": "Wie kan, Heer, de rijkdom van zelfs één van Uw woorden vatten? Wat wij begrijpen is veel minder dan wat wij achterlaten."
+   },
+   "quoteSource": "Commentary on the Diatessaron 1.18",
+   "dbName": "Ephrem the Syrian"
+  },
+  {
+   "id": "chrysostom",
+   "name": {
+    "en": "John Chrysostom",
+    "nl": "Johannes Chrysostomus"
+   },
+   "era": "c. 347–407",
+   "place": {
+    "en": "Antioch and Constantinople",
+    "nl": "Antiochië en Constantinopel"
+   },
+   "feast": {
+    "en": "13 November and 30 January (East) · 13 September (West)",
+    "nl": "13 november en 30 januari (Oost) · 13 september (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "ANTIOCHENE",
+   "summary": {
+    "en": "The \"golden-mouthed\" preacher; his homilies cover much of the Bible.",
+    "nl": "De prediker met de \"gouden mond\"; zijn homilieën bestrijken een groot deel van de Bijbel."
+   },
+   "life": {
+    "en": [
+     "John preached for twelve years in Antioch, and in 398 was made archbishop of Constantinople. His sermons against luxury and for the poor made him loved by the people and hated at court.",
+     "Exiled twice by Empress Eudoxia, he died on a forced march to the Caucasus, saying \"Glory to God for all things.\""
+    ],
+    "nl": [
+     "Johannes preekte twaalf jaar in Antiochië en werd in 398 aartsbisschop van Constantinopel. Zijn preken tegen weelde en voor de armen maakten hem geliefd bij het volk en gehaat aan het hof.",
+     "Tweemaal verbannen door keizerin Eudoxia, stierf hij op een gedwongen mars naar de Kaukasus, met de woorden \"Eer aan God voor alles.\""
+    ]
+   },
+   "works": [
+    {
+     "en": "Homilies on Matthew, John, Romans, Hebrews and Genesis",
+     "nl": "Homilieën op Matteüs, Johannes, Romeinen, Hebreeën en Genesis"
+    },
+    {
+     "en": "On the Priesthood",
+     "nl": "Over het priesterschap"
+    },
+    {
+     "en": "The Divine Liturgy of St John Chrysostom",
+     "nl": "De Goddelijke Liturgie van de heilige Johannes Chrysostomus"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Scripture is for everyone, not only for monks. The altar of the poor is as holy as the altar of the church: the one who honours Christ's Body in the Eucharist must honour Him in the needy."
+    ],
+    "nl": [
+     "De Schrift is voor iedereen, niet alleen voor monniken. Het altaar van de armen is even heilig als het altaar van de kerk: wie het Lichaam van Christus in de eucharistie eert, moet Hem ook eren in de behoeftigen."
+    ]
+   },
+   "quote": {
+    "en": "Do you wish to honour the Body of Christ? Do not neglect Him when He is naked. Do not honour Him here in the church with silk, while outside you neglect Him perishing of cold.",
+    "nl": "Wilt u het Lichaam van Christus eren? Veronachtzaam Hem dan niet als Hij naakt is. Eer Hem hier in de kerk niet met zijde, terwijl u Hem buiten laat omkomen van kou."
+   },
+   "quoteSource": "Homily 50 on Matthew",
+   "dbName": "John Chrysostom"
+  },
+  {
+   "id": "cyril",
+   "name": {
+    "en": "Cyril of Alexandria",
+    "nl": "Cyrillus van Alexandrië"
+   },
+   "era": "c. 376–444",
+   "place": {
+    "en": "Alexandria, Egypt",
+    "nl": "Alexandrië, Egypte"
+   },
+   "feast": {
+    "en": "9 June and 18 January (East) · 3 Epip (Coptic) · 27 June (West)",
+    "nl": "9 juni en 18 januari (Oost) · 3 Epip (Koptisch) · 27 juni (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "ALEXANDRIAN",
+   "summary": {
+    "en": "Pillar of the Faith; defender of the Theotokos at Ephesus, shared by all three families.",
+    "nl": "Zuil van het Geloof; verdediger van de Theotokos op Efeze, door alle drie de families gedeeld."
+   },
+   "life": {
+    "en": [
+     "Nephew of Pope Theophilus, Cyril became Pope of Alexandria in 412. His early years were marked by harsh conflicts in the city. From 428 he led the defence of the unity of Christ against Nestorius.",
+     "His theology is the common ground of the Chalcedonian and non-Chalcedonian churches; the Copts call him \"Pillar of the Faith\"."
+    ],
+    "nl": [
+     "Cyrillus, neef van paus Theophilus, werd in 412 paus van Alexandrië. Zijn eerste jaren werden getekend door harde conflicten in de stad. Vanaf 428 leidde hij de verdediging van de eenheid van Christus tegen Nestorius.",
+     "Zijn theologie is de gemeenschappelijke grond van de Chalcedonische en niet-Chalcedonische kerken; de Kopten noemen hem \"Zuil van het Geloof\"."
+    ]
+   },
+   "works": [
+    {
+     "en": "Letters to Nestorius and the Twelve Anathemas",
+     "nl": "Brieven aan Nestorius en de Twaalf Anathema's"
+    },
+    {
+     "en": "Commentary on John",
+     "nl": "Commentaar op Johannes"
+    },
+    {
+     "en": "On the Unity of Christ",
+     "nl": "Over de eenheid van Christus"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "The eternal Word Himself is the subject of all Christ's acts: He who was born, suffered and rose is God the Son made flesh. Hence Mary is Theotokos and the Eucharist is the life-giving flesh of the Word."
+    ],
+    "nl": [
+     "Het eeuwige Woord Zelf is het subject van alle daden van Christus: Hij die geboren werd, leed en verrees, is God de Zoon in het vlees. Daarom is Maria Theotokos en is de eucharistie het levendmakende vlees van het Woord."
+    ]
+   },
+   "quote": {
+    "en": "We confess one Christ and Lord, not as worshipping a man together with the Word, but one and the same, because the body of the Word is not alien to Him.",
+    "nl": "Wij belijden één Christus en Heer, niet alsof wij een mens samen met het Woord aanbidden, maar één en dezelfde, want het lichaam van het Woord is Hem niet vreemd."
+   },
+   "quoteSource": "Second Letter to Nestorius",
+   "dbName": "Cyril of Alexandria"
+  },
+  {
+   "id": "augustine",
+   "name": {
+    "en": "Augustine of Hippo",
+    "nl": "Augustinus van Hippo"
+   },
+   "era": "354–430",
+   "place": {
+    "en": "Thagaste, Milan and Hippo (North Africa)",
+    "nl": "Thagaste, Milaan en Hippo (Noord-Afrika)"
+   },
+   "feast": {
+    "en": "15 June (East) · 28 August (West)",
+    "nl": "15 juni (Oost) · 28 augustus (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "LATIN",
+   "summary": {
+    "en": "Bishop in North Africa; the Confessions and the City of God shaped Western Christianity.",
+    "nl": "Bisschop in Noord-Afrika; de Belijdenissen en De stad van God vormden het westerse christendom."
+   },
+   "life": {
+    "en": [
+     "After years searching among philosophers and the Manichees, Augustine was converted in Milan in 386 through the preaching of Ambrose and the prayers of his mother Monica. He became bishop of Hippo and wrote prolifically against the Donatists and Pelagians.",
+     "He died as the Vandals besieged his city."
+    ],
+    "nl": [
+     "Na jaren van zoeken bij filosofen en manicheeërs bekeerde Augustinus zich in 386 in Milaan, door de prediking van Ambrosius en de gebeden van zijn moeder Monica. Hij werd bisschop van Hippo en schreef veel tegen de donatisten en pelagianen.",
+     "Hij stierf terwijl de Vandalen zijn stad belegerden."
+    ]
+   },
+   "works": [
+    {
+     "en": "Confessions",
+     "nl": "Belijdenissen"
+    },
+    {
+     "en": "The City of God",
+     "nl": "De stad van God"
+    },
+    {
+     "en": "On the Trinity",
+     "nl": "Over de Drie-eenheid"
+    },
+    {
+     "en": "Homilies on John and the Psalms",
+     "nl": "Homilieën op Johannes en de Psalmen"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Grace precedes every good work; the restless heart finds its rest in God. Love is the measure of reading Scripture."
+    ],
+    "nl": [
+     "De genade gaat aan elk goed werk vooraf; het onrustige hart vindt zijn rust in God. Liefde is de maatstaf voor het lezen van de Schrift."
+    ]
+   },
+   "quote": {
+    "en": "You have made us for Yourself, and our heart is restless until it rests in You.",
+    "nl": "U hebt ons voor Uzelf gemaakt, en onrustig is ons hart totdat het rust vindt in U."
+   },
+   "quoteSource": "Confessions I.1",
+   "dbName": "Augustine of Hippo"
+  },
+  {
+   "id": "leo",
+   "name": {
+    "en": "Leo the Great",
+    "nl": "Leo de Grote"
+   },
+   "era": "† 461",
+   "place": {
+    "en": "Rome",
+    "nl": "Rome"
+   },
+   "feast": {
+    "en": "18 February (East) · 10 November (West)",
+    "nl": "18 februari (Oost) · 10 november (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "LATIN",
+   "summary": {
+    "en": "Bishop of Rome; his Tome was received at Chalcedon.",
+    "nl": "Bisschop van Rome; zijn Tomus werd op Chalcedon aanvaard."
+   },
+   "life": {
+    "en": [
+     "Pope from 440 to 461, Leo met Attila the Hun in 452 and persuaded him to spare Rome. His Tome to Flavian on the two natures of Christ was acclaimed at Chalcedon."
+    ],
+    "nl": [
+     "Leo, paus van 440 tot 461, ontmoette in 452 Attila de Hun en overtuigde hem Rome te sparen. Zijn Tomus aan Flavianus over de twee naturen van Christus werd op Chalcedon toegejuicht."
+    ]
+   },
+   "works": [
+    {
+     "en": "Tome to Flavian",
+     "nl": "Tomus aan Flavianus"
+    },
+    {
+     "en": "Sermons on the feasts",
+     "nl": "Preken op de feesten"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Each nature in Christ does what is proper to it in communion with the other; the one Lord is both God and man."
+    ],
+    "nl": [
+     "Elke natuur in Christus doet wat haar eigen is, in gemeenschap met de andere; de ene Heer is zowel God als mens."
+    ]
+   },
+   "quote": {
+    "en": "Christian, remember your dignity: you share in the divine nature.",
+    "nl": "Christen, erken uw waardigheid: u hebt deel aan de goddelijke natuur."
+   },
+   "quoteSource": "Sermon 21 on the Nativity",
+   "dbName": "Leo the Great"
+  },
+  {
+   "id": "dioscorus",
+   "name": {
+    "en": "Dioscorus of Alexandria",
+    "nl": "Dioscorus van Alexandrië"
+   },
+   "era": "† 454",
+   "place": {
+    "en": "Alexandria; exile in Gangra",
+    "nl": "Alexandrië; ballingschap in Gangra"
+   },
+   "feast": {
+    "en": "7 Thoout (Coptic)",
+    "nl": "7 Thoout (Koptisch)"
+   },
+   "traditions": [
+    "ORIENTAL_ORTHODOX"
+   ],
+   "group": "ALEXANDRIAN",
+   "summary": {
+    "en": "Successor of Cyril; honoured by the Oriental Orthodox as confessor of the one nature of the Word incarnate.",
+    "nl": "Opvolger van Cyrillus; door de Oriëntaals-Orthodoxen vereerd als belijder van de ene natuur van het vleesgeworden Woord."
+   },
+   "life": {
+    "en": [
+     "Dioscorus succeeded Cyril in 444. At Chalcedon he refused to accept language he believed divided Christ, was deposed and died in exile. The Coptic Church honours him as \"the champion of Orthodoxy\"."
+    ],
+    "nl": [
+     "Dioscorus volgde in 444 Cyrillus op. Op Chalcedon weigerde hij taal te aanvaarden die naar zijn overtuiging Christus verdeelde; hij werd afgezet en stierf in ballingschap. De Koptische Kerk eert hem als \"kampioen van de Orthodoxie\"."
+    ]
+   },
+   "works": [
+    {
+     "en": "Letters",
+     "nl": "Brieven"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "With Cyril: one incarnate nature of God the Word, without mixture or confusion, rejecting both Nestorius and Eutyches."
+    ],
+    "nl": [
+     "Met Cyrillus: één vleesgeworden natuur van God het Woord, zonder vermenging of verwarring, met afwijzing van zowel Nestorius als Eutyches."
+    ]
+   },
+   "quote": null,
+   "quoteSource": null,
+   "dbName": null
+  },
+  {
+   "id": "severus",
+   "name": {
+    "en": "Severus of Antioch",
+    "nl": "Severus van Antiochië"
+   },
+   "era": "c. 465–538",
+   "place": {
+    "en": "Antioch; exile in Egypt",
+    "nl": "Antiochië; ballingschap in Egypte"
+   },
+   "feast": {
+    "en": "8 February (Syriac) · 14 Amshir and 2 Babah (Coptic)",
+    "nl": "8 februari (Syrisch) · 14 Amshir en 2 Babah (Koptisch)"
+   },
+   "traditions": [
+    "ORIENTAL_ORTHODOX"
+   ],
+   "group": "SYRIAC",
+   "summary": {
+    "en": "Patriarch of Antioch and the great theologian of the non-Chalcedonian churches.",
+    "nl": "Patriarch van Antiochië en de grote theoloog van de niet-Chalcedonische kerken."
+   },
+   "life": {
+    "en": [
+     "A monk from Gaza, Severus became patriarch of Antioch in 512. Deposed in 518, he spent his last twenty years in Egypt, writing and guiding the faithful."
+    ],
+    "nl": [
+     "Severus, een monnik uit Gaza, werd in 512 patriarch van Antiochië. Afgezet in 518, bracht hij zijn laatste twintig jaar door in Egypte, schrijvend en de gelovigen begeleidend."
+    ]
+   },
+   "works": [
+    {
+     "en": "Cathedral Homilies",
+     "nl": "Kathedrale homilieën"
+    },
+    {
+     "en": "Against the Impious Grammarian",
+     "nl": "Tegen de goddeloze grammaticus"
+    },
+    {
+     "en": "Letters",
+     "nl": "Brieven"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "A careful defender of Cyril's Christology: one composite nature of the incarnate Word, with the properties of Godhead and manhood preserved."
+    ],
+    "nl": [
+     "Een zorgvuldig verdediger van de christologie van Cyrillus: één samengestelde natuur van het vleesgeworden Woord, waarin de eigenschappen van godheid en mensheid bewaard blijven."
+    ]
+   },
+   "quote": null,
+   "quoteSource": null,
+   "dbName": "Severus of Antioch"
+  },
+  {
+   "id": "maximus",
+   "name": {
+    "en": "Maximus the Confessor",
+    "nl": "Maximus de Belijder"
+   },
+   "era": "c. 580–662",
+   "place": {
+    "en": "Constantinople, Carthage, Rome; exile in Lazica",
+    "nl": "Constantinopel, Carthago, Rome; ballingschap in Lazica"
+   },
+   "feast": {
+    "en": "21 January and 13 August (East and West)",
+    "nl": "21 januari en 13 augustus (Oost en West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "BYZANTINE",
+   "summary": {
+    "en": "Monk who defended Christ's human will and suffered for it; teacher of theosis.",
+    "nl": "Monnik die de menselijke wil van Christus verdedigde en daarvoor leed; leraar van de theosis."
+   },
+   "life": {
+    "en": [
+     "A former imperial secretary, Maximus became a monk and the leading opponent of monothelitism. At over eighty he was tried, his tongue and right hand were cut off, and he died in exile. Constantinople III vindicated him."
+    ],
+    "nl": [
+     "Maximus, een voormalig keizerlijk secretaris, werd monnik en de belangrijkste tegenstander van het monotheletisme. Op meer dan tachtigjarige leeftijd werd hij berecht; zijn tong en rechterhand werden afgehakt en hij stierf in ballingschap. Constantinopel III gaf hem gelijk."
+    ]
+   },
+   "works": [
+    {
+     "en": "Four Hundred Chapters on Love",
+     "nl": "Vierhonderd hoofdstukken over de liefde"
+    },
+    {
+     "en": "Ambigua",
+     "nl": "Ambigua"
+    },
+    {
+     "en": "Mystagogy",
+     "nl": "Mystagogie"
+    },
+    {
+     "en": "Commentary on the Lord's Prayer",
+     "nl": "Commentaar op het Onze Vader"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "God became man so that man might become god; in Gethsemane Christ's human will freely says yes to the Father, healing our will from within."
+    ],
+    "nl": [
+     "God werd mens opdat de mens god zou worden; in Getsemane zegt de menselijke wil van Christus vrij ja tegen de Vader en geneest zo onze wil van binnenuit."
+    ]
+   },
+   "quote": {
+    "en": "Love is a good disposition of the soul, by which one prefers no being to the knowledge of God.",
+    "nl": "De liefde is een goede gesteldheid van de ziel, waardoor men niets verkiest boven de kennis van God."
+   },
+   "quoteSource": "Chapters on Love I.1",
+   "dbName": "Maximus the Confessor"
+  },
+  {
+   "id": "john-damascus",
+   "name": {
+    "en": "John of Damascus",
+    "nl": "Johannes van Damascus"
+   },
+   "era": "c. 675–749",
+   "place": {
+    "en": "Damascus and the Monastery of Mar Saba",
+    "nl": "Damascus en het klooster Mar Saba"
+   },
+   "feast": {
+    "en": "4 December (East and West)",
+    "nl": "4 december (Oost en West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "BYZANTINE",
+   "summary": {
+    "en": "Defender of the icons; his Exact Exposition of the Orthodox Faith summarises the Fathers.",
+    "nl": "Verdediger van de iconen; zijn Nauwkeurige uiteenzetting van het orthodoxe geloof vat de Vaders samen."
+   },
+   "life": {
+    "en": [
+     "Born into a Christian family serving the caliph in Damascus, John became a monk at Mar Saba near Jerusalem. Beyond the reach of the iconoclast emperors, he wrote three treatises in defence of the holy icons, and many hymns still sung at Pascha."
+    ],
+    "nl": [
+     "Johannes, geboren in een christelijke familie die de kalief in Damascus diende, werd monnik in Mar Saba bij Jeruzalem. Buiten het bereik van de iconoclastische keizers schreef hij drie verhandelingen ter verdediging van de heilige iconen, en vele hymnen die nog met Pasen worden gezongen."
+    ]
+   },
+   "works": [
+    {
+     "en": "The Fount of Knowledge (Exact Exposition of the Orthodox Faith)",
+     "nl": "De Bron van kennis (Nauwkeurige uiteenzetting van het orthodoxe geloof)"
+    },
+    {
+     "en": "Three Treatises on the Divine Images",
+     "nl": "Drie verhandelingen over de goddelijke beelden"
+    },
+    {
+     "en": "The Paschal Canon",
+     "nl": "De Paascanon"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Because the invisible God became visible in Christ, He can be depicted; honour paid to the image passes to the prototype."
+    ],
+    "nl": [
+     "Omdat de onzichtbare God in Christus zichtbaar werd, kan Hij worden afgebeeld; de eer aan het beeld gaat over op het oerbeeld."
+    ]
+   },
+   "quote": {
+    "en": "I do not worship matter; I worship the Creator of matter, who became matter for my sake.",
+    "nl": "Ik aanbid de materie niet; ik aanbid de Schepper van de materie, die omwille van mij materie werd."
+   },
+   "quoteSource": "On the Divine Images I.16",
+   "dbName": null
+  },
+  {
+   "id": "isaac",
+   "name": {
+    "en": "Isaac the Syrian",
+    "nl": "Isaak de Syriër"
+   },
+   "era": "7th century",
+   "place": {
+    "en": "Nineveh (Mosul) and the mountains of Khuzistan",
+    "nl": "Nineve (Mosul) en de bergen van Khuzistan"
+   },
+   "feast": {
+    "en": "28 January (East)",
+    "nl": "28 januari (Oost)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "SYRIAC",
+   "summary": {
+    "en": "Bishop of Nineveh and teacher of prayer and of God's boundless mercy.",
+    "nl": "Bisschop van Nineve en leraar van het gebed en van Gods grenzeloze barmhartigheid."
+   },
+   "life": {
+    "en": [
+     "Isaac was bishop of Nineveh for only five months before withdrawing to live as a hermit. His Ascetical Homilies, translated into Greek, became beloved throughout the Orthodox world."
+    ],
+    "nl": [
+     "Isaak was slechts vijf maanden bisschop van Nineve voordat hij zich terugtrok als kluizenaar. Zijn Ascetische Homilieën, in het Grieks vertaald, werden in de hele orthodoxe wereld geliefd."
+    ]
+   },
+   "works": [
+    {
+     "en": "Ascetical Homilies",
+     "nl": "Ascetische homilieën"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Humility, tears and stillness; a merciful heart that burns with love for all creation."
+    ],
+    "nl": [
+     "Nederigheid, tranen en stilte; een barmhartig hart dat brandt van liefde voor heel de schepping."
+    ]
+   },
+   "quote": {
+    "en": "Be at peace with your own soul; then heaven and earth will be at peace with you.",
+    "nl": "Wees in vrede met uw eigen ziel; dan zullen hemel en aarde in vrede met u zijn."
+   },
+   "quoteSource": "Ascetical Homilies 2",
+   "dbName": "Isaac of Nineveh"
+  },
+  {
+   "id": "jerome",
+   "name": {
+    "en": "Jerome",
+    "nl": "Hiëronymus"
+   },
+   "era": "c. 347–420",
+   "place": {
+    "en": "Rome and Bethlehem",
+    "nl": "Rome en Bethlehem"
+   },
+   "feast": {
+    "en": "15 June (East) · 30 September (West)",
+    "nl": "15 juni (Oost) · 30 september (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "LATIN",
+   "summary": {
+    "en": "Translator of the Vulgate and commentator on nearly every book of Scripture.",
+    "nl": "Vertaler van de Vulgaat en commentator op bijna elk boek van de Schrift."
+   },
+   "life": {
+    "en": [
+     "A brilliant and fiery scholar, Jerome learned Hebrew and settled in a monastery in Bethlehem, where he translated the Bible into Latin and wrote commentaries until his death."
+    ],
+    "nl": [
+     "Hiëronymus, een briljant en vurig geleerde, leerde Hebreeuws en vestigde zich in een klooster in Bethlehem, waar hij de Bijbel in het Latijn vertaalde en commentaren schreef tot zijn dood."
+    ]
+   },
+   "works": [
+    {
+     "en": "The Vulgate",
+     "nl": "De Vulgaat"
+    },
+    {
+     "en": "Commentaries on the Prophets and Matthew",
+     "nl": "Commentaren op de Profeten en Matteüs"
+    },
+    {
+     "en": "Letters",
+     "nl": "Brieven"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "Love of Scripture is love of Christ; study and prayer belong together."
+    ],
+    "nl": [
+     "Liefde voor de Schrift is liefde voor Christus; studie en gebed horen samen."
+    ]
+   },
+   "quote": {
+    "en": "Ignorance of the Scriptures is ignorance of Christ.",
+    "nl": "Wie de Schriften niet kent, kent Christus niet."
+   },
+   "quoteSource": "Commentary on Isaiah, Prologue",
+   "dbName": "Jerome"
+  },
+  {
+   "id": "cyprian",
+   "name": {
+    "en": "Cyprian of Carthage",
+    "nl": "Cyprianus van Carthago"
+   },
+   "era": "† 258",
+   "place": {
+    "en": "Carthage, North Africa",
+    "nl": "Carthago, Noord-Afrika"
+   },
+   "feast": {
+    "en": "31 August (East) · 16 September (West)",
+    "nl": "31 augustus (Oost) · 16 september (West)"
+   },
+   "traditions": [
+    "EASTERN_ORTHODOX",
+    "ORIENTAL_ORTHODOX",
+    "CATHOLIC"
+   ],
+   "group": "EARLY",
+   "summary": {
+    "en": "Bishop and martyr; teacher of the unity of the Church.",
+    "nl": "Bisschop en martelaar; leraar van de eenheid van de Kerk."
+   },
+   "life": {
+    "en": [
+     "A wealthy rhetorician converted in middle age, Cyprian became bishop of Carthage within three years. He guided his church through persecution and plague, and was beheaded under Valerian."
+    ],
+    "nl": [
+     "Cyprianus, een rijke redenaar die op middelbare leeftijd tot geloof kwam, werd binnen drie jaar bisschop van Carthago. Hij leidde zijn kerk door vervolging en pest en werd onder Valerianus onthoofd."
+    ]
+   },
+   "works": [
+    {
+     "en": "On the Unity of the Catholic Church",
+     "nl": "Over de eenheid van de katholieke Kerk"
+    },
+    {
+     "en": "On the Lord's Prayer",
+     "nl": "Over het Onze Vader"
+    },
+    {
+     "en": "Letters",
+     "nl": "Brieven"
+    }
+   ],
+   "teaching": {
+    "en": [
+     "The Church is one, as the seamless robe of Christ; the episcopate is one, held in common by all bishops."
+    ],
+    "nl": [
+     "De Kerk is één, zoals het naadloze kleed van Christus; het bisschopsambt is één en wordt door alle bisschoppen gezamenlijk gedragen."
+    ]
+   },
+   "quote": {
+    "en": "He can no longer have God for his Father who has not the Church for his mother.",
+    "nl": "Wie de Kerk niet als moeder heeft, kan God niet meer als Vader hebben."
+   },
+   "quoteSource": "On the Unity of the Church 6",
+   "dbName": "Cyprian"
+  }
  ]
 }

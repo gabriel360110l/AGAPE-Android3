@@ -8,6 +8,10 @@ import agape.app.ui.bible.BibleScreen
 import agape.app.ui.bible.ReaderScreen
 import agape.app.ui.church.ArticleScreen
 import agape.app.ui.church.CouncilScreen
+import agape.app.ui.church.CouncilsScreen
+import agape.app.ui.church.FatherScreen
+import agape.app.ui.church.FathersScreen
+import agape.app.ui.components.AmbientBackground
 import agape.app.ui.components.AgapeIcons
 import agape.app.ui.home.HomeScreen
 import agape.app.ui.legal.LegalScreen
@@ -35,6 +39,17 @@ import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.navigationBars
+import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.windowInsetsTopHeight
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.selection.selectable
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.semantics.Role
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -46,11 +61,7 @@ import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Person
 import androidx.compose.material3.Icon
-import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.NavigationBar
-import androidx.compose.material3.NavigationBarItem
-import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -103,8 +114,9 @@ fun MainShell(newIntents: StateFlow<Intent?>, onIntentHandled: () -> Unit) {
         pending?.let { nav.handleDeepLink(it); onIntentHandled() }
     }
 
+    AmbientBackground {
     Scaffold(
-        containerColor = AgapeTheme.colors.background,
+        containerColor = Color.Transparent,
         bottomBar = {
             AnimatedVisibility(currentTab != null, enter = slideInVertically { it } + fadeIn(), exit = slideOutVertically { it } + fadeOut()) {
                 BottomBar(currentTab) { tab -> nav.navigateToTab(tab.route) }
@@ -113,12 +125,15 @@ fun MainShell(newIntents: StateFlow<Intent?>, onIntentHandled: () -> Unit) {
     ) { padding ->
         Box(Modifier.fillMaxSize().padding(bottom = padding.calculateBottomPadding())) {
             AgapeNavHost(nav)
+            // Content scrolls beneath the status bar; a soft veil keeps the clock and icons readable.
+            Box(Modifier.fillMaxWidth().windowInsetsTopHeight(WindowInsets.statusBars).background(AgapeTheme.colors.background.copy(alpha = 0.94f)))
             // Guided tour: the first visit to each tab explains it. The Prayer tab's explanation lives in PrayerScreen.
             val stop = currentTab?.stop
             if (stop != null && stop != TourStop.PRAYER && stop !in settings.tourSeen) {
                 TourOverlay(stop = stop, seen = settings.tourSeen, onDismiss = { scope.launch { container.settings.markTourSeen(stop) } })
             }
         }
+    }
     }
 }
 
@@ -128,43 +143,44 @@ private fun NavHostController.navigateToTab(route: Any) = navigate(route) {
     restoreState = true
 }
 
+/** A floating, rounded tab bar. The Prayer tab, the heart of the app, is a lit medallion. */
 @Composable
 private fun BottomBar(current: Tab?, onSelect: (Tab) -> Unit) {
     val c = AgapeTheme.colors
-    Column {
-        Box(Modifier.fillMaxWidth().height(1.dp).background(c.line))
-        NavigationBar(containerColor = c.surface, tonalElevation = 0.dp) {
+    Box(
+        Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(start = 18.dp, end = 18.dp, bottom = 10.dp, top = 4.dp),
+    ) {
+        Row(
+            Modifier.fillMaxWidth()
+                .shadow(18.dp, CircleShape, ambientColor = c.primary.copy(alpha = 0.18f), spotColor = c.primary.copy(alpha = 0.22f))
+                .clip(CircleShape)
+                .background(c.surfaceRaised.copy(alpha = 0.97f))
+                .padding(horizontal = 6.dp, vertical = 6.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
             tabs.forEach { tab ->
                 val selected = tab == current
                 val isPrayer = tab.stop == TourStop.PRAYER
-                NavigationBarItem(
-                    selected = selected,
-                    onClick = { onSelect(tab) },
-                    icon = {
-                        // Every icon sits in the same 32dp box so labels line up; the Prayer tab, the heart of the
-                        // app, fills its box as a medallion.
+                val label = stringResource(tab.label)
+                Column(
+                    Modifier.weight(1f).clip(CircleShape)
+                        .selectable(selected = selected, role = Role.Tab, onClick = { onSelect(tab) })
+                        .padding(vertical = 6.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                ) {
+                    if (isPrayer) {
                         Box(
-                            Modifier.size(32.dp).clip(CircleShape)
-                                .background(if (isPrayer) (if (selected) c.primary else c.surfaceSunken) else Color.Transparent),
+                            Modifier.size(42.dp).clip(CircleShape)
+                                .background(Brush.linearGradient(listOf(c.primary, c.accent.copy(alpha = 0.9f)))),
                             contentAlignment = Alignment.Center,
-                        ) {
-                            Icon(
-                                tab.icon, null, modifier = Modifier.size(if (isPrayer) 20.dp else 24.dp),
-                                tint = when {
-                                    isPrayer && selected -> c.onPrimary
-                                    isPrayer -> c.primary
-                                    else -> LocalContentColor.current
-                                },
-                            )
-                        }
-                    },
-                    label = { Text(stringResource(tab.label), style = MaterialTheme.typography.labelSmall) },
-                    colors = NavigationBarItemDefaults.colors(
-                        selectedIconColor = c.primary, selectedTextColor = c.primary,
-                        unselectedIconColor = c.inkFaint, unselectedTextColor = c.inkMuted,
-                        indicatorColor = if (isPrayer) c.surface else c.surfaceSunken,
-                    ),
-                )
+                        ) { Icon(tab.icon, contentDescription = label, tint = c.onPrimary, modifier = Modifier.size(22.dp)) }
+                    } else {
+                        Icon(tab.icon, null, tint = if (selected) c.primary else c.inkFaint, modifier = Modifier.size(24.dp))
+                        Spacer(Modifier.height(4.dp))
+                        Text(label, style = MaterialTheme.typography.labelSmall, color = if (selected) c.ink else c.inkFaint)
+                        Box(Modifier.padding(top = 3.dp).size(4.dp).clip(CircleShape).background(if (selected) c.accent else Color.Transparent))
+                    }
+                }
             }
         }
     }
@@ -188,7 +204,8 @@ private fun AgapeNavHost(nav: NavHostController) {
             BibleScreen(
                 openChapter = { b, c -> nav.navigate(ReaderRoute(b, c)) },
                 openArticle = { nav.navigate(ArticleRoute(it)) },
-                openCouncil = { nav.navigate(CouncilRoute(it)) },
+                openCouncils = { nav.navigate(CouncilsRoute) },
+                openFathers = { nav.navigate(FathersRoute) },
                 openPlans = { nav.navigate(PlansRoute) },
             )
         }
@@ -215,8 +232,17 @@ private fun AgapeNavHost(nav: NavHostController) {
             )
         }
         composable<ArticleRoute> { ArticleScreen(it.toRoute<ArticleRoute>().id, onBack = back) }
+        composable<CouncilsRoute> { CouncilsScreen(onBack = back, openCouncil = { nav.navigate(CouncilRoute(it)) }) }
         composable<CouncilRoute> {
-            CouncilScreen(it.toRoute<CouncilRoute>().id, onBack = back, openPassage = { p -> nav.navigate(ReaderRoute(p.book, p.chapter, p.startVerse ?: 0)) })
+            CouncilScreen(
+                it.toRoute<CouncilRoute>().id, onBack = back,
+                openPassage = { p -> nav.navigate(ReaderRoute(p.book, p.chapter, p.startVerse ?: 0)) },
+                openQuiz = { key, title -> nav.navigate(QuizRoute(key, title)) },
+            )
+        }
+        composable<FathersRoute> { FathersScreen(onBack = back, openFather = { nav.navigate(FatherRoute(it)) }) }
+        composable<FatherRoute> {
+            FatherScreen(it.toRoute<FatherRoute>().id, onBack = back, openVerse = { b, c, v -> nav.navigate(ReaderRoute(b, c, v)) })
         }
         composable<PlansRoute> { PlansScreen(onBack = back, openPlan = { nav.navigate(PlanRoute(it)) }) }
         composable<PlanRoute> {

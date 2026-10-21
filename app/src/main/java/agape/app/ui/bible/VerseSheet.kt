@@ -5,6 +5,7 @@ import agape.app.core.model.L10n
 import agape.app.core.model.Passage
 import agape.app.core.model.Tradition
 import agape.app.data.bible.FatherNote
+import agape.app.data.bible.FatherQuote
 import agape.app.data.bible.Verse
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
@@ -85,6 +86,7 @@ fun VerseSheet(
     var noteText by remember(note) { mutableStateOf(note) }
 
     val notes = remember(verse, tradition) { container.content.verseNotes(verse.ref.key, tradition) }
+    val quotes by produceState(emptyList<FatherQuote>(), verse) { value = container.bible.fatherQuotes(verse.ref) }
     val fathers by produceState(emptyList<FatherNote>(), verse, lang) {
         value = container.bible.fatherNotes(verse.book, verse.chapter, lang).filter { verse.verse in it.verseFrom..it.verseTo }
     }
@@ -157,6 +159,16 @@ fun VerseSheet(
             Section(stringResource(R.string.verse_commentary)) {
                 if (notes.isEmpty()) Text(stringResource(R.string.verse_commentary_soon), style = MaterialTheme.typography.bodyMedium, color = c.inkFaint)
                 notes.forEach { n: L10n -> Paragraph(n[lang]) }
+            }
+
+            if (quotes.isNotEmpty()) {
+                Section(stringResource(R.string.verse_father_quotes)) {
+                    quotes.forEach { q ->
+                        Text("${q.father}" + if (q.year > 0) " · ${q.year}" else "", style = MaterialTheme.typography.titleSmall, color = c.primary)
+                        Text(q.text, style = AgapeTheme.type.scripture.copy(fontSize = AgapeTheme.type.scripture.fontSize * 0.82f), color = c.ink, modifier = Modifier.padding(top = 4.dp))
+                        if (q.source.isNotBlank()) Text(q.source, style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(top = 4.dp, bottom = 14.dp))
+                    }
+                }
             }
 
             if (fathers.isNotEmpty()) {

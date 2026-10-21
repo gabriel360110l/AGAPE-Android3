@@ -20,6 +20,8 @@ import agape.app.ui.components.ProgressLine
 import agape.app.ui.components.QuietButton
 import agape.app.ui.components.TabHeader
 import agape.app.ui.components.cardShape
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Brush
 import agape.app.ui.main.BibleRoute
 import agape.app.ui.main.PrayerRoute
 import agape.app.ui.passageLabel
@@ -105,19 +107,23 @@ fun HomeScreen(
 
         // Verse of the day
         item {
-            AgapeCard(Modifier.padding(horizontal = 16.dp), onClick = verseRef?.let { r -> { openReader(r.book, r.chapter, r.startVerse ?: 0) } }) {
-                Kicker(stringResource(R.string.home_verse_of_day))
-                Spacer(Modifier.height(12.dp))
+            Column(
+                Modifier.padding(horizontal = 16.dp).fillMaxWidth()
+                    .shadow(22.dp, cardShape, spotColor = c.primary.copy(alpha = 0.35f))
+                    .clip(cardShape)
+                    .background(Brush.linearGradient(listOf(c.primary, c.primary.copy(alpha = 0.86f), c.accent.copy(alpha = 0.75f))))
+                    .clickable { verseRef?.let { r -> openReader(r.book, r.chapter, r.startVerse ?: 0) } }
+                    .padding(24.dp),
+            ) {
+                Kicker(stringResource(R.string.home_verse_of_day), color = c.onPrimary.copy(alpha = 0.75f))
+                Spacer(Modifier.height(16.dp))
                 Text(
-                    verseText ?: "…",
-                    style = AgapeTheme.type.scripture.copy(fontSize = AgapeTheme.type.scripture.fontSize * 1.08f),
-                    color = c.ink,
+                    "“${verseText ?: "…"}”",
+                    style = AgapeTheme.type.scripture.copy(fontSize = AgapeTheme.type.scripture.fontSize * 1.12f),
+                    color = c.onPrimary,
                 )
-                Spacer(Modifier.height(12.dp))
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(verseRef?.let { container.passageLabel(it, lang) }.orEmpty(), style = MaterialTheme.typography.labelLarge, color = c.primary, modifier = Modifier.weight(1f))
-                    Ornament(width = 60.dp)
-                }
+                Spacer(Modifier.height(16.dp))
+                Text(verseRef?.let { container.passageLabel(it, lang) }.orEmpty(), style = MaterialTheme.typography.labelLarge, color = c.onPrimary.copy(alpha = 0.85f))
             }
         }
 

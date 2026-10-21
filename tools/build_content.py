@@ -4,7 +4,6 @@
 Outputs (committed, so the app builds without Python):
   app/src/main/assets/bible/bible.db       Bible texts, cross-references, chapter guides, Father notes
   app/src/main/assets/content/books.json   Book list with canon membership per tradition
-  app/src/main/assets/content/prayers_oo.json  Agpeya (converted from the legacy app)
   app/src/main/assets/content/prayers_extra.json  Additional prayers
   app/src/main/assets/content/saints_eo.json      Byzantine menologion (fixed feasts)
 
@@ -30,7 +29,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "tools", "source")
 CACHE = os.path.join(ROOT, "tools", ".cache")
 ASSETS = os.path.join(ROOT, "app", "src", "main", "assets")
-DB_VERSION = 1
+DB_VERSION = 2
 MIN_CROSS_REF_VOTES = 10
 
 EO, OO, CA = "EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"
@@ -235,6 +234,56 @@ def load_cross_refs():
     return rows
 
 
+# Fathers shown first when a verse has many commentators.
+FATHER_PRIORITY = [
+    "John Chrysostom", "Cyril of Alexandria", "Athanasius of Alexandria", "Basil of Caesarea", "Gregory of Nazianzus",
+    "Gregory of Nyssa", "Ephrem the Syrian", "Augustine of Hippo", "Ambrose of Milan", "Irenaeus", "Ignatius of Antioch",
+    "Maximus the Confessor", "John of Damascus", "Leo the Great", "Gregory the Dialogist", "Cyprian", "Hilary of Poitiers",
+    "Isaac of Nineveh", "Severus of Antioch", "Philoxenus of Mabbug", "Jacob of Serugh", "Clement of Alexandria",
+    "Theophylact of Ohrid", "Jerome", "Bede", "Didymus the Blind", "Cyril of Jerusalem", "Theodoret of Cyrus",
+]
+EXCLUDED_CATEGORIES = ("Reformation & Modern", "Apocrypha, Pseudepigrapha & Early Documents", "Pseudonymous Works",
+                       "Second Temple Judaism", "Canonical Scriptures")
+QUOTES_PER_VERSE = 2
+QUOTE_MAX_CHARS = 520
+
+
+def load_father_quotes():
+    """Pre-1100 patristic commentary per verse from HistoricalChristianFaith/Commentaries-Database."""
+    path = os.path.join(CACHE, "commentaries.sqlite")
+    download("https://github.com/HistoricalChristianFaith/Commentaries-Database/releases/download/latest/commentaries.sqlite", path)
+    by_name = {re.sub(r"[^a-z0-9]", "", b[3].lower()): b[0] for b in BOOKS}
+    by_name.update({"songofsolomon": "SNG", "prayerofazariah": "S3Y"})
+    rank = {n: i for i, n in enumerate(FATHER_PRIORITY)}
+    src = sqlite3.connect(path)
+    rows = src.execute(
+        f"""SELECT c.father_name, c.ts, c.book, c.location_start, c.location_end, c.txt, c.source_title
+            FROM commentary c JOIN father_meta m ON m.name = c.father_name
+            WHERE c.ts <= 1100 AND COALESCE(m.condemned_by_council, 0) = 0
+              AND m.father_category NOT IN ({",".join("?" * len(EXCLUDED_CATEGORIES))})
+              AND c.location_end - c.location_start <= 3""", EXCLUDED_CATEGORIES).fetchall()
+    per_verse = {}
+    for father, year, book, start, end, txt, source in rows:
+        usfm = by_name.get(book)
+        if not usfm:
+            continue
+        per_verse.setdefault((usfm, start), []).append((rank.get(father, 100), len(txt), father, year, end, txt, source))
+    out = []
+    for (usfm, start), quotes in per_verse.items():
+        seen = set()
+        for _, _, father, year, end, txt, source in sorted(quotes):
+            if father in seen:
+                continue
+            seen.add(father)
+            txt = re.sub(r"\s+", " ", txt).strip().strip('"')
+            if len(txt) > QUOTE_MAX_CHARS:
+                txt = txt[:QUOTE_MAX_CHARS].rsplit(" ", 1)[0] + " …"
+            out.append((usfm, start // 1000000, start % 1000000, end % 1000000, father, int(year or 0), source or "", txt))
+            if len(seen) == QUOTES_PER_VERSE:
+                break
+    return out
+
+
 def related_json(raw):
     out = []
     for r in json.loads(raw or "[]"):
@@ -270,6 +319,10 @@ def build_db():
             date TEXT NOT NULL, verse_from INTEGER NOT NULL, verse_to INTEGER NOT NULL,
             note_en TEXT NOT NULL, note_nl TEXT NOT NULL, source TEXT NOT NULL, sort INTEGER NOT NULL);
         CREATE INDEX father_notes_chapter ON father_notes (book, chapter);
+        CREATE TABLE father_quotes (
+            book TEXT NOT NULL, chapter INTEGER NOT NULL, verse INTEGER NOT NULL, verse_end INTEGER NOT NULL,
+            father TEXT NOT NULL, year INTEGER NOT NULL, source TEXT NOT NULL, text TEXT NOT NULL);
+        CREATE INDEX father_quotes_verse ON father_quotes (book, chapter, verse);
         """
     )
     verses = load_web() + load_sv()
@@ -313,11 +366,16 @@ def build_db():
             )
             notes += 1
 
+    quotes = load_father_quotes()
+    db.executemany("INSERT INTO father_quotes VALUES (?,?,?,?,?,?,?,?)", quotes)
+    print("father quotes", len(quotes))
+
     db.executemany("INSERT INTO meta VALUES (?,?)", [
         ("version", str(DB_VERSION)),
         ("web", "World English Bible Classic (public domain), ebible.org"),
         ("sv", "Statenvertaling 1637 met apocriefen (publiek domein)"),
         ("cross_refs", "OpenBible.info cross-references, CC-BY"),
+        ("father_quotes", "HistoricalChristianFaith/Commentaries-Database (historicalchristian.faith)"),
     ])
     db.commit()
     db.execute("VACUUM")
@@ -462,6 +520,30 @@ def build_extra_prayers():
     # Short fixed openings used inside the hours; not listed on their own.
     out += [
         {
+            "id": "usual-beginning", "traditions": [EO], "listed": False,
+            "title": tr("The Usual Beginning", "Het gebruikelijke begin"), "subtitle": tr("", ""),
+            "body": {
+                "en": ["Glory to Thee, our God, glory to Thee.",
+                       "O Heavenly King, Comforter, Spirit of Truth, who art everywhere present and fillest all things, Treasury of good things and Giver of life: come and abide in us, and cleanse us from every stain, and save our souls, O Good One.",
+                       "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3 times)",
+                       "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+                       "All-holy Trinity, have mercy on us. Lord, cleanse us from our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities, for Thy name's sake.",
+                       "Lord, have mercy. (3 times)",
+                       "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+                       "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.",
+                       "Through the prayers of our holy fathers, Lord Jesus Christ our God, have mercy on us. Amen."],
+                "nl": ["Eer zij U, onze God, eer zij U.",
+                       "Hemelse Koning, Trooster, Geest der waarheid, die overal aanwezig bent en alles vervult, Schatkamer van het goede en Gever van het leven: kom en woon in ons, reinig ons van alle smet en red, o Goede, onze zielen.",
+                       "Heilige God, heilige Sterke, heilige Onsterfelijke, ontferm U over ons. (3 maal)",
+                       "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
+                       "Allerheiligste Drie-eenheid, ontferm U over ons. Heer, reinig ons van onze zonden. Meester, vergeef ons onze overtredingen. Heilige, bezoek en genees onze zwakheden, omwille van Uw Naam.",
+                       "Heer, ontferm U. (3 maal)",
+                       "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
+                       "Onze Vader, die in de hemelen zijt, Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren. En leid ons niet in bekoring, maar verlos ons van de boze.",
+                       "Door de gebeden van onze heilige vaders, Heer Jezus Christus, onze God, ontferm U over ons. Amen."],
+            },
+        },
+        {
             "id": "come-let-us-worship", "traditions": [EO], "listed": False,
             "title": tr("Come, let us worship", "Komt, laat ons aanbidden"), "subtitle": tr("", ""),
             "body": {
@@ -495,6 +577,5 @@ if __name__ == "__main__":
     os.makedirs(CACHE, exist_ok=True)
     rows = build_db()
     build_books(rows)
-    build_agpeya()
     build_extra_prayers()
     build_saints_eo()

@@ -19,6 +19,8 @@ data class CrossRef(val book: String, val chapter: Int, val verse: Int, val vers
 
 data class ChapterGuide(val title: String, val summary: String, val context: String, val themes: List<String>, val related: List<Passage>)
 
+data class FatherQuote(val book: String, val chapter: Int, val verse: Int, val verseEnd: Int, val father: String, val year: Int, val source: String, val text: String)
+
 data class FatherNote(val father: String, val work: String, val date: String, val verseFrom: Int, val verseTo: Int, val note: String, val source: String)
 
 /** The bundled, read-only Bible database. Translation follows the app language: WEB for English, Statenvertaling for Dutch. */
@@ -107,10 +109,28 @@ class BibleRepository(private val context: Context) {
         }
     }
 
+    /** Church Father commentary on a verse, from the patristic commentary database. */
+    suspend fun fatherQuotes(ref: VerseRef): List<FatherQuote> = quotes(
+        "SELECT book, chapter, verse, verse_end, father, year, source, text FROM father_quotes WHERE book = ? AND chapter = ? AND verse = ?",
+        arrayOf(ref.book, ref.chapter.toString(), ref.verse.toString()),
+    )
+
+    /** A sample of a Father's commentary, in canonical order. */
+    suspend fun quotesBy(father: String, limit: Int = 40): List<FatherQuote> = quotes(
+        "SELECT book, chapter, verse, verse_end, father, year, source, text FROM father_quotes WHERE father = ? ORDER BY rowid LIMIT ?",
+        arrayOf(father, limit.toString()),
+    )
+
+    private suspend fun quotes(sql: String, args: Array<String>) = withContext(Dispatchers.IO) {
+        database().rawQuery(sql, args).use { c ->
+            buildList { while (c.moveToNext()) add(FatherQuote(c.getString(0), c.getInt(1), c.getInt(2), c.getInt(3), c.getString(4), c.getInt(5), c.getString(6), c.getString(7))) }
+        }
+    }
+
     @Serializable
     private data class RelatedRow(val book: String, val chapter: Int? = null, val verse: Int? = null)
 
     companion object {
-        const val DB_VERSION = 1
+        const val DB_VERSION = 2
     }
 }

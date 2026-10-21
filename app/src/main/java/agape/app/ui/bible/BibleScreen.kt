@@ -62,7 +62,8 @@ private enum class BibleTab { BOOKS, CHURCH }
 fun BibleScreen(
     openChapter: (String, Int) -> Unit,
     openArticle: (String) -> Unit,
-    openCouncil: (String) -> Unit,
+    openCouncils: () -> Unit,
+    openFathers: () -> Unit,
     openPlans: () -> Unit,
 ) {
     var tab by rememberSaveable { mutableStateOf(BibleTab.BOOKS) }
@@ -116,7 +117,7 @@ fun BibleScreen(
                     )
                 }
             }
-            BibleTab.CHURCH -> churchSection(this, tradition, lang, container, openArticle, openCouncil)
+            BibleTab.CHURCH -> churchSection(this, tradition, lang, container, openArticle, openCouncils, openFathers)
         }
     }
 }
@@ -166,31 +167,51 @@ private fun churchSection(
     lang: agape.app.core.model.AppLanguage,
     container: agape.app.AppContainer,
     openArticle: (String) -> Unit,
-    openCouncil: (String) -> Unit,
+    openCouncils: () -> Unit,
+    openFathers: () -> Unit,
 ) = with(scope) {
     val content = container.content
+    item {
+        Row(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            ChurchTile(
+                title = stringResource(R.string.church_councils),
+                subtitle = stringResource(R.string.church_councils_count, content.councils(tradition).size),
+                symbol = "☩", modifier = Modifier.weight(1f), onClick = openCouncils,
+            )
+            ChurchTile(
+                title = stringResource(R.string.church_fathers),
+                subtitle = stringResource(R.string.church_fathers_count, content.fathers(tradition).size),
+                symbol = "✠", modifier = Modifier.weight(1f), onClick = openFathers,
+            )
+        }
+    }
     item { ChurchHeading(R.string.church_your_tradition) }
     items(content.articles(tradition, ChurchSection.TRADITION), key = { it.id }) { a ->
-        ListRow(a.title[lang], subtitle = a.summary[lang], onClick = { openArticle(a.id) }, trailing = { Chevron() })
-    }
-    item { ChurchHeading(R.string.church_councils) }
-    item {
-        Text(
-            stringResource(R.string.church_councils_note),
-            style = MaterialTheme.typography.bodySmall, color = AgapeTheme.colors.inkMuted,
-            modifier = Modifier.padding(horizontal = 20.dp, vertical = 4.dp),
-        )
-    }
-    items(content.councils(tradition), key = { it.id }) { council ->
-        ListRow(council.name[lang], subtitle = council.year, onClick = { openCouncil(council.id) }, trailing = { Chevron() })
-    }
-    item { ChurchHeading(R.string.church_fathers) }
-    items(content.fathers(tradition), key = { it.id }) { f ->
-        ListRow(f.name[lang], subtitle = "${f.era} · ${f.summary[lang]}")
+        AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 5.dp), onClick = { openArticle(a.id) }) {
+            Text(a.title[lang], style = MaterialTheme.typography.titleLarge, color = AgapeTheme.colors.ink)
+            Spacer(Modifier.height(4.dp))
+            Text(a.summary[lang], style = MaterialTheme.typography.bodyMedium, color = AgapeTheme.colors.inkMuted)
+        }
     }
     item { ChurchHeading(R.string.church_history) }
     items(content.articles(tradition, ChurchSection.HISTORY), key = { it.id }) { a ->
         ListRow(a.title[lang], subtitle = a.summary[lang], onClick = { openArticle(a.id) }, trailing = { Chevron() })
+        Divider()
+    }
+}
+
+@Composable
+private fun ChurchTile(title: String, subtitle: String, symbol: String, modifier: Modifier, onClick: () -> Unit) {
+    val c = AgapeTheme.colors
+    Column(
+        modifier.clip(cardShape)
+            .background(androidx.compose.ui.graphics.Brush.linearGradient(listOf(c.primary, c.primary.copy(alpha = 0.78f))))
+            .clickable(onClick = onClick).padding(18.dp),
+    ) {
+        Text(symbol, style = MaterialTheme.typography.headlineMedium, color = c.accent)
+        Spacer(Modifier.height(18.dp))
+        Text(title, style = MaterialTheme.typography.titleLarge, color = c.onPrimary)
+        Text(subtitle, style = MaterialTheme.typography.bodySmall, color = c.onPrimary.copy(alpha = 0.75f))
     }
 }
 

@@ -1,6 +1,7 @@
 package agape.app
 
 import agape.app.core.model.L10n
+import agape.app.core.model.L10nLines
 import agape.app.core.model.Testament
 import agape.app.core.model.Tradition
 import agape.app.data.content.Council
@@ -57,7 +58,10 @@ class PlanEngineTest {
     }
 
     @Test fun councilPlansFollowTheCouncilsGiven() {
-        val council = Council("nicaea-1", 1, "325", listOf(Tradition.CATHOLIC), L10n("N"), L10n(), L10n(), emptyList(), L10n(), listOf("JHN 1:1-18"))
+        val council = Council(
+            id = "nicaea-1", number = 1, year = "325", recognizedBy = listOf(Tradition.CATHOLIC), name = L10n("N"),
+            convokedBy = L10n(), summary = L10n(), canons = emptyList(), outcome = L10nLines(), passages = listOf("JHN 1:1-18"),
+        )
         val councilsPlan = plan(PlanGenerator(PlanGenerator.Type.COUNCILS))
         val day = PlanEngine.days(councilsPlan, canon, listOf(council)).single()
         assertEquals("nicaea-1", day.councilId)

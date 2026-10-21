@@ -1,197 +1,1147 @@
 [
  {
-  "id": "nicaea-1", "number": 1, "year": "325", "recognizedBy": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
-  "name": {"en": "First Council of Nicaea", "nl": "Eerste Concilie van Nicea"},
-  "convokedBy": {"en": "Emperor Constantine the Great", "nl": "Keizer Constantijn de Grote"},
-  "reason": {
+  "id": "nicaea-1",
+  "number": 1,
+  "year": "325",
+  "recognizedBy": [
+   "EASTERN_ORTHODOX",
+   "ORIENTAL_ORTHODOX",
+   "CATHOLIC"
+  ],
+  "name": {
+   "en": "First Council of Nicaea",
+   "nl": "Eerste Concilie van Nicea"
+  },
+  "convokedBy": {
+   "en": "Emperor Constantine the Great",
+   "nl": "Keizer Constantijn de Grote"
+  },
+  "canons": [
+   {
+    "en": "The Son is homoousios, of one essence with the Father; the first form of the Creed is adopted.",
+    "nl": "De Zoon is homoousios, één van wezen met de Vader; de eerste vorm van de Geloofsbelijdenis wordt aangenomen."
+   },
+   {
+    "en": "Canon 2: recent converts should not be ordained in haste.",
+    "nl": "Canon 2: pas bekeerden mogen niet overhaast gewijd worden."
+   },
+   {
+    "en": "Canon 6: the ancient customs of Alexandria, Rome and Antioch over their regions are kept.",
+    "nl": "Canon 6: de oude gebruiken van Alexandrië, Rome en Antiochië over hun gebieden blijven behouden."
+   },
+   {
+    "en": "Canon 20: on Sundays and during Pentecost, prayer is offered standing.",
+    "nl": "Canon 20: op zondag en in de Pinkstertijd wordt staande gebeden."
+   },
+   {
+    "en": "Pascha is to be celebrated by all on the same Sunday.",
+    "nl": "Pasen moet door allen op dezelfde zondag gevierd worden."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Arius was condemned, but the struggle continued for decades. Athanasius of Alexandria defended Nicaea through five exiles, and the word homoousios became the touchstone of faith in Christ's full divinity."
+   ],
+   "nl": [
+    "Arius werd veroordeeld, maar de strijd duurde nog tientallen jaren. Athanasius van Alexandrië verdedigde Nicea door vijf ballingschappen heen, en het woord homoousios werd de toetssteen van het geloof in Christus' volle godheid."
+   ]
+  },
+  "passages": [
+   "JHN 1:1-18",
+   "COL 1:15-20",
+   "HEB 1:1-4",
+   "PHP 2:5-11"
+  ],
+  "quiz": [
+   {
+    "q": {
+     "en": "Whose teaching led to the Council of Nicaea?",
+     "nl": "Wiens leer leidde tot het Concilie van Nicea?"
+    },
+    "options": [
+     {
+      "en": "Arius",
+      "nl": "Arius"
+     },
+     {
+      "en": "Nestorius",
+      "nl": "Nestorius"
+     },
+     {
+      "en": "Pelagius",
+      "nl": "Pelagius"
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "q": {
+     "en": "What does homoousios mean?",
+     "nl": "Wat betekent homoousios?"
+    },
+    "options": [
+     {
+      "en": "Similar to the Father",
+      "nl": "Gelijkend op de Vader"
+     },
+     {
+      "en": "Of one essence with the Father",
+      "nl": "Eén van wezen met de Vader"
+     },
+     {
+      "en": "Created by the Father",
+      "nl": "Geschapen door de Vader"
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "q": {
+     "en": "Which passage opens with \"In the beginning was the Word\"?",
+     "nl": "Welke passage begint met \"In het begin was het Woord\"?"
+    },
+    "options": [
+     {
+      "en": "Genesis 1",
+      "nl": "Genesis 1"
+     },
+     {
+      "en": "Hebrews 1",
+      "nl": "Hebreeën 1"
+     },
+     {
+      "en": "John 1",
+      "nl": "Johannes 1"
+     }
+    ],
+    "answer": 2
+   }
+  ],
+  "place": {
+   "en": "Nicaea, Bithynia (today İznik, Turkey)",
+   "nl": "Nicea, Bithynië (nu İznik, Turkije)"
+  },
+  "participants": "± 318",
+  "keyFigures": [
+   "Constantine the Great",
+   "Alexander of Alexandria",
+   "Athanasius (then a deacon)",
+   "Hosius of Córdoba",
+   "Arius",
+   "Eusebius of Caesarea"
+  ],
+  "heresy": {
+   "en": "Arianism: the Son is the first and highest creature, not eternal God.",
+   "nl": "Arianisme: de Zoon is het eerste en hoogste schepsel, niet de eeuwige God."
+  },
+  "background": {
+   "en": [
+    "Around 318 Arius, a respected priest in Alexandria, began to teach that the Son of God was created by the Father before time: \"there was when He was not.\" His teaching spread through songs and letters across the East. Bishop Alexander of Alexandria condemned him, but bishops elsewhere, including Eusebius of Nicomedia, took his side.",
+    "Constantine had just united the empire in 324 and wanted one Church. When letters failed, he summoned the first council of bishops from the whole oikoumene, paying their travel by the imperial post. The date of Pascha, which was celebrated differently in East and West, was also on the agenda."
+   ],
+   "nl": [
+    "Rond 318 begon Arius, een gerespecteerd priester in Alexandrië, te leren dat de Zoon van God vóór de tijd door de Vader geschapen was: \"er was een tijd dat Hij niet was.\" Zijn leer verspreidde zich via liederen en brieven door het Oosten. Bisschop Alexander van Alexandrië veroordeelde hem, maar bisschoppen elders, onder wie Eusebius van Nicomedië, kozen zijn kant.",
+    "Constantijn had in 324 net het rijk verenigd en wilde één Kerk. Toen brieven niet hielpen, riep hij het eerste concilie van bisschoppen uit de hele oikoumene bijeen en betaalde hun reis met de keizerlijke post. Ook de datum van Pasen, die in Oost en West verschillend werd gevierd, stond op de agenda."
+   ]
+  },
+  "events": {
+   "en": [
+    "The council opened in May or June 325 in the imperial palace. Many of the bishops still bore the scars of the persecution under Diocletian. The Arian party presented a creed that was read aloud and rejected. The bishops searched for words that Arius could not reinterpret: \"from the essence of the Father\" and homoousios, \"of one essence\".",
+    "Only two bishops refused to sign; they and Arius were exiled. The young deacon Athanasius, who accompanied Alexander, would later become the great defender of the council's faith."
+   ],
+   "nl": [
+    "Het concilie werd in mei of juni 325 geopend in het keizerlijk paleis. Veel bisschoppen droegen nog de littekens van de vervolging onder Diocletianus. De ariaanse partij legde een geloofsbelijdenis voor die werd voorgelezen en afgewezen. De bisschoppen zochten woorden die Arius niet kon omduiden: \"uit het wezen van de Vader\" en homoousios, \"één van wezen\".",
+    "Slechts twee bisschoppen weigerden te tekenen; zij en Arius werden verbannen. De jonge diaken Athanasius, die Alexander vergezelde, zou later de grote verdediger van het geloof van het concilie worden."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "The Creed of Nicaea: the Son is \"God from God, Light from Light, true God from true God, begotten not made, of one essence with the Father\".",
+    "nl": "De Geloofsbelijdenis van Nicea: de Zoon is \"God uit God, Licht uit Licht, ware God uit ware God, geboren niet geschapen, één van wezen met de Vader\"."
+   },
+   {
+    "en": "Arius' teaching is anathematized.",
+    "nl": "De leer van Arius wordt veroordeeld."
+   },
+   {
+    "en": "Pascha is to be celebrated on the same Sunday by all, independent of the Jewish calendar.",
+    "nl": "Pasen wordt door allen op dezelfde zondag gevierd, los van de Joodse kalender."
+   },
+   {
+    "en": "Twenty canons on church order, penance, ordination and the rights of the great sees.",
+    "nl": "Twintig canons over kerkorde, boete, wijding en de rechten van de grote zetels."
+   }
+  ],
+  "traditionNotes": {},
+  "summary": {
    "en": "Arius, a priest of Alexandria, taught that the Son of God was a creature: \"there was when He was not.\" The dispute divided the Church across the newly unified empire, and Constantine summoned bishops from East and West to settle it.",
    "nl": "Arius, een priester uit Alexandrië, leerde dat de Zoon van God een schepsel was: \"er was een tijd dat Hij niet was.\" Het conflict verdeelde de Kerk in het pas verenigde rijk, en Constantijn riep bisschoppen uit Oost en West bijeen om het te beslechten."
-  },
-  "canons": [
-   {"en": "The Son is homoousios, of one essence with the Father; the first form of the Creed is adopted.", "nl": "De Zoon is homoousios, één van wezen met de Vader; de eerste vorm van de Geloofsbelijdenis wordt aangenomen."},
-   {"en": "Canon 2: recent converts should not be ordained in haste.", "nl": "Canon 2: pas bekeerden mogen niet overhaast gewijd worden."},
-   {"en": "Canon 6: the ancient customs of Alexandria, Rome and Antioch over their regions are kept.", "nl": "Canon 6: de oude gebruiken van Alexandrië, Rome en Antiochië over hun gebieden blijven behouden."},
-   {"en": "Canon 20: on Sundays and during Pentecost, prayer is offered standing.", "nl": "Canon 20: op zondag en in de Pinkstertijd wordt staande gebeden."},
-   {"en": "Pascha is to be celebrated by all on the same Sunday.", "nl": "Pasen moet door allen op dezelfde zondag gevierd worden."}
-  ],
-  "outcome": {
-   "en": "Arius was condemned, but the struggle continued for decades. Athanasius of Alexandria defended Nicaea through five exiles, and the word homoousios became the touchstone of faith in Christ's full divinity.",
-   "nl": "Arius werd veroordeeld, maar de strijd duurde nog tientallen jaren. Athanasius van Alexandrië verdedigde Nicea door vijf ballingschappen heen, en het woord homoousios werd de toetssteen van het geloof in Christus' volle godheid."
-  },
-  "passages": ["JHN 1:1-18", "COL 1:15-20", "HEB 1:1-4", "PHP 2:5-11"],
-  "quiz": [
-   {"q": {"en": "Whose teaching led to the Council of Nicaea?", "nl": "Wiens leer leidde tot het Concilie van Nicea?"},
-    "options": [{"en": "Arius", "nl": "Arius"}, {"en": "Nestorius", "nl": "Nestorius"}, {"en": "Pelagius", "nl": "Pelagius"}], "answer": 0},
-   {"q": {"en": "What does homoousios mean?", "nl": "Wat betekent homoousios?"},
-    "options": [{"en": "Similar to the Father", "nl": "Gelijkend op de Vader"}, {"en": "Of one essence with the Father", "nl": "Eén van wezen met de Vader"}, {"en": "Created by the Father", "nl": "Geschapen door de Vader"}], "answer": 1},
-   {"q": {"en": "Which passage opens with \"In the beginning was the Word\"?", "nl": "Welke passage begint met \"In het begin was het Woord\"?"},
-    "options": [{"en": "Genesis 1", "nl": "Genesis 1"}, {"en": "Hebrews 1", "nl": "Hebreeën 1"}, {"en": "John 1", "nl": "Johannes 1"}], "answer": 2}
-  ]
+  }
  },
  {
-  "id": "constantinople-1", "number": 2, "year": "381", "recognizedBy": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
-  "name": {"en": "First Council of Constantinople", "nl": "Eerste Concilie van Constantinopel"},
-  "convokedBy": {"en": "Emperor Theodosius I", "nl": "Keizer Theodosius I"},
-  "reason": {
+  "id": "constantinople-1",
+  "number": 2,
+  "year": "381",
+  "recognizedBy": [
+   "EASTERN_ORTHODOX",
+   "ORIENTAL_ORTHODOX",
+   "CATHOLIC"
+  ],
+  "name": {
+   "en": "First Council of Constantinople",
+   "nl": "Eerste Concilie van Constantinopel"
+  },
+  "convokedBy": {
+   "en": "Emperor Theodosius I",
+   "nl": "Keizer Theodosius I"
+  },
+  "canons": [
+   {
+    "en": "The Creed is completed: the Holy Spirit is \"the Lord, the Giver of life, who proceeds from the Father, who with the Father and the Son is worshipped and glorified.\"",
+    "nl": "De Geloofsbelijdenis wordt voltooid: de Heilige Geest is \"de Heer die het leven geeft, die uitgaat van de Vader, die met de Vader en de Zoon wordt aanbeden en verheerlijkt.\""
+   },
+   {
+    "en": "Canon 1: the faith of Nicaea is reaffirmed and every form of Arianism condemned.",
+    "nl": "Canon 1: het geloof van Nicea wordt bevestigd en elke vorm van arianisme veroordeeld."
+   },
+   {
+    "en": "Canon 3: Constantinople, the New Rome, receives honour after Rome.",
+    "nl": "Canon 3: Constantinopel, het Nieuwe Rome, krijgt de eer na Rome."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The Nicene–Constantinopolitan Creed became the common confession of the Church, still prayed at every Divine Liturgy and Sunday Mass."
+   ],
+   "nl": [
+    "De Geloofsbelijdenis van Nicea-Constantinopel werd de gemeenschappelijke belijdenis van de Kerk, nog altijd gebeden in elke Goddelijke Liturgie en zondagsmis."
+   ]
+  },
+  "passages": [
+   "JHN 14:15-26",
+   "JHN 15:26-27",
+   "ACT 2:1-21",
+   "1CO 2:9-16"
+  ],
+  "quiz": [
+   {
+    "q": {
+     "en": "What did this council confess about the Holy Spirit?",
+     "nl": "Wat beleed dit concilie over de Heilige Geest?"
+    },
+    "options": [
+     {
+      "en": "He is a created power",
+      "nl": "Hij is een geschapen kracht"
+     },
+     {
+      "en": "He is Lord and Giver of life, worshipped with the Father and the Son",
+      "nl": "Hij is Heer en geeft het leven, aanbeden met de Vader en de Zoon"
+     },
+     {
+      "en": "He is another name for the Son",
+      "nl": "Hij is een andere naam voor de Zoon"
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "q": {
+     "en": "Which emperor called the council?",
+     "nl": "Welke keizer riep het concilie bijeen?"
+    },
+    "options": [
+     {
+      "en": "Constantine",
+      "nl": "Constantijn"
+     },
+     {
+      "en": "Justinian",
+      "nl": "Justinianus"
+     },
+     {
+      "en": "Theodosius I",
+      "nl": "Theodosius I"
+     }
+    ],
+    "answer": 2
+   }
+  ],
+  "place": {
+   "en": "Constantinople, Church of St Irene",
+   "nl": "Constantinopel, kerk van de Heilige Irene"
+  },
+  "participants": "± 150",
+  "keyFigures": [
+   "Theodosius I",
+   "Meletius of Antioch",
+   "Gregory the Theologian",
+   "Gregory of Nyssa",
+   "Nectarius of Constantinople"
+  ],
+  "heresy": {
+   "en": "Neo-Arianism and the Pneumatomachi, who denied the divinity of the Holy Spirit; also Apollinarianism.",
+   "nl": "Neo-arianisme en de pneumatomachen, die de godheid van de Heilige Geest ontkenden; ook het apollinarisme."
+  },
+  "background": {
+   "en": [
+    "Nicaea did not end the controversy. For fifty years emperors favoured Arian or compromise creeds, and Athanasius was exiled five times. The Cappadocian Fathers – Basil the Great, Gregory the Theologian and Gregory of Nyssa – clarified the language of one essence (ousia) and three persons (hypostaseis).",
+    "A new question arose: some accepted the Son as God but called the Holy Spirit a creature or a servant. Emperor Theodosius I, a convinced Nicene, called the bishops of the East to his capital in 381."
+   ],
+   "nl": [
+    "Nicea maakte geen einde aan de strijd. Vijftig jaar lang bevoordeelden keizers ariaanse of compromisbelijdenissen, en Athanasius werd vijf keer verbannen. De Cappadocische Vaders – Basilius de Grote, Gregorius de Theoloog en Gregorius van Nyssa – verhelderden de taal van één wezen (ousia) en drie personen (hypostasen).",
+    "Er rees een nieuwe vraag: sommigen aanvaardden de Zoon als God, maar noemden de Heilige Geest een schepsel of dienaar. Keizer Theodosius I, een overtuigd aanhanger van Nicea, riep in 381 de bisschoppen van het Oosten naar zijn hoofdstad."
+   ]
+  },
+  "events": {
+   "en": [
+    "Meletius of Antioch presided until his death during the council; Gregory the Theologian succeeded him but resigned amid disputes, preaching a famous farewell sermon. Nectarius, still a catechumen, was elected archbishop of Constantinople and presided at the end.",
+    "The council confirmed Nicaea and confessed the full divinity of the Holy Spirit, using the language of Scripture rather than a new technical term."
+   ],
+   "nl": [
+    "Meletius van Antiochië zat voor tot zijn dood tijdens het concilie; Gregorius de Theoloog volgde hem op, maar trad af te midden van geschillen en hield een beroemde afscheidspreek. Nectarius, nog catechumeen, werd tot aartsbisschop van Constantinopel gekozen en zat aan het eind voor.",
+    "Het concilie bevestigde Nicea en beleed de volle godheid van de Heilige Geest, in de taal van de Schrift in plaats van met een nieuwe vakterm."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "The Nicene–Constantinopolitan Creed, with the article on the Holy Spirit and the Church.",
+    "nl": "De Geloofsbelijdenis van Nicea-Constantinopel, met het artikel over de Heilige Geest en de Kerk."
+   },
+   {
+    "en": "Condemnation of all forms of Arianism, the Pneumatomachi and Apollinarius.",
+    "nl": "Veroordeling van alle vormen van arianisme, de pneumatomachen en Apollinarius."
+   },
+   {
+    "en": "Constantinople, as New Rome, is given the second place of honour after Rome.",
+    "nl": "Constantinopel krijgt als Nieuw Rome de tweede plaats in eer na Rome."
+   }
+  ],
+  "traditionNotes": {
+   "CATHOLIC": {
+    "en": "In the West the words \"and the Son\" (Filioque) were later added to the Creed; the Eastern and Oriental Churches pray the Creed as written in 381.",
+    "nl": "In het Westen werden later de woorden \"en de Zoon\" (Filioque) aan de Geloofsbelijdenis toegevoegd; de Oosterse en Oriëntaalse Kerken bidden de Geloofsbelijdenis zoals die in 381 werd opgesteld."
+   }
+  },
+  "summary": {
    "en": "Arianism still had powerful supporters, and a new question had arisen: some (the Pneumatomachi) denied that the Holy Spirit is God. The Cappadocian Fathers had prepared the ground for an answer.",
    "nl": "Het arianisme had nog machtige aanhangers, en er was een nieuwe vraag gerezen: sommigen (de pneumatomachen) ontkenden dat de Heilige Geest God is. De Cappadocische Vaders hadden de grond voor een antwoord voorbereid."
-  },
-  "canons": [
-   {"en": "The Creed is completed: the Holy Spirit is \"the Lord, the Giver of life, who proceeds from the Father, who with the Father and the Son is worshipped and glorified.\"", "nl": "De Geloofsbelijdenis wordt voltooid: de Heilige Geest is \"de Heer die het leven geeft, die uitgaat van de Vader, die met de Vader en de Zoon wordt aanbeden en verheerlijkt.\""},
-   {"en": "Canon 1: the faith of Nicaea is reaffirmed and every form of Arianism condemned.", "nl": "Canon 1: het geloof van Nicea wordt bevestigd en elke vorm van arianisme veroordeeld."},
-   {"en": "Canon 3: Constantinople, the New Rome, receives honour after Rome.", "nl": "Canon 3: Constantinopel, het Nieuwe Rome, krijgt de eer na Rome."}
-  ],
-  "outcome": {
-   "en": "The Nicene–Constantinopolitan Creed became the common confession of the Church, still prayed at every Divine Liturgy and Sunday Mass.",
-   "nl": "De Geloofsbelijdenis van Nicea-Constantinopel werd de gemeenschappelijke belijdenis van de Kerk, nog altijd gebeden in elke Goddelijke Liturgie en zondagsmis."
-  },
-  "passages": ["JHN 14:15-26", "JHN 15:26-27", "ACT 2:1-21", "1CO 2:9-16"],
-  "quiz": [
-   {"q": {"en": "What did this council confess about the Holy Spirit?", "nl": "Wat beleed dit concilie over de Heilige Geest?"},
-    "options": [{"en": "He is a created power", "nl": "Hij is een geschapen kracht"}, {"en": "He is Lord and Giver of life, worshipped with the Father and the Son", "nl": "Hij is Heer en geeft het leven, aanbeden met de Vader en de Zoon"}, {"en": "He is another name for the Son", "nl": "Hij is een andere naam voor de Zoon"}], "answer": 1},
-   {"q": {"en": "Which emperor called the council?", "nl": "Welke keizer riep het concilie bijeen?"},
-    "options": [{"en": "Constantine", "nl": "Constantijn"}, {"en": "Justinian", "nl": "Justinianus"}, {"en": "Theodosius I", "nl": "Theodosius I"}], "answer": 2}
-  ]
+  }
  },
  {
-  "id": "ephesus", "number": 3, "year": "431", "recognizedBy": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
-  "name": {"en": "Council of Ephesus", "nl": "Concilie van Efeze"},
-  "convokedBy": {"en": "Emperor Theodosius II", "nl": "Keizer Theodosius II"},
-  "reason": {
+  "id": "ephesus",
+  "number": 3,
+  "year": "431",
+  "recognizedBy": [
+   "EASTERN_ORTHODOX",
+   "ORIENTAL_ORTHODOX",
+   "CATHOLIC"
+  ],
+  "name": {
+   "en": "Council of Ephesus",
+   "nl": "Concilie van Efeze"
+  },
+  "convokedBy": {
+   "en": "Emperor Theodosius II",
+   "nl": "Keizer Theodosius II"
+  },
+  "canons": [
+   {
+    "en": "Christ is one Person, the eternal Word made flesh; the Virgin Mary is rightly called Theotokos.",
+    "nl": "Christus is één Persoon, het eeuwige Woord dat vlees werd; de Maagd Maria wordt terecht Theotokos genoemd."
+   },
+   {
+    "en": "Nestorius is deposed.",
+    "nl": "Nestorius wordt afgezet."
+   },
+   {
+    "en": "Canon 7: no other creed may be composed in place of the Creed of Nicaea.",
+    "nl": "Canon 7: er mag geen andere geloofsbelijdenis in plaats van die van Nicea worden opgesteld."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The unity of Christ's Person was confirmed. The Church of the East, which did not receive Ephesus, developed separately in Persia and beyond."
+   ],
+   "nl": [
+    "De eenheid van de Persoon van Christus werd bevestigd. De Kerk van het Oosten, die Efeze niet aanvaardde, ontwikkelde zich afzonderlijk in Perzië en verder."
+   ]
+  },
+  "passages": [
+   "LUK 1:26-38",
+   "LUK 1:39-45",
+   "GAL 4:4-7",
+   "JHN 1:14"
+  ],
+  "quiz": [
+   {
+    "q": {
+     "en": "Which title for Mary did Ephesus confirm?",
+     "nl": "Welke titel voor Maria bevestigde Efeze?"
+    },
+    "options": [
+     {
+      "en": "Theotokos",
+      "nl": "Theotokos"
+     },
+     {
+      "en": "Christotokos only",
+      "nl": "Alleen Christotokos"
+     },
+     {
+      "en": "Queen of Heaven",
+      "nl": "Koningin van de hemel"
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "q": {
+     "en": "Who led the defence of the one Person of Christ?",
+     "nl": "Wie leidde de verdediging van de ene Persoon van Christus?"
+    },
+    "options": [
+     {
+      "en": "Leo of Rome",
+      "nl": "Leo van Rome"
+     },
+     {
+      "en": "Cyril of Alexandria",
+      "nl": "Cyrillus van Alexandrië"
+     },
+     {
+      "en": "John Chrysostom",
+      "nl": "Johannes Chrysostomus"
+     }
+    ],
+    "answer": 1
+   }
+  ],
+  "place": {
+   "en": "Ephesus, Church of the Theotokos",
+   "nl": "Efeze, kerk van de Moeder Gods"
+  },
+  "participants": "± 200",
+  "keyFigures": [
+   "Cyril of Alexandria",
+   "Nestorius of Constantinople",
+   "Pope Celestine I",
+   "John of Antioch",
+   "Theodosius II"
+  ],
+  "heresy": {
+   "en": "Nestorianism: two subjects in Christ, the Son of God and the man Jesus, joined in will only.",
+   "nl": "Nestorianisme: twee subjecten in Christus, de Zoon van God en de mens Jezus, alleen in wil verbonden."
+  },
+  "background": {
+   "en": [
+    "In 428 Nestorius, a famous preacher from Antioch, became archbishop of Constantinople. He objected to calling Mary Theotokos (\"she who gave birth to God\") and proposed Christotokos. Behind the word lay a question about Christ: is the one born of Mary the eternal Son himself, or a man in whom the Son dwells?",
+    "Cyril of Alexandria answered in letters that the Word Himself became flesh, so that Mary truly bore God in the flesh. Pope Celestine of Rome supported Cyril. Emperor Theodosius II summoned a council to Ephesus for Pentecost 431."
+   ],
+   "nl": [
+    "In 428 werd Nestorius, een beroemd prediker uit Antiochië, aartsbisschop van Constantinopel. Hij had bezwaar tegen de naam Theotokos (\"zij die God baarde\") voor Maria en stelde Christotokos voor. Achter het woord lag een vraag over Christus: is Hij die uit Maria geboren werd de eeuwige Zoon zelf, of een mens in wie de Zoon woont?",
+    "Cyrillus van Alexandrië antwoordde in brieven dat het Woord Zelf vlees is geworden, zodat Maria waarlijk God naar het vlees baarde. Paus Celestinus van Rome steunde Cyrillus. Keizer Theodosius II riep een concilie bijeen in Efeze voor Pinksteren 431."
+   ]
+  },
+  "events": {
+   "en": [
+    "Cyril opened the council on 22 June 431 before John of Antioch and his bishops arrived. Nestorius refused to attend. The bishops read Cyril's second letter to Nestorius and judged it to agree with Nicaea; Nestorius was deposed. The people of Ephesus led the bishops through the city with torches, rejoicing that the Theotokos had been honoured.",
+    "John of Antioch held a rival meeting and deposed Cyril. Only in 433, through the Formula of Reunion, were Cyril and John reconciled."
+   ],
+   "nl": [
+    "Cyrillus opende het concilie op 22 juni 431, voordat Johannes van Antiochië en zijn bisschoppen aankwamen. Nestorius weigerde te verschijnen. De bisschoppen lazen de tweede brief van Cyrillus aan Nestorius en oordeelden dat die met Nicea overeenkwam; Nestorius werd afgezet. Het volk van Efeze leidde de bisschoppen met fakkels door de stad, blij dat de Moeder Gods was geëerd.",
+    "Johannes van Antiochië hield een tegenvergadering en zette Cyrillus af. Pas in 433 werden Cyrillus en Johannes door de Formule van Hereniging verzoend."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Christ is one: the eternal Word Himself became flesh and was born of the Virgin.",
+    "nl": "Christus is één: het eeuwige Woord Zelf is vlees geworden en uit de Maagd geboren."
+   },
+   {
+    "en": "The Virgin Mary is rightly called Theotokos, Mother of God.",
+    "nl": "De Maagd Maria wordt terecht Theotokos, Moeder van God, genoemd."
+   },
+   {
+    "en": "Nestorius is deposed; Cyril's letters (and his Twelve Anathemas) are received.",
+    "nl": "Nestorius wordt afgezet; de brieven van Cyrillus (en zijn Twaalf Anathema's) worden aanvaard."
+   },
+   {
+    "en": "Canon 7: no other creed may be composed in place of that of Nicaea.",
+    "nl": "Canon 7: er mag geen andere geloofsbelijdenis in plaats van die van Nicea worden opgesteld."
+   }
+  ],
+  "traditionNotes": {},
+  "summary": {
    "en": "Nestorius, Archbishop of Constantinople, objected to calling Mary Theotokos (Mother of God), preferring Christotokos. Cyril of Alexandria saw that this divided Christ into two subjects, God and a man.",
    "nl": "Nestorius, aartsbisschop van Constantinopel, maakte bezwaar tegen de naam Theotokos (Moeder Gods) voor Maria, en gaf de voorkeur aan Christotokos. Cyrillus van Alexandrië zag dat dit Christus in twee subjecten verdeelde, God en een mens."
-  },
-  "canons": [
-   {"en": "Christ is one Person, the eternal Word made flesh; the Virgin Mary is rightly called Theotokos.", "nl": "Christus is één Persoon, het eeuwige Woord dat vlees werd; de Maagd Maria wordt terecht Theotokos genoemd."},
-   {"en": "Nestorius is deposed.", "nl": "Nestorius wordt afgezet."},
-   {"en": "Canon 7: no other creed may be composed in place of the Creed of Nicaea.", "nl": "Canon 7: er mag geen andere geloofsbelijdenis in plaats van die van Nicea worden opgesteld."}
-  ],
-  "outcome": {
-   "en": "The unity of Christ's Person was confirmed. The Church of the East, which did not receive Ephesus, developed separately in Persia and beyond.",
-   "nl": "De eenheid van de Persoon van Christus werd bevestigd. De Kerk van het Oosten, die Efeze niet aanvaardde, ontwikkelde zich afzonderlijk in Perzië en verder."
-  },
-  "passages": ["LUK 1:26-38", "LUK 1:39-45", "GAL 4:4-7", "JHN 1:14"],
-  "quiz": [
-   {"q": {"en": "Which title for Mary did Ephesus confirm?", "nl": "Welke titel voor Maria bevestigde Efeze?"},
-    "options": [{"en": "Theotokos", "nl": "Theotokos"}, {"en": "Christotokos only", "nl": "Alleen Christotokos"}, {"en": "Queen of Heaven", "nl": "Koningin van de hemel"}], "answer": 0},
-   {"q": {"en": "Who led the defence of the one Person of Christ?", "nl": "Wie leidde de verdediging van de ene Persoon van Christus?"},
-    "options": [{"en": "Leo of Rome", "nl": "Leo van Rome"}, {"en": "Cyril of Alexandria", "nl": "Cyrillus van Alexandrië"}, {"en": "John Chrysostom", "nl": "Johannes Chrysostomus"}], "answer": 1}
-  ]
+  }
  },
  {
-  "id": "chalcedon", "number": 4, "year": "451", "recognizedBy": ["EASTERN_ORTHODOX", "CATHOLIC"],
-  "name": {"en": "Council of Chalcedon", "nl": "Concilie van Chalcedon"},
-  "convokedBy": {"en": "Emperor Marcian", "nl": "Keizer Marcianus"},
-  "reason": {
+  "id": "chalcedon",
+  "number": 4,
+  "year": "451",
+  "recognizedBy": [
+   "EASTERN_ORTHODOX",
+   "CATHOLIC"
+  ],
+  "name": {
+   "en": "Council of Chalcedon",
+   "nl": "Concilie van Chalcedon"
+  },
+  "convokedBy": {
+   "en": "Emperor Marcian",
+   "nl": "Keizer Marcianus"
+  },
+  "canons": [
+   {
+    "en": "Christ is one Person \"in two natures, without confusion, without change, without division, without separation.\"",
+    "nl": "Christus is één Persoon \"in twee naturen, onvermengd, onveranderd, ongedeeld, ongescheiden.\""
+   },
+   {
+    "en": "The Tome of Leo is received.",
+    "nl": "De Tomus van Leo wordt aanvaard."
+   },
+   {
+    "en": "Canon 28: Constantinople receives privileges equal to Old Rome (not accepted by Rome).",
+    "nl": "Canon 28: Constantinopel krijgt gelijke voorrechten als het Oude Rome (niet aanvaard door Rome)."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Chalcedon became the standard of Christology for the Byzantine and Latin churches. The Coptic, Syriac, Armenian and Ethiopian churches did not receive it, confessing instead the one incarnate nature of God the Word (miaphysitism, not Eutychianism). Modern dialogues have found deep agreement in substance."
+   ],
+   "nl": [
+    "Chalcedon werd de maatstaf van de christologie voor de Byzantijnse en Latijnse kerken. De Koptische, Syrische, Armeense en Ethiopische kerken aanvaardden het niet, en belijden in plaats daarvan de ene vleesgeworden natuur van God het Woord (miafysitisme, geen eutychianisme). Moderne dialogen vonden diepe overeenstemming in de zaak."
+   ]
+  },
+  "passages": [
+   "HEB 2:14-18",
+   "HEB 4:14-16",
+   "JHN 11:32-44",
+   "PHP 2:5-11"
+  ],
+  "quiz": [
+   {
+    "q": {
+     "en": "What formula did Chalcedon use for Christ?",
+     "nl": "Welke formule gebruikte Chalcedon voor Christus?"
+    },
+    "options": [
+     {
+      "en": "One Person in two natures",
+      "nl": "Eén Persoon in twee naturen"
+     },
+     {
+      "en": "Two persons in one body",
+      "nl": "Twee personen in één lichaam"
+     },
+     {
+      "en": "One nature only, the divine",
+      "nl": "Eén natuur, alleen de goddelijke"
+     }
+    ],
+    "answer": 0
+   },
+   {
+    "q": {
+     "en": "Which churches did not receive Chalcedon?",
+     "nl": "Welke kerken aanvaardden Chalcedon niet?"
+    },
+    "options": [
+     {
+      "en": "The Latin churches",
+      "nl": "De Latijnse kerken"
+     },
+     {
+      "en": "The Oriental Orthodox churches",
+      "nl": "De Oriëntaals-Orthodoxe kerken"
+     },
+     {
+      "en": "The Byzantine churches",
+      "nl": "De Byzantijnse kerken"
+     }
+    ],
+    "answer": 1
+   }
+  ],
+  "place": {
+   "en": "Chalcedon, Church of St Euphemia",
+   "nl": "Chalcedon, kerk van de Heilige Euphemia"
+  },
+  "participants": "± 520",
+  "keyFigures": [
+   "Pope Leo I",
+   "Emperor Marcian and Empress Pulcheria",
+   "Dioscorus of Alexandria",
+   "Anatolius of Constantinople",
+   "Theodoret of Cyrus"
+  ],
+  "heresy": {
+   "en": "Eutychianism: Christ's humanity is absorbed into His divinity, so that He is not of one essence with us.",
+   "nl": "Eutychianisme: de mensheid van Christus gaat op in Zijn godheid, zodat Hij niet één van wezen is met ons."
+  },
+  "background": {
+   "en": [
+    "The archimandrite Eutyches of Constantinople taught that after the union Christ had only one nature, in which His humanity was not like ours. He was condemned in 448, appealed, and was restored by the Second Council of Ephesus (449), presided over by Dioscorus of Alexandria. Pope Leo called that council a \"robber synod\" (latrocinium).",
+    "After the death of Theodosius II, the new emperor Marcian and Empress Pulcheria called a new council, which met in Chalcedon, across the water from Constantinople, in October 451."
+   ],
+   "nl": [
+    "De archimandriet Eutyches van Constantinopel leerde dat Christus na de vereniging slechts één natuur had, waarin Zijn mensheid niet als de onze was. Hij werd in 448 veroordeeld, ging in beroep en werd hersteld door het Tweede Concilie van Efeze (449), voorgezeten door Dioscorus van Alexandrië. Paus Leo noemde dat concilie een \"roverssynode\" (latrocinium).",
+    "Na de dood van Theodosius II riepen de nieuwe keizer Marcianus en keizerin Pulcheria een nieuw concilie bijeen, dat in oktober 451 vergaderde in Chalcedon, aan de overkant van het water bij Constantinopel."
+   ]
+  },
+  "events": {
+   "en": [
+    "In the first session the acts of 449 were reviewed; Dioscorus was later deposed, formally for disciplinary reasons. The Tome of Leo was read and acclaimed: \"Peter has spoken through Leo!\" The bishops were reluctant to write a new definition, but the emperor insisted.",
+    "A committee drafted the Definition, combining the language of Cyril and of Leo. It was signed in the fifth session on 22 October 451."
+   ],
+   "nl": [
+    "In de eerste zitting werden de handelingen van 449 herzien; Dioscorus werd later afgezet, formeel om disciplinaire redenen. De Tomus van Leo werd voorgelezen en toegejuicht: \"Petrus heeft door Leo gesproken!\" De bisschoppen aarzelden een nieuwe definitie te schrijven, maar de keizer drong aan.",
+    "Een commissie stelde de Definitie op, die de taal van Cyrillus en van Leo samenvoegt. Zij werd ondertekend in de vijfde zitting op 22 oktober 451."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Christ is \"one and the same Son, perfect in Godhead and perfect in manhood, in two natures, without confusion, without change, without division, without separation\".",
+    "nl": "Christus is \"één en dezelfde Zoon, volmaakt in godheid en volmaakt in mensheid, in twee naturen, onvermengd, onveranderd, ongedeeld, ongescheiden\"."
+   },
+   {
+    "en": "The Tome of Leo and the synodical letters of Cyril are received.",
+    "nl": "De Tomus van Leo en de synodale brieven van Cyrillus worden aanvaard."
+   },
+   {
+    "en": "Eutyches and Dioscorus are deposed.",
+    "nl": "Eutyches en Dioscorus worden afgezet."
+   },
+   {
+    "en": "Thirty canons, including canon 28 on the rank of Constantinople.",
+    "nl": "Dertig canons, waaronder canon 28 over de rang van Constantinopel."
+   }
+  ],
+  "traditionNotes": {
+   "ORIENTAL_ORTHODOX": {
+    "en": "The Oriental Orthodox Churches do not receive Chalcedon. With St Cyril they confess \"one incarnate nature of God the Word\" – not a mixture, but the one Christ, fully God and fully man. Dioscorus is honoured as a saint and confessor. Since the 1960s, dialogues have concluded that both families confess the same faith in different words.",
+    "nl": "De Oriëntaals-Orthodoxe Kerken aanvaarden Chalcedon niet. Met de heilige Cyrillus belijden zij \"één vleesgeworden natuur van God het Woord\" – geen vermenging, maar de ene Christus, volkomen God en volkomen mens. Dioscorus wordt als heilige en belijder vereerd. Sinds de jaren zestig concluderen dialogen dat beide families hetzelfde geloof in andere woorden belijden."
+   },
+   "CATHOLIC": {
+    "en": "Rome accepted the doctrinal definition but rejected canon 28, which placed Constantinople second only to Rome.",
+    "nl": "Rome aanvaardde de geloofsdefinitie, maar verwierp canon 28, die Constantinopel direct na Rome plaatste."
+   }
+  },
+  "summary": {
    "en": "After Ephesus, Eutyches taught that Christ's humanity was absorbed into His divinity. The disputed Second Council of Ephesus (449) had upheld him; Pope Leo and the emperor sought a new council.",
    "nl": "Na Efeze leerde Eutyches dat de mensheid van Christus in Zijn godheid was opgegaan. Het omstreden Tweede Concilie van Efeze (449) had hem gesteund; paus Leo en de keizer zochten een nieuw concilie."
-  },
-  "canons": [
-   {"en": "Christ is one Person \"in two natures, without confusion, without change, without division, without separation.\"", "nl": "Christus is één Persoon \"in twee naturen, onvermengd, onveranderd, ongedeeld, ongescheiden.\""},
-   {"en": "The Tome of Leo is received.", "nl": "De Tomus van Leo wordt aanvaard."},
-   {"en": "Canon 28: Constantinople receives privileges equal to Old Rome (not accepted by Rome).", "nl": "Canon 28: Constantinopel krijgt gelijke voorrechten als het Oude Rome (niet aanvaard door Rome)."}
-  ],
-  "outcome": {
-   "en": "Chalcedon became the standard of Christology for the Byzantine and Latin churches. The Coptic, Syriac, Armenian and Ethiopian churches did not receive it, confessing instead the one incarnate nature of God the Word (miaphysitism, not Eutychianism). Modern dialogues have found deep agreement in substance.",
-   "nl": "Chalcedon werd de maatstaf van de christologie voor de Byzantijnse en Latijnse kerken. De Koptische, Syrische, Armeense en Ethiopische kerken aanvaardden het niet, en belijden in plaats daarvan de ene vleesgeworden natuur van God het Woord (miafysitisme, geen eutychianisme). Moderne dialogen vonden diepe overeenstemming in de zaak."
-  },
-  "passages": ["HEB 2:14-18", "HEB 4:14-16", "JHN 11:32-44", "PHP 2:5-11"],
-  "quiz": [
-   {"q": {"en": "What formula did Chalcedon use for Christ?", "nl": "Welke formule gebruikte Chalcedon voor Christus?"},
-    "options": [{"en": "One Person in two natures", "nl": "Eén Persoon in twee naturen"}, {"en": "Two persons in one body", "nl": "Twee personen in één lichaam"}, {"en": "One nature only, the divine", "nl": "Eén natuur, alleen de goddelijke"}], "answer": 0},
-   {"q": {"en": "Which churches did not receive Chalcedon?", "nl": "Welke kerken aanvaardden Chalcedon niet?"},
-    "options": [{"en": "The Latin churches", "nl": "De Latijnse kerken"}, {"en": "The Oriental Orthodox churches", "nl": "De Oriëntaals-Orthodoxe kerken"}, {"en": "The Byzantine churches", "nl": "De Byzantijnse kerken"}], "answer": 1}
-  ]
+  }
  },
  {
-  "id": "constantinople-2", "number": 5, "year": "553", "recognizedBy": ["EASTERN_ORTHODOX", "CATHOLIC"],
-  "name": {"en": "Second Council of Constantinople", "nl": "Tweede Concilie van Constantinopel"},
-  "convokedBy": {"en": "Emperor Justinian I", "nl": "Keizer Justinianus I"},
-  "reason": {
+  "id": "constantinople-2",
+  "number": 5,
+  "year": "553",
+  "recognizedBy": [
+   "EASTERN_ORTHODOX",
+   "CATHOLIC"
+  ],
+  "name": {
+   "en": "Second Council of Constantinople",
+   "nl": "Tweede Concilie van Constantinopel"
+  },
+  "convokedBy": {
+   "en": "Emperor Justinian I",
+   "nl": "Keizer Justinianus I"
+  },
+  "canons": [
+   {
+    "en": "The Three Chapters are condemned; Chalcedon is read in the light of Cyril of Alexandria.",
+    "nl": "De Drie Kapittels worden veroordeeld; Chalcedon wordt gelezen in het licht van Cyrillus van Alexandrië."
+   },
+   {
+    "en": "\"One of the Holy Trinity suffered in the flesh\" is confessed.",
+    "nl": "\"Eén van de Heilige Drie-eenheid heeft in het vlees geleden\" wordt beleden."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The council clarified that the one who suffered on the Cross is the eternal Son, but it did not achieve reunion with the non-Chalcedonian churches."
+   ],
+   "nl": [
+    "Het concilie verduidelijkte dat Hij die aan het Kruis leed de eeuwige Zoon is, maar bracht geen hereniging met de niet-Chalcedonische kerken."
+   ]
+  },
+  "passages": [
+   "1CO 2:6-8",
+   "ACT 3:12-16",
+   "GAL 2:20",
+   "JHN 19:28-37"
+  ],
+  "quiz": [
+   {
+    "q": {
+     "en": "What were the \"Three Chapters\"?",
+     "nl": "Wat waren de \"Drie Kapittels\"?"
+    },
+    "options": [
+     {
+      "en": "Three chapters of Genesis",
+      "nl": "Drie hoofdstukken van Genesis"
+     },
+     {
+      "en": "Writings seen as favouring Nestorius",
+      "nl": "Geschriften die Nestorius leken te begunstigen"
+     },
+     {
+      "en": "Three new canons on fasting",
+      "nl": "Drie nieuwe canons over vasten"
+     }
+    ],
+    "answer": 1
+   }
+  ],
+  "place": {
+   "en": "Constantinople, Hagia Sophia",
+   "nl": "Constantinopel, Hagia Sophia"
+  },
+  "participants": "± 165",
+  "keyFigures": [
+   "Emperor Justinian I",
+   "Eutychius of Constantinople",
+   "Pope Vigilius"
+  ],
+  "heresy": {
+   "en": "Nestorian tendencies in the \"Three Chapters\"; also Origenist speculation.",
+   "nl": "Nestoriaanse tendensen in de \"Drie Kapittels\"; ook origenistische speculatie."
+  },
+  "background": {
+   "en": [
+    "A century after Chalcedon, the empire was still divided. Many in Egypt and Syria saw Chalcedon as a betrayal of Cyril. Emperor Justinian hoped to win them back by condemning three writers who had been favourable to Nestorius: Theodore of Mopsuestia, certain writings of Theodoret, and the letter of Ibas of Edessa.",
+    "Pope Vigilius hesitated for years, was brought to Constantinople, and wavered between consent and refusal. The council met in May 553 without him."
+   ],
+   "nl": [
+    "Een eeuw na Chalcedon was het rijk nog verdeeld. Velen in Egypte en Syrië zagen Chalcedon als verraad aan Cyrillus. Keizer Justinianus hoopte hen terug te winnen door drie schrijvers te veroordelen die Nestorius gunstig gezind waren geweest: Theodorus van Mopsuestia, bepaalde geschriften van Theodoretus en de brief van Ibas van Edessa.",
+    "Paus Vigilius aarzelde jarenlang, werd naar Constantinopel gebracht en schommelde tussen instemming en weigering. Het concilie kwam in mei 553 zonder hem bijeen."
+   ]
+  },
+  "events": {
+   "en": [
+    "The council examined the Three Chapters and condemned them in fourteen anathemas, which interpret Chalcedon in the light of Cyril: the one hypostasis of Christ is the eternal Word. It confessed that \"one of the Holy Trinity suffered in the flesh\".",
+    "Vigilius later accepted the council's decisions. The hoped-for reunion with the non-Chalcedonian churches did not come."
+   ],
+   "nl": [
+    "Het concilie onderzocht de Drie Kapittels en veroordeelde ze in veertien anathema's, die Chalcedon lezen in het licht van Cyrillus: de ene hypostase van Christus is het eeuwige Woord. Het beleed dat \"één van de Heilige Drie-eenheid in het vlees heeft geleden\".",
+    "Vigilius aanvaardde later de besluiten van het concilie. De gehoopte hereniging met de niet-Chalcedonische kerken kwam er niet."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "The Three Chapters are condemned.",
+    "nl": "De Drie Kapittels worden veroordeeld."
+   },
+   {
+    "en": "Chalcedon is to be read with Cyril: the one person of Christ is the eternal Son.",
+    "nl": "Chalcedon moet met Cyrillus gelezen worden: de ene persoon van Christus is de eeuwige Zoon."
+   },
+   {
+    "en": "\"One of the Trinity was crucified in the flesh.\"",
+    "nl": "\"Eén van de Drie-eenheid werd in het vlees gekruisigd.\""
+   }
+  ],
+  "traditionNotes": {},
+  "summary": {
    "en": "Justinian hoped to reconcile the non-Chalcedonians by condemning writings of Theodore of Mopsuestia, Theodoret and Ibas (the \"Three Chapters\") that seemed to favour Nestorius.",
    "nl": "Justinianus hoopte de niet-Chalcedoniërs te verzoenen door geschriften van Theodorus van Mopsuestia, Theodoretus en Ibas (de \"Drie Kapittels\") te veroordelen die Nestorius leken te begunstigen."
-  },
-  "canons": [
-   {"en": "The Three Chapters are condemned; Chalcedon is read in the light of Cyril of Alexandria.", "nl": "De Drie Kapittels worden veroordeeld; Chalcedon wordt gelezen in het licht van Cyrillus van Alexandrië."},
-   {"en": "\"One of the Holy Trinity suffered in the flesh\" is confessed.", "nl": "\"Eén van de Heilige Drie-eenheid heeft in het vlees geleden\" wordt beleden."}
-  ],
-  "outcome": {
-   "en": "The council clarified that the one who suffered on the Cross is the eternal Son, but it did not achieve reunion with the non-Chalcedonian churches.",
-   "nl": "Het concilie verduidelijkte dat Hij die aan het Kruis leed de eeuwige Zoon is, maar bracht geen hereniging met de niet-Chalcedonische kerken."
-  },
-  "passages": ["1CO 2:6-8", "ACT 3:12-16", "GAL 2:20", "JHN 19:28-37"],
-  "quiz": [
-   {"q": {"en": "What were the \"Three Chapters\"?", "nl": "Wat waren de \"Drie Kapittels\"?"},
-    "options": [{"en": "Three chapters of Genesis", "nl": "Drie hoofdstukken van Genesis"}, {"en": "Writings seen as favouring Nestorius", "nl": "Geschriften die Nestorius leken te begunstigen"}, {"en": "Three new canons on fasting", "nl": "Drie nieuwe canons over vasten"}], "answer": 1}
-  ]
+  }
  },
  {
-  "id": "constantinople-3", "number": 6, "year": "680–681", "recognizedBy": ["EASTERN_ORTHODOX", "CATHOLIC"],
-  "name": {"en": "Third Council of Constantinople", "nl": "Derde Concilie van Constantinopel"},
-  "convokedBy": {"en": "Emperor Constantine IV", "nl": "Keizer Constantijn IV"},
-  "reason": {
+  "id": "constantinople-3",
+  "number": 6,
+  "year": "680–681",
+  "recognizedBy": [
+   "EASTERN_ORTHODOX",
+   "CATHOLIC"
+  ],
+  "name": {
+   "en": "Third Council of Constantinople",
+   "nl": "Derde Concilie van Constantinopel"
+  },
+  "convokedBy": {
+   "en": "Emperor Constantine IV",
+   "nl": "Keizer Constantijn IV"
+  },
+  "canons": [
+   {
+    "en": "Christ has two natural wills and two natural operations, divine and human, the human will freely obeying the divine.",
+    "nl": "Christus heeft twee natuurlijke willen en twee natuurlijke werkingen, goddelijk en menselijk, waarbij de menselijke wil vrij gehoorzaamt aan de goddelijke."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Gethsemane became the great icon of salvation: \"not my will, but yours be done.\" The teaching of Maximus was vindicated after his death."
+   ],
+   "nl": [
+    "Getsemane werd het grote beeld van de verlossing: \"niet mijn wil, maar de uwe geschiede.\" De leer van Maximus werd na zijn dood gerechtvaardigd."
+   ]
+  },
+  "passages": [
+   "LUK 22:39-46",
+   "MAT 26:36-46",
+   "HEB 5:7-9",
+   "JHN 6:38"
+  ],
+  "quiz": [
+   {
+    "q": {
+     "en": "What did this council teach about Christ's will?",
+     "nl": "Wat leerde dit concilie over de wil van Christus?"
+    },
+    "options": [
+     {
+      "en": "He has only a divine will",
+      "nl": "Hij heeft alleen een goddelijke wil"
+     },
+     {
+      "en": "He has two wills, divine and human, in harmony",
+      "nl": "Hij heeft twee willen, goddelijk en menselijk, in harmonie"
+     },
+     {
+      "en": "He has no will of His own",
+      "nl": "Hij heeft geen eigen wil"
+     }
+    ],
+    "answer": 1
+   },
+   {
+    "q": {
+     "en": "Which scene shows Christ's human will obeying the Father?",
+     "nl": "Welk tafereel toont de menselijke wil van Christus die de Vader gehoorzaamt?"
+    },
+    "options": [
+     {
+      "en": "The Transfiguration",
+      "nl": "De Verheerlijking"
+     },
+     {
+      "en": "The wedding at Cana",
+      "nl": "De bruiloft te Kana"
+     },
+     {
+      "en": "Gethsemane",
+      "nl": "Getsemane"
+     }
+    ],
+    "answer": 2
+   }
+  ],
+  "place": {
+   "en": "Constantinople, the domed hall (Trullo) of the palace",
+   "nl": "Constantinopel, de koepelzaal (Trullo) van het paleis"
+  },
+  "participants": "± 170",
+  "keyFigures": [
+   "Emperor Constantine IV",
+   "Pope Agatho",
+   "George of Constantinople",
+   "Macarius of Antioch (condemned)",
+   "Maximus the Confessor (†662)"
+  ],
+  "heresy": {
+   "en": "Monothelitism: Christ has only one will and one operation.",
+   "nl": "Monotheletisme: Christus heeft slechts één wil en één werking."
+  },
+  "background": {
+   "en": [
+    "In the 630s Patriarch Sergius and Emperor Heraclius proposed that Christ has one \"theandric\" operation and one will, hoping to reconcile the non-Chalcedonians while Persia and then the Arabs pressed on the empire.",
+    "Maximus the Confessor and Pope Martin I resisted: if Christ has no human will, our will is not healed. Martin died in exile; Maximus' tongue and right hand were cut off. Two decades later Emperor Constantine IV called a council."
+   ],
+   "nl": [
+    "In de jaren 630 stelden patriarch Sergius en keizer Heraclius voor dat Christus één \"theandrische\" werking en één wil heeft, in de hoop de niet-Chalcedoniërs te verzoenen terwijl Perzië en daarna de Arabieren het rijk bedreigden.",
+    "Maximus de Belijder en paus Martinus I verzetten zich: als Christus geen menselijke wil heeft, is onze wil niet genezen. Martinus stierf in ballingschap; bij Maximus werden tong en rechterhand afgehakt. Twintig jaar later riep keizer Constantijn IV een concilie bijeen."
+   ]
+  },
+  "events": {
+   "en": [
+    "The council met in eighteen sessions from November 680 to September 681. The letter of Pope Agatho was read: Christ, perfect God and perfect man, has two natural wills, the human will obeying the divine. The patristic florilegia were checked and some quotations offered by the monothelites were shown to be falsified.",
+    "Macarius of Antioch held to monothelitism and was deposed. Earlier leaders, including Pope Honorius, were anathematized."
+   ],
+   "nl": [
+    "Het concilie vergaderde in achttien zittingen van november 680 tot september 681. De brief van paus Agatho werd voorgelezen: Christus, volmaakt God en volmaakt mens, heeft twee natuurlijke willen, waarbij de menselijke wil de goddelijke gehoorzaamt. De verzamelingen van vaderteksten werden gecontroleerd, en sommige citaten van de monotheleten bleken vervalst.",
+    "Macarius van Antiochië hield vast aan het monotheletisme en werd afgezet. Eerdere leiders, onder wie paus Honorius, werden veroordeeld."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Christ has two natural wills and two natural operations, without division or confusion.",
+    "nl": "Christus heeft twee natuurlijke willen en twee natuurlijke werkingen, ongedeeld en onvermengd."
+   },
+   {
+    "en": "His human will is not opposed to the divine will but follows and submits to it.",
+    "nl": "Zijn menselijke wil staat niet tegenover de goddelijke, maar volgt en onderwerpt zich eraan."
+   },
+   {
+    "en": "Monothelitism and its teachers are condemned.",
+    "nl": "Het monotheletisme en zijn leraren worden veroordeeld."
+   }
+  ],
+  "traditionNotes": {},
+  "summary": {
    "en": "Monothelitism taught that Christ has only one will. Maximus the Confessor and Pope Martin suffered for opposing it: without a human will, Christ would not have healed our will.",
    "nl": "Het monotheletisme leerde dat Christus slechts één wil heeft. Maximus de Belijder en paus Martinus leden omdat zij zich ertegen verzetten: zonder menselijke wil zou Christus onze wil niet hebben genezen."
-  },
-  "canons": [
-   {"en": "Christ has two natural wills and two natural operations, divine and human, the human will freely obeying the divine.", "nl": "Christus heeft twee natuurlijke willen en twee natuurlijke werkingen, goddelijk en menselijk, waarbij de menselijke wil vrij gehoorzaamt aan de goddelijke."}
-  ],
-  "outcome": {
-   "en": "Gethsemane became the great icon of salvation: \"not my will, but yours be done.\" The teaching of Maximus was vindicated after his death.",
-   "nl": "Getsemane werd het grote beeld van de verlossing: \"niet mijn wil, maar de uwe geschiede.\" De leer van Maximus werd na zijn dood gerechtvaardigd."
-  },
-  "passages": ["LUK 22:39-46", "MAT 26:36-46", "HEB 5:7-9", "JHN 6:38"],
-  "quiz": [
-   {"q": {"en": "What did this council teach about Christ's will?", "nl": "Wat leerde dit concilie over de wil van Christus?"},
-    "options": [{"en": "He has only a divine will", "nl": "Hij heeft alleen een goddelijke wil"}, {"en": "He has two wills, divine and human, in harmony", "nl": "Hij heeft twee willen, goddelijk en menselijk, in harmonie"}, {"en": "He has no will of His own", "nl": "Hij heeft geen eigen wil"}], "answer": 1},
-   {"q": {"en": "Which scene shows Christ's human will obeying the Father?", "nl": "Welk tafereel toont de menselijke wil van Christus die de Vader gehoorzaamt?"},
-    "options": [{"en": "The Transfiguration", "nl": "De Verheerlijking"}, {"en": "The wedding at Cana", "nl": "De bruiloft te Kana"}, {"en": "Gethsemane", "nl": "Getsemane"}], "answer": 2}
-  ]
+  }
  },
  {
-  "id": "nicaea-2", "number": 7, "year": "787", "recognizedBy": ["EASTERN_ORTHODOX", "CATHOLIC"],
-  "name": {"en": "Second Council of Nicaea", "nl": "Tweede Concilie van Nicea"},
-  "convokedBy": {"en": "Empress Irene and Patriarch Tarasius", "nl": "Keizerin Irene en patriarch Tarasius"},
-  "reason": {
+  "id": "nicaea-2",
+  "number": 7,
+  "year": "787",
+  "recognizedBy": [
+   "EASTERN_ORTHODOX",
+   "CATHOLIC"
+  ],
+  "name": {
+   "en": "Second Council of Nicaea",
+   "nl": "Tweede Concilie van Nicea"
+  },
+  "convokedBy": {
+   "en": "Empress Irene and Patriarch Tarasius",
+   "nl": "Keizerin Irene en patriarch Tarasius"
+  },
+  "canons": [
+   {
+    "en": "Icons of Christ, the Theotokos, angels and saints may be venerated; worship (latreia) belongs to God alone.",
+    "nl": "Iconen van Christus, de Moeder Gods, engelen en heiligen mogen vereerd worden; aanbidding (latreia) komt alleen God toe."
+   },
+   {
+    "en": "\"The honour given to the image passes to its prototype.\"",
+    "nl": "\"De eer die aan het beeld wordt bewezen, gaat over op het oerbeeld.\""
+   },
+   {
+    "en": "Canon 7: every church is to be consecrated with relics.",
+    "nl": "Canon 7: elke kerk moet met relieken worden ingewijd."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "After a second wave of iconoclasm, icons were finally restored in 843, celebrated in the East as the Triumph of Orthodoxy on the first Sunday of Great Lent."
+   ],
+   "nl": [
+    "Na een tweede golf van iconoclasme werden de iconen in 843 definitief hersteld, in het Oosten gevierd als de Zondag van de Orthodoxie op de eerste zondag van de Grote Vasten."
+   ]
+  },
+  "passages": [
+   "EXO 25:17-22",
+   "COL 1:15",
+   "JHN 1:14-18",
+   "HEB 12:1-2"
+  ],
+  "quiz": [
+   {
+    "q": {
+     "en": "According to the council, to whom does the honour shown to an icon pass?",
+     "nl": "Op wie gaat volgens het concilie de eer over die aan een icoon wordt bewezen?"
+    },
+    "options": [
+     {
+      "en": "To the painter",
+      "nl": "Op de schilder"
+     },
+     {
+      "en": "To the prototype it depicts",
+      "nl": "Op het oerbeeld dat het afbeeldt"
+     },
+     {
+      "en": "To the church building",
+      "nl": "Op het kerkgebouw"
+     }
+    ],
+    "answer": 1
+   }
+  ],
+  "place": {
+   "en": "Nicaea, Church of Hagia Sophia",
+   "nl": "Nicea, kerk van de Hagia Sophia"
+  },
+  "participants": "± 350",
+  "keyFigures": [
+   "Empress Irene",
+   "Patriarch Tarasius",
+   "Pope Hadrian I",
+   "John of Damascus (†749)",
+   "Theodore the Studite"
+  ],
+  "heresy": {
+   "en": "Iconoclasm: images of Christ and the saints are idolatry.",
+   "nl": "Iconoclasme: afbeeldingen van Christus en de heiligen zijn afgoderij."
+  },
+  "background": {
+   "en": [
+    "From 726 Emperor Leo III and then Constantine V ordered icons to be removed and destroyed. The iconoclast council of Hieria (754) declared all icons idolatrous. Monks who resisted were persecuted. In Palestine, outside imperial reach, John of Damascus wrote that God, who became visible in Christ, may be depicted.",
+    "After the death of Leo IV, Empress Irene, regent for her son, prepared a council with Patriarch Tarasius and Pope Hadrian. A first attempt in Constantinople in 786 was broken up by iconoclast soldiers; the council met in Nicaea in 787."
+   ],
+   "nl": [
+    "Vanaf 726 lieten keizer Leo III en daarna Constantijn V iconen verwijderen en vernietigen. Het iconoclastische concilie van Hieria (754) verklaarde alle iconen tot afgoderij. Monniken die zich verzetten werden vervolgd. In Palestina, buiten het bereik van de keizer, schreef Johannes van Damascus dat God, die in Christus zichtbaar werd, afgebeeld mag worden.",
+    "Na de dood van Leo IV bereidde keizerin Irene, regentes voor haar zoon, met patriarch Tarasius en paus Hadrianus een concilie voor. Een eerste poging in Constantinopel in 786 werd door iconoclastische soldaten verstoord; het concilie kwam in 787 in Nicea bijeen."
+   ]
+  },
+  "events": {
+   "en": [
+    "In seven sessions the bishops heard repentant iconoclast bishops, read Scripture and the Fathers on images, and examined the definition of Hieria point by point. They distinguished the relative honour (proskynesis) given to icons from the worship (latreia) due to God alone.",
+    "The final session was held in the Magnaura palace in Constantinople in the presence of Irene and her son."
+   ],
+   "nl": [
+    "In zeven zittingen hoorden de bisschoppen berouwvolle iconoclastische bisschoppen aan, lazen zij de Schrift en de Vaders over beelden, en onderzochten zij de definitie van Hieria punt voor punt. Zij onderscheidden de relatieve eer (proskynesis) die aan iconen wordt bewezen van de aanbidding (latreia) die alleen God toekomt.",
+    "De laatste zitting werd gehouden in het Magnaura-paleis in Constantinopel, in aanwezigheid van Irene en haar zoon."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Icons of Christ, the Theotokos, the angels and the saints are to be set up and venerated.",
+    "nl": "Iconen van Christus, de Moeder Gods, de engelen en de heiligen mogen worden opgesteld en vereerd."
+   },
+   {
+    "en": "\"The honour paid to the image passes to its prototype.\"",
+    "nl": "\"De eer die aan het beeld wordt bewezen, gaat over op het oerbeeld.\""
+   },
+   {
+    "en": "Worship (latreia) belongs to God alone.",
+    "nl": "Aanbidding (latreia) komt alleen God toe."
+   },
+   {
+    "en": "Twenty-two canons on church order, simony and monastic life.",
+    "nl": "Tweeëntwintig canons over kerkorde, simonie en het kloosterleven."
+   }
+  ],
+  "traditionNotes": {
+   "EASTERN_ORTHODOX": {
+    "en": "The final victory of the icons in 843 is celebrated every year on the first Sunday of Great Lent, the Sunday of Orthodoxy.",
+    "nl": "De definitieve overwinning van de iconen in 843 wordt elk jaar gevierd op de eerste zondag van de Grote Vasten, de Zondag van de Orthodoxie."
+   }
+  },
+  "summary": {
    "en": "Iconoclast emperors had ordered the destruction of icons. John of Damascus answered that since God became visible in Christ, He may be depicted.",
    "nl": "Iconoclastische keizers hadden de vernietiging van iconen bevolen. Johannes van Damascus antwoordde dat God, omdat Hij in Christus zichtbaar werd, ook afgebeeld mag worden."
-  },
-  "canons": [
-   {"en": "Icons of Christ, the Theotokos, angels and saints may be venerated; worship (latreia) belongs to God alone.", "nl": "Iconen van Christus, de Moeder Gods, engelen en heiligen mogen vereerd worden; aanbidding (latreia) komt alleen God toe."},
-   {"en": "\"The honour given to the image passes to its prototype.\"", "nl": "\"De eer die aan het beeld wordt bewezen, gaat over op het oerbeeld.\""},
-   {"en": "Canon 7: every church is to be consecrated with relics.", "nl": "Canon 7: elke kerk moet met relieken worden ingewijd."}
-  ],
-  "outcome": {
-   "en": "After a second wave of iconoclasm, icons were finally restored in 843, celebrated in the East as the Triumph of Orthodoxy on the first Sunday of Great Lent.",
-   "nl": "Na een tweede golf van iconoclasme werden de iconen in 843 definitief hersteld, in het Oosten gevierd als de Zondag van de Orthodoxie op de eerste zondag van de Grote Vasten."
-  },
-  "passages": ["EXO 25:17-22", "COL 1:15", "JHN 1:14-18", "HEB 12:1-2"],
-  "quiz": [
-   {"q": {"en": "According to the council, to whom does the honour shown to an icon pass?", "nl": "Op wie gaat volgens het concilie de eer over die aan een icoon wordt bewezen?"},
-    "options": [{"en": "To the painter", "nl": "Op de schilder"}, {"en": "To the prototype it depicts", "nl": "Op het oerbeeld dat het afbeeldt"}, {"en": "To the church building", "nl": "Op het kerkgebouw"}], "answer": 1}
-  ]
+  }
  },
  {
-  "id": "constantinople-4", "number": 8, "year": "869–870", "recognizedBy": ["CATHOLIC"],
-  "name": {"en": "Fourth Council of Constantinople", "nl": "Vierde Concilie van Constantinopel"},
-  "convokedBy": {"en": "Emperor Basil I and Pope Adrian II", "nl": "Keizer Basilius I en paus Adrianus II"},
-  "reason": {
-   "en": "A dispute over the patriarchal see of Constantinople between Ignatius and Photius had become a conflict between Rome and Constantinople.",
-   "nl": "Een geschil over de patriarchale zetel van Constantinopel tussen Ignatius en Photius was uitgegroeid tot een conflict tussen Rome en Constantinopel."
+  "id": "constantinople-4",
+  "number": 8,
+  "year": "869–870",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "name": {
+   "en": "Fourth Council of Constantinople",
+   "nl": "Vierde Concilie van Constantinopel"
+  },
+  "convokedBy": {
+   "en": "Emperor Basil I and Pope Adrian II",
+   "nl": "Keizer Basilius I en paus Adrianus II"
   },
   "canons": [
-   {"en": "Photius is deposed and Ignatius restored.", "nl": "Photius wordt afgezet en Ignatius hersteld."},
-   {"en": "Canon 3: the veneration of icons is reaffirmed.", "nl": "Canon 3: de verering van iconen wordt opnieuw bevestigd."},
-   {"en": "Canon 21: the order of the patriarchates is confirmed.", "nl": "Canon 21: de rangorde van de patriarchaten wordt bevestigd."}
+   {
+    "en": "Photius is deposed and Ignatius restored.",
+    "nl": "Photius wordt afgezet en Ignatius hersteld."
+   },
+   {
+    "en": "Canon 3: the veneration of icons is reaffirmed.",
+    "nl": "Canon 3: de verering van iconen wordt opnieuw bevestigd."
+   },
+   {
+    "en": "Canon 21: the order of the patriarchates is confirmed.",
+    "nl": "Canon 21: de rangorde van de patriarchaten wordt bevestigd."
+   }
   ],
   "outcome": {
-   "en": "Catholics count this council as the eighth ecumenical council. The Orthodox do not receive it; many regard the later council of 879–880, which restored Photius, as authoritative instead.",
-   "nl": "Katholieken tellen dit concilie als het achtste oecumenische concilie. De Orthodoxen aanvaarden het niet; velen beschouwen in plaats daarvan het latere concilie van 879–880, dat Photius herstelde, als gezaghebbend."
+   "en": [
+    "Catholics count this council as the eighth ecumenical council. The Orthodox do not receive it; many regard the later council of 879–880, which restored Photius, as authoritative instead."
+   ],
+   "nl": [
+    "Katholieken tellen dit concilie als het achtste oecumenische concilie. De Orthodoxen aanvaarden het niet; velen beschouwen in plaats daarvan het latere concilie van 879–880, dat Photius herstelde, als gezaghebbend."
+   ]
   },
-  "passages": ["JHN 17:20-23", "EPH 4:1-6", "1CO 1:10-13"],
+  "passages": [
+   "JHN 17:20-23",
+   "EPH 4:1-6",
+   "1CO 1:10-13"
+  ],
   "quiz": [
-   {"q": {"en": "Whose patriarchate was at the centre of this council?", "nl": "Om wiens patriarchaat draaide dit concilie?"},
-    "options": [{"en": "Photius and Ignatius", "nl": "Photius en Ignatius"}, {"en": "Cyril and Nestorius", "nl": "Cyrillus en Nestorius"}, {"en": "Leo and Dioscorus", "nl": "Leo en Dioscorus"}], "answer": 0}
-  ]
+   {
+    "q": {
+     "en": "Whose patriarchate was at the centre of this council?",
+     "nl": "Om wiens patriarchaat draaide dit concilie?"
+    },
+    "options": [
+     {
+      "en": "Photius and Ignatius",
+      "nl": "Photius en Ignatius"
+     },
+     {
+      "en": "Cyril and Nestorius",
+      "nl": "Cyrillus en Nestorius"
+     },
+     {
+      "en": "Leo and Dioscorus",
+      "nl": "Leo en Dioscorus"
+     }
+    ],
+    "answer": 0
+   }
+  ],
+  "place": {
+   "en": "Constantinople, Hagia Sophia",
+   "nl": "Constantinopel, Hagia Sophia"
+  },
+  "participants": "12–103",
+  "keyFigures": [
+   "Emperor Basil I",
+   "Pope Adrian II",
+   "Patriarch Ignatius",
+   "Patriarch Photius"
+  ],
+  "heresy": {
+   "en": "A schism over the patriarchal see of Constantinople.",
+   "nl": "Een schisma over de patriarchale zetel van Constantinopel."
+  },
+  "background": {
+   "en": [
+    "In 858 Patriarch Ignatius was forced to resign and the learned layman Photius was made patriarch in a few days. Pope Nicholas I refused to recognise Photius. The dispute widened over jurisdiction in Bulgaria and over the Filioque.",
+    "In 867 Emperor Basil I deposed Photius and restored Ignatius, and asked Rome to send legates to a council."
+   ],
+   "nl": [
+    "In 858 werd patriarch Ignatius gedwongen af te treden en werd de geleerde leek Photius in enkele dagen tot patriarch gemaakt. Paus Nicolaas I weigerde Photius te erkennen. Het geschil breidde zich uit over de jurisdictie in Bulgarije en over het Filioque.",
+    "In 867 zette keizer Basilius I Photius af, herstelde Ignatius en vroeg Rome legaten naar een concilie te sturen."
+   ]
+  },
+  "events": {
+   "en": [
+    "Attendance was small at first and grew to about a hundred bishops at the end. Photius was condemned and his ordinations declared invalid. Ten years later, after the death of Ignatius, Photius was restored, and a council in 879–880, with papal legates, annulled the decisions of 869–870.",
+    "In the West, the council of 869–870 was counted as the eighth ecumenical council from the eleventh century on. The Orthodox do not receive it."
+   ],
+   "nl": [
+    "De opkomst was eerst klein en groeide aan het eind tot ongeveer honderd bisschoppen. Photius werd veroordeeld en zijn wijdingen ongeldig verklaard. Tien jaar later, na de dood van Ignatius, werd Photius hersteld, en een concilie in 879–880, met pauselijke legaten, hief de besluiten van 869–870 op.",
+    "In het Westen werd het concilie van 869–870 vanaf de elfde eeuw als het achtste oecumenische concilie geteld. De Orthodoxen aanvaarden het niet."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Photius is deposed and Ignatius restored.",
+    "nl": "Photius wordt afgezet en Ignatius hersteld."
+   },
+   {
+    "en": "Canon 3 confirms the veneration of icons.",
+    "nl": "Canon 3 bevestigt de verering van iconen."
+   },
+   {
+    "en": "Canon 21 sets the order of the five patriarchates.",
+    "nl": "Canon 21 legt de volgorde van de vijf patriarchaten vast."
+   }
+  ],
+  "traditionNotes": {
+   "EASTERN_ORTHODOX": {
+    "en": "Many Orthodox regard the council of 879–880, which restored Photius, as the eighth great council.",
+    "nl": "Veel Orthodoxen beschouwen het concilie van 879–880, dat Photius herstelde, als het achtste grote concilie."
+   }
+  },
+  "summary": {
+   "en": "A dispute over the patriarchal see of Constantinople between Ignatius and Photius had become a conflict between Rome and Constantinople.",
+   "nl": "Een geschil over de patriarchale zetel van Constantinopel tussen Ignatius en Photius was uitgegroeid tot een conflict tussen Rome en Constantinopel."
+  }
  }
 ]

@@ -42,6 +42,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Path
@@ -57,15 +58,15 @@ import androidx.compose.ui.unit.dp
 /** Corner radius per style: crisp for Classic Sacred, softer for the others. */
 val cardShape: Shape
     @Composable get() = when (AgapeTheme.style) {
-        VisualStyle.NAVY_CREAM -> RoundedCornerShape(18.dp)
-        VisualStyle.CLASSIC_SACRED -> RoundedCornerShape(6.dp)
-        VisualStyle.WARM_TERRACOTTA -> RoundedCornerShape(24.dp)
+        VisualStyle.NAVY_CREAM -> RoundedCornerShape(24.dp)
+        VisualStyle.CLASSIC_SACRED -> RoundedCornerShape(14.dp)
+        VisualStyle.WARM_TERRACOTTA -> RoundedCornerShape(28.dp)
     }
 
 val buttonShape: Shape
     @Composable get() = when (AgapeTheme.style) {
-        VisualStyle.NAVY_CREAM -> RoundedCornerShape(14.dp)
-        VisualStyle.CLASSIC_SACRED -> RoundedCornerShape(4.dp)
+        VisualStyle.NAVY_CREAM -> CircleShape
+        VisualStyle.CLASSIC_SACRED -> RoundedCornerShape(12.dp)
         VisualStyle.WARM_TERRACOTTA -> CircleShape
     }
 
@@ -126,11 +127,14 @@ fun AgapeCard(
 ) {
     val c = AgapeTheme.colors
     val shape = cardShape
-    val border = if (AgapeTheme.style == VisualStyle.CLASSIC_SACRED) BorderStroke(1.dp, c.accent.copy(alpha = 0.55f)) else BorderStroke(1.dp, c.line)
+    // Classic Sacred keeps a hairline of gold, like the edge of a printed page; the others float on a soft shadow.
+    val border = if (AgapeTheme.style == VisualStyle.CLASSIC_SACRED && !tonal) BorderStroke(0.75.dp, c.accent.copy(alpha = 0.35f)) else null
     Surface(
-        modifier = modifier.fillMaxWidth().clip(shape).then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier),
+        modifier = modifier.fillMaxWidth()
+            .then(if (tonal || c.isDark) Modifier else Modifier.shadow(14.dp, shape, ambientColor = c.primary.copy(alpha = 0.08f), spotColor = c.primary.copy(alpha = 0.10f)))
+            .clip(shape).then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier),
         shape = shape,
-        color = if (tonal) c.surfaceSunken else c.surface,
+        color = if (tonal) c.surfaceSunken.copy(alpha = 0.7f) else c.surface,
         border = border,
     ) {
         Column(Modifier.padding(contentPadding), content = content)
@@ -177,13 +181,13 @@ fun QuietButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifier
 @Composable
 fun TabHeader(kicker: String, title: String, modifier: Modifier = Modifier, trailing: @Composable RowScope.() -> Unit = {}) {
     Row(
-        modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(start = 20.dp, end = 12.dp, top = 18.dp, bottom = 8.dp),
+        modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(start = 24.dp, end = 12.dp, top = 28.dp, bottom = 12.dp),
         verticalAlignment = Alignment.Bottom,
     ) {
         Column(Modifier.weight(1f)) {
-            Kicker(kicker)
-            Spacer(Modifier.height(4.dp))
-            Text(title, style = MaterialTheme.typography.displaySmall, color = AgapeTheme.colors.ink, modifier = Modifier.semantics { heading() })
+            if (kicker.isNotBlank()) Kicker(kicker, color = AgapeTheme.colors.inkMuted)
+            Spacer(Modifier.height(6.dp))
+            Text(title, style = MaterialTheme.typography.displayMedium, color = AgapeTheme.colors.ink, modifier = Modifier.semantics { heading() })
         }
         trailing()
     }
@@ -193,7 +197,7 @@ fun TabHeader(kicker: String, title: String, modifier: Modifier = Modifier, trai
 @Composable
 fun DetailTopBar(title: String, onBack: () -> Unit, modifier: Modifier = Modifier, actions: @Composable RowScope.() -> Unit = {}) {
     Row(
-        modifier.fillMaxWidth().background(AgapeTheme.colors.background).windowInsetsPadding(WindowInsets.statusBars).padding(horizontal = 4.dp, vertical = 4.dp),
+        modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(horizontal = 4.dp, vertical = 6.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         IconButton(onClick = onBack) {
@@ -220,13 +224,12 @@ fun Pill(text: String, selected: Boolean, onClick: () -> Unit, modifier: Modifie
     val c = AgapeTheme.colors
     Box(
         modifier
-            .clip(buttonShape)
-            .background(if (selected) c.primary else c.surface)
-            .border(1.dp, if (selected) c.primary else c.line, buttonShape)
+            .clip(CircleShape)
+            .background(if (selected) c.primary else c.surfaceSunken.copy(alpha = 0.6f))
             .clickable(onClick = onClick)
-            .padding(horizontal = 16.dp, vertical = 9.dp),
+            .padding(horizontal = 18.dp, vertical = 10.dp),
     ) {
-        Text(text, style = MaterialTheme.typography.labelMedium, color = if (selected) c.onPrimary else c.ink)
+        Text(text, style = MaterialTheme.typography.labelMedium, color = if (selected) c.onPrimary else c.inkMuted)
     }
 }
 
@@ -266,5 +269,5 @@ fun ListRow(title: String, modifier: Modifier = Modifier, subtitle: String? = nu
 
 @Composable
 fun Divider(modifier: Modifier = Modifier) {
-    Box(modifier.fillMaxWidth().padding(horizontal = 20.dp).height(1.dp).background(AgapeTheme.colors.line))
+    Box(modifier.fillMaxWidth().padding(start = 20.dp, end = 20.dp).height(0.5.dp).background(AgapeTheme.colors.line.copy(alpha = 0.7f)))
 }

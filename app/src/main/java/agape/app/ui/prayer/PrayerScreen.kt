@@ -10,6 +10,20 @@ import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.LocalSettings
 import agape.app.ui.components.AgapeCard
+import agape.app.ui.components.Flame
+import agape.app.ui.components.cardShape
+import agape.app.ui.components.daySky
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Brush
 import agape.app.ui.components.AgapeIcons
 import agape.app.ui.components.Divider
 import agape.app.ui.components.Kicker
@@ -87,23 +101,31 @@ fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit) {
         item { TabHeader(kicker = book.book[lang], title = stringResource(R.string.tab_prayer)) }
         current?.let { hour ->
             item {
-                AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), onClick = { openHour(hour.id) }) {
-                    Kicker(stringResource(R.string.prayer_now))
-                    Spacer(Modifier.height(6.dp))
-                    Row(verticalAlignment = Alignment.CenterVertically) {
+                val sky = remember(now, c.isDark) { daySky(now, c.isDark) }
+                Column(
+                    Modifier.padding(horizontal = 16.dp, vertical = 8.dp).fillMaxWidth()
+                        .shadow(20.dp, cardShape, spotColor = sky.bottom.copy(alpha = 0.5f))
+                        .clip(cardShape).background(Brush.verticalGradient(listOf(sky.top, sky.bottom)))
+                        .clickable { openHour(hour.id) }.padding(22.dp),
+                ) {
+                    Row(verticalAlignment = Alignment.Top) {
                         Column(Modifier.weight(1f)) {
-                            Text(hour.name[lang], style = MaterialTheme.typography.headlineLarge, color = c.ink)
-                            Text(hour.subtitle[lang], style = MaterialTheme.typography.titleMedium, color = c.accent)
+                            Kicker(stringResource(R.string.prayer_now), color = sky.muted)
+                            Spacer(Modifier.height(8.dp))
+                            Text(hour.name[lang], style = MaterialTheme.typography.displaySmall, color = sky.text)
+                            Text(hour.subtitle[lang], style = MaterialTheme.typography.titleMedium, color = sky.muted)
                         }
-                        Icon(AgapeIcons.Candle, null, tint = c.primary, modifier = Modifier.size(36.dp))
+                        Flame(size = 56.dp)
                     }
-                    Spacer(Modifier.height(10.dp))
-                    Text(hour.theme[lang], style = MaterialTheme.typography.bodyLarge, color = c.inkMuted)
-                    Spacer(Modifier.height(16.dp))
-                    PrimaryButton(stringResource(R.string.prayer_begin), { openHour(hour.id) })
+                    Spacer(Modifier.height(14.dp))
+                    Text(hour.theme[lang], style = MaterialTheme.typography.bodyLarge, color = sky.text, maxLines = 4)
+                    Spacer(Modifier.height(20.dp))
+                    Box(
+                        Modifier.clip(CircleShape).background(sky.text).clickable { openHour(hour.id) }.padding(horizontal = 22.dp, vertical = 12.dp),
+                    ) { Text(stringResource(R.string.prayer_begin), style = MaterialTheme.typography.labelLarge, color = sky.bottom) }
                     next?.takeIf { it.id != hour.id }?.let {
-                        Spacer(Modifier.height(10.dp))
-                        Text(stringResource(R.string.prayer_next, it.name[lang], it.time), style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
+                        Spacer(Modifier.height(12.dp))
+                        Text(stringResource(R.string.prayer_next, it.name[lang], it.time), style = MaterialTheme.typography.bodySmall, color = sky.muted)
                     }
                 }
             }
@@ -127,10 +149,17 @@ fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit) {
         }
         item { Kicker(stringResource(R.string.prayer_hours), Modifier.padding(start = 20.dp, top = 20.dp, bottom = 4.dp)) }
         items(book.hours, key = { it.id }) { hour ->
+            val isNow = hour.id == current?.id
             ListRow(
                 title = hour.name[lang],
-                subtitle = "${hour.time} · ${hour.subtitle[lang]}",
+                subtitle = hour.subtitle[lang],
                 onClick = { openHour(hour.id) },
+                leading = {
+                    Column(Modifier.width(52.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                        Text(hour.time, style = MaterialTheme.typography.labelLarge, color = if (isNow) c.primary else c.inkMuted)
+                        Box(Modifier.padding(top = 4.dp).size(if (isNow) 10.dp else 6.dp).clip(CircleShape).background(if (isNow) c.accent else c.line))
+                    }
+                },
                 trailing = {
                     val on = settings.prayerNotifications && hour.id in reminders
                     IconButton(onClick = { toggleReminder(hour) }) {
@@ -142,12 +171,24 @@ fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit) {
                     }
                 },
             )
-            Divider()
+        }
+        if (book.extras.isNotEmpty()) {
+            item { Kicker(stringResource(R.string.prayer_services), Modifier.padding(start = 20.dp, top = 24.dp, bottom = 8.dp)) }
+            item {
+                Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    book.extras.forEach { e ->
+                        AgapeCard(Modifier.width(200.dp), onClick = { openHour(e.id) }, contentPadding = PaddingValues(16.dp)) {
+                            Text(e.name[lang], style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 2)
+                            Spacer(Modifier.height(4.dp))
+                            Text(e.subtitle[lang], style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 2)
+                        }
+                    }
+                }
+            }
         }
         item { Kicker(stringResource(R.string.prayer_more), Modifier.padding(start = 20.dp, top = 24.dp, bottom = 4.dp)) }
         items(prayers, key = { it.id }) { p ->
             ListRow(p.title[lang], subtitle = p.subtitle[lang], onClick = { openPrayer(p.id) })
-            Divider()
         }
         item {
             Column(Modifier.fillMaxWidth().padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {

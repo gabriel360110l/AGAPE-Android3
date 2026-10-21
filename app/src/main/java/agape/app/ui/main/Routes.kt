@@ -13,6 +13,9 @@ import kotlinx.serialization.Serializable
 @Serializable data class ReaderRoute(val book: String, val chapter: Int, val verse: Int = 0)
 @Serializable data class ArticleRoute(val id: String)
 @Serializable data class CouncilRoute(val id: String)
+@Serializable data object CouncilsRoute
+@Serializable data object FathersRoute
+@Serializable data class FatherRoute(val id: String)
 
 // Plans and quizzes
 @Serializable data object PlansRoute

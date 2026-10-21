@@ -1,117 +1,1220 @@
 {
  "tradition": "CATHOLIC",
- "book": {"en": "Liturgy of the Hours", "nl": "Getijdengebed"},
+ "book": {
+  "en": "Liturgy of the Hours",
+  "nl": "Getijdengebed"
+ },
  "intro": {
-  "en": "The Liturgy of the Hours is the public prayer of the Church. Morning and Evening Prayer are its two hinges; the Daytime hours and Night Prayer keep the whole day turned toward God. Psalms here follow Week I of the four-week Psalter. (Sample content: the full Psalter cycle and proper texts will be added.)",
-  "nl": "Het Getijdengebed is het openbare gebed van de Kerk. Lauden en Vespers zijn de twee scharnieren; de kleine uren en de Completen houden de hele dag naar God gekeerd. De psalmen volgen hier week I van het vierwekelijkse psalter. (Voorbeeldinhoud: de volledige psalmcyclus en eigen teksten worden nog toegevoegd.)"
+  "en": "The Liturgy of the Hours is the public prayer of the Church. Morning and Evening Prayer are its two hinges; the Daytime hours and Night Prayer keep the whole day turned toward God. Each hour here has its hymn, psalms (Week I of the four-week Psalter), canticle, intercessions and closing prayer. Hymns are classic public-domain translations (J. M. Neale, J. H. Newman).",
+  "nl": "Het Getijdengebed is het openbare gebed van de Kerk. Lauden en Vespers zijn de twee scharnieren; de kleine uren en de Completen houden de hele dag naar God gekeerd. Elk uur heeft hier zijn hymne, psalmen (week I van het psalter), lofzang, voorbeden en slotgebed."
  },
  "hours": [
   {
-   "id": "readings", "time": "05:30",
-   "name": {"en": "Office of Readings", "nl": "Lezingendienst"},
-   "subtitle": {"en": "Scripture and the Fathers", "nl": "Schrift en Vaders"},
-   "theme": {"en": "A longer hour of psalms and readings that can be prayed at any time of day.", "nl": "Een langer uur met psalmen en lezingen, te bidden op elk moment van de dag."},
+   "id": "readings",
+   "time": "05:30",
+   "name": {
+    "en": "Office of Readings",
+    "nl": "Lezingendienst"
+   },
+   "subtitle": {
+    "en": "Scripture and the Fathers",
+    "nl": "Schrift en Vaders"
+   },
+   "theme": {
+    "en": "A longer hour of psalms and readings that can be prayed at any time of day.",
+    "nl": "Een langer uur met psalmen en lezingen, te bidden op elk moment van de dag."
+   },
    "sections": [
-    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
-    {"kind": "scripture", "title": {"en": "Psalm 1", "nl": "Psalm 1"}, "ref": "PSA 1"},
-    {"kind": "scripture", "title": {"en": "Psalm 2", "nl": "Psalm 2"}, "ref": "PSA 2"},
-    {"kind": "scripture", "title": {"en": "Psalm 3", "nl": "Psalm 3"}, "ref": "PSA 3"},
-    {"kind": "text", "title": {"en": "Second reading", "nl": "Tweede lezing"}, "body": {
-     "en": ["A reading from the Fathers or the saints of the day will appear here."],
-     "nl": ["Hier verschijnt een lezing uit de Vaders of van de heilige van de dag."]
-    }},
-    {"kind": "prayer", "prayerId": "glory-be"}
+    {
+     "kind": "prayer",
+     "prayerId": "deus-in-adiutorium"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Hymn · O Trinity of blessed light",
+      "nl": "Hymne · O Drie-eenheid van zalig licht"
+     },
+     "body": {
+      "en": [
+       "O Trinity of blessed light, / O Unity of princely might, / the fiery sun now goes his way; / shed Thou within our hearts Thy ray.",
+       "To Thee our morning song of praise, / to Thee our evening prayer we raise; / Thy glory suppliant we adore / for ever and for evermore.",
+       "All laud to God the Father be; / all praise, eternal Son, to Thee; / all glory, as is ever meet, / to God the holy Paraclete. Amen."
+      ],
+      "nl": [
+       "O Drie-eenheid van zalig licht, / o Eenheid, vorstelijk in macht: / de vurige zon gaat haar weg; / laat Uw stralen in ons hart schijnen.",
+       "Tot U stijgt ons morgenlied, / tot U ons avondgebed; / Uw heerlijkheid aanbidden wij smekend / voor altijd en in eeuwigheid.",
+       "Lof zij God de Vader, / eer aan U, eeuwige Zoon, / en heerlijkheid, zoals het past, / aan God de heilige Trooster. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 1",
+      "nl": "Psalm 1"
+     },
+     "ref": "PSA 1"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 2",
+      "nl": "Psalm 2"
+     },
+     "ref": "PSA 2"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 3",
+      "nl": "Psalm 3"
+     },
+     "ref": "PSA 3"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Second reading · St Augustine, Confessions I.1",
+      "nl": "Tweede lezing · H. Augustinus, Belijdenissen I.1"
+     },
+     "body": {
+      "en": [
+       "Great art Thou, O Lord, and greatly to be praised; great is Thy power, and of Thy wisdom there is no number. And man, being a part of Thy creation, desires to praise Thee; man, who bears about with him his mortality, the witness of his sin, and the witness that Thou resistest the proud.",
+       "Yet man, this part of Thy creation, desires to praise Thee. Thou awakest us to delight in Thy praise; for Thou madest us for Thyself, and our heart is restless, until it rest in Thee."
+      ],
+      "nl": [
+       "Groot bent U, Heer, en zeer te prijzen; groot is Uw kracht, en Uw wijsheid is onmetelijk. En de mens, een deeltje van Uw schepping, wil U prijzen; de mens die zijn sterfelijkheid met zich meedraagt, het getuigenis van zijn zonde en het getuigenis dat U de hoogmoedigen weerstaat.",
+       "En toch wil de mens, dit deeltje van Uw schepping, U prijzen. U wekt ons op om vreugde te vinden in Uw lof; want U hebt ons voor Uzelf gemaakt, en onrustig is ons hart totdat het rust vindt in U."
+      ]
+     }
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Te Deum",
+      "nl": "Te Deum"
+     },
+     "body": {
+      "en": [
+       "We praise Thee, O God; we acknowledge Thee to be the Lord. All the earth doth worship Thee, the Father everlasting.",
+       "To Thee all angels cry aloud, the heavens and all the powers therein; to Thee cherubim and seraphim continually do cry: Holy, holy, holy, Lord God of hosts; heaven and earth are full of the majesty of Thy glory.",
+       "The glorious company of the apostles praise Thee. The goodly fellowship of the prophets praise Thee. The noble army of martyrs praise Thee. The holy Church throughout all the world doth acknowledge Thee: the Father of an infinite majesty; Thine adorable, true and only Son; also the Holy Ghost, the Comforter.",
+       "Thou art the King of glory, O Christ. Thou art the everlasting Son of the Father. When Thou tookest upon Thee to deliver man, Thou didst not abhor the Virgin's womb. When Thou hadst overcome the sharpness of death, Thou didst open the kingdom of heaven to all believers.",
+       "Thou sittest at the right hand of God, in the glory of the Father. We believe that Thou shalt come to be our judge. We therefore pray Thee, help Thy servants, whom Thou hast redeemed with Thy precious blood. Make them to be numbered with Thy saints in glory everlasting.",
+       "O Lord, in Thee have I trusted; let me never be confounded. Amen."
+      ],
+      "nl": [
+       "U, God, loven wij; U, Heer, belijden wij. U, eeuwige Vader, eert heel de aarde.",
+       "Tot U roepen alle engelen, de hemelen en alle machten; tot U roepen cherubijnen en serafijnen onophoudelijk: Heilig, heilig, heilig, Heer God der heerscharen; hemel en aarde zijn vol van de majesteit van Uw heerlijkheid.",
+       "U looft het glorierijke koor van de apostelen, de lofwaardige schaar van de profeten, het witte leger van de martelaren. Over heel de aarde belijdt U de heilige Kerk: Vader van onmetelijke majesteit; Uw aanbiddelijke, ware en enige Zoon; en de Heilige Geest, de Trooster.",
+       "U, Christus, bent de Koning der heerlijkheid, de eeuwige Zoon van de Vader. Om de mens te verlossen hebt U de schoot van de Maagd niet versmaad. U hebt de prikkel van de dood overwonnen en voor de gelovigen het rijk der hemelen geopend.",
+       "U zit aan de rechterhand van God, in de heerlijkheid van de Vader. Wij geloven dat U zult komen als onze rechter. Daarom bidden wij U: kom Uw dienaren te hulp, die U met Uw kostbaar bloed hebt vrijgekocht. Laat hen met Uw heiligen delen in de eeuwige heerlijkheid.",
+       "Op U, Heer, heb ik gehoopt; laat mij nooit beschaamd worden. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "glory-be"
+    }
    ]
   },
   {
-   "id": "lauds", "time": "07:00",
-   "name": {"en": "Morning Prayer", "nl": "Lauden"},
-   "subtitle": {"en": "Lauds", "nl": "Morgengebed"},
-   "theme": {"en": "Praise for the risen Christ, the Sun of justice, at the start of the day.", "nl": "Lof voor de verrezen Christus, de Zon der gerechtigheid, bij het begin van de dag."},
+   "id": "lauds",
+   "time": "07:00",
+   "name": {
+    "en": "Morning Prayer",
+    "nl": "Lauden"
+   },
+   "subtitle": {
+    "en": "Lauds",
+    "nl": "Morgengebed"
+   },
+   "theme": {
+    "en": "Praise for the risen Christ, the Sun of justice, at the start of the day.",
+    "nl": "Lof voor de verrezen Christus, de Zon der gerechtigheid, bij het begin van de dag."
+   },
    "sections": [
-    {"kind": "text", "title": {"en": "Invitatory", "nl": "Invitatorium"}, "body": {
-     "en": ["Lord, open my lips. — And my mouth will proclaim your praise."],
-     "nl": ["Heer, open mijn lippen. — En mijn mond zal uw lof verkondigen."]
-    }},
-    {"kind": "scripture", "title": {"en": "Psalm 95 (94)", "nl": "Psalm 95 (94)"}, "ref": "PSA 95"},
-    {"kind": "scripture", "title": {"en": "Psalm 63 (62)", "nl": "Psalm 63 (62)"}, "ref": "PSA 63"},
-    {"kind": "scripture", "title": {"en": "Psalm 149", "nl": "Psalm 149"}, "ref": "PSA 149"},
-    {"kind": "scripture", "title": {"en": "Benedictus", "nl": "Benedictus"}, "ref": "LUK 1:68-79"},
-    {"kind": "prayer", "prayerId": "our-father"},
-    {"kind": "prayer", "prayerId": "glory-be"}
+    {
+     "kind": "text",
+     "title": {
+      "en": "Invitatory",
+      "nl": "Invitatorium"
+     },
+     "body": {
+      "en": [
+       "Lord, open my lips. — And my mouth will proclaim your praise."
+      ],
+      "nl": [
+       "Heer, open mijn lippen. — En mijn mond zal uw lof verkondigen."
+      ]
+     }
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Hymn · Now that the daylight fills the sky",
+      "nl": "Hymne · Nu het daglicht de hemel vult"
+     },
+     "body": {
+      "en": [
+       "Now that the daylight fills the sky, / we lift our hearts to God on high, / that He, in all we do or say, / would keep us free from harm today.",
+       "May He restrain our tongues from strife, / and shield from anger's din our life, / and guard with watchful care our eyes / from earth's absorbing vanities.",
+       "O may our inmost hearts be pure, / from thoughts of folly kept secure, / and pride of sinful flesh subdued / through sparing use of daily food.",
+       "So we, when this day's work is o'er, / and shades of night return once more, / our path of trial safely trod, / shall give the glory to our God.",
+       "All praise to God the Father be, / all praise, eternal Son, to Thee, / whom with the Spirit we adore / for ever and for evermore. Amen."
+      ],
+      "nl": [
+       "Nu het daglicht de hemel vult, / heffen wij ons hart tot God omhoog, / dat Hij ons in al wat wij doen of zeggen / vandaag voor kwaad bewaart.",
+       "Moge Hij onze tong weerhouden van twist, / ons leven behoeden voor toorn, / en met waakzame zorg onze ogen / behoeden voor de ijdelheid van de wereld.",
+       "Mogen ons diepste hart rein zijn, / vrij van dwaze gedachten, / en de hoogmoed van het vlees bedwongen / door matigheid in spijs en drank.",
+       "Dan zullen wij, als het werk van deze dag voorbij is / en de schaduw van de nacht weer valt, / de weg van de beproeving veilig gegaan, / de eer geven aan onze God.",
+       "Lof zij God de Vader, / lof zij U, eeuwige Zoon, / die wij met de Geest aanbidden / nu en tot in eeuwigheid. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 95 (94)",
+      "nl": "Psalm 95 (94)"
+     },
+     "ref": "PSA 95"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 63 (62)",
+      "nl": "Psalm 63 (62)"
+     },
+     "ref": "PSA 63"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 149",
+      "nl": "Psalm 149"
+     },
+     "ref": "PSA 149"
+    },
+    {
+     "kind": "rubric",
+     "body": {
+      "en": [
+       "Antiphon: Blessed be the Lord, the God of Israel, for He has visited His people."
+      ],
+      "nl": [
+       "Antifoon: Gezegend de Heer, de God van Israël, want Hij heeft Zijn volk bezocht."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Benedictus",
+      "nl": "Benedictus"
+     },
+     "ref": "LUK 1:68-79"
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "our-father"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Concluding prayer",
+      "nl": "Slotgebed"
+     },
+     "body": {
+      "en": [
+       "O Lord God Almighty, who hast brought us to the beginning of this day: defend us in the same by Thy mighty power, that this day we fall into no sin, but that all our words may so proceed, and all our thoughts and deeds be so ordered, as to do always that which is righteous in Thy sight; through Jesus Christ our Lord. Amen.",
+       "May the Lord bless us, keep us from all evil, and bring us to everlasting life. Amen."
+      ],
+      "nl": [
+       "Heer, almachtige God, die ons tot het begin van deze dag hebt gebracht: bescherm ons vandaag door Uw grote kracht, opdat wij in geen zonde vallen, maar al onze woorden, gedachten en daden zo geordend zijn dat wij altijd doen wat rechtvaardig is in Uw ogen; door Jezus Christus, onze Heer. Amen.",
+       "De Heer zegene ons, beware ons voor alle kwaad en geleide ons naar het eeuwig leven. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "glory-be"
+    }
    ]
   },
   {
-   "id": "terce", "time": "09:00",
-   "name": {"en": "Midmorning Prayer", "nl": "Terts"},
-   "subtitle": {"en": "Terce", "nl": "Derde uur"},
-   "theme": {"en": "The hour of the Spirit's coming at Pentecost.", "nl": "Het uur van de komst van de Geest met Pinksteren."},
+   "id": "terce",
+   "time": "09:00",
+   "name": {
+    "en": "Midmorning Prayer",
+    "nl": "Terts"
+   },
+   "subtitle": {
+    "en": "Terce",
+    "nl": "Derde uur"
+   },
+   "theme": {
+    "en": "The hour of the Spirit's coming at Pentecost.",
+    "nl": "Het uur van de komst van de Geest met Pinksteren."
+   },
    "sections": [
-    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
-    {"kind": "scripture", "title": {"en": "Psalm 120 (119)", "nl": "Psalm 120 (119)"}, "ref": "PSA 120"},
-    {"kind": "scripture", "title": {"en": "Psalm 121 (120)", "nl": "Psalm 121 (120)"}, "ref": "PSA 121"},
-    {"kind": "scripture", "title": {"en": "Psalm 122 (121)", "nl": "Psalm 122 (121)"}, "ref": "PSA 122"},
-    {"kind": "prayer", "prayerId": "glory-be"}
+    {
+     "kind": "prayer",
+     "prayerId": "deus-in-adiutorium"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Hymn · Come, Holy Ghost, who ever One",
+      "nl": "Hymne · Kom, Heilige Geest"
+     },
+     "body": {
+      "en": [
+       "Come, Holy Ghost, who ever One / art with the Father and the Son; / come, Holy Ghost, our souls possess / with Thy full flood of holiness.",
+       "In will and deed, by heart and tongue, / with all our powers, Thy praise be sung; / and love light up our mortal frame, / till others catch the living flame.",
+       "Almighty Father, hear our cry / through Jesus Christ our Lord most high, / who with the Holy Ghost and Thee / doth live and reign eternally. Amen."
+      ],
+      "nl": [
+       "Kom, Heilige Geest, die altijd één / met de Vader en de Zoon bent; / kom, Heilige Geest, neem onze zielen in bezit / met de volle stroom van Uw heiligheid.",
+       "Met wil en daad, met hart en tong, / met al onze krachten zij Uw lof gezongen; / laat de liefde ons sterfelijk lichaam verlichten, / tot anderen de levende vlam ontvangen.",
+       "Almachtige Vader, hoor ons roepen / door Jezus Christus, onze Heer, de Allerhoogste, / die met de Heilige Geest en U / leeft en heerst in eeuwigheid. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 120 (119)",
+      "nl": "Psalm 120 (119)"
+     },
+     "ref": "PSA 120"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 121 (120)",
+      "nl": "Psalm 121 (120)"
+     },
+     "ref": "PSA 121"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 122 (121)",
+      "nl": "Psalm 122 (121)"
+     },
+     "ref": "PSA 122"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Concluding prayer",
+      "nl": "Slotgebed"
+     },
+     "body": {
+      "en": [
+       "Lord Jesus Christ, who at the third hour sent the Holy Spirit upon the apostles: send Him upon us also, that we may live in Your love and bear witness to You before all people; who live and reign for ever and ever. Amen.",
+       "Let us praise the Lord. — And give Him thanks."
+      ],
+      "nl": [
+       "Heer Jezus Christus, die op het derde uur de Heilige Geest over de apostelen hebt gezonden: zend Hem ook over ons, opdat wij leven in Uw liefde en voor alle mensen van U getuigen; die leeft en heerst in de eeuwen der eeuwen. Amen.",
+       "Laten wij de Heer loven. — En Hem dank zeggen."
+      ]
+     }
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "glory-be"
+    }
    ]
   },
   {
-   "id": "sext", "time": "12:00",
-   "name": {"en": "Midday Prayer", "nl": "Sext"},
-   "subtitle": {"en": "Sext", "nl": "Zesde uur"},
-   "theme": {"en": "Christ lifted on the Cross at noon; Peter prays on the rooftop.", "nl": "Christus verheven aan het Kruis op het middaguur; Petrus bidt op het dak."},
+   "id": "sext",
+   "time": "12:00",
+   "name": {
+    "en": "Midday Prayer",
+    "nl": "Sext"
+   },
+   "subtitle": {
+    "en": "Sext",
+    "nl": "Zesde uur"
+   },
+   "theme": {
+    "en": "Christ lifted on the Cross at noon; Peter prays on the rooftop.",
+    "nl": "Christus verheven aan het Kruis op het middaguur; Petrus bidt op het dak."
+   },
    "sections": [
-    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
-    {"kind": "scripture", "title": {"en": "Psalm 123 (122)", "nl": "Psalm 123 (122)"}, "ref": "PSA 123"},
-    {"kind": "scripture", "title": {"en": "Psalm 124 (123)", "nl": "Psalm 124 (123)"}, "ref": "PSA 124"},
-    {"kind": "scripture", "title": {"en": "Psalm 125 (124)", "nl": "Psalm 125 (124)"}, "ref": "PSA 125"},
-    {"kind": "prayer", "prayerId": "glory-be"}
+    {
+     "kind": "prayer",
+     "prayerId": "deus-in-adiutorium"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Hymn · O God of truth, O Lord of might",
+      "nl": "Hymne · God van waarheid, Heer van macht"
+     },
+     "body": {
+      "en": [
+       "O God of truth, O Lord of might, / who orderest time and change aright, / who sendest the early morning ray / and lightest the glow of perfect day:",
+       "Extinguish Thou each sinful fire, / and banish every ill desire; / and while Thou keep'st the body whole, / shed forth Thy peace upon the soul.",
+       "All praise to God the Father be, / all praise, eternal Son, to Thee, / whom with the Spirit we adore / for ever and for evermore. Amen."
+      ],
+      "nl": [
+       "God van waarheid, Heer van macht, / die tijd en wisseling goed ordent, / die de vroege morgenstraal zendt / en het volle licht van de dag ontsteekt:",
+       "Doof ieder zondig vuur / en verban iedere boze begeerte; / en terwijl U het lichaam gezond bewaart, / stort Uw vrede uit over de ziel.",
+       "Lof zij God de Vader, / lof zij U, eeuwige Zoon, / die wij met de Geest aanbidden / nu en tot in eeuwigheid. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 123 (122)",
+      "nl": "Psalm 123 (122)"
+     },
+     "ref": "PSA 123"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 124 (123)",
+      "nl": "Psalm 124 (123)"
+     },
+     "ref": "PSA 124"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 125 (124)",
+      "nl": "Psalm 125 (124)"
+     },
+     "ref": "PSA 125"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Concluding prayer",
+      "nl": "Slotgebed"
+     },
+     "body": {
+      "en": [
+       "Lord Jesus Christ, who at noon were lifted up on the Cross for the salvation of the world: in the heat of the day give us strength, and draw all things to Yourself; who live and reign for ever and ever. Amen.",
+       "Let us praise the Lord. — And give Him thanks."
+      ],
+      "nl": [
+       "Heer Jezus Christus, die op het middaguur aan het Kruis werd verheven tot heil van de wereld: geef ons kracht in de hitte van de dag en trek alles naar U toe; die leeft en heerst in de eeuwen der eeuwen. Amen.",
+       "Laten wij de Heer loven. — En Hem dank zeggen."
+      ]
+     }
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "glory-be"
+    }
    ]
   },
   {
-   "id": "none", "time": "15:00",
-   "name": {"en": "Midafternoon Prayer", "nl": "None"},
-   "subtitle": {"en": "None", "nl": "Negende uur"},
-   "theme": {"en": "The hour of the Lord's death; Peter and John go up to the temple to pray.", "nl": "Het uur van de dood van de Heer; Petrus en Johannes gaan op naar de tempel om te bidden."},
+   "id": "none",
+   "time": "15:00",
+   "name": {
+    "en": "Midafternoon Prayer",
+    "nl": "None"
+   },
+   "subtitle": {
+    "en": "None",
+    "nl": "Negende uur"
+   },
+   "theme": {
+    "en": "The hour of the Lord's death; Peter and John go up to the temple to pray.",
+    "nl": "Het uur van de dood van de Heer; Petrus en Johannes gaan op naar de tempel om te bidden."
+   },
    "sections": [
-    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
-    {"kind": "scripture", "title": {"en": "Psalm 126 (125)", "nl": "Psalm 126 (125)"}, "ref": "PSA 126"},
-    {"kind": "scripture", "title": {"en": "Psalm 127 (126)", "nl": "Psalm 127 (126)"}, "ref": "PSA 127"},
-    {"kind": "scripture", "title": {"en": "Psalm 128 (127)", "nl": "Psalm 128 (127)"}, "ref": "PSA 128"},
-    {"kind": "prayer", "prayerId": "glory-be"}
+    {
+     "kind": "prayer",
+     "prayerId": "deus-in-adiutorium"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Hymn · O God, creation's secret force",
+      "nl": "Hymne · God, verborgen kracht van de schepping"
+     },
+     "body": {
+      "en": [
+       "O God, creation's secret force, / Thyself unmoved, all motion's source, / who from the morn till evening ray / through all its changes guid'st the day:",
+       "Grant us, when this short life is past, / the glorious evening that shall last; / that, by a holy death attained, / eternal glory may be gained.",
+       "All praise to God the Father be, / all praise, eternal Son, to Thee, / whom with the Spirit we adore / for ever and for evermore. Amen."
+      ],
+      "nl": [
+       "God, verborgen kracht van de schepping, / Zelf onbewogen, bron van alle beweging, / die van de morgen tot de avondstraal / de dag door al zijn wisselingen leidt:",
+       "Geef ons, als dit korte leven voorbij is, / de heerlijke avond die blijft, / opdat wij door een heilige dood / de eeuwige heerlijkheid verkrijgen.",
+       "Lof zij God de Vader, / lof zij U, eeuwige Zoon, / die wij met de Geest aanbidden / nu en tot in eeuwigheid. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 126 (125)",
+      "nl": "Psalm 126 (125)"
+     },
+     "ref": "PSA 126"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 127 (126)",
+      "nl": "Psalm 127 (126)"
+     },
+     "ref": "PSA 127"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 128 (127)",
+      "nl": "Psalm 128 (127)"
+     },
+     "ref": "PSA 128"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Concluding prayer",
+      "nl": "Slotgebed"
+     },
+     "body": {
+      "en": [
+       "Lord Jesus Christ, who at the ninth hour gave up Your spirit and opened Paradise to the penitent thief: grant that at the hour of our death we may enter the kingdom of Your glory; who live and reign for ever and ever. Amen.",
+       "Let us praise the Lord. — And give Him thanks."
+      ],
+      "nl": [
+       "Heer Jezus Christus, die op het negende uur de geest hebt gegeven en het Paradijs hebt geopend voor de berouwvolle rover: geef dat wij in het uur van onze dood binnengaan in het rijk van Uw heerlijkheid; die leeft en heerst in de eeuwen der eeuwen. Amen.",
+       "Laten wij de Heer loven. — En Hem dank zeggen."
+      ]
+     }
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "glory-be"
+    }
    ]
   },
   {
-   "id": "vespers", "time": "18:00",
-   "name": {"en": "Evening Prayer", "nl": "Vespers"},
-   "subtitle": {"en": "Vespers", "nl": "Avondgebed"},
-   "theme": {"en": "Thanksgiving for the day, offered like incense in the evening.", "nl": "Dankzegging voor de dag, als wierook opgedragen in de avond."},
+   "id": "vespers",
+   "time": "18:00",
+   "name": {
+    "en": "Evening Prayer",
+    "nl": "Vespers"
+   },
+   "subtitle": {
+    "en": "Vespers",
+    "nl": "Avondgebed"
+   },
+   "theme": {
+    "en": "Thanksgiving for the day, offered like incense in the evening.",
+    "nl": "Dankzegging voor de dag, als wierook opgedragen in de avond."
+   },
    "sections": [
-    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
-    {"kind": "scripture", "title": {"en": "Psalm 110 (109)", "nl": "Psalm 110 (109)"}, "ref": "PSA 110"},
-    {"kind": "scripture", "title": {"en": "Psalm 114 (113A)", "nl": "Psalm 114 (113A)"}, "ref": "PSA 114"},
-    {"kind": "scripture", "title": {"en": "Magnificat", "nl": "Magnificat"}, "ref": "LUK 1:46-55"},
-    {"kind": "prayer", "prayerId": "our-father"},
-    {"kind": "prayer", "prayerId": "glory-be"}
+    {
+     "kind": "prayer",
+     "prayerId": "deus-in-adiutorium"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Hymn · O blest Creator of the light",
+      "nl": "Hymne · Gezegende Schepper van het licht"
+     },
+     "body": {
+      "en": [
+       "O blest Creator of the light, / who mak'st the day with radiance bright, / and o'er the forming world didst call / the light from chaos first of all:",
+       "Whose wisdom joined in meet array / the morn and eve, and named them day: / night comes with all its darkling fears; / regard Thy people's prayers and tears.",
+       "Lest, sunk in sin, and whelmed with strife, / they lose the gift of endless life; / while thinking but the thoughts of time, / they weave new chains of woe and crime.",
+       "All praise to God the Father be, / all praise, eternal Son, to Thee, / whom with the Spirit we adore / for ever and for evermore. Amen."
+      ],
+      "nl": [
+       "Gezegende Schepper van het licht, / die de dag met stralende glans maakt, / en over de wordende wereld / eerst het licht uit de chaos riep:",
+       "U die in wijze orde / morgen en avond samenvoegde en dag noemde: / de nacht komt met al zijn donkere vrezen; / zie neer op de gebeden en tranen van Uw volk.",
+       "Opdat zij, verzonken in zonde en twist, / de gave van het eeuwige leven niet verliezen, / en, denkend alleen aan het tijdelijke, / geen nieuwe ketenen van ellende smeden.",
+       "Lof zij God de Vader, / lof zij U, eeuwige Zoon, / die wij met de Geest aanbidden / nu en tot in eeuwigheid. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 110 (109)",
+      "nl": "Psalm 110 (109)"
+     },
+     "ref": "PSA 110"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 114 (113A)",
+      "nl": "Psalm 114 (113A)"
+     },
+     "ref": "PSA 114"
+    },
+    {
+     "kind": "rubric",
+     "body": {
+      "en": [
+       "Antiphon: My soul magnifies the Lord, for He has looked upon His lowly servant."
+      ],
+      "nl": [
+       "Antifoon: Mijn ziel maakt groot de Heer, want Hij heeft neergezien op Zijn nederige dienstmaagd."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Magnificat",
+      "nl": "Magnificat"
+     },
+     "ref": "LUK 1:46-55"
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "our-father"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Intercessions and concluding prayer",
+      "nl": "Voorbeden en slotgebed"
+     },
+     "body": {
+      "en": [
+       "Let us pray to Christ, the light of the world: — Lord, hear our prayer.",
+       "For Your holy Church, that she may be a sign of Your light among the nations. — Lord, hear our prayer.",
+       "For all who govern, that they may seek justice and peace. — Lord, hear our prayer.",
+       "For the sick, the lonely and the dying, that they may know Your nearness. — Lord, hear our prayer.",
+       "For our beloved dead, that they may rest in Your peace. — Lord, hear our prayer.",
+       "O God, from whom all holy desires, all good counsels and all just works do proceed: give unto Thy servants that peace which the world cannot give, that our hearts may be set to obey Thy commandments, and that, being defended from the fear of our enemies, we may pass our time in rest and quietness; through Jesus Christ our Lord. Amen."
+      ],
+      "nl": [
+       "Laten wij bidden tot Christus, het licht van de wereld: — Heer, verhoor ons gebed.",
+       "Voor Uw heilige Kerk, dat zij een teken van Uw licht is onder de volken. — Heer, verhoor ons gebed.",
+       "Voor allen die regeren, dat zij gerechtigheid en vrede zoeken. — Heer, verhoor ons gebed.",
+       "Voor de zieken, de eenzamen en de stervenden, dat zij Uw nabijheid kennen. — Heer, verhoor ons gebed.",
+       "Voor onze dierbare overledenen, dat zij rusten in Uw vrede. — Heer, verhoor ons gebed.",
+       "God, van wie alle heilige verlangens, alle goede raad en alle rechtvaardige werken komen: geef Uw dienaren de vrede die de wereld niet kan geven, opdat ons hart Uw geboden volgt en wij, bevrijd van de vrees voor onze vijanden, onze tijd in rust en stilte doorbrengen; door Jezus Christus, onze Heer. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "glory-be"
+    }
    ]
   },
   {
-   "id": "compline", "time": "21:30",
-   "name": {"en": "Night Prayer", "nl": "Completen"},
-   "subtitle": {"en": "Compline", "nl": "Nachtgebed"},
-   "theme": {"en": "Examine the day, ask forgiveness, and rest in God's protection.", "nl": "Overzie de dag, vraag vergeving, en rust in Gods bescherming."},
+   "id": "compline",
+   "time": "21:30",
+   "name": {
+    "en": "Night Prayer",
+    "nl": "Completen"
+   },
+   "subtitle": {
+    "en": "Compline",
+    "nl": "Nachtgebed"
+   },
+   "theme": {
+    "en": "Examine the day, ask forgiveness, and rest in God's protection.",
+    "nl": "Overzie de dag, vraag vergeving, en rust in Gods bescherming."
+   },
    "sections": [
-    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
-    {"kind": "text", "title": {"en": "Examination of conscience", "nl": "Gewetensonderzoek"}, "body": {
-     "en": ["Pause in silence. Look back over the day: where did I love, and where did I fail to love? Ask the Lord's mercy."],
-     "nl": ["Houd een moment stilte. Kijk terug op de dag: waar heb ik liefgehad, en waar heb ik nagelaten lief te hebben? Vraag de barmhartigheid van de Heer."]
-    }},
-    {"kind": "scripture", "title": {"en": "Psalm 91 (90)", "nl": "Psalm 91 (90)"}, "ref": "PSA 91"},
-    {"kind": "scripture", "title": {"en": "Reading", "nl": "Lezing"}, "ref": "REV 22:4-5"},
-    {"kind": "scripture", "title": {"en": "Nunc Dimittis", "nl": "Nunc Dimittis"}, "ref": "LUK 2:29-32"},
-    {"kind": "text", "title": {"en": "Salve Regina", "nl": "Salve Regina"}, "body": {
-     "en": ["Hail, holy Queen, Mother of mercy, our life, our sweetness and our hope. To you do we cry, poor banished children of Eve; to you do we send up our sighs, mourning and weeping in this valley of tears.", "Turn then, most gracious advocate, your eyes of mercy toward us, and after this our exile show unto us the blessed fruit of your womb, Jesus. O clement, O loving, O sweet Virgin Mary."],
-     "nl": ["Wees gegroet, Koningin, Moeder van barmhartigheid, ons leven, onze vreugde en onze hoop, wees gegroet. Tot U roepen wij, ballingen, kinderen van Eva; tot U smeken wij, zuchtend en wenend in dit dal van tranen.", "Daarom dan, onze Voorspreekster, sla op ons uw barmhartige ogen, en toon ons na deze ballingschap Jezus, de gezegende vrucht van uw schoot. O goedertieren, o liefdevolle, o zoete Maagd Maria."]
-    }}
+    {
+     "kind": "prayer",
+     "prayerId": "deus-in-adiutorium"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Hymn · Before the ending of the day",
+      "nl": "Hymne · Voordat de dag ten einde gaat"
+     },
+     "body": {
+      "en": [
+       "Before the ending of the day, / Creator of the world, we pray / that with Thy wonted favour Thou / wouldst be our guard and keeper now.",
+       "From all ill dreams defend our eyes, / from nightly fears and fantasies; / tread under foot our ghostly foe, / that no pollution we may know.",
+       "O Father, that we ask be done, / through Jesus Christ, Thine only Son, / who, with the Holy Ghost and Thee, / doth live and reign eternally. Amen."
+      ],
+      "nl": [
+       "Voordat de dag ten einde gaat, / Schepper van de wereld, bidden wij / dat U met Uw vertrouwde gunst / nu onze wachter en behoeder bent.",
+       "Bewaar onze ogen voor boze dromen, / voor nachtelijke angsten en waanbeelden; / vertreed onze geestelijke vijand, / opdat wij geen bezoedeling kennen.",
+       "Vader, laat geschieden wat wij vragen, / door Jezus Christus, Uw enige Zoon, / die met de Heilige Geest en U / leeft en heerst in eeuwigheid. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Examination of conscience",
+      "nl": "Gewetensonderzoek"
+     },
+     "body": {
+      "en": [
+       "Pause in silence. Look back over the day: where did I love, and where did I fail to love? Ask the Lord's mercy."
+      ],
+      "nl": [
+       "Houd een moment stilte. Kijk terug op de dag: waar heb ik liefgehad, en waar heb ik nagelaten lief te hebben? Vraag de barmhartigheid van de Heer."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Psalm 91 (90)",
+      "nl": "Psalm 91 (90)"
+     },
+     "ref": "PSA 91"
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Reading",
+      "nl": "Lezing"
+     },
+     "ref": "REV 22:4-5"
+    },
+    {
+     "kind": "rubric",
+     "body": {
+      "en": [
+       "Antiphon: Protect us, Lord, as we stay awake; watch over us as we sleep, that awake, we may keep watch with Christ, and asleep, rest in His peace."
+      ],
+      "nl": [
+       "Antifoon: Behoed ons, Heer, als wij waken; bewaar ons als wij slapen, opdat wij wakend met Christus waken en slapend rusten in Zijn vrede."
+      ]
+     }
+    },
+    {
+     "kind": "scripture",
+     "title": {
+      "en": "Nunc Dimittis",
+      "nl": "Nunc Dimittis"
+     },
+     "ref": "LUK 2:29-32"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Concluding prayer and blessing",
+      "nl": "Slotgebed en zegen"
+     },
+     "body": {
+      "en": [
+       "Visit, we beseech Thee, O Lord, this dwelling, and drive far from it all snares of the enemy; let Thy holy angels dwell herein to preserve us in peace; and may Thy blessing be upon us always; through Jesus Christ our Lord. Amen.",
+       "May the all-powerful Lord grant us a restful night and a peaceful death. Amen."
+      ],
+      "nl": [
+       "Bezoek, Heer, wij bidden U, deze woning en verdrijf er alle listen van de vijand uit; laat Uw heilige engelen hier wonen om ons in vrede te bewaren, en Uw zegen zij altijd over ons; door Jezus Christus, onze Heer. Amen.",
+       "De almachtige Heer schenke ons een rustige nacht en een zalige dood. Amen."
+      ]
+     }
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Salve Regina",
+      "nl": "Salve Regina"
+     },
+     "body": {
+      "en": [
+       "Hail, holy Queen, Mother of mercy, our life, our sweetness and our hope. To you do we cry, poor banished children of Eve; to you do we send up our sighs, mourning and weeping in this valley of tears.",
+       "Turn then, most gracious advocate, your eyes of mercy toward us, and after this our exile show unto us the blessed fruit of your womb, Jesus. O clement, O loving, O sweet Virgin Mary."
+      ],
+      "nl": [
+       "Wees gegroet, Koningin, Moeder van barmhartigheid, ons leven, onze vreugde en onze hoop, wees gegroet. Tot U roepen wij, ballingen, kinderen van Eva; tot U smeken wij, zuchtend en wenend in dit dal van tranen.",
+       "Daarom dan, onze Voorspreekster, sla op ons uw barmhartige ogen, en toon ons na deze ballingschap Jezus, de gezegende vrucht van uw schoot. O goedertieren, o liefdevolle, o zoete Maagd Maria."
+      ]
+     }
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Regina Caeli (in Eastertide)",
+      "nl": "Regina Caeli (in de Paastijd)"
+     },
+     "body": {
+      "en": [
+       "Queen of heaven, rejoice, alleluia. For He whom you did merit to bear, alleluia, has risen, as He said, alleluia. Pray for us to God, alleluia."
+      ],
+      "nl": [
+       "Koningin des hemels, verheug u, alleluia. Want Hij die gij waardig waart te dragen, alleluia, is verrezen zoals Hij gezegd heeft, alleluia. Bid voor ons tot God, alleluia."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "extras": [
+  {
+   "id": "angelus",
+   "time": "",
+   "name": {
+    "en": "The Angelus",
+    "nl": "Engel des Heren"
+   },
+   "subtitle": {
+    "en": "Morning, noon and evening",
+    "nl": "Morgen, middag en avond"
+   },
+   "theme": {
+    "en": "",
+    "nl": ""
+   },
+   "sections": [
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "The Angel of the Lord declared unto Mary. — And she conceived of the Holy Spirit.",
+       "Hail Mary…"
+      ],
+      "nl": [
+       "De engel des Heren heeft aan Maria geboodschapt. — En zij heeft ontvangen van de Heilige Geest.",
+       "Wees gegroet…"
+      ]
+     }
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "Behold the handmaid of the Lord. — Be it done unto me according to Thy word.",
+       "Hail Mary…"
+      ],
+      "nl": [
+       "Zie de dienstmaagd des Heren. — Mij geschiede naar uw woord.",
+       "Wees gegroet…"
+      ]
+     }
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "And the Word was made flesh. — And dwelt among us.",
+       "Hail Mary…"
+      ],
+      "nl": [
+       "En het Woord is vlees geworden. — En heeft onder ons gewoond.",
+       "Wees gegroet…"
+      ]
+     }
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "hail-mary"
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Let us pray",
+      "nl": "Laat ons bidden"
+     },
+     "body": {
+      "en": [
+       "Pray for us, O holy Mother of God. — That we may be made worthy of the promises of Christ.",
+       "Pour forth, we beseech Thee, O Lord, Thy grace into our hearts; that we, to whom the Incarnation of Christ, Thy Son, was made known by the message of an angel, may by His Passion and Cross be brought to the glory of His Resurrection; through the same Christ our Lord. Amen."
+      ],
+      "nl": [
+       "Bid voor ons, heilige Moeder van God. — Opdat wij de beloften van Christus waardig worden.",
+       "Wij bidden U, Heer, stort Uw genade in onze harten, opdat wij, die door de boodschap van de engel de menswording van Christus, Uw Zoon, hebben leren kennen, door Zijn lijden en kruis gebracht worden tot de heerlijkheid van de verrijzenis; door dezelfde Christus, onze Heer. Amen."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "rosary",
+   "time": "",
+   "name": {
+    "en": "The Holy Rosary",
+    "nl": "De Rozenkrans"
+   },
+   "subtitle": {
+    "en": "Mysteries of the day",
+    "nl": "De geheimen van de dag"
+   },
+   "theme": {
+    "en": "",
+    "nl": ""
+   },
+   "sections": [
+    {
+     "kind": "rubric",
+     "body": {
+      "en": [
+       "Begin with the Sign of the Cross, the Apostles' Creed, one Our Father, three Hail Marys and the Glory Be. Then pray five decades: for each mystery, one Our Father, ten Hail Marys and the Glory Be."
+      ],
+      "nl": [
+       "Begin met het kruisteken, de geloofsbelijdenis, één Onze Vader, drie Weesgegroeten en Eer aan de Vader. Bid dan vijf tientjes: bij elk geheim één Onze Vader, tien Weesgegroeten en Eer aan de Vader."
+      ]
+     }
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "our-father"
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "hail-mary"
+    },
+    {
+     "kind": "prayer",
+     "prayerId": "glory-be"
+    },
+    {
+     "kind": "heading",
+     "title": {
+      "en": "The Joyful Mysteries",
+      "nl": "De blijde geheimen"
+     },
+     "weekday": 1
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "1. The Annunciation  ·  2. The Visitation  ·  3. The Nativity  ·  4. The Presentation in the Temple  ·  5. The Finding in the Temple"
+      ],
+      "nl": [
+       "1. De boodschap van de engel  ·  2. Het bezoek aan Elisabeth  ·  3. De geboorte van Jezus  ·  4. De opdracht in de tempel  ·  5. Het terugvinden in de tempel"
+      ]
+     },
+     "weekday": 1
+    },
+    {
+     "kind": "heading",
+     "title": {
+      "en": "The Sorrowful Mysteries",
+      "nl": "De droevige geheimen"
+     },
+     "weekday": 2
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "1. The Agony in the Garden  ·  2. The Scourging  ·  3. The Crowning with Thorns  ·  4. The Carrying of the Cross  ·  5. The Crucifixion"
+      ],
+      "nl": [
+       "1. De doodsangst in de hof  ·  2. De geseling  ·  3. De doornenkroning  ·  4. De kruisdraging  ·  5. De kruisiging"
+      ]
+     },
+     "weekday": 2
+    },
+    {
+     "kind": "heading",
+     "title": {
+      "en": "The Glorious Mysteries",
+      "nl": "De glorievolle geheimen"
+     },
+     "weekday": 3
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "1. The Resurrection  ·  2. The Ascension  ·  3. The Descent of the Holy Spirit  ·  4. The Assumption  ·  5. The Coronation of Mary"
+      ],
+      "nl": [
+       "1. De verrijzenis  ·  2. De hemelvaart  ·  3. De nederdaling van de Heilige Geest  ·  4. De tenhemelopneming van Maria  ·  5. De kroning van Maria"
+      ]
+     },
+     "weekday": 3
+    },
+    {
+     "kind": "heading",
+     "title": {
+      "en": "The Luminous Mysteries",
+      "nl": "De geheimen van het licht"
+     },
+     "weekday": 4
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "1. The Baptism in the Jordan  ·  2. The Wedding at Cana  ·  3. The Proclamation of the Kingdom  ·  4. The Transfiguration  ·  5. The Institution of the Eucharist"
+      ],
+      "nl": [
+       "1. De doop in de Jordaan  ·  2. De bruiloft te Kana  ·  3. De verkondiging van het Rijk  ·  4. De gedaanteverandering  ·  5. De instelling van de eucharistie"
+      ]
+     },
+     "weekday": 4
+    },
+    {
+     "kind": "heading",
+     "title": {
+      "en": "The Sorrowful Mysteries",
+      "nl": "De droevige geheimen"
+     },
+     "weekday": 5
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "1. The Agony in the Garden  ·  2. The Scourging  ·  3. The Crowning with Thorns  ·  4. The Carrying of the Cross  ·  5. The Crucifixion"
+      ],
+      "nl": [
+       "1. De doodsangst in de hof  ·  2. De geseling  ·  3. De doornenkroning  ·  4. De kruisdraging  ·  5. De kruisiging"
+      ]
+     },
+     "weekday": 5
+    },
+    {
+     "kind": "heading",
+     "title": {
+      "en": "The Joyful Mysteries",
+      "nl": "De blijde geheimen"
+     },
+     "weekday": 6
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "1. The Annunciation  ·  2. The Visitation  ·  3. The Nativity  ·  4. The Presentation in the Temple  ·  5. The Finding in the Temple"
+      ],
+      "nl": [
+       "1. De boodschap van de engel  ·  2. Het bezoek aan Elisabeth  ·  3. De geboorte van Jezus  ·  4. De opdracht in de tempel  ·  5. Het terugvinden in de tempel"
+      ]
+     },
+     "weekday": 6
+    },
+    {
+     "kind": "heading",
+     "title": {
+      "en": "The Glorious Mysteries",
+      "nl": "De glorievolle geheimen"
+     },
+     "weekday": 7
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "1. The Resurrection  ·  2. The Ascension  ·  3. The Descent of the Holy Spirit  ·  4. The Assumption  ·  5. The Coronation of Mary"
+      ],
+      "nl": [
+       "1. De verrijzenis  ·  2. De hemelvaart  ·  3. De nederdaling van de Heilige Geest  ·  4. De tenhemelopneming van Maria  ·  5. De kroning van Maria"
+      ]
+     },
+     "weekday": 7
+    },
+    {
+     "kind": "counter",
+     "count": 10,
+     "title": {
+      "en": "One decade",
+      "nl": "Eén tientje"
+     },
+     "body": {
+      "en": [
+       "Hail Mary"
+      ],
+      "nl": [
+       "Wees gegroet"
+      ]
+     }
+    },
+    {
+     "kind": "text",
+     "title": {
+      "en": "Hail, Holy Queen",
+      "nl": "Salve Regina"
+     },
+     "body": {
+      "en": [
+       "Hail, holy Queen, Mother of mercy, our life, our sweetness and our hope. To thee do we cry, poor banished children of Eve; to thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary."
+      ],
+      "nl": [
+       "Wees gegroet, Koningin, Moeder van barmhartigheid, ons leven, onze vreugde en onze hoop, wees gegroet. Tot u roepen wij, ballingen, kinderen van Eva; tot u smeken wij, zuchtend en wenend in dit dal van tranen. Daarom dan, onze voorspreekster, sla op ons uw barmhartige ogen, en toon ons na deze ballingschap Jezus, de gezegende vrucht van uw schoot. O goedertieren, o liefdevolle, o zoete Maagd Maria."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "memorare",
+   "time": "",
+   "name": {
+    "en": "The Memorare",
+    "nl": "Gedenk, o allergoedigste Maagd Maria"
+   },
+   "subtitle": {
+    "en": "St Bernard of Clairvaux",
+    "nl": "H. Bernardus van Clairvaux"
+   },
+   "theme": {
+    "en": "",
+    "nl": ""
+   },
+   "sections": [
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thine intercession was left unaided. Inspired by this confidence, I fly unto thee, O Virgin of virgins, my Mother; to thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen."
+      ],
+      "nl": [
+       "Gedenk, o allergoedigste Maagd Maria, dat het nooit gehoord is dat iemand die tot u zijn toevlucht nam, uw hulp inriep of uw voorspraak vroeg, door u verlaten werd. Door dit vertrouwen bezield, kom ik tot u, o Maagd der maagden, mijn Moeder; tot u kom ik, voor u sta ik, zondig en bedroefd. O Moeder van het mensgeworden Woord, versmaad mijn woorden niet, maar hoor ze genadig aan en verhoor mij. Amen."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "michael",
+   "time": "",
+   "name": {
+    "en": "Prayer to St Michael",
+    "nl": "Gebed tot Sint-Michaël"
+   },
+   "subtitle": {
+    "en": "Pope Leo XIII",
+    "nl": "Paus Leo XIII"
+   },
+   "theme": {
+    "en": "",
+    "nl": ""
+   },
+   "sections": [
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray; and do thou, O Prince of the heavenly host, by the power of God, cast into hell Satan and all the evil spirits who prowl about the world seeking the ruin of souls. Amen."
+      ],
+      "nl": [
+       "Heilige aartsengel Michaël, verdedig ons in de strijd. Wees onze bescherming tegen de boosheid en de listen van de duivel. Dat God hem bedwinge, smeken wij ootmoedig; en gij, vorst van de hemelse legerscharen, drijf door de goddelijke kracht satan en de andere boze geesten, die tot verderf van de zielen over de wereld rondgaan, in de hel terug. Amen."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "anima-christi",
+   "time": "",
+   "name": {
+    "en": "Anima Christi",
+    "nl": "Ziel van Christus"
+   },
+   "subtitle": {
+    "en": "After Holy Communion",
+    "nl": "Na de Heilige Communie"
+   },
+   "theme": {
+    "en": "",
+    "nl": ""
+   },
+   "sections": [
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "Soul of Christ, sanctify me. Body of Christ, save me. Blood of Christ, inebriate me. Water from the side of Christ, wash me. Passion of Christ, strengthen me. O good Jesus, hear me. Within Thy wounds hide me. Suffer me not to be separated from Thee. From the malicious enemy defend me. In the hour of my death call me, and bid me come unto Thee, that with Thy saints I may praise Thee for ever and ever. Amen."
+      ],
+      "nl": [
+       "Ziel van Christus, heilig mij. Lichaam van Christus, red mij. Bloed van Christus, bedwelm mij. Water uit de zijde van Christus, was mij. Lijden van Christus, versterk mij. O goede Jezus, verhoor mij. Verberg mij in Uw wonden. Laat niet toe dat ik van U gescheiden word. Bescherm mij tegen de boze vijand. Roep mij in het uur van mijn dood en laat mij tot U komen, opdat ik U met Uw heiligen love in de eeuwen der eeuwen. Amen."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "contrition",
+   "time": "",
+   "name": {
+    "en": "Act of Contrition",
+    "nl": "Akte van berouw"
+   },
+   "subtitle": {
+    "en": "Before confession and at night",
+    "nl": "Voor de biecht en 's avonds"
+   },
+   "theme": {
+    "en": "",
+    "nl": ""
+   },
+   "sections": [
+    {
+     "kind": "text",
+     "title": {
+      "en": "",
+      "nl": ""
+     },
+     "body": {
+      "en": [
+       "O my God, I am heartily sorry for having offended Thee, and I detest all my sins because of Thy just punishments, but most of all because they offend Thee, my God, who art all good and deserving of all my love. I firmly resolve, with the help of Thy grace, to sin no more and to avoid the near occasions of sin. Amen."
+      ],
+      "nl": [
+       "Mijn God, ik heb oprecht berouw dat ik U beledigd heb en ik verfoei al mijn zonden om Uw rechtvaardige straffen, maar vooral omdat zij U beledigen, mijn God, die alle goedheid bent en al mijn liefde waard. Met de hulp van Uw genade neem ik mij vast voor niet meer te zondigen en de naaste gelegenheden tot zonde te vermijden. Amen."
+      ]
+     }
+    }
    ]
   }
  ]
