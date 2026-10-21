@@ -5,7 +5,7 @@ import agape.app.core.model.AppLanguage
 import agape.app.core.model.Tradition
 import agape.app.data.calendar.FeastRank
 import agape.app.data.calendar.LiturgicalCalendar
-import agape.app.data.daily.DailyInfo
+import agape.app.ui.components.SaintIcon
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.AgapeCard
@@ -41,7 +41,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -152,22 +151,24 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
     val c = AgapeTheme.colors
     val locale = Locale.forLanguageTag(lang.tag)
     val feasts = remember(day, tradition) { LiturgicalCalendar.feasts(tradition, day) }
-    val info by produceState<DailyInfo?>(null, day, tradition, lang) { value = container.daily.forDate(tradition, lang, day) }
+    val saint = remember(day, tradition, lang) { container.saints.forDate(tradition, lang, day) }
     AgapeCard {
         Kicker(day.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)))
         secondaryDate(tradition, day, lang)?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, modifier = Modifier.padding(top = 2.dp)) }
         Spacer(Modifier.height(10.dp))
-        feasts.forEach { f ->
+        feasts.filter { f -> saint?.isFeast != true || f.name[lang] != saint.name }.forEach { f ->
             Text(f.name[lang], style = if (f.rank == FeastRank.SEASON) MaterialTheme.typography.titleMedium else MaterialTheme.typography.headlineSmall, color = if (f.rank == FeastRank.SEASON) c.accent else c.primary)
         }
-        val i = info
-        if (i != null && i.title.isNotBlank()) {
-            if (feasts.isNotEmpty()) Spacer(Modifier.height(8.dp))
-            Text(i.title, style = MaterialTheme.typography.titleLarge, color = c.ink)
-            if (i.subtitle.isNotBlank()) Text(i.subtitle, style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
-            i.saints.filter { it != i.title }.take(5).forEach { Text("· $it", style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(top = 3.dp)) }
-        } else if (i == null && feasts.isEmpty()) {
-            Text(stringResource(R.string.calendar_loading), style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
+        if (saint != null) {
+            if (feasts.isNotEmpty()) Spacer(Modifier.height(12.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                SaintIcon(saint.icon, saint.name, width = 72.dp)
+                Column(Modifier.weight(1f)) {
+                    Text(saint.name, style = MaterialTheme.typography.titleLarge, color = c.ink)
+                    if (saint.summary.isNotBlank()) Text(saint.summary, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 4)
+                    saint.others.take(5).forEach { Text("· $it", style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(top = 3.dp)) }
+                }
+            }
         }
         if (done.isNotEmpty()) {
             Spacer(Modifier.height(12.dp))

@@ -162,7 +162,7 @@ private fun PrayerSectionView(section: PrayerSection) {
     }
 }
 
-/** Tap the bead for each "Lord, have mercy"; the ring fills as you go. */
+/** Tap the bead for each Κύριε ἐλέησον; the ring fills as you go. */
 @Composable
 private fun PrayerCounter(section: PrayerSection) {
     val lang = LocalLanguage.current
@@ -198,6 +198,10 @@ private fun PrayerCounter(section: PrayerSection) {
         }
         Spacer(Modifier.height(12.dp))
         Text(phrase, style = AgapeTheme.type.scripture, color = c.ink, textAlign = TextAlign.Center)
+        // The Kyrie is prayed in Greek; its meaning is given once, quietly, beneath it.
+        if ("Κύριε" in phrase) {
+            Text(stringResource(R.string.kyrie_translation), style = MaterialTheme.typography.bodySmall, color = c.inkMuted, fontStyle = FontStyle.Italic)
+        }
         Text(
             stringResource(if (done < total) R.string.counter_hint else R.string.counter_done),
             style = MaterialTheme.typography.bodySmall, color = c.inkFaint, textAlign = TextAlign.Center,
@@ -205,10 +209,19 @@ private fun PrayerCounter(section: PrayerSection) {
     }
 }
 
+private val greek = Regex("[Ͱ-Ͽἀ-῿]")
+private val accents = Regex("\\p{Mn}")
+
+/** Upper case for section titles; Greek capitals are written without accents (Κύριε → ΚΥΡΙΕ). */
+private fun String.headingCase(): String {
+    val upper = uppercase()
+    return if (greek.containsMatchIn(this)) accents.replace(java.text.Normalizer.normalize(upper, java.text.Normalizer.Form.NFD), "") else upper
+}
+
 @Composable
 private fun SectionTitle(text: String) {
     Text(
-        text.uppercase(), style = AgapeTheme.type.kicker, color = AgapeTheme.colors.accent,
+        text.headingCase(), style = AgapeTheme.type.kicker, color = AgapeTheme.colors.accent,
         modifier = Modifier.padding(top = 22.dp, bottom = 10.dp).semantics { heading() },
     )
 }

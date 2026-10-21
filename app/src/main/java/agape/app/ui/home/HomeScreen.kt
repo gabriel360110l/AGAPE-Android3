@@ -18,7 +18,15 @@ import agape.app.ui.components.Kicker
 import agape.app.ui.components.Ornament
 import agape.app.ui.components.ProgressLine
 import agape.app.ui.components.QuietButton
+import agape.app.ui.components.SaintOfDayCard
 import agape.app.ui.components.TabHeader
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.slideInVertically
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import agape.app.ui.components.cardShape
 import agape.app.ui.calendar.WeekStrip
 import androidx.compose.foundation.layout.Box
@@ -87,6 +95,7 @@ fun HomeScreen(
         value = verseRef?.let { container.bible.passage(it, lang).joinToString(" ") { v -> v.text } }
     }
     val daily by produceState<DailyInfo?>(null, tradition, lang) { value = container.daily.today(tradition, lang) }
+    val saint = remember(tradition, lang, today) { container.saints.forDate(tradition, lang, today) }
     val plans by container.user.plans.collectAsStateWithLifecycle(emptyList())
     val stats by container.user.stats.collectAsStateWithLifecycle(null)
     val hours = remember(tradition) { container.content.prayerBook(tradition).hours }
@@ -189,26 +198,25 @@ fun HomeScreen(
             }
         }
 
-        // Saint of the day (from the daily APIs, cached for offline)
-        daily?.takeIf { it.title.isNotBlank() }?.let { d ->
+        // Saint of the day: further down, so it greets the reader on the way through the page.
+        saint?.let { s ->
             item {
-                AgapeCard(Modifier.padding(horizontal = 16.dp)) {
-                    Kicker(stringResource(R.string.home_saint))
-                    Spacer(Modifier.height(6.dp))
-                    Text(d.title, style = MaterialTheme.typography.headlineSmall, color = c.ink)
-                    if (d.subtitle.isNotBlank()) Text(d.subtitle, style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
-                    d.saints.filter { it != d.title }.take(3).forEach {
-                        Text("· $it", style = MaterialTheme.typography.bodySmall, color = c.inkMuted, modifier = Modifier.padding(top = 4.dp))
-                    }
-                    val readings = d.readings.mapNotNull { Passage.parse(it) }
-                    if (readings.isNotEmpty()) {
-                        Spacer(Modifier.height(10.dp))
-                        Text(stringResource(R.string.home_readings), style = MaterialTheme.typography.labelMedium, color = c.ink)
-                        readings.forEach { p ->
-                            QuietButton(container.passageLabel(p, lang), { openReader(p.book, p.chapter, p.startVerse ?: 0) })
+                var shown by remember { mutableStateOf(false) }
+                LaunchedEffect(Unit) { shown = true }
+                AnimatedVisibility(shown, enter = fadeIn(tween(600)) + slideInVertically(tween(600)) { it / 5 }) {
+                    SaintOfDayCard(
+                        s, stringResource(if (s.isFeast) R.string.saint_feast else R.string.home_saint), Modifier.padding(horizontal = 16.dp),
+                    ) {
+                        // Readings of the day come from the daily API when online.
+                        val readings = daily?.readings.orEmpty().mapNotNull { Passage.parse(it) }
+                        if (readings.isNotEmpty()) {
+                            Spacer(Modifier.height(12.dp))
+                            Text(stringResource(R.string.home_readings), style = MaterialTheme.typography.labelMedium, color = c.ink)
+                            readings.forEach { p ->
+                                QuietButton(container.passageLabel(p, lang), { openReader(p.book, p.chapter, p.startVerse ?: 0) })
+                            }
                         }
                     }
-                    Text(stringResource(R.string.home_source, d.source), style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(top = 6.dp))
                 }
             }
         }

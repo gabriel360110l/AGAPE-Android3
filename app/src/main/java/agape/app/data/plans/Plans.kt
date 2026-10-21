@@ -13,8 +13,8 @@ fun ContentRepository.planDays(plan: PlanDefinition, tradition: Tradition, langu
     PlanEngine.days(
         plan,
         canon(tradition, language).map { CanonBook(it.id, it.testament, it.chapterCount(language)) },
-        // The council plan follows the councils up to 1054, the shared history of East and West.
-        councils(tradition).filterNot { it.afterSchism },
+        // Each tradition follows the councils it receives: 3 (Oriental Orthodox), 7 (Eastern Orthodox), 21 (Catholic).
+        councils(tradition),
     )
 
 /** The quiz guarding a day, if one exists. */

@@ -95,16 +95,21 @@ class BibleRepository(private val context: Context) {
         }
     }
 
-    suspend fun fatherNotes(book: String, chapter: Int, language: AppLanguage): List<FatherNote> = withContext(Dispatchers.IO) {
+    /**
+     * The legacy Father notes that are real summaries of a Father's reading. Most legacy notes are generated filler
+     * ("the note that follows is a paraphrase…"), and all Dutch ones are; those are left out, and the English note
+     * is shown in both languages.
+     */
+    suspend fun fatherNotes(book: String, chapter: Int): List<FatherNote> = withContext(Dispatchers.IO) {
         database().rawQuery(
-            "SELECT father, work, date, verse_from, verse_to, note_en, note_nl, source FROM father_notes WHERE book = ? AND chapter = ? ORDER BY sort",
+            "SELECT father, work, date, verse_from, verse_to, note_en, source FROM father_notes WHERE book = ? AND chapter = ? " +
+                "AND note_en NOT LIKE '%fabricated%' AND note_en NOT LIKE '%named above%' AND note_en NOT LIKE '%burden is%' " +
+                "AND note_en NOT LIKE '%invented for the app%' AND note_en NOT LIKE '%names that surface%' ORDER BY sort",
             arrayOf(book, chapter.toString()),
         ).use { c ->
             buildList {
                 while (c.moveToNext()) {
-                    // The legacy Dutch notes are short placeholders; prefer the English note when the Dutch one is empty.
-                    val note = if (language == AppLanguage.DUTCH) c.getString(6).ifBlank { c.getString(5) } else c.getString(5)
-                    add(FatherNote(c.getString(0), c.getString(1), c.getString(2), c.getInt(3), c.getInt(4), note, c.getString(7)))
+                    add(FatherNote(c.getString(0), c.getString(1), c.getString(2), c.getInt(3), c.getInt(4), c.getString(5), c.getString(6)))
                 }
             }
         }

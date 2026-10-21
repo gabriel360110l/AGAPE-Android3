@@ -210,7 +210,9 @@ fun CouncilScreen(id: String, onBack: () -> Unit, openPassage: (Passage) -> Unit
                     CouncilTab.CANONS -> {
                         Card(R.string.council_canons_summary) { council.canons.forEach { Numbered(null, it[lang]) } }
                         if (texts.canons.isEmpty()) {
-                            Text(stringResource(R.string.council_no_canons), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
+                            // The bundled full texts cover the first councils; later decrees are long and summarised above.
+                            val note = if (council.number > 8) R.string.council_texts_later else R.string.council_no_canons
+                            Text(stringResource(note), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
                         } else {
                             Kicker(stringResource(R.string.council_canons_full, texts.canons.size), color = c.inkMuted)
                             if (texts.canons.any { it.textNl.isBlank() }) EnglishOnlyNote(lang)
@@ -218,6 +220,9 @@ fun CouncilScreen(id: String, onBack: () -> Unit, openPassage: (Passage) -> Unit
                         }
                     }
                     CouncilTab.TEXTS -> {
+                        if (texts.documents.isEmpty()) {
+                            Text(stringResource(R.string.council_texts_later), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
+                        }
                         texts.documents.forEach { doc ->
                             AgapeCard {
                                 Kicker(doc.title(lang))

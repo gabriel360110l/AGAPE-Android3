@@ -1,0 +1,141 @@
+# MAT
+
+## 15 | Tradition, the Canaanite woman and the four thousand | Overlevering, de Kananese vrouw en de vierduizend
+S: Pharisees from Jerusalem accuse the disciples of not washing their hands; Jesus answers that what defiles a person comes from the heart, not from food. A Canaanite woman begs Him to heal her daughter; tested by His silence and His words, she answers that even the dogs eat the crumbs, and He praises her great faith. On a mountain He heals many and feeds four thousand with seven loaves.
+SN: Farizeeën uit Jeruzalem beschuldigen de leerlingen ervan hun handen niet te wassen; Jezus antwoordt dat wat een mens verontreinigt uit het hart komt, niet uit het voedsel. Een Kananese vrouw smeekt Hem haar dochter te genezen; beproefd door Zijn zwijgen en Zijn woorden, antwoordt zij dat zelfs de honden van de kruimels eten, en Hij prijst haar grote geloof. Op een berg geneest Hij velen en voedt vierduizend mensen met zeven broden.
+M: True purity is of the heart. The humble, persistent faith of a pagan woman opens the door of mercy to the nations.
+MN: Ware reinheid is die van het hart. Het nederige, volhardende geloof van een heidense vrouw opent de deur van de barmhartigheid voor de volken.
+F: St John Chrysostom admires the Canaanite woman's perseverance and humility, saying Christ delayed only to reveal her faith to all. The Fathers make her a model of unceasing prayer.
+FN: De heilige Johannes Chrysostomus bewondert de volharding en nederigheid van de Kananese vrouw en zegt dat Christus alleen talmde om haar geloof aan allen te tonen. De Vaders maken haar tot voorbeeld van onophoudelijk gebed.
+T: Purity of heart; Persevering prayer; Faith of the nations
+TN: Reinheid van hart; Volhardend gebed; Geloof van de volken
+
+## 16 | Peter's confession and the first passion prediction | De belijdenis van Petrus en de eerste lijdensaankondiging
+S: At Caesarea Philippi Jesus asks: who do you say that I am? Peter answers: You are the Christ, the Son of the living God. Jesus calls him blessed, for the Father revealed this to him, and says: on this rock I will build My Church, and the gates of hell shall not prevail; He gives him the keys of the kingdom. Then He begins to foretell His suffering, rebukes Peter for resisting it, and teaches that whoever would follow Him must take up his cross.
+SN: Bij Caesarea Filippi vraagt Jezus: wie zegt u dat Ik ben? Petrus antwoordt: U bent de Christus, de Zoon van de levende God. Jezus noemt hem zalig, want de Vader heeft hem dit geopenbaard, en zegt: op deze rots zal Ik Mijn Kerk bouwen, en de poorten van de hel zullen haar niet overweldigen; Hij geeft hem de sleutels van het koninkrijk. Daarna begint Hij Zijn lijden aan te kondigen, bestraft Petrus omdat die zich ertegen verzet, en leert dat wie Hem wil volgen zijn kruis moet opnemen.
+M: The confession of Christ as Son of God is the foundation of the Church. Glory and the cross belong together: there is no following of Christ without self-denial.
+MN: De belijdenis van Christus als Zoon van God is het fundament van de Kerk. Heerlijkheid en kruis horen samen: er is geen navolging van Christus zonder zelfverloochening.
+F: Many Eastern Fathers, such as St John Chrysostom, read 'this rock' as Peter's confession of faith; Latin Fathers also see Peter himself as the rock on which the Church is built. Both readings are part of the Church's tradition and were later weighed differently in East and West.
+FN: Veel oosterse Vaders, zoals de heilige Johannes Chrysostomus, lezen 'deze rots' als de geloofsbelijdenis van Petrus; Latijnse Vaders zien ook Petrus zelf als de rots waarop de Kerk gebouwd is. Beide lezingen behoren tot de overlevering van de Kerk en werden later in Oost en West verschillend gewogen.
+T: Confession of faith; The Church; The cross
+TN: Geloofsbelijdenis; De Kerk; Het kruis
+
+## 17 | The Transfiguration | De Gedaanteverandering
+S: Jesus takes Peter, James and John up a high mountain and is transfigured before them: His face shines like the sun and His clothes become white as light. Moses and Elijah speak with Him. A bright cloud overshadows them and the Father says: This is My beloved Son; listen to Him. Coming down, Jesus heals an epileptic boy whom the disciples could not heal, speaks of faith like a mustard seed, foretells His death again, and pays the temple tax with a coin from a fish's mouth.
+SN: Jezus neemt Petrus, Jakobus en Johannes mee een hoge berg op en wordt voor hun ogen van gedaante veranderd: Zijn gelaat straalt als de zon en Zijn kleren worden wit als het licht. Mozes en Elia spreken met Hem. Een lichtende wolk overschaduwt hen en de Vader zegt: Dit is Mijn geliefde Zoon; luistert naar Hem. Bij het afdalen geneest Jezus een maanzieke jongen die de leerlingen niet konden genezen, spreekt over geloof als een mosterdzaad, kondigt opnieuw Zijn dood aan en betaalt de tempelbelasting met een munt uit de bek van een vis.
+M: Before the cross, the disciples see the divine glory of Christ, so that they would know His suffering was freely chosen. The Law (Moses) and the Prophets (Elijah) bear witness to Him.
+MN: Vóór het kruis zien de leerlingen de goddelijke heerlijkheid van Christus, zodat zij zouden weten dat Zijn lijden vrijwillig was. De Wet (Mozes) en de Profeten (Elia) getuigen van Hem.
+F: The Fathers teach that Christ did not become something new on Tabor but opened the disciples' eyes to what He always was. The Orthodox tradition, with St Gregory Palamas, speaks of the uncreated light of Tabor, which the saints are given to see.
+FN: De Vaders leren dat Christus op de Tabor niet iets nieuws werd, maar de ogen van de leerlingen opende voor wat Hij altijd was. De orthodoxe traditie spreekt, met de heilige Gregorius Palamas, van het ongeschapen licht van de Tabor, dat de heiligen mogen zien.
+T: Transfiguration; Divine glory; Faith
+TN: Gedaanteverandering; Goddelijke heerlijkheid; Geloof
+
+## 18 | Life in the community of disciples | Het leven in de gemeenschap van leerlingen
+S: The disciples ask who is greatest; Jesus sets a child among them: unless you become like children you will not enter the kingdom. He warns against causing little ones to stumble and tells of the shepherd who leaves the ninety-nine to seek the one lost sheep. He teaches how to correct a brother and promises to be where two or three gather in His name. Peter asks how often to forgive; Jesus says seventy times seven, and tells the parable of the unforgiving servant.
+SN: De leerlingen vragen wie de grootste is; Jezus zet een kind in hun midden: als u niet wordt als kinderen, zult u het koninkrijk niet binnengaan. Hij waarschuwt ervoor kleinen te laten struikelen en vertelt over de herder die de negenennegentig achterlaat om het ene verloren schaap te zoeken. Hij leert hoe men een broeder terechtwijst en belooft aanwezig te zijn waar twee of drie in Zijn naam samenkomen. Petrus vraagt hoe vaak hij moet vergeven; Jezus zegt zeventig maal zeven keer, en vertelt de gelijkenis van de onbarmhartige dienaar.
+M: The Church is a family of the humble and the forgiven. Whoever has received God's immense mercy must forgive without limit.
+MN: De Kerk is een gezin van nederigen en van wie vergeven is. Wie Gods onmetelijke barmhartigheid ontvangen heeft, moet zonder grens vergeven.
+F: The Fathers see in the lost sheep the whole human race, which the Word went out to seek by becoming man. St John Chrysostom stresses that the debt forgiven to us is beyond counting, while what others owe us is small.
+FN: De Vaders zien in het verloren schaap het hele mensengeslacht, dat het Woord ging zoeken door mens te worden. De heilige Johannes Chrysostomus benadrukt dat de schuld die ons vergeven is ontelbaar groot is, terwijl wat anderen ons schuldig zijn klein is.
+T: Humility; Forgiveness; The lost sheep
+TN: Nederigheid; Vergeving; Het verloren schaap
+
+## 19 | Marriage, children and the rich young man | Huwelijk, kinderen en de rijke jongeman
+S: Asked about divorce, Jesus points back to creation: the two become one flesh, and what God has joined no one should separate. He speaks of those who renounce marriage for the kingdom. He blesses little children. A rich young man asks what he must do to have eternal life; Jesus tells him to keep the commandments and then to sell all and follow Him, and the man goes away sad. It is hard for the rich to enter the kingdom, but with God all things are possible.
+SN: Gevraagd naar echtscheiding wijst Jezus terug naar de schepping: de twee worden één vlees, en wat God verbonden heeft, mag de mens niet scheiden. Hij spreekt over wie omwille van het koninkrijk van het huwelijk afzien. Hij zegent kleine kinderen. Een rijke jongeman vraagt wat hij moet doen om het eeuwig leven te hebben; Jezus zegt hem de geboden te onderhouden en dan alles te verkopen en Hem te volgen, en de man gaat bedroefd weg. Het is moeilijk voor rijken om het koninkrijk binnen te gaan, maar bij God is alles mogelijk.
+M: Both marriage and consecrated celibacy are ways of holiness in Christ. Riches are not evil, but attachment to them can keep us from the One who calls.
+MN: Zowel het huwelijk als het godgewijde celibaat zijn wegen van heiligheid in Christus. Rijkdom is niet slecht, maar gehechtheid eraan kan ons weerhouden van Hem die roept.
+F: St Anthony the Great heard 'go, sell what you have' read in church and obeyed it literally, beginning the monastic life of the desert. St Clement of Alexandria, in 'Who is the rich man that shall be saved?', teaches that what must be given up is above all the passions of the soul.
+FN: De heilige Antonius de Grote hoorde 'ga, verkoop wat je hebt' in de kerk voorlezen en gehoorzaamde letterlijk, en zo begon het monastieke leven in de woestijn. De heilige Clemens van Alexandrië leert in 'Welke rijke wordt gered?' dat vooral de hartstochten van de ziel opgegeven moeten worden.
+T: Marriage; Detachment; Following Christ
+TN: Huwelijk; Onthechting; Christus volgen
+
+## 20 | The labourers in the vineyard; the cup of suffering | De arbeiders in de wijngaard; de beker van het lijden
+S: A landowner hires labourers at different hours of the day and pays them all the same wage: the last will be first. Jesus foretells His passion a third time. The mother of James and John asks for places of honour for her sons; Jesus asks whether they can drink His cup and teaches that the greatest must be the servant, as the Son of Man came to serve and to give His life as a ransom for many. Near Jericho He gives sight to two blind men.
+SN: Een landeigenaar huurt arbeiders op verschillende uren van de dag en betaalt hun allemaal hetzelfde loon: de laatsten zullen de eersten zijn. Jezus kondigt voor de derde keer Zijn lijden aan. De moeder van Jakobus en Johannes vraagt erezetels voor haar zonen; Jezus vraagt of zij Zijn beker kunnen drinken en leert dat de grootste de dienaar moet zijn, zoals de Mensenzoon gekomen is om te dienen en Zijn leven te geven als losprijs voor velen. Bij Jericho geeft Hij twee blinden het gezicht terug.
+M: God's generosity does not follow our accounting: grace is a gift, not a wage. Greatness in the kingdom means service and the cross.
+MN: Gods vrijgevigheid volgt onze boekhouding niet: genade is een geschenk, geen loon. Grootheid in het koninkrijk betekent dienstbaarheid en het kruis.
+F: The Paschal homily of St John Chrysostom, read in every Orthodox church at Easter, takes up this parable: the Lord welcomes the last as the first, whether they came at the first hour or the eleventh.
+FN: De paashomilie van de heilige Johannes Chrysostomus, die met Pasen in elke orthodoxe kerk wordt voorgelezen, neemt deze gelijkenis op: de Heer ontvangt de laatste als de eerste, of hij nu op het eerste uur kwam of op het elfde.
+T: Grace; Service; The cup of Christ
+TN: Genade; Dienstbaarheid; De beker van Christus
+
+## 21 | Entry into Jerusalem and the cleansing of the temple | Intocht in Jeruzalem en de reiniging van de tempel
+S: Jesus rides into Jerusalem on a donkey, fulfilling Zechariah's prophecy, while crowds spread garments and branches and cry: Hosanna to the Son of David. He drives the sellers out of the temple, heals the blind and lame there, and curses a fruitless fig tree. When the chief priests question His authority, He asks them about John's baptism, then tells the parables of the two sons and of the wicked tenants who kill the owner's son: the stone the builders rejected has become the cornerstone.
+SN: Jezus rijdt Jeruzalem binnen op een ezel, zoals Zacharia had geprofeteerd, terwijl de menigte kleren en takken uitspreidt en roept: Hosanna voor de Zoon van David. Hij drijft de verkopers uit de tempel, geneest daar blinden en lammen, en vervloekt een vijgenboom zonder vrucht. Als de hogepriesters Zijn gezag in twijfel trekken, vraagt Hij hen naar de doop van Johannes, en vertelt de gelijkenissen van de twee zonen en van de boze pachters die de zoon van de eigenaar doden: de steen die de bouwers verwierpen, is de hoeksteen geworden.
+M: The King comes humbly, to reign from the cross. He claims the temple as His Father's house and warns that a people without fruit cannot stand before God.
+MN: De Koning komt nederig, om vanaf het kruis te regeren. Hij eist de tempel op als het huis van Zijn Vader en waarschuwt dat een volk zonder vrucht niet voor God kan bestaan.
+F: The Church celebrates this entry on Palm Sunday. The Fathers see the colt as the nations, never yet ridden, which Christ would now lead, and the branches as the victory of life over death.
+FN: De Kerk viert deze intocht op Palmzondag. De Vaders zien in het veulen de volken, waarop nog nooit iemand gezeten had en die Christus nu zou leiden, en in de takken de overwinning van het leven op de dood.
+T: Palm Sunday; Kingship; Fruitfulness
+TN: Palmzondag; Koningschap; Vruchtbaarheid
+
+## 22 | The wedding feast and the great commandment | Het bruiloftsmaal en het grote gebod
+S: Jesus tells of a king whose invited guests refuse to come to his son's wedding; the servants gather others from the roads, but one guest without a wedding garment is cast out. Opponents try to trap Him: on taxes He says, give to Caesar what is Caesar's and to God what is God's; to the Sadducees He teaches the resurrection; and He names the greatest commandment: love God with all your heart, and your neighbour as yourself. He asks whose son the Christ is, and no one can answer.
+SN: Jezus vertelt over een koning wiens genodigden weigeren te komen naar de bruiloft van zijn zoon; de dienaren halen anderen van de wegen, maar een gast zonder bruiloftskleed wordt buitengeworpen. Tegenstanders proberen Hem te vangen: over belasting zegt Hij, geeft de keizer wat van de keizer is en God wat van God is; aan de sadduceeën leert Hij de opstanding; en Hij noemt het grootste gebod: God liefhebben met heel je hart, en je naaste als jezelf. Hij vraagt wiens zoon de Christus is, en niemand kan antwoorden.
+M: All are invited to the Lamb's wedding, but the invitation must be received with a changed life. Love of God and love of neighbour sum up the whole Law.
+MN: Allen zijn uitgenodigd voor de bruiloft van het Lam, maar de uitnodiging moet worden aanvaard met een veranderd leven. Liefde tot God en tot de naaste vatten heel de Wet samen.
+F: The Fathers interpret the wedding garment as the love and holiness that clothe the baptised. St Augustine taught that the coin bears Caesar's image, while the human soul bears God's image and must be given back to Him.
+FN: De Vaders verklaren het bruiloftskleed als de liefde en heiligheid die de gedoopten bekleden. De heilige Augustinus leerde dat de munt het beeld van de keizer draagt, terwijl de menselijke ziel Gods beeld draagt en aan Hem moet worden teruggegeven.
+T: Invitation; Love of God and neighbour; Resurrection
+TN: Uitnodiging; Liefde tot God en naaste; Opstanding
+
+## 23 | Woes against hypocrisy | Weeën over de huichelarij
+S: Jesus tells the crowds to do what the scribes and Pharisees teach from Moses' seat but not what they do, for they preach and do not practise. He pronounces seven woes: they shut the kingdom, make converts worse than themselves, tithe herbs but neglect justice, mercy and faith, and clean the outside of the cup while the inside is full of greed. He laments over Jerusalem, which kills the prophets: how often I wanted to gather your children as a hen gathers her chicks.
+SN: Jezus zegt de menigte te doen wat de schriftgeleerden en farizeeën vanaf de stoel van Mozes leren, maar niet wat zij doen, want zij zeggen het wel maar doen het niet. Hij spreekt zeven weeën uit: zij sluiten het koninkrijk, maken bekeerlingen erger dan zijzelf, geven tienden van kruiden maar verwaarlozen recht, barmhartigheid en trouw, en reinigen de buitenkant van de beker terwijl de binnenkant vol hebzucht is. Hij treurt over Jeruzalem, dat de profeten doodt: hoe vaak heb Ik uw kinderen willen verzamelen zoals een hen haar kuikens.
+M: These words are a warning for every religious person and every leader in the Church: outward piety without inner conversion is empty. Behind the severity is the grief of a loving God.
+MN: Deze woorden zijn een waarschuwing voor iedere gelovige en iedere leider in de Kerk: uiterlijke vroomheid zonder innerlijke bekering is leeg. Achter de strengheid ligt het verdriet van een liefhebbende God.
+F: St John Chrysostom applies these woes to Christians, especially to clergy, warning that titles and robes avail nothing without virtue. The image of the hen was loved by the Fathers as a picture of Christ's motherly tenderness.
+FN: De heilige Johannes Chrysostomus past deze weeën toe op christenen, vooral op geestelijken, en waarschuwt dat titels en gewaden niets baten zonder deugd. Het beeld van de hen werd door de Vaders geliefd als een beeld van Christus' moederlijke tederheid.
+T: Hypocrisy; Inner purity; Jerusalem
+TN: Huichelarij; Innerlijke reinheid; Jeruzalem
+
+## 24 | The end of the age | Het einde der tijden
+S: As Jesus leaves the temple He foretells its destruction. On the Mount of Olives the disciples ask about the sign of His coming. He speaks of wars, famines, false messiahs and persecution, of the gospel preached to all nations, of the desolating sacrilege and great tribulation, and of the Son of Man coming on the clouds with power and glory. No one knows the day or the hour; therefore watch, like the faithful servant whom the master finds at work.
+SN: Als Jezus de tempel verlaat, voorzegt Hij de verwoesting ervan. Op de Olijfberg vragen de leerlingen naar het teken van Zijn komst. Hij spreekt over oorlogen, hongersnoden, valse messiassen en vervolging, over het evangelie dat aan alle volken verkondigd wordt, over de gruwel der verwoesting en de grote verdrukking, en over de Mensenzoon die op de wolken komt met kracht en heerlijkheid. Niemand kent de dag of het uur; waakt daarom, zoals de trouwe dienaar die de heer bij zijn werk aantreft.
+M: The fall of Jerusalem in AD 70 and the end of the world are seen together. The Christian lives in watchful hope, not in fear or in calculation of dates.
+MN: De val van Jeruzalem in het jaar 70 en het einde van de wereld worden samen gezien. De christen leeft in waakzame hoop, niet in angst of in het uitrekenen van data.
+F: The Fathers distinguish the prophecies fulfilled in AD 70 from those about Christ's second coming. They warn against those who claim to know the day, since the Lord Himself did not reveal it.
+FN: De Vaders onderscheiden de profetieën die in het jaar 70 vervuld zijn van die over Christus' wederkomst. Zij waarschuwen tegen wie beweren de dag te kennen, omdat de Heer Zelf die niet geopenbaard heeft.
+T: Second Coming; Watchfulness; Endurance
+TN: Wederkomst; Waakzaamheid; Volharding
+
+## 25 | The ten virgins, the talents and the Last Judgement | De tien maagden, de talenten en het Laatste Oordeel
+S: Five wise virgins take oil for their lamps and enter the wedding with the bridegroom; five foolish ones find the door shut. A master entrusts talents to his servants; those who trade with them are praised, the one who buried his talent is rebuked. When the Son of Man comes in glory He will separate the sheep from the goats: whatever you did to the least of My brothers, you did to Me; whatever you did not do for them, you did not do for Me.
+SN: Vijf wijze maagden nemen olie mee voor hun lampen en gaan met de bruidegom naar de bruiloft; vijf dwaze vinden de deur gesloten. Een heer vertrouwt zijn dienaren talenten toe; wie ermee handelen worden geprezen, wie zijn talent begroef wordt berispt. Wanneer de Mensenzoon komt in heerlijkheid, zal Hij de schapen van de bokken scheiden: wat u voor een van de minsten van Mijn broeders gedaan hebt, hebt u voor Mij gedaan; wat u voor hen niet gedaan hebt, hebt u niet voor Mij gedaan.
+M: We will be judged by love shown in deeds, above all to the poor, the sick, the stranger and the prisoner, in whom Christ hides Himself.
+MN: Wij zullen geoordeeld worden naar de liefde die in daden getoond is, vooral aan armen, zieken, vreemdelingen en gevangenen, in wie Christus Zich verbergt.
+F: St Seraphim of Sarov taught that the oil of the wise virgins is the grace of the Holy Spirit, acquired by prayer and good works. These parables are read in the Orthodox Church at the start of Holy Week, when the 'Bridegroom' services are sung.
+FN: De heilige Serafim van Sarov leerde dat de olie van de wijze maagden de genade van de Heilige Geest is, verworven door gebed en goede werken. Deze gelijkenissen worden in de Orthodoxe Kerk aan het begin van de Goede Week gelezen, wanneer de diensten van de 'Bruidegom' gezongen worden.
+T: Judgement; Works of mercy; Readiness
+TN: Oordeel; Werken van barmhartigheid; Paraatheid
+
+## 26 | The anointing, the Last Supper and Gethsemane | De zalving, het Laatste Avondmaal en Getsemane
+S: The chief priests plot to kill Jesus. In Bethany a woman pours precious ointment on His head, and He says she has prepared Him for burial. Judas agrees to betray Him for thirty pieces of silver. At the Passover meal Jesus foretells His betrayal, takes bread and says, this is My body, and the cup, this is My blood of the covenant. In Gethsemane He prays in anguish, not My will but Yours, while the disciples sleep. Judas betrays Him with a kiss, the disciples flee, the Sanhedrin condemns Him, and Peter denies Him three times.
+SN: De hogepriesters beramen om Jezus te doden. In Betanië giet een vrouw kostbare zalf over Zijn hoofd, en Hij zegt dat zij Hem heeft voorbereid op Zijn begrafenis. Judas spreekt af Hem te verraden voor dertig zilverstukken. Bij het paasmaal voorzegt Jezus het verraad, neemt brood en zegt: dit is Mijn lichaam, en de beker: dit is Mijn bloed van het verbond. In Getsemane bidt Hij in doodsangst: niet Mijn wil, maar de Uwe, terwijl de leerlingen slapen. Judas verraadt Hem met een kus, de leerlingen vluchten, het Sanhedrin veroordeelt Hem, en Petrus verloochent Hem drie keer.
+M: Christ institutes the Eucharist, the gift of Himself, on the night He is betrayed. In Gethsemane His human will freely embraces the will of the Father.
+MN: Christus stelt de eucharistie in, de gave van Zichzelf, in de nacht waarin Hij verraden wordt. In Getsemane omarmt Zijn menselijke wil vrijwillig de wil van de Vader.
+F: The Sixth Ecumenical Council and St Maximus the Confessor drew on the prayer in Gethsemane to show that Christ has a true human will, freely obedient to the divine will. The Church contrasts the woman's love with Judas' greed in the hymns of Holy Wednesday.
+FN: Het Zesde Oecumenisch Concilie en de heilige Maximus de Belijder gebruikten het gebed in Getsemane om te tonen dat Christus een ware menselijke wil heeft, die vrij gehoorzaamt aan de goddelijke wil. De Kerk stelt in de hymnen van Woensdag in de Goede Week de liefde van de vrouw tegenover de hebzucht van Judas.
+T: Eucharist; Obedience; Betrayal and repentance
+TN: Eucharistie; Gehoorzaamheid; Verraad en berouw
+
+## 27 | The trial, crucifixion and burial | Het proces, de kruisiging en de begrafenis
+S: Jesus is handed over to Pilate. Judas, filled with remorse, throws down the silver and hangs himself. Pilate offers to release Jesus or Barabbas; the crowd chooses Barabbas and cries, crucify Him. Pilate washes his hands. The soldiers mock Jesus with a crown of thorns; He is crucified between two robbers and mocked. Darkness covers the land; He cries, My God, My God, why have You forsaken Me, and yields up His spirit. The temple veil is torn, the earth shakes, and the centurion confesses: truly this was the Son of God. Joseph of Arimathea buries Him, and the tomb is sealed and guarded.
+SN: Jezus wordt aan Pilatus overgeleverd. Judas, vol wroeging, werpt het zilver neer en hangt zich op. Pilatus biedt aan Jezus of Barabbas vrij te laten; de menigte kiest Barabbas en roept: kruisig Hem. Pilatus wast zijn handen. De soldaten bespotten Jezus met een doornenkroon; Hij wordt gekruisigd tussen twee rovers en bespot. Duisternis bedekt het land; Hij roept: Mijn God, Mijn God, waarom hebt U Mij verlaten, en geeft de geest. Het voorhangsel van de tempel scheurt, de aarde beeft, en de hoofdman belijdt: waarlijk, dit was Gods Zoon. Jozef van Arimatea begraaft Hem, en het graf wordt verzegeld en bewaakt.
+M: The innocent One dies for the guilty, the Son of God for His enemies. The torn veil shows that through His death the way to God is opened for all.
+MN: De Onschuldige sterft voor de schuldigen, de Zoon van God voor Zijn vijanden. Het gescheurde voorhangsel toont dat door Zijn dood de weg tot God voor allen geopend is.
+F: The Fathers note that 'My God, My God' is the beginning of Psalm 22, which ends in triumph: Christ speaks in our name, taking our abandonment upon Himself. They contrast Judas' despair with Peter's tears: both sinned, but one did not trust in mercy.
+FN: De Vaders wijzen erop dat 'Mijn God, Mijn God' het begin is van Psalm 22, die in triomf eindigt: Christus spreekt in onze naam en neemt onze verlatenheid op Zich. Zij stellen de wanhoop van Judas tegenover de tranen van Petrus: beiden zondigden, maar de een vertrouwde niet op de barmhartigheid.
+T: Passion; Sacrifice; The cross
+TN: Lijden; Offer; Het kruis
+
+## 28 | The Resurrection and the Great Commission | De Verrijzenis en de grote opdracht
+S: At dawn on the first day of the week Mary Magdalene and the other Mary come to the tomb. An angel rolls back the stone and tells them: He is not here, He is risen. Running to tell the disciples, they meet the risen Jesus and worship Him. The guards are bribed to say the body was stolen. On a mountain in Galilee Jesus meets the Eleven: all authority is given to Me; go and make disciples of all nations, baptising them in the name of the Father and of the Son and of the Holy Spirit; and I am with you always, to the end of the age.
+SN: Bij het aanbreken van de eerste dag van de week komen Maria Magdalena en de andere Maria naar het graf. Een engel rolt de steen weg en zegt hun: Hij is niet hier, Hij is verrezen. Terwijl zij het de leerlingen gaan vertellen, ontmoeten zij de verrezen Jezus en aanbidden Hem. De wachters worden omgekocht om te zeggen dat het lichaam gestolen is. Op een berg in Galilea ontmoet Jezus de elf: Mij is alle macht gegeven; gaat en maakt alle volken tot Mijn leerlingen, doopt hen in de naam van de Vader en de Zoon en de Heilige Geest; en Ik ben met u alle dagen, tot aan de voleinding van de wereld.
+M: The Resurrection is the heart of the faith. The risen Lord sends the Church to all nations with the trinitarian baptism and the promise of His constant presence.
+MN: De Verrijzenis is het hart van het geloof. De verrezen Heer zendt de Kerk naar alle volken met het doopsel in de naam van de Drie-eenheid en de belofte van Zijn blijvende aanwezigheid.
+F: The Fathers honour the myrrh-bearing women as the first witnesses of the Resurrection, 'apostles to the apostles'. They point out that the baptismal formula names one Name for the three Persons, a witness to the one God in Trinity.
+FN: De Vaders eren de mirredraagsters als de eerste getuigen van de Verrijzenis, 'apostelen van de apostelen'. Zij wijzen erop dat de doopformule één Naam noemt voor de drie Personen, een getuigenis van de ene God in Drie-eenheid.
+T: Resurrection; Mission; Baptism
+TN: Verrijzenis; Zending; Doopsel

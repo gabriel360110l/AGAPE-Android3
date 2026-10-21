@@ -163,7 +163,18 @@ def read_json(path):
         return json.load(f)
 
 
+def load_kyrie():
+    """tools/kyrie.py, loaded by path because `python -I` leaves the script directory off sys.path."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("kyrie", os.path.join(ROOT, "tools", "kyrie.py"))
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
 def write_json(name, data):
+    if name.startswith("prayers"):
+        data = load_kyrie().apply(data)  # Κύριε ἐλέησον stays in Greek
     path = os.path.join(ASSETS, "content", name)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
