@@ -86,3 +86,8 @@ python tools/build_councils.py   # council texts and canons
 - Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
 - Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary, quizzes, Church articles.
 - Add a release signing config and a Play Store listing (screenshots per style).
+
+## Related repositories
+
+- Documentation & guidelines: https://github.com/gabriel360110l/EOC-church
+- Previous Android version: https://github.com/gabriel360110l/AGAPE-Android2.0
