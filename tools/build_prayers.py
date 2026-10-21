@@ -521,7 +521,17 @@ def build_horologion():
     })
 
 
+def load_kyrie():
+    """tools/kyrie.py, loaded by path because `python -I` leaves the script directory off sys.path."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("kyrie", os.path.join(os.path.dirname(os.path.abspath(__file__)), "kyrie.py"))
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
 def write(name, data):
+    data = load_kyrie().apply(data)  # Κύριε ἐλέησον stays in Greek
     with open(os.path.join(OUT, name), "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     print("wrote", name, os.path.getsize(os.path.join(OUT, name)) // 1024, "KB")

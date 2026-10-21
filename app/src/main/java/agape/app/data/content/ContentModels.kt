@@ -99,7 +99,7 @@ data class Council(
     val traditionNotes: Map<Tradition, L10n> = emptyMap(),
     val passages: List<String>,
     val quiz: List<QuizQuestion> = emptyList(),
-    /** Catholic councils after the Great Schism; shown in the Church section, not in the council reading plan. */
+    /** Catholic councils after the Great Schism, marked as such in the council timeline. */
     val afterSchism: Boolean = false,
 )
 
@@ -127,6 +127,22 @@ data class CouncilDocument(
 data class CanonText(val number: Int, val text: String, val textNl: String = "") {
     fun text(lang: AppLanguage) = if (lang == AppLanguage.DUTCH && textNl.isNotBlank()) textNl else text
 }
+
+/** Hand-written commentary on one chapter, in both languages (`assets/content/commentary/<BOOK>.json`). */
+@Serializable
+data class ChapterCommentary(
+    val chapter: Int,
+    val title: L10n,
+    val summary: L10n,
+    /** Why the chapter matters: its place in the book and in the faith of the Church. */
+    val meaning: L10n = L10n(),
+    /** How the Fathers read the chapter, in our own words. */
+    val fathers: L10n = L10n(),
+    val themes: L10nLines = L10nLines(),
+)
+
+@Serializable
+data class BookCommentary(val book: String, val chapters: List<ChapterCommentary>)
 
 enum class PlanCategory { BEGINNER, OT_NT, FULL, COUNCILS }
 
@@ -205,6 +221,28 @@ data class NotableLeader(val name: String, val years: String, val note: L10n)
 
 @Serializable
 data class SaintEntry(val month: Int, val day: Int, val rank: String, val title: L10n, val summary: L10n)
+
+/** One commemoration in the Coptic Synaxarium or the General Roman Calendar. */
+@Serializable
+data class SaintName(val title: L10n, val rank: String = "")
+
+/** The commemorations of one day: a Coptic month/day for `saints_oo.json`, a Gregorian one for `saints_ca.json`. */
+@Serializable
+data class SaintDay(val month: Int, val day: Int, val saints: List<SaintName>)
+
+/** A bundled icon (public domain or CC0, from Wikimedia Commons) and the saint and feast names it belongs to. */
+@Serializable
+data class IconEntry(
+    val key: String,
+    val file: String,
+    val match: List<String>,
+    val title: String,
+    val artist: String = "",
+    val licence: String,
+    val source: String,
+    /** A general icon (Christ, the Mother of God), used only when no name of the day has an icon of its own. */
+    val fallback: Boolean = false,
+)
 
 @Serializable
 data class VerseOfDayFile(

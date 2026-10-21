@@ -37,6 +37,14 @@ class ContentRepository(private val context: Context) {
 
     fun book(id: String): Book? = booksById[id]
 
+    private val commentaries = java.util.concurrent.ConcurrentHashMap<String, Map<Int, ChapterCommentary>>()
+
+    /** Written commentary for a chapter, or null where only the provisional guide in the Bible database exists yet. */
+    fun commentary(book: String, chapter: Int): ChapterCommentary? =
+        commentaries.getOrPut(book) {
+            runCatching { load<BookCommentary>("commentary/$book.json").chapters.associateBy { it.chapter } }.getOrDefault(emptyMap())
+        }[chapter]
+
     /** Books of [tradition]'s canon that exist in the translation used for [language]. */
     fun canon(tradition: Tradition, language: AppLanguage): List<Book> =
         books.filter { tradition in it.traditions && it.chapterCount(language) > 0 }
@@ -72,6 +80,32 @@ class ContentRepository(private val context: Context) {
 
     fun saintEo(date: LocalDate): SaintEntry? = saintsEo.firstOrNull { it.month == date.monthValue && it.day == date.dayOfMonth }
 
+    private val saintsOo: List<SaintDay> by lazy { load("saints_oo.json") }
+    private val saintsCa: List<SaintDay> by lazy { load("saints_ca.json") }
+
+    /** The Coptic Synaxarium for a Coptic month and day (13 is the little month of Nasie). */
+    fun saintsOo(copticMonth: Int, copticDay: Int): List<SaintName> =
+        saintsOo.firstOrNull { it.month == copticMonth && it.day == copticDay }?.saints.orEmpty()
+
+    /** Saints of the General Roman Calendar on this date, the highest rank first. */
+    fun saintsCa(date: LocalDate): List<SaintName> =
+        saintsCa.firstOrNull { it.month == date.monthValue && it.day == date.dayOfMonth }?.saints.orEmpty()
+            .sortedBy { ROMAN_RANKS.indexOf(it.rank).let { i -> if (i < 0) ROMAN_RANKS.size else i } }
+
+    val icons: List<IconEntry> by lazy { load("icons.json") }
+    private val iconPatterns by lazy { icons.map { icon -> icon to icon.match.map { Regex(it, RegexOption.IGNORE_CASE) } } }
+
+    /**
+     * The icon for a day's commemorations, given their English names in order: the first name with an icon of its
+     * own wins; the general icons of Christ and the Mother of God are tried only after that.
+     */
+    fun iconFor(names: List<String>): IconEntry? {
+        fun match(fallback: Boolean) = names.firstNotNullOfOrNull { name ->
+            iconPatterns.firstOrNull { (icon, patterns) -> icon.fallback == fallback && patterns.any { it.containsMatchIn(name) } }?.first
+        }
+        return match(fallback = false) ?: match(fallback = true)
+    }
+
     /** A stable verse for the day, mixing shared and tradition-specific verses. */
     fun verseOfDay(tradition: Tradition, date: LocalDate): String {
         val own = when (tradition) {
@@ -93,3 +127,6 @@ class ContentRepository(private val context: Context) {
 }
 
 fun Book.chapterCount(language: AppLanguage): Int = chapters[language.tag] ?: 0
+
+/** Ranks of the General Roman Calendar, highest first, as calapi spells them. */
+private val ROMAN_RANKS = listOf("solemnity", "feast", "memorial", "optional memorial")

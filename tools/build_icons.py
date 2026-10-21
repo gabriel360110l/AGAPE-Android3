@@ -1,0 +1,236 @@
+#!/usr/bin/env python3
+"""Downloads the bundled saint and feast icons from Wikimedia Commons.
+
+Only images whose Commons licence is Public domain or CC0 are used (photographs of historic icons, mostly
+Byzantine). Each icon is saved as a 360 px wide thumbnail with its title, artist, licence and source page in
+app/src/main/assets/content/icons.json, which the app shows as credits and uses to match saints by name.
+
+ICONS lists, per icon, the Commons searches to try and the patterns (matched against English saint and feast
+names) that select it; the first pattern list that matches a saint wins, so specific entries come first.
+`file` pins a Commons file when the search does not find a good one.
+
+Run from the repository root (needs Pillow to recompress the thumbnails):  python tools/build_icons.py
+"""
+import json
+import os
+import re
+import time
+import urllib.parse
+import urllib.request
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT_DIR = os.path.join(ROOT, "app", "src", "main", "assets", "icons")
+OUT_JSON = os.path.join(ROOT, "app", "src", "main", "assets", "content", "icons.json")
+UA = "AGAPE-app-build/1.0 (https://github.com/gabriel360110l/AGAPE-Android3)"
+FREE = {"public domain", "cc0", "pd"}
+WIDTH = 360
+
+BYZ = 'deepcat:"Byzantine icons"'
+
+# key, searches, match patterns (case-insensitive), optional pinned file
+ICONS = [
+    # Feasts
+    ("nativity", [f"{BYZ} Nativity of Christ", "Nativity of Christ icon"], [r"Nativity of (Christ|the Lord|our Lord)", r"\bChristmas\b", r"Birth of (Christ|our Lord)"], None),
+    ("theophany", [f"{BYZ} Baptism of Christ", "Theophany icon"], [r"Theophany", r"Epiphany", r"Baptism of (Christ|the Lord|our Lord)"], None),
+    ("annunciation", [f"{BYZ} Annunciation", "Annunciation icon Ohrid"], [r"Annunciation"], None),
+    ("transfiguration", [f"{BYZ} Transfiguration", "Transfiguration icon Sinai"], [r"Transfiguration"], None),
+    ("presentation", [f"{BYZ} Presentation of Jesus at the Temple", "Hypapante icon"], [r"Meeting of (Christ|the Lord|our Lord)", r"Presentation of (Christ|the Lord|our Lord)", r"Entrance of (Christ|the Lord|our Lord) into the Temple", r"Candlemas"], None),
+    ("dormition", [f"{BYZ} Dormition", "Dormition of the Theotokos icon"], [r"Dormition of (the )?(Most Holy )?(Theotokos|Virgin|Mother of God|Lady)", r"(Forefeast|leave-taking) of the Dormition", r"Assumption", r"Departure of (the )?(St\.? )?(Mary|Virgin|Theotokos|Lady)"], None),
+    ("nativity_theotokos", [f"{BYZ} Nativity of the Theotokos", "Nativity of the Virgin icon"], [r"Nativity of (the )?(Most Holy |Blessed )?(Theotokos|Virgin|Mary|Lady)"], None),
+    ("entry_theotokos", [f"{BYZ} Presentation of Mary", "Entry of the Theotokos into the Temple icon"], [r"Entr(y|ance) of (the )?(Most Holy )?(Theotokos|Virgin|Lady)", r"Presentation of (the )?(Blessed )?(Virgin|Mary|Theotokos)"], None),
+    ("cross", [f"{BYZ} Exaltation of the Cross", "Exaltation of the Holy Cross icon"], [r"\bCross\b"], None),
+    ("archangels", [f"{BYZ} Archangel Michael", "Archangel Michael icon"], [r"Michael", r"Micah[eë]l", r"Archangels?", r"Holy Angels", r"Bodiless Powers"], None),
+    ("gabriel", [f"{BYZ} Archangel Gabriel", "Archangel Gabriel icon"], [r"Gabriel"], None),
+    # Saints
+    ("john_baptist", [f"{BYZ} John the Baptist", "John the Forerunner icon"], [r"John the Baptist", r"Forerunner", r"\bBaptist\b"], None),
+    ("peter_paul", [f"{BYZ} Peter and Paul", "Saints Peter and Paul icon"], [r"Peter and Paul", r"Peter & Paul"], None),
+    ("peter", [f"{BYZ} Saint Peter", "Apostle Peter icon"], [r"Apostle Peter", r"(St\.?|Saint) Peter\b(?! of)", r"Chair of (St\.? |Saint )?Peter", r"Peter's Chains", r"Chains of (St\.? |the Apostle )?Peter"], None),
+    ("paul", [f"{BYZ} Saint Paul", "Apostle Paul icon"], [r"Apostle Paul", r"(St\.?|Saint) Paul\b(?! of| the)", r"Conversion of .*Paul"], None),
+    ("andrew", [f"{BYZ} Saint Andrew", "Apostle Andrew icon"], [r"Andrew the First-called", r"Apostle Andrew", r"Andrew,? (the )?Apostle", r"(St\.?|Saint) Andrew\b(?! of)"], None),
+    ("john_theologian", [f"{BYZ} John the Theologian", "John the Evangelist icon"], [r"John the (Theologian|Evangelist|Apostle|Divine)", r"Apostle (and Evangelist )?John", r"John,? Apostle"], None),
+    ("james", [f"{BYZ} Apostle James", "Saint James the Great icon"], [r"Apostle James", r"James,? (the )?(Apostle|son of|brother of)", r"James the (Great|Greater|Less|Just)"], None),
+    ("thomas", [f"{BYZ} Apostle Thomas", "Saint Thomas apostle icon"], [r"Apostle Thomas", r"Thomas,? (the )?Apostle"], None),
+    ("matthew", [f"{BYZ} Matthew", "Saint Matthew evangelist icon"], [r"\bMatthew\b"], None),
+    ("mark", [f"{BYZ} Mark the Evangelist", "Saint Mark evangelist icon"], [r"\bMark\b.*(Apostle|Evangelist)", r"Apostle Mark", r"(St\.?|Saint) Mark\b(?! of)"], None),
+    ("luke", [f"{BYZ} Luke the Evangelist", "Saint Luke evangelist icon"], [r"\bLuke\b"], None),
+    ("philip", [f"{BYZ} Apostle Philip", "Saint Philip apostle icon"], [r"Apostle Philip", r"Philip,? (the )?Apostle", r"Philip and James"], None),
+    ("bartholomew", [f"{BYZ} Bartholomew", "Saint Bartholomew apostle icon"], [r"Bartholomew"], None),
+    ("stephen", [f"{BYZ} Saint Stephen", "Saint Stephen protomartyr icon"], [r"Protomartyr", r"Stephen,? (the )?(First Martyr|Archdeacon|Deacon)", r"(St\.?|Saint) Stephen\b(?! of)", r"Translation of (the relics of )?(St\.? )?Stephen"], None),
+    ("george", [f"{BYZ} Saint George", "Saint George icon"], [r"\bGeorge\b"], None),
+    ("demetrius", [f"{BYZ} Demetrius", "Saint Demetrius icon"], [r"Demetri"], None),
+    ("theodore", [f"{BYZ} Theodore Stratelates", "Saint Theodore icon"], [r"Theodore (the )?(Stratelates|Tyro|Tiro|Recruit|General|Oriental|Anatoli)"], None),
+    ("nicholas", [f"{BYZ} Nicholas", "Saint Nicholas icon"], [r"Nicholas"], None),
+    ("basil", [f"{BYZ} Basil the Great", "Basil of Caesarea icon"], [r"Basil (the Great|of Caesarea)", r"(St\.?|Saint) Basil\b(?! of)", r"^Basil$"], None),
+    ("three_hierarchs", [f"{BYZ} Three Hierarchs", "Three Holy Hierarchs icon"], [r"Three (Holy )?Hierarchs"], None),
+    ("gregory_theologian", [f"{BYZ} Gregory the Theologian", "Gregory of Nazianzus icon"], [r"Gregory (the Theologian|of Nazianz|Nazianzen)"], None),
+    ("chrysostom", [f"{BYZ} John Chrysostom", "John Chrysostom icon"], [r"Chrysostom"], None),
+    ("athanasius", [f"{BYZ} Athanasius", "Athanasius of Alexandria icon"], [r"Athanasius (the Great|of Alexandria|the Apostolic)", r"Athanasius and Cyril", r"(St\.?|Saint) Athanasius\b(?! of Athos)"], None),
+    ("cyril", [f"{BYZ} Cyril of Alexandria", "Cyril of Alexandria icon"], [r"Cyril (of Alexandria|the Great|I\b)", r"Cyril,? (the )?(24th )?Pope"], None),
+    ("anthony", [f"{BYZ} Anthony the Great", "Anthony the Great icon"], [r"Ant(h)?ony (the Great|of Egypt)", r"(St\.?|Saint|Abba|Abba) Ant(h)?ony\b(?! of Padua)"], None),
+    ("mary_egypt", [f"{BYZ} Mary of Egypt", "Mary of Egypt icon"], [r"Mary of Egypt"], None),
+    ("mary_magdalene", [f"{BYZ} Mary Magdalene", "Mary Magdalene icon myrrhbearer"], [r"Magdalen"], None),
+    ("constantine_helen", [f"{BYZ} Constantine and Helena", "Constantine and Helen icon"], [r"Constantine and Hel", r"\bHelen(a)?\b"], None),
+    ("catherine", [f"{BYZ} Catherine of Alexandria", "Catherine of Alexandria icon Sinai"], [r"Catherine(?! of Siena)", r"Katherine"], None),
+    ("panteleimon", [f"{BYZ} Panteleimon", "Saint Panteleimon icon"], [r"Panteleimon", r"Pantaleon"], None),
+    ("spyridon", [f"{BYZ} Spyridon", "Saint Spyridon icon"], [r"Spyridon", r"Spiridon"], None),
+    ("elijah", [f"{BYZ} Elijah", "Prophet Elijah icon"], [r"Elijah", r"Prophet Elias"], None),
+    ("moses", [f"{BYZ} Moses", "Prophet Moses icon"], [r"Prophet Moses", r"Moses the (Prophet|God-seer|Lawgiver)"], None),
+    ("joachim_anna", [f"{BYZ} Joachim and Anna", "Joachim and Anna icon"], [r"Joachim", r"\bAnne\b", r"Righteous Anna\b", r"Dormition of (St\.? |Saint )?Ann[ae]"], None),
+    ("ephrem", ["Ephrem the Syrian icon", f"{BYZ} Ephrem"], [r"Ephr(e|ai)m"], None),
+    ("menas", ["Saint Menas icon", f"{BYZ} Menas"], [r"\bMena(s)?\b"], None),
+    ("mercurius", ["Saint Mercurius icon", f"{BYZ} Mercurius"], [r"Mercurius", r"Philopater", r"Abu Sefein"], None),
+    # After the single apostles, so "Peter and Paul" keeps its own icon.
+    ("apostles", [f"{BYZ} Twelve Apostles", "Synaxis of the Twelve Apostles icon"], [r"Twelve Apostles", r"Holy Apostles", r"Seventy Apostles"], None),
+    # The Mother of God and Christ last: they match many feast titles that have their own icons above.
+    ("theotokos", [f"{BYZ} Hodegetria", "Theotokos Hodegetria icon"], [r"Theotokos", r"Virgin Mary", r"Blessed Virgin", r"Our Lady", r"Mother of God", r"(St\.?|Saint) Mary\b(?! of| Magdal)", r"Holy Virgin"], None),
+    ("pantocrator", [f"{BYZ} Pantocrator Sinai", "Christ Pantocrator Sinai"], [r"\b(Christ|Saviour|Savior)\b", r"\bthe Lord\b", r"Holy Name"], None),
+]
+
+# Files chosen by hand where the search's first free result was a building, a book scan or the wrong saint.
+PINS = {
+    "annunciation": "File:Annunciation ystuj.jpg",
+    "theophany": "File:Epiphany last XIII early XIVth c.jpg",
+    "presentation": "File:Sretenie (Russian museum, 15 c).jpg",
+    "nativity_theotokos": "File:Nikola-Obrazopisov-Belyova-church-Nativity-of-the-Theotokos-icon-1863.jpg",
+    "entry_theotokos": "File:Presentation of Mary, II Half of XIV Century, St Mary Perivleptos Church, Ohrid Icon Gallery.jpg",
+    "cross": "File:Exaltation of the Cross - Palekh icon (19 c, priv.coll).jpg",
+    "gabriel": "File:Annunciation Gabriel, Early XIΙ Century, St Mary Perivleptos Church, Ohrid Icon Gallery.jpg",
+    "stephen": "File:Stephan (Lebanon).png",
+    "peter_paul": "File:Peter and Paul icon Belozersk.jpg",
+    "paul": "File:Apostle Paul (Ubisi icon).jpg",
+    "andrew": "File:Fyodor Zubov.Andrew the Apostle.1669.jpg",
+    "john_theologian": "File:Holy Apostle and Evangelist John the Theologian. Icon. Greece, 16th century.jpg",
+    "james": "File:Apostle James, son of Alphaeus.jpeg",
+    "thomas": "File:Saint Thomas K. Tzanes.png",
+    "mark": "File:087 Mark the Evangelist Icon from Saint Paraskevi Church in Langadas.jpg",
+    "luke": "File:Saint Luke the Evangelist - icon.jpeg",
+    "george": "File:Novgorod George.jpg",
+    "basil": "File:Semen Spiridonov Kholmogorets. Basil the Great. 1674.jpg",
+    "gregory_theologian": "File:Gregory of Nazianzus (1420s, Sergiev Posad).jpg",
+    "chrysostom": "File:John Chrysostom (1420s, Sergiev Posad).jpg",
+    "athanasius": "File:Saint-Athanasius-of-Alexandria-icon-Sozopol-Bulgaria-17century.jpg",
+    "cyril": "File:Fresco Icon of Saint Kyrillos of Alexandria 3.jpg",
+    "anthony": "File:Cretan Icon Saint Anthony the Great.jpg",
+    "mary_egypt": "File:Icon of Mary of Egypt (Mstera, 19th c.).jpg",
+    "mary_magdalene": "File:Mary Magdalene by Constantin Tzanes (17th c.).jpg",
+    "constantine_helen": "File:Saint Constantin and Helena, mother of Constantine I icon, Syria (14th Century).jpg",
+    "panteleimon": "File:Byzantine - Saint Panteleimon - Walters 4820864.jpg",
+    "spyridon": "File:Saint Spyridon Icon from Gorno Statitsa 1720.jpg",
+    "moses": "File:Moses & Bush Icon Sinai c12th century.jpg",
+    "ephrem": "File:Mor Ephrem icon.jpg",
+    "menas": "File:Kristus a svatý Menas.jpg",
+    "mercurius": "File:Byzantine icon St-Mercurius 1295.jpg",
+}
+
+FALLBACK = {"theotokos", "pantocrator"}
+
+BAD_TITLE = re.compile(r"church|exterior|interior|building|iconostas|monastery view|map|coin|seal|stamp|\.tif$|\.svg$", re.I)
+
+
+def api(**params):
+    params.setdefault("format", "json")
+    url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    for attempt in range(3):
+        try:
+            return json.load(urllib.request.urlopen(req, timeout=40))
+        except Exception:
+            time.sleep(3 * (attempt + 1))
+    raise RuntimeError(url)
+
+
+def clean(html):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html or "")).strip()
+
+
+def info(pages):
+    for p in sorted(pages, key=lambda p: p.get("index", 0)):
+        ii = (p.get("imageinfo") or [{}])[0]
+        meta = ii.get("extmetadata", {})
+        licence = clean(meta.get("LicenseShortName", {}).get("value", ""))
+        yield p["title"], ii, meta, licence
+
+
+def candidates(searches, pinned):
+    if pinned:
+        d = api(action="query", titles=pinned, prop="imageinfo", iiprop="url|extmetadata|size", iiurlwidth=WIDTH)
+        yield from info(d.get("query", {}).get("pages", {}).values())
+        return
+    for q in searches:
+        d = api(action="query", generator="search", gsrnamespace=6, gsrlimit=20, gsrsearch=f"{q} filetype:bitmap",
+                prop="imageinfo", iiprop="url|extmetadata|size", iiurlwidth=WIDTH)
+        yield from info((d.get("query", {}).get("pages", {}) or {}).values())
+
+
+def pick(searches, pinned):
+    for title, ii, meta, licence in candidates(searches, pinned):
+        if licence.lower() not in FREE and not licence.lower().startswith("public domain"):
+            continue
+        w, h = ii.get("width", 0), ii.get("height", 0)
+        if not pinned and (BAD_TITLE.search(title) or h < w * 0.95 or w < 300):
+            continue  # want a portrait icon, not a building or a wide scene
+        return title, ii, meta, licence
+    return None
+
+
+def main():
+    os.makedirs(OUT_DIR, exist_ok=True)
+    out = []
+    for key, searches, patterns, pinned in ICONS:
+        chosen = pick(searches, PINS.get(key, pinned))
+        if not chosen:
+            print("  no free icon for", key)
+            continue
+        title, ii, meta, licence = chosen
+        file = f"{key}.jpg"
+        req = urllib.request.Request(ii["thumburl"], headers={"User-Agent": UA})
+        with open(os.path.join(OUT_DIR, file), "wb") as f:
+            f.write(urllib.request.urlopen(req, timeout=60).read())
+        out.append({
+            "key": key,
+            "file": f"icons/{file}",
+            "match": patterns,
+            "title": title.removeprefix("File:").rsplit(".", 1)[0],
+            "artist": clean(meta.get("Artist", {}).get("value", ""))[:120],
+            "licence": licence,
+            "source": ii.get("descriptionurl", ""),
+            # Used only when no other name of the day has its own icon (e.g. Basil before "the Lord" on 1 January).
+            "fallback": key in FALLBACK,
+        })
+        print(f"  {key:20s} {licence:14s} {title[:70]}")
+        time.sleep(0.3)
+    with open(OUT_JSON, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    print("wrote", len(out), "icons")
+    compress()
+
+
+def compress(width=320):
+    """Commons thumbnails can be PNG or very tall; store them as small JPEGs cropped to the upper part (the face)."""
+    from PIL import Image  # noqa: PLC0415 (only needed here)
+    for f in os.listdir(OUT_DIR):
+        path = os.path.join(OUT_DIR, f)
+        im = Image.open(path).convert("RGB")
+        if im.width != width:
+            im = im.resize((width, round(im.height * width / im.width)), Image.LANCZOS)
+        if im.height > width * 1.7:
+            im = im.crop((0, 0, width, round(width * 1.7)))
+        im.save(path, "JPEG", quality=80, optimize=True, progressive=True)
+    print("compressed to", sum(os.path.getsize(os.path.join(OUT_DIR, f)) for f in os.listdir(OUT_DIR)) // 1024, "KB")
+
+
+def update_patterns():
+    """Rewrites only the match patterns, order and fallback flags in icons.json, without downloading again."""
+    current = {i["key"]: i for i in json.load(open(OUT_JSON, encoding="utf-8"))}
+    out = []
+    for key, _, patterns, _ in ICONS:
+        if key in current:
+            out.append({**current[key], "match": patterns, "fallback": key in FALLBACK})
+    with open(OUT_JSON, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    print("updated patterns of", len(out), "icons")
+
+
+if __name__ == "__main__":
+    import sys
+    update_patterns() if "--patterns" in sys.argv else main()

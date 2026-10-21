@@ -38,7 +38,7 @@
     <string name="tradition_ca">Katholiek</string>
     <string name="tradition_eo_desc">Grieks-, Russisch-, Servisch-, Roemeens-, Antiochisch-Orthodox en andere. Horologion, canon van de Septuagint, zeven Oecumenische Concilies.</string>
     <string name="tradition_oo_desc">Koptische, Syrische, Armeense, Ethiopische, Eritrese en Malankara-kerken. Agpeya, Koptische canon, drie Oecumenische Concilies.</string>
-    <string name="tradition_ca_desc">De Latijnse Kerk en de Oosters-Katholieke Kerken. Getijdengebed, canon van 73 boeken, concilies tot 1054 in de plannen.</string>
+    <string name="tradition_ca_desc">De Latijnse Kerk en de Oosters-Katholieke Kerken. Getijdengebed, canon van 73 boeken, alle 21 oecumenische concilies.</string>
     <string name="tradition_change_later">Je kunt dit later wijzigen in Instellingen.</string>
     <string name="style_title">Kies een stijl</string>
     <string name="style_subtitle">Elke stijl heeft een lichte en een donkere versie.</string>
@@ -103,7 +103,7 @@
     <string name="home_plan_start_hint">Stapsgewijze plannen voor beginners, de hele Bijbel en de Concilies</string>
     <string name="home_saved">Opgeslagen</string>
     <string name="home_plans">Plannen</string>
-    <string name="home_saint">Vandaag in de Kerk</string>
+    <string name="home_saint">Heilige van de dag</string>
     <string name="home_readings">Lezingen van de dag</string>
     <string name="home_source">Bron: %1$s</string>
     <string name="home_streak">%1$d dagen op rij. Ga zo door.</string>
@@ -119,7 +119,7 @@
     <string name="bible_translation_note">Engels: World English Bible (publiek domein). Nederlands: Statenvertaling 1637 met apocriefen (publiek domein). Kruisverwijzingen: OpenBible.info (CC BY).</string>
     <string name="church_your_tradition">Jouw traditie</string>
     <string name="church_councils">Concilies en canons</string>
-    <string name="church_councils_note">De concilies die je Kerk als oecumenisch aanvaardt, tot 1054.</string>
+    <string name="church_councils_note">De concilies die je Kerk als oecumenisch aanvaardt.</string>
     <string name="church_fathers">Kerkvaders</string>
     <string name="church_history">Kerkgeschiedenis</string>
     <string name="council_number">Concilie %1$d · %2$s</string>
@@ -130,7 +130,7 @@
     <string name="council_outcome">Uitkomst voor de Kerk</string>
     <string name="council_recognized_by">Aanvaard door: %1$s</string>
     <string name="council_chalcedon_note">De Oriëntaals-Orthodoxe Kerken aanvaarden dit concilie niet.</string>
-    <string name="reader_guide">Hoofdstukgids</string>
+    <string name="reader_guide">Over dit hoofdstuk</string>
     <string name="reader_mark_read">Markeren als gelezen</string>
     <string name="reader_read_done">Gelezen ✓</string>
     <string name="reader_take_quiz">Doe de quiz</string>
@@ -362,8 +362,6 @@
     <string name="chapter_fathers">De Vaders over dit hoofdstuk</string>
     <string name="chapter_cross_refs">Verder lezen</string>
     <string name="chapter_quiz">Quiz over dit hoofdstuk</string>
-    <string name="book_end_kicker">Einde van het boek</string>
-    <string name="book_end_fathers">De Vaders over %1$s</string>
     <string name="book_end_quiz">Boekquiz · 20 vragen</string>
     <string name="quiz_gen_cloze">Welk woord ontbreekt? (%1$s)</string>
     <string name="quiz_gen_which_chapter">In welk hoofdstuk van %1$s staat dit?</string>
@@ -379,4 +377,20 @@
         <item quantity="one">%d dag</item>
         <item quantity="other">%d dagen</item>
     </plurals>
+    <string name="info_tab_explanation">Uitleg</string>
+    <string name="info_tab_fathers">Vaders</string>
+    <string name="info_tab_refs">Verwijzingen</string>
+    <string name="info_meaning">Waarom het ertoe doet</string>
+    <string name="info_fathers_reading">Hoe de Vaders het lazen</string>
+    <string name="info_about_book">Over %1$s</string>
+    <string name="info_provisional">Voorlopige uitleg (Engels) · een volledige wordt nog geschreven</string>
+    <string name="info_none">Nog geen uitleg bij dit hoofdstuk.</string>
+    <string name="info_no_fathers">Nog geen commentaar van de Vaders bij dit hoofdstuk.</string>
+    <string name="info_no_refs">Geen verwijzingen bij dit hoofdstuk.</string>
+    <string name="info_quotes_english">Citaten in hun Engelse vertaling</string>
+    <string name="kyrie_translation">Heer, ontferm U</string>
+    <string name="saint_also">Ook herdacht</string>
+    <string name="saint_feast">Feest van de dag</string>
+    <string name="icon_credit">Icoon: %1$s · %2$s</string>
+    <string name="council_texts_later">De volledige decreten van dit concilie zijn lang en staan nog niet in de app; de belangrijkste canons zijn hierboven samengevat. De officiële teksten staan op vatican.va.</string>
 </resources>

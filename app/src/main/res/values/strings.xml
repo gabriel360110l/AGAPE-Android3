@@ -39,7 +39,7 @@
     <string name="tradition_ca">Catholic</string>
     <string name="tradition_eo_desc">Greek, Russian, Serbian, Romanian, Antiochian and other Orthodox Churches. Horologion, Septuagint canon, seven Ecumenical Councils.</string>
     <string name="tradition_oo_desc">Coptic, Syriac, Armenian, Ethiopian, Eritrean and Malankara Churches. Agpeya, Coptic canon, three Ecumenical Councils.</string>
-    <string name="tradition_ca_desc">The Latin Church and the Eastern Catholic Churches. Liturgy of the Hours, 73-book canon, councils up to 1054 in the plans.</string>
+    <string name="tradition_ca_desc">The Latin Church and the Eastern Catholic Churches. Liturgy of the Hours, 73-book canon, all 21 ecumenical councils.</string>
     <string name="tradition_change_later">You can change this later in Settings.</string>
     <string name="style_title">Choose a style</string>
     <string name="style_subtitle">Each style has a light and a dark version.</string>
@@ -104,7 +104,7 @@
     <string name="home_plan_start_hint">Step-by-step plans for beginners, the whole Bible, and the Councils</string>
     <string name="home_saved">Saved</string>
     <string name="home_plans">Plans</string>
-    <string name="home_saint">Today in the Church</string>
+    <string name="home_saint">Saint of the day</string>
     <string name="home_readings">Readings of the day</string>
     <string name="home_source">Source: %1$s</string>
     <string name="home_streak">%1$d days in a row. Keep going.</string>
@@ -120,7 +120,7 @@
     <string name="bible_translation_note">English: World English Bible (public domain). Dutch: Statenvertaling 1637 with Apocrypha (public domain). Cross-references: OpenBible.info (CC BY).</string>
     <string name="church_your_tradition">Your tradition</string>
     <string name="church_councils">Councils and canons</string>
-    <string name="church_councils_note">The councils your Church receives as ecumenical, up to 1054.</string>
+    <string name="church_councils_note">The councils your Church receives as ecumenical.</string>
     <string name="church_fathers">Church Fathers</string>
     <string name="church_history">Church history</string>
     <string name="council_number">Council %1$d · %2$s</string>
@@ -131,7 +131,7 @@
     <string name="council_outcome">Outcome for the Church</string>
     <string name="council_recognized_by">Received by: %1$s</string>
     <string name="council_chalcedon_note">The Oriental Orthodox Churches do not receive this council.</string>
-    <string name="reader_guide">Chapter guide</string>
+    <string name="reader_guide">About this chapter</string>
     <string name="reader_mark_read">Mark as read</string>
     <string name="reader_read_done">Read ✓</string>
     <string name="reader_take_quiz">Take the quiz</string>
@@ -363,8 +363,6 @@
     <string name="chapter_fathers">The Fathers on this chapter</string>
     <string name="chapter_cross_refs">Read further</string>
     <string name="chapter_quiz">Quiz on this chapter</string>
-    <string name="book_end_kicker">End of the book</string>
-    <string name="book_end_fathers">The Fathers on %1$s</string>
     <string name="book_end_quiz">Book quiz · 20 questions</string>
     <string name="quiz_gen_cloze">Which word is missing? (%1$s)</string>
     <string name="quiz_gen_which_chapter">In which chapter of %1$s is this written?</string>
@@ -380,4 +378,20 @@
         <item quantity="one">%d day</item>
         <item quantity="other">%d days</item>
     </plurals>
+    <string name="info_tab_explanation">Explanation</string>
+    <string name="info_tab_fathers">Fathers</string>
+    <string name="info_tab_refs">Cross-references</string>
+    <string name="info_meaning">Why it matters</string>
+    <string name="info_fathers_reading">How the Fathers read it</string>
+    <string name="info_about_book">About %1$s</string>
+    <string name="info_provisional">Provisional explanation · a fuller one is being written</string>
+    <string name="info_none">No explanation for this chapter yet.</string>
+    <string name="info_no_fathers">No comments from the Fathers on this chapter yet.</string>
+    <string name="info_no_refs">No cross-references for this chapter.</string>
+    <string name="info_quotes_english">Quotes in their English translation</string>
+    <string name="kyrie_translation">Lord, have mercy</string>
+    <string name="saint_also">Also remembered</string>
+    <string name="saint_feast">Feast of the day</string>
+    <string name="icon_credit">Icon: %1$s · %2$s</string>
+    <string name="council_texts_later">The full decrees of this council are long and are not yet included in the app; the main canons are summarised above. The official texts can be found on vatican.va.</string>
 </resources>

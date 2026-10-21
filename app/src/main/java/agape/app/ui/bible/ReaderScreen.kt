@@ -2,14 +2,12 @@ package agape.app.ui.bible
 
 import agape.app.R
 import agape.app.core.prefs.ReadingPosition
-import agape.app.data.bible.ChapterGuide
 import agape.app.data.bible.Verse
 import agape.app.data.content.chapterCount
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.LocalSettings
 import agape.app.ui.bookName
-import agape.app.ui.components.AgapeCard
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
 import agape.app.ui.components.Ornament
@@ -86,7 +84,6 @@ fun ReaderScreen(
     val chapterCount = bookInfo?.chapterCount(lang) ?: chapter
 
     val verses by produceState<List<Verse>?>(null, book, chapter, lang) { value = container.bible.chapter(book, chapter, lang) }
-    val guide by produceState<ChapterGuide?>(null, book, chapter) { value = container.bible.chapterGuide(book, chapter) }
     val highlights by remember(book, chapter) { container.user.highlightsIn(book, chapter) }.collectAsStateWithLifecycle(emptyList())
     val bookmarks by container.user.bookmarks.collectAsStateWithLifecycle(emptyList())
     val notes by container.user.notes.collectAsStateWithLifecycle(emptyList())
@@ -94,7 +91,7 @@ fun ReaderScreen(
     val isRead = read.any { it.book == book && it.chapter == chapter }
 
     var selected by rememberSaveable { mutableStateOf<Int?>(null) }
-    var showGuide by rememberSaveable { mutableStateOf(false) }
+    var showInfo by rememberSaveable { mutableStateOf(false) }
     var flash by remember { mutableStateOf(focusVerse) }
     var fontMenu by remember { mutableStateOf(false) }
     val list = rememberLazyListState()
@@ -114,8 +111,8 @@ fun ReaderScreen(
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(title, onBack) {
-            IconButton(onClick = { showGuide = !showGuide }) {
-                Icon(Icons.Outlined.Info, stringResource(R.string.reader_guide), tint = if (showGuide) c.primary else c.inkMuted)
+            IconButton(onClick = { showInfo = true }) {
+                Icon(Icons.Outlined.Info, stringResource(R.string.reader_guide), tint = c.primary)
             }
             Column {
                 IconButton(onClick = { fontMenu = true }) { Icon(Icons.Outlined.FormatSize, stringResource(R.string.settings_font_size), tint = c.inkMuted) }
@@ -135,19 +132,6 @@ fun ReaderScreen(
                     Kicker(container.bookName(book, lang))
                     Text(chapter.toString(), style = MaterialTheme.typography.displayMedium, color = c.primary)
                     Ornament()
-                    val g = guide
-                    if (showGuide && g != null) {
-                        Spacer(Modifier.height(14.dp))
-                        AgapeCard(tonal = true) {
-                            Text(g.title, style = MaterialTheme.typography.titleLarge, color = c.ink)
-                            Spacer(Modifier.height(6.dp))
-                            Text(g.summary, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
-                            if (g.themes.isNotEmpty()) {
-                                Spacer(Modifier.height(8.dp))
-                                Text(g.themes.joinToString(" · "), style = MaterialTheme.typography.labelMedium, color = c.accent)
-                            }
-                        }
-                    }
                 }
             }
             val vs = verses
@@ -180,8 +164,7 @@ fun ReaderScreen(
                     )
                 }
             }
-            if (vs != null) item { ChapterEnd(book, chapter, guide, openReference, openQuiz) }
-            if (vs != null && chapter == chapterCount && bookInfo != null) item { BookEnd(bookInfo, openReference, openQuiz) }
+            if (vs != null) item { ChapterQuizRow(book, chapter, bookInfo.takeIf { chapter == chapterCount }, openQuiz) }
             item {
                 Column(Modifier.fillMaxWidth().padding(top = 20.dp), verticalArrangement = Arrangement.spacedBy(10.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                     if (!isRead) {
@@ -200,6 +183,8 @@ fun ReaderScreen(
             }
         }
     }
+
+    if (showInfo) ChapterInfoSheet(book, chapter, onDismiss = { showInfo = false }, openReference = openReference)
 
     selected?.let { verse ->
         val v = verses?.firstOrNull { it.verse == verse } ?: return@let

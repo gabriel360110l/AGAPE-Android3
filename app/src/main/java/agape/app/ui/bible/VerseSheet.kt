@@ -88,7 +88,7 @@ fun VerseSheet(
     val notes = remember(verse, tradition) { container.content.verseNotes(verse.ref.key, tradition) }
     val quotes by produceState(emptyList<FatherQuote>(), verse) { value = container.bible.fatherQuotes(verse.ref) }
     val fathers by produceState(emptyList<FatherNote>(), verse, lang) {
-        value = container.bible.fatherNotes(verse.book, verse.chapter, lang).filter { verse.verse in it.verseFrom..it.verseTo }
+        value = container.bible.fatherNotes(verse.book, verse.chapter).filter { verse.verse in it.verseFrom..it.verseTo }
     }
     val crossRefs by produceState(emptyList<CrossRefPreview>(), verse, lang) {
         value = container.bible.crossRefs(verse.ref).map { r ->

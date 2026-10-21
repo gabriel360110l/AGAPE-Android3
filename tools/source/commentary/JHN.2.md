@@ -1,0 +1,101 @@
+# JHN
+
+## 12 | The anointing at Bethany and the hour of glory | De zalving in Betanië en het uur van de verheerlijking
+S: Six days before Passover Mary anoints Jesus' feet with costly nard and wipes them with her hair; Judas objects. Jesus enters Jerusalem on a young donkey amid palm branches. Greeks ask to see Him, and He says the hour has come: unless a grain of wheat falls into the earth and dies, it remains alone. Father, glorify Your name; a voice answers from heaven. When I am lifted up from the earth, I will draw all to Myself. Many still do not believe.
+SN: Zes dagen voor Pasen zalft Maria de voeten van Jezus met kostbare nardus en droogt ze met haar haar; Judas maakt bezwaar. Jezus trekt Jeruzalem binnen op een jonge ezel, onder palmtakken. Grieken vragen Hem te zien, en Hij zegt dat het uur gekomen is: als de graankorrel niet in de aarde valt en sterft, blijft hij alleen. Vader, verheerlijk Uw naam; een stem antwoordt uit de hemel. Wanneer Ik van de aarde verhoogd ben, zal Ik allen naar Mij toe trekken. Velen geloven nog steeds niet.
+M: Christ's glory is His self-giving death, the seed that bears much fruit. From the cross He draws all people to Himself.
+MN: Christus' heerlijkheid is Zijn zelfgevende dood, het zaad dat veel vrucht draagt. Vanaf het kruis trekt Hij alle mensen naar Zich toe.
+F: The Fathers see in the coming of the Greeks the beginning of the gathering of the nations. St Augustine applies the grain of wheat to the martyrs, whose death made the Church grow.
+FN: De Vaders zien in de komst van de Grieken het begin van het verzamelen van de volken. De heilige Augustinus past de graankorrel toe op de martelaren, door wier dood de Kerk groeide.
+T: Glory; Self-giving; The nations
+TN: Heerlijkheid; Zelfgave; De volken
+
+## 13 | The washing of the feet | De voetwassing
+S: Knowing that His hour had come, having loved His own, Jesus loved them to the end. He rises from supper, ties a towel around Himself and washes the disciples' feet. Peter protests; if I do not wash you, you have no part in Me. I have given you an example: you also should wash one another's feet. He reveals the betrayer, and Judas goes out, and it was night. A new commandment I give you: love one another as I have loved you.
+SN: Wetende dat Zijn uur gekomen was, en de Zijnen liefhebbend, had Jezus hen lief tot het einde. Hij staat op van de maaltijd, bindt een doek om en wast de voeten van de leerlingen. Petrus protesteert; als Ik je niet was, heb je geen deel aan Mij. Ik heb u een voorbeeld gegeven: ook u moet elkaars voeten wassen. Hij maakt de verrader bekend, en Judas gaat naar buiten, en het was nacht. Een nieuw gebod geef Ik u: hebt elkaar lief zoals Ik u heb liefgehad.
+M: The Lord and Teacher takes the place of a slave. Christian love is measured by Christ's own self-emptying service.
+MN: De Heer en Meester neemt de plaats in van een slaaf. Christelijke liefde wordt gemeten aan Christus' eigen zelfontledigende dienst.
+F: The washing of feet is enacted by bishops on Holy Thursday in East and West. St John Chrysostom notes that Christ washed even the feet of Judas.
+FN: De voetwassing wordt op Witte Donderdag in Oost en West door bisschoppen uitgevoerd. De heilige Johannes Chrysostomus merkt op dat Christus zelfs de voeten van Judas waste.
+T: Humility; Service; The new commandment
+TN: Nederigheid; Dienstbaarheid; Het nieuwe gebod
+
+## 14 | The way, the truth and the life | De weg, de waarheid en het leven
+S: Let not your hearts be troubled; in My Father's house are many rooms, and I go to prepare a place for you. Thomas asks the way; Jesus answers: I am the way, the truth and the life; no one comes to the Father except through Me. Philip asks to see the Father: whoever has seen Me has seen the Father. He promises another Comforter, the Spirit of truth, who will teach them all things. Peace I leave with you, My peace I give to you.
+SN: Laat uw hart niet verontrust worden; in het huis van Mijn Vader zijn veel woningen, en Ik ga een plaats voor u bereiden. Tomas vraagt naar de weg; Jezus antwoordt: Ik ben de weg, de waarheid en het leven; niemand komt tot de Vader dan door Mij. Filippus vraagt de Vader te zien: wie Mij gezien heeft, heeft de Vader gezien. Hij belooft een andere Trooster, de Geest van de waarheid, die hun alles zal leren. Vrede laat Ik u, Mijn vrede geef Ik u.
+M: In Christ we see the Father; through Christ we go to Him; in the Spirit He dwells in us. Love shows itself in keeping His word.
+MN: In Christus zien wij de Vader; door Christus gaan wij tot Hem; in de Geest woont Hij in ons. Liefde toont zich in het bewaren van Zijn woord.
+F: The Fathers read 'whoever has seen Me has seen the Father' as proof that the Son is the perfect image of the Father, of one essence. 'My peace I give to you' is echoed in the 'Peace be with you' of the Liturgy.
+FN: De Vaders lezen 'wie Mij gezien heeft, heeft de Vader gezien' als bewijs dat de Zoon het volmaakte beeld van de Vader is, één van wezen. 'Mijn vrede geef Ik u' klinkt door in het 'Vrede zij met u' van de liturgie.
+T: The way to the Father; The Comforter; Peace
+TN: De weg tot de Vader; De Trooster; Vrede
+
+## 15 | The vine and the branches | De wijnstok en de ranken
+S: I am the true vine, and My Father is the vinedresser. Abide in Me, and I in you; apart from Me you can do nothing. Whoever abides in Me bears much fruit. As the Father has loved Me, so have I loved you; abide in My love. Greater love has no one than this, that someone lay down his life for his friends. I have called you friends. If the world hates you, know that it hated Me first. The Spirit of truth, who proceeds from the Father, will bear witness to Me.
+SN: Ik ben de ware wijnstok, en Mijn Vader is de wijngaardenier. Blijf in Mij, en Ik in u; zonder Mij kunt u niets doen. Wie in Mij blijft, draagt veel vrucht. Zoals de Vader Mij heeft liefgehad, zo heb Ik u liefgehad; blijf in Mijn liefde. Niemand heeft grotere liefde dan wie zijn leven geeft voor zijn vrienden. Ik heb u vrienden genoemd. Als de wereld u haat, weet dan dat zij Mij eerst gehaat heeft. De Geest van de waarheid, die van de Vader uitgaat, zal van Mij getuigen.
+M: The Christian life is communion: abiding in Christ as a branch in the vine. All fruit comes from this union.
+MN: Het christelijk leven is gemeenschap: blijven in Christus zoals een rank in de wijnstok. Alle vrucht komt voort uit deze vereniging.
+F: The words 'who proceeds from the Father' are taken up in the Nicene Creed. The Fathers saw the vine as an image of the Eucharist and of the Church, one life flowing through all the members.
+FN: De woorden 'die van de Vader uitgaat' zijn opgenomen in de Geloofsbelijdenis van Nicea. De Vaders zagen de wijnstok als beeld van de eucharistie en van de Kerk: één leven dat door alle leden stroomt.
+T: Abiding; Friendship with Christ; Fruitfulness
+TN: Blijven; Vriendschap met Christus; Vruchtbaarheid
+
+## 16 | The work of the Spirit and joy | Het werk van de Geest en vreugde
+S: Jesus warns that they will be put out of synagogues and killed. It is to your advantage that I go away, for then the Comforter will come; He will convict the world concerning sin, righteousness and judgement, and guide you into all truth. Your sorrow will turn into joy, like a woman in labour who forgets her pain. Whatever you ask the Father in My name, He will give you. In the world you have tribulation; but take heart, I have overcome the world.
+SN: Jezus waarschuwt dat zij uit de synagogen gezet en gedood zullen worden. Het is goed voor u dat Ik wegga, want dan zal de Trooster komen; Hij zal de wereld overtuigen van zonde, gerechtigheid en oordeel, en u de weg wijzen naar heel de waarheid. Uw droefheid zal veranderen in vreugde, zoals een vrouw in barensnood haar pijn vergeet. Wat u de Vader in Mijn naam vraagt, zal Hij u geven. In de wereld hebt u verdrukking; maar heb moed, Ik heb de wereld overwonnen.
+M: The Spirit continues Christ's work in the Church, leading her into the truth. Christian joy is born through suffering and cannot be taken away.
+MN: De Geest zet het werk van Christus in de Kerk voort en leidt haar in de waarheid. Christelijke vreugde wordt geboren door het lijden heen en kan niet worden afgenomen.
+F: The Fathers see in 'He will guide you into all truth' the Spirit's work in the councils and Tradition of the Church. 'I have overcome the world' became a watchword of the martyrs.
+FN: De Vaders zien in 'Hij zal u de weg wijzen naar heel de waarheid' het werk van de Geest in de concilies en de Traditie van de Kerk. 'Ik heb de wereld overwonnen' werd een leus van de martelaren.
+T: The Holy Spirit; Joy; Victory
+TN: De Heilige Geest; Vreugde; Overwinning
+
+## 17 | The high-priestly prayer | Het hogepriesterlijk gebed
+S: Jesus lifts His eyes to heaven: Father, the hour has come; glorify Your Son. This is eternal life, that they know You, the only true God, and Jesus Christ whom You have sent. He prays for His disciples, that the Father keep them in His name and sanctify them in the truth. He prays for all who will believe through their word: that they may all be one, as You, Father, are in Me and I in You, that the world may believe.
+SN: Jezus heft Zijn ogen op naar de hemel: Vader, het uur is gekomen; verheerlijk Uw Zoon. Dit is het eeuwige leven, dat zij U kennen, de enige ware God, en Jezus Christus die U gezonden hebt. Hij bidt voor Zijn leerlingen, dat de Vader hen in Zijn naam bewaart en hen heiligt in de waarheid. Hij bidt voor allen die door hun woord zullen geloven: dat zij allen één zijn, zoals U, Vader, in Mij bent en Ik in U, opdat de wereld gelooft.
+M: Eternal life is knowing God in communion. The unity of Christians reflects the unity of the Trinity and is a witness to the world.
+MN: Eeuwig leven is God kennen in gemeenschap. De eenheid van christenen weerspiegelt de eenheid van de Drie-eenheid en is een getuigenis voor de wereld.
+F: St Cyril of Alexandria explains that we become one with each other by sharing in the one body of Christ in the Eucharist and the one Spirit. This prayer is at the heart of every effort for Christian unity.
+FN: De heilige Cyrillus van Alexandrië legt uit dat wij één worden met elkaar door deel te hebben aan het ene lichaam van Christus in de eucharistie en aan de ene Geest. Dit gebed staat in het hart van elke inspanning voor christelijke eenheid.
+T: Eternal life; Unity; Sanctification
+TN: Eeuwig leven; Eenheid; Heiliging
+
+## 18 | Arrest, denial and Pilate | Arrestatie, verloochening en Pilatus
+S: In a garden across the Kidron Jesus meets the soldiers led by Judas: whom do you seek? I AM; they draw back and fall to the ground. Peter strikes Malchus, and Jesus tells him to put away his sword. Before Annas and Caiaphas He is questioned and struck; Peter denies Him three times by a charcoal fire. Before Pilate He says: My kingdom is not of this world; I came to bear witness to the truth. Pilate asks, what is truth? and offers to release Him, but the crowd chooses Barabbas.
+SN: In een hof aan de overkant van de Kidron ontmoet Jezus de soldaten onder leiding van Judas: wie zoekt u? IK BEN het; zij deinzen terug en vallen op de grond. Petrus slaat Malchus, en Jezus zegt hem zijn zwaard weg te doen. Voor Annas en Kajafas wordt Hij ondervraagd en geslagen; Petrus verloochent Hem drie keer bij een houtskoolvuur. Voor Pilatus zegt Hij: Mijn koninkrijk is niet van deze wereld; Ik ben gekomen om van de waarheid te getuigen. Pilatus vraagt: wat is waarheid? en biedt aan Hem vrij te laten, maar de menigte kiest Barabbas.
+M: Jesus goes to His passion freely and as King. The Truth stands before Pilate, who does not recognise it.
+MN: Jezus gaat vrijwillig en als Koning naar Zijn lijden. De Waarheid staat voor Pilatus, die haar niet herkent.
+F: The Fathers note that the soldiers fell back at His word 'I AM', a sign that no one could take Him unless He gave Himself up. St Augustine: Pilate asked 'what is truth?' while Truth stood before him.
+FN: De Vaders merken op dat de soldaten terugdeinsden bij Zijn woord 'IK BEN', een teken dat niemand Hem kon grijpen tenzij Hij Zichzelf overgaf. De heilige Augustinus: Pilatus vroeg 'wat is waarheid?' terwijl de Waarheid voor hem stond.
+T: Kingship; Truth; Freedom of Christ
+TN: Koningschap; Waarheid; Vrijheid van Christus
+
+## 19 | It is finished | Het is volbracht
+S: Pilate has Jesus scourged; the soldiers crown Him with thorns. Behold the man. The leaders cry, we have no king but Caesar, and Pilate hands Him over. Bearing His own cross, He goes to Golgotha, where He is crucified with the title: Jesus of Nazareth, King of the Jews, in Hebrew, Latin and Greek. He gives His mother to the beloved disciple: woman, behold your son; behold your mother. I thirst. It is finished; He bows His head and gives up His spirit. A soldier pierces His side, and blood and water flow out. Joseph and Nicodemus bury Him in a new tomb in a garden.
+SN: Pilatus laat Jezus geselen; de soldaten kronen Hem met doornen. Zie de mens. De leiders roepen: wij hebben geen koning dan de keizer, en Pilatus levert Hem over. Zijn eigen kruis dragend gaat Hij naar Golgota, waar Hij gekruisigd wordt met het opschrift: Jezus van Nazaret, de Koning van de Joden, in het Hebreeuws, Latijn en Grieks. Hij geeft Zijn moeder aan de geliefde leerling: vrouw, zie uw zoon; zie uw moeder. Ik heb dorst. Het is volbracht; Hij buigt het hoofd en geeft de geest. Een soldaat doorsteekt Zijn zijde, en er vloeit bloed en water uit. Jozef en Nicodemus begraven Hem in een nieuw graf in een hof.
+M: The cross is Christ's enthronement and the completion of His work. From His side flow the sacraments, and at the cross He gives His Mother to the Church.
+MN: Het kruis is Christus' troonsbestijging en de voltooiing van Zijn werk. Uit Zijn zijde vloeien de sacramenten, en bij het kruis geeft Hij Zijn Moeder aan de Kerk.
+F: St John Chrysostom and St Augustine teach that the Church was born from Christ's pierced side, as Eve from the side of sleeping Adam: water for baptism, blood for the Eucharist.
+FN: De heilige Johannes Chrysostomus en de heilige Augustinus leren dat de Kerk geboren werd uit de doorstoken zijde van Christus, zoals Eva uit de zijde van de slapende Adam: water voor het doopsel, bloed voor de eucharistie.
+T: Cross; Fulfilment; The Mother of God
+TN: Kruis; Voltooiing; De Moeder Gods
+
+## 20 | The empty tomb and the risen Lord | Het lege graf en de verrezen Heer
+S: Early on the first day Mary Magdalene finds the stone removed; Peter and the beloved disciple run to the tomb and see the linen cloths lying; the disciple sees and believes. Mary weeps outside; the risen Jesus calls her by name, Mary, and she answers, Rabboni; go to My brothers and say, I ascend to My Father and your Father. That evening He comes through closed doors, says Peace be with you, breathes on them: receive the Holy Spirit; whose sins you forgive are forgiven. A week later Thomas touches His wounds: my Lord and my God.
+SN: Vroeg op de eerste dag ziet Maria Magdalena dat de steen is weggenomen; Petrus en de geliefde leerling rennen naar het graf en zien de linnen doeken liggen; de leerling ziet en gelooft. Maria weent buiten; de verrezen Jezus roept haar bij haar naam, Maria, en zij antwoordt: Rabboeni; ga naar Mijn broeders en zeg: Ik ga op naar Mijn Vader en uw Vader. Die avond komt Hij door gesloten deuren, zegt: Vrede zij u, blaast over hen: ontvangt de Heilige Geest; wie u de zonden vergeeft, hun zijn ze vergeven. Een week later raakt Tomas Zijn wonden aan: mijn Heer en mijn God.
+M: The risen Christ calls each by name, gives peace and the Spirit, and entrusts the Church with forgiveness. Thomas's confession is the climax of the Gospel.
+MN: De verrezen Christus roept ieder bij naam, geeft vrede en de Geest, en vertrouwt de Kerk de vergeving toe. De belijdenis van Tomas is het hoogtepunt van het Evangelie.
+F: St Gregory the Great says Thomas's doubt helped our faith more than the faith of the others, for in touching he healed the wound of our unbelief. The Orthodox Church keeps Thomas Sunday a week after Pascha.
+FN: De heilige Gregorius de Grote zegt dat de twijfel van Tomas ons geloof meer hielp dan het geloof van de anderen, want door aan te raken genas hij de wonde van ons ongeloof. De Orthodoxe Kerk viert de zondag van Tomas een week na Pasen.
+T: Resurrection; Peace; Forgiveness of sins
+TN: Verrijzenis; Vrede; Vergeving van zonden
+
+## 21 | By the Sea of Tiberias: Peter restored | Aan het meer van Tiberias: Petrus hersteld
+S: Seven disciples fish all night and catch nothing. At dawn Jesus on the shore tells them to cast the net on the right side, and they catch 153 large fish. The beloved disciple says: it is the Lord. Jesus has a charcoal fire with bread and fish and gives them breakfast. Three times He asks Peter, do you love Me? and three times says, feed My sheep. He foretells how Peter will die and says to him: follow Me. The Gospel ends: this disciple bears witness, and his testimony is true.
+SN: Zeven leerlingen vissen de hele nacht en vangen niets. Bij dageraad zegt Jezus vanaf de oever het net aan de rechterkant uit te werpen, en zij vangen 153 grote vissen. De geliefde leerling zegt: het is de Heer. Jezus heeft een houtskoolvuur met brood en vis en geeft hun te eten. Drie keer vraagt Hij Petrus: heb je Mij lief? en drie keer zegt Hij: weid Mijn schapen. Hij voorzegt hoe Petrus zal sterven en zegt hem: volg Mij. Het Evangelie eindigt: deze leerling getuigt, en zijn getuigenis is waar.
+M: By another charcoal fire, three confessions of love heal three denials. Love for Christ becomes care for His flock.
+MN: Bij een ander houtskoolvuur helen drie liefdesbetuigingen drie verloocheningen. Liefde voor Christus wordt zorg voor Zijn kudde.
+F: St Augustine notes that the threefold question answers the threefold denial. The Fathers read the 153 fish as the fullness of the nations gathered into the Church's unbroken net.
+FN: De heilige Augustinus merkt op dat de drievoudige vraag antwoordt op de drievoudige verloochening. De Vaders lezen de 153 vissen als de volheid van de volken, verzameld in het ongescheurde net van de Kerk.
+T: Restoration; Love; Pastoral care
+TN: Herstel; Liefde; Herderlijke zorg

@@ -127,11 +127,17 @@ fun AgapeCard(
 ) {
     val c = AgapeTheme.colors
     val shape = cardShape
-    // Classic Sacred keeps a hairline of gold, like the edge of a printed page; the others float on a soft shadow.
-    val border = if (AgapeTheme.style == VisualStyle.CLASSIC_SACRED && !tonal) BorderStroke(0.75.dp, c.accent.copy(alpha = 0.35f)) else null
+    // Cards are edged with a hairline of gold, like the border of a printed page, and lie almost flat on the page:
+    // calmer than Material's floating shadows. Classic Sacred draws the line a little stronger.
+    val goldAlpha = when {
+        AgapeTheme.style == VisualStyle.CLASSIC_SACRED -> if (c.isDark) 0.38f else 0.45f
+        c.isDark -> 0.24f
+        else -> 0.32f
+    }
+    val border = if (!tonal) BorderStroke(0.8.dp, c.accent.copy(alpha = goldAlpha)) else null
     Surface(
         modifier = modifier.fillMaxWidth()
-            .then(if (tonal || c.isDark) Modifier else Modifier.shadow(14.dp, shape, ambientColor = c.primary.copy(alpha = 0.08f), spotColor = c.primary.copy(alpha = 0.10f)))
+            .then(if (tonal || c.isDark) Modifier else Modifier.shadow(6.dp, shape, ambientColor = c.primary.copy(alpha = 0.05f), spotColor = c.primary.copy(alpha = 0.06f)))
             .clip(shape).then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier),
         shape = shape,
         color = if (tonal) c.surfaceSunken.copy(alpha = 0.7f) else c.surface,
@@ -188,6 +194,8 @@ fun TabHeader(kicker: String, title: String, modifier: Modifier = Modifier, trai
             if (kicker.isNotBlank()) Kicker(kicker, color = AgapeTheme.colors.inkMuted)
             Spacer(Modifier.height(6.dp))
             Text(title, style = MaterialTheme.typography.displayMedium, color = AgapeTheme.colors.ink, modifier = Modifier.semantics { heading() })
+            // A short gold rule under the title, as on a title page.
+            Box(Modifier.padding(top = 10.dp).width(40.dp).height(1.5.dp).background(AgapeTheme.colors.accent))
         }
         trailing()
     }
