@@ -1,0 +1,118 @@
+{
+ "tradition": "CATHOLIC",
+ "book": {"en": "Liturgy of the Hours", "nl": "Getijdengebed"},
+ "intro": {
+  "en": "The Liturgy of the Hours is the public prayer of the Church. Morning and Evening Prayer are its two hinges; the Daytime hours and Night Prayer keep the whole day turned toward God. Psalms here follow Week I of the four-week Psalter. (Sample content: the full Psalter cycle and proper texts will be added.)",
+  "nl": "Het Getijdengebed is het openbare gebed van de Kerk. Lauden en Vespers zijn de twee scharnieren; de kleine uren en de Completen houden de hele dag naar God gekeerd. De psalmen volgen hier week I van het vierwekelijkse psalter. (Voorbeeldinhoud: de volledige psalmcyclus en eigen teksten worden nog toegevoegd.)"
+ },
+ "hours": [
+  {
+   "id": "readings", "time": "05:30",
+   "name": {"en": "Office of Readings", "nl": "Lezingendienst"},
+   "subtitle": {"en": "Scripture and the Fathers", "nl": "Schrift en Vaders"},
+   "theme": {"en": "A longer hour of psalms and readings that can be prayed at any time of day.", "nl": "Een langer uur met psalmen en lezingen, te bidden op elk moment van de dag."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
+    {"kind": "scripture", "title": {"en": "Psalm 1", "nl": "Psalm 1"}, "ref": "PSA 1"},
+    {"kind": "scripture", "title": {"en": "Psalm 2", "nl": "Psalm 2"}, "ref": "PSA 2"},
+    {"kind": "scripture", "title": {"en": "Psalm 3", "nl": "Psalm 3"}, "ref": "PSA 3"},
+    {"kind": "text", "title": {"en": "Second reading", "nl": "Tweede lezing"}, "body": {
+     "en": ["A reading from the Fathers or the saints of the day will appear here."],
+     "nl": ["Hier verschijnt een lezing uit de Vaders of van de heilige van de dag."]
+    }},
+    {"kind": "prayer", "prayerId": "glory-be"}
+   ]
+  },
+  {
+   "id": "lauds", "time": "07:00",
+   "name": {"en": "Morning Prayer", "nl": "Lauden"},
+   "subtitle": {"en": "Lauds", "nl": "Morgengebed"},
+   "theme": {"en": "Praise for the risen Christ, the Sun of justice, at the start of the day.", "nl": "Lof voor de verrezen Christus, de Zon der gerechtigheid, bij het begin van de dag."},
+   "sections": [
+    {"kind": "text", "title": {"en": "Invitatory", "nl": "Invitatorium"}, "body": {
+     "en": ["Lord, open my lips. — And my mouth will proclaim your praise."],
+     "nl": ["Heer, open mijn lippen. — En mijn mond zal uw lof verkondigen."]
+    }},
+    {"kind": "scripture", "title": {"en": "Psalm 95 (94)", "nl": "Psalm 95 (94)"}, "ref": "PSA 95"},
+    {"kind": "scripture", "title": {"en": "Psalm 63 (62)", "nl": "Psalm 63 (62)"}, "ref": "PSA 63"},
+    {"kind": "scripture", "title": {"en": "Psalm 149", "nl": "Psalm 149"}, "ref": "PSA 149"},
+    {"kind": "scripture", "title": {"en": "Benedictus", "nl": "Benedictus"}, "ref": "LUK 1:68-79"},
+    {"kind": "prayer", "prayerId": "our-father"},
+    {"kind": "prayer", "prayerId": "glory-be"}
+   ]
+  },
+  {
+   "id": "terce", "time": "09:00",
+   "name": {"en": "Midmorning Prayer", "nl": "Terts"},
+   "subtitle": {"en": "Terce", "nl": "Derde uur"},
+   "theme": {"en": "The hour of the Spirit's coming at Pentecost.", "nl": "Het uur van de komst van de Geest met Pinksteren."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
+    {"kind": "scripture", "title": {"en": "Psalm 120 (119)", "nl": "Psalm 120 (119)"}, "ref": "PSA 120"},
+    {"kind": "scripture", "title": {"en": "Psalm 121 (120)", "nl": "Psalm 121 (120)"}, "ref": "PSA 121"},
+    {"kind": "scripture", "title": {"en": "Psalm 122 (121)", "nl": "Psalm 122 (121)"}, "ref": "PSA 122"},
+    {"kind": "prayer", "prayerId": "glory-be"}
+   ]
+  },
+  {
+   "id": "sext", "time": "12:00",
+   "name": {"en": "Midday Prayer", "nl": "Sext"},
+   "subtitle": {"en": "Sext", "nl": "Zesde uur"},
+   "theme": {"en": "Christ lifted on the Cross at noon; Peter prays on the rooftop.", "nl": "Christus verheven aan het Kruis op het middaguur; Petrus bidt op het dak."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
+    {"kind": "scripture", "title": {"en": "Psalm 123 (122)", "nl": "Psalm 123 (122)"}, "ref": "PSA 123"},
+    {"kind": "scripture", "title": {"en": "Psalm 124 (123)", "nl": "Psalm 124 (123)"}, "ref": "PSA 124"},
+    {"kind": "scripture", "title": {"en": "Psalm 125 (124)", "nl": "Psalm 125 (124)"}, "ref": "PSA 125"},
+    {"kind": "prayer", "prayerId": "glory-be"}
+   ]
+  },
+  {
+   "id": "none", "time": "15:00",
+   "name": {"en": "Midafternoon Prayer", "nl": "None"},
+   "subtitle": {"en": "None", "nl": "Negende uur"},
+   "theme": {"en": "The hour of the Lord's death; Peter and John go up to the temple to pray.", "nl": "Het uur van de dood van de Heer; Petrus en Johannes gaan op naar de tempel om te bidden."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
+    {"kind": "scripture", "title": {"en": "Psalm 126 (125)", "nl": "Psalm 126 (125)"}, "ref": "PSA 126"},
+    {"kind": "scripture", "title": {"en": "Psalm 127 (126)", "nl": "Psalm 127 (126)"}, "ref": "PSA 127"},
+    {"kind": "scripture", "title": {"en": "Psalm 128 (127)", "nl": "Psalm 128 (127)"}, "ref": "PSA 128"},
+    {"kind": "prayer", "prayerId": "glory-be"}
+   ]
+  },
+  {
+   "id": "vespers", "time": "18:00",
+   "name": {"en": "Evening Prayer", "nl": "Vespers"},
+   "subtitle": {"en": "Vespers", "nl": "Avondgebed"},
+   "theme": {"en": "Thanksgiving for the day, offered like incense in the evening.", "nl": "Dankzegging voor de dag, als wierook opgedragen in de avond."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
+    {"kind": "scripture", "title": {"en": "Psalm 110 (109)", "nl": "Psalm 110 (109)"}, "ref": "PSA 110"},
+    {"kind": "scripture", "title": {"en": "Psalm 114 (113A)", "nl": "Psalm 114 (113A)"}, "ref": "PSA 114"},
+    {"kind": "scripture", "title": {"en": "Magnificat", "nl": "Magnificat"}, "ref": "LUK 1:46-55"},
+    {"kind": "prayer", "prayerId": "our-father"},
+    {"kind": "prayer", "prayerId": "glory-be"}
+   ]
+  },
+  {
+   "id": "compline", "time": "21:30",
+   "name": {"en": "Night Prayer", "nl": "Completen"},
+   "subtitle": {"en": "Compline", "nl": "Nachtgebed"},
+   "theme": {"en": "Examine the day, ask forgiveness, and rest in God's protection.", "nl": "Overzie de dag, vraag vergeving, en rust in Gods bescherming."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "deus-in-adiutorium"},
+    {"kind": "text", "title": {"en": "Examination of conscience", "nl": "Gewetensonderzoek"}, "body": {
+     "en": ["Pause in silence. Look back over the day: where did I love, and where did I fail to love? Ask the Lord's mercy."],
+     "nl": ["Houd een moment stilte. Kijk terug op de dag: waar heb ik liefgehad, en waar heb ik nagelaten lief te hebben? Vraag de barmhartigheid van de Heer."]
+    }},
+    {"kind": "scripture", "title": {"en": "Psalm 91 (90)", "nl": "Psalm 91 (90)"}, "ref": "PSA 91"},
+    {"kind": "scripture", "title": {"en": "Reading", "nl": "Lezing"}, "ref": "REV 22:4-5"},
+    {"kind": "scripture", "title": {"en": "Nunc Dimittis", "nl": "Nunc Dimittis"}, "ref": "LUK 2:29-32"},
+    {"kind": "text", "title": {"en": "Salve Regina", "nl": "Salve Regina"}, "body": {
+     "en": ["Hail, holy Queen, Mother of mercy, our life, our sweetness and our hope. To you do we cry, poor banished children of Eve; to you do we send up our sighs, mourning and weeping in this valley of tears.", "Turn then, most gracious advocate, your eyes of mercy toward us, and after this our exile show unto us the blessed fruit of your womb, Jesus. O clement, O loving, O sweet Virgin Mary."],
+     "nl": ["Wees gegroet, Koningin, Moeder van barmhartigheid, ons leven, onze vreugde en onze hoop, wees gegroet. Tot U roepen wij, ballingen, kinderen van Eva; tot U smeken wij, zuchtend en wenend in dit dal van tranen.", "Daarom dan, onze Voorspreekster, sla op ons uw barmhartige ogen, en toon ons na deze ballingschap Jezus, de gezegende vrucht van uw schoot. O goedertieren, o liefdevolle, o zoete Maagd Maria."]
+    }}
+   ]
+  }
+ ]
+}

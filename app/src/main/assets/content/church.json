@@ -1,0 +1,74 @@
+{
+ "articles": [
+  {
+   "id": "history-apostolic", "section": "HISTORY", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
+   "title": {"en": "The apostolic age", "nl": "De apostolische tijd"},
+   "summary": {"en": "From Pentecost to the death of the last apostle.", "nl": "Van Pinksteren tot de dood van de laatste apostel."},
+   "body": {
+    "en": ["The Church was born at Pentecost, when the Holy Spirit descended on the apostles in Jerusalem. From there the Gospel spread along the roads of the Roman Empire: to Antioch, where the disciples were first called Christians; to Alexandria, Rome, Ephesus and beyond.", "The apostles appointed bishops, presbyters and deacons to shepherd the local churches. The Eucharist, baptism and the laying on of hands were already the centre of the Church's life, as the Acts of the Apostles and the letters of Paul show.", "(Sample article: more detail will be added.)"],
+    "nl": ["De Kerk werd geboren met Pinksteren, toen de Heilige Geest in Jeruzalem op de apostelen neerdaalde. Van daaruit verspreidde het Evangelie zich langs de wegen van het Romeinse Rijk: naar Antiochië, waar de leerlingen voor het eerst christenen werden genoemd; naar Alexandrië, Rome, Efeze en verder.", "De apostelen stelden bisschoppen, priesters en diakens aan om de plaatselijke kerken te hoeden. De eucharistie, de doop en de handoplegging stonden al in het hart van het leven van de Kerk, zoals Handelingen en de brieven van Paulus laten zien.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+   }
+  },
+  {
+   "id": "history-persecutions", "section": "HISTORY", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
+   "title": {"en": "The age of the martyrs", "nl": "De tijd van de martelaren"},
+   "summary": {"en": "Three centuries of witness until the Edict of Milan (313).", "nl": "Drie eeuwen van getuigenis tot het Edict van Milaan (313)."},
+   "body": {
+    "en": ["For nearly three centuries Christians lived under the threat of persecution. Ignatius of Antioch, Polycarp of Smyrna, Perpetua and Felicity, and countless others gave their lives rather than deny Christ. \"The blood of the martyrs is the seed of the Church,\" wrote Tertullian.", "The Great Persecution under Diocletian (303–311) was the fiercest. In Egypt it was so severe that the Coptic Church still counts its years from 284, the Era of the Martyrs.", "(Sample article: more detail will be added.)"],
+    "nl": ["Bijna drie eeuwen leefden christenen onder de dreiging van vervolging. Ignatius van Antiochië, Polycarpus van Smyrna, Perpetua en Felicitas en talloze anderen gaven hun leven liever dan Christus te verloochenen. \"Het bloed van de martelaren is het zaad van de Kerk,\" schreef Tertullianus.", "De Grote Vervolging onder Diocletianus (303–311) was de zwaarste. In Egypte was zij zo hevig dat de Koptische Kerk haar jaren nog altijd telt vanaf 284, het Tijdperk van de Martelaren.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+   }
+  },
+  {
+   "id": "history-east-west", "section": "HISTORY", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"],
+   "title": {"en": "Divisions and dialogue", "nl": "Scheidingen en dialoog"},
+   "summary": {"en": "451, 1054 and the long road back toward unity.", "nl": "451, 1054 en de lange weg terug naar eenheid."},
+   "body": {
+    "en": ["After Chalcedon (451) the Oriental Orthodox churches and the Chalcedonian churches went separate ways. In 1054 the mutual excommunications between Rome and Constantinople marked the estrangement of East and West, deepened by the sack of Constantinople in 1204.", "In 1965 Pope Paul VI and Patriarch Athenagoras lifted the excommunications of 1054. Since the 1960s, theological dialogues between all three families of churches have found much common ground, while real differences remain.", "(Sample article: more detail will be added.)"],
+    "nl": ["Na Chalcedon (451) gingen de Oriëntaals-Orthodoxe kerken en de Chalcedonische kerken uiteen. In 1054 markeerden de wederzijdse excommunicaties tussen Rome en Constantinopel de vervreemding van Oost en West, verdiept door de plundering van Constantinopel in 1204.", "In 1965 hieven paus Paulus VI en patriarch Athenagoras de excommunicaties van 1054 op. Sinds de jaren zestig hebben theologische dialogen tussen alle drie de kerkfamilies veel gemeenschappelijke grond gevonden, terwijl er echte verschillen blijven.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+   }
+  },
+  {
+   "id": "tradition-eo", "section": "TRADITION", "traditions": ["EASTERN_ORTHODOX"],
+   "title": {"en": "The Eastern Orthodox Church", "nl": "De Oosters-Orthodoxe Kerk"},
+   "summary": {"en": "One faith, many local churches, in communion with Constantinople.", "nl": "Eén geloof, vele lokale kerken, in gemeenschap met Constantinopel."},
+   "body": {
+    "en": ["The Eastern Orthodox Church is a communion of self-governing churches (Constantinople, Alexandria, Antioch, Jerusalem, Moscow, Serbia, Romania, Greece and others) that share one faith, one liturgy and the seven Ecumenical Councils.", "Its Bible follows the Greek Septuagint for the Old Testament, which is why it includes books such as 1 Esdras, 3 Maccabees and the Prayer of Manasseh. Its life is shaped by the Divine Liturgy, the Horologion, the icons and the teaching of the Fathers on theosis: becoming by grace what God is by nature.", "(Sample article: more detail will be added.)"],
+    "nl": ["De Oosters-Orthodoxe Kerk is een gemeenschap van zelfbesturende kerken (Constantinopel, Alexandrië, Antiochië, Jeruzalem, Moskou, Servië, Roemenië, Griekenland en andere) die één geloof, één liturgie en de zeven Oecumenische Concilies delen.", "Haar Bijbel volgt voor het Oude Testament de Griekse Septuagint; daarom bevat zij boeken als 1 Esdras, 3 Makkabeeën en het Gebed van Manasse. Haar leven wordt gevormd door de Goddelijke Liturgie, het Horologion, de iconen en de leer van de Vaders over theosis: door genade worden wat God van nature is.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+   }
+  },
+  {
+   "id": "tradition-oo", "section": "TRADITION", "traditions": ["ORIENTAL_ORTHODOX"],
+   "title": {"en": "The Oriental Orthodox Churches", "nl": "De Oriëntaals-Orthodoxe Kerken"},
+   "summary": {"en": "Coptic, Syriac, Armenian, Ethiopian, Eritrean and Malankara churches.", "nl": "Koptische, Syrische, Armeense, Ethiopische, Eritrese en Malankara-kerken."},
+   "body": {
+    "en": ["The Oriental Orthodox Churches receive the first three Ecumenical Councils: Nicaea, Constantinople and Ephesus. With St Cyril of Alexandria they confess the one incarnate nature of God the Word, fully divine and fully human, without mixture or separation.", "The Coptic Orthodox Church of Alexandria traces its founding to St Mark the Evangelist. Its prayer is shaped by the Agpeya, the Psalmody and the Synaxarium, and by the witness of the desert fathers of Egypt such as St Anthony and St Macarius.", "(Sample article: more detail will be added.)"],
+    "nl": ["De Oriëntaals-Orthodoxe Kerken aanvaarden de eerste drie Oecumenische Concilies: Nicea, Constantinopel en Efeze. Met de heilige Cyrillus van Alexandrië belijden zij de ene vleesgeworden natuur van God het Woord, volkomen goddelijk en volkomen menselijk, zonder vermenging of scheiding.", "De Koptisch-Orthodoxe Kerk van Alexandrië voert haar stichting terug op de heilige evangelist Marcus. Haar gebed wordt gevormd door de Agpeya, de Psalmodie en het Synaxarium, en door het getuigenis van de woestijnvaders van Egypte zoals de heilige Antonius en de heilige Macarius.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+   }
+  },
+  {
+   "id": "tradition-ca", "section": "TRADITION", "traditions": ["CATHOLIC"],
+   "title": {"en": "The Catholic Church", "nl": "De Katholieke Kerk"},
+   "summary": {"en": "The Latin Church and the Eastern Catholic Churches in communion with Rome.", "nl": "De Latijnse Kerk en de Oosters-Katholieke Kerken in gemeenschap met Rome."},
+   "body": {
+    "en": ["The Catholic Church is a communion of the Latin Church and twenty-three Eastern Catholic Churches, united with the Bishop of Rome as successor of St Peter. It counts twenty-one ecumenical councils, from Nicaea (325) to the Second Vatican Council (1962–1965).", "Its Bible has seventy-three books, including Tobit, Judith, Wisdom, Sirach, Baruch and 1–2 Maccabees. The Mass and the Liturgy of the Hours form the rhythm of its prayer.", "(Sample article: more detail will be added.)"],
+    "nl": ["De Katholieke Kerk is een gemeenschap van de Latijnse Kerk en drieëntwintig Oosters-Katholieke Kerken, verenigd met de bisschop van Rome als opvolger van de heilige Petrus. Zij telt eenentwintig oecumenische concilies, van Nicea (325) tot het Tweede Vaticaans Concilie (1962–1965).", "Haar Bijbel telt drieënzeventig boeken, waaronder Tobit, Judit, Wijsheid, Sirach, Baruch en 1–2 Makkabeeën. De Mis en het Getijdengebed vormen het ritme van haar gebed.", "(Voorbeeldartikel: er wordt meer uitleg toegevoegd.)"]
+   }
+  }
+ ],
+ "fathers": [
+  {"id": "ignatius", "name": {"en": "Ignatius of Antioch", "nl": "Ignatius van Antiochië"}, "era": "† c. 107", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop and martyr; his seven letters on the way to Rome witness to the bishop, the Eucharist and the unity of the Church.", "nl": "Bisschop en martelaar; zijn zeven brieven op weg naar Rome getuigen van de bisschop, de eucharistie en de eenheid van de Kerk."}},
+  {"id": "irenaeus", "name": {"en": "Irenaeus of Lyon", "nl": "Irenaeus van Lyon"}, "era": "† c. 202", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Against the Gnostics he defended the unity of Scripture and the apostolic tradition: \"the glory of God is a human being fully alive.\"", "nl": "Tegen de gnostici verdedigde hij de eenheid van de Schrift en de apostolische overlevering: \"de heerlijkheid van God is de levende mens.\""}},
+  {"id": "athanasius", "name": {"en": "Athanasius of Alexandria", "nl": "Athanasius van Alexandrië"}, "era": "† 373", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Defender of Nicaea through five exiles; author of On the Incarnation and the Life of Antony.", "nl": "Verdediger van Nicea door vijf ballingschappen heen; schrijver van Over de menswording en het Leven van Antonius."}},
+  {"id": "basil", "name": {"en": "Basil the Great", "nl": "Basilius de Grote"}, "era": "† 379", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop of Caesarea, father of Eastern monasticism; wrote On the Holy Spirit and the Hexaemeron.", "nl": "Bisschop van Caesarea, vader van het oosterse monnikendom; schreef Over de Heilige Geest en de Hexaëmeron."}},
+  {"id": "gregory-theologian", "name": {"en": "Gregory the Theologian", "nl": "Gregorius de Theoloog"}, "era": "† 390", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Gregory of Nazianzus; his Five Theological Orations are classic teaching on the Trinity.", "nl": "Gregorius van Nazianze; zijn Vijf Theologische Redevoeringen zijn klassieke leer over de Drie-eenheid."}},
+  {"id": "ephrem", "name": {"en": "Ephrem the Syrian", "nl": "Efrem de Syriër"}, "era": "† 373", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Deacon and poet of Nisibis and Edessa, \"the Harp of the Spirit\"; his hymns teach theology in song.", "nl": "Diaken en dichter van Nisibis en Edessa, \"de Harp van de Geest\"; zijn hymnen leren theologie in gezang."}},
+  {"id": "chrysostom", "name": {"en": "John Chrysostom", "nl": "Johannes Chrysostomus"}, "era": "† 407", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Archbishop of Constantinople, the great preacher of Scripture; his homilies cover much of the Bible.", "nl": "Aartsbisschop van Constantinopel, de grote prediker van de Schrift; zijn homilieën bestrijken een groot deel van de Bijbel."}},
+  {"id": "augustine", "name": {"en": "Augustine of Hippo", "nl": "Augustinus van Hippo"}, "era": "† 430", "traditions": ["EASTERN_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop in North Africa; the Confessions and the City of God shaped Western Christianity.", "nl": "Bisschop in Noord-Afrika; de Belijdenissen en De stad van God vormden het westerse christendom."}},
+  {"id": "cyril", "name": {"en": "Cyril of Alexandria", "nl": "Cyrillus van Alexandrië"}, "era": "† 444", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Defender of the Theotokos at Ephesus; his teaching on the one incarnate Word is shared by all three families.", "nl": "Verdediger van de Theotokos op Efeze; zijn leer over het ene vleesgeworden Woord wordt door alle drie de families gedeeld."}},
+  {"id": "leo", "name": {"en": "Leo the Great", "nl": "Leo de Grote"}, "era": "† 461", "traditions": ["EASTERN_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop of Rome; his Tome was received at Chalcedon.", "nl": "Bisschop van Rome; zijn Tomus werd op Chalcedon aanvaard."}},
+  {"id": "severus", "name": {"en": "Severus of Antioch", "nl": "Severus van Antiochië"}, "era": "† 538", "traditions": ["ORIENTAL_ORTHODOX"], "summary": {"en": "Patriarch of Antioch and the great theologian of the non-Chalcedonian churches.", "nl": "Patriarch van Antiochië en de grote theoloog van de niet-Chalcedonische kerken."}},
+  {"id": "maximus", "name": {"en": "Maximus the Confessor", "nl": "Maximus de Belijder"}, "era": "† 662", "traditions": ["EASTERN_ORTHODOX", "CATHOLIC"], "summary": {"en": "Monk who defended Christ's human will and suffered for it; teacher of theosis.", "nl": "Monnik die de menselijke wil van Christus verdedigde en daarvoor leed; leraar van de theosis."}},
+  {"id": "john-damascus", "name": {"en": "John of Damascus", "nl": "Johannes van Damascus"}, "era": "† 749", "traditions": ["EASTERN_ORTHODOX", "CATHOLIC"], "summary": {"en": "Defender of the icons; his Exact Exposition of the Orthodox Faith summarises the Fathers.", "nl": "Verdediger van de iconen; zijn Nauwkeurige uiteenzetting van het orthodoxe geloof vat de Vaders samen."}},
+  {"id": "isaac", "name": {"en": "Isaac the Syrian", "nl": "Isaak de Syriër"}, "era": "7th century", "traditions": ["EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"], "summary": {"en": "Bishop of Nineveh and teacher of prayer and of God's boundless mercy.", "nl": "Bisschop van Nineve en leraar van het gebed en van Gods grenzeloze barmhartigheid."}}
+ ]
+}

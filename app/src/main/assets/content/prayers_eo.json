@@ -1,0 +1,149 @@
+{
+ "tradition": "EASTERN_ORTHODOX",
+ "book": {"en": "Horologion", "nl": "Horologion"},
+ "intro": {
+  "en": "The Horologion is the Byzantine Book of Hours. Its services follow the day from midnight to night: each hour remembers a moment of the Lord's Passion and of the Church's life. Pray one hour, or a part of it, with attention rather than haste. (Sample content: the full services will be added.)",
+  "nl": "Het Horologion is het Byzantijnse getijdenboek. De diensten volgen de dag van middernacht tot de nacht: elk uur gedenkt een moment van het lijden van de Heer en van het leven van de Kerk. Bid één uur, of een deel ervan, met aandacht in plaats van haast. (Voorbeeldinhoud: de volledige diensten worden nog toegevoegd.)"
+ },
+ "hours": [
+  {
+   "id": "midnight", "time": "00:00",
+   "name": {"en": "Midnight Office", "nl": "Middernachtsdienst"},
+   "subtitle": {"en": "Waiting for the Bridegroom", "nl": "Wachten op de Bruidegom"},
+   "theme": {"en": "Behold, the Bridegroom comes at midnight. Keep watch with the wise virgins.", "nl": "Zie, de Bruidegom komt te middernacht. Waak met de wijze maagden."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "trisagion"},
+    {"kind": "scripture", "title": {"en": "Psalm 51 (50)", "nl": "Psalm 51 (50)"}, "ref": "PSA 51"},
+    {"kind": "scripture", "title": {"en": "From Psalm 119 (118)", "nl": "Uit Psalm 119 (118)"}, "ref": "PSA 119:1-24"},
+    {"kind": "prayer", "prayerId": "creed-nicene"},
+    {"kind": "text", "title": {"en": "Troparion", "nl": "Troparion"}, "body": {
+     "en": ["Behold, the Bridegroom comes at midnight, and blessed is the servant whom He shall find watching; and again, unworthy is he whom He shall find heedless.", "Beware, then, O my soul, do not be weighed down with sleep, lest you be given up to death and be shut out of the Kingdom. But rouse yourself and cry: Holy, holy, holy are You, O God; through the Theotokos have mercy on us."],
+     "nl": ["Zie, de Bruidegom komt te middernacht, en zalig de dienaar die Hij wakend zal vinden; maar onwaardig is hij die Hij achteloos zal vinden.", "Pas dan op, mijn ziel, laat u niet door de slaap overmannen, opdat gij niet aan de dood wordt overgeleverd en buiten het Koninkrijk wordt gesloten. Maar sta op en roep: Heilig, heilig, heilig zijt Gij, o God; door de Moeder Gods, ontferm U over ons."]
+    }}
+   ]
+  },
+  {
+   "id": "matins", "time": "06:00",
+   "name": {"en": "Matins", "nl": "Metten"},
+   "subtitle": {"en": "The Six Psalms", "nl": "De Zes Psalmen"},
+   "theme": {"en": "Glory to God in the highest, and on earth peace. The day begins with the song of the angels.", "nl": "Eer aan God in de hoge, en vrede op aarde. De dag begint met het lied van de engelen."},
+   "sections": [
+    {"kind": "text", "title": {"en": "Beginning", "nl": "Begin"}, "body": {
+     "en": ["Glory to God in the highest, and on earth peace, good will toward men. (Three times)", "O Lord, You shall open my lips, and my mouth shall declare Your praise. (Twice)"],
+     "nl": ["Eer aan God in de hoge, en vrede op aarde, in de mensen een welbehagen. (Driemaal)", "Heer, open mijn lippen, en mijn mond zal Uw lof verkondigen. (Tweemaal)"]
+    }},
+    {"kind": "scripture", "title": {"en": "Psalm 3", "nl": "Psalm 3"}, "ref": "PSA 3"},
+    {"kind": "scripture", "title": {"en": "Psalm 38 (37)", "nl": "Psalm 38 (37)"}, "ref": "PSA 38"},
+    {"kind": "scripture", "title": {"en": "Psalm 63 (62)", "nl": "Psalm 63 (62)"}, "ref": "PSA 63"},
+    {"kind": "scripture", "title": {"en": "Psalm 88 (87)", "nl": "Psalm 88 (87)"}, "ref": "PSA 88"},
+    {"kind": "scripture", "title": {"en": "Psalm 103 (102)", "nl": "Psalm 103 (102)"}, "ref": "PSA 103"},
+    {"kind": "scripture", "title": {"en": "Psalm 143 (142)", "nl": "Psalm 143 (142)"}, "ref": "PSA 143"},
+    {"kind": "text", "title": {"en": "God is the Lord", "nl": "God is de Heer"}, "body": {
+     "en": ["God is the Lord and has revealed Himself to us. Blessed is He who comes in the name of the Lord."],
+     "nl": ["God is de Heer en Hij is ons verschenen. Gezegend Hij die komt in de Naam des Heren."]
+    }}
+   ]
+  },
+  {
+   "id": "first", "time": "07:00",
+   "name": {"en": "First Hour", "nl": "Eerste uur"},
+   "subtitle": {"en": "Christ the true Light", "nl": "Christus, het ware Licht"},
+   "theme": {"en": "Christ is led before Pilate. We ask that the day's work be directed by His light.", "nl": "Christus wordt voor Pilatus geleid. Wij vragen dat het werk van de dag door Zijn licht wordt geleid."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "come-let-us-worship"},
+    {"kind": "scripture", "title": {"en": "Psalm 5", "nl": "Psalm 5"}, "ref": "PSA 5"},
+    {"kind": "scripture", "title": {"en": "Psalm 90 (89)", "nl": "Psalm 90 (89)"}, "ref": "PSA 90"},
+    {"kind": "scripture", "title": {"en": "Psalm 101 (100)", "nl": "Psalm 101 (100)"}, "ref": "PSA 101"},
+    {"kind": "text", "title": {"en": "Prayer of the First Hour", "nl": "Gebed van het eerste uur"}, "body": {
+     "en": ["O Christ, the true Light, who enlightens and sanctifies every man who comes into the world: let the light of Your countenance be signed upon us, that in it we may see the unapproachable Light.", "Direct our steps in the doing of Your commandments, through the intercessions of Your most pure Mother and of all Your saints. Amen."],
+     "nl": ["Christus, het ware Licht, dat ieder mens verlicht en heiligt die in de wereld komt: laat het licht van Uw aangezicht over ons getekend zijn, opdat wij daarin het ontoegankelijke Licht mogen zien.", "Richt onze schreden op het doen van Uw geboden, op voorspraak van Uw allerreinste Moeder en van al Uw heiligen. Amen."]
+    }}
+   ]
+  },
+  {
+   "id": "third", "time": "09:00",
+   "name": {"en": "Third Hour", "nl": "Derde uur"},
+   "subtitle": {"en": "The descent of the Spirit", "nl": "De neerdaling van de Geest"},
+   "theme": {"en": "At the third hour the Holy Spirit descended on the apostles. Ask for a clean heart.", "nl": "Op het derde uur daalde de Heilige Geest neer op de apostelen. Vraag om een rein hart."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "come-let-us-worship"},
+    {"kind": "scripture", "title": {"en": "Psalm 17 (16)", "nl": "Psalm 17 (16)"}, "ref": "PSA 17"},
+    {"kind": "scripture", "title": {"en": "Psalm 25 (24)", "nl": "Psalm 25 (24)"}, "ref": "PSA 25"},
+    {"kind": "scripture", "title": {"en": "Psalm 51 (50)", "nl": "Psalm 51 (50)"}, "ref": "PSA 51"},
+    {"kind": "text", "title": {"en": "Troparion", "nl": "Troparion"}, "body": {
+     "en": ["O Lord, who at the third hour sent down Your Most Holy Spirit upon Your apostles: take Him not from us, O Good One, but renew Him in us who pray to You."],
+     "nl": ["Heer, die op het derde uur Uw Allerheiligste Geest hebt gezonden over Uw apostelen: neem Hem niet van ons weg, o Goede, maar vernieuw Hem in ons die tot U bidden."]
+    }}
+   ]
+  },
+  {
+   "id": "sixth", "time": "12:00",
+   "name": {"en": "Sixth Hour", "nl": "Zesde uur"},
+   "subtitle": {"en": "The Cross at noon", "nl": "Het Kruis op het middaguur"},
+   "theme": {"en": "At noon Christ was nailed to the Cross. Bring the middle of the day to Him.", "nl": "Op het middaguur werd Christus aan het Kruis genageld. Breng het midden van de dag bij Hem."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "come-let-us-worship"},
+    {"kind": "scripture", "title": {"en": "Psalm 54 (53)", "nl": "Psalm 54 (53)"}, "ref": "PSA 54"},
+    {"kind": "scripture", "title": {"en": "Psalm 55 (54)", "nl": "Psalm 55 (54)"}, "ref": "PSA 55"},
+    {"kind": "scripture", "title": {"en": "Psalm 91 (90)", "nl": "Psalm 91 (90)"}, "ref": "PSA 91"},
+    {"kind": "text", "title": {"en": "Troparion", "nl": "Troparion"}, "body": {
+     "en": ["You who on the sixth day and at the sixth hour nailed to the Cross the sin which Adam dared in Paradise: tear asunder also the record of our transgressions, O Christ God, and save us."],
+     "nl": ["Gij die op de zesde dag en het zesde uur de zonde die Adam in het Paradijs waagde aan het Kruis hebt genageld: verscheur ook het schuldbewijs van onze overtredingen, Christus God, en red ons."]
+    }}
+   ]
+  },
+  {
+   "id": "ninth", "time": "15:00",
+   "name": {"en": "Ninth Hour", "nl": "Negende uur"},
+   "subtitle": {"en": "The death of the Lord", "nl": "De dood van de Heer"},
+   "theme": {"en": "At the ninth hour Christ gave up His spirit. Put to death what is earthly in us.", "nl": "Op het negende uur gaf Christus de geest. Doe sterven wat aards in ons is."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "come-let-us-worship"},
+    {"kind": "scripture", "title": {"en": "Psalm 84 (83)", "nl": "Psalm 84 (83)"}, "ref": "PSA 84"},
+    {"kind": "scripture", "title": {"en": "Psalm 85 (84)", "nl": "Psalm 85 (84)"}, "ref": "PSA 85"},
+    {"kind": "scripture", "title": {"en": "Psalm 86 (85)", "nl": "Psalm 86 (85)"}, "ref": "PSA 86"},
+    {"kind": "text", "title": {"en": "Troparion", "nl": "Troparion"}, "body": {
+     "en": ["You who at the ninth hour tasted death in the flesh for our sake: put to death the mind of our flesh, O Christ God, and save us."],
+     "nl": ["Gij die op het negende uur omwille van ons in het vlees de dood hebt gesmaakt: doe het denken van ons vlees sterven, Christus God, en red ons."]
+    }}
+   ]
+  },
+  {
+   "id": "vespers", "time": "18:00",
+   "name": {"en": "Vespers", "nl": "Vespers"},
+   "subtitle": {"en": "O Gladsome Light", "nl": "Blijde Licht"},
+   "theme": {"en": "The liturgical day begins at evening. Thank God for the day that has passed.", "nl": "De liturgische dag begint 's avonds. Dank God voor de dag die voorbij is."},
+   "sections": [
+    {"kind": "scripture", "title": {"en": "Psalm 104 (103)", "nl": "Psalm 104 (103)"}, "ref": "PSA 104"},
+    {"kind": "scripture", "title": {"en": "Psalm 141 (140)", "nl": "Psalm 141 (140)"}, "ref": "PSA 141"},
+    {"kind": "text", "title": {"en": "O Gladsome Light", "nl": "Blijde Licht"}, "body": {
+     "en": ["O gladsome Light of the holy glory of the immortal Father, heavenly, holy, blessed Jesus Christ!", "Now that we have come to the setting of the sun and behold the light of evening, we praise God: Father, Son and Holy Spirit.", "For it is right at all times to worship You with voices of praise, O Son of God and Giver of life; therefore all the world glorifies You."],
+     "nl": ["Blijde Licht van de heilige heerlijkheid van de onsterfelijke Vader, hemels, heilig, gezegend, Jezus Christus!", "Nu wij gekomen zijn tot de ondergang van de zon en het avondlicht aanschouwen, loven wij God: Vader, Zoon en Heilige Geest.", "Want het is te allen tijde passend U te bezingen met heilige stemmen, Zoon van God, die het leven geeft; daarom verheerlijkt U de wereld."]
+    }},
+    {"kind": "scripture", "title": {"en": "Song of Simeon", "nl": "Lofzang van Simeon"}, "ref": "LUK 2:29-32"},
+    {"kind": "prayer", "prayerId": "trisagion"}
+   ]
+  },
+  {
+   "id": "compline", "time": "21:00",
+   "name": {"en": "Small Compline", "nl": "Kleine Completen"},
+   "subtitle": {"en": "Before sleep", "nl": "Voor het slapengaan"},
+   "theme": {"en": "Commit the night to God, forgive, and ask for a peaceful sleep.", "nl": "Vertrouw de nacht aan God toe, vergeef, en vraag om een vredige slaap."},
+   "sections": [
+    {"kind": "prayer", "prayerId": "come-let-us-worship"},
+    {"kind": "scripture", "title": {"en": "Psalm 51 (50)", "nl": "Psalm 51 (50)"}, "ref": "PSA 51"},
+    {"kind": "scripture", "title": {"en": "Psalm 70 (69)", "nl": "Psalm 70 (69)"}, "ref": "PSA 70"},
+    {"kind": "scripture", "title": {"en": "Psalm 143 (142)", "nl": "Psalm 143 (142)"}, "ref": "PSA 143"},
+    {"kind": "prayer", "prayerId": "creed-nicene"},
+    {"kind": "text", "title": {"en": "It is truly right", "nl": "Het is waarlijk passend"}, "body": {
+     "en": ["It is truly right to bless you, O Theotokos, ever-blessed and most pure, and the Mother of our God.", "More honourable than the cherubim and beyond compare more glorious than the seraphim, without corruption you gave birth to God the Word: true Theotokos, we magnify you."],
+     "nl": ["Het is waarlijk passend u zalig te prijzen, Moeder Gods, altijd zalig en geheel onbevlekt, en Moeder van onze God.", "Eerbiedwaardiger dan de cherubijnen en onvergelijkelijk heerlijker dan de serafijnen, die ongeschonden God het Woord hebt gebaard: waarlijk Moeder Gods, u maken wij groot."]
+    }},
+    {"kind": "text", "title": {"en": "Prayer before sleep", "nl": "Gebed voor het slapen"}, "body": {
+     "en": ["And grant us, O Master, as we go to sleep, rest of body and soul. Keep us from the gloomy sleep of sin and from every dark pleasure of the night. Calm the stirrings of passion, and keep our life untroubled. Amen."],
+     "nl": ["En geef ons, Meester, nu wij gaan slapen, rust naar lichaam en ziel. Bewaar ons voor de donkere slaap van de zonde en voor elke duistere lust van de nacht. Stil de opwellingen van de hartstochten, en bewaar ons leven ongestoord. Amen."]
+    }}
+   ]
+  }
+ ]
+}

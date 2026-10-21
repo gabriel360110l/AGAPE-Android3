@@ -88,3 +88,9 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.temp
+
+# AGAPE
+.kotlin/
+.vscode/
+tools/.cache/
+__pycache__/

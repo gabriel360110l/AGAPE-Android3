@@ -1,0 +1,45 @@
+{
+ "passMark": 0.66,
+ "quizzes": {
+  "chapter:MRK.1": [
+   {"q": {"en": "Who prepared the way for Jesus in the wilderness?", "nl": "Wie bereidde de weg voor Jezus in de woestijn?"}, "options": [{"en": "Elijah", "nl": "Elia"}, {"en": "John the Baptist", "nl": "Johannes de Doper"}, {"en": "Peter", "nl": "Petrus"}], "answer": 1},
+   {"q": {"en": "What did the voice from heaven say at Jesus' baptism?", "nl": "Wat zei de stem uit de hemel bij de doop van Jezus?"}, "options": [{"en": "You are my beloved Son", "nl": "Gij zijt Mijn geliefde Zoon"}, {"en": "Follow me", "nl": "Volg Mij"}, {"en": "Repent and believe", "nl": "Bekeer u en geloof"}], "answer": 0},
+   {"q": {"en": "Which fishermen did Jesus call first?", "nl": "Welke vissers riep Jezus als eersten?"}, "options": [{"en": "Matthew and Thomas", "nl": "Matteüs en Tomas"}, {"en": "Philip and Bartholomew", "nl": "Filippus en Bartolomeüs"}, {"en": "Simon and Andrew", "nl": "Simon en Andreas"}], "answer": 2}
+  ],
+  "chapter:MRK.2": [
+   {"q": {"en": "How was the paralysed man brought to Jesus?", "nl": "Hoe werd de verlamde man bij Jezus gebracht?"}, "options": [{"en": "Through the roof", "nl": "Door het dak"}, {"en": "By boat", "nl": "Per boot"}, {"en": "On a donkey", "nl": "Op een ezel"}], "answer": 0},
+   {"q": {"en": "Which tax collector did Jesus call?", "nl": "Welke tollenaar riep Jezus?"}, "options": [{"en": "Zacchaeus", "nl": "Zacheüs"}, {"en": "Levi", "nl": "Levi"}, {"en": "Nicodemus", "nl": "Nicodemus"}], "answer": 1},
+   {"q": {"en": "Jesus said the Son of Man is lord even of…", "nl": "Jezus zei dat de Zoon des mensen heer is, ook van…"}, "options": [{"en": "the temple", "nl": "de tempel"}, {"en": "the sea", "nl": "de zee"}, {"en": "the Sabbath", "nl": "de sabbat"}], "answer": 2}
+  ],
+  "chapter:MRK.3": [
+   {"q": {"en": "How many apostles did Jesus appoint?", "nl": "Hoeveel apostelen stelde Jezus aan?"}, "options": [{"en": "Seven", "nl": "Zeven"}, {"en": "Twelve", "nl": "Twaalf"}, {"en": "Seventy", "nl": "Zeventig"}], "answer": 1},
+   {"q": {"en": "Who did Jesus say are His mother and brothers?", "nl": "Wie zijn volgens Jezus Zijn moeder en broeders?"}, "options": [{"en": "Whoever does the will of God", "nl": "Wie de wil van God doet"}, {"en": "Only His family in Nazareth", "nl": "Alleen Zijn familie in Nazaret"}, {"en": "The scribes", "nl": "De schriftgeleerden"}], "answer": 0}
+  ],
+  "chapter:MRK.4": [
+   {"q": {"en": "In the parable of the sower, what is the seed?", "nl": "Wat is in de gelijkenis van de zaaier het zaad?"}, "options": [{"en": "Money", "nl": "Geld"}, {"en": "The word", "nl": "Het woord"}, {"en": "Good works", "nl": "Goede werken"}], "answer": 1},
+   {"q": {"en": "What did Jesus calm on the sea?", "nl": "Wat bracht Jezus tot rust op het meer?"}, "options": [{"en": "A storm", "nl": "Een storm"}, {"en": "A crowd", "nl": "Een menigte"}, {"en": "A fire", "nl": "Een vuur"}], "answer": 0}
+  ],
+  "chapter:MRK.5": [
+   {"q": {"en": "What name did the unclean spirit give?", "nl": "Welke naam gaf de onreine geest?"}, "options": [{"en": "Beelzebul", "nl": "Beëlzebul"}, {"en": "Legion", "nl": "Legioen"}, {"en": "Satan", "nl": "Satan"}], "answer": 1},
+   {"q": {"en": "Whose daughter did Jesus raise?", "nl": "Wiens dochter wekte Jezus op?"}, "options": [{"en": "Jairus", "nl": "Jaïrus"}, {"en": "Herod", "nl": "Herodes"}, {"en": "Pilate", "nl": "Pilatus"}], "answer": 0}
+  ],
+  "chapter:MRK.6": [
+   {"q": {"en": "How many men were fed with five loaves and two fish?", "nl": "Hoeveel mannen werden gevoed met vijf broden en twee vissen?"}, "options": [{"en": "Five hundred", "nl": "Vijfhonderd"}, {"en": "Four thousand", "nl": "Vierduizend"}, {"en": "Five thousand", "nl": "Vijfduizend"}], "answer": 2},
+   {"q": {"en": "How did Jesus come to the disciples in the night?", "nl": "Hoe kwam Jezus in de nacht naar de leerlingen?"}, "options": [{"en": "Walking on the sea", "nl": "Lopend over het meer"}, {"en": "In a second boat", "nl": "In een tweede boot"}, {"en": "In a dream", "nl": "In een droom"}], "answer": 0}
+  ],
+  "chapter:JHN.1": [
+   {"q": {"en": "\"In the beginning was the…\"", "nl": "\"In het begin was het…\""}, "options": [{"en": "Light", "nl": "Licht"}, {"en": "Word", "nl": "Woord"}, {"en": "Spirit", "nl": "Geest"}], "answer": 1},
+   {"q": {"en": "What did John the Baptist call Jesus?", "nl": "Hoe noemde Johannes de Doper Jezus?"}, "options": [{"en": "The Lamb of God", "nl": "Het Lam Gods"}, {"en": "The new Moses", "nl": "De nieuwe Mozes"}, {"en": "The Teacher of Righteousness", "nl": "De Leraar der Gerechtigheid"}], "answer": 0}
+  ],
+  "plan:redemptive:1": [
+   {"q": {"en": "Through whom were all things made, according to John 1?", "nl": "Door wie is volgens Johannes 1 alles gemaakt?"}, "options": [{"en": "Through the Word", "nl": "Door het Woord"}, {"en": "Through the angels", "nl": "Door de engelen"}, {"en": "Through Moses", "nl": "Door Mozes"}], "answer": 0},
+   {"q": {"en": "What did God see at the end of Genesis 1?", "nl": "Wat zag God aan het eind van Genesis 1?"}, "options": [{"en": "That it was very good", "nl": "Dat het zeer goed was"}, {"en": "That it was unfinished", "nl": "Dat het onvoltooid was"}, {"en": "That it was dark", "nl": "Dat het donker was"}], "answer": 0}
+  ],
+  "plan:redemptive:2": [
+   {"q": {"en": "Romans 5 contrasts Adam with…", "nl": "Romeinen 5 zet Adam tegenover…"}, "options": [{"en": "Moses", "nl": "Mozes"}, {"en": "Christ", "nl": "Christus"}, {"en": "Abraham", "nl": "Abraham"}], "answer": 1}
+  ],
+  "plan:redemptive:10": [
+   {"q": {"en": "Which feast does 1 Corinthians 5 connect with Christ?", "nl": "Welk feest verbindt 1 Korintiërs 5 met Christus?"}, "options": [{"en": "Passover", "nl": "Pascha"}, {"en": "Tabernacles", "nl": "Loofhutten"}, {"en": "Purim", "nl": "Purim"}], "answer": 0}
+  ]
+ }
+}
