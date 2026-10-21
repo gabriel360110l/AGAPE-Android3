@@ -65,8 +65,11 @@ class ContentRepository(private val context: Context) {
     fun article(id: String): ChurchArticle? = church.articles.firstOrNull { it.id == id }
     fun fathers(tradition: Tradition): List<ChurchFather> = church.fathers.filter { tradition in it.traditions }
     fun father(id: String): ChurchFather? = church.fathers.firstOrNull { it.id == id }
+    fun leaders(tradition: Tradition): List<ChurchLeader> = church.leaders.filter { it.tradition == tradition }
 
     /** The Byzantine menologion entry for a civil date (new calendar). */
+    fun saintsEo(): List<SaintEntry> = saintsEo
+
     fun saintEo(date: LocalDate): SaintEntry? = saintsEo.firstOrNull { it.month == date.monthValue && it.day == date.dayOfMonth }
 
     /** A stable verse for the day, mixing shared and tradition-specific verses. */

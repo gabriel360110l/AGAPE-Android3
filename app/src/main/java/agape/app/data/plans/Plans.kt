@@ -13,12 +13,14 @@ fun ContentRepository.planDays(plan: PlanDefinition, tradition: Tradition, langu
     PlanEngine.days(
         plan,
         canon(tradition, language).map { CanonBook(it.id, it.testament, it.chapterCount(language)) },
-        councils(tradition),
+        // The council plan follows the councils up to 1054, the shared history of East and West.
+        councils(tradition).filterNot { it.afterSchism },
     )
 
 /** The quiz guarding a day, if one exists. */
 fun ContentRepository.quizKeyFor(plan: PlanDefinition, day: PlanDay): String? =
-    PlanEngine.quizKey(plan, day) { quiz(it) != null }
+    // Every chapter has a quiz: written questions where they exist, otherwise questions generated from the text.
+    PlanEngine.quizKey(plan, day) { it.startsWith("chapter:") || quiz(it) != null }
 
 object PrayerClock {
     /** The hour whose time has most recently begun; before the first hour of the day, the last hour of the night. */

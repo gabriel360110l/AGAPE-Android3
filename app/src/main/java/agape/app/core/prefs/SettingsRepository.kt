@@ -46,6 +46,8 @@ data class Settings(
     val tourComplete: Boolean get() = tourSeen.containsAll(TourStop.entries)
 }
 
+private const val SEPARATOR = "\u001F"
+
 class SettingsRepository(private val context: Context) {
     private object Keys {
         val welcomeSeen = booleanPreferencesKey("welcome_seen")
@@ -64,6 +66,7 @@ class SettingsRepository(private val context: Context) {
         val lastVerse = intPreferencesKey("last_verse")
         val lastOpenedAt = longPreferencesKey("last_opened_at")
         val dailyCache = stringPreferencesKey("daily_cache")
+        val recentSearches = stringPreferencesKey("recent_searches")
     }
 
     val settings: Flow<Settings> = context.dataStore.data.map { p ->
@@ -109,6 +112,16 @@ class SettingsRepository(private val context: Context) {
 
     suspend fun markOpened(now: Long = System.currentTimeMillis()) = context.dataStore.edit { it[Keys.lastOpenedAt] = now }
     suspend fun lastOpenedAt(): Long = context.dataStore.data.first()[Keys.lastOpenedAt] ?: 0L
+
+    /** Most recent first, at most eight. */
+    val recentSearches: Flow<List<String>> = context.dataStore.data.map { p ->
+        p[Keys.recentSearches]?.split(SEPARATOR)?.filter { it.isNotBlank() }.orEmpty()
+    }
+
+    suspend fun addRecentSearch(query: String) = context.dataStore.edit {
+        val list = it[Keys.recentSearches]?.split(SEPARATOR).orEmpty()
+        it[Keys.recentSearches] = (listOf(query) + list.filter { q -> !q.equals(query, ignoreCase = true) }).take(8).joinToString(SEPARATOR)
+    }
 
     suspend fun dailyCache(): String? = context.dataStore.data.first()[Keys.dailyCache]
     suspend fun setDailyCache(json: String) = context.dataStore.edit { it[Keys.dailyCache] = json }

@@ -1143,5 +1143,1093 @@
    "en": "A dispute over the patriarchal see of Constantinople between Ignatius and Photius had become a conflict between Rome and Constantinople.",
    "nl": "Een geschil over de patriarchale zetel van Constantinopel tussen Ignatius en Photius was uitgegroeid tot een conflict tussen Rome en Constantinopel."
   }
+ },
+ {
+  "id": "lateran-1",
+  "number": 9,
+  "year": "1123",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "First Lateran Council",
+   "nl": "Eerste Lateraans Concilie"
+  },
+  "convokedBy": {
+   "en": "Pope Callixtus II",
+   "nl": "Paus Callixtus II"
+  },
+  "place": {
+   "en": "Rome, Lateran Basilica",
+   "nl": "Rome, Lateraanse basiliek"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "The investiture controversy: who appoints bishops, pope or emperor?",
+   "nl": "De investituurstrijd: wie benoemt bisschoppen, paus of keizer?"
+  },
+  "summary": {
+   "en": "For fifty years popes and emperors had fought over the right to invest bishops with ring and staff. The Concordat of Worms (1122) settled the dispute, and the council confirmed it.",
+   "nl": "Vijftig jaar lang hadden pausen en keizers gestreden over het recht bisschoppen met ring en staf te bekleden. Het Concordaat van Worms (1122) beslechtte het geschil, en het concilie bevestigde het."
+  },
+  "background": {
+   "en": [
+    "For fifty years popes and emperors had fought over the right to invest bishops with ring and staff. The Concordat of Worms (1122) settled the dispute, and the council confirmed it."
+   ],
+   "nl": [
+    "Vijftig jaar lang hadden pausen en keizers gestreden over het recht bisschoppen met ring en staf te bekleden. Het Concordaat van Worms (1122) beslechtte het geschil, en het concilie bevestigde het."
+   ]
+  },
+  "events": {
+   "en": [
+    "It was the first general council held in the West, gathering some three hundred bishops in the Lateran."
+   ],
+   "nl": [
+    "Het was het eerste algemene concilie in het Westen, met zo'n driehonderd bisschoppen in het Lateraan."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "The Concordat of Worms is confirmed: the Church elects and consecrates bishops.",
+    "nl": "Het Concordaat van Worms wordt bevestigd: de Kerk kiest en wijdt bisschoppen."
+   },
+   {
+    "en": "Simony and lay control of churches are forbidden.",
+    "nl": "Simonie en zeggenschap van leken over kerken worden verboden."
+   }
+  ],
+  "canons": [
+   {
+    "en": "The Concordat of Worms is confirmed: the Church elects and consecrates bishops.",
+    "nl": "Het Concordaat van Worms wordt bevestigd: de Kerk kiest en wijdt bisschoppen."
+   },
+   {
+    "en": "Simony and lay control of churches are forbidden.",
+    "nl": "Simonie en zeggenschap van leken over kerken worden verboden."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The freedom of the Church in choosing her pastors was strengthened."
+   ],
+   "nl": [
+    "De vrijheid van de Kerk bij het kiezen van haar herders werd versterkt."
+   ]
+  },
+  "passages": [
+   "JHN 10:1-16",
+   "ACT 1:21-26"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "lateran-2",
+  "number": 10,
+  "year": "1139",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Second Lateran Council",
+   "nl": "Tweede Lateraans Concilie"
+  },
+  "convokedBy": {
+   "en": "Pope Innocent II",
+   "nl": "Paus Innocentius II"
+  },
+  "place": {
+   "en": "Rome, Lateran Basilica",
+   "nl": "Rome, Lateraanse basiliek"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Ending a papal schism and reforming clergy.",
+   "nl": "Het beëindigen van een pauselijk schisma en hervorming van de clerus."
+  },
+  "summary": {
+   "en": "After the disputed election of 1130, two popes claimed the see of Rome. When the antipope Anacletus II died, Innocent II called a council to heal the division.",
+   "nl": "Na de omstreden verkiezing van 1130 maakten twee pausen aanspraak op de zetel van Rome. Toen tegenpaus Anacletus II stierf, riep Innocentius II een concilie bijeen om de verdeeldheid te helen."
+  },
+  "background": {
+   "en": [
+    "After the disputed election of 1130, two popes claimed the see of Rome. When the antipope Anacletus II died, Innocent II called a council to heal the division."
+   ],
+   "nl": [
+    "Na de omstreden verkiezing van 1130 maakten twee pausen aanspraak op de zetel van Rome. Toen tegenpaus Anacletus II stierf, riep Innocentius II een concilie bijeen om de verdeeldheid te helen."
+   ]
+  },
+  "events": {
+   "en": [
+    "The council annulled the acts of the schism and issued thirty canons on clerical life."
+   ],
+   "nl": [
+    "Het concilie verklaarde de handelingen van het schisma ongeldig en vaardigde dertig canons uit over het leven van de clerus."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Marriages attempted by clergy in major orders are declared invalid.",
+    "nl": "Huwelijken van geestelijken in de hogere wijdingen worden ongeldig verklaard."
+   },
+   {
+    "en": "Usury and violence against clergy are condemned.",
+    "nl": "Woeker en geweld tegen geestelijken worden veroordeeld."
+   }
+  ],
+  "canons": [
+   {
+    "en": "Marriages attempted by clergy in major orders are declared invalid.",
+    "nl": "Huwelijken van geestelijken in de hogere wijdingen worden ongeldig verklaard."
+   },
+   {
+    "en": "Usury and violence against clergy are condemned.",
+    "nl": "Woeker en geweld tegen geestelijken worden veroordeeld."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Clerical celibacy became fixed law in the Latin Church."
+   ],
+   "nl": [
+    "Het celibaat van de clerus werd vaste wet in de Latijnse Kerk."
+   ]
+  },
+  "passages": [
+   "1CO 7:32-35",
+   "MAT 19:10-12"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "lateran-3",
+  "number": 11,
+  "year": "1179",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Third Lateran Council",
+   "nl": "Derde Lateraans Concilie"
+  },
+  "convokedBy": {
+   "en": "Pope Alexander III",
+   "nl": "Paus Alexander III"
+  },
+  "place": {
+   "en": "Rome, Lateran Basilica",
+   "nl": "Rome, Lateraanse basiliek"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Papal elections and a new schism.",
+   "nl": "Pauskeuze en een nieuw schisma."
+  },
+  "summary": {
+   "en": "A long schism under Emperor Frederick Barbarossa had produced several antipopes. Peace was made at Venice in 1177.",
+   "nl": "Een lang schisma onder keizer Frederik Barbarossa had verschillende tegenpausen voortgebracht. In 1177 werd in Venetië vrede gesloten."
+  },
+  "background": {
+   "en": [
+    "A long schism under Emperor Frederick Barbarossa had produced several antipopes. Peace was made at Venice in 1177."
+   ],
+   "nl": [
+    "Een lang schisma onder keizer Frederik Barbarossa had verschillende tegenpausen voortgebracht. In 1177 werd in Venetië vrede gesloten."
+   ]
+  },
+  "events": {
+   "en": [
+    "The council set the rule for electing a pope and founded schools at cathedrals."
+   ],
+   "nl": [
+    "Het concilie stelde de regel voor de pauskeuze vast en stichtte scholen bij de kathedralen."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "A pope is elected by two thirds of the cardinals.",
+    "nl": "Een paus wordt gekozen met twee derde van de kardinalen."
+   },
+   {
+    "en": "Every cathedral must have a teacher for poor students.",
+    "nl": "Elke kathedraal moet een leraar hebben voor arme leerlingen."
+   }
+  ],
+  "canons": [
+   {
+    "en": "A pope is elected by two thirds of the cardinals.",
+    "nl": "Een paus wordt gekozen met twee derde van de kardinalen."
+   },
+   {
+    "en": "Every cathedral must have a teacher for poor students.",
+    "nl": "Elke kathedraal moet een leraar hebben voor arme leerlingen."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The two-thirds rule still governs papal elections."
+   ],
+   "nl": [
+    "De tweederderegel geldt nog steeds bij pauskeuzes."
+   ]
+  },
+  "passages": [
+   "ACT 1:15-26",
+   "PRO 4:5-9"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "lateran-4",
+  "number": 12,
+  "year": "1215",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Fourth Lateran Council",
+   "nl": "Vierde Lateraans Concilie"
+  },
+  "convokedBy": {
+   "en": "Pope Innocent III",
+   "nl": "Paus Innocentius III"
+  },
+  "place": {
+   "en": "Rome, Lateran Basilica",
+   "nl": "Rome, Lateraanse basiliek"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Reform of the whole Church; the Eucharist and confession; the Cathars.",
+   "nl": "Hervorming van de hele Kerk; eucharistie en biecht; de katharen."
+  },
+  "summary": {
+   "en": "Innocent III summoned the largest council of the Middle Ages, with over four hundred bishops and eight hundred abbots, to reform Christian life and answer the Cathar heresy.",
+   "nl": "Innocentius III riep het grootste concilie van de Middeleeuwen bijeen, met meer dan vierhonderd bisschoppen en achthonderd abten, om het christelijk leven te hervormen en de ketterij van de katharen te beantwoorden."
+  },
+  "background": {
+   "en": [
+    "Innocent III summoned the largest council of the Middle Ages, with over four hundred bishops and eight hundred abbots, to reform Christian life and answer the Cathar heresy."
+   ],
+   "nl": [
+    "Innocentius III riep het grootste concilie van de Middeleeuwen bijeen, met meer dan vierhonderd bisschoppen en achthonderd abten, om het christelijk leven te hervormen en de ketterij van de katharen te beantwoorden."
+   ]
+  },
+  "events": {
+   "en": [
+    "Seventy decrees were issued on faith, sacraments and discipline."
+   ],
+   "nl": [
+    "Er werden zeventig decreten uitgevaardigd over geloof, sacramenten en tucht."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "The term transubstantiation is used for the change of bread and wine into Christ's Body and Blood.",
+    "nl": "De term transsubstantiatie wordt gebruikt voor de verandering van brood en wijn in het Lichaam en Bloed van Christus."
+   },
+   {
+    "en": "Every Catholic must confess at least once a year and receive Communion at Easter.",
+    "nl": "Elke katholiek moet minstens eens per jaar biechten en met Pasen communiceren."
+   },
+   {
+    "en": "New religious orders must adopt an approved rule.",
+    "nl": "Nieuwe kloosterorden moeten een goedgekeurde regel aannemen."
+   }
+  ],
+  "canons": [
+   {
+    "en": "The term transubstantiation is used for the change of bread and wine into Christ's Body and Blood.",
+    "nl": "De term transsubstantiatie wordt gebruikt voor de verandering van brood en wijn in het Lichaam en Bloed van Christus."
+   },
+   {
+    "en": "Every Catholic must confess at least once a year and receive Communion at Easter.",
+    "nl": "Elke katholiek moet minstens eens per jaar biechten en met Pasen communiceren."
+   },
+   {
+    "en": "New religious orders must adopt an approved rule.",
+    "nl": "Nieuwe kloosterorden moeten een goedgekeurde regel aannemen."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Its decrees shaped Catholic sacramental life for centuries."
+   ],
+   "nl": [
+    "Zijn decreten vormden eeuwenlang het sacramentele leven van de katholieken."
+   ]
+  },
+  "passages": [
+   "JHN 6:51-58",
+   "JAS 5:16"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "lyon-1",
+  "number": 13,
+  "year": "1245",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "First Council of Lyon",
+   "nl": "Eerste Concilie van Lyon"
+  },
+  "convokedBy": {
+   "en": "Pope Innocent IV",
+   "nl": "Paus Innocentius IV"
+  },
+  "place": {
+   "en": "Lyon, France",
+   "nl": "Lyon, Frankrijk"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Conflict with Emperor Frederick II.",
+   "nl": "Conflict met keizer Frederik II."
+  },
+  "summary": {
+   "en": "Frederick II had occupied papal territory and imprisoned bishops. Innocent IV fled to Lyon and called a council there.",
+   "nl": "Frederik II had pauselijk gebied bezet en bisschoppen gevangengezet. Innocentius IV vluchtte naar Lyon en riep daar een concilie bijeen."
+  },
+  "background": {
+   "en": [
+    "Frederick II had occupied papal territory and imprisoned bishops. Innocent IV fled to Lyon and called a council there."
+   ],
+   "nl": [
+    "Frederik II had pauselijk gebied bezet en bisschoppen gevangengezet. Innocentius IV vluchtte naar Lyon en riep daar een concilie bijeen."
+   ]
+  },
+  "events": {
+   "en": [
+    "The council deposed the emperor and called for help for the Holy Land."
+   ],
+   "nl": [
+    "Het concilie zette de keizer af en riep op tot hulp voor het Heilig Land."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Frederick II is declared deposed.",
+    "nl": "Frederik II wordt afgezet verklaard."
+   },
+   {
+    "en": "Cardinals receive the red hat.",
+    "nl": "Kardinalen krijgen de rode hoed."
+   }
+  ],
+  "canons": [
+   {
+    "en": "Frederick II is declared deposed.",
+    "nl": "Frederik II wordt afgezet verklaard."
+   },
+   {
+    "en": "Cardinals receive the red hat.",
+    "nl": "Kardinalen krijgen de rode hoed."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The struggle between papacy and empire reached its climax."
+   ],
+   "nl": [
+    "De strijd tussen pausdom en keizerrijk bereikte zijn hoogtepunt."
+   ]
+  },
+  "passages": [
+   "ROM 13:1-7",
+   "ACT 5:27-32"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "lyon-2",
+  "number": 14,
+  "year": "1274",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Second Council of Lyon",
+   "nl": "Tweede Concilie van Lyon"
+  },
+  "convokedBy": {
+   "en": "Pope Gregory X",
+   "nl": "Paus Gregorius X"
+  },
+  "place": {
+   "en": "Lyon, France",
+   "nl": "Lyon, Frankrijk"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Reunion with the Greek Church; the conclave.",
+   "nl": "Hereniging met de Griekse Kerk; het conclaaf."
+  },
+  "summary": {
+   "en": "Emperor Michael VIII Palaiologos, seeking Western help, sent delegates to accept union with Rome. Thomas Aquinas died on his way to the council; Bonaventure died during it.",
+   "nl": "Keizer Michaël VIII Palaiologos, die steun zocht in het Westen, stuurde gezanten om de unie met Rome te aanvaarden. Thomas van Aquino stierf op weg naar het concilie; Bonaventura stierf tijdens het concilie."
+  },
+  "background": {
+   "en": [
+    "Emperor Michael VIII Palaiologos, seeking Western help, sent delegates to accept union with Rome. Thomas Aquinas died on his way to the council; Bonaventure died during it."
+   ],
+   "nl": [
+    "Keizer Michaël VIII Palaiologos, die steun zocht in het Westen, stuurde gezanten om de unie met Rome te aanvaarden. Thomas van Aquino stierf op weg naar het concilie; Bonaventura stierf tijdens het concilie."
+   ]
+  },
+  "events": {
+   "en": [
+    "A union was proclaimed, including the Filioque, but it was rejected by clergy and people in the East."
+   ],
+   "nl": [
+    "Er werd een unie afgekondigd, inclusief het Filioque, maar die werd door clerus en volk in het Oosten afgewezen."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Union with the Greeks is proclaimed (short-lived).",
+    "nl": "De unie met de Grieken wordt afgekondigd (van korte duur)."
+   },
+   {
+    "en": "The conclave: cardinals are enclosed until they elect a pope.",
+    "nl": "Het conclaaf: kardinalen worden opgesloten tot zij een paus kiezen."
+   }
+  ],
+  "canons": [
+   {
+    "en": "Union with the Greeks is proclaimed (short-lived).",
+    "nl": "De unie met de Grieken wordt afgekondigd (van korte duur)."
+   },
+   {
+    "en": "The conclave: cardinals are enclosed until they elect a pope.",
+    "nl": "Het conclaaf: kardinalen worden opgesloten tot zij een paus kiezen."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The union failed; the conclave rule endures."
+   ],
+   "nl": [
+    "De unie mislukte; de regel van het conclaaf bleef."
+   ]
+  },
+  "passages": [
+   "JHN 17:20-23",
+   "EPH 4:1-6"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "vienne",
+  "number": 15,
+  "year": "1311–1312",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Council of Vienne",
+   "nl": "Concilie van Vienne"
+  },
+  "convokedBy": {
+   "en": "Pope Clement V",
+   "nl": "Paus Clemens V"
+  },
+  "place": {
+   "en": "Vienne, France",
+   "nl": "Vienne, Frankrijk"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "The Knights Templar; reform; the soul as form of the body.",
+   "nl": "De Tempeliers; hervorming; de ziel als vorm van het lichaam."
+  },
+  "summary": {
+   "en": "Under pressure from King Philip IV of France, the pope summoned a council to decide the fate of the Knights Templar, accused of grave crimes.",
+   "nl": "Onder druk van koning Filips IV van Frankrijk riep de paus een concilie bijeen om te beslissen over het lot van de Tempeliers, die van zware misdaden werden beschuldigd."
+  },
+  "background": {
+   "en": [
+    "Under pressure from King Philip IV of France, the pope summoned a council to decide the fate of the Knights Templar, accused of grave crimes."
+   ],
+   "nl": [
+    "Onder druk van koning Filips IV van Frankrijk riep de paus een concilie bijeen om te beslissen over het lot van de Tempeliers, die van zware misdaden werden beschuldigd."
+   ]
+  },
+  "events": {
+   "en": [
+    "The order was suppressed by papal decree without a formal condemnation."
+   ],
+   "nl": [
+    "De orde werd bij pauselijk decreet opgeheven zonder formele veroordeling."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "The Order of the Temple is suppressed.",
+    "nl": "De Orde van de Tempel wordt opgeheven."
+   },
+   {
+    "en": "The rational soul is the form of the human body.",
+    "nl": "De redelijke ziel is de vorm van het menselijk lichaam."
+   },
+   {
+    "en": "Chairs of Hebrew, Greek, Arabic and Syriac are founded at universities.",
+    "nl": "Leerstoelen voor Hebreeuws, Grieks, Arabisch en Syrisch worden aan universiteiten gesticht."
+   }
+  ],
+  "canons": [
+   {
+    "en": "The Order of the Temple is suppressed.",
+    "nl": "De Orde van de Tempel wordt opgeheven."
+   },
+   {
+    "en": "The rational soul is the form of the human body.",
+    "nl": "De redelijke ziel is de vorm van het menselijk lichaam."
+   },
+   {
+    "en": "Chairs of Hebrew, Greek, Arabic and Syriac are founded at universities.",
+    "nl": "Leerstoelen voor Hebreeuws, Grieks, Arabisch en Syrisch worden aan universiteiten gesticht."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The council marked the growing influence of the French crown on the papacy."
+   ],
+   "nl": [
+    "Het concilie toonde de groeiende invloed van de Franse kroon op het pausdom."
+   ]
+  },
+  "passages": [
+   "GEN 2:7",
+   "1TH 5:23"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "constance",
+  "number": 16,
+  "year": "1414–1418",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Council of Constance",
+   "nl": "Concilie van Konstanz"
+  },
+  "convokedBy": {
+   "en": "Antipope John XXIII and Emperor Sigismund",
+   "nl": "Tegenpaus Johannes XXIII en keizer Sigismund"
+  },
+  "place": {
+   "en": "Constance, Germany",
+   "nl": "Konstanz, Duitsland"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Ending the Western Schism, with three rival popes.",
+   "nl": "Het einde van het Westers Schisma, met drie rivaliserende pausen."
+  },
+  "summary": {
+   "en": "Since 1378 two, and from 1409 three, men claimed to be pope. Emperor Sigismund urged a council to restore unity.",
+   "nl": "Sinds 1378 claimden twee, en vanaf 1409 drie mannen paus te zijn. Keizer Sigismund drong aan op een concilie om de eenheid te herstellen."
+  },
+  "background": {
+   "en": [
+    "Since 1378 two, and from 1409 three, men claimed to be pope. Emperor Sigismund urged a council to restore unity."
+   ],
+   "nl": [
+    "Sinds 1378 claimden twee, en vanaf 1409 drie mannen paus te zijn. Keizer Sigismund drong aan op een concilie om de eenheid te herstellen."
+   ]
+  },
+  "events": {
+   "en": [
+    "The rival popes were deposed or resigned, and Martin V was elected in 1417. The council also condemned Jan Hus, who was burned."
+   ],
+   "nl": [
+    "De rivaliserende pausen werden afgezet of traden af, en in 1417 werd Martinus V gekozen. Het concilie veroordeelde ook Jan Hus, die werd verbrand."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "The Western Schism ends with the election of Martin V.",
+    "nl": "Het Westers Schisma eindigt met de verkiezing van Martinus V."
+   },
+   {
+    "en": "The teachings of Wycliffe and Hus are condemned.",
+    "nl": "De leer van Wycliffe en Hus wordt veroordeeld."
+   }
+  ],
+  "canons": [
+   {
+    "en": "The Western Schism ends with the election of Martin V.",
+    "nl": "Het Westers Schisma eindigt met de verkiezing van Martinus V."
+   },
+   {
+    "en": "The teachings of Wycliffe and Hus are condemned.",
+    "nl": "De leer van Wycliffe en Hus wordt veroordeeld."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Unity in the West was restored, though debates about the authority of councils continued."
+   ],
+   "nl": [
+    "De eenheid in het Westen werd hersteld, al bleven de debatten over het gezag van concilies voortduren."
+   ]
+  },
+  "passages": [
+   "JHN 17:11",
+   "1CO 1:10"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "florence",
+  "number": 17,
+  "year": "1431–1449",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Council of Basel–Ferrara–Florence",
+   "nl": "Concilie van Bazel–Ferrara–Florence"
+  },
+  "convokedBy": {
+   "en": "Pope Martin V and Pope Eugene IV",
+   "nl": "Paus Martinus V en paus Eugenius IV"
+  },
+  "place": {
+   "en": "Basel, Ferrara and Florence",
+   "nl": "Bazel, Ferrara en Florence"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Union with the Greeks, Armenians, Copts and others.",
+   "nl": "Unie met de Grieken, Armeniërs, Kopten en anderen."
+  },
+  "summary": {
+   "en": "With Constantinople threatened by the Ottomans, the Byzantine emperor and patriarch came to Italy to seek union with Rome.",
+   "nl": "Toen Constantinopel door de Ottomanen werd bedreigd, kwamen de Byzantijnse keizer en patriarch naar Italië om unie met Rome te zoeken."
+  },
+  "background": {
+   "en": [
+    "With Constantinople threatened by the Ottomans, the Byzantine emperor and patriarch came to Italy to seek union with Rome."
+   ],
+   "nl": [
+    "Toen Constantinopel door de Ottomanen werd bedreigd, kwamen de Byzantijnse keizer en patriarch naar Italië om unie met Rome te zoeken."
+   ]
+  },
+  "events": {
+   "en": [
+    "Decrees of union were signed with the Greeks (1439), Armenians and Copts. Mark of Ephesus refused to sign and is honoured as a saint by the Orthodox."
+   ],
+   "nl": [
+    "Decreten van unie werden ondertekend met de Grieken (1439), de Armeniërs en de Kopten. Markus van Efeze weigerde te tekenen en wordt door de Orthodoxen als heilige vereerd."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Laetentur Caeli: union with the Greeks.",
+    "nl": "Laetentur Caeli: unie met de Grieken."
+   },
+   {
+    "en": "Decrees of union with the Armenians and the Copts.",
+    "nl": "Decreten van unie met de Armeniërs en de Kopten."
+   }
+  ],
+  "canons": [
+   {
+    "en": "Laetentur Caeli: union with the Greeks.",
+    "nl": "Laetentur Caeli: unie met de Grieken."
+   },
+   {
+    "en": "Decrees of union with the Armenians and the Copts.",
+    "nl": "Decreten van unie met de Armeniërs en de Kopten."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "The unions were not received by the Eastern churches, and Constantinople fell in 1453."
+   ],
+   "nl": [
+    "De unies werden door de Oosterse kerken niet aanvaard, en Constantinopel viel in 1453."
+   ]
+  },
+  "passages": [
+   "JHN 17:20-23",
+   "EPH 2:14-22"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "lateran-5",
+  "number": 18,
+  "year": "1512–1517",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Fifth Lateran Council",
+   "nl": "Vijfde Lateraans Concilie"
+  },
+  "convokedBy": {
+   "en": "Pope Julius II",
+   "nl": "Paus Julius II"
+  },
+  "place": {
+   "en": "Rome, Lateran Basilica",
+   "nl": "Rome, Lateraanse basiliek"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Reform of the Church on the eve of the Reformation.",
+   "nl": "Hervorming van de Kerk aan de vooravond van de Reformatie."
+  },
+  "summary": {
+   "en": "Called partly in response to a rival council at Pisa, it was meant to reform the Church and the Curia.",
+   "nl": "Het werd mede bijeengeroepen als antwoord op een rivaliserend concilie in Pisa, en moest de Kerk en de Curie hervormen."
+  },
+  "background": {
+   "en": [
+    "Called partly in response to a rival council at Pisa, it was meant to reform the Church and the Curia."
+   ],
+   "nl": [
+    "Het werd mede bijeengeroepen als antwoord op een rivaliserend concilie in Pisa, en moest de Kerk en de Curie hervormen."
+   ]
+  },
+  "events": {
+   "en": [
+    "Its reforms remained largely on paper; seven months after it closed, Luther posted his theses."
+   ],
+   "nl": [
+    "Zijn hervormingen bleven grotendeels op papier; zeven maanden na de sluiting publiceerde Luther zijn stellingen."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "The immortality of the individual soul is affirmed.",
+    "nl": "De onsterfelijkheid van de individuele ziel wordt bevestigd."
+   },
+   {
+    "en": "Rules for preaching and the printing of books.",
+    "nl": "Regels voor prediking en het drukken van boeken."
+   }
+  ],
+  "canons": [
+   {
+    "en": "The immortality of the individual soul is affirmed.",
+    "nl": "De onsterfelijkheid van de individuele ziel wordt bevestigd."
+   },
+   {
+    "en": "Rules for preaching and the printing of books.",
+    "nl": "Regels voor prediking en het drukken van boeken."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Its failure to reform showed how urgently renewal was needed."
+   ],
+   "nl": [
+    "Het uitblijven van hervorming toonde hoe dringend vernieuwing nodig was."
+   ]
+  },
+  "passages": [
+   "2TI 4:1-5",
+   "ROM 12:1-2"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "trent",
+  "number": 19,
+  "year": "1545–1563",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Council of Trent",
+   "nl": "Concilie van Trente"
+  },
+  "convokedBy": {
+   "en": "Pope Paul III",
+   "nl": "Paus Paulus III"
+  },
+  "place": {
+   "en": "Trent, Italy",
+   "nl": "Trente, Italië"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "The Protestant Reformation; Scripture and Tradition, justification, the sacraments.",
+   "nl": "De protestantse Reformatie; Schrift en Traditie, rechtvaardiging, de sacramenten."
+  },
+  "summary": {
+   "en": "The Reformation had divided Western Christianity. After long delays the pope convened a council that met in three periods over eighteen years.",
+   "nl": "De Reformatie had het westerse christendom verdeeld. Na lange vertraging riep de paus een concilie bijeen dat in drie perioden over achttien jaar vergaderde."
+  },
+  "background": {
+   "en": [
+    "The Reformation had divided Western Christianity. After long delays the pope convened a council that met in three periods over eighteen years."
+   ],
+   "nl": [
+    "De Reformatie had het westerse christendom verdeeld. Na lange vertraging riep de paus een concilie bijeen dat in drie perioden over achttien jaar vergaderde."
+   ]
+  },
+  "events": {
+   "en": [
+    "It defined Catholic doctrine on the disputed questions and launched a deep reform of clergy and liturgy."
+   ],
+   "nl": [
+    "Het definieerde de katholieke leer over de omstreden vragen en zette een diepe hervorming van clerus en liturgie in gang."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Scripture and Tradition together; the canon of 73 books is defined.",
+    "nl": "Schrift en Traditie samen; de canon van 73 boeken wordt vastgesteld."
+   },
+   {
+    "en": "Justification by grace, received in faith and working through love.",
+    "nl": "Rechtvaardiging door genade, ontvangen in geloof en werkzaam door de liefde."
+   },
+   {
+    "en": "Seven sacraments; the Mass as sacrifice; the Real Presence.",
+    "nl": "Zeven sacramenten; de Mis als offer; de werkelijke tegenwoordigheid."
+   },
+   {
+    "en": "Seminaries for the formation of priests.",
+    "nl": "Seminaries voor de vorming van priesters."
+   }
+  ],
+  "canons": [
+   {
+    "en": "Scripture and Tradition together; the canon of 73 books is defined.",
+    "nl": "Schrift en Traditie samen; de canon van 73 boeken wordt vastgesteld."
+   },
+   {
+    "en": "Justification by grace, received in faith and working through love.",
+    "nl": "Rechtvaardiging door genade, ontvangen in geloof en werkzaam door de liefde."
+   },
+   {
+    "en": "Seven sacraments; the Mass as sacrifice; the Real Presence.",
+    "nl": "Zeven sacramenten; de Mis als offer; de werkelijke tegenwoordigheid."
+   },
+   {
+    "en": "Seminaries for the formation of priests.",
+    "nl": "Seminaries voor de vorming van priesters."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Trent shaped Catholicism until the twentieth century: the Roman Missal, Catechism and Breviary followed."
+   ],
+   "nl": [
+    "Trente vormde het katholicisme tot in de twintigste eeuw: het Romeins Missaal, de Catechismus en het Brevier volgden."
+   ]
+  },
+  "passages": [
+   "EPH 2:8-10",
+   "JAS 2:14-26"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "vatican-1",
+  "number": 20,
+  "year": "1869–1870",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "First Vatican Council",
+   "nl": "Eerste Vaticaans Concilie"
+  },
+  "convokedBy": {
+   "en": "Pope Pius IX",
+   "nl": "Paus Pius IX"
+  },
+  "place": {
+   "en": "Rome, St Peter's Basilica",
+   "nl": "Rome, Sint-Pietersbasiliek"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "Faith and reason; the primacy and infallibility of the pope.",
+   "nl": "Geloof en rede; het primaat en de onfeilbaarheid van de paus."
+  },
+  "summary": {
+   "en": "In an age of rationalism and revolution, Pius IX called a council to defend revealed faith and the authority of the Church.",
+   "nl": "In een tijd van rationalisme en revolutie riep Pius IX een concilie bijeen om het geopenbaarde geloof en het gezag van de Kerk te verdedigen."
+  },
+  "background": {
+   "en": [
+    "In an age of rationalism and revolution, Pius IX called a council to defend revealed faith and the authority of the Church."
+   ],
+   "nl": [
+    "In een tijd van rationalisme en revolutie riep Pius IX een concilie bijeen om het geopenbaarde geloof en het gezag van de Kerk te verdedigen."
+   ]
+  },
+  "events": {
+   "en": [
+    "Two constitutions were approved before the Franco-Prussian War brought the council to an end."
+   ],
+   "nl": [
+    "Twee constituties werden aangenomen voordat de Frans-Duitse oorlog het concilie beëindigde."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Dei Filius: God can be known by reason; faith and reason do not conflict.",
+    "nl": "Dei Filius: God kan met de rede gekend worden; geloof en rede zijn niet in strijd."
+   },
+   {
+    "en": "Pastor Aeternus: the primacy and the infallibility of the pope when he defines ex cathedra.",
+    "nl": "Pastor Aeternus: het primaat en de onfeilbaarheid van de paus wanneer hij ex cathedra definieert."
+   }
+  ],
+  "canons": [
+   {
+    "en": "Dei Filius: God can be known by reason; faith and reason do not conflict.",
+    "nl": "Dei Filius: God kan met de rede gekend worden; geloof en rede zijn niet in strijd."
+   },
+   {
+    "en": "Pastor Aeternus: the primacy and the infallibility of the pope when he defines ex cathedra.",
+    "nl": "Pastor Aeternus: het primaat en de onfeilbaarheid van de paus wanneer hij ex cathedra definieert."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "Some rejected the decrees and formed the Old Catholic Church, also in the Netherlands."
+   ],
+   "nl": [
+    "Sommigen verwierpen de decreten en vormden de Oud-Katholieke Kerk, ook in Nederland."
+   ]
+  },
+  "passages": [
+   "MAT 16:13-19",
+   "ROM 1:19-20"
+  ],
+  "quiz": []
+ },
+ {
+  "id": "vatican-2",
+  "number": 21,
+  "year": "1962–1965",
+  "recognizedBy": [
+   "CATHOLIC"
+  ],
+  "afterSchism": true,
+  "name": {
+   "en": "Second Vatican Council",
+   "nl": "Tweede Vaticaans Concilie"
+  },
+  "convokedBy": {
+   "en": "Pope John XXIII; concluded by Pope Paul VI",
+   "nl": "Paus Johannes XXIII; afgesloten door paus Paulus VI"
+  },
+  "place": {
+   "en": "Rome, St Peter's Basilica",
+   "nl": "Rome, Sint-Pietersbasiliek"
+  },
+  "participants": "",
+  "keyFigures": [],
+  "heresy": {
+   "en": "The Church and the modern world; liturgy; unity of Christians.",
+   "nl": "De Kerk en de moderne wereld; liturgie; eenheid van de christenen."
+  },
+  "summary": {
+   "en": "John XXIII called a council for aggiornamento, bringing the Church up to date while returning to her sources in Scripture and the Fathers.",
+   "nl": "Johannes XXIII riep een concilie bijeen voor aggiornamento: de Kerk bij de tijd brengen door terug te keren naar haar bronnen in de Schrift en de Vaders."
+  },
+  "background": {
+   "en": [
+    "John XXIII called a council for aggiornamento, bringing the Church up to date while returning to her sources in Scripture and the Fathers."
+   ],
+   "nl": [
+    "Johannes XXIII riep een concilie bijeen voor aggiornamento: de Kerk bij de tijd brengen door terug te keren naar haar bronnen in de Schrift en de Vaders."
+   ]
+  },
+  "events": {
+   "en": [
+    "About 2,400 bishops and observers from Orthodox and Protestant churches took part in four sessions."
+   ],
+   "nl": [
+    "Ongeveer 2400 bisschoppen en waarnemers uit orthodoxe en protestantse kerken namen deel aan vier zittingen."
+   ]
+  },
+  "decisions": [
+   {
+    "en": "Sacrosanctum Concilium: liturgy in the vernacular and active participation.",
+    "nl": "Sacrosanctum Concilium: liturgie in de volkstaal en actieve deelname."
+   },
+   {
+    "en": "Lumen Gentium: the Church as the people of God; the universal call to holiness.",
+    "nl": "Lumen Gentium: de Kerk als volk van God; de universele roeping tot heiligheid."
+   },
+   {
+    "en": "Dei Verbum: Scripture and Tradition; the Bible for all the faithful.",
+    "nl": "Dei Verbum: Schrift en Traditie; de Bijbel voor alle gelovigen."
+   },
+   {
+    "en": "Unitatis Redintegratio: commitment to Christian unity.",
+    "nl": "Unitatis Redintegratio: inzet voor de eenheid van de christenen."
+   }
+  ],
+  "canons": [
+   {
+    "en": "Sacrosanctum Concilium: liturgy in the vernacular and active participation.",
+    "nl": "Sacrosanctum Concilium: liturgie in de volkstaal en actieve deelname."
+   },
+   {
+    "en": "Lumen Gentium: the Church as the people of God; the universal call to holiness.",
+    "nl": "Lumen Gentium: de Kerk als volk van God; de universele roeping tot heiligheid."
+   },
+   {
+    "en": "Dei Verbum: Scripture and Tradition; the Bible for all the faithful.",
+    "nl": "Dei Verbum: Schrift en Traditie; de Bijbel voor alle gelovigen."
+   },
+   {
+    "en": "Unitatis Redintegratio: commitment to Christian unity.",
+    "nl": "Unitatis Redintegratio: inzet voor de eenheid van de christenen."
+   }
+  ],
+  "outcome": {
+   "en": [
+    "In 1965 Paul VI and Patriarch Athenagoras lifted the excommunications of 1054."
+   ],
+   "nl": [
+    "In 1965 hieven Paulus VI en patriarch Athenagoras de excommunicaties van 1054 op."
+   ]
+  },
+  "passages": [
+   "JHN 17:21",
+   "ACT 2:42-47"
+  ],
+  "quiz": []
  }
 ]

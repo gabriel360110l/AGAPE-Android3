@@ -53,6 +53,13 @@ class DailyRepository(
         return local(tradition, language, date) ?: cached
     }
 
+    /** Any date, for the calendar: online first, the bundled menologion when offline. Not cached. */
+    suspend fun forDate(tradition: Tradition, language: AppLanguage, date: LocalDate): DailyInfo? {
+        if (date == LocalDate.now()) return today(tradition, language, date)
+        return runCatching { fetch(tradition, date) }.getOrNull()?.let { localized(it, tradition, language, date) }
+            ?: local(tradition, language, date)
+    }
+
     /** For Dutch, the Eastern Orthodox title comes from the bundled Dutch menologion when the API is English-only. */
     private fun localized(info: DailyInfo, tradition: Tradition, language: AppLanguage, date: LocalDate): DailyInfo {
         if (language != AppLanguage.DUTCH || tradition != Tradition.EASTERN_ORTHODOX) return info

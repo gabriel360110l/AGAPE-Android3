@@ -338,6 +338,44 @@
     <string name="counter_done">Complete. Tap to start again.</string>
     <string name="verse_father_quotes">The Fathers on this verse</string>
 
+    <!-- Search, calendar, chapter endings -->
+    <string name="tab_search">Search</string>
+    <string name="search_hint">Verses, books, prayers, saints, councils…</string>
+    <string name="search_clear">Clear</string>
+    <string name="search_all">All</string>
+    <string name="search_bible">Bible</string>
+    <string name="search_prayers">Prayers</string>
+    <string name="search_church">Church</string>
+    <string name="search_fathers">Fathers\' commentary</string>
+    <string name="search_saints">Saints</string>
+    <string name="search_plans">Plans</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="search_empty_hint">Search the whole app: a word in the Bible, a reference like John 3:16, a prayer, a saint, a council or a Father.</string>
+    <string name="search_none">Nothing found for “%1$s”.</string>
+    <string name="calendar_title">Calendar</string>
+    <string name="calendar_previous">Previous month</string>
+    <string name="calendar_next">Next month</string>
+    <string name="calendar_legend_feast">Feast</string>
+    <string name="calendar_legend_active">You read or prayed</string>
+    <string name="calendar_loading">Looking up the saints of this day…</string>
+    <string name="calendar_your_day">Your day</string>
+    <string name="chapter_explanation">About this chapter</string>
+    <string name="chapter_fathers">The Fathers on this chapter</string>
+    <string name="chapter_cross_refs">Read further</string>
+    <string name="chapter_quiz">Quiz on this chapter</string>
+    <string name="book_end_kicker">End of the book</string>
+    <string name="book_end_fathers">The Fathers on %1$s</string>
+    <string name="book_end_quiz">Book quiz · 20 questions</string>
+    <string name="quiz_gen_cloze">Which word is missing? (%1$s)</string>
+    <string name="quiz_gen_which_chapter">In which chapter of %1$s is this written?</string>
+    <string name="quiz_gen_chapter_option">Chapter %1$d</string>
+    <string name="quiz_none">There is no quiz for this passage yet.</string>
+    <string name="leaders_title">Patriarchs and popes</string>
+    <string name="leaders_current">Today</string>
+    <string name="leaders_notable">In history</string>
+    <string name="leaders_full_list">Full list on Wikipedia</string>
+    <string name="council_after_schism">After 1054 · Catholic Church</string>
+
     <plurals name="days">
         <item quantity="one">%d day</item>
         <item quantity="other">%d days</item>

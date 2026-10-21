@@ -86,13 +86,12 @@ fun ReaderScreen(
     val chapterCount = bookInfo?.chapterCount(lang) ?: chapter
 
     val verses by produceState<List<Verse>?>(null, book, chapter, lang) { value = container.bible.chapter(book, chapter, lang) }
-    val guide by produceState<ChapterGuide?>(null, book, chapter, lang) { value = container.bible.chapterGuide(book, chapter, lang) }
+    val guide by produceState<ChapterGuide?>(null, book, chapter) { value = container.bible.chapterGuide(book, chapter) }
     val highlights by remember(book, chapter) { container.user.highlightsIn(book, chapter) }.collectAsStateWithLifecycle(emptyList())
     val bookmarks by container.user.bookmarks.collectAsStateWithLifecycle(emptyList())
     val notes by container.user.notes.collectAsStateWithLifecycle(emptyList())
     val read by container.user.chaptersRead.collectAsStateWithLifecycle(emptyList())
     val isRead = read.any { it.book == book && it.chapter == chapter }
-    val quizKey = "chapter:$book.$chapter".takeIf { container.content.quiz(it) != null }
 
     var selected by rememberSaveable { mutableStateOf<Int?>(null) }
     var showGuide by rememberSaveable { mutableStateOf(false) }
@@ -181,10 +180,10 @@ fun ReaderScreen(
                     )
                 }
             }
+            if (vs != null) item { ChapterEnd(book, chapter, guide, openReference, openQuiz) }
+            if (vs != null && chapter == chapterCount && bookInfo != null) item { BookEnd(bookInfo, openReference, openQuiz) }
             item {
-                Column(Modifier.fillMaxWidth().padding(top = 28.dp), verticalArrangement = Arrangement.spacedBy(10.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                    Ornament()
-                    Spacer(Modifier.height(6.dp))
+                Column(Modifier.fillMaxWidth().padding(top = 20.dp), verticalArrangement = Arrangement.spacedBy(10.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                     if (!isRead) {
                         PrimaryButton(stringResource(R.string.reader_mark_read), {
                             scope.launch { container.user.markChapterRead(book, chapter, title) }
@@ -192,7 +191,6 @@ fun ReaderScreen(
                     } else {
                         Text(stringResource(R.string.reader_read_done), style = MaterialTheme.typography.labelLarge, color = c.primary)
                     }
-                    if (quizKey != null) SecondaryButton(stringResource(R.string.reader_take_quiz), { openQuiz(quizKey, title) })
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
                         if (chapter > 1) SecondaryButton("‹ ${chapter - 1}", { openChapter(book, chapter - 1, 0) }, Modifier.width(120.dp))
                         else Spacer(Modifier.width(1.dp))

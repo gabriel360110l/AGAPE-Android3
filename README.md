@@ -38,8 +38,18 @@ supabase/migrations/     database schema (user snapshot table, RLS, account dele
 
 ## App flow
 
-Welcome → Terms → Choose Church → Choose style → Sign in / Create account → Guided tour → Home · Bible · Prayer · Me.
+Welcome → Terms → Choose Church → Choose style → Sign in / Create account → Guided tour → Home · Bible · Prayer · Search · Me.
 The first visit to Prayer explains the hours and asks to enable notifications (prayer times and inactivity reminders).
+
+- **Search** looks through everything offline: references ("John 3:16"), books, verses, hours and prayers, councils,
+  Fathers, articles, Father quotes, saints and plans.
+- **Calendar** (week strip on Home, full month behind it): feasts per tradition, old-style or Coptic date, saints of the
+  day and the days you read or prayed.
+- **End of every chapter**: summary, the Fathers on that chapter, cross-references and a 5-question quiz.
+  **End of every book**: book overview, the Fathers on the book and a 20-question quiz. Quizzes without hand-written
+  questions are generated from the Bible text (`data/quiz/QuizGenerator.kt`).
+- **Church** (Bible tab): the councils (story, decisions, canons and full texts), Church Fathers and current and
+  historical patriarchs and popes.
 
 Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://home`.
 
@@ -54,12 +64,14 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Agpeya (Dutch fixed prayers) | `tools/source/translations_nl.json` | Own translation — review |
 | Horologion: morning/evening rule, Compline, Canons, Communion, Typika | *Orthodox Daily Prayers* (St Tikhon's 1982, Project Gutenberg) via mdws-org/orthodoxprayers | Public domain |
 | Council creeds, definitions, anathemas and canons | NPNF II/14 (Percival, 1900) via newadvent.org | Public domain |
+| Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
 | Menologion, legacy prayers, chapter guides, Father notes | Legacy AGAPE app | Own content |
 | Council stories, Father biographies, Liturgy of the Hours hymns and prayers, plans, quizzes, verse notes | `app/src/main/assets/content/*.json` | Own content (hymns: Neale/Newman, public domain) |
 
 Canon per tradition is defined in `tools/build_content.py` (`BOOKS`). Councils per tradition are in
-`assets/content/councils.json` (`recognizedBy`); Catholic plans stop at 1054.
+`assets/content/councils.json` (`recognizedBy`); Catholic readers see all 21 councils, but plans stop at 1054
+(`afterSchism`).
 
 Rebuild generated content from the repository root (downloads are cached in `tools/.cache/`):
 

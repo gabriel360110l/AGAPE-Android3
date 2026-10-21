@@ -3,6 +3,11 @@ package agape.app.ui.plans
 import agape.app.R
 import agape.app.data.plans.PlanEngine
 import agape.app.data.plans.planDays
+import agape.app.data.quiz.QuizGenerator
+import agape.app.data.content.QuizQuestion
+import agape.app.ui.bookName
+import agape.app.ui.passageLabel
+import androidx.compose.runtime.produceState
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.DetailTopBar
@@ -53,13 +58,25 @@ fun QuizScreen(quizKey: String, title: String, planId: String, day: Int, onDone:
     val lang = LocalLanguage.current
     val tradition = tradition
     val scope = rememberCoroutineScope()
-    val questions = remember(quizKey) { container.content.quiz(quizKey).orEmpty() }
+    val templates = QuizGenerator.Templates(
+        cloze = stringResource(R.string.quiz_gen_cloze),
+        whichChapter = stringResource(R.string.quiz_gen_which_chapter),
+        chapterOption = stringResource(R.string.quiz_gen_chapter_option),
+    )
+    val loaded by produceState<List<QuizQuestion>?>(null, quizKey, lang) { value = loadQuiz(container, quizKey, lang, templates) }
+    val questions = loaded ?: return
     val answers = remember { mutableStateListOf<Int>() }
     var index by remember { mutableIntStateOf(0) }
     var chosen by remember { mutableStateOf<Int?>(null) }
     var finished by remember { mutableStateOf(false) }
     val c = AgapeTheme.colors
-    if (questions.isEmpty()) { onDone(); return }
+    if (questions.isEmpty()) {
+        Column(Modifier.fillMaxSize()) {
+            DetailTopBar(stringResource(R.string.quiz_title, title), onDone)
+            Text(stringResource(R.string.quiz_none), style = MaterialTheme.typography.bodyLarge, color = c.inkMuted, modifier = Modifier.padding(24.dp))
+        }
+        return
+    }
     val needed = ceil(questions.size * container.content.quizPassMark).toInt()
 
     Column(Modifier.fillMaxSize()) {
@@ -94,6 +111,7 @@ fun QuizScreen(quizKey: String, title: String, planId: String, day: Int, onDone:
                         stringResource(if (pick == q.answer) R.string.quiz_correct else R.string.quiz_incorrect),
                         style = MaterialTheme.typography.titleMedium, color = if (pick == q.answer) c.primary else c.danger,
                     )
+                    q.explanation?.let { Text(it[lang], style = MaterialTheme.typography.bodyMedium, color = c.inkMuted) }
                     PrimaryButton(stringResource(if (index + 1 < questions.size) R.string.quiz_next else R.string.quiz_finish), {
                         answers += pick
                         chosen = null
@@ -125,6 +143,25 @@ fun QuizScreen(quizKey: String, title: String, planId: String, day: Int, onDone:
                 }
             }
         }
+    }
+}
+
+/** Written questions where they exist; otherwise questions generated from the chapter or book text. */
+private suspend fun loadQuiz(
+    container: agape.app.AppContainer, key: String, lang: agape.app.core.model.AppLanguage, t: QuizGenerator.Templates,
+): List<QuizQuestion> {
+    container.content.quiz(key)?.let { return it }
+    val label = { v: agape.app.data.bible.Verse -> container.passageLabel(agape.app.core.model.Passage(v.book, v.chapter, v.verse), lang) }
+    return when {
+        key.startsWith("chapter:") -> {
+            val (book, ch) = key.removePrefix("chapter:").split('.').let { it[0] to it[1].toInt() }
+            QuizGenerator.chapterQuiz(container.bible.chapter(book, ch, lang), label, t, count = 5, seed = key.hashCode().toLong())
+        }
+        key.startsWith("book:") -> {
+            val book = key.removePrefix("book:")
+            QuizGenerator.bookQuiz(container.bible.book(book, lang), container.bookName(book, lang), label, t, count = 20, seed = key.hashCode().toLong())
+        }
+        else -> emptyList()
     }
 }
 

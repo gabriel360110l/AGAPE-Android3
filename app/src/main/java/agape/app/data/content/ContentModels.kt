@@ -1,5 +1,6 @@
 package agape.app.data.content
 
+import agape.app.core.model.AppLanguage
 import agape.app.core.model.L10n
 import agape.app.core.model.L10nLines
 import agape.app.core.model.Testament
@@ -69,7 +70,7 @@ data class Prayer(
 )
 
 @Serializable
-data class QuizQuestion(val q: L10n, val options: List<L10n>, val answer: Int)
+data class QuizQuestion(val q: L10n, val options: List<L10n>, val answer: Int, val explanation: L10n? = null)
 
 @Serializable
 data class QuizFile(val passMark: Double, val quizzes: Map<String, List<QuizQuestion>>)
@@ -98,6 +99,8 @@ data class Council(
     val traditionNotes: Map<Tradition, L10n> = emptyMap(),
     val passages: List<String>,
     val quiz: List<QuizQuestion> = emptyList(),
+    /** Catholic councils after the Great Schism; shown in the Church section, not in the council reading plan. */
+    val afterSchism: Boolean = false,
 )
 
 /** Full texts from NPNF II/14 (English only). */
@@ -109,10 +112,21 @@ data class CouncilTexts(
 )
 
 @Serializable
-data class CouncilDocument(val title: String, val paragraphs: List<String>)
+data class CouncilDocument(
+    val title: String,
+    val paragraphs: List<String>,
+    val titleNl: String = "",
+    val paragraphsNl: List<String> = emptyList(),
+) {
+    fun hasDutch() = paragraphsNl.isNotEmpty()
+    fun title(lang: AppLanguage) = if (lang == AppLanguage.DUTCH && hasDutch()) titleNl else title
+    fun paragraphs(lang: AppLanguage) = if (lang == AppLanguage.DUTCH && hasDutch()) paragraphsNl else paragraphs
+}
 
 @Serializable
-data class CanonText(val number: Int, val text: String)
+data class CanonText(val number: Int, val text: String, val textNl: String = "") {
+    fun text(lang: AppLanguage) = if (lang == AppLanguage.DUTCH && textNl.isNotBlank()) textNl else text
+}
 
 enum class PlanCategory { BEGINNER, OT_NT, FULL, COUNCILS }
 
@@ -173,7 +187,21 @@ data class ChurchFather(
 )
 
 @Serializable
-data class ChurchFile(val articles: List<ChurchArticle>, val fathers: List<ChurchFather>)
+data class ChurchFile(val articles: List<ChurchArticle>, val fathers: List<ChurchFather>, val leaders: List<ChurchLeader> = emptyList())
+
+@Serializable
+data class ChurchLeader(
+    val tradition: Tradition,
+    val church: L10n,
+    val title: L10n,
+    val current: String,
+    val since: String,
+    val wiki: String,
+    val notable: List<NotableLeader> = emptyList(),
+)
+
+@Serializable
+data class NotableLeader(val name: String, val years: String, val note: L10n)
 
 @Serializable
 data class SaintEntry(val month: Int, val day: Int, val rank: String, val title: L10n, val summary: L10n)

@@ -337,6 +337,44 @@
     <string name="counter_done">Voltooid. Tik om opnieuw te beginnen.</string>
     <string name="verse_father_quotes">De Vaders over dit vers</string>
 
+    <!-- Search, calendar, chapter endings -->
+    <string name="tab_search">Zoeken</string>
+    <string name="search_hint">Verzen, boeken, gebeden, heiligen, concilies…</string>
+    <string name="search_clear">Wissen</string>
+    <string name="search_all">Alles</string>
+    <string name="search_bible">Bijbel</string>
+    <string name="search_prayers">Gebeden</string>
+    <string name="search_church">Kerk</string>
+    <string name="search_fathers">Uitleg van de Vaders</string>
+    <string name="search_saints">Heiligen</string>
+    <string name="search_plans">Plannen</string>
+    <string name="search_recent">Recent gezocht</string>
+    <string name="search_empty_hint">Zoek in de hele app: een woord in de Bijbel, een tekst als Johannes 3:16, een gebed, een heilige, een concilie of een Vader.</string>
+    <string name="search_none">Niets gevonden voor “%1$s”.</string>
+    <string name="calendar_title">Kalender</string>
+    <string name="calendar_previous">Vorige maand</string>
+    <string name="calendar_next">Volgende maand</string>
+    <string name="calendar_legend_feast">Feest</string>
+    <string name="calendar_legend_active">Je las of bad</string>
+    <string name="calendar_loading">De heiligen van deze dag worden opgezocht…</string>
+    <string name="calendar_your_day">Jouw dag</string>
+    <string name="chapter_explanation">Over dit hoofdstuk</string>
+    <string name="chapter_fathers">De Vaders over dit hoofdstuk</string>
+    <string name="chapter_cross_refs">Verder lezen</string>
+    <string name="chapter_quiz">Quiz over dit hoofdstuk</string>
+    <string name="book_end_kicker">Einde van het boek</string>
+    <string name="book_end_fathers">De Vaders over %1$s</string>
+    <string name="book_end_quiz">Boekquiz · 20 vragen</string>
+    <string name="quiz_gen_cloze">Welk woord ontbreekt? (%1$s)</string>
+    <string name="quiz_gen_which_chapter">In welk hoofdstuk van %1$s staat dit?</string>
+    <string name="quiz_gen_chapter_option">Hoofdstuk %1$d</string>
+    <string name="quiz_none">Er is nog geen quiz voor deze passage.</string>
+    <string name="leaders_title">Patriarchen en pausen</string>
+    <string name="leaders_current">Nu</string>
+    <string name="leaders_notable">In de geschiedenis</string>
+    <string name="leaders_full_list">Volledige lijst op Wikipedia</string>
+    <string name="council_after_schism">Na 1054 · Katholieke Kerk</string>
+
     <plurals name="days">
         <item quantity="one">%d dag</item>
         <item quantity="other">%d dagen</item>

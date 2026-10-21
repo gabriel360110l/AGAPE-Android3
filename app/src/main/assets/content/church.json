@@ -1341,5 +1341,269 @@
    "quoteSource": "On the Unity of the Church 6",
    "dbName": "Cyprian"
   }
+ ],
+ "leaders": [
+  {
+   "tradition": "EASTERN_ORTHODOX",
+   "church": {
+    "en": "Ecumenical Patriarchate of Constantinople",
+    "nl": "Oecumenisch Patriarchaat van Constantinopel"
+   },
+   "title": {
+    "en": "Ecumenical Patriarch, first among equals",
+    "nl": "Oecumenisch Patriarch, eerste onder gelijken"
+   },
+   "current": "Bartholomew I",
+   "since": "1991",
+   "wiki": "https://en.wikipedia.org/wiki/List_of_ecumenical_patriarchs_of_Constantinople",
+   "notable": [
+    {
+     "name": "St Gregory the Theologian",
+     "years": "379–381",
+     "note": {
+      "en": "Cappadocian Father, presided over the Council of 381.",
+      "nl": "Cappadocische Vader, voorzitter van het concilie van 381."
+     }
+    },
+    {
+     "name": "St John Chrysostom",
+     "years": "398–404",
+     "note": {
+      "en": "The great preacher; died in exile.",
+      "nl": "De grote prediker; stierf in ballingschap."
+     }
+    },
+    {
+     "name": "St Tarasius",
+     "years": "784–806",
+     "note": {
+      "en": "Restored the icons at Nicaea II.",
+      "nl": "Herstelde de iconen op Nicea II."
+     }
+    },
+    {
+     "name": "St Photius the Great",
+     "years": "858–867, 877–886",
+     "note": {
+      "en": "Scholar and defender of Orthodoxy.",
+      "nl": "Geleerde en verdediger van de Orthodoxie."
+     }
+    }
+   ]
+  },
+  {
+   "tradition": "EASTERN_ORTHODOX",
+   "church": {
+    "en": "Patriarchate of Moscow",
+    "nl": "Patriarchaat van Moskou"
+   },
+   "title": {
+    "en": "Patriarch of Moscow and All Rus'",
+    "nl": "Patriarch van Moskou en heel Rusland"
+   },
+   "current": "Kirill",
+   "since": "2009",
+   "wiki": "https://en.wikipedia.org/wiki/List_of_patriarchs_of_Moscow",
+   "notable": [
+    {
+     "name": "St Tikhon",
+     "years": "1917–1925",
+     "note": {
+      "en": "Confessor under the Soviet persecution.",
+      "nl": "Belijder onder de Sovjetvervolging."
+     }
+    }
+   ]
+  },
+  {
+   "tradition": "EASTERN_ORTHODOX",
+   "church": {
+    "en": "Patriarchates of Alexandria, Antioch and Jerusalem",
+    "nl": "Patriarchaten van Alexandrië, Antiochië en Jeruzalem"
+   },
+   "title": {
+    "en": "The ancient Greek Orthodox patriarchates",
+    "nl": "De oude Grieks-orthodoxe patriarchaten"
+   },
+   "current": "Theodore II · John X · Theophilos III",
+   "since": "",
+   "wiki": "https://en.wikipedia.org/wiki/Patriarch",
+   "notable": []
+  },
+  {
+   "tradition": "ORIENTAL_ORTHODOX",
+   "church": {
+    "en": "Coptic Orthodox Church of Alexandria",
+    "nl": "Koptisch-Orthodoxe Kerk van Alexandrië"
+   },
+   "title": {
+    "en": "Pope of Alexandria and Patriarch of the See of St Mark",
+    "nl": "Paus van Alexandrië en Patriarch van de Zetel van de heilige Marcus"
+   },
+   "current": "Tawadros II",
+   "since": "2012",
+   "wiki": "https://en.wikipedia.org/wiki/List_of_Coptic_Orthodox_popes",
+   "notable": [
+    {
+     "name": "St Mark the Evangelist",
+     "years": "c. 43–68",
+     "note": {
+      "en": "Founder of the Church in Egypt.",
+      "nl": "Stichter van de Kerk in Egypte."
+     }
+    },
+    {
+     "name": "St Athanasius the Great",
+     "years": "328–373",
+     "note": {
+      "en": "Defender of the Nicene faith.",
+      "nl": "Verdediger van het geloof van Nicea."
+     }
+    },
+    {
+     "name": "St Cyril the Great",
+     "years": "412–444",
+     "note": {
+      "en": "Champion of the Theotokos at Ephesus.",
+      "nl": "Kampioen van de Theotokos op Efeze."
+     }
+    },
+    {
+     "name": "St Dioscorus I",
+     "years": "444–454",
+     "note": {
+      "en": "Confessor at Chalcedon.",
+      "nl": "Belijder op Chalcedon."
+     }
+    },
+    {
+     "name": "St Kyrillos VI",
+     "years": "1959–1971",
+     "note": {
+      "en": "Man of prayer, known for miracles.",
+      "nl": "Man van gebed, bekend om zijn wonderen."
+     }
+    },
+    {
+     "name": "Shenouda III",
+     "years": "1971–2012",
+     "note": {
+      "en": "Teacher and preacher of a renewed Church.",
+      "nl": "Leraar en prediker van een vernieuwde Kerk."
+     }
+    }
+   ]
+  },
+  {
+   "tradition": "ORIENTAL_ORTHODOX",
+   "church": {
+    "en": "Syriac Orthodox Church of Antioch",
+    "nl": "Syrisch-Orthodoxe Kerk van Antiochië"
+   },
+   "title": {
+    "en": "Patriarch of Antioch and All the East",
+    "nl": "Patriarch van Antiochië en heel het Oosten"
+   },
+   "current": "Ignatius Aphrem II",
+   "since": "2014",
+   "wiki": "https://en.wikipedia.org/wiki/List_of_Syriac_Orthodox_patriarchs_of_Antioch",
+   "notable": [
+    {
+     "name": "St Severus of Antioch",
+     "years": "512–538",
+     "note": {
+      "en": "The great theologian of the non-Chalcedonian churches.",
+      "nl": "De grote theoloog van de niet-Chalcedonische kerken."
+     }
+    }
+   ]
+  },
+  {
+   "tradition": "ORIENTAL_ORTHODOX",
+   "church": {
+    "en": "Armenian, Ethiopian, Eritrean and Malankara Churches",
+    "nl": "Armeense, Ethiopische, Eritrese en Malankara-kerken"
+   },
+   "title": {
+    "en": "Catholicoi and patriarchs",
+    "nl": "Katholikoi en patriarchen"
+   },
+   "current": "Karekin II · Abune Mathias · Baselios Marthoma Mathews III",
+   "since": "",
+   "wiki": "https://en.wikipedia.org/wiki/Oriental_Orthodox_Churches",
+   "notable": []
+  },
+  {
+   "tradition": "CATHOLIC",
+   "church": {
+    "en": "The Holy See",
+    "nl": "De Heilige Stoel"
+   },
+   "title": {
+    "en": "Bishop of Rome and successor of St Peter",
+    "nl": "Bisschop van Rome en opvolger van de heilige Petrus"
+   },
+   "current": "Leo XIV",
+   "since": "2025",
+   "wiki": "https://en.wikipedia.org/wiki/List_of_popes",
+   "notable": [
+    {
+     "name": "St Peter",
+     "years": "c. 30–64/67",
+     "note": {
+      "en": "Apostle and first bishop of Rome.",
+      "nl": "Apostel en eerste bisschop van Rome."
+     }
+    },
+    {
+     "name": "St Leo the Great",
+     "years": "440–461",
+     "note": {
+      "en": "His Tome was received at Chalcedon.",
+      "nl": "Zijn Tomus werd op Chalcedon aanvaard."
+     }
+    },
+    {
+     "name": "St Gregory the Great",
+     "years": "590–604",
+     "note": {
+      "en": "Reformer of liturgy and monastic life.",
+      "nl": "Hervormer van liturgie en kloosterleven."
+     }
+    },
+    {
+     "name": "St Pius V",
+     "years": "1566–1572",
+     "note": {
+      "en": "Carried out the reforms of Trent.",
+      "nl": "Voerde de hervormingen van Trente uit."
+     }
+    },
+    {
+     "name": "St John XXIII",
+     "years": "1958–1963",
+     "note": {
+      "en": "Called the Second Vatican Council.",
+      "nl": "Riep het Tweede Vaticaans Concilie bijeen."
+     }
+    },
+    {
+     "name": "St John Paul II",
+     "years": "1978–2005",
+     "note": {
+      "en": "Pilgrim pope of the modern world.",
+      "nl": "Pelgrimspaus van de moderne wereld."
+     }
+    },
+    {
+     "name": "Francis",
+     "years": "2013–2025",
+     "note": {
+      "en": "Pope of mercy and care for the poor.",
+      "nl": "Paus van barmhartigheid en zorg voor de armen."
+     }
+    }
+   ]
+  }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "passMark": 0.66,
+ "passMark": 0.7,
  "quizzes": {
   "chapter:MRK.1": [
    {"q": {"en": "Who prepared the way for Jesus in the wilderness?", "nl": "Wie bereidde de weg voor Jezus in de woestijn?"}, "options": [{"en": "Elijah", "nl": "Elia"}, {"en": "John the Baptist", "nl": "Johannes de Doper"}, {"en": "Peter", "nl": "Petrus"}], "answer": 1},

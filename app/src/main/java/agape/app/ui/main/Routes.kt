@@ -6,7 +6,9 @@ import kotlinx.serialization.Serializable
 @Serializable data object HomeRoute
 @Serializable data object BibleRoute
 @Serializable data object PrayerRoute
+@Serializable data object SearchRoute
 @Serializable data object MeRoute
+@Serializable data object CalendarRoute
 
 // Bible
 /** Deep link: agape://bible/{book}/{chapter}?verse={verse} */
@@ -15,6 +17,7 @@ import kotlinx.serialization.Serializable
 @Serializable data class CouncilRoute(val id: String)
 @Serializable data object CouncilsRoute
 @Serializable data object FathersRoute
+@Serializable data object LeadersRoute
 @Serializable data class FatherRoute(val id: String)
 
 // Plans and quizzes

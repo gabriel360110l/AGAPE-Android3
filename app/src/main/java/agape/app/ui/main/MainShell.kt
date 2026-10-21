@@ -11,8 +11,13 @@ import agape.app.ui.church.CouncilScreen
 import agape.app.ui.church.CouncilsScreen
 import agape.app.ui.church.FatherScreen
 import agape.app.ui.church.FathersScreen
+import agape.app.ui.church.LeadersScreen
 import agape.app.ui.components.AmbientBackground
 import agape.app.ui.components.AgapeIcons
+import agape.app.ui.calendar.CalendarScreen
+import agape.app.ui.search.SearchScreen
+import agape.app.ui.search.SearchTarget
+import androidx.compose.material.icons.outlined.Search
 import agape.app.ui.home.HomeScreen
 import agape.app.ui.legal.LegalScreen
 import agape.app.ui.me.AchievementsScreen
@@ -90,12 +95,13 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import kotlin.reflect.KClass
 
-private data class Tab(val route: Any, val routeClass: KClass<*>, val label: Int, val icon: ImageVector, val stop: TourStop)
+private data class Tab(val route: Any, val routeClass: KClass<*>, val label: Int, val icon: ImageVector, val stop: TourStop?)
 
 private val tabs = listOf(
     Tab(HomeRoute, HomeRoute::class, R.string.tab_home, Icons.Outlined.Home, TourStop.HOME),
     Tab(BibleRoute, BibleRoute::class, R.string.tab_bible, Icons.AutoMirrored.Outlined.MenuBook, TourStop.BIBLE),
     Tab(PrayerRoute, PrayerRoute::class, R.string.tab_prayer, AgapeIcons.Candle, TourStop.PRAYER),
+    Tab(SearchRoute, SearchRoute::class, R.string.tab_search, Icons.Outlined.Search, null),
     Tab(MeRoute, MeRoute::class, R.string.tab_me, Icons.Outlined.Person, TourStop.ME),
 )
 
@@ -198,7 +204,23 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openTab = { route -> nav.navigateToTab(route) },
                 openSaved = { nav.navigate(SavedRoute) },
                 openHour = { nav.navigate(HourRoute(it)) },
+                openCalendar = { nav.navigate(CalendarRoute) },
             )
+        }
+        composable<CalendarRoute> { CalendarScreen(onBack = back) }
+        composable<SearchRoute> {
+            SearchScreen(open = { t ->
+                when (t) {
+                    is SearchTarget.Verse -> nav.navigate(ReaderRoute(t.book, t.chapter, t.verse))
+                    is SearchTarget.Hour -> nav.navigate(HourRoute(t.id))
+                    is SearchTarget.Prayer -> nav.navigate(PrayerTextRoute(t.id))
+                    is SearchTarget.Council -> nav.navigate(CouncilRoute(t.id))
+                    is SearchTarget.Father -> nav.navigate(FatherRoute(t.id))
+                    is SearchTarget.Article -> nav.navigate(ArticleRoute(t.id))
+                    is SearchTarget.Plan -> nav.navigate(PlanRoute(t.id))
+                    SearchTarget.Calendar -> nav.navigate(CalendarRoute)
+                }
+            })
         }
         composable<BibleRoute> {
             BibleScreen(
@@ -206,6 +228,7 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openArticle = { nav.navigate(ArticleRoute(it)) },
                 openCouncils = { nav.navigate(CouncilsRoute) },
                 openFathers = { nav.navigate(FathersRoute) },
+                openLeaders = { nav.navigate(LeadersRoute) },
                 openPlans = { nav.navigate(PlansRoute) },
             )
         }
@@ -240,6 +263,7 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openQuiz = { key, title -> nav.navigate(QuizRoute(key, title)) },
             )
         }
+        composable<LeadersRoute> { LeadersScreen(onBack = back) }
         composable<FathersRoute> { FathersScreen(onBack = back, openFather = { nav.navigate(FatherRoute(it)) }) }
         composable<FatherRoute> {
             FatherScreen(it.toRoute<FatherRoute>().id, onBack = back, openVerse = { b, c, v -> nav.navigate(ReaderRoute(b, c, v)) })

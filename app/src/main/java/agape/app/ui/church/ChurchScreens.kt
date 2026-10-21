@@ -128,6 +128,10 @@ fun CouncilsScreen(onBack: () -> Unit, openCouncil: (String) -> Unit) {
                     if (council.place[lang].isNotBlank()) Text(council.place[lang], style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
                     Spacer(Modifier.height(6.dp))
                     Text(council.heresy[lang], style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, maxLines = 3)
+                    if (council.afterSchism) {
+                        Spacer(Modifier.height(6.dp))
+                        Text(stringResource(R.string.council_after_schism), style = MaterialTheme.typography.labelSmall, color = c.accent)
+                    }
                     if (!received) {
                         Spacer(Modifier.height(6.dp))
                         Text(stringResource(R.string.council_not_received), style = MaterialTheme.typography.labelSmall, color = c.accent)
@@ -209,17 +213,17 @@ fun CouncilScreen(id: String, onBack: () -> Unit, openPassage: (Passage) -> Unit
                             Text(stringResource(R.string.council_no_canons), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
                         } else {
                             Kicker(stringResource(R.string.council_canons_full, texts.canons.size), color = c.inkMuted)
-                            EnglishOnlyNote(lang)
-                            texts.canons.forEach { canon -> ExpandableCanon(canon.number, canon.text) }
+                            if (texts.canons.any { it.textNl.isBlank() }) EnglishOnlyNote(lang)
+                            texts.canons.forEach { canon -> ExpandableCanon(canon.number, canon.text(lang)) }
                         }
                     }
                     CouncilTab.TEXTS -> {
-                        EnglishOnlyNote(lang)
                         texts.documents.forEach { doc ->
                             AgapeCard {
-                                Kicker(doc.title)
+                                Kicker(doc.title(lang))
                                 Spacer(Modifier.height(10.dp))
-                                doc.paragraphs.forEach { Paragraph(it) }
+                                if (!doc.hasDutch()) EnglishOnlyNote(lang)
+                                doc.paragraphs(lang).forEach { Paragraph(it) }
                             }
                         }
                         if (texts.source.isNotBlank()) Text(texts.source, style = MaterialTheme.typography.labelSmall, color = c.inkFaint)

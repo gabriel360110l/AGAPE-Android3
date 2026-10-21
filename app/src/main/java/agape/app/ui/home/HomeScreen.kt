@@ -20,6 +20,8 @@ import agape.app.ui.components.ProgressLine
 import agape.app.ui.components.QuietButton
 import agape.app.ui.components.TabHeader
 import agape.app.ui.components.cardShape
+import agape.app.ui.calendar.WeekStrip
+import androidx.compose.foundation.layout.Box
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import agape.app.ui.main.BibleRoute
@@ -71,6 +73,7 @@ fun HomeScreen(
     openTab: (Any) -> Unit,
     openSaved: () -> Unit,
     openHour: (String) -> Unit,
+    openCalendar: () -> Unit,
 ) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
@@ -126,6 +129,8 @@ fun HomeScreen(
                 Text(verseRef?.let { container.passageLabel(it, lang) }.orEmpty(), style = MaterialTheme.typography.labelLarge, color = c.onPrimary.copy(alpha = 0.85f))
             }
         }
+
+        item { Box(Modifier.padding(horizontal = 16.dp)) { WeekStrip(onOpen = openCalendar) } }
 
         // Continue reading
         item {

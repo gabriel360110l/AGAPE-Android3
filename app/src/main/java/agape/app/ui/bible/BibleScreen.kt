@@ -64,6 +64,7 @@ fun BibleScreen(
     openArticle: (String) -> Unit,
     openCouncils: () -> Unit,
     openFathers: () -> Unit,
+    openLeaders: () -> Unit,
     openPlans: () -> Unit,
 ) {
     var tab by rememberSaveable { mutableStateOf(BibleTab.BOOKS) }
@@ -117,7 +118,7 @@ fun BibleScreen(
                     )
                 }
             }
-            BibleTab.CHURCH -> churchSection(this, tradition, lang, container, openArticle, openCouncils, openFathers)
+            BibleTab.CHURCH -> churchSection(this, tradition, lang, container, openArticle, openCouncils, openFathers, openLeaders)
         }
     }
 }
@@ -169,6 +170,7 @@ private fun churchSection(
     openArticle: (String) -> Unit,
     openCouncils: () -> Unit,
     openFathers: () -> Unit,
+    openLeaders: () -> Unit,
 ) = with(scope) {
     val content = container.content
     item {
@@ -183,6 +185,17 @@ private fun churchSection(
                 subtitle = stringResource(R.string.church_fathers_count, content.fathers(tradition).size),
                 symbol = "✠", modifier = Modifier.weight(1f), onClick = openFathers,
             )
+        }
+    }
+    item {
+        AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 4.dp), onClick = openLeaders) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Column(Modifier.weight(1f)) {
+                    Text(stringResource(R.string.leaders_title), style = MaterialTheme.typography.titleLarge, color = AgapeTheme.colors.ink)
+                    Text(content.leaders(tradition).joinToString(" · ") { it.current }.take(80), style = MaterialTheme.typography.bodySmall, color = AgapeTheme.colors.inkMuted)
+                }
+                Chevron()
+            }
         }
     }
     item { ChurchHeading(R.string.church_your_tradition) }

@@ -78,10 +78,11 @@ class BibleRepository(private val context: Context) {
         ).use { c -> buildList { while (c.moveToNext()) add(CrossRef(c.getString(0), c.getInt(1), c.getInt(2), c.getInt(3))) } }
     }
 
-    suspend fun chapterGuide(book: String, chapter: Int, language: AppLanguage): ChapterGuide? = withContext(Dispatchers.IO) {
+    /** The English chapter guide. The legacy Dutch guides are machine-made and are not shown until they are rewritten. */
+    suspend fun chapterGuide(book: String, chapter: Int): ChapterGuide? = withContext(Dispatchers.IO) {
         database().rawQuery(
-            "SELECT title, summary, context, themes, related FROM chapter_guides WHERE book = ? AND chapter = ? AND lang IN (?, 'en') ORDER BY lang = ? DESC LIMIT 1",
-            arrayOf(book, chapter.toString(), language.tag, language.tag),
+            "SELECT title, summary, context, themes, related FROM chapter_guides WHERE book = ? AND chapter = ? AND lang = 'en' LIMIT 1",
+            arrayOf(book, chapter.toString()),
         ).use { c ->
             if (!c.moveToFirst()) null else ChapterGuide(
                 title = c.getString(0),
@@ -108,6 +109,53 @@ class BibleRepository(private val context: Context) {
             }
         }
     }
+
+    /** Every verse of a book, for the book quiz. */
+    suspend fun book(book: String, language: AppLanguage): List<Verse> = withContext(Dispatchers.IO) {
+        database().rawQuery(
+            "SELECT chapter, verse, text FROM verses WHERE translation = ? AND book = ? ORDER BY chapter, verse",
+            arrayOf(translation(language), book),
+        ).use { c -> buildList { while (c.moveToNext()) add(Verse(book, c.getInt(0), c.getInt(1), c.getString(2))) } }
+    }
+
+    /** The passages most often linked from anywhere in a chapter, outside the chapter itself. */
+    suspend fun chapterCrossRefs(book: String, chapter: Int, limit: Int = 10): List<CrossRef> = withContext(Dispatchers.IO) {
+        database().rawQuery(
+            """SELECT to_book, to_chapter, to_verse, MAX(to_verse_end), SUM(votes) AS v FROM cross_refs
+               WHERE book = ? AND chapter = ? AND NOT (to_book = ? AND to_chapter = ?)
+               GROUP BY to_book, to_chapter, to_verse ORDER BY v DESC LIMIT ?""",
+            arrayOf(book, chapter.toString(), book, chapter.toString(), limit.toString()),
+        ).use { c -> buildList { while (c.moveToNext()) add(CrossRef(c.getString(0), c.getInt(1), c.getInt(2), c.getInt(3))) } }
+    }
+
+    /** Father commentary anywhere in a chapter. */
+    suspend fun chapterQuotes(book: String, chapter: Int): List<FatherQuote> = quotes(
+        "SELECT book, chapter, verse, verse_end, father, year, source, text FROM father_quotes WHERE book = ? AND chapter = ? ORDER BY verse",
+        arrayOf(book, chapter.toString()),
+    )
+
+    /** One quote from each of the Fathers who commented most on a book. */
+    suspend fun bookQuotes(book: String, limit: Int = 8): List<FatherQuote> = quotes(
+        """SELECT book, chapter, verse, verse_end, father, year, source, text FROM father_quotes
+           WHERE rowid IN (SELECT MIN(rowid) FROM father_quotes WHERE book = ? GROUP BY father ORDER BY COUNT(*) DESC LIMIT ?)""",
+        arrayOf(book, limit.toString()),
+    )
+
+    /** Verses containing [query] in the translation of [language]. */
+    suspend fun searchVerses(query: String, language: AppLanguage, limit: Int = 80): List<Verse> = withContext(Dispatchers.IO) {
+        database().rawQuery(
+            "SELECT book, chapter, verse, text FROM verses WHERE translation = ? AND text LIKE ? ESCAPE '\\' LIMIT ?",
+            arrayOf(translation(language), "%" + escapeLike(query) + "%", limit.toString()),
+        ).use { c -> buildList { while (c.moveToNext()) add(Verse(c.getString(0), c.getInt(1), c.getInt(2), c.getString(3))) } }
+    }
+
+    /** Father commentary mentioning [query], or by a Father whose name matches. */
+    suspend fun searchQuotes(query: String, limit: Int = 30): List<FatherQuote> = quotes(
+        "SELECT book, chapter, verse, verse_end, father, year, source, text FROM father_quotes WHERE text LIKE ? ESCAPE '\\' OR father LIKE ? ESCAPE '\\' LIMIT ?",
+        arrayOf("%" + escapeLike(query) + "%", "%" + escapeLike(query) + "%", limit.toString()),
+    )
+
+    private fun escapeLike(s: String) = s.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
 
     /** Church Father commentary on a verse, from the patristic commentary database. */
     suspend fun fatherQuotes(ref: VerseRef): List<FatherQuote> = quotes(
