@@ -71,7 +71,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Council creeds, definitions, anathemas and canons | NPNF II/14 (Percival, 1900) via newadvent.org | Public domain |
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
-| Chapter commentary (EN + NL): New Testament, Genesis, Exodus, Psalms, Proverbs, Isaiah | `tools/source/commentary/*.md` | Own content — review |
+| Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, Psalms, Proverbs, Isaiah | `tools/source/commentary/*.md` | Own content — review |
 | Chapter quizzes, four Gospels (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
 | Coptic Synaxarium (names per day) | api.coptic.io | Check terms before release; Dutch: rules + `tools/source/saints_nl_oo.json` |
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
@@ -97,16 +97,20 @@ python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow);
 ```
 
 Chapter commentary is written book by book in `tools/source/commentary/<BOOK>.md`. Written so far: the New
-Testament, Genesis, Exodus, Psalms, Proverbs and Isaiah. The Psalms follow the Hebrew numbering of the Bible text;
-the Greek number is noted where the liturgy uses it. The other Old Testament books, the deuterocanon included, still
-show the legacy guide, marked in the app as provisional (English only).
+Testament; the Law and the historical books from Genesis to Esther, with Tobit, Judith and 1–2 Maccabees; and
+Psalms, Proverbs and Isaiah. The Psalms follow the Hebrew numbering of the Bible text; the Greek number is noted
+where the liturgy uses it. The English Esther carries the Greek additions in place and its commentary mentions them;
+the Dutch Bible keeps them as a separate book. The other Old Testament books (Job, Ecclesiastes, Song of Songs,
+Wisdom, Sirach, the Prophets after Isaiah and the remaining deuterocanonical books) still show the legacy guide,
+marked in the app as provisional (English only).
 
 ## Before release
 
 - Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
 - Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary, Church articles, and
   hand-written quizzes for Acts to Revelation.
-- Write the remaining Old Testament chapter commentary (EN + NL), book by book, and have the written commentary,
+- Write the remaining Old Testament chapter commentary (EN + NL): Job, Ecclesiastes, Song of Songs, Wisdom,
+  Sirach, the Prophets after Isaiah and the remaining deuterocanonical books. Then have the written commentary,
   the quizzes, the menologion texts, the council translations and the Dutch saint names reviewed.
 - Add icons for more saints (each checked for a public-domain or CC0 licence).
 - Add a release signing config and a Play Store listing (screenshots per style).
