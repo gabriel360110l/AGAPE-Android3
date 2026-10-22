@@ -30,7 +30,7 @@ app/src/main/java/agape/app/
     daily/         saint and readings of the day (orthocal.info, api.coptic.io, calapi), cached offline
     calendar/      Pascha (East and West)
   notifications/   prayer-hour alarms, boot rescheduling, inactivity reminder worker
-  ui/              onboarding, guided tour, 4-tab shell (Home · Bible · Prayer · Me) and all screens
+  ui/              onboarding, guided tour, 5-tab shell (Home · Bible · Prayer · Search · Me) and all screens
   ui/theme/        3 styles × light/dark: Navy + Cream, Classic Sacred, Warm Terracotta
 tools/build_content.py   rebuilds assets/bible/bible.db and generated JSON from tools/source/
 supabase/migrations/     database schema (user snapshot table, RLS, account deletion)
@@ -46,12 +46,12 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
 - **Calendar** (week strip on Home, full month behind it): feasts per tradition, old-style or Coptic date, saints of the
   day and the days you read or prayed.
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
-  it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: 5 questions
-  per chapter, 20 per book. Quizzes without hand-written questions are generated from the Bible text
-  (`data/quiz/QuizGenerator.kt`).
+  it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: the four
+  Gospels have hand-written questions (4 per chapter); other chapters get 5 questions and every book 20, generated
+  from the Bible text (`data/quiz/QuizGenerator.kt`).
 - **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches: the Byzantine
-  menologion, the Coptic Synaxarium by Coptic date, and the General Roman Calendar, with a Byzantine icon where one is
-  bundled and a quiet placeholder otherwise.
+  menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
+  Calendar, with a Byzantine icon where one is bundled and a quiet placeholder otherwise.
 - **Prayers**: the Kyrie stays in Greek, Κύριε ἐλέησον, with its meaning shown once beside the 41× counter.
 - **Church** (Bible tab): the councils (story, decisions, canons and full texts), Church Fathers and current and
   historical patriarchs and popes.
@@ -71,11 +71,13 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Council creeds, definitions, anathemas and canons | NPNF II/14 (Percival, 1900) via newadvent.org | Public domain |
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
-| Chapter commentary, New Testament (EN + NL) | `tools/source/commentary/*.md` | Own content — review |
+| Chapter commentary (EN + NL): New Testament, Genesis, Exodus, Psalms, Proverbs, Isaiah | `tools/source/commentary/*.md` | Own content — review |
+| Chapter quizzes, four Gospels (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
 | Coptic Synaxarium (names per day) | api.coptic.io | Check terms before release; Dutch: rules + `tools/source/saints_nl_oo.json` |
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
-| Saint and feast icons (51) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
-| Menologion, legacy prayers, provisional chapter guides (OT), Father notes | Legacy AGAPE app | Own content |
+| Saint and feast icons (73) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
+| Byzantine menologion: English texts | `tools/source/menologion_en.json` | Own content — review |
+| Menologion names and Dutch texts, legacy prayers, provisional chapter guides (OT), Father notes | Legacy AGAPE app | Own content |
 | Council stories, Father biographies, Liturgy of the Hours hymns and prayers, plans, quizzes, verse notes | `app/src/main/assets/content/*.json` | Own content (hymns: Neale/Newman, public domain) |
 
 Canon per tradition is defined in `tools/build_content.py` (`BOOKS`). Councils per tradition are in
@@ -85,23 +87,27 @@ Canon per tradition is defined in `tools/build_content.py` (`BOOKS`). Councils p
 Rebuild generated content from the repository root (downloads are cached in `tools/.cache/`):
 
 ```
-python tools/build_content.py     # Bible database, cross-references, Father quotes, books
+python tools/build_content.py     # Bible database, cross-references, Father quotes, books; --saints: menologion only
 python tools/build_prayers.py     # Agpeya and Horologion (Κύριε ἐλέησον via tools/kyrie.py)
 python tools/build_councils.py    # council texts and canons
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
+python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
 python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --patterns updates matching only
 ```
 
-Chapter commentary is written book by book in `tools/source/commentary/<BOOK>.md`. The New Testament is complete;
-Old Testament chapters still show the legacy guide, marked in the app as provisional (English only).
+Chapter commentary is written book by book in `tools/source/commentary/<BOOK>.md`. Written so far: the New
+Testament, Genesis, Exodus, Psalms, Proverbs and Isaiah. The Psalms follow the Hebrew numbering of the Bible text;
+the Greek number is noted where the liturgy uses it. The other Old Testament books, the deuterocanon included, still
+show the legacy guide, marked in the app as provisional (English only).
 
 ## Before release
 
 - Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
-- Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary, quizzes, Church articles.
-- Write the Old Testament chapter commentary (EN + NL), book by book, and have the New Testament commentary,
-  the council translations and the Dutch saint names reviewed.
+- Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary, Church articles, and
+  hand-written quizzes for Acts to Revelation.
+- Write the remaining Old Testament chapter commentary (EN + NL), book by book, and have the written commentary,
+  the quizzes, the menologion texts, the council translations and the Dutch saint names reviewed.
 - Add icons for more saints (each checked for a public-domain or CC0 licence).
 - Add a release signing config and a Play Store listing (screenshots per style).
 

@@ -8,7 +8,7 @@
    "nl": "Besnijdenis des Heeren · Basilius"
   },
   "summary": {
-   "en": "The Church commemorates Circumcision of the Lord · Basil.",
+   "en": "On the eighth day the Child is circumcised and named Jesus. We also remember Basil the Great, archbishop of Caesarea: the liturgy that bears his name, the sobriety of fasting, the care for the poor.",
    "nl": "Op de achtste dag wordt het Kind besneden en Jezus genoemd. Tegelijk gedenken wij Basilius de Grote, aartsbisschop van Caesarea: de liturgie die zijn naam draagt, de nuchterheid van de vasten, de zorg voor de armen."
   }
  },
@@ -21,7 +21,7 @@
    "nl": "Sylvester · Serafim van Sarov"
   },
   "summary": {
-   "en": "The Church commemorates Sylvester · Seraphim of Sarov.",
+   "en": "The pope of Rome, and the elder who knelt in the snow.",
    "nl": "De paus van Rome, en de starets die in de sneeuw knielde."
   }
  },
@@ -34,7 +34,7 @@
    "nl": "Profeet Maleachi · Gordius"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Malachi · Gordius.",
+   "en": "The last prophet of the Old Covenant, and the soldier-martyr.",
    "nl": "De laatste profeet van het Oude Verbond, en de soldaat-martelaar."
   }
  },
@@ -47,7 +47,7 @@
    "nl": "Synaxis van de zeventig apostelen"
   },
   "summary": {
-   "en": "The Church commemorates Synaxis of the Seventy Apostles.",
+   "en": "The seventy whom the Lord sent out, two by two.",
    "nl": "De zeventig die de Heer uitzond, twee aan twee."
   }
  },
@@ -60,7 +60,7 @@
    "nl": "Vooravond van de Theofanie"
   },
   "summary": {
-   "en": "The Church commemorates Eve of Theophany.",
+   "en": "The eve of Theophany. The Church fasts, reads the Royal Hours and prepares the water. Tomorrow the Jordan will turn back.",
    "nl": "De paramoní van de Theofanie. De Kerk vast, leest de koninklijke uren, en bereidt het water. Morgen zal de Jordaan omkeren."
   }
  },
@@ -73,7 +73,7 @@
    "nl": "Theofanie"
   },
   "summary": {
-   "en": "The Church commemorates Theophany.",
+   "en": "Christ goes down into the Jordan. The Father speaks, the Spirit descends like a dove. Not because He needs cleansing: He sanctifies the water, and with the water all creation. We bless the water and take it home.",
    "nl": "Christus daalt in de Jordaan. De Vader spreekt, de Geest daalt als een duif. Niet omdat Hij reiniging nodig heeft: Hij heiligt het water, en met het water de hele schepping. Wij zegenen het water en nemen het mee naar huis."
   }
  },
@@ -86,7 +86,7 @@
    "nl": "Synaxis van Johannes de Doper"
   },
   "summary": {
-   "en": "The Church commemorates Synaxis of John the Baptist.",
+   "en": "The Forerunner, the greatest of those born of women.",
    "nl": "De Voorloper, de grootste onder de uit vrouwen geborenen."
   }
  },
@@ -95,11 +95,11 @@
   "day": 8,
   "rank": "saint",
   "title": {
-   "en": "Georgius van Chozeba · Domnica",
+   "en": "George of Chozeba · Domnica",
    "nl": "Georgius van Chozeba · Domnica"
   },
   "summary": {
-   "en": "The Church commemorates Georgius van Chozeba · Domnica.",
+   "en": "The abbot by the Jordan, and the deaconess of Constantinople.",
    "nl": "De abt bij de Jordaan, en de diacones van Constantinopel."
   }
  },
@@ -108,11 +108,11 @@
   "day": 9,
   "rank": "saint",
   "title": {
-   "en": "Polyeuctus van Melitene",
+   "en": "Polyeuctus of Melitene",
    "nl": "Polyeuctus van Melitene"
   },
   "summary": {
-   "en": "The Church commemorates Polyeuctus van Melitene.",
+   "en": "A soldier who sealed his baptism with his blood.",
    "nl": "Soldaat die zijn doop met bloed verzegelde."
   }
  },
@@ -125,7 +125,7 @@
    "nl": "Gregorius van Nyssa"
   },
   "summary": {
-   "en": "The Church commemorates Gregory of Nyssa.",
+   "en": "The theologian of the endless ascent to God.",
    "nl": "De theoloog van de oneindige opgang tot God."
   }
  },
@@ -138,7 +138,7 @@
    "nl": "Theodosius de Cenobiarch"
   },
   "summary": {
-   "en": "The Church commemorates Theodosius the Cenobiarch.",
+   "en": "Father of the common life in the desert of Judea.",
    "nl": "Vader van het gemeenschappelijk leven in de woestijn van Juda."
   }
  },
@@ -151,7 +151,7 @@
    "nl": "Tatiana van Rome"
   },
   "summary": {
-   "en": "The Church commemorates Tatiana of Rome.",
+   "en": "Deaconess and martyr under Alexander Severus.",
    "nl": "Diacones en martelares onder Alexander Severus."
   }
  },
@@ -160,11 +160,11 @@
   "day": 13,
   "rank": "saint",
   "title": {
-   "en": "Hermylus en Stratonicus",
+   "en": "Hermylus and Stratonicus",
    "nl": "Hermylus en Stratonicus"
   },
   "summary": {
-   "en": "The Church commemorates Hermylus en Stratonicus.",
+   "en": "The deacon and the jailer, together in the Danube.",
    "nl": "De diaken en de cipier, samen in de Donau."
   }
  },
@@ -177,7 +177,7 @@
    "nl": "Vaders van Sinaï en Raithu"
   },
   "summary": {
-   "en": "The Church commemorates Fathers of Sinai and Raithu.",
+   "en": "Monks slain in the desert; the close of Theophany.",
    "nl": "Monniken geslacht in de woestijn; slot van de Theofanie."
   }
  },
@@ -190,7 +190,7 @@
    "nl": "Paulus van Thebe · Johannes Kalyvites"
   },
   "summary": {
-   "en": "The Church commemorates Paul of Thebes · John Kalyvites.",
+   "en": "The first hermit, and the son who lived in a hut beside his parents' house.",
    "nl": "De eerste kluizenaar, en de zoon die in een hut bij zijn ouderlijk huis leefde."
   }
  },
@@ -203,7 +203,7 @@
    "nl": "Verering van de ketenen van Petrus"
   },
   "summary": {
-   "en": "The Church commemorates Veneration of the Chains of Peter.",
+   "en": "The chains of the prison in Jerusalem, a source of healing.",
    "nl": "De ketenen van de kerker te Jeruzalem, tot genezing."
   }
  },
@@ -216,7 +216,7 @@
    "nl": "Antonius de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Anthony the Great.",
+   "en": "Anthony hears the Gospel in church, gives away his goods and goes into the desert. Athanasius wrote his life: the monk is the martyr of peace, and the struggle against the demons is fought in the open.",
    "nl": "Antonius hoort het evangelie in de kerk, deelt zijn goed, en gaat de woestijn in. Athanasius schreef zijn leven: de monnik is de martelaar van de vrede, de strijd tegen de demonen is openlijk."
   }
  },
@@ -229,7 +229,7 @@
    "nl": "Athanasius en Cyrillus van Alexandrië"
   },
   "summary": {
-   "en": "The Church commemorates Athanasius and Cyril of Alexandria.",
+   "en": "Two sees, one confession: the Son is true God.",
    "nl": "Twee zetels, één belijdenis: de Zoon is waarachtig God."
   }
  },
@@ -242,7 +242,7 @@
    "nl": "Macarius de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Macarius the Great.",
+   "en": "The Egyptian whose name means 'blessed'.",
    "nl": "De Egyptenaar wiens naam ‘zalig’ betekent."
   }
  },
@@ -255,7 +255,7 @@
    "nl": "Euthymius de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Euthymius the Great.",
+   "en": "The light of the desert of Palestine.",
    "nl": "Licht van de woestijn van Palestina."
   }
  },
@@ -268,7 +268,7 @@
    "nl": "Maximus de Belijder"
   },
   "summary": {
-   "en": "The Church commemorates Maximus the Confessor.",
+   "en": "Two natures, two wills, one Christ. He lost his tongue, not the truth.",
    "nl": "Twee naturen, twee willen, één Christus. Hij verloor zijn tong, niet de waarheid."
   }
  },
@@ -277,11 +277,11 @@
   "day": 22,
   "rank": "saint",
   "title": {
-   "en": "Apostle Timothy · Anastasius de Pers",
+   "en": "Apostle Timothy · Anastasius the Persian",
    "nl": "Apostel Timotheüs · Anastasius de Pers"
   },
   "summary": {
-   "en": "The Church commemorates Apostle Timothy · Anastasius de Pers.",
+   "en": "Paul's son in the faith, and the soldier who chose the cross.",
    "nl": "De zoon van Paulus in het geloof, en de soldaat die het kruis koos."
   }
  },
@@ -290,11 +290,11 @@
   "day": 23,
   "rank": "saint",
   "title": {
-   "en": "Clemens van Ancyra",
+   "en": "Clemens of Ancyra",
    "nl": "Clemens van Ancyra"
   },
   "summary": {
-   "en": "The Church commemorates Clemens van Ancyra.",
+   "en": "A bishop and martyr from his youth.",
    "nl": "Bisschop-martelaar van jongs af."
   }
  },
@@ -307,7 +307,7 @@
    "nl": "Xenia van Sint-Petersburg"
   },
   "summary": {
-   "en": "The Church commemorates Xenia of St Petersburg.",
+   "en": "The fool for Christ who took her husband's name and blessed the city.",
    "nl": "De dwaas-om-Christus die haar mans naam droeg en de stad zegende."
   }
  },
@@ -320,7 +320,7 @@
    "nl": "Gregorius de Theoloog"
   },
   "summary": {
-   "en": "The Church commemorates Gregory the Theologian.",
+   "en": "The mouth of the Trinity, archbishop of Constantinople.",
    "nl": "De mond van de Drie-eenheid, aartsbisschop van Constantinopel."
   }
  },
@@ -333,7 +333,7 @@
    "nl": "Xenophon en zijn huis"
   },
   "summary": {
-   "en": "The Church commemorates Xenophon and his household.",
+   "en": "Father, mother, sons: one family, all the way to the monastery.",
    "nl": "Vader, moeder, zonen: één gezin tot het klooster."
   }
  },
@@ -346,7 +346,7 @@
    "nl": "Overbrenging van Chrysostomus"
   },
   "summary": {
-   "en": "The Church commemorates Translation of Chrysostom.",
+   "en": "His relics return to the city that had exiled him.",
    "nl": "Zijn gebeente keert terug naar de Stad die hem verbannen had."
   }
  },
@@ -359,7 +359,7 @@
    "nl": "Efrem de Syriër"
   },
   "summary": {
-   "en": "The Church commemorates Ephrem the Syrian.",
+   "en": "The harp of the Spirit. The Lenten prayer is his.",
    "nl": "De harp des Geestes. Het gebed van de vasten is van hem."
   }
  },
@@ -372,7 +372,7 @@
    "nl": "Ignatius de Goddrager"
   },
   "summary": {
-   "en": "The Church commemorates Ignatius the God-bearer.",
+   "en": "The translation of the relics of the one who said: let me be food for the beasts.",
    "nl": "Overbrenging van de relieken van hem die zei: laat mij voedsel der beesten zijn."
   }
  },
@@ -385,7 +385,7 @@
    "nl": "De drie hiërarchen"
   },
   "summary": {
-   "en": "The Church commemorates The Three Hierarchs.",
+   "en": "The Church celebrated them separately until rivalry divided the faithful. Then they appeared together: we are one. Since then this day has been the feast of Orthodox theology and of Christian schools.",
    "nl": "De Kerk vierde hen apart tot de nijd verdeelde. Toen verschenen zij samen: wij zijn één. Sindsdien is deze dag het feest van de orthodoxe theologie en van de christelijke school."
   }
  },
@@ -394,11 +394,11 @@
   "day": 31,
   "rank": "saint",
   "title": {
-   "en": "Cyrus en John",
+   "en": "Cyrus and John",
    "nl": "Cyrus en Johannes"
   },
   "summary": {
-   "en": "The Church commemorates Cyrus en John.",
+   "en": "The unmercenary physicians, who healed without silver.",
    "nl": "De onbaatzuchtige artsen, zonder zilver."
   }
  },
@@ -411,7 +411,7 @@
    "nl": "Tryphon · voorfeest van de Ontmoeting"
   },
   "summary": {
-   "en": "The Church commemorates Tryphon · forefeast of the Meeting.",
+   "en": "The wonderworker of the countryside, and the eve of Simeon.",
    "nl": "De wonderdoener van het platteland, en de vooravond van Simeon."
   }
  },
@@ -424,7 +424,7 @@
    "nl": "Ontmoeting des Heeren"
   },
   "summary": {
-   "en": "The Church commemorates Meeting of the Lord.",
+   "en": "Forty days after the Nativity, Mary brings the Child to the temple. Simeon and Anna, the old watchmen of Israel, recognise Him: a light to enlighten the Gentiles. The Mother of God hears of the sword that will pierce her soul.",
    "nl": "Veertig dagen na de Geboorte. Maria brengt het Kind naar de tempel. Simeon en Anna, de oude wacht van Israël, herkennen Hem. Het licht tot openbaring der heidenen. De Theotokos hoort het zwaard dat haar ziel zal doorsteken."
   }
  },
@@ -433,11 +433,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Simeon en Anna",
+   "en": "Simeon and Anna",
    "nl": "Simeon en Anna"
   },
   "summary": {
-   "en": "The Church commemorates Simeon en Anna.",
+   "en": "The old man and the prophetess, the synaxis of the Meeting.",
    "nl": "De grijsaard en de profetes, de synaxis van de Ontmoeting."
   }
  },
@@ -446,11 +446,11 @@
   "day": 4,
   "rank": "saint",
   "title": {
-   "en": "Isidorus van Pelusium",
+   "en": "Isidorus of Pelusium",
    "nl": "Isidorus van Pelusium"
   },
   "summary": {
-   "en": "The Church commemorates Isidorus van Pelusium.",
+   "en": "The abba of letters, sober and sharp.",
    "nl": "Abba van de brieven, nuchter en scherp."
   }
  },
@@ -463,7 +463,7 @@
    "nl": "Agatha van Sicilië"
   },
   "summary": {
-   "en": "The Church commemorates Agatha of Sicily.",
+   "en": "Virgin-martyr of Catania.",
    "nl": "Maagd-martelares van Catania."
   }
  },
@@ -472,11 +472,11 @@
   "day": 6,
   "rank": "saint",
   "title": {
-   "en": "Bucolus van Smyrna · Photius",
+   "en": "Bucolus of Smyrna · Photius",
    "nl": "Bucolus van Smyrna · Photius"
   },
   "summary": {
-   "en": "The Church commemorates Bucolus van Smyrna · Photius.",
+   "en": "A disciple of John, and the great patriarch Photius.",
    "nl": "Leerling van Johannes, en de grote patriarch van de Fotische belijdenis."
   }
  },
@@ -485,11 +485,11 @@
   "day": 7,
   "rank": "saint",
   "title": {
-   "en": "Parthenius van Lampsacus",
+   "en": "Parthenius of Lampsacus",
    "nl": "Parthenius van Lampsacus"
   },
   "summary": {
-   "en": "The Church commemorates Parthenius van Lampsacus.",
+   "en": "A bishop who drove out demons with gentleness.",
    "nl": "Bisschop die demonen uitdreef met zachtmoedigheid."
   }
  },
@@ -502,7 +502,7 @@
    "nl": "Theodorus de Stratelates"
   },
   "summary": {
-   "en": "The Church commemorates Theodore the Stratelates.",
+   "en": "The general who laid down his armour for the cross.",
    "nl": "De generaal die zijn wapenrusting aflegde voor het kruis."
   }
  },
@@ -515,7 +515,7 @@
    "nl": "Nicephorus van Antiochië"
   },
   "summary": {
-   "en": "The Church commemorates Nicephorus of Antioch.",
+   "en": "Martyr of friendship: he died in place of his enemy.",
    "nl": "Martelaar van de vriendschap: hij stierf in plaats van zijn vijand."
   }
  },
@@ -528,7 +528,7 @@
    "nl": "Haralambos"
   },
   "summary": {
-   "en": "The Church commemorates Haralambos.",
+   "en": "The aged priest-martyr whose relics still heal today.",
    "nl": "De oude priester-martelaar wiens relieken tot op heden genezen."
   }
  },
@@ -537,11 +537,11 @@
   "day": 11,
   "rank": "saint",
   "title": {
-   "en": "Blasius van Sebaste",
+   "en": "Blasius of Sebaste",
    "nl": "Blasius van Sebaste"
   },
   "summary": {
-   "en": "The Church commemorates Blasius van Sebaste.",
+   "en": "Bishop and physician of people and animals.",
    "nl": "Bisschop, arts van mens en dier."
   }
  },
@@ -554,7 +554,7 @@
    "nl": "Meletius van Antiochië"
   },
   "summary": {
-   "en": "The Church commemorates Meletius of Antioch.",
+   "en": "The gentle bishop in the Arian storm.",
    "nl": "De zachtmoedige zetel in de ariaanse storm."
   }
  },
@@ -567,7 +567,7 @@
    "nl": "Martinianus"
   },
   "summary": {
-   "en": "The Church commemorates Martinianus.",
+   "en": "The hermit who chose fire rather than temptation.",
    "nl": "De kluizenaar die het vuur verkoos boven de verzoeking."
   }
  },
@@ -580,7 +580,7 @@
    "nl": "Cyrillus, leraar der Slaven"
   },
   "summary": {
-   "en": "The Church commemorates Cyril, teacher of the Slavs.",
+   "en": "With Methodius he gave the Gospel an alphabet for the peoples of the north.",
    "nl": "Met Methodius het alfabet van het evangelie voor de volken van het noorden."
   }
  },
@@ -593,7 +593,7 @@
    "nl": "Onesimus"
   },
   "summary": {
-   "en": "The Church commemorates Onesimus.",
+   "en": "Philemon's slave, free in Christ, one of the Seventy.",
    "nl": "De slaaf van Filemon, vrij in Christus, van de zeventig."
   }
  },
@@ -602,11 +602,11 @@
   "day": 16,
   "rank": "saint",
   "title": {
-   "en": "Pamphilus van Caesarea",
+   "en": "Pamphilus of Caesarea",
    "nl": "Pamphilus van Caesarea"
   },
   "summary": {
-   "en": "The Church commemorates Pamphilus van Caesarea.",
+   "en": "The scholar-martyr, friend of Eusebius.",
    "nl": "De geleerde martelaar, vriend van Eusebius."
   }
  },
@@ -619,7 +619,7 @@
    "nl": "Theodorus de Rekrut"
   },
   "summary": {
-   "en": "The Church commemorates Theodore the Recruit.",
+   "en": "The soldier of the kolyva, a foretaste of the fast.",
    "nl": "De soldaat van de kolyva, voorsmaak van de vasten."
   }
  },
@@ -632,7 +632,7 @@
    "nl": "Leo van Rome"
   },
   "summary": {
-   "en": "The Church commemorates Leo of Rome.",
+   "en": "The great pope of Chalcedon: two natures, unconfused and undivided.",
    "nl": "De grote paus van Chalcedon: twee naturen, onvermengd, ongescheiden."
   }
  },
@@ -641,11 +641,11 @@
   "day": 19,
   "rank": "saint",
   "title": {
-   "en": "Archippus of the zeventig",
+   "en": "Archippus of the Seventy",
    "nl": "Archippus van de zeventig"
   },
   "summary": {
-   "en": "The Church commemorates Archippus of the zeventig.",
+   "en": "Paul's fellow soldier, in Colossae.",
    "nl": "Medestrijder van Paulus, in Kolosse."
   }
  },
@@ -654,11 +654,11 @@
   "day": 20,
   "rank": "saint",
   "title": {
-   "en": "Leo van Catania",
+   "en": "Leo of Catania",
    "nl": "Leo van Catania"
   },
   "summary": {
-   "en": "The Church commemorates Leo van Catania.",
+   "en": "The wonderworker who stood against the sorcerer Heliodorus.",
    "nl": "De wonderdoener tegen de tovenaar Heliodorus."
   }
  },
@@ -667,11 +667,11 @@
   "day": 21,
   "rank": "saint",
   "title": {
-   "en": "Timothy van Symbola",
+   "en": "Timothy of Symbola",
    "nl": "Timotheüs van Symbola"
   },
   "summary": {
-   "en": "The Church commemorates Timothy van Symbola.",
+   "en": "Hermit of the Bithynian mountain.",
    "nl": "Kluizenaar van de Bithynische berg."
   }
  },
@@ -684,7 +684,7 @@
    "nl": "Vinding van de martelaren te Eugenius"
   },
   "summary": {
-   "en": "The Church commemorates Finding of the martyrs at Eugenius.",
+   "en": "Relics near Constantinople, a light beneath the earth.",
    "nl": "De relieken bij Constantinopel, licht onder de aarde."
   }
  },
@@ -697,7 +697,7 @@
    "nl": "Polycarpus van Smyrna"
   },
   "summary": {
-   "en": "The Church commemorates Polycarp of Smyrna.",
+   "en": "Disciple of John. 'Eighty-six years I have served Him; how could I blaspheme Him now?'",
    "nl": "Leerling van Johannes. Zesentachtig jaar dien ik Hem, hoe zou ik Hem nu lasteren?"
   }
  },
@@ -710,7 +710,7 @@
    "nl": "Vinding van het hoofd van de Voorloper"
   },
   "summary": {
-   "en": "The Church commemorates Finding of the Head of the Forerunner.",
+   "en": "The first and second finding of the head of John.",
    "nl": "De eerste en tweede vinding van het hoofd van Johannes."
   }
  },
@@ -723,7 +723,7 @@
    "nl": "Tarasius van Constantinopel"
   },
   "summary": {
-   "en": "The Church commemorates Tarasius of Constantinople.",
+   "en": "Patriarch of the Seventh Ecumenical Council, which restored the icons.",
    "nl": "Patriarch van de zevende oecumenische synode: de ikonen terug."
   }
  },
@@ -732,11 +732,11 @@
   "day": 26,
   "rank": "saint",
   "title": {
-   "en": "Porphyrius van Gaza",
+   "en": "Porphyrius of Gaza",
    "nl": "Porphyrius van Gaza"
   },
   "summary": {
-   "en": "The Church commemorates Porphyrius van Gaza.",
+   "en": "The bishop who brought down the idols of Gaza.",
    "nl": "De bisschop die de afgoden van Gaza velde."
   }
  },
@@ -745,11 +745,11 @@
   "day": 27,
   "rank": "saint",
   "title": {
-   "en": "Procopius van Decapolis",
+   "en": "Procopius of Decapolis",
    "nl": "Procopius van Decapolis"
   },
   "summary": {
-   "en": "The Church commemorates Procopius van Decapolis.",
+   "en": "A confessor against the iconoclasts.",
    "nl": "Belijder tegen de ikonoklasten."
   }
  },
@@ -762,7 +762,7 @@
    "nl": "Basilius de Belijder"
   },
   "summary": {
-   "en": "The Church commemorates Basil the Confessor.",
+   "en": "Companion of Procopius, steadfast in the struggle over the icons.",
    "nl": "Metgezel van Procopius, standvastig in de beeldenstrijd."
   }
  },
@@ -775,7 +775,7 @@
    "nl": "Johannes Cassianus"
   },
   "summary": {
-   "en": "The Church commemorates John Cassian.",
+   "en": "The bridge between Egypt and the West: the Conferences of the Fathers.",
    "nl": "De brug tussen Egypte en het Westen; de conferenties van de vaders."
   }
  },
@@ -784,11 +784,11 @@
   "day": 1,
   "rank": "saint",
   "title": {
-   "en": "Eudocia van Heliopolis",
+   "en": "Eudocia of Heliopolis",
    "nl": "Eudocia van Heliopolis"
   },
   "summary": {
-   "en": "The Church commemorates Eudocia van Heliopolis.",
+   "en": "From sinner to martyr through a single word of a hermit.",
    "nl": "Van zondares tot martelares, door één woord van een kluizenaar."
   }
  },
@@ -797,11 +797,11 @@
   "day": 2,
   "rank": "saint",
   "title": {
-   "en": "Hesychius de martelaar",
+   "en": "Hesychius the Martyr",
    "nl": "Hesychius de martelaar"
   },
   "summary": {
-   "en": "The Church commemorates Hesychius de martelaar.",
+   "en": "A soldier who laid down his belt for Christ.",
    "nl": "Soldaat die zijn gordel aflegde voor Christus."
   }
  },
@@ -810,11 +810,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Eutropius, Cleonicus en Basiliscus",
+   "en": "Eutropius, Cleonicus and Basiliscus",
    "nl": "Eutropius, Cleonicus en Basiliscus"
   },
   "summary": {
-   "en": "The Church commemorates Eutropius, Cleonicus en Basiliscus.",
+   "en": "Three martyrs of Amasea.",
    "nl": "Drie martelaren van Amasea."
   }
  },
@@ -823,11 +823,11 @@
   "day": 4,
   "rank": "saint",
   "title": {
-   "en": "Gerasimus of the Jordaan",
+   "en": "Gerasimus of the Jordan",
    "nl": "Gerasimus van de Jordaan"
   },
   "summary": {
-   "en": "The Church commemorates Gerasimus of the Jordaan.",
+   "en": "The abbot with the lion, father of the desert of Palestine.",
    "nl": "De abt met de leeuw, vader van de woestijn van Palestina."
   }
  },
@@ -836,11 +836,11 @@
   "day": 5,
   "rank": "saint",
   "title": {
-   "en": "Conon van Isaurië",
+   "en": "Conon of Isauria",
    "nl": "Conon van Isaurië"
   },
   "summary": {
-   "en": "The Church commemorates Conon van Isaurië.",
+   "en": "A gardener and the apostle of his people.",
    "nl": "Tuinman en apostel van zijn volk."
   }
  },
@@ -853,7 +853,7 @@
    "nl": "Tweeënveertig martelaren van Amorium"
   },
   "summary": {
-   "en": "The Church commemorates Forty-two Martyrs of Amorium.",
+   "en": "Captives in the faith, unshaken until death.",
    "nl": "Gevangen in het geloof, onwrikbaar tot de dood."
   }
  },
@@ -866,7 +866,7 @@
    "nl": "Zeven bisschoppen van Chersonesus"
   },
   "summary": {
-   "en": "The Church commemorates Seven Bishops of Chersonesus.",
+   "en": "The apostles of Crimea.",
    "nl": "De apostelen van de Krim."
   }
  },
@@ -875,11 +875,11 @@
   "day": 8,
   "rank": "saint",
   "title": {
-   "en": "Theophylactus van Nicomedië",
+   "en": "Theophylactus of Nicomedia",
    "nl": "Theophylactus van Nicomedië"
   },
   "summary": {
-   "en": "The Church commemorates Theophylactus van Nicomedië.",
+   "en": "A confessor of the icons.",
    "nl": "Belijder der ikonen."
   }
  },
@@ -892,7 +892,7 @@
    "nl": "Veertig martelaren van Sebaste"
   },
   "summary": {
-   "en": "The Church commemorates Forty Martyrs of Sebaste.",
+   "en": "Forty soldiers on a frozen lake, because they would not deny Christ. The warmth of the bathhouse lured one away; the guard saw the crowns and took his place. The Church sings of them in Lent as an icon of endurance.",
    "nl": "Veertig soldaten op een bevroren meer, omdat zij Christus niet verloochenden. De warmte van het badhuis lokte één weg; de wachter zag de kronen en nam zijn plaats. De Kerk zingt hen in de vasten als icoon van de volharding."
   }
  },
@@ -901,11 +901,11 @@
   "day": 10,
   "rank": "saint",
   "title": {
-   "en": "Quadratus van Korinthe",
+   "en": "Quadratus of Corinth",
    "nl": "Quadratus van Korinthe"
   },
   "summary": {
-   "en": "The Church commemorates Quadratus van Korinthe.",
+   "en": "Apostle of the Seventy, bishop and martyr.",
    "nl": "Apostel van de zeventig, bisschop-martelaar."
   }
  },
@@ -918,7 +918,7 @@
    "nl": "Sophronius van Jeruzalem"
   },
   "summary": {
-   "en": "The Church commemorates Sophronius of Jerusalem.",
+   "en": "Patriarch of the Holy City, who wrote the life of Mary of Egypt.",
    "nl": "Patriarch van de Heilige Stad, dichter van de levens van Maria van Egypte."
   }
  },
@@ -931,7 +931,7 @@
    "nl": "Theophanes de Belijder · Gregorius Dialogos"
   },
   "summary": {
-   "en": "The Church commemorates Theophanes the Confessor · Gregory Dialogos.",
+   "en": "The chronicler of the icons, and the pope of the Dialogues.",
    "nl": "Kroniekschrijver van de ikonen, en de paus van de Dialogen."
   }
  },
@@ -944,7 +944,7 @@
    "nl": "Nicephorus van Constantinopel"
   },
   "summary": {
-   "en": "The Church commemorates Nicephorus of Constantinople.",
+   "en": "Patriarch, exiled for the sake of the holy images.",
    "nl": "Patriarch, verbannen om de heilige beelden."
   }
  },
@@ -957,7 +957,7 @@
    "nl": "Benedictus van Nursia"
   },
   "summary": {
-   "en": "The Church commemorates Benedict of Nursia.",
+   "en": "Father of Western monasticism, honoured in the East.",
    "nl": "Vader van het westerse monnikendom, geëerd in het Oosten."
   }
  },
@@ -970,7 +970,7 @@
    "nl": "Agapius en zijn gezellen"
   },
   "summary": {
-   "en": "The Church commemorates Agapius and her companions.",
+   "en": "Martyrs of Palestine under Diocletian.",
    "nl": "Martelaren van Palestina onder Diocletianus."
   }
  },
@@ -983,7 +983,7 @@
    "nl": "Sabinus van Egypte"
   },
   "summary": {
-   "en": "The Church commemorates Sabinus of Egypt.",
+   "en": "A martyr in the Nile.",
    "nl": "Martelaar in de Nijl."
   }
  },
@@ -996,7 +996,7 @@
    "nl": "Alexius, de man Gods"
   },
   "summary": {
-   "en": "The Church commemorates Alexius, the man of God.",
+   "en": "The son who died as a beggar under the stairs of his parents' house.",
    "nl": "De zoon die als bedelaar onder de trap van zijn ouderlijk huis stierf."
   }
  },
@@ -1009,7 +1009,7 @@
    "nl": "Cyrillus van Jeruzalem"
   },
   "summary": {
-   "en": "The Church commemorates Cyril of Jerusalem.",
+   "en": "The catecheses of the Holy City, the mysteries explained.",
    "nl": "De katechesen van de Heilige Stad, de mysteriën uitgelegd."
   }
  },
@@ -1018,11 +1018,11 @@
   "day": 19,
   "rank": "saint",
   "title": {
-   "en": "Chrysanthus en Daria",
+   "en": "Chrysanthus and Daria",
    "nl": "Chrysanthus en Daria"
   },
   "summary": {
-   "en": "The Church commemorates Chrysanthus en Daria.",
+   "en": "The married couple whose philosophy led them to martyrdom.",
    "nl": "Het echtpaar dat de filosofie tot martelaarschap bracht."
   }
  },
@@ -1035,7 +1035,7 @@
    "nl": "Vaders van de Laura van Sabbas"
   },
   "summary": {
-   "en": "The Church commemorates Fathers of the Lavra of Sabbas.",
+   "en": "Slain in their monastery near Jerusalem.",
    "nl": "Geslacht in hun klooster bij Jeruzalem."
   }
  },
@@ -1048,7 +1048,7 @@
    "nl": "Jakobus de Belijder"
   },
   "summary": {
-   "en": "The Church commemorates James the Confessor.",
+   "en": "A bishop who suffered for the icons.",
    "nl": "Bisschop, geleden om de ikonen."
   }
  },
@@ -1061,7 +1061,7 @@
    "nl": "Basilius van Ancyra"
   },
   "summary": {
-   "en": "The Church commemorates Basil of Ancyra.",
+   "en": "A priest-martyr against the Arians.",
    "nl": "Priester-martelaar tegen de Arianen."
   }
  },
@@ -1074,7 +1074,7 @@
    "nl": "Nikon van Sicilië"
   },
   "summary": {
-   "en": "The Church commemorates Nikon of Sicily.",
+   "en": "One hundred and ninety-nine disciples with him.",
    "nl": "Honderdnegenennegentig leerlingen met hem."
   }
  },
@@ -1087,7 +1087,7 @@
    "nl": "Voorfeest van de Annunciatie"
   },
   "summary": {
-   "en": "The Church commemorates Forefeast of the Annunciation.",
+   "en": "Creation holds its breath. Zacharias the hermit.",
    "nl": "De schepping houdt de adem in. Zacharias de kluizenaar."
   }
  },
@@ -1100,7 +1100,7 @@
    "nl": "Annunciatie"
   },
   "summary": {
-   "en": "The Church commemorates Annunciation.",
+   "en": "In the sixth month the angel Gabriel was sent. She answers: behold the handmaid of the Lord. No compulsion: the yes of one virgin is the door of the Incarnation. Today is the beginning of our salvation, the revelation of the eternal mystery.",
    "nl": "In de zesde maand werd de engel Gabriël gezonden. Zij zegt: zie, de dienstmaagd des Heeren. Geen dwang. Het ja van één maagd is de deur van de menswording. Vandaag is het begin van onze zaligheid, de openbaring van het eeuwige mysterie."
   }
  },
@@ -1113,7 +1113,7 @@
    "nl": "Synaxis van de aartsengel Gabriël"
   },
   "summary": {
-   "en": "The Church commemorates Synaxis of the Archangel Gabriel.",
+   "en": "The messenger of the Annunciation, and of all good news.",
    "nl": "De bode van de Annunciatie, en van alle blijde tijding."
   }
  },
@@ -1126,7 +1126,7 @@
    "nl": "Matrona van Thessaloniki"
   },
   "summary": {
-   "en": "The Church commemorates Matrona of Thessalonica.",
+   "en": "A servant girl, martyred by her mistress.",
    "nl": "Dienstmaagd, martelares van haar meesteres."
   }
  },
@@ -1139,7 +1139,7 @@
    "nl": "Hilarion de Nieuwe"
   },
   "summary": {
-   "en": "The Church commemorates Hilarion the New.",
+   "en": "Abbot of Pelekete, a confessor of the icons.",
    "nl": "Hegumen van Pelekete, belijder der ikonen."
   }
  },
@@ -1148,11 +1148,11 @@
   "day": 29,
   "rank": "saint",
   "title": {
-   "en": "Markus van Arethusa",
+   "en": "Mark of Arethusa",
    "nl": "Markus van Arethusa"
   },
   "summary": {
-   "en": "The Church commemorates Markus van Arethusa.",
+   "en": "A bishop tortured under Julian.",
    "nl": "Bisschop, gemarteld onder Julianus."
   }
  },
@@ -1165,7 +1165,7 @@
    "nl": "Johannes Climacus"
   },
   "summary": {
-   "en": "The Church commemorates John Climacus.",
+   "en": "John of Sinai, author of the Ladder. The Church reads him on the fourth Sunday of Lent: ascesis is not the goal, it is the ladder on which love climbs.",
    "nl": "Johannes van de Sinai, schrijver van de Ladder. De Kerk leest hem op de vierde zondag van de vasten: de ascese is geen doel, zij is de trap waarop de liefde klimt."
   }
  },
@@ -1174,11 +1174,11 @@
   "day": 31,
   "rank": "saint",
   "title": {
-   "en": "Hypatius van Gangra",
+   "en": "Hypatius of Gangra",
    "nl": "Hypatius van Gangra"
   },
   "summary": {
-   "en": "The Church commemorates Hypatius van Gangra.",
+   "en": "A bishop who died on the way back from Nicaea.",
    "nl": "Bisschop, gestorven onderweg van Nicea."
   }
  },
@@ -1191,7 +1191,7 @@
    "nl": "Maria van Egypte"
   },
   "summary": {
-   "en": "The Church commemorates Mary of Egypt.",
+   "en": "Seventeen years of sin, then the cross that held her back at the church door. The desert, Zosimas, and Communion carried across the Jordan. Her Sunday in Lent is the Church saying: no one is lost.",
    "nl": "Zeventien jaar zonde, dan het kruis dat haar tegenhield in de kerk. Zara-kruis, woestijn, Zosimas, de lepel van de communie over de Jordaan. Haar zondag in de vasten is de Kerk die zegt: niemand is verloren."
   }
  },
@@ -1200,11 +1200,11 @@
   "day": 2,
   "rank": "saint",
   "title": {
-   "en": "Titus de Wonderdoener",
+   "en": "Titus the Wonderworker",
    "nl": "Titus de Wonderdoener"
   },
   "summary": {
-   "en": "The Church commemorates Titus de Wonderdoener.",
+   "en": "A monk of gentleness, working wonders without fuss.",
    "nl": "Monnik van zachtheid, wonderen zonder ophef."
   }
  },
@@ -1213,11 +1213,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Nicétas van Medikion",
+   "en": "Nicetas of Medikion",
    "nl": "Nicétas van Medikion"
   },
   "summary": {
-   "en": "The Church commemorates Nicétas van Medikion.",
+   "en": "A confessor of the holy icons.",
    "nl": "Belijder der heilige ikonen."
   }
  },
@@ -1226,11 +1226,11 @@
   "day": 4,
   "rank": "saint",
   "title": {
-   "en": "Joseph de Hymnograaf",
+   "en": "Joseph the Hymnographer",
    "nl": "Jozef de Hymnograaf"
   },
   "summary": {
-   "en": "The Church commemorates Joseph de Hymnograaf.",
+   "en": "The hymnographer of the Church, captive of pirates, free in song.",
    "nl": "De canonist van de Kerk, gevangene van de piraten, vrij in het lied."
   }
  },
@@ -1239,11 +1239,11 @@
   "day": 5,
   "rank": "saint",
   "title": {
-   "en": "Martelaren Claudius and companions",
+   "en": "Martyrs Claudius and companions",
    "nl": "Martelaren Claudius en gezellen"
   },
   "summary": {
-   "en": "The Church commemorates Martelaren Claudius and companions.",
+   "en": "Martyrs under Diocletian.",
    "nl": "Onder Diocletianus."
   }
  },
@@ -1256,7 +1256,7 @@
    "nl": "Eutychius van Constantinopel"
   },
   "summary": {
-   "en": "The Church commemorates Eutychius of Constantinople.",
+   "en": "Patriarch, confessor of the two natures.",
    "nl": "Patriarch, belijder van de twee naturen."
   }
  },
@@ -1265,11 +1265,11 @@
   "day": 7,
   "rank": "saint",
   "title": {
-   "en": "Georgius van Mytilene",
+   "en": "George of Mytilene",
    "nl": "Georgius van Mytilene"
   },
   "summary": {
-   "en": "The Church commemorates Georgius van Mytilene.",
+   "en": "Archbishop, confessor of the icons.",
    "nl": "Aartsbisschop, belijder der ikonen."
   }
  },
@@ -1278,11 +1278,11 @@
   "day": 8,
   "rank": "saint",
   "title": {
-   "en": "Herodion of the zeventig",
+   "en": "Herodion of the Seventy",
    "nl": "Herodion van de zeventig"
   },
   "summary": {
-   "en": "The Church commemorates Herodion of the zeventig.",
+   "en": "Paul's kinsman, bishop of Patras.",
    "nl": "Bloedverwant van Paulus, bisschop van Patras."
   }
  },
@@ -1291,11 +1291,11 @@
   "day": 9,
   "rank": "saint",
   "title": {
-   "en": "Eupsychius van Caesarea",
+   "en": "Eupsychius of Caesarea",
    "nl": "Eupsychius van Caesarea"
   },
   "summary": {
-   "en": "The Church commemorates Eupsychius van Caesarea.",
+   "en": "A martyr under Julian the Apostate.",
    "nl": "Martelaar onder Julianus de Afvallige."
   }
  },
@@ -1308,7 +1308,7 @@
    "nl": "Terentius en gezellen"
   },
   "summary": {
-   "en": "The Church commemorates Terentius and companions.",
+   "en": "Martyrs of Africa.",
    "nl": "Martelaren van Afrika."
   }
  },
@@ -1317,11 +1317,11 @@
   "day": 11,
   "rank": "saint",
   "title": {
-   "en": "Antipas van Pergamum",
+   "en": "Antipas of Pergamum",
    "nl": "Antipas van Pergamum"
   },
   "summary": {
-   "en": "The Church commemorates Antipas van Pergamum.",
+   "en": "The faithful witness of Revelation 2, in the furnace.",
    "nl": "De trouwe getuige van Openbaring 2, in de oven."
   }
  },
@@ -1334,7 +1334,7 @@
    "nl": "Basilius van Parium"
   },
   "summary": {
-   "en": "The Church commemorates Basil of Parium.",
+   "en": "A confessor of the icons.",
    "nl": "Belijder der ikonen."
   }
  },
@@ -1347,7 +1347,7 @@
    "nl": "Martinus de Belijder"
   },
   "summary": {
-   "en": "The Church commemorates Martin the Confessor.",
+   "en": "Pope of Rome, who died in exile for the two wills of Christ.",
    "nl": "Paus van Rome, gestorven in ballingschap om de twee willen van Christus."
   }
  },
@@ -1356,11 +1356,11 @@
   "day": 14,
   "rank": "saint",
   "title": {
-   "en": "Aristarchus, Pudens en Trophimus",
+   "en": "Aristarchus, Pudens and Trophimus",
    "nl": "Aristarchus, Pudens en Trophimus"
   },
   "summary": {
-   "en": "The Church commemorates Aristarchus, Pudens en Trophimus.",
+   "en": "Of the Seventy, companions of Paul.",
    "nl": "Van de zeventig, metgezel van Paulus."
   }
  },
@@ -1373,7 +1373,7 @@
    "nl": "Apostelen van de zeventig"
   },
   "summary": {
-   "en": "The Church commemorates Apostles of the Seventy.",
+   "en": "Aristarchus and his brothers in the Gospel.",
    "nl": "Aristarchus en zijn broeders in het evangelie."
   }
  },
@@ -1382,11 +1382,11 @@
   "day": 16,
   "rank": "saint",
   "title": {
-   "en": "Agape, Irene en Chionia",
+   "en": "Agape, Irene and Chionia",
    "nl": "Agape, Irene en Chionia"
   },
   "summary": {
-   "en": "The Church commemorates Agape, Irene en Chionia.",
+   "en": "Three sisters, the fire of Thessalonica.",
    "nl": "Drie zusters, het vuur van Thessaloniki."
   }
  },
@@ -1399,7 +1399,7 @@
    "nl": "Simeon van Perzië"
   },
   "summary": {
-   "en": "The Church commemorates Simeon of Persia.",
+   "en": "Catholicos, martyred with hundreds of others.",
    "nl": "Katholikos, gekruisigd met honderden."
   }
  },
@@ -1408,11 +1408,11 @@
   "day": 18,
   "rank": "saint",
   "title": {
-   "en": "John, leerling van Gregorius",
+   "en": "John, disciple of Gregory",
    "nl": "Johannes, leerling van Gregorius"
   },
   "summary": {
-   "en": "The Church commemorates John, leerling van Gregorius.",
+   "en": "Of the Decapolis, a confessor.",
    "nl": "Van Decapolis, belijder."
   }
  },
@@ -1421,11 +1421,11 @@
   "day": 19,
   "rank": "saint",
   "title": {
-   "en": "John of the Oude Grotten",
+   "en": "John of the Old Caves",
    "nl": "Johannes van de Oude Grotten"
   },
   "summary": {
-   "en": "The Church commemorates John of the Oude Grotten.",
+   "en": "A hermit near the Lavra of Chariton.",
    "nl": "Kluizenaar bij de Laura van Chariton."
   }
  },
@@ -1438,7 +1438,7 @@
    "nl": "Theodorus Trichinas"
   },
   "summary": {
-   "en": "The Church commemorates Theodore Trichinas.",
+   "en": "'The hairy one', in a hair shirt until his death.",
    "nl": "De harige, in een haarhemd tot de dood."
   }
  },
@@ -1447,11 +1447,11 @@
   "day": 21,
   "rank": "saint",
   "title": {
-   "en": "Januarius van Beneventum",
+   "en": "Januarius of Beneventum",
    "nl": "Januarius van Beneventum"
   },
   "summary": {
-   "en": "The Church commemorates Januarius van Beneventum.",
+   "en": "Bishop-martyr of Naples.",
    "nl": "Bisschop-martelaar van Napels."
   }
  },
@@ -1464,7 +1464,7 @@
    "nl": "Theodorus van Sykeon"
   },
   "summary": {
-   "en": "The Church commemorates Theodore of Sykeon.",
+   "en": "Wonderworker of Galatia, a bishop against his will.",
    "nl": "Wonderdoener van Galatië, bisschop tegen zijn zin."
   }
  },
@@ -1477,7 +1477,7 @@
    "nl": "Joris de Trofeedrager"
   },
   "summary": {
-   "en": "The Church commemorates George the Trophy-bearer.",
+   "en": "George the Trophy-bearer. Not a fairy tale: a soldier who confesses Christ before the emperor. The Church honours him from Palestine to Russia. He is the knight of Pascha: the dragon underfoot, the maiden, the soul, set free.",
    "nl": "Georgios, de tropaiophoros. Niet een sprookje: een soldaat die Christus belijdt voor de keizer. De Kerk eert hem van Palestina tot Rusland. Hij is de ridder van Pasen: de draak onder de voet, de maagd — de ziel — bevrijd."
   }
  },
@@ -1486,11 +1486,11 @@
   "day": 24,
   "rank": "saint",
   "title": {
-   "en": "Sabbas de Stratelates",
+   "en": "Sabbas the Stratelates",
    "nl": "Sabbas de Stratelates"
   },
   "summary": {
-   "en": "The Church commemorates Sabbas de Stratelates.",
+   "en": "A general and martyr under Aurelian.",
    "nl": "Generaal-martelaar onder Aurelianus."
   }
  },
@@ -1503,7 +1503,7 @@
    "nl": "Markus de Evangelist"
   },
   "summary": {
-   "en": "The Church commemorates Mark the Evangelist.",
+   "en": "The interpreter of Peter, the lion of Alexandria.",
    "nl": "De tolk van Petrus, de leeuw van Alexandrië."
   }
  },
@@ -1516,7 +1516,7 @@
    "nl": "Basilius van Amasea"
   },
   "summary": {
-   "en": "The Church commemorates Basil of Amasea.",
+   "en": "A bishop-martyr under Licinius.",
    "nl": "Bisschop-martelaar onder Licinius."
   }
  },
@@ -1529,7 +1529,7 @@
    "nl": "Simeon, broeder des Heeren"
   },
   "summary": {
-   "en": "The Church commemorates Simeon, Brother of the Lord.",
+   "en": "Second bishop of Jerusalem, crucified at the age of one hundred and twenty.",
    "nl": "Tweede bisschop van Jeruzalem, gekruisigd op honderdtwintigjarige leeftijd."
   }
  },
@@ -1542,7 +1542,7 @@
    "nl": "Negen martelaren van Cyzicus"
   },
   "summary": {
-   "en": "The Church commemorates Nine Martyrs of Cyzicus.",
+   "en": "The faith of one city.",
    "nl": "Het geloof van één stad."
   }
  },
@@ -1551,11 +1551,11 @@
   "day": 29,
   "rank": "saint",
   "title": {
-   "en": "Jason en Sosipater",
+   "en": "Jason and Sosipater",
    "nl": "Jason en Sosipater"
   },
   "summary": {
-   "en": "The Church commemorates Jason en Sosipater.",
+   "en": "Of the Seventy, apostles of Corfu.",
    "nl": "Van de zeventig, apostelen van Korfoe."
   }
  },
@@ -1568,7 +1568,7 @@
    "nl": "Jakobus, zoon van Zebedeüs"
   },
   "summary": {
-   "en": "The Church commemorates James, son of Zebedee.",
+   "en": "The first apostle to face the sword of Herod.",
    "nl": "De eerste apostel die het zwaard van Herodes zag."
   }
  },
@@ -1577,11 +1577,11 @@
   "day": 1,
   "rank": "saint",
   "title": {
-   "en": "Prophet Jeremiahh",
+   "en": "Prophet Jeremiah",
    "nl": "Profeet Jeremia"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Jeremiahh.",
+   "en": "The weeping prophet, the covenant written on the heart.",
    "nl": "De wenende profeet, het verbond in het hart."
   }
  },
@@ -1594,7 +1594,7 @@
    "nl": "Athanasius de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Athanasius the Great.",
+   "en": "The translation of his relics. Against the world, for the homoousios.",
    "nl": "Overbrenging van zijn relieken. Tegen de wereld, voor de homoousios."
   }
  },
@@ -1603,11 +1603,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Timothy en Maura",
+   "en": "Timothy and Maura",
    "nl": "Timotheüs en Maura"
   },
   "summary": {
-   "en": "The Church commemorates Timothy en Maura.",
+   "en": "The young married couple, crucified together.",
    "nl": "Het jonge echtpaar, gekruisigd samen."
   }
  },
@@ -1616,11 +1616,11 @@
   "day": 4,
   "rank": "saint",
   "title": {
-   "en": "Pelagia van Tarsus",
+   "en": "Pelagia of Tarsus",
    "nl": "Pelagia van Tarsus"
   },
   "summary": {
-   "en": "The Church commemorates Pelagia van Tarsus.",
+   "en": "A bride of Christ, in the bronze bull.",
    "nl": "Bruid van Christus, in de stier van brons."
   }
  },
@@ -1633,7 +1633,7 @@
    "nl": "Irene van Thessaloniki"
   },
   "summary": {
-   "en": "The Church commemorates Irene of Thessalonica.",
+   "en": "The great martyr of peace.",
    "nl": "De grote martelares van de vrede."
   }
  },
@@ -1646,7 +1646,7 @@
    "nl": "Job de Lijdzame"
   },
   "summary": {
-   "en": "The Church commemorates Job the Long-suffering.",
+   "en": "The righteous man of Uz, an icon of Great Friday.",
    "nl": "De rechtvaardige van Uz, icoon van Goede Vrijdag."
   }
  },
@@ -1659,7 +1659,7 @@
    "nl": "Verschijning van het Kruis te Jeruzalem"
   },
   "summary": {
-   "en": "The Church commemorates Appearance of the Cross in Jerusalem.",
+   "en": "The cross of light above Golgotha in 351.",
    "nl": "Het lichtkruis boven de Golgotha, 351."
   }
  },
@@ -1672,7 +1672,7 @@
    "nl": "Johannes de Theoloog"
   },
   "summary": {
-   "en": "The Church commemorates John the Theologian.",
+   "en": "The beloved disciple, all the way to Ephesus. In the beginning was the Word.",
    "nl": "De geliefde leerling, tot in Efeze. In den beginne was het Woord."
   }
  },
@@ -1685,7 +1685,7 @@
    "nl": "Profeet Jesaja · Christophorus"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Isaiah · Christophorus.",
+   "en": "The evangelist among the prophets, and the Christ-bearer.",
    "nl": "De evangelist onder de profeten, en de christusdrager."
   }
  },
@@ -1698,7 +1698,7 @@
    "nl": "Simon de Zeloot"
   },
   "summary": {
-   "en": "The Church commemorates Simon the Zealot.",
+   "en": "The apostle of zeal, unto the cross.",
    "nl": "De apostel van de ijver, tot het kruis."
   }
  },
@@ -1711,7 +1711,7 @@
    "nl": "Cyrillus en Methodius"
   },
   "summary": {
-   "en": "The Church commemorates Cyril and Methodius.",
+   "en": "Equal to the apostles, teachers of the Slavs.",
    "nl": "Gelijken der apostelen, leraars van de Slaven."
   }
  },
@@ -1720,11 +1720,11 @@
   "day": 12,
   "rank": "saint",
   "title": {
-   "en": "Epiphanius van Cyprus · Germanus",
+   "en": "Epiphanius of Cyprus · Germanus",
    "nl": "Epiphanius van Cyprus · Germanus"
   },
   "summary": {
-   "en": "The Church commemorates Epiphanius van Cyprus · Germanus.",
+   "en": "The anchor of Orthodoxy, and the patriarch of the icons.",
    "nl": "De anker van de orthodoxie, en de patriarch van de ikonen."
   }
  },
@@ -1737,7 +1737,7 @@
    "nl": "Glyceria"
   },
   "summary": {
-   "en": "The Church commemorates Glyceria.",
+   "en": "Martyr of Heraclea, before whom the stone gods fell.",
    "nl": "Martelares van Heraclea, de stenen goden vielen."
   }
  },
@@ -1746,11 +1746,11 @@
   "day": 14,
   "rank": "saint",
   "title": {
-   "en": "Isidorus van Chios",
+   "en": "Isidorus of Chios",
    "nl": "Isidorus van Chios"
   },
   "summary": {
-   "en": "The Church commemorates Isidorus van Chios.",
+   "en": "Soldier-martyr of the island.",
    "nl": "Soldaat-martelaar van het eiland."
   }
  },
@@ -1763,7 +1763,7 @@
    "nl": "Pachomius de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Pachomius the Great.",
+   "en": "Father of the common monastic life in Egypt.",
    "nl": "Vader van het cenobitische leven in Egypte."
   }
  },
@@ -1776,7 +1776,7 @@
    "nl": "Theodorus de Geheiligde"
   },
   "summary": {
-   "en": "The Church commemorates Theodore the Sanctified.",
+   "en": "Disciple of Pachomius and his second successor.",
    "nl": "Leerling van Pachomius, tweede abt."
   }
  },
@@ -1785,11 +1785,11 @@
   "day": 17,
   "rank": "saint",
   "title": {
-   "en": "Andronicus en Junia",
+   "en": "Andronicus and Junia",
    "nl": "Andronicus en Junia"
   },
   "summary": {
-   "en": "The Church commemorates Andronicus en Junia.",
+   "en": "Of the Seventy, well known among the apostles.",
    "nl": "Van de zeventig, vermaard onder de apostelen."
   }
  },
@@ -1798,11 +1798,11 @@
   "day": 18,
   "rank": "saint",
   "title": {
-   "en": "Theodotus van Ancyra",
+   "en": "Theodotus of Ancyra",
    "nl": "Theodotus van Ancyra"
   },
   "summary": {
-   "en": "The Church commemorates Theodotus van Ancyra.",
+   "en": "An innkeeper and martyr, who saved the relics of the seven virgins.",
    "nl": "Herbergier, martelaar, berging van de relieken der zeven maagden."
   }
  },
@@ -1811,11 +1811,11 @@
   "day": 19,
   "rank": "saint",
   "title": {
-   "en": "Patrick van Prusa",
+   "en": "Patrick of Prusa",
    "nl": "Patrick van Prusa"
   },
   "summary": {
-   "en": "The Church commemorates Patrick van Prusa.",
+   "en": "A bishop-martyr in the hot springs.",
    "nl": "Bisschop-martelaar in de hete bronnen."
   }
  },
@@ -1828,7 +1828,7 @@
    "nl": "Thalelaeus"
   },
   "summary": {
-   "en": "The Church commemorates Thalelaeus.",
+   "en": "The unmercenary physician of Cilicia.",
    "nl": "De onbaatzuchtige arts van Cilicië."
   }
  },
@@ -1841,7 +1841,7 @@
    "nl": "Constantijn en Helena"
   },
   "summary": {
-   "en": "The Church commemorates Constantine and Helen.",
+   "en": "Helena finds the true Cross. Constantine sees the sign in the sky. Not the glorification of power, but the conversion of power: the cross becomes the labarum, the city becomes New Rome.",
    "nl": "Helena vindt het ware kruis. Constantijn ziet het teken in de hemel. Niet de verheerlijking van de macht: de bekering van de macht. Het kruis wordt tot labarum, de stad tot Nieuw Rome."
   }
  },
@@ -1854,7 +1854,7 @@
    "nl": "Basiliscus"
   },
   "summary": {
-   "en": "The Church commemorates Basiliscus.",
+   "en": "Martyr of Comana, nephew of Theodore the Recruit.",
    "nl": "Martelaar van Comana, neef van Theodorus de Rekrut."
   }
  },
@@ -1863,11 +1863,11 @@
   "day": 23,
   "rank": "saint",
   "title": {
-   "en": "Micahël van Synnada",
+   "en": "Michael of Synnada",
    "nl": "Michaël van Synnada"
   },
   "summary": {
-   "en": "The Church commemorates Micahël van Synnada.",
+   "en": "A confessor of the icons.",
    "nl": "Belijder der ikonen."
   }
  },
@@ -1880,7 +1880,7 @@
    "nl": "Simeon van de Wonderbare Berg"
   },
   "summary": {
-   "en": "The Church commemorates Simeon of the Wonderful Mountain.",
+   "en": "A stylite, from his childhood on the pillar.",
    "nl": "Styliet, kleinzoon van de eerste Simeon."
   }
  },
@@ -1893,7 +1893,7 @@
    "nl": "Derde vinding van het hoofd van de Voorloper"
   },
   "summary": {
-   "en": "The Church commemorates Third finding of the Head of the Forerunner.",
+   "en": "Again the head of John, a light in the darkness.",
    "nl": "Opnieuw het hoofd van Johannes, licht in de duisternis."
   }
  },
@@ -1902,11 +1902,11 @@
   "day": 26,
   "rank": "saint",
   "title": {
-   "en": "Carpus of the zeventig",
+   "en": "Carpus of the Seventy",
    "nl": "Carpus van de zeventig"
   },
   "summary": {
-   "en": "The Church commemorates Carpus of the zeventig.",
+   "en": "Bishop of Berea, companion of Paul.",
    "nl": "Bisschop van Beröa, metgezel van Paulus."
   }
  },
@@ -1919,7 +1919,7 @@
    "nl": "Johannes de Rus"
   },
   "summary": {
-   "en": "The Church commemorates John the Russian.",
+   "en": "A confessor in captivity, the saint of Euboea.",
    "nl": "Belijder in gevangenschap, de heilige van Euboia."
   }
  },
@@ -1928,11 +1928,11 @@
   "day": 28,
   "rank": "saint",
   "title": {
-   "en": "Eutychius van Melitene",
+   "en": "Eutychius of Melitene",
    "nl": "Eutychius van Melitene"
   },
   "summary": {
-   "en": "The Church commemorates Eutychius van Melitene.",
+   "en": "Bishop and martyr.",
    "nl": "Bisschop-martelaar."
   }
  },
@@ -1941,11 +1941,11 @@
   "day": 29,
   "rank": "saint",
   "title": {
-   "en": "Theodosia van Tyrus",
+   "en": "Theodosia of Tyrus",
    "nl": "Theodosia van Tyrus"
   },
   "summary": {
-   "en": "The Church commemorates Theodosia van Tyrus.",
+   "en": "A virgin-martyr of Lent.",
    "nl": "Maagd-martelares van de vasten."
   }
  },
@@ -1954,11 +1954,11 @@
   "day": 30,
   "rank": "saint",
   "title": {
-   "en": "Isaäc van Dalmatou",
+   "en": "Isaac of Dalmatou",
    "nl": "Isaäc van Dalmatou"
   },
   "summary": {
-   "en": "The Church commemorates Isaäc van Dalmatou.",
+   "en": "He stood against Valens the Arian at the city gate.",
    "nl": "Hij weerstond Valens de Ariaan aan de poort."
   }
  },
@@ -1971,7 +1971,7 @@
    "nl": "Hermias"
   },
   "summary": {
-   "en": "The Church commemorates Hermias.",
+   "en": "Soldier-martyr of Comana.",
    "nl": "Soldaat-martelaar van Comana."
   }
  },
@@ -1984,7 +1984,7 @@
    "nl": "Justinus de Filosoof"
   },
   "summary": {
-   "en": "The Church commemorates Justin the Philosopher.",
+   "en": "The apology to the emperor; the martyr of the Logos.",
    "nl": "De apologie tot de keizer, de martelaar van de Logos."
   }
  },
@@ -1997,7 +1997,7 @@
    "nl": "Nicephorus van Constantinopel"
   },
   "summary": {
-   "en": "The Church commemorates Nicephorus of Constantinople.",
+   "en": "The translation of the relics of the patriarch and confessor.",
    "nl": "Overbrenging van de relieken van de patriarch-belijder."
   }
  },
@@ -2006,11 +2006,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Lucillianus en Paula",
+   "en": "Lucillianus and Paula",
    "nl": "Lucillianus en Paula"
   },
   "summary": {
-   "en": "The Church commemorates Lucillianus en Paula.",
+   "en": "The old priest of the idols, converted, with the child Paula.",
    "nl": "De oude priester van de afgoden, bekeerd, met het kind Paula."
   }
  },
@@ -2023,7 +2023,7 @@
    "nl": "Metrophanes van Constantinopel"
   },
   "summary": {
-   "en": "The Church commemorates Metrophanes of Constantinople.",
+   "en": "First bishop of the city of Constantinople, under Constantine.",
    "nl": "Eerste patriarch van de Stad, onder Constantijn."
   }
  },
@@ -2032,11 +2032,11 @@
   "day": 5,
   "rank": "saint",
   "title": {
-   "en": "Dorotheüs van Tyrus",
+   "en": "Dorotheus of Tyrus",
    "nl": "Dorotheüs van Tyrus"
   },
   "summary": {
-   "en": "The Church commemorates Dorotheüs van Tyrus.",
+   "en": "Bishop, martyred at the age of one hundred and seven.",
    "nl": "Bisschop, martelaar op honderdzevenjarige leeftijd."
   }
  },
@@ -2049,7 +2049,7 @@
    "nl": "Bessarion · Hilarion"
   },
   "summary": {
-   "en": "The Church commemorates Bessarion · Hilarion.",
+   "en": "The wonderworker of Egypt, and the abbot of Dalmatou.",
    "nl": "De wonderdoener van Egypte, en de hegumen van Dalmatou."
   }
  },
@@ -2058,11 +2058,11 @@
   "day": 7,
   "rank": "saint",
   "title": {
-   "en": "Theodotus van Ancyra",
+   "en": "Theodotus of Ancyra",
    "nl": "Theodotus van Ancyra"
   },
   "summary": {
-   "en": "The Church commemorates Theodotus van Ancyra.",
+   "en": "Martyr of Galatia.",
    "nl": "Martelaar van Galatië."
   }
  },
@@ -2075,7 +2075,7 @@
    "nl": "Overbrenging van Theodorus de Stratelates"
   },
   "summary": {
-   "en": "The Church commemorates Translation of Theodore the Stratelates.",
+   "en": "His relics brought to Euchaita.",
    "nl": "Zijn relieken naar Euchaita."
   }
  },
@@ -2088,7 +2088,7 @@
    "nl": "Cyrillus van Alexandrië"
   },
   "summary": {
-   "en": "The Church commemorates Cyril of Alexandria.",
+   "en": "Defender of the Mother of God at Ephesus. One incarnate Word.",
    "nl": "De Theotokos verdedigd te Efeze. Eén geïncarneerd Woord."
   }
  },
@@ -2097,11 +2097,11 @@
   "day": 10,
   "rank": "saint",
   "title": {
-   "en": "Alexander en Antonina",
+   "en": "Alexander and Antonina",
    "nl": "Alexander en Antonina"
   },
   "summary": {
-   "en": "The Church commemorates Alexander en Antonina.",
+   "en": "The soldier and the virgin, together in the pit.",
    "nl": "De soldaat en de maagd, samen in de kuil."
   }
  },
@@ -2110,11 +2110,11 @@
   "day": 11,
   "rank": "major",
   "title": {
-   "en": "Bartholomew en Barnabas",
+   "en": "Bartholomew and Barnabas",
    "nl": "Bartolomeüs en Barnabas"
   },
   "summary": {
-   "en": "The Church commemorates Bartholomew en Barnabas.",
+   "en": "Two apostles, one day. The Israelite without guile, and the son of consolation.",
    "nl": "Twee apostelen, één dag. De Israëliet zonder bedrog, en de zoon der vertroosting."
   }
  },
@@ -2127,7 +2127,7 @@
    "nl": "Onuphrius de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Onuphrius the Great.",
+   "en": "The hermit clothed only in his hair, found by Paphnutius.",
    "nl": "De kluizenaar met het haar tot kleed, ontmoet door Paphnutius."
   }
  },
@@ -2136,11 +2136,11 @@
   "day": 13,
   "rank": "saint",
   "title": {
-   "en": "Acacius van Sinaï",
+   "en": "Acacius of Sinai",
    "nl": "Acacius van Sinaï"
   },
   "summary": {
-   "en": "The Church commemorates Acacius van Sinaï.",
+   "en": "The obedient novice, obedient even after his death.",
    "nl": "De gehoorzame novice, na zijn dood nog gehoorzaam."
   }
  },
@@ -2153,7 +2153,7 @@
    "nl": "Profeet Elisa · Methodius"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Elisha · Methodius.",
+   "en": "The double spirit of Elijah, and the patriarch of the icons.",
    "nl": "De dubbele geest van Elia, en de patriarch van de ikonen."
   }
  },
@@ -2166,7 +2166,7 @@
    "nl": "Profeet Amos"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Amos.",
+   "en": "The shepherd of Tekoa: let justice roll down like waters.",
    "nl": "De herder van Tekoa, gerechtigheid als waterstroom."
   }
  },
@@ -2175,11 +2175,11 @@
   "day": 16,
   "rank": "saint",
   "title": {
-   "en": "Tychon van Amathus",
+   "en": "Tychon of Amathus",
    "nl": "Tychon van Amathus"
   },
   "summary": {
-   "en": "The Church commemorates Tychon van Amathus.",
+   "en": "Bishop of Cyprus, the vine that bore fruit in winter.",
    "nl": "Bisschop van Cyprus, de wijnstok die in de winter droeg."
   }
  },
@@ -2188,11 +2188,11 @@
   "day": 17,
   "rank": "saint",
   "title": {
-   "en": "Manuel, Sabel en Ismaël",
+   "en": "Manuel, Sabel and Ismael",
    "nl": "Manuel, Sabel en Ismaël"
   },
   "summary": {
-   "en": "The Church commemorates Manuel, Sabel en Ismaël.",
+   "en": "Persian envoys, martyred in Constantinople.",
    "nl": "Perzische gezanten, martelaren te Constantinopel."
   }
  },
@@ -2201,11 +2201,11 @@
   "day": 18,
   "rank": "saint",
   "title": {
-   "en": "Leontius van Tripoli",
+   "en": "Leontius of Tripoli",
    "nl": "Leontius van Tripoli"
   },
   "summary": {
-   "en": "The Church commemorates Leontius van Tripoli.",
+   "en": "Soldier-martyr of Phoenicia.",
    "nl": "Soldaat-martelaar van Fenicië."
   }
  },
@@ -2218,7 +2218,7 @@
    "nl": "Apostel Judas"
   },
   "summary": {
-   "en": "The Church commemorates Apostle Jude.",
+   "en": "The brother of the Lord, not the betrayer. Contend for the faith.",
    "nl": "De broeder des Heeren, niet de verrader. Strijdt voor het geloof."
   }
  },
@@ -2227,11 +2227,11 @@
   "day": 20,
   "rank": "saint",
   "title": {
-   "en": "Methodius van Patara",
+   "en": "Methodius of Patara",
    "nl": "Methodius van Patara"
   },
   "summary": {
-   "en": "The Church commemorates Methodius van Patara.",
+   "en": "Bishop and martyr; on virginity and the resurrection.",
    "nl": "Bisschop-martelaar, de maagdelijkheid en de opstanding."
   }
  },
@@ -2240,11 +2240,11 @@
   "day": 21,
   "rank": "saint",
   "title": {
-   "en": "Julianus van Tarsus",
+   "en": "Julianus of Tarsus",
    "nl": "Julianus van Tarsus"
   },
   "summary": {
-   "en": "The Church commemorates Julianus van Tarsus.",
+   "en": "A martyr thrown into the sea in a sack full of snakes.",
    "nl": "Martelaar in een zak vol slangen, in de zee."
   }
  },
@@ -2253,11 +2253,11 @@
   "day": 22,
   "rank": "saint",
   "title": {
-   "en": "Eusebius van Samosata",
+   "en": "Eusebius of Samosata",
    "nl": "Eusebius van Samosata"
   },
   "summary": {
-   "en": "The Church commemorates Eusebius van Samosata.",
+   "en": "Bishop and confessor against the Arians.",
    "nl": "Bisschop, belijder tegen de Arianen."
   }
  },
@@ -2270,7 +2270,7 @@
    "nl": "Agrippina van Rome"
   },
   "summary": {
-   "en": "The Church commemorates Agrippina of Rome.",
+   "en": "Virgin-martyr.",
    "nl": "Maagd-martelares."
   }
  },
@@ -2283,7 +2283,7 @@
    "nl": "Geboorte van Johannes de Doper"
   },
   "summary": {
-   "en": "The Church commemorates Nativity of John the Baptist.",
+   "en": "Six months before the Nativity of Christ, the barren woman gives birth. The greatest of those born of women, and yet the least in the Kingdom is greater than he, because he points to the Bridegroom and himself decreases.",
    "nl": "Zes maanden voor de Geboorte van Christus. De onvruchtbare baart. De grootste onder de uit vrouwen geborenen, en de minste in het Koninkrijk is groter dan hij — omdat hij de Bruidegom aanwijst en zelf afneemt."
   }
  },
@@ -2292,11 +2292,11 @@
   "day": 25,
   "rank": "saint",
   "title": {
-   "en": "Febronia van Nisibis",
+   "en": "Febronia of Nisibis",
    "nl": "Febronia van Nisibis"
   },
   "summary": {
-   "en": "The Church commemorates Febronia van Nisibis.",
+   "en": "Virgin-martyr of the convent.",
    "nl": "Maagd-martelares van het klooster."
   }
  },
@@ -2309,7 +2309,7 @@
    "nl": "David van Thessaloniki"
   },
   "summary": {
-   "en": "The Church commemorates David of Thessalonica.",
+   "en": "The tree-hermit, three years in an almond tree.",
    "nl": "De boomkluizenaar, drie jaar in een amandelboom."
   }
  },
@@ -2322,7 +2322,7 @@
    "nl": "Sampson de Hospitaalvader"
   },
   "summary": {
-   "en": "The Church commemorates Sampson the Hospitable.",
+   "en": "Physician of Constantinople, the hostel for the poor.",
    "nl": "Arts van Constantinopel, de herberg voor de armen."
   }
  },
@@ -2335,7 +2335,7 @@
    "nl": "Overbrenging van Cyrus en Johannes"
   },
   "summary": {
-   "en": "The Church commemorates Translation of Cyrus and John.",
+   "en": "The unmercenary physicians brought to Menouthis.",
    "nl": "De onbaatzuchtige artsen naar Menouthis."
   }
  },
@@ -2348,7 +2348,7 @@
    "nl": "Petrus en Paulus"
   },
   "summary": {
-   "en": "The Church commemorates Peter and Paul.",
+   "en": "The fisher of men and the apostle of the Gentiles. Peter, who denied three times and loved three times; Paul, who persecuted and then laboured more than all. Together in Rome, together in the crown. The end of the Apostles' Fast.",
    "nl": "De visvangst van de mensen en de apostel der heidenen. Petrus, die drie maal verloochende en drie maal liefhad. Paulus, die vervolgde en toen meer arbeide dan allen. Samen te Rome, samen in de kroon. Het einde van de apostelenvasten."
   }
  },
@@ -2361,7 +2361,7 @@
    "nl": "Synaxis van de twaalf apostelen"
   },
   "summary": {
-   "en": "The Church commemorates Synaxis of the Twelve Apostles.",
+   "en": "The twelve thrones, the foundation of the Church.",
    "nl": "De twaalf tronen, het fundament van de Kerk."
   }
  },
@@ -2370,11 +2370,11 @@
   "day": 1,
   "rank": "saint",
   "title": {
-   "en": "Cosmas en Damianus of Rome",
+   "en": "Cosmas and Damian of Rome",
    "nl": "Cosmas en Damianus van Rome"
   },
   "summary": {
-   "en": "The Church commemorates Cosmas en Damianus of Rome.",
+   "en": "The unmercenary physicians of the West.",
    "nl": "De onbaatzuchtige artsen van het Westen."
   }
  },
@@ -2387,7 +2387,7 @@
    "nl": "Nederlegging van het kleed der Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Deposition of the Robe of the Theotokos.",
+   "en": "Her veil (maphorion) in Blachernae, the protection of the city.",
    "nl": "Haar maphorion in de Blachernen, hoede over de Stad."
   }
  },
@@ -2396,11 +2396,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Hyacinthus van Caesarea",
+   "en": "Hyacinthus of Caesarea",
    "nl": "Hyacinthus van Caesarea"
   },
   "summary": {
-   "en": "The Church commemorates Hyacinthus van Caesarea.",
+   "en": "A chamberlain, starved to death because he would not sacrifice.",
    "nl": "Kamerheer, uitgehongerd omdat hij niet offerde."
   }
  },
@@ -2413,7 +2413,7 @@
    "nl": "Andreas van Kreta"
   },
   "summary": {
-   "en": "The Church commemorates Andrew of Crete.",
+   "en": "The Great Canon of Lent: repentance in two hundred and fifty troparia.",
    "nl": "De grote canon van de vasten, de bekering in honderdvijftig troparia."
   }
  },
@@ -2426,7 +2426,7 @@
    "nl": "Athanasius van Athos"
   },
   "summary": {
-   "en": "The Church commemorates Athanasius of Athos.",
+   "en": "Founder of the Great Lavra, father of the Holy Mountain.",
    "nl": "Stichter van de Grote Laura, vader van de Heilige Berg."
   }
  },
@@ -2439,7 +2439,7 @@
    "nl": "Sisoës de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Sisoes the Great.",
+   "en": "Before the bones of Alexander: death has stripped the king.",
    "nl": "Voor het gebeente van Alexander: de dood heeft de koning ontkleed."
   }
  },
@@ -2452,7 +2452,7 @@
    "nl": "Kyriake"
   },
   "summary": {
-   "en": "The Church commemorates Kyriake.",
+   "en": "The Sunday-born martyr.",
    "nl": "De zondagskind-martelares, Marinas genoemd in het volk."
   }
  },
@@ -2461,11 +2461,11 @@
   "day": 8,
   "rank": "saint",
   "title": {
-   "en": "Procopius van Caesarea",
+   "en": "Procopius of Caesarea",
    "nl": "Procopius van Caesarea"
   },
   "summary": {
-   "en": "The Church commemorates Procopius van Caesarea.",
+   "en": "The great martyr, from persecutor to confessor.",
    "nl": "De grote martelaar, van vervolger tot belijder."
   }
  },
@@ -2474,11 +2474,11 @@
   "day": 9,
   "rank": "saint",
   "title": {
-   "en": "Pancratius van Taormina",
+   "en": "Pancratius of Taormina",
    "nl": "Pancratius van Taormina"
   },
   "summary": {
-   "en": "The Church commemorates Pancratius van Taormina.",
+   "en": "Disciple of Peter, bishop-martyr of Sicily.",
    "nl": "Leerling van Petrus, bisschop-martelaar van Sicilië."
   }
  },
@@ -2491,7 +2491,7 @@
    "nl": "Vijfenveertig martelaren van Nicopolis"
   },
   "summary": {
-   "en": "The Church commemorates Forty-five Martyrs of Nicopolis.",
+   "en": "In Armenia, under Licinius.",
    "nl": "In Armenië, onder Licinius."
   }
  },
@@ -2504,7 +2504,7 @@
    "nl": "Euphemia de Alom geprezene"
   },
   "summary": {
-   "en": "The Church commemorates Euphemia the All-praised.",
+   "en": "The Tome of Chalcedon was found in her hands in her tomb.",
    "nl": "Zij koos het tomos van Chalcedon in haar graf."
   }
  },
@@ -2513,11 +2513,11 @@
   "day": 12,
   "rank": "saint",
   "title": {
-   "en": "Proclus en Hilarius",
+   "en": "Proclus and Hilarius",
    "nl": "Proclus en Hilarius"
   },
   "summary": {
-   "en": "The Church commemorates Proclus en Hilarius.",
+   "en": "Martyrs of Ancyra.",
    "nl": "Martelaren van Ancyra."
   }
  },
@@ -2530,7 +2530,7 @@
    "nl": "Synaxis van Gabriël"
   },
   "summary": {
-   "en": "The Church commemorates Synaxis of Gabriel.",
+   "en": "The archangel's second feast of the year.",
    "nl": "De aartsengel, tweede feest in het jaar."
   }
  },
@@ -2539,11 +2539,11 @@
   "day": 14,
   "rank": "saint",
   "title": {
-   "en": "Aquila of the zeventig",
+   "en": "Aquila of the Seventy",
    "nl": "Aquila van de zeventig"
   },
   "summary": {
-   "en": "The Church commemorates Aquila of the zeventig.",
+   "en": "With Priscilla: tentmakers, with a church in their house.",
    "nl": "Met Priscilla, tentenmakers en kerk in hun huis."
   }
  },
@@ -2556,7 +2556,7 @@
    "nl": "Vladimir, gelijke der apostelen"
   },
   "summary": {
-   "en": "The Church commemorates Vladimir, equal to the apostles.",
+   "en": "The baptism of the Rus'.",
    "nl": "Het doopsel van het Rusland. Kyrikos en Julitta."
   }
  },
@@ -2569,7 +2569,7 @@
    "nl": "Athenogenes"
   },
   "summary": {
-   "en": "The Church commemorates Athenogenes.",
+   "en": "Bishop-martyr; the hymn of the evening light.",
    "nl": "Bisschop-martelaar, het danklied van het avondlicht."
   }
  },
@@ -2582,7 +2582,7 @@
    "nl": "Marina van Antiochië"
   },
   "summary": {
-   "en": "The Church commemorates Marina of Antioch.",
+   "en": "The great martyr who overcame the dragon of hell.",
    "nl": "De grote martelares die de draak van de hel versloeg."
   }
  },
@@ -2591,11 +2591,11 @@
   "day": 18,
   "rank": "saint",
   "title": {
-   "en": "Emilianus van Dorostolum",
+   "en": "Emilianus of Dorostolum",
    "nl": "Emilianus van Dorostolum"
   },
   "summary": {
-   "en": "The Church commemorates Emilianus van Dorostolum.",
+   "en": "The young man who burned the idols.",
    "nl": "De jongen die de afgoden verbrandde."
   }
  },
@@ -2608,7 +2608,7 @@
    "nl": "Macrina · Serafim van Sarov"
   },
   "summary": {
-   "en": "The Church commemorates Macrina · Seraphim of Sarov.",
+   "en": "Macrina, teacher of her brothers, the Cappadocians. And Seraphim: 'My joy, Christ is risen! Acquire the Spirit of peace, and thousands around you will be saved.'",
    "nl": "Macrina, lerares van haar broers de Cappadociërs. En Serafim: mijn vreugde, Christus is opgestaan. Verwerf de Geest des vredes, en duizenden rondom u zullen behouden worden."
   }
  },
@@ -2621,7 +2621,7 @@
    "nl": "Profeet Elia"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Elijah.",
+   "en": "Zeal for the Lord. Carmel, the brook Cherith, the widow of Zarephath, Horeb, the still small voice. He went up in fire. The Church honours him as the living one who stood with Moses on Tabor and who will come before the day of the Lord.",
    "nl": "Ijver voor de HEERE. Karmel, de beek Krith, de weduwe van Sarepta, Horeb, de fluistering. Hij voer op in vuur. De Kerk eert hem als de levende, die met Mozes op Tabor stond, en die voor de dag des Heeren zal komen."
   }
  },
@@ -2630,11 +2630,11 @@
   "day": 21,
   "rank": "saint",
   "title": {
-   "en": "Simeon van Emesa en John",
+   "en": "Simeon of Emesa and John",
    "nl": "Simeon van Emesa en Johannes"
   },
   "summary": {
-   "en": "The Church commemorates Simeon van Emesa en John.",
+   "en": "The fool for Christ and his companion in the desert.",
    "nl": "De dwaas-om-Christus en zijn metgezel in de woestijn."
   }
  },
@@ -2647,7 +2647,7 @@
    "nl": "Maria Magdalena"
   },
   "summary": {
-   "en": "The Church commemorates Mary Magdalene.",
+   "en": "Equal to the apostles. The first witness of the Resurrection.",
    "nl": "Gelijke der apostelen. De eerste getuige van de opstanding."
   }
  },
@@ -2656,11 +2656,11 @@
   "day": 23,
   "rank": "saint",
   "title": {
-   "en": "Trophimus en Theophilus",
+   "en": "Trophimus and Theophilus",
    "nl": "Trophimus en Theophilus"
   },
   "summary": {
-   "en": "The Church commemorates Trophimus en Theophilus.",
+   "en": "Martyrs under Diocletian.",
    "nl": "Martelaren onder Diocletianus."
   }
  },
@@ -2669,11 +2669,11 @@
   "day": 24,
   "rank": "saint",
   "title": {
-   "en": "Christina van Tyrus · Boris en Gleb",
+   "en": "Christina of Tyrus · Boris and Gleb",
    "nl": "Christina van Tyrus · Boris en Gleb"
   },
   "summary": {
-   "en": "The Church commemorates Christina van Tyrus · Boris en Gleb.",
+   "en": "The martyr, and the first passion-bearers of the Rus'.",
    "nl": "De martelares, en de eerste passiedragers van het Rusland."
   }
  },
@@ -2686,7 +2686,7 @@
    "nl": "Ontslapen van Anna"
   },
   "summary": {
-   "en": "The Church commemorates Dormition of Anna.",
+   "en": "The mother of the Mother of God, at the end of her days.",
    "nl": "De moeder van de Theotokos, ten einde van haar dagen."
   }
  },
@@ -2695,11 +2695,11 @@
   "day": 26,
   "rank": "saint",
   "title": {
-   "en": "Hermolaüs · Paraskeva of Rome",
+   "en": "Hermolaus · Paraskeva of Rome",
    "nl": "Hermolaüs · Paraskeva van Rome"
   },
   "summary": {
-   "en": "The Church commemorates Hermolaüs · Paraskeva of Rome.",
+   "en": "Panteleimon's priest, and the Friday martyr.",
    "nl": "De priester van Panteleimon, en de vrijdag-martelares."
   }
  },
@@ -2712,7 +2712,7 @@
    "nl": "Panteleimon"
   },
   "summary": {
-   "en": "The Church commemorates Panteleimon.",
+   "en": "The great martyr and unmercenary physician.",
    "nl": "De grote martelaar, onbaatzuchtige arts."
   }
  },
@@ -2721,11 +2721,11 @@
   "day": 28,
   "rank": "saint",
   "title": {
-   "en": "Prochorus, Nicanor, Timon en Parmenas",
+   "en": "Prochorus, Nicanor, Timon and Parmenas",
    "nl": "Prochorus, Nicanor, Timon en Parmenas"
   },
   "summary": {
-   "en": "The Church commemorates Prochorus, Nicanor, Timon en Parmenas.",
+   "en": "Of the seven deacons.",
    "nl": "Van de zeven diakens."
   }
  },
@@ -2734,11 +2734,11 @@
   "day": 29,
   "rank": "saint",
   "title": {
-   "en": "Callinicus van Gangra",
+   "en": "Callinicus of Gangra",
    "nl": "Callinicus van Gangra"
   },
   "summary": {
-   "en": "The Church commemorates Callinicus van Gangra.",
+   "en": "A martyr in the furnace.",
    "nl": "Martelaar in de oven."
   }
  },
@@ -2747,11 +2747,11 @@
   "day": 30,
   "rank": "saint",
   "title": {
-   "en": "Silas en Silvanus",
+   "en": "Silas and Silvanus",
    "nl": "Silas en Silvanus"
   },
   "summary": {
-   "en": "The Church commemorates Silas en Silvanus.",
+   "en": "Of the Seventy, companions of Paul.",
    "nl": "Van de zeventig, metgezel van Paulus."
   }
  },
@@ -2764,7 +2764,7 @@
    "nl": "Voorfeest van de Kruisprocessie · Eudocimus"
   },
   "summary": {
-   "en": "The Church commemorates Forefeast of the Procession of the Cross · Eudocimus.",
+   "en": "The cross goes out; the righteous man of Cappadocia.",
    "nl": "Het kruis gaat uit; de rechtvaardige van Cappadocië."
   }
  },
@@ -2777,7 +2777,7 @@
    "nl": "Processie van het Kruis · de Makkabeeën"
   },
   "summary": {
-   "en": "The Church commemorates Procession of the Cross · the Maccabees.",
+   "en": "The Dormition Fast begins. The cross is carried out to ward off the sicknesses of August. The seven Maccabees, their mother Solomonia and the priest Eleazar: the Old Covenant dies as a martyr for the Law, an icon of Holy Week.",
    "nl": "Begin van de Dormitie-vasten. Het kruis wordt uitgedragen om de ziekten van augustus te keren. De zeven Makkabeeën, hun moeder Solomone, de priester Eleazar: het Oude Verbond sterft als martelaar voor de wet, tot icoon van de Goede Week."
   }
  },
@@ -2790,7 +2790,7 @@
    "nl": "Overbrenging van Stefanus"
   },
   "summary": {
-   "en": "The Church commemorates Translation of Stephen.",
+   "en": "The first martyr, from Jerusalem to Constantinople.",
    "nl": "De protomartelaar, van Jeruzalem naar Constantinopel."
   }
  },
@@ -2799,11 +2799,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Isaäc, Dalmatus en Faustus",
+   "en": "Isaac, Dalmatus and Faustus",
    "nl": "Isaäc, Dalmatus en Faustus"
   },
   "summary": {
-   "en": "The Church commemorates Isaäc, Dalmatus en Faustus.",
+   "en": "The three abbots of the Dalmatou monastery.",
    "nl": "De drie hegumenen van het Dalmatouklooster."
   }
  },
@@ -2816,7 +2816,7 @@
    "nl": "Zeven slapers van Efeze"
   },
   "summary": {
-   "en": "The Church commemorates Seven Sleepers of Ephesus.",
+   "en": "The youths of the cave who awoke after centuries: the resurrection is no fable.",
    "nl": "De jongens van de grot, ontwaakt na eeuwen: de opstanding is geen fabel."
   }
  },
@@ -2829,7 +2829,7 @@
    "nl": "Voorfeest van de Gedaanteverandering"
   },
   "summary": {
-   "en": "The Church commemorates Forefeast of the Transfiguration.",
+   "en": "Tabor draws near. Eusignius the martyr.",
    "nl": "Tabor nadert. Eusignius de martelaar."
   }
  },
@@ -2842,7 +2842,7 @@
    "nl": "Gedaanteverandering"
   },
   "summary": {
-   "en": "The Church commemorates Transfiguration.",
+   "en": "He took Peter, James and John, and His face shone like the sun. With St Gregory Palamas the Church confesses that this light is not created but the energy of God, which the apostles saw for a moment. Moses and Elijah, the Law and the Prophets, speak of His departure in Jerusalem. We bless the fruits.",
    "nl": "Hij nam Petrus, Jakobus en Johannes. Zijn gelaat blonk als de zon. Palamas: niet een geschapen schijnsel, maar de energie van God, die de apostelen een ogenblik zagen. Mozes en Elia, wet en profeten, spreken van Zijn uitgang te Jeruzalem. Wij zegenen de vruchten."
   }
  },
@@ -2855,7 +2855,7 @@
    "nl": "Dometius van Perzië"
   },
   "summary": {
-   "en": "The Church commemorates Dometius of Persia.",
+   "en": "A converted magus, stoned in his cave.",
    "nl": "Bekeerde magiër, gestenigd in zijn grot."
   }
  },
@@ -2864,11 +2864,11 @@
   "day": 8,
   "rank": "saint",
   "title": {
-   "en": "Emilianus van Cyzicus",
+   "en": "Emilianus of Cyzicus",
    "nl": "Emilianus van Cyzicus"
   },
   "summary": {
-   "en": "The Church commemorates Emilianus van Cyzicus.",
+   "en": "Bishop and confessor of the icons.",
    "nl": "Bisschop, belijder der ikonen."
   }
  },
@@ -2881,7 +2881,7 @@
    "nl": "Apostel Matthias"
   },
   "summary": {
-   "en": "The Church commemorates Apostle Matthias.",
+   "en": "The lot fell on him, in the place of Judas.",
    "nl": "Het lot viel op hem, in de plaats van Judas."
   }
  },
@@ -2894,7 +2894,7 @@
    "nl": "Laurentius van Rome"
   },
   "summary": {
-   "en": "The Church commemorates Laurentius of Rome.",
+   "en": "The deacon: 'Here are the treasures of the Church: the poor.'",
    "nl": "De diaken: hier zijn de schatten van de Kerk — de armen."
   }
  },
@@ -2903,11 +2903,11 @@
   "day": 11,
   "rank": "saint",
   "title": {
-   "en": "Euplus van Catania",
+   "en": "Euplus of Catania",
    "nl": "Euplus van Catania"
   },
   "summary": {
-   "en": "The Church commemorates Euplus van Catania.",
+   "en": "Deacon-martyr, with the Gospel on his breast.",
    "nl": "Diaken-martelaar, het evangelie op de borst."
   }
  },
@@ -2916,11 +2916,11 @@
   "day": 12,
   "rank": "saint",
   "title": {
-   "en": "Photius en Anicetus",
+   "en": "Photius and Anicetus",
    "nl": "Photius en Anicetus"
   },
   "summary": {
-   "en": "The Church commemorates Photius en Anicetus.",
+   "en": "Uncle and nephew, in the furnace of Nicomedia.",
    "nl": "Oom en neef, in de oven van Nicomedië."
   }
  },
@@ -2933,7 +2933,7 @@
    "nl": "Maximus de Belijder"
   },
   "summary": {
-   "en": "The Church commemorates Maximus the Confessor.",
+   "en": "The translation of his relics. The two wills of Christ.",
    "nl": "Overbrenging van zijn relieken. De twee willen van Christus."
   }
  },
@@ -2946,7 +2946,7 @@
    "nl": "Voorfeest van het Ontslapen · Micha"
   },
   "summary": {
-   "en": "The Church commemorates Forefeast of the Dormition · Micah.",
+   "en": "The Mother of God approaches her departure. The prophet of Bethlehem.",
    "nl": "De Theotokos nadert haar uittocht. De profeet van Bethlehem."
   }
  },
@@ -2959,7 +2959,7 @@
    "nl": "Ontslapen van de Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Dormition of the Theotokos.",
+   "en": "She falls asleep. The apostles come on the clouds. Thomas comes late and finds only the grave clothes. No passing over without death: she goes before us in death and in life. Her Son is the Resurrection; her body sees no corruption.",
    "nl": "De Dormitie. Zij ontslaapt. De apostelen komen op de wolken. Thomas komt laat en vindt de grafdoeken, de gordel. Geen tenhemelopneming zonder dood: zij gaat ons voor in de dood én in het leven. Haar zoon is de Opstanding; haar lichaam ziet geen verderf."
   }
  },
@@ -2972,7 +2972,7 @@
    "nl": "Het beeld niet met handen gemaakt"
   },
   "summary": {
-   "en": "The Church commemorates The Image Not Made by Hands.",
+   "en": "The Mandylion of Edessa, the face of the Lord.",
    "nl": "De mandylion van Edessa, het gelaat van de Heer."
   }
  },
@@ -2981,11 +2981,11 @@
   "day": 17,
   "rank": "saint",
   "title": {
-   "en": "Myron van Cyzicus",
+   "en": "Myron of Cyzicus",
    "nl": "Myron van Cyzicus"
   },
   "summary": {
-   "en": "The Church commemorates Myron van Cyzicus.",
+   "en": "A priest-martyr under Decius.",
    "nl": "Priester-martelaar onder Decius."
   }
  },
@@ -2994,11 +2994,11 @@
   "day": 18,
   "rank": "saint",
   "title": {
-   "en": "Florus en Laurus",
+   "en": "Florus and Laurus",
    "nl": "Florus en Laurus"
   },
   "summary": {
-   "en": "The Church commemorates Florus en Laurus.",
+   "en": "The stonemasons who turned a pagan temple into a church.",
    "nl": "De metselaars die een heidense tempel tot kerk maakten."
   }
  },
@@ -3011,7 +3011,7 @@
    "nl": "Andreas de Stratelates"
   },
   "summary": {
-   "en": "The Church commemorates Andrew the Stratelates.",
+   "en": "A general with 2,593 soldiers, all martyrs.",
    "nl": "Generaal met 2593 soldaten, martelaren."
   }
  },
@@ -3024,7 +3024,7 @@
    "nl": "Profeet Samuël"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Samuel.",
+   "en": "The seer, the anointing of David, the voice in the night.",
    "nl": "De ziener, de zalving van David, de stem in de nacht."
   }
  },
@@ -3033,11 +3033,11 @@
   "day": 21,
   "rank": "saint",
   "title": {
-   "en": "Thaddeus of the zeventig",
+   "en": "Thaddeus of the Seventy",
    "nl": "Thaddeüs van de zeventig"
   },
   "summary": {
-   "en": "The Church commemorates Thaddeus of the zeventig.",
+   "en": "The apostle of Edessa and the image of the Lord.",
    "nl": "De apostel van Edessa, het beeld van de Heer."
   }
  },
@@ -3050,7 +3050,7 @@
    "nl": "Agathonicus"
   },
   "summary": {
-   "en": "The Church commemorates Agathonicus.",
+   "en": "Martyr of Nicomedia.",
    "nl": "Martelaar van Nicomedië."
   }
  },
@@ -3063,7 +3063,7 @@
    "nl": "Lupus · slot van het Ontslapen"
   },
   "summary": {
-   "en": "The Church commemorates Lupus · leave-taking of the Dormition.",
+   "en": "Servant of Demetrius, and the leave-taking of the Dormition.",
    "nl": "Dienaar van Demetrius, en de nazang van de Dormitie."
   }
  },
@@ -3076,7 +3076,7 @@
    "nl": "Eutyches van Constantinopel"
   },
   "summary": {
-   "en": "The Church commemorates Eutyches of Constantinople.",
+   "en": "Disciple of John, bishop of Sebaste.",
    "nl": "Leerling van Johannes, bisschop van Sebaste."
   }
  },
@@ -3085,11 +3085,11 @@
   "day": 25,
   "rank": "saint",
   "title": {
-   "en": "Bartholomew en Titus",
+   "en": "Bartholomew and Titus",
    "nl": "Bartolomeüs en Titus"
   },
   "summary": {
-   "en": "The Church commemorates Bartholomew en Titus.",
+   "en": "The return of the relics, and the bishop of Crete.",
    "nl": "Terugkeer van de relieken, en de bisschop van Kreta."
   }
  },
@@ -3098,11 +3098,11 @@
   "day": 26,
   "rank": "saint",
   "title": {
-   "en": "Adrianus en Natalia",
+   "en": "Adrianus and Natalia",
    "nl": "Adrianus en Natalia"
   },
   "summary": {
-   "en": "The Church commemorates Adrianus en Natalia.",
+   "en": "The martyr couple: she strengthened him to the crown.",
    "nl": "Het martelaarspaar: zij sterkte hem tot de kroon."
   }
  },
@@ -3115,7 +3115,7 @@
    "nl": "Poemen de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Poemen the Great.",
+   "en": "Abba of the Sayings: be silent, weep, do not judge.",
    "nl": "Abba van de Apoftegmata: zwijg, ween, oordeel niet."
   }
  },
@@ -3128,7 +3128,7 @@
    "nl": "Mozes de Ethiopiër"
   },
   "summary": {
-   "en": "The Church commemorates Moses the Ethiopian.",
+   "en": "From robber to abba: the power of repentance.",
    "nl": "Van rover tot abba. De kracht van de bekering."
   }
  },
@@ -3141,7 +3141,7 @@
    "nl": "Onthoofding van Johannes de Doper"
   },
   "summary": {
-   "en": "The Church commemorates Beheading of John the Baptist.",
+   "en": "Herod, Herodias, the dance, the oath. John dies because he told the truth about an unlawful marriage. The Church fasts on this day. The Forerunner goes down to the dead to announce the Bridegroom there too.",
    "nl": "Herodes, Herodias, de dans, de eed. Johannes sterft omdat hij de waarheid zei over een onwettig huwelijk. De Kerk vast deze dag. De Voorloper daalt tot de doden om ook daar de Bruidegom aan te kondigen."
   }
  },
@@ -3150,11 +3150,11 @@
   "day": 30,
   "rank": "saint",
   "title": {
-   "en": "Alexander, John en Paul",
+   "en": "Alexander, John and Paul",
    "nl": "Alexander, Johannes en Paulus"
   },
   "summary": {
-   "en": "The Church commemorates Alexander, John en Paul.",
+   "en": "Three patriarchs of Constantinople.",
    "nl": "Drie patriarchen van Constantinopel."
   }
  },
@@ -3167,7 +3167,7 @@
    "nl": "Nederlegging van de gordel der Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Deposition of the Belt of the Theotokos.",
+   "en": "Her belt in Chalkoprateia, for the healing of the empress.",
    "nl": "Haar zone in Chalkoprateia, tot genezing van de keizerin."
   }
  },
@@ -3180,7 +3180,7 @@
    "nl": "Kerkelijk nieuwjaar · Simeon de Styliet"
   },
   "summary": {
-   "en": "The Church commemorates Church New Year · Simeon the Stylite.",
+   "en": "The Church begins her year on 1 September, blessing the waters of time. Simeon stands on his pillar: man as a candle between heaven and earth. We pray for fruitfulness for the earth and peace for the cities.",
    "nl": "De Kerk begint haar jaar op 1 september, met de zegen van de wateren der tijd. Simeon staat op zijn zuil: de mens als kaars tussen hemel en aarde. Wij vragen vruchtbaarheid voor de aarde en vrede voor de steden."
   }
  },
@@ -3189,11 +3189,11 @@
   "day": 2,
   "rank": "saint",
   "title": {
-   "en": "Mamas van Caesarea · John the Faster",
+   "en": "Mamas of Caesarea · John the Faster",
    "nl": "Mamas van Caesarea · Johannes de Vaster"
   },
   "summary": {
-   "en": "The Church commemorates Mamas van Caesarea · John the Faster.",
+   "en": "The shepherd-boy martyr, and the patriarch of sobriety.",
    "nl": "De herdersjongen-martelaar, en de patriarch van de nuchterheid."
   }
  },
@@ -3202,11 +3202,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Anthimus van Nicomedië",
+   "en": "Anthimus of Nicomedia",
    "nl": "Anthimus van Nicomedië"
   },
   "summary": {
-   "en": "The Church commemorates Anthimus van Nicomedië.",
+   "en": "A bishop burned in the Great Persecution.",
    "nl": "Bisschop, verbrand in de grote vervolging."
   }
  },
@@ -3219,7 +3219,7 @@
    "nl": "Babylas van Antiochië"
   },
   "summary": {
-   "en": "The Church commemorates Babylas of Antioch.",
+   "en": "The patriarch who sent the emperor out of the church.",
    "nl": "De patriarch die de keizer de kerk uitzette."
   }
  },
@@ -3232,7 +3232,7 @@
    "nl": "Profeet Zacharias"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Zechariah.",
+   "en": "Father of the Forerunner, slain between the temple and the altar.",
    "nl": "Vader van de Voorloper, vermoord tussen tempel en altaar."
   }
  },
@@ -3241,11 +3241,11 @@
   "day": 6,
   "rank": "major",
   "title": {
-   "en": "Miracle of Micahel at Chonae",
+   "en": "Miracle of Michael at Chonae",
    "nl": "Wonder van Michaël te Chonae"
   },
   "summary": {
-   "en": "The Church commemorates Miracle of Micahel at Chonae.",
+   "en": "The archangel splits the rock, and the water turns aside.",
    "nl": "De aartsengel splijt de rots, het water keert."
   }
  },
@@ -3258,7 +3258,7 @@
    "nl": "Voorfeest van de Geboorte der Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Forefeast of the Nativity of the Theotokos.",
+   "en": "Sozon the martyr. Tomorrow Anna gives birth.",
    "nl": "Sozon de martelaar. Morgen baart Anna."
   }
  },
@@ -3271,7 +3271,7 @@
    "nl": "Geboorte van de Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Nativity of the Theotokos.",
+   "en": "Joachim and Anna, barren until old age. The child Mary is the gate of gates. The Church sings: today, grace, joy. From her the Word will become flesh; her birth is already Gospel.",
    "nl": "Joachim en Anna, onvruchtbaar tot op hoge leeftijd. Het kind Maria is de poort der poorten. De Kerk zingt: vandaag, de genade, de vreugde. Uit haar zal het Woord vlees worden. Haar geboorte is al evangelie."
   }
  },
@@ -3284,7 +3284,7 @@
    "nl": "Joachim en Anna"
   },
   "summary": {
-   "en": "The Church commemorates Joachim and Anna.",
+   "en": "The ancestors of God, parents of the Mother of God.",
    "nl": "De godvaders, ouders van de Theotokos."
   }
  },
@@ -3293,11 +3293,11 @@
   "day": 10,
   "rank": "saint",
   "title": {
-   "en": "Menodora, Metrodora en Nymphodora",
+   "en": "Menodora, Metrodora and Nymphodora",
    "nl": "Menodora, Metrodora en Nymphodora"
   },
   "summary": {
-   "en": "The Church commemorates Menodora, Metrodora en Nymphodora.",
+   "en": "Three sisters, martyrs of Bithynia.",
    "nl": "Drie zusters, martelaressen van Bithynië."
   }
  },
@@ -3310,7 +3310,7 @@
    "nl": "Theodora van Alexandrië"
   },
   "summary": {
-   "en": "The Church commemorates Theodora of Alexandria.",
+   "en": "She lived in the monastery dressed as a man, until her death.",
    "nl": "Die in manskleed in het klooster leefde, tot haar dood."
   }
  },
@@ -3323,7 +3323,7 @@
    "nl": "Autonomus"
   },
   "summary": {
-   "en": "The Church commemorates Autonomus.",
+   "en": "Bishop-martyr from Italy, in Bithynia.",
    "nl": "Bisschop-martelaar van Italië, in Bithynië."
   }
  },
@@ -3336,7 +3336,7 @@
    "nl": "Voorfeest van de Kruisverheffing · Cornelius"
   },
   "summary": {
-   "en": "The Church commemorates Forefeast of the Elevation of the Cross · Cornelius.",
+   "en": "The centurion of Caesarea, firstfruits of the Gentiles.",
    "nl": "De honderdman van Caesarea, eersteling der heidenen."
   }
  },
@@ -3349,7 +3349,7 @@
    "nl": "Kruisverheffing"
   },
   "summary": {
-   "en": "The Church commemorates Elevation of the Cross.",
+   "en": "Helena found it; the bishop raises it to the four winds and we bow down. Through the Cross joy has come into all the world. The Church fasts on this day: the wood is glory, but it remains the wood of Great Friday.",
    "nl": "Helena vond het. De patriarch heft het naar de vier winden. Wij knielen. Door het kruis is vreugde tot de hele wereld gekomen. De Kerk vast deze dag: het hout is heerlijkheid, maar het blijft het hout van Goede Vrijdag."
   }
  },
@@ -3358,11 +3358,11 @@
   "day": 15,
   "rank": "saint",
   "title": {
-   "en": "Nicétas de Goth",
+   "en": "Nicetas the Goth",
    "nl": "Nicétas de Goth"
   },
   "summary": {
-   "en": "The Church commemorates Nicétas de Goth.",
+   "en": "The Gothic martyr, burned in his house.",
    "nl": "De gotische martelaar, verbrand in zijn huis."
   }
  },
@@ -3375,7 +3375,7 @@
    "nl": "Euphemia"
   },
   "summary": {
-   "en": "The Church commemorates Euphemia.",
+   "en": "The great martyr, her second commemoration.",
    "nl": "De grote martelares, tweede gedachtenis."
   }
  },
@@ -3388,7 +3388,7 @@
    "nl": "Sophia, Geloof, Hoop en Liefde"
   },
   "summary": {
-   "en": "The Church commemorates Sophia, Faith, Hope and Love.",
+   "en": "The mother and her three daughters: the theological virtues written in blood.",
    "nl": "De moeder en haar drie dochters: de theologische deugden in bloed."
   }
  },
@@ -3397,11 +3397,11 @@
   "day": 18,
   "rank": "saint",
   "title": {
-   "en": "Eumenius van Gortyna",
+   "en": "Eumenius of Gortyna",
    "nl": "Eumenius van Gortyna"
   },
   "summary": {
-   "en": "The Church commemorates Eumenius van Gortyna.",
+   "en": "Bishop of Crete, a wonderworker.",
    "nl": "Bisschop van Kreta, wonderdoener."
   }
  },
@@ -3410,11 +3410,11 @@
   "day": 19,
   "rank": "saint",
   "title": {
-   "en": "Trophimus, Sabbatius en Dorymedon",
+   "en": "Trophimus, Sabbatius and Dorymedon",
    "nl": "Trophimus, Sabbatius en Dorymedon"
   },
   "summary": {
-   "en": "The Church commemorates Trophimus, Sabbatius en Dorymedon.",
+   "en": "Martyrs of Antioch in Pisidia.",
    "nl": "Martelaren van Antiochië in Pisidië."
   }
  },
@@ -3427,7 +3427,7 @@
    "nl": "Eustathius en zijn huis"
   },
   "summary": {
-   "en": "The Church commemorates Eustathius and his household.",
+   "en": "The general, the stag with the cross, and a whole family martyred.",
    "nl": "De generaal, het hert met het kruis, het gezin tot martelaarschap."
   }
  },
@@ -3440,7 +3440,7 @@
    "nl": "Apostel Quadratus"
   },
   "summary": {
-   "en": "The Church commemorates Apostle Quadratus.",
+   "en": "Of the Seventy; the apology to Hadrian.",
    "nl": "Van de zeventig, de apologie tot Hadrianus."
   }
  },
@@ -3449,11 +3449,11 @@
   "day": 22,
   "rank": "saint",
   "title": {
-   "en": "Phocas van Sinope",
+   "en": "Phocas of Sinope",
    "nl": "Phocas van Sinope"
   },
   "summary": {
-   "en": "The Church commemorates Phocas van Sinope.",
+   "en": "Gardener-bishop and martyr, protector of sailors.",
    "nl": "Tuinman-bisschop, martelaar, beschermer van zeevarenden."
   }
  },
@@ -3466,7 +3466,7 @@
    "nl": "Ontvangenis van Johannes de Doper"
   },
   "summary": {
-   "en": "The Church commemorates Conception of John the Baptist.",
+   "en": "Zechariah falls silent, Elizabeth conceives. The Forerunner is conceived.",
    "nl": "Zacharias zwijgt, Elisabet ontvangt. De Voorloper is verwekt."
   }
  },
@@ -3479,7 +3479,7 @@
    "nl": "Thecla, gelijke der apostelen"
   },
   "summary": {
-   "en": "The Church commemorates Thecla, equal to the apostles.",
+   "en": "The first woman martyr, disciple of Paul.",
    "nl": "De eerste martelares, leerling van Paulus."
   }
  },
@@ -3492,7 +3492,7 @@
    "nl": "Euphrosyne · Sergius van Radonezj"
   },
   "summary": {
-   "en": "The Church commemorates Euphrosyne · Sergius of Radonezh.",
+   "en": "The virgin of Alexandria, and the abbot who blessed the Rus'.",
    "nl": "De maagd van Alexandrië, en de abt die het Rusland zegende."
   }
  },
@@ -3505,7 +3505,7 @@
    "nl": "Ontslapen van Johannes de Theoloog"
   },
   "summary": {
-   "en": "The Church commemorates Dormition of John the Theologian.",
+   "en": "The beloved disciple falls asleep at Ephesus. His tomb gave forth manna.",
    "nl": "De geliefde leerling ontslaapt te Efeze. Zijn graf gaf manna."
   }
  },
@@ -3518,7 +3518,7 @@
    "nl": "Callistratus"
   },
   "summary": {
-   "en": "The Church commemorates Callistratus.",
+   "en": "Soldier-martyr with forty-nine companions.",
    "nl": "Soldaat-martelaar met negenenveertig gezellen."
   }
  },
@@ -3531,7 +3531,7 @@
    "nl": "Chariton de Belijder"
   },
   "summary": {
-   "en": "The Church commemorates Chariton the Confessor.",
+   "en": "Founder of the lavras in the desert of Judea.",
    "nl": "Stichter van de laura’s in de woestijn van Juda."
   }
  },
@@ -3544,7 +3544,7 @@
    "nl": "Kyriacus de Kluizenaar"
   },
   "summary": {
-   "en": "The Church commemorates Cyriacus the Hermit.",
+   "en": "Of the Lavra of Chariton, until the age of one hundred and seven.",
    "nl": "Van de Laura van Chariton, tot honderdzeven jaar."
   }
  },
@@ -3557,7 +3557,7 @@
    "nl": "Gregorius de Verlichter"
   },
   "summary": {
-   "en": "The Church commemorates Gregory the Enlightener.",
+   "en": "Apostle of Armenia, equal to the apostles.",
    "nl": "Apostel van Armenië, gelijke der apostelen."
   }
  },
@@ -3570,7 +3570,7 @@
    "nl": "Bescherming der Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Protection of the Theotokos.",
+   "en": "In the church of Blachernae, Andrew the Fool sees her praying, spreading her veil over the people. The Mother of God is our protection, not an ornament. In the north this is one of the most beloved feasts: beneath your protection we take refuge.",
    "nl": "In de kerk der Blachernen ziet Andreas de Dwaas haar, biddend, haar sluier over het volk. De Theotokos is de hoede, niet een sieraad. In het noorden is dit een van de geliefste feesten: onder uw hoede nemen wij onze toevlucht."
   }
  },
@@ -3579,11 +3579,11 @@
   "day": 2,
   "rank": "saint",
   "title": {
-   "en": "Cyprianus en Justina",
+   "en": "Cyprianus and Justina",
    "nl": "Cyprianus en Justina"
   },
   "summary": {
-   "en": "The Church commemorates Cyprianus en Justina.",
+   "en": "The sorcerer converted by the virgin; martyrs together.",
    "nl": "De tovenaar bekeerd door de maagd, samen martelaren."
   }
  },
@@ -3596,7 +3596,7 @@
    "nl": "Dionysius de Areopagiet"
   },
   "summary": {
-   "en": "The Church commemorates Dionysius the Areopagite.",
+   "en": "The judge of Athens, disciple of Paul, theologian of the hierarchies.",
    "nl": "De rechter van Athene, leerling van Paulus, theoloog van de hiërarchie."
   }
  },
@@ -3609,7 +3609,7 @@
    "nl": "Hierotheos van Athene"
   },
   "summary": {
-   "en": "The Church commemorates Hierotheos of Athens.",
+   "en": "Companion of Dionysius, present at the Dormition.",
    "nl": "Metgezel van Dionysius, aanwezig bij de Dormitie."
   }
  },
@@ -3618,11 +3618,11 @@
   "day": 5,
   "rank": "saint",
   "title": {
-   "en": "Charitina van Amisus",
+   "en": "Charitina of Amisus",
    "nl": "Charitina van Amisus"
   },
   "summary": {
-   "en": "The Church commemorates Charitina van Amisus.",
+   "en": "Virgin-martyr.",
    "nl": "Maagd-martelares."
   }
  },
@@ -3635,7 +3635,7 @@
    "nl": "Apostel Thomas"
   },
   "summary": {
-   "en": "The Church commemorates Apostle Thomas.",
+   "en": "'My Lord and my God.' The hand in the side, the faith that came through doubt.",
    "nl": "Mijn Heer en mijn God. De hand in de zijde, het geloof van de twijfel."
   }
  },
@@ -3644,11 +3644,11 @@
   "day": 7,
   "rank": "saint",
   "title": {
-   "en": "Sergius en Bacchus",
+   "en": "Sergius and Bacchus",
    "nl": "Sergius en Bacchus"
   },
   "summary": {
-   "en": "The Church commemorates Sergius en Bacchus.",
+   "en": "Soldiers, friends, martyrs.",
    "nl": "Soldaten, vrienden, martelaren. De tuniek van Christus."
   }
  },
@@ -3661,7 +3661,7 @@
    "nl": "Pelagia de Boetvaardige"
   },
   "summary": {
-   "en": "The Church commemorates Pelagia the Penitent.",
+   "en": "The actress of Antioch, a hermit on the Mount of Olives.",
    "nl": "De actrice van Antiochië, kluizenaar op de Olijfberg."
   }
  },
@@ -3674,7 +3674,7 @@
    "nl": "Jakobus, zoon van Alfeüs"
   },
   "summary": {
-   "en": "The Church commemorates James, son of Alphaeus.",
+   "en": "The apostle, not the brother of the Lord.",
    "nl": "De apostel, niet de broeder des Heeren."
   }
  },
@@ -3683,11 +3683,11 @@
   "day": 10,
   "rank": "saint",
   "title": {
-   "en": "Eulampius en Eulampia",
+   "en": "Eulampius and Eulampia",
    "nl": "Eulampius en Eulampia"
   },
   "summary": {
-   "en": "The Church commemorates Eulampius en Eulampia.",
+   "en": "Brother and sister, martyrs of Nicomedia.",
    "nl": "Broer en zus, martelaren van Nicomedië."
   }
  },
@@ -3700,7 +3700,7 @@
    "nl": "Filippus de Diaken"
   },
   "summary": {
-   "en": "The Church commemorates Philip the Deacon.",
+   "en": "One of the seven: the Ethiopian official, Samaria.",
    "nl": "Van de zeven, de kamerling van Ethiopië, Samaria."
   }
  },
@@ -3709,11 +3709,11 @@
   "day": 12,
   "rank": "saint",
   "title": {
-   "en": "Probus, Tarachus en Andronicus",
+   "en": "Probus, Tarachus and Andronicus",
    "nl": "Probus, Tarachus en Andronicus"
   },
   "summary": {
-   "en": "The Church commemorates Probus, Tarachus en Andronicus.",
+   "en": "Martyrs of Tarsus.",
    "nl": "Martelaren van Tarsus."
   }
  },
@@ -3722,11 +3722,11 @@
   "day": 13,
   "rank": "saint",
   "title": {
-   "en": "Carpus en Papylus",
+   "en": "Carpus and Papylus",
    "nl": "Carpus en Papylus"
   },
   "summary": {
-   "en": "The Church commemorates Carpus en Papylus.",
+   "en": "Disciples of Paul, martyrs of Pergamum.",
    "nl": "Leerlingen van Paulus, martelaren van Pergamum."
   }
  },
@@ -3739,7 +3739,7 @@
    "nl": "Nazarius en gezellen · Paraskeva van Servië"
   },
   "summary": {
-   "en": "The Church commemorates Nazarius and companions · Paraskeva of Serbia.",
+   "en": "Four martyrs of Milan, and the patron saint of the Balkans.",
    "nl": "Vier martelaren van Milaan, en de beschermheilige van de Balkan."
   }
  },
@@ -3752,7 +3752,7 @@
    "nl": "Euthymius de Nieuwe"
   },
   "summary": {
-   "en": "The Church commemorates Euthymius the New.",
+   "en": "Of Thessalonica, a hermit of Athos.",
    "nl": "Van Thessaloniki, kluizenaar van de Athos."
   }
  },
@@ -3765,7 +3765,7 @@
    "nl": "Longinus de Honderdman"
   },
   "summary": {
-   "en": "The Church commemorates Longinus the Centurion.",
+   "en": "'Truly this was the Son of God.' The spear, and faith beneath the cross.",
    "nl": "Waarlijk, Deze was Gods Zoon. De speer, het geloof onder het kruis."
   }
  },
@@ -3778,7 +3778,7 @@
    "nl": "Profeet Hosea · Andreas van Kreta"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Hosea · Andrew of Crete.",
+   "en": "'I will heal their faithlessness'; the hymnographer-martyr.",
    "nl": "Ik zal hen genezen van hun afkering; de hymnograaf-martelaar."
   }
  },
@@ -3791,7 +3791,7 @@
    "nl": "Lucas de Evangelist"
   },
   "summary": {
-   "en": "The Church commemorates Luke the Evangelist.",
+   "en": "The beloved physician, the icon of the Mother of God, the Acts of the Apostles.",
    "nl": "De geliefde arts, het icoon van de Theotokos, de Handelingen."
   }
  },
@@ -3804,7 +3804,7 @@
    "nl": "Profeet Joël · Johannes van Rila"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Joel · John of Rila.",
+   "en": "'I will pour out My Spirit on all flesh'; the hermit of Bulgaria.",
    "nl": "Stort uw Geest uit over alle vlees; de kluizenaar van Bulgarije."
   }
  },
@@ -3817,7 +3817,7 @@
    "nl": "Artemius van Antiochië"
   },
   "summary": {
-   "en": "The Church commemorates Artemius of Antioch.",
+   "en": "The great martyr, governor of Egypt.",
    "nl": "De grote martelaar, dux van Egypte."
   }
  },
@@ -3830,7 +3830,7 @@
    "nl": "Hilarion de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Hilarion the Great.",
+   "en": "Disciple of Anthony, father of the monks of Palestine.",
    "nl": "Leerling van Antonius, vader van de monniken van Palestina."
   }
  },
@@ -3839,11 +3839,11 @@
   "day": 22,
   "rank": "saint",
   "title": {
-   "en": "Abercius van Hiërapolis",
+   "en": "Abercius of Hierapolis",
    "nl": "Abercius van Hiërapolis"
   },
   "summary": {
-   "en": "The Church commemorates Abercius van Hiërapolis.",
+   "en": "Equal to the apostles; the epitaph of the mystery of the fish.",
    "nl": "Gelijke der apostelen, het grafinschrift van het vis-mysterie."
   }
  },
@@ -3856,7 +3856,7 @@
    "nl": "Jakobus, broeder des Heeren"
   },
   "summary": {
-   "en": "The Church commemorates James, Brother of the Lord.",
+   "en": "First bishop of Jerusalem: the liturgy and the letter.",
    "nl": "Eerste bisschop van Jeruzalem, de liturgie, de brief."
   }
  },
@@ -3865,11 +3865,11 @@
   "day": 24,
   "rank": "saint",
   "title": {
-   "en": "Arethas van Najran",
+   "en": "Arethas of Najran",
    "nl": "Arethas van Najran"
   },
   "summary": {
-   "en": "The Church commemorates Arethas van Najran.",
+   "en": "The martyr of Arabia, with his city.",
    "nl": "De martelaar van Arabië, met zijn stad."
   }
  },
@@ -3878,11 +3878,11 @@
   "day": 25,
   "rank": "saint",
   "title": {
-   "en": "Marcianus en Martyrius",
+   "en": "Marcianus and Martyrius",
    "nl": "Marcianus en Martyrius"
   },
   "summary": {
-   "en": "The Church commemorates Marcianus en Martyrius.",
+   "en": "Notaries of Constantinople, martyrs for the homoousios.",
    "nl": "Notarissen van Constantinopel, martelaren der homoousios."
   }
  },
@@ -3895,7 +3895,7 @@
    "nl": "Demetrius van Thessaloniki"
   },
   "summary": {
-   "en": "The Church commemorates Demetrius of Thessalonica.",
+   "en": "The soldier of Thessalonica. Nestor defeats the gladiator in the name of the God of Demetrius, and both die. His myrrh flows to this day. The Church honours him with George as a great soldier-saint of the East.",
    "nl": "De soldaat van Thessaloniki. Nestor verslaat de gladiator in de naam van de God van Demetrius; beiden sterven. Zijn myrrhe vloeit tot op heden. De Kerk eert hem als de tweede Joris van het Oosten."
   }
  },
@@ -3908,7 +3908,7 @@
    "nl": "Nestor van Thessaloniki"
   },
   "summary": {
-   "en": "The Church commemorates Nestor of Thessalonica.",
+   "en": "The disciple of Demetrius, victorious in the arena.",
    "nl": "De leerling van Demetrius, overwinnaar in de arena."
   }
  },
@@ -3917,11 +3917,11 @@
   "day": 28,
   "rank": "saint",
   "title": {
-   "en": "Terentius en Neonilla · Paraskeva of Iconium",
+   "en": "Terentius and Neonilla · Paraskeva of Iconium",
    "nl": "Terentius en Neonilla · Paraskeva van Iconium"
   },
   "summary": {
-   "en": "The Church commemorates Terentius en Neonilla · Paraskeva of Iconium.",
+   "en": "The martyr family, and the Friday saint of Asia Minor.",
    "nl": "Het gezin-martelaar, en de vrijdagheilige van Klein-Azië."
   }
  },
@@ -3934,7 +3934,7 @@
    "nl": "Anastasia de Romeinse"
   },
   "summary": {
-   "en": "The Church commemorates Anastasia of Rome.",
+   "en": "Virgin-martyr under Decius.",
    "nl": "Maagd-martelares onder Decius."
   }
  },
@@ -3943,11 +3943,11 @@
   "day": 30,
   "rank": "saint",
   "title": {
-   "en": "Zenobius en Zenobia",
+   "en": "Zenobius and Zenobia",
    "nl": "Zenobius en Zenobia"
   },
   "summary": {
-   "en": "The Church commemorates Zenobius en Zenobia.",
+   "en": "Brother and sister, physicians, martyrs of Cilicia.",
    "nl": "Broer en zus, artsen, martelaren van Cilicië."
   }
  },
@@ -3960,7 +3960,7 @@
    "nl": "Stachys, Amplias en gezellen"
   },
   "summary": {
-   "en": "The Church commemorates Stachys, Amplias and companions.",
+   "en": "Of the Seventy, apostles of Byzantium.",
    "nl": "Van de zeventig, apostelen van Byzantium."
   }
  },
@@ -3969,11 +3969,11 @@
   "day": 1,
   "rank": "major",
   "title": {
-   "en": "Cosmas en Damianus van Azië",
+   "en": "Cosmas and Damian of Asia",
    "nl": "Cosmas en Damianus van Azië"
   },
   "summary": {
-   "en": "The Church commemorates Cosmas en Damianus van Azië.",
+   "en": "The unmercenary physicians, sons of Theodota.",
    "nl": "De onbaatzuchtige artsen, zonen van Theodote."
   }
  },
@@ -3986,7 +3986,7 @@
    "nl": "Akindynos en gezellen"
   },
   "summary": {
-   "en": "The Church commemorates Akindynos and companions.",
+   "en": "Five martyrs of Persia under Shapur.",
    "nl": "Vijf martelaren van Perzië onder Sapor."
   }
  },
@@ -3995,11 +3995,11 @@
   "day": 3,
   "rank": "saint",
   "title": {
-   "en": "Acepsimas, Joseph en Aithalas",
+   "en": "Acepsimas, Joseph and Aithalas",
    "nl": "Acepsimas, Jozef en Aithalas"
   },
   "summary": {
-   "en": "The Church commemorates Acepsimas, Joseph en Aithalas.",
+   "en": "A bishop, a priest and a deacon of Persia.",
    "nl": "Bisschop, priester, diaken van Perzië."
   }
  },
@@ -4012,7 +4012,7 @@
    "nl": "Joannicius de Grote"
   },
   "summary": {
-   "en": "The Church commemorates Joannicius the Great.",
+   "en": "A soldier, then a hermit of Mount Olympus in Bithynia.",
    "nl": "Soldaat, dan kluizenaar van de Olympos in Bithynië."
   }
  },
@@ -4021,11 +4021,11 @@
   "day": 5,
   "rank": "saint",
   "title": {
-   "en": "Galaktion en Episteme",
+   "en": "Galaktion and Episteme",
    "nl": "Galaktion en Episteme"
   },
   "summary": {
-   "en": "The Church commemorates Galaktion en Episteme.",
+   "en": "The couple of Emesa, living in virginity, martyred together.",
    "nl": "Het echtpaar van Emesa, maagdelijk, samen martelaren."
   }
  },
@@ -4038,7 +4038,7 @@
    "nl": "Paulus de Belijder"
   },
   "summary": {
-   "en": "The Church commemorates Paul the Confessor.",
+   "en": "Patriarch of Constantinople, strangled for the homoousios.",
    "nl": "Patriarch van Constantinopel, gewurgd om de homoousios."
   }
  },
@@ -4051,7 +4051,7 @@
    "nl": "Drieëndertig martelaren van Melitene"
   },
   "summary": {
-   "en": "The Church commemorates Thirty-three Martyrs of Melitene.",
+   "en": "Under Diocletian.",
    "nl": "Onder Diocletianus."
   }
  },
@@ -4060,11 +4060,11 @@
   "day": 8,
   "rank": "great",
   "title": {
-   "en": "Synaxis of Micahel and the Bodiless Powers",
-   "nl": "Synaxis van Michaël en de lichamelijke machten"
+   "en": "Synaxis of Michael and the Bodiless Powers",
+   "nl": "Synaxis van Michaël en de onlichamelijke machten"
   },
   "summary": {
-   "en": "The Church commemorates Synaxis of Micahel and the Bodiless Powers.",
+   "en": "The Church honours the bodiless powers. Michael, who cast down the dragon; Gabriel, the messenger; Raphael, the healer. The liturgy on earth is an icon of the liturgy in heaven. We are not alone.",
    "nl": "De Kerk eert de onlichamelijke krachten. Michaël, die de draak wierp. Gabriël, de bode. Rafaël, de genezer. De liturgie op aarde is icoon van de liturgie in de hemel. Wij zijn niet alleen."
   }
  },
@@ -4077,7 +4077,7 @@
    "nl": "Matrona · Nektarios van Egina"
   },
   "summary": {
-   "en": "The Church commemorates Matrona · Nectarios of Aegina.",
+   "en": "The abbess of Constantinople, and the gentle bishop of our times.",
    "nl": "De abdis van Constantinopel, en de milde bisschop van onze tijd."
   }
  },
@@ -4086,11 +4086,11 @@
   "day": 10,
   "rank": "saint",
   "title": {
-   "en": "Erastus en Olympas",
+   "en": "Erastus and Olympas",
    "nl": "Erastus en Olympas"
   },
   "summary": {
-   "en": "The Church commemorates Erastus en Olympas.",
+   "en": "Of the Seventy, named in Romans 16.",
    "nl": "Van de zeventig, in Romeinen 16."
   }
  },
@@ -4099,11 +4099,11 @@
   "day": 11,
   "rank": "major",
   "title": {
-   "en": "Menas, Victor en Vincentius",
+   "en": "Menas, Victor and Vincentius",
    "nl": "Menas, Victor en Vincentius"
   },
   "summary": {
-   "en": "The Church commemorates Menas, Victor en Vincentius.",
+   "en": "The great martyr of Egypt, with his companions.",
    "nl": "De grote martelaar van Egypte, met zijn gezellen."
   }
  },
@@ -4116,7 +4116,7 @@
    "nl": "Johannes de Barmhartige"
   },
   "summary": {
-   "en": "The Church commemorates John the Merciful.",
+   "en": "Patriarch of Alexandria: almsgiving as liturgy.",
    "nl": "Patriarch van Alexandrië, de aalmoes als liturgie."
   }
  },
@@ -4129,7 +4129,7 @@
    "nl": "Johannes Chrysostomus"
   },
   "summary": {
-   "en": "The Church commemorates John Chrysostom.",
+   "en": "Archbishop of Constantinople, exiled for the truth. The Church prays his Liturgy most of the year. He preached Scripture verse by verse; for him the rich man and Lazarus was not just a parable but a judgement on the city.",
    "nl": "Aartsbisschop van Constantinopel, verbannen om de waarheid. Zijn liturgie bidt de Kerk het grootste deel van het jaar. Hij preekte de Schrift vers voor vers. De rijke man en Lazarus was geen gelijkenis voor hem, maar een vonnis over de stad."
   }
  },
@@ -4142,7 +4142,7 @@
    "nl": "Apostel Filippus"
   },
   "summary": {
-   "en": "The Church commemorates Apostle Philip.",
+   "en": "'Come and see.' The apostle of Bethsaida; the beginning of the Nativity Fast.",
    "nl": "Kom en zie. De apostel van Bethsaïda, begin van de Filippusvasten."
   }
  },
@@ -4151,11 +4151,11 @@
   "day": 15,
   "rank": "saint",
   "title": {
-   "en": "Gurias, Samonas en Abibus",
+   "en": "Gurias, Samonas and Abibus",
    "nl": "Gurias, Samonas en Abibus"
   },
   "summary": {
-   "en": "The Church commemorates Gurias, Samonas en Abibus.",
+   "en": "Martyrs of Edessa. The beginning of the Nativity Fast.",
    "nl": "Martelaren van Edessa. Begin van de geboortevasten."
   }
  },
@@ -4168,7 +4168,7 @@
    "nl": "Matteüs de Evangelist"
   },
   "summary": {
-   "en": "The Church commemorates Matthew the Evangelist.",
+   "en": "The tax collector, the first Gospel, the Child and the Magi.",
    "nl": "De tollenaar, het eerste evangelie, het Kind en de Magiërs."
   }
  },
@@ -4181,7 +4181,7 @@
    "nl": "Gregorius de Wonderdoener"
   },
   "summary": {
-   "en": "The Church commemorates Gregory the Wonderworker.",
+   "en": "Of Neocaesarea. The Creed received in a vision of John and the Mother of God.",
    "nl": "Van Neocaesarea. De geloofsbelijdenis in een visioen van Johannes en de Theotokos."
   }
  },
@@ -4190,11 +4190,11 @@
   "day": 18,
   "rank": "saint",
   "title": {
-   "en": "Platon van Ancyra",
+   "en": "Platon of Ancyra",
    "nl": "Platon van Ancyra"
   },
   "summary": {
-   "en": "The Church commemorates Platon van Ancyra.",
+   "en": "A martyr, brother of Antiochus.",
    "nl": "Martelaar, broer van Antiochus."
   }
  },
@@ -4207,7 +4207,7 @@
    "nl": "Profeet Obadja"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Obadiah.",
+   "en": "The vision about Edom; the day of the Lord.",
    "nl": "Het visioen over Edom, de dag des HEEREN."
   }
  },
@@ -4220,7 +4220,7 @@
    "nl": "Voorfeest van de Intocht · Gregorius van Decapolis"
   },
   "summary": {
-   "en": "The Church commemorates Forefeast of the Entry · Gregory of Decapolis.",
+   "en": "Mary draws near the temple. The confessor of the icons.",
    "nl": "Maria nadert de tempel. De belijder van de ikonen."
   }
  },
@@ -4233,7 +4233,7 @@
    "nl": "Intocht van de Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Entry of the Theotokos.",
+   "en": "Joachim and Anna bring her. The high priest leads her behind the veil, where no one was allowed. She herself is the Holy of Holies, the living ark. Here the Church already senses Christmas: the temple receives the dwelling place of God.",
    "nl": "Joachim en Anna brengen haar. De hogepriester ontvangt haar achter het voorhangsel — wat niemand mocht. Zij is zelf het Heilige der heiligen, de levende ark. De Kerk begint hier al Kerstmis te ruiken: de tempel ontvangt de woonstede Gods."
   }
  },
@@ -4242,11 +4242,11 @@
   "day": 22,
   "rank": "saint",
   "title": {
-   "en": "Filemon of the zeventig",
+   "en": "Philemon of the Seventy",
    "nl": "Filemon van de zeventig"
   },
   "summary": {
-   "en": "The Church commemorates Filemon of the zeventig.",
+   "en": "Paul's letter, the slave Onesimus, the church in his house.",
    "nl": "De brief van Paulus, de slaaf Onesimus, de kerk in het huis."
   }
  },
@@ -4259,7 +4259,7 @@
    "nl": "Amphilochius · Gregorius van Agrigento"
   },
   "summary": {
-   "en": "The Church commemorates Amphilochius · Gregory of Agrigentum.",
+   "en": "Bishop of Iconium, friend of Basil; and the bishop of Sicily.",
    "nl": "Bisschop van Iconium, vriend van Basilius; de Sicilian."
   }
  },
@@ -4272,7 +4272,7 @@
    "nl": "Clemens van Rome · Petrus van Alexandrië"
   },
   "summary": {
-   "en": "The Church commemorates Clement of Rome · Peter of Alexandria.",
+   "en": "The third successor of Peter, and the martyr-patriarch who wrote on the lapsed.",
    "nl": "De derde opvolger van Petrus, en de martelaar-patriarch van de brief over de afvalligen."
   }
  },
@@ -4285,7 +4285,7 @@
    "nl": "Catharina van Alexandrië · Mercurius"
   },
   "summary": {
-   "en": "The Church commemorates Catherine of Alexandria · Mercurius.",
+   "en": "The philosopher of the wheel, and the soldier of Caesarea.",
    "nl": "De filosofe van het rad, en de soldaat van Caesarea."
   }
  },
@@ -4298,7 +4298,7 @@
    "nl": "Alypius de Styliet"
   },
   "summary": {
-   "en": "The Church commemorates Alypius the Stylite.",
+   "en": "Sixty-seven years on his pillar near Adrianople.",
    "nl": "Zevenenzestig jaar op zijn zuil bij Adrianopel."
   }
  },
@@ -4307,11 +4307,11 @@
   "day": 27,
   "rank": "saint",
   "title": {
-   "en": "James de Pers",
+   "en": "James the Persian",
    "nl": "Jakobus de Pers"
   },
   "summary": {
-   "en": "The Church commemorates James de Pers.",
+   "en": "Cut in pieces, limb by limb, to the crown.",
    "nl": "In stukken gesneden, lid voor lid, tot de kroon."
   }
  },
@@ -4324,7 +4324,7 @@
    "nl": "Stefanus de Nieuwe"
   },
   "summary": {
-   "en": "The Church commemorates Stephen the New.",
+   "en": "The great martyr of the icons, under Constantine Copronymus.",
    "nl": "De grote martelaar van de ikonen, onder Constantijn Kopronymos."
   }
  },
@@ -4337,7 +4337,7 @@
    "nl": "Paramon"
   },
   "summary": {
-   "en": "The Church commemorates Paramon.",
+   "en": "Martyr of Bithynia, with 370 companions.",
    "nl": "Martelaar van Bithynië, met 370 gezellen."
   }
  },
@@ -4350,7 +4350,7 @@
    "nl": "Andreas de Eerstgeroepene"
   },
   "summary": {
-   "en": "The Church commemorates Andrew the First-called.",
+   "en": "The first disciple, apostle of Byzantium, the diagonal cross.",
    "nl": "De eerste leerling, apostel van Byzantium, het schuine kruis."
   }
  },
@@ -4363,7 +4363,7 @@
    "nl": "Profeet Nahum"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Nahum.",
+   "en": "Nineveh, the city of blood. The Lord is a stronghold.",
    "nl": "Ninivé, de stad van bloed. De HEERE is een toevlucht."
   }
  },
@@ -4376,7 +4376,7 @@
    "nl": "Profeet Habakuk"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Habakkuk.",
+   "en": "The righteous shall live by his faith. The watchman on the tower.",
    "nl": "De rechtvaardige zal door zijn geloof leven. De wacht op de toren."
   }
  },
@@ -4389,7 +4389,7 @@
    "nl": "Profeet Sefanja"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Zephaniah.",
+   "en": "The day of the Lord, the remnant of Israel.",
    "nl": "De dag des HEEREN, het overblijfsel van Israël."
   }
  },
@@ -4402,7 +4402,7 @@
    "nl": "Barbara · Johannes van Damascus"
   },
   "summary": {
-   "en": "The Church commemorates Barbara · John of Damascus.",
+   "en": "Barbara, locked up by her father, confesses the Trinity with three windows. John of Damascus, monk of St Sabbas: the icon is possible because the Word became flesh. Against the emperor, for the Face.",
    "nl": "Barbara, opgesloten door haar vader, belijdt de Drie-eenheid in drie vensters. Johannes van Damascus, de monnik van Sabbas: de ikoon is mogelijk omdat het Woord vlees is geworden. Tegen de keizer, voor het gelaat."
   }
  },
@@ -4415,7 +4415,7 @@
    "nl": "Sabbas de Geheiligde"
   },
   "summary": {
-   "en": "The Church commemorates Sabbas the Sanctified.",
+   "en": "Father of the great lavra, the typikon of Palestine.",
    "nl": "Vader van de grote laura, de typikon van Palestina."
   }
  },
@@ -4428,7 +4428,7 @@
    "nl": "Nicolaas van Myra"
   },
   "summary": {
-   "en": "The Church commemorates Nicholas of Myra.",
+   "en": "Bishop of Myra in Lycia. He strikes Arius out of zeal, not anger; he saves the three generals, the three girls and the sailors. East and West honour him as the icon of the shepherd: hidden almsgiving, open confession.",
    "nl": "Bisschop van Myra in Lycië. Hij slaat Arius niet uit woede maar uit ijver; hij redt de drie generaals, de drie meisjes, de zeelieden. De Kerk van Oost en West eert hem als de icoon van de herder: verborgen aalmoes, openlijke belijdenis."
   }
  },
@@ -4441,7 +4441,7 @@
    "nl": "Ambrosius van Milaan"
   },
   "summary": {
-   "en": "The Church commemorates Ambrose of Milan.",
+   "en": "The governor who became bishop. Theodosius had to bow.",
    "nl": "De consul die bisschop werd. Theodosius moest buigen."
   }
  },
@@ -4450,11 +4450,11 @@
   "day": 8,
   "rank": "saint",
   "title": {
-   "en": "Patapius van Thebe",
+   "en": "Patapius of Thebes",
    "nl": "Patapius van Thebe"
   },
   "summary": {
-   "en": "The Church commemorates Patapius van Thebe.",
+   "en": "A hermit near Constantinople, a healer.",
    "nl": "Kluizenaar bij Constantinopel, genezer."
   }
  },
@@ -4467,7 +4467,7 @@
    "nl": "Ontvangenis van de Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Conception of the Theotokos.",
+   "en": "Anna conceives Mary. The yes of the parents, before the yes of the Virgin.",
    "nl": "Anna ontvangt Maria. Het ja van de ouders, vóór het ja van de Maagd."
   }
  },
@@ -4476,11 +4476,11 @@
   "day": 10,
   "rank": "saint",
   "title": {
-   "en": "Menas, Hermogenes en Eugraphus",
+   "en": "Menas, Hermogenes and Eugraphus",
    "nl": "Menas, Hermogenes en Eugraphus"
   },
   "summary": {
-   "en": "The Church commemorates Menas, Hermogenes en Eugraphus.",
+   "en": "Martyrs of Alexandria under Maximinus.",
    "nl": "Martelaren van Alexandrië onder Maximinus."
   }
  },
@@ -4493,7 +4493,7 @@
    "nl": "Daniël de Styliet"
   },
   "summary": {
-   "en": "The Church commemorates Daniel the Stylite.",
+   "en": "The pillar saint on the Bosphorus, counsellor of emperors.",
    "nl": "De zuilheilige aan de Bosporus, raadgever van keizers."
   }
  },
@@ -4506,7 +4506,7 @@
    "nl": "Spyridon van Trimythous"
   },
   "summary": {
-   "en": "The Church commemorates Spyridon of Trimythous.",
+   "en": "Spyridon at Nicaea: the Trinity is not arithmetic. The brick in his hand becomes three that are one. He remains the village shepherd in his wicker hat, a wonderworker to this day.",
    "nl": "Spyridon op Nicea: de Drie-eenheid is geen rekenkunde. De baksteen in zijn hand wordt tot de drie die één zijn. Hij blijft de dorpsherder met de muts van vlechtwerk, wonderdoener tot op heden."
   }
  },
@@ -4519,7 +4519,7 @@
    "nl": "Eustratius en gezellen"
   },
   "summary": {
-   "en": "The Church commemorates Eustratius and companions.",
+   "en": "The five martyrs of Armenia, the wise Eustratius.",
    "nl": "De vijf martelaren van Armenië, de wijze Eustratius."
   }
  },
@@ -4528,11 +4528,11 @@
   "day": 14,
   "rank": "saint",
   "title": {
-   "en": "Thyrsus, Leucius en Callinicus",
+   "en": "Thyrsus, Leucius and Callinicus",
    "nl": "Thyrsus, Leucius en Callinicus"
   },
   "summary": {
-   "en": "The Church commemorates Thyrsus, Leucius en Callinicus.",
+   "en": "Martyrs of Bithynia.",
    "nl": "Martelaren van Bithynië."
   }
  },
@@ -4541,11 +4541,11 @@
   "day": 15,
   "rank": "saint",
   "title": {
-   "en": "Eleutherius van Illyrië",
+   "en": "Eleutherius of Illyria",
    "nl": "Eleutherius van Illyrië"
   },
   "summary": {
-   "en": "The Church commemorates Eleutherius van Illyrië.",
+   "en": "The young bishop-martyr, with his mother Anthia.",
    "nl": "De jonge bisschop-martelaar, met zijn moeder Anthia."
   }
  },
@@ -4558,7 +4558,7 @@
    "nl": "Profeet Haggai"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Haggai.",
+   "en": "'Build this house, and I will take pleasure in it.'",
    "nl": "Bouw dit huis, en Ik zal welgevallen daaraan hebben."
   }
  },
@@ -4571,7 +4571,7 @@
    "nl": "Profeet Daniël en de drie jongelingen"
   },
   "summary": {
-   "en": "The Church commemorates Prophet Daniel and the Three Youths.",
+   "en": "The fiery furnace, the lions' den, the Son of Man.",
    "nl": "De vuuroven, de leeuwenkuil, de Zoon des mensen."
   }
  },
@@ -4580,11 +4580,11 @@
   "day": 18,
   "rank": "saint",
   "title": {
-   "en": "Sebastiaan of Rome",
+   "en": "Sebastian of Rome",
    "nl": "Sebastiaan van Rome"
   },
   "summary": {
-   "en": "The Church commemorates Sebastiaan of Rome.",
+   "en": "The soldier at the stake, the arrows, the second death.",
    "nl": "De soldaat aan de paal, de pijlen, de tweede dood."
   }
  },
@@ -4593,11 +4593,11 @@
   "day": 19,
   "rank": "saint",
   "title": {
-   "en": "Bonifatius van Tarsus",
+   "en": "Bonifatius of Tarsus",
    "nl": "Bonifatius van Tarsus"
   },
   "summary": {
-   "en": "The Church commemorates Bonifatius van Tarsus.",
+   "en": "From Rome to the East for relics, and became a relic himself.",
    "nl": "Van Rome naar het Oosten om relieken, zelf reliek geworden."
   }
  },
@@ -4610,7 +4610,7 @@
    "nl": "Ignatius de Goddrager"
   },
   "summary": {
-   "en": "The Church commemorates Ignatius the God-bearer.",
+   "en": "The bishop of Antioch, disciple of John. On the way to Rome he wrote seven letters: the Eucharist is the medicine of immortality, the bishop an icon of the Father. He died in the arena. The Church already senses the manger.",
    "nl": "De bisschop van Antiochië, leerling van Johannes. Op weg naar Rome schrijft hij de zeven brieven: de eucharistie is geneesmiddel der onsterfelijkheid, de bisschop is icoon van de Vader. Hij sterft in de arena. De Kerk ruikt al de kribbe."
   }
  },
@@ -4619,11 +4619,11 @@
   "day": 21,
   "rank": "saint",
   "title": {
-   "en": "Juliana van Nicomedië",
+   "en": "Juliana of Nicomedia",
    "nl": "Juliana van Nicomedië"
   },
   "summary": {
-   "en": "The Church commemorates Juliana van Nicomedië.",
+   "en": "Virgin-martyr, who overcame the devil in prison.",
    "nl": "Maagd-martelares, de duivel geslagen in de kerker."
   }
  },
@@ -4636,7 +4636,7 @@
    "nl": "Anastasia, bevrijdster uit boeien"
   },
   "summary": {
-   "en": "The Church commemorates Anastasia, deliverer from bonds.",
+   "en": "The Roman healer of prisoners, a martyr.",
    "nl": "De Romeinse, genezeres van gevangenen, martelares."
   }
  },
@@ -4649,7 +4649,7 @@
    "nl": "Tien martelaren van Kreta"
   },
   "summary": {
-   "en": "The Church commemorates Ten Martyrs of Crete.",
+   "en": "Under Decius, the island turned to blood.",
    "nl": "Onder Decius, het eiland tot bloed."
   }
  },
@@ -4662,7 +4662,7 @@
    "nl": "Vooravond van de Geboorte"
   },
   "summary": {
-   "en": "The Church commemorates Eve of the Nativity.",
+   "en": "The eve. The Church holds her breath: the cave of Bethlehem, the Magi on the way, the shepherds in the night. Tomorrow, the Word.",
    "nl": "De paramoní. De Kerk houdt de adem in. De grottenspelonken van Bethlehem, de magiërs onderweg, de herders in de nacht. Morgen het Woord."
   }
  },
@@ -4675,7 +4675,7 @@
    "nl": "Geboorte van Christus"
   },
   "summary": {
-   "en": "The Church commemorates Nativity of Christ.",
+   "en": "Bethlehem. The cave, the manger, the Mother of God, Joseph the guardian, the angels, the shepherds, the Magi. Not a children's story: the Incarnation of the second Person of the Trinity. He becomes poor so that we may become rich. The Sun of righteousness rises. Christ is born, glorify Him!",
    "nl": "Bethlehem. De grot, de kribbe, de Theotokos, Jozef de voogd, de engelen, de herders, de magiërs. Niet een kinderstof: de menswording van de tweede Persoon. Hij wordt arm, opdat wij rijk zouden worden. De zon der gerechtigheid gaat op. Christus wordt geboren — verheerlijkt Hem."
   }
  },
@@ -4688,7 +4688,7 @@
    "nl": "Synaxis van de Theotokos"
   },
   "summary": {
-   "en": "The Church commemorates Synaxis of the Theotokos.",
+   "en": "The day after the Nativity belongs to her who gave birth without corruption.",
    "nl": "De dag na Kerstmis is van Haar die baarde zonder verderving."
   }
  },
@@ -4701,7 +4701,7 @@
    "nl": "Stefanus de Protomartelaar"
   },
   "summary": {
-   "en": "The Church commemorates Stephen the Protomartyr.",
+   "en": "'Behold, I see the heavens opened.' The first martyr.",
    "nl": "Zie, ik zie de hemelen geopend. De eerste bloedgetuige."
   }
  },
@@ -4714,7 +4714,7 @@
    "nl": "Twintigduizend martelaren van Nicomedië"
   },
   "summary": {
-   "en": "The Church commemorates Twenty thousand Martyrs of Nicomedia.",
+   "en": "Burned in their church on the feast of Christ's birth.",
    "nl": "Verbrand in de kerk op de geboortedag van Christus."
   }
  },
@@ -4727,7 +4727,7 @@
    "nl": "Veertienduizend kinderen van Bethlehem"
   },
   "summary": {
-   "en": "The Church commemorates Fourteen thousand children of Bethlehem.",
+   "en": "The Holy Innocents, the first martyrs of the New Covenant.",
    "nl": "De onnozele kinderen, de eerste martelaren van het Nieuwe Verbond."
   }
  },
@@ -4740,7 +4740,7 @@
    "nl": "Anysia van Thessaloniki"
   },
   "summary": {
-   "en": "The Church commemorates Anysia of Thessalonica.",
+   "en": "A virgin-martyr on her way to the liturgy.",
    "nl": "Maagd-martelares op weg naar de liturgie."
   }
  },
@@ -4753,7 +4753,7 @@
    "nl": "Slot van de Geboorte · Melania de Jongere"
   },
   "summary": {
-   "en": "The Church commemorates Leave-taking of the Nativity · Melania the Younger.",
+   "en": "The leave-taking of the Nativity, and the Roman woman who gave everything away.",
    "nl": "De nazang van Kerstmis, en de Romeinse die alles gaf."
   }
  }

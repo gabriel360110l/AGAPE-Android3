@@ -342,7 +342,10 @@
   "key": "george",
   "file": "icons/george.jpg",
   "match": [
-   "\\bGeorge\\b"
+   "George the (Trophy-bearer|Great|Victorious)",
+   "Great[- ]?martyr George",
+   "(St\\.?|Saint) George\\b(?! of)",
+   "^George$"
   ],
   "title": "Novgorod George",
   "artist": "AnonymousUnknown author",
@@ -632,6 +635,283 @@
   "fallback": false
  },
  {
+  "key": "macarius",
+  "file": "icons/macarius.jpg",
+  "match": [
+   "Macarius the (Great|Egyptian|Elder)",
+   "Body of St\\. Macarius to His Monastery"
+  ],
+  "title": "Macarius the Elder Crop",
+  "artist": "Солнцев, Фёдор Григорьевич",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Macarius_the_Elder_Crop.jpg",
+  "fallback": false
+ },
+ {
+  "key": "ignatius",
+  "file": "icons/ignatius.jpg",
+  "match": [
+   "Ignatius (of Antioch|the God-bearer|Theophorus)",
+   "Ignatius,? (Bishop|Patriarch) of Antioch"
+  ],
+  "title": "Byzantine - Saint Ignatius of Antioch - Walters 4820867",
+  "artist": "Anonymous (Byzantine Empire)Unknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Saint_Ignatius_of_Antioch_-_Walters_4820867.jpg",
+  "fallback": false
+ },
+ {
+  "key": "polycarp",
+  "file": "icons/polycarp.jpg",
+  "match": [
+   "Polycarp"
+  ],
+  "title": "Polycarp",
+  "artist": "",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Polycarp.jpg",
+  "fallback": false
+ },
+ {
+  "key": "maximus",
+  "file": "icons/maximus.jpg",
+  "match": [
+   "Maximus the Confessor"
+  ],
+  "title": "Athonite Fresco Icon of Saint Maximos the Confessor",
+  "artist": "Unknown authorUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Athonite_Fresco_Icon_of_Saint_Maximos_the_Confessor.jpg",
+  "fallback": false
+ },
+ {
+  "key": "sergius_bacchus",
+  "file": "icons/sergius_bacchus.jpg",
+  "match": [
+   "Sergius and (St\\.? )?Bacchus",
+   "\\bBacchus\\b"
+  ],
+  "title": "ܡܪܝ ܣܪܓܝܣ ܘܡܪܝ ܒܟܘܣ",
+  "artist": "Unknown authorUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:%DC%A1%DC%AA%DC%9D_%DC%A3%DC%AA%DC%93%DC%9D%DC%A3_%DC%98%DC%A1%DC%AA%DC%9D_%DC%92%DC%9F%DC%98%DC%A3.jpg",
+  "fallback": false
+ },
+ {
+  "key": "sergius_radonezh",
+  "file": "icons/sergius_radonezh.jpg",
+  "match": [
+   "Sergius of Radonezh"
+  ],
+  "title": "Sergius of Radonezh begin of 16c SPMZ",
+  "artist": "AnonymousUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Sergius_of_Radonezh_begin_of_16c_SPMZ.jpg",
+  "fallback": false
+ },
+ {
+  "key": "seraphim",
+  "file": "icons/seraphim.jpg",
+  "match": [
+   "Seraphim of Sarov"
+  ],
+  "title": "Seraphim of Sarov (after 1903, priv.coll)",
+  "artist": "Anonymous Russian icon painter (before 1917)Public domain image (according to PD-Russia-expired)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Seraphim_of_Sarov_(after_1903,_priv.coll).jpg",
+  "fallback": false
+ },
+ {
+  "key": "simeon_stylite",
+  "file": "icons/simeon_stylite.jpg",
+  "match": [
+   "Sim(e)?on( \\(Simeon\\))? the (Elder )?Stylite",
+   "Simeon Stylites"
+  ],
+  "title": "Simeon Stylites icon 1465",
+  "artist": "AnonymousUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Simeon_Stylites_icon_1465.jpg",
+  "fallback": false
+ },
+ {
+  "key": "thecla",
+  "file": "icons/thecla.jpg",
+  "match": [
+   "(St\\.?|Saint) Thecla\\b(?! and)",
+   "Thecla,? equal to the apostles",
+   "^Thecla$"
+  ],
+  "title": "Saint Thecla, Lebanon (14 Century)",
+  "artist": "",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Thecla,_Lebanon_(14_Century).jpg",
+  "fallback": false
+ },
+ {
+  "key": "euphemia",
+  "file": "icons/euphemia.jpg",
+  "match": [
+   "Euphemia"
+  ],
+  "title": "St Euphemia",
+  "artist": "AnonymousUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:St_Euphemia.jpg",
+  "fallback": false
+ },
+ {
+  "key": "marina",
+  "file": "icons/marina.jpg",
+  "match": [
+   "\\bMarina\\b"
+  ],
+  "title": "Cretan Icon of Saint Marina in Thiseio",
+  "artist": "Unknown authorUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Cretan_Icon_of_Saint_Marina_in_Thiseio.jpg",
+  "fallback": false
+ },
+ {
+  "key": "paraskevi",
+  "file": "icons/paraskevi.jpg",
+  "match": [
+   "Paraskev[ai] of Rome",
+   "^Paraskev[ai]$"
+  ],
+  "title": "002 Saint Paraskevi Icon from Saint Paraskevi Church in Langadas",
+  "artist": "Stefanos Pantazis",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:002_Saint_Paraskevi_Icon_from_Saint_Paraskevi_Church_in_Langadas.jpg",
+  "fallback": false
+ },
+ {
+  "key": "barbara",
+  "file": "icons/barbara.jpg",
+  "match": [
+   "\\bBarbara\\b"
+  ],
+  "title": "Saint Barbara (ca. 1680-1690)",
+  "artist": "Unidentified (Puerto Rican)",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Barbara_(ca._1680-1690).jpg",
+  "fallback": false
+ },
+ {
+  "key": "pachomius",
+  "file": "icons/pachomius.jpg",
+  "match": [
+   "(?<!disciple of St\\. )Pachomius"
+  ],
+  "title": "StPakhom",
+  "artist": "",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:StPakhom.jpg",
+  "fallback": false
+ },
+ {
+  "key": "cosmas_damian",
+  "file": "icons/cosmas_damian.jpg",
+  "match": [
+   "Cosmas and (St\\.? |Saint )?Damian",
+   "Cosmas, Damian"
+  ],
+  "title": "Saints Cosmas and Damian icon, Syria (1778)",
+  "artist": "Unknown authorUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saints_Cosmas_and_Damian_icon,_Syria_(1778).jpg",
+  "fallback": false
+ },
+ {
+  "key": "john_damascus",
+  "file": "icons/john_damascus.jpg",
+  "match": [
+   "John (of Damascus|Damascene)"
+  ],
+  "title": "Icon of Saint John of Damascus - Emmanouel Tzanes",
+  "artist": "Emmanouel Tzanes",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Icon_of_Saint_John_of_Damascus_-_Emmanouel_Tzanes.jpg",
+  "fallback": false
+ },
+ {
+  "key": "moses_black",
+  "file": "icons/moses_black.jpg",
+  "match": [
+   "Moses the (Black|Ethiopian|Strong)"
+  ],
+  "title": "Saints Poimen, Elijah, and Moses the Black",
+  "artist": "Unknown authorUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saints_Poimen,_Elijah,_and_Moses_the_Black.jpg",
+  "fallback": false
+ },
+ {
+  "key": "sabbas",
+  "file": "icons/sabbas.jpg",
+  "match": [
+   "Sabbas the Sanctified",
+   "Lavra of Sabbas",
+   "(St\\.?|Saint) Sabbas\\b(?! the Stratelates)"
+  ],
+  "title": "SabbastheSanctified",
+  "artist": "The original uploader was Alekjds at English Wikipedia.",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:SabbastheSanctified.jpg",
+  "fallback": false
+ },
+ {
+  "key": "cyril_methodius",
+  "file": "icons/cyril_methodius.jpg",
+  "match": [
+   "Cyril and (St\\.? )?Methodius",
+   "Cyril, teacher of the Slavs",
+   "Cyril, monk, and Methodius"
+  ],
+  "title": "Sts Cyril and Methodius Icon in Tresonche",
+  "artist": "Unknown authorUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Sts_Cyril_and_Methodius_Icon_in_Tresonche.png",
+  "fallback": false
+ },
+ {
+  "key": "boris_gleb",
+  "file": "icons/boris_gleb.jpg",
+  "match": [
+   "Boris and Gleb"
+  ],
+  "title": "BorisGleb",
+  "artist": "anonymous",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:BorisGleb.jpg",
+  "fallback": false
+ },
+ {
+  "key": "climacus",
+  "file": "icons/climacus.jpg",
+  "match": [
+   "Climacus"
+  ],
+  "title": "John Climacus",
+  "artist": "AnonymousUnknown author",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:John_Climacus.jpg",
+  "fallback": false
+ },
+ {
+  "key": "isaiah",
+  "file": "icons/isaiah.jpg",
+  "match": [
+   "Prophet Isaiah",
+   "Isaiah,? the Prophet"
+  ],
+  "title": "Isaiah Prophet",
+  "artist": "I believe it was a Russian Icon.",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Isaiah_Prophet.jpg",
+  "fallback": false
+ },
+ {
   "key": "apostles",
   "file": "icons/apostles.jpg",
   "match": [
@@ -657,10 +937,10 @@
    "(St\\.?|Saint) Mary\\b(?! of| Magdal)",
    "Holy Virgin"
   ],
-  "title": "Theotokos Hodegetria 14th c Serbia",
+  "title": "Hodegetria - Byzantine Empire - 15th century",
   "artist": "Unknown authorUnknown author",
   "licence": "Public domain",
-  "source": "https://commons.wikimedia.org/wiki/File:Theotokos_Hodegetria_14th_c_Serbia.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Hodegetria_-_Byzantine_Empire_-_15th_century.JPG",
   "fallback": true
  },
  {

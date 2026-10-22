@@ -574,17 +574,45 @@ def build_extra_prayers():
     write_json("prayers_extra.json", out)
 
 
+# The legacy English titles are partly Dutch ("Polyeuctus van Melitene", "of the zeventig"); these put them right.
+EN_TITLE_FIXES = [
+    (r"\bof the zeventig\b", "of the Seventy"), (r"\bMartelaren\b", "Martyrs"), (r"\bleerling van Gregorius\b", "disciple of Gregory"),
+    (r"\bOude Grotten\b", "Old Caves"), (r"\bde Pers\b", "the Persian"), (r"\bde martelaar\b", "the Martyr"),
+    (r"\bde Wonderdoener\b", "the Wonderworker"), (r"\bde Hymnograaf\b", "the Hymnographer"), (r"\bde Stratelates\b", "the Stratelates"),
+    (r"\bde Goth\b", "the Goth"), (r"\ben\b", "and"), (r"\bvan\b", "of"),
+    (r"Jordaan", "Jordan"), (r"Isaurië", "Isauria"), (r"Nicomedië", "Nicomedia"), (r"Korinthe", "Corinth"), (r"Illyrië", "Illyria"),
+    (r"Azië", "Asia"), (r"Hiërapolis", "Hierapolis"), (r"Sinaï", "Sinai"), (r"\bThebe\b", "Thebes"), (r"Micah[eë]l", "Michael"),
+    (r"Isaäc", "Isaac"), (r"Dorotheüs", "Dorotheus"), (r"Hermolaüs", "Hermolaus"), (r"Sebastiaan", "Sebastian"),
+    (r"Filemon", "Philemon"), (r"Ismaël", "Ismael"), (r"Georgius", "George"), (r"Markus", "Mark"), (r"Nicétas", "Nicetas"),
+    (r"\bDamianus\b", "Damian"),
+]
+
+
 def build_saints_eo():
     legacy = read_json(os.path.join(SRC, "legacy", "menologion.json"))
-    out = [{
-        "month": int(e["month"]), "day": int(e["day"]), "rank": e.get("rank", "saint"),
-        "title": tr(e.get("titleEn"), e.get("title")),
-        "summary": tr(e.get("explanationEn") or e.get("teaserEn"), e.get("explanation") or e.get("teaser")),
-    } for e in legacy["entries"]]
+    # Hand-written English summaries (the legacy English ones were a placeholder sentence) and title corrections.
+    en = read_json(os.path.join(SRC, "menologion_en.json"))
+    out = []
+    for e in legacy["entries"]:
+        key = f"{int(e['month']):02d}-{int(e['day']):02d}"
+        title_en = e.get("titleEn") or ""
+        for pattern, repl in EN_TITLE_FIXES:
+            title_en = re.sub(pattern, repl, title_en)
+        title_en = en["titles"].get(key, title_en)
+        title_nl = en.get("titles_nl", {}).get(key, e.get("title"))
+        out.append({
+            "month": int(e["month"]), "day": int(e["day"]), "rank": e.get("rank", "saint"),
+            "title": tr(title_en, title_nl),
+            "summary": tr(en["summaries"].get(key) or e.get("explanationEn") or e.get("teaserEn"), e.get("explanation") or e.get("teaser")),
+        })
     write_json("saints_eo.json", out)
 
 
 if __name__ == "__main__":
+    import sys
+    if "--saints" in sys.argv:  # only the menologion, without downloading the Bibles again
+        build_saints_eo()
+        sys.exit()
     os.makedirs(CACHE, exist_ok=True)
     rows = build_db()
     build_books(rows)

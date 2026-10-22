@@ -130,7 +130,8 @@ fun HomeScreen(
                 Kicker(stringResource(R.string.home_verse_of_day), color = c.onPrimary.copy(alpha = 0.75f))
                 Spacer(Modifier.height(16.dp))
                 Text(
-                    "“${verseText ?: "…"}”",
+                    // The verse may open or close a quotation of its own; the card supplies the outer quotes.
+                    "“${verseText?.trim(' ', '“', '”', '"') ?: "…"}”",
                     style = AgapeTheme.type.scripture.copy(fontSize = AgapeTheme.type.scripture.fontSize * 1.12f),
                     color = c.onPrimary,
                 )
