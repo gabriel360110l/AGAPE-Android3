@@ -2,24 +2,24 @@
 
 ## 1
 ? From whom does all wisdom come? | Van wie is alle wijsheid?
-= From the Lord | Van de Here
+= From the Lord | Van de Heer
 - From the kings of the earth | Van de koningen der aarde
 - From the stars | Van de sterren
 ? What is the beginning of wisdom? | Wat is het begin der wijsheid?
-= To fear the Lord | De Here vrezen
+= To fear the Lord | De Heer vrezen
 - To be rich | Rijk zijn
 - To read many books | Veel boeken lezen
 ? What should you do if you desire wisdom? | Wat moet gij doen als gij lust hebt tot wijsheid?
 = Keep the commandments | De geboden bewaren
 - Travel to far lands | Naar verre landen reizen
 - Keep silent forever | Altijd zwijgen
-? With what kind of heart should you not come to the Lord? | Met wat voor hart moet gij niet tot de Here gaan?
+? With what kind of heart should you not come to the Lord? | Met wat voor hart moet gij niet tot de Heer gaan?
 = A double heart | Een dubbel hart
 - A humble heart | Een nederig hart
 - A glad heart | Een blijde hart
 
 ## 2
-? For what should you prepare your soul when you come to serve the Lord? | Waartoe moet gij uw ziel bereiden als gij komt om de Here te dienen?
+? For what should you prepare your soul when you come to serve the Lord? | Waartoe moet gij uw ziel bereiden als gij komt om de Heer te dienen?
 = Temptation | Aanvechting
 - Riches | Rijkdom
 - Rest | Rust
@@ -27,10 +27,10 @@
 = In the fire | In het vuur
 - In the water | In het water
 - In the market | Op de markt
-? What does the writer ask about those who trusted in the Lord? | Wat vraagt de schrijver over hen die op de Here vertrouwd hebben?
-= Who ever trusted in the Lord and was put to shame? | Wie heeft op de Here betrouwd en is beschaamd geworden?
-- Who ever trusted in the Lord and became rich? | Wie heeft op de Here betrouwd en is rijk geworden?
-- Who ever trusted in the Lord and was not tested? | Wie heeft op de Here betrouwd en is niet beproefd?
+? What does the writer ask about those who trusted in the Lord? | Wat vraagt de schrijver over hen die op de Heer vertrouwd hebben?
+= Who ever trusted in the Lord and was put to shame? | Wie heeft op de Heer betrouwd en is beschaamd geworden?
+- Who ever trusted in the Lord and became rich? | Wie heeft op de Heer betrouwd en is rijk geworden?
+- Who ever trusted in the Lord and was not tested? | Wie heeft op de Heer betrouwd en is niet beproefd?
 ? Into whose hands would they rather fall? | In wiens handen willen zij liever vallen?
 = The Lord's, not men's | Die van God, niet die van de mensen
 - Men's, not the Lord's | Die van de mensen, niet die van God
@@ -75,10 +75,10 @@
 ## 5
 ? What should you not say after you sin? | Wat moet gij niet zeggen nadat gij gezondigd hebt?
 = I sinned, and what harm came to me? | Ik heb gezondigd, en welk leed is mij geschied?
-- Lord, forgive me | Here, vergeef mij
+- Lord, forgive me | Heer, vergeef mij
 - I will make it right | Ik zal het goedmaken
 ? What should you not put off from day to day? | Wat moet gij niet uitstellen van dag tot dag?
-= Turning to the Lord | U tot de Here bekeren
+= Turning to the Lord | U tot de Heer bekeren
 - Paying your debts | Uw schulden betalen
 - Your work | Uw werk
 ? What should you not winnow with? | Waarmee moet gij niet wannen?
@@ -172,7 +172,7 @@
 - As a cedar | Als een ceder
 - As a lion | Als een leeuw
 ? What is the beginning of pride? | Wat is het beginsel der hovaardigheid?
-= When a man departs from the Lord who made him | Wanneer een mens van de Here afwijkt, die hem gemaakt heeft
+= When a man departs from the Lord who made him | Wanneer een mens van de Heer afwijkt, die hem gemaakt heeft
 - When a man becomes rich | Wanneer een mens rijk wordt
 - When a man is praised | Wanneer een mens geprezen wordt
 ? What does the chapter say of the king of today? | Wat zegt het hoofdstuk van wie heden koning is?
@@ -189,7 +189,7 @@
 = Answer | Antwoorden
 - Eat | Eten
 - Sleep | Slapen
-? What comes from the Lord according to this chapter? | Wat is volgens dit hoofdstuk van de Here?
+? What comes from the Lord according to this chapter? | Wat is volgens dit hoofdstuk van de Heer?
 = Good and bad things, life and death, poverty and riches | Goede en kwade dingen, leven en dood, armoede en rijkdom
 - Only good things | Alleen goede dingen
 - Only riches | Alleen rijkdom
@@ -226,7 +226,7 @@
 - They cook together well | Zij koken goed samen
 - The pot breaks the kettle | De pot breekt de ketel
 ? What fellowship has the wolf with the lamb? | Wat gemeenschap heeft een wolf met een lam?
-= As much as the sinner with the godly | Zoveel als een zondaar met wie de Here vreest
+= As much as the sinner with the godly | Zoveel als een zondaar met wie de Heer vreest
 - They are friends | Zij zijn vrienden
 - They share a field | Zij delen een veld
 ? What do people say when a poor man speaks? | Wat zegt men als een arme spreekt?
@@ -253,7 +253,7 @@
 - Waves of the sea | Golven van de zee
 
 ## 15
-? How will wisdom meet him who fears the Lord? | Hoe zal de wijsheid hem tegemoet gaan die de Here vreest?
+? How will wisdom meet him who fears the Lord? | Hoe zal de wijsheid hem tegemoet gaan die de Heer vreest?
 = Like a mother | Gelijk een moeder
 - Like a judge | Gelijk een rechter
 - Like a stranger | Gelijk een vreemde
@@ -262,7 +262,7 @@
 - Milk and honey | Melk en honing
 - Manna | Manna
 ? What should you not say about your falling away? | Wat moet gij niet zeggen over uw afval?
-= The Lord made me fall away | De Here is oorzaak dat ik afgevallen ben
+= The Lord made me fall away | De Heer is oorzaak dat ik afgevallen ben
 - I am sorry | Het spijt mij
 - I will return | Ik zal terugkeren
 ? What has God set before man, to choose? | Wat heeft God de mens voorgesteld om te kiezen?
@@ -283,13 +283,13 @@
 = A storm wind no man can see | Een stormwind die de mens niet zien kan
 - A lamp | Een lamp
 - A river | Een rivier
-? What did the Lord do with the earth after making his works? | Wat deed de Here met de aarde na het maken van zijn werken?
+? What did the Lord do with the earth after making his works? | Wat deed de Heer met de aarde na het maken van zijn werken?
 = He looked at it and filled it with his blessings | Hij zag haar aan en vervulde haar met zijn goederen
 - He cursed it | Hij vervloekte haar
 - He left it empty | Hij liet haar leeg
 
 ## 17
-? Out of what did the Lord create man? | Waaruit heeft de Here de mens geschapen?
+? Out of what did the Lord create man? | Waaruit heeft de Heer de mens geschapen?
 = Earth | Aarde
 - Water | Water
 - Fire | Vuur
@@ -297,7 +297,7 @@
 = His own | Zijn eigen beeld
 - The angels' | Dat van de engelen
 - The beasts' | Dat van de dieren
-? Whom did the Lord take as his own portion among the nations? | Welk volk nam de Here onder de volken tot zijn deel?
+? Whom did the Lord take as his own portion among the nations? | Welk volk nam de Heer onder de volken tot zijn deel?
 = Israel | Israël
 - Egypt | Egypte
 - Greece | Griekenland
@@ -315,7 +315,7 @@
 = A drop of water against the sea | Een droppel water tegen het water van de zee
 - A mountain | Een berg
 - A great river | Een grote rivier
-? How does the Lord teach and bring back all flesh? | Hoe onderwijst en bekeert de Here alle vlees?
+? How does the Lord teach and bring back all flesh? | Hoe onderwijst en bekeert de Heer alle vlees?
 = As a shepherd his flock | Gelijk een herder zijn kudde
 - As a king his soldiers | Gelijk een koning zijn soldaten
 - As a judge a thief | Gelijk een rechter een dief
@@ -397,7 +397,7 @@
 - A veil | Een sluier
 
 ## 23
-? How does the writer address the Lord at the start of his prayer? | Hoe spreekt de schrijver de Here aan het begin van zijn gebed aan?
+? How does the writer address the Lord at the start of his prayer? | Hoe spreekt de schrijver de Heer aan het begin van zijn gebed aan?
 = Father and Master of my life | Vader en Heerser des gansen levens
 - King of the nations | Koning der volken
 - God of Abraham | God van Abraham
@@ -410,7 +410,7 @@
 - Your enemies | Uw vijanden
 - Your servants | Uw dienstknechten
 ? What will those left behind know at the end of the chapter? | Wat zullen de nagelatenen aan het eind van het hoofdstuk bekennen?
-= Nothing is better than the fear of the Lord | Dat er niets beter is dan de vreze des Heren
+= Nothing is better than the fear of the Lord | Dat er niets beter is dan de vreze van de Heer
 - Nothing is better than riches | Dat er niets beter is dan rijkdom
 - Nothing is better than a long life | Dat er niets beter is dan een lang leven
 
@@ -433,7 +433,7 @@
 - The book of dreams | Het boek der dromen
 
 ## 25
-? How many things does the writer name at the start that are beautiful before the Lord and men? | Hoeveel dingen noemt de schrijver aan het begin die schoon zijn voor de Here en de mensen?
+? How many things does the writer name at the start that are beautiful before the Lord and men? | Hoeveel dingen noemt de schrijver aan het begin die schoon zijn voor de Heer en de mensen?
 = Three | Drie
 - Seven | Zeven
 - Ten | Tien
@@ -442,7 +442,7 @@
 - Gold | Goud
 - Many servants | Veel dienstknechten
 ? What is the glory of the aged? | Wat is de roem der ouden?
-= The fear of the Lord | De vreze des Heren
+= The fear of the Lord | De vreze van de Heer
 - Their riches | Hun rijkdom
 - Their strength | Hun kracht
 ? With what would the writer rather dwell than with a wicked woman? | Waarbij woont de schrijver liever dan bij een boze vrouw?
@@ -456,7 +456,7 @@
 - It is shortened | Het wordt verkort
 - Nothing | Niets
 ? To whom is a God-fearing wife given? | Aan wie wordt een godvrezende vrouw gegeven?
-= To him who fears the Lord | Aan hem die de Here vreest
+= To him who fears the Lord | Aan hem die de Heer vreest
 - To the richest man | Aan de rijkste man
 - To the king | Aan de koning
 ? To what is the beauty of a good wife in her home compared? | Waarbij wordt de schoonheid van een goede vrouw in haar huis vergeleken?
@@ -608,7 +608,7 @@
 - He who fasts | Die vast
 - He who gives alms | Die aalmoezen geeft
 ? When one prays and another curses, what does the writer ask? | Wat vraagt de schrijver als de een bidt en de ander vloekt?
-= Whose voice will the Lord hear? | Wiens stem zal de Here verhoren?
+= Whose voice will the Lord hear? | Wiens stem zal de Heer verhoren?
 - Who will be richer? | Wie zal rijker worden?
 - Who will live longer? | Wie zal langer leven?
 
@@ -617,11 +617,11 @@
 = With a cheerful face | Met een vrolijk aangezicht
 - In secret only | Alleen in het verborgen
 - With complaints | Met klachten
-? How many times will the Lord repay? | Hoeveel maal zal de Here vergelden?
+? How many times will the Lord repay? | Hoeveel maal zal de Heer vergelden?
 = Sevenfold | Zevenvoudig
 - Twice | Tweemaal
 - Not at all | Helemaal niet
-? Whose supplication will the Lord not despise? | Wiens smeken zal de Here niet verachten?
+? Whose supplication will the Lord not despise? | Wiens smeken zal de Heer niet verachten?
 = The fatherless and the widow | Van de wezen en de weduwe
 - The proud | Van de hovaardigen
 - The rich only | Alleen van de rijken
@@ -631,7 +631,7 @@
 - It is forgotten | Het wordt vergeten
 
 ## 36
-? What does the writer ask the Lord at the start of the chapter? | Wat vraagt de schrijver de Here aan het begin van het hoofdstuk?
+? What does the writer ask the Lord at the start of the chapter? | Wat vraagt de schrijver de Heer aan het begin van het hoofdstuk?
 = Have mercy on us | Ontferm U over ons
 - Give us riches | Geef ons rijkdom
 - Give us a king | Geef ons een koning
@@ -668,15 +668,15 @@
 
 ## 38
 ? Why should you honor the physician? | Waarom moet gij de geneesheer eren?
-= The Lord created him | De Here heeft hem geschapen
+= The Lord created him | De Heer heeft hem geschapen
 - He is rich | Hij is rijk
 - He is a priest | Hij is een priester
-? Out of what did the Lord create medicines? | Waaruit heeft de Here de medicijnen geschapen?
+? Out of what did the Lord create medicines? | Waaruit heeft de Heer de medicijnen geschapen?
 = The earth | De aarde
 - The sea | De zee
 - The stars | De sterren
 ? What should you do in your sickness? | Wat moet gij doen in uw krankheid?
-= Pray to the Lord, and he will heal you | De Here bidden, en Hij zal u genezen
+= Pray to the Lord, and he will heal you | De Heer bidden, en Hij zal u genezen
 - Despair | Wanhopen
 - Do nothing | Niets doen
 ? What does the dead say to the living about his end? | Wat zegt de dode tot de levende over zijn einde?
@@ -693,7 +693,7 @@
 = A rose by a stream of water | Een roos aan een stromend water
 - A cedar on Lebanon | Een ceder op Libanon
 - A vine on a wall | Een wijnstok aan een muur
-? What does the writer say of all the works of the Lord? | Wat zegt de schrijver van al de werken des Heren?
+? What does the writer say of all the works of the Lord? | Wat zegt de schrijver van al de werken van de Heer?
 = They are all good | Zij zijn alle goed
 - Some are evil | Sommige zijn kwaad
 - They are hidden from all | Zij zijn voor allen verborgen
@@ -726,7 +726,7 @@
 - A man who is poor and weak | Een mens die behoeftig en zwak is
 - A man in great pain | Een mens in grote pijn
 ? Why should you not fear the sentence of death? | Waarom moet gij het oordeel des doods niet vrezen?
-= It is the Lord's sentence on all flesh, for those before and after you | Het is het oordeel van de Here over alle vlees, voor wie voor en na u komen
+= It is the Lord's sentence on all flesh, for those before and after you | Het is het oordeel van de Heer over alle vlees, voor wie voor en na u komen
 - Because death never comes | Omdat de dood nooit komt
 - Because the rich escape it | Omdat de rijken eraan ontkomen
 ? What stays with you longer than a thousand treasures of gold? | Wat blijft u langer bij dan duizend grote schatten gouds?
@@ -743,8 +743,8 @@
 = The moth | De mot
 - Gold | Goud
 - Honor | Eer
-? Where are the Lord's works seen, according to the writer? | Waarin ziet men volgens de schrijver de werken des Heren?
-= In the words of the Lord | In de woorden des Heren
+? Where are the Lord's works seen, according to the writer? | Waarin ziet men volgens de schrijver de werken van de Heer?
+= In the words of the Lord | In de woorden van de Heer
 - In the stars only | Alleen in de sterren
 - In the riches of kings | In de rijkdom der koningen
 ? What does the shining sun look upon? | Waarop ziet de verlichtende zon?
@@ -779,7 +779,7 @@
 = Famous men, our fathers in their generations | De heerlijke mannen, onze vaderen in hun geslachten
 - The kings of Persia | De koningen van Perzië
 - The angels | De engelen
-? Who pleased the Lord and was taken up, an example of repentance? | Wie behaagde de Here en werd weggenomen, een voorbeeld der boetvaardigheid?
+? Who pleased the Lord and was taken up, an example of repentance? | Wie behaagde de Heer en werd weggenomen, een voorbeeld der boetvaardigheid?
 = Enoch | Henoch
 - Elijah | Elia
 - Moses | Mozes
@@ -860,7 +860,7 @@
 - An army | Een leger
 - The ark | De ark
 ? Who struck the camp of the Assyrians? | Wie sloeg het leger der Assyriërs?
-= The Lord's angel | De engel des Heren
+= The Lord's angel | De engel van de Heer
 - Hezekiah's soldiers | De soldaten van Hiskia
 - The Egyptians | De Egyptenaren
 
@@ -902,7 +902,7 @@
 
 ## 51
 ? How does the writer address God at the start of his prayer? | Hoe spreekt de schrijver God aan het begin van zijn gebed aan?
-= Lord, King, and God my Savior | Here, Koning, en God mijn Zaligmaker
+= Lord, King, and God my Savior | Heer, Koning, en God mijn Zaligmaker
 - Judge of the nations | Rechter der volken
 - God of the stars | God der sterren
 ? Where did he pray for wisdom? | Waar heeft hij om de wijsheid gebeden?
