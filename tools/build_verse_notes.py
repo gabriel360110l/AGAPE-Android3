@@ -13,11 +13,16 @@ Source: tools/source/verse_notes/<BOOK>.md, one file per book, written by hand i
     ## 51:1 | 51:3
     E: ...
     N: ...
+    ## 3:52 | -
+    E: ...
+    N: ...
 
 References are in WEB numbering. Where the Statenvertaling numbers the verse differently, give its reference after
 a "|". For the Psalms that is done automatically when the chapter only differs by the titles (SV counts a title as
 its own verse or two); a chapter of any other book whose verse count differs between WEB and SV needs the explicit
-NL reference, so a note never lands on the wrong verse.
+NL reference, so a note never lands on the wrong verse. A "-" on either side marks a verse that Bible does not have
+(the Greek additions to Daniel and Esther, books only one translation carries): that language is left out, but both
+E: and N: are still written so the source stays bilingual.
 
 Output: app/src/main/assets/content/verse_notes.json, keyed 'BOOK.CHAPTER.VERSE'. When the EN and NL references
 differ, each key carries only its own language.
@@ -41,6 +46,8 @@ NOTE = ("Per-verse commentary, built by tools/build_verse_notes.py from tools/so
 
 
 def ref(text):
+    if text.strip() == "-":
+        return None
     m = re.fullmatch(r"(\d+):(\d+)", text.strip())
     if not m:
         raise ValueError(text)
@@ -63,7 +70,9 @@ def parse(path):
                 if tradition not in TRADITIONS:
                     raise ValueError(tradition)
                 current = {"en_ref": ref(first[0]), "nl_ref": ref(head[1]) if len(head) > 1 else None,
-                           "tradition": tradition, "line": n}
+                           "nl_given": len(head) > 1, "tradition": tradition, "line": n}
+                if current["en_ref"] is None and current["nl_ref"] is None:
+                    raise ValueError("no reference for either language")
                 notes.append(current)
             else:
                 m = re.match(r"^([EN]):\s*(.+)$", line)
@@ -88,10 +97,18 @@ def main():
         if book != os.path.splitext(os.path.basename(path))[0]:
             sys.exit(f"{path}: heading '# {book}' does not match the file name")
         for note in notes:
-            (ce, ve), where = note["en_ref"], f"{os.path.basename(path)}:{note['line']}"
-            web, sv = counts.get(("web", book, ce)), counts.get(("sv", book, ce))
+            where = f"{os.path.basename(path)}:{note['line']}"
+            if note["en_ref"] is None:
+                keys = []
+            else:
+                ce, ve = note["en_ref"]
+                web = counts.get(("web", book, ce))
+                if not web or ve > web:
+                    problems.append(f"{where}: {book} {ce}:{ve} is not in WEB")
+                keys = [(f"{book}.{ce}.{ve}", "en")]
             nl_ref = note["nl_ref"]
-            if nl_ref is None:
+            if nl_ref is None and not note["nl_given"]:
+                sv = counts.get(("sv", book, ce))
                 if web == sv:
                     nl_ref = (ce, ve)
                 elif book == "PSA" and web and sv and 0 < sv - web <= 2:
@@ -99,13 +116,12 @@ def main():
                 else:
                     problems.append(f"{where}: {book} {ce} has {web} verses in WEB and {sv} in SV; give the NL reference")
                     continue
-            cn, vn = nl_ref
-            if not web or ve > web:
-                problems.append(f"{where}: {book} {ce}:{ve} is not in WEB")
-            if not counts.get(("sv", book, cn)) or vn > counts[("sv", book, cn)]:
-                problems.append(f"{where}: {book} {cn}:{vn} is not in the Statenvertaling")
-            en_key, nl_key = f"{book}.{ce}.{ve}", f"{book}.{cn}.{vn}"
-            for key, lang in ((en_key, "en"), (nl_key, "nl")):
+            if nl_ref is not None:
+                cn, vn = nl_ref
+                if not counts.get(("sv", book, cn)) or vn > counts[("sv", book, cn)]:
+                    problems.append(f"{where}: {book} {cn}:{vn} is not in the Statenvertaling")
+                keys.append((f"{book}.{cn}.{vn}", "nl"))
+            for key, lang in keys:
                 slot = out.setdefault(key, {}).setdefault(note["tradition"], {"en": "", "nl": ""})
                 if slot[lang]:
                     problems.append(f"{where}: {key} {note['tradition']} already has a {lang} note")
