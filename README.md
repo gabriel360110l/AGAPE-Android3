@@ -107,7 +107,9 @@ show the legacy guide, marked in the app as provisional (English only).
 
 ## Before release
 
-- Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
+- Terms and Privacy Policy (`assets/legal/`, EN + NL) are drafts that match what the app does: fill in the parts in
+  [square brackets] (publisher, support address, Supabase region, backup period, governing law) and have them
+  reviewed by a lawyer. Set the real donation URL and support e-mail in `app/build.gradle.kts`.
 - Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary, Church articles, and
   hand-written quizzes for Acts to Revelation.
 - Write the remaining Old Testament chapter commentary (EN + NL): the Prophets after Isaiah (Jeremiah to Malachi,
