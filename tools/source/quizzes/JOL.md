@@ -46,7 +46,7 @@
 - Crowns | Kronen
 - Bells | Klokken
 ? Where are the multitudes gathered? | Waar zijn de menigten verzameld?
-= In the valley of decision | In het dal van de beslissing
+= In the valley of decision | In het dal van de beslissing (de dorsslede)
 - On the sea shore | Aan de kust
 - In Babylon | In Babel
 ? What will the mountains drip in that day? | Wat zullen de bergen op die dag laten druipen?
