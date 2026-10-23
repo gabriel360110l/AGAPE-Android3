@@ -105,6 +105,7 @@ python tools/build_prayers.py     # Agpeya and Horologion (Κύριε ἐλέη�
 python tools/build_councils.py    # council texts and canons
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
+python tools/build_church.py      # Church articles (history and per tradition) from tools/source/church/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
 python tools/build_saint_summaries.py  # adds the saint summaries to saints_oo.json and saints_ca.json (offline)
 python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --new adds missing icons, --patterns updates matching only
@@ -121,10 +122,15 @@ book. Where the Dutch chapter breaks differ (Job 38–41, Ecclesiastes 4–5), t
 text. The other Old Testament books (Jeremiah, Lamentations, Baruch, Daniel, the twelve minor prophets and the
 remaining deuterocanonical books) still show the legacy guide, marked in the app as provisional (English only).
 
+The Church articles are written in `tools/source/church/NN-<id>.md` (EN + NL, same number of paragraphs): seven
+history articles shared by all three Churches, and for each tradition an overview plus the sacraments, the
+liturgy, fasting, the feasts, icons and saints, and daily prayer (28 articles).
+
 ## Before release
 
 - Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
-- Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary and Church articles.
+- Complete the sample content: Horologion and Liturgy of the Hours texts and verse commentary. Have the Church
+  articles reviewed by someone from each tradition.
 - Write the remaining Old Testament chapter commentary (EN + NL): Jeremiah, Lamentations, Baruch, Daniel, the twelve
   minor prophets (Hosea to Malachi) and the remaining deuterocanonical books. Then have the written commentary,
   the quizzes, the menologion texts, the council translations, the Dutch saint names and the saint summaries
