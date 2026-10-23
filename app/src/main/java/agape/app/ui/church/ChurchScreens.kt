@@ -210,8 +210,12 @@ fun CouncilScreen(id: String, onBack: () -> Unit, openPassage: (Passage) -> Unit
                     CouncilTab.CANONS -> {
                         Card(R.string.council_canons_summary) { council.canons.forEach { Numbered(null, it[lang]) } }
                         if (texts.canons.isEmpty()) {
-                            // The bundled full texts cover the first councils; later decrees are long and summarised above.
-                            val note = if (council.number > 8) R.string.council_texts_later else R.string.council_no_canons
+                            // The bundled full canons cover the first councils; for the later ones the key decrees are under Texts.
+                            val note = when {
+                                council.number <= 8 -> R.string.council_no_canons
+                                texts.documents.isNotEmpty() -> R.string.council_canons_in_texts
+                                else -> R.string.council_texts_later
+                            }
                             Text(stringResource(note), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
                         } else {
                             Kicker(stringResource(R.string.council_canons_full, texts.canons.size), color = c.inkMuted)
@@ -222,6 +226,10 @@ fun CouncilScreen(id: String, onBack: () -> Unit, openPassage: (Passage) -> Unit
                     CouncilTab.TEXTS -> {
                         if (texts.documents.isEmpty()) {
                             Text(stringResource(R.string.council_texts_later), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
+                        }
+                        if (texts.provisional) {
+                            Text(stringResource(R.string.council_texts_provisional), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
+                            Spacer(Modifier.height(12.dp))
                         }
                         texts.documents.forEach { doc ->
                             AgapeCard {
