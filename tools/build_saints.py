@@ -302,7 +302,7 @@ NL_WORDS = [
     (r"\band\b", "en"), (r"\bof\b", "van"), (r"\bthe\b", "de"), (r"\bThe\b", "De"),
     # Biblical and patristic names in their Dutch form
     (r"\bJohn\b", "Johannes"), (r"\bJames\b", "Jakobus"), (r"\bPeter\b", "Petrus"), (r"\bPaul\b", "Paulus"),
-    (r"\bMark\b", "Marcus"), (r"\bMatthew\b", "Mattheüs"), (r"\bLuke\b", "Lucas"), (r"\bAndrew\b", "Andreas"),
+    (r"\bMark\b", "Marcus"), (r"\bMatthew\b", "Matteüs"), (r"\bLuke\b", "Lucas"), (r"\bAndrew\b", "Andreas"),
     (r"\bPhilip\b", "Filippus"), (r"\bBartholomew\b", "Bartolomeüs"), (r"\bMatthias\b", "Mattias"), (r"\bJude\b", "Judas"),
     (r"\bStephen\b", "Stefanus"), (r"\bTimothy\b", "Timoteüs"), (r"\bMichael\b", "Michaël"), (r"\bGabriel\b", "Gabriël"),
     (r"\bRaphael\b", "Rafaël"), (r"\bMary\b", "Maria"), (r"\bElizabeth\b", "Elisabet"), (r"\bAnne\b", "Anna"),
@@ -395,6 +395,14 @@ def localize(days, nl, missing, rules=None):
 
 def write(name, data):
     path = os.path.join(OUT, name)
+    # Keep the summaries that tools/build_saint_summaries.py merged in, matched on the English title.
+    if os.path.exists(path):
+        kept = {s["title"]["en"]: s["summary"] for d in json.load(open(path, encoding="utf-8")) for s in d["saints"]
+                if "summary" in s}
+        for d in data:
+            for s in d["saints"]:
+                if s["title"]["en"] in kept:
+                    s["summary"] = kept[s["title"]["en"]]
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     print("wrote", name, os.path.getsize(path) // 1024, "KB")
