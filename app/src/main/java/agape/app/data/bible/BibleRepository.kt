@@ -184,6 +184,6 @@ class BibleRepository(private val context: Context) {
     private data class RelatedRow(val book: String, val chapter: Int? = null, val verse: Int? = null)
 
     companion object {
-        const val DB_VERSION = 2
+        const val DB_VERSION = 3
     }
 }

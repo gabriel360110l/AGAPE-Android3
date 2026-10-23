@@ -29,7 +29,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "tools", "source")
 CACHE = os.path.join(ROOT, "tools", ".cache")
 ASSETS = os.path.join(ROOT, "app", "src", "main", "assets")
-DB_VERSION = 2
+DB_VERSION = 3
 MIN_CROSS_REF_VOTES = 10
 
 EO, OO, CA = "EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"
