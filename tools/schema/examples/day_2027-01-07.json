@@ -1,0 +1,236 @@
+{
+ "date": "2027-01-07",
+ "traditions": [
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "eastern_orthodox",
+   "calendar_style": "new",
+   "date": {
+    "gregorian": "2027-01-07",
+    "julian": "2026-12-25",
+    "coptic": {
+     "year": 1743,
+     "month": 4,
+     "day": 29,
+     "month_name": "Koiak"
+    }
+   },
+   "title": {
+    "en": "Synaxis of John the Baptist",
+    "nl": "Synaxis van Johannes de Doper"
+   },
+   "icon": {
+    "key": "john_baptist",
+    "asset": "icons/john_baptist.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An_early_byzantine_icon_of_John_the_Baptist%2C_6th_century_AD.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:An_early_byzantine_icon_of_John_the_Baptist,_6th_century_AD.jpg",
+    "title": "An early byzantine icon of John the Baptist, 6th century AD",
+    "artist": "AN anonymous Byzantine master",
+    "licence": "Public domain",
+    "fallback": false,
+    "source": "wikimedia_commons",
+    "match": "name"
+   },
+   "commemorations": [
+    {
+     "id": "eastern_orthodox/01-07/0-synaxis-of-john-the-baptist",
+     "tradition": "eastern_orthodox",
+     "kind": "event",
+     "date": {
+      "calendar": "church",
+      "month": 1,
+      "day": 7
+     },
+     "order": 0,
+     "rank": {
+      "code": "saint",
+      "level": 3
+     },
+     "name": {
+      "en": "Synaxis of John the Baptist",
+      "nl": "Synaxis van Johannes de Doper"
+     },
+     "life": {
+      "text": {
+       "en": "The Forerunner, the greatest of those born of women.",
+       "nl": "De Voorloper, de grootste onder de uit vrouwen geborenen."
+      },
+      "scope": "day"
+     },
+     "icon": {
+      "key": "john_baptist",
+      "asset": "icons/john_baptist.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An_early_byzantine_icon_of_John_the_Baptist%2C_6th_century_AD.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:An_early_byzantine_icon_of_John_the_Baptist,_6th_century_AD.jpg",
+      "title": "An early byzantine icon of John the Baptist, 6th century AD",
+      "artist": "AN anonymous Byzantine master",
+      "licence": "Public domain",
+      "fallback": false,
+      "source": "wikimedia_commons",
+      "match": "name"
+     },
+     "readings": [],
+     "refs": [],
+     "provenance": {
+      "name": "agape_menologion",
+      "name_nl": "agape",
+      "life": "agape"
+     }
+    }
+   ],
+   "readings": [],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  },
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "catholic",
+   "calendar_style": null,
+   "date": {
+    "gregorian": "2027-01-07",
+    "julian": "2026-12-25",
+    "coptic": {
+     "year": 1743,
+     "month": 4,
+     "day": 29,
+     "month_name": "Koiak"
+    }
+   },
+   "title": {
+    "en": "Saint Raymond of Penyafort, priest",
+    "nl": "H. Raymundus van Peñafort, priester"
+   },
+   "icon": null,
+   "commemorations": [
+    {
+     "id": "catholic/01-07/0-saint-raymond-of-penyafort-priest",
+     "tradition": "catholic",
+     "kind": "saint",
+     "date": {
+      "calendar": "gregorian",
+      "month": 1,
+      "day": 7
+     },
+     "order": 0,
+     "rank": {
+      "code": "optional memorial",
+      "level": 4
+     },
+     "name": {
+      "en": "Saint Raymond of Penyafort, priest",
+      "nl": "H. Raymundus van Peñafort, priester"
+     },
+     "life": null,
+     "icon": null,
+     "readings": [],
+     "refs": [
+      {
+       "source": "romcal",
+       "id": "raymond_of_penyafort_priest",
+       "score": 1.0
+      }
+     ],
+     "provenance": {
+      "name": "calapi",
+      "name_nl": "agape"
+     }
+    }
+   ],
+   "readings": [
+    {
+     "role": "first_reading",
+     "display": "1 John 4:19–5:4",
+     "source": "catholic_readings_api"
+    },
+    {
+     "role": "psalm",
+     "display": "Psalm 72:1-2, 14 and 15bc, 17",
+     "source": "catholic_readings_api"
+    },
+    {
+     "role": "gospel",
+     "display": "Luke 4:14-22",
+     "source": "catholic_readings_api",
+     "ref": "LUK 4:14-22"
+    }
+   ],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  },
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "coptic_orthodox",
+   "calendar_style": null,
+   "date": {
+    "gregorian": "2027-01-07",
+    "julian": "2026-12-25",
+    "coptic": {
+     "year": 1743,
+     "month": 4,
+     "day": 29,
+     "month_name": "Koiak"
+    }
+   },
+   "title": {
+    "en": "The Feast of the Nativity of Our Lord Jesus Christ (Christmas)",
+    "nl": "Het feest van de geboorte van onze Heer Jezus Christus (Christmas)"
+   },
+   "icon": {
+    "key": "nativity",
+    "asset": "icons/nativity.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%2C_St._Catherine_Monastery%2C_Sinai%2C_6th_century.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
+    "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
+    "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+    "licence": "CC0",
+    "fallback": false,
+    "source": "wikimedia_commons",
+    "match": "name"
+   },
+   "commemorations": [
+    {
+     "id": "coptic_orthodox/04-29/0-the-feast-of-the-nativity-of-our-lord-jesus-christ-christmas",
+     "tradition": "coptic_orthodox",
+     "kind": "feast",
+     "date": {
+      "calendar": "coptic",
+      "month": 4,
+      "day": 29
+     },
+     "order": 0,
+     "rank": null,
+     "name": {
+      "en": "The Feast of the Nativity of Our Lord Jesus Christ (Christmas)",
+      "nl": "Het feest van de geboorte van onze Heer Jezus Christus (Christmas)"
+     },
+     "life": null,
+     "icon": {
+      "key": "nativity",
+      "asset": "icons/nativity.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%2C_St._Catherine_Monastery%2C_Sinai%2C_6th_century.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
+      "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
+      "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+      "licence": "CC0",
+      "fallback": false,
+      "source": "wikimedia_commons",
+      "match": "name"
+     },
+     "readings": [],
+     "refs": [
+      {
+       "source": "katameros",
+       "id": "42901",
+       "slug": "christmas",
+       "score": 0.62
+      }
+     ],
+     "provenance": {
+      "name": "coptic_io",
+      "name_nl": "agape"
+     }
+    }
+   ],
+   "readings": [],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  }
+ ]
+}

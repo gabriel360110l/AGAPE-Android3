@@ -1,0 +1,246 @@
+{
+ "date": "2026-12-25",
+ "traditions": [
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "eastern_orthodox",
+   "calendar_style": "new",
+   "date": {
+    "gregorian": "2026-12-25",
+    "julian": "2026-12-12",
+    "coptic": {
+     "year": 1743,
+     "month": 4,
+     "day": 16,
+     "month_name": "Koiak"
+    }
+   },
+   "title": {
+    "en": "Nativity of Christ",
+    "nl": "Geboorte van Christus"
+   },
+   "icon": {
+    "key": "nativity",
+    "asset": "icons/nativity.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%2C_St._Catherine_Monastery%2C_Sinai%2C_6th_century.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
+    "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
+    "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+    "licence": "CC0",
+    "fallback": false,
+    "source": "wikimedia_commons",
+    "match": "name"
+   },
+   "commemorations": [
+    {
+     "id": "eastern_orthodox/12-25/0-nativity-of-christ",
+     "tradition": "eastern_orthodox",
+     "kind": "feast",
+     "date": {
+      "calendar": "church",
+      "month": 12,
+      "day": 25
+     },
+     "order": 0,
+     "rank": {
+      "code": "great",
+      "level": 1
+     },
+     "name": {
+      "en": "Nativity of Christ",
+      "nl": "Geboorte van Christus"
+     },
+     "life": {
+      "text": {
+       "en": "Bethlehem. The cave, the manger, the Mother of God, Joseph the guardian, the angels, the shepherds, the Magi. Not a children's story: the Incarnation of the second Person of the Trinity. He becomes poor so that we may become rich. The Sun of righteousness rises. Christ is born, glorify Him!",
+       "nl": "Bethlehem. De grot, de kribbe, de Theotokos, Jozef de voogd, de engelen, de herders, de magiërs. Niet een kinderstof: de menswording van de tweede Persoon. Hij wordt arm, opdat wij rijk zouden worden. De zon der gerechtigheid gaat op. Christus wordt geboren — verheerlijkt Hem."
+      },
+      "scope": "day"
+     },
+     "icon": {
+      "key": "nativity",
+      "asset": "icons/nativity.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%2C_St._Catherine_Monastery%2C_Sinai%2C_6th_century.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
+      "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
+      "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+      "licence": "CC0",
+      "fallback": false,
+      "source": "wikimedia_commons",
+      "match": "name"
+     },
+     "readings": [],
+     "refs": [],
+     "provenance": {
+      "name": "agape_menologion",
+      "name_nl": "agape",
+      "life": "agape"
+     }
+    }
+   ],
+   "readings": [],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  },
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "catholic",
+   "calendar_style": null,
+   "date": {
+    "gregorian": "2026-12-25",
+    "julian": "2026-12-12",
+    "coptic": {
+     "year": 1743,
+     "month": 4,
+     "day": 16,
+     "month_name": "Koiak"
+    }
+   },
+   "title": null,
+   "icon": null,
+   "commemorations": [],
+   "readings": [
+    {
+     "role": "first_reading",
+     "display": "Isaiah 52:7-10",
+     "source": "catholic_readings_api",
+     "ref": "ISA 52:7-10"
+    },
+    {
+     "role": "psalm",
+     "display": "Psalm 98:1, 2-3, 3-4, 5-6.",
+     "source": "catholic_readings_api"
+    },
+    {
+     "role": "second_reading",
+     "display": "Hebrews 1:1-6",
+     "source": "catholic_readings_api",
+     "ref": "HEB 1:1-6"
+    },
+    {
+     "role": "gospel",
+     "display": "John 1:1-18",
+     "source": "catholic_readings_api",
+     "ref": "JHN 1:1-18"
+    }
+   ],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  },
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "coptic_orthodox",
+   "calendar_style": null,
+   "date": {
+    "gregorian": "2026-12-25",
+    "julian": "2026-12-12",
+    "coptic": {
+     "year": 1743,
+     "month": 4,
+     "day": 16,
+     "month_name": "Koiak"
+    }
+   },
+   "title": {
+    "en": "The Departure of the Righteous Gideon, One of the Judges of Israel",
+    "nl": "Het heengaan van de rechtvaardige Gideon, een van de rechters van Israël"
+   },
+   "icon": null,
+   "commemorations": [
+    {
+     "id": "coptic_orthodox/04-16/0-the-departure-of-the-righteous-gideon-one-of-the-judges-of-i",
+     "tradition": "coptic_orthodox",
+     "kind": "saint",
+     "date": {
+      "calendar": "coptic",
+      "month": 4,
+      "day": 16
+     },
+     "order": 0,
+     "rank": null,
+     "name": {
+      "en": "The Departure of the Righteous Gideon, One of the Judges of Israel",
+      "nl": "Het heengaan van de rechtvaardige Gideon, een van de rechters van Israël"
+     },
+     "life": null,
+     "icon": null,
+     "readings": [],
+     "refs": [
+      {
+       "source": "katameros",
+       "id": "41601",
+       "slug": "departure-of-gideon-the-judge",
+       "score": 1.0
+      }
+     ],
+     "provenance": {
+      "name": "coptic_io",
+      "name_nl": "agape"
+     }
+    },
+    {
+     "id": "coptic_orthodox/04-16/1-the-martyrdom-of-saints-harouadi-ananias-and-khouzi",
+     "tradition": "coptic_orthodox",
+     "kind": "saint",
+     "date": {
+      "calendar": "coptic",
+      "month": 4,
+      "day": 16
+     },
+     "order": 1,
+     "rank": null,
+     "name": {
+      "en": "The Martyrdom of Saints Harouadi, Ananias and Khouzi",
+      "nl": "Het martelaarschap van de heiligen Harouadi, Ananias en Khouzi"
+     },
+     "life": null,
+     "icon": null,
+     "readings": [],
+     "refs": [
+      {
+       "source": "katameros",
+       "id": "41602",
+       "slug": "martyrdom-of-saint-harouadj-and-companions",
+       "score": 0.5
+      }
+     ],
+     "provenance": {
+      "name": "coptic_io",
+      "name_nl": "agape"
+     }
+    },
+    {
+     "id": "coptic_orthodox/04-16/2-the-consecration-of-the-church-of-saint-james-the-persian",
+     "tradition": "coptic_orthodox",
+     "kind": "event",
+     "date": {
+      "calendar": "coptic",
+      "month": 4,
+      "day": 16
+     },
+     "order": 2,
+     "rank": null,
+     "name": {
+      "en": "The Consecration of the Church of St. James, the Persian",
+      "nl": "Inwijding van de kerk van de heilige Jakobus, de Persian"
+     },
+     "life": null,
+     "icon": null,
+     "readings": [],
+     "refs": [
+      {
+       "source": "katameros",
+       "id": "41605",
+       "slug": "consecration-of-the-church-of-saint-james-the-persian",
+       "score": 1.0
+      }
+     ],
+     "provenance": {
+      "name": "coptic_io",
+      "name_nl": "agape"
+     }
+    }
+   ],
+   "readings": [],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  }
+ ]
+}

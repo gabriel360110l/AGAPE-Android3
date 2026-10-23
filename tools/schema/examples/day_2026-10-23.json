@@ -1,0 +1,215 @@
+{
+ "date": "2026-10-23",
+ "traditions": [
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "eastern_orthodox",
+   "calendar_style": "new",
+   "date": {
+    "gregorian": "2026-10-23",
+    "julian": "2026-10-10",
+    "coptic": {
+     "year": 1743,
+     "month": 2,
+     "day": 13,
+     "month_name": "Paopi"
+    }
+   },
+   "title": {
+    "en": "James, Brother of the Lord",
+    "nl": "Jakobus, broeder des Heeren"
+   },
+   "icon": {
+    "key": "james",
+    "asset": "icons/james.jpg",
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apostle_James%2C_son_of_Alphaeus.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Apostle_James,_son_of_Alphaeus.jpeg",
+    "title": "Apostle James, son of Alphaeus",
+    "artist": "Mstyora craftsmen of the 19th century",
+    "licence": "Public domain",
+    "fallback": false,
+    "source": "wikimedia_commons",
+    "match": "name"
+   },
+   "commemorations": [
+    {
+     "id": "eastern_orthodox/10-23/0-james-brother-of-the-lord",
+     "tradition": "eastern_orthodox",
+     "kind": "saint",
+     "date": {
+      "calendar": "church",
+      "month": 10,
+      "day": 23
+     },
+     "order": 0,
+     "rank": {
+      "code": "major",
+      "level": 2
+     },
+     "name": {
+      "en": "James, Brother of the Lord",
+      "nl": "Jakobus, broeder des Heeren"
+     },
+     "life": {
+      "text": {
+       "en": "First bishop of Jerusalem: the liturgy and the letter.",
+       "nl": "Eerste bisschop van Jeruzalem, de liturgie, de brief."
+      },
+      "scope": "day"
+     },
+     "icon": {
+      "key": "james",
+      "asset": "icons/james.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apostle_James%2C_son_of_Alphaeus.jpeg",
+      "page": "https://commons.wikimedia.org/wiki/File:Apostle_James,_son_of_Alphaeus.jpeg",
+      "title": "Apostle James, son of Alphaeus",
+      "artist": "Mstyora craftsmen of the 19th century",
+      "licence": "Public domain",
+      "fallback": false,
+      "source": "wikimedia_commons",
+      "match": "name"
+     },
+     "readings": [],
+     "refs": [],
+     "provenance": {
+      "name": "agape_menologion",
+      "name_nl": "agape",
+      "life": "agape"
+     }
+    }
+   ],
+   "readings": [],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  },
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "catholic",
+   "calendar_style": null,
+   "date": {
+    "gregorian": "2026-10-23",
+    "julian": "2026-10-10",
+    "coptic": {
+     "year": 1743,
+     "month": 2,
+     "day": 13,
+     "month_name": "Paopi"
+    }
+   },
+   "title": {
+    "en": "Saint John of Capistrano, priest",
+    "nl": "H. Johannes van Capestrano, priester"
+   },
+   "icon": null,
+   "commemorations": [
+    {
+     "id": "catholic/10-23/0-saint-john-of-capistrano-priest",
+     "tradition": "catholic",
+     "kind": "saint",
+     "date": {
+      "calendar": "gregorian",
+      "month": 10,
+      "day": 23
+     },
+     "order": 0,
+     "rank": {
+      "code": "optional memorial",
+      "level": 4
+     },
+     "name": {
+      "en": "Saint John of Capistrano, priest",
+      "nl": "H. Johannes van Capestrano, priester"
+     },
+     "life": null,
+     "icon": null,
+     "readings": [],
+     "refs": [
+      {
+       "source": "romcal",
+       "id": "john_of_capistrano_priest",
+       "score": 1.0
+      }
+     ],
+     "provenance": {
+      "name": "calapi",
+      "name_nl": "agape"
+     }
+    }
+   ],
+   "readings": [
+    {
+     "role": "first_reading",
+     "display": "Ephesians 4:1-6",
+     "source": "catholic_readings_api",
+     "ref": "EPH 4:1-6"
+    },
+    {
+     "role": "psalm",
+     "display": "Psalm 24:1-2, 3-4ab, 5-6",
+     "source": "catholic_readings_api"
+    },
+    {
+     "role": "gospel",
+     "display": "Luke 12:54-59",
+     "source": "catholic_readings_api",
+     "ref": "LUK 12:54-59"
+    }
+   ],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  },
+  {
+   "schema": "agape-saint-day/1",
+   "tradition": "coptic_orthodox",
+   "calendar_style": null,
+   "date": {
+    "gregorian": "2026-10-23",
+    "julian": "2026-10-10",
+    "coptic": {
+     "year": 1743,
+     "month": 2,
+     "day": 13,
+     "month_name": "Paopi"
+    }
+   },
+   "title": {
+    "en": "The Departure of Saint Zacharias, the Monk",
+    "nl": "Het heengaan van de heilige Zacharias, de monnik"
+   },
+   "icon": null,
+   "commemorations": [
+    {
+     "id": "coptic_orthodox/02-13/0-the-departure-of-saint-zacharias-the-monk",
+     "tradition": "coptic_orthodox",
+     "kind": "saint",
+     "date": {
+      "calendar": "coptic",
+      "month": 2,
+      "day": 13
+     },
+     "order": 0,
+     "rank": null,
+     "name": {
+      "en": "The Departure of Saint Zacharias, the Monk",
+      "nl": "Het heengaan van de heilige Zacharias, de monnik"
+     },
+     "life": null,
+     "icon": null,
+     "readings": [],
+     "refs": [
+      {
+       "source": "katameros",
+       "id": "21301",
+       "slug": "departure-of-saint-zacharias-the-monk",
+       "score": 1.0
+      }
+     ],
+     "provenance": {
+      "name": "coptic_io",
+      "name_nl": "agape"
+     }
+    }
+   ],
+   "readings": [],
+   "moveable_feasts_note": "Beweeglijke feesten (Pascha, Pinksteren, ...) komen uit LiturgicalCalendar.kt en gaan in de app voor op de heilige van de dag."
+  }
+ ]
+}

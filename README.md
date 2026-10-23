@@ -33,6 +33,7 @@ app/src/main/java/agape/app/
   ui/              onboarding, guided tour, 5-tab shell (Home · Bible · Prayer · Search · Me) and all screens
   ui/theme/        3 styles × light/dark: Navy + Cream, Classic Sacred, Warm Terracotta
 tools/build_content.py   rebuilds assets/bible/bible.db and generated JSON from tools/source/
+tools/schema/            uniform saints/feasts schema for the three traditions, with converted data and examples
 supabase/migrations/     database schema (user snapshot table, RLS, account deletion)
 ```
 
@@ -94,6 +95,7 @@ python tools/build_commentary.py  # chapter commentary from tools/source/comment
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
 python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --patterns updates matching only
+python tools/build_unified_saints.py  # all saints in one schema (tools/schema/), offline; see tools/schema/README.md
 ```
 
 Chapter commentary is written book by book in `tools/source/commentary/<BOOK>.md`. Written so far: the New

@@ -1,0 +1,39 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://agape.app/schema/saint_day.schema.json",
+ "title": "AGAPE saint of a selected day, one tradition (agape-saint-day/1)",
+ "description": "What the app shows for a selected date: the icon, the name, the date in the Gregorian, Julian and Coptic calendars, the life and the readings.",
+ "type": "object",
+ "required": ["schema", "tradition", "date", "title", "icon", "commemorations", "readings"],
+ "additionalProperties": false,
+ "properties": {
+  "schema": {"const": "agape-saint-day/1"},
+  "tradition": {"$ref": "saints_unified.schema.json#/$defs/tradition"},
+  "calendar_style": {"enum": ["new", "old", null], "description": "Eastern Orthodox only: new (Revised Julian) or old (Julian) calendar."},
+  "date": {
+   "type": "object",
+   "required": ["gregorian", "julian", "coptic"],
+   "additionalProperties": false,
+   "properties": {
+    "gregorian": {"type": "string", "format": "date"},
+    "julian": {"type": "string", "pattern": "^\\d{4}-\\d\\d-\\d\\d$", "description": "The same day on the Julian calendar (13 days behind in 1900-2099)."},
+    "coptic": {
+     "type": "object",
+     "required": ["year", "month", "day", "month_name"],
+     "additionalProperties": false,
+     "properties": {
+      "year": {"type": "integer", "description": "Year of the Martyrs (A.M.)."},
+      "month": {"type": "integer", "minimum": 1, "maximum": 13},
+      "day": {"type": "integer", "minimum": 1, "maximum": 30},
+      "month_name": {"type": "string"}
+     }
+    }
+   }
+  },
+  "title": {"oneOf": [{"$ref": "saints_unified.schema.json#/$defs/l10n"}, {"type": "null"}], "description": "The principal commemoration's name."},
+  "icon": {"oneOf": [{"$ref": "saints_unified.schema.json#/$defs/icon"}, {"type": "null"}], "description": "The icon to show: the first commemoration with its own icon, else the first generic one."},
+  "commemorations": {"type": "array", "items": {"$ref": "saints_unified.schema.json#/$defs/commemoration"}, "description": "Principal first (Catholic: by rank)."},
+  "readings": {"type": "array", "items": {"$ref": "saints_unified.schema.json#/$defs/reading"}, "description": "The readings of the day."},
+  "moveable_feasts_note": {"type": "string"}
+ }
+}
