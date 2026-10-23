@@ -315,7 +315,7 @@
      "en": "Seven Holy Founders of the Servite Order",
      "nl": "De zeven heilige stichters van de Servieten"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -328,7 +328,7 @@
      "en": "Saint Peter Damian, bishop and doctor of the Church",
      "nl": "H. Petrus Damiani, bisschop en kerkleraar"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -354,7 +354,20 @@
      "en": "Saint Polycarp, bishop and martyr",
      "nl": "H. Polycarpus, bisschop en martelaar"
     },
-    "rank": "commemoration"
+    "rank": "memorial"
+   }
+  ]
+ },
+ {
+  "month": 2,
+  "day": 27,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint Gregory of Narek, abbot and doctor of the Church",
+     "nl": "H. Gregorius van Narek, abt en kerkleraar"
+    },
+    "rank": "optional memorial"
    }
   ]
  },
@@ -367,7 +380,7 @@
      "en": "Saint Casimir",
      "nl": "H. Casimir"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -380,7 +393,7 @@
      "en": "Saints Perpetua and Felicity, martyrs",
      "nl": "H. Perpetua en H. Felicitas, martelaressen"
     },
-    "rank": "commemoration"
+    "rank": "memorial"
    }
   ]
  },
@@ -393,7 +406,7 @@
      "en": "Saint John of God, religious",
      "nl": "H. Johannes de Deo, kloosterling"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -406,7 +419,7 @@
      "en": "Saint Frances of Rome, religious",
      "nl": "H. Francisca Romana, kloosterlinge"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -419,7 +432,7 @@
      "en": "Saint Patrick, bishop",
      "nl": "H. Patricius, bisschop"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -432,7 +445,7 @@
      "en": "Saint Cyril of Jerusalem, bishop and doctor",
      "nl": "H. Cyrillus van Jeruzalem, bisschop en kerkleraar"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -458,7 +471,33 @@
      "en": "Saint Turibius of Mogrovejo, bishop",
      "nl": "H. Toribio de Mogrovejo, bisschop"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
+   }
+  ]
+ },
+ {
+  "month": 3,
+  "day": 25,
+  "saints": [
+   {
+    "title": {
+     "en": "Annunciation of the Lord",
+     "nl": "Aankondiging van de Heer"
+    },
+    "rank": "solemnity"
+   }
+  ]
+ },
+ {
+  "month": 4,
+  "day": 2,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint Francis of Paola, hermit",
+     "nl": "H. Franciscus van Paola, kluizenaar"
+    },
+    "rank": "optional memorial"
    }
   ]
  },
@@ -471,7 +510,7 @@
      "en": "Saint Isidore, bishop and doctor of the Church",
      "nl": "H. Isidorus, bisschop en kerkleraar"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -481,17 +520,10 @@
   "saints": [
    {
     "title": {
-     "en": "Annunciation of the Lord",
-     "nl": "Aankondiging van de Heer"
-    },
-    "rank": "solemnity"
-   },
-   {
-    "title": {
      "en": "Saint Vincent Ferrer, priest",
      "nl": "H. Vincentius Ferrer, priester"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -504,7 +536,7 @@
      "en": "Saint John Baptist de la Salle, priest",
      "nl": "H. Johannes Baptista de la Salle, priester"
     },
-    "rank": "commemoration"
+    "rank": "memorial"
    }
   ]
  },
@@ -680,6 +712,19 @@
  },
  {
   "month": 5,
+  "day": 10,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint John of Avila, priest and doctor of the Church",
+     "nl": "H. Johannes van Ávila, priester en kerkleraar"
+    },
+    "rank": "optional memorial"
+   }
+  ]
+ },
+ {
+  "month": 5,
   "day": 12,
   "saints": [
    {
@@ -824,6 +869,19 @@
     "title": {
      "en": "Saint Augustine (Austin) of Canterbury, bishop",
      "nl": "H. Augustinus van Canterbury, bisschop"
+    },
+    "rank": "optional memorial"
+   }
+  ]
+ },
+ {
+  "month": 5,
+  "day": 29,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint Paul VI, pope",
+     "nl": "H. Paulus VI, paus"
     },
     "rank": "optional memorial"
    }
@@ -1284,8 +1342,8 @@
   "saints": [
    {
     "title": {
-     "en": "Saint Martha",
-     "nl": "H. Marta"
+     "en": "Saints Martha, Mary and Lazarus",
+     "nl": "H. Marta, H. Maria en H. Lazarus"
     },
     "rank": "memorial"
    }
@@ -1777,6 +1835,13 @@
      "nl": "H. Robertus Bellarminus, bisschop en kerkleraar"
     },
     "rank": "optional memorial"
+   },
+   {
+    "title": {
+     "en": "Saint Hildegard of Bingen, virgin and doctor of the Church",
+     "nl": "H. Hildegard van Bingen, maagd en kerklerares"
+    },
+    "rank": "optional memorial"
    }
   ]
  },
@@ -1940,6 +2005,19 @@
      "nl": "H. Franciscus van Assisi"
     },
     "rank": "memorial"
+   }
+  ]
+ },
+ {
+  "month": 10,
+  "day": 5,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint Faustina Kowalska, virgin",
+     "nl": "H. Faustina Kowalska, maagd"
+    },
+    "rank": "optional memorial"
    }
   ]
  },
@@ -2474,6 +2552,19 @@
  },
  {
   "month": 12,
+  "day": 10,
+  "saints": [
+   {
+    "title": {
+     "en": "Our Lady of Loreto",
+     "nl": "Onze-Lieve-Vrouw van Loreto"
+    },
+    "rank": "optional memorial"
+   }
+  ]
+ },
+ {
+  "month": 12,
   "day": 11,
   "saints": [
    {
@@ -2533,7 +2624,7 @@
      "en": "Saint Peter Canisius, priest and doctor",
      "nl": "H. Petrus Canisius, priester en kerkleraar"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -2546,7 +2637,7 @@
      "en": "Saint John of Kanty, priest",
      "nl": "H. Johannes Cantius, priester"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -2598,7 +2689,7 @@
      "en": "Saint Thomas Becket, bishop and martyr",
      "nl": "H. Thomas Becket, bisschop en martelaar"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  },
@@ -2611,7 +2702,7 @@
      "en": "Saint Sylvester I, pope",
      "nl": "H. Silvester I, paus"
     },
-    "rank": "commemoration"
+    "rank": "optional memorial"
    }
   ]
  }
