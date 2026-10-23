@@ -45,4 +45,8 @@
     <string name="rosary_done_body">You prayed %1$s. Thank you for this time of prayer.</string>
     <string name="rosary_again">Pray again</string>
     <string name="rosary_beads_description">Rosary beads. Tap the glowing bead for the next prayer, or any bead to go there.</string>
+    <string name="reader_select_hint">Tap a verse to highlight it, save it or add a note.</string>
+    <string name="reader_end_of">End of %1$s</string>
+    <string name="reader_previous_chapter">Previous chapter</string>
+    <string name="reader_next_chapter">Next chapter</string>
 </resources>

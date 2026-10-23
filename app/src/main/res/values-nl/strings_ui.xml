@@ -45,4 +45,8 @@
     <string name="rosary_done_body">Je hebt %1$s gebeden. Dank voor deze tijd van gebed.</string>
     <string name="rosary_again">Opnieuw bidden</string>
     <string name="rosary_beads_description">Kralen van de rozenkrans. Tik op de oplichtende kraal voor het volgende gebed, of op een andere kraal om daarheen te gaan.</string>
+    <string name="reader_select_hint">Tik op een vers om het te markeren, te bewaren of er een notitie bij te maken.</string>
+    <string name="reader_end_of">Einde van %1$s</string>
+    <string name="reader_previous_chapter">Vorig hoofdstuk</string>
+    <string name="reader_next_chapter">Volgend hoofdstuk</string>
 </resources>
