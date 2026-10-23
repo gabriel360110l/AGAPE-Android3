@@ -7,7 +7,11 @@
                    plus the morning rule, Compline and the evening rule set from Orthodox Daily Prayers (St Tikhon's,
                    1982, public domain via Project Gutenberg) as published by mdws-org/orthodoxprayers.
 
+Dutch for the Horologion texts that have no Dutch in the sources lives in tools/source/prayers_eo_nl.json (English
+text → Dutch, the editors' own provisional translation) and is filled in when the file is written.
+
 Downloads are cached in tools/.cache/src. Run from the repository root:  python tools/build_prayers.py
+To fill in Dutch from prayers_eo_nl.json without downloading anything:  python tools/build_prayers.py --nl-only
 """
 import html
 import json
@@ -514,8 +518,8 @@ def build_horologion():
             "rule, the Hours, Vespers, Compline and the prayers before sleep. Texts: Orthodox Daily Prayers "
             "(St Tikhon's, 1982) via orthodoxprayers.net; psalms from the World English Bible.",
             "Het Horologion is het getijdenboek van de Orthodoxe Kerk. Thuis wordt de dag geheiligd met het morgengebed, "
-            "de Uren, de Vespers, de Completen en de gebeden voor de nacht. Psalmen: Statenvertaling. Sommige langere "
-            "gebeden zijn nog alleen in het Engels beschikbaar."),
+            "de Uren, de Vespers, de Completen en de gebeden voor de nacht. Psalmen: Statenvertaling. De Nederlandse "
+            "vertaling van de gebeden is een eigen, voorlopige vertaling."),
         "hours": hours,
         "extras": extras,
     })
@@ -530,13 +534,41 @@ def load_kyrie():
     return module
 
 
+EO_NL_TABLE = os.path.join(ROOT, "tools", "source", "prayers_eo_nl.json")
+
+
+def fill_dutch(data, table):
+    """Fills empty Dutch titles and bodies from an English → Dutch table; a body only when every line is in it."""
+    for entry in data["hours"] + data["extras"]:
+        for s in entry["sections"]:
+            t = s.get("title")
+            if t and t.get("en") and not t.get("nl") and t["en"] in table:
+                t["nl"] = table[t["en"]]
+            b = s.get("body")
+            if s["kind"] != "scripture" and b and b.get("en") and not b.get("nl") and all(line in table for line in b["en"]):
+                b["nl"] = [table[line] for line in b["en"]]
+    return data
+
+
+def untranslated(data):
+    return sum(1 for e in data["hours"] + data["extras"] for s in e["sections"]
+               if s["kind"] != "scripture" and s.get("body") and s["body"].get("en") and not s["body"].get("nl"))
+
+
 def write(name, data):
     data = load_kyrie().apply(data)  # Κύριε ἐλέησον stays in Greek
+    if name == "prayers_eo.json":
+        data = fill_dutch(data, json.load(open(EO_NL_TABLE, encoding="utf-8")))
+        print("horologion: untranslated sections", untranslated(data))
     with open(os.path.join(OUT, name), "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     print("wrote", name, os.path.getsize(os.path.join(OUT, name)) // 1024, "KB")
 
 
 if __name__ == "__main__":
+    import sys
+    if "--nl-only" in sys.argv:
+        write("prayers_eo.json", json.load(open(os.path.join(OUT, "prayers_eo.json"), encoding="utf-8")))
+        sys.exit()
     build_agpeya()
     build_horologion()
