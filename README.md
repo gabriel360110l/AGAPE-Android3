@@ -80,6 +80,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Horologion: morning/evening rule, Compline, Canons, Communion, Typika | *Orthodox Daily Prayers* (St Tikhon's 1982, Project Gutenberg) via mdws-org/orthodoxprayers | Public domain |
 | Council creeds, definitions, anathemas and canons | NPNF II/14 (Percival, 1900) via newadvent.org | Public domain |
 | Horologion (Dutch for the texts above) | `tools/source/prayers_eo_nl.json` | Own translation — review |
+| Horologion: Matins (reader's form) and the Vespers prokeimena | `tools/build_prayers.py` (traditional texts, psalms from the Bible) | Own arrangement and Dutch — review |
 | Liturgy of the Hours: Week I psalter, readings, Fathers' second readings | `tools/build_hours_ca.py` (texts from bible.db; Fathers: Lightfoot, ANF, NPNF, Pusey) | Public domain; antiphons, intercessions, prayers and Dutch of the Fathers are own texts — review |
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
