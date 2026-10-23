@@ -79,6 +79,8 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Agpeya (Dutch fixed prayers) | `tools/source/translations_nl.json` | Own translation — review |
 | Horologion: morning/evening rule, Compline, Canons, Communion, Typika | *Orthodox Daily Prayers* (St Tikhon's 1982, Project Gutenberg) via mdws-org/orthodoxprayers | Public domain |
 | Council creeds, definitions, anathemas and canons | NPNF II/14 (Percival, 1900) via newadvent.org | Public domain |
+| Horologion (Dutch for the texts above) | `tools/source/prayers_eo_nl.json` | Own translation — review |
+| Liturgy of the Hours: Week I psalter, readings, Fathers' second readings | `tools/build_hours_ca.py` (texts from bible.db; Fathers: Lightfoot, ANF, NPNF, Pusey) | Public domain; antiphons, intercessions, prayers and Dutch of the Fathers are own texts — review |
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
 | Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, the wisdom books (Job to Sirach), Isaiah, Ezekiel | `tools/source/commentary/*.md` | Own content — review |
@@ -102,6 +104,8 @@ Rebuild generated content from the repository root (downloads are cached in `too
 ```
 python tools/build_content.py     # Bible database, cross-references, Father quotes, books; --saints: menologion only
 python tools/build_prayers.py     # Agpeya and Horologion (Κύριε ἐλέησον via tools/kyrie.py)
+python tools/build_prayers.py --nl-only   # only fill in the Horologion Dutch, no downloads
+python tools/build_hours_ca.py    # Liturgy of the Hours, a full week (offline)
 python tools/build_councils.py    # council texts and canons
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
@@ -124,7 +128,8 @@ remaining deuterocanonical books) still show the legacy guide, marked in the app
 ## Before release
 
 - Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
-- Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary and Church articles.
+- Complete the sample content: verse commentary and Church articles. (The Horologion now has Dutch throughout and the
+  Liturgy of the Hours has a full week; both carry provisional own texts that need review.)
 - Write the remaining Old Testament chapter commentary (EN + NL): Jeremiah, Lamentations, Baruch, Daniel, the twelve
   minor prophets (Hosea to Malachi) and the remaining deuterocanonical books. Then have the written commentary,
   the quizzes, the menologion texts, the council translations, the Dutch saint names and the saint summaries
