@@ -91,7 +91,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Byzantine menologion: English texts | `tools/source/menologion_en.json` | Own content — review |
 | Coptic and Roman saint summaries (EN + NL) | `tools/source/saint_summaries_oo.tsv`, `saint_summaries_ca.tsv` | Own content — review; Coptic lines marked `?` are provisional |
 | Menologion names and Dutch texts, legacy prayers, provisional chapter guides (OT), Father notes | Legacy AGAPE app | Own content |
-| Verse notes (EN + NL, per tradition where it differs): the whole New Testament, Genesis, Exodus, Psalms, Isaiah | `tools/source/verse_notes/*.md` | Own content — review |
+| Verse notes (EN + NL, per tradition where it differs): best-known verses of every New Testament book, most Old Testament books and the deuterocanon (Tobit–2 Maccabees) | `tools/source/verse_notes/*.md` | Own content — review |
 | Council stories, Father biographies, Liturgy of the Hours hymns and prayers, plans, quizzes | `app/src/main/assets/content/*.json` | Own content (hymns: Neale/Newman, public domain) |
 
 Canon per tradition is defined in `tools/build_content.py` (`BOOKS`). Councils per tradition are in
@@ -124,7 +124,7 @@ text. The other Old Testament books (Jeremiah, Lamentations, Baruch, Daniel, the
 remaining deuterocanonical books) still show the legacy guide, marked in the app as provisional (English only).
 
 Verse notes, shown when a verse is tapped, are written in `tools/source/verse_notes/<BOOK>.md` and cover the
-best-known verses, not every verse. Written so far: the whole New Testament, Genesis, Exodus, Psalms and Isaiah. References use
+best-known verses, not every verse. Written so far: every New Testament book, nearly all Old Testament books, and Tobit, Judith, Wisdom, Sirach, Baruch and 1–2 Maccabees (1065 notes). References use
 the English (WEB) numbering; the build moves Psalm notes to the Statenvertaling numbering (where the titles are
 counted as verses) and requires an explicit Dutch reference in any other chapter whose numbering differs, so a
 note never lands on the wrong verse. Each language only shows its own note.
