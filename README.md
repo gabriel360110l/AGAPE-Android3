@@ -47,7 +47,8 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   day and the days you read or prayed.
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
   it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: the whole
-  New Testament has hand-written questions (4 per chapter); other chapters get 5 questions and every book 20, generated
+  New Testament and the major Old Testament books (Genesis, Exodus, Ruth, Jonah, Jeremiah, Lamentations, Baruch,
+  Ezekiel, Daniel) have hand-written questions (4 per chapter); other chapters get 5 questions and every book 20, generated
   from the Bible text (`data/quiz/QuizGenerator.kt`).
 - **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches: the Byzantine
   menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
@@ -73,7 +74,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
 | Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, the wisdom books (Job to Sirach), Isaiah, Ezekiel | `tools/source/commentary/*.md` | Own content — review |
-| Chapter quizzes, New Testament (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
+| Chapter quizzes, New Testament and major Old Testament books (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
 | Coptic Synaxarium (names per day) | api.coptic.io | Check terms before release; Dutch: rules + `tools/source/saints_nl_oo.json` |
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
 | Saint and feast icons (73) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
