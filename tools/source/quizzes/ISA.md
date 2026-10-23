@@ -791,3 +791,399 @@
 = Cyrus | Kores
 - David | David
 - Moses | Mozes
+
+## 45
+? Whom does the Lord call his anointed, whose right hand he holds? | Wie noemt de Heer zijn gezalfde, wiens rechterhand Hij vasthoudt?
+= Cyrus | Kores
+- Hezekiah | Hizkia
+- Isaiah | Jesaja
+? What does the Lord say he forms and creates? | Wat zegt de Heer dat Hij formeert en schept?
+= Light and darkness, peace and calamity | Licht en duisternis, vrede en onheil
+- Only the stars | Alleen de sterren
+- Only Israel | Alleen Israël
+? What invitation does the Lord give to all the ends of the earth? | Welke uitnodiging geeft de Heer aan alle einden van de aarde?
+= Turn to me and be saved | Wend u tot Mij en word behouden
+- Bring me your gold | Breng Mij uw goud
+- Go to Babylon | Ga naar Babel
+? What will every knee and every tongue do? | Wat zal elke knie en elke tong doen?
+= Every knee will bow and every tongue will swear | Elke knie zal zich buigen en elke tong zal zweren
+- Rebel against the Lord | In opstand komen tegen de Heer
+- Remain silent | Zwijgen
+
+## 46
+? Which gods bow down and stoop? | Welke goden buigen zich en zakken in elkaar?
+= Bel and Nebo | Bel en Nebo
+- Baal and Asherah | Baäl en Asjera
+- Dagon and Molech | Dagon en Molech
+? How are the idols carried? | Hoe worden de afgoden gedragen?
+= As a burden on weary animals | Als een last op vermoeide dieren
+- In a golden ark | In een gouden ark
+- On the shoulders of priests in triumph | In triomf op de schouders van priesters
+? What does the Lord say he has done and will do for Israel? | Wat zegt de Heer dat Hij voor Israël gedaan heeft en zal doen?
+= I have made you and I will carry you, even to old age | Ik heb u gemaakt en Ik zal u dragen, tot in de ouderdom
+- I will leave you in Babylon | Ik zal u in Babel achterlaten
+- I will forget you | Ik zal u vergeten
+? What does the Lord declare from the beginning? | Wat verkondigt de Heer van het begin af?
+= The end | Het einde
+- Nothing | Niets
+- Only the past | Alleen het verleden
+
+## 47
+? Who is told to sit in the dust? | Wie moet in het stof gaan zitten?
+= The virgin daughter of Babylon | De maagd, de dochter van Babel
+- The daughter of Zion | De dochter van Sion
+- The queen of Sheba | De koningin van Scheba
+? What will Babylon no longer be called? | Hoe zal Babel niet meer genoemd worden?
+= The lady of kingdoms | De meesteres van de koninkrijken
+- The city of David | De stad van David
+- The holy city | De heilige stad
+? What two losses will come on Babylon in one day? | Welke twee verliezen zullen Babel op één dag treffen?
+= Loss of children and widowhood | Kinderloosheid en weduwschap
+- Fire and flood | Vuur en vloed
+- Famine and plague | Honger en pest
+? Who cannot save Babylon? | Wie kunnen Babel niet redden?
+= Her astrologers and stargazers | Haar sterrenwichelaars en sterrenkijkers
+- Her soldiers alone | Alleen haar soldaten
+- Her neighbors | Haar buren
+
+## 48
+? How does the Lord describe Israel's obstinacy? | Hoe beschrijft de Heer de hardnekkigheid van Israël?
+= Your neck is an iron sinew and your brow bronze | Uw nek is een ijzeren pees en uw voorhoofd koper
+- Your heart is soft as wax | Uw hart is zacht als was
+- Your feet are swift | Uw voeten zijn snel
+? In what has the Lord refined Israel? | Waarin heeft de Heer Israël gelouterd?
+= The furnace of affliction | De oven van de ellende
+- The Jordan | De Jordaan
+- The desert sun | De woestijnzon
+? What would Israel's peace have been like if they had listened? | Hoe zou de vrede van Israël geweest zijn als zij geluisterd hadden?
+= Like a river | Als een rivier
+- Like a storm | Als een storm
+- Like a dry well | Als een droge put
+? What are the exiles told to do? | Wat moeten de ballingen doen?
+= Go out from Babylon, flee from the Chaldeans | Uit Babel trekken, vluchten van de Chaldeeën
+- Stay and build houses in Babylon | Blijven en huizen bouwen in Babel
+- Fight the Chaldeans | Tegen de Chaldeeën vechten
+
+## 49
+? When did the Lord call his servant? | Wanneer riep de Heer zijn knecht?
+= From the womb | Van de moederschoot af
+- In his old age | In zijn ouderdom
+- After the exile | Na de ballingschap
+? What is too light a thing for the servant? | Wat is te gering voor de knecht?
+= Only to raise up the tribes of Jacob; he will be a light to the nations | Alleen de stammen van Jakob op te richten; hij zal een licht voor de volken zijn
+- To speak to kings | Tot koningen te spreken
+- To rebuild the temple | De tempel te herbouwen
+? What did Zion say? | Wat zei Sion?
+= The Lord has forsaken me | De Heer heeft mij verlaten
+- The Lord has crowned me | De Heer heeft mij gekroond
+- I am rich | Ik ben rijk
+? What does the Lord answer Zion? | Wat antwoordt de Heer aan Sion?
+= Can a woman forget her nursing child? Yet I will not forget you | Kan een vrouw haar zuigeling vergeten? Toch zal Ik u niet vergeten
+- You are right | U hebt gelijk
+- Wait seventy more years | Wacht nog zeventig jaar
+
+## 50
+? What has the Lord God given the servant? | Wat heeft de Heer God aan de knecht gegeven?
+= The tongue of the learned, to sustain the weary with a word | Een tong van geleerden, om de vermoeide met een woord te steunen
+- A sword | Een zwaard
+- A royal crown | Een koninklijke kroon
+? What did the servant give to those who struck him? | Wat gaf de knecht aan wie hem sloegen?
+= His back, and his cheeks to those who pulled out his beard | Zijn rug, en zijn wangen aan wie zijn baard uittrokken
+- Blows in return | Slagen terug
+- Silver | Zilver
+? From what did the servant not hide his face? | Waarvoor verborg de knecht zijn gezicht niet?
+= Shame and spitting | Smaad en speeksel
+- The sun | De zon
+- The king | De koning
+? How did the servant set his face? | Hoe zette de knecht zijn gezicht?
+= Like flint, knowing he would not be ashamed | Als een keisteen, wetend dat hij niet beschaamd zou worden
+- Toward Egypt | Naar Egypte
+- Away from Jerusalem | Weg van Jeruzalem
+
+## 51
+? To what rock are the seekers of righteousness told to look? | Naar welke rots moeten zij die gerechtigheid zoeken kijken?
+= The rock from which they were hewn: Abraham and Sarah | De rots waaruit zij gehouwen zijn: Abraham en Sara
+- Mount Sinai | De berg Sinaï
+- The rock of Horeb | De rots van Horeb
+? What will the Lord make Zion's wilderness like? | Waarop zal de Heer de woestijn van Sion doen lijken?
+= Eden, the garden of the Lord | Eden, de hof van de Heer
+- Babylon | Babel
+- A battlefield | Een slagveld
+? What did the arm of the Lord do of old? | Wat deed de arm van de Heer vroeger?
+= Dried up the sea and made a way for the redeemed | De zee droogleggen en een weg maken voor de verlosten
+- Built the pyramids | De piramiden bouwen
+- Founded Babylon | Babel stichten
+? What does the Lord take from Jerusalem's hand? | Wat neemt de Heer uit de hand van Jeruzalem?
+= The cup of his wrath | De beker van zijn toorn
+- Her sword | Haar zwaard
+- Her crown | Haar kroon
+
+## 52
+? What is Zion told to put on? | Wat moet Sion aantrekken?
+= Strength and beautiful garments | Kracht en sierlijke klederen
+- Sackcloth | Een rouwgewaad
+- Armor | Een wapenrusting
+? What is beautiful upon the mountains? | Wat is lieflijk op de bergen?
+= The feet of him who brings good news and proclaims peace | De voeten van wie goede tijding brengt en vrede verkondigt
+- The cedars of Lebanon | De ceders van de Libanon
+- The armies of the king | De legers van de koning
+? What are those who carry the vessels of the Lord told? | Wat wordt er gezegd tegen wie de vaten van de Heer dragen?
+= Depart, touch no unclean thing; be clean | Ga weg, raak niets onreins aan; reinig u
+- Sell the vessels | Verkoop de vaten
+- Hide them in Babylon | Verberg ze in Babel
+? What will kings do because of the servant? | Wat zullen koningen doen vanwege de knecht?
+= Shut their mouths | Hun mond sluiten
+- Make war on him | Oorlog tegen hem voeren
+- Laugh | Lachen
+
+## 53
+? How is the servant described? | Hoe wordt de knecht beschreven?
+= Despised and rejected, a man of sorrows, acquainted with grief | Veracht en verworpen, een man van smarten, bekend met ziekte
+- Admired by all | Door iedereen bewonderd
+- A mighty warrior | Een machtige krijger
+? For what was he wounded and bruised? | Waarvoor werd hij doorboord en verbrijzeld?
+= For our transgressions and our iniquities | Om onze overtredingen en onze ongerechtigheden
+- For his own sins | Om zijn eigen zonden
+- For no reason at all | Zonder enige reden
+? What heals us? | Wat geneest ons?
+= His stripes | Zijn striemen
+- Our sacrifices | Onze offers
+- Our tears | Onze tranen
+? To what is he compared in his silence? | Waarmee wordt hij vergeleken in zijn zwijgen?
+= A lamb led to the slaughter | Een lam dat ter slachting geleid wordt
+- A lion in its den | Een leeuw in zijn hol
+- A tree in winter | Een boom in de winter
+
+## 54
+? Whom does the Lord call to sing? | Wie roept de Heer op te zingen?
+= The barren one who did not bear | De onvruchtbare die niet gebaard heeft
+- The king of Babylon | De koning van Babel
+- The priests | De priesters
+? What is she told to do with her tent? | Wat moet zij met haar tent doen?
+= Enlarge it and stretch out its curtains | Hem vergroten en de tentkleden uitspannen
+- Fold it up | Hem opvouwen
+- Burn it | Hem verbranden
+? Who is her husband? | Wie is haar man?
+= Her Maker, the Lord of hosts | Haar Maker, de Heer van de legermachten
+- The king of Persia | De koning van Perzië
+- No one | Niemand
+? What will not depart even if mountains depart? | Wat zal niet wijken, ook al wijken de bergen?
+= The Lord's steadfast love and covenant of peace | De goedertierenheid van de Heer en zijn vredesverbond
+- The walls of Jerusalem | De muren van Jeruzalem
+- The sea | De zee
+
+## 55
+? Whom does the Lord invite to come to the waters? | Wie nodigt de Heer uit om tot de wateren te komen?
+= Everyone who thirsts, even without money | Ieder die dorst heeft, ook zonder geld
+- Only the priests | Alleen de priesters
+- Only the rich | Alleen de rijken
+? When should they seek the Lord? | Wanneer moeten zij de Heer zoeken?
+= While he may be found | Terwijl Hij te vinden is
+- After the exile | Na de ballingschap
+- Only on the Sabbath | Alleen op de sabbat
+? How do the Lord's thoughts compare with ours? | Hoe verhouden de gedachten van de Heer zich tot de onze?
+= As the heavens are higher than the earth, so are his thoughts higher | Zoals de hemel hoger is dan de aarde, zo zijn zijn gedachten hoger
+- They are the same | Ze zijn hetzelfde
+- They are smaller | Ze zijn kleiner
+? What will God's word not do? | Wat zal Gods woord niet doen?
+= Return to him empty | Leeg tot Hem terugkeren
+- Reach the nations | De volken bereiken
+- Bring rain | Regen brengen
+
+## 56
+? Who will be brought to the holy mountain if they keep the Sabbath? | Wie zullen naar de heilige berg gebracht worden als zij de sabbat houden?
+= Foreigners and eunuchs who hold fast the covenant | Vreemdelingen en eunuchen die aan het verbond vasthouden
+- Only the Levites | Alleen de Levieten
+- Only the people of Judah | Alleen het volk van Juda
+? What will the Lord's house be called? | Hoe zal het huis van de Heer genoemd worden?
+= A house of prayer for all peoples | Een huis van gebed voor alle volken
+- A house of merchandise | Een handelshuis
+- A fortress of Judah | Een vesting van Juda
+? What does the Lord give the faithful eunuch? | Wat geeft de Heer aan de trouwe eunuch?
+= A name better than sons and daughters | Een naam beter dan zonen en dochters
+- Gold and silver | Goud en zilver
+- A field | Een akker
+? How are Israel's watchmen described? | Hoe worden de wachters van Israël beschreven?
+= Blind, and like silent dogs that cannot bark | Blind, en als stomme honden die niet kunnen blaffen
+- Faithful and watchful | Trouw en waakzaam
+- Brave soldiers | Dappere soldaten
+
+## 57
+? What happens when the righteous perishes? | Wat gebeurt er als de rechtvaardige omkomt?
+= No one takes it to heart | Niemand neemt het ter harte
+- The whole city mourns | De hele stad rouwt
+- The temple shakes | De tempel beeft
+? With whom does the High and Holy One dwell? | Bij wie woont de Hoge en Heilige?
+= With him who is of a contrite and humble spirit | Bij wie verbrijzeld en nederig van geest is
+- With kings in palaces | Bij koningen in paleizen
+- With the proud | Bij de hoogmoedigen
+? What does the Lord speak to far and near? | Wat spreekt de Heer tot wie ver en nabij is?
+= Peace, peace | Vrede, vrede
+- Woe, woe | Wee, wee
+- Silence | Stilte
+? To what are the wicked compared? | Waarmee worden de goddelozen vergeleken?
+= A troubled sea that cannot rest | Een woelige zee die niet tot rust kan komen
+- A green tree | Een groene boom
+- A strong wall | Een sterke muur
+
+## 58
+? Why did the Lord not regard Israel's fasting? | Waarom sloeg de Heer geen acht op het vasten van Israël?
+= On their fast days they oppressed their workers and quarreled | Op hun vastendagen onderdrukten zij hun arbeiders en maakten zij ruzie
+- They fasted too long | Zij vastten te lang
+- They fasted in secret | Zij vastten in het geheim
+? What is the fast the Lord chooses? | Wat is het vasten dat de Heer verkiest?
+= To loose the bonds of wickedness and share bread with the hungry | De boeien van de goddeloosheid losmaken en het brood met de hongerige delen
+- To wear sackcloth for a year | Een jaar lang een rouwgewaad dragen
+- To stop speaking | Ophouden met spreken
+? What will break forth like the morning? | Wat zal uitbreken als de dageraad?
+= Your light | Uw licht
+- The enemy | De vijand
+- A storm | Een storm
+? What will those who do this be called? | Hoe zullen zij die dit doen genoemd worden?
+= Repairer of the breach | Hersteller van de bres
+- Destroyer of cities | Verwoester van steden
+- Keeper of treasures | Bewaarder van schatten
+
+## 59
+? Why does the Lord not hear? | Waarom hoort de Heer niet?
+= Their iniquities have separated them from God | Hun ongerechtigheden hebben scheiding gemaakt tussen hen en God
+- His hand is too short | Zijn hand is te kort
+- His ear is deaf | Zijn oor is doof
+? To what are the wicked's works compared? | Waarmee worden de werken van de goddelozen vergeleken?
+= Adder's eggs and spider's webs | Adderseieren en spinnenwebben
+- Gold and silver | Goud en zilver
+- Fruitful trees | Vruchtbare bomen
+? What has fallen in the street? | Wat is er op straat gestruikeld?
+= Truth | De waarheid
+- The king | De koning
+- The temple | De tempel
+? What does the Lord put on as he comes to save? | Wat trekt de Heer aan als Hij komt om te redden?
+= Righteousness as a breastplate and a helmet of salvation | Gerechtigheid als een pantser en een helm van heil
+- A royal robe | Een koninklijk kleed
+- Sackcloth | Een rouwgewaad
+
+## 60
+? With what words does this chapter begin? | Met welke woorden begint dit hoofdstuk?
+= "Arise, shine, for your light has come" | ‘Sta op, word verlicht, want uw licht komt’
+- "Comfort, comfort my people" | ‘Troost, troost mijn volk’
+- "Woe to Ariel" | ‘Wee Ariël’
+? What will the nations bring from Sheba? | Wat zullen de volken uit Scheba brengen?
+= Gold and frankincense | Goud en wierook
+- Swords and spears | Zwaarden en speren
+- Slaves | Slaven
+? What will be Zion's light instead of the sun and moon? | Wat zal het licht van Sion zijn in plaats van zon en maan?
+= The Lord, an everlasting light | De Heer, een eeuwig licht
+- A great lamp | Een grote lamp
+- Fire from the altar | Vuur van het altaar
+? What will Zion call her walls and gates? | Hoe zal Sion haar muren en poorten noemen?
+= Salvation and Praise | Heil en Lof
+- Strength and Pride | Kracht en Trots
+- Gold and Silver | Goud en Zilver
+
+## 61
+? Why is the Spirit of the Lord God upon the speaker? | Waarom is de Geest van de Heer God op de spreker?
+= The Lord has anointed him to bring good news to the poor | De Heer heeft hem gezalfd om de armen goede tijding te brengen
+- To lead an army | Om een leger aan te voeren
+- To rebuild Babylon | Om Babel te herbouwen
+? What will he proclaim to the captives? | Wat zal hij de gevangenen verkondigen?
+= Liberty | Vrijlating
+- Punishment | Straf
+- Exile | Ballingschap
+? What will the mourners receive instead of ashes? | Wat zullen de treurenden krijgen in plaats van as?
+= A garland of beauty and the oil of joy | Een sierlijke hoofdtooi en vreugdeolie
+- More ashes | Meer as
+- Silver coins | Zilveren munten
+? How does the speaker describe being clothed by God? | Hoe beschrijft de spreker dat God hem kleedt?
+= With garments of salvation and a robe of righteousness, like a bridegroom | Met klederen van heil en een mantel van gerechtigheid, als een bruidegom
+- With armor of iron | Met een harnas van ijzer
+- With sackcloth | Met een rouwgewaad
+
+## 62
+? Why will the prophet not keep silent? | Waarom zal de profeet niet zwijgen?
+= For Zion's sake, until her righteousness shines out | Om Sions wil, totdat haar gerechtigheid opgaat als glans
+- Because the king commands him | Omdat de koning het hem beveelt
+- Because he is angry | Omdat hij boos is
+? What will Zion no longer be called? | Hoe zal Sion niet meer genoemd worden?
+= Forsaken | Verlaten
+- Beloved | Geliefde
+- Holy | Heilig
+? What are the watchmen on Jerusalem's walls never to do? | Wat mogen de wachters op de muren van Jeruzalem nooit doen?
+= Be silent, day or night | Zwijgen, dag of nacht
+- Sleep at noon | Slapen op het middaguur
+- Open the gates | De poorten openen
+? What will the people be called? | Hoe zal het volk genoemd worden?
+= The holy people, the redeemed of the Lord | Het heilige volk, de verlosten van de Heer
+- The forgotten people | Het vergeten volk
+- The people of Babylon | Het volk van Babel
+
+## 63
+? From where does the one with red garments come? | Waarvandaan komt degene met rode klederen?
+= From Edom, from Bozrah | Uit Edom, uit Bozra
+- From Egypt | Uit Egypte
+- From Babylon | Uit Babel
+? Why are his garments red? | Waarom zijn zijn klederen rood?
+= He has trodden the winepress alone | Hij heeft de wijnpers alleen getreden
+- He has been painting | Hij heeft geschilderd
+- They are royal robes | Het zijn koninklijke gewaden
+? What does the prophet say about God in Israel's affliction? | Wat zegt de profeet over God in de benauwdheid van Israël?
+= In all their affliction he was afflicted, and the angel of his presence saved them | In al hun benauwdheid was Hij benauwd, en de engel van zijn aangezicht heeft hen verlost
+- He was far away | Hij was ver weg
+- He did not notice | Hij merkte het niet op
+? What did Israel do to his Holy Spirit? | Wat deed Israël met zijn Heilige Geest?
+= They rebelled and grieved him | Zij waren weerspannig en bedroefden Hem
+- They obeyed him perfectly | Zij gehoorzaamden Hem volmaakt
+- They forgot his name | Zij vergaten zijn naam
+
+## 64
+? What does the prophet long for God to do? | Waarnaar verlangt de profeet dat God doet?
+= Tear open the heavens and come down | De hemel scheuren en neerdalen
+- Leave the earth | De aarde verlaten
+- Stay silent | Stil blijven
+? What has no eye seen besides God? | Wat heeft geen oog gezien behalve God?
+= A God who acts for those who wait for him | Een God die handelt voor wie op Hem wachten
+- The bottom of the sea | De bodem van de zee
+- The end of the world | Het einde van de wereld
+? To what are all our righteous deeds compared? | Waarmee worden al onze gerechtigheden vergeleken?
+= A filthy garment | Een bevlekt kleed
+- Pure gold | Zuiver goud
+- A shining lamp | Een stralende lamp
+? What does the prophet confess about God and his people? | Wat belijdt de profeet over God en zijn volk?
+= You are our Father; we are the clay and you our potter | U bent onze Vader; wij zijn het leem en U onze pottenbakker
+- We made ourselves | Wij hebben onszelf gemaakt
+- You have no part in us | U hebt geen deel aan ons
+
+## 65
+? By whom does the Lord say he was found? | Door wie zegt de Heer gevonden te zijn?
+= By those who did not seek him | Door wie Hem niet zochten
+- Only by the priests | Alleen door de priesters
+- By no one | Door niemand
+? What will the Lord create? | Wat zal de Heer scheppen?
+= New heavens and a new earth | Een nieuwe hemel en een nieuwe aarde
+- A new Babylon | Een nieuw Babel
+- A higher wall | Een hogere muur
+? What will the wolf and the lamb do? | Wat zullen de wolf en het lam doen?
+= Feed together | Samen weiden
+- Fight each other | Met elkaar vechten
+- Flee to the desert | Naar de woestijn vluchten
+? When will the Lord answer his people? | Wanneer zal de Heer zijn volk antwoorden?
+= Before they call | Voordat zij roepen
+- After seven days | Na zeven dagen
+- Never | Nooit
+
+## 66
+? What does the Lord call heaven and earth? | Hoe noemt de Heer de hemel en de aarde?
+= Heaven my throne and earth my footstool | De hemel mijn troon en de aarde mijn voetbank
+- My garden and my field | Mijn tuin en mijn akker
+- My house and my door | Mijn huis en mijn deur
+? To whom will the Lord look? | Naar wie zal de Heer omzien?
+= To the humble and contrite in spirit who trembles at his word | Naar de nederige en verslagene van geest die beeft voor zijn woord
+- To the proud | Naar de hoogmoedigen
+- To the mighty | Naar de machtigen
+? How will the Lord comfort his people? | Hoe zal de Heer zijn volk troosten?
+= As a mother comforts her child | Zoals een moeder haar kind troost
+- As a king rewards a soldier | Zoals een koning een soldaat beloont
+- As a judge acquits | Zoals een rechter vrijspreekt
+? What will all flesh do according to the end of the book? | Wat zal alle vlees volgens het einde van het boek doen?
+= Come to worship before the Lord | Komen om zich voor de Heer neer te buigen
+- Return to Babylon | Terugkeren naar Babel
+- Forget the Lord | De Heer vergeten
