@@ -1,7 +1,6 @@
 package agape.app.data.content
 
 import agape.app.core.model.AppLanguage
-import agape.app.core.model.L10n
 import agape.app.core.model.Tradition
 import android.content.Context
 import kotlinx.serialization.json.Json
@@ -117,11 +116,15 @@ class ContentRepository(private val context: Context) {
         return pool[Math.floorMod(date.toEpochDay(), pool.size.toLong()).toInt()]
     }
 
-    /** Sample per-verse notes: the shared note and, if present, a tradition-specific one. */
-    fun verseNotes(key: String, tradition: Tradition): List<L10n> {
+    /**
+     * Per-verse notes in [language]: the shared note and, if present, a tradition-specific one. There is no fallback to
+     * the other language, because where WEB and the Statenvertaling number a verse differently (the Psalm titles, a few
+     * chapter breaks) each language has its own key and a note must not appear on the wrong verse.
+     */
+    fun verseNotes(key: String, tradition: Tradition, language: AppLanguage): List<String> {
         val entry = verseNotes[key] as? JsonObject ?: return emptyList()
         return listOf("all", tradition.name).mapNotNull { k ->
-            (entry[k] as? JsonObject)?.let { L10n(it["en"]?.jsonPrimitive?.content.orEmpty(), it["nl"]?.jsonPrimitive?.content.orEmpty()) }
+            (entry[k] as? JsonObject)?.get(language.tag)?.jsonPrimitive?.content?.takeIf { it.isNotBlank() }
         }
     }
 }

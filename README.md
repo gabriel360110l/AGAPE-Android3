@@ -96,7 +96,8 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Byzantine menologion: English texts | `tools/source/menologion_en.json` | Own content — review |
 | Coptic and Roman saint summaries (EN + NL) | `tools/source/saint_summaries_oo.tsv`, `saint_summaries_ca.tsv` | Own content — review; Coptic lines marked `?` are provisional |
 | Menologion names and Dutch texts, legacy prayers, provisional chapter guides (OT), Father notes | Legacy AGAPE app | Own content |
-| Council stories, Father biographies, Liturgy of the Hours hymns and prayers, plans, quizzes, verse notes | `app/src/main/assets/content/*.json` | Own content (hymns: Neale/Newman, public domain) |
+| Verse notes (EN + NL, per tradition where it differs): best-known verses of every New Testament book, most Old Testament books and the deuterocanon (Tobit–2 Maccabees) | `tools/source/verse_notes/*.md` | Own content — review |
+| Council stories, Father biographies, Liturgy of the Hours hymns and prayers, plans, quizzes | `app/src/main/assets/content/*.json` | Own content (hymns: Neale/Newman, public domain) |
 
 Canon per tradition is defined in `tools/build_content.py` (`BOOKS`). Councils per tradition are in
 `assets/content/councils.json` (`recognizedBy`); the council reading plan follows them: 3 (Oriental Orthodox),
@@ -112,6 +113,7 @@ python tools/build_hours_ca.py    # Liturgy of the Hours, a full week (offline)
 python tools/build_councils.py    # council texts and canons; --later merges only councils 9–21 (offline)
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
+python tools/build_verse_notes.py # verse notes (verse sheet) from tools/source/verse_notes/
 python tools/build_church.py      # Church articles (history and per tradition) from tools/source/church/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
 python tools/build_saint_summaries.py  # adds the saint summaries to saints_oo.json and saints_ca.json (offline)
@@ -135,14 +137,20 @@ The Church articles are written in `tools/source/church/NN-<id>.md` (EN + NL, sa
 history articles shared by all three Churches, and for each tradition an overview plus the sacraments, the
 liturgy, fasting, the feasts, icons and saints, and daily prayer (28 articles).
 
+Verse notes, shown when a verse is tapped, are written in `tools/source/verse_notes/<BOOK>.md` and cover the
+best-known verses, not every verse. Written so far: every New Testament book, nearly all Old Testament books, and Tobit, Judith, Wisdom, Sirach, Baruch and 1–2 Maccabees (1065 notes). References use
+the English (WEB) numbering; the build moves Psalm notes to the Statenvertaling numbering (where the titles are
+counted as verses) and requires an explicit Dutch reference in any other chapter whose numbering differs, so a
+note never lands on the wrong verse. Each language only shows its own note.
+
 ## Before release
 
 - Terms and Privacy Policy (`assets/legal/`, EN + NL) are drafts that match what the app does: fill in the parts in
   [square brackets] (publisher name and address, Supabase region, backup period, age limit) and have them
   reviewed by a lawyer. Set the real donation URL in `app/build.gradle.kts`.
-- Complete the sample content: verse commentary. Have the Church articles reviewed by someone from each tradition.
-  (The Horologion now has Dutch throughout and the Liturgy of the Hours has a full week; both carry provisional own
-  texts that need review.)
+- Complete the sample content: extend the verse notes to the remaining Old Testament books. Have the Church articles
+  reviewed by someone from each tradition. (The Horologion now has Dutch throughout and the Liturgy of the Hours has a
+  full week; both carry provisional own texts that need review.)
 - Have the written commentary, the quizzes, the menologion texts, the council translations, the Dutch saint names
   and the saint summaries reviewed: the 145 Coptic summaries marked `?` first, which say only what was safe without the full Synaxarium
   text and should be checked and filled out against it.
