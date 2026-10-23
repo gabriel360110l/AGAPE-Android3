@@ -9,6 +9,7 @@ import kotlinx.serialization.Serializable
 @Serializable data object SearchRoute
 @Serializable data object MeRoute
 @Serializable data object CalendarRoute
+@Serializable data object RosaryRoute
 
 // Bible
 /** Deep link: agape://bible/{book}/{chapter}?verse={verse} */

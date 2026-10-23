@@ -1,0 +1,23 @@
+[
+ {
+  "file": "backgrounds/art_sanctuary.jpg",
+  "title": "Sanctuary with lamps (painted for AGAPE)",
+  "artist": "AGAPE, tools/render_backgrounds.py",
+  "licence": "CC0",
+  "source": ""
+ },
+ {
+  "file": "backgrounds/art_dome.jpg",
+  "title": "Golden dome (painted for AGAPE)",
+  "artist": "AGAPE, tools/render_backgrounds.py",
+  "licence": "CC0",
+  "source": ""
+ },
+ {
+  "file": "backgrounds/art_candles.jpg",
+  "title": "Candles before an icon (painted for AGAPE)",
+  "artist": "AGAPE, tools/render_backgrounds.py",
+  "licence": "CC0",
+  "source": ""
+ }
+]

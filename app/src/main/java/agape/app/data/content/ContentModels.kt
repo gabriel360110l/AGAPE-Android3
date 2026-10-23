@@ -222,9 +222,9 @@ data class NotableLeader(val name: String, val years: String, val note: L10n)
 @Serializable
 data class SaintEntry(val month: Int, val day: Int, val rank: String, val title: L10n, val summary: L10n)
 
-/** One commemoration in the Coptic Synaxarium or the General Roman Calendar. */
+/** One commemoration in the Coptic Synaxarium or the General Roman Calendar, with a short summary when one is written. */
 @Serializable
-data class SaintName(val title: L10n, val rank: String = "")
+data class SaintName(val title: L10n, val rank: String = "", val summary: L10n = L10n())
 
 /** The commemorations of one day: a Coptic month/day for `saints_oo.json`, a Gregorian one for `saints_ca.json`. */
 @Serializable
