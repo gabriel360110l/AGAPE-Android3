@@ -11,7 +11,7 @@ import agape.app.ui.components.Divider
 import agape.app.ui.components.Kicker
 import agape.app.ui.components.ListRow
 import agape.app.ui.components.Ornament
-import agape.app.ui.components.TabHeader
+import agape.app.ui.components.DetailTopBar
 import agape.app.ui.theme.AgapeTheme
 import android.content.Intent
 import android.net.Uri
@@ -58,6 +58,7 @@ import kotlinx.coroutines.launch
 
 @Composable
 fun MeScreen(
+    onBack: () -> Unit,
     openSettings: () -> Unit,
     openSaved: () -> Unit,
     openActivity: () -> Unit,
@@ -90,7 +91,10 @@ fun MeScreen(
     }
 
     LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
-        item { TabHeader(kicker = email ?: "", title = stringResource(R.string.tab_me)) }
+        item { DetailTopBar(stringResource(R.string.home_profile), onBack) }
+        if (email != null) {
+            item { Text(email, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, modifier = Modifier.padding(start = 20.dp, bottom = 4.dp)) }
+        }
         item {
             AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {

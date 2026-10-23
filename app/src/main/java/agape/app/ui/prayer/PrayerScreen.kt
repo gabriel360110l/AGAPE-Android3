@@ -1,7 +1,9 @@
 package agape.app.ui.prayer
 
 import agape.app.R
+import agape.app.core.model.Tradition
 import agape.app.core.prefs.TourStop
+import agape.app.data.rosary.MysterySet
 import agape.app.data.content.PrayerHour
 import agape.app.data.plans.PrayerClock
 import agape.app.notifications.HourReminder
@@ -74,7 +76,7 @@ import kotlinx.coroutines.launch
 import java.time.LocalTime
 
 @Composable
-fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit) {
+fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit, openRosary: () -> Unit) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val settings = LocalSettings.current
@@ -126,6 +128,21 @@ fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit) {
                     next?.takeIf { it.id != hour.id }?.let {
                         Spacer(Modifier.height(12.dp))
                         Text(stringResource(R.string.prayer_next, it.name[lang], it.time), style = MaterialTheme.typography.bodySmall, color = sky.muted)
+                    }
+                }
+            }
+        }
+        if (tradition == Tradition.CATHOLIC) {
+            item {
+                AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), onClick = openRosary) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Column(Modifier.weight(1f)) {
+                            Kicker(stringResource(R.string.rosary_title))
+                            Spacer(Modifier.height(6.dp))
+                            Text(MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink)
+                            Text(stringResource(R.string.rosary_card_body), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
+                        }
+                        RosaryMark(Modifier.size(56.dp))
                     }
                 }
             }
