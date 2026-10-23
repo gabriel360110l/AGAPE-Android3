@@ -3,7 +3,12 @@
 Nicene and Post-Nicene Fathers, Second Series, vol. 14 (H. R. Percival, 1900; public domain) as published on
 newadvent.org, into app/src/main/assets/content/council_texts.json.
 
+The later councils (Lateran I to Vatican II) have no public-domain English text that the build can fetch, so
+their key decrees are written by hand in tools/source/council_texts_later/<id>.json (EN + NL, AGAPE's own provisional
+renderings) and are merged in, marked as provisional.
+
 Run from the repository root:  python tools/build_councils.py
+Add --later to merge only the hand-written later councils into the existing council_texts.json (no download).
 """
 import html
 import json
@@ -37,6 +42,7 @@ CANON_FIXES = {
     },
 }
 NL_DIR = os.path.join(ROOT, "tools", "source", "council_texts_nl")
+LATER_DIR = os.path.join(ROOT, "tools", "source", "council_texts_later")
 SKIP = re.compile(r"^(Please help support|About this page|Copyright|Contact information|Source\.)", re.I)
 
 
@@ -113,10 +119,34 @@ def build():
             "source": "NPNF II/14, The Seven Ecumenical Councils (H. R. Percival, 1900), via newadvent.org",
         }
         print(cid, "documents", [(d["title"], len(d["paragraphs"])) for d in documents], "canons", len(canons))
+    write(merge_later(out))
+
+
+def merge_later(out):
+    """Adds the hand-written key decrees of the later councils, in council order."""
+    order = [c["id"] for c in json.load(open(os.path.join(ROOT, "app", "src", "main", "assets", "content", "councils.json"), encoding="utf-8"))]
+    for name in sorted(os.listdir(LATER_DIR)):
+        cid = name.removesuffix(".json")
+        if cid not in order:
+            raise SystemExit(f"unknown council {cid}")
+        src = json.load(open(os.path.join(LATER_DIR, name), encoding="utf-8"))
+        for doc in src["documents"]:
+            if len(doc["paragraphs"]) != len(doc["paragraphsNl"]):
+                raise SystemExit(f"{cid} {doc['title']}: paragraph count differs")
+        out[cid] = {"documents": src["documents"], "canons": [], "source": src["source"], "provisional": True}
+        print(cid, "documents", [(d["title"], len(d["paragraphs"])) for d in src["documents"]])
+    return {cid: out[cid] for cid in order if cid in out}
+
+
+def write(out):
     with open(OUT, "w", encoding="utf-8", newline="\n") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print("wrote", os.path.relpath(OUT, ROOT), os.path.getsize(OUT) // 1024, "KB")
 
 
 if __name__ == "__main__":
-    build()
+    import sys
+    if "--later" in sys.argv:
+        write(merge_later(json.load(open(OUT, encoding="utf-8"))))
+    else:
+        build()

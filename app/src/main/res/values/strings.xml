@@ -393,5 +393,7 @@
     <string name="saint_also">Also remembered</string>
     <string name="saint_feast">Feast of the day</string>
     <string name="icon_credit">Icon: %1$s · %2$s</string>
+    <string name="council_texts_provisional">Provisional: these are AGAPE\'s own renderings of the key passages, made from the Latin, not an official translation. They are still to be checked against the original text.</string>
+    <string name="council_canons_in_texts">The key decrees and canons of this council are under Texts.</string>
     <string name="council_texts_later">The full decrees of this council are long and are not yet included in the app; the main canons are summarised above. The official texts can be found on vatican.va.</string>
 </resources>
