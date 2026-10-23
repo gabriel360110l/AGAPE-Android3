@@ -2,11 +2,11 @@
 
 ## 1 | The genealogy and birth of Jesus Christ | Het geslachtsregister en de geboorte van Jezus Christus
 S: Matthew opens with the family line of Jesus from Abraham through David to Joseph, in three groups of fourteen generations. Then he tells how Mary was found to be with child by the Holy Spirit, how Joseph, a just man, was told in a dream to take her as his wife, and how the child was named Jesus, for He will save His people from their sins.
-SN: Mattheüs begint met het geslachtsregister van Jezus, van Abraham via David tot Jozef, in drie groepen van veertien geslachten. Daarna vertelt hij hoe Maria zwanger bleek te zijn van de Heilige Geest, hoe Jozef, een rechtvaardig man, in een droom te horen kreeg dat hij haar tot vrouw moest nemen, en hoe het kind Jezus werd genoemd, want Hij zal Zijn volk redden van hun zonden.
+SN: Matteüs begint met het geslachtsregister van Jezus, van Abraham via David tot Jozef, in drie groepen van veertien geslachten. Daarna vertelt hij hoe Maria zwanger bleek te zijn van de Heilige Geest, hoe Jozef, een rechtvaardig man, in een droom te horen kreeg dat hij haar tot vrouw moest nemen, en hoe het kind Jezus werd genoemd, want Hij zal Zijn volk redden van hun zonden.
 M: The genealogy shows that Jesus is the promised Son of Abraham and Son of David, the fulfilment of Israel's whole history. The birth from the Virgin fulfils Isaiah's word: Emmanuel, God with us.
 MN: Het geslachtsregister laat zien dat Jezus de beloofde Zoon van Abraham en Zoon van David is, de vervulling van heel de geschiedenis van Israël. De geboorte uit de Maagd vervult het woord van Jesaja: Immanuël, God met ons.
 F: St John Chrysostom notes that Matthew names women such as Tamar, Rahab and Ruth: Christ did not hide the sins and the foreign blood in His family, because He came to heal sinners and gather the nations. The Fathers praise Joseph's righteousness, which was mercy rather than harshness.
-FN: De heilige Johannes Chrysostomus merkt op dat Mattheüs vrouwen als Tamar, Rachab en Ruth noemt: Christus verborg de zonden en het vreemde bloed in Zijn familie niet, want Hij kwam om zondaars te genezen en de volken te verzamelen. De Vaders prijzen de rechtvaardigheid van Jozef, die eerder barmhartigheid was dan hardheid.
+FN: De heilige Johannes Chrysostomus merkt op dat Matteüs vrouwen als Tamar, Rachab en Ruth noemt: Christus verborg de zonden en het vreemde bloed in Zijn familie niet, want Hij kwam om zondaars te genezen en de volken te verzamelen. De Vaders prijzen de rechtvaardigheid van Jozef, die eerder barmhartigheid was dan hardheid.
 T: Son of David; Virgin birth; Emmanuel
 TN: Zoon van David; Maagdelijke geboorte; Immanuël
 
@@ -80,13 +80,13 @@ FN: De woorden van de hoofdman, 'Heer, ik ben niet waardig dat Gij onder mijn da
 T: Faith; Healing; Authority of Christ
 TN: Geloof; Genezing; Gezag van Christus
 
-## 9 | Forgiveness, the call of Matthew and more healings | Vergeving, de roeping van Mattheüs en meer genezingen
+## 9 | Forgiveness, the call of Matthew and more healings | Vergeving, de roeping van Matteüs en meer genezingen
 S: Jesus forgives and heals a paralysed man, showing that the Son of Man has authority on earth to forgive sins. He calls Matthew the tax collector and eats with sinners: those who are well do not need a physician. He speaks of new wine in new wineskins, raises the daughter of a ruler, heals a woman who touched His garment, opens the eyes of two blind men and frees a mute man. Seeing the crowds like sheep without a shepherd, He asks for labourers for the harvest.
-SN: Jezus vergeeft en geneest een verlamde man en toont zo dat de Mensenzoon macht heeft op aarde om zonden te vergeven. Hij roept Mattheüs de tollenaar en eet met zondaars: de gezonden hebben geen geneesheer nodig. Hij spreekt over nieuwe wijn in nieuwe zakken, wekt de dochter van een overste op, geneest een vrouw die Zijn kleed aanraakte, opent de ogen van twee blinden en bevrijdt een stomme. Als Hij de menigte ziet als schapen zonder herder, vraagt Hij om arbeiders voor de oogst.
+SN: Jezus vergeeft en geneest een verlamde man en toont zo dat de Mensenzoon macht heeft op aarde om zonden te vergeven. Hij roept Matteüs de tollenaar en eet met zondaars: de gezonden hebben geen geneesheer nodig. Hij spreekt over nieuwe wijn in nieuwe zakken, wekt de dochter van een overste op, geneest een vrouw die Zijn kleed aanraakte, opent de ogen van twee blinden en bevrijdt een stomme. Als Hij de menigte ziet als schapen zonder herder, vraagt Hij om arbeiders voor de oogst.
 M: Christ is the Physician of souls and bodies. He heals the root of all sickness, sin, and gathers those whom others despise.
 MN: Christus is de Geneesheer van zielen en lichamen. Hij geneest de wortel van alle ziekte, de zonde, en verzamelt wie door anderen veracht worden.
 F: The prayers of the Church often call Christ 'Physician of our souls and bodies'. The Fathers note that Matthew writes humbly about his own calling, naming himself a tax collector.
-FN: De gebeden van de Kerk noemen Christus vaak 'Geneesheer van onze zielen en lichamen'. De Vaders merken op dat Mattheüs nederig over zijn eigen roeping schrijft en zichzelf tollenaar noemt.
+FN: De gebeden van de Kerk noemen Christus vaak 'Geneesheer van onze zielen en lichamen'. De Vaders merken op dat Matteüs nederig over zijn eigen roeping schrijft en zichzelf tollenaar noemt.
 T: Forgiveness; Mercy to sinners; Faith that heals
 TN: Vergeving; Barmhartigheid voor zondaars; Geloof dat geneest
 

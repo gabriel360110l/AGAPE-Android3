@@ -6,6 +6,7 @@ import agape.app.data.auth.AuthRepository
 import agape.app.data.auth.LocalDevAuthRepository
 import agape.app.data.auth.SupabaseAuthRepository
 import agape.app.data.bible.BibleRepository
+import agape.app.data.content.Backgrounds
 import agape.app.data.content.ContentRepository
 import agape.app.data.daily.DailyRepository
 import agape.app.data.saints.SaintsRepository
@@ -54,6 +55,7 @@ class AppContainer(private val app: Application) {
     val sync = SyncRepository(supabase, user, auth.state, appScope)
     val daily = DailyRepository(content, settings)
     val saints = SaintsRepository(content)
+    val backgrounds = Backgrounds(app)
 
     /** The language the app is shown in. English unless the user picked Dutch. */
     fun language(): AppLanguage = AppLanguage.fromTag(AppCompatDelegate.getApplicationLocales()[0]?.language)

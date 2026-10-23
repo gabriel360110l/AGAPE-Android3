@@ -10,6 +10,8 @@ names) that select it; the first pattern list that matches a saint wins, so spec
 `file` pins a Commons file when the search does not find a good one.
 
 Run from the repository root (needs Pillow to recompress the thumbnails):  python tools/build_icons.py
+Add --new to download only the icons that icons.json does not have yet (the others are kept as they are), or
+--patterns to rewrite only the match patterns.
 """
 import json
 import os
@@ -32,43 +34,43 @@ ICONS = [
     # Feasts
     ("nativity", [f"{BYZ} Nativity of Christ", "Nativity of Christ icon"], [r"Nativity of (Christ|the Lord|our Lord)", r"\bChristmas\b", r"Birth of (Christ|our Lord)"], None),
     ("theophany", [f"{BYZ} Baptism of Christ", "Theophany icon"], [r"Theophany", r"Epiphany", r"Baptism of (Christ|the Lord|our Lord)"], None),
-    ("annunciation", [f"{BYZ} Annunciation", "Annunciation icon Ohrid"], [r"Annunciation"], None),
+    ("annunciation", [f"{BYZ} Annunciation", "Annunciation icon Ohrid"], [r"^(?!.*Annunciation of (John|St\.? Joachim)).*Annunciation"], None),
     ("transfiguration", [f"{BYZ} Transfiguration", "Transfiguration icon Sinai"], [r"Transfiguration"], None),
     ("presentation", [f"{BYZ} Presentation of Jesus at the Temple", "Hypapante icon"], [r"Meeting of (Christ|the Lord|our Lord)", r"Presentation of (Christ|the Lord|our Lord)", r"Entrance of (Christ|the Lord|our Lord) into the Temple", r"Candlemas"], None),
-    ("dormition", [f"{BYZ} Dormition", "Dormition of the Theotokos icon"], [r"Dormition of (the )?(Most Holy )?(Theotokos|Virgin|Mother of God|Lady)", r"(Forefeast|leave-taking) of the Dormition", r"Assumption", r"Departure of (the )?(St\.? )?(Mary|Virgin|Theotokos|Lady)"], None),
+    ("dormition", [f"{BYZ} Dormition", "Dormition of the Theotokos icon"], [r"Dormition of (the |Our )?(Most Holy )?(Theotokos|Virgin|Mother of God|Lady)", r"(Forefeast|leave-taking) of the Dormition", r"Assumption", r"Departure of (the |Our )?(Virgin|Theotokos|Lady)"], None),
     ("nativity_theotokos", [f"{BYZ} Nativity of the Theotokos", "Nativity of the Virgin icon"], [r"Nativity of (the )?(Most Holy |Blessed )?(Theotokos|Virgin|Mary|Lady)"], None),
     ("entry_theotokos", [f"{BYZ} Presentation of Mary", "Entry of the Theotokos into the Temple icon"], [r"Entr(y|ance) of (the )?(Most Holy )?(Theotokos|Virgin|Lady)", r"Presentation of (the )?(Blessed )?(Virgin|Mary|Theotokos)"], None),
-    ("cross", [f"{BYZ} Exaltation of the Cross", "Exaltation of the Holy Cross icon"], [r"\bCross\b"], None),
-    ("archangels", [f"{BYZ} Archangel Michael", "Archangel Michael icon"], [r"Michael", r"Micah[eë]l", r"Archangels?", r"Holy Angels", r"Bodiless Powers"], None),
-    ("gabriel", [f"{BYZ} Archangel Gabriel", "Archangel Gabriel icon"], [r"Gabriel"], None),
+    ("cross", [f"{BYZ} Exaltation of the Cross", "Exaltation of the Holy Cross icon"], [r"^(?!.*(John|Paul|Benedicta) of the Cross).*\bCross\b"], None),
+    ("archangels", [f"{BYZ} Archangel Michael", "Archangel Michael icon"], [r"(Arch)?angel Micha[eë]l", r"Michael,? the Archangel", r"(Synaxis|Miracle) of (the Archangel )?Michael", r"Archangels", r"Archangel (Suriel|Raphael)", r"Holy Angels", r"Guardian Angels", r"Bodiless Powers"], None),
+    ("gabriel", [f"{BYZ} Archangel Gabriel", "Archangel Gabriel icon"], [r"Archangel Gabriel", r"Synaxis of Gabriel", r"Gabriel,? the (Archangel|Announcer)"], None),
     # Saints
-    ("john_baptist", [f"{BYZ} John the Baptist", "John the Forerunner icon"], [r"John the Baptist", r"Forerunner", r"\bBaptist\b"], None),
+    ("john_baptist", [f"{BYZ} John the Baptist", "John the Forerunner icon"], [r"John the Baptist", r"Forerunner", r"\bBaptist\b(?! de la Salle)"], None),
     ("peter_paul", [f"{BYZ} Peter and Paul", "Saints Peter and Paul icon"], [r"Peter and Paul", r"Peter & Paul"], None),
-    ("peter", [f"{BYZ} Saint Peter", "Apostle Peter icon"], [r"Apostle Peter", r"(St\.?|Saint) Peter\b(?! of)", r"Chair of (St\.? |Saint )?Peter", r"Peter's Chains", r"Chains of (St\.? |the Apostle )?Peter"], None),
-    ("paul", [f"{BYZ} Saint Paul", "Apostle Paul icon"], [r"Apostle Paul", r"(St\.?|Saint) Paul\b(?! of| the)", r"Conversion of .*Paul"], None),
-    ("andrew", [f"{BYZ} Saint Andrew", "Apostle Andrew icon"], [r"Andrew the First-called", r"Apostle Andrew", r"Andrew,? (the )?Apostle", r"(St\.?|Saint) Andrew\b(?! of)"], None),
-    ("john_theologian", [f"{BYZ} John the Theologian", "John the Evangelist icon"], [r"John the (Theologian|Evangelist|Apostle|Divine)", r"Apostle (and Evangelist )?John", r"John,? Apostle"], None),
+    ("peter", [f"{BYZ} Saint Peter", "Apostle Peter icon"], [r"Apostle Peter", r"Peter,? the Apostle", r"Chair of (St\.? |Saint )?Peter", r"Peter's Chains", r"Chains of (St\.? |the Apostle )?Peter", r"Confession of (St\.? |Saint )?Peter"], None),
+    ("paul", [f"{BYZ} Saint Paul", "Apostle Paul icon"], [r"Apostle Paul", r"Paul,? the Apostle", r"Conversion of .*Paul"], None),
+    ("andrew", [f"{BYZ} Saint Andrew", "Apostle Andrew icon"], [r"Andrew the First-called", r"Apostle Andrew", r"Andrew,? (the )?Apostle"], None),
     ("james", [f"{BYZ} Apostle James", "Saint James the Great icon"], [r"Apostle James", r"James,? (the )?(Apostle|son of|brother of)", r"James the (Great|Greater|Less|Just)"], None),
+    ("john_theologian", [f"{BYZ} John the Theologian", "John the Evangelist icon"], [r"John the (Theologian|Evangelist|Apostle|Divine)", r"Apostle (and Evangelist )?John", r"John,? Apostle"], None),
     ("thomas", [f"{BYZ} Apostle Thomas", "Saint Thomas apostle icon"], [r"Apostle Thomas", r"Thomas,? (the )?Apostle"], None),
-    ("matthew", [f"{BYZ} Matthew", "Saint Matthew evangelist icon"], [r"\bMatthew\b"], None),
-    ("mark", [f"{BYZ} Mark the Evangelist", "Saint Mark evangelist icon"], [r"\bMark\b.*(Apostle|Evangelist)", r"Apostle Mark", r"(St\.?|Saint) Mark\b(?! of)"], None),
-    ("luke", [f"{BYZ} Luke the Evangelist", "Saint Luke evangelist icon"], [r"\bLuke\b"], None),
+    ("matthew", [f"{BYZ} Matthew", "Saint Matthew evangelist icon"], [r"\bMatthew\b(?! the Poor)"], None),
+    ("mark", [f"{BYZ} Mark the Evangelist", "Saint Mark evangelist icon"], [r"Mark,? the (Apostle|Evangelist)", r"Apostle Mark", r"Relics of the Great St\.? Mark"], None),
+    ("luke", [f"{BYZ} Luke the Evangelist", "Saint Luke evangelist icon"], [r"\bLuke\b(?! the Stylite)"], None),
     ("philip", [f"{BYZ} Apostle Philip", "Saint Philip apostle icon"], [r"Apostle Philip", r"Philip,? (the )?Apostle", r"Philip and James"], None),
     ("bartholomew", [f"{BYZ} Bartholomew", "Saint Bartholomew apostle icon"], [r"Bartholomew"], None),
     ("stephen", [f"{BYZ} Saint Stephen", "Saint Stephen protomartyr icon"], [r"Protomartyr", r"Stephen,? (the )?(First Martyr|Archdeacon|Deacon)", r"(St\.?|Saint) Stephen\b(?! of)", r"Translation of (the relics of )?(St\.? )?Stephen"], None),
-    ("george", [f"{BYZ} Saint George", "Saint George icon"], [r"George the (Trophy-bearer|Great|Victorious)", r"Great[- ]?martyr George", r"(St\.?|Saint) George\b(?! of)", r"^George$"], None),
-    ("demetrius", [f"{BYZ} Demetrius", "Saint Demetrius icon"], [r"Demetri"], None),
+    ("george", [f"{BYZ} Saint George", "Saint George icon"], [r"George the (Trophy-bearer|Great|Victorious)", r"Great[- ]?martyr George", r"(St\.?|Saint) George,? (martyr|Prince of the Martyrs|the Great Martyr)", r"[Cc]hurch of St\.? George\b(?! of Alexandria)", r"^George$"], None),
+    ("demetrius", [f"{BYZ} Demetrius", "Saint Demetrius icon"], [r"Demetri(us|os) of Thessalonica", r"Great[- ]?martyr Demetri", r"^Demetri(us|os)$"], None),
     ("theodore", [f"{BYZ} Theodore Stratelates", "Saint Theodore icon"], [r"Theodore (the )?(Stratelates|Tyro|Tiro|Recruit|General|Oriental|Anatoli)"], None),
     ("nicholas", [f"{BYZ} Nicholas", "Saint Nicholas icon"], [r"Nicholas"], None),
-    ("basil", [f"{BYZ} Basil the Great", "Basil of Caesarea icon"], [r"Basil (the Great|of Caesarea)", r"(St\.?|Saint) Basil\b(?! of)", r"^Basil$"], None),
+    ("basil", [f"{BYZ} Basil the Great", "Basil of Caesarea icon"], [r"^(?!.*Brother of St\.? Basil).*Basil (the Great|of Caesarea)", r"^Basil$"], None),
     ("three_hierarchs", [f"{BYZ} Three Hierarchs", "Three Holy Hierarchs icon"], [r"Three (Holy )?Hierarchs"], None),
     ("gregory_theologian", [f"{BYZ} Gregory the Theologian", "Gregory of Nazianzus icon"], [r"Gregory (the Theologian|of Nazianz|Nazianzen)"], None),
     ("chrysostom", [f"{BYZ} John Chrysostom", "John Chrysostom icon"], [r"Chrysostom"], None),
-    ("athanasius", [f"{BYZ} Athanasius", "Athanasius of Alexandria icon"], [r"Athanasius (the Great|of Alexandria|the Apostolic)", r"Athanasius and Cyril", r"(St\.?|Saint) Athanasius\b(?! of Athos)"], None),
+    ("athanasius", [f"{BYZ} Athanasius", "Athanasius of Alexandria icon"], [r"Athanasius (the Great|of Alexandria|the Apostolic)", r"Athanasius and Cyril", r"(St\.?|Saint) Athanasius,? bishop"], None),
     ("cyril", [f"{BYZ} Cyril of Alexandria", "Cyril of Alexandria icon"], [r"Cyril (of Alexandria|the Great|I\b)", r"Cyril,? (the )?(24th )?Pope"], None),
-    ("anthony", [f"{BYZ} Anthony the Great", "Anthony the Great icon"], [r"Ant(h)?ony (the Great|of Egypt)", r"(St\.?|Saint|Abba|Abba) Ant(h)?ony\b(?! of Padua)"], None),
+    ("anthony", [f"{BYZ} Anthony the Great", "Anthony the Great icon"], [r"Ant(h)?ony (the Great|of Egypt)", r"Great St\.? Anthony"], None),
     ("mary_egypt", [f"{BYZ} Mary of Egypt", "Mary of Egypt icon"], [r"Mary of Egypt"], None),
-    ("mary_magdalene", [f"{BYZ} Mary Magdalene", "Mary Magdalene icon myrrhbearer"], [r"Magdalen"], None),
+    ("mary_magdalene", [f"{BYZ} Mary Magdalene", "Mary Magdalene icon myrrhbearer"], [r"Magdalen(?!e de Pazzi)"], None),
     ("constantine_helen", [f"{BYZ} Constantine and Helena", "Constantine and Helen icon"], [r"Constantine and Hel", r"\bHelen(a)?\b"], None),
     ("catherine", [f"{BYZ} Catherine of Alexandria", "Catherine of Alexandria icon Sinai"], [r"Catherine(?! of Siena)", r"Katherine"], None),
     ("panteleimon", [f"{BYZ} Panteleimon", "Saint Panteleimon icon"], [r"Panteleimon", r"Pantaleon"], None),
@@ -89,7 +91,7 @@ ICONS = [
     ("simeon_stylite", ["Simeon the Stylite icon"], [r"Sim(e)?on( \(Simeon\))? the (Elder )?Stylite", r"Simeon Stylites"], None),
     ("thecla", ["Thecla icon"], [r"(St\.?|Saint) Thecla\b(?! and)", r"Thecla,? equal to the apostles", r"^Thecla$"], None),
     ("euphemia", ["Euphemia icon"], [r"Euphemia"], None),
-    ("marina", ["Saint Marina icon"], [r"\bMarina\b"], None),
+    ("marina", ["Saint Marina icon"], [r"\bMarina\b(?!, the Ascetic)"], None),
     ("paraskevi", ["Paraskevi icon"], [r"Paraskev[ai] of Rome", r"^Paraskev[ai]$"], None),
     ("barbara", ["Barbara icon"], [r"\bBarbara\b"], None),
     ("pachomius", ["Pachomius icon"], [r"(?<!disciple of St\. )Pachomius"], None),
@@ -101,10 +103,111 @@ ICONS = [
     ("boris_gleb", ["Boris and Gleb icon"], [r"Boris and Gleb"], None),
     ("climacus", ["John Climacus icon"], [r"Climacus"], None),
     ("isaiah", ["Prophet Isaiah icon"], [r"Prophet Isaiah", r"Isaiah,? the Prophet"], None),
+    # Added in v3/icons-more: saints of the three calendars that had no icon yet. Searches only, so the first
+    # free portrait result is used; files that turned out wrong are pinned in PINS.
+    ("gregory_nyssa", ["Gregory of Nyssa icon", f"{BYZ} Gregory of Nyssa"], [r"Gregory,? (of|Bishop of) Nyssa"], None),
+    ("paul_thebes", ["Paul of Thebes icon", "Paul the First Hermit icon"], [r"Paul of Thebes", r"Paul,? the First Hermit", r"Anba Paul,? the First Hermit"], None),
+    ("euthymius", ["Euthymius the Great icon"], [r"Euthymius the Great"], None),
+    ("timothy", ["Apostle Timothy icon", f"{BYZ} Timothy apostle"], [r"Apostle Timothy", r"Timothy,? the Apostle", r"Timothy and Titus"], None),
+    ("tryphon", ["Saint Tryphon icon"], [r"Tryphon"], None),
+    ("agatha", ["Saint Agatha icon", "Agatha of Sicily icon"], [r"\bAgatha\b"], None),
+    ("haralambos", ["Saint Charalampos icon", "Haralambos icon"], [r"Haralamb", r"Charalamp"], None),
+    ("blaise", ["Blaise of Sebaste icon", "Saint Blaise icon"], [r"Blas(ius|e) of Sebaste", r"(St\.?|Saint) Blase\b"], None),
+    ("leo_great", ["Pope Leo the Great icon", "Leo I icon"], [r"Leo (of Rome|the Great)"], None),
+    ("tarasius", ["Tarasius of Constantinople icon"], [r"Tarasius"], None),
+    ("porphyrius_gaza", ["Porphyry of Gaza icon"], [r"Porphyrius of Gaza"], None),
+    ("john_cassian", ["John Cassian icon"], [r"John Cassian"], None),
+    ("gerasimus", ["Gerasimus of the Jordan icon"], [r"Gerasimus of the Jordan"], None),
+    ("forty_martyrs", ["Forty Martyrs of Sebaste icon", f"{BYZ} Forty Martyrs"], [r"Forty Martyrs of Sebaste"], None),
+    ("sophronius", ["Sophronius of Jerusalem icon"], [r"Sophronius of Jerusalem"], None),
+    ("gregory_dialogos", ["Gregory the Great icon", "Gregory Dialogos icon"], [r"Gregory (Dialogos|the Great|the Dialogist)"], None),
+    ("benedict", ["Benedict of Nursia icon", "Saint Benedict medieval"], [r"Benedict of Nursia", r"(St\.?|Saint) Benedict,? abbot"], None),
+    ("alexius", ["Alexius man of God icon"], [r"Alexius,? the man of God", r"Alexis,? the man of God"], None),
+    ("cyril_jerusalem", ["Cyril of Jerusalem icon"], [r"Cyril of Jerusalem"], None),
+    ("antipas", ["Antipas of Pergamum icon"], [r"Antipas"], None),
+    ("jeremiah", ["Prophet Jeremiah icon", "Prophet Jeremiah Kizhi"], [r"Prophet Jeremiah", r"Jeremiah,? the Prophet"], None),
+    ("job", ["Job the Long-suffering icon", "Righteous Job icon"], [r"Job the Long-suffering", r"Righteous Job\b"], None),
+    ("simon_zealot", ["Simon the Zealot icon", "Apostle Simon icon"], [r"Simon the (Zealot|Canaanite)", r"Simon and (Saint )?Jude"], None),
+    ("jude", ["Apostle Jude icon", "Jude Thaddeus icon"], [r"Apostle Jude", r"Jude,? (the )?(Apostle|brother of)"], None),
+    ("epiphanius", ["Epiphanius of Salamis icon", "Epiphanius of Cyprus icon"], [r"Epiphanius of (Cyprus|Salamis)"], None),
+    ("justin", ["Justin Martyr icon"], [r"Justin (the Philosopher|Martyr)"], None),
+    ("onuphrius", ["Onuphrius icon", f"{BYZ} Onuphrius"], [r"Onuphrius", r"Abu-Nofer"], None),
+    ("elisha", ["Prophet Elisha icon"], [r"Prophet Elisha", r"Elisha,? the Prophet"], None),
+    ("amos", ["Prophet Amos icon"], [r"Prophet Amos"], None),
+    ("andrew_crete", ["Andrew of Crete icon"], [r"Andrew of Crete"], None),
+    ("athanasius_athos", ["Athanasius the Athonite icon"], [r"Athanasius (of Athos|the Athonite)"], None),
+    ("sisoes", ["Sisoes the Great icon", "Saint Sisoes icon"], [r"Sisoes"], None),
+    ("procopius", ["Saint Procopius icon", "Procopius of Scythopolis icon"], [r"Procopius of Caesarea", r"Great[- ]?martyr Procopius"], None),
+    ("vladimir", ["Saint Vladimir icon", "Vladimir the Great icon"], [r"Vladimir,? equal to the apostles", r"Vladimir the Great"], None),
+    ("seven_sleepers", ["Seven Sleepers of Ephesus icon"], [r"Seven Sleepers"], None),
+    ("matthias", ["Apostle Matthias icon"], [r"Matthias"], None),
+    ("lawrence", ["Saint Lawrence icon", "Lawrence of Rome icon"], [r"Laurentius of Rome", r"(St\.?|Saint) Lawrence,? deacon", r"Lawrence of Rome"], None),
+    ("mandylion", ["Mandylion icon", "Image of Edessa icon"], [r"Image Not Made by Hands", r"Mandylion"], None),
+    ("samuel", ["Prophet Samuel icon"], [r"Prophet Samuel\b"], None),
+    ("poemen", ["Poemen the Great icon", "Abba Poemen icon"], [r"Poemen", r"Poemin"], None),
+    ("mamas", ["Saint Mamas icon"], [r"Mamas of Caesarea", r"(St\.?|Saint) Mamas\b"], None),
+    ("zechariah", ["Prophet Zechariah icon"], [r"Prophet Zechariah"], None),
+    ("sophia_daughters", ["Sophia Faith Hope Love icon", "Saints Faith Hope Charity Sophia icon"], [r"Sophia,? Faith,? Hope", r"Pistis,? Helpis,? Agape"], None),
+    ("gregory_illuminator", ["Gregory the Illuminator icon"], [r"Gregory the (Enlightener|Illuminator)", r"Gregory,? Patriarch of the Armenians"], None),
+    ("cyprian_justina", ["Cyprian and Justina icon"], [r"Cyprian(us)? and Justina"], None),
+    ("dionysius_areopagite", ["Dionysius the Areopagite icon"], [r"Dionysius the Areopagite"], None),
+    ("longinus", ["Longinus the Centurion icon"], [r"Longinus,? the (Centurion|Soldier)", r"Head of St\.? Longinus"], None),
+    ("hosea", ["Prophet Hosea icon"], [r"Prophet Hosea"], None),
+    ("joel", ["Prophet Joel icon"], [r"Prophet Joel"], None),
+    ("obadiah", ["Prophet Obadiah icon"], [r"Prophet Obadiah", r"Obadiah,? the Prophet"], None),
+    ("jonah", ["Prophet Jonah icon"], [r"Prophet Jonah", r"Jonah,? the (Great )?Prophet"], None),
+    ("nahum", ["Prophet Nahum icon"], [r"Prophet Nahum", r"Nahum,? the Prophet"], None),
+    ("habakkuk", ["Prophet Habakkuk icon"], [r"Prophet Habakkuk"], None),
+    ("zephaniah", ["Prophet Zephaniah icon"], [r"Prophet Zephaniah"], None),
+    ("haggai", ["Prophet Haggai icon"], [r"Prophet Haggai", r"Haggai,? the Prophet"], None),
+    ("malachi", ["Prophet Malachi icon"], [r"Prophet Malachi"], None),
+    ("daniel", ["Prophet Daniel icon", "Three Holy Youths icon"], [r"Prophet Daniel", r"Three (Holy )?Youths"], None),
+    ("david", ["King David icon", "Prophet David icon"], [r"David,? the Prophet and King", r"Prophet(-| )King David", r"King David\b"], None),
+    ("john_rila", ["John of Rila icon"], [r"John of Rila"], None),
+    ("artemius", ["Saint Artemius icon"], [r"Artemius of Antioch", r"Great[- ]?martyr Artemius"], None),
+    ("hilarion", ["Hilarion the Great icon"], [r"Hilarion the Great", r"Abba Hilarion"], None),
+    ("nestor", ["Nestor of Thessalonica icon"], [r"Nestor of Thessalonica"], None),
+    ("nectarios", ["Nectarios of Aegina icon"], [r"Nectarios of Aegina"], None),
+    ("john_merciful", ["John the Merciful icon"], [r"John the Merciful", r"John the Almsgiver"], None),
+    ("gregory_wonderworker", ["Gregory Thaumaturgus icon"], [r"Gregory the (Wonderworker|Thaumaturg)", r"Gregory Thaumaturgus"], None),
+    ("clement_rome", ["Clement of Rome icon", "Pope Clement I icon"], [r"Clement (of Rome|I\b)", r"Clemens of Rome"], None),
+    ("peter_alexandria", ["Peter of Alexandria icon"], [r"Peter of Alexandria", r"Peter,? (the )?Seal of the Martyrs"], None),
+    ("ambrose", ["Ambrose of Milan icon", "Saint Ambrose mosaic"], [r"Ambrose(,? (of Milan|bishop))?\b"], None),
+    ("sebastian", ["Saint Sebastian icon", "Saint Sebastian mosaic"], [r"Sebastian(,? martyr| of Rome)"], None),
+    ("juliana", ["Juliana of Nicomedia icon"], [r"Juliana (of Nicomedia|the Martyr)"], None),
+    ("anastasia", ["Anastasia Pharmakolytria icon", "Saint Anastasia icon"], [r"Anastasia,? (deliverer|of Rome|the Great)"], None),
+    ("holy_innocents", ["Massacre of the Innocents icon", "Holy Innocents icon"], [r"Holy Innocents", r"children of Bethlehem", r"Slain Children of Bethlehem"], None),
+    ("xenia", ["Xenia of Saint Petersburg icon"], [r"Xenia of (St\.? |Saint )?Petersburg"], None),
+    ("tatiana", ["Tatiana of Rome icon"], [r"Tatiana"], None),
+    ("sylvester", ["Pope Sylvester I icon", "Saint Sylvester fresco"], [r"Sylvester"], None),
+    ("irenaeus", ["Irenaeus of Lyon icon"], [r"Irenaeus"], None),
+    ("joseph", ["Saint Joseph icon", "Joseph the Betrothed icon"], [r"Joseph the (Worker|Betrothed)", r"(St\.?|Saint) Joseph,? (Spouse|husband)", r"^Saint Joseph$"], None),
+    ("thomas_aquinas", ["Thomas Aquinas painting medieval", "Thomas Aquinas Crivelli"], [r"Aquinas"], None),
+    ("francis_assisi", ["Francis of Assisi Cimabue", "Francis of Assisi Bonaventura Berlinghieri"], [r"Francis of Assisi"], None),
+    ("dominic", ["Saint Dominic Fra Angelico", "Saint Dominic painting"], [r"(St\.?|Saint) Dominic,? priest", r"Dominic de Guzm"], None),
+    ("clare", ["Clare of Assisi painting", "Saint Clare Simone Martini"], [r"(St\.?|Saint) Clare,? virgin", r"Clare of Assisi"], None),
+    ("augustine", ["Augustine of Hippo painting", "Saint Augustine fresco Lateran"], [r"Augustine of Hippo", r"Augustine,? bishop and doctor"], None),
+    ("jerome", ["Saint Jerome icon", "Saint Jerome painting medieval"], [r"Jerome(?! Emiliani)"], None),
+    ("scholastica", ["Saint Scholastica painting"], [r"Scholastica"], None),
+    ("agnes", ["Saint Agnes mosaic", "Saint Agnes painting"], [r"\bAgnes\b"], None),
+    ("cecilia", ["Saint Cecilia painting", "Saint Cecilia mosaic"], [r"Cecilia"], None),
+    ("lucy", ["Saint Lucy painting", "Lucy of Syracuse"], [r"\bLucy\b"], None),
+    ("anthony_padua", ["Anthony of Padua painting"], [r"Anthony of Padua"], None),
+    ("bernard", ["Bernard of Clairvaux painting"], [r"Bernard of Clairvaux"], None),
+    ("catherine_siena", ["Catherine of Siena painting"], [r"Catherine of Siena"], None),
+    ("martin_tours", ["Martin of Tours icon", "Saint Martin of Tours painting"], [r"Martin(us)?( \(Martin\))?,? (of|Bishop of) Tours"], None),
+    ("patrick", ["Saint Patrick icon", "Saint Patrick stained glass"], [r"Patrick,? bishop", r"Patrick of Ireland", r"Patrick, Enlightener"], None),
+    ("teresa_avila", ["Teresa of Avila painting"], [r"Teresa of (Jesus|Avila)"], None),
+    ("ignatius_loyola", ["Ignatius of Loyola painting"], [r"Ignatius of Loyola"], None),
+    ("francis_xavier", ["Francis Xavier painting"], [r"Francis Xavier"], None),
+    ("barnabas", ["Apostle Barnabas icon"], [r"Barnabas"], None),
+    ("martha", ["Saint Martha painting", "Martha of Bethany icon"], [r"(St\.?|Saint) Martha\b(?! of Egypt)", r"Martha (of Bethany|and Mary)"], None),
+    ("monica", ["Saint Monica painting"], [r"\bMonica\b"], None),
+    ("all_saints", ["All Saints icon", f"{BYZ} All Saints"], [r"^All Saints", r"Sunday of All Saints"], None),
     # After the single apostles, so "Peter and Paul" keeps its own icon.
     ("apostles", [f"{BYZ} Twelve Apostles", "Synaxis of the Twelve Apostles icon"], [r"Twelve Apostles", r"Holy Apostles", r"Seventy Apostles"], None),
     # The Mother of God and Christ last: they match many feast titles that have their own icons above.
-    ("theotokos", [f"{BYZ} Hodegetria", "Theotokos Hodegetria icon"], [r"Theotokos", r"Virgin Mary", r"Blessed Virgin", r"Our Lady", r"Mother of God", r"(St\.?|Saint) Mary\b(?! of| Magdal)", r"Holy Virgin"], None),
+    ("theotokos", [f"{BYZ} Hodegetria", "Theotokos Hodegetria icon"], [r"Theotokos", r"Virgin Mary", r"Blessed Virgin", r"Our Lady", r"Mother of God", r"(St\.?|Saint) Mary\b(?! of| Magdal| the Ascetic| Known as)", r"Holy Virgin"], None),
     ("pantocrator", [f"{BYZ} Pantocrator Sinai", "Christ Pantocrator Sinai"], [r"\b(Christ|Saviour|Savior)\b", r"\bthe Lord\b", r"Holy Name"], None),
 ]
 
@@ -187,6 +290,16 @@ def clean(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html or "")).strip()
 
 
+def artist(meta):
+    """Commons' Artist field, without the duplicated template text and uploader remarks it often carries."""
+    a = clean(meta.get("Artist", {}).get("value", "")) if isinstance(meta, dict) else meta
+    a = re.sub(r"Public domain image.*$|\. Painted in .*$", "", a).strip()
+    a = re.sub(r"(Unknown (author|artist))+$", "", a).strip() or "Unknown"
+    if re.search(r"uploader|I believe|photo from internet|^Orthodox\d+$", a, re.I):
+        a = "Unknown"
+    return a[:120]
+
+
 def info(pages):
     for p in sorted(pages, key=lambda p: p.get("index", 0)):
         ii = (p.get("imageinfo") or [{}])[0]
@@ -217,10 +330,15 @@ def pick(searches, pinned):
     return None
 
 
-def main():
+def main(only_new=False):
+    """Downloads every icon, or with only_new just the keys that icons.json does not have yet."""
     os.makedirs(OUT_DIR, exist_ok=True)
-    out = []
+    current = {i["key"]: i for i in json.load(open(OUT_JSON, encoding="utf-8"))} if only_new else {}
+    out, fresh = [], []
     for key, searches, patterns, pinned in ICONS:
+        if key in current:
+            out.append({**current[key], "match": patterns, "artist": artist(current[key]["artist"]), "fallback": key in FALLBACK})
+            continue
         chosen = pick(searches, PINS.get(key, pinned))
         if not chosen:
             print("  no free icon for", key)
@@ -230,12 +348,13 @@ def main():
         req = urllib.request.Request(ii["thumburl"], headers={"User-Agent": UA})
         with open(os.path.join(OUT_DIR, file), "wb") as f:
             f.write(urllib.request.urlopen(req, timeout=60).read())
+        fresh.append(file)
         out.append({
             "key": key,
             "file": f"icons/{file}",
             "match": patterns,
             "title": title.removeprefix("File:").rsplit(".", 1)[0],
-            "artist": clean(meta.get("Artist", {}).get("value", ""))[:120],
+            "artist": artist(meta),
             "licence": licence,
             "source": ii.get("descriptionurl", ""),
             # Used only when no other name of the day has its own icon (e.g. Basil before "the Lord" on 1 January).
@@ -245,14 +364,14 @@ def main():
         time.sleep(0.3)
     with open(OUT_JSON, "w", encoding="utf-8", newline="\n") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print("wrote", len(out), "icons")
-    compress()
+    print("wrote", len(out), "icons,", len(fresh), "downloaded")
+    compress(files=fresh if only_new else None)
 
 
-def compress(width=320):
+def compress(width=320, files=None):
     """Commons thumbnails can be PNG or very tall; store them as small JPEGs cropped to the upper part (the face)."""
     from PIL import Image  # noqa: PLC0415 (only needed here)
-    for f in os.listdir(OUT_DIR):
+    for f in os.listdir(OUT_DIR) if files is None else files:
         path = os.path.join(OUT_DIR, f)
         im = Image.open(path).convert("RGB")
         if im.width != width:
@@ -269,7 +388,7 @@ def update_patterns():
     out = []
     for key, _, patterns, _ in ICONS:
         if key in current:
-            out.append({**current[key], "match": patterns, "fallback": key in FALLBACK})
+            out.append({**current[key], "match": patterns, "artist": artist(current[key]["artist"]), "fallback": key in FALLBACK})
     with open(OUT_JSON, "w", encoding="utf-8", newline="\n") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print("updated patterns of", len(out), "icons")
@@ -277,4 +396,7 @@ def update_patterns():
 
 if __name__ == "__main__":
     import sys
-    update_patterns() if "--patterns" in sys.argv else main()
+    if "--patterns" in sys.argv:
+        update_patterns()
+    else:
+        main(only_new="--new" in sys.argv)
