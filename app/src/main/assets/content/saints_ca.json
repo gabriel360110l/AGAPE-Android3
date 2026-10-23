@@ -415,7 +415,7 @@
      "en": "Seven Holy Founders of the Servite Order",
      "nl": "De zeven heilige stichters van de Servieten"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "Seven merchants of Florence who in the thirteenth century left their trade to live in prayer and poverty, devoted to the sorrows of Mary. They founded the Order of the Servants of Mary.",
      "nl": "Zeven kooplieden uit Florence die in de dertiende eeuw hun handel verlieten om in gebed en armoede te leven, toegewijd aan de smarten van Maria. Zij stichtten de Orde van de Dienaren van Maria."
@@ -432,7 +432,7 @@
      "en": "Saint Peter Damian, bishop and doctor of the Church",
      "nl": "H. Petrus Damiani, bisschop en kerkleraar"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "A hermit monk and later cardinal (died 1072) who wrote and worked hard for the reform of the clergy in his day.",
      "nl": "Een kluizenaar-monnik en later kardinaal (gestorven 1072) die met pen en daad werkte aan de hervorming van de geestelijkheid van zijn tijd."
@@ -466,10 +466,27 @@
      "en": "Saint Polycarp, bishop and martyr",
      "nl": "H. Polycarpus, bisschop en martelaar"
     },
-    "rank": "commemoration",
+    "rank": "memorial",
     "summary": {
      "en": "Bishop of Smyrna and a disciple of the apostle John, burned at the stake around 155. Asked to curse Christ, he answered that he had served Him eighty-six years and He had done him no wrong.",
      "nl": "Bisschop van Smyrna en leerling van de apostel Johannes, rond 155 op de brandstapel gestorven. Toen men hem vroeg Christus te vervloeken, antwoordde hij dat hij Hem zesentachtig jaar had gediend en Hij hem nooit onrecht had gedaan."
+    }
+   }
+  ]
+ },
+ {
+  "month": 2,
+  "day": 27,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint Gregory of Narek, abbot and doctor of the Church",
+     "nl": "H. Gregorius van Narek, abt en kerkleraar"
+    },
+    "rank": "optional memorial",
+    "summary": {
+     "en": "An Armenian monk and poet (died around 1003) whose \"Book of Lamentations\", a long prayer from the depths of the heart, is loved by the Armenian people. He was named a doctor of the Church in 2015.",
+     "nl": "Een Armeense monnik en dichter (gestorven rond 1003) wiens \"Boek der Weeklachten\", een lang gebed uit de diepte van het hart, geliefd is bij het Armeense volk. Hij werd in 2015 kerkleraar genoemd."
     }
    }
   ]
@@ -483,7 +500,7 @@
      "en": "Saint Casimir",
      "nl": "H. Casimir"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "A Polish prince and son of the king (died 1484), known for his prayer, purity and generosity to the poor. He is patron of Lithuania.",
      "nl": "Een Poolse prins, zoon van de koning (gestorven 1484), bekend om zijn gebed, zuiverheid en vrijgevigheid voor de armen. Hij is patroon van Litouwen."
@@ -500,7 +517,7 @@
      "en": "Saints Perpetua and Felicity, martyrs",
      "nl": "H. Perpetua en H. Felicitas, martelaressen"
     },
-    "rank": "commemoration",
+    "rank": "memorial",
     "summary": {
      "en": "A young mother of noble birth and her slave, who had just given birth, martyred together at Carthage in 203. Perpetua's own prison diary has come down to us.",
      "nl": "Een jonge moeder van adellijke afkomst en haar slavin, die net was bevallen, samen gestorven als martelaressen in Carthago in 203. Het gevangenisdagboek van Perpetua zelf is bewaard gebleven."
@@ -517,7 +534,7 @@
      "en": "Saint John of God, religious",
      "nl": "H. Johannes de Deo, kloosterling"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "A Portuguese soldier and bookseller who, after his conversion, cared for the sick and the mentally ill in Granada (died 1550). The Brothers Hospitallers continue his work.",
      "nl": "Een Portugese soldaat en boekhandelaar die na zijn bekering zieken en geesteszieken verzorgde in Granada (gestorven 1550). De Broeders Hospitaalridders zetten zijn werk voort."
@@ -534,7 +551,7 @@
      "en": "Saint Frances of Rome, religious",
      "nl": "H. Francisca Romana, kloosterlinge"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "A Roman wife and mother (died 1440) who nursed the sick and poor through plague and war, and founded a community of women living in prayer and service.",
      "nl": "Een Romeinse echtgenote en moeder (gestorven 1440) die zieken en armen verzorgde in tijden van pest en oorlog, en een gemeenschap van vrouwen stichtte die leefden in gebed en dienst."
@@ -551,7 +568,7 @@
      "en": "Saint Patrick, bishop",
      "nl": "H. Patricius, bisschop"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "Taken from Britain as a youth and enslaved in Ireland, he escaped, became a priest and returned to bring the Gospel to the Irish (fifth century). His \"Confession\" tells his story in his own words.",
      "nl": "Als jongen uit Brittannië weggevoerd en als slaaf in Ierland, ontsnapte hij, werd priester en keerde terug om de Ieren het evangelie te brengen (vijfde eeuw). Zijn \"Belijdenis\" vertelt zijn verhaal in zijn eigen woorden."
@@ -568,7 +585,7 @@
      "en": "Saint Cyril of Jerusalem, bishop and doctor",
      "nl": "H. Cyrillus van Jeruzalem, bisschop en kerkleraar"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "Bishop of Jerusalem in the fourth century, several times exiled. His catechetical lectures to those preparing for baptism are still a treasure for understanding the sacraments.",
      "nl": "Bisschop van Jeruzalem in de vierde eeuw, meermaals verbannen. Zijn catechesen voor wie zich op het doopsel voorbereidden, zijn nog steeds een schat om de sacramenten te begrijpen."
@@ -602,10 +619,44 @@
      "en": "Saint Turibius of Mogrovejo, bishop",
      "nl": "H. Toribio de Mogrovejo, bisschop"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "A Spanish lawyer made archbishop of Lima (died 1606). He travelled his huge diocese on foot, defended the native peoples and founded the first seminary in the Americas.",
      "nl": "Een Spaanse jurist die aartsbisschop van Lima werd (gestorven 1606). Hij doorkruiste zijn enorme bisdom te voet, verdedigde de inheemse volken en stichtte het eerste seminarie van Amerika."
+    }
+   }
+  ]
+ },
+ {
+  "month": 3,
+  "day": 25,
+  "saints": [
+   {
+    "title": {
+     "en": "Annunciation of the Lord",
+     "nl": "Aankondiging van de Heer"
+    },
+    "rank": "solemnity",
+    "summary": {
+     "en": "The angel Gabriel greets Mary in Nazareth, and she answers: \"Let it be to me according to your word\" (Luke 1:26-38). The Word becomes flesh in her womb, nine months before Christmas.",
+     "nl": "De engel Gabriël groet Maria in Nazaret, en zij antwoordt: \"Mij geschiede naar uw woord\" (Lucas 1:26-38). Het Woord wordt vlees in haar schoot, negen maanden voor Kerstmis."
+    }
+   }
+  ]
+ },
+ {
+  "month": 4,
+  "day": 2,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint Francis of Paola, hermit",
+     "nl": "H. Franciscus van Paola, kluizenaar"
+    },
+    "rank": "optional memorial",
+    "summary": {
+     "en": "A hermit of Calabria (died 1507) who founded the Order of Minims, living in humility and a perpetual Lenten fast.",
+     "nl": "Een kluizenaar uit Calabrië (gestorven 1507) die de Orde der Miniemen stichtte, levend in nederigheid en een voortdurende vasten."
     }
    }
   ]
@@ -619,7 +670,7 @@
      "en": "Saint Isidore, bishop and doctor of the Church",
      "nl": "H. Isidorus, bisschop en kerkleraar"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "Bishop of Seville (died 636), brother of Saints Leander, Fulgentius and Florentina. His \"Etymologies\" gathered the learning of the ancient world for the centuries after him.",
      "nl": "Bisschop van Sevilla (gestorven 636), broer van de heiligen Leander, Fulgentius en Florentina. Zijn \"Etymologieën\" bewaarden de kennis van de oudheid voor de eeuwen na hem."
@@ -633,21 +684,10 @@
   "saints": [
    {
     "title": {
-     "en": "Annunciation of the Lord",
-     "nl": "Aankondiging van de Heer"
-    },
-    "rank": "solemnity",
-    "summary": {
-     "en": "The angel Gabriel greets Mary in Nazareth, and she answers: \"Let it be to me according to your word\" (Luke 1:26-38). The Word becomes flesh in her womb, nine months before Christmas.",
-     "nl": "De engel Gabriël groet Maria in Nazaret, en zij antwoordt: \"Mij geschiede naar uw woord\" (Lucas 1:26-38). Het Woord wordt vlees in haar schoot, negen maanden voor Kerstmis."
-    }
-   },
-   {
-    "title": {
      "en": "Saint Vincent Ferrer, priest",
      "nl": "H. Vincentius Ferrer, priester"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "A Dominican preacher from Valencia (died 1419) who travelled through Spain, France and Italy calling people to repentance, in the years when the Western Church was divided between rival popes.",
      "nl": "Een Dominicaanse predikant uit Valencia (gestorven 1419) die Spanje, Frankrijk en Italië doortrok en mensen tot bekering riep, in de jaren dat de westerse Kerk verdeeld was tussen rivaliserende pausen."
@@ -664,7 +704,7 @@
      "en": "Saint John Baptist de la Salle, priest",
      "nl": "H. Johannes Baptista de la Salle, priester"
     },
-    "rank": "commemoration",
+    "rank": "memorial",
     "summary": {
      "en": "A priest of Reims (died 1719) who gave up his wealth to found the Brothers of the Christian Schools and free schools for poor children. He is patron of teachers.",
      "nl": "Een priester uit Reims (gestorven 1719) die zijn rijkdom opgaf om de Broeders van de Christelijke Scholen en kosteloze scholen voor arme kinderen te stichten. Hij is patroon van de leraren."
@@ -900,6 +940,23 @@
  },
  {
   "month": 5,
+  "day": 10,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint John of Avila, priest and doctor of the Church",
+     "nl": "H. Johannes van Ávila, priester en kerkleraar"
+    },
+    "rank": "optional memorial",
+    "summary": {
+     "en": "A Spanish priest and preacher (died 1569), called the apostle of Andalusia, who guided many saints and worked for the formation of priests.",
+     "nl": "Een Spaanse priester en predikant (gestorven 1569), de apostel van Andalusië genoemd, die vele heiligen begeleidde en werkte aan de vorming van priesters."
+    }
+   }
+  ]
+ },
+ {
+  "month": 5,
   "day": 12,
   "saints": [
    {
@@ -1097,6 +1154,23 @@
     "summary": {
      "en": "A monk of Rome sent by Pope Gregory the Great to the English in 597. He baptised King Ethelbert of Kent and became the first archbishop of Canterbury.",
      "nl": "Een monnik uit Rome die paus Gregorius de Grote in 597 naar de Engelsen stuurde. Hij doopte koning Ethelbert van Kent en werd de eerste aartsbisschop van Canterbury."
+    }
+   }
+  ]
+ },
+ {
+  "month": 5,
+  "day": 29,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint Paul VI, pope",
+     "nl": "H. Paulus VI, paus"
+    },
+    "rank": "optional memorial",
+    "summary": {
+     "en": "Giovanni Battista Montini, pope from 1963 to 1978, who led the Second Vatican Council to its end and met Patriarch Athenagoras of Constantinople in 1964.",
+     "nl": "Giovanni Battista Montini, paus van 1963 tot 1978, die het Tweede Vaticaans Concilie tot een einde bracht en in 1964 patriarch Athenagoras van Constantinopel ontmoette."
     }
    }
   ]
@@ -1696,13 +1770,13 @@
   "saints": [
    {
     "title": {
-     "en": "Saint Martha",
-     "nl": "H. Marta"
+     "en": "Saints Martha, Mary and Lazarus",
+     "nl": "H. Marta, H. Maria en H. Lazarus"
     },
     "rank": "memorial",
     "summary": {
-     "en": "The sister of Mary and Lazarus at Bethany, who served Jesus in her home and confessed: \"You are the Christ, the Son of God\" (John 11:27).",
-     "nl": "De zuster van Maria en Lazarus in Betanië, die Jezus in haar huis diende en beleed: \"U bent de Christus, de Zoon van God\" (Johannes 11:27)."
+     "en": "The friends of Jesus at Bethany: Martha who served, Mary who sat at His feet, and Lazarus whom He raised from the dead (Luke 10:38-42; John 11-12).",
+     "nl": "De vrienden van Jezus in Betanië: Marta die diende, Maria die aan zijn voeten zat, en Lazarus die Hij uit de dood opwekte (Lucas 10:38-42; Johannes 11-12)."
     }
    }
   ]
@@ -2349,6 +2423,17 @@
      "en": "A Jesuit theologian and cardinal (died 1621) who explained Catholic teaching in the controversies of his time and wrote catechisms for children.",
      "nl": "Een jezuïet, theoloog en kardinaal (gestorven 1621) die de katholieke leer uitlegde in de geschillen van zijn tijd en catechismussen voor kinderen schreef."
     }
+   },
+   {
+    "title": {
+     "en": "Saint Hildegard of Bingen, virgin and doctor of the Church",
+     "nl": "H. Hildegard van Bingen, maagd en kerklerares"
+    },
+    "rank": "optional memorial",
+    "summary": {
+     "en": "A Benedictine abbess on the Rhine (died 1179) who wrote of her visions, of medicine and nature, and composed music for the liturgy. She was named a doctor of the Church in 2012.",
+     "nl": "Een benedictijner abdis aan de Rijn (gestorven 1179) die schreef over haar visioenen, over geneeskunde en natuur, en muziek voor de liturgie componeerde. Zij werd in 2012 kerkleraar genoemd."
+    }
    }
   ]
  },
@@ -2393,7 +2478,7 @@
    {
     "title": {
      "en": "Saint Matthew the Evangelist, Apostle, Evangelist",
-     "nl": "H. Mattheüs, apostel en evangelist"
+     "nl": "H. Matteüs, apostel en evangelist"
     },
     "rank": "feast",
     "summary": {
@@ -2563,6 +2648,23 @@
     "summary": {
      "en": "The son of a rich merchant who gave up everything to live the Gospel in poverty and joy (died 1226). He founded the Friars Minor, praised God in all creatures and received the wounds of Christ.",
      "nl": "De zoon van een rijke koopman die alles opgaf om het evangelie te leven in armoede en vreugde (gestorven 1226). Hij stichtte de Minderbroeders, loofde God in alle schepselen en ontving de wonden van Christus."
+    }
+   }
+  ]
+ },
+ {
+  "month": 10,
+  "day": 5,
+  "saints": [
+   {
+    "title": {
+     "en": "Saint Faustina Kowalska, virgin",
+     "nl": "H. Faustina Kowalska, maagd"
+    },
+    "rank": "optional memorial",
+    "summary": {
+     "en": "A Polish sister of Our Lady of Mercy (died 1938) whose diary spread devotion to the Divine Mercy and the prayer \"Jesus, I trust in You\".",
+     "nl": "Een Poolse zuster van Onze-Lieve-Vrouw van Barmhartigheid (gestorven 1938) wier dagboek de verering van de Goddelijke Barmhartigheid en het gebed \"Jezus, ik vertrouw op U\" verspreidde."
     }
    }
   ]
@@ -3270,6 +3372,23 @@
  },
  {
   "month": 12,
+  "day": 10,
+  "saints": [
+   {
+    "title": {
+     "en": "Our Lady of Loreto",
+     "nl": "Onze-Lieve-Vrouw van Loreto"
+    },
+    "rank": "optional memorial",
+    "summary": {
+     "en": "The shrine at Loreto in Italy honours the Holy House of Nazareth, where the Word became flesh. Mary is invoked there as patroness of air travellers.",
+     "nl": "Het heiligdom van Loreto in Italië eert het Heilig Huis van Nazaret, waar het Woord vlees werd. Maria wordt daar aangeroepen als patrones van luchtreizigers."
+    }
+   }
+  ]
+ },
+ {
+  "month": 12,
   "day": 11,
   "saints": [
    {
@@ -3345,7 +3464,7 @@
      "en": "Saint Peter Canisius, priest and doctor",
      "nl": "H. Petrus Canisius, priester en kerkleraar"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "A Dutch Jesuit from Nijmegen (died 1597) who worked in Germany, Austria and Switzerland, founded colleges and wrote a widely used catechism.",
      "nl": "Een Nederlandse jezuïet uit Nijmegen (gestorven 1597) die in Duitsland, Oostenrijk en Zwitserland werkte, colleges stichtte en een veelgebruikte catechismus schreef."
@@ -3362,7 +3481,7 @@
      "en": "Saint John of Kanty, priest",
      "nl": "H. Johannes Cantius, priester"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "A priest and professor at the University of Kraków (died 1473), known for his generosity to the poor.",
      "nl": "Een priester en hoogleraar aan de universiteit van Krakau (gestorven 1473), bekend om zijn vrijgevigheid voor de armen."
@@ -3430,7 +3549,7 @@
      "en": "Saint Thomas Becket, bishop and martyr",
      "nl": "H. Thomas Becket, bisschop en martelaar"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "Archbishop of Canterbury, chancellor and friend of King Henry II, who defended the freedom of the Church and was killed in his cathedral in 1170.",
      "nl": "Aartsbisschop van Canterbury, kanselier en vriend van koning Hendrik II, die de vrijheid van de Kerk verdedigde en in 1170 in zijn kathedraal werd gedood."
@@ -3447,7 +3566,7 @@
      "en": "Saint Sylvester I, pope",
      "nl": "H. Silvester I, paus"
     },
-    "rank": "commemoration",
+    "rank": "optional memorial",
     "summary": {
      "en": "Pope from 314 to 335, in the years after the persecutions ended under Constantine, when the first great churches of Rome were built.",
      "nl": "Paus van 314 tot 335, in de jaren na het einde van de vervolgingen onder Constantijn, toen de eerste grote kerken van Rome werden gebouwd."
