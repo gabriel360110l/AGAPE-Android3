@@ -8,7 +8,7 @@
    "Birth of (Christ|our Lord)"
   ],
   "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
-  "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+  "artist": "Anonymous",
   "licence": "CC0",
   "source": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
   "fallback": false
@@ -31,7 +31,7 @@
   "key": "annunciation",
   "file": "icons/annunciation.jpg",
   "match": [
-   "Annunciation"
+   "^(?!.*Annunciation of (John|St\\.? Joachim)).*Annunciation"
   ],
   "title": "Annunciation ystuj",
   "artist": "anonymous",
@@ -46,7 +46,7 @@
    "Transfiguration"
   ],
   "title": "Transfiguration by Feofan Grek from Spaso-Preobrazhensky Cathedral in Pereslavl-Zalessky (15th c, Tretyakov gallery)",
-  "artist": "Unknown artistUnknown artist",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Transfiguration_by_Feofan_Grek_from_Spaso-Preobrazhensky_Cathedral_in_Pereslavl-Zalessky_(15th_c,_Tretyakov_gallery).jpeg",
   "fallback": false
@@ -70,13 +70,13 @@
   "key": "dormition",
   "file": "icons/dormition.jpg",
   "match": [
-   "Dormition of (the )?(Most Holy )?(Theotokos|Virgin|Mother of God|Lady)",
+   "Dormition of (the |Our )?(Most Holy )?(Theotokos|Virgin|Mother of God|Lady)",
    "(Forefeast|leave-taking) of the Dormition",
    "Assumption",
-   "Departure of (the )?(St\\.? )?(Mary|Virgin|Theotokos|Lady)"
+   "Departure of (the |Our )?(Virgin|Theotokos|Lady)"
   ],
   "title": "Dormition of the Virgin Mary Sinai",
-  "artist": "",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Dormition_of_the_Virgin_Mary_Sinai.jpg",
   "fallback": false
@@ -101,7 +101,7 @@
    "Presentation of (the )?(Blessed )?(Virgin|Mary|Theotokos)"
   ],
   "title": "Presentation of Mary, II Half of XIV Century, St Mary Perivleptos Church, Ohrid Icon Gallery",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Presentation_of_Mary,_II_Half_of_XIV_Century,_St_Mary_Perivleptos_Church,_Ohrid_Icon_Gallery.jpg",
   "fallback": false
@@ -110,10 +110,10 @@
   "key": "cross",
   "file": "icons/cross.jpg",
   "match": [
-   "\\bCross\\b"
+   "^(?!.*(John|Paul|Benedicta) of the Cross).*\\bCross\\b"
   ],
   "title": "Exaltation of the Cross - Palekh icon (19 c, priv.coll)",
-  "artist": "Anonymous Russian icon painter (before 1917)Public domain image (according to PD-Russia-expired)",
+  "artist": "Anonymous Russian icon painter (before 1917)",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Exaltation_of_the_Cross_-_Palekh_icon_(19_c,_priv.coll).jpg",
   "fallback": false
@@ -122,14 +122,17 @@
   "key": "archangels",
   "file": "icons/archangels.jpg",
   "match": [
-   "Michael",
-   "Micah[eë]l",
-   "Archangels?",
+   "(Arch)?angel Micha[eë]l",
+   "Michael,? the Archangel",
+   "(Synaxis|Miracle) of (the Archangel )?Michael",
+   "Archangels",
+   "Archangel (Suriel|Raphael)",
    "Holy Angels",
+   "Guardian Angels",
    "Bodiless Powers"
   ],
   "title": "Mikharkhangel",
-  "artist": "Anonymous Byzantine painter (395-1453 AD) Public domain image",
+  "artist": "Anonymous Byzantine painter (395-1453 AD)",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Mikharkhangel.jpg",
   "fallback": false
@@ -138,10 +141,12 @@
   "key": "gabriel",
   "file": "icons/gabriel.jpg",
   "match": [
-   "Gabriel"
+   "Archangel Gabriel",
+   "Synaxis of Gabriel",
+   "Gabriel,? the (Archangel|Announcer)"
   ],
   "title": "Annunciation Gabriel, Early XIΙ Century, St Mary Perivleptos Church, Ohrid Icon Gallery",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Annunciation_Gabriel,_Early_XI%CE%99_Century,_St_Mary_Perivleptos_Church,_Ohrid_Icon_Gallery.jpg",
   "fallback": false
@@ -152,7 +157,7 @@
   "match": [
    "John the Baptist",
    "Forerunner",
-   "\\bBaptist\\b"
+   "\\bBaptist\\b(?! de la Salle)"
   ],
   "title": "An early byzantine icon of John the Baptist, 6th century AD",
   "artist": "AN anonymous Byzantine master",
@@ -178,13 +183,14 @@
   "file": "icons/peter.jpg",
   "match": [
    "Apostle Peter",
-   "(St\\.?|Saint) Peter\\b(?! of)",
+   "Peter,? the Apostle",
    "Chair of (St\\.? |Saint )?Peter",
    "Peter's Chains",
-   "Chains of (St\\.? |the Apostle )?Peter"
+   "Chains of (St\\.? |the Apostle )?Peter",
+   "Confession of (St\\.? |Saint )?Peter"
   ],
   "title": "Saint Peter-Sinai (6th Century)",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Saint_Peter-Sinai_(6th_Century).jpg",
   "fallback": false
@@ -194,11 +200,11 @@
   "file": "icons/paul.jpg",
   "match": [
    "Apostle Paul",
-   "(St\\.?|Saint) Paul\\b(?! of| the)",
+   "Paul,? the Apostle",
    "Conversion of .*Paul"
   ],
   "title": "Apostle Paul (Ubisi icon)",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Apostle_Paul_(Ubisi_icon).jpg",
   "fallback": false
@@ -209,27 +215,12 @@
   "match": [
    "Andrew the First-called",
    "Apostle Andrew",
-   "Andrew,? (the )?Apostle",
-   "(St\\.?|Saint) Andrew\\b(?! of)"
+   "Andrew,? (the )?Apostle"
   ],
   "title": "Fyodor Zubov.Andrew the Apostle.1669",
   "artist": "Fyodor Zubov",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Fyodor_Zubov.Andrew_the_Apostle.1669.jpg",
-  "fallback": false
- },
- {
-  "key": "john_theologian",
-  "file": "icons/john_theologian.jpg",
-  "match": [
-   "John the (Theologian|Evangelist|Apostle|Divine)",
-   "Apostle (and Evangelist )?John",
-   "John,? Apostle"
-  ],
-  "title": "Holy Apostle and Evangelist John the Theologian. Icon. Greece, 16th century",
-  "artist": "Unknown authorUnknown author",
-  "licence": "Public domain",
-  "source": "https://commons.wikimedia.org/wiki/File:Holy_Apostle_and_Evangelist_John_the_Theologian._Icon._Greece,_16th_century.jpg",
   "fallback": false
  },
  {
@@ -244,6 +235,20 @@
   "artist": "Mstyora craftsmen of the 19th century",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Apostle_James,_son_of_Alphaeus.jpeg",
+  "fallback": false
+ },
+ {
+  "key": "john_theologian",
+  "file": "icons/john_theologian.jpg",
+  "match": [
+   "John the (Theologian|Evangelist|Apostle|Divine)",
+   "Apostle (and Evangelist )?John",
+   "John,? Apostle"
+  ],
+  "title": "Holy Apostle and Evangelist John the Theologian. Icon. Greece, 16th century",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Holy_Apostle_and_Evangelist_John_the_Theologian._Icon._Greece,_16th_century.jpg",
   "fallback": false
  },
  {
@@ -263,10 +268,10 @@
   "key": "matthew",
   "file": "icons/matthew.jpg",
   "match": [
-   "\\bMatthew\\b"
+   "\\bMatthew\\b(?! the Poor)"
   ],
   "title": "Medallion with Saint Matthew from an Icon Frame MET DT200218",
-  "artist": "",
+  "artist": "Unknown",
   "licence": "CC0",
   "source": "https://commons.wikimedia.org/wiki/File:Medallion_with_Saint_Matthew_from_an_Icon_Frame_MET_DT200218.jpg",
   "fallback": false
@@ -275,12 +280,12 @@
   "key": "mark",
   "file": "icons/mark.jpg",
   "match": [
-   "\\bMark\\b.*(Apostle|Evangelist)",
+   "Mark,? the (Apostle|Evangelist)",
    "Apostle Mark",
-   "(St\\.?|Saint) Mark\\b(?! of)"
+   "Relics of the Great St\\.? Mark"
   ],
   "title": "087 Mark the Evangelist Icon from Saint Paraskevi Church in Langadas",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:087_Mark_the_Evangelist_Icon_from_Saint_Paraskevi_Church_in_Langadas.jpg",
   "fallback": false
@@ -289,7 +294,7 @@
   "key": "luke",
   "file": "icons/luke.jpg",
   "match": [
-   "\\bLuke\\b"
+   "\\bLuke\\b(?! the Stylite)"
   ],
   "title": "Saint Luke the Evangelist - icon",
   "artist": "Unknown Russian Orthodox painter",
@@ -306,7 +311,7 @@
    "Philip and James"
   ],
   "title": "Icon of Apostle Philip (10th c, St. Catherine monastery, Sinai)",
-  "artist": "AnonymousUnknown author",
+  "artist": "Anonymous",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Icon_of_Apostle_Philip_(10th_c,_St._Catherine_monastery,_Sinai).jpg",
   "fallback": false
@@ -318,7 +323,7 @@
    "Bartholomew"
   ],
   "title": "Mosaic of Saint Apostle Bartholomew, Sinai",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Mosaic_of_Saint_Apostle_Bartholomew,_Sinai.jpg",
   "fallback": false
@@ -344,11 +349,12 @@
   "match": [
    "George the (Trophy-bearer|Great|Victorious)",
    "Great[- ]?martyr George",
-   "(St\\.?|Saint) George\\b(?! of)",
+   "(St\\.?|Saint) George,? (martyr|Prince of the Martyrs|the Great Martyr)",
+   "[Cc]hurch of St\\.? George\\b(?! of Alexandria)",
    "^George$"
   ],
   "title": "Novgorod George",
-  "artist": "AnonymousUnknown author",
+  "artist": "Anonymous",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Novgorod_George.jpg",
   "fallback": false
@@ -357,7 +363,9 @@
   "key": "demetrius",
   "file": "icons/demetrius.jpg",
   "match": [
-   "Demetri"
+   "Demetri(us|os) of Thessalonica",
+   "Great[- ]?martyr Demetri",
+   "^Demetri(us|os)$"
   ],
   "title": "Saint Demetrius of Protat",
   "artist": "Manuel Panselinos",
@@ -384,7 +392,7 @@
    "Nicholas"
   ],
   "title": "St Nicholas Icon Sinai 13th century",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:St_Nicholas_Icon_Sinai_13th_century.jpg",
   "fallback": false
@@ -393,8 +401,7 @@
   "key": "basil",
   "file": "icons/basil.jpg",
   "match": [
-   "Basil (the Great|of Caesarea)",
-   "(St\\.?|Saint) Basil\\b(?! of)",
+   "^(?!.*Brother of St\\.? Basil).*Basil (the Great|of Caesarea)",
    "^Basil$"
   ],
   "title": "Semen Spiridonov Kholmogorets. Basil the Great. 1674",
@@ -410,7 +417,7 @@
    "Three (Holy )?Hierarchs"
   ],
   "title": "Three Holy Hierarchs (Novgorod)",
-  "artist": "Anonymous Russian icon painter (before 1917)Public domain image (according to PD-Russia-expired)",
+  "artist": "Anonymous Russian icon painter (before 1917)",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Three_Holy_Hierarchs_(Novgorod).jpg",
   "fallback": false
@@ -445,10 +452,10 @@
   "match": [
    "Athanasius (the Great|of Alexandria|the Apostolic)",
    "Athanasius and Cyril",
-   "(St\\.?|Saint) Athanasius\\b(?! of Athos)"
+   "(St\\.?|Saint) Athanasius,? bishop"
   ],
   "title": "Saint-Athanasius-of-Alexandria-icon-Sozopol-Bulgaria-17century",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Saint-Athanasius-of-Alexandria-icon-Sozopol-Bulgaria-17century.jpg",
   "fallback": false
@@ -461,7 +468,7 @@
    "Cyril,? (the )?(24th )?Pope"
   ],
   "title": "Fresco Icon of Saint Kyrillos of Alexandria 3",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Fresco_Icon_of_Saint_Kyrillos_of_Alexandria_3.jpg",
   "fallback": false
@@ -471,10 +478,10 @@
   "file": "icons/anthony.jpg",
   "match": [
    "Ant(h)?ony (the Great|of Egypt)",
-   "(St\\.?|Saint|Abba|Abba) Ant(h)?ony\\b(?! of Padua)"
+   "Great St\\.? Anthony"
   ],
   "title": "Cretan Icon Saint Anthony the Great",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Cretan_Icon_Saint_Anthony_the_Great.jpg",
   "fallback": false
@@ -495,7 +502,7 @@
   "key": "mary_magdalene",
   "file": "icons/mary_magdalene.jpg",
   "match": [
-   "Magdalen"
+   "Magdalen(?!e de Pazzi)"
   ],
   "title": "Mary Magdalene by Constantin Tzanes (17th c.)",
   "artist": "Konstantinos Tzanes",
@@ -524,7 +531,7 @@
    "Katherine"
   ],
   "title": "Icon of Saint Catherine",
-  "artist": "Orthodox33",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Icon_of_Saint_Catherine.jpg",
   "fallback": false
@@ -537,7 +544,7 @@
    "Pantaleon"
   ],
   "title": "Byzantine - Saint Panteleimon - Walters 4820864",
-  "artist": "Anonymous (Byzantine artist)Unknown author",
+  "artist": "Anonymous (Byzantine artist)",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Saint_Panteleimon_-_Walters_4820864.jpg",
   "fallback": false
@@ -550,7 +557,7 @@
    "Spiridon"
   ],
   "title": "Saint Spyridon Icon from Gorno Statitsa 1720",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Saint_Spyridon_Icon_from_Gorno_Statitsa_1720.jpg",
   "fallback": false
@@ -563,7 +570,7 @@
    "Prophet Elias"
   ],
   "title": "Elijah Icon Sinai c1200",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Elijah_Icon_Sinai_c1200.jpg",
   "fallback": false
@@ -576,7 +583,7 @@
    "Moses the (Prophet|God-seer|Lawgiver)"
   ],
   "title": "Moses & Bush Icon Sinai c12th century",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Moses_%26_Bush_Icon_Sinai_c12th_century.jpg",
   "fallback": false
@@ -603,7 +610,7 @@
    "Ephr(e|ai)m"
   ],
   "title": "Mor Ephrem icon",
-  "artist": "AnonymousUnknown author",
+  "artist": "Anonymous",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Mor_Ephrem_icon.jpg",
   "fallback": false
@@ -629,7 +636,7 @@
    "Abu Sefein"
   ],
   "title": "Byzantine icon St-Mercurius 1295",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Byzantine_icon_St-Mercurius_1295.jpg",
   "fallback": false
@@ -655,7 +662,7 @@
    "Ignatius,? (Bishop|Patriarch) of Antioch"
   ],
   "title": "Byzantine - Saint Ignatius of Antioch - Walters 4820867",
-  "artist": "Anonymous (Byzantine Empire)Unknown author",
+  "artist": "Anonymous (Byzantine Empire)",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Byzantine_-_Saint_Ignatius_of_Antioch_-_Walters_4820867.jpg",
   "fallback": false
@@ -667,7 +674,7 @@
    "Polycarp"
   ],
   "title": "Polycarp",
-  "artist": "",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Polycarp.jpg",
   "fallback": false
@@ -679,7 +686,7 @@
    "Maximus the Confessor"
   ],
   "title": "Athonite Fresco Icon of Saint Maximos the Confessor",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Athonite_Fresco_Icon_of_Saint_Maximos_the_Confessor.jpg",
   "fallback": false
@@ -692,7 +699,7 @@
    "\\bBacchus\\b"
   ],
   "title": "ܡܪܝ ܣܪܓܝܣ ܘܡܪܝ ܒܟܘܣ",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:%DC%A1%DC%AA%DC%9D_%DC%A3%DC%AA%DC%93%DC%9D%DC%A3_%DC%98%DC%A1%DC%AA%DC%9D_%DC%92%DC%9F%DC%98%DC%A3.jpg",
   "fallback": false
@@ -704,7 +711,7 @@
    "Sergius of Radonezh"
   ],
   "title": "Sergius of Radonezh begin of 16c SPMZ",
-  "artist": "AnonymousUnknown author",
+  "artist": "Anonymous",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Sergius_of_Radonezh_begin_of_16c_SPMZ.jpg",
   "fallback": false
@@ -716,7 +723,7 @@
    "Seraphim of Sarov"
   ],
   "title": "Seraphim of Sarov (after 1903, priv.coll)",
-  "artist": "Anonymous Russian icon painter (before 1917)Public domain image (according to PD-Russia-expired)",
+  "artist": "Anonymous Russian icon painter (before 1917)",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Seraphim_of_Sarov_(after_1903,_priv.coll).jpg",
   "fallback": false
@@ -729,7 +736,7 @@
    "Simeon Stylites"
   ],
   "title": "Simeon Stylites icon 1465",
-  "artist": "AnonymousUnknown author",
+  "artist": "Anonymous",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Simeon_Stylites_icon_1465.jpg",
   "fallback": false
@@ -743,7 +750,7 @@
    "^Thecla$"
   ],
   "title": "Saint Thecla, Lebanon (14 Century)",
-  "artist": "",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Saint_Thecla,_Lebanon_(14_Century).jpg",
   "fallback": false
@@ -755,7 +762,7 @@
    "Euphemia"
   ],
   "title": "St Euphemia",
-  "artist": "AnonymousUnknown author",
+  "artist": "Anonymous",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:St_Euphemia.jpg",
   "fallback": false
@@ -764,10 +771,10 @@
   "key": "marina",
   "file": "icons/marina.jpg",
   "match": [
-   "\\bMarina\\b"
+   "\\bMarina\\b(?!, the Ascetic)"
   ],
   "title": "Cretan Icon of Saint Marina in Thiseio",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Cretan_Icon_of_Saint_Marina_in_Thiseio.jpg",
   "fallback": false
@@ -804,7 +811,7 @@
    "(?<!disciple of St\\. )Pachomius"
   ],
   "title": "StPakhom",
-  "artist": "",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:StPakhom.jpg",
   "fallback": false
@@ -817,7 +824,7 @@
    "Cosmas, Damian"
   ],
   "title": "Saints Cosmas and Damian icon, Syria (1778)",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Saints_Cosmas_and_Damian_icon,_Syria_(1778).jpg",
   "fallback": false
@@ -841,7 +848,7 @@
    "Moses the (Black|Ethiopian|Strong)"
   ],
   "title": "Saints Poimen, Elijah, and Moses the Black",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Saints_Poimen,_Elijah,_and_Moses_the_Black.jpg",
   "fallback": false
@@ -855,7 +862,7 @@
    "(St\\.?|Saint) Sabbas\\b(?! the Stratelates)"
   ],
   "title": "SabbastheSanctified",
-  "artist": "The original uploader was Alekjds at English Wikipedia.",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:SabbastheSanctified.jpg",
   "fallback": false
@@ -869,7 +876,7 @@
    "Cyril, monk, and Methodius"
   ],
   "title": "Sts Cyril and Methodius Icon in Tresonche",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Sts_Cyril_and_Methodius_Icon_in_Tresonche.png",
   "fallback": false
@@ -893,7 +900,7 @@
    "Climacus"
   ],
   "title": "John Climacus",
-  "artist": "AnonymousUnknown author",
+  "artist": "Anonymous",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:John_Climacus.jpg",
   "fallback": false
@@ -906,7 +913,7 @@
    "Isaiah,? the Prophet"
   ],
   "title": "Isaiah Prophet",
-  "artist": "I believe it was a Russian Icon.",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Isaiah_Prophet.jpg",
   "fallback": false
@@ -920,7 +927,7 @@
    "Seventy Apostles"
   ],
   "title": "Synaxis of the Twelve Apostles by Constantinople master (early 14th c., Pushkin museum)",
-  "artist": "AnonymousUnknown author",
+  "artist": "Anonymous",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Synaxis_of_the_Twelve_Apostles_by_Constantinople_master_(early_14th_c.,_Pushkin_museum).jpg",
   "fallback": false
@@ -934,11 +941,11 @@
    "Blessed Virgin",
    "Our Lady",
    "Mother of God",
-   "(St\\.?|Saint) Mary\\b(?! of| Magdal)",
+   "(St\\.?|Saint) Mary\\b(?! of| Magdal| the Ascetic| Known as)",
    "Holy Virgin"
   ],
   "title": "Hodegetria - Byzantine Empire - 15th century",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Hodegetria_-_Byzantine_Empire_-_15th_century.JPG",
   "fallback": true
@@ -952,7 +959,7 @@
    "Holy Name"
   ],
   "title": "Christ Icon Sinai 6th century",
-  "artist": "Unknown authorUnknown author",
+  "artist": "Unknown",
   "licence": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Christ_Icon_Sinai_6th_century.jpg",
   "fallback": true

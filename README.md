@@ -107,7 +107,7 @@ python tools/build_commentary.py  # chapter commentary from tools/source/comment
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
 python tools/build_saint_summaries.py  # adds the saint summaries to saints_oo.json and saints_ca.json (offline)
-python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --patterns updates matching only
+python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --new adds missing icons, --patterns updates matching only
 python tools/render_backgrounds.py   # the painted Home backgrounds (needs Pillow and numpy)
 python tools/build_backgrounds.py    # adds public-domain / CC0 church photos from Commons to the Home backgrounds
 ```
@@ -130,7 +130,9 @@ remaining deuterocanonical books) still show the legacy guide, marked in the app
   the quizzes, the menologion texts, the council translations, the Dutch saint names and the saint summaries
   reviewed: the 145 Coptic summaries marked `?` first, which say only what was safe without the full Synaxarium
   text and should be checked and filled out against it.
-- Add icons for more saints (each checked for a public-domain or CC0 licence).
+- Download the 99 extra saint icons listed in `tools/build_icons.py` with `python tools/build_icons.py --new` (needs
+  access to commons.wikimedia.org), then look at each new picture and pin a better file in `PINS` where the search
+  chose the wrong saint.
 - Add a release signing config and a Play Store listing (screenshots per style).
 
 ## Related repositories
