@@ -1,7 +1,6 @@
 package agape.app.ui.bible
 
 import agape.app.R
-import agape.app.core.model.L10n
 import agape.app.core.model.Passage
 import agape.app.core.model.Tradition
 import agape.app.data.bible.FatherNote
@@ -85,7 +84,7 @@ fun VerseSheet(
     var editingNote by remember { mutableStateOf(false) }
     var noteText by remember(note) { mutableStateOf(note) }
 
-    val notes = remember(verse, tradition) { container.content.verseNotes(verse.ref.key, tradition) }
+    val notes = remember(verse, tradition, lang) { container.content.verseNotes(verse.ref.key, tradition, lang) }
     val quotes by produceState(emptyList<FatherQuote>(), verse) { value = container.bible.fatherQuotes(verse.ref) }
     val fathers by produceState(emptyList<FatherNote>(), verse, lang) {
         value = container.bible.fatherNotes(verse.book, verse.chapter).filter { verse.verse in it.verseFrom..it.verseTo }
@@ -158,7 +157,7 @@ fun VerseSheet(
 
             Section(stringResource(R.string.verse_commentary)) {
                 if (notes.isEmpty()) Text(stringResource(R.string.verse_commentary_soon), style = MaterialTheme.typography.bodyMedium, color = c.inkFaint)
-                notes.forEach { n: L10n -> Paragraph(n[lang]) }
+                notes.forEach { Paragraph(it) }
             }
 
             if (quotes.isNotEmpty()) {

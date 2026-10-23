@@ -29,7 +29,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "tools", "source")
 CACHE = os.path.join(ROOT, "tools", ".cache")
 ASSETS = os.path.join(ROOT, "app", "src", "main", "assets")
-DB_VERSION = 2
+DB_VERSION = 3
 MIN_CROSS_REF_VOTES = 10
 
 EO, OO, CA = "EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"
@@ -184,6 +184,16 @@ def write_json(name, data):
 
 def tr(en, nl):
     return {"en": en or nl or "", "nl": nl or en or ""}
+
+
+# Dutch names as in books.json; the legacy Dutch texts mix in older spellings.
+NL_NAMES = [(r"\bTimotheüs\b", "Timoteüs"), (r"\bMarkus\b", "Marcus"), (r"\bMattheüs\b", "Matteüs"), (r"\bSamuel\b", "Samuël")]
+
+
+def nl_names(text):
+    for pattern, repl in NL_NAMES:
+        text = re.sub(pattern, repl, text) if text else text
+    return text
 
 
 # WEB marks some words with footnote-free brackets and pilcrows; keep the text clean for reading.
@@ -412,7 +422,7 @@ def build_books(verses):
             "deuterocanonical": usfm in DEUTERO,
             "traditions": traditions,
             "name": tr(en, nl),
-            "intro": tr(lb.get("introEn"), lb.get("intro")) if lb else None,
+            "intro": tr(lb.get("introEn"), nl_names(lb.get("intro"))) if lb else None,
             "chapters": {"en": chapters.get(("web", usfm), 0), "nl": chapters.get(("sv", usfm), 0)},
         })
     write_json("books.json", books)
@@ -599,11 +609,12 @@ def build_saints_eo():
         for pattern, repl in EN_TITLE_FIXES:
             title_en = re.sub(pattern, repl, title_en)
         title_en = en["titles"].get(key, title_en)
-        title_nl = en.get("titles_nl", {}).get(key, e.get("title"))
+        title_nl = nl_names(en.get("titles_nl", {}).get(key, e.get("title")))
         out.append({
             "month": int(e["month"]), "day": int(e["day"]), "rank": e.get("rank", "saint"),
             "title": tr(title_en, title_nl),
-            "summary": tr(en["summaries"].get(key) or e.get("explanationEn") or e.get("teaserEn"), e.get("explanation") or e.get("teaser")),
+            "summary": tr(en["summaries"].get(key) or e.get("explanationEn") or e.get("teaserEn"),
+                          nl_names(e.get("explanation") or e.get("teaser"))),
         })
     write_json("saints_eo.json", out)
 

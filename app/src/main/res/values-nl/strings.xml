@@ -392,5 +392,7 @@
     <string name="saint_also">Ook herdacht</string>
     <string name="saint_feast">Feest van de dag</string>
     <string name="icon_credit">Icoon: %1$s · %2$s</string>
+    <string name="council_texts_provisional">Voorlopig: dit zijn eigen weergaven door AGAPE van de kernpassages, gemaakt uit het Latijn, geen officiële vertaling. Ze moeten nog met de oorspronkelijke tekst vergeleken worden.</string>
+    <string name="council_canons_in_texts">De belangrijkste decreten en canons van dit concilie staan onder Teksten.</string>
     <string name="council_texts_later">De volledige decreten van dit concilie zijn lang en staan nog niet in de app; de belangrijkste canons zijn hierboven samengevat. De officiële teksten staan op vatican.va.</string>
 </resources>

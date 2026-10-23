@@ -26,6 +26,9 @@ class LiturgicalCalendarTest {
         assertTrue(LiturgicalCalendar.feasts(Tradition.CATHOLIC, LocalDate.of(2026, 4, 5)).any { it.name.en.startsWith("Easter") })
         assertTrue(LiturgicalCalendar.feasts(Tradition.EASTERN_ORTHODOX, LocalDate.of(2026, 4, 12)).any { it.name.en.startsWith("Pascha") })
         assertTrue(LiturgicalCalendar.feasts(Tradition.ORIENTAL_ORTHODOX, LocalDate.of(2027, 1, 7)).any { it.name.en == "Nativity of Christ" })
+        // 7 January 2028 is 28 Kiahk (after the Coptic leap year 1743); the Nativity stays on 7 January.
+        assertTrue(LiturgicalCalendar.feasts(Tradition.ORIENTAL_ORTHODOX, LocalDate.of(2028, 1, 7)).any { it.name.en == "Nativity of Christ" })
+        assertTrue(LiturgicalCalendar.feasts(Tradition.ORIENTAL_ORTHODOX, LocalDate.of(2028, 1, 8)).none { it.name.en == "Nativity of Christ" })
         assertEquals(LocalDate.of(2026, 11, 29), LiturgicalCalendar.advent(2026))
     }
 

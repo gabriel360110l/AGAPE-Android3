@@ -36,7 +36,7 @@ SN: Johannes ziet een deur geopend in de hemel en een troon, met Iemand die erop
 M: Before any judgement, John sees the worship of heaven: God reigns, and all creation praises Him. Earthly worship joins this heavenly liturgy.
 MN: Vóór enig oordeel ziet Johannes de eredienst van de hemel: God regeert, en heel de schepping looft Hem. De aardse eredienst sluit zich aan bij deze hemelse liturgie.
 F: St Irenaeus linked the four living creatures with the four Gospels, and later tradition fixed them as lion (Mark), ox (Luke), man (Matthew) and eagle (John). The thrice-holy hymn is sung in every Eucharist.
-FN: De heilige Irenaeus verbond de vier levende wezens met de vier Evangeliën, en de latere traditie legde ze vast als leeuw (Marcus), stier (Lucas), mens (Mattheüs) en arend (Johannes). Het driemaal heilig wordt in elke eucharistie gezongen.
+FN: De heilige Irenaeus verbond de vier levende wezens met de vier Evangeliën, en de latere traditie legde ze vast als leeuw (Marcus), stier (Lucas), mens (Matteüs) en arend (Johannes). Het driemaal heilig wordt in elke eucharistie gezongen.
 T: Heavenly worship; Sovereignty of God; Creation
 TN: Hemelse eredienst; Soevereiniteit van God; Schepping
 
