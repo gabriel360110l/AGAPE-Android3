@@ -46,8 +46,8 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
 - **Calendar** (week strip on Home, full month behind it): feasts per tradition, old-style or Coptic date, saints of the
   day and the days you read or prayed.
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
-  it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: the four
-  Gospels have hand-written questions (4 per chapter); other chapters get 5 questions and every book 20, generated
+  it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: the whole
+  New Testament has hand-written questions (4 per chapter); other chapters get 5 questions and every book 20, generated
   from the Bible text (`data/quiz/QuizGenerator.kt`).
 - **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches: the Byzantine
   menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
@@ -72,7 +72,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
 | Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, the wisdom books (Job to Sirach), Isaiah, Ezekiel | `tools/source/commentary/*.md` | Own content — review |
-| Chapter quizzes, four Gospels (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
+| Chapter quizzes, New Testament (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
 | Coptic Synaxarium (names per day) | api.coptic.io | Check terms before release; Dutch: rules + `tools/source/saints_nl_oo.json` |
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
 | Saint and feast icons (73) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
@@ -108,8 +108,7 @@ remaining deuterocanonical books) still show the legacy guide, marked in the app
 ## Before release
 
 - Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
-- Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary, Church articles, and
-  hand-written quizzes for Acts to Revelation.
+- Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary and Church articles.
 - Write the remaining Old Testament chapter commentary (EN + NL): Jeremiah, Lamentations, Baruch, Daniel, the twelve
   minor prophets (Hosea to Malachi) and the remaining deuterocanonical books. Then have the written commentary,
   the quizzes, the menologion texts, the council translations and the Dutch saint names reviewed.
