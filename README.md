@@ -46,11 +46,11 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
 - **Calendar** (week strip on Home, full month behind it): feasts per tradition, old-style or Coptic date, saints of the
   day and the days you read or prayed.
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
-  it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: the whole
-  New Testament and most Old Testament books (the Law, Joshua to Nehemiah, Tobit, Judith, Esther, Job, the
-  prophets from Isaiah to Malachi with Lamentations and Baruch) have hand-written questions (4 per chapter, the
-  Esther quiz keeps to the text both Bibles share); other chapters get 5 questions and every book 20, generated
-  from the Bible text (`data/quiz/QuizGenerator.kt`).
+  it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: every
+  chapter of all 82 books, Old and New Testament with the deuterocanon (Psalms, Sirach, Wisdom, the Maccabees,
+  1 Esdras, the Prayer of Manasseh, Psalm 151 and the additions to Esther and Daniel included), has hand-written
+  questions (4 per chapter, the Esther quiz keeps to the text both Bibles share); the book quiz of 20 questions
+  is still generated from the Bible text (`data/quiz/QuizGenerator.kt`).
 - **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches: the Byzantine
   menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
   Calendar (a short English and Dutch summary for the first saint of every Coptic day and for every Roman saint),
@@ -75,7 +75,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
 | Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, the wisdom books (Job to Sirach), Isaiah, Ezekiel | `tools/source/commentary/*.md` | Own content — review |
-| Chapter quizzes, New Testament and most Old Testament books (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
+| Chapter quizzes, all 82 books (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
 | Coptic Synaxarium (names per day) | api.coptic.io | Check terms before release; Dutch: rules + `tools/source/saints_nl_oo.json` |
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
 | Saint and feast icons (73) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |

@@ -1871,3 +1871,831 @@
 = Seasons (set times) | Tot de gezette tijden
 - War | Tot de oorlog
 - Light for the day | Tot licht voor de dag
+
+## 105
+? With whom did God make the covenant this psalm remembers? | Met wie sloot God het verbond dat deze psalm gedenkt?
+= Abraham, Isaac and Jacob | Abraham, Izaäk en Jakob
+- Noah | Noach
+- David | David
+? Who was sold as a servant ahead of Israel? | Wie werd voor Israël uit als slaaf verkocht?
+= Joseph | Jozef
+- Benjamin | Benjamin
+- Moses | Mozes
+? Whom did God send to Egypt as his servants? | Wie zond God als Zijn knechten naar Egypte?
+= Moses and Aaron | Mozes en Aäron
+- Joshua and Caleb | Jozua en Kaleb
+- Elijah and Elisha | Elia en Elisa
+? What came out of the rock when God opened it? | Wat kwam er uit de rots toen God haar opende?
+= Water | Water
+- Fire | Vuur
+- Honey | Honig
+
+## 106
+? What did Israel make at Horeb? | Wat maakte Israël aan de Horeb?
+= A calf | Een kalf
+- A temple | Een tempel
+- A tower | Een toren
+? Who stood in the breach before God to turn away his wrath? | Wie stond in de scheur voor Gods aangezicht om Zijn grimmigheid af te keren?
+= Moses | Mozes
+- Aaron | Aäron
+- Joshua | Jozua
+? Who stood up and executed judgment, so the plague was stopped? | Wie stond op en oefende gericht, zodat de plaag werd opgehouden?
+= Phinehas | Pinehas
+- Eleazar | Eleazar
+- Caleb | Kaleb
+? To whom did they sacrifice their sons and daughters? | Aan wie offerden zij hun zonen en dochters?
+= Demons, the idols of Canaan | De duivelen, de afgoden van Kanaän
+- The Lord | De Heer
+- The king | De koning
+
+## 107
+? Who should say that the Lord is good? | Wie moeten zeggen dat de Heer goed is?
+= The redeemed of the Lord | De bevrijden van de Heer
+- The kings | De koningen
+- The priests | De priesters
+? What does God do for the hungry soul? | Wat doet God voor de hongerige ziel?
+= Fills it with good | Vervult haar met goed
+- Leaves it empty | Laat haar leeg
+- Sends it away | Zendt haar weg
+? What did God do to the storm for those at sea? | Wat deed God met de storm voor hen op zee?
+= He made it calm | Hij deed hem stilstaan
+- He made it worse | Hij maakte hem erger
+- Nothing | Niets
+? Into what does God turn the wilderness? | Waarin verandert God de woestijn?
+= A pool of water | Een waterpoel
+- A city of gold | Een gouden stad
+- A sea of sand | Een zee van zand
+
+## 108
+? What does David say about his heart? | Wat zegt David over zijn hart?
+= It is steadfast; he will sing | Het is bereid; hij zal zingen
+- It is broken | Het is gebroken
+- It is afraid | Het is bang
+? What does David call to wake up? | Wat roept David op te ontwaken?
+= Harp and lyre | Luit en harp
+- His army | Zijn leger
+- The king | De koning
+? What does God call Moab? | Hoe noemt God Moab?
+= My washbasin | Mijn waspot
+- My helmet | Mijn helm
+- My scepter | Mijn scepter
+? What is vain? | Wat is ijdel?
+= The help of man | Des mensen heil
+- God's help | Gods hulp
+- Prayer | Het gebed
+
+## 109
+? What do the enemies give David for his love? | Wat geven de vijanden David voor zijn liefde?
+= Hatred, and evil for good | Haat, en kwaad voor goed
+- Gifts | Geschenken
+- Love | Liefde
+? What does he ask for his enemy's office? | Wat vraagt hij voor het ambt van zijn vijand?
+= Let another take it | Een ander neme zijn ambt
+- Let it grow | Laat het groeien
+- Let it stay | Laat het blijven
+? To what does the psalmist compare himself going away? | Waarmee vergelijkt de psalmist zichzelf als hij heengaat?
+= An evening (declining) shadow | Een schaduw, wanneer zij zich neigt
+- A strong tower | Een sterke toren
+- A rising sun | Een opgaande zon
+? At whose right hand does God stand? | Wie zal God ter rechterhand staan?
+= The needy | De nooddruftige
+- The king's | De koning
+- The rich | De rijke
+
+## 110
+? What does the Lord say to David's Lord? | Wat zegt de Heer tot Davids Heer?
+= Sit at my right hand until I make your enemies your footstool | Zit aan Mijn rechterhand, totdat Ik Uw vijanden gezet zal hebben tot een voetbank Uwer voeten
+- Go to Egypt | Ga naar Egypte
+- Build me a house | Bouw Mij een huis
+? After whose order is he a priest forever? | Naar wiens ordening is Hij priester in eeuwigheid?
+= Melchizedek | Melchizedek
+- Aaron | Aäron
+- Levi | Levi
+? Out of where will the Lord send the rod of his strength? | Uit waar zal de Heer de scepter Zijner sterkte zenden?
+= Zion | Sion
+- Egypt | Egypte
+- Babylon | Babel
+? From what will he drink on the way? | Waaruit zal Hij drinken op de weg?
+= The brook | De beek
+- A golden cup | Een gouden beker
+- A well | Een put
+
+## 111
+? What is the beginning of wisdom? | Wat is het beginsel der wijsheid?
+= The fear of the Lord | De vreze van de Heer
+- Riches | Rijkdom
+- Old age | Ouderdom
+? What is said of the Lord after his wonders are remembered? | Wat wordt er van de Heer gezegd, nu Zijn wonderen gedacht worden?
+= He is gracious and merciful | Hij is genadig en barmhartig
+- He is far away | Hij is ver weg
+- He is asleep | Hij slaapt
+? What has he given to those who fear him? | Wat heeft Hij gegeven aan hen die Hem vrezen?
+= Food | Spijs
+- Silver | Zilver
+- Horses | Paarden
+? What has he sent to his people? | Wat heeft Hij Zijn volk gezonden?
+= Redemption | Verlossing
+- An army | Een leger
+- A king | Een koning
+
+## 112
+? Who is blessed? | Wie is welgelukzalig?
+= The man who fears the Lord and delights in his commandments | De man die de Heer vreest en groten lust heeft in Zijn geboden
+- The man who is feared | De man die gevreesd wordt
+- The man who is rich | De man die rijk is
+? What rises in the darkness for the upright? | Wat gaat de oprechten op in de duisternis?
+= Light | Het licht
+- A storm | Een storm
+- A moon of blood | Een bloedrode maan
+? What will he not fear? | Waarvoor zal hij niet vrezen?
+= Evil news | Een kwaad gerucht
+- God | God
+- His parents | Zijn ouders
+? What has he done for the poor? | Wat heeft hij voor de nooddruftigen gedaan?
+= He has dispersed, he has given to them | Hij strooit uit, hij geeft hun
+- He has ignored them | Hij negeerde hen
+- He has taxed them | Hij belastte hen
+
+## 113
+? From when to when should the Lord's name be praised? | Van wanneer tot wanneer moet de naam van de Heer geloofd worden?
+= From the rising of the sun to its going down | Van de opgang der zon tot haar nedergang
+- Only on feast days | Alleen op feestdagen
+- Only at night | Alleen 's nachts
+? Out of what does God raise up the poor? | Waaruit richt God de geringe op?
+= The dust | Het stof
+- The sea | De zee
+- The tomb | Het graf
+? With whom does he set them? | Bij wie zet Hij hen?
+= With princes | Bij de prinsen
+- With slaves | Bij de slaven
+- With beasts | Bij de beesten
+? What does he do for the barren woman? | Wat doet Hij voor de onvruchtbare?
+= Makes her a joyful mother of children in a home | Hij doet haar wonen met een huisgezin, een blijde moeder van kinderen
+- Gives her gold | Hij geeft haar goud
+- Gives her a field | Hij geeft haar een akker
+
+## 114
+? When did Judah become God's sanctuary? | Wanneer werd Juda Gods heiligdom?
+= When Israel went out of Egypt | Toen Israël uit Egypte toog
+- When David was king | Toen David koning was
+- After the exile | Na de ballingschap
+? What did the sea do? | Wat deed de zee?
+= It saw and fled | Zij zag het en vlood
+- It rose up | Zij steeg op
+- It froze | Zij bevroor
+? Like what did the mountains skip? | Gelijk wat sprongen de bergen?
+= Rams | Rammen
+- Deer | Herten
+- Children | Kinderen
+? What did God turn into a pool of water? | Wat veranderde God in een watervloed?
+= The rock | De rotssteen
+- The desert | De woestijn
+- The city | De stad
+
+## 115
+? To whom should glory be given? | Wie moet eer gegeven worden?
+= Not to us, but to God's name | Niet ons, maar Gods Naam
+- To the kings | De koningen
+- To us | Ons
+? What are the idols of the nations made of? | Waarvan zijn de afgoden der heidenen gemaakt?
+= Silver and gold, the work of men's hands | Zilver en goud, het werk van des mensen handen
+- Stone only | Alleen steen
+- Wood from heaven | Hout uit de hemel
+? What can the idols not do with their mouths? | Wat kunnen de afgoden met hun mond niet?
+= Speak | Spreken
+- Eat | Eten
+- Shine | Glanzen
+? Who do not praise the Lord? | Wie loven de Heer niet?
+= The dead | De doden
+- The living | De levenden
+- The children | De kinderen
+
+## 116
+? Why does the psalmist love the Lord? | Waarom heeft de psalmist de Heer lief?
+= He hears his voice and his supplications | Hij hoort zijn stem en zijn smekingen
+- He made him rich | Hij maakte hem rijk
+- He made him king | Hij maakte hem koning
+? What will he take, calling on the Lord's name? | Wat zal hij opnemen, de naam van de Heer aanroepend?
+= The cup of salvation | De beker der verlossingen
+- A sword | Een zwaard
+- A crown | Een kroon
+? What is precious in the sight of the Lord? | Wat is kostelijk in de ogen van de Heer?
+= The death of his saints | De dood Zijner gunstgenoten
+- Gold | Goud
+- Kings | Koningen
+? What did he say in his haste? | Wat zei hij in zijn haasten?
+= All men are liars | Alle mensen zijn leugenaars
+- All men are good | Alle mensen zijn goed
+- God is far away | God is ver weg
+
+## 117
+? Who are called to praise the Lord? | Wie worden geroepen de Heer te loven?
+= All nations and all peoples | Alle heidenen en alle natiën
+- Only Israel | Alleen Israël
+- Only the priests | Alleen de priesters
+? How great is his loving kindness toward us? | Hoe groot is Zijn goedertierenheid over ons?
+= Great (mighty) | Geweldig
+- Small | Klein
+- Uncertain | Onzeker
+? How long does the Lord's truth endure? | Hoe lang blijft de waarheid van de Heer?
+= Forever | In der eeuwigheid
+- For a year | Een jaar
+- Until evening | Tot de avond
+? How many verses does this psalm have? | Hoeveel verzen heeft deze psalm?
+= Two, the shortest psalm | Twee, de kortste psalm
+- Ten | Tien
+- Twenty | Twintig
+
+## 118
+? What is repeated at the beginning of this psalm? | Wat wordt aan het begin van deze psalm herhaald?
+= His loving kindness endures forever | Zijn goedertierenheid is in der eeuwigheid
+- How long, Lord? | Hoe lang, Heer?
+- Why have you forsaken me? | Waarom hebt Gij mij verlaten?
+? It is better to take refuge in the Lord than to trust in whom? | Het is beter tot de Heer toevlucht te nemen dan op wie te vertrouwen?
+= Man, and princes | De mens en prinsen
+- Angels | Engelen
+- Prophets | Profeten
+? What became the cornerstone? | Wat is tot een hoofd des hoeks geworden?
+= The stone the builders rejected | De steen die de bouwlieden verworpen hadden
+- The king's palace | Het paleis van de koning
+- The altar | Het altaar
+? What does the psalm say of this day? | Wat zegt de psalm van deze dag?
+= This is the day the Lord has made; let us rejoice | Dit is de dag die de Heer gemaakt heeft; laat ons op denzelven ons verheugen
+- This is a day of mourning | Dit is een dag van rouw
+- This day is cursed | Deze dag is vervloekt
+
+## 119
+? How can a young man keep his way pure? | Waarmee zal de jongeling zijn pad zuiver houden?
+= By keeping it according to God's word | Als hij dat houdt naar Gods woord
+- By great riches | Door grote rijkdom
+- By strong friends | Door sterke vrienden
+? Where has the psalmist hidden God's word? | Waar heeft de psalmist Gods rede verborgen?
+= In his heart, that he might not sin | In zijn hart, opdat hij niet zondigen zou
+- In a chest | In een kist
+- In the temple | In de tempel
+? What is God's word to his feet? | Wat is Gods woord voor zijn voet?
+= A lamp, and a light for his path | Een lamp, en een licht voor zijn pad
+- A heavy chain | Een zware keten
+- A stone | Een steen
+? Like what has the psalmist gone astray, as the psalm ends? | Gelijk wat heeft de psalmist gedwaald, aan het eind van de psalm?
+= A lost sheep | Een verloren schaap
+- A wandering star | Een dwalende ster
+- A wild donkey | Een wilde ezel
+
+## 120
+? From what does the psalmist ask to be delivered? | Waarvan vraagt de psalmist gered te worden?
+= Lying lips and a deceitful tongue | Valse lippen en een bedriegelijke tong
+- Wild beasts | Wilde dieren
+- Hunger | Honger
+? Where does he dwell as a stranger? | Waar woont hij als vreemdeling?
+= In Meshech and the tents of Kedar | In Mesech en de tenten van Kedar
+- In Jerusalem | In Jeruzalem
+- In Egypt | In Egypte
+? What does he say about himself? | Wat zegt hij over zichzelf?
+= He is for peace | Hij is vreedzaam
+- He is for war | Hij is voor de oorlog
+- He is rich | Hij is rijk
+? What are the others for when he speaks? | Waarvoor zijn de anderen als hij spreekt?
+= War | De oorlog
+- Peace | De vrede
+- Silence | De stilte
+
+## 121
+? To where does the psalmist lift up his eyes? | Waarheen heft de psalmist zijn ogen op?
+= The mountains (hills) | Naar de bergen
+- The sea | Naar de zee
+- The city | Naar de stad
+? From where does his help come? | Van waar komt zijn hulp?
+= From the Lord, who made heaven and earth | Van de Heer, die hemel en aarde gemaakt heeft
+- From the hills | Van de bergen
+- From his army | Van zijn leger
+? What will Israel's keeper not do? | Wat zal de Bewaarder Israëls niet doen?
+= Slumber or sleep | Sluimeren of slapen
+- Watch | Waken
+- Hear | Horen
+? What will not strike you by day? | Wat zal u des daags niet steken?
+= The sun | De zon
+- The rain | De regen
+- The wind | De wind
+
+## 122
+? What made the psalmist glad? | Waarover verblijdde de psalmist zich?
+= Being told, Let us go to the house of the Lord | Dat men zei: Wij zullen in het huis van de Heer gaan
+- A rich harvest | Een rijke oogst
+- A victory | Een overwinning
+? Where are our feet standing? | Waar staan onze voeten?
+= In your gates, O Jerusalem | In uw poorten, o Jeruzalem
+- At the river | Bij de rivier
+- In the field | In het veld
+? Which thrones are set there? | Welke stoelen zijn daar gezet?
+= The thrones of the house of David | De stoelen van het huis van David
+- The thrones of Pharaoh | De stoelen van Farao
+- The thrones of the priests | De stoelen der priesters
+? For what are we told to pray? | Waarom wordt ons gezegd te bidden?
+= The peace of Jerusalem | De vrede van Jeruzalem
+- Rain | Regen
+- Riches | Rijkdom
+
+## 123
+? To whom does the psalmist lift up his eyes? | Tot wie heft de psalmist zijn ogen op?
+= God, who sits in the heavens | God, die in de hemelen zit
+- The king | De koning
+- The mountains | De bergen
+? Like whose eyes are our eyes on the Lord? | Gelijk wiens ogen zijn onze ogen op de Heer?
+= Servants on their master's hand | Knechten op de hand hunner heren
+- Soldiers on the enemy | Soldaten op de vijand
+- Birds on the sky | Vogels op de hemel
+? What does he ask twice? | Wat vraagt hij tweemaal?
+= Have mercy on us | Zijt ons genadig
+- Give us bread | Geef ons brood
+- Destroy them | Verdelg hen
+? Of what is their soul exceedingly full? | Waarvan is hun ziel veel te zat?
+= Contempt and scorn | Verachting en spot
+- Food | Spijs
+- Joy | Vreugde
+
+## 124
+? What would have happened if the Lord had not been on our side? | Wat was er gebeurd als de Heer niet bij ons was geweest?
+= They would have swallowed us alive | Zij zouden ons levend verslonden hebben
+- Nothing | Niets
+- We would be kings | Wij zouden koningen zijn
+? Like what has our soul escaped? | Gelijk wat is onze ziel ontkomen?
+= A bird out of the fowler's snare | Een vogel uit de strik der vogelvangers
+- A fish from the net | Een vis uit het net
+- A lion from a pit | Een leeuw uit een kuil
+? What happened to the snare? | Wat gebeurde er met de strik?
+= It was broken | Hij is gebroken
+- It held fast | Hij hield stand
+- It was hidden | Hij werd verborgen
+? Where is our help? | Waarin is onze hulp?
+= In the name of the Lord | In de naam van de Heer
+- In our walls | In onze muren
+- In our horses | In onze paarden
+
+## 125
+? What are those who trust in the Lord like? | Waarop gelijken zij die op de Heer vertrouwen?
+= Mount Zion, which cannot be moved | De berg Sion, die niet wankelt
+- Sand | Zand
+- A leaf | Een blad
+? As mountains surround Jerusalem, who surrounds his people? | Zoals bergen rondom Jeruzalem zijn, wie is er rondom Zijn volk?
+= The Lord | De Heer
+- An army | Een leger
+- The kings | De koningen
+? What will not rest on the lot of the righteous? | Wat zal niet rusten op het lot der rechtvaardigen?
+= The scepter of wickedness | De scepter der goddeloosheid
+- The blessing of God | De zegen van God
+- The rain | De regen
+? What will be upon Israel? | Wat zal er over Israël zijn?
+= Peace | Vrede
+- War | Oorlog
+- Famine | Honger
+
+## 126
+? What were we like when the Lord brought back the captives of Zion? | Hoe waren wij toen de Heer de gevangenen van Sion wederbracht?
+= Like those who dream | Gelijk degenen die dromen
+- Like those who mourn | Gelijk degenen die rouwen
+- Like those who sleep | Gelijk degenen die slapen
+? What was our mouth filled with? | Waarmee werd onze mond vervuld?
+= Laughter | Lachen
+- Bread | Brood
+- Dust | Stof
+? What will those who sow in tears do? | Wat zullen zij doen die met tranen zaaien?
+= Reap with joy | Met gejuich maaien
+- Reap nothing | Niets maaien
+- Weep forever | Eeuwig wenen
+? What will he who goes out weeping bring back? | Wat zal hij die wenend heengaat terugbrengen?
+= His sheaves | Zijn schoven
+- His tears | Zijn tranen
+- Nothing | Niets
+
+## 127
+? What happens unless the Lord builds the house? | Wat gebeurt er als de Heer het huis niet bouwt?
+= Its builders labor in vain | Tevergeefs arbeiden deszelfs bouwlieden
+- It is built faster | Het wordt sneller gebouwd
+- It becomes a palace | Het wordt een paleis
+? What is called vain in this psalm? | Wat wordt in deze psalm tevergeefs genoemd?
+= Rising early and sitting up late | Vroeg opstaan en laat opblijven
+- Praying | Bidden
+- Resting on the Sabbath | Rusten op de sabbat
+? What are children? | Wat zijn kinderen?
+= A heritage of the Lord | Een erfdeel van de Heer
+- A burden | Een last
+- A danger | Een gevaar
+? Like what are the sons of one's youth? | Gelijk wat zijn de zonen der jeugd?
+= Arrows in the hand of a mighty man | Pijlen in de hand van een held
+- Stars in the sky | Sterren aan de hemel
+- Stones in a field | Stenen in een veld
+
+## 128
+? Who is blessed? | Wie is welgelukzalig?
+= Everyone who fears the Lord and walks in his ways | Een iegelijk die de Heer vreest, die in Zijn wegen wandelt
+- Everyone who is rich | Een iegelijk die rijk is
+- Everyone who is strong | Een iegelijk die sterk is
+? What will your wife be like? | Hoe zal uw huisvrouw zijn?
+= A fruitful vine | Een vruchtbare wijnstok
+- A tall cedar | Een hoge ceder
+- A strong wall | Een sterke muur
+? What will your children be like around your table? | Hoe zullen uw kinderen rondom uw tafel zijn?
+= Olive plants | Olijfplanten
+- Thorns | Doornen
+- Reeds | Rietstengels
+? Whom will you see? | Wie zult gij zien?
+= Your children's children | Uw kindskinderen
+- The king | De koning
+- An angel | Een engel
+
+## 129
+? Since when have enemies afflicted Israel? | Sinds wanneer hebben vijanden Israël benauwd?
+= From its youth | Van zijn jeugd af
+- Since last year | Sinds vorig jaar
+- Never | Nooit
+? What did the plowmen do? | Wat deden de ploegers?
+= Plowed on his back, making long furrows | Zij ploegden op zijn rug en trokken hun voren lang
+- Plowed his field | Zij ploegden zijn akker
+- Rested | Zij rustten
+? What did the righteous Lord cut? | Wat heeft de rechtvaardige Heer afgehouwen?
+= The cords of the wicked | De touwen der goddelozen
+- The trees | De bomen
+- The grain | Het koren
+? Like what should those who hate Zion be? | Gelijk wat moeten zij worden die Sion haten?
+= Grass on the housetops that withers | Gras op de daken, dat verdort
+- Strong oaks | Sterke eiken
+- Running water | Stromend water
+
+## 130
+? From where does the psalmist cry to the Lord? | Van waar roept de psalmist tot de Heer?
+= Out of the depths | Uit de diepten
+- From a mountain | Van een berg
+- From the temple roof | Van het dak van de tempel
+? If God marked iniquities, who could stand? | Als God de ongerechtigheden gadeslaat, wie zal bestaan?
+= No one | Niemand
+- The priests | De priesters
+- The righteous | De rechtvaardigen
+? What is with God, that he may be feared? | Wat is er bij God, opdat Hij gevreesd wordt?
+= Forgiveness | Vergeving
+- Anger | Toorn
+- Silence | Stilte
+? How does his soul wait for the Lord? | Hoe wacht zijn ziel op de Heer?
+= More than watchmen for the morning | Meer dan de wachters op de morgen
+- Less than for food | Minder dan op spijs
+- Not at all | Helemaal niet
+
+## 131
+? What does David say about his heart? | Wat zegt David over zijn hart?
+= It is not proud (haughty) | Het is niet verheven
+- It is broken | Het is gebroken
+- It is cold | Het is koud
+? Like what is his soul within him? | Gelijk wat is zijn ziel in hem?
+= A weaned child with its mother | Een gespeend kind bij zijn moeder
+- A roaring lion | Een brullende leeuw
+- A flying bird | Een vliegende vogel
+? In what has he not walked? | Waarin heeft hij niet gewandeld?
+= Things too great and too wonderful for him | Dingen hem te groot en te wonderlijk
+- The law | De wet
+- His father's ways | De wegen van zijn vader
+? What should Israel do? | Wat moet Israël doen?
+= Hope in the Lord forever | Op de Heer hopen tot in eeuwigheid
+- Fear the nations | De volken vrezen
+- Trust in Egypt | Op Egypte vertrouwen
+
+## 132
+? What did David swear he would not do until he found a place for the Lord? | Wat zwoer David niet te doen totdat hij een plaats voor de Heer gevonden had?
+= Give sleep to his eyes | Zijn ogen slaap geven
+- Eat bread | Brood eten
+- Go to war | Ten strijde trekken
+? Where did they hear of the ark? | Waar hoorden zij van de ark?
+= In Ephrathah | In Efratha
+- In Egypt | In Egypte
+- In Babylon | In Babel
+? What has the Lord chosen for his dwelling? | Wat heeft de Heer verkozen tot Zijn woonplaats?
+= Zion | Sion
+- Bethel | Bethel
+- Hebron | Hebron
+? What will God make to sprout for David? | Wat zal God voor David doen uitspruiten?
+= A horn | Een hoorn
+- A tree | Een boom
+- A river | Een rivier
+
+## 133
+? What is good and pleasant? | Wat is goed en liefelijk?
+= Brothers dwelling together in unity | Dat broeders ook samenwonen
+- A rich feast | Een rijke maaltijd
+- A strong army | Een sterk leger
+? To what is it compared? | Waarbij wordt het vergeleken?
+= Precious oil running down on Aaron's beard | Kostelijke olie die nederdaalt op de baard van Aäron
+- A cold stream | Een koude beek
+- Gold in a chest | Goud in een kist
+? Like which dew is it? | Gelijk welke dauw is het?
+= The dew of Hermon | De dauw van Hermon
+- The dew of Egypt | De dauw van Egypte
+- The dew of the sea | De dauw van de zee
+? What does the Lord command there? | Wat gebiedt de Heer daar?
+= The blessing, life forever | De zegen en het leven tot in der eeuwigheid
+- War | Oorlog
+- Silence | Stilte
+
+## 134
+? Whom does the psalm call to praise the Lord? | Wie roept de psalm op de Heer te loven?
+= All servants of the Lord who stand by night in his house | Alle knechten van de Heer die allen nacht in Zijn huis staan
+- The kings of the earth | De koningen der aarde
+- The animals | De dieren
+? Toward what should they lift up their hands? | Waarheen moeten zij hun handen opheffen?
+= The sanctuary | Naar het heiligdom
+- The sea | Naar de zee
+- The mountains | Naar de bergen
+? From where will the Lord bless you? | Van waar zal de Heer u zegenen?
+= Out of Zion | Uit Sion
+- Out of Egypt | Uit Egypte
+- Out of the sea | Uit de zee
+? What has the Lord made? | Wat heeft de Heer gemaakt?
+= Heaven and earth | De hemel en de aarde
+- Only the temple | Alleen de tempel
+- Only Israel | Alleen Israël
+
+## 135
+? Whom has the Lord chosen for himself? | Wie heeft de Heer Zich verkoren?
+= Jacob | Jakob
+- Esau | Ezau
+- Egypt | Egypte
+? Which two kings struck down by God are named? | Welke twee door God verslagen koningen worden genoemd?
+= Sihon and Og | Sihon en Og
+- Pharaoh and Nebuchadnezzar | Farao en Nebukadnezar
+- Saul and Agag | Saul en Agag
+? What did God strike in Egypt? | Wat sloeg God in Egypte?
+= The firstborn | De eerstgeborenen
+- The rivers | De rivieren
+- The temples | De tempels
+? What are the idols of the nations? | Wat zijn de afgoden der heidenen?
+= Silver and gold, the work of men's hands | Zilver en goud, een werk van mensenhanden
+- Wood from Lebanon | Hout van de Libanon
+- Stars of heaven | Sterren aan de hemel
+
+## 136
+? What refrain is repeated in every verse? | Welk refrein keert in elk vers terug?
+= His loving kindness endures forever | Zijn goedertierenheid is in der eeuwigheid
+- Blessed is the man | Welgelukzalig is de man
+- Hallelujah, amen | Hallelujah, amen
+? What did God divide apart? | Wat deelde God in delen?
+= The Red Sea | De Schelfzee
+- The Jordan | De Jordaan
+- The mountains | De bergen
+? Whom did God overthrow in the Red Sea? | Wie stortte God in de Schelfzee?
+= Pharaoh and his army | Farao met zijn heir
+- The Philistines | De Filistijnen
+- The Amorites | De Amorieten
+? What was made to rule by day? | Wat werd gemaakt tot heerschappij op de dag?
+= The sun | De zon
+- The moon | De maan
+- The stars | De sterren
+
+## 137
+? Where did the exiles sit and weep? | Waar zaten de ballingen en weenden zij?
+= By the rivers of Babylon | Aan de rivieren van Babel
+- By the Jordan | Aan de Jordaan
+- In the wilderness of Sinai | In de woestijn Sinaï
+? Where did they hang their harps? | Waaraan hingen zij hun harpen?
+= On the willows | Aan de wilgen
+- On the walls | Aan de muren
+- On the gates | Aan de poorten
+? What did they ask? | Wat vroegen zij?
+= How can we sing the Lord's song in a foreign land? | Hoe zouden wij een lied van de Heer zingen in een vreemd land?
+- Who will rebuild the temple? | Wie zal de tempel herbouwen?
+- When will the king return? | Wanneer keert de koning terug?
+? What may happen if the psalmist forgets Jerusalem? | Wat mag er gebeuren als de dichter Jeruzalem vergeet?
+= Let his right hand forget her skill | Dan vergete zijn rechterhand zichzelf
+- Let his house fall | Dan valle zijn huis
+- Let his name be blotted out | Dan worde zijn naam uitgedelgd
+
+## 138
+? With what does the psalmist give thanks? | Waarmee looft de dichter?
+= With his whole heart | Met zijn gehele hart
+- With half his heart | Met half zijn hart
+- With silence | Met zwijgen
+? Though the Lord is high, whom does he regard? | Hoewel de Heer hoog is, wie ziet Hij aan?
+= The lowly | De nederige
+- Only the proud | Alleen de hoogmoedige
+- Only kings | Alleen koningen
+? Whom does the Lord know from afar? | Wie kent de Heer van verre?
+= The proud | De verhevene
+- The angels | De engelen
+- The prophets | De profeten
+? What will the Lord fulfill for the psalmist? | Wat zal de Heer voor de dichter voleinden?
+= That which concerns him | Wat hem aangaat
+- The walls of Babylon | De muren van Babel
+- The ark | De ark
+
+## 139
+? What does the psalmist say God has done to him? | Wat heeft God volgens de dichter met hem gedaan?
+= Searched and known him | Hem doorgrond en gekend
+- Forgotten him | Hem vergeten
+- Cast him out | Hem verworpen
+? If he goes up to heaven or lies down in Sheol, who is there? | Als hij opvaart ten hemel of zich bedt in de hel, wie is daar?
+= God | God
+- No one | Niemand
+- His enemies | Zijn vijanden
+? Where was the psalmist knit together? | Waar heeft God de dichter bedekt?
+= In his mother's womb | In de buik van zijn moeder
+- In the temple | In de tempel
+- In the wilderness | In de woestijn
+? What does he ask at the end? | Wat vraagt hij aan het einde?
+= Search me, God, and know my heart | Doorgrond mij, o God, en ken mijn hart
+- Let me die in peace | Laat mij in vrede sterven
+- Give me riches | Geef mij rijkdom
+
+## 140
+? From whom does the psalmist ask to be delivered? | Van wie vraagt de dichter verlost te worden?
+= Evil men and violent men | De kwade mens en de man van geweld
+- His own brothers | Zijn eigen broers
+- The priests | De priesters
+? To what are the wicked's tongues compared? | Waarmee worden de tongen van de bozen vergeleken?
+= A serpent | Een slang
+- A sword of gold | Een gouden zwaard
+- A lamp | Een lamp
+? What is under their lips? | Wat is onder hun lippen?
+= Viper's poison | Addervergift
+- Honey | Honing
+- Fire from heaven | Vuur uit de hemel
+? What should fall upon the wicked? | Wat moet op de bozen vallen?
+= Burning coals | Vurige kolen
+- Manna | Manna
+- Gentle rain | Zachte regen
+
+## 141
+? Like what should the psalmist's prayer be set before God? | Als wat moet het gebed van de dichter voor God gesteld worden?
+= Incense | Reukwerk
+- Gold | Goud
+- Bread | Brood
+? The lifting up of his hands is like what? | Waarmee wordt het opheffen van zijn handen vergeleken?
+= The evening sacrifice | Het avondoffer
+- The morning star | De morgenster
+- A battle cry | Een strijdkreet
+? What does he ask God to set before his mouth? | Wat vraagt hij God voor zijn mond te zetten?
+= A watch | Een wacht
+- A seal of gold | Een gouden zegel
+- A cup | Een beker
+? How does he regard being struck by a righteous man? | Hoe beschouwt hij het geslagen worden door een rechtvaardige?
+= As a kindness | Als weldadigheid
+- As an insult | Als een belediging
+- As a curse | Als een vloek
+
+## 142
+? Where was David when he prayed this psalm? | Waar was David toen hij deze psalm bad?
+= In the cave | In de spelonk
+- In the palace | In het paleis
+- In the temple | In de tempel
+? What does he call the Lord? | Hoe noemt hij de Heer?
+= His refuge and his portion in the land of the living | Zijn toevlucht en zijn deel in het land der levenden
+- His king in Hebron | Zijn koning in Hebron
+- His shepherd by the sea | Zijn herder aan de zee
+? From where does he ask to be brought out? | Waaruit vraagt hij uitgeleid te worden?
+= Out of prison | Uit de gevangenis
+- Out of Egypt | Uit Egypte
+- Out of the sea | Uit de zee
+? What does he say about those who care for his soul? | Wat zegt hij over wie naar zijn ziel omziet?
+= No one cares for his soul | Niemand zorgt voor zijn ziel
+- Many priests care for him | Veel priesters zorgen voor hem
+- His brothers protect him | Zijn broers beschermen hem
+
+## 143
+? Who is righteous in God's sight? | Wie is rechtvaardig voor Gods aangezicht?
+= No one living | Niemand die leeft
+- Every priest | Elke priester
+- All of Israel | Heel Israël
+? What does the psalmist remember? | Waaraan gedenkt de dichter?
+= The days of old | De dagen van ouds
+- His riches | Zijn rijkdom
+- His victories | Zijn overwinningen
+? To what is his soul compared, thirsting for God? | Waarmee wordt zijn ziel vergeleken, dorstend naar God?
+= A thirsty land | Een dorstig land
+- A deep well | Een diepe put
+- A full river | Een volle rivier
+? What does he ask God's good Spirit to do? | Wat vraagt hij Gods goede Geest te doen?
+= Lead him in the land of uprightness | Hem te geleiden in een effen land
+- Destroy the temple | De tempel te verwoesten
+- Make him king | Hem koning te maken
+
+## 144
+? What does the Lord train for war? | Wat onderwijst de Heer ten strijde?
+= The psalmist's hands | De handen van de dichter
+- His horses | Zijn paarden
+- His chariots | Zijn wagens
+? What is man like? | Waaraan is de mens gelijk?
+= A breath, his days a passing shadow | De ijdelheid, zijn dagen een voorbijgaande schaduw
+- A mighty cedar | Een machtige ceder
+- A rock that stands forever | Een rots die eeuwig staat
+? With what does he sing a new song? | Waarmee zingt hij een nieuw lied?
+= A ten-stringed instrument | Een tiensnarig instrument
+- A trumpet only | Alleen een bazuin
+- Drums of war | Oorlogstrommels
+? Which people are called happy? | Welk volk wordt welgelukzalig genoemd?
+= The people whose God is the Lord | Het volk wiens God de Heer is
+- The people with many horses | Het volk met veel paarden
+- The people of Babylon | Het volk van Babel
+
+## 145
+? How is this psalm arranged in Hebrew? | Hoe is deze psalm in het Hebreeuws opgebouwd?
+= As an alphabetic acrostic | Als een alfabetisch gedicht (Aleph tot Thau)
+- As a dialogue | Als een tweegesprek
+- As a list of kings | Als een lijst van koningen
+? What is the Lord according to this psalm? | Wat is de Heer volgens deze psalm?
+= Gracious and merciful, slow to anger | Genadig en barmhartig, lankmoedig
+- Quick to anger | Snel toornig
+- Far from all | Ver van allen
+? Whose eyes wait for the Lord? | Wiens ogen wachten op de Heer?
+= The eyes of all | De ogen van allen
+- Only the eyes of the priests | Alleen de ogen van de priesters
+- Only the eyes of kings | Alleen de ogen van koningen
+? To whom is the Lord near? | Bij wie is de Heer nabij?
+= All who call on him in truth | Allen die Hem aanroepen in der waarheid
+- Only the rich | Alleen de rijken
+- Only those in Jerusalem | Alleen wie in Jeruzalem woont
+
+## 146
+? In whom should we not put our trust? | Op wie moeten wij niet vertrouwen?
+= Princes | Prinsen
+- The Lord | De Heer
+- The God of Jacob | De God van Jakob
+? Whom does the Lord free? | Wie maakt de Heer los?
+= The prisoners | De gevangenen
+- The proud | De hoogmoedigen
+- The idols | De afgoden
+? Whose eyes does the Lord open? | Wiens ogen opent de Heer?
+= The blind | Van de blinden
+- The kings | Van de koningen
+- The wicked | Van de goddelozen
+? Whom does the Lord uphold? | Wie houdt de Heer staande?
+= The fatherless and the widow | De wees en de weduwe
+- The wicked | De goddelozen
+- The idol makers | De beeldenmakers
+
+## 147
+? Whom does the Lord heal? | Wie geneest de Heer?
+= The broken in heart | De gebrokenen van hart
+- The proud | De hoogmoedigen
+- Only the priests | Alleen de priesters
+? What does the Lord count and name? | Wat telt en noemt de Heer?
+= The stars | De sterren
+- The grains of sand | De zandkorrels
+- The trees | De bomen
+? What does the Lord not delight in? | Waarin heeft de Heer geen lust?
+= The strength of the horse | De sterkte van het paard
+- Those who fear him | Wie Hem vrezen
+- Those who hope in his loving kindness | Wie op Zijn goedertierenheid hopen
+? How does the Lord give snow? | Hoe geeft de Heer sneeuw?
+= Like wool | Als wol
+- Like bread | Als brood
+- Like sand | Als zand
+
+## 148
+? Who are called to praise the Lord from the heavens? | Wie worden opgeroepen de Heer te loven uit de hemelen?
+= His angels, sun, moon and stars | Zijn engelen, zon, maan en sterren
+- Only the priests | Alleen de priesters
+- Only Israel | Alleen Israël
+? Why should they praise his name? | Waarom moeten zij Zijn Naam loven?
+= He commanded and they were created | Hij beval en zij werden geschapen
+- They made themselves | Zij maakten zichzelf
+- He fears them | Hij vreest hen
+? Which weather is called to praise him? | Welk weer wordt opgeroepen Hem te loven?
+= Hail, snow and stormy wind | Hagel, sneeuw en stormwind
+- Only sunshine | Alleen zonneschijn
+- None | Geen enkel
+? Who are called to praise among people? | Wie worden onder de mensen opgeroepen te loven?
+= Kings, young men, maidens, old men and children | Koningen, jongelingen, maagden, ouden en jongen
+- Only kings | Alleen koningen
+- Only the old | Alleen de ouden
+
+## 149
+? What should be sung to the Lord? | Wat moet de Heer gezongen worden?
+= A new song | Een nieuw lied
+- An old lament | Een oude klaagzang
+- A war chant | Een strijdlied
+? Where should his praise be sung? | Waar moet Zijn lof klinken?
+= In the assembly of the saints | In de gemeente van Zijn gunstgenoten
+- In the courts of Pharaoh | In de hoven van Farao
+- In the house of Baal | In het huis van Baäl
+? In whom does the Lord take pleasure? | In wie heeft de Heer welgevallen?
+= His people | Zijn volk
+- The proud | De hoogmoedigen
+- The idols | De afgoden
+? What is in the hands of his saints? | Wat is in de hand van Zijn gunstgenoten?
+= A two-edged sword | Een tweesnijdend zwaard
+- A shepherd's staff | Een herdersstaf
+- A golden cup | Een gouden beker
+
+## 150
+? Where should God be praised? | Waar moet God geloofd worden?
+= In his sanctuary | In Zijn heiligdom
+- Only at home | Alleen thuis
+- Only in Babylon | Alleen in Babel
+? With which instruments is God praised? | Met welke instrumenten wordt God geloofd?
+= Trumpet, harp, strings and cymbals | Bazuin, harp, snarenspel en cimbalen
+- None at all | Helemaal geen
+- Only the voice | Alleen de stem
+? Who should praise the Lord? | Wie moet de Heer loven?
+= Everything that has breath | Alles wat adem heeft
+- Only the priests | Alleen de priesters
+- Only the angels | Alleen de engelen
+? With what word does the psalm and the whole Psalter end? | Met welk woord eindigt de psalm en het hele psalmboek?
+= Hallelujah (Praise Yah) | Hallelujah
+- Amen | Amen
+- Selah | Sela
