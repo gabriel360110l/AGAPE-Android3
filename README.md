@@ -51,7 +51,8 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   from the Bible text (`data/quiz/QuizGenerator.kt`).
 - **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches: the Byzantine
   menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
-  Calendar, with a Byzantine icon where one is bundled and a quiet placeholder otherwise.
+  Calendar (a short English and Dutch summary for the first saint of every Coptic day and for every Roman saint),
+  with a Byzantine icon where one is bundled and a quiet placeholder otherwise.
 - **Prayers**: the Kyrie stays in Greek, Κύριε ἐλέησον, with its meaning shown once beside the 41× counter.
 - **Church** (Bible tab): the councils (story, decisions, canons and full texts), Church Fathers and current and
   historical patriarchs and popes.
@@ -77,6 +78,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
 | Saint and feast icons (73) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
 | Byzantine menologion: English texts | `tools/source/menologion_en.json` | Own content — review |
+| Coptic and Roman saint summaries (EN + NL) | `tools/source/saint_summaries_oo.tsv`, `saint_summaries_ca.tsv` | Own content — review; Coptic lines marked `?` are provisional |
 | Menologion names and Dutch texts, legacy prayers, provisional chapter guides (OT), Father notes | Legacy AGAPE app | Own content |
 | Council stories, Father biographies, Liturgy of the Hours hymns and prayers, plans, quizzes, verse notes | `app/src/main/assets/content/*.json` | Own content (hymns: Neale/Newman, public domain) |
 
@@ -93,6 +95,7 @@ python tools/build_councils.py    # council texts and canons
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
+python tools/build_saint_summaries.py  # adds the saint summaries to saints_oo.json and saints_ca.json (offline)
 python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --patterns updates matching only
 ```
 
@@ -111,7 +114,9 @@ remaining deuterocanonical books) still show the legacy guide, marked in the app
 - Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary and Church articles.
 - Write the remaining Old Testament chapter commentary (EN + NL): Jeremiah, Lamentations, Baruch, Daniel, the twelve
   minor prophets (Hosea to Malachi) and the remaining deuterocanonical books. Then have the written commentary,
-  the quizzes, the menologion texts, the council translations and the Dutch saint names reviewed.
+  the quizzes, the menologion texts, the council translations, the Dutch saint names and the saint summaries
+  reviewed: the 145 Coptic summaries marked `?` first, which say only what was safe without the full Synaxarium
+  text and should be checked and filled out against it.
 - Add icons for more saints (each checked for a public-domain or CC0 licence).
 - Add a release signing config and a Play Store listing (screenshots per style).
 
