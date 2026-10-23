@@ -109,6 +109,8 @@ data class CouncilTexts(
     val documents: List<CouncilDocument> = emptyList(),
     val canons: List<CanonText> = emptyList(),
     val source: String = "",
+    /** The documents are AGAPE's own provisional renderings of key passages, not an official translation. */
+    val provisional: Boolean = false,
 )
 
 @Serializable

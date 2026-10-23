@@ -80,6 +80,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Horologion: morning/evening rule, Compline, Canons, Communion, Typika | *Orthodox Daily Prayers* (St Tikhon's 1982, Project Gutenberg) via mdws-org/orthodoxprayers | Public domain |
 | Council creeds, definitions, anathemas and canons | NPNF II/14 (Percival, 1900) via newadvent.org | Public domain |
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
+| Key decrees of councils 9–21 (Lateran I to Vatican II), EN + NL | `tools/source/council_texts_later/` | Own provisional renderings from the Latin, marked as such in the app — check against the originals (Waterworth 1848 for Trent; vatican.va) |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
 | Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, the wisdom books (Job to Sirach), Isaiah, Ezekiel | `tools/source/commentary/*.md` | Own content — review |
 | Chapter quizzes, New Testament and major Old Testament books (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
@@ -102,7 +103,7 @@ Rebuild generated content from the repository root (downloads are cached in `too
 ```
 python tools/build_content.py     # Bible database, cross-references, Father quotes, books; --saints: menologion only
 python tools/build_prayers.py     # Agpeya and Horologion (Κύριε ἐλέησον via tools/kyrie.py)
-python tools/build_councils.py    # council texts and canons
+python tools/build_councils.py    # council texts and canons; --later merges only councils 9–21 (offline)
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
