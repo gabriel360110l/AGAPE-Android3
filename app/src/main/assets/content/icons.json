@@ -919,6 +919,1206 @@
   "fallback": false
  },
  {
+  "key": "gregory_nyssa",
+  "file": "icons/gregory_nyssa.jpg",
+  "match": [
+   "Gregory,? (of|Bishop of) Nyssa"
+  ],
+  "title": "St. Gregory of Nyssa",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:St._Gregory_of_Nyssa.jpg",
+  "fallback": false
+ },
+ {
+  "key": "paul_thebes",
+  "file": "icons/paul_thebes.jpg",
+  "match": [
+   "Paul of Thebes",
+   "Paul,? the First Hermit",
+   "Anba Paul,? the First Hermit"
+  ],
+  "title": "Saint-Paul-of-Thebes-Icon-Orthodox-Hermit-Ascetic-Prayer-7",
+  "artist": "Anonymous",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint-Paul-of-Thebes-Icon-Orthodox-Hermit-Ascetic-Prayer-7.jpg",
+  "fallback": false
+ },
+ {
+  "key": "euthymius",
+  "file": "icons/euthymius.jpg",
+  "match": [
+   "Euthymius the Great"
+  ],
+  "title": "Euthymius the Great (Tzanes)",
+  "artist": "Emmanuel Tzanes",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Euthymius_the_Great_(Tzanes).png",
+  "fallback": false
+ },
+ {
+  "key": "timothy",
+  "file": "icons/timothy.jpg",
+  "match": [
+   "Apostle Timothy",
+   "Timothy,? the Apostle",
+   "Timothy and Titus"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - June",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_June.jpg",
+  "fallback": false
+ },
+ {
+  "key": "tryphon",
+  "file": "icons/tryphon.jpg",
+  "match": [
+   "Tryphon"
+  ],
+  "title": "Icon of Saint Tryphon",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Icon_of_Saint_Tryphon.jpg",
+  "fallback": false
+ },
+ {
+  "key": "agatha",
+  "file": "icons/agatha.jpg",
+  "match": [
+   "\\bAgatha\\b"
+  ],
+  "title": "BabushinIcons1681",
+  "artist": "Бабухин Кузьма Яковлев",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:BabushinIcons1681.jpg",
+  "fallback": false
+ },
+ {
+  "key": "haralambos",
+  "file": "icons/haralambos.jpg",
+  "match": [
+   "Haralamb",
+   "Charalamp"
+  ],
+  "title": "Γεώργιος Καστροφύλακας - Άγιος Χαράλαμπος και σκηνές από τον βίο του 7715",
+  "artist": "Georgios Kastrofylakas",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:%CE%93%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82_%CE%9A%CE%B1%CF%83%CF%84%CF%81%CE%BF%CF%86%CF%8D%CE%BB%CE%B1%CE%BA%CE%B1%CF%82_-_%CE%86%CE%B3%CE%B9%CE%BF%CF%82_%CE%A7%CE%B1%CF%81%CE%AC%CE%BB%CE%B1%CE%BC%CF%80%CE%BF%CF%82_%CE%BA%CE%B1%CE%B9_%CF%83%CE%BA%CE%B7%CE%BD%CE%AD%CF%82_%CE%B1%CF%80%CF%8C_%CF%84%CE%BF%CE%BD_%CE%B2%CE%AF%CE%BF_%CF%84%CE%BF%CF%85_7715.jpg",
+  "fallback": false
+ },
+ {
+  "key": "blaise",
+  "file": "icons/blaise.jpg",
+  "match": [
+   "Blas(ius|e) of Sebaste",
+   "(St\\.?|Saint) Blase\\b"
+  ],
+  "title": "Modeste jerusalem and-blaise-sebaste 18c rus",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Modeste_jerusalem_and-blaise-sebaste_18c_rus.png",
+  "fallback": false
+ },
+ {
+  "key": "leo_great",
+  "file": "icons/leo_great.jpg",
+  "match": [
+   "Leo (of Rome|the Great)"
+  ],
+  "title": "0413-vector-orange-icon-target",
+  "artist": "LeoBlanchette",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:0413-vector-orange-icon-target.jpg",
+  "fallback": false
+ },
+ {
+  "key": "porphyrius_gaza",
+  "file": "icons/porphyrius_gaza.jpg",
+  "match": [
+   "Porphyrius of Gaza"
+  ],
+  "title": "Porphyry of Gaza Icon by Osip Chirikov",
+  "artist": "Osip Chirikov (? - 1903)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Porphyry_of_Gaza_Icon_by_Osip_Chirikov.jpg",
+  "fallback": false
+ },
+ {
+  "key": "john_cassian",
+  "file": "icons/john_cassian.jpg",
+  "match": [
+   "John Cassian"
+  ],
+  "title": "Иоанн Кассиан Римлянин",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BE%D0%B0%D0%BD%D0%BD_%D0%9A%D0%B0%D1%81%D1%81%D0%B8%D0%B0%D0%BD_%D0%A0%D0%B8%D0%BC%D0%BB%D1%8F%D0%BD%D0%B8%D0%BD.jpg",
+  "fallback": false
+ },
+ {
+  "key": "gerasimus",
+  "file": "icons/gerasimus.jpg",
+  "match": [
+   "Gerasimus of the Jordan"
+  ],
+  "title": "Saint Gerasimus of Jordan with a Lion. Icon. Russia, 16th century",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Gerasimus_of_Jordan_with_a_Lion._Icon._Russia,_16th_century.jpg",
+  "fallback": false
+ },
+ {
+  "key": "forty_martyrs",
+  "file": "icons/forty_martyrs.jpg",
+  "match": [
+   "Forty Martyrs of Sebaste"
+  ],
+  "title": "Forty Martyrs of Sebaste icon, Aleppo",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Forty_Martyrs_of_Sebaste_icon,_Aleppo.jpg",
+  "fallback": false
+ },
+ {
+  "key": "sophronius",
+  "file": "icons/sophronius.jpg",
+  "match": [
+   "Sophronius of Jerusalem"
+  ],
+  "title": "Fresco Icon of Saint Sophronios of Jerusalem 2",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Fresco_Icon_of_Saint_Sophronios_of_Jerusalem_2.jpg",
+  "fallback": false
+ },
+ {
+  "key": "gregory_dialogos",
+  "file": "icons/gregory_dialogos.jpg",
+  "match": [
+   "Gregory (Dialogos|the Great|the Dialogist)"
+  ],
+  "title": "0134Hb. Saints Basil the Great, John Chrysostom, and Gregory the Theologian",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:0134Hb._Saints_Basil_the_Great,_John_Chrysostom,_and_Gregory_the_Theologian.jpg",
+  "fallback": false
+ },
+ {
+  "key": "benedict",
+  "file": "icons/benedict.jpg",
+  "match": [
+   "Benedict of Nursia",
+   "(St\\.?|Saint) Benedict,? abbot"
+  ],
+  "title": "Benedict of Nursia",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Benedict_of_Nursia.jpg",
+  "fallback": false
+ },
+ {
+  "key": "alexius",
+  "file": "icons/alexius.jpg",
+  "match": [
+   "Alexius,? the man of God",
+   "Alexis,? the man of God"
+  ],
+  "title": "Alexius of Moscow (1904, priv.coll.)",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Alexius_of_Moscow_(1904,_priv.coll.).jpg",
+  "fallback": false
+ },
+ {
+  "key": "cyril_jerusalem",
+  "file": "icons/cyril_jerusalem.jpg",
+  "match": [
+   "Cyril of Jerusalem"
+  ],
+  "title": "Serbian Fresco Icon of Saint Cyril of Jerusalem 2",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Serbian_Fresco_Icon_of_Saint_Cyril_of_Jerusalem_2.jpg",
+  "fallback": false
+ },
+ {
+  "key": "antipas",
+  "file": "icons/antipas.jpg",
+  "match": [
+   "Antipas"
+  ],
+  "title": "St Antipas Icon Sinai 13th century",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:St_Antipas_Icon_Sinai_13th_century.jpg",
+  "fallback": false
+ },
+ {
+  "key": "jeremiah",
+  "file": "icons/jeremiah.jpg",
+  "match": [
+   "Prophet Jeremiah",
+   "Jeremiah,? the Prophet"
+  ],
+  "title": "0170Hb. Prophet Jeremiah, 2nd half of the 18th century",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:0170Hb._Prophet_Jeremiah,_2nd_half_of_the_18th_century.jpg",
+  "fallback": false
+ },
+ {
+  "key": "job",
+  "file": "icons/job.jpg",
+  "match": [
+   "Job the Long-suffering",
+   "Righteous Job\\b"
+  ],
+  "title": "Иов Многострадальный. Чтец",
+  "artist": "RUSSIAN (MSTERA)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BE%D0%B2_%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9._%D0%A7%D1%82%D0%B5%D1%86.jpg",
+  "fallback": false
+ },
+ {
+  "key": "simon_zealot",
+  "file": "icons/simon_zealot.jpg",
+  "match": [
+   "Simon the (Zealot|Canaanite)",
+   "Simon and (Saint )?Jude"
+  ],
+  "title": "Simon the Zealot - Apostle",
+  "artist": "Unknown Russian Orthodox church icon painter from 1720",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Simon_the_Zealot_-_Apostle.jpeg",
+  "fallback": false
+ },
+ {
+  "key": "jude",
+  "file": "icons/jude.jpg",
+  "match": [
+   "Apostle Jude",
+   "Jude,? (the )?(Apostle|brother of)"
+  ],
+  "title": "Icon of Apostle Jude Thaddeus, Saint John the Forerunner, Jerusalem",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Icon_of_Apostle_Jude_Thaddeus,_Saint_John_the_Forerunner,_Jerusalem.jpg",
+  "fallback": false
+ },
+ {
+  "key": "epiphanius",
+  "file": "icons/epiphanius.jpg",
+  "match": [
+   "Epiphanius of (Cyprus|Salamis)"
+  ],
+  "title": "Жития Святых (1903-1911) - икона 09122 Епифаний",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:%D0%96%D0%B8%D1%82%D0%B8%D1%8F_%D0%A1%D0%B2%D1%8F%D1%82%D1%8B%D1%85_(1903-1911)_-_%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0_09122_%D0%95%D0%BF%D0%B8%D1%84%D0%B0%D0%BD%D0%B8%D0%B9.png",
+  "fallback": false
+ },
+ {
+  "key": "justin",
+  "file": "icons/justin.jpg",
+  "match": [
+   "Justin (the Philosopher|Martyr)"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - June - 01 Justin Martyr",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_June_-_01_Justin_Martyr.jpg",
+  "fallback": false
+ },
+ {
+  "key": "onuphrius",
+  "file": "icons/onuphrius.jpg",
+  "match": [
+   "Onuphrius",
+   "Abu-Nofer"
+  ],
+  "title": "Saint Onuphrius Emmanuel Tzanes",
+  "artist": "Emmanuel Tzanes",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Onuphrius_Emmanuel_Tzanes.png",
+  "fallback": false
+ },
+ {
+  "key": "elisha",
+  "file": "icons/elisha.jpg",
+  "match": [
+   "Prophet Elisha",
+   "Elisha,? the Prophet"
+  ],
+  "title": "0169Hb. Prophet Elisha, 2nd half of the 19th century",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:0169Hb._Prophet_Elisha,_2nd_half_of_the_19th_century.jpg",
+  "fallback": false
+ },
+ {
+  "key": "amos",
+  "file": "icons/amos.jpg",
+  "match": [
+   "Prophet Amos"
+  ],
+  "title": "Amos-prophet",
+  "artist": "18 cen. icon painter",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Amos-prophet.jpg",
+  "fallback": false
+ },
+ {
+  "key": "andrew_crete",
+  "file": "icons/andrew_crete.jpg",
+  "match": [
+   "Andrew of Crete"
+  ],
+  "title": "Andrew of Crete",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Andrew_of_Crete.jpg",
+  "fallback": false
+ },
+ {
+  "key": "athanasius_athos",
+  "file": "icons/athanasius_athos.jpg",
+  "match": [
+   "Athanasius (of Athos|the Athonite)"
+  ],
+  "title": "Saints Athanasios of Athos, Varlaam, and Joasaph. Icon. Novgorod. 24 x 19. From Saint Sophia Cathedral. Novgorod Museum",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saints_Athanasios_of_Athos,_Varlaam,_and_Joasaph._Icon._Novgorod._24_x_19._From_Saint_Sophia_Cathedral._Novgorod_Museum.jpg",
+  "fallback": false
+ },
+ {
+  "key": "sisoes",
+  "file": "icons/sisoes.jpg",
+  "match": [
+   "Sisoes"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - July",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_July.jpg",
+  "fallback": false
+ },
+ {
+  "key": "procopius",
+  "file": "icons/procopius.jpg",
+  "match": [
+   "Procopius of Caesarea",
+   "Great[- ]?martyr Procopius"
+  ],
+  "title": "St Procopius Icon Sinai 13th century",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:St_Procopius_Icon_Sinai_13th_century.jpg",
+  "fallback": false
+ },
+ {
+  "key": "vladimir",
+  "file": "icons/vladimir.jpg",
+  "match": [
+   "Vladimir,? equal to the apostles",
+   "Vladimir the Great"
+  ],
+  "title": "Russian Icon of Saints Vladimir, Boris, and Gleb with Scenes",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Russian_Icon_of_Saints_Vladimir,_Boris,_and_Gleb_with_Scenes.jpg",
+  "fallback": false
+ },
+ {
+  "key": "seven_sleepers",
+  "file": "icons/seven_sleepers.jpg",
+  "match": [
+   "Seven Sleepers"
+  ],
+  "title": "Russian Icon of the Seven Sleepers of Ephesos",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Russian_Icon_of_the_Seven_Sleepers_of_Ephesos.jpg",
+  "fallback": false
+ },
+ {
+  "key": "matthias",
+  "file": "icons/matthias.jpg",
+  "match": [
+   "Matthias"
+  ],
+  "title": "Apostel Matthias met bijl in omlijsting met architectuur ornamenten S. Matthias (titel op object) SS. Apostolorum et Evangelistorum Icones (serietitel), RP-P-1904-224",
+  "artist": "Rijksmuseum",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Apostel_Matthias_met_bijl_in_omlijsting_met_architectuur_ornamenten_S._Matthias_(titel_op_object)_SS._Apostolorum_et_Evangelistorum_Icones_(serietitel),_RP-P-1904-224.jpg",
+  "fallback": false
+ },
+ {
+  "key": "lawrence",
+  "file": "icons/lawrence.jpg",
+  "match": [
+   "Laurentius of Rome",
+   "(St\\.?|Saint) Lawrence,? deacon",
+   "Lawrence of Rome"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - August",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_August.jpg",
+  "fallback": false
+ },
+ {
+  "key": "mandylion",
+  "file": "icons/mandylion.jpg",
+  "match": [
+   "Image Not Made by Hands",
+   "Mandylion"
+  ],
+  "title": "Спас Нерукотворный, деталь- оборот (Прославление креста.) - Google Art Project",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BF%D0%B0%D1%81_%D0%9D%D0%B5%D1%80%D1%83%D0%BA%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%BD%D1%8B%D0%B9,_%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D1%8C-_%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%82_(%D0%9F%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0.)_-_Google_Art_Project.jpg",
+  "fallback": false
+ },
+ {
+  "key": "samuel",
+  "file": "icons/samuel.jpg",
+  "match": [
+   "Prophet Samuel\\b"
+  ],
+  "title": "Prophet Samuel, Russian Icon, private gallery, London",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Prophet_Samuel,_Russian_Icon,_private_gallery,_London.jpg",
+  "fallback": false
+ },
+ {
+  "key": "poemen",
+  "file": "icons/poemen.jpg",
+  "match": [
+   "Poemen",
+   "Poemin"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - August",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_August.jpg",
+  "fallback": false
+ },
+ {
+  "key": "mamas",
+  "file": "icons/mamas.jpg",
+  "match": [
+   "Mamas of Caesarea",
+   "(St\\.?|Saint) Mamas\\b"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - September",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_September.jpg",
+  "fallback": false
+ },
+ {
+  "key": "zechariah",
+  "file": "icons/zechariah.jpg",
+  "match": [
+   "Prophet Zechariah"
+  ],
+  "title": "Пророк Захария (Кижи)",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8F_(%D0%9A%D0%B8%D0%B6%D0%B8).jpg",
+  "fallback": false
+ },
+ {
+  "key": "sophia_daughters",
+  "file": "icons/sophia_daughters.jpg",
+  "match": [
+   "Sophia,? Faith,? Hope",
+   "Pistis,? Helpis,? Agape"
+  ],
+  "title": "Saint Sophia The Wisdom of God - Google Art Project",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_The_Wisdom_of_God_-_Google_Art_Project.jpg",
+  "fallback": false
+ },
+ {
+  "key": "gregory_illuminator",
+  "file": "icons/gregory_illuminator.jpg",
+  "match": [
+   "Gregory the (Enlightener|Illuminator)",
+   "Gregory,? Patriarch of the Armenians"
+  ],
+  "title": "Hymnal, St. Gregory the Illuminator, Walters Manuscript W.547, fol. 81v",
+  "artist": "Walters Art Museum Illuminated Manuscripts",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Hymnal,_St._Gregory_the_Illuminator,_Walters_Manuscript_W.547,_fol._81v.jpg",
+  "fallback": false
+ },
+ {
+  "key": "cyprian_justina",
+  "file": "icons/cyprian_justina.jpg",
+  "match": [
+   "Cyprian(us)? and Justina"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - October",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_October.jpg",
+  "fallback": false
+ },
+ {
+  "key": "dionysius_areopagite",
+  "file": "icons/dionysius_areopagite.jpg",
+  "match": [
+   "Dionysius the Areopagite"
+  ],
+  "title": "Emmanuel Tzanes - Dionysius the Areopagite - NG.M.01774 - National Museum of Art, Architecture and Design",
+  "artist": "Emmanuel Tzanes",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Emmanuel_Tzanes_-_Dionysius_the_Areopagite_-_NG.M.01774_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+  "fallback": false
+ },
+ {
+  "key": "longinus",
+  "file": "icons/longinus.jpg",
+  "match": [
+   "Longinus,? the (Centurion|Soldier)",
+   "Head of St\\.? Longinus"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - October",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_October.jpg",
+  "fallback": false
+ },
+ {
+  "key": "hosea",
+  "file": "icons/hosea.jpg",
+  "match": [
+   "Prophet Hosea"
+  ],
+  "title": "Hosea",
+  "artist": "18 century icon painter",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Hosea.jpg",
+  "fallback": false
+ },
+ {
+  "key": "joel",
+  "file": "icons/joel.jpg",
+  "match": [
+   "Prophet Joel"
+  ],
+  "title": "Пророк Иоиль, prophet Joel",
+  "artist": "PravoslavnyChristianin",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%98%D0%BE%D0%B8%D0%BB%D1%8C,_prophet_Joel.jpg",
+  "fallback": false
+ },
+ {
+  "key": "obadiah",
+  "file": "icons/obadiah.jpg",
+  "match": [
+   "Prophet Obadiah",
+   "Obadiah,? the Prophet"
+  ],
+  "title": "Obadiah (Овдий)",
+  "artist": "18 century icon painter",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Obadiah_(%D0%9E%D0%B2%D0%B4%D0%B8%D0%B9).jpg",
+  "fallback": false
+ },
+ {
+  "key": "jonah",
+  "file": "icons/jonah.jpg",
+  "match": [
+   "Prophet Jonah",
+   "Jonah,? the (Great )?Prophet"
+  ],
+  "title": "II ProphetJonah",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:II_ProphetJonah.jpg",
+  "fallback": false
+ },
+ {
+  "key": "nahum",
+  "file": "icons/nahum.jpg",
+  "match": [
+   "Prophet Nahum",
+   "Nahum,? the Prophet"
+  ],
+  "title": "Nahum-prophet",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Nahum-prophet.jpg",
+  "fallback": false
+ },
+ {
+  "key": "habakkuk",
+  "file": "icons/habakkuk.jpg",
+  "match": [
+   "Prophet Habakkuk"
+  ],
+  "title": "Prophet Habakkuk Пророк Аввакум",
+  "artist": "PravoslavnyChristianin",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Prophet_Habakkuk_%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%90%D0%B2%D0%B2%D0%B0%D0%BA%D1%83%D0%BC.jpg",
+  "fallback": false
+ },
+ {
+  "key": "zephaniah",
+  "file": "icons/zephaniah.jpg",
+  "match": [
+   "Prophet Zephaniah"
+  ],
+  "title": "Zephaniah from Yaroslavl (18 c, priv.coll)",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Zephaniah_from_Yaroslavl_(18_c,_priv.coll).jpg",
+  "fallback": false
+ },
+ {
+  "key": "haggai",
+  "file": "icons/haggai.jpg",
+  "match": [
+   "Prophet Haggai",
+   "Haggai,? the Prophet"
+  ],
+  "title": "Haggai-prophet",
+  "artist": "18 century icon painter",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Haggai-prophet.jpg",
+  "fallback": false
+ },
+ {
+  "key": "malachi",
+  "file": "icons/malachi.jpg",
+  "match": [
+   "Prophet Malachi"
+  ],
+  "title": "Malachi",
+  "artist": "18 century icon painter",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Malachi.jpg",
+  "fallback": false
+ },
+ {
+  "key": "daniel",
+  "file": "icons/daniel.jpg",
+  "match": [
+   "Prophet Daniel",
+   "Three (Holy )?Youths"
+  ],
+  "title": "Russian Icon of Prophet Daniel in the lions' den",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Russian_Icon_of_Prophet_Daniel_in_the_lions%27_den.jpg",
+  "fallback": false
+ },
+ {
+  "key": "david",
+  "file": "icons/david.jpg",
+  "match": [
+   "David,? the Prophet and King",
+   "Prophet(-| )King David",
+   "King David\\b"
+  ],
+  "title": "Novgorod School - King David - NG.M.01771 - National Museum of Art, Architecture and Design",
+  "artist": "School of Novgorod school",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Novgorod_School_-_King_David_-_NG.M.01771_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+  "fallback": false
+ },
+ {
+  "key": "john_rila",
+  "file": "icons/john_rila.jpg",
+  "match": [
+   "John of Rila"
+  ],
+  "title": "Saint John of Rila Icon, Odessa",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_John_of_Rila_Icon,_Odessa.jpg",
+  "fallback": false
+ },
+ {
+  "key": "artemius",
+  "file": "icons/artemius.jpg",
+  "match": [
+   "Artemius of Antioch",
+   "Great[- ]?martyr Artemius"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - October",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_October.jpg",
+  "fallback": false
+ },
+ {
+  "key": "hilarion",
+  "file": "icons/hilarion.jpg",
+  "match": [
+   "Hilarion the Great",
+   "Abba Hilarion"
+  ],
+  "title": "Saints Joasaph and Hilarion Icon. Trinity Lavra of Saint Sergiy",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saints_Joasaph_and_Hilarion_Icon._Trinity_Lavra_of_Saint_Sergiy.jpg",
+  "fallback": false
+ },
+ {
+  "key": "john_merciful",
+  "file": "icons/john_merciful.jpg",
+  "match": [
+   "John the Merciful",
+   "John the Almsgiver"
+  ],
+  "title": "Kirill Ulanov. John the Merciful. 1704",
+  "artist": "Kirill Ulanov",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Kirill_Ulanov._John_the_Merciful._1704.jpg",
+  "fallback": false
+ },
+ {
+  "key": "gregory_wonderworker",
+  "file": "icons/gregory_wonderworker.jpg",
+  "match": [
+   "Gregory the (Wonderworker|Thaumaturg)",
+   "Gregory Thaumaturgus"
+  ],
+  "title": "Gregory Thaumaturgus",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Gregory_Thaumaturgus.jpg",
+  "fallback": false
+ },
+ {
+  "key": "clement_rome",
+  "file": "icons/clement_rome.jpg",
+  "match": [
+   "Clement (of Rome|I\\b)",
+   "Clemens of Rome"
+  ],
+  "title": "PapstClemensII",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:PapstClemensII.jpg",
+  "fallback": false
+ },
+ {
+  "key": "peter_alexandria",
+  "file": "icons/peter_alexandria.jpg",
+  "match": [
+   "Peter of Alexandria",
+   "Peter,? (the )?Seal of the Martyrs"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - June",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_June.jpg",
+  "fallback": false
+ },
+ {
+  "key": "ambrose",
+  "file": "icons/ambrose.jpg",
+  "match": [
+   "Ambrose(,? (of Milan|bishop))?\\b"
+  ],
+  "title": "Greek Icon of Saint Ambrose of Milan 1",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Greek_Icon_of_Saint_Ambrose_of_Milan_1.jpg",
+  "fallback": false
+ },
+ {
+  "key": "sebastian",
+  "file": "icons/sebastian.jpg",
+  "match": [
+   "Sebastian(,? martyr| of Rome)"
+  ],
+  "title": "Sebastian by M.Dikarev (Muz.ist.relig)",
+  "artist": "Mikhail Ivanovich Dikarev",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Sebastian_by_M.Dikarev_(Muz.ist.relig).jpg",
+  "fallback": false
+ },
+ {
+  "key": "juliana",
+  "file": "icons/juliana.jpg",
+  "match": [
+   "Juliana (of Nicomedia|the Martyr)"
+  ],
+  "title": "Juliana of Nicomedia",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Juliana_of_Nicomedia.jpg",
+  "fallback": false
+ },
+ {
+  "key": "anastasia",
+  "file": "icons/anastasia.jpg",
+  "match": [
+   "Anastasia,? (deliverer|of Rome|the Great)"
+  ],
+  "title": "Saint Theonas I, metropolitan of Thessaloniki and Anastasia the Healer. icon in St Anastasia's monastery, 1836",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Theonas_I,_metropolitan_of_Thessaloniki_and_Anastasia_the_Healer._icon_in_St_Anastasia%27s_monastery,_1836.jpg",
+  "fallback": false
+ },
+ {
+  "key": "holy_innocents",
+  "file": "icons/holy_innocents.jpg",
+  "match": [
+   "Holy Innocents",
+   "children of Bethlehem",
+   "Slain Children of Bethlehem"
+  ],
+  "title": "0657Ha. Hermitage Museum (Hall 143). Icon of the Nativity of Christ",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:0657Ha._Hermitage_Museum_(Hall_143)._Icon_of_the_Nativity_of_Christ.jpg",
+  "fallback": false
+ },
+ {
+  "key": "xenia",
+  "file": "icons/xenia.jpg",
+  "match": [
+   "Xenia of (St\\.? |Saint )?Petersburg"
+  ],
+  "title": "Ksenia of petersbourg",
+  "artist": "unknown Orthodox Christian painter",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Ksenia_of_petersbourg.jpeg",
+  "fallback": false
+ },
+ {
+  "key": "tatiana",
+  "file": "icons/tatiana.jpg",
+  "match": [
+   "Tatiana"
+  ],
+  "title": "Tatiana of Rome",
+  "artist": "Anonymous",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Tatiana_of_Rome.jpg",
+  "fallback": false
+ },
+ {
+  "key": "sylvester",
+  "file": "icons/sylvester.jpg",
+  "match": [
+   "Sylvester"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - January",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_January.jpg",
+  "fallback": false
+ },
+ {
+  "key": "irenaeus",
+  "file": "icons/irenaeus.jpg",
+  "match": [
+   "Irenaeus"
+  ],
+  "title": "Lyon 2e - Chapelle Saint Irénée (UCLy) (04)",
+  "artist": "Romainbehar",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lyon_2e_-_Chapelle_Saint_Ir%C3%A9n%C3%A9e_(UCLy)_(04).jpg",
+  "fallback": false
+ },
+ {
+  "key": "joseph",
+  "file": "icons/joseph.jpg",
+  "match": [
+   "Joseph the (Worker|Betrothed)",
+   "(St\\.?|Saint) Joseph,? (Spouse|husband)",
+   "^Saint Joseph$"
+  ],
+  "title": "Icon Fresco of Saint Joseph of Arimathea before Pilate",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Icon_Fresco_of_Saint_Joseph_of_Arimathea_before_Pilate.jpg",
+  "fallback": false
+ },
+ {
+  "key": "thomas_aquinas",
+  "file": "icons/thomas_aquinas.jpg",
+  "match": [
+   "Aquinas"
+  ],
+  "title": "Wyspiański - Święty Tomasz z Akwinu - 1899 - MNK III-r.a-13017",
+  "artist": "Stanisław Wyspiański",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Wyspia%C5%84ski_-_%C5%9Awi%C4%99ty_Tomasz_z_Akwinu_-_1899_-_MNK_III-r.a-13017.jpg",
+  "fallback": false
+ },
+ {
+  "key": "francis_assisi",
+  "file": "icons/francis_assisi.jpg",
+  "match": [
+   "Francis of Assisi"
+  ],
+  "title": "Cimabue - Madonna Enthroned with the Child, St Francis and four Angels (detail) - WGA04921",
+  "artist": "Cimabue",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Cimabue_-_Madonna_Enthroned_with_the_Child,_St_Francis_and_four_Angels_(detail)_-_WGA04921.jpg",
+  "fallback": false
+ },
+ {
+  "key": "dominic",
+  "file": "icons/dominic.jpg",
+  "match": [
+   "(St\\.?|Saint) Dominic,? priest",
+   "Dominic de Guzm"
+  ],
+  "title": "Fra Angelico - Saint Dominic Adoring the Crucifixion - WGA00562",
+  "artist": "Fra Angelico",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Saint_Dominic_Adoring_the_Crucifixion_-_WGA00562.jpg",
+  "fallback": false
+ },
+ {
+  "key": "clare",
+  "file": "icons/clare.jpg",
+  "match": [
+   "(St\\.?|Saint) Clare,? virgin",
+   "Clare of Assisi"
+  ],
+  "title": "Roundel with Saint Jodocus and St. Clare of Assisi MET cdi32-24-31",
+  "artist": "anonymous",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Roundel_with_Saint_Jodocus_and_St._Clare_of_Assisi_MET_cdi32-24-31.jpg",
+  "fallback": false
+ },
+ {
+  "key": "augustine",
+  "file": "icons/augustine.jpg",
+  "match": [
+   "Augustine of Hippo",
+   "Augustine,? bishop and doctor"
+  ],
+  "title": "Augustine of Hippo Sandro Botticelli",
+  "artist": "Sandro Botticelli",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Augustine_of_Hippo_Sandro_Botticelli.jpg",
+  "fallback": false
+ },
+ {
+  "key": "jerome",
+  "file": "icons/jerome.jpg",
+  "match": [
+   "Jerome(?! Emiliani)"
+  ],
+  "title": "Venice Saint Jerome",
+  "artist": "Unidentified painter",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Venice_Saint_Jerome.jpg",
+  "fallback": false
+ },
+ {
+  "key": "scholastica",
+  "file": "icons/scholastica.jpg",
+  "match": [
+   "Scholastica"
+  ],
+  "title": "Liesborner Altar (6) (cropped)",
+  "artist": "Meister von Liesborn",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Liesborner_Altar_(6)_(cropped).JPG",
+  "fallback": false
+ },
+ {
+  "key": "agnes",
+  "file": "icons/agnes.jpg",
+  "match": [
+   "\\bAgnes\\b"
+  ],
+  "title": "Sancta Agnes Zenonis",
+  "artist": "Luciano Tronati",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Sancta_Agnes_Zenonis.jpg",
+  "fallback": false
+ },
+ {
+  "key": "cecilia",
+  "file": "icons/cecilia.jpg",
+  "match": [
+   "Cecilia"
+  ],
+  "title": "Saint Cecilia, ca. 1640s, SN134",
+  "artist": "Artemisia Gentileschi",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Cecilia,_ca._1640s,_SN134.jpg",
+  "fallback": false
+ },
+ {
+  "key": "lucy",
+  "file": "icons/lucy.jpg",
+  "match": [
+   "\\bLucy\\b"
+  ],
+  "title": "Master of the Legend of Saint Lucy - Virgin and Child in a Landscape - 1955.942 - Clark Art Institute",
+  "artist": "Master of the Legend of Saint Lucy",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Master_of_the_Legend_of_Saint_Lucy_-_Virgin_and_Child_in_a_Landscape_-_1955.942_-_Clark_Art_Institute.jpg",
+  "fallback": false
+ },
+ {
+  "key": "anthony_padua",
+  "file": "icons/anthony_padua.jpg",
+  "match": [
+   "Anthony of Padua"
+  ],
+  "title": "Saint Anthony of Padua MET SF Maso",
+  "artist": "Maso di Banco",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Anthony_of_Padua_MET_SF_Maso.jpg",
+  "fallback": false
+ },
+ {
+  "key": "bernard",
+  "file": "icons/bernard.jpg",
+  "match": [
+   "Bernard of Clairvaux"
+  ],
+  "title": "Saint Bernard of Clairvaux MET LC-1975 1 070b-001",
+  "artist": "Workshop of Filippo Lippi",
+  "licence": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Bernard_of_Clairvaux_MET_LC-1975_1_070b-001.jpg",
+  "fallback": false
+ },
+ {
+  "key": "catherine_siena",
+  "file": "icons/catherine_siena.jpg",
+  "match": [
+   "Catherine of Siena"
+  ],
+  "title": "Giovanni di Paolo The Mystic Marriage of Saint Catherine of Siena",
+  "artist": "Giovanni di Paolo",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Giovanni_di_Paolo_The_Mystic_Marriage_of_Saint_Catherine_of_Siena.jpg",
+  "fallback": false
+ },
+ {
+  "key": "martin_tours",
+  "file": "icons/martin_tours.jpg",
+  "match": [
+   "Martin(us)?( \\(Martin\\))?,? (of|Bishop of) Tours"
+  ],
+  "title": "St. Martin of Tours",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:St._Martin_of_Tours.jpg",
+  "fallback": false
+ },
+ {
+  "key": "patrick",
+  "file": "icons/patrick.jpg",
+  "match": [
+   "Patrick,? bishop",
+   "Patrick of Ireland",
+   "Patrick, Enlightener"
+  ],
+  "title": "Saint Grégoire et la foule, 1569",
+  "artist": "Vardan of Bales",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Saint_Gr%C3%A9goire_et_la_foule,_1569.jpg",
+  "fallback": false
+ },
+ {
+  "key": "teresa_avila",
+  "file": "icons/teresa_avila.jpg",
+  "match": [
+   "Teresa of (Jesus|Avila)"
+  ],
+  "title": "Santa Teresa de Jesús, de Francisco de Zurbarán (Sacristía mayor de la catedral de Sevilla)",
+  "artist": "Francisco de Zurbarán",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Santa_Teresa_de_Jes%C3%BAs,_de_Francisco_de_Zurbar%C3%A1n_(Sacrist%C3%ADa_mayor_de_la_catedral_de_Sevilla).jpg",
+  "fallback": false
+ },
+ {
+  "key": "ignatius_loyola",
+  "file": "icons/ignatius_loyola.jpg",
+  "match": [
+   "Ignatius of Loyola"
+  ],
+  "title": "St Ignatius of Loyola (1491-1556) Founder of the Jesuits",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:St_Ignatius_of_Loyola_(1491-1556)_Founder_of_the_Jesuits.jpg",
+  "fallback": false
+ },
+ {
+  "key": "francis_xavier",
+  "file": "icons/francis_xavier.jpg",
+  "match": [
+   "Francis Xavier"
+  ],
+  "title": "Francisco Mura - Saint Francis Xavier - Santa Bárbara, Madrid",
+  "artist": "Marsupium",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Francisco_Mura_-_Saint_Francis_Xavier_-_Santa_B%C3%A1rbara,_Madrid.jpg",
+  "fallback": false
+ },
+ {
+  "key": "barnabas",
+  "file": "icons/barnabas.jpg",
+  "match": [
+   "Barnabas"
+  ],
+  "title": "Menaion icon (17 c., TsAK) - June",
+  "artist": "Anonymous Russian icon painter (before 1917)",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_June.jpg",
+  "fallback": false
+ },
+ {
+  "key": "martha",
+  "file": "icons/martha.jpg",
+  "match": [
+   "(St\\.?|Saint) Martha\\b(?! of Egypt)",
+   "Martha (of Bethany|and Mary)"
+  ],
+  "title": "Francesco Signorelli - Christ and Saint Martha - RES.19.134 - Museum of Fine Arts",
+  "artist": "Francesco Signorelli",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Francesco_Signorelli_-_Christ_and_Saint_Martha_-_RES.19.134_-_Museum_of_Fine_Arts.jpg",
+  "fallback": false
+ },
+ {
+  "key": "monica",
+  "file": "icons/monica.jpg",
+  "match": [
+   "\\bMonica\\b"
+  ],
+  "title": "Zanobi Machiavelli (c.1418-1479) - Saint Bartholomew and Saint Monica - NG586.3 - National Gallery",
+  "artist": "Zanobi Machiavelli",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Zanobi_Machiavelli_(c.1418-1479)_-_Saint_Bartholomew_and_Saint_Monica_-_NG586.3_-_National_Gallery.jpg",
+  "fallback": false
+ },
+ {
+  "key": "all_saints",
+  "file": "icons/all_saints.jpg",
+  "match": [
+   "^All Saints",
+   "Sunday of All Saints"
+  ],
+  "title": "All saints icon (Russia, 1890)",
+  "artist": "Unknown",
+  "licence": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:All_saints_icon_(Russia,_1890).jpeg",
+  "fallback": false
+ },
+ {
   "key": "apostles",
   "file": "icons/apostles.jpg",
   "match": [
