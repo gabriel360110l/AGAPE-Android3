@@ -80,9 +80,13 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Agpeya (Dutch fixed prayers) | `tools/source/translations_nl.json` | Own translation — review |
 | Horologion: morning/evening rule, Compline, Canons, Communion, Typika | *Orthodox Daily Prayers* (St Tikhon's 1982, Project Gutenberg) via mdws-org/orthodoxprayers | Public domain |
 | Council creeds, definitions, anathemas and canons | NPNF II/14 (Percival, 1900) via newadvent.org | Public domain |
+| Horologion (Dutch for the texts above) | `tools/source/prayers_eo_nl.json` | Own translation — review |
+| Horologion: Matins (reader's form) and the Vespers prokeimena | `tools/build_prayers.py` (traditional texts, psalms from the Bible) | Own arrangement and Dutch — review |
+| Liturgy of the Hours: Week I psalter, readings, Fathers' second readings | `tools/build_hours_ca.py` (texts from bible.db; Fathers: Lightfoot, ANF, NPNF, Pusey) | Public domain; antiphons, intercessions, prayers and Dutch of the Fathers are own texts — review |
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
+| Key decrees of councils 9–21 (Lateran I to Vatican II), EN + NL | `tools/source/council_texts_later/` | Own provisional renderings from the Latin, marked as such in the app — check against the originals (Waterworth 1848 for Trent; vatican.va) |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
-| Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, the wisdom books (Job to Sirach), Isaiah, Ezekiel | `tools/source/commentary/*.md` | Own content — review |
+| Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, the wisdom books (Job to Sirach), Isaiah, Jeremiah, Lamentations, Baruch, Ezekiel, Daniel, the twelve minor prophets, and the other deuterocanonical books (Prayer of Manasseh, Psalm 151, 1 Esdras, 3–4 Maccabees, and the Greek additions to Esther and Daniel as Dutch separate books) | `tools/source/commentary/*.md` | Own content — review |
 | Chapter quizzes, all 82 books (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
 | Coptic Synaxarium (names per day) | api.coptic.io | Check terms before release; Dutch: rules + `tools/source/saints_nl_oo.json` |
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
@@ -103,7 +107,9 @@ Rebuild generated content from the repository root (downloads are cached in `too
 ```
 python tools/build_content.py     # Bible database, cross-references, Father quotes, books; --saints: menologion only
 python tools/build_prayers.py     # Agpeya and Horologion (Κύριε ἐλέησον via tools/kyrie.py)
-python tools/build_councils.py    # council texts and canons
+python tools/build_prayers.py --nl-only   # only fill in the Horologion Dutch, no downloads
+python tools/build_hours_ca.py    # Liturgy of the Hours, a full week (offline)
+python tools/build_councils.py    # council texts and canons; --later merges only councils 9–21 (offline)
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
 python tools/build_church.py      # Church articles (history and per tradition) from tools/source/church/
@@ -116,12 +122,14 @@ python tools/build_backgrounds.py    # adds public-domain / CC0 church photos fr
 
 Chapter commentary is written book by book in `tools/source/commentary/<BOOK>.md`. Written so far: the New
 Testament; the Law and the historical books from Genesis to Esther, with Tobit, Judith and 1–2 Maccabees; the
-wisdom books (Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, Sirach); and Isaiah and Ezekiel. The Psalms follow
-the Hebrew numbering of the Bible text; the Greek number is noted where the liturgy uses it. The English Esther
-carries the Greek additions in place and its commentary mentions them; the Dutch Bible keeps them as a separate
-book. Where the Dutch chapter breaks differ (Job 38–41, Ecclesiastes 4–5), the Dutch summary follows the Dutch
-text. The other Old Testament books (Jeremiah, Lamentations, Baruch, Daniel, the twelve minor prophets and the
-remaining deuterocanonical books) still show the legacy guide, marked in the app as provisional (English only).
+wisdom books (Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, Sirach); and Isaiah, Jeremiah,
+Lamentations, Baruch, Ezekiel and Daniel; the twelve minor prophets, Hosea to Malachi; and the other
+deuterocanonical books: the Prayer of Manasseh, Psalm 151, 1 Esdras, 3 and 4 Maccabees, and the Greek additions to
+Esther and Daniel, which the Dutch Bible keeps as separate books (Ester (Griekse toevoegingen), Gebed van Azarja,
+Susanna, Bel en de draak). Every book of the Bible now has written chapter commentary. The Psalms follow the Hebrew numbering of the Bible text; the Greek number
+is noted where the liturgy uses it. The English Esther and Daniel carry the Greek additions in place (Daniel 3, 13
+and 14) and their commentary mentions them; the Dutch Bible keeps them as separate books. Where the Dutch chapter
+breaks differ (Job 38–41, Ecclesiastes 4–5, Hosea 1–2, 11–14, Micah 4–5), the Dutch summary follows the Dutch text.
 
 The Church articles are written in `tools/source/church/NN-<id>.md` (EN + NL, same number of paragraphs): seven
 history articles shared by all three Churches, and for each tradition an overview plus the sacraments, the
@@ -129,13 +137,14 @@ liturgy, fasting, the feasts, icons and saints, and daily prayer (28 articles).
 
 ## Before release
 
-- Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
-- Complete the sample content: Horologion and Liturgy of the Hours texts and verse commentary. Have the Church
-  articles reviewed by someone from each tradition.
-- Write the remaining Old Testament chapter commentary (EN + NL): Jeremiah, Lamentations, Baruch, Daniel, the twelve
-  minor prophets (Hosea to Malachi) and the remaining deuterocanonical books. Then have the written commentary,
-  the quizzes, the menologion texts, the council translations, the Dutch saint names and the saint summaries
-  reviewed: the 145 Coptic summaries marked `?` first, which say only what was safe without the full Synaxarium
+- Terms and Privacy Policy (`assets/legal/`, EN + NL) are drafts that match what the app does: fill in the parts in
+  [square brackets] (publisher name and address, Supabase region, backup period, age limit) and have them
+  reviewed by a lawyer. Set the real donation URL in `app/build.gradle.kts`.
+- Complete the sample content: verse commentary. Have the Church articles reviewed by someone from each tradition.
+  (The Horologion now has Dutch throughout and the Liturgy of the Hours has a full week; both carry provisional own
+  texts that need review.)
+- Have the written commentary, the quizzes, the menologion texts, the council translations, the Dutch saint names
+  and the saint summaries reviewed: the 145 Coptic summaries marked `?` first, which say only what was safe without the full Synaxarium
   text and should be checked and filled out against it.
 - Download the 99 extra saint icons listed in `tools/build_icons.py` with `python tools/build_icons.py --new` (needs
   access to commons.wikimedia.org), then look at each new picture and pin a better file in `PINS` where the search

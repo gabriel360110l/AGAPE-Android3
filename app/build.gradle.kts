@@ -29,8 +29,9 @@ android {
         buildConfigField("String", "SUPABASE_URL", localProp("supabase.url"))
         buildConfigField("String", "SUPABASE_ANON_KEY", localProp("supabase.anonKey"))
         buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", localProp("google.webClientId"))
+        // Donation URL is a placeholder until the real donation page is known (see README "Before release").
         buildConfigField("String", "DONATION_URL", "\"https://example.org/agape/donate\"")
-        buildConfigField("String", "SUPPORT_EMAIL", "\"support@example.org\"")
+        buildConfigField("String", "SUPPORT_EMAIL", "\"gabriel360110l@gmail.com\"")
     }
 
     androidResources {

@@ -7,7 +7,11 @@
                    plus the morning rule, Compline and the evening rule set from Orthodox Daily Prayers (St Tikhon's,
                    1982, public domain via Project Gutenberg) as published by mdws-org/orthodoxprayers.
 
+Dutch for the Horologion texts that have no Dutch in the sources lives in tools/source/prayers_eo_nl.json (English
+text → Dutch, the editors' own provisional translation) and is filled in when the file is written.
+
 Downloads are cached in tools/.cache/src. Run from the repository root:  python tools/build_prayers.py
+To fill in Dutch from prayers_eo_nl.json (and add Matins and the Vespers prokeimena) without downloading anything:  python tools/build_prayers.py --nl-only
 """
 import html
 import json
@@ -384,6 +388,115 @@ def small_hour(hid, time, name, subtitle, theme, psalms, troparion, hour_prayer)
     }
 
 
+# Vespers prokeimenon of each evening (Saturday evening already belongs to Sunday), and Matins read at home.
+PROKEIMENA = {
+    6: (["The Lord is King, He is clothed with majesty.", "Verse: The Lord is clothed with strength and hath girded Himself.",
+         "Verse: For He hath established the world which shall not be moved.", "Verse: Holiness becometh Thy house, O Lord, for ever."],
+        ["De Heer is Koning, Hij is bekleed met majesteit.", "Vers: De Heer is bekleed met kracht en heeft Zich omgord.",
+         "Vers: Want Hij heeft de wereld gegrondvest, zij zal niet wankelen.", "Vers: Heiligheid past Uw huis, Heer, in lengte van dagen."]),
+    7: (["Behold now, bless ye the Lord, all ye servants of the Lord.", "Verse: Ye that stand in the house of the Lord, in the courts of the house of our God."],
+        ["Zie, zegent nu de Heer, alle dienaren van de Heer.", "Vers: Gij die staat in het huis van de Heer, in de voorhoven van het huis van onze God."]),
+    1: (["The Lord will hear me when I cry unto Him.", "Verse: When I called upon Thee, O God of my righteousness, Thou didst hear me."],
+        ["De Heer zal mij horen wanneer ik tot Hem roep.", "Vers: Toen ik U aanriep, God van mijn gerechtigheid, hebt U mij verhoord."]),
+    2: (["Thy mercy, O Lord, shall follow me all the days of my life.", "Verse: The Lord is my shepherd, and I shall not want; He maketh me to lie down in green pastures."],
+        ["Uw barmhartigheid, Heer, zal mij volgen alle dagen van mijn leven.", "Vers: De Heer is mijn herder, mij zal niets ontbreken; Hij doet mij neerliggen in grazige weiden."]),
+    3: (["O God, save me by Thy name, and judge me by Thy might.", "Verse: O God, hear my prayer; give ear to the words of my mouth."],
+        ["God, red mij door Uw Naam en doe mij recht door Uw kracht.", "Vers: God, hoor mijn gebed; neem de woorden van mijn mond ter ore."]),
+    4: (["My help cometh from the Lord, who made heaven and earth.", "Verse: I will lift up mine eyes unto the hills, from whence cometh my help."],
+        ["Mijn hulp komt van de Heer, die hemel en aarde gemaakt heeft.", "Vers: Ik hef mijn ogen op naar de bergen; vanwaar zal mijn hulp komen?"]),
+    5: (["O God, my helper art Thou, and Thy mercy shall go before me.", "Verse: Deliver me from mine enemies, O God, and defend me from them that rise up against me."],
+        ["God, U bent mijn helper, en Uw barmhartigheid zal mij voorgaan.", "Vers: Verlos mij van mijn vijanden, God, en bescherm mij tegen wie tegen mij opstaan."]),
+}
+
+
+def prokeimena():
+    out = []
+    for day, (en, nl) in PROKEIMENA.items():
+        s = text(tr("Prokeimenon", "Prokeimenon"), {"en": en, "nl": nl})
+        s["weekday"] = day
+        out.append(s)
+    return out
+
+
+def matins():
+    six = [(3, "PSA 3"), (37, "PSA 38"), (62, "PSA 63"), (87, "PSA 88"), (102, "PSA 103"), (142, "PSA 143")]
+    return {
+        "id": "matins", "time": "05:30",
+        "name": tr("Matins", "Metten"),
+        "subtitle": tr("Orthros, read at home", "Orthros, thuis gelezen"),
+        "theme": tr("Before dawn the Church keeps watch for the Light: the Six Psalms, God is the Lord, Psalm 50, the Song of the Theotokos, the Praises and the Great Doxology.",
+                    "Voor de dageraad waakt de Kerk in verwachting van het Licht: de zes psalmen, God is de Heer, Psalm 50, de lofzang van de Moeder Gods, de lofpsalmen en de Grote Doxologie."),
+        "sections": USUAL_BEGINNING + [counter(12)] + COME_WORSHIP + [
+            heading(tr("The Six Psalms", "De zes psalmen")),
+            rubric("The Six Psalms are read in stillness and with attention, without making the sign of the Cross in between.",
+                   "De zes psalmen worden in stilte en met aandacht gelezen, zonder tussendoor een kruisteken te maken."),
+        ] + [scripture(tr(f"Psalm {n}", f"Psalm {n}"), ref) for n, ref in six] + [
+            text(tr("Glory…", "Eer…"), lines(
+                ["Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
+                 "Alleluia, alleluia, alleluia. Glory to Thee, O God. (3 times)"],
+                ["Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
+                 "Alleluia, alleluia, alleluia. Eer zij U, o God. (3 maal)"])),
+            text(tr("God is the Lord", "God is de Heer"), lines(
+                ["God is the Lord and hath revealed Himself unto us; blessed is He that cometh in the name of the Lord.",
+                 "Verse: O give thanks unto the Lord, for He is good; for His mercy endureth for ever.",
+                 "Verse: All nations compassed me about, and in the name of the Lord I drove them back.",
+                 "Verse: I shall not die, but live, and declare the works of the Lord.",
+                 "Verse: The stone which the builders rejected is become the head of the corner; this is the Lord's doing, and it is marvellous in our eyes."],
+                ["God is de Heer en Hij is ons verschenen; gezegend Hij die komt in de Naam van de Heer.",
+                 "Vers: Looft de Heer, want Hij is goed, want Zijn barmhartigheid is in eeuwigheid.",
+                 "Vers: Alle volken omringden mij, maar in de Naam van de Heer heb ik hen afgeweerd.",
+                 "Vers: Ik zal niet sterven, maar leven en de werken van de Heer verkondigen.",
+                 "Vers: De steen die de bouwlieden hebben verworpen, is tot hoeksteen geworden; door de Heer is dit geschied en het is wonderlijk in onze ogen."])),
+            rubric("Then the troparion of the day, or on Sunday the resurrection troparion of the tone (see Small Compline on Saturday evening).",
+                   "Daarna het troparion van de dag, of op zondag het verrijzenistroparion van de toon (zie de Kleine Completen op zaterdagavond)."),
+            scripture(tr("Psalm 50", "Psalm 50"), "PSA 51"),
+            rubric("In church the canon of the day is sung here. At home one may read a canon, or continue with the Song of the Theotokos.",
+                   "In de kerk wordt hier de canon van de dag gezongen. Thuis kan een canon worden gelezen, of men gaat verder met de lofzang van de Moeder Gods."),
+            scripture(tr("The Song of the Theotokos", "De lofzang van de Moeder Gods"), "LUK 1:46-55"),
+            text(tr("Refrain", "Refrein"), lines(
+                ["More honourable than the Cherubim, and more glorious beyond compare than the Seraphim: without defilement thou gavest birth to God the Word: true Theotokos, we magnify thee."],
+                ["Eerbiedwaardiger dan de cherubijnen en onvergelijkelijk heerlijker dan de serafijnen, die ongeschonden God het Woord hebt gebaard: waarlijk Moeder Gods, u maken wij groot."])),
+            heading(tr("The Praises", "De lofpsalmen")),
+            scripture(tr("Psalm 148", "Psalm 148"), "PSA 148"),
+            scripture(tr("Psalm 149", "Psalm 149"), "PSA 149"),
+            scripture(tr("Psalm 150", "Psalm 150"), "PSA 150"),
+            text(tr("The Great Doxology", "De Grote Doxologie"), lines(
+                ["Glory to Thee who hast shown us the light! Glory to God in the highest, and on earth peace, good will toward men. We praise Thee, we bless Thee, we worship Thee, we glorify Thee, we give thanks to Thee for Thy great glory.",
+                 "O Lord, heavenly King, God the Father Almighty; O Lord, the only-begotten Son, Jesus Christ, and the Holy Spirit. O Lord God, Lamb of God, Son of the Father, who takest away the sin of the world, have mercy on us; Thou who takest away the sins of the world, receive our prayer; Thou who sittest at the right hand of the Father, have mercy on us. For Thou alone art holy, Thou alone art the Lord, Jesus Christ, to the glory of God the Father. Amen.",
+                 "Every day will I bless Thee, and praise Thy name for ever and ever. Vouchsafe, O Lord, to keep us this day without sin. Blessed art Thou, O Lord, the God of our fathers, and praised and glorified is Thy name for ever. Amen. Let Thy mercy, O Lord, be upon us, as we have set our hope on Thee.",
+                 "Blessed art Thou, O Lord, teach me Thy statutes. (3 times)",
+                 "Lord, Thou hast been our refuge from generation to generation. I said: Lord, be merciful unto me; heal my soul, for I have sinned against Thee. Lord, I flee unto Thee; teach me to do Thy will, for Thou art my God. For with Thee is the fountain of life, and in Thy light shall we see light. O continue Thy mercy unto those who know Thee.",
+                 "Holy God, Holy Mighty, Holy Immortal, have mercy on us. (3 times)",
+                 "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen. Holy Immortal, have mercy on us. Holy God, Holy Mighty, Holy Immortal, have mercy on us."],
+                ["Eer zij U, die ons het licht hebt getoond! Eer aan God in den hoge, en vrede op aarde, in de mensen welbehagen. Wij loven U, wij zegenen U, wij aanbidden U, wij verheerlijken U, wij danken U om Uw grote heerlijkheid.",
+                 "Heer, hemelse Koning, God, almachtige Vader; Heer, eniggeboren Zoon, Jezus Christus, en Heilige Geest. Heer God, Lam van God, Zoon van de Vader, die wegneemt de zonde der wereld, ontferm U over ons; U die wegneemt de zonden der wereld, aanvaard ons gebed; U die zit aan de rechterhand van de Vader, ontferm U over ons. Want U alleen bent heilig, U alleen bent de Heer, Jezus Christus, tot heerlijkheid van God de Vader. Amen.",
+                 "Iedere dag zal ik U zegenen en Uw Naam loven in eeuwigheid. Verwaardig U, Heer, ons deze dag zonder zonde te bewaren. Gezegend bent U, Heer, God van onze vaderen, en geloofd en verheerlijkt is Uw Naam in eeuwigheid. Amen. Laat Uw barmhartigheid, Heer, over ons zijn, zoals wij op U hebben gehoopt.",
+                 "Gezegend bent U, Heer: leer mij Uw inzettingen. (3 maal)",
+                 "Heer, U bent ons een toevlucht geweest van geslacht tot geslacht. Ik zei: Heer, wees mij genadig, genees mijn ziel, want ik heb tegen U gezondigd. Heer, tot U neem ik mijn toevlucht; leer mij Uw wil te doen, want U bent mijn God. Want bij U is de bron des levens; in Uw licht zien wij het licht. Strek Uw barmhartigheid uit over hen die U kennen.",
+                 "Heilige God, heilige Sterke, heilige Onsterfelijke, ontferm U over ons. (3 maal)",
+                 "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen. Heilige Onsterfelijke, ontferm U over ons. Heilige God, heilige Sterke, heilige Onsterfelijke, ontferm U over ons."])),
+            rubric("Then the troparion of the day again.", "Daarna nogmaals het troparion van de dag."),
+            counter(40),
+            text(tr("Dismissal", "Wegzending"), lines(
+                ["Through the prayers of our holy fathers, Lord Jesus Christ our God, have mercy on us and save us. Amen."],
+                ["Door de gebeden van onze heilige vaders, Heer Jezus Christus, onze God, ontferm U over ons en red ons. Amen."])),
+        ],
+    }
+
+
+def add_matins_and_prokeimena(data):
+    """Adds Matins after the Midnight Office and the prokeimena after O Gladsome Light; does nothing when present."""
+    hours = data["hours"]
+    if not any(h["id"] == "matins" for h in hours):
+        i = next(i for i, h in enumerate(hours) if h["id"] == "midnight")
+        hours.insert(i + 1, matins())
+    vespers = next(h for h in hours if h["id"] == "vespers")
+    if not any((s.get("title") or {}).get("en") == "Prokeimenon" for s in vespers["sections"]):
+        i = next(i for i, s in enumerate(vespers["sections"]) if (s.get("title") or {}).get("en") == "O Gladsome Light")
+        vespers["sections"][i + 1:i + 1] = prokeimena()
+    return data
+
+
 def build_horologion():
     # Hand-written troparia and prayers (with Dutch) from the first version of the Horologion.
     old = {h["id"]: h for h in json.load(open(os.path.join(ROOT, "tools", "source", "horologion_seed.json"), encoding="utf-8"))["hours"]}
@@ -506,7 +619,7 @@ def build_horologion():
     ]:
         extras.append({"id": eid, "time": "", "name": tr(en, nl), "subtitle": tr(sub_en, sub_nl), "theme": tr("", ""),
                        "sections": html_sections(page)})
-    write("prayers_eo.json", {
+    write("prayers_eo.json", add_matins_and_prokeimena({
         "tradition": "EASTERN_ORTHODOX",
         "book": tr("Horologion", "Horologion"),
         "intro": tr(
@@ -514,11 +627,11 @@ def build_horologion():
             "rule, the Hours, Vespers, Compline and the prayers before sleep. Texts: Orthodox Daily Prayers "
             "(St Tikhon's, 1982) via orthodoxprayers.net; psalms from the World English Bible.",
             "Het Horologion is het getijdenboek van de Orthodoxe Kerk. Thuis wordt de dag geheiligd met het morgengebed, "
-            "de Uren, de Vespers, de Completen en de gebeden voor de nacht. Psalmen: Statenvertaling. Sommige langere "
-            "gebeden zijn nog alleen in het Engels beschikbaar."),
+            "de Uren, de Vespers, de Completen en de gebeden voor de nacht. Psalmen: Statenvertaling. De Nederlandse "
+            "vertaling van de gebeden is een eigen, voorlopige vertaling."),
         "hours": hours,
         "extras": extras,
-    })
+    }))
 
 
 def load_kyrie():
@@ -530,13 +643,41 @@ def load_kyrie():
     return module
 
 
+EO_NL_TABLE = os.path.join(ROOT, "tools", "source", "prayers_eo_nl.json")
+
+
+def fill_dutch(data, table):
+    """Fills empty Dutch titles and bodies from an English → Dutch table; a body only when every line is in it."""
+    for entry in data["hours"] + data["extras"]:
+        for s in entry["sections"]:
+            t = s.get("title")
+            if t and t.get("en") and not t.get("nl") and t["en"] in table:
+                t["nl"] = table[t["en"]]
+            b = s.get("body")
+            if s["kind"] != "scripture" and b and b.get("en") and not b.get("nl") and all(line in table for line in b["en"]):
+                b["nl"] = [table[line] for line in b["en"]]
+    return data
+
+
+def untranslated(data):
+    return sum(1 for e in data["hours"] + data["extras"] for s in e["sections"]
+               if s["kind"] != "scripture" and s.get("body") and s["body"].get("en") and not s["body"].get("nl"))
+
+
 def write(name, data):
     data = load_kyrie().apply(data)  # Κύριε ἐλέησον stays in Greek
+    if name == "prayers_eo.json":
+        data = fill_dutch(data, json.load(open(EO_NL_TABLE, encoding="utf-8")))
+        print("horologion: untranslated sections", untranslated(data))
     with open(os.path.join(OUT, name), "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     print("wrote", name, os.path.getsize(os.path.join(OUT, name)) // 1024, "KB")
 
 
 if __name__ == "__main__":
+    import sys
+    if "--nl-only" in sys.argv:
+        write("prayers_eo.json", add_matins_and_prokeimena(json.load(open(os.path.join(OUT, "prayers_eo.json"), encoding="utf-8"))))
+        sys.exit()
     build_agpeya()
     build_horologion()
