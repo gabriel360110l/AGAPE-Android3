@@ -1,5 +1,17 @@
 {
  "_note": "Per-verse commentary, built by tools/build_verse_notes.py from tools/source/verse_notes. Keys are 'BOOK.CHAPTER.VERSE'. 'all' applies to every tradition; a tradition key adds a tradition-specific note.",
+ "1CH.16.34": {
+  "all": {
+   "en": "\"Oh give thanks to Yahweh, for he is good, for his loving kindness endures forever.\" David's psalm at the arrival of the ark joins parts of Psalms 105, 96 and 106.",
+   "nl": "\"Looft de HEER, want Hij is goed, want Zijn goedertierenheid is tot in eeuwigheid.\" De psalm van David bij de komst van de ark voegt delen van de Psalmen 105, 96 en 106 samen."
+  }
+ },
+ "1CH.29.14": {
+  "all": {
+   "en": "\"All things come from you, and we have given you of your own.\" The Byzantine liturgy echoes this at the offering: \"Your own of your own we offer to you.\"",
+   "nl": "\"Alles komt van U, en uit Uw hand hebben wij het U gegeven.\" De Byzantijnse liturgie laat dit doorklinken bij het offer: \"Het Uwe uit het Uwe brengen wij U.\""
+  }
+ },
  "1CO.1.10": {
   "all": {
    "en": "Paul's first appeal is for unity: no divisions, the same mind and judgement. The Corinthians had split into parties around Paul, Apollos, Peter and \"Christ\".",
@@ -276,6 +288,36 @@
    "nl": "De \"drie getuigen in de hemel\" (Vader, Woord en Geest) uit sommige latere bijbels ontbreken in alle vroege Griekse handschriften. De Statenvertaling neemt ze wel op; de Engelse tekst hier niet."
   }
  },
+ "1KI.3.9": {
+  "all": {
+   "en": "Solomon asks not for riches or long life but for \"an understanding heart to judge your people\". God gives him wisdom and more.",
+   "nl": "Salomo vraagt niet om rijkdom of een lang leven, maar om \"een opmerkzaam hart om Uw volk te richten\". God geeft hem wijsheid en meer."
+  }
+ },
+ "1KI.8.27": {
+  "all": {
+   "en": "\"But will God in very deed dwell on the earth? Behold, heaven and the heaven of heavens can't contain you; how much less this house!\" Solomon dedicates the temple knowing God is greater.",
+   "nl": "\"Maar zou God werkelijk op de aarde wonen? Zie, de hemel en de hemel der hemelen kunnen U niet bevatten; hoeveel minder dit huis!\" Salomo wijdt de tempel in, wetend dat God groter is."
+  }
+ },
+ "1KI.17.16": {
+  "all": {
+   "en": "The widow of Zarephath shares her last flour with Elijah, and her jar does not run out. Jesus recalls her in Nazareth (Luke 4:26).",
+   "nl": "De weduwe van Sarfath deelt haar laatste meel met Elia, en haar pot raakt niet leeg. Jezus herinnert aan haar in Nazaret (Lucas 4:26)."
+  }
+ },
+ "1KI.18.21": {
+  "all": {
+   "en": "\"How long will you waver between the two sides? If Yahweh is God, follow him; but if Baal, then follow him.\"",
+   "nl": "\"Hoelang hinkt u op twee gedachten? Als de HEER God is, volg Hem; maar als het Baäl is, volg hem.\""
+  }
+ },
+ "1KI.19.12": {
+  "all": {
+   "en": "After wind, earthquake and fire comes \"a still small voice\". God meets the exhausted Elijah in quietness.",
+   "nl": "Na wind, aardbeving en vuur komt \"het suizen van een zachte stilte\". God ontmoet de uitgeputte Elia in de stilte."
+  }
+ },
  "1PE.1.3": {
   "all": {
    "en": "God has given us new birth \"to a living hope through the resurrection of Jesus Christ from the dead\".",
@@ -346,6 +388,54 @@
   "all": {
    "en": "\"She who is in Babylon\" greets the readers: probably the church in Rome. \"Mark, my son\" is the evangelist, who according to Papias wrote down Peter's preaching.",
    "nl": "\"De gemeente in Babylon\" groet de lezers: waarschijnlijk de kerk in Rome. \"Marcus, mijn zoon\" is de evangelist, die volgens Papias de prediking van Petrus opschreef."
+  }
+ },
+ "1SA.1.27": {
+  "all": {
+   "en": "\"For this child I prayed; and Yahweh has given me my petition.\" Hannah gives her son Samuel back to the Lord.",
+   "nl": "\"Om deze jongen heb ik gebeden, en de HEER heeft mij mijn bede gegeven.\" Hanna geeft haar zoon Samuël terug aan de Heer."
+  }
+ },
+ "1SA.2.1": {
+  "all": {
+   "en": "Hannah's song (2:1-10) praises the God who lifts up the poor and humbles the proud. Mary's Magnificat (Luke 1:46-55) echoes it.",
+   "nl": "Het lied van Hanna (2:1-10) looft de God die de armen verheft en de hoogmoedigen vernedert. Het Magnificat van Maria (Lucas 1:46-55) laat het doorklinken."
+  }
+ },
+ "1SA.3.10": {
+  "all": {
+   "en": "\"Speak; for your servant hears.\" The boy Samuel's answer is a model for every prayer of listening.",
+   "nl": "\"Spreek, want Uw knecht hoort.\" Het antwoord van de jonge Samuël is een voorbeeld voor elk luisterend gebed."
+  }
+ },
+ "1SA.15.22": {
+  "all": {
+   "en": "\"To obey is better than sacrifice.\" Outward religion cannot replace obedience.",
+   "nl": "\"Gehoorzamen is beter dan offeren.\" Uiterlijke godsdienst kan gehoorzaamheid niet vervangen."
+  }
+ },
+ "1SA.16.7": {
+  "all": {
+   "en": "\"Man looks at the outward appearance, but Yahweh looks at the heart.\" God chooses the youngest son, David.",
+   "nl": "\"De mens ziet aan wat voor ogen is, maar de HEER ziet het hart aan.\" God kiest de jongste zoon, David."
+  }
+ },
+ "1SA.17.45": {
+  "all": {
+   "en": "\"You come to me with a sword... but I come to you in the name of Yahweh of Armies.\" The battle belongs to the Lord (17:47).",
+   "nl": "\"U komt tot mij met een zwaard... maar ik kom tot u in de naam van de HEER der heerscharen.\" De strijd is van de Heer (17:47)."
+  }
+ },
+ "1SA.24.6": {
+  "all": {
+   "en": "David will not lift his hand against Saul, \"Yahweh's anointed\", though Saul is hunting him. He leaves judgement to God.",
+   "nl": ""
+  }
+ },
+ "1SA.24.7": {
+  "all": {
+   "en": "",
+   "nl": "David wil zijn hand niet uitsteken tegen Saul, \"de gezalfde van de HEER\", hoewel Saul hem achtervolgt. Hij laat het oordeel aan God."
   }
  },
  "1TH.1.3": {
@@ -436,6 +526,18 @@
   "all": {
    "en": "\"Fight the good fight of faith. Take hold of the eternal life to which you were called.\"",
    "nl": "\"Strijd de goede strijd van het geloof, grijp het eeuwige leven, waartoe u geroepen bent.\""
+  }
+ },
+ "2CH.7.14": {
+  "all": {
+   "en": "\"If my people, who are called by my name, will humble themselves, pray, seek my face, and turn from their wicked ways, then I will hear from heaven, will forgive their sin, and will heal their land.\"",
+   "nl": "\"Als Mijn volk, waarover Mijn naam uitgeroepen is, zich verootmoedigt, bidt, Mijn aangezicht zoekt en zich bekeert van zijn boze wegen, dan zal Ik uit de hemel horen, hun zonden vergeven en hun land genezen.\""
+  }
+ },
+ "2CH.36.23": {
+  "all": {
+   "en": "Chronicles, the last book of the Hebrew Bible, ends with Cyrus allowing the exiles to return and build the temple: \"Let him go up.\"",
+   "nl": "Kronieken, het laatste boek van de Hebreeuwse Bijbel, eindigt met Kores die de ballingen toestaat terug te keren en de tempel te bouwen: \"Laat hij optrekken.\""
   }
  },
  "2CO.1.3": {
@@ -546,6 +648,30 @@
    "nl": "\"Dit is de liefde, dat wij wandelen naar Zijn geboden.\""
   }
  },
+ "2KI.2.11": {
+  "all": {
+   "en": "Elijah is taken up to heaven in a whirlwind with a chariot of fire. He did not die, and Malachi 4:5 promises his return.",
+   "nl": "Elia wordt in een storm met een vurige wagen naar de hemel opgenomen. Hij stierf niet, en Maleachi 4:5 belooft zijn terugkeer."
+  }
+ },
+ "2KI.5.14": {
+  "all": {
+   "en": "Naaman, a Syrian commander, washes seven times in the Jordan and is healed. The Fathers read this as a figure of baptism; Jesus recalls it in Luke 4:27.",
+   "nl": "Naäman, een Syrische legeroverste, dompelt zich zevenmaal onder in de Jordaan en wordt genezen. De Vaders lazen dit als een voorafbeelding van de doop; Jezus herinnert eraan in Lucas 4:27."
+  }
+ },
+ "2KI.6.17": {
+  "all": {
+   "en": "\"Yahweh, please open his eyes, that he may see.\" The servant sees the hills full of horses and chariots of fire: those with us are more than those against us (6:16).",
+   "nl": "\"HEER, open toch zijn ogen, opdat hij ziet.\" De knecht ziet de berg vol paarden en vurige wagens: wie met ons zijn, zijn meer dan wie tegen ons zijn (6:16)."
+  }
+ },
+ "2KI.22.8": {
+  "all": {
+   "en": "The book of the law is found in the temple under King Josiah, leading to a great reform. Rediscovering Scripture renews God's people.",
+   "nl": "Het wetboek wordt onder koning Josia in de tempel gevonden, wat tot een grote hervorming leidt. Het herontdekken van de Schrift vernieuwt Gods volk."
+  }
+ },
  "2PE.1.4": {
   "all": {
    "en": "Through God's promises we become \"partakers of the divine nature\". This verse is a cornerstone of the Eastern teaching on deification (theosis).",
@@ -574,6 +700,30 @@
   "all": {
    "en": "Peter says Paul's letters contain things hard to understand, and he counts them with \"the other Scriptures\".",
    "nl": "Petrus zegt dat in de brieven van Paulus sommige dingen moeilijk te begrijpen zijn, en hij rekent ze tot \"de andere Schriften\"."
+  }
+ },
+ "2SA.6.14": {
+  "all": {
+   "en": "David dances before the LORD with all his might as the ark comes to Jerusalem. Christian writers compared the ark to the Virgin Mary, who carried the presence of God (Luke 1:39-56 echoes this chapter).",
+   "nl": "David danst met al zijn kracht voor het aangezicht van de HEER wanneer de ark naar Jeruzalem komt. Christelijke schrijvers vergeleken de ark met de Maagd Maria, die Gods aanwezigheid droeg (Lucas 1:39-56 laat dit hoofdstuk doorklinken)."
+  }
+ },
+ "2SA.7.16": {
+  "all": {
+   "en": "\"Your house and your kingdom will be made sure forever.\" God's promise to David is the root of the hope for the Messiah, the Son of David (Luke 1:32-33).",
+   "nl": "\"Uw huis en uw koninkrijk zullen voor eeuwig bestendig zijn.\" Gods belofte aan David is de wortel van de hoop op de Messias, de Zoon van David (Lucas 1:32-33)."
+  }
+ },
+ "2SA.12.7": {
+  "all": {
+   "en": "\"You are the man!\" The prophet Nathan's parable makes David pass judgement on himself. David's repentance gives us Psalm 51.",
+   "nl": "\"U bent die man!\" De gelijkenis van de profeet Natan laat David zichzelf veroordelen. Uit het berouw van David komt Psalm 51 voort."
+  }
+ },
+ "2SA.18.33": {
+  "all": {
+   "en": "\"My son Absalom! I wish I had died for you.\" David weeps for the son who rebelled against him.",
+   "nl": "\"Mijn zoon Absalom! Was ik maar in uw plaats gestorven.\" David weent om de zoon die tegen hem in opstand kwam."
   }
  },
  "2TH.2.15": {
@@ -1530,6 +1680,18 @@
    "nl": "De rivier die uit de tempel stroomt, brengt leven overal waar zij komt. Openbaring 22:1-2 neemt dit beeld over."
   }
  },
+ "EZR.3.11": {
+  "all": {
+   "en": "When the foundation of the new temple is laid, some shout for joy while the old men who remembered the first temple weep (3:12).",
+   "nl": "Wanneer het fundament van de nieuwe tempel gelegd wordt, juichen sommigen van vreugde, terwijl de ouden die de eerste tempel gekend hadden, wenen (3:12)."
+  }
+ },
+ "EZR.7.10": {
+  "all": {
+   "en": "\"Ezra had set his heart to seek Yahweh's law, and to do it, and to teach.\" Study, practice and teaching, in that order.",
+   "nl": "\"Ezra had zijn hart erop gericht de wet van de HEER te onderzoeken, te doen en te onderwijzen.\" Studie, praktijk en onderwijs, in die volgorde."
+  }
+ },
  "GAL.1.8": {
   "all": {
    "en": "Even if an angel from heaven preached another gospel, let him be cursed. Paul is fierce because the Galatians are being told that faith in Christ is not enough.",
@@ -2394,6 +2556,24 @@
    "nl": "\"Belijdt elkaar uw zonden en bidt voor elkaar, opdat u genezen wordt.\""
   }
  },
+ "JDG.2.10": {
+  "all": {
+   "en": "\"There arose another generation after them who didn't know Yahweh.\" Faith not passed on is lost within a generation.",
+   "nl": "\"Er kwam een ander geslacht na hen op, dat de HEER niet kende.\" Geloof dat niet doorgegeven wordt, gaat binnen één geslacht verloren."
+  }
+ },
+ "JDG.6.12": {
+  "all": {
+   "en": "The angel greets Gideon, hiding in a winepress, as \"mighty man of valour\". God sees what he will make of a person.",
+   "nl": "De engel begroet Gideon, die zich in een wijnpers verbergt, als \"dappere held\". God ziet wat Hij van een mens zal maken."
+  }
+ },
+ "JDG.21.25": {
+  "all": {
+   "en": "\"In those days there was no king in Israel. Everyone did that which was right in his own eyes.\" The book ends on a note of moral chaos, preparing for the kingship.",
+   "nl": "\"In die dagen was er geen koning in Israël; ieder deed wat goed was in zijn ogen.\" Het boek eindigt in morele chaos en bereidt zo het koningschap voor."
+  }
+ },
  "JER.1.5": {
   "all": {
    "en": "\"Before I formed you in the womb, I knew you. Before you were born, I sanctified you.\" God's call reaches back before birth.",
@@ -3012,6 +3192,30 @@
    "nl": "Het boek eindigt met Gods vraag: zou Ik geen medelijden hebben met Ninevé, met zijn vele mensen en dieren? Het antwoord van Jona wordt niet vermeld; de lezer moet het geven."
   }
  },
+ "JOS.1.9": {
+  "all": {
+   "en": "\"Be strong and courageous. Don't be afraid... for Yahweh your God is with you wherever you go.\"",
+   "nl": "\"Wees sterk en moedig, schrik niet... want de HEER, uw God, is met u overal waar u gaat.\""
+  }
+ },
+ "JOS.2.11": {
+  "all": {
+   "en": "Rahab of Jericho confesses the God of Israel. She is named in Jesus' genealogy (Matthew 1:5) and praised for her faith (Hebrews 11:31).",
+   "nl": "Rachab van Jericho belijdt de God van Israël. Zij wordt genoemd in het geslachtsregister van Jezus (Matteüs 1:5) en geprezen om haar geloof (Hebreeën 11:31)."
+  }
+ },
+ "JOS.3.17": {
+  "all": {
+   "en": "Israel crosses the Jordan on dry ground. The name Joshua is the same as Jesus (Yeshua); the Fathers saw in him a figure of Christ leading his people into the promised land.",
+   "nl": "Israël trekt droogvoets door de Jordaan. De naam Jozua is dezelfde als Jezus (Jesjoea); de Vaders zagen in hem een voorafbeelding van Christus, die Zijn volk het beloofde land binnenleidt."
+  }
+ },
+ "JOS.24.15": {
+  "all": {
+   "en": "\"Choose today whom you will serve... but as for me and my house, we will serve Yahweh.\"",
+   "nl": "\"Kies dan heden wie u dienen zult... maar ik en mijn huis, wij zullen de HEER dienen.\""
+  }
+ },
  "JUD.1.3": {
   "all": {
    "en": "Jude urges his readers to contend for \"the faith which was once for all delivered to the saints\". The faith is received, not invented.",
@@ -3040,6 +3244,42 @@
   "all": {
    "en": "\"It is because of Yahweh's loving kindnesses that we are not consumed, because his compassion doesn't fail. They are new every morning; great is your faithfulness\" (3:22-23). Hope at the centre of a book of grief.",
    "nl": "\"Het zijn de goedertierenheden van de HEER dat wij niet omgekomen zijn, want Zijn barmhartigheden hebben geen einde. Zij zijn elke morgen nieuw, groot is Uw trouw\" (3:22-23). Hoop in het midden van een boek vol rouw."
+  }
+ },
+ "LEV.11.44": {
+  "all": {
+   "en": "\"Be holy; for I am holy.\" The command at the heart of Leviticus is repeated in 1 Peter 1:16 for Christians.",
+   "nl": "\"Weest heilig, want Ik ben heilig.\" Het gebod in het hart van Leviticus wordt in 1 Petrus 1:16 herhaald voor christenen."
+  }
+ },
+ "LEV.16.21": {
+  "all": {
+   "en": "On the Day of Atonement the high priest lays the people's sins on the scapegoat, which is sent into the wilderness. Christians saw here a figure of Christ who bears our sins (Hebrews 9-10).",
+   "nl": "Op de Grote Verzoendag legt de hogepriester de zonden van het volk op de bok die de woestijn in gestuurd wordt. Christenen zagen hier een voorafbeelding van Christus, die onze zonden draagt (Hebreeën 9-10)."
+  }
+ },
+ "LEV.17.11": {
+  "all": {
+   "en": "\"The life of the flesh is in the blood.\" Blood stands for life given to God; Hebrews 9:22 builds on this.",
+   "nl": "\"De ziel van het vlees is in het bloed.\" Bloed staat voor leven dat aan God gegeven wordt; Hebreeën 9:22 bouwt hierop voort."
+  }
+ },
+ "LEV.19.18": {
+  "all": {
+   "en": "\"You shall love your neighbour as yourself.\" Jesus names this the second great commandment (Mark 12:31).",
+   "nl": "\"U zult uw naaste liefhebben als uzelf.\" Jezus noemt dit het tweede grote gebod (Marcus 12:31)."
+  }
+ },
+ "LEV.19.34": {
+  "all": {
+   "en": "The foreigner who lives among you is to be loved as yourself, \"for you lived as foreigners in the land of Egypt\".",
+   "nl": "De vreemdeling die bij u woont, moet u liefhebben als uzelf, \"want u bent vreemdelingen geweest in het land Egypte\"."
+  }
+ },
+ "LEV.25.10": {
+  "all": {
+   "en": "The fiftieth year is a jubilee: liberty proclaimed throughout the land. Jesus' \"year of the Lord's favour\" (Luke 4:19) echoes it.",
+   "nl": "Het vijftigste jaar is een jubeljaar: vrijheid uitgeroepen in het land. Het \"aangename jaar van de Heer\" van Jezus (Lucas 4:19) laat het doorklinken."
   }
  },
  "LUK.1.3": {
@@ -4656,6 +4896,48 @@
    "nl": "Het langere slot van Marcus vermeldt de Hemelvaart: Jezus wordt opgenomen en zit aan de rechterhand van God, in de woorden van Psalm 110:1."
   }
  },
+ "NEH.2.4": {
+  "all": {
+   "en": "Before answering the king, Nehemiah \"prayed to the God of heaven\": a short prayer in the middle of a conversation.",
+   "nl": "Voordat hij de koning antwoordt, \"bad Nehemia tot de God van de hemel\": een kort gebed midden in een gesprek."
+  }
+ },
+ "NEH.8.10": {
+  "all": {
+   "en": "\"The joy of Yahweh is your strength.\" After hearing the law read, the people weep, but they are told to celebrate.",
+   "nl": ""
+  }
+ },
+ "NEH.8.11": {
+  "all": {
+   "en": "",
+   "nl": "\"De vreugde van de HEER is uw kracht.\" Na het voorlezen van de wet huilt het volk, maar het krijgt te horen dat het feest moet vieren."
+  }
+ },
+ "NUM.6.24": {
+  "all": {
+   "en": "\"Yahweh bless you, and keep you. Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace\" (6:24-26). The priestly blessing is still given in churches and synagogues.",
+   "nl": "\"De HEER zegene u en behoede u. De HEER doe Zijn aangezicht over u lichten en zij u genadig. De HEER verheffe Zijn aangezicht over u en geve u vrede\" (6:24-26). De priesterlijke zegen wordt nog altijd in kerken en synagogen gegeven."
+  }
+ },
+ "NUM.11.29": {
+  "all": {
+   "en": "\"I wish that all Yahweh's people were prophets, that Yahweh would put his Spirit on them!\" Moses' wish is fulfilled at Pentecost.",
+   "nl": "\"Och, dat heel het volk van de HEER profeten waren, dat de HEER Zijn Geest op hen gaf!\" De wens van Mozes wordt vervuld met Pinksteren."
+  }
+ },
+ "NUM.21.9": {
+  "all": {
+   "en": "Moses lifts up a bronze serpent, and whoever looks at it lives. Jesus compares this to his being lifted up on the Cross (John 3:14).",
+   "nl": "Mozes richt een koperen slang op, en wie ernaar kijkt, blijft in leven. Jezus vergelijkt dit met Zijn verhoging aan het kruis (Johannes 3:14)."
+  }
+ },
+ "NUM.24.17": {
+  "all": {
+   "en": "\"A star will come out of Jacob.\" Balaam's oracle was read by Jews and Christians as a messianic promise; Christians linked it with the star of the Magi.",
+   "nl": "\"Er gaat een ster op uit Jakob.\" De profetie van Bileam werd door Joden en christenen gelezen als een messiaanse belofte; christenen verbonden haar met de ster van de wijzen."
+  }
+ },
  "PHM.1.11": {
   "all": {
    "en": "Onesimus means \"useful\". Paul plays on the name: once useless to you, now useful to you and to me.",
@@ -6152,6 +6434,24 @@
   "all": {
    "en": "Andronicus and Junia are \"notable among the apostles\". John Chrysostom praises Junia, a woman, as worthy of that name.",
    "nl": "Andronikus en Junia zijn \"vermaard onder de apostelen\". Johannes Chrysostomus prijst Junia, een vrouw, als die naam waardig."
+  }
+ },
+ "RUT.1.16": {
+  "all": {
+   "en": "\"Where you go, I will go; and where you stay, I will stay. Your people are my people, and your God is my God.\" A Moabite widow chooses Israel's God.",
+   "nl": "\"Waar u heengaat, zal ik heengaan, en waar u overnacht, zal ik overnachten; uw volk is mijn volk, en uw God is mijn God.\" Een Moabitische weduwe kiest voor de God van Israël."
+  }
+ },
+ "RUT.3.9": {
+  "all": {
+   "en": "\"Spread the corner of your garment over your servant; for you are a near kinsman.\" Boaz is the redeemer (go'el) who takes Ruth under his protection, a figure of Christ the Redeemer.",
+   "nl": "\"Breid de slip van uw mantel uit over uw dienares, want u bent de losser.\" Boaz is de losser (goël) die Ruth onder zijn bescherming neemt, een voorafbeelding van Christus de Verlosser."
+  }
+ },
+ "RUT.4.17": {
+  "all": {
+   "en": "Ruth's son Obed is the grandfather of David. A foreign woman stands in the line of the Messiah (Matthew 1:5).",
+   "nl": "Obed, de zoon van Ruth, is de grootvader van David. Een vreemde vrouw staat in de stamboom van de Messias (Matteüs 1:5)."
   }
  },
  "SNG.1.2": {
