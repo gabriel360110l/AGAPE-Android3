@@ -1,32 +1,71 @@
 {
- "_note": "Sample per-verse commentary. Keys are 'BOOK.CHAPTER.VERSE'. 'all' applies to every tradition; a tradition key adds a tradition-specific note.",
+ "_note": "Per-verse commentary, built by tools/build_verse_notes.py from tools/source/verse_notes. Keys are 'BOOK.CHAPTER.VERSE'. 'all' applies to every tradition; a tradition key adds a tradition-specific note.",
  "GEN.1.1": {
-  "all": {"en": "Scripture opens not with an argument for God but with God acting. The Fathers read \"in the beginning\" together with John 1:1: the Father creates through the Word, in the Spirit who hovers over the waters.", "nl": "De Schrift begint niet met een bewijs voor God, maar met God die handelt. De Vaders lazen \"in het begin\" samen met Johannes 1:1: de Vader schept door het Woord, in de Geest die over de wateren zweeft."}
+  "all": {
+   "en": "Scripture opens not with an argument for God but with God acting. The Fathers read \"in the beginning\" together with John 1:1: the Father creates through the Word, in the Spirit who hovers over the waters.",
+   "nl": "De Schrift begint niet met een bewijs voor God, maar met God die handelt. De Vaders lazen \"in het begin\" samen met Johannes 1:1: de Vader schept door het Woord, in de Geest die over de wateren zweeft."
+  }
  },
  "ISA.7.14": {
-  "all": {"en": "Matthew reads this sign as fulfilled in the Virgin Mary (Matthew 1:23). The Septuagint's parthenos, \"virgin\", is the Greek text the apostles quoted.", "nl": "Matteüs leest dit teken als vervuld in de Maagd Maria (Matteüs 1:23). Het parthenos, \"maagd\", van de Septuagint is de Griekse tekst die de apostelen citeerden."}
- },
- "MAT.16.18": {
-  "all": {"en": "Jesus calls Simon \"Peter\" (Petros, rock) after his confession of faith.", "nl": "Jezus noemt Simon \"Petrus\" (Petros, rots) na zijn geloofsbelijdenis."},
-  "CATHOLIC": {"en": "The Catholic Church sees here the foundation of Peter's ministry among the apostles, continued in the Bishop of Rome.", "nl": "De Katholieke Kerk ziet hier het fundament van het ambt van Petrus onder de apostelen, voortgezet in de bisschop van Rome."},
-  "EASTERN_ORTHODOX": {"en": "Many Fathers read the rock as Peter's confession of faith in Christ, the faith shared by every bishop who confesses it rightly.", "nl": "Veel Vaders lezen de rots als Petrus' belijdenis van het geloof in Christus, het geloof dat iedere bisschop deelt die het juist belijdt."},
-  "ORIENTAL_ORTHODOX": {"en": "The Coptic tradition reads the rock as the faith Peter confessed, on which the Church of St Mark in Alexandria also stands.", "nl": "De Koptische traditie leest de rots als het geloof dat Petrus beleed, waarop ook de Kerk van de heilige Marcus in Alexandrië staat."}
- },
- "LUK.1.28": {
-  "all": {"en": "The angel's greeting, kecharitomene, \"highly favoured\" or \"full of grace\", became the heart of the Church's prayer to the Mother of God.", "nl": "De groet van de engel, kecharitomene, \"begenadigde\" of \"vol van genade\", werd het hart van het gebed van de Kerk tot de Moeder Gods."}
+  "all": {
+   "en": "Matthew reads this sign as fulfilled in the Virgin Mary (Matthew 1:23). The Septuagint's parthenos, \"virgin\", is the Greek text the apostles quoted.",
+   "nl": "Matteüs leest dit teken als vervuld in de Maagd Maria (Matteüs 1:23). Het parthenos, \"maagd\", van de Septuagint is de Griekse tekst die de apostelen citeerden."
+  }
  },
  "JHN.1.1": {
-  "all": {"en": "The Word (Logos) is eternal, with God, and is God. This verse stood at the centre of the Council of Nicaea.", "nl": "Het Woord (Logos) is eeuwig, bij God, en is God. Dit vers stond in het middelpunt van het Concilie van Nicea."}
+  "all": {
+   "en": "The Word (Logos) is eternal, with God, and is God. This verse stood at the centre of the Council of Nicaea.",
+   "nl": "Het Woord (Logos) is eeuwig, bij God, en is God. Dit vers stond in het middelpunt van het Concilie van Nicea."
+  }
  },
  "JHN.3.16": {
-  "all": {"en": "The love of God is the source of the Son's coming. \"Gave\" points both to the Incarnation and to the Cross.", "nl": "De liefde van God is de bron van de komst van de Zoon. \"Gegeven\" wijst zowel naar de menswording als naar het Kruis."}
+  "all": {
+   "en": "The love of God is the source of the Son's coming. \"Gave\" points both to the Incarnation and to the Cross.",
+   "nl": "De liefde van God is de bron van de komst van de Zoon. \"Gegeven\" wijst zowel naar de menswording als naar het Kruis."
+  }
  },
  "JHN.6.51": {
-  "all": {"en": "The Bread of Life discourse has always been read by the Church as teaching on the Eucharist, the true Body and Blood of Christ.", "nl": "De rede over het Brood des levens is door de Kerk altijd gelezen als onderricht over de eucharistie, het ware Lichaam en Bloed van Christus."}
+  "all": {
+   "en": "The Bread of Life discourse has always been read by the Church as teaching on the Eucharist, the true Body and Blood of Christ.",
+   "nl": "De rede over het Brood des levens is door de Kerk altijd gelezen als onderricht over de eucharistie, het ware Lichaam en Bloed van Christus."
+  }
+ },
+ "LUK.1.28": {
+  "all": {
+   "en": "The angel's greeting, kecharitomene, \"highly favoured\" or \"full of grace\", became the heart of the Church's prayer to the Mother of God.",
+   "nl": "De groet van de engel, kecharitomene, \"begenadigde\" of \"vol van genade\", werd het hart van het gebed van de Kerk tot de Moeder Gods."
+  }
+ },
+ "MAT.16.18": {
+  "all": {
+   "en": "Jesus calls Simon \"Peter\" (Petros, rock) after his confession of faith.",
+   "nl": "Jezus noemt Simon \"Petrus\" (Petros, rots) na zijn geloofsbelijdenis."
+  },
+  "CATHOLIC": {
+   "en": "The Catholic Church sees here the foundation of Peter's ministry among the apostles, continued in the Bishop of Rome.",
+   "nl": "De Katholieke Kerk ziet hier het fundament van het ambt van Petrus onder de apostelen, voortgezet in de bisschop van Rome."
+  },
+  "EASTERN_ORTHODOX": {
+   "en": "Many Fathers read the rock as Peter's confession of faith in Christ, the faith shared by every bishop who confesses it rightly.",
+   "nl": "Veel Vaders lezen de rots als Petrus' belijdenis van het geloof in Christus, het geloof dat iedere bisschop deelt die het juist belijdt."
+  },
+  "ORIENTAL_ORTHODOX": {
+   "en": "The Coptic tradition reads the rock as the faith Peter confessed, on which the Church of St Mark in Alexandria also stands.",
+   "nl": "De Koptische traditie leest de rots als het geloof dat Petrus beleed, waarop ook de Kerk van de heilige Marcus in Alexandrië staat."
+  }
  },
  "ROM.5.12": {
-  "all": {"en": "Paul contrasts Adam and Christ. Through one man death entered the world; through one man life is given.", "nl": "Paulus stelt Adam en Christus tegenover elkaar. Door één mens kwam de dood in de wereld; door één mens wordt het leven gegeven."},
-  "EASTERN_ORTHODOX": {"en": "Eastern Fathers emphasise that we inherit mortality and corruption from Adam, through which sin takes hold, rather than Adam's personal guilt.", "nl": "Oosterse Vaders benadrukken dat wij van Adam sterfelijkheid en verderf erven, waardoor de zonde vat krijgt, eerder dan de persoonlijke schuld van Adam."},
-  "CATHOLIC": {"en": "Following Augustine, the Catholic Church teaches original sin: a deprivation of original holiness transmitted to all, healed in baptism.", "nl": "In navolging van Augustinus leert de Katholieke Kerk de erfzonde: een gemis aan oorspronkelijke heiligheid dat op allen overgaat en in de doop wordt genezen."}
+  "all": {
+   "en": "Paul contrasts Adam and Christ. Through one man death entered the world; through one man life is given.",
+   "nl": "Paulus stelt Adam en Christus tegenover elkaar. Door één mens kwam de dood in de wereld; door één mens wordt het leven gegeven."
+  },
+  "EASTERN_ORTHODOX": {
+   "en": "Eastern Fathers emphasise that we inherit mortality and corruption from Adam, through which sin takes hold, rather than Adam's personal guilt.",
+   "nl": "Oosterse Vaders benadrukken dat wij van Adam sterfelijkheid en verderf erven, waardoor de zonde vat krijgt, eerder dan de persoonlijke schuld van Adam."
+  },
+  "CATHOLIC": {
+   "en": "Following Augustine, the Catholic Church teaches original sin: a deprivation of original holiness transmitted to all, healed in baptism.",
+   "nl": "In navolging van Augustinus leert de Katholieke Kerk de erfzonde: een gemis aan oorspronkelijke heiligheid dat op allen overgaat en in de doop wordt genezen."
+  }
  }
 }
