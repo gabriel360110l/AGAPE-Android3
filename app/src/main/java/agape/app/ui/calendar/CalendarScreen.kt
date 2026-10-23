@@ -2,24 +2,30 @@ package agape.app.ui.calendar
 
 import agape.app.R
 import agape.app.core.model.AppLanguage
+import agape.app.core.model.Passage
+import agape.app.core.model.Testament
 import agape.app.core.model.Tradition
 import agape.app.data.calendar.FeastRank
 import agape.app.data.calendar.LiturgicalCalendar
-import agape.app.ui.components.SaintIcon
+import agape.app.data.saints.SaintDayView
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.AgapeCard
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
+import agape.app.ui.components.SaintIcon
 import agape.app.ui.components.TabHeader
+import agape.app.ui.passageLabel
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.tradition
+import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
@@ -28,6 +34,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -42,6 +49,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -52,7 +60,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import java.time.DayOfWeek
@@ -73,7 +83,7 @@ fun secondaryDate(tradition: Tradition, date: LocalDate, lang: AppLanguage): Str
 }
 
 @Composable
-fun CalendarScreen(onBack: (() -> Unit)? = null) {
+fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit = {}) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val tradition = tradition
@@ -143,33 +153,59 @@ fun CalendarScreen(onBack: (() -> Unit)? = null) {
                 Box(Modifier.size(6.dp).clip(CircleShape).background(c.primary.copy(alpha = 0.6f))); Text("  " + stringResource(R.string.calendar_legend_active), style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
             }
             Spacer(Modifier.height(8.dp))
-            DayDetails(day, tradition, lang, activity.filter { it.epochDay == day.toEpochDay() }.map { it.title })
+            DayDetails(day, tradition, lang, activity.filter { it.epochDay == day.toEpochDay() }.map { it.title }, openPassage)
         }
     }
 }
 
 @Composable
-private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, done: List<String>) {
+private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, done: List<String>, openPassage: (Passage) -> Unit) {
     val container = LocalContainer.current
     val c = AgapeTheme.colors
     val locale = Locale.forLanguageTag(lang.tag)
-    val feasts = remember(day, tradition) { LiturgicalCalendar.feasts(tradition, day) }
-    val saint = remember(day, tradition, lang) { container.saints.forDate(tradition, lang, day) }
+    val view = remember(day, tradition) { container.saints.day(tradition, day) }
+    val principal = view.commemorations.firstOrNull()
+    // A moveable or fixed great feast from the liturgical calendar, unless the menologion already names it.
+    val feasts = remember(day, tradition, lang) {
+        LiturgicalCalendar.feasts(tradition, day).filter { f -> principal?.entry?.name?.get(lang)?.contains(f.name[lang], ignoreCase = true) != true }
+    }
     AgapeCard {
         Kicker(day.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)))
-        secondaryDate(tradition, day, lang)?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, modifier = Modifier.padding(top = 2.dp)) }
-        Spacer(Modifier.height(10.dp))
-        feasts.filter { f -> saint?.isFeast != true || f.name[lang] != saint.name }.forEach { f ->
+        Spacer(Modifier.height(8.dp))
+        ThreeDates(view, tradition, lang)
+        Spacer(Modifier.height(12.dp))
+        feasts.forEach { f ->
             Text(f.name[lang], style = if (f.rank == FeastRank.SEASON) MaterialTheme.typography.titleMedium else MaterialTheme.typography.headlineSmall, color = if (f.rank == FeastRank.SEASON) c.accent else c.primary)
         }
-        if (saint != null) {
+        if (principal != null) {
             if (feasts.isNotEmpty()) Spacer(Modifier.height(12.dp))
             Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-                SaintIcon(saint.icon, saint.name, width = 72.dp)
+                SaintIcon(principal.icon, principal.entry.name[lang], width = 84.dp)
                 Column(Modifier.weight(1f)) {
-                    Text(saint.name, style = MaterialTheme.typography.titleLarge, color = c.ink)
-                    if (saint.summary.isNotBlank()) Text(saint.summary, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 4)
-                    saint.others.take(5).forEach { Text("· $it", style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(top = 3.dp)) }
+                    Text(principal.entry.name[lang], style = MaterialTheme.typography.titleLarge, color = c.ink)
+                    principal.entry.life?.let { LifeText(it.text[lang], collapsedLines = 6) }
+                }
+            }
+            principal.icon?.let {
+                Text(
+                    stringResource(R.string.icon_credit, it.title, it.licence),
+                    style = MaterialTheme.typography.labelSmall, color = c.inkFaint, maxLines = 1, overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.padding(top = 8.dp),
+                )
+            }
+        }
+        val others = view.commemorations.drop(1)
+        if (others.isNotEmpty()) {
+            Spacer(Modifier.height(14.dp))
+            Kicker(stringResource(R.string.saint_also), color = c.inkMuted)
+            others.forEach { o ->
+                Row(Modifier.padding(top = 10.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    // A small icon only where the saint has one of their own; the general icons would repeat on every row.
+                    if (o.ownIcon) SaintIcon(o.icon, o.entry.name[lang], width = 40.dp)
+                    Column(Modifier.weight(1f)) {
+                        Text(o.entry.name[lang], style = MaterialTheme.typography.titleMedium, color = c.ink)
+                        o.entry.life?.let { LifeText(it.text[lang], collapsedLines = 3) }
+                    }
                 }
             }
         }
@@ -179,6 +215,123 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
             done.distinct().take(6).forEach { Text("✓ $it", style = MaterialTheme.typography.bodyMedium, color = c.ink, modifier = Modifier.padding(top = 3.dp)) }
         }
     }
+    Spacer(Modifier.height(12.dp))
+    DayReadings(view, tradition, lang, openPassage)
+}
+
+/** The day in the Gregorian, Julian and Coptic calendars; the tradition's own calendar stands out. */
+@Composable
+private fun ThreeDates(view: SaintDayView, tradition: Tradition, lang: AppLanguage) {
+    val c = AgapeTheme.colors
+    val format = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).withLocale(Locale.forLanguageTag(lang.tag))
+    val coptic = view.coptic
+    listOf(
+        Triple(R.string.calendar_gregorian, view.gregorian.format(format), tradition == Tradition.CATHOLIC),
+        Triple(R.string.calendar_julian, view.julian.format(format), tradition == Tradition.EASTERN_ORTHODOX),
+        Triple(R.string.calendar_coptic, "${coptic.day} ${coptic.monthName(lang == AppLanguage.DUTCH)} ${coptic.year}", tradition == Tradition.ORIENTAL_ORTHODOX),
+    ).forEach { (label, date, own) ->
+        Row(Modifier.padding(top = 2.dp)) {
+            Text(stringResource(label), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, modifier = Modifier.width(132.dp))
+            Text(
+                date, style = MaterialTheme.typography.bodySmall.copy(fontWeight = if (own) FontWeight.SemiBold else FontWeight.Normal),
+                color = if (own) c.ink else c.inkMuted,
+            )
+        }
+    }
+}
+
+/** A life or summary that folds open when it is longer than a few lines. */
+@Composable
+private fun LifeText(text: String, collapsedLines: Int) {
+    if (text.isBlank()) return
+    val c = AgapeTheme.colors
+    var open by rememberSaveable(text) { mutableStateOf(false) }
+    var overflows by remember(text) { mutableStateOf(false) }
+    Text(
+        text, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted,
+        maxLines = if (open) Int.MAX_VALUE else collapsedLines, overflow = TextOverflow.Ellipsis,
+        onTextLayout = { if (!open) overflows = it.hasVisualOverflow },
+        modifier = Modifier.padding(top = 4.dp).animateContentSize(),
+    )
+    if (open || overflows) {
+        Text(
+            stringResource(if (open) R.string.calendar_less else R.string.calendar_more),
+            style = MaterialTheme.typography.labelMedium, color = c.primary,
+            modifier = Modifier.clickable { open = !open }.padding(vertical = 4.dp),
+        )
+    }
+}
+
+/** One reading as shown: its place in the service, the passage to open (if it could be read) and the citation. */
+private data class ShownReading(val role: String, val passage: Passage?, val display: String)
+
+/**
+ * The readings of the selected day: from the bundled dataset where it has them (the Roman lectionary, 2025-2027),
+ * otherwise, for the Byzantine calendar, from orthocal.info when online.
+ */
+@Composable
+private fun DayReadings(view: SaintDayView, tradition: Tradition, lang: AppLanguage, openPassage: (Passage) -> Unit) {
+    val container = LocalContainer.current
+    val c = AgapeTheme.colors
+    val bundled = remember(view) { view.readings.map { ShownReading(it.role, it.ref?.let { ref -> Passage.parse(ref) }, it.display) } }
+    val online by produceState<List<ShownReading>?>(null, view, lang) {
+        value = if (bundled.isEmpty() && tradition == Tradition.EASTERN_ORTHODOX) {
+            container.daily.forDate(tradition, lang, view.gregorian)?.readings.orEmpty().mapNotNull { Passage.parse(it) }.map { p ->
+                val testament = container.content.book(p.book)?.testament
+                val role = when {
+                    p.book == "PSA" -> "psalm"
+                    p.book in setOf("MAT", "MRK", "LUK", "JHN") -> "gospel"
+                    testament == Testament.NT -> "apostle"
+                    else -> "old_testament"
+                }
+                ShownReading(role, p, p.toString())
+            }
+        } else emptyList()
+    }
+    val readings = bundled.ifEmpty { online.orEmpty() }
+    AgapeCard(contentPadding = PaddingValues(0.dp)) {
+        Kicker(stringResource(R.string.calendar_readings), Modifier.padding(start = 18.dp, end = 18.dp, top = 18.dp, bottom = 6.dp))
+        if (readings.isEmpty()) {
+            Text(
+                stringResource(if (online == null) R.string.calendar_readings_loading else R.string.calendar_readings_none),
+                style = MaterialTheme.typography.bodyMedium, color = c.inkMuted,
+                modifier = Modifier.padding(horizontal = 18.dp).padding(bottom = 18.dp),
+            )
+        }
+        readings.forEachIndexed { i, r ->
+            if (i > 0) Box(Modifier.padding(horizontal = 18.dp).fillMaxWidth().height(0.5.dp).background(c.line))
+            val p = r.passage
+            Row(
+                Modifier.fillMaxWidth().then(if (p != null) Modifier.clickable { openPassage(p) } else Modifier).padding(horizontal = 18.dp, vertical = 12.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Column(Modifier.weight(1f)) {
+                    Text(stringResource(readingRole(r.role)), style = MaterialTheme.typography.labelMedium, color = c.accent)
+                    Text(p?.let { container.passageLabel(it, lang) } ?: r.display, style = MaterialTheme.typography.titleMedium, color = c.ink)
+                    // The full citation when the passage opened is only its first piece (the Psalm verses, a reading in parts).
+                    if (p != null && Regex("""[,;]|\band\b|\d[a-eA-E]""").containsMatchIn(r.display)) {
+                        Text(r.display, style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
+                    }
+                }
+                if (p != null) Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint)
+            }
+        }
+        if (readings.isNotEmpty()) Spacer(Modifier.height(6.dp))
+    }
+}
+
+private fun readingRole(role: String): Int = when (role) {
+    "first_reading" -> R.string.reading_first
+    "second_reading" -> R.string.reading_second
+    "psalm", "psalm_gospel" -> R.string.reading_psalm
+    "acclamation" -> R.string.reading_acclamation
+    "gospel", "matins_gospel" -> R.string.reading_gospel
+    "epistle", "apostle" -> R.string.reading_apostle
+    "old_testament", "vespers" -> R.string.reading_old_testament
+    "pauline" -> R.string.reading_pauline
+    "catholic_epistle" -> R.string.reading_catholic_epistle
+    "acts" -> R.string.reading_acts
+    else -> R.string.reading_other
 }
 
 /** This week at a glance, for Home; tap to open the full calendar. */

@@ -19,49 +19,38 @@ data class SaintOfDay(
 )
 
 /**
- * Picks the commemoration of a day from the bundled calendars, so it works offline in all three traditions:
- * the Byzantine menologion, the Coptic Synaxarium (by Coptic date) and the General Roman Calendar. A great feast
- * from the liturgical calendar (Pascha, Pentecost, …) takes the place of the saint on its day.
+ * Picks the commemoration of a day from the bundled uniform saints dataset (`saints_unified.json`), so it works offline
+ * in all three traditions: the Byzantine menologion, the Coptic Synaxarium (by Coptic date) and the General Roman
+ * Calendar. A great feast from the liturgical calendar (Pascha, Pentecost, …) takes the place of the saint on its day.
  */
 class SaintsRepository(private val content: ContentRepository) {
+    private val calendar by lazy { SaintCalendar(content.saintsUnified) }
+
+    /** Parses the dataset (about a megabyte) ahead of time, off the main thread, so Home and the calendar need not wait. */
+    fun warmUp() {
+        calendar
+    }
+
+    /** Everything the calendar shows for a date: the three calendar dates, all commemorations with lives and icons, readings. */
+    fun day(tradition: Tradition, date: LocalDate): SaintDayView = calendar.day(tradition, date)
 
     fun forDate(tradition: Tradition, language: AppLanguage, date: LocalDate): SaintOfDay? {
         val greatFeast = LiturgicalCalendar.feasts(tradition, date).firstOrNull { it.rank == FeastRank.GREAT }
-        val names: List<Pair<String, String>> // English, shown language
-        var summary = ""
-        when (tradition) {
-            Tradition.EASTERN_ORTHODOX -> {
-                val entry = content.saintEo(date) ?: return null
-                val en = entry.title.en.split(" · ")
-                val shown = entry.title[language].split(" · ")
-                names = en.mapIndexed { i, e -> e to (shown.getOrNull(i) ?: e) }
-                // The English summaries of the menologion are only a placeholder sentence; show the real ones.
-                summary = entry.summary[language].takeUnless { it.startsWith("The Church commemorates") }.orEmpty()
-            }
-            Tradition.ORIENTAL_ORTHODOX -> {
-                val coptic = LiturgicalCalendar.coptic(date)
-                val saints = content.saintsOo(coptic.month, coptic.day)
-                names = saints.map { it.title.en to it.title[language] }
-                summary = saints.firstOrNull()?.summary?.get(language).orEmpty()
-            }
-            Tradition.CATHOLIC -> {
-                val saints = content.saintsCa(date)
-                names = saints.map { it.title.en to it.title[language] }
-                summary = saints.firstOrNull()?.summary?.get(language).orEmpty()
-            }
-        }
+        val day = day(tradition, date)
+        val names = day.commemorations.map { it.entry.name[language] }
+        val summary = day.commemorations.firstOrNull()?.entry?.life?.text?.get(language).orEmpty()
         if (greatFeast != null) {
             val icon = content.iconFor(listOf(greatFeast.name.en))
             // The Coptic and Roman summaries describe the day's saint, not a moveable feast that takes its place.
             val feastSummary = if (tradition == Tradition.EASTERN_ORTHODOX) summary else ""
-            return SaintOfDay(greatFeast.name[language], names.map { it.second }, feastSummary, icon, isFeast = true)
+            return SaintOfDay(greatFeast.name[language], names, feastSummary, icon, isFeast = true)
         }
         if (names.isEmpty()) return null
         return SaintOfDay(
-            name = names.first().second,
-            others = names.drop(1).map { it.second },
+            name = names.first(),
+            others = names.drop(1),
             summary = summary,
-            icon = content.iconFor(names.map { it.first }),
+            icon = day.icon,
             isFeast = false,
         )
     }

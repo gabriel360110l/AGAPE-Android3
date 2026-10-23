@@ -2,6 +2,7 @@ package agape.app.data.content
 
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Tradition
+import agape.app.data.saints.UnifiedSaints
 import android.content.Context
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
@@ -75,21 +76,10 @@ class ContentRepository(private val context: Context) {
     fun leaders(tradition: Tradition): List<ChurchLeader> = church.leaders.filter { it.tradition == tradition }
 
     /** The Byzantine menologion entry for a civil date (new calendar). */
-    fun saintsEo(): List<SaintEntry> = saintsEo
-
     fun saintEo(date: LocalDate): SaintEntry? = saintsEo.firstOrNull { it.month == date.monthValue && it.day == date.dayOfMonth }
 
-    private val saintsOo: List<SaintDay> by lazy { load("saints_oo.json") }
-    private val saintsCa: List<SaintDay> by lazy { load("saints_ca.json") }
-
-    /** The Coptic Synaxarium for a Coptic month and day (13 is the little month of Nasie). */
-    fun saintsOo(copticMonth: Int, copticDay: Int): List<SaintName> =
-        saintsOo.firstOrNull { it.month == copticMonth && it.day == copticDay }?.saints.orEmpty()
-
-    /** Saints of the General Roman Calendar on this date, the highest rank first. */
-    fun saintsCa(date: LocalDate): List<SaintName> =
-        saintsCa.firstOrNull { it.month == date.monthValue && it.day == date.dayOfMonth }?.saints.orEmpty()
-            .sortedBy { ROMAN_RANKS.indexOf(it.rank).let { i -> if (i < 0) ROMAN_RANKS.size else i } }
+    /** All commemorations of the three traditions in one schema (tools/schema/README.md), for the calendar and saint screens. */
+    val saintsUnified: UnifiedSaints by lazy { load("saints_unified.json") }
 
     val icons: List<IconEntry> by lazy { load("icons.json") }
     private val iconPatterns by lazy { icons.map { icon -> icon to icon.match.map { Regex(it, RegexOption.IGNORE_CASE) } } }
@@ -130,6 +120,3 @@ class ContentRepository(private val context: Context) {
 }
 
 fun Book.chapterCount(language: AppLanguage): Int = chapters[language.tag] ?: 0
-
-/** Ranks of the General Roman Calendar, highest first, as calapi spells them. */
-private val ROMAN_RANKS = listOf("solemnity", "feast", "memorial", "optional memorial")

@@ -52,15 +52,18 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   Dutch. The mysteries of the day follow Rosarium Virginis Mariae; any set can be chosen (`data/rosary/Rosary.kt`).
 - **Search** looks through everything offline: references ("John 3:16"), books, verses, hours and prayers, councils,
   Fathers, articles, Father quotes, saints and plans.
-- **Calendar** (its own tab, and a week strip on Home): feasts per tradition, old-style or Coptic date, saints of the
-  day and the days you read or prayed.
+- **Calendar** (its own tab, and a week strip on Home): feasts per tradition and the days you read or prayed. A
+  selected day shows its date in the Gregorian, Julian (old style) and Coptic calendars, every commemoration of the
+  tradition with its icon and life (longer lives fold open), and the readings: the Roman lectionary from the bundle
+  (2025–2027), the Byzantine readings from orthocal.info when online. A reading opens in the Bible reader.
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
   it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: every
   chapter of all 82 books, Old and New Testament with the deuterocanon (Psalms, Sirach, Wisdom, the Maccabees,
   1 Esdras, the Prayer of Manasseh, Psalm 151 and the additions to Esther and Daniel included), has hand-written
   questions (4 per chapter, the Esther quiz keeps to the text both Bibles share); the book quiz of 20 questions
   is still generated from the Bible text (`data/quiz/QuizGenerator.kt`).
-- **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches: the Byzantine
+- **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches from one uniform
+  dataset (`assets/content/saints_unified.json`, schema in `tools/schema/`): the Byzantine
   menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
   Calendar (a short English and Dutch summary for the first saint of every Coptic day and for every Roman saint),
   with a Byzantine icon where one is bundled and a quiet placeholder otherwise.
@@ -93,6 +96,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
 | Home backgrounds | Painted for AGAPE by `tools/render_backgrounds.py`; real photos can be added with `tools/build_backgrounds.py`, listed in `assets/backgrounds/backgrounds.json` | CC0 (own artwork); photos public domain / CC0 only |
 | Rosary prayers (EN + NL) | `data/rosary/Rosary.kt`: traditional texts; the Dutch closing prayer is our own translation | Review |
+| Catholic Mass readings per date, 2025–2027 (citations only, no Bible text) | github.com/cpbjr/catholic-readings-api (lectionary of the United States), in `saints_unified.json` | MIT |
 | Saint and feast icons (73) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
 | Byzantine menologion: English texts | `tools/source/menologion_en.json` | Own content — review |
 | Coptic and Roman saint summaries (EN + NL) | `tools/source/saint_summaries_oo.tsv`, `saint_summaries_ca.tsv` | Own content — review; Coptic lines marked `?` are provisional |
@@ -121,7 +125,7 @@ python tools/build_saint_summaries.py  # adds the saint summaries to saints_oo.j
 python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --new adds missing icons, --patterns updates matching only
 python tools/render_backgrounds.py   # the painted Home backgrounds (needs Pillow and numpy)
 python tools/build_backgrounds.py    # adds public-domain / CC0 church photos from Commons to the Home backgrounds
-python tools/build_unified_saints.py  # all saints in one schema (tools/schema/), offline; see tools/schema/README.md
+python tools/build_unified_saints.py  # all saints in one schema, for the app and tools/schema/; rerun after saints_*.json or icons.json change
 ```
 
 Chapter commentary is written book by book in `tools/source/commentary/<BOOK>.md`. Written so far: the New
@@ -159,6 +163,10 @@ note never lands on the wrong verse. Each language only shows its own note.
 - Download the 99 extra saint icons listed in `tools/build_icons.py` with `python tools/build_icons.py --new` (needs
   access to commons.wikimedia.org), then look at each new picture and pin a better file in `PINS` where the search
   chose the wrong saint.
+- The calendar reads `saints_unified.json`: rerun `python tools/build_unified_saints.py` after any change to
+  `saints_*.json` or `icons.json` (it keeps the readings and references of the last build). The Catholic readings
+  end in 2027 and follow the American versification, so a few Old Testament references open a verse off in WEB and
+  the Statenvertaling (Exodus 22:20-26 is WEB 22:21-27); extend them with `--catholic-readings` from a newer checkout.
 - Add a release signing config and a Play Store listing (screenshots per style).
 
 ## Related repositories

@@ -209,8 +209,11 @@ private suspend fun search(container: agape.app.AppContainer, q: String, lang: A
         out += Hit(Kind.FATHERS, "${f.father} · ${container.passageLabel(Passage(f.book, f.chapter, f.verse), lang)}", f.text, SearchTarget.Verse(f.book, f.chapter, f.verse))
     }
 
-    if (tradition == Tradition.EASTERN_ORTHODOX) content.saintsEo().filter { it.title.has(q, lang) }.forEach { s ->
-        out += Hit(Kind.SAINTS, s.title[lang], "%02d-%02d".format(s.day, s.month), SearchTarget.Calendar)
+    val traditionId = agape.app.data.saints.SaintCalendar.id(tradition)
+    content.saintsUnified.commemorations.filter { it.tradition == traditionId && it.name.has(q, lang) }.forEach { s ->
+        val date = if (s.date.calendar == "coptic") "${s.date.day} ${agape.app.data.calendar.CopticDate(0, s.date.month, 1).monthName(lang == AppLanguage.DUTCH)}"
+            else "%02d-%02d".format(s.date.day, s.date.month)
+        out += Hit(Kind.SAINTS, s.name[lang], date, SearchTarget.Calendar)
     }
 
     content.plans.filter { p -> p.title.has(q, lang) || p.description.has(q, lang) }.forEach {

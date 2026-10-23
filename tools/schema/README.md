@@ -4,8 +4,10 @@ Eén JSON-vorm voor de heiligen en feesten van de drie tradities in AGAPE: Ooste
 Koptisch-Orthodox. Per gekozen datum levert het schema het icoon, de naam, de datum in de Gregoriaanse, Juliaanse
 en Koptische kalender, het levensverhaal en de schriftlezingen, en per onderdeel de bron waar het vandaan komt.
 
-De app gebruikt het schema nog niet: de schermen lezen nog steeds `saints_eo.json`, `saints_oo.json` en
-`saints_ca.json`. Dit is de basis voor een latere omzetting.
+De app leest het schema: de converter schrijft een compacte kopie naar `app/src/main/assets/content/saints_unified.json`,
+en de kalender, de heilige van de dag op Home en het zoeken halen daar hun heiligen, iconen, levens en lezingen uit
+(`data/saints/SaintCalendar.kt`). `saints_eo.json`, `saints_oo.json` en `saints_ca.json` blijven de invoer van de
+converter; draai hem opnieuw als die of `icons.json` veranderen.
 
 ## Bestanden
 
@@ -13,7 +15,7 @@ De app gebruikt het schema nog niet: de schermen lezen nog steeds `saints_eo.jso
 |---|---|
 | `saints_unified.schema.json` | JSON Schema van de dataset: alle vaste gedachtenissen, met de iconen en bronnen |
 | `saint_day.schema.json` | JSON Schema van één gekozen dag in één traditie (wat een scherm toont) |
-| `saints_unified.json` | De bestaande app-data omgezet naar het schema (gegenereerd) |
+| `saints_unified.json` | De bestaande app-data omgezet naar het schema (gegenereerd; dezelfde inhoud staat compact in de app) |
 | `examples/day_*.json` | Drie uitgewerkte dagen, elk voor de drie tradities (gegenereerd) |
 | `../build_unified_saints.py` | De converter |
 
@@ -92,7 +94,7 @@ dient alleen als voorbeeld voor de vorm van het schema.
 | harmolipi/Orthodox-Calendar-API | Geen licentie | Niets | Alles: zonder licentie mag niets worden overgenomen, en de lezingen zijn RSV-tekst |
 | cpbjr/catholic-readings-api | MIT | Schriftverwijzingen per datum (2025-2027, lectionarium VS) voor `readings` | De korte beschrijvingen en de afbeeldingen (licentie per afbeelding onbekend) |
 | romcal/romcal | MIT | Stabiele ids van de Algemene Romeinse Kalender in `refs` | Namen en rangen: die heeft de app al, met Nederlands |
-| pierresaid/katameros-web-app | MIT | Story-id en slug van het Synaxarium in `refs` (831 van de 907 Koptische en Katholieke gedachtenissen gekoppeld) | De levens staan in de katameros-API, niet in de repo; die API is vanuit de cloud niet getest |
+| pierresaid/katameros-web-app | MIT | Story-id en slug van het Synaxarium in `refs` (862 van de 913 Koptische en Katholieke gedachtenissen gekoppeld) | De levens staan in de katameros-API, niet in de repo; die API is vanuit de cloud niet getest |
 | Will-Langhart/copticfaith | Geen licentie | Niets; alleen het idee van een `kind` per heilige | Alles |
 | Wikimedia Commons (bestaande `icons.json`) | Public domain / CC0 | Alle 73 iconen, met maker en bronpagina | Afbeeldingen met een andere licentie |
 
@@ -111,13 +113,16 @@ De titels in `saints_oo.json` (api.coptic.io) en `saints_ca.json` (calapi) staan
 
 ## Wat er nog ontbreekt
 
-- **Levens.** Alleen het Oosters-Orthodoxe menologion heeft nu samenvattingen (366). De Koptische en Katholieke
-  samenvattingen komen met PR #11; de converter neemt een `summary` in `saints_oo.json` en `saints_ca.json`
-  vanzelf mee zodra die gemerged is.
-- **Iconen.** 320 gedachtenissen hebben een eigen icoon, de rest een algemeen icoon of geen. Meer iconen moeten op
+- **Levens.** Samenvattingen, geen volledige levens: elke dag van het menologion (366), de eerste Koptische
+  gedachtenis van elke dag (367) en elke Katholieke gedachtenis (217). De overige Koptische gedachtenissen hebben
+  alleen een naam.
+- **Iconen.** 253 gedachtenissen hebben een eigen icoon (minder dan eerst, sinds verkeerde koppelingen in
+  `icons.json` zijn rechtgezet), de rest een algemeen icoon of geen. Meer iconen moeten op
   Gabriels computer worden opgehaald (Wikimedia is vanuit de cloud geblokkeerd).
-- **Lezingen.** Alleen Katholiek, en alleen 2025-2027. Byzantijnse lezingen (orthocal.info) en Koptische
-  (katameros) haalt de app nu live op; ze kunnen in dezelfde `readings`-vorm worden opgeslagen.
+- **Lezingen.** Alleen Katholiek, en alleen 2025-2027, in `dated_readings` (per datum, want ze volgen het
+  lectionarium en niet de heilige). `ref` is de plek waar de lezer opent: bij een lezing in stukken het eerste stuk,
+  zonder versletters; `display` houdt de volledige verwijzing. De Byzantijnse lezingen haalt de kalender live op
+  (orthocal.info); Koptische (katameros) nog niet. Beide kunnen in dezelfde `readings`-vorm worden opgeslagen.
 - **Beweeglijke feesten.** Pascha, Pinksteren, Kerstmis in de Romeinse kalender enz. zitten niet in de dataset;
   die rekent `LiturgicalCalendar.kt` uit en gaan in de app voor op de heilige van de dag.
 
@@ -129,7 +134,8 @@ Vanuit de root van de repository, zonder netwerk:
 python -I -X utf8 tools/build_unified_saints.py
 ```
 
-Met de referentie-repo's lokaal gekloond (voor `refs` en Katholieke lezingen) en uitgewerkte dagen:
+Zonder de referentie-repo's blijven de `refs` en `dated_readings` van de vorige build staan. Met de repo's lokaal
+gekloond (om ze te vernieuwen) en uitgewerkte dagen:
 
 ```
 python -I -X utf8 tools/build_unified_saints.py --romcal ../romcal --katameros ../katameros-web-app \
