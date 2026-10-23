@@ -74,13 +74,14 @@ object LiturgicalCalendar {
                 listOf(
                     (1 to 1) to Feast(t("Nayrouz · Coptic New Year", "Nayrouz · Koptisch Nieuwjaar"), FeastRank.MAJOR),
                     (1 to 17) to Feast(t("Feast of the Cross", "Feest van het Kruis"), FeastRank.MAJOR),
-                    (4 to 29) to Feast(t("Nativity of Christ", "Geboorte van Christus"), FeastRank.GREAT),
                     (5 to 11) to Feast(t("Theophany", "Theofanie"), FeastRank.GREAT),
                     (7 to 29) to Feast(t("Annunciation", "Annunciatie"), FeastRank.GREAT),
                     (9 to 24) to Feast(t("Entry of the Lord into Egypt", "Intocht van de Heer in Egypte"), FeastRank.MAJOR),
                     (11 to 5) to Feast(t("Feast of the Apostles", "Feest van de Apostelen"), FeastRank.MAJOR),
                     (12 to 16) to Feast(t("Assumption of St Mary", "Opneming van de heilige Maria"), FeastRank.MAJOR),
                 ).forEach { (md, feast) -> if (c.month == md.first && c.day == md.second) add(feast) }
+                // 29 Kiahk, but kept on 7 January (28 Kiahk) in the years after a Coptic leap year.
+                if (date.monthValue == 1 && date.dayOfMonth == 7) add(Feast(t("Nativity of Christ", "Geboorte van Christus"), FeastRank.GREAT))
             }
             Tradition.CATHOLIC -> {
                 when (fromPascha) {
