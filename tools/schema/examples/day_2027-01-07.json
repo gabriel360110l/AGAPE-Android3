@@ -119,7 +119,13 @@
       "en": "Saint Raymond of Penyafort, priest",
       "nl": "H. Raymundus van Peñafort, priester"
      },
-     "life": null,
+     "life": {
+      "text": {
+       "en": "A Dominican canon lawyer from Catalonia (died 1275). He gathered the papal decrees into one collection and served as master of his order, then returned to a life of prayer and preaching.",
+       "nl": "Een Dominicaanse kerkjurist uit Catalonië (gestorven 1275). Hij bracht de pauselijke decreten samen in één verzameling en was magister van zijn orde, en keerde daarna terug naar gebed en prediking."
+      },
+      "scope": "commemoration"
+     },
      "icon": null,
      "readings": [],
      "refs": [
@@ -131,7 +137,8 @@
      ],
      "provenance": {
       "name": "calapi",
-      "name_nl": "agape"
+      "name_nl": "agape",
+      "life": "agape"
      }
     }
    ],
@@ -139,12 +146,14 @@
     {
      "role": "first_reading",
      "display": "1 John 4:19–5:4",
-     "source": "catholic_readings_api"
+     "source": "catholic_readings_api",
+     "ref": "1JN 4:19-5:4"
     },
     {
      "role": "psalm",
      "display": "Psalm 72:1-2, 14 and 15bc, 17",
-     "source": "catholic_readings_api"
+     "source": "catholic_readings_api",
+     "ref": "PSA 72:1-2"
     },
     {
      "role": "gospel",
@@ -179,7 +188,7 @@
     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%2C_St._Catherine_Monastery%2C_Sinai%2C_6th_century.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
     "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
-    "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+    "artist": "Anonymous",
     "licence": "CC0",
     "fallback": false,
     "source": "wikimedia_commons",
@@ -201,14 +210,20 @@
       "en": "The Feast of the Nativity of Our Lord Jesus Christ (Christmas)",
       "nl": "Het feest van de geboorte van onze Heer Jezus Christus (Christmas)"
      },
-     "life": null,
+     "life": {
+      "text": {
+       "en": "The birth of Christ in Bethlehem: the Word became flesh and dwelt among us (John 1:14). The Coptic Church celebrates on 29 Kiahk, after the forty-three days of fasting.",
+       "nl": "De geboorte van Christus in Betlehem: het Woord is vlees geworden en heeft onder ons gewoond (Johannes 1:14). De Koptische Kerk viert op 29 Kiahk, na drieënveertig vastendagen."
+      },
+      "scope": "commemoration"
+     },
      "icon": {
       "key": "nativity",
       "asset": "icons/nativity.jpg",
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%2C_St._Catherine_Monastery%2C_Sinai%2C_6th_century.jpg",
       "page": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
       "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
-      "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+      "artist": "Anonymous",
       "licence": "CC0",
       "fallback": false,
       "source": "wikimedia_commons",
@@ -225,7 +240,8 @@
      ],
      "provenance": {
       "name": "coptic_io",
-      "name_nl": "agape"
+      "name_nl": "agape",
+      "life": "agape"
      }
     }
    ],

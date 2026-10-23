@@ -15,6 +15,7 @@ Optional reference checkouts (only identifiers and citations are taken from them
 
 Outputs:
   tools/schema/saints_unified.json             every commemoration of the three traditions (schema saints_unified)
+  app/src/main/assets/content/saints_unified.json   the same, compact, read by the app's calendar and saint screens
   tools/schema/examples/day_<date>.json        with --day: the resolved view of one date (schema saint_day)
 
 Run from the repository root:
@@ -33,6 +34,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "app", "src", "main", "assets", "content")
 SCHEMA_DIR = os.path.join(ROOT, "tools", "schema")
 OUT = os.path.join(SCHEMA_DIR, "saints_unified.json")
+APP_OUT = os.path.join(CONTENT, "saints_unified.json")
 
 TRADITIONS = ("eastern_orthodox", "catholic", "coptic_orthodox")
 COPTIC_MONTHS = ["Thout", "Paopi", "Hathor", "Koiak", "Tobi", "Meshir", "Paremhat", "Parmouti", "Pashons", "Paoni",
@@ -233,18 +235,42 @@ def book_index():
 
 
 def to_ref(citation, books):
-    """'Mark 12:28-34' -> 'MRK 12:28-34'. Citations with several pieces or verse letters keep only their display."""
-    m = re.fullmatch(r"\s*(.+?)\s+(\d+):(\d+)(?:-(\d+))?\s*", citation)
+    """'Mark 12:28-34' -> 'MRK 12:28-34'. Of a citation in several pieces only the first is kept ('Psalm 18:2-3, 3-4, 47'
+    -> 'PSA 18:2-3'), and verse letters are dropped ('1 Thessalonians 1:5c-10' -> '1TH 1:5-10'): the ref is where the
+    reader opens, the display keeps the full citation. Anything more complex keeps only its display."""
+    text = re.sub(r":\s+", ":", re.sub(r"[\u2013\u2014]", "-", citation.replace("\u00a0", " ")))
+    first = re.split(r"[,;]| and | or ", text)[0]
+    one = re.fullmatch(r"\s*(.+?)\s+(\d+)[a-eA-E]*(?:-(\d+)[a-eA-E]*)?\s*", first)  # Philemon 9-10, Jude 17
+    if one and books.get(one.group(1).lower()) in ("OBA", "PHM", "2JN", "3JN", "JUD"):
+        first = f"{one.group(1)} 1:{one.group(2)}" + (f"-{one.group(3)}" if one.group(3) else "")
+    m = re.fullmatch(r"\s*(.+?)\s+(\d+):(\d+)[a-eA-E]*(?:-(?:(\d+):)?(\d+)[a-eA-E]*)?\s*", first)
     if not m:
         return None
     book = books.get(m.group(1).lower())
     if not book:
         return None
-    return f"{book} {m.group(2)}:{m.group(3)}" + (f"-{m.group(4)}" if m.group(4) else "")
+    end = f"-{m.group(4)}:{m.group(5)}" if m.group(4) else f"-{m.group(5)}" if m.group(5) else ""
+    return f"{book} {m.group(2)}:{m.group(3)}{end}"
 
 
 CA_ROLES = {"firstReading": "first_reading", "psalm": "psalm", "secondReading": "second_reading",
             "gospel": "gospel", "alleluia": "acclamation"}
+
+
+def all_catholic_readings(path):
+    """Every date the checkout has: {"2026-10-25": [reading, ...]}."""
+    books, out = book_index(), {}
+    for year in sorted(os.listdir(os.path.join(path, "readings"))):
+        if not year.isdigit():
+            continue
+        for name in sorted(os.listdir(os.path.join(path, "readings", year))):
+            m = re.fullmatch(r"(\d\d)-(\d\d)\.json", name)
+            if m:
+                date = datetime.date(int(year), int(m.group(1)), int(m.group(2)))
+                readings = catholic_readings(path, date, books)
+                if readings:
+                    out[date.isoformat()] = readings
+    return out
 
 
 def catholic_readings(path, date, books):
@@ -265,7 +291,9 @@ def catholic_readings(path, date, books):
 
 # --- Conversion -------------------------------------------------------------------------------------------------------
 
-def build(romcal=None, katameros=None):
+def build(romcal=None, katameros=None, dated=None, previous=None):
+    """`previous` is the last saints_unified.json: without the reference checkouts its refs and dated readings are
+    kept, so a rebuild offline does not lose them."""
     icons, patterns = load_icons()
     items = []
 
@@ -327,15 +355,26 @@ def build(romcal=None, katameros=None):
                 add(tradition, calendar, m, dd, i, l10n(s["title"]), rank=s.get("rank"), kind_rank=s.get("rank"),
                     life=life, provenance=prov, refs=refs)
 
-    sources = [s for s in SOURCES if s["id"] not in ("romcal",) or romcal]
-    sources = [s for s in sources if s["id"] != "katameros" or katameros]
-    return {
+    previous = previous or {}
+    old_refs = {c["id"]: c["refs"] for c in previous.get("commemorations", [])}
+    for c in items:
+        kept = [r for r in old_refs.get(c["id"], []) if (r["source"] == "romcal" and not romcal)
+                or (r["source"] == "katameros" and not katameros)]
+        c["refs"] = c["refs"] + kept
+    if dated is None:
+        dated = previous.get("dated_readings", {}).get("catholic", {})
+    used = {r["source"] for c in items for r in c["refs"]} | ({"catholic_readings_api"} if dated else set())
+    sources = [s for s in SOURCES if s["id"] not in ("romcal", "katameros", "catholic_readings_api") or s["id"] in used]
+    data = {
         "schema": "agape-saints/1",
         "generated_by": "tools/build_unified_saints.py",
         "sources": sources,
         "icons": icons,
         "commemorations": items,
     }
+    if dated:
+        data["dated_readings"] = {"catholic": dated}
+    return data
 
 
 # --- Resolving one date -----------------------------------------------------------------------------------------------
@@ -358,7 +397,7 @@ def coptic_of(date):
     return year, doy // 30 + 1, doy % 30 + 1
 
 
-def resolve_day(data, tradition, date, old_calendar=False, readings_dir=None):
+def resolve_day(data, tradition, date, old_calendar=False):
     jy, jm, jd = julian_of(date)
     cy, cm, cd = coptic_of(date)
     if tradition == "coptic_orthodox":
@@ -376,7 +415,7 @@ def resolve_day(data, tradition, date, old_calendar=False, readings_dir=None):
     # Like the app: the principal commemoration's icon, else the first commemoration of the day that has one.
     icon = next((c["icon"] for c in items if c["icon"] and c["icon"]["match"] == "name"), None) or \
         next((c["icon"] for c in items if c["icon"]), None)
-    readings = catholic_readings(readings_dir, date, book_index()) if readings_dir and tradition == "catholic" else []
+    readings = data.get("dated_readings", {}).get(tradition, {}).get(date.isoformat(), [])
     return {
         "schema": "agape-saint-day/1",
         "tradition": tradition,
@@ -409,10 +448,13 @@ def validate(doc, schema_name):
     print("  valid against", schema_name)
 
 
-def write(path, data):
+def write(path, data, compact=False):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
+        if compact:
+            json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+        else:
+            json.dump(data, f, ensure_ascii=False, indent=1)
         f.write("\n")
     print("wrote", os.path.relpath(path, ROOT), os.path.getsize(path) // 1024, "KB")
 
@@ -427,18 +469,22 @@ if __name__ == "__main__":
     args = ap.parse_args()
 
     data = build(romcal=load_romcal(args.romcal) if args.romcal else None,
-                 katameros=load_katameros(args.katameros) if args.katameros else None)
+                 katameros=load_katameros(args.katameros) if args.katameros else None,
+                 dated=all_catholic_readings(args.catholic_readings) if args.catholic_readings else None,
+                 previous=read_json(OUT) if os.path.exists(OUT) else None)
     write(OUT, data)
+    write(APP_OUT, data, compact=True)
     validate(data, "saints_unified.schema.json")
     per = {t: sum(1 for c in data["commemorations"] if c["tradition"] == t) for t in TRADITIONS}
     with_icon = sum(1 for c in data["commemorations"] if c["icon"] and c["icon"]["match"] == "name")
     with_life = sum(1 for c in data["commemorations"] if c["life"])
     refs = sum(1 for c in data["commemorations"] if c["refs"])
-    print(f"  {per}; own icon {with_icon}, life {with_life}, external ref {refs}")
+    dated = len(data.get("dated_readings", {}).get("catholic", {}))
+    print(f"  {per}; own icon {with_icon}, life {with_life}, external ref {refs}, dates with readings {dated}")
 
     for day in args.day:
         date = datetime.date.fromisoformat(day)
-        view = {"date": day, "traditions": [resolve_day(data, t, date, args.old_calendar, args.catholic_readings)
+        view = {"date": day, "traditions": [resolve_day(data, t, date, args.old_calendar)
                                             for t in TRADITIONS]}
         for v in view["traditions"]:
             validate(v, "saint_day.schema.json")

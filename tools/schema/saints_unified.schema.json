@@ -11,7 +11,17 @@
   "generated_by": {"type": "string"},
   "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
   "icons": {"type": "array", "items": {"$ref": "#/$defs/icon"}},
-  "commemorations": {"type": "array", "items": {"$ref": "#/$defs/commemoration"}}
+  "commemorations": {"type": "array", "items": {"$ref": "#/$defs/commemoration"}},
+  "dated_readings": {
+   "type": "object",
+   "description": "Readings that follow the lectionary cycle rather than a saint, per tradition and civil date (YYYY-MM-DD). Now only Catholic, 2025-2027.",
+   "propertyNames": {"$ref": "#/$defs/tradition"},
+   "additionalProperties": {
+    "type": "object",
+    "propertyNames": {"pattern": "^\\d{4}-\\d\\d-\\d\\d$"},
+    "additionalProperties": {"type": "array", "items": {"$ref": "#/$defs/reading"}}
+   }
+  }
  },
  "$defs": {
   "tradition": {
@@ -105,7 +115,7 @@
    "additionalProperties": false,
    "properties": {
     "role": {"enum": ["first_reading", "psalm", "second_reading", "acclamation", "gospel", "epistle", "apostle", "old_testament", "acts", "catholic_epistle", "pauline", "psalm_gospel", "matins_gospel", "vespers", "other"], "description": "Catholic: first_reading..gospel. Byzantine: epistle/apostle, gospel, old_testament (vespers), matins_gospel. Coptic Katameros: pauline, catholic_epistle, acts, psalm_gospel, gospel."},
-    "ref": {"type": "string", "pattern": "^[1-4A-Z]{3} \\d+:\\d+(-\\d+(:\\d+)?)?$", "description": "The app's own notation (BOOK C:V-V, book ids from books.json), when the citation is simple enough."},
+    "ref": {"type": "string", "pattern": "^[1-4A-Z]{3} \\d+:\\d+(-\\d+(:\\d+)?)?$", "description": "The app's own notation (BOOK C:V-V, book ids from books.json), where the reader opens: the first piece of a citation in several pieces, without verse letters. Absent when the citation is too complex."},
     "display": {"type": "string", "description": "The citation as the source writes it."},
     "service": {"type": "string", "description": "Liturgy, Matins, Vespers, ... when the source says."},
     "source": {"$ref": "#/$defs/source_id"}

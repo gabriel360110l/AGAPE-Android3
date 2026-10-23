@@ -25,7 +25,7 @@
     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%2C_St._Catherine_Monastery%2C_Sinai%2C_6th_century.jpg",
     "page": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
     "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
-    "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+    "artist": "Anonymous",
     "licence": "CC0",
     "fallback": false,
     "source": "wikimedia_commons",
@@ -63,7 +63,7 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%2C_St._Catherine_Monastery%2C_Sinai%2C_6th_century.jpg",
       "page": "https://commons.wikimedia.org/wiki/File:Nativity,_St._Catherine_Monastery,_Sinai,_6th_century.jpg",
       "title": "Nativity, St. Catherine Monastery, Sinai, 6th century",
-      "artist": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain",
+      "artist": "Anonymous",
       "licence": "CC0",
       "fallback": false,
       "source": "wikimedia_commons",
@@ -108,7 +108,8 @@
     {
      "role": "psalm",
      "display": "Psalm 98:1, 2-3, 3-4, 5-6.",
-     "source": "catholic_readings_api"
+     "source": "catholic_readings_api",
+     "ref": "PSA 98:1"
     },
     {
      "role": "second_reading",
@@ -160,7 +161,13 @@
       "en": "The Departure of the Righteous Gideon, One of the Judges of Israel",
       "nl": "Het heengaan van de rechtvaardige Gideon, een van de rechters van Israël"
      },
-     "life": null,
+     "life": {
+      "text": {
+       "en": "The judge called by the angel of the Lord, who with three hundred men freed Israel from Midian (Judges 6-8). The fleece wet with dew is read as a figure of the Virgin.",
+       "nl": "De richter die door de engel van de Heer werd geroepen en met driehonderd man Israël bevrijdde van Midian (Richteren 6-8). De vacht vol dauw wordt gelezen als een beeld van de Maagd."
+      },
+      "scope": "commemoration"
+     },
      "icon": null,
      "readings": [],
      "refs": [
@@ -173,7 +180,8 @@
      ],
      "provenance": {
       "name": "coptic_io",
-      "name_nl": "agape"
+      "name_nl": "agape",
+      "life": "agape"
      }
     },
     {
