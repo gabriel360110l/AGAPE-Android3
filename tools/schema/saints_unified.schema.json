@@ -1,0 +1,162 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://agape.app/schema/saints_unified.schema.json",
+ "title": "AGAPE saints and feasts, all traditions (agape-saints/1)",
+ "description": "Every fixed commemoration of the Eastern Orthodox, Catholic and Coptic Orthodox calendars in one shape. Dates are stored in each tradition's own calendar; tools/build_unified_saints.py resolves them for a given day (see saint_day.schema.json).",
+ "type": "object",
+ "required": ["schema", "sources", "icons", "commemorations"],
+ "additionalProperties": false,
+ "properties": {
+  "schema": {"const": "agape-saints/1"},
+  "generated_by": {"type": "string"},
+  "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+  "icons": {"type": "array", "items": {"$ref": "#/$defs/icon"}},
+  "commemorations": {"type": "array", "items": {"$ref": "#/$defs/commemoration"}},
+  "dated_readings": {
+   "type": "object",
+   "description": "Readings that follow the lectionary cycle rather than a saint, per tradition and civil date (YYYY-MM-DD). Now only Catholic, 2025-2027.",
+   "propertyNames": {"$ref": "#/$defs/tradition"},
+   "additionalProperties": {
+    "type": "object",
+    "propertyNames": {"pattern": "^\\d{4}-\\d\\d-\\d\\d$"},
+    "additionalProperties": {"type": "array", "items": {"$ref": "#/$defs/reading"}}
+   }
+  }
+ },
+ "$defs": {
+  "tradition": {
+   "enum": ["eastern_orthodox", "catholic", "coptic_orthodox"],
+   "description": "eastern_orthodox = Tradition.EASTERN_ORTHODOX, catholic = Tradition.CATHOLIC, coptic_orthodox = Tradition.ORIENTAL_ORTHODOX in the app."
+  },
+  "l10n": {
+   "type": "object",
+   "required": ["en", "nl"],
+   "additionalProperties": false,
+   "properties": {"en": {"type": "string"}, "nl": {"type": "string"}}
+  },
+  "source_id": {
+   "type": "string",
+   "pattern": "^[a-z0-9_]+$",
+   "description": "The id of an entry in the file's sources list."
+  },
+  "source": {
+   "type": "object",
+   "required": ["id", "name", "licence", "used_for"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"$ref": "#/$defs/source_id"},
+    "name": {"type": "string"},
+    "url": {"type": "string", "format": "uri"},
+    "licence": {"type": "string", "description": "SPDX id where there is one (MIT, CC0-1.0), 'Public domain', 'AGAPE' for the app's own text, or 'unknown'."},
+    "used_for": {"type": "array", "items": {"enum": ["name", "name_nl", "date", "rank", "life", "icon", "readings", "ref"]}},
+    "note": {"type": "string"}
+   }
+  },
+  "date_rule": {
+   "type": "object",
+   "description": "A fixed date in the tradition's own calendar. 'church' is the Byzantine menologion date: read as Gregorian on the new (Revised Julian) calendar and as Julian on the old calendar.",
+   "required": ["calendar", "month", "day"],
+   "additionalProperties": false,
+   "properties": {
+    "calendar": {"enum": ["gregorian", "julian", "coptic", "church"]},
+    "month": {"type": "integer", "minimum": 1, "maximum": 13, "description": "13 is the Coptic little month Nasie."},
+    "day": {"type": "integer", "minimum": 1, "maximum": 31}
+   }
+  },
+  "rank": {
+   "type": "object",
+   "required": ["code", "level"],
+   "additionalProperties": false,
+   "properties": {
+    "code": {"type": "string", "description": "The rank as the source writes it: great, major, saint (menologion); solemnity, feast, memorial, optional memorial, commemoration (Roman)."},
+    "level": {"type": "integer", "minimum": 1, "maximum": 5, "description": "1 great feast / solemnity, 2 feast, 3 memorial / saint, 4 optional memorial, 5 commemoration."}
+   }
+  },
+  "life": {
+   "type": "object",
+   "description": "The life (Synaxarion / Martyrologium) or a short summary of it.",
+   "required": ["text", "scope"],
+   "additionalProperties": false,
+   "properties": {
+    "text": {"$ref": "#/$defs/l10n"},
+    "scope": {"enum": ["commemoration", "day"], "description": "'day' when the text speaks of all commemorations of the day (the menologion summaries)."},
+    "url": {"type": "string", "format": "uri", "description": "Where the full text can be read, when it is not bundled."}
+   }
+  },
+  "icon": {
+   "type": "object",
+   "required": ["key", "asset", "page", "title", "artist", "licence", "fallback", "source"],
+   "additionalProperties": false,
+   "properties": {
+    "key": {"type": "string"},
+    "asset": {"type": "string", "description": "Path inside the app's assets, e.g. icons/nativity.jpg."},
+    "url": {"type": ["string", "null"], "format": "uri", "description": "Direct link to the image (Commons Special:FilePath)."},
+    "page": {"type": "string", "format": "uri", "description": "The image's page at its source, for the credit."},
+    "title": {"type": "string"},
+    "artist": {"type": "string"},
+    "licence": {"enum": ["Public domain", "CC0"]},
+    "fallback": {"type": "boolean", "description": "A generic icon (a martyr, a bishop), used only when no specific one matches."},
+    "source": {"$ref": "#/$defs/source_id"},
+    "match": {"enum": ["name", "fallback"], "description": "Only in a resolved day: how the icon was chosen."}
+   }
+  },
+  "icon_link": {
+   "type": "object",
+   "required": ["key", "match"],
+   "additionalProperties": false,
+   "properties": {
+    "key": {"type": "string", "description": "The key of an entry in icons."},
+    "match": {"enum": ["name", "fallback"]}
+   }
+  },
+  "reading": {
+   "type": "object",
+   "required": ["role", "display", "source"],
+   "additionalProperties": false,
+   "properties": {
+    "role": {"enum": ["first_reading", "psalm", "second_reading", "acclamation", "gospel", "epistle", "apostle", "old_testament", "acts", "catholic_epistle", "pauline", "psalm_gospel", "matins_gospel", "vespers", "other"], "description": "Catholic: first_reading..gospel. Byzantine: epistle/apostle, gospel, old_testament (vespers), matins_gospel. Coptic Katameros: pauline, catholic_epistle, acts, psalm_gospel, gospel."},
+    "ref": {"type": "string", "pattern": "^[1-4A-Z]{3} \\d+:\\d+(-\\d+(:\\d+)?)?$", "description": "The app's own notation (BOOK C:V-V, book ids from books.json), where the reader opens: the first piece of a citation in several pieces, without verse letters. Absent when the citation is too complex."},
+    "display": {"type": "string", "description": "The citation as the source writes it."},
+    "service": {"type": "string", "description": "Liturgy, Matins, Vespers, ... when the source says."},
+    "source": {"$ref": "#/$defs/source_id"}
+   }
+  },
+  "ref": {
+   "type": "object",
+   "description": "The same commemoration in another dataset, to fetch more (full life, readings) from it later.",
+   "required": ["source", "id"],
+   "additionalProperties": false,
+   "properties": {
+    "source": {"$ref": "#/$defs/source_id"},
+    "id": {"type": "string"},
+    "slug": {"type": "string"},
+    "score": {"type": "number", "minimum": 0, "maximum": 1, "description": "How well the names matched (shared words, Jaccard) when the link was made automatically; absent when set by hand."}
+   }
+  },
+  "provenance": {
+   "type": "object",
+   "description": "Which source each part of the entry comes from.",
+   "additionalProperties": {"$ref": "#/$defs/source_id"},
+   "propertyNames": {"enum": ["name", "name_nl", "date", "rank", "life", "icon", "readings"]}
+  },
+  "commemoration": {
+   "type": "object",
+   "required": ["id", "tradition", "kind", "date", "order", "rank", "name", "life", "icon", "readings", "refs", "provenance"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"type": "string", "pattern": "^(eastern_orthodox|catholic|coptic_orthodox)/\\d\\d-\\d\\d/\\d+-[a-z0-9-]+$", "description": "tradition/MM-DD/order-slug, MM-DD in the tradition's own calendar."},
+    "tradition": {"$ref": "#/$defs/tradition"},
+    "kind": {"enum": ["feast", "saint", "event"], "description": "feast: of the Lord, the Mother of God or the Cross; event: council, consecration, translation of relics, miracle; otherwise saint. Derived from the name."},
+    "date": {"$ref": "#/$defs/date_rule"},
+    "order": {"type": "integer", "minimum": 0, "description": "Position among the day's commemorations in the source; 0 is the principal one."},
+    "rank": {"oneOf": [{"$ref": "#/$defs/rank"}, {"type": "null"}]},
+    "name": {"$ref": "#/$defs/l10n"},
+    "life": {"oneOf": [{"$ref": "#/$defs/life"}, {"type": "null"}]},
+    "icon": {"oneOf": [{"$ref": "#/$defs/icon_link"}, {"$ref": "#/$defs/icon"}, {"type": "null"}], "description": "A link to icons in the dataset, the full icon in a resolved day."},
+    "readings": {"type": "array", "items": {"$ref": "#/$defs/reading"}, "description": "Proper readings of this commemoration, when it has its own."},
+    "refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}},
+    "provenance": {"$ref": "#/$defs/provenance"}
+   }
+  }
+ }
+}

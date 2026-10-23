@@ -84,6 +84,7 @@ class AgapeApp : Application() {
         applyDefaultLanguageOnce()
         Notifications.createChannels(this)
         container.sync.start()
+        container.appScope.launchSafely { container.saints.warmUp() }
         ProcessLifecycleOwner.get().lifecycle.addObserver(object : DefaultLifecycleObserver {
             override fun onStart(owner: LifecycleOwner) {
                 container.appScope.launchSafely { container.settings.markOpened() }
