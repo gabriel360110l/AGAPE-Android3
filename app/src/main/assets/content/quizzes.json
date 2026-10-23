@@ -7080,6 +7080,216 @@
    {"q": {"en": "What was he given to drink in his thirst?", "nl": "Wat gaf men hem te drinken in zijn dorst?"}, "options": [{"en": "Water", "nl": "Water"}, {"en": "Vinegar", "nl": "Edik"}, {"en": "Wine", "nl": "Wijn"}], "answer": 1},
    {"q": {"en": "From which book does he ask his enemies to be blotted out?", "nl": "Uit welk boek vraagt hij dat zijn vijanden uitgedelgd worden?"}, "options": [{"en": "The book of life", "nl": "Het boek des levens"}, {"en": "The book of kings", "nl": "Het boek der koningen"}, {"en": "The book of the law", "nl": "Het boek der wet"}], "answer": 0}
   ],
+  "chapter:PSA.70": [
+   {"q": {"en": "What does the psalmist ask God to hurry to do?", "nl": "Waartoe vraagt de psalmist God Zich te haasten?"}, "options": [{"en": "Punish Israel", "nl": "Om Israël te straffen"}, {"en": "Deliver and help him", "nl": "Om hem te verlossen, tot zijn hulp"}, {"en": "Make him rich", "nl": "Om hem rijk te maken"}], "answer": 1},
+   {"q": {"en": "What do his enemies say?", "nl": "Wat zeggen zijn vijanden?"}, "options": [{"en": "Peace!", "nl": "Vrede!"}, {"en": "Amen!", "nl": "Amen!"}, {"en": "Aha! Aha!", "nl": "Ha, ha!"}], "answer": 2},
+   {"q": {"en": "What should those who love God's salvation always say?", "nl": "Wat moeten zij die Gods heil liefhebben steeds zeggen?"}, "options": [{"en": "Let us flee", "nl": "Laat ons vluchten"}, {"en": "Let God be magnified", "nl": "God zij groot gemaakt"}, {"en": "Where is God?", "nl": "Waar is God?"}], "answer": 1},
+   {"q": {"en": "How does the psalmist describe himself?", "nl": "Hoe beschrijft de psalmist zichzelf?"}, "options": [{"en": "Rich and strong", "nl": "Rijk en sterk"}, {"en": "Wise and old", "nl": "Wijs en oud"}, {"en": "Poor and needy", "nl": "Ellendig en nooddruftig"}], "answer": 2}
+  ],
+  "chapter:PSA.71": [
+   {"q": {"en": "Since when has the psalmist trusted in God?", "nl": "Sinds wanneer vertrouwt de psalmist op God?"}, "options": [{"en": "From his youth, even from the womb", "nl": "Van zijn jeugd aan, ja van de buik aan"}, {"en": "Since last year", "nl": "Sinds vorig jaar"}, {"en": "Since he became king", "nl": "Sinds hij koning werd"}], "answer": 0},
+   {"q": {"en": "What does he ask God not to do in his old age?", "nl": "Wat vraagt hij God niet te doen in zijn ouderdom?"}, "options": [{"en": "Make him rich", "nl": "Hem rijk maken"}, {"en": "Cast him off or forsake him", "nl": "Hem verwerpen of verlaten"}, {"en": "Give him rest", "nl": "Hem rust geven"}], "answer": 1},
+   {"q": {"en": "What do his enemies say?", "nl": "Wat zeggen zijn vijanden?"}, "options": [{"en": "God is with him", "nl": "God is met hem"}, {"en": "He is a king", "nl": "Hij is een koning"}, {"en": "God has forsaken him", "nl": "God heeft hem verlaten"}], "answer": 2},
+   {"q": {"en": "With what instruments will he praise God?", "nl": "Met welke instrumenten zal hij God loven?"}, "options": [{"en": "Drums", "nl": "Trommels"}, {"en": "The harp and lyre", "nl": "De luit en de harp"}, {"en": "Trumpets only", "nl": "Alleen bazuinen"}], "answer": 1}
+  ],
+  "chapter:PSA.72": [
+   {"q": {"en": "For whom is this psalm written?", "nl": "Voor wie is deze psalm geschreven?"}, "options": [{"en": "For Moses", "nl": "Voor Mozes"}, {"en": "For Asaph", "nl": "Voor Asaf"}, {"en": "For Solomon", "nl": "Voor Salomo"}], "answer": 2},
+   {"q": {"en": "Like what will the king come down?", "nl": "Gelijk wat zal de koning nederdalen?"}, "options": [{"en": "Rain on the mown grass", "nl": "Regen op het nagras"}, {"en": "A storm", "nl": "Een storm"}, {"en": "Snow", "nl": "Sneeuw"}], "answer": 0},
+   {"q": {"en": "How far will he rule?", "nl": "Hoe ver zal hij heersen?"}, "options": [{"en": "From sea to sea, to the ends of the earth", "nl": "Van de zee tot aan de zee, tot aan de einden der aarde"}, {"en": "Only over Jerusalem", "nl": "Alleen over Jeruzalem"}, {"en": "Over one valley", "nl": "Over één dal"}], "answer": 0},
+   {"q": {"en": "Whose kings will bring gifts?", "nl": "Wier koningen zullen geschenken brengen?"}, "options": [{"en": "Egypt and Assyria", "nl": "Van Egypte en Assyrië"}, {"en": "Tarshish, Sheba and Seba", "nl": "Van Tharsis, Scheba en Seba"}, {"en": "Moab and Edom", "nl": "Van Moab en Edom"}], "answer": 1}
+  ],
+  "chapter:PSA.73": [
+   {"q": {"en": "Whose prosperity made the psalmist envious?", "nl": "Wiens vrede maakte de psalmist nijdig?"}, "options": [{"en": "His brother's", "nl": "Die van zijn broeder"}, {"en": "The wicked's", "nl": "Die der goddelozen"}, {"en": "The priests'", "nl": "Die der priesters"}], "answer": 1},
+   {"q": {"en": "When did he understand their end?", "nl": "Wanneer merkte hij op hun einde?"}, "options": [{"en": "When he went into God's sanctuary", "nl": "Toen hij in Gods heiligdommen inging"}, {"en": "When he read a book", "nl": "Toen hij een boek las"}, {"en": "When he dreamed", "nl": "Toen hij droomde"}], "answer": 0},
+   {"q": {"en": "Where has God set the wicked?", "nl": "Waar heeft God de goddelozen gezet?"}, "options": [{"en": "In slippery places", "nl": "Op gladde plaatsen"}, {"en": "On a rock", "nl": "Op een rots"}, {"en": "In a palace", "nl": "In een paleis"}], "answer": 0},
+   {"q": {"en": "Whom does the psalmist have in heaven?", "nl": "Wie heeft de psalmist in de hemel?"}, "options": [{"en": "His fathers", "nl": "Zijn vaders"}, {"en": "The angels", "nl": "De engelen"}, {"en": "God alone", "nl": "Niemand nevens God"}], "answer": 2}
+  ],
+  "chapter:PSA.74": [
+   {"q": {"en": "What have the enemies done to the sanctuary?", "nl": "Wat hebben de vijanden met het heiligdom gedaan?"}, "options": [{"en": "Burned it with fire", "nl": "Het in het vuur gezet"}, {"en": "Rebuilt it", "nl": "Het herbouwd"}, {"en": "Left it alone", "nl": "Het met rust gelaten"}], "answer": 0},
+   {"q": {"en": "What does the psalmist say is no longer among them?", "nl": "Wat is er volgens de psalmist niet meer bij hen?"}, "options": [{"en": "A king", "nl": "Een koning"}, {"en": "A prophet", "nl": "Een profeet"}, {"en": "Bread", "nl": "Brood"}], "answer": 1},
+   {"q": {"en": "Whose heads did God break in pieces?", "nl": "Wiens koppen heeft God verpletterd?"}, "options": [{"en": "Leviathan's", "nl": "Van de Leviathan"}, {"en": "The Philistines'", "nl": "Van de Filistijnen"}, {"en": "The lions'", "nl": "Van de leeuwen"}], "answer": 0},
+   {"q": {"en": "What has God made?", "nl": "Wat heeft God gemaakt?"}, "options": [{"en": "Only the night", "nl": "Alleen de nacht"}, {"en": "Only the sea", "nl": "Alleen de zee"}, {"en": "Summer and winter", "nl": "Zomer en winter"}], "answer": 2}
+  ],
+  "chapter:PSA.75": [
+   {"q": {"en": "Who is the judge?", "nl": "Wie is de rechter?"}, "options": [{"en": "God", "nl": "God"}, {"en": "The king", "nl": "De koning"}, {"en": "The people", "nl": "Het volk"}], "answer": 0},
+   {"q": {"en": "From where does exaltation not come?", "nl": "Van waar komt de verhoging niet?"}, "options": [{"en": "From the east, west or south", "nl": "Van het oosten, het westen of de woestijn"}, {"en": "From God", "nl": "Van God"}, {"en": "From heaven", "nl": "Van de hemel"}], "answer": 0},
+   {"q": {"en": "What is in the Lord's hand?", "nl": "Wat is er in de hand van de Heer?"}, "options": [{"en": "A sword", "nl": "Een zwaard"}, {"en": "A cup of foaming wine", "nl": "Een beker met beroerde wijn"}, {"en": "A scroll", "nl": "Een boekrol"}], "answer": 1},
+   {"q": {"en": "Whose horns will be lifted up?", "nl": "Wier hoornen zullen verhoogd worden?"}, "options": [{"en": "The righteous'", "nl": "Die van de rechtvaardige"}, {"en": "The wicked's", "nl": "Die der goddelozen"}, {"en": "The kings'", "nl": "Die der koningen"}], "answer": 0}
+  ],
+  "chapter:PSA.76": [
+   {"q": {"en": "Where is God known?", "nl": "Waar is God bekend?"}, "options": [{"en": "In Judah", "nl": "In Juda"}, {"en": "In Egypt", "nl": "In Egypte"}, {"en": "In Babylon", "nl": "In Babel"}], "answer": 0},
+   {"q": {"en": "Where is his tabernacle?", "nl": "Waar is Zijn hut?"}, "options": [{"en": "In Bethel", "nl": "In Bethel"}, {"en": "In Salem", "nl": "In Salem"}, {"en": "In Shiloh", "nl": "In Silo"}], "answer": 1},
+   {"q": {"en": "What did he break there?", "nl": "Wat verbrak Hij daar?"}, "options": [{"en": "The walls of the city", "nl": "De muren van de stad"}, {"en": "The arrows of the bow, the shield and the sword", "nl": "De vurige pijlen van de boog, het schild en het zwaard"}, {"en": "The altar", "nl": "Het altaar"}], "answer": 1},
+   {"q": {"en": "What does the wrath of man do?", "nl": "Wat doet de grimmigheid des mensen?"}, "options": [{"en": "It praises God", "nl": "Zij zal God loffelijk maken"}, {"en": "It destroys God's works", "nl": "Zij verwoest Gods werken"}, {"en": "Nothing", "nl": "Niets"}], "answer": 0}
+  ],
+  "chapter:PSA.77": [
+   {"q": {"en": "What did the psalmist do in the day of his trouble?", "nl": "Wat deed de psalmist ten dage zijner benauwdheid?"}, "options": [{"en": "He sought the Lord", "nl": "Hij zocht de Heer"}, {"en": "He went to sleep", "nl": "Hij ging slapen"}, {"en": "He went to war", "nl": "Hij trok ten strijde"}], "answer": 0},
+   {"q": {"en": "What does he ask in his distress?", "nl": "Wat vraagt hij in zijn nood?"}, "options": [{"en": "Where is the king?", "nl": "Waar is de koning?"}, {"en": "Who will pay me?", "nl": "Wie zal mij betalen?"}, {"en": "Will the Lord reject forever? Has God forgotten to be gracious?", "nl": "Zal de Heer in eeuwigheden verstoten? Heeft God vergeten genadig te zijn?"}], "answer": 2},
+   {"q": {"en": "Where was God's way?", "nl": "Waar was Gods weg?"}, "options": [{"en": "In the sea, and his paths in the great waters", "nl": "In de zee, en Zijn pad in grote wateren"}, {"en": "In the desert only", "nl": "Alleen in de woestijn"}, {"en": "In the city", "nl": "In de stad"}], "answer": 0},
+   {"q": {"en": "By whose hand did God lead his people like a flock?", "nl": "Door wiens hand leidde God Zijn volk als een kudde?"}, "options": [{"en": "Moses and Aaron", "nl": "Mozes en Aäron"}, {"en": "David and Solomon", "nl": "David en Salomo"}, {"en": "Joshua and Caleb", "nl": "Jozua en Kaleb"}], "answer": 0}
+  ],
+  "chapter:PSA.78": [
+   {"q": {"en": "With what will the psalmist open his mouth?", "nl": "Waarmee zal de psalmist zijn mond opendoen?"}, "options": [{"en": "A complaint", "nl": "Met een klacht"}, {"en": "A curse", "nl": "Met een vloek"}, {"en": "Parables (sayings)", "nl": "Met spreuken"}], "answer": 2},
+   {"q": {"en": "How did God lead Israel by day and by night?", "nl": "Hoe leidde God Israël bij dag en bij nacht?"}, "options": [{"en": "With angels", "nl": "Met engelen"}, {"en": "With a star", "nl": "Met een ster"}, {"en": "With a cloud by day and a light of fire by night", "nl": "Met een wolk des daags en met het licht des vuurs de ganse nacht"}], "answer": 2},
+   {"q": {"en": "What bread did man eat in the wilderness?", "nl": "Welk brood at de mens in de woestijn?"}, "options": [{"en": "Barley bread", "nl": "Gerstebrood"}, {"en": "Bread from Egypt", "nl": "Brood uit Egypte"}, {"en": "The bread of angels (manna)", "nl": "Het brood der machtigen (manna)"}], "answer": 2},
+   {"q": {"en": "Whom did God take from the sheepfolds to shepherd Israel?", "nl": "Wie nam God van de schaapskooien om Israël te weiden?"}, "options": [{"en": "Saul", "nl": "Saul"}, {"en": "David his servant", "nl": "Zijn knecht David"}, {"en": "Samuel", "nl": "Samuël"}], "answer": 1}
+  ],
+  "chapter:PSA.79": [
+   {"q": {"en": "What have the nations done to Jerusalem?", "nl": "Wat hebben de heidenen met Jeruzalem gedaan?"}, "options": [{"en": "Laid it in heaps", "nl": "Het tot steenhopen gesteld"}, {"en": "Rebuilt it", "nl": "Het herbouwd"}, {"en": "Honored it", "nl": "Het geëerd"}], "answer": 0},
+   {"q": {"en": "What was given to the birds of the sky?", "nl": "Wat werd aan het gevogelte des hemels gegeven?"}, "options": [{"en": "The dead bodies of God's servants", "nl": "De dode lichamen van Gods knechten"}, {"en": "Bread", "nl": "Brood"}, {"en": "Seed", "nl": "Zaad"}], "answer": 0},
+   {"q": {"en": "What does the psalmist not want the nations to say?", "nl": "Wat wil de psalmist niet dat de heidenen zeggen?"}, "options": [{"en": "Where is their God?", "nl": "Waar is hun God?"}, {"en": "Their God is great", "nl": "Hun God is groot"}, {"en": "Let us go to Zion", "nl": "Laat ons naar Sion gaan"}], "answer": 0},
+   {"q": {"en": "What does God's people call themselves at the end?", "nl": "Hoe noemt Gods volk zich aan het eind?"}, "options": [{"en": "The lions of Judah", "nl": "De leeuwen van Juda"}, {"en": "The kings of the earth", "nl": "De koningen der aarde"}, {"en": "The sheep of his pasture", "nl": "De schapen Zijner weide"}], "answer": 2}
+  ],
+  "chapter:PSA.80": [
+   {"q": {"en": "How is God addressed at the start?", "nl": "Hoe wordt God aan het begin aangesproken?"}, "options": [{"en": "King of Egypt", "nl": "Koning van Egypte"}, {"en": "Judge of Moab", "nl": "Rechter van Moab"}, {"en": "Shepherd of Israel", "nl": "Herder Israëls"}], "answer": 2},
+   {"q": {"en": "What does the refrain ask?", "nl": "Wat vraagt het refrein?"}, "options": [{"en": "Make us rich", "nl": "Maak ons rijk"}, {"en": "Restore us, let your face shine, and we will be saved", "nl": "Breng ons weder, laat Uw aanschijn lichten, zo zullen wij verlost worden"}, {"en": "Give us a king", "nl": "Geef ons een koning"}], "answer": 1},
+   {"q": {"en": "What did God bring out of Egypt?", "nl": "Wat bracht God uit Egypte?"}, "options": [{"en": "An olive tree", "nl": "Een olijfboom"}, {"en": "A cedar", "nl": "Een ceder"}, {"en": "A vine", "nl": "Een wijnstok"}], "answer": 2},
+   {"q": {"en": "What ravages the vine?", "nl": "Wat vernielt de wijnstok?"}, "options": [{"en": "The locust", "nl": "De sprinkhaan"}, {"en": "The flood", "nl": "De vloed"}, {"en": "The boar out of the forest", "nl": "Het zwijn uit het woud"}], "answer": 2}
+  ],
+  "chapter:PSA.81": [
+   {"q": {"en": "When should the trumpet be blown?", "nl": "Wanneer moet de bazuin geblazen worden?"}, "options": [{"en": "Every morning", "nl": "Elke morgen"}, {"en": "Only in war", "nl": "Alleen in de oorlog"}, {"en": "At the new moon, on the feast day", "nl": "In de nieuwe maan, op onze feestdag"}], "answer": 2},
+   {"q": {"en": "What does God say to open wide?", "nl": "Wat zegt God wijd open te doen?"}, "options": [{"en": "Your gates", "nl": "Uw poorten"}, {"en": "Your hands", "nl": "Uw handen"}, {"en": "Your mouth, and I will fill it", "nl": "Uw mond, en Ik zal hem vervullen"}], "answer": 2},
+   {"q": {"en": "What did God's people do?", "nl": "Wat deed Gods volk?"}, "options": [{"en": "They obeyed at once", "nl": "Het gehoorzaamde terstond"}, {"en": "They built a temple", "nl": "Het bouwde een tempel"}, {"en": "They did not listen to his voice", "nl": "Het heeft Zijn stem niet gehoord"}], "answer": 2},
+   {"q": {"en": "With what would God have satisfied them out of the rock?", "nl": "Waarmee zou God hen uit de rots verzadigd hebben?"}, "options": [{"en": "Water only", "nl": "Alleen water"}, {"en": "Oil", "nl": "Olie"}, {"en": "Honey", "nl": "Honig"}], "answer": 2}
+  ],
+  "chapter:PSA.82": [
+   {"q": {"en": "Where does God stand?", "nl": "Waar staat God?"}, "options": [{"en": "In the marketplace", "nl": "Op de markt"}, {"en": "In the congregation of God; he judges among the gods", "nl": "In de vergadering Gods; Hij oordeelt in het midden der goden"}, {"en": "On the sea", "nl": "Op de zee"}], "answer": 1},
+   {"q": {"en": "To whom should the judges do justice?", "nl": "Wie moeten de rechters recht doen?"}, "options": [{"en": "The rich", "nl": "De rijken"}, {"en": "The poor and the fatherless", "nl": "De arme en de wees"}, {"en": "The proud", "nl": "De hovaardigen"}], "answer": 1},
+   {"q": {"en": "What did God say to them?", "nl": "Wat zei God tot hen?"}, "options": [{"en": "You are gods, but you will die like men", "nl": "Gij zijt goden, maar gij zult sterven als een mens"}, {"en": "You will live forever", "nl": "Gij zult eeuwig leven"}, {"en": "You are kings", "nl": "Gij zijt koningen"}], "answer": 0},
+   {"q": {"en": "What does the psalmist ask God to do at the end?", "nl": "Wat vraagt de psalmist God aan het eind te doen?"}, "options": [{"en": "Arise and judge the earth", "nl": "Opstaan en het aardrijk oordelen"}, {"en": "Be silent", "nl": "Zwijgen"}, {"en": "Leave the earth", "nl": "De aarde verlaten"}], "answer": 0}
+  ],
+  "chapter:PSA.83": [
+   {"q": {"en": "What do the enemies want to do to Israel?", "nl": "Wat willen de vijanden met Israël doen?"}, "options": [{"en": "Make peace with it", "nl": "Vrede met het sluiten"}, {"en": "Trade with it", "nl": "Handel met het drijven"}, {"en": "Wipe it out as a nation, so its name is remembered no more", "nl": "Het uitroeien dat het geen volk meer is, en aan de naam Israëls niet meer gedacht wordt"}], "answer": 2},
+   {"q": {"en": "Which nation does the psalmist ask God to treat them like?", "nl": "Als welk volk vraagt de psalmist God hen te behandelen?"}, "options": [{"en": "Egypt", "nl": "Egypte"}, {"en": "Midian", "nl": "Midian"}, {"en": "Rome", "nl": "Rome"}], "answer": 1},
+   {"q": {"en": "Like what does he ask them to be made?", "nl": "Gelijk wat vraagt hij dat zij gemaakt worden?"}, "options": [{"en": "A whirling wheel, like stubble before the wind", "nl": "Een wervel, gelijk stoppelen voor de wind"}, {"en": "Stars", "nl": "Sterren"}, {"en": "Lions", "nl": "Leeuwen"}], "answer": 0},
+   {"q": {"en": "What should they know at the end?", "nl": "Wat moeten zij aan het eind weten?"}, "options": [{"en": "That Israel is weak", "nl": "Dat Israël zwak is"}, {"en": "That the Lord alone is the Most High over all the earth", "nl": "Dat de Heer alleen de Allerhoogste is over de ganse aarde"}, {"en": "That they are strong", "nl": "Dat zij sterk zijn"}], "answer": 1}
+  ],
+  "chapter:PSA.84": [
+   {"q": {"en": "What are lovely, according to the psalm?", "nl": "Wat is volgens de psalm liefelijk?"}, "options": [{"en": "The king's gardens", "nl": "De hoven van de koning"}, {"en": "The mountains", "nl": "De bergen"}, {"en": "God's dwelling places", "nl": "Gods woningen"}], "answer": 2},
+   {"q": {"en": "Which birds have found a home near God's altars?", "nl": "Welke vogels hebben een huis gevonden bij Gods altaren?"}, "options": [{"en": "The eagle and the raven", "nl": "De arend en de raaf"}, {"en": "The sparrow and the swallow", "nl": "De mus en de zwaluw"}, {"en": "The dove only", "nl": "Alleen de duif"}], "answer": 1},
+   {"q": {"en": "A day in God's courts is better than what?", "nl": "Een dag in Gods voorhoven is beter dan wat?"}, "options": [{"en": "A thousand elsewhere", "nl": "Duizend elders"}, {"en": "A year in a palace", "nl": "Een jaar in een paleis"}, {"en": "A feast", "nl": "Een feest"}], "answer": 0},
+   {"q": {"en": "What is the Lord God?", "nl": "Wat is de Heer God?"}, "options": [{"en": "A sun and a shield", "nl": "Een zon en schild"}, {"en": "A storm", "nl": "Een storm"}, {"en": "A stranger", "nl": "Een vreemdeling"}], "answer": 0}
+  ],
+  "chapter:PSA.85": [
+   {"q": {"en": "What do mercy and truth do?", "nl": "Wat doen goedertierenheid en waarheid?"}, "options": [{"en": "Met together", "nl": "Zij zullen elkander ontmoeten"}, {"en": "Fled", "nl": "Zij zullen vluchten"}, {"en": "Fought", "nl": "Zij zullen strijden"}], "answer": 0},
+   {"q": {"en": "What do righteousness and peace do?", "nl": "Wat doen gerechtigheid en vrede?"}, "options": [{"en": "Part", "nl": "Zij zullen scheiden"}, {"en": "Sleep", "nl": "Zij zullen slapen"}, {"en": "Kiss each other", "nl": "Zij zullen elkander kussen"}], "answer": 2},
+   {"q": {"en": "Where does truth spring from?", "nl": "Waaruit spruit de waarheid?"}, "options": [{"en": "The earth", "nl": "Uit de aarde"}, {"en": "The sea", "nl": "Uit de zee"}, {"en": "The temple", "nl": "Uit de tempel"}], "answer": 0},
+   {"q": {"en": "What will God speak to his people?", "nl": "Wat zal God tot Zijn volk spreken?"}, "options": [{"en": "War", "nl": "Oorlog"}, {"en": "Peace", "nl": "Vrede"}, {"en": "Judgment only", "nl": "Alleen oordeel"}], "answer": 1}
+  ],
+  "chapter:PSA.86": [
+   {"q": {"en": "How does David describe himself at the start?", "nl": "Hoe beschrijft David zichzelf aan het begin?"}, "options": [{"en": "Rich and strong", "nl": "Rijk en sterk"}, {"en": "Wise and old", "nl": "Wijs en oud"}, {"en": "Poor and needy", "nl": "Ellendig en nooddruftig"}], "answer": 2},
+   {"q": {"en": "What is the Lord ready to do?", "nl": "Waartoe is de Heer bereid?"}, "options": [{"en": "To punish", "nl": "Om te straffen"}, {"en": "To forgive", "nl": "Om gaarne te vergeven"}, {"en": "To forget", "nl": "Om te vergeten"}], "answer": 1},
+   {"q": {"en": "What does David ask God to unite?", "nl": "Wat vraagt David God te verenigen?"}, "options": [{"en": "His kingdom", "nl": "Zijn koninkrijk"}, {"en": "His heart, to fear God's name", "nl": "Zijn hart, om Gods naam te vrezen"}, {"en": "His family", "nl": "Zijn familie"}], "answer": 1},
+   {"q": {"en": "For what does he ask, so that his enemies may see it?", "nl": "Waarom vraagt hij, opdat zijn vijanden het zien?"}, "options": [{"en": "A sign for good", "nl": "Een teken ten goede"}, {"en": "A sword", "nl": "Een zwaard"}, {"en": "A crown", "nl": "Een kroon"}], "answer": 0}
+  ],
+  "chapter:PSA.87": [
+   {"q": {"en": "Which gates does the Lord love more than all the dwellings of Jacob?", "nl": "Welke poorten heeft de Heer lief boven alle woningen van Jakob?"}, "options": [{"en": "The gates of Egypt", "nl": "De poorten van Egypte"}, {"en": "The gates of Babylon", "nl": "De poorten van Babel"}, {"en": "The gates of Zion", "nl": "De poorten van Sion"}], "answer": 2},
+   {"q": {"en": "What is said of the city of God?", "nl": "Wat wordt er van de stad Gods gesproken?"}, "options": [{"en": "Sad things", "nl": "Treurige dingen"}, {"en": "Glorious things", "nl": "Heerlijke dingen"}, {"en": "Nothing", "nl": "Niets"}], "answer": 1},
+   {"q": {"en": "What will be said of Zion?", "nl": "Wat zal er van Sion gezegd worden?"}, "options": [{"en": "She is empty", "nl": "Zij is leeg"}, {"en": "This one and that one was born in her", "nl": "Die en die is daarin geboren"}, {"en": "She is far away", "nl": "Zij is ver weg"}], "answer": 1},
+   {"q": {"en": "What is said to be in Zion, with the singers?", "nl": "Wat zal er met de zangers binnen Sion zijn?"}, "options": [{"en": "All my springs", "nl": "Al mijn fonteinen"}, {"en": "Their weapons", "nl": "Hun wapens"}, {"en": "Their idols", "nl": "Hun afgoden"}], "answer": 0}
+  ],
+  "chapter:PSA.88": [
+   {"q": {"en": "What is the psalmist's soul full of?", "nl": "Waarvan is de ziel van de psalmist zat?"}, "options": [{"en": "Joy", "nl": "Vreugde"}, {"en": "Troubles", "nl": "Tegenheden"}, {"en": "Food", "nl": "Spijs"}], "answer": 1},
+   {"q": {"en": "Near what does his life draw?", "nl": "Tot waaraan raakt zijn leven?"}, "options": [{"en": "The grave", "nl": "Het graf"}, {"en": "The temple", "nl": "De tempel"}, {"en": "The king", "nl": "De koning"}], "answer": 0},
+   {"q": {"en": "What does he ask about the dead?", "nl": "Wat vraagt hij over de doden?"}, "options": [{"en": "Will you show wonders to the dead?", "nl": "Zult Gij wonder doen aan de doden?"}, {"en": "Are the dead rich?", "nl": "Zijn de doden rijk?"}, {"en": "Where do the dead live?", "nl": "Waar wonen de doden?"}], "answer": 0},
+   {"q": {"en": "When does his prayer come before God?", "nl": "Wanneer komt zijn gebed God voor?"}, "options": [{"en": "At noon", "nl": "Op de middag"}, {"en": "In the morning", "nl": "In de morgenstond"}, {"en": "Never", "nl": "Nooit"}], "answer": 1}
+  ],
+  "chapter:PSA.89": [
+   {"q": {"en": "Who wrote this psalm?", "nl": "Wie schreef deze psalm?"}, "options": [{"en": "Ethan the Ezrahite", "nl": "Ethan de Ezrahiet"}, {"en": "Asaph", "nl": "Asaf"}, {"en": "Moses", "nl": "Mozes"}], "answer": 0},
+   {"q": {"en": "With whom did God make a covenant?", "nl": "Met wie heeft God een verbond gemaakt?"}, "options": [{"en": "Saul", "nl": "Saul"}, {"en": "David his servant", "nl": "Zijn knecht David"}, {"en": "Solomon", "nl": "Salomo"}], "answer": 1},
+   {"q": {"en": "What are the foundation of God's throne?", "nl": "Wat is de vastigheid van Gods troon?"}, "options": [{"en": "Gold and silver", "nl": "Goud en zilver"}, {"en": "Armies", "nl": "Legers"}, {"en": "Righteousness and justice", "nl": "Gerechtigheid en gericht"}], "answer": 2},
+   {"q": {"en": "What does God say David will call him?", "nl": "Hoe zal David God volgens God noemen?"}, "options": [{"en": "My servant", "nl": "Mijn knecht"}, {"en": "My judge", "nl": "Mijn rechter"}, {"en": "My Father, my God, and the rock of my salvation", "nl": "Mijn Vader, mijn God, en de Rotssteen mijns heils"}], "answer": 2}
+  ],
+  "chapter:PSA.90": [
+   {"q": {"en": "Whose prayer is this psalm?", "nl": "Wiens gebed is deze psalm?"}, "options": [{"en": "David", "nl": "Van David"}, {"en": "Moses, the man of God", "nl": "Van Mozes, de man Gods"}, {"en": "Solomon", "nl": "Van Salomo"}], "answer": 1},
+   {"q": {"en": "A thousand years in God's sight are like what?", "nl": "Waarop gelijken duizend jaren in Gods ogen?"}, "options": [{"en": "Yesterday when it is past, a watch in the night", "nl": "De dag van gisteren als hij voorbijgegaan is, een nachtwaak"}, {"en": "A thousand years", "nl": "Duizend jaren"}, {"en": "A long age", "nl": "Een lange eeuw"}], "answer": 0},
+   {"q": {"en": "How long are the days of our years?", "nl": "Hoeveel zijn de dagen onzer jaren?"}, "options": [{"en": "Seventy years, or eighty by reason of strength", "nl": "Zeventig jaren, of tachtig als wij zeer sterk zijn"}, {"en": "A hundred and twenty", "nl": "Honderdtwintig"}, {"en": "Forty", "nl": "Veertig"}], "answer": 0},
+   {"q": {"en": "What does the psalmist ask God to teach us?", "nl": "Wat vraagt de psalmist God ons te leren?"}, "options": [{"en": "To number our days", "nl": "Onze dagen te tellen"}, {"en": "To count our gold", "nl": "Ons goud te tellen"}, {"en": "To fight", "nl": "Te strijden"}], "answer": 0}
+  ],
+  "chapter:PSA.91": [
+   {"q": {"en": "Where does he who dwells in the secret place of the Most High rest?", "nl": "Waar zal hij vernachten die in de schuilplaats des Allerhoogsten is gezeten?"}, "options": [{"en": "In the shadow of the Almighty", "nl": "In de schaduw des Almachtigen"}, {"en": "In a palace", "nl": "In een paleis"}, {"en": "In a cave", "nl": "In een spelonk"}], "answer": 0},
+   {"q": {"en": "What will cover him?", "nl": "Wat zal hem dekken?"}, "options": [{"en": "A tent", "nl": "Een tent"}, {"en": "God's feathers and wings", "nl": "Gods vlerken en vleugelen"}, {"en": "A cloud", "nl": "Een wolk"}], "answer": 1},
+   {"q": {"en": "What will God give his angels charge to do?", "nl": "Waarover zal God Zijn engelen bevelen?"}, "options": [{"en": "Punish you", "nl": "U te straffen"}, {"en": "Leave you", "nl": "U te verlaten"}, {"en": "Keep you in all your ways", "nl": "U te bewaren in al uw wegen"}], "answer": 2},
+   {"q": {"en": "On what will he tread?", "nl": "Waarop zal hij treden?"}, "options": [{"en": "The lion and the adder", "nl": "Op de felle leeuw en de adder"}, {"en": "Gold", "nl": "Op goud"}, {"en": "Water", "nl": "Op water"}], "answer": 0}
+  ],
+  "chapter:PSA.92": [
+   {"q": {"en": "What is good to do?", "nl": "Wat is goed?"}, "options": [{"en": "To give thanks to the Lord", "nl": "De Heer te loven"}, {"en": "To sleep long", "nl": "Lang te slapen"}, {"en": "To be rich", "nl": "Rijk te zijn"}], "answer": 0},
+   {"q": {"en": "When should God's loving kindness be shown?", "nl": "Wanneer moet Gods goedertierenheid verkondigd worden?"}, "options": [{"en": "In the morning, and his faithfulness at night", "nl": "Des morgens, en Zijn getrouwheid in de nachten"}, {"en": "Only on feast days", "nl": "Alleen op feestdagen"}, {"en": "Never", "nl": "Nooit"}], "answer": 0},
+   {"q": {"en": "Like what will the righteous flourish?", "nl": "Gelijk wat zal de rechtvaardige groeien?"}, "options": [{"en": "Grass", "nl": "Gras"}, {"en": "A thorn bush", "nl": "Een doornstruik"}, {"en": "The palm tree and the cedar in Lebanon", "nl": "Een palmboom en een cederboom op Libanon"}], "answer": 2},
+   {"q": {"en": "What will they still do in old age?", "nl": "Wat zullen zij in de grijze ouderdom nog doen?"}, "options": [{"en": "Sleep", "nl": "Slapen"}, {"en": "Fall", "nl": "Vallen"}, {"en": "Bear fruit", "nl": "Vruchten dragen"}], "answer": 2}
+  ],
+  "chapter:PSA.93": [
+   {"q": {"en": "How is the Lord clothed as king?", "nl": "Hoe is de Heer als Koning bekleed?"}, "options": [{"en": "With sackcloth", "nl": "Met een zak"}, {"en": "With majesty and strength", "nl": "Met hoogheid en sterkte"}, {"en": "With gold", "nl": "Met goud"}], "answer": 1},
+   {"q": {"en": "What is established and cannot be moved?", "nl": "Wat staat vast en zal niet wankelen?"}, "options": [{"en": "The sea", "nl": "De zee"}, {"en": "The world", "nl": "De wereld"}, {"en": "The city", "nl": "De stad"}], "answer": 1},
+   {"q": {"en": "Who is mightier than the noise of many waters?", "nl": "Wie is geweldiger dan het bruisen van grote wateren?"}, "options": [{"en": "The king", "nl": "De koning"}, {"en": "The Lord on high", "nl": "De Heer in de hoogte"}, {"en": "The wind", "nl": "De wind"}], "answer": 1},
+   {"q": {"en": "What adorns God's house forever?", "nl": "Wat is Gods huis sierlijk tot lange dagen?"}, "options": [{"en": "Silence", "nl": "De stilte"}, {"en": "Gold", "nl": "Het goud"}, {"en": "Holiness", "nl": "De heiligheid"}], "answer": 2}
+  ],
+  "chapter:PSA.94": [
+   {"q": {"en": "How is God addressed at the start?", "nl": "Hoe wordt God aan het begin aangesproken?"}, "options": [{"en": "God of the harvest", "nl": "God van de oogst"}, {"en": "God of the sea", "nl": "God van de zee"}, {"en": "God to whom vengeance belongs", "nl": "God der wraken"}], "answer": 2},
+   {"q": {"en": "What does the psalmist ask about him who planted the ear?", "nl": "Wat vraagt de psalmist over Hem die het oor plant?"}, "options": [{"en": "Shall he not hear?", "nl": "Zou Hij niet horen?"}, {"en": "Is he asleep?", "nl": "Slaapt Hij?"}, {"en": "Is he far away?", "nl": "Is Hij ver weg?"}], "answer": 0},
+   {"q": {"en": "Who is blessed according to this psalm?", "nl": "Wie is volgens deze psalm welgelukzalig?"}, "options": [{"en": "The man whom the Lord disciplines and teaches from his law", "nl": "De man die de Heer tuchtigt en uit Zijn wet leert"}, {"en": "The man who is never corrected", "nl": "De man die nooit gestraft wordt"}, {"en": "The rich man", "nl": "De rijke man"}], "answer": 0},
+   {"q": {"en": "What held him up when his foot slipped?", "nl": "Wat ondersteunde hem toen zijn voet wankelde?"}, "options": [{"en": "His staff", "nl": "Zijn staf"}, {"en": "The Lord's loving kindness", "nl": "De goedertierenheid van de Heer"}, {"en": "His friend", "nl": "Zijn vriend"}], "answer": 1}
+  ],
+  "chapter:PSA.95": [
+   {"q": {"en": "What are we invited to do before the rock of our salvation?", "nl": "Wat worden wij uitgenodigd te doen voor de Rotssteen van ons heil?"}, "options": [{"en": "Weep", "nl": "Wenen"}, {"en": "Be silent", "nl": "Zwijgen"}, {"en": "Sing and shout for joy", "nl": "Vrolijk zingen en juichen"}], "answer": 2},
+   {"q": {"en": "Whose are the sea and the dry land?", "nl": "Wiens zijn de zee en het droge?"}, "options": [{"en": "The kings'", "nl": "Der koningen"}, {"en": "God's, for he made them", "nl": "Gods, want Hij heeft ze gemaakt"}, {"en": "No one's", "nl": "Van niemand"}], "answer": 1},
+   {"q": {"en": "What are we, according to the psalm?", "nl": "Wat zijn wij volgens de psalm?"}, "options": [{"en": "The sheep of his hand", "nl": "De schapen Zijner hand"}, {"en": "Kings", "nl": "Koningen"}, {"en": "Strangers", "nl": "Vreemdelingen"}], "answer": 0},
+   {"q": {"en": "What does God warn not to do?", "nl": "Waartegen waarschuwt God?"}, "options": [{"en": "Sing too loud", "nl": "Te luid zingen"}, {"en": "Build houses", "nl": "Huizen bouwen"}, {"en": "Harden your hearts as at Meribah", "nl": "Uw hart verharden gelijk te Meriba"}], "answer": 2}
+  ],
+  "chapter:PSA.96": [
+   {"q": {"en": "What kind of song are we to sing to the Lord?", "nl": "Wat voor lied moeten wij de Heer zingen?"}, "options": [{"en": "An old lament", "nl": "Een oude klacht"}, {"en": "A new song", "nl": "Een nieuw lied"}, {"en": "A war song", "nl": "Een strijdlied"}], "answer": 1},
+   {"q": {"en": "What are all the gods of the peoples?", "nl": "Wat zijn al de goden der volken?"}, "options": [{"en": "Kings", "nl": "Koningen"}, {"en": "Idols", "nl": "Afgoden"}, {"en": "Angels", "nl": "Engelen"}], "answer": 1},
+   {"q": {"en": "In what should we worship the Lord?", "nl": "Waarin moeten wij de Heer aanbidden?"}, "options": [{"en": "In fear of men", "nl": "In vrees voor mensen"}, {"en": "In silence only", "nl": "Alleen in stilte"}, {"en": "In the beauty (majesty) of holiness", "nl": "In de heerlijkheid des heiligdoms"}], "answer": 2},
+   {"q": {"en": "Why do the trees of the forest rejoice?", "nl": "Waarom juichen de bomen des wouds?"}, "options": [{"en": "Spring has come", "nl": "De lente is gekomen"}, {"en": "The rain falls", "nl": "De regen valt"}, {"en": "The Lord comes to judge the earth", "nl": "De Heer komt om de aarde te richten"}], "answer": 2}
+  ],
+  "chapter:PSA.97": [
+   {"q": {"en": "What does the earth do because the Lord reigns?", "nl": "Wat doet de aarde omdat de Heer regeert?"}, "options": [{"en": "Rejoice", "nl": "Zich verheugen"}, {"en": "Mourn", "nl": "Rouwen"}, {"en": "Sleep", "nl": "Slapen"}], "answer": 0},
+   {"q": {"en": "What are round about him?", "nl": "Wat is er rondom Hem?"}, "options": [{"en": "Clouds and darkness", "nl": "Wolken en donkerheid"}, {"en": "Angels with swords", "nl": "Engelen met zwaarden"}, {"en": "Gold and jewels", "nl": "Goud en edelstenen"}], "answer": 0},
+   {"q": {"en": "What did the mountains do before the Lord?", "nl": "Wat deden de bergen voor de Heer?"}, "options": [{"en": "Grew taller", "nl": "Werden hoger"}, {"en": "Sang", "nl": "Zongen"}, {"en": "Melt like wax", "nl": "Smolten als was"}], "answer": 2},
+   {"q": {"en": "What is sown for the righteous?", "nl": "Wat is er voor de rechtvaardige gezaaid?"}, "options": [{"en": "Light", "nl": "Het licht"}, {"en": "Grain", "nl": "Koren"}, {"en": "Trouble", "nl": "Moeite"}], "answer": 0}
+  ],
+  "chapter:PSA.98": [
+   {"q": {"en": "Why should we sing a new song to the Lord?", "nl": "Waarom moeten wij de Heer een nieuw lied zingen?"}, "options": [{"en": "He has done marvelous things", "nl": "Hij heeft wonderen gedaan"}, {"en": "It is the new year", "nl": "Het is nieuwjaar"}, {"en": "The king asked it", "nl": "De koning vroeg het"}], "answer": 0},
+   {"q": {"en": "Who have seen the salvation of our God?", "nl": "Wie hebben het heil onzes Gods gezien?"}, "options": [{"en": "All the ends of the earth", "nl": "Alle einden der aarde"}, {"en": "Only the priests", "nl": "Alleen de priesters"}, {"en": "Only Israel's kings", "nl": "Alleen Israëls koningen"}], "answer": 0},
+   {"q": {"en": "Which instruments are named in praising the King?", "nl": "Welke instrumenten worden genoemd om de Koning te loven?"}, "options": [{"en": "Harp, trumpets and horn", "nl": "Harp, trompetten en bazuin"}, {"en": "Drums and flutes", "nl": "Trommels en fluiten"}, {"en": "Bells", "nl": "Klokken"}], "answer": 0},
+   {"q": {"en": "What do the rivers do?", "nl": "Wat doen de rivieren?"}, "options": [{"en": "Clap their hands", "nl": "In de handen klappen"}, {"en": "Run dry", "nl": "Opdrogen"}, {"en": "Overflow", "nl": "Overstromen"}], "answer": 0}
+  ],
+  "chapter:PSA.99": [
+   {"q": {"en": "Between what does the Lord sit enthroned?", "nl": "Tussen wat zit de Heer?"}, "options": [{"en": "Two pillars", "nl": "Twee pilaren"}, {"en": "The cherubim", "nl": "De cherubim"}, {"en": "The stars", "nl": "De sterren"}], "answer": 1},
+   {"q": {"en": "Which three are named among those who called on his name?", "nl": "Welke drie worden genoemd onder hen die Zijn naam aanriepen?"}, "options": [{"en": "Moses, Aaron and Samuel", "nl": "Mozes, Aäron en Samuël"}, {"en": "Abraham, Isaac and Jacob", "nl": "Abraham, Izaäk en Jakob"}, {"en": "David, Solomon and Hezekiah", "nl": "David, Salomo en Hizkia"}], "answer": 0},
+   {"q": {"en": "How did God speak to them?", "nl": "Hoe sprak God tot hen?"}, "options": [{"en": "In the pillar of cloud", "nl": "In de wolkkolom"}, {"en": "In a dream only", "nl": "Alleen in een droom"}, {"en": "Through a king", "nl": "Door een koning"}], "answer": 0},
+   {"q": {"en": "Before what should we bow down to worship?", "nl": "Waarvoor moeten wij ons buigen?"}, "options": [{"en": "Before the sea", "nl": "Voor de zee"}, {"en": "Before the king's palace", "nl": "Voor het paleis van de koning"}, {"en": "At his holy hill", "nl": "Voor de berg Zijner heiligheid"}], "answer": 2}
+  ],
+  "chapter:PSA.100": [
+   {"q": {"en": "What are all lands told to do?", "nl": "Wat wordt alle landen gezegd te doen?"}, "options": [{"en": "Be silent", "nl": "Zwijgen"}, {"en": "Make a joyful noise to the Lord", "nl": "De Heer juichen"}, {"en": "Fight", "nl": "Strijden"}], "answer": 1},
+   {"q": {"en": "How should we serve the Lord?", "nl": "Hoe moeten wij de Heer dienen?"}, "options": [{"en": "With fear only", "nl": "Alleen met vrees"}, {"en": "With sadness", "nl": "Met droefheid"}, {"en": "With gladness", "nl": "Met blijdschap"}], "answer": 2},
+   {"q": {"en": "Who made us?", "nl": "Wie heeft ons gemaakt?"}, "options": [{"en": "The Lord; we are his", "nl": "De Heer (en niet wij)"}, {"en": "Our fathers", "nl": "Onze vaders"}, {"en": "The earth", "nl": "De aarde"}], "answer": 0},
+   {"q": {"en": "How should we enter his gates?", "nl": "Hoe moeten wij Zijn poorten ingaan?"}, "options": [{"en": "With thanksgiving", "nl": "Met lof"}, {"en": "With weapons", "nl": "Met wapens"}, {"en": "In silence", "nl": "In stilte"}], "answer": 0}
+  ],
+  "chapter:PSA.101": [
+   {"q": {"en": "Of what will the psalmist sing?", "nl": "Waarvan zal de psalmist zingen?"}, "options": [{"en": "War", "nl": "Oorlog"}, {"en": "Riches", "nl": "Rijkdom"}, {"en": "Mercy (loving kindness) and justice", "nl": "Goedertierenheid en recht"}], "answer": 2},
+   {"q": {"en": "What will he not set before his eyes?", "nl": "Wat zal hij niet voor zijn ogen stellen?"}, "options": [{"en": "The law", "nl": "De wet"}, {"en": "His friends", "nl": "Zijn vrienden"}, {"en": "Any vile (worthless) thing", "nl": "Een Belials-stuk"}], "answer": 2},
+   {"q": {"en": "Whom will he not endure?", "nl": "Wie zal hij niet vermogen?"}, "options": [{"en": "The poor", "nl": "De arme"}, {"en": "The humble", "nl": "De nederige"}, {"en": "One who is arrogant and conceited", "nl": "Die hoog van ogen en trots van hart is"}], "answer": 2},
+   {"q": {"en": "Who will serve him?", "nl": "Wie zal hem dienen?"}, "options": [{"en": "A liar", "nl": "Een leugenaar"}, {"en": "A slanderer", "nl": "Een lasteraar"}, {"en": "He who walks in a perfect way", "nl": "Die in een oprechte weg wandelt"}], "answer": 2}
+  ],
+  "chapter:PSA.102": [
+   {"q": {"en": "To what is the afflicted man like?", "nl": "Waarbij is de ellendige gelijk?"}, "options": [{"en": "An eagle", "nl": "Een arend"}, {"en": "A lion", "nl": "Een leeuw"}, {"en": "A pelican of the wilderness, an owl of the desert", "nl": "Een roerdomp der woestijn, een steenuil der wildernissen"}], "answer": 2},
+   {"q": {"en": "Like what are his days?", "nl": "Gelijk wat zijn zijn dagen?"}, "options": [{"en": "A strong tower", "nl": "Een sterke toren"}, {"en": "A long (declining) shadow", "nl": "Een afgaande schaduw"}, {"en": "A river", "nl": "Een rivier"}], "answer": 1},
+   {"q": {"en": "What will happen to the heavens and the earth?", "nl": "Wat zal er met de hemelen en de aarde gebeuren?"}, "options": [{"en": "They will last forever", "nl": "Zij zullen eeuwig blijven"}, {"en": "They will become gold", "nl": "Zij zullen goud worden"}, {"en": "They will perish and wear out like a garment", "nl": "Zij zullen vergaan en als een kleed verouden"}], "answer": 2},
+   {"q": {"en": "What does the psalm say of God's years?", "nl": "Wat zegt de psalm van Gods jaren?"}, "options": [{"en": "They will have no end", "nl": "Zij zullen niet geëindigd worden"}, {"en": "They are few", "nl": "Zij zijn weinig"}, {"en": "They are past", "nl": "Zij zijn voorbij"}], "answer": 0}
+  ],
+  "chapter:PSA.103": [
+   {"q": {"en": "What should the soul not forget?", "nl": "Wat moet de ziel niet vergeten?"}, "options": [{"en": "Its enemies", "nl": "Haar vijanden"}, {"en": "Its riches", "nl": "Haar rijkdom"}, {"en": "All God's benefits", "nl": "Gods weldaden"}], "answer": 2},
+   {"q": {"en": "Like what is the psalmist's youth renewed?", "nl": "Gelijk wat wordt de jeugd van de psalmist vernieuwd?"}, "options": [{"en": "The eagle's", "nl": "Die van een arend"}, {"en": "A lion's", "nl": "Die van een leeuw"}, {"en": "A tree's", "nl": "Die van een boom"}], "answer": 0},
+   {"q": {"en": "How far has God removed our transgressions from us?", "nl": "Hoe ver heeft God onze overtredingen van ons verwijderd?"}, "options": [{"en": "As far as the east is from the west", "nl": "Zo ver als het oosten is van het westen"}, {"en": "A short distance", "nl": "Een kleine afstand"}, {"en": "To the sea", "nl": "Tot de zee"}], "answer": 0},
+   {"q": {"en": "Like what are man's days?", "nl": "Gelijk wat zijn de dagen van de mens?"}, "options": [{"en": "A mountain", "nl": "Een berg"}, {"en": "Grass, a flower of the field", "nl": "Het gras, een bloem des velds"}, {"en": "A star", "nl": "Een ster"}], "answer": 1}
+  ],
+  "chapter:PSA.104": [
+   {"q": {"en": "With what does God cover himself?", "nl": "Waarmee bedekt God Zich?"}, "options": [{"en": "Light, as with a garment", "nl": "Met het licht, als met een kleed"}, {"en": "Sackcloth", "nl": "Een zak"}, {"en": "Darkness only", "nl": "Alleen duisternis"}], "answer": 0},
+   {"q": {"en": "What does God make his chariot?", "nl": "Wat maakt God tot Zijn wagen?"}, "options": [{"en": "The clouds", "nl": "De wolken"}, {"en": "The stars", "nl": "De sterren"}, {"en": "The sea", "nl": "De zee"}], "answer": 0},
+   {"q": {"en": "What gladdens man's heart, according to this psalm?", "nl": "Wat verheugt volgens deze psalm het hart des mensen?"}, "options": [{"en": "Gold", "nl": "Het goud"}, {"en": "Fame", "nl": "De roem"}, {"en": "Wine", "nl": "De wijn"}], "answer": 2},
+   {"q": {"en": "What did God appoint the moon for?", "nl": "Waartoe heeft God de maan gemaakt?"}, "options": [{"en": "War", "nl": "Tot de oorlog"}, {"en": "Seasons (set times)", "nl": "Tot de gezette tijden"}, {"en": "Light for the day", "nl": "Tot licht voor de dag"}], "answer": 1}
+  ],
   "chapter:RUT.1": [
    {"q": {"en": "Why did Elimelech's family go to Moab?", "nl": "Waarom ging de familie van Elimelech naar Moab?"}, "options": [{"en": "To find wives", "nl": "Om vrouwen te zoeken"}, {"en": "There was a famine in Bethlehem", "nl": "Er was hongersnood in Bethlehem"}, {"en": "To flee a war", "nl": "Om een oorlog te ontvluchten"}], "answer": 1},
    {"q": {"en": "Who were Naomi's daughters-in-law?", "nl": "Wie waren de schoondochters van Naomi?"}, "options": [{"en": "Rachel and Leah", "nl": "Rachel en Lea"}, {"en": "Orpah and Ruth", "nl": "Orpa en Ruth"}, {"en": "Hannah and Peninnah", "nl": "Hanna en Peninna"}], "answer": 1},
