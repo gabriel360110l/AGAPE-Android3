@@ -48,7 +48,8 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
   it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: the whole
   New Testament and the major Old Testament books (Genesis, Exodus, Joshua, Judges, Ruth, 1 and 2 Samuel, 1 and 2
-  Kings, Tobit, Judith, Esther, Job, Isaiah, Jeremiah, Lamentations, Baruch, Ezekiel, Daniel, Jonah) have hand-written
+  Kings, Tobit, Judith, Esther, Job, Isaiah, Jeremiah, Lamentations, Baruch, Ezekiel, Daniel and the twelve minor
+  prophets, Hosea to Malachi) have hand-written
   questions (4 per chapter, the Esther quiz keeps to the text both Bibles share); other chapters get 5 questions and
   every book 20, generated
   from the Bible text (`data/quiz/QuizGenerator.kt`).
