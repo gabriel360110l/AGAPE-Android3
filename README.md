@@ -116,7 +116,7 @@ remaining deuterocanonical books) still show the legacy guide, marked in the app
 - Write the remaining Old Testament chapter commentary (EN + NL): Jeremiah, Lamentations, Baruch, Daniel, the twelve
   minor prophets (Hosea to Malachi) and the remaining deuterocanonical books. Then have the written commentary,
   the quizzes, the menologion texts, the council translations, the Dutch saint names and the saint summaries
-  reviewed: the 137 Coptic summaries marked `?` first, which say only what was safe without the full Synaxarium
+  reviewed: the 145 Coptic summaries marked `?` first, which say only what was safe without the full Synaxarium
   text and should be checked and filled out against it.
 - Add icons for more saints (each checked for a public-domain or CC0 licence).
 - Add a release signing config and a Play Store listing (screenshots per style).
