@@ -4,7 +4,7 @@ Concept, laatst bijgewerkt op 23 oktober 2026. Deze voorwaarden zijn nog niet do
 
 ## 1. Over AGAPE
 
-AGAPE is een Bijbel- en gebedsapp voor Oosters-Orthodoxe, Oriëntaals-Orthodoxe en Katholieke christenen. De app wordt gratis aangeboden door [naam uitgever, adres, land] ("wij"). Door de app te gebruiken ga je akkoord met deze voorwaarden. Hoe we met je persoonsgegevens omgaan, staat in het Privacybeleid.
+AGAPE is een Bijbel- en gebedsapp voor Oosters-Orthodoxe, Oriëntaals-Orthodoxe en Katholieke christenen. De app wordt gratis aangeboden door [naam en adres uitgever], Nederland ("wij"). Door de app te gebruiken ga je akkoord met deze voorwaarden. Hoe we met je persoonsgegevens omgaan, staat in het Privacybeleid.
 
 ## 2. Je account
 
@@ -40,8 +40,8 @@ We kunnen deze voorwaarden aanpassen. We passen dan de datum bovenaan aan, en bi
 
 ## 10. Toepasselijk recht
 
-Op deze voorwaarden is het recht van [land nog te bevestigen] van toepassing. Geschillen gaan naar de bevoegde rechter daar, tenzij je als consument volgens de wet naar een rechter in je eigen woonplaats mag.
+Op deze voorwaarden is Nederlands recht van toepassing. Geschillen gaan naar de bevoegde rechter daar, tenzij je als consument volgens de wet naar een rechter in je eigen woonplaats mag.
 
 ## 11. Contact
 
-Vragen? Schrijf naar support@example.org [supportadres nog te bevestigen].
+Vragen? Schrijf naar gabriel360110l@gmail.com.

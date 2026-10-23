@@ -4,7 +4,7 @@ Concept, laatst bijgewerkt op 23 oktober 2026. Deze tekst beschrijft wat de app 
 
 ## Wie is verantwoordelijk
 
-AGAPE wordt aangeboden door [naam uitgever, adres, land] ("wij"). Wij zijn verantwoordelijk voor de persoonsgegevens die in dit beleid staan. Je bereikt ons via support@example.org [supportadres nog te bevestigen].
+AGAPE wordt aangeboden door [naam en adres uitgever], Nederland ("wij"). Wij zijn verantwoordelijk voor de persoonsgegevens die in dit beleid staan. Je bereikt ons via gabriel360110l@gmail.com.
 
 ## In het kort
 
@@ -44,7 +44,7 @@ We bewaren je account en gesynchroniseerde voortgang zolang je een account hebt.
 
 ## Je rechten
 
-Je hebt het recht om je gegevens in te zien, te laten corrigeren of verwijderen, een kopie te krijgen (dataportabiliteit), het gebruik te laten beperken of er bezwaar tegen te maken, en je toestemming in te trekken. Je kunt je account en alle gesynchroniseerde gegevens zelf verwijderen via Ik → Instellingen → Account verwijderen. Voor een kopie van je gegevens of een ander verzoek schrijf je naar het adres hierboven; we antwoorden binnen een maand. Je kunt ook een klacht indienen bij de toezichthouder; in Nederland is dat de Autoriteit Persoonsgegevens [aanpassen als de uitgever in een ander land gevestigd is].
+Je hebt het recht om je gegevens in te zien, te laten corrigeren of verwijderen, een kopie te krijgen (dataportabiliteit), het gebruik te laten beperken of er bezwaar tegen te maken, en je toestemming in te trekken. Je kunt je account en alle gesynchroniseerde gegevens zelf verwijderen via Ik → Instellingen → Account verwijderen. Voor een kopie van je gegevens of een ander verzoek schrijf je naar het adres hierboven; we antwoorden binnen een maand. Je kunt ook een klacht indienen bij de toezichthouder; in Nederland is dat de Autoriteit Persoonsgegevens.
 
 ## Kinderen
 

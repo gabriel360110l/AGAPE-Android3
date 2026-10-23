@@ -4,7 +4,7 @@ Draft, last updated 23 October 2026. This text describes what the app actually d
 
 ## Who is responsible
 
-AGAPE is offered by [publisher name, address, country] ("we"). We are responsible for the personal data described in this policy. You can reach us at support@example.org [support address to be confirmed].
+AGAPE is offered by [publisher name and address], the Netherlands ("we"). We are responsible for the personal data described in this policy. You can reach us at gabriel360110l@gmail.com.
 
 ## In short
 
@@ -44,7 +44,7 @@ We keep your account and synced progress for as long as you have an account. Whe
 
 ## Your rights
 
-You have the right to access your data, to have it corrected or deleted, to receive a copy (data portability), to restrict or object to its use, and to withdraw consent. You can delete your account and all synced data yourself in Me → Settings → Delete account. For a copy of your data or any other request, write to the address above; we will answer within one month. You may also file a complaint with your data protection authority; in the Netherlands that is the Autoriteit Persoonsgegevens [adjust if the publisher is based in another country].
+You have the right to access your data, to have it corrected or deleted, to receive a copy (data portability), to restrict or object to its use, and to withdraw consent. You can delete your account and all synced data yourself in Me → Settings → Delete account. For a copy of your data or any other request, write to the address above; we will answer within one month. You may also file a complaint with your data protection authority; in the Netherlands that is the Autoriteit Persoonsgegevens.
 
 ## Children
 

@@ -4,7 +4,7 @@ Draft, last updated 23 October 2026. These terms have not yet been reviewed by a
 
 ## 1. About AGAPE
 
-AGAPE is a Bible and prayer app for Eastern Orthodox, Oriental Orthodox and Catholic Christians. It is offered free of charge by [publisher name, address, country] ("we"). By using the app you accept these terms. How we handle your personal data is described in the Privacy Policy.
+AGAPE is a Bible and prayer app for Eastern Orthodox, Oriental Orthodox and Catholic Christians. It is offered free of charge by [publisher name and address], the Netherlands ("we"). By using the app you accept these terms. How we handle your personal data is described in the Privacy Policy.
 
 ## 2. Your account
 
@@ -40,8 +40,8 @@ We may update these terms. We will change the date at the top, and if a change i
 
 ## 10. Applicable law
 
-These terms are governed by the law of [country to be confirmed]. Disputes go to the competent court there, unless consumer law gives you the right to go to a court where you live.
+These terms are governed by Dutch law. Disputes go to the competent court there, unless consumer law gives you the right to go to a court where you live.
 
 ## 11. Contact
 
-Questions? Write to support@example.org [support address to be confirmed].
+Questions? Write to gabriel360110l@gmail.com.
