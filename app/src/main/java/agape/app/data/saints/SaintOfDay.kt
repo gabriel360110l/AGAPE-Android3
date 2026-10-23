@@ -40,13 +40,21 @@ class SaintsRepository(private val content: ContentRepository) {
             }
             Tradition.ORIENTAL_ORTHODOX -> {
                 val coptic = LiturgicalCalendar.coptic(date)
-                names = content.saintsOo(coptic.month, coptic.day).map { it.title.en to it.title[language] }
+                val saints = content.saintsOo(coptic.month, coptic.day)
+                names = saints.map { it.title.en to it.title[language] }
+                summary = saints.firstOrNull()?.summary?.get(language).orEmpty()
             }
-            Tradition.CATHOLIC -> names = content.saintsCa(date).map { it.title.en to it.title[language] }
+            Tradition.CATHOLIC -> {
+                val saints = content.saintsCa(date)
+                names = saints.map { it.title.en to it.title[language] }
+                summary = saints.firstOrNull()?.summary?.get(language).orEmpty()
+            }
         }
         if (greatFeast != null) {
             val icon = content.iconFor(listOf(greatFeast.name.en))
-            return SaintOfDay(greatFeast.name[language], names.map { it.second }, summary, icon, isFeast = true)
+            // The Coptic and Roman summaries describe the day's saint, not a moveable feast that takes its place.
+            val feastSummary = if (tradition == Tradition.EASTERN_ORTHODOX) summary else ""
+            return SaintOfDay(greatFeast.name[language], names.map { it.second }, feastSummary, icon, isFeast = true)
         }
         if (names.isEmpty()) return null
         return SaintOfDay(
