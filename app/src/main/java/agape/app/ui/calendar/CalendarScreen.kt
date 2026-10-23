@@ -11,6 +11,7 @@ import agape.app.ui.LocalLanguage
 import agape.app.ui.components.AgapeCard
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
+import agape.app.ui.components.TabHeader
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.tradition
 import androidx.compose.foundation.background
@@ -72,7 +73,7 @@ fun secondaryDate(tradition: Tradition, date: LocalDate, lang: AppLanguage): Str
 }
 
 @Composable
-fun CalendarScreen(onBack: () -> Unit) {
+fun CalendarScreen(onBack: (() -> Unit)? = null) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val tradition = tradition
@@ -87,7 +88,9 @@ fun CalendarScreen(onBack: () -> Unit) {
     val c = AgapeTheme.colors
 
     Column(Modifier.fillMaxSize()) {
-        DetailTopBar(stringResource(R.string.calendar_title), onBack)
+        // A tab of its own; with onBack it is opened from elsewhere as a detail screen.
+        if (onBack != null) DetailTopBar(stringResource(R.string.calendar_title), onBack)
+        else TabHeader(kicker = secondaryDate(tradition, today, lang).orEmpty(), title = stringResource(R.string.calendar_title))
         Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 32.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 IconButton({ month = ym.minusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowLeft, stringResource(R.string.calendar_previous), tint = c.ink) }

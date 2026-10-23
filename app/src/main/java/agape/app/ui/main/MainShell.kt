@@ -33,6 +33,8 @@ import agape.app.ui.plans.QuizScreen
 import agape.app.ui.prayer.HourScreen
 import agape.app.ui.prayer.PrayerScreen
 import agape.app.ui.prayer.PrayerTextScreen
+import agape.app.ui.prayer.ROSARY_ID
+import agape.app.ui.prayer.RosaryScreen
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.tour.TourOverlay
 import android.content.Intent
@@ -41,7 +43,9 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -53,7 +57,6 @@ import androidx.compose.foundation.layout.windowInsetsTopHeight
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.ui.draw.shadow
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.semantics.Role
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -64,7 +67,10 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.outlined.Home
-import androidx.compose.material.icons.outlined.Person
+import androidx.compose.material.icons.automirrored.filled.MenuBook
+import androidx.compose.material.icons.filled.CalendarMonth
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.outlined.CalendarMonth
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -95,14 +101,22 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import kotlin.reflect.KClass
 
-private data class Tab(val route: Any, val routeClass: KClass<*>, val label: Int, val icon: ImageVector, val stop: TourStop?)
+private data class Tab(
+    val route: Any,
+    val routeClass: KClass<*>,
+    val label: Int,
+    val icon: ImageVector,
+    val selectedIcon: ImageVector,
+    val stop: TourStop?,
+)
 
+// Profile and settings (Me) open from the gear on Home, so the bar keeps the five places of a day.
 private val tabs = listOf(
-    Tab(HomeRoute, HomeRoute::class, R.string.tab_home, Icons.Outlined.Home, TourStop.HOME),
-    Tab(BibleRoute, BibleRoute::class, R.string.tab_bible, Icons.AutoMirrored.Outlined.MenuBook, TourStop.BIBLE),
-    Tab(PrayerRoute, PrayerRoute::class, R.string.tab_prayer, AgapeIcons.Candle, TourStop.PRAYER),
-    Tab(SearchRoute, SearchRoute::class, R.string.tab_search, Icons.Outlined.Search, null),
-    Tab(MeRoute, MeRoute::class, R.string.tab_me, Icons.Outlined.Person, TourStop.ME),
+    Tab(HomeRoute, HomeRoute::class, R.string.tab_home, Icons.Outlined.Home, Icons.Filled.Home, TourStop.HOME),
+    Tab(BibleRoute, BibleRoute::class, R.string.tab_bible, Icons.AutoMirrored.Outlined.MenuBook, Icons.AutoMirrored.Filled.MenuBook, TourStop.BIBLE),
+    Tab(CalendarRoute, CalendarRoute::class, R.string.calendar_title, Icons.Outlined.CalendarMonth, Icons.Filled.CalendarMonth, null),
+    Tab(PrayerRoute, PrayerRoute::class, R.string.tab_prayer, AgapeIcons.Candle, AgapeIcons.Candle, TourStop.PRAYER),
+    Tab(SearchRoute, SearchRoute::class, R.string.tab_search, Icons.Outlined.Search, Icons.Outlined.Search, null),
 )
 
 @Composable
@@ -131,8 +145,9 @@ fun MainShell(newIntents: StateFlow<Intent?>, onIntentHandled: () -> Unit) {
     ) { padding ->
         Box(Modifier.fillMaxSize().padding(bottom = padding.calculateBottomPadding())) {
             AgapeNavHost(nav)
-            // Content scrolls beneath the status bar; a soft veil keeps the clock and icons readable.
-            Box(Modifier.fillMaxWidth().windowInsetsTopHeight(WindowInsets.statusBars).background(AgapeTheme.colors.background.copy(alpha = 0.94f)))
+            // Content scrolls beneath the status bar; a soft veil keeps the clock and icons readable. Home has its
+            // own dark picture there, which the veil would hide.
+            if (currentTab?.route != HomeRoute) Box(Modifier.fillMaxWidth().windowInsetsTopHeight(WindowInsets.statusBars).background(AgapeTheme.colors.background.copy(alpha = 0.94f)))
             // Guided tour: the first visit to each tab explains it. The Prayer tab's explanation lives in PrayerScreen.
             val stop = currentTab?.stop
             if (stop != null && stop != TourStop.PRAYER && stop !in settings.tourSeen) {
@@ -149,43 +164,46 @@ private fun NavHostController.navigateToTab(route: Any) = navigate(route) {
     restoreState = true
 }
 
-/** A floating, rounded tab bar. The Prayer tab, the heart of the app, is a lit medallion. */
+/**
+ * A floating, rounded tab bar that hovers over the page, dark and slightly translucent. The current tab sits in a
+ * soft pill of its own, with a filled icon.
+ */
 @Composable
 private fun BottomBar(current: Tab?, onSelect: (Tab) -> Unit) {
     val c = AgapeTheme.colors
+    val bar = if (c.isDark) c.surfaceRaised else c.ink
+    val on = if (c.isDark) c.ink else c.background
     Box(
-        Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(start = 18.dp, end = 18.dp, bottom = 10.dp, top = 4.dp),
+        Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(start = 16.dp, end = 16.dp, bottom = 10.dp, top = 4.dp),
     ) {
         Row(
             Modifier.fillMaxWidth()
-                .shadow(18.dp, CircleShape, ambientColor = c.primary.copy(alpha = 0.18f), spotColor = c.primary.copy(alpha = 0.22f))
+                .shadow(24.dp, CircleShape, ambientColor = Color.Black.copy(alpha = 0.35f), spotColor = Color.Black.copy(alpha = 0.45f))
                 .clip(CircleShape)
-                .background(c.surfaceRaised.copy(alpha = 0.97f))
+                .background(bar.copy(alpha = 0.94f))
+                .border(0.8.dp, on.copy(alpha = 0.10f), CircleShape)
                 .padding(horizontal = 6.dp, vertical = 6.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             tabs.forEach { tab ->
                 val selected = tab == current
-                val isPrayer = tab.stop == TourStop.PRAYER
                 val label = stringResource(tab.label)
+                val pill by animateColorAsState(if (selected) on.copy(alpha = 0.10f) else Color.Transparent, label = "tab")
                 Column(
-                    Modifier.weight(1f).clip(CircleShape)
+                    Modifier.weight(1f).clip(CircleShape).background(pill)
                         .selectable(selected = selected, role = Role.Tab, onClick = { onSelect(tab) })
-                        .padding(vertical = 6.dp),
+                        .padding(vertical = 8.dp),
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
-                    if (isPrayer) {
-                        Box(
-                            Modifier.size(42.dp).clip(CircleShape)
-                                .background(Brush.linearGradient(listOf(c.primary, c.accent.copy(alpha = 0.9f)))),
-                            contentAlignment = Alignment.Center,
-                        ) { Icon(tab.icon, contentDescription = label, tint = c.onPrimary, modifier = Modifier.size(22.dp)) }
-                    } else {
-                        Icon(tab.icon, null, tint = if (selected) c.primary else c.inkFaint, modifier = Modifier.size(24.dp))
-                        Spacer(Modifier.height(4.dp))
-                        Text(label, style = MaterialTheme.typography.labelSmall, color = if (selected) c.ink else c.inkFaint)
-                        Box(Modifier.padding(top = 3.dp).size(4.dp).clip(CircleShape).background(if (selected) c.accent else Color.Transparent))
-                    }
+                    Icon(
+                        if (selected) tab.selectedIcon else tab.icon, null,
+                        tint = if (selected) on else on.copy(alpha = 0.62f), modifier = Modifier.size(25.dp),
+                    )
+                    Spacer(Modifier.height(3.dp))
+                    Text(
+                        label, style = MaterialTheme.typography.labelSmall, maxLines = 1,
+                        color = if (selected) on else on.copy(alpha = 0.62f),
+                    )
                 }
             }
         }
@@ -202,23 +220,27 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openPlans = { nav.navigate(PlansRoute) },
                 openPlan = { nav.navigate(PlanRoute(it)) },
                 openTab = { route -> nav.navigateToTab(route) },
-                openSaved = { nav.navigate(SavedRoute) },
-                openHour = { nav.navigate(HourRoute(it)) },
-                openCalendar = { nav.navigate(CalendarRoute) },
+                openHelp = { nav.navigate(HelpRoute) },
+                openProfile = { nav.navigate(MeRoute) },
+                openRosary = { nav.navigate(RosaryRoute) },
+                openCalendar = { nav.navigateToTab(CalendarRoute) },
             )
         }
-        composable<CalendarRoute> { CalendarScreen(onBack = back) }
+        composable<CalendarRoute> { CalendarScreen() }
+        composable<RosaryRoute> {
+            RosaryScreen(onBack = back, openPassage = { p -> nav.navigate(ReaderRoute(p.book, p.chapter, p.startVerse ?: 0)) })
+        }
         composable<SearchRoute> {
             SearchScreen(open = { t ->
                 when (t) {
                     is SearchTarget.Verse -> nav.navigate(ReaderRoute(t.book, t.chapter, t.verse))
-                    is SearchTarget.Hour -> nav.navigate(HourRoute(t.id))
+                    is SearchTarget.Hour -> nav.navigate(if (t.id == ROSARY_ID) RosaryRoute else HourRoute(t.id))
                     is SearchTarget.Prayer -> nav.navigate(PrayerTextRoute(t.id))
                     is SearchTarget.Council -> nav.navigate(CouncilRoute(t.id))
                     is SearchTarget.Father -> nav.navigate(FatherRoute(t.id))
                     is SearchTarget.Article -> nav.navigate(ArticleRoute(t.id))
                     is SearchTarget.Plan -> nav.navigate(PlanRoute(t.id))
-                    SearchTarget.Calendar -> nav.navigate(CalendarRoute)
+                    SearchTarget.Calendar -> nav.navigateToTab(CalendarRoute)
                 }
             })
         }
@@ -233,10 +255,15 @@ private fun AgapeNavHost(nav: NavHostController) {
             )
         }
         composable<PrayerRoute> {
-            PrayerScreen(openHour = { nav.navigate(HourRoute(it)) }, openPrayer = { nav.navigate(PrayerTextRoute(it)) })
+            PrayerScreen(
+                openHour = { nav.navigate(if (it == ROSARY_ID) RosaryRoute else HourRoute(it)) },
+                openPrayer = { nav.navigate(PrayerTextRoute(it)) },
+                openRosary = { nav.navigate(RosaryRoute) },
+            )
         }
         composable<MeRoute> {
             MeScreen(
+                onBack = back,
                 openSettings = { nav.navigate(SettingsRoute) },
                 openSaved = { nav.navigate(SavedRoute) },
                 openActivity = { nav.navigate(ActivityRoute) },

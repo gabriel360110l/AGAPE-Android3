@@ -30,7 +30,7 @@ app/src/main/java/agape/app/
     daily/         saint and readings of the day (orthocal.info, api.coptic.io, calapi), cached offline
     calendar/      Pascha (East and West)
   notifications/   prayer-hour alarms, boot rescheduling, inactivity reminder worker
-  ui/              onboarding, guided tour, 5-tab shell (Home · Bible · Prayer · Search · Me) and all screens
+  ui/              onboarding, guided tour, 5-tab shell (Home · Bible · Calendar · Prayer · Search) and all screens
   ui/theme/        3 styles × light/dark: Navy + Cream, Classic Sacred, Warm Terracotta
 tools/build_content.py   rebuilds assets/bible/bible.db and generated JSON from tools/source/
 supabase/migrations/     database schema (user snapshot table, RLS, account deletion)
@@ -38,12 +38,20 @@ supabase/migrations/     database schema (user snapshot table, RLS, account dele
 
 ## App flow
 
-Welcome → Terms → Choose Church → Choose style → Sign in / Create account → Guided tour → Home · Bible · Prayer · Search · Me.
+Welcome → Terms → Choose Church → Choose style → Sign in / Create account → Guided tour → Home · Bible · Calendar · Prayer · Search.
+Profile and settings open from the gear on Home, help from the question mark beside it.
 The first visit to Prayer explains the hours and asks to enable notifications (prayer times and inactivity reminders).
 
+- **Home**: the verse of the day over the picture of the day (Read · Share), then where you left off, your progress
+  (streak, chapters read of the canon, hours prayed), the readings of the day labelled Law and Prophets, Psalm, Gospel and
+  Apostle, the Rosary for Catholics, the reading plan, the saint of the day and the week. The tab bar floats over the page.
+- **Rosary** (Catholic; Prayer tab, Home, and the Rosary in the prayer book): a rosary of 59 beads, medal and crucifix
+  that you pray by tapping the glowing bead. Each bead shows its prayer (Creed, Our Father, Hail Mary, Glory Be,
+  O my Jesus, Hail Holy Queen, closing prayer) and each decade its mystery with the passage to read, in English and
+  Dutch. The mysteries of the day follow Rosarium Virginis Mariae; any set can be chosen (`data/rosary/Rosary.kt`).
 - **Search** looks through everything offline: references ("John 3:16"), books, verses, hours and prayers, councils,
   Fathers, articles, Father quotes, saints and plans.
-- **Calendar** (week strip on Home, full month behind it): feasts per tradition, old-style or Coptic date, saints of the
+- **Calendar** (its own tab, and a week strip on Home): feasts per tradition, old-style or Coptic date, saints of the
   day and the days you read or prayed.
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
   it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: the whole
@@ -77,6 +85,8 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Chapter quizzes, New Testament and major Old Testament books (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
 | Coptic Synaxarium (names per day) | api.coptic.io | Check terms before release; Dutch: rules + `tools/source/saints_nl_oo.json` |
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
+| Home backgrounds | Painted for AGAPE by `tools/render_backgrounds.py`; real photos can be added with `tools/build_backgrounds.py`, listed in `assets/backgrounds/backgrounds.json` | CC0 (own artwork); photos public domain / CC0 only |
+| Rosary prayers (EN + NL) | `data/rosary/Rosary.kt`: traditional texts; the Dutch closing prayer is our own translation | Review |
 | Saint and feast icons (73) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
 | Byzantine menologion: English texts | `tools/source/menologion_en.json` | Own content — review |
 | Coptic and Roman saint summaries (EN + NL) | `tools/source/saint_summaries_oo.tsv`, `saint_summaries_ca.tsv` | Own content — review; Coptic lines marked `?` are provisional |
@@ -98,6 +108,8 @@ python tools/build_quizzes.py     # hand-written chapter quizzes from tools/sour
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
 python tools/build_saint_summaries.py  # adds the saint summaries to saints_oo.json and saints_ca.json (offline)
 python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --patterns updates matching only
+python tools/render_backgrounds.py   # the painted Home backgrounds (needs Pillow and numpy)
+python tools/build_backgrounds.py    # adds public-domain / CC0 church photos from Commons to the Home backgrounds
 ```
 
 Chapter commentary is written book by book in `tools/source/commentary/<BOOK>.md`. Written so far: the New

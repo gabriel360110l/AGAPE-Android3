@@ -9,10 +9,8 @@ import agape.app.ui.LocalLanguage
 import agape.app.ui.LocalSettings
 import agape.app.ui.bookName
 import agape.app.ui.components.DetailTopBar
-import agape.app.ui.components.Kicker
 import agape.app.ui.components.Ornament
 import agape.app.ui.components.PrimaryButton
-import agape.app.ui.components.SecondaryButton
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.tradition
 import androidx.compose.animation.animateColorAsState
@@ -41,6 +39,19 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.material.icons.automirrored.outlined.KeyboardArrowRight
+import androidx.compose.material.icons.automirrored.outlined.KeyboardArrowLeft
+import androidx.compose.ui.semantics.heading
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.border
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.navigationBars
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.Box
+import agape.app.ui.components.AgapeCard
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -126,12 +137,14 @@ fun ReaderScreen(
                 }
             }
         }
-        LazyColumn(state = list, modifier = Modifier.weight(1f), contentPadding = PaddingValues(start = 20.dp, end = 20.dp, bottom = 32.dp)) {
+        Box(Modifier.weight(1f)) {
+        LazyColumn(state = list, modifier = Modifier.fillMaxSize(), contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 104.dp)) {
             item {
-                Column(Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                    Kicker(container.bookName(book, lang))
-                    Text(chapter.toString(), style = MaterialTheme.typography.displayMedium, color = c.primary)
-                    Ornament()
+                // A title page for the chapter: large serif title, a gold rule and a quiet hint.
+                Column(Modifier.fillMaxWidth().padding(start = 4.dp, top = 8.dp, bottom = 18.dp)) {
+                    Text(title, style = MaterialTheme.typography.displaySmall, color = c.ink, modifier = Modifier.semantics { heading() })
+                    Box(Modifier.padding(top = 10.dp, bottom = 10.dp).width(32.dp).height(2.dp).background(c.accent))
+                    Text(stringResource(R.string.reader_select_hint), style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
                 }
             }
             val vs = verses
@@ -148,9 +161,9 @@ fun ReaderScreen(
                 val hasNote = notes.any { it.book == book && it.chapter == chapter && it.verse == v.verse }
                 val verseLabel = stringResource(R.string.reader_verse_a11y, v.verse)
                 Row(
-                    Modifier.fillMaxWidth().background(bg).clickable { selected = v.verse }
+                    Modifier.fillMaxWidth().padding(vertical = 1.dp).clip(RoundedCornerShape(10.dp)).background(bg).clickable { selected = v.verse }
                         .semantics { contentDescription = "$verseLabel. ${v.text}" }
-                        .padding(vertical = 3.dp, horizontal = 4.dp),
+                        .padding(vertical = 4.dp, horizontal = 8.dp),
                 ) {
                     Text(
                         buildAnnotatedString {
@@ -164,23 +177,32 @@ fun ReaderScreen(
                     )
                 }
             }
-            if (vs != null) item { ChapterQuizRow(book, chapter, bookInfo.takeIf { chapter == chapterCount }, openQuiz) }
-            item {
-                Column(Modifier.fillMaxWidth().padding(top = 20.dp), verticalArrangement = Arrangement.spacedBy(10.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                    if (!isRead) {
-                        PrimaryButton(stringResource(R.string.reader_mark_read), {
-                            scope.launch { container.user.markChapterRead(book, chapter, title) }
-                        })
-                    } else {
-                        Text(stringResource(R.string.reader_read_done), style = MaterialTheme.typography.labelLarge, color = c.primary)
-                    }
-                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                        if (chapter > 1) SecondaryButton("‹ ${chapter - 1}", { openChapter(book, chapter - 1, 0) }, Modifier.width(120.dp))
-                        else Spacer(Modifier.width(1.dp))
-                        if (chapter < chapterCount) SecondaryButton("${chapter + 1} ›", { openChapter(book, chapter + 1, 0) }, Modifier.width(120.dp))
+            // The end of the chapter: mark it read and the quizzes, in one quiet card.
+            if (vs != null) item {
+                AgapeCard(Modifier.padding(top = 28.dp)) {
+                    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
+                        Ornament(width = 60.dp)
+                        Spacer(Modifier.height(8.dp))
+                        Text(stringResource(R.string.reader_end_of, title), style = MaterialTheme.typography.titleLarge, color = c.ink)
+                        Spacer(Modifier.height(14.dp))
+                        if (!isRead) {
+                            PrimaryButton(stringResource(R.string.reader_mark_read), {
+                                scope.launch { container.user.markChapterRead(book, chapter, title) }
+                            })
+                        } else {
+                            Text(stringResource(R.string.reader_read_done), style = MaterialTheme.typography.labelLarge, color = c.primary)
+                        }
+                        ChapterQuizRow(book, chapter, bookInfo.takeIf { chapter == chapterCount }, openQuiz)
                     }
                 }
             }
+        }
+            ChapterPill(
+                title = title,
+                previous = if (chapter > 1) ({ openChapter(book, chapter - 1, 0) }) else null,
+                next = if (chapter < chapterCount) ({ openChapter(book, chapter + 1, 0) }) else null,
+                modifier = Modifier.align(Alignment.BottomCenter).windowInsetsPadding(WindowInsets.navigationBars).padding(bottom = 14.dp),
+            )
         }
     }
 
@@ -198,5 +220,27 @@ fun ReaderScreen(
             onDismiss = { selected = null },
             openReference = { b, ch, vv -> selected = null; openReference(b, ch, vv) },
         )
+    }
+}
+
+/** A floating pill at the foot of the chapter: previous chapter, where you are, next chapter. */
+@Composable
+private fun ChapterPill(title: String, previous: (() -> Unit)?, next: (() -> Unit)?, modifier: Modifier = Modifier) {
+    val c = AgapeTheme.colors
+    val bar = if (c.isDark) c.surfaceRaised else c.ink
+    val on = if (c.isDark) c.ink else c.background
+    Row(
+        modifier.shadow(18.dp, CircleShape, ambientColor = Color.Black.copy(alpha = 0.3f), spotColor = Color.Black.copy(alpha = 0.4f))
+            .clip(CircleShape).background(bar.copy(alpha = 0.94f)).border(0.8.dp, on.copy(alpha = 0.10f), CircleShape)
+            .padding(horizontal = 4.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        IconButton(onClick = { previous?.invoke() }, enabled = previous != null) {
+            Icon(Icons.AutoMirrored.Outlined.KeyboardArrowLeft, stringResource(R.string.reader_previous_chapter), tint = on.copy(alpha = if (previous != null) 0.9f else 0.25f))
+        }
+        Text(title, style = MaterialTheme.typography.labelLarge, color = on, modifier = Modifier.padding(horizontal = 6.dp))
+        IconButton(onClick = { next?.invoke() }, enabled = next != null) {
+            Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, stringResource(R.string.reader_next_chapter), tint = on.copy(alpha = if (next != null) 0.9f else 0.25f))
+        }
     }
 }

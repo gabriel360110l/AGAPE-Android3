@@ -229,7 +229,7 @@ fun ChapterQuizRow(book: String, chapter: Int, lastOfBook: Book?, openQuiz: (Str
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val title = "${container.bookName(book, lang)} $chapter"
-    Row(Modifier.fillMaxWidth().padding(top = 28.dp), horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally)) {
+    Row(Modifier.fillMaxWidth().padding(top = 16.dp), horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally)) {
         QuizChip(stringResource(R.string.chapter_quiz)) { openQuiz("chapter:$book.$chapter", title) }
         lastOfBook?.let { b -> QuizChip(stringResource(R.string.book_end_quiz)) { openQuiz("book:${b.id}", b.name[lang]) } }
     }
