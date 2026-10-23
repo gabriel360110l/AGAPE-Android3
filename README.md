@@ -54,10 +54,11 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
 - **Calendar** (its own tab, and a week strip on Home): feasts per tradition, old-style or Coptic date, saints of the
   day and the days you read or prayed.
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
-  it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: the whole
-  New Testament and the major Old Testament books (Genesis, Exodus, Ruth, Jonah, Jeremiah, Lamentations, Baruch,
-  Ezekiel, Daniel) have hand-written questions (4 per chapter); other chapters get 5 questions and every book 20, generated
-  from the Bible text (`data/quiz/QuizGenerator.kt`).
+  it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: every
+  chapter of all 82 books, Old and New Testament with the deuterocanon (Psalms, Sirach, Wisdom, the Maccabees,
+  1 Esdras, the Prayer of Manasseh, Psalm 151 and the additions to Esther and Daniel included), has hand-written
+  questions (4 per chapter, the Esther quiz keeps to the text both Bibles share); the book quiz of 20 questions
+  is still generated from the Bible text (`data/quiz/QuizGenerator.kt`).
 - **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches: the Byzantine
   menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
   Calendar (a short English and Dutch summary for the first saint of every Coptic day and for every Roman saint),
@@ -82,7 +83,7 @@ Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://h
 | Dutch council texts and canons | `tools/source/council_texts_nl/` | Own translation — review |
 | Church Father commentary per verse (31k quotes, pre-1100) | HistoricalChristianFaith/Commentaries-Database | Mostly public-domain translations; licence unasserted — check |
 | Chapter commentary (EN + NL): New Testament, Genesis to Esther, Tobit, Judith, 1–2 Maccabees, the wisdom books (Job to Sirach), Isaiah, Jeremiah, Lamentations, Baruch, Ezekiel, Daniel | `tools/source/commentary/*.md` | Own content — review |
-| Chapter quizzes, New Testament and major Old Testament books (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
+| Chapter quizzes, all 82 books (EN + NL) | `tools/source/quizzes/*.md` | Own content — review |
 | Coptic Synaxarium (names per day) | api.coptic.io | Check terms before release; Dutch: rules + `tools/source/saints_nl_oo.json` |
 | General Roman Calendar (saints per day) | calapi.inadiutorium.cz | Calendar facts; Dutch names in `tools/source/saints_nl.json` |
 | Home backgrounds | Painted for AGAPE by `tools/render_backgrounds.py`; real photos can be added with `tools/build_backgrounds.py`, listed in `assets/backgrounds/backgrounds.json` | CC0 (own artwork); photos public domain / CC0 only |
@@ -105,6 +106,7 @@ python tools/build_prayers.py     # Agpeya and Horologion (Κύριε ἐλέη�
 python tools/build_councils.py    # council texts and canons
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
 python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
+python tools/build_church.py      # Church articles (history and per tradition) from tools/source/church/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
 python tools/build_saint_summaries.py  # adds the saint summaries to saints_oo.json and saints_ca.json (offline)
 python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --new adds missing icons, --patterns updates matching only
@@ -122,10 +124,15 @@ breaks differ (Job 38–41, Ecclesiastes 4–5), the Dutch summary follows the D
 (the twelve minor prophets and the remaining deuterocanonical books) still show the legacy guide, marked in the app
 as provisional (English only).
 
+The Church articles are written in `tools/source/church/NN-<id>.md` (EN + NL, same number of paragraphs): seven
+history articles shared by all three Churches, and for each tradition an overview plus the sacraments, the
+liturgy, fasting, the feasts, icons and saints, and daily prayer (28 articles).
+
 ## Before release
 
 - Replace the placeholder Terms and Privacy Policy (`assets/legal/`), donation URL and support e-mail (`app/build.gradle.kts`).
-- Complete the sample content: Horologion and Liturgy of the Hours texts, verse commentary and Church articles.
+- Complete the sample content: Horologion and Liturgy of the Hours texts and verse commentary. Have the Church
+  articles reviewed by someone from each tradition.
 - Write the remaining Old Testament chapter commentary (EN + NL): the twelve minor
   prophets (Hosea to Malachi) and the remaining deuterocanonical books. Then have the written commentary,
   the quizzes, the menologion texts, the council translations, the Dutch saint names and the saint summaries
