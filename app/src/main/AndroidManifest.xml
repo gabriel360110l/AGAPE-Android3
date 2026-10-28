@@ -6,6 +6,12 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <!-- Prayer-hour reminders should fire on time; without this permission they fall back to a 5-minute window. -->
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <!-- Quiet mode while praying: Do Not Disturb, only after the user allows it in system settings. -->
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <!-- Rough location, only when the user asks the prayer hours to follow the sun where they are. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- A short tick for each knot of a prayer rope. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:name=".AgapeApp"

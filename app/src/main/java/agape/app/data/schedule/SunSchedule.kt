@@ -1,7 +1,11 @@
 package agape.app.data.schedule
 
+import agape.app.core.model.Tradition
+import agape.app.core.prefs.Settings
 import java.time.Duration
+import java.time.LocalDate
 import java.time.LocalTime
+import java.time.ZoneId
 
 /**
  * The prayer hours on the old reckoning, where the day runs from sunrise to sunset in twelve "hours" whose length
@@ -11,6 +15,17 @@ import java.time.LocalTime
  * Hours this does not know, and every hour on days without sunrise or sunset, keep their fixed time.
  */
 object SunSchedule {
+    private val following = setOf("matins", "readings", "morning", "first", "prime", "lauds", "third", "terce", "sixth", "sext", "ninth", "none", "vespers", "compline", "veil", "evening")
+
+    /** Whether the hour moves with the sun (Midnight, for one, keeps its time). */
+    fun follows(hourId: String) = hourId in following
+
+    /** The time of [hourId] on [date] with these settings: [fixed], or its place in the day of the sun at the chosen place. */
+    fun timeOn(hourId: String, fixed: LocalTime, settings: Settings, date: LocalDate, zone: ZoneId = ZoneId.systemDefault()): LocalTime {
+        val place = settings.place?.takeIf { settings.sunTimes } ?: return fixed
+        return timeFor(hourId, SunTimes.of(date, place.latitude, place.longitude, zone), fixed, settings.tradition == Tradition.ORIENTAL_ORTHODOX)
+    }
+
     fun timeFor(hourId: String, sun: SunTimes, fixed: LocalTime, agpeya: Boolean): LocalTime {
         val rise = sun.sunrise ?: return fixed
         val set = sun.sunset ?: return fixed

@@ -4,12 +4,10 @@ import agape.app.AgapeApp
 import agape.app.MainActivity
 import agape.app.R
 import agape.app.launchSafely
-import agape.app.core.model.Tradition
 import agape.app.core.prefs.CustomReminder
 import agape.app.core.prefs.Settings
 import agape.app.data.content.PrayerHour
 import agape.app.data.schedule.SunSchedule
-import agape.app.data.schedule.SunTimes
 import android.Manifest
 import android.app.AlarmManager
 import android.app.NotificationChannel
@@ -142,12 +140,7 @@ object Notifications {
 
     /** The next time [reminder] rings: its own time, or the hour's place in the day of the sun when that is chosen. */
     fun schedule(context: Context, reminder: HourReminder, settings: Settings) {
-        val zone = ZoneId.systemDefault()
-        val place = settings.place?.takeIf { settings.sunTimes }
-        fun on(date: LocalDate) = date.atTime(
-            if (place == null) reminder.time
-            else SunSchedule.timeFor(reminder.hourId, SunTimes.of(date, place.latitude, place.longitude, zone), reminder.time, settings.tradition == Tradition.ORIENTAL_ORTHODOX),
-        )
+        fun on(date: LocalDate) = date.atTime(SunSchedule.timeOn(reminder.hourId, reminder.time, settings, date))
         var next = on(LocalDate.now())
         if (!next.isAfter(LocalDateTime.now())) next = on(LocalDate.now().plusDays(1))
         setAlarm(context, next, alarmIntent(context, reminder.hourId, reminder))

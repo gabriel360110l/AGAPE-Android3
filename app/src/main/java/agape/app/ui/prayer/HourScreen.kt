@@ -4,9 +4,13 @@ import agape.app.AppContainer
 import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Passage
+import agape.app.core.prefs.IntentionKind
+import agape.app.core.prefs.intentions
 import agape.app.data.content.PrayerSection
+import agape.app.notifications.QuietWhilePraying
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
+import agape.app.ui.LocalSettings
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
 import agape.app.ui.components.ListenButton
@@ -84,9 +88,15 @@ fun HourScreen(hourId: String, onBack: () -> Unit) {
     val c = AgapeTheme.colors
     val untranslated = lang == AppLanguage.DUTCH && sections.any { s -> s.kind in listOf(PrayerSection.Kind.text, PrayerSection.Kind.rubric) && s.body != null && s.body.nl.isEmpty() && s.body.en.isNotEmpty() }
 
+    QuietWhilePraying()
+    val intentions = LocalSettings.current.intentions
+    val spokenIntentions = IntentionKind.entries.mapNotNull { kind ->
+        intentions.filter { it.kind == kind }.takeIf { it.isNotEmpty() }?.let { names -> stringResource(kind.prayer) + " " + names.joinToString(", ") { it.text } }
+    }
+
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(hour.name[lang], onBack) {
-            ListenButton("hour:${hour.id}") { spokenParts(container, hour.name[lang], sections, lang) }
+            ListenButton("hour:${hour.id}") { spokenParts(container, hour.name[lang], sections, lang, spokenIntentions) }
             FavoriteButton("hour:${hour.id}")
         }
         ProgressLine(progress, Modifier.padding(horizontal = 20.dp))
@@ -106,6 +116,7 @@ fun HourScreen(hourId: String, onBack: () -> Unit) {
                 }
             }
             items(sections.size) { i -> PrayerSectionView(sections[i]) }
+            item { IntentionsInHour() }
             item {
                 Column(Modifier.fillMaxWidth().padding(top = 28.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                     Ornament()
@@ -232,7 +243,7 @@ private fun SectionTitle(text: String) {
 }
 
 /** What is read aloud for an hour: titles, texts, psalms and prayers; rubrics (instructions) are left out. */
-private suspend fun spokenParts(container: AppContainer, name: String, sections: List<PrayerSection>, lang: AppLanguage): List<String> {
+private suspend fun spokenParts(container: AppContainer, name: String, sections: List<PrayerSection>, lang: AppLanguage, intentions: List<String>): List<String> {
     val out = mutableListOf(name)
     sections.forEach { s ->
         s.title?.get(lang)?.takeIf { it.isNotBlank() }?.let { out += it }
@@ -249,7 +260,7 @@ private suspend fun spokenParts(container: AppContainer, name: String, sections:
             PrayerSection.Kind.rubric, PrayerSection.Kind.heading, PrayerSection.Kind.counter -> Unit
         }
     }
-    return out
+    return out + intentions
 }
 
 @Composable
@@ -260,6 +271,7 @@ fun PrayerTextScreen(prayerId: String, onBack: () -> Unit) {
     val prayer = remember(prayerId) { container.content.prayer(prayerId) } ?: return
     var prayed by remember { mutableStateOf(false) }
     val c = AgapeTheme.colors
+    QuietWhilePraying()
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(prayer.title[lang], onBack) {
             ListenButton("prayer:${prayer.id}") { listOf(prayer.title[lang]) + prayer.body[lang] }
