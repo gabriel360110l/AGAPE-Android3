@@ -68,10 +68,36 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   Calendar (a short English and Dutch summary for the first saint of every Coptic day and for every Roman saint),
   with a Byzantine icon where one is bundled and a quiet placeholder otherwise.
 - **Prayers**: the Kyrie stays in Greek, Κύριε ἐλέησον, with its meaning shown once beside the 41× counter.
+- **Opening** (`ui/intro/Intro.kt`): on every start of the app and after a change of church, golden rays break
+  out behind the church's own cross (Latin, Byzantine three-bar, Coptic cross bottony, all drawn in
+  `ui/components/Crosses.kt`), A G A P E is spelled letter by letter and "<CHURCH> · GOD IS LOVE" follows. A tap
+  skips it; with Android animations off it shows still.
+- **Fast or feast** (`data/calendar/Fasting.kt`, tested): every day on Home, in the week strip and on each calendar
+  day says whether it is a fast day, a strict fast, a day without meat, fast-free or an ordinary day, and why
+  (Great Lent, Wednesday, Bright Week, Apostles' Fast, Paramoun, Ash Wednesday …), with a short explanation per
+  church. It is a general guideline: the Byzantine fixed fasts follow the new calendar like the feasts, the Coptic
+  rules follow the Coptic seasons, the Catholic rules follow canons 1250–1253.
+- **Prayer ropes** (Prayer tab, open to everyone, own church first): the Rosary, the chotki (33, 50 or 100 knots,
+  Jesus Prayer, a bead after every ten) and the rope of 41 Kyrie eleison of the Agpeya. Each knot gives a light
+  tick, every tenth a firmer one; the prayer can be said aloud at each knot.
+- **My day of prayer** (Prayer tab, and Settings → notifications): own time per hour, or hours that follow the
+  sun (sunrise and sunset computed on the phone from a chosen city or the coarse location, nothing is sent out);
+  own prayer moments; a church bell for prayer notifications (own recording, `tools/build_bell.py`, CC0); quiet
+  mode (screen stays on, Do Not Disturb with priority only while praying, if allowed).
+- **Remembered in prayer**: names of the living and the departed and thanksgivings, read at the end of every hour.
+- **Read aloud** (`data/audio/Speaker.kt`): chapters (with the verse being read highlighted and an audio bar),
+  hours, prayers and saints, with the phone's own voices.
+- **Bible extras**: quick book and chapter picker from the reader's title, share a verse as an image (three
+  card styles), mark a chapter as unread; search ignores accents and puts the Gospels first.
+- **Widget**: the verse of the day on the home screen; a tap opens it in the reader.
 - **Church** (Bible tab): the councils (story, decisions, canons and full texts), Church Fathers and current and
   historical patriarchs and popes.
 
-Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer/vespers`, `agape://home`.
+Deep links: `agape://bible/JHN/3?verse=16`, `agape://prayer`, `agape://prayer/vespers`, `agape://home`.
+
+Features from the AI Studio version (`google-studio-bijbel2.0`) were rebuilt here instead of copied: no
+destructive database migration (bookmarks and notes stay), the phone's own time zone, sun times computed offline
+instead of a weather service, and no build script that downloads or deletes files.
 
 ## Content
 
@@ -167,6 +193,12 @@ note never lands on the wrong verse. Each language only shows its own note.
   `saints_*.json` or `icons.json` (it keeps the readings and references of the last build). The Catholic readings
   end in 2027 and follow the American versification, so a few Old Testament references open a verse off in WEB and
   the Statenvertaling (Exodus 22:20-26 is WEB 22:21-27); extend them with `--catholic-readings` from a newer checkout.
+- Check author and licence of the seven Home photos taken over from the AI Studio version (marked `"check": true`
+  in `assets/backgrounds/backgrounds.json`): `python tools/verify_backgrounds.py --write` on a machine that can reach
+  Commons. Remove any photo it reports as not found or not free.
+- Try the new parts on a phone: the opening, the widget, the church bell channel (Android keeps the sound of a
+  channel once created; reinstall to hear a changed bell), quiet mode and the sun-following hours.
+- Have the fasting rules checked by someone from each tradition (`data/calendar/Fasting.kt`).
 - Add a release signing config and a Play Store listing (screenshots per style).
 
 ## Related repositories
