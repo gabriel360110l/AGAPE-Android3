@@ -82,7 +82,7 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   tick, every tenth a firmer one; the prayer can be said aloud at each knot.
 - **My day of prayer** (Prayer tab, and Settings → notifications): own time per hour, or hours that follow the
   sun (sunrise and sunset computed on the phone from a chosen city or the coarse location, nothing is sent out);
-  own prayer moments; a church bell for prayer notifications (own recording, `tools/build_bell.py`, CC0); quiet
+  own prayer moments; a church bell for prayer notifications (synthesized by `tools/build_bell.py`, CC0, instead of the bell of unknown origin in the AI Studio version); quiet
   mode (screen stays on, Do Not Disturb with priority only while praying, if allowed).
 - **Remembered in prayer**: names of the living and the departed and thanksgivings, read at the end of every hour.
 - **Read aloud** (`data/audio/Speaker.kt`): chapters (with the verse being read highlighted and an audio bar),
