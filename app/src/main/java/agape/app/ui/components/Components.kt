@@ -134,7 +134,17 @@ fun AgapeCard(
         c.isDark -> 0.24f
         else -> 0.32f
     }
-    val border = if (!tonal) BorderStroke(0.8.dp, c.accent.copy(alpha = goldAlpha)) else null
+    // The gold catches the light at the top left and deepens towards the bottom right.
+    val border = if (!tonal) BorderStroke(
+        0.9.dp,
+        androidx.compose.ui.graphics.Brush.linearGradient(
+            listOf(
+                androidx.compose.ui.graphics.Color(0xFFF3D98B).copy(alpha = (goldAlpha * 1.6f).coerceAtMost(0.8f)),
+                c.accent.copy(alpha = goldAlpha),
+                androidx.compose.ui.graphics.Color(0xFFA67C2E).copy(alpha = goldAlpha * 0.8f),
+            ),
+        ),
+    ) else null
     Surface(
         modifier = modifier.fillMaxWidth()
             .then(if (tonal || c.isDark) Modifier else Modifier.shadow(6.dp, shape, ambientColor = c.primary.copy(alpha = 0.05f), spotColor = c.primary.copy(alpha = 0.06f)))

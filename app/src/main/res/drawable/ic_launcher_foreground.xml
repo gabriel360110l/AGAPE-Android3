@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- A gold Greek cross within a thin circle, centred in the 66dp safe zone. -->
+<!-- AGAPE: golden rays behind a cross pattée in a halo. Rays may be cropped by the mask; ring and cross stay in the 66dp safe zone. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp" android:height="108dp"
     android:viewportWidth="108" android:viewportHeight="108">
-    <path android:strokeColor="@color/launcher_gold" android:strokeWidth="1.6"
-        android:fillColor="#00000000"
-        android:pathData="M54,30a24,24 0,1 1,-0.01 0z" />
-    <path android:fillColor="@color/launcher_gold"
-        android:pathData="M51.5,38h5v13.5h13.5v5h-13.5v13.5h-5v-13.5h-13.5v-5h13.5z" />
+    <path android:pathData="M58.28,29.37 L59.81,8.37 L66.1,9.62 L59.47,29.61 Z M67.53,32.98 L72.51,23.13 L75.44,25.08 L68.24,33.45 Z M74.44,39.61 L90.37,25.84 L93.94,31.17 L75.12,40.62 Z M78.43,48.7 L88.92,45.26 L89.61,48.71 L78.6,49.54 Z M78.63,58.28 L99.63,59.81 L98.38,66.1 L78.39,59.47 Z M75.02,67.53 L84.87,72.51 L82.92,75.44 L74.55,68.24 Z M68.39,74.44 L82.16,90.37 L76.83,93.94 L67.38,75.12 Z M59.3,78.43 L62.74,88.92 L59.29,89.61 L58.46,78.6 Z M49.72,78.63 L48.19,99.63 L41.9,98.38 L48.53,78.39 Z M40.47,75.02 L35.49,84.87 L32.56,82.92 L39.76,74.55 Z M33.56,68.39 L17.63,82.16 L14.06,76.83 L32.88,67.38 Z M29.57,59.3 L19.08,62.74 L18.39,59.29 L29.4,58.46 Z M29.37,49.72 L8.37,48.19 L9.62,41.9 L29.61,48.53 Z M32.98,40.47 L23.13,35.49 L25.08,32.56 L33.45,39.76 Z M39.61,33.56 L25.84,17.63 L31.17,14.06 L40.62,32.88 Z M48.7,29.57 L45.26,19.08 L48.71,18.39 L49.54,29.4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="54" android:centerY="54" android:gradientRadius="46">
+                <item android:offset="0.5" android:color="#99F3D98B" />
+                <item android:offset="0.75" android:color="#40D4AF37" />
+                <item android:offset="1" android:color="#00D4AF37" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M54,32a22,22 0,1 1,-0.01 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="54" android:centerY="54" android:gradientRadius="22">
+                <item android:offset="0" android:color="#55F3D98B" />
+                <item android:offset="1" android:color="#10D4AF37" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#00000000" android:strokeColor="#FFD4AF37" android:strokeWidth="1.5"
+        android:pathData="M54,32a22,22 0,1 1,-0.01 0z" />
+    <path android:pathData="M48.8,37 L59.2,37 L56.6,51.4 L71,48.8 L71,59.2 L56.6,56.6 L59.2,71 L48.8,71 L51.4,56.6 L37,59.2 L37,48.8 L51.4,51.4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="40" android:startY="37" android:endX="68" android:endY="71">
+                <item android:offset="0" android:color="#FFF3D98B" />
+                <item android:offset="0.5" android:color="#FFD4AF37" />
+                <item android:offset="1" android:color="#FFA67C2E" />
+            </gradient>
+        </aapt:attr>
+    </path>
 </vector>
