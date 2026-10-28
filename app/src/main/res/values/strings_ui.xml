@@ -69,4 +69,7 @@
     <string name="reader_play">Play</string>
     <string name="reader_pause">Pause</string>
     <string name="reader_mark_unread">Mark as unread</string>
+    <string name="notif_test_title">AGAPE · prayer reminder</string>
+    <string name="notif_test_text">This is how your prayer reminders sound: the church bell.</string>
+    <string name="moment_default">Time to pray</string>
 </resources>

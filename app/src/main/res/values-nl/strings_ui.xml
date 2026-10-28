@@ -69,4 +69,7 @@
     <string name="reader_play">Afspelen</string>
     <string name="reader_pause">Pauze</string>
     <string name="reader_mark_unread">Toch niet gelezen</string>
+    <string name="notif_test_title">AGAPE · gebedsherinnering</string>
+    <string name="notif_test_text">Zo klinken je gebedsherinneringen: de kerkklok.</string>
+    <string name="moment_default">Tijd om te bidden</string>
 </resources>
