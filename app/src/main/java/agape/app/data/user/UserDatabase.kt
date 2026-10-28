@@ -89,6 +89,7 @@ interface UserDao {
 
     @Query("SELECT * FROM chapters_read") fun chaptersRead(): Flow<List<ChapterRead>>
     @Insert(onConflict = OnConflictStrategy.IGNORE) suspend fun insertChapterRead(c: ChapterRead)
+    @Query("DELETE FROM chapters_read WHERE book = :book AND chapter = :chapter") suspend fun deleteChapterRead(book: String, chapter: Int)
 
     @Query("SELECT * FROM activity ORDER BY at DESC") fun activity(): Flow<List<Activity>>
     @Insert(onConflict = OnConflictStrategy.IGNORE) suspend fun insertActivity(a: Activity)

@@ -6,6 +6,10 @@ import agape.app.core.model.L10n
 import agape.app.core.model.Passage
 import agape.app.core.model.Tradition
 import agape.app.data.content.chapterCount
+import agape.app.data.content.GOSPELS
+import agape.app.data.content.has
+import agape.app.data.content.nameStarts
+import agape.app.data.content.findBooks
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.Kicker
@@ -152,7 +156,7 @@ fun SearchScreen(open: (SearchTarget) -> Unit) {
             }
             shown.groupBy { it.kind }.forEach { (k, list) ->
                 item(key = "h$k") { Kicker(stringResource(k.label), Modifier.padding(start = 20.dp, top = 16.dp, bottom = 2.dp)) }
-                items(list.take(if (kind == Kind.ALL) 6 else 80), key = { "${k}${it.target}${it.title}${it.subtitle.hashCode()}" }) { h ->
+                items(list.take(if (kind != Kind.ALL) 200 else if (k == Kind.BIBLE) 12 else 6), key = { "${k}${it.target}${it.title}${it.subtitle.hashCode()}" }) { h ->
                     ListRow(h.title, subtitle = h.subtitle, onClick = { go(h.target) })
                 }
             }
@@ -160,7 +164,7 @@ fun SearchScreen(open: (SearchTarget) -> Unit) {
     }
 }
 
-private fun L10n.has(q: String, lang: AppLanguage) = this[lang].contains(q, ignoreCase = true)
+private fun L10n.has(q: String, lang: AppLanguage) = this[lang].has(q) || en.has(q)
 
 /** Searches everything the app holds, offline. */
 private suspend fun search(container: agape.app.AppContainer, q: String, lang: AppLanguage, tradition: Tradition): List<Hit> {
@@ -168,20 +172,22 @@ private suspend fun search(container: agape.app.AppContainer, q: String, lang: A
     val out = mutableListOf<Hit>()
     val canon = content.canon(tradition, lang)
 
-    // "John 3:16", "joh 3", "Genesis 1" → straight to the passage.
+    // "John 3:16", "joh 3", "Matteus 5" → straight to the passage.
     Regex("""^(\d?\s?\p{L}[\p{L} ]*?)\s*(\d+)(?:[:.,](\d+))?$""").matchEntire(q)?.let { m ->
-        val name = m.groupValues[1].trim().lowercase()
-        val book = canon.firstOrNull { b -> b.name[lang].lowercase().startsWith(name) || b.name.en.lowercase().startsWith(name) || b.id.lowercase() == name }
+        val book = canon.firstOrNull { b -> b.nameStarts(m.groupValues[1], lang) }
         val ch = m.groupValues[2].toInt()
         if (book != null && ch in 1..book.chapterCount(lang)) {
             val v = m.groupValues[3].toIntOrNull()
             out += Hit(Kind.BIBLE, container.passageLabel(Passage(book.id, ch, v), lang), "", SearchTarget.Verse(book.id, ch, v ?: 0))
         }
     }
-    canon.filter { it.name[lang].contains(q, true) || it.name.en.contains(q, true) }.forEach {
+    // "Evangelie" or "Gospels" lists the four Gospels; otherwise the books whose name matches, Gospels first.
+    canon.findBooks(q, lang).forEach {
         out += Hit(Kind.BIBLE, it.name[lang], it.intro?.get(lang)?.take(120).orEmpty(), SearchTarget.Verse(it.id, 1, 0))
     }
-    if (q.length >= 3) container.bible.searchVerses(q, lang).forEach { v ->
+    // Verses: Gospels first, then the rest of the canon in order.
+    val order = GOSPELS + canon.map { it.id }.filterNot { it in GOSPELS }
+    if (q.length >= 3) container.bible.searchVerses(q, lang, order).forEach { v ->
         out += Hit(Kind.BIBLE, container.passageLabel(Passage(v.book, v.chapter, v.verse), lang), v.text, SearchTarget.Verse(v.book, v.chapter, v.verse))
     }
 
@@ -191,18 +197,18 @@ private suspend fun search(container: agape.app.AppContainer, q: String, lang: A
             out += Hit(Kind.PRAYER, h.name[lang], h.subtitle[lang], SearchTarget.Hour(h.id))
         }
     }
-    content.listedPrayers(tradition).filter { p -> p.title.has(q, lang) || p.body[lang].any { it.contains(q, true) } }.forEach {
+    content.listedPrayers(tradition).filter { p -> p.title.has(q, lang) || p.body[lang].any { it.has(q) } }.forEach {
         out += Hit(Kind.PRAYER, it.title[lang], it.subtitle[lang], SearchTarget.Prayer(it.id))
     }
 
-    content.councils.filter { c -> c.name.has(q, lang) || c.heresy.has(q, lang) || c.year.contains(q) || c.keyFigures.any { it.contains(q, true) } || c.summary.has(q, lang) }.forEach {
+    content.councils.filter { c -> c.name.has(q, lang) || c.heresy.has(q, lang) || c.year.contains(q) || c.keyFigures.any { it.has(q) } || c.summary.has(q, lang) }.forEach {
         out += Hit(Kind.CHURCH, it.name[lang], "${it.year} · ${it.heresy[lang]}", SearchTarget.Council(it.id))
     }
     content.fathers(tradition).filter { f -> f.name.has(q, lang) || f.summary.has(q, lang) || f.place.has(q, lang) }.forEach {
         out += Hit(Kind.CHURCH, it.name[lang], "${it.era} · ${it.summary[lang]}", SearchTarget.Father(it.id))
     }
     (content.articles(tradition, agape.app.data.content.ChurchSection.TRADITION) + content.articles(tradition, agape.app.data.content.ChurchSection.HISTORY))
-        .filter { a -> a.title.has(q, lang) || a.body[lang].any { it.contains(q, true) } }
+        .filter { a -> a.title.has(q, lang) || a.body[lang].any { it.has(q) } }
         .forEach { out += Hit(Kind.CHURCH, it.title[lang], it.summary[lang], SearchTarget.Article(it.id)) }
 
     if (q.length >= 3) container.bible.searchQuotes(q).forEach { f ->

@@ -4,7 +4,10 @@ import agape.app.AgapeApp
 import agape.app.MainActivity
 import agape.app.R
 import agape.app.launchSafely
+import agape.app.core.prefs.CustomReminder
+import agape.app.core.prefs.Settings
 import agape.app.data.content.PrayerHour
+import agape.app.data.schedule.SunSchedule
 import android.Manifest
 import android.app.AlarmManager
 import android.app.NotificationChannel
@@ -14,6 +17,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.media.AudioAttributes
 import android.net.Uri
 import android.os.Build
 import androidx.core.app.NotificationCompat
@@ -52,21 +56,40 @@ data class HourReminder(val hourId: String, val time: LocalTime) {
 }
 
 object Notifications {
-    const val CHANNEL_PRAYER = "prayer_hours"
+    /** Prayer reminders ring the church bell; a channel's sound is fixed once made, hence the new id. */
+    const val CHANNEL_PRAYER = "prayer_bell"
+    private const val OLD_CHANNEL_PRAYER = "prayer_hours"
     const val CHANNEL_REMINDERS = "gentle_reminders"
     private const val INACTIVITY_WORK = "inactivity"
 
     fun createChannels(context: Context) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return
         val nm = context.getSystemService(NotificationManager::class.java)
+        nm.deleteNotificationChannel(OLD_CHANNEL_PRAYER)
+        val bell = AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_NOTIFICATION).setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION).build()
         nm.createNotificationChannel(
-            NotificationChannel(CHANNEL_PRAYER, context.getString(R.string.channel_prayer), NotificationManager.IMPORTANCE_DEFAULT)
-                .apply { description = context.getString(R.string.channel_prayer_desc) },
+            NotificationChannel(CHANNEL_PRAYER, context.getString(R.string.channel_prayer), NotificationManager.IMPORTANCE_HIGH).apply {
+                description = context.getString(R.string.channel_prayer_desc)
+                setSound(bellUri(context), bell)
+                enableVibration(true)
+                vibrationPattern = BELL_VIBRATION
+            },
         )
         nm.createNotificationChannel(
             NotificationChannel(CHANNEL_REMINDERS, context.getString(R.string.channel_reminders), NotificationManager.IMPORTANCE_LOW)
                 .apply { description = context.getString(R.string.channel_reminders_desc) },
         )
+    }
+
+    private val BELL_VIBRATION = longArrayOf(0L, 400L, 250L, 400L)
+
+    private fun bellUri(context: Context): Uri = Uri.parse("android.resource://${context.packageName}/${R.raw.church_bell}")
+
+    /** A reminder right now, so the bell and its volume can be tried out. */
+    fun test(context: Context) {
+        createChannels(context)
+        val res = (context.applicationContext as AgapeApp).container.localized(context)
+        post(context, CHANNEL_PRAYER, 7777, res.getString(R.string.notif_test_title), res.getString(R.string.notif_test_text), "agape://prayer")
     }
 
     fun canPost(context: Context): Boolean =
@@ -85,20 +108,26 @@ object Notifications {
             .setStyle(NotificationCompat.BigTextStyle().bigText(text))
             .setContentIntent(pending)
             .setAutoCancel(true)
+            // Before Android 8 there are no channels: the bell and vibration are set on each prayer reminder.
+            .apply { if (channel == CHANNEL_PRAYER) setSound(bellUri(context)).setVibrate(BELL_VIBRATION).setPriority(NotificationCompat.PRIORITY_HIGH) }
             .build()
         @Suppress("MissingPermission")
         NotificationManagerCompat.from(context).notify(id, n)
     }
 
-    /** Re-plans every prayer-hour alarm and the inactivity check from current settings. */
+    /** Re-plans every prayer-hour alarm, the own prayer moments and the inactivity check from current settings. */
     suspend fun reschedule(context: Context) {
         val app = context.applicationContext as AgapeApp
         val settings = app.container.settings.current()
         val alarms = context.getSystemService(AlarmManager::class.java)
-        // Cancel everything we may have set before; request codes are derived from the hour id.
+        // Cancel everything we may have set before; request codes are derived from the hour or moment id.
         app.container.content.prayerBookHourIds().forEach { alarms.cancel(alarmIntent(context, it, null)) }
+        val custom = settings.customReminders.mapNotNull { CustomReminder.decode(it) }
+        (scheduledCustom(context) + custom.map { it.id }).forEach { alarms.cancel(customIntent(context, it, null)) }
+        rememberScheduledCustom(context, if (settings.prayerNotifications) custom.map { it.id }.toSet() else emptySet())
         if (settings.prayerNotifications) {
-            settings.hourReminders.mapNotNull { HourReminder.decode(it) }.forEach { schedule(context, it) }
+            settings.hourReminders.mapNotNull { HourReminder.decode(it) }.forEach { schedule(context, it, settings) }
+            custom.forEach { scheduleCustom(context, it) }
         }
         val work = WorkManager.getInstance(context)
         if (settings.inactivityReminders) {
@@ -109,17 +138,40 @@ object Notifications {
         } else work.cancelUniqueWork(INACTIVITY_WORK)
     }
 
-    fun schedule(context: Context, reminder: HourReminder) {
-        val alarms = context.getSystemService(AlarmManager::class.java)
-        val now = LocalDateTime.now()
-        var next = LocalDate.now().atTime(reminder.time)
-        if (!next.isAfter(now)) next = next.plusDays(1)
-        val at = next.atZone(ZoneId.systemDefault()).toInstant().toEpochMilli()
-        val pending = alarmIntent(context, reminder.hourId, reminder)
-        val exact = Build.VERSION.SDK_INT < Build.VERSION_CODES.S || alarms.canScheduleExactAlarms()
-        if (exact) alarms.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, at, pending)
-        else alarms.setWindow(AlarmManager.RTC_WAKEUP, at, 5 * 60_000L, pending)
+    /** The next time [reminder] rings: its own time, or the hour's place in the day of the sun when that is chosen. */
+    fun schedule(context: Context, reminder: HourReminder, settings: Settings) {
+        fun on(date: LocalDate) = date.atTime(SunSchedule.timeOn(reminder.hourId, reminder.time, settings, date))
+        var next = on(LocalDate.now())
+        if (!next.isAfter(LocalDateTime.now())) next = on(LocalDate.now().plusDays(1))
+        setAlarm(context, next, alarmIntent(context, reminder.hourId, reminder))
     }
+
+    fun scheduleCustom(context: Context, reminder: CustomReminder) {
+        var next = LocalDate.now().atTime(reminder.time)
+        if (!next.isAfter(LocalDateTime.now())) next = next.plusDays(1)
+        setAlarm(context, next, customIntent(context, reminder.id, reminder))
+    }
+
+    private fun setAlarm(context: Context, at: LocalDateTime, pending: PendingIntent) {
+        val alarms = context.getSystemService(AlarmManager::class.java)
+        val millis = at.atZone(ZoneId.systemDefault()).toInstant().toEpochMilli()
+        val exact = Build.VERSION.SDK_INT < Build.VERSION_CODES.S || alarms.canScheduleExactAlarms()
+        if (exact) alarms.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, millis, pending)
+        else alarms.setWindow(AlarmManager.RTC_WAKEUP, millis, 5 * 60_000L, pending)
+    }
+
+    private fun customIntent(context: Context, id: String, reminder: CustomReminder?): PendingIntent {
+        val intent = Intent(context, PrayerAlarmReceiver::class.java).setAction("agape.PRAYER_MOMENT.$id")
+        reminder?.let { intent.putExtra(EXTRA_CUSTOM, it.encode()) }
+        return PendingIntent.getBroadcast(context, "moment:$id".hashCode(), intent, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
+    }
+
+    // Deleted moments are no longer in settings, so the ids that have an alarm are kept to cancel them later.
+    private fun scheduledCustom(context: Context): Set<String> =
+        context.getSharedPreferences("agape_alarms", Context.MODE_PRIVATE).getStringSet("moments", emptySet()).orEmpty()
+
+    private fun rememberScheduledCustom(context: Context, ids: Set<String>) =
+        context.getSharedPreferences("agape_alarms", Context.MODE_PRIVATE).edit().putStringSet("moments", ids).apply()
 
     private fun alarmIntent(context: Context, hourId: String, reminder: HourReminder?): PendingIntent {
         val intent = Intent(context, PrayerAlarmReceiver::class.java).setAction("agape.PRAYER_HOUR.$hourId")
@@ -128,28 +180,39 @@ object Notifications {
     }
 
     const val EXTRA_REMINDER = "reminder"
+    const val EXTRA_CUSTOM = "moment"
 }
 
 class PrayerAlarmReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
-        val reminder = intent.getStringExtra(Notifications.EXTRA_REMINDER)?.let { HourReminder.decode(it) } ?: return
+        val reminder = intent.getStringExtra(Notifications.EXTRA_REMINDER)?.let { HourReminder.decode(it) }
+        val moment = intent.getStringExtra(Notifications.EXTRA_CUSTOM)?.let { CustomReminder.decode(it) }
+        if (reminder == null && moment == null) return
         val pending = goAsync()
         val app = context.applicationContext as AgapeApp
         app.container.appScope.launchSafely {
             try {
                 val settings = app.container.settings.current()
-                val tradition = settings.tradition
-                val hour = tradition?.let { app.container.content.prayerBook(it).hours.firstOrNull { h -> h.id == reminder.hourId } }
-                if (settings.prayerNotifications && hour != null) {
-                    val lang = app.container.language()
-                    val res = app.container.localized(context)
+                val lang = app.container.language()
+                val res = app.container.localized(context)
+                val hour = reminder?.let { r -> settings.tradition?.let { app.container.content.prayerBook(it).hours.firstOrNull { h -> h.id == r.hourId } } }
+                if (settings.prayerNotifications && reminder != null && hour != null) {
                     Notifications.post(
                         context, Notifications.CHANNEL_PRAYER, reminder.hourId.hashCode(),
                         res.getString(R.string.notif_hour_title, hour.name[lang]),
                         hour.theme[lang].ifBlank { res.getString(R.string.notif_hour_text) },
                         "agape://prayer/${hour.id}",
                     )
-                    Notifications.schedule(context, reminder)
+                    Notifications.schedule(context, reminder, settings)
+                }
+                if (settings.prayerNotifications && moment != null) {
+                    Notifications.post(
+                        context, Notifications.CHANNEL_PRAYER, "moment:${moment.id}".hashCode(),
+                        moment.label.ifBlank { res.getString(R.string.moment_default) },
+                        res.getString(R.string.notif_hour_text),
+                        "agape://prayer",
+                    )
+                    Notifications.scheduleCustom(context, moment)
                 }
             } finally {
                 pending.finish()

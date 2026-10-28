@@ -31,6 +31,10 @@ import kotlinx.serialization.Serializable
 /** Deep link: agape://prayer/{hourId} */
 @Serializable data class HourRoute(val hourId: String)
 @Serializable data class PrayerTextRoute(val prayerId: String)
+@Serializable data object PrayerDayRoute
+@Serializable data object IntentionsRoute
+/** [kind] is a [agape.app.data.rosary.PrayerRope] name. */
+@Serializable data class RopeRoute(val kind: String)
 
 // Me
 @Serializable data object SettingsRoute

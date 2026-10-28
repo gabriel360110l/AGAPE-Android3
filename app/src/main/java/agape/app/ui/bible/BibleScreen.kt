@@ -1,10 +1,13 @@
 package agape.app.ui.bible
 
 import agape.app.R
+import agape.app.core.model.AppLanguage
 import agape.app.core.model.Testament
 import agape.app.data.content.Book
 import agape.app.data.content.ChurchSection
+import agape.app.data.content.GOSPELS
 import agape.app.data.content.chapterCount
+import agape.app.data.content.findBooks
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.AgapeCard
@@ -21,6 +24,7 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -35,12 +39,18 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.KeyboardArrowRight
+import androidx.compose.material.icons.outlined.Close
 import androidx.compose.material.icons.outlined.ExpandLess
 import androidx.compose.material.icons.outlined.ExpandMore
+import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -58,6 +68,8 @@ import androidx.compose.ui.unit.dp
 
 private enum class BibleTab { BOOKS, CHURCH }
 
+internal enum class BookSection(val label: Int) { OT(R.string.bible_ot), NT(R.string.bible_nt), GOSPELS(R.string.bible_gospels) }
+
 @Composable
 fun BibleScreen(
     openChapter: (String, Int) -> Unit,
@@ -68,7 +80,8 @@ fun BibleScreen(
     openPlans: () -> Unit,
 ) {
     var tab by rememberSaveable { mutableStateOf(BibleTab.BOOKS) }
-    var testament by rememberSaveable { mutableStateOf(Testament.OT) }
+    var section by rememberSaveable { mutableStateOf(BookSection.OT) }
+    var bookQuery by rememberSaveable { mutableStateOf("") }
     var expanded by rememberSaveable { mutableStateOf<String?>(null) }
     val container = LocalContainer.current
     val lang = LocalLanguage.current
@@ -96,13 +109,9 @@ fun BibleScreen(
                         }
                     }
                 }
-                item {
-                    Row(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Pill(stringResource(R.string.bible_ot), testament == Testament.OT, { testament = Testament.OT })
-                        Pill(stringResource(R.string.bible_nt), testament == Testament.NT, { testament = Testament.NT })
-                    }
-                }
-                items(books.filter { it.testament == testament }, key = { it.id }) { book ->
+                item { BookFilterBar(bookQuery, { bookQuery = it }, section, { section = it }) }
+                val shown = filterBooks(books, bookQuery, section, lang)
+                items(shown, key = { it.id }) { book ->
                     BookRow(
                         book = book,
                         expanded = expanded == book.id,
@@ -123,9 +132,38 @@ fun BibleScreen(
     }
 }
 
+/** A field to find a book by name, and the Old Testament · New Testament · Gospels choice below it. */
+@Composable
+internal fun BookFilterBar(query: String, onQuery: (String) -> Unit, section: BookSection, onSection: (BookSection) -> Unit) {
+    val c = AgapeTheme.colors
+    OutlinedTextField(
+        value = query, onValueChange = onQuery,
+        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
+        placeholder = { Text(stringResource(R.string.bible_find_book)) },
+        leadingIcon = { Icon(Icons.Outlined.Search, null, tint = c.inkMuted) },
+        trailingIcon = { if (query.isNotEmpty()) IconButton({ onQuery("") }) { Icon(Icons.Outlined.Close, stringResource(R.string.search_clear), tint = c.inkMuted) } },
+        singleLine = true, shape = cardShape,
+        colors = OutlinedTextFieldDefaults.colors(
+            focusedBorderColor = c.primary, unfocusedBorderColor = c.line,
+            focusedContainerColor = c.surface, unfocusedContainerColor = c.surface, cursorColor = c.primary,
+        ),
+    )
+    Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        BookSection.entries.forEach { s -> Pill(stringResource(s.label), query.isEmpty() && section == s, { onQuery(""); onSection(s) }) }
+    }
+}
+
+/** The books a [BookFilterBar] asks for: those matching the query, or else the chosen section. */
+internal fun filterBooks(books: List<Book>, query: String, section: BookSection, lang: AppLanguage): List<Book> =
+    if (query.isNotBlank()) books.findBooks(query, lang) else when (section) {
+        BookSection.GOSPELS -> books.filter { it.id in GOSPELS }
+        BookSection.OT -> books.filter { it.testament == Testament.OT }
+        BookSection.NT -> books.filter { it.testament == Testament.NT }
+    }
+
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun BookRow(book: Book, expanded: Boolean, onToggle: () -> Unit, onChapter: (Int) -> Unit) {
+internal fun BookRow(book: Book, expanded: Boolean, onToggle: () -> Unit, onChapter: (Int) -> Unit, current: Int? = null) {
     val lang = LocalLanguage.current
     val c = AgapeTheme.colors
     val chapters = book.chapterCount(lang)
@@ -149,11 +187,12 @@ private fun BookRow(book: Book, expanded: Boolean, onToggle: () -> Unit, onChapt
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     val chapterLabel = stringResource(R.string.bible_chapter)
                     (1..chapters).forEach { ch ->
+                        val here = ch == current
                         Box(
-                            Modifier.size(48.dp).clip(cardShape).background(c.surface).border(1.dp, c.line, cardShape)
+                            Modifier.size(48.dp).clip(cardShape).background(if (here) c.primary else c.surface).border(1.dp, if (here) c.primary else c.line, cardShape)
                                 .clickable { onChapter(ch) }.semantics { contentDescription = "$chapterLabel $ch" },
                             contentAlignment = Alignment.Center,
-                        ) { Text(ch.toString(), style = MaterialTheme.typography.labelLarge, color = c.ink) }
+                        ) { Text(ch.toString(), style = MaterialTheme.typography.labelLarge, color = if (here) c.onPrimary else c.ink) }
                     }
                 }
             }

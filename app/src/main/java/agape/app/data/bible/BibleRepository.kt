@@ -146,11 +146,17 @@ class BibleRepository(private val context: Context) {
         arrayOf(book, limit.toString()),
     )
 
-    /** Verses containing [query] in the translation of [language]. */
-    suspend fun searchVerses(query: String, language: AppLanguage, limit: Int = 80): List<Verse> = withContext(Dispatchers.IO) {
+    /**
+     * Verses containing [query] in the translation of [language], in the order of [bookOrder] (books not listed
+     * come last). Without an order the database would stop at the first [limit] hits in alphabetical book-id order.
+     */
+    suspend fun searchVerses(query: String, language: AppLanguage, bookOrder: List<String> = emptyList(), limit: Int = 200): List<Verse> = withContext(Dispatchers.IO) {
         database().rawQuery(
-            "SELECT book, chapter, verse, text FROM verses WHERE translation = ? AND text LIKE ? ESCAPE '\\' LIMIT ?",
-            arrayOf(translation(language), "%" + escapeLike(query) + "%", limit.toString()),
+            """SELECT book, chapter, verse, text FROM verses WHERE translation = ? AND text LIKE ? ESCAPE '\'
+               ORDER BY CASE WHEN instr(?, ',' || book || ',') = 0 THEN 1000000 ELSE instr(?, ',' || book || ',') END, chapter, verse LIMIT ?""",
+            bookOrder.joinToString(",", ",", ",").let { order ->
+                arrayOf(translation(language), "%" + escapeLike(query) + "%", order, order, limit.toString())
+            },
         ).use { c -> buildList { while (c.moveToNext()) add(Verse(c.getString(0), c.getInt(1), c.getInt(2), c.getString(3))) } }
     }
 

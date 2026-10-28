@@ -97,6 +97,10 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navDeepLink
 import androidx.navigation.toRoute
+import agape.app.data.rosary.PrayerRope
+import agape.app.ui.prayer.IntentionsScreen
+import agape.app.ui.prayer.PrayerDayScreen
+import agape.app.ui.prayer.PrayerRopeScreen
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import kotlin.reflect.KClass
@@ -254,12 +258,21 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openPlans = { nav.navigate(PlansRoute) },
             )
         }
-        composable<PrayerRoute> {
+        composable<PrayerRoute>(deepLinks = listOf(navDeepLink { uriPattern = "$DEEP_LINK_SCHEME://prayer" })) {
             PrayerScreen(
                 openHour = { nav.navigate(if (it == ROSARY_ID) RosaryRoute else HourRoute(it)) },
                 openPrayer = { nav.navigate(PrayerTextRoute(it)) },
                 openRosary = { nav.navigate(RosaryRoute) },
+                openRope = { nav.navigate(RopeRoute(it.name)) },
+                openDay = { nav.navigate(PrayerDayRoute) },
+                openIntentions = { nav.navigate(IntentionsRoute) },
             )
+        }
+        composable<PrayerDayRoute> { PrayerDayScreen(onBack = back) }
+        composable<IntentionsRoute> { IntentionsScreen(onBack = back) }
+        composable<RopeRoute> {
+            val rope = PrayerRope.entries.firstOrNull { r -> r.name == it.toRoute<RopeRoute>().kind } ?: PrayerRope.CHOTKI
+            PrayerRopeScreen(rope, onBack = back)
         }
         composable<MeRoute> {
             MeScreen(
@@ -315,7 +328,7 @@ private fun AgapeNavHost(nav: NavHostController) {
             HourScreen(it.toRoute<HourRoute>().hourId, onBack = back)
         }
         composable<PrayerTextRoute> { PrayerTextScreen(it.toRoute<PrayerTextRoute>().prayerId, onBack = back) }
-        composable<SettingsRoute> { SettingsScreen(onBack = back, openLegal = { nav.navigate(LegalRoute(it)) }) }
+        composable<SettingsRoute> { SettingsScreen(onBack = back, openLegal = { nav.navigate(LegalRoute(it)) }, openPrayerDay = { nav.navigate(PrayerDayRoute) }) }
         composable<SavedRoute> {
             SavedScreen(
                 onBack = back,

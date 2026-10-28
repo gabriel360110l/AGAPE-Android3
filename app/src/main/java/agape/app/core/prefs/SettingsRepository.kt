@@ -3,6 +3,7 @@ package agape.app.core.prefs
 import agape.app.core.model.ThemeMode
 import agape.app.core.model.Tradition
 import agape.app.core.model.VisualStyle
+import agape.app.data.schedule.Place
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -40,6 +41,15 @@ data class Settings(
     /** Hour ids with a reminder, stored as `hourId@HH:mm`. */
     val hourReminders: Set<String> = emptySet(),
     val lastPosition: ReadingPosition? = null,
+    /** Own prayer moments besides the hours, stored as `id|HH:mm|label`. */
+    val customReminders: Set<String> = emptySet(),
+    /** Names and intentions remembered in the hours, stored as `id|CATEGORY|text`. */
+    val prayerIntentions: Set<String> = emptySet(),
+    /** Whether the hours follow sunrise and sunset at [place] instead of their fixed clock times. */
+    val sunTimes: Boolean = false,
+    val place: Place? = null,
+    /** Do Not Disturb while praying, when Android allows the app to set it. */
+    val quietPrayer: Boolean = false,
 ) {
     /** Onboarding is complete up to (but not including) sign-in. */
     val readyForSignIn: Boolean get() = welcomeSeen && termsAccepted && tradition != null && style != null
@@ -67,6 +77,11 @@ class SettingsRepository(private val context: Context) {
         val lastOpenedAt = longPreferencesKey("last_opened_at")
         val dailyCache = stringPreferencesKey("daily_cache")
         val recentSearches = stringPreferencesKey("recent_searches")
+        val customReminders = stringSetPreferencesKey("custom_reminders")
+        val prayerIntentions = stringSetPreferencesKey("prayer_intentions")
+        val sunTimes = booleanPreferencesKey("sun_times")
+        val place = stringPreferencesKey("place")
+        val quietPrayer = booleanPreferencesKey("quiet_prayer")
     }
 
     val settings: Flow<Settings> = context.dataStore.data.map { p ->
@@ -83,6 +98,11 @@ class SettingsRepository(private val context: Context) {
             inactivityReminders = p[Keys.inactivityReminders] ?: false,
             hourReminders = p[Keys.hourReminders].orEmpty(),
             lastPosition = p[Keys.lastBook]?.let { ReadingPosition(it, p[Keys.lastChapter] ?: 1, p[Keys.lastVerse] ?: 1) },
+            customReminders = p[Keys.customReminders].orEmpty(),
+            prayerIntentions = p[Keys.prayerIntentions].orEmpty(),
+            sunTimes = p[Keys.sunTimes] ?: false,
+            place = Place.decode(p[Keys.place]),
+            quietPrayer = p[Keys.quietPrayer] ?: false,
         )
     }
 
@@ -103,6 +123,11 @@ class SettingsRepository(private val context: Context) {
     suspend fun setPrayerNotifications(on: Boolean) = context.dataStore.edit { it[Keys.prayerNotifications] = on }
     suspend fun setInactivityReminders(on: Boolean) = context.dataStore.edit { it[Keys.inactivityReminders] = on }
     suspend fun setHourReminders(entries: Set<String>) = context.dataStore.edit { it[Keys.hourReminders] = entries }
+    suspend fun setCustomReminders(entries: Set<String>) = context.dataStore.edit { it[Keys.customReminders] = entries }
+    suspend fun setPrayerIntentions(entries: Set<String>) = context.dataStore.edit { it[Keys.prayerIntentions] = entries }
+    suspend fun setSunTimes(on: Boolean) = context.dataStore.edit { it[Keys.sunTimes] = on }
+    suspend fun setPlace(place: Place) = context.dataStore.edit { it[Keys.place] = place.encode() }
+    suspend fun setQuietPrayer(on: Boolean) = context.dataStore.edit { it[Keys.quietPrayer] = on }
 
     suspend fun setLastPosition(pos: ReadingPosition) = context.dataStore.edit {
         it[Keys.lastBook] = pos.book
@@ -130,5 +155,6 @@ class SettingsRepository(private val context: Context) {
     suspend fun clearPersonal() = context.dataStore.edit {
         it.remove(Keys.lastBook); it.remove(Keys.lastChapter); it.remove(Keys.lastVerse)
         it.remove(Keys.tourSeen); it.remove(Keys.prayerIntroSeen)
+        it.remove(Keys.prayerIntentions)
     }
 }

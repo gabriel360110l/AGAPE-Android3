@@ -17,6 +17,7 @@ import android.content.Intent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -35,6 +36,7 @@ import androidx.compose.material.icons.outlined.Bookmark
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.Close
 import androidx.compose.material.icons.outlined.EditNote
+import androidx.compose.material.icons.outlined.Image
 import androidx.compose.material.icons.outlined.Share
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -74,6 +76,7 @@ fun VerseSheet(
     note: String,
     onDismiss: () -> Unit,
     openReference: (String, Int, Int) -> Unit,
+    shareImage: () -> Unit,
 ) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
@@ -103,7 +106,7 @@ fun VerseSheet(
             Text(verse.text, style = AgapeTheme.type.scripture, color = c.ink)
             Spacer(Modifier.height(16.dp))
 
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+            Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
                 ActionChip(if (bookmarked) Icons.Outlined.Bookmark else Icons.Outlined.BookmarkBorder, stringResource(if (bookmarked) R.string.verse_bookmarked else R.string.verse_bookmark)) {
                     scope.launch { container.user.setBookmark(verse.book, verse.chapter, verse.verse, !bookmarked, label) }
                 }
@@ -112,6 +115,7 @@ fun VerseSheet(
                     val text = "“${verse.text}”\n— $label\n\nagape://bible/${verse.book}/${verse.chapter}?verse=${verse.verse}"
                     context.startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, text), null))
                 }
+                ActionChip(Icons.Outlined.Image, stringResource(R.string.verse_image), shareImage)
             }
             Spacer(Modifier.height(14.dp))
             Text(stringResource(R.string.verse_highlight), style = MaterialTheme.typography.labelMedium, color = c.inkMuted)

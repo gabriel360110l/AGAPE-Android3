@@ -23,7 +23,7 @@ private val SourceSans = variable(R.font.source_sans, 400, 500, 600, 700)
 private val Literata = variable(R.font.literata, 400, 500, 600)
 private val Cormorant = variable(R.font.cormorant_garamond, 500, 600, 700)
 private val EbGaramond = variable(R.font.eb_garamond, 400, 500, 600)
-private val Cinzel = variable(R.font.cinzel, 400, 500, 600)
+internal val Cinzel = variable(R.font.cinzel, 400, 500, 600)
 private val Lora = variable(R.font.lora, 400, 500, 600)
 
 /** The style-specific text roles that Material's Typography does not cover. */

@@ -101,6 +101,7 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
     val mysteries = Rosary.mysteries.getValue(set)
     val steps = Rosary.steps
     val current = steps[step]
+    agape.app.notifications.QuietWhilePraying()
     val title = stringResource(R.string.rosary_title)
 
     fun go(to: Int) {

@@ -6,6 +6,12 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <!-- Prayer-hour reminders should fire on time; without this permission they fall back to a 5-minute window. -->
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <!-- Quiet mode while praying: Do Not Disturb, only after the user allows it in system settings. -->
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <!-- Rough location, only when the user asks the prayer hours to follow the sun where they are. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- A short tick for each knot of a prayer rope. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:name=".AgapeApp"
@@ -38,6 +44,13 @@
         </activity>
 
         <receiver android:name=".notifications.PrayerAlarmReceiver" android:exported="false" />
+        <!-- Home-screen widget: the verse of the day. -->
+        <receiver android:name=".widget.VerseWidget" android:exported="false" android:label="@string/widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_verse_info" />
+        </receiver>
         <receiver android:name=".notifications.BootReceiver" android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -53,5 +66,16 @@
             android:exported="false">
             <meta-data android:name="autoStoreLocales" android:value="true" />
         </service>
+
+        <!-- Shares verse cards drawn by the app with other apps. -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 </manifest>

@@ -4,6 +4,8 @@ import agape.app.R
 import agape.app.core.model.Tradition
 import agape.app.core.prefs.TourStop
 import agape.app.data.rosary.MysterySet
+import agape.app.data.rosary.PrayerRope
+import agape.app.data.schedule.SunSchedule
 import agape.app.data.content.PrayerHour
 import agape.app.data.plans.PrayerClock
 import agape.app.notifications.HourReminder
@@ -51,7 +53,9 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material.icons.outlined.Notifications
+import androidx.compose.material.icons.outlined.Schedule
 import androidx.compose.material.icons.outlined.NotificationsNone
 import androidx.compose.material.icons.outlined.Star
 import androidx.compose.material.icons.outlined.StarBorder
@@ -61,6 +65,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -74,9 +80,17 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.coroutines.launch
 import java.time.LocalTime
+import java.time.format.DateTimeFormatter
 
 @Composable
-fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit, openRosary: () -> Unit) {
+fun PrayerScreen(
+    openHour: (String) -> Unit,
+    openPrayer: (String) -> Unit,
+    openRosary: () -> Unit,
+    openRope: (PrayerRope) -> Unit,
+    openDay: () -> Unit,
+    openIntentions: () -> Unit,
+) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val settings = LocalSettings.current
@@ -132,19 +146,36 @@ fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit, openR
                 }
             }
         }
-        if (tradition == Tradition.CATHOLIC) {
-            item {
-                AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), onClick = openRosary) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Column(Modifier.weight(1f)) {
-                            Kicker(stringResource(R.string.rosary_title))
-                            Spacer(Modifier.height(6.dp))
-                            Text(MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink)
-                            Text(stringResource(R.string.rosary_card_body), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
+        // Every rope is open to everyone; the user's own church comes first.
+        item { Kicker(stringResource(R.string.ropes_title), Modifier.padding(start = 20.dp, top = 16.dp, bottom = 8.dp)) }
+        item {
+            val ropes = when (tradition) {
+                Tradition.CATHOLIC -> listOf(null, PrayerRope.CHOTKI, PrayerRope.KYRIE)
+                Tradition.ORIENTAL_ORTHODOX -> listOf(PrayerRope.KYRIE, PrayerRope.CHOTKI, null)
+                else -> listOf(PrayerRope.CHOTKI, PrayerRope.KYRIE, null)
+            }
+            Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                ropes.forEach { rope ->
+                    val title = if (rope == null) stringResource(R.string.rosary_title) else stringResource(rope.title)
+                    val sub = if (rope == null) MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang] else stringResource(rope.subtitle)
+                    AgapeCard(Modifier.width(236.dp), onClick = { if (rope == null) openRosary() else openRope(rope) }, contentPadding = PaddingValues(16.dp)) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Column(Modifier.weight(1f)) {
+                                Text(title, style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 1)
+                                Spacer(Modifier.height(4.dp))
+                                Text(sub, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 2)
+                            }
+                            Spacer(Modifier.width(10.dp))
+                            if (rope == null) RosaryMark(Modifier.size(44.dp)) else RopeMark(rope, Modifier.size(44.dp))
                         }
-                        RosaryMark(Modifier.size(56.dp))
                     }
                 }
+            }
+        }
+        item {
+            Row(Modifier.padding(horizontal = 16.dp, vertical = 12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                ShortcutCard(stringResource(R.string.day_title), stringResource(R.string.day_card_hint), Icons.Outlined.Schedule, openDay, Modifier.weight(1f))
+                ShortcutCard(stringResource(R.string.intentions_title), stringResource(R.string.intentions_card_hint), Icons.Outlined.FavoriteBorder, openIntentions, Modifier.weight(1f))
             }
         }
         if (!settings.prayerNotifications && settings.prayerIntroSeen) {
@@ -164,16 +195,23 @@ fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit, openR
             items(favHours, key = { "fh" + it.id }) { h -> ListRow(h.name[lang], subtitle = h.time, onClick = { openHour(h.id) }) }
             items(favPrayers, key = { "fp" + it.id }) { p -> ListRow(p.title[lang], subtitle = p.subtitle[lang], onClick = { openPrayer(p.id) }) }
         }
-        item { Kicker(stringResource(R.string.prayer_hours), Modifier.padding(start = 20.dp, top = 20.dp, bottom = 4.dp)) }
+        item {
+            Row(Modifier.fillMaxWidth().padding(start = 20.dp, top = 20.dp, end = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                Kicker(stringResource(R.string.prayer_hours), Modifier.weight(1f))
+                TextButton(onClick = openDay) { Text(stringResource(R.string.day_edit_times), style = MaterialTheme.typography.labelLarge, color = c.primary) }
+            }
+        }
         items(book.hours, key = { it.id }) { hour ->
             val isNow = hour.id == current?.id
+            val fixed = reminders[hour.id]?.time ?: LocalTime.parse(hour.time)
+            val time = remember(settings, fixed) { SunSchedule.timeOn(hour.id, fixed, settings, java.time.LocalDate.now()) }
             ListRow(
                 title = hour.name[lang],
                 subtitle = hour.subtitle[lang],
                 onClick = { openHour(hour.id) },
                 leading = {
                     Column(Modifier.width(52.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(hour.time, style = MaterialTheme.typography.labelLarge, color = if (isNow) c.primary else c.inkMuted)
+                        Text(time.format(clock), style = MaterialTheme.typography.labelLarge, color = if (isNow) c.primary else c.inkMuted)
                         Box(Modifier.padding(top = 4.dp).size(if (isNow) 10.dp else 6.dp).clip(CircleShape).background(if (isNow) c.accent else c.line))
                     }
                 },
@@ -223,6 +261,20 @@ fun PrayerScreen(openHour: (String) -> Unit, openPrayer: (String) -> Unit, openR
         onEnable = { scope.launch { enableNotifications(container, book.hours); finishIntro(container) } },
         onLater = { scope.launch { finishIntro(container) } },
     )
+}
+
+private val clock = DateTimeFormatter.ofPattern("HH:mm")
+
+@Composable
+private fun ShortcutCard(title: String, hint: String, icon: ImageVector, onClick: () -> Unit, modifier: Modifier = Modifier) {
+    val c = AgapeTheme.colors
+    AgapeCard(modifier, onClick = onClick, contentPadding = PaddingValues(16.dp)) {
+        Icon(icon, null, tint = c.primary, modifier = Modifier.size(24.dp))
+        Spacer(Modifier.height(10.dp))
+        Text(title, style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 2)
+        Spacer(Modifier.height(4.dp))
+        Text(hint, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 3)
+    }
 }
 
 private suspend fun finishIntro(container: agape.app.AppContainer) {

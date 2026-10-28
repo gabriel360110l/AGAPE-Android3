@@ -57,7 +57,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun SettingsScreen(onBack: () -> Unit, openLegal: (String) -> Unit) {
+fun SettingsScreen(onBack: () -> Unit, openLegal: (String) -> Unit, openPrayerDay: () -> Unit = {}) {
     val container = LocalContainer.current
     val settings = LocalSettings.current
     val context = LocalContext.current
@@ -144,6 +144,7 @@ fun SettingsScreen(onBack: () -> Unit, openLegal: (String) -> Unit) {
                         Notifications.reschedule(context)
                     }
                 }
+                TextButton(onClick = openPrayerDay) { Text(stringResource(R.string.day_title) + " →", style = MaterialTheme.typography.labelLarge, color = c.primary) }
             }
             SettingsCard(R.string.settings_font_size) {
                 Text(
