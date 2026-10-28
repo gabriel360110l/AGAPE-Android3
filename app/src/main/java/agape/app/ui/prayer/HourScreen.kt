@@ -1,5 +1,6 @@
 package agape.app.ui.prayer
 
+import agape.app.AppContainer
 import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Passage
@@ -8,6 +9,7 @@ import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
+import agape.app.ui.components.ListenButton
 import agape.app.ui.components.Ornament
 import agape.app.ui.components.PrimaryButton
 import agape.app.ui.components.ProgressLine
@@ -83,7 +85,10 @@ fun HourScreen(hourId: String, onBack: () -> Unit) {
     val untranslated = lang == AppLanguage.DUTCH && sections.any { s -> s.kind in listOf(PrayerSection.Kind.text, PrayerSection.Kind.rubric) && s.body != null && s.body.nl.isEmpty() && s.body.en.isNotEmpty() }
 
     Column(Modifier.fillMaxSize()) {
-        DetailTopBar(hour.name[lang], onBack) { FavoriteButton("hour:${hour.id}") }
+        DetailTopBar(hour.name[lang], onBack) {
+            ListenButton("hour:${hour.id}") { spokenParts(container, hour.name[lang], sections, lang) }
+            FavoriteButton("hour:${hour.id}")
+        }
         ProgressLine(progress, Modifier.padding(horizontal = 20.dp))
         LazyColumn(state = list, contentPadding = PaddingValues(start = 24.dp, end = 24.dp, bottom = 48.dp)) {
             item {
@@ -226,6 +231,27 @@ private fun SectionTitle(text: String) {
     )
 }
 
+/** What is read aloud for an hour: titles, texts, psalms and prayers; rubrics (instructions) are left out. */
+private suspend fun spokenParts(container: AppContainer, name: String, sections: List<PrayerSection>, lang: AppLanguage): List<String> {
+    val out = mutableListOf(name)
+    sections.forEach { s ->
+        s.title?.get(lang)?.takeIf { it.isNotBlank() }?.let { out += it }
+        when (s.kind) {
+            PrayerSection.Kind.text -> out += s.body?.get(lang).orEmpty()
+            PrayerSection.Kind.scripture -> {
+                val inline = s.body?.let { if (lang == AppLanguage.ENGLISH) it.en else it.nl }.orEmpty()
+                out += inline.ifEmpty { s.ref?.let { Passage.parse(it) }?.let { p -> container.bible.passage(p, lang).map { it.text } }.orEmpty() }
+            }
+            PrayerSection.Kind.prayer -> s.prayerId?.let { container.content.prayer(it) }?.let { p ->
+                if (s.title == null) out += p.title[lang]
+                out += p.body[lang]
+            }
+            PrayerSection.Kind.rubric, PrayerSection.Kind.heading, PrayerSection.Kind.counter -> Unit
+        }
+    }
+    return out
+}
+
 @Composable
 fun PrayerTextScreen(prayerId: String, onBack: () -> Unit) {
     val container = LocalContainer.current
@@ -235,7 +261,10 @@ fun PrayerTextScreen(prayerId: String, onBack: () -> Unit) {
     var prayed by remember { mutableStateOf(false) }
     val c = AgapeTheme.colors
     Column(Modifier.fillMaxSize()) {
-        DetailTopBar(prayer.title[lang], onBack) { FavoriteButton("prayer:${prayer.id}") }
+        DetailTopBar(prayer.title[lang], onBack) {
+            ListenButton("prayer:${prayer.id}") { listOf(prayer.title[lang]) + prayer.body[lang] }
+            FavoriteButton("prayer:${prayer.id}")
+        }
         Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 24.dp)) {
             Column(Modifier.fillMaxWidth().padding(vertical = 18.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(prayer.title[lang], style = MaterialTheme.typography.displaySmall, color = c.primary, textAlign = TextAlign.Center)

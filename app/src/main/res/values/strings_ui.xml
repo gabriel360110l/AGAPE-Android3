@@ -51,4 +51,22 @@
     <string name="reader_next_chapter">Next chapter</string>
     <string name="bible_gospels">Gospels</string>
     <string name="bible_find_book">Find a book (e.g. Matthew, Psalms)</string>
+    <string name="listen">Read aloud</string>
+    <string name="listen_stop">Stop reading aloud</string>
+    <string name="speaker_unavailable">Reading aloud is not available on this phone. Install a text-to-speech engine in Android settings.</string>
+    <string name="speaker_no_voice_nl">No Dutch voice is installed. Add one under Settings → System → Languages → Text-to-speech.</string>
+    <string name="speaker_no_voice_en">No English voice is installed. Add one under Settings → System → Languages → Text-to-speech.</string>
+    <string name="verse_image">Image</string>
+    <string name="verse_image_title">Share as image</string>
+    <string name="verse_image_share">Share image</string>
+    <string name="card_style_night">Night and gold</string>
+    <string name="card_style_parchment">Parchment</string>
+    <string name="card_style_olive">Olive and light</string>
+    <string name="reader_jump">Go to book and chapter</string>
+    <string name="reader_audio">Reading aloud · %1$s</string>
+    <string name="reader_previous_verse">Previous verse</string>
+    <string name="reader_next_verse">Next verse</string>
+    <string name="reader_play">Play</string>
+    <string name="reader_pause">Pause</string>
+    <string name="reader_mark_unread">Mark as unread</string>
 </resources>

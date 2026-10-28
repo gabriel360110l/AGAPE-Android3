@@ -71,6 +71,12 @@ class UserRepository(private val db: UserDatabase) {
         changed()
     }
 
+    /** Takes back "read" for a chapter tapped by mistake; the day's activity stays, so streaks do not change. */
+    suspend fun unmarkChapterRead(book: String, chapter: Int) {
+        dao.deleteChapterRead(book, chapter)
+        changed()
+    }
+
     suspend fun markHourPrayed(hourId: String, title: String) {
         log(ActivityType.PRAYED_HOUR, "hour:$hourId", title); changed()
     }

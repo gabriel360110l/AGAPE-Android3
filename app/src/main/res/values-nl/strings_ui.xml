@@ -51,4 +51,22 @@
     <string name="reader_next_chapter">Volgend hoofdstuk</string>
     <string name="bible_gospels">Evangeliën</string>
     <string name="bible_find_book">Zoek een boek (bijv. Matteüs, Psalmen)</string>
+    <string name="listen">Voorlezen</string>
+    <string name="listen_stop">Stoppen met voorlezen</string>
+    <string name="speaker_unavailable">Voorlezen werkt niet op deze telefoon. Installeer een spraakprogramma via de Android-instellingen.</string>
+    <string name="speaker_no_voice_nl">Er is geen Nederlandse stem geïnstalleerd. Voeg er een toe via Instellingen → Systeem → Talen → Tekst-naar-spraak.</string>
+    <string name="speaker_no_voice_en">Er is geen Engelse stem geïnstalleerd. Voeg er een toe via Instellingen → Systeem → Talen → Tekst-naar-spraak.</string>
+    <string name="verse_image">Afbeelding</string>
+    <string name="verse_image_title">Delen als afbeelding</string>
+    <string name="verse_image_share">Afbeelding delen</string>
+    <string name="card_style_night">Nacht en goud</string>
+    <string name="card_style_parchment">Perkament</string>
+    <string name="card_style_olive">Olijf en licht</string>
+    <string name="reader_jump">Naar boek en hoofdstuk</string>
+    <string name="reader_audio">Voorlezen · %1$s</string>
+    <string name="reader_previous_verse">Vorig vers</string>
+    <string name="reader_next_verse">Volgend vers</string>
+    <string name="reader_play">Afspelen</string>
+    <string name="reader_pause">Pauze</string>
+    <string name="reader_mark_unread">Toch niet gelezen</string>
 </resources>

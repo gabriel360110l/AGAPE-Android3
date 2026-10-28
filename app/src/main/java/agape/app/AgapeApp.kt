@@ -4,6 +4,7 @@ import agape.app.core.model.AppLanguage
 import agape.app.core.prefs.SettingsRepository
 import agape.app.data.auth.AuthRepository
 import agape.app.data.auth.LocalDevAuthRepository
+import agape.app.data.audio.Speaker
 import agape.app.data.auth.SupabaseAuthRepository
 import agape.app.data.bible.BibleRepository
 import agape.app.data.content.Backgrounds
@@ -56,6 +57,7 @@ class AppContainer(private val app: Application) {
     val daily = DailyRepository(content, settings)
     val saints = SaintsRepository(content)
     val backgrounds = Backgrounds(app)
+    val speaker = Speaker(app)
 
     /** The language the app is shown in. English unless the user picked Dutch. */
     fun language(): AppLanguage = AppLanguage.fromTag(AppCompatDelegate.getApplicationLocales()[0]?.language)
