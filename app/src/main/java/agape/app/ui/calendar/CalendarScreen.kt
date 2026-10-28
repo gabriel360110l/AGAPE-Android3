@@ -7,6 +7,10 @@ import agape.app.core.model.Testament
 import agape.app.core.model.Tradition
 import agape.app.data.calendar.FeastRank
 import agape.app.data.calendar.LiturgicalCalendar
+import agape.app.data.calendar.FastLevel
+import agape.app.data.calendar.Fasting
+import agape.app.ui.components.DayStatusPill
+import agape.app.ui.components.FastMark
 import agape.app.data.saints.SaintDayView
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
@@ -123,6 +127,7 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
                     week.forEach { d ->
                         val inMonth = d.monthValue == ym.monthValue
                         val feasts = remember(d, tradition) { LiturgicalCalendar.feasts(tradition, d) }
+                        val fast = remember(d, tradition) { Fasting.status(tradition, d).level }
                         val isSel = d == day
                         val isToday = d == today
                         Column(
@@ -142,6 +147,7 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
                             }
                             Row(Modifier.padding(top = 2.dp), horizontalArrangement = Arrangement.spacedBy(3.dp)) {
                                 if (feasts.any { it.rank != FeastRank.SEASON }) Box(Modifier.size(5.dp).clip(CircleShape).background(if (isSel) c.onPrimary else c.accent))
+                                FastMark(fast, if (isSel) c.onPrimary else c.primary)
                                 if (d.toEpochDay() in activeDays) Box(Modifier.size(5.dp).clip(CircleShape).background(if (isSel) c.onPrimary else c.primary.copy(alpha = 0.6f)))
                             }
                         }
@@ -150,7 +156,8 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
             }
             Row(Modifier.padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
                 Box(Modifier.size(6.dp).clip(CircleShape).background(c.accent)); Text("  " + stringResource(R.string.calendar_legend_feast) + "     ", style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
-                Box(Modifier.size(6.dp).clip(CircleShape).background(c.primary.copy(alpha = 0.6f))); Text("  " + stringResource(R.string.calendar_legend_active), style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
+                Box(Modifier.size(6.dp).clip(CircleShape).background(c.primary.copy(alpha = 0.6f))); Text("  " + stringResource(R.string.calendar_legend_active) + "     ", style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
+                FastMark(FastLevel.FAST, c.primary); Text("  " + stringResource(R.string.calendar_legend_fast), style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
             }
             Spacer(Modifier.height(8.dp))
             DayDetails(day, tradition, lang, activity.filter { it.epochDay == day.toEpochDay() }.map { it.title }, openPassage)
@@ -173,6 +180,8 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
         Kicker(day.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)))
         Spacer(Modifier.height(8.dp))
         ThreeDates(view, tradition, lang)
+        Spacer(Modifier.height(12.dp))
+        DayStatusPill(remember(day, tradition) { Fasting.status(tradition, day) }, tradition)
         Spacer(Modifier.height(12.dp))
         feasts.forEach { f ->
             Text(f.name[lang], style = if (f.rank == FeastRank.SEASON) MaterialTheme.typography.titleMedium else MaterialTheme.typography.headlineSmall, color = if (f.rank == FeastRank.SEASON) c.accent else c.primary)
@@ -360,7 +369,10 @@ fun WeekStrip(onOpen: () -> Unit) {
                         Modifier.padding(top = 4.dp).size(36.dp).clip(CircleShape).background(if (isToday) c.primary else Color.Transparent),
                         contentAlignment = Alignment.Center,
                     ) { Text(d.dayOfMonth.toString(), style = MaterialTheme.typography.titleSmall, color = if (isToday) c.onPrimary else c.ink) }
-                    Box(Modifier.padding(top = 3.dp).size(5.dp).clip(CircleShape).background(if (feast) c.accent else Color.Transparent))
+                    Row(Modifier.padding(top = 3.dp).height(6.dp), horizontalArrangement = Arrangement.spacedBy(3.dp), verticalAlignment = Alignment.CenterVertically) {
+                        if (feast) Box(Modifier.size(5.dp).clip(CircleShape).background(c.accent))
+                        FastMark(Fasting.status(tradition, d).level, c.primary)
+                    }
                 }
             }
         }
@@ -368,5 +380,7 @@ fun WeekStrip(onOpen: () -> Unit) {
             Spacer(Modifier.height(10.dp))
             Text(it.name[lang], style = MaterialTheme.typography.titleMedium, color = c.primary)
         }
+        Spacer(Modifier.height(6.dp))
+        Text(Fasting.status(tradition, today).label[lang], style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
     }
 }

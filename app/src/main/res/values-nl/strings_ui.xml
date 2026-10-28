@@ -130,4 +130,17 @@
     <string name="rope_chotki_about">De chotki (komboskini) is geknoopt van wol, elke knoop een klein kruis. Bij elke knoop wordt het Jezusgebed gezegd, langzaam, met de adem; bij de kralen wordt de Moeder Gods gevraagd voor ons te bidden.</string>
     <string name="rope_kyrie_about">Aan het eind van elk uur van de Agpeya wordt 41 keer Kyrie eleison gebeden. Christelijke lezers tellen er 39 zweepslagen, de doornenkroon en de lans in: een gedachtenis van het Lijden.</string>
     <string name="day_edit_times">Tijden</string>
+    <string name="fast_info_none">Een gewone dag zonder vasten. Een goede dag om te danken en de gebedsuren te houden.</string>
+    <string name="fast_info_free">Een tijd van vreugde: de Kerk vast op deze dagen niet, ook niet op woensdag en vrijdag.</string>
+    <string name="fast_info_cheesefare">De laatste week voor de Grote Vasten: geen vlees meer, maar zuivel, eieren en vis worden nog gegeten.</string>
+    <string name="fast_info_abstinence">Een onthoudingsdag: geen vlees. Buiten de Veertigdagentijd staan veel bisschoppenconferenties een andere boetedaad toe, zoals gebed of een gift aan de armen.</string>
+    <string name="fast_info_fast_eo">Een vastendag: geen vlees, zuivel, eieren of vis; op veel vastendagen ook geen wijn of olijfolie. Zaterdag en zondag zijn in een vastentijd wat lichter.</string>
+    <string name="fast_info_fast_oo">Een vastendag: geen voedsel van dieren (geen vlees, zuivel of eieren). In sommige vastentijden is vis toegestaan; velen eten ook niets tot de middag of later.</string>
+    <string name="fast_info_strict">Strenge vasten: velen eten niets tot de avond, en dan alleen eenvoudig vastenvoedsel zonder olie of wijn.</string>
+    <string name="fast_info_strict_rc">Een vasten- en onthoudingsdag: geen vlees, en maar één volle maaltijd met twee kleine (van 18 tot 59 jaar; onthouding vanaf 14 jaar).</string>
+    <string name="fast_info_fish">Vanwege het feest zijn vis, wijn en olie vandaag toegestaan.</string>
+    <string name="fast_guideline">Een algemene richtlijn. Volg wat je eigen kerk en je priester vragen. Zieken, zwangere vrouwen, kinderen en ouderen krijgen meestal een lichtere vasten.</string>
+    <string name="fast_guideline_rc">Een algemene richtlijn naar het kerkelijk recht van de Latijnse Kerk. Je bisschoppenconferentie kan het aanpassen, en zieken zijn vrijgesteld.</string>
+    <string name="fast_new_calendar">Vaste feesten en vasten volgen de nieuwe kalender; kerken met de oude kalender houden ze 13 dagen later.</string>
+    <string name="calendar_legend_fast">Vastendag</string>
 </resources>

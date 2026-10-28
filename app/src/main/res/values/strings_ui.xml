@@ -130,4 +130,17 @@
     <string name="rope_chotki_about">The chotki (komboskini) is knotted of wool, each knot a small cross. On every knot the Jesus Prayer is said, slowly, with the breath; on the beads, the Mother of God is asked to pray for us.</string>
     <string name="rope_kyrie_about">At the end of each hour of the Agpeya, Kyrie eleison is prayed 41 times. Christian readers count 39 lashes, the crown of thorns and the spear: a remembrance of the Passion.</string>
     <string name="day_edit_times">Times</string>
+    <string name="fast_info_none">An ordinary day without a fast. A good day to give thanks and keep the hours of prayer.</string>
+    <string name="fast_info_free">A time of joy: the Church does not fast on these days, not even on Wednesday and Friday.</string>
+    <string name="fast_info_cheesefare">The last week before Great Lent: no more meat, but dairy, eggs and fish are still eaten.</string>
+    <string name="fast_info_abstinence">A day of abstinence: no meat. Outside Lent many bishops\' conferences allow another act of penance instead, such as prayer or a gift to the poor.</string>
+    <string name="fast_info_fast_eo">A fast day: no meat, dairy, eggs or fish; on many fast days also no wine or olive oil. Weekends in a fast are a little lighter.</string>
+    <string name="fast_info_fast_oo">A fast day: no food from animals (no meat, dairy or eggs). In some fasts fish is allowed; many also keep a time without food until noon or later.</string>
+    <string name="fast_info_strict">A strict fast: many eat nothing until the evening, and then only simple fasting food without oil or wine.</string>
+    <string name="fast_info_strict_rc">A day of fasting and abstinence: no meat, and only one full meal with two small ones (from 18 to 59 years; abstinence from 14).</string>
+    <string name="fast_info_fish">Because of the feast, fish, wine and oil are allowed today.</string>
+    <string name="fast_guideline">A general guideline. Follow what your own church and your priest ask. The sick, pregnant women, children and the elderly are usually given a lighter fast.</string>
+    <string name="fast_guideline_rc">A general guideline after the canon law of the Latin Church. Your bishops\' conference may adapt it, and the sick are excused.</string>
+    <string name="fast_new_calendar">Fixed feasts and fasts follow the new calendar; churches on the old calendar keep them 13 days later.</string>
+    <string name="calendar_legend_fast">Fast day</string>
 </resources>

@@ -5,6 +5,8 @@ import agape.app.core.model.Passage
 import agape.app.core.model.Testament
 import agape.app.core.model.Tradition
 import agape.app.data.calendar.ChurchCalendar
+import agape.app.data.calendar.Fasting
+import agape.app.ui.components.DayStatusPill
 import agape.app.data.content.chapterCount
 import agape.app.data.daily.DailyInfo
 import agape.app.data.plans.PlanEngine
@@ -121,6 +123,7 @@ fun HomeScreen(
     }
     val daily by produceState<DailyInfo?>(null, tradition, lang) { value = container.daily.today(tradition, lang) }
     val saint = remember(tradition, lang, today) { container.saints.forDate(tradition, lang, today) }
+    val dayStatus = remember(tradition, today) { Fasting.status(tradition, today) }
     val plans by container.user.plans.collectAsStateWithLifecycle(emptyList())
     val stats by container.user.stats.collectAsStateWithLifecycle(null)
     val totalChapters = remember(tradition, lang) { container.content.canon(tradition, lang).sumOf { it.chapterCount(lang) } }
@@ -163,6 +166,8 @@ fun HomeScreen(
                         RoundIcon(Icons.Outlined.Settings, stringResource(R.string.home_profile), openProfile)
                     }
                     Box(Modifier.padding(top = 12.dp).width(32.dp).height(2.dp).background(c.accent))
+                    Spacer(Modifier.height(14.dp))
+                    DayStatusPill(dayStatus, tradition, onDark = true)
                     if (ChurchCalendar.isPaschalSeason(tradition, today)) {
                         Spacer(Modifier.height(14.dp))
                         Text(
