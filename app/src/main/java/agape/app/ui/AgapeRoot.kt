@@ -2,6 +2,8 @@ package agape.app.ui
 
 import agape.app.AppContainer
 import agape.app.core.model.ThemeMode
+import agape.app.core.model.Tradition
+import agape.app.ui.intro.AgapeIntro
 import agape.app.core.model.VisualStyle
 import agape.app.data.auth.AuthState
 import agape.app.ui.main.MainShell
@@ -15,6 +17,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.key
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -49,6 +53,12 @@ fun AgapeRoot(container: AppContainer, newIntents: StateFlow<Intent?>, onIntentH
                 Crossfade(targetState = inApp, label = "root") { signedIn ->
                     if (signedIn) MainShell(newIntents = newIntents, onIntentHandled = onIntentHandled)
                     else if (auth !is AuthState.Loading) Onboarding(settings = s, onPreviewStyle = { previewStyle = it })
+                }
+                // The opening plays on every start of the app and again whenever the church is changed.
+                val church = s.tradition
+                var shownFor by rememberSaveable { mutableStateOf<Tradition?>(null) }
+                if (inApp && church != null && church != shownFor) {
+                    key(church) { AgapeIntro(church) { shownFor = church } }
                 }
             }
         }

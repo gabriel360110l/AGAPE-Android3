@@ -143,4 +143,5 @@
     <string name="fast_guideline_rc">A general guideline after the canon law of the Latin Church. Your bishops\' conference may adapt it, and the sick are excused.</string>
     <string name="fast_new_calendar">Fixed feasts and fasts follow the new calendar; churches on the old calendar keep them 13 days later.</string>
     <string name="calendar_legend_fast">Fast day</string>
+    <string name="intro_subtitle">%1$s · GOD IS LOVE</string>
 </resources>

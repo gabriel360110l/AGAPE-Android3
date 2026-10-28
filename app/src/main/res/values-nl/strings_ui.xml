@@ -143,4 +143,5 @@
     <string name="fast_guideline_rc">Een algemene richtlijn naar het kerkelijk recht van de Latijnse Kerk. Je bisschoppenconferentie kan het aanpassen, en zieken zijn vrijgesteld.</string>
     <string name="fast_new_calendar">Vaste feesten en vasten volgen de nieuwe kalender; kerken met de oude kalender houden ze 13 dagen later.</string>
     <string name="calendar_legend_fast">Vastendag</string>
+    <string name="intro_subtitle">%1$s · GOD IS LIEFDE</string>
 </resources>
