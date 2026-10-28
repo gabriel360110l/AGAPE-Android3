@@ -49,4 +49,6 @@
     <string name="reader_end_of">Einde van %1$s</string>
     <string name="reader_previous_chapter">Vorig hoofdstuk</string>
     <string name="reader_next_chapter">Volgend hoofdstuk</string>
+    <string name="bible_gospels">Evangeliën</string>
+    <string name="bible_find_book">Zoek een boek (bijv. Matteüs, Psalmen)</string>
 </resources>

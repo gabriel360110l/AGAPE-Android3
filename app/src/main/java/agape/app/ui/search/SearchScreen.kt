@@ -6,6 +6,10 @@ import agape.app.core.model.L10n
 import agape.app.core.model.Passage
 import agape.app.core.model.Tradition
 import agape.app.data.content.chapterCount
+import agape.app.data.content.GOSPELS
+import agape.app.data.content.has
+import agape.app.data.content.nameStarts
+import agape.app.data.content.findBooks
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.Kicker
@@ -160,35 +164,7 @@ fun SearchScreen(open: (SearchTarget) -> Unit) {
     }
 }
 
-/** Lower case without accents, so "Matteus" finds "Matteüs" and "Korintiers" finds "Korintiërs". */
-private fun fold(s: String): String =
-    java.text.Normalizer.normalize(s, java.text.Normalizer.Form.NFD).replace(combiningMarks, "").lowercase().trim()
-
-private val combiningMarks = Regex("\\p{Mn}+")
-
-private fun String.has(q: String) = fold(this).contains(fold(q))
 private fun L10n.has(q: String, lang: AppLanguage) = this[lang].has(q) || en.has(q)
-
-/** Common spellings that the book names in books.json do not start with. */
-private val bookAliases = mapOf(
-    "MAT" to listOf("mattheus", "mattheüs", "matth"),
-    "MRK" to listOf("markus"),
-    "LUK" to listOf("lukas"),
-    "JHN" to listOf("joh"),
-    "JAS" to listOf("jacobus"),
-    "REV" to listOf("apocalyps", "apokalyps"),
-    "SNG" to listOf("song of songs"),
-)
-
-private val gospelWords = listOf("evangelie", "evangelien", "gospel", "gospels")
-private val gospels = listOf("MAT", "MRK", "LUK", "JHN")
-
-/** Whether the start of a name of [book] (or of one of its aliases) is [name]. */
-private fun nameStarts(book: agape.app.data.content.Book, name: String, lang: AppLanguage): Boolean {
-    val n = fold(name)
-    return n.isNotEmpty() && (fold(book.name[lang]).startsWith(n) || fold(book.name.en).startsWith(n) || book.id.lowercase() == n ||
-        bookAliases[book.id].orEmpty().any { fold(it).startsWith(n) })
-}
 
 /** Searches everything the app holds, offline. */
 private suspend fun search(container: agape.app.AppContainer, q: String, lang: AppLanguage, tradition: Tradition): List<Hit> {
@@ -198,7 +174,7 @@ private suspend fun search(container: agape.app.AppContainer, q: String, lang: A
 
     // "John 3:16", "joh 3", "Matteus 5" → straight to the passage.
     Regex("""^(\d?\s?\p{L}[\p{L} ]*?)\s*(\d+)(?:[:.,](\d+))?$""").matchEntire(q)?.let { m ->
-        val book = canon.firstOrNull { b -> nameStarts(b, m.groupValues[1], lang) }
+        val book = canon.firstOrNull { b -> b.nameStarts(m.groupValues[1], lang) }
         val ch = m.groupValues[2].toInt()
         if (book != null && ch in 1..book.chapterCount(lang)) {
             val v = m.groupValues[3].toIntOrNull()
@@ -206,13 +182,11 @@ private suspend fun search(container: agape.app.AppContainer, q: String, lang: A
         }
     }
     // "Evangelie" or "Gospels" lists the four Gospels; otherwise the books whose name matches, Gospels first.
-    val books = if (gospelWords.any { it.startsWith(fold(q)) && fold(q).length >= 4 }) canon.filter { it.id in gospels }
-        else canon.filter { b -> b.name[lang].has(q) || b.name.en.has(q) || nameStarts(b, q, lang) }
-    books.sortedBy { gospels.indexOf(it.id).let { i -> if (i < 0) gospels.size else i } }.forEach {
+    canon.findBooks(q, lang).forEach {
         out += Hit(Kind.BIBLE, it.name[lang], it.intro?.get(lang)?.take(120).orEmpty(), SearchTarget.Verse(it.id, 1, 0))
     }
     // Verses: Gospels first, then the rest of the canon in order.
-    val order = gospels + canon.map { it.id }.filterNot { it in gospels }
+    val order = GOSPELS + canon.map { it.id }.filterNot { it in GOSPELS }
     if (q.length >= 3) container.bible.searchVerses(q, lang, order).forEach { v ->
         out += Hit(Kind.BIBLE, container.passageLabel(Passage(v.book, v.chapter, v.verse), lang), v.text, SearchTarget.Verse(v.book, v.chapter, v.verse))
     }

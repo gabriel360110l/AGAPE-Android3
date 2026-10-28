@@ -4,7 +4,9 @@ import agape.app.R
 import agape.app.core.model.Testament
 import agape.app.data.content.Book
 import agape.app.data.content.ChurchSection
+import agape.app.data.content.GOSPELS
 import agape.app.data.content.chapterCount
+import agape.app.data.content.findBooks
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.AgapeCard
@@ -21,6 +23,7 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -35,12 +38,18 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.KeyboardArrowRight
+import androidx.compose.material.icons.outlined.Close
 import androidx.compose.material.icons.outlined.ExpandLess
 import androidx.compose.material.icons.outlined.ExpandMore
+import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -58,6 +67,8 @@ import androidx.compose.ui.unit.dp
 
 private enum class BibleTab { BOOKS, CHURCH }
 
+private enum class BookSection(val label: Int) { OT(R.string.bible_ot), NT(R.string.bible_nt), GOSPELS(R.string.bible_gospels) }
+
 @Composable
 fun BibleScreen(
     openChapter: (String, Int) -> Unit,
@@ -68,7 +79,8 @@ fun BibleScreen(
     openPlans: () -> Unit,
 ) {
     var tab by rememberSaveable { mutableStateOf(BibleTab.BOOKS) }
-    var testament by rememberSaveable { mutableStateOf(Testament.OT) }
+    var section by rememberSaveable { mutableStateOf(BookSection.OT) }
+    var bookQuery by rememberSaveable { mutableStateOf("") }
     var expanded by rememberSaveable { mutableStateOf<String?>(null) }
     val container = LocalContainer.current
     val lang = LocalLanguage.current
@@ -97,12 +109,31 @@ fun BibleScreen(
                     }
                 }
                 item {
-                    Row(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Pill(stringResource(R.string.bible_ot), testament == Testament.OT, { testament = Testament.OT })
-                        Pill(stringResource(R.string.bible_nt), testament == Testament.NT, { testament = Testament.NT })
+                    val c = AgapeTheme.colors
+                    OutlinedTextField(
+                        value = bookQuery, onValueChange = { bookQuery = it },
+                        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
+                        placeholder = { Text(stringResource(R.string.bible_find_book)) },
+                        leadingIcon = { Icon(Icons.Outlined.Search, null, tint = c.inkMuted) },
+                        trailingIcon = { if (bookQuery.isNotEmpty()) IconButton({ bookQuery = "" }) { Icon(Icons.Outlined.Close, stringResource(R.string.search_clear), tint = c.inkMuted) } },
+                        singleLine = true, shape = cardShape,
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedBorderColor = c.primary, unfocusedBorderColor = c.line,
+                            focusedContainerColor = c.surface, unfocusedContainerColor = c.surface, cursorColor = c.primary,
+                        ),
+                    )
+                    Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        BookSection.entries.forEach { s ->
+                            Pill(stringResource(s.label), bookQuery.isEmpty() && section == s, { bookQuery = ""; section = s })
+                        }
                     }
                 }
-                items(books.filter { it.testament == testament }, key = { it.id }) { book ->
+                val shown = if (bookQuery.isNotBlank()) books.findBooks(bookQuery, lang) else when (section) {
+                    BookSection.GOSPELS -> books.filter { it.id in GOSPELS }
+                    BookSection.OT -> books.filter { it.testament == Testament.OT }
+                    BookSection.NT -> books.filter { it.testament == Testament.NT }
+                }
+                items(shown, key = { it.id }) { book ->
                     BookRow(
                         book = book,
                         expanded = expanded == book.id,
