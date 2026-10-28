@@ -56,6 +56,8 @@ fun AgapeRoot(container: AppContainer, newIntents: StateFlow<Intent?>, onIntentH
                 }
                 // The opening plays on every start of the app and again whenever the church is changed.
                 val church = s.tradition
+                val context = androidx.compose.ui.platform.LocalContext.current
+                androidx.compose.runtime.LaunchedEffect(church) { agape.app.widget.VerseWidget.refresh(context) }
                 var shownFor by rememberSaveable { mutableStateOf<Tradition?>(null) }
                 if (inApp && church != null && church != shownFor) {
                     key(church) { AgapeIntro(church) { shownFor = church } }

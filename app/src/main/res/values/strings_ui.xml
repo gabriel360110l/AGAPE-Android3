@@ -144,4 +144,7 @@
     <string name="fast_new_calendar">Fixed feasts and fasts follow the new calendar; churches on the old calendar keep them 13 days later.</string>
     <string name="calendar_legend_fast">Fast day</string>
     <string name="intro_subtitle">%1$s · GOD IS LOVE</string>
+    <string name="widget_name">AGAPE · Verse of the day</string>
+    <string name="widget_kicker">VERSE OF THE DAY</string>
+    <string name="widget_description">The verse of the day from AGAPE, renewed every day.</string>
 </resources>

@@ -144,4 +144,7 @@
     <string name="fast_new_calendar">Vaste feesten en vasten volgen de nieuwe kalender; kerken met de oude kalender houden ze 13 dagen later.</string>
     <string name="calendar_legend_fast">Vastendag</string>
     <string name="intro_subtitle">%1$s · GOD IS LIEFDE</string>
+    <string name="widget_name">AGAPE · Vers van de dag</string>
+    <string name="widget_kicker">VERS VAN DE DAG</string>
+    <string name="widget_description">Het vers van de dag uit AGAPE, elke dag nieuw.</string>
 </resources>
