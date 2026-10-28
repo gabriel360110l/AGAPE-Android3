@@ -54,5 +54,61 @@
   "artist": "Michael D Beckwith",
   "licence": "CC0",
   "source": "https://commons.wikimedia.org/wiki/File:St_Marys_Cathedral_Nave_Edinburgh.jpg"
+ },
+ {
+  "file": "backgrounds/church_candles_ljubljana.jpg",
+  "title": "Candleroom in Serbian Orthodox Church, Ljubljana",
+  "artist": "Petar Milošević",
+  "licence": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Candleroom_in_Serbian_orthodox_church_in_Ljubljana,_Slovenia.jpg",
+  "check": true
+ },
+ {
+  "file": "backgrounds/sunrise_galilee.jpg",
+  "title": "Sunrise over the Sea of Galilee",
+  "artist": "",
+  "licence": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Israel_Sunrise_over_Sea_of_Galilee_(16037234180).jpg",
+  "check": true
+ },
+ {
+  "file": "backgrounds/sunrise_mountains_babia.jpg",
+  "title": "Sunrise over Misty Mountain Valleys",
+  "artist": "Jakub Halun",
+  "licence": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Babia_G%C3%B3ra_-_wsch%C3%B3d_s%C5%82o%C5%84ca,_20230304_0638_3123.jpg",
+  "check": true
+ },
+ {
+  "file": "backgrounds/church_candles_bulgaria.jpg",
+  "title": "Candles in the Orthodox Sanctuary",
+  "artist": "Biser Todorov",
+  "licence": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Candles_in_the_Orthodox_Church,_Bulgaria.jpg",
+  "check": true
+ },
+ {
+  "file": "backgrounds/sunrise_forest_rays.jpg",
+  "title": "Golden Morning Sunbeams at Dawn",
+  "artist": "great.escape.photos",
+  "licence": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Morning_Sun_-_Flickr_-_great.escape.photos.jpg",
+  "check": true
+ },
+ {
+  "file": "backgrounds/cloister_jeronimos.jpg",
+  "title": "Monastery Cloister Vaulted Arches",
+  "artist": "",
+  "licence": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Jeronimos_Monastery_cloister_vault_arches.jpg",
+  "check": true
+ },
+ {
+  "file": "backgrounds/cloister_toledo.jpg",
+  "title": "San Juan de los Reyes Monastery Cloister",
+  "artist": "",
+  "licence": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Toledo,_Monasterio_de_San_Juan_de_los_Reyes,_cloister_10.jpg",
+  "check": true
  }
 ]
