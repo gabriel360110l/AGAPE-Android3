@@ -10,6 +10,7 @@ import agape.app.ui.LocalLanguage
 import agape.app.ui.components.AgapeCard
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
+import agape.app.ui.components.PaceButton
 import agape.app.ui.components.Pill
 import agape.app.ui.components.QuietButton
 import agape.app.ui.components.TraditionCross
@@ -22,6 +23,7 @@ import android.os.Vibrator
 import android.os.VibratorManager
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
@@ -50,6 +52,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.translate
@@ -66,13 +69,16 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 /** The rope's names, and the cross that hangs from it. */
+/** The least time on one knot before Next opens. */
+private const val KNOT_MILLIS = 2_000
+
 val PrayerRope.title: Int get() = R.string.rope_chotki
 val PrayerRope.subtitle: Int get() = R.string.rope_chotki_sub
 val PrayerRope.cross: Tradition get() = Tradition.EASTERN_ORTHODOX
 
 /**
- * A prayer rope to pray along: tap the rope (or anywhere in the circle) for each knot. A soft tick on every knot and
- * a firmer one on every tenth, so it can be prayed with the eyes closed.
+ * A prayer rope to pray along: Next moves one knot on, and opens again after at least two seconds, so the prayer is
+ * said on every knot and none is skipped. A soft tick on every knot and a firmer one on every tenth.
  */
 @Composable
 fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
@@ -105,16 +111,15 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
                 rope.sizes.forEach { n -> Pill(stringResource(R.string.rope_knots, n), size == n, { size = n }) }
             }
             Spacer(Modifier.height(12.dp))
-            val tapLabel = stringResource(R.string.rope_tap)
             Box(
                 Modifier.fillMaxWidth().aspectRatio(1f)
-                    .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null, onClick = ::tap)
-                    .semantics { contentDescription = "$title, ${count.knot} / $size"; onClick(tapLabel) { tap(); true } },
+                    .background(Brush.radialGradient(listOf(c.accent.copy(alpha = 0.16f), Color.Transparent)))
+                    .semantics { contentDescription = "$title, ${count.knot} / $size" },
                 contentAlignment = Alignment.Center,
             ) {
                 RopeRing(size, count.knot, rope, Modifier.fillMaxSize())
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text("${count.knot}", style = MaterialTheme.typography.displayMedium, color = c.primary)
+                    Text("${count.knot}", style = MaterialTheme.typography.displayLarge, color = c.primary)
                     Text(stringResource(R.string.rope_of, size), style = MaterialTheme.typography.labelLarge, color = c.inkMuted)
                     if (count.rounds > 0) Text(stringResource(R.string.rope_rounds, count.rounds), style = MaterialTheme.typography.labelMedium, color = c.accent)
                 }
@@ -126,7 +131,11 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
                 modifier = Modifier.padding(horizontal = 8.dp),
             )
             Spacer(Modifier.height(6.dp))
-            Text(stringResource(R.string.rope_hint), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, textAlign = TextAlign.Center)
+            Spacer(Modifier.height(16.dp))
+            PaceButton(
+                stringResource(R.string.rope_next), waiting = stringResource(R.string.pace_praying),
+                minMillis = KNOT_MILLIS, step = count.knot to count.rounds, onClick = ::tap,
+            )
             Spacer(Modifier.height(14.dp))
             AgapeCard(tonal = true) {
                 Text(stringResource(R.string.rope_chotki_about), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)

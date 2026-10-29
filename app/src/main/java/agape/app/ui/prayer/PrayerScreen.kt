@@ -85,6 +85,8 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
+import androidx.compose.foundation.pager.PagerState
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.text.font.FontWeight
@@ -112,110 +114,51 @@ fun PrayerScreen(
     val favorites by container.user.favorites.collectAsStateWithLifecycle(emptyList())
     val now = remember { LocalTime.now() }
     val current = remember(book) { PrayerClock.current(book.hours, now) }
-    val next = remember(book) { PrayerClock.next(book.hours, now) }
     val reminders = settings.hourReminders.mapNotNull { HourReminder.decode(it) }.associateBy { it.hourId }
     val c = AgapeTheme.colors
 
-    fun toggleReminder(hour: PrayerHour) = scope.launch {
-        val updated = if (hour.id in reminders) settings.hourReminders.filterNot { it.startsWith("${hour.id}@") }.toSet()
-        else settings.hourReminders + HourReminder(hour.id, LocalTime.parse(hour.time)).encode()
-        container.settings.setHourReminders(updated)
-        if (!settings.prayerNotifications) container.settings.setPrayerNotifications(true)
-        Notifications.reschedule(container.appContext())
-    }
-
     LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
         item { TabHeader(kicker = book.book[lang], title = stringResource(R.string.tab_prayer)) }
-        current?.let { hour ->
+        // The hours, one card each: swipe from hour to hour; it opens on the hour of now.
+        if (book.hours.isNotEmpty()) {
+            item { Kicker(stringResource(R.string.prayer_hours), Modifier.padding(start = 20.dp, top = 4.dp, bottom = 8.dp)) }
             item {
-                val sky = remember(now, c.isDark) { daySky(now, c.isDark) }
-                Column(
-                    Modifier.padding(horizontal = 16.dp, vertical = 8.dp).fillMaxWidth()
-                        .shadow(20.dp, cardShape, spotColor = sky.bottom.copy(alpha = 0.5f))
-                        .clip(cardShape).background(Brush.verticalGradient(listOf(sky.top, sky.bottom)))
-                        .clickable { openHour(hour.id) }.padding(22.dp),
-                ) {
-                    Row(verticalAlignment = Alignment.Top) {
-                        Column(Modifier.weight(1f)) {
-                            Kicker(stringResource(R.string.prayer_now), color = sky.muted)
-                            Spacer(Modifier.height(8.dp))
-                            Text(hour.name[lang], style = MaterialTheme.typography.displaySmall, color = sky.text)
-                            Text(hour.subtitle[lang], style = MaterialTheme.typography.titleMedium, color = sky.muted)
-                        }
-                        Flame(size = 56.dp)
-                    }
-                    Spacer(Modifier.height(14.dp))
-                    Text(hour.theme[lang], style = MaterialTheme.typography.bodyLarge, color = sky.text, maxLines = 4)
-                    Spacer(Modifier.height(20.dp))
-                    Box(
-                        Modifier.clip(CircleShape).background(sky.text).clickable { openHour(hour.id) }.padding(horizontal = 22.dp, vertical = 12.dp),
-                    ) { Text(stringResource(R.string.prayer_begin), style = MaterialTheme.typography.labelLarge, color = sky.bottom) }
-                    next?.takeIf { it.id != hour.id }?.let {
-                        Spacer(Modifier.height(12.dp))
-                        Text(stringResource(R.string.prayer_next, it.name[lang], it.time), style = MaterialTheme.typography.bodySmall, color = sky.muted)
-                    }
-                }
+                HourPager(
+                    hours = book.hours,
+                    start = book.hours.indexOfFirst { it.id == current?.id }.coerceAtLeast(0),
+                    nowId = current?.id,
+                    timeOf = { hour ->
+                        val fixed = reminders[hour.id]?.time ?: LocalTime.parse(hour.time)
+                        SunSchedule.timeOn(hour.id, fixed, settings, java.time.LocalDate.now())
+                    },
+                    openHour = openHour,
+                )
             }
         }
         // Every rope is open to everyone; the user's own church comes first. Swipe to choose.
-        item { Kicker(stringResource(R.string.ropes_title), Modifier.padding(start = 20.dp, top = 16.dp, bottom = 8.dp)) }
+        item { Kicker(stringResource(R.string.ropes_title), Modifier.padding(start = 20.dp, top = 24.dp, bottom = 8.dp)) }
         item {
             val ropes = if (tradition == Tradition.CATHOLIC) listOf(null, PrayerRope.CHOTKI) else listOf(PrayerRope.CHOTKI, null)
             RopePicker(ropes, openRosary, openRope)
         }
         // Two shortcuts side by side, always the same size.
         item {
-            Row(Modifier.padding(horizontal = 16.dp, vertical = 12.dp).height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(Modifier.padding(horizontal = 16.dp, vertical = 16.dp).height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 ShortcutCard(stringResource(R.string.day_title), stringResource(R.string.day_card_hint), Icons.Outlined.Schedule, openDay, Modifier.weight(1f).fillMaxHeight())
                 ShortcutCard(stringResource(R.string.intentions_title), stringResource(R.string.intentions_card_hint), Icons.Outlined.FavoriteBorder, openIntentions, Modifier.weight(1f).fillMaxHeight())
-            }
-        }
-        if (!settings.prayerNotifications && settings.prayerIntroSeen) {
-            item {
-                AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 4.dp), tonal = true) {
-                    Text(stringResource(R.string.prayer_notify_off), style = MaterialTheme.typography.bodyMedium, color = c.ink)
-                    QuietButton(stringResource(R.string.prayer_notify_enable), {
-                        scope.launch { enableNotifications(container, book.hours) }
-                    })
-                }
             }
         }
         val favHours = book.hours.filter { h -> favorites.any { it.id == "hour:${h.id}" } }
         val favPrayers = prayers.filter { p -> favorites.any { it.id == "prayer:${p.id}" } }
         if (favHours.isNotEmpty() || favPrayers.isNotEmpty()) {
-            item { Kicker(stringResource(R.string.prayer_favorites), Modifier.padding(start = 20.dp, top = 20.dp, bottom = 4.dp)) }
+            item { Kicker(stringResource(R.string.prayer_favorites), Modifier.padding(start = 20.dp, top = 12.dp, bottom = 4.dp)) }
             items(favHours, key = { "fh" + it.id }) { h -> ListRow(h.name[lang], subtitle = h.time, onClick = { openHour(h.id) }) }
             items(favPrayers, key = { "fp" + it.id }) { p -> ListRow(p.title[lang], subtitle = p.subtitle[lang], onClick = { openPrayer(p.id) }) }
         }
-        item {
-            Row(Modifier.fillMaxWidth().padding(start = 20.dp, top = 20.dp, end = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-                Kicker(stringResource(R.string.prayer_hours), Modifier.weight(1f))
-                TextButton(onClick = openDay) { Text(stringResource(R.string.day_edit_times), style = MaterialTheme.typography.labelLarge, color = c.primary) }
-            }
-        }
-        itemsIndexed(book.hours, key = { _, h -> h.id }) { i, hour ->
-            val fixed = reminders[hour.id]?.time ?: LocalTime.parse(hour.time)
-            val time = remember(settings, fixed) { SunSchedule.timeOn(hour.id, fixed, settings, java.time.LocalDate.now()) }
-            HourRow(
-                name = hour.name[lang], subtitle = hour.subtitle[lang], time = time.format(clock),
-                isNow = hour.id == current?.id, first = i == 0, last = i == book.hours.lastIndex,
-                reminderOn = settings.prayerNotifications && hour.id in reminders,
-                onOpen = { openHour(hour.id) }, onReminder = { toggleReminder(hour) },
-            )
-        }
+        // Services and rules of prayer, one card each, swiped like the ropes.
         if (book.extras.isNotEmpty()) {
             item { Kicker(stringResource(R.string.prayer_services), Modifier.padding(start = 20.dp, top = 24.dp, bottom = 8.dp)) }
-            item {
-                Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    book.extras.forEach { e ->
-                        AgapeCard(Modifier.width(200.dp), onClick = { openHour(e.id) }, contentPadding = PaddingValues(16.dp)) {
-                            Text(e.name[lang], style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 2)
-                            Spacer(Modifier.height(4.dp))
-                            Text(e.subtitle[lang], style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 2)
-                        }
-                    }
-                }
-            }
+            item { ServicePager(book.extras, openHour) }
         }
         item { Kicker(stringResource(R.string.prayer_more), Modifier.padding(start = 20.dp, top = 24.dp, bottom = 4.dp)) }
         items(prayers, key = { it.id }) { p ->
@@ -265,18 +208,11 @@ private fun RopePicker(ropes: List<PrayerRope?>, openRosary: () -> Unit, openRop
     Column {
         HorizontalPager(pager, contentPadding = PaddingValues(horizontal = 16.dp), pageSpacing = 12.dp) { page ->
             val rope = ropes[page]
-            val offset = ((pager.currentPage - page) + pager.currentPageOffsetFraction).absoluteValue.coerceIn(0f, 1f)
             val title = if (rope == null) stringResource(R.string.rosary_title) else stringResource(rope.title)
             val sub = if (rope == null) MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang] else stringResource(rope.subtitle)
             val open = { if (rope == null) openRosary() else openRope(rope) }
             AgapeCard(
-                Modifier.graphicsLayer {
-                    // The card coming in rises from below and grows; the one leaving sinks and fades.
-                    translationY = offset * 46.dp.toPx()
-                    alpha = 1f - offset * 0.55f
-                    scaleX = 1f - offset * 0.08f
-                    scaleY = 1f - offset * 0.08f
-                },
+                Modifier.riseIn(pager.offsetOf(page)),
                 onClick = open, contentPadding = PaddingValues(20.dp),
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
@@ -294,57 +230,116 @@ private fun RopePicker(ropes: List<PrayerRope?>, openRosary: () -> Unit, openRop
                 }
             }
         }
-        Row(Modifier.fillMaxWidth().padding(top = 10.dp), horizontalArrangement = Arrangement.Center) {
-            repeat(ropes.size) { i ->
-                val on = i == pager.currentPage
-                Box(Modifier.padding(horizontal = 4.dp).height(6.dp).width(if (on) 18.dp else 6.dp).clip(CircleShape).background(if (on) c.accent else c.line))
-            }
+        PagerDots(ropes.size, pager.currentPage)
+    }
+}
+
+/** Dots under a pager: the page shown is a longer gold dash. */
+@Composable
+private fun PagerDots(count: Int, current: Int) {
+    val c = AgapeTheme.colors
+    Row(Modifier.fillMaxWidth().padding(top = 10.dp), horizontalArrangement = Arrangement.Center) {
+        repeat(count) { i ->
+            val on = i == current
+            Box(Modifier.padding(horizontal = 3.dp).height(6.dp).width(if (on) 18.dp else 6.dp).clip(CircleShape).background(if (on) c.accent else c.line))
         }
     }
 }
 
+/** How far a page is from the centre, 0 when shown, for the rise-and-fade of cards coming in. */
+@OptIn(ExperimentalFoundationApi::class)
+private fun PagerState.offsetOf(page: Int) = ((currentPage - page) + currentPageOffsetFraction).absoluteValue.coerceIn(0f, 1f)
+
+private fun Modifier.riseIn(offset: Float) = graphicsLayer {
+    translationY = offset * 46.dp.toPx()
+    alpha = 1f - offset * 0.55f
+    scaleX = 1f - offset * 0.08f
+    scaleY = 1f - offset * 0.08f
+}
+
 /**
- * One hour on the day's line: the time, a dot on a thread running through all the hours, the name, and its bell.
- * The hour of now is lit; a hairline separates each hour from the next.
+ * The hours of prayer, one large card each in the colours of its time of day: the time, "Pray" with the hour's
+ * name, a word on what it prays, and a button to begin. Above, the times as chips to jump to an hour.
  */
 @Composable
-private fun HourRow(
-    name: String, subtitle: String, time: String, isNow: Boolean, first: Boolean, last: Boolean,
-    reminderOn: Boolean, onOpen: () -> Unit, onReminder: () -> Unit,
-) {
+private fun HourPager(hours: List<PrayerHour>, start: Int, nowId: String?, timeOf: (PrayerHour) -> LocalTime, openHour: (String) -> Unit) {
+    val lang = LocalLanguage.current
     val c = AgapeTheme.colors
-    Column(Modifier.fillMaxWidth().background(if (isNow) c.accent.copy(alpha = 0.10f) else Color.Transparent)) {
-        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).clickable(onClick = onOpen).padding(start = 16.dp, end = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text(
-                time, style = MaterialTheme.typography.titleSmall.copy(fontWeight = if (isNow) FontWeight.Bold else FontWeight.Medium),
-                color = if (isNow) c.primary else c.inkMuted, modifier = Modifier.width(52.dp),
-            )
-            Box(Modifier.width(22.dp).fillMaxHeight(), contentAlignment = Alignment.Center) {
-                Column(Modifier.fillMaxHeight(), horizontalAlignment = Alignment.CenterHorizontally) {
-                    Box(Modifier.weight(1f).width(1.5.dp).background(if (first) Color.Transparent else c.line))
-                    Box(Modifier.weight(1f).width(1.5.dp).background(if (last) Color.Transparent else c.line))
-                }
-                Box(
-                    Modifier.size(if (isNow) 14.dp else 10.dp).clip(CircleShape).background(if (isNow) c.accent else c.surface)
-                        .border(1.5.dp, if (isNow) c.accent else c.inkFaint, CircleShape),
-                )
-            }
-            Column(Modifier.weight(1f).padding(start = 12.dp, top = 16.dp, bottom = 16.dp)) {
-                if (isNow) Kicker(stringResource(R.string.prayer_now))
-                Text(name, style = MaterialTheme.typography.titleMedium, color = c.ink)
-                Text(subtitle, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            }
-            IconButton(onClick = onReminder) {
-                Icon(
-                    if (reminderOn) Icons.Outlined.Notifications else Icons.Outlined.NotificationsNone,
-                    stringResource(if (reminderOn) R.string.prayer_reminder_on else R.string.prayer_reminder_off, name),
-                    tint = if (reminderOn) c.primary else c.inkFaint,
+    val scope = rememberCoroutineScope()
+    val pager = rememberPagerState(initialPage = start) { hours.size }
+    val times = hours.map(timeOf)
+    Column {
+        Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 10.dp), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            hours.forEachIndexed { i, h ->
+                val on = i == pager.currentPage
+                Text(
+                    times[i].format(clock), style = MaterialTheme.typography.labelLarge,
+                    color = if (on) c.onPrimary else if (h.id == nowId) c.primary else c.inkMuted,
+                    modifier = Modifier.clip(CircleShape).background(if (on) c.primary else Color.Transparent)
+                        .border(1.dp, if (on) c.primary else c.line, CircleShape)
+                        .clickable { scope.launch { pager.animateScrollToPage(i) } }.padding(horizontal = 12.dp, vertical = 6.dp),
                 )
             }
         }
-        if (!last) Box(Modifier.padding(start = 102.dp, end = 16.dp).fillMaxWidth().height(0.5.dp).background(c.line))
+        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = 16.dp), pageSpacing = 12.dp) { page ->
+            val hour = hours[page]
+            val time = times[page]
+            val sky = remember(time, c.isDark) { daySky(time, c.isDark) }
+            val isNow = hour.id == nowId
+            Column(
+                Modifier.riseIn(pager.offsetOf(page)).fillMaxWidth().height(330.dp)
+                    .shadow(16.dp, cardShape, spotColor = sky.bottom.copy(alpha = 0.45f))
+                    .clip(cardShape).background(Brush.verticalGradient(listOf(sky.top, sky.bottom)))
+                    .clickable { openHour(hour.id) }.padding(24.dp),
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(time.format(clock), style = MaterialTheme.typography.displayMedium.copy(fontWeight = FontWeight.SemiBold), color = sky.text, modifier = Modifier.weight(1f))
+                    if (isNow) Flame(size = 48.dp)
+                }
+                Kicker(stringResource(if (isNow) R.string.prayer_now_pray else R.string.prayer_pray_this), color = sky.muted, modifier = Modifier.padding(top = 6.dp))
+                Spacer(Modifier.height(4.dp))
+                Text(hour.name[lang], style = MaterialTheme.typography.headlineMedium, color = sky.text, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                if (hour.subtitle[lang].isNotBlank()) Text(hour.subtitle[lang], style = MaterialTheme.typography.titleSmall, color = sky.muted, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Spacer(Modifier.height(12.dp))
+                Text(hour.theme[lang], style = MaterialTheme.typography.bodyMedium, color = sky.text, maxLines = 4, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
+                Box(
+                    Modifier.clip(CircleShape).background(sky.text).clickable { openHour(hour.id) }.padding(horizontal = 24.dp, vertical = 12.dp),
+                ) { Text(stringResource(R.string.prayer_begin), style = MaterialTheme.typography.labelLarge, color = sky.bottom) }
+            }
+        }
+        PagerDots(hours.size, pager.currentPage)
     }
 }
+
+/** The services and rules of prayer, one card each, swiped like the prayer ropes. */
+@Composable
+private fun ServicePager(extras: List<PrayerHour>, openHour: (String) -> Unit) {
+    val lang = LocalLanguage.current
+    val c = AgapeTheme.colors
+    val pager = rememberPagerState { extras.size }
+    Column {
+        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = 16.dp), pageSpacing = 12.dp) { page ->
+            val e = extras[page]
+            AgapeCard(Modifier.riseIn(pager.offsetOf(page)).height(210.dp), onClick = { openHour(e.id) }, contentPadding = PaddingValues(20.dp)) {
+                Row(verticalAlignment = Alignment.Top) {
+                    Column(Modifier.weight(1f)) {
+                        Kicker(stringResource(R.string.prayer_service_n, page + 1, extras.size), color = c.inkMuted)
+                        Spacer(Modifier.height(6.dp))
+                        Text(e.name[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                    }
+                    Icon(AgapeIcons.Candle, null, tint = c.accent, modifier = Modifier.size(30.dp))
+                }
+                Spacer(Modifier.height(6.dp))
+                Text(e.subtitle[lang].ifBlank { e.theme[lang] }, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, maxLines = 3, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
+                Box(Modifier.clip(CircleShape).background(c.primary).clickable { openHour(e.id) }.padding(horizontal = 18.dp, vertical = 9.dp)) {
+                    Text(stringResource(R.string.prayer_open), style = MaterialTheme.typography.labelLarge, color = c.onPrimary)
+                }
+            }
+        }
+        PagerDots(extras.size, pager.currentPage)
+    }
+}
+
 
 private suspend fun finishIntro(container: agape.app.AppContainer) {
     container.settings.setPrayerIntroSeen()

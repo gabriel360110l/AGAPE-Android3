@@ -204,7 +204,6 @@
     <string name="prayer_notify_title">Shall we remind you?</string>
     <string name="prayer_notify_body">A gentle notification at the hours of prayer helps you keep the rhythm. If you have not opened AGAPE for a few days, we will send one quiet invitation. You can change this at any time.</string>
     <string name="prayer_notify_enable">Turn on reminders</string>
-    <string name="prayer_notify_off">Reminders for the hours of prayer are off.</string>
     <string name="prayer_reminder_on">Reminder on for %1$s</string>
     <string name="prayer_reminder_off">Turn on reminder for %1$s</string>
     <string name="favorite_add">Add to favourites</string>

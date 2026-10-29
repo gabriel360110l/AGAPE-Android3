@@ -13,7 +13,8 @@ import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
 import agape.app.ui.components.Ornament
 import agape.app.ui.components.Pill
-import agape.app.ui.components.PrimaryButton
+import agape.app.ui.components.PaceButton
+import agape.app.ui.components.ProgressLine
 import agape.app.ui.components.QuietButton
 import agape.app.ui.passageLabel
 import agape.app.ui.theme.AgapeTheme
@@ -28,7 +29,6 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
-import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -69,7 +69,6 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
@@ -83,9 +82,13 @@ import kotlin.math.sin
 /** The Rosary's entry in the Catholic prayer book; it opens this screen instead of the plain text. */
 const val ROSARY_ID = "rosary"
 
+/** The least time on one bead of the Rosary before Next opens. */
+private const val ROSARY_BEAD_MILLIS = 10_000
+
 /**
- * The Rosary, bead by bead. Tap the glowing bead (or Next) to pray on; tap any other bead to go there. The card
- * below shows the mystery and the prayer of the bead, so the beads can be followed without knowing the prayers.
+ * The Rosary, bead by bead. Next goes on one bead at a time, and only after at least ten seconds on a bead, so no
+ * bead is skipped or rushed. The card shows the mystery and the prayer of the bead, so the beads can be followed
+ * without knowing the prayers.
  */
 @Composable
 fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
@@ -133,14 +136,15 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
                 modifier = Modifier.padding(horizontal = 20.dp, vertical = 6.dp),
             )
 
+            Row(Modifier.padding(horizontal = 20.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+                ProgressLine(if (finished) 1f else step / steps.lastIndex.toFloat(), Modifier.weight(1f))
+                Spacer(Modifier.width(10.dp))
+                Text(stringResource(R.string.rosary_step_of, step + 1, steps.size), style = MaterialTheme.typography.labelMedium, color = c.inkMuted)
+            }
             RosaryBeads(
                 step = step,
                 finished = finished,
-                onTapBead = { bead ->
-                    if (bead == current.bead) next()
-                    else { finished = false; go(Rosary.firstStepOn(bead)) }
-                },
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp),
+                modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 8.dp),
             )
 
             AnimatedContent(
@@ -161,9 +165,11 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
         ) {
             QuietButton(stringResource(R.string.rosary_previous), { finished = false; go(step - 1) })
             Spacer(Modifier.width(8.dp))
-            PrimaryButton(
+            PaceButton(
                 stringResource(if (step == steps.lastIndex) R.string.rosary_amen else R.string.rosary_next),
-                ::next, modifier = Modifier.weight(1f), enabled = !finished,
+                waiting = stringResource(R.string.pace_praying),
+                minMillis = ROSARY_BEAD_MILLIS, step = step, onClick = ::next,
+                modifier = Modifier.weight(1f), enabled = !finished,
             )
         }
     }
@@ -288,14 +294,10 @@ private class BeadLayout(w: Float) {
         BeadKind.MEDAL -> large * 1.2f
         BeadKind.CRUCIFIX -> large * 2f
     }
-
-    fun nearest(p: Offset, slop: Float): Int? = centers.indices
-        .minByOrNull { (centers[it]!! - p).getDistanceSquared() }
-        ?.takeIf { (centers[it]!! - p).getDistance() <= radiusOf(it) + slop }
 }
 
 @Composable
-private fun RosaryBeads(step: Int, finished: Boolean, onTapBead: (Int) -> Unit, modifier: Modifier = Modifier) {
+private fun RosaryBeads(step: Int, finished: Boolean, modifier: Modifier = Modifier) {
     val c = AgapeTheme.colors
     val currentBead = Rosary.steps[step].bead
     // Beads already prayed: every bead of an earlier step, plus the current one once it is done.
@@ -310,12 +312,10 @@ private fun RosaryBeads(step: Int, finished: Boolean, onTapBead: (Int) -> Unit, 
         val density = androidx.compose.ui.platform.LocalDensity.current
         val wPx = with(density) { maxWidth.toPx() }
         val layout = remember(wPx) { BeadLayout(wPx) }
-        val slop = with(density) { 14.dp.toPx() }
         val heightDp = with(density) { layout.height.toDp() }
         Canvas(
             Modifier.fillMaxWidth().height(heightDp)
-                .semantics { contentDescription = label }
-                .pointerInput(layout) { detectTapGestures { p -> layout.nearest(p, slop)?.let(onTapBead) } },
+                .semantics { contentDescription = label },
         ) {
             val chain = c.accent.copy(alpha = 0.45f)
             val stroke = 1.2.dp.toPx()

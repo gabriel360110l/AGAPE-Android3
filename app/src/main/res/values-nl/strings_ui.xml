@@ -112,11 +112,8 @@
     <string name="rope_knots">%1$d knopen</string>
     <string name="rope_of">van %1$d</string>
     <string name="rope_rounds">Rond gebeden: %1$d×</string>
-    <string name="rope_tap">Volgende knoop</string>
-    <string name="rope_hint">Tik op het snoer bij elke knoop. Een stevigere tik markeert elke tiende.</string>
     <string name="rope_restart">Opnieuw beginnen</string>
     <string name="rope_chotki_about">De chotki (komboskini) is geknoopt van wol, elke knoop een klein kruis. Bij elke knoop wordt het Jezusgebed gezegd, langzaam, met de adem; bij de kralen wordt de Moeder Gods gevraagd voor ons te bidden.</string>
-    <string name="day_edit_times">Tijden</string>
     <string name="fast_info_none">Een gewone dag zonder vasten. Een goede dag om te danken en de gebedsuren te houden.</string>
     <string name="fast_info_free">Een tijd van vreugde: de Kerk vast op deze dagen niet, ook niet op woensdag en vrijdag.</string>
     <string name="fast_info_cheesefare">De laatste week voor de Grote Vasten: geen vlees meer, maar zuivel, eieren en vis worden nog gegeten.</string>
@@ -159,4 +156,11 @@
     <string name="calendar_life">Leven</string>
     <string name="calendar_general_icon">algemeen icoon, voor deze dag is er nog geen eigen icoon</string>
     <string name="saint_read_more">Lees meer in de kalender ›</string>
+    <string name="prayer_now_pray">Bid nu</string>
+    <string name="prayer_pray_this">Bid dit gebed</string>
+    <string name="prayer_service_n">%1$d van %2$d</string>
+    <string name="prayer_open">Openen</string>
+    <string name="rosary_step_of">%1$d / %2$d</string>
+    <string name="pace_praying">Bidden…</string>
+    <string name="rope_next">Volgende knoop</string>
 </resources>
