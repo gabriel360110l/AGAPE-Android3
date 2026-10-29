@@ -203,7 +203,6 @@
     <string name="prayer_notify_title">Zullen we je eraan herinneren?</string>
     <string name="prayer_notify_body">Een zachte melding op de gebedsuren helpt je het ritme vast te houden. Als je AGAPE een paar dagen niet hebt geopend, sturen we één rustige uitnodiging. Je kunt dit altijd wijzigen.</string>
     <string name="prayer_notify_enable">Herinneringen aanzetten</string>
-    <string name="prayer_notify_off">Herinneringen voor de gebedsuren staan uit.</string>
     <string name="prayer_reminder_on">Herinnering aan voor %1$s</string>
     <string name="prayer_reminder_off">Herinnering aanzetten voor %1$s</string>
     <string name="favorite_add">Toevoegen aan favorieten</string>

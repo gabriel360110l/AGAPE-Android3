@@ -53,7 +53,7 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   your own reflection, kept with the verse notes (book `plan:<id>`, day as chapter), so it syncs and shows under
   Saved → Notes.
 - **Rosary** (Catholic; Prayer tab, Home, and the Rosary in the prayer book): a rosary of 59 beads, medal and crucifix
-  that you pray by tapping the glowing bead. Each bead shows its prayer (Creed, Our Father, Hail Mary, Glory Be,
+  that you pray with Next, bead by bead. Each bead shows its prayer (Creed, Our Father, Hail Mary, Glory Be,
   O my Jesus, Hail Holy Queen, closing prayer) and each decade its mystery with the passage to read, in English and
   Dutch. The mysteries of the day follow Rosarium Virginis Mariae; any set can be chosen (`data/rosary/Rosary.kt`).
 - **Search** looks through everything offline: references ("John 3:16"), books, verses, hours and prayers, councils,
@@ -76,8 +76,10 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
   Calendar (a short English and Dutch summary for the first saint of every Coptic day and for every Roman saint),
   with a Byzantine icon where one is bundled and a quiet placeholder otherwise.
-- **Prayers**: the Kyrie stays in Greek, Κύριε ἐλέησον, with its meaning shown once beneath it. The hours stand on a
-  timeline, the hour of now lit, a hairline between each.
+- **Prayers**: the Kyrie stays in Greek, Κύριε ἐλέησον, with its meaning shown once beneath it. The hours are cards
+  to swipe through, one per hour in the colours of its time of day (time, "Pray this hour", a word on it, Begin),
+  opening on the hour of now; time chips above jump to an hour. Services and rules of prayer swipe the same way.
+  Reminders per hour are switched in Settings (My day of prayer), not on the Prayer tab.
 - **Opening** (`ui/intro/Intro.kt`): on every start of the app and after a change of church, golden rays break
   out behind the church's own cross (Latin, Byzantine three-bar, Coptic cross bottony, all drawn in
   `ui/components/Crosses.kt`), A G A P E is spelled letter by letter and "<CHURCH> · GOD IS LOVE" follows. A tap
@@ -88,7 +90,9 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   church. It is a general guideline: the Byzantine fixed fasts follow the new calendar like the feasts, the Coptic
   rules follow the Coptic seasons, the Catholic rules follow canons 1250–1253.
 - **Prayer ropes** (Prayer tab, open to everyone, own church first, swipe to choose): the Rosary and the chotki
-  (33, 50 or 100 knots, Jesus Prayer, a bead after every ten). Each knot gives a light tick, every tenth a firmer one.
+  (33, 50 or 100 knots, Jesus Prayer, a bead after every ten). One Next button moves one bead or knot at a time and
+  fills before it opens again: at least 10 seconds per step of the Rosary, 2 seconds per knot (`PaceButton`). Each
+  knot gives a light tick, every tenth a firmer one.
 - **My day of prayer** (Prayer tab, and Settings → notifications): own time per hour, or hours that follow the
   sun (sunrise and sunset computed on the phone from a chosen city or the coarse location, nothing is sent out);
   own prayer moments; a church bell for prayer notifications (synthesized by `tools/build_bell.py`, CC0, instead of the bell of unknown origin in the AI Studio version); quiet
