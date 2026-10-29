@@ -38,8 +38,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Switch
-import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -68,13 +66,13 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 /** The rope's names, and the cross that hangs from it. */
-val PrayerRope.title: Int get() = if (this == PrayerRope.CHOTKI) R.string.rope_chotki else R.string.rope_kyrie
-val PrayerRope.subtitle: Int get() = if (this == PrayerRope.CHOTKI) R.string.rope_chotki_sub else R.string.rope_kyrie_sub
-val PrayerRope.cross: Tradition get() = if (this == PrayerRope.CHOTKI) Tradition.EASTERN_ORTHODOX else Tradition.ORIENTAL_ORTHODOX
+val PrayerRope.title: Int get() = R.string.rope_chotki
+val PrayerRope.subtitle: Int get() = R.string.rope_chotki_sub
+val PrayerRope.cross: Tradition get() = Tradition.EASTERN_ORTHODOX
 
 /**
  * A prayer rope to pray along: tap the rope (or anywhere in the circle) for each knot. A soft tick on every knot and
- * a firmer one on every tenth, so it can be prayed with the eyes closed. It can also say the prayer at each knot.
+ * a firmer one on every tenth, so it can be prayed with the eyes closed.
  */
 @Composable
 fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
@@ -85,7 +83,6 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
     val c = AgapeTheme.colors
     var size by rememberSaveable { mutableStateOf(rope.sizes.first()) }
     var count by remember(size) { mutableStateOf(RopeCount(size)) }
-    var aloud by rememberSaveable { mutableStateOf(false) }
     val title = stringResource(rope.title)
     val prayer = rope.prayer[lang]
     val bead = rope.bead?.get(lang)
@@ -96,7 +93,6 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
         count = next
         val onBead = PrayerRope.isBead(next.knot) || next.done
         tick(context, strong = onBead)
-        if (aloud) container.speaker.play("rope", listOfNotNull(prayer, bead?.takeIf { PrayerRope.isBead(next.knot) }), lang)
         if (next.done) scope.launch { container.user.markPrayed("rope:${rope.name.lowercase()}", title) }
     }
 
@@ -129,20 +125,11 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
                 style = AgapeTheme.type.scripture, color = c.ink, textAlign = TextAlign.Center,
                 modifier = Modifier.padding(horizontal = 8.dp),
             )
-            if (rope == PrayerRope.KYRIE) Text(stringResource(R.string.rope_kyrie_meaning), style = MaterialTheme.typography.bodySmall, color = c.inkMuted, textAlign = TextAlign.Center)
             Spacer(Modifier.height(6.dp))
             Text(stringResource(R.string.rope_hint), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, textAlign = TextAlign.Center)
             Spacer(Modifier.height(14.dp))
             AgapeCard(tonal = true) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Column(Modifier.weight(1f)) {
-                        Text(stringResource(R.string.rope_aloud), style = MaterialTheme.typography.titleSmall, color = c.ink)
-                        Text(stringResource(R.string.rope_aloud_hint), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
-                    }
-                    Switch(aloud, { aloud = it; if (!it) container.speaker.stopIf("rope") }, colors = SwitchDefaults.colors(checkedThumbColor = c.onPrimary, checkedTrackColor = c.primary))
-                }
-                Spacer(Modifier.height(4.dp))
-                Text(stringResource(if (rope == PrayerRope.CHOTKI) R.string.rope_chotki_about else R.string.rope_kyrie_about), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
+                Text(stringResource(R.string.rope_chotki_about), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
             }
             Row(Modifier.padding(vertical = 8.dp)) {
                 QuietButton(stringResource(R.string.rosary_previous), { count = count.back() })

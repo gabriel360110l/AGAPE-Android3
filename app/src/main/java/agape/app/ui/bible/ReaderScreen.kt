@@ -32,13 +32,6 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.FormatSize
 import androidx.compose.material.icons.outlined.Info
-import androidx.compose.material.icons.outlined.Pause
-import androidx.compose.material.icons.outlined.PlayArrow
-import androidx.compose.material.icons.outlined.SkipNext
-import androidx.compose.material.icons.outlined.SkipPrevious
-import androidx.compose.material.icons.outlined.Stop
-import androidx.compose.material.icons.outlined.StopCircle
-import androidx.compose.material.icons.automirrored.outlined.VolumeUp
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
@@ -60,7 +53,6 @@ import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Box
 import agape.app.ui.components.AgapeCard
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -118,22 +110,6 @@ fun ReaderScreen(
     var imageVerse by rememberSaveable { mutableStateOf<Int?>(null) }
     val list = rememberLazyListState()
 
-    // Reading aloud: one part per verse, the chapter title before the first. The verse being read is marked and kept in view.
-    val speaker = container.speaker
-    val audio by speaker.state.collectAsStateWithLifecycle()
-    val audioKey = "chapter:$book:$chapter:${lang.tag}"
-    val reading = audio.key == audioKey
-    val readingVerse = if (reading) verses?.getOrNull(audio.index)?.verse else null
-    DisposableEffect(audioKey) { onDispose { speaker.stopIf(audioKey) } }
-    LaunchedEffect(readingVerse) {
-        val index = verses?.indexOfFirst { it.verse == readingVerse } ?: -1
-        if (index >= 0 && list.layoutInfo.visibleItemsInfo.none { it.index == index + 1 && it.offset >= 0 }) list.animateScrollToItem(index + 1)
-    }
-    fun listen(from: Int = 0) {
-        val vs = verses ?: return
-        speaker.play(audioKey, vs.mapIndexed { i, v -> if (i == 0) "$title. ${v.text}" else v.text }, lang, from)
-    }
-
     LaunchedEffect(book, chapter) {
         container.settings.setLastPosition(ReadingPosition(book, chapter, focusVerse.coerceAtLeast(1)))
     }
@@ -149,13 +125,6 @@ fun ReaderScreen(
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(title, onBack) {
-            IconButton(onClick = { if (reading) speaker.stop() else listen() }) {
-                Icon(
-                    if (reading) Icons.Outlined.StopCircle else Icons.AutoMirrored.Outlined.VolumeUp,
-                    stringResource(if (reading) R.string.listen_stop else R.string.listen),
-                    tint = if (reading) c.accent else c.primary,
-                )
-            }
             IconButton(onClick = { showInfo = true }) {
                 Icon(Icons.Outlined.Info, stringResource(R.string.reader_guide), tint = c.primary)
             }
@@ -186,7 +155,7 @@ fun ReaderScreen(
             else items(vs, key = { it.verse }) { v ->
                 val hl = highlights.firstOrNull { it.verse == v.verse }?.color?.let { c.highlights.getOrNull(it) }
                 val target = when {
-                    flash == v.verse || selected == v.verse || readingVerse == v.verse -> c.accent.copy(alpha = 0.18f)
+                    flash == v.verse || selected == v.verse -> c.accent.copy(alpha = 0.18f)
                     hl != null -> hl
                     else -> Color.Transparent
                 }
@@ -239,14 +208,6 @@ fun ReaderScreen(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
-                if (reading) AudioBar(
-                    label = stringResource(R.string.reader_audio, "$title:${readingVerse ?: 1}"),
-                    playing = audio.playing,
-                    toggle = { if (audio.playing) speaker.pause() else listen(audio.index) },
-                    previous = { speaker.skip(-1) },
-                    next = { speaker.skip(1) },
-                    stop = { speaker.stop() },
-                )
                 ChapterPill(
                     title = title,
                     previous = if (chapter > 1) ({ openChapter(book, chapter - 1, 0) }) else null,
@@ -280,26 +241,6 @@ fun ReaderScreen(
     }
 
     if (picker) BookPickerSheet(book, chapter, onPick = { b, ch -> openChapter(b, ch, 0) }, onDismiss = { picker = false })
-}
-
-/** The controls while a chapter is read aloud: previous verse, play or pause, next verse, stop. */
-@Composable
-private fun AudioBar(label: String, playing: Boolean, toggle: () -> Unit, previous: () -> Unit, next: () -> Unit, stop: () -> Unit) {
-    val c = AgapeTheme.colors
-    val bar = if (c.isDark) c.surfaceRaised else c.ink
-    val on = if (c.isDark) c.ink else c.background
-    Row(
-        Modifier.padding(horizontal = 16.dp).shadow(14.dp, CircleShape).clip(CircleShape).background(bar.copy(alpha = 0.94f)).padding(start = 18.dp, end = 4.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Text(label, style = MaterialTheme.typography.labelMedium, color = c.accent, maxLines = 1, modifier = Modifier.padding(end = 6.dp))
-        IconButton(onClick = previous) { Icon(Icons.Outlined.SkipPrevious, stringResource(R.string.reader_previous_verse), tint = on) }
-        IconButton(onClick = toggle) {
-            Icon(if (playing) Icons.Outlined.Pause else Icons.Outlined.PlayArrow, stringResource(if (playing) R.string.reader_pause else R.string.reader_play), tint = on)
-        }
-        IconButton(onClick = next) { Icon(Icons.Outlined.SkipNext, stringResource(R.string.reader_next_verse), tint = on) }
-        IconButton(onClick = stop) { Icon(Icons.Outlined.Stop, stringResource(R.string.listen_stop), tint = on.copy(alpha = 0.7f)) }
-    }
 }
 
 /** A floating pill at the foot of the chapter: previous chapter, where you are, next chapter. */

@@ -98,10 +98,7 @@ fun SaintOfDayCard(
         Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             SaintIcon(saint.icon, saint.name, width = iconWidth)
             Column(Modifier.weight(1f)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Kicker(kicker, Modifier.weight(1f))
-                    if (saint.summary.isNotBlank()) ListenButton("saint:${saint.name}") { listOf(saint.name, saint.summary) }
-                }
+                Kicker(kicker)
                 Text(saint.name, style = MaterialTheme.typography.headlineSmall, color = c.ink)
                 if (saint.summary.isNotBlank()) {
                     Spacer(Modifier.height(6.dp))
