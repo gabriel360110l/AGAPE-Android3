@@ -147,4 +147,16 @@
     <string name="widget_name">AGAPE · Verse of the day</string>
     <string name="widget_kicker">VERSE OF THE DAY</string>
     <string name="widget_description">The verse of the day from AGAPE, renewed every day.</string>
+    <string name="plans_mine">My plans</string>
+    <string name="plan_days_title">Days</string>
+    <string name="plan_progress">%1$d of %2$d days</string>
+    <string name="plan_percent">%1$d%%</string>
+    <string name="plan_next_badge">Next</string>
+    <string name="plan_note_title">Your reflection</string>
+    <string name="plan_note_hint">What struck you today? Write down a thought, a question or a prayer. Only you can see it.</string>
+    <string name="plan_note_placeholder">Write here…</string>
+    <string name="plan_note_saved">Saved</string>
+    <string name="plan_note_has">Has a note</string>
+    <string name="plan_cover_credit">Cover: %1$s · %2$s</string>
+    <string name="note_plan_day">%1$s · day %2$d</string>
 </resources>

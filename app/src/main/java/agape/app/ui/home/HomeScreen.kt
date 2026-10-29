@@ -9,7 +9,6 @@ import agape.app.data.calendar.Fasting
 import agape.app.ui.components.DayStatusPill
 import agape.app.data.content.chapterCount
 import agape.app.data.daily.DailyInfo
-import agape.app.data.plans.PlanEngine
 import agape.app.data.plans.planDays
 import agape.app.data.rosary.MysterySet
 import agape.app.ui.LocalContainer
@@ -19,10 +18,10 @@ import agape.app.ui.bookName
 import agape.app.ui.components.AgapeCard
 import agape.app.ui.components.Backdrop
 import agape.app.ui.components.Kicker
-import agape.app.ui.components.ProgressLine
 import agape.app.ui.components.SaintOfDayCard
 import agape.app.ui.main.BibleRoute
 import agape.app.ui.passageLabel
+import agape.app.ui.plans.MyPlanCard
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.tradition
 import android.app.Activity
@@ -262,31 +261,24 @@ fun HomeScreen(
             }
         }
 
-        // Reading plan
+        // Reading plan: the one being followed, with its cover, or an invitation to start one.
         item {
             val active = plans.firstOrNull { it.active }
             val def = active?.let { container.content.plan(it.planId) }
-            AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 6.dp), onClick = { if (def != null) openPlan(def.id) else openPlans() }) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Column(Modifier.weight(1f)) {
-                        Kicker(stringResource(R.string.home_plan), color = c.inkMuted)
-                        Spacer(Modifier.height(6.dp))
-                        if (def != null) {
-                            val days = remember(def, tradition, lang) { container.content.planDays(def, tradition, lang) }
-                            val next = PlanEngine.nextDay(days.size, active.completedDays)
-                            Text(def.title[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink)
-                            Text(
-                                if (next != null) stringResource(R.string.plan_day_of, next, days.size) else stringResource(R.string.plan_finished),
-                                style = MaterialTheme.typography.bodySmall, color = c.inkMuted,
-                            )
-                            Spacer(Modifier.height(10.dp))
-                            ProgressLine(active.completedDays.size / days.size.coerceAtLeast(1).toFloat())
-                        } else {
+            if (def != null) {
+                val days = remember(def, tradition, lang) { container.content.planDays(def, tradition, lang) }
+                MyPlanCard(def, active, days.size, Modifier.padding(horizontal = 16.dp, vertical = 6.dp)) { openPlan(def.id) }
+            } else {
+                AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 6.dp), onClick = openPlans) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Column(Modifier.weight(1f)) {
+                            Kicker(stringResource(R.string.home_plan), color = c.inkMuted)
+                            Spacer(Modifier.height(6.dp))
                             Text(stringResource(R.string.home_plan_start), style = MaterialTheme.typography.headlineSmall, color = c.ink)
                             Text(stringResource(R.string.home_plan_start_hint), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
                         }
+                        Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint)
                     }
-                    Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint)
                 }
             }
         }

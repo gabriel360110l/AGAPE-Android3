@@ -147,4 +147,16 @@
     <string name="widget_name">AGAPE · Vers van de dag</string>
     <string name="widget_kicker">VERS VAN DE DAG</string>
     <string name="widget_description">Het vers van de dag uit AGAPE, elke dag nieuw.</string>
+    <string name="plans_mine">Mijn plannen</string>
+    <string name="plan_days_title">Dagen</string>
+    <string name="plan_progress">%1$d van %2$d dagen</string>
+    <string name="plan_percent">%1$d%%</string>
+    <string name="plan_next_badge">Volgende</string>
+    <string name="plan_note_title">Jouw overdenking</string>
+    <string name="plan_note_hint">Wat raakte je vandaag? Schrijf een gedachte, een vraag of een gebed op. Alleen jij ziet het.</string>
+    <string name="plan_note_placeholder">Schrijf hier…</string>
+    <string name="plan_note_saved">Opgeslagen</string>
+    <string name="plan_note_has">Met notitie</string>
+    <string name="plan_cover_credit">Omslag: %1$s · %2$s</string>
+    <string name="note_plan_day">%1$s · dag %2$d</string>
 </resources>
