@@ -31,6 +31,9 @@ class SaintsRepository(private val content: ContentRepository) {
         calendar
     }
 
+    /** The icon of All Saints, shown where a day has no icon of its own, so the frame is never empty. */
+    val generalIcon: IconEntry? get() = content.icons.firstOrNull { it.key == "all_saints" }
+
     /** Everything the calendar shows for a date: the three calendar dates, all commemorations with lives and icons, readings. */
     fun day(tradition: Tradition, date: LocalDate): SaintDayView = calendar.day(tradition, date)
 
@@ -40,7 +43,7 @@ class SaintsRepository(private val content: ContentRepository) {
         val names = day.commemorations.map { it.entry.name[language] }
         val summary = day.commemorations.firstOrNull()?.entry?.life?.text?.get(language).orEmpty()
         if (greatFeast != null) {
-            val icon = content.iconFor(listOf(greatFeast.name.en))
+            val icon = content.iconFor(listOf(greatFeast.name.en)) ?: generalIcon
             // The Coptic and Roman summaries describe the day's saint, not a moveable feast that takes its place.
             val feastSummary = if (tradition == Tradition.EASTERN_ORTHODOX) summary else ""
             return SaintOfDay(greatFeast.name[language], names, feastSummary, icon, isFeast = true)
@@ -50,7 +53,7 @@ class SaintsRepository(private val content: ContentRepository) {
             name = names.first(),
             others = names.drop(1),
             summary = summary,
-            icon = day.icon,
+            icon = day.icon ?: generalIcon,
             isFeast = false,
         )
     }

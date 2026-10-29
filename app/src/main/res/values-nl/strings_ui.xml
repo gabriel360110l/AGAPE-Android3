@@ -155,4 +155,8 @@
     <string name="search_show_all">Toon alle %1$d</string>
     <string name="search_failed">Zoeken lukte deze keer niet.</string>
     <string name="search_retry">Opnieuw proberen</string>
+    <string name="calendar_today">Vandaag</string>
+    <string name="calendar_life">Leven</string>
+    <string name="calendar_general_icon">algemeen icoon, voor deze dag is er nog geen eigen icoon</string>
+    <string name="saint_read_more">Lees meer in de kalender ›</string>
 </resources>

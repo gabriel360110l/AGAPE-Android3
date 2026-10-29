@@ -155,4 +155,8 @@
     <string name="search_show_all">Show all %1$d</string>
     <string name="search_failed">Searching did not work this time.</string>
     <string name="search_retry">Try again</string>
+    <string name="calendar_today">Today</string>
+    <string name="calendar_life">Life</string>
+    <string name="calendar_general_icon">general icon, this day has none of its own yet</string>
+    <string name="saint_read_more">Read more in the calendar ›</string>
 </resources>

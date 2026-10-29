@@ -107,64 +107,111 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
         // The tab header scrolls with the month, so no week is cut off under a fixed title.
         Column(Modifier.verticalScroll(rememberScrollState())) {
             if (onBack == null) TabHeader(kicker = secondaryDate(tradition, today, lang).orEmpty(), title = stringResource(R.string.calendar_title))
-            Column(Modifier.padding(horizontal = 16.dp).padding(bottom = 32.dp)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    IconButton({ month = ym.minusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowLeft, stringResource(R.string.calendar_previous), tint = c.ink) }
-                    Text(
-                        ym.month.getDisplayName(TextStyle.FULL_STANDALONE, locale).replaceFirstChar { it.titlecase(locale) } + " ${ym.year}",
-                        style = MaterialTheme.typography.headlineSmall, color = c.ink, modifier = Modifier.weight(1f), textAlign = TextAlign.Center,
-                    )
-                    IconButton({ month = ym.plusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, stringResource(R.string.calendar_next), tint = c.ink) }
-                }
-                Row(Modifier.fillMaxWidth().padding(vertical = 6.dp)) {
-                    DayOfWeek.entries.forEach {
-                        Text(it.getDisplayName(TextStyle.NARROW, locale), style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.weight(1f), textAlign = TextAlign.Center)
-                    }
-                }
-                val first = ym.atDay(1)
-                val cells = (0 until 42).map { first.minusDays((first.dayOfWeek.value - 1).toLong()).plusDays(it.toLong()) }
-                cells.chunked(7).forEach { week ->
-                    if (week.first().monthValue != ym.monthValue && week.last().monthValue != ym.monthValue) return@forEach
-                    Row(Modifier.fillMaxWidth()) {
-                        week.forEach { d ->
-                            val inMonth = d.monthValue == ym.monthValue
-                            val feasts = remember(d, tradition) { LiturgicalCalendar.feasts(tradition, d) }
-                            val fast = remember(d, tradition) { Fasting.status(tradition, d).level }
-                            val isSel = d == day
-                            val isToday = d == today
-                            Column(
-                                Modifier.weight(1f).aspectRatio(0.82f).padding(2.dp).clip(RoundedCornerShape(14.dp))
-                                    .background(if (isSel) c.primary else Color.Transparent)
-                                    .then(if (isToday && !isSel) Modifier.border(1.dp, c.accent, RoundedCornerShape(14.dp)) else Modifier)
-                                    .clickable { selected = d.toString() }
-                                    .semantics { contentDescription = d.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)) },
-                                horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,
-                            ) {
+            Column(Modifier.padding(horizontal = 16.dp).padding(bottom = 32.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+                AgapeCard(contentPadding = PaddingValues(start = 10.dp, end = 10.dp, top = 6.dp, bottom = 12.dp)) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        IconButton({ month = ym.minusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowLeft, stringResource(R.string.calendar_previous), tint = c.ink) }
+                        Column(Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally) {
+                            Text(
+                                ym.month.getDisplayName(TextStyle.FULL_STANDALONE, locale).replaceFirstChar { it.titlecase(locale) } + " ${ym.year}",
+                                style = MaterialTheme.typography.titleLarge, color = c.ink, textAlign = TextAlign.Center,
+                            )
+                            if (ym != YearMonth.from(today) || day != today) {
                                 Text(
-                                    d.dayOfMonth.toString(), style = MaterialTheme.typography.titleMedium.copy(fontFamily = AgapeTheme.type.ui),
-                                    color = when { isSel -> c.onPrimary; inMonth -> c.ink; else -> c.inkFaint.copy(alpha = 0.5f) },
+                                    stringResource(R.string.calendar_today), style = MaterialTheme.typography.labelMedium, color = c.primary,
+                                    modifier = Modifier.clip(CircleShape).clickable { month = YearMonth.from(today).toString(); selected = today.toString() }.padding(horizontal = 10.dp, vertical = 2.dp),
                                 )
-                                if (tradition == Tradition.ORIENTAL_ORTHODOX) {
-                                    Text(LiturgicalCalendar.coptic(d).day.toString(), style = MaterialTheme.typography.labelSmall, color = if (isSel) c.onPrimary.copy(alpha = 0.8f) else c.inkFaint)
-                                }
-                                Row(Modifier.padding(top = 2.dp), horizontalArrangement = Arrangement.spacedBy(3.dp)) {
-                                    if (feasts.any { it.rank != FeastRank.SEASON }) Box(Modifier.size(5.dp).clip(CircleShape).background(if (isSel) c.onPrimary else c.accent))
-                                    FastMark(fast, if (isSel) c.onPrimary else c.primary)
-                                    if (d.toEpochDay() in activeDays) Box(Modifier.size(5.dp).clip(CircleShape).background(if (isSel) c.onPrimary else c.primary.copy(alpha = 0.6f)))
-                                }
+                            }
+                        }
+                        IconButton({ month = ym.plusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, stringResource(R.string.calendar_next), tint = c.ink) }
+                    }
+                    Row(Modifier.fillMaxWidth().padding(top = 4.dp, bottom = 6.dp)) {
+                        DayOfWeek.entries.forEach {
+                            Text(
+                                it.getDisplayName(TextStyle.SHORT, locale).take(2).replaceFirstChar { ch -> ch.titlecase(locale) },
+                                style = MaterialTheme.typography.labelMedium,
+                                color = if (it == DayOfWeek.SUNDAY) c.accent else c.inkFaint,
+                                modifier = Modifier.weight(1f), textAlign = TextAlign.Center,
+                            )
+                        }
+                    }
+                    Box(Modifier.fillMaxWidth().height(0.5.dp).background(c.line))
+                    val first = ym.atDay(1)
+                    val cells = (0 until 42).map { first.minusDays((first.dayOfWeek.value - 1).toLong()).plusDays(it.toLong()) }
+                    cells.chunked(7).forEach { week ->
+                        if (week.first().monthValue != ym.monthValue && week.last().monthValue != ym.monthValue) return@forEach
+                        Row(Modifier.fillMaxWidth().padding(top = 4.dp)) {
+                            week.forEach { d ->
+                                DayCell(
+                                    d, inMonth = d.monthValue == ym.monthValue, isSelected = d == day, isToday = d == today,
+                                    active = d.toEpochDay() in activeDays, locale = locale, modifier = Modifier.weight(1f),
+                                ) { selected = d.toString(); if (d.monthValue != ym.monthValue) month = YearMonth.from(d).toString() }
                             }
                         }
                     }
                 }
-                Row(Modifier.padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-                    Box(Modifier.size(6.dp).clip(CircleShape).background(c.accent)); Text("  " + stringResource(R.string.calendar_legend_feast) + "     ", style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
-                    Box(Modifier.size(6.dp).clip(CircleShape).background(c.primary.copy(alpha = 0.6f))); Text("  " + stringResource(R.string.calendar_legend_active) + "     ", style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
-                    FastMark(FastLevel.FAST, c.primary); Text("  " + stringResource(R.string.calendar_legend_fast), style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
+                Row(Modifier.fillMaxWidth().padding(horizontal = 6.dp), horizontalArrangement = Arrangement.spacedBy(16.dp), verticalAlignment = Alignment.CenterVertically) {
+                    LegendItem(stringResource(R.string.calendar_legend_feast)) { Box(Modifier.size(7.dp).clip(CircleShape).background(c.accent)) }
+                    LegendItem(stringResource(R.string.calendar_legend_fast)) { Box(Modifier.width(12.dp).height(3.dp).clip(CircleShape).background(c.primary.copy(alpha = 0.7f))) }
+                    LegendItem(stringResource(R.string.calendar_legend_active)) { Box(Modifier.size(7.dp).border(1.2.dp, c.inkMuted, CircleShape)) }
                 }
-                Spacer(Modifier.height(8.dp))
                 DayDetails(day, tradition, lang, activity.filter { it.epochDay == day.toEpochDay() }.map { it.title }, openPassage)
             }
         }
+    }
+}
+
+/**
+ * One day in the month: the number in a circle, gold for a feast, a short bar beneath on a fast day and a ring on
+ * the days the reader read or prayed. Today has a gold ring; the chosen day is filled.
+ */
+@Composable
+private fun DayCell(d: LocalDate, inMonth: Boolean, isSelected: Boolean, isToday: Boolean, active: Boolean, locale: Locale, modifier: Modifier, onClick: () -> Unit) {
+    val tradition = tradition
+    val c = AgapeTheme.colors
+    val feast = remember(d, tradition) { LiturgicalCalendar.feasts(tradition, d).any { it.rank != FeastRank.SEASON } }
+    val fast = remember(d, tradition) { Fasting.status(tradition, d).level }
+    val isFast = fast == FastLevel.FAST || fast == FastLevel.NO_MEAT || fast == FastLevel.STRICT
+    Column(
+        modifier.padding(vertical = 2.dp).clip(RoundedCornerShape(12.dp)).clickable(onClick = onClick)
+            .semantics { contentDescription = d.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)) }
+            .padding(vertical = 4.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Box(
+            Modifier.size(38.dp).clip(CircleShape)
+                .background(if (isSelected) c.primary else if (feast && inMonth) c.accent.copy(alpha = 0.16f) else Color.Transparent)
+                .then(if (isToday && !isSelected) Modifier.border(1.5.dp, c.accent, CircleShape) else Modifier),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text(
+                d.dayOfMonth.toString(),
+                style = MaterialTheme.typography.titleSmall.copy(fontFamily = AgapeTheme.type.ui, fontWeight = if (feast || isToday) FontWeight.Bold else FontWeight.Medium),
+                color = when {
+                    isSelected -> c.onPrimary
+                    !inMonth -> c.inkFaint.copy(alpha = 0.45f)
+                    feast -> c.accent
+                    d.dayOfWeek == DayOfWeek.SUNDAY -> c.primary
+                    else -> c.ink
+                },
+            )
+        }
+        if (tradition == Tradition.ORIENTAL_ORTHODOX) {
+            Text(LiturgicalCalendar.coptic(d).day.toString(), style = MaterialTheme.typography.labelSmall, color = c.inkFaint.copy(alpha = if (inMonth) 1f else 0.45f))
+        }
+        Row(Modifier.padding(top = 3.dp).height(5.dp), horizontalArrangement = Arrangement.spacedBy(3.dp), verticalAlignment = Alignment.CenterVertically) {
+            if (isFast && inMonth) Box(Modifier.width(if (fast == FastLevel.STRICT) 14.dp else 10.dp).height(3.dp).clip(CircleShape).background(c.primary.copy(alpha = if (fast == FastLevel.STRICT) 0.95f else 0.6f)))
+            if (active && inMonth) Box(Modifier.size(5.dp).border(1.dp, c.inkMuted, CircleShape))
+        }
+    }
+}
+
+@Composable
+private fun LegendItem(text: String, mark: @Composable () -> Unit) {
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        mark()
+        Spacer(Modifier.width(6.dp))
+        Text(text, style = MaterialTheme.typography.labelSmall, color = AgapeTheme.colors.inkMuted, maxLines = 1)
     }
 }
 
@@ -179,41 +226,51 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
     val feasts = remember(day, tradition, lang) {
         LiturgicalCalendar.feasts(tradition, day).filter { f -> principal?.entry?.name?.get(lang)?.contains(f.name[lang], ignoreCase = true) != true }
     }
-    AgapeCard {
-        Kicker(day.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)))
-        Spacer(Modifier.height(8.dp))
-        ThreeDates(view, tradition, lang)
-        Spacer(Modifier.height(12.dp))
-        DayStatusPill(remember(day, tradition) { Fasting.status(tradition, day) }, tradition)
-        Spacer(Modifier.height(12.dp))
-        feasts.forEach { f ->
-            Text(f.name[lang], style = if (f.rank == FeastRank.SEASON) MaterialTheme.typography.titleMedium else MaterialTheme.typography.headlineSmall, color = if (f.rank == FeastRank.SEASON) c.accent else c.primary)
-        }
-        if (principal != null) {
-            if (feasts.isNotEmpty()) Spacer(Modifier.height(12.dp))
-            Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-                SaintIcon(principal.icon, principal.entry.name[lang], width = 84.dp)
-                Column(Modifier.weight(1f)) {
-                    Text(principal.entry.name[lang], style = MaterialTheme.typography.titleLarge, color = c.ink)
-                    principal.entry.life?.let { LifeText(it.text[lang], collapsedLines = 6) }
+    // The day's own icon, else the icon of All Saints, so the day never shows an empty frame.
+    val icon = view.icon ?: remember { container.saints.generalIcon }
+    val title = principal?.entry?.name?.get(lang) ?: feasts.firstOrNull()?.name?.get(lang)
+
+    // The day itself: its icon large, then who is remembered and their life.
+    AgapeCard(contentPadding = PaddingValues(0.dp)) {
+        Row(Modifier.padding(18.dp), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+            SaintIcon(icon, title.orEmpty(), width = 118.dp)
+            Column(Modifier.weight(1f)) {
+                Kicker(day.format(DateTimeFormatter.ofPattern("EEEE d MMMM", locale)))
+                Spacer(Modifier.height(6.dp))
+                feasts.forEach { f ->
+                    Text(f.name[lang], style = if (f.rank == FeastRank.SEASON) MaterialTheme.typography.titleSmall else MaterialTheme.typography.titleLarge, color = if (f.rank == FeastRank.SEASON) c.accent else c.primary)
                 }
-            }
-            principal.icon?.let {
-                Text(
-                    stringResource(R.string.icon_credit, it.title, it.licence),
-                    style = MaterialTheme.typography.labelSmall, color = c.inkFaint, maxLines = 1, overflow = TextOverflow.Ellipsis,
-                    modifier = Modifier.padding(top = 8.dp),
-                )
+                if (principal != null) Text(principal.entry.name[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink)
+                Spacer(Modifier.height(10.dp))
+                DayStatusPill(remember(day, tradition) { Fasting.status(tradition, day) }, tradition)
             }
         }
-        val others = view.commemorations.drop(1)
-        if (others.isNotEmpty()) {
-            Spacer(Modifier.height(14.dp))
+        principal?.entry?.life?.let { life ->
+            Box(Modifier.padding(horizontal = 18.dp).fillMaxWidth().height(0.5.dp).background(c.line))
+            Column(Modifier.padding(horizontal = 18.dp, vertical = 14.dp)) {
+                Kicker(stringResource(R.string.calendar_life), color = c.inkMuted)
+                LifeText(life.text[lang], collapsedLines = 8, style = MaterialTheme.typography.bodyLarge, color = c.ink)
+            }
+        }
+        icon?.let {
+            Text(
+                stringResource(R.string.icon_credit, it.title, it.licence) + if (view.icon == null) " · " + stringResource(R.string.calendar_general_icon) else "",
+                style = MaterialTheme.typography.labelSmall, color = c.inkFaint, maxLines = 2, overflow = TextOverflow.Ellipsis,
+                modifier = Modifier.padding(start = 18.dp, end = 18.dp, bottom = 14.dp),
+            )
+        }
+    }
+
+    // Everyone else remembered on this day.
+    val others = view.commemorations.drop(1)
+    if (others.isNotEmpty()) {
+        AgapeCard {
             Kicker(stringResource(R.string.saint_also), color = c.inkMuted)
-            others.forEach { o ->
-                Row(Modifier.padding(top = 10.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            others.forEachIndexed { i, o ->
+                if (i > 0) Box(Modifier.padding(top = 12.dp).fillMaxWidth().height(0.5.dp).background(c.line))
+                Row(Modifier.padding(top = 12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     // A small icon only where the saint has one of their own; the general icons would repeat on every row.
-                    if (o.ownIcon) SaintIcon(o.icon, o.entry.name[lang], width = 40.dp)
+                    if (o.ownIcon) SaintIcon(o.icon, o.entry.name[lang], width = 46.dp)
                     Column(Modifier.weight(1f)) {
                         Text(o.entry.name[lang], style = MaterialTheme.typography.titleMedium, color = c.ink)
                         o.entry.life?.let { LifeText(it.text[lang], collapsedLines = 3) }
@@ -221,14 +278,19 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
                 }
             }
         }
+    }
+
+    DayReadings(view, tradition, lang, openPassage)
+
+    // The date in the three calendars, and what the reader did on this day.
+    AgapeCard(tonal = true) {
+        ThreeDates(view, tradition, lang)
         if (done.isNotEmpty()) {
             Spacer(Modifier.height(12.dp))
             Kicker(stringResource(R.string.calendar_your_day), color = c.inkMuted)
             done.distinct().take(6).forEach { Text("✓ $it", style = MaterialTheme.typography.bodyMedium, color = c.ink, modifier = Modifier.padding(top = 3.dp)) }
         }
     }
-    Spacer(Modifier.height(12.dp))
-    DayReadings(view, tradition, lang, openPassage)
 }
 
 /** The day in the Gregorian, Julian and Coptic calendars; the tradition's own calendar stands out. */
@@ -254,13 +316,13 @@ private fun ThreeDates(view: SaintDayView, tradition: Tradition, lang: AppLangua
 
 /** A life or summary that folds open when it is longer than a few lines. */
 @Composable
-private fun LifeText(text: String, collapsedLines: Int) {
+private fun LifeText(text: String, collapsedLines: Int, style: androidx.compose.ui.text.TextStyle = MaterialTheme.typography.bodyMedium, color: Color = AgapeTheme.colors.inkMuted) {
     if (text.isBlank()) return
     val c = AgapeTheme.colors
     var open by rememberSaveable(text) { mutableStateOf(false) }
     var overflows by remember(text) { mutableStateOf(false) }
     Text(
-        text, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted,
+        text, style = style, color = color,
         maxLines = if (open) Int.MAX_VALUE else collapsedLines, overflow = TextOverflow.Ellipsis,
         onTextLayout = { if (!open) overflows = it.hasVisualOverflow },
         modifier = Modifier.padding(top = 4.dp).animateContentSize(),

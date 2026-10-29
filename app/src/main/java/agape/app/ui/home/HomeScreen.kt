@@ -105,6 +105,7 @@ fun HomeScreen(
     openHelp: () -> Unit,
     openProfile: () -> Unit,
     openRosary: () -> Unit,
+    openCalendar: () -> Unit,
 ) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
@@ -292,6 +293,7 @@ fun HomeScreen(
                     SaintOfDayCard(
                         s, stringResource(if (s.isFeast) R.string.saint_feast else R.string.home_saint),
                         Modifier.padding(horizontal = 16.dp, vertical = 6.dp),
+                        onClick = openCalendar,
                     )
                 }
             }

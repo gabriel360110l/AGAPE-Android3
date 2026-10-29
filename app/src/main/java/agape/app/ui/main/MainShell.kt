@@ -223,6 +223,7 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openReader = { b, c, v -> nav.navigate(ReaderRoute(b, c, v)) },
                 openPlans = { nav.navigate(PlansRoute) },
                 openPlan = { nav.navigate(PlanRoute(it)) },
+                openCalendar = { nav.navigateToTab(CalendarRoute) },
                 openTab = { route -> nav.navigateToTab(route) },
                 openHelp = { nav.navigate(HelpRoute) },
                 openProfile = { nav.navigate(MeRoute) },
