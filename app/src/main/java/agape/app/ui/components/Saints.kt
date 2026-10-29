@@ -39,6 +39,7 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
@@ -91,21 +92,23 @@ fun SaintOfDayCard(
     kicker: String,
     modifier: Modifier = Modifier,
     iconWidth: Dp = 104.dp,
+    onClick: (() -> Unit)? = null,
     extra: @Composable ColumnScope.() -> Unit = {},
 ) {
     val c = AgapeTheme.colors
-    AgapeCard(modifier) {
+    AgapeCard(modifier, onClick = onClick) {
         Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             SaintIcon(saint.icon, saint.name, width = iconWidth)
             Column(Modifier.weight(1f)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Kicker(kicker, Modifier.weight(1f))
-                    if (saint.summary.isNotBlank()) ListenButton("saint:${saint.name}") { listOf(saint.name, saint.summary) }
-                }
+                Kicker(kicker)
                 Text(saint.name, style = MaterialTheme.typography.headlineSmall, color = c.ink)
                 if (saint.summary.isNotBlank()) {
                     Spacer(Modifier.height(6.dp))
-                    Text(saint.summary, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, maxLines = 5)
+                    Text(saint.summary, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, maxLines = 5, overflow = TextOverflow.Ellipsis)
+                }
+                if (onClick != null) {
+                    Spacer(Modifier.height(8.dp))
+                    Text(stringResource(R.string.saint_read_more), style = MaterialTheme.typography.labelLarge, color = c.primary)
                 }
                 if (saint.others.isNotEmpty()) {
                     Spacer(Modifier.height(8.dp))

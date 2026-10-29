@@ -79,6 +79,17 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.coroutines.launch
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import kotlin.math.absoluteValue
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
 
@@ -146,36 +157,17 @@ fun PrayerScreen(
                 }
             }
         }
-        // Every rope is open to everyone; the user's own church comes first.
+        // Every rope is open to everyone; the user's own church comes first. Swipe to choose.
         item { Kicker(stringResource(R.string.ropes_title), Modifier.padding(start = 20.dp, top = 16.dp, bottom = 8.dp)) }
         item {
-            val ropes = when (tradition) {
-                Tradition.CATHOLIC -> listOf(null, PrayerRope.CHOTKI, PrayerRope.KYRIE)
-                Tradition.ORIENTAL_ORTHODOX -> listOf(PrayerRope.KYRIE, PrayerRope.CHOTKI, null)
-                else -> listOf(PrayerRope.CHOTKI, PrayerRope.KYRIE, null)
-            }
-            Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                ropes.forEach { rope ->
-                    val title = if (rope == null) stringResource(R.string.rosary_title) else stringResource(rope.title)
-                    val sub = if (rope == null) MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang] else stringResource(rope.subtitle)
-                    AgapeCard(Modifier.width(236.dp), onClick = { if (rope == null) openRosary() else openRope(rope) }, contentPadding = PaddingValues(16.dp)) {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            Column(Modifier.weight(1f)) {
-                                Text(title, style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 1)
-                                Spacer(Modifier.height(4.dp))
-                                Text(sub, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 2)
-                            }
-                            Spacer(Modifier.width(10.dp))
-                            if (rope == null) RosaryMark(Modifier.size(44.dp)) else RopeMark(rope, Modifier.size(44.dp))
-                        }
-                    }
-                }
-            }
+            val ropes = if (tradition == Tradition.CATHOLIC) listOf(null, PrayerRope.CHOTKI) else listOf(PrayerRope.CHOTKI, null)
+            RopePicker(ropes, openRosary, openRope)
         }
+        // Two shortcuts side by side, always the same size.
         item {
-            Row(Modifier.padding(horizontal = 16.dp, vertical = 12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                ShortcutCard(stringResource(R.string.day_title), stringResource(R.string.day_card_hint), Icons.Outlined.Schedule, openDay, Modifier.weight(1f))
-                ShortcutCard(stringResource(R.string.intentions_title), stringResource(R.string.intentions_card_hint), Icons.Outlined.FavoriteBorder, openIntentions, Modifier.weight(1f))
+            Row(Modifier.padding(horizontal = 16.dp, vertical = 12.dp).height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                ShortcutCard(stringResource(R.string.day_title), stringResource(R.string.day_card_hint), Icons.Outlined.Schedule, openDay, Modifier.weight(1f).fillMaxHeight())
+                ShortcutCard(stringResource(R.string.intentions_title), stringResource(R.string.intentions_card_hint), Icons.Outlined.FavoriteBorder, openIntentions, Modifier.weight(1f).fillMaxHeight())
             }
         }
         if (!settings.prayerNotifications && settings.prayerIntroSeen) {
@@ -201,30 +193,14 @@ fun PrayerScreen(
                 TextButton(onClick = openDay) { Text(stringResource(R.string.day_edit_times), style = MaterialTheme.typography.labelLarge, color = c.primary) }
             }
         }
-        items(book.hours, key = { it.id }) { hour ->
-            val isNow = hour.id == current?.id
+        itemsIndexed(book.hours, key = { _, h -> h.id }) { i, hour ->
             val fixed = reminders[hour.id]?.time ?: LocalTime.parse(hour.time)
             val time = remember(settings, fixed) { SunSchedule.timeOn(hour.id, fixed, settings, java.time.LocalDate.now()) }
-            ListRow(
-                title = hour.name[lang],
-                subtitle = hour.subtitle[lang],
-                onClick = { openHour(hour.id) },
-                leading = {
-                    Column(Modifier.width(52.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(time.format(clock), style = MaterialTheme.typography.labelLarge, color = if (isNow) c.primary else c.inkMuted)
-                        Box(Modifier.padding(top = 4.dp).size(if (isNow) 10.dp else 6.dp).clip(CircleShape).background(if (isNow) c.accent else c.line))
-                    }
-                },
-                trailing = {
-                    val on = settings.prayerNotifications && hour.id in reminders
-                    IconButton(onClick = { toggleReminder(hour) }) {
-                        Icon(
-                            if (on) Icons.Outlined.Notifications else Icons.Outlined.NotificationsNone,
-                            stringResource(if (on) R.string.prayer_reminder_on else R.string.prayer_reminder_off, hour.name[lang]),
-                            tint = if (on) c.primary else c.inkFaint,
-                        )
-                    }
-                },
+            HourRow(
+                name = hour.name[lang], subtitle = hour.subtitle[lang], time = time.format(clock),
+                isNow = hour.id == current?.id, first = i == 0, last = i == book.hours.lastIndex,
+                reminderOn = settings.prayerNotifications && hour.id in reminders,
+                onOpen = { openHour(hour.id) }, onReminder = { toggleReminder(hour) },
             )
         }
         if (book.extras.isNotEmpty()) {
@@ -271,9 +247,102 @@ private fun ShortcutCard(title: String, hint: String, icon: ImageVector, onClick
     AgapeCard(modifier, onClick = onClick, contentPadding = PaddingValues(16.dp)) {
         Icon(icon, null, tint = c.primary, modifier = Modifier.size(24.dp))
         Spacer(Modifier.height(10.dp))
-        Text(title, style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 2)
+        Text(title, style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Spacer(Modifier.height(4.dp))
-        Text(hint, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 3)
+        Text(hint, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, minLines = 3, maxLines = 3, overflow = TextOverflow.Ellipsis)
+    }
+}
+
+/**
+ * The prayer ropes one at a time, a large card per rope. Swiping brings the next one up from below as the current
+ * one sinks away; the dots show which rope is shown.
+ */
+@Composable
+private fun RopePicker(ropes: List<PrayerRope?>, openRosary: () -> Unit, openRope: (PrayerRope) -> Unit) {
+    val lang = LocalLanguage.current
+    val c = AgapeTheme.colors
+    val pager = rememberPagerState { ropes.size }
+    Column {
+        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = 16.dp), pageSpacing = 12.dp) { page ->
+            val rope = ropes[page]
+            val offset = ((pager.currentPage - page) + pager.currentPageOffsetFraction).absoluteValue.coerceIn(0f, 1f)
+            val title = if (rope == null) stringResource(R.string.rosary_title) else stringResource(rope.title)
+            val sub = if (rope == null) MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang] else stringResource(rope.subtitle)
+            val open = { if (rope == null) openRosary() else openRope(rope) }
+            AgapeCard(
+                Modifier.graphicsLayer {
+                    // The card coming in rises from below and grows; the one leaving sinks and fades.
+                    translationY = offset * 46.dp.toPx()
+                    alpha = 1f - offset * 0.55f
+                    scaleX = 1f - offset * 0.08f
+                    scaleY = 1f - offset * 0.08f
+                },
+                onClick = open, contentPadding = PaddingValues(20.dp),
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text(title, style = MaterialTheme.typography.headlineSmall, color = c.ink, maxLines = 1)
+                        Spacer(Modifier.height(4.dp))
+                        Text(sub, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, minLines = 2, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                        Spacer(Modifier.height(14.dp))
+                        Box(Modifier.clip(CircleShape).background(c.primary).clickable(onClick = open).padding(horizontal = 18.dp, vertical = 9.dp)) {
+                            Text(stringResource(R.string.prayer_begin), style = MaterialTheme.typography.labelLarge, color = c.onPrimary)
+                        }
+                    }
+                    Spacer(Modifier.width(12.dp))
+                    if (rope == null) RosaryMark(Modifier.size(84.dp)) else RopeMark(rope, Modifier.size(84.dp))
+                }
+            }
+        }
+        Row(Modifier.fillMaxWidth().padding(top = 10.dp), horizontalArrangement = Arrangement.Center) {
+            repeat(ropes.size) { i ->
+                val on = i == pager.currentPage
+                Box(Modifier.padding(horizontal = 4.dp).height(6.dp).width(if (on) 18.dp else 6.dp).clip(CircleShape).background(if (on) c.accent else c.line))
+            }
+        }
+    }
+}
+
+/**
+ * One hour on the day's line: the time, a dot on a thread running through all the hours, the name, and its bell.
+ * The hour of now is lit; a hairline separates each hour from the next.
+ */
+@Composable
+private fun HourRow(
+    name: String, subtitle: String, time: String, isNow: Boolean, first: Boolean, last: Boolean,
+    reminderOn: Boolean, onOpen: () -> Unit, onReminder: () -> Unit,
+) {
+    val c = AgapeTheme.colors
+    Column(Modifier.fillMaxWidth().background(if (isNow) c.accent.copy(alpha = 0.10f) else Color.Transparent)) {
+        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).clickable(onClick = onOpen).padding(start = 16.dp, end = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                time, style = MaterialTheme.typography.titleSmall.copy(fontWeight = if (isNow) FontWeight.Bold else FontWeight.Medium),
+                color = if (isNow) c.primary else c.inkMuted, modifier = Modifier.width(52.dp),
+            )
+            Box(Modifier.width(22.dp).fillMaxHeight(), contentAlignment = Alignment.Center) {
+                Column(Modifier.fillMaxHeight(), horizontalAlignment = Alignment.CenterHorizontally) {
+                    Box(Modifier.weight(1f).width(1.5.dp).background(if (first) Color.Transparent else c.line))
+                    Box(Modifier.weight(1f).width(1.5.dp).background(if (last) Color.Transparent else c.line))
+                }
+                Box(
+                    Modifier.size(if (isNow) 14.dp else 10.dp).clip(CircleShape).background(if (isNow) c.accent else c.surface)
+                        .border(1.5.dp, if (isNow) c.accent else c.inkFaint, CircleShape),
+                )
+            }
+            Column(Modifier.weight(1f).padding(start = 12.dp, top = 16.dp, bottom = 16.dp)) {
+                if (isNow) Kicker(stringResource(R.string.prayer_now))
+                Text(name, style = MaterialTheme.typography.titleMedium, color = c.ink)
+                Text(subtitle, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            }
+            IconButton(onClick = onReminder) {
+                Icon(
+                    if (reminderOn) Icons.Outlined.Notifications else Icons.Outlined.NotificationsNone,
+                    stringResource(if (reminderOn) R.string.prayer_reminder_on else R.string.prayer_reminder_off, name),
+                    tint = if (reminderOn) c.primary else c.inkFaint,
+                )
+            }
+        }
+        if (!last) Box(Modifier.padding(start = 102.dp, end = 16.dp).fillMaxWidth().height(0.5.dp).background(c.line))
     }
 }
 

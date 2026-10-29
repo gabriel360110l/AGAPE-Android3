@@ -9,21 +9,19 @@ import agape.app.data.calendar.Fasting
 import agape.app.ui.components.DayStatusPill
 import agape.app.data.content.chapterCount
 import agape.app.data.daily.DailyInfo
-import agape.app.data.plans.PlanEngine
 import agape.app.data.plans.planDays
 import agape.app.data.rosary.MysterySet
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.LocalSettings
 import agape.app.ui.bookName
-import agape.app.ui.calendar.WeekStrip
 import agape.app.ui.components.AgapeCard
 import agape.app.ui.components.Backdrop
 import agape.app.ui.components.Kicker
-import agape.app.ui.components.ProgressLine
 import agape.app.ui.components.SaintOfDayCard
 import agape.app.ui.main.BibleRoute
 import agape.app.ui.passageLabel
+import agape.app.ui.plans.MyPlanCard
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.tradition
 import android.app.Activity
@@ -150,21 +148,20 @@ fun HomeScreen(
         item {
             Backdrop(background, Modifier.fillMaxWidth()) {
                 Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(horizontal = 24.dp)) {
-                    Spacer(Modifier.height(170.dp))
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Column(Modifier.weight(1f)) {
-                            Kicker(stringResource(R.string.home_today), color = OnBackdrop.copy(alpha = 0.75f))
-                            Spacer(Modifier.height(4.dp))
-                            Text(
-                                today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(Locale.forLanguageTag(lang.tag)))
-                                    .replaceFirstChar { it.titlecase(Locale.forLanguageTag(lang.tag)) },
-                                style = MaterialTheme.typography.bodyLarge, color = OnBackdrop.copy(alpha = 0.92f),
-                            )
-                        }
+                    // Help and settings sit in the top corner, as in a top bar, clear of the picture and the verse.
+                    Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.End) {
                         RoundIcon(Icons.AutoMirrored.Outlined.HelpOutline, stringResource(R.string.home_help), openHelp)
                         Spacer(Modifier.width(10.dp))
                         RoundIcon(Icons.Outlined.Settings, stringResource(R.string.home_profile), openProfile)
                     }
+                    Spacer(Modifier.height(116.dp))
+                    Kicker(stringResource(R.string.home_today), color = OnBackdrop.copy(alpha = 0.75f))
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(Locale.forLanguageTag(lang.tag)))
+                            .replaceFirstChar { it.titlecase(Locale.forLanguageTag(lang.tag)) },
+                        style = MaterialTheme.typography.bodyLarge, color = OnBackdrop.copy(alpha = 0.92f),
+                    )
                     Box(Modifier.padding(top = 12.dp).width(32.dp).height(2.dp).background(c.accent))
                     Spacer(Modifier.height(14.dp))
                     DayStatusPill(dayStatus, tradition, onDark = true)
@@ -265,31 +262,24 @@ fun HomeScreen(
             }
         }
 
-        // Reading plan
+        // Reading plan: the one being followed, with its cover, or an invitation to start one.
         item {
             val active = plans.firstOrNull { it.active }
             val def = active?.let { container.content.plan(it.planId) }
-            AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 6.dp), onClick = { if (def != null) openPlan(def.id) else openPlans() }) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Column(Modifier.weight(1f)) {
-                        Kicker(stringResource(R.string.home_plan), color = c.inkMuted)
-                        Spacer(Modifier.height(6.dp))
-                        if (def != null) {
-                            val days = remember(def, tradition, lang) { container.content.planDays(def, tradition, lang) }
-                            val next = PlanEngine.nextDay(days.size, active.completedDays)
-                            Text(def.title[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink)
-                            Text(
-                                if (next != null) stringResource(R.string.plan_day_of, next, days.size) else stringResource(R.string.plan_finished),
-                                style = MaterialTheme.typography.bodySmall, color = c.inkMuted,
-                            )
-                            Spacer(Modifier.height(10.dp))
-                            ProgressLine(active.completedDays.size / days.size.coerceAtLeast(1).toFloat())
-                        } else {
+            if (def != null) {
+                val days = remember(def, tradition, lang) { container.content.planDays(def, tradition, lang) }
+                MyPlanCard(def, active, days.size, Modifier.padding(horizontal = 16.dp, vertical = 6.dp)) { openPlan(def.id) }
+            } else {
+                AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 6.dp), onClick = openPlans) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Column(Modifier.weight(1f)) {
+                            Kicker(stringResource(R.string.home_plan), color = c.inkMuted)
+                            Spacer(Modifier.height(6.dp))
                             Text(stringResource(R.string.home_plan_start), style = MaterialTheme.typography.headlineSmall, color = c.ink)
                             Text(stringResource(R.string.home_plan_start_hint), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
                         }
+                        Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint)
                     }
-                    Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint)
                 }
             }
         }
@@ -303,12 +293,11 @@ fun HomeScreen(
                     SaintOfDayCard(
                         s, stringResource(if (s.isFeast) R.string.saint_feast else R.string.home_saint),
                         Modifier.padding(horizontal = 16.dp, vertical = 6.dp),
+                        onClick = openCalendar,
                     )
                 }
             }
         }
-
-        item { Box(Modifier.padding(horizontal = 16.dp, vertical = 6.dp)) { WeekStrip(onOpen = openCalendar) } }
 
         background?.let { b ->
             item {

@@ -110,6 +110,9 @@ class UserRepository(private val db: UserDatabase) {
         changed()
     }
 
+    /** A plan day's own note: the reader's reflection, kept with the verse notes so it syncs and backs up with them. */
+    suspend fun savePlanNote(planId: String, day: Int, text: String, title: String) = saveNote(planNoteBook(planId), day, 0, text, title)
+
     suspend fun startPlan(planId: String) {
         dao.upsertPlan(PlanProgress(planId, System.currentTimeMillis(), emptySet(), active = true)); changed()
     }
@@ -163,3 +166,8 @@ class UserRepository(private val db: UserDatabase) {
     /** Removes all personal data from this device (sign-out). */
     suspend fun clear() = withContext(Dispatchers.IO) { db.clearAllTables() }
 }
+
+/** Plan notes are stored as notes on the "book" plan:<id>, with the day as chapter and verse 0. */
+const val PLAN_NOTE_PREFIX = "plan:"
+
+fun planNoteBook(planId: String) = PLAN_NOTE_PREFIX + planId

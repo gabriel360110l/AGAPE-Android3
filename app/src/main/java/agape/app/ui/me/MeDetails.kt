@@ -6,6 +6,7 @@ import agape.app.core.model.Passage
 import agape.app.data.user.Achievement
 import agape.app.data.user.ActivityType
 import agape.app.data.user.ProgressStats
+import agape.app.data.user.PLAN_NOTE_PREFIX
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.AgapeCard
@@ -110,7 +111,15 @@ fun SavedScreen(
                 SavedTab.NOTES -> {
                     if (notes.isEmpty()) item { empty() }
                     items(notes, key = { "${it.book}.${it.chapter}.${it.verse}" }) { n ->
-                        ListRow(label(n.book, n.chapter, n.verse), subtitle = n.text, onClick = { openVerse(n.book, n.chapter, n.verse) }); Divider()
+                        if (n.book.startsWith(PLAN_NOTE_PREFIX)) {
+                            // A reflection written on a reading plan day.
+                            val planId = n.book.removePrefix(PLAN_NOTE_PREFIX)
+                            val planTitle = container.content.plan(planId)?.title?.get(lang) ?: planId
+                            ListRow(stringResource(R.string.note_plan_day, planTitle, n.chapter), subtitle = n.text, onClick = { openPlan(planId) })
+                        } else {
+                            ListRow(label(n.book, n.chapter, n.verse), subtitle = n.text, onClick = { openVerse(n.book, n.chapter, n.verse) })
+                        }
+                        Divider()
                     }
                 }
                 SavedTab.PRAYERS -> {
