@@ -43,19 +43,28 @@ Welcome → Terms → Choose Church → Choose style → Sign in / Create accoun
 Profile and settings open from the gear on Home, help from the question mark beside it.
 The first visit to Prayer explains the hours and asks to enable notifications (prayer times and inactivity reminders).
 
-- **Home**: the verse of the day over the picture of the day (Read · Share), then where you left off, your progress
-  (streak, chapters read of the canon, hours prayed), the readings of the day labelled Law and Prophets, Psalm, Gospel and
-  Apostle, the Rosary for Catholics, the reading plan, the saint of the day and the week. The tab bar floats over the page.
+- **Home**: help and settings in the top corner, the verse of the day over the picture of the day (Read · Share) with
+  the day's fast or feast, then where you left off, your progress (streak, chapters read of the canon, hours prayed),
+  the readings of the day labelled Law and Prophets, Psalm, Gospel and Apostle, the Rosary for Catholics, the reading
+  plan with its cover, and the saint of the day (a tap opens the calendar). The tab bar floats over the page.
+- **Reading plans**: every plan has a cover (public domain / CC0 pictures from `assets/backgrounds`, chosen per plan
+  in `Backgrounds.PLAN_COVERS`). The plans page shows your plans first, then a row of covers per kind. A plan page has
+  the cover with its title, progress in days and percent, and the days as rings that fill. Each day has a field for
+  your own reflection, kept with the verse notes (book `plan:<id>`, day as chapter), so it syncs and shows under
+  Saved → Notes.
 - **Rosary** (Catholic; Prayer tab, Home, and the Rosary in the prayer book): a rosary of 59 beads, medal and crucifix
   that you pray by tapping the glowing bead. Each bead shows its prayer (Creed, Our Father, Hail Mary, Glory Be,
   O my Jesus, Hail Holy Queen, closing prayer) and each decade its mystery with the passage to read, in English and
   Dutch. The mysteries of the day follow Rosarium Virginis Mariae; any set can be chosen (`data/rosary/Rosary.kt`).
 - **Search** looks through everything offline: references ("John 3:16"), books, verses, hours and prayers, councils,
-  Fathers, articles, Father quotes, saints and plans.
-- **Calendar** (its own tab, and a week strip on Home): feasts per tradition and the days you read or prayed. A
-  selected day shows its date in the Gregorian, Julian (old style) and Coptic calendars, every commemoration of the
-  tradition with its icon and life (longer lives fold open), and the readings: the Roman lectionary from the bundle
-  (2025–2027), the Byzantine readings from orthocal.info when online. A reading opens in the Bible reader.
+  Fathers, articles, Father quotes, saints and plans. It runs off the main thread on a folded index (no case, no
+  accents), can be limited to the Old or New Testament, the Gospels or the Psalms, can match whole words, counts
+  the results per kind and marks the words found.
+- **Calendar** (its own tab): the month in a card, feasts in gold, a bar under fast days and a ring on the days you
+  read or prayed, with a link back to today. A selected day shows its icon large (the icon of All Saints where the
+  day has none of its own), the commemoration with its full life, everyone else remembered, the readings (the Roman
+  lectionary from the bundle 2025–2027, the Byzantine readings from orthocal.info when online) and the date in the
+  Gregorian, Julian (old style) and Coptic calendars.
 - **Bible reader**: the text stays clean. The **Info** button opens the chapter's explanation, how the Fathers read
   it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: every
   chapter of all 82 books, Old and New Testament with the deuterocanon (Psalms, Sirach, Wisdom, the Maccabees,
@@ -67,26 +76,24 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   menologion (an English and Dutch text for every day), the Coptic Synaxarium by Coptic date, and the General Roman
   Calendar (a short English and Dutch summary for the first saint of every Coptic day and for every Roman saint),
   with a Byzantine icon where one is bundled and a quiet placeholder otherwise.
-- **Prayers**: the Kyrie stays in Greek, Κύριε ἐλέησον, with its meaning shown once beside the 41× counter.
+- **Prayers**: the Kyrie stays in Greek, Κύριε ἐλέησον, with its meaning shown once beneath it. The hours stand on a
+  timeline, the hour of now lit, a hairline between each.
 - **Opening** (`ui/intro/Intro.kt`): on every start of the app and after a change of church, golden rays break
   out behind the church's own cross (Latin, Byzantine three-bar, Coptic cross bottony, all drawn in
   `ui/components/Crosses.kt`), A G A P E is spelled letter by letter and "<CHURCH> · GOD IS LOVE" follows. A tap
   skips it; with Android animations off it shows still.
-- **Fast or feast** (`data/calendar/Fasting.kt`, tested): every day on Home, in the week strip and on each calendar
+- **Fast or feast** (`data/calendar/Fasting.kt`, tested): every day on Home and on each calendar
   day says whether it is a fast day, a strict fast, a day without meat, fast-free or an ordinary day, and why
   (Great Lent, Wednesday, Bright Week, Apostles' Fast, Paramoun, Ash Wednesday …), with a short explanation per
   church. It is a general guideline: the Byzantine fixed fasts follow the new calendar like the feasts, the Coptic
   rules follow the Coptic seasons, the Catholic rules follow canons 1250–1253.
-- **Prayer ropes** (Prayer tab, open to everyone, own church first): the Rosary, the chotki (33, 50 or 100 knots,
-  Jesus Prayer, a bead after every ten) and the rope of 41 Kyrie eleison of the Agpeya. Each knot gives a light
-  tick, every tenth a firmer one; the prayer can be said aloud at each knot.
+- **Prayer ropes** (Prayer tab, open to everyone, own church first, swipe to choose): the Rosary and the chotki
+  (33, 50 or 100 knots, Jesus Prayer, a bead after every ten). Each knot gives a light tick, every tenth a firmer one.
 - **My day of prayer** (Prayer tab, and Settings → notifications): own time per hour, or hours that follow the
   sun (sunrise and sunset computed on the phone from a chosen city or the coarse location, nothing is sent out);
   own prayer moments; a church bell for prayer notifications (synthesized by `tools/build_bell.py`, CC0, instead of the bell of unknown origin in the AI Studio version); quiet
   mode (screen stays on, Do Not Disturb with priority only while praying, if allowed).
 - **Remembered in prayer**: names of the living and the departed and thanksgivings, read at the end of every hour.
-- **Read aloud** (`data/audio/Speaker.kt`): chapters (with the verse being read highlighted and an audio bar),
-  hours, prayers and saints, with the phone's own voices.
 - **Bible extras**: quick book and chapter picker from the reader's title, share a verse as an image (three
   card styles), mark a chapter as unread; search ignores accents and puts the Gospels first.
 - **Widget**: the verse of the day on the home screen; a tap opens it in the reader.
@@ -123,7 +130,7 @@ instead of a weather service, and no build script that downloads or deletes file
 | Home backgrounds | Painted for AGAPE by `tools/render_backgrounds.py`; real photos can be added with `tools/build_backgrounds.py`, listed in `assets/backgrounds/backgrounds.json` | CC0 (own artwork); photos public domain / CC0 only |
 | Rosary prayers (EN + NL) | `data/rosary/Rosary.kt`: traditional texts; the Dutch closing prayer is our own translation | Review |
 | Catholic Mass readings per date, 2025–2027 (citations only, no Bible text) | github.com/cpbjr/catholic-readings-api (lectionary of the United States), in `saints_unified.json` | MIT |
-| Saint and feast icons (73) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
+| Saint and feast icons (169) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
 | Byzantine menologion: English texts | `tools/source/menologion_en.json` | Own content — review |
 | Coptic and Roman saint summaries (EN + NL) | `tools/source/saint_summaries_oo.tsv`, `saint_summaries_ca.tsv` | Own content — review; Coptic lines marked `?` are provisional |
 | Menologion names and Dutch texts, legacy prayers, provisional chapter guides (OT), Father notes | Legacy AGAPE app | Own content |
@@ -186,9 +193,9 @@ note never lands on the wrong verse. Each language only shows its own note.
 - Have the written commentary, the quizzes, the menologion texts, the council translations, the Dutch saint names
   and the saint summaries reviewed: the 145 Coptic summaries marked `?` first, which say only what was safe without the full Synaxarium
   text and should be checked and filled out against it.
-- Download the 99 extra saint icons listed in `tools/build_icons.py` with `python tools/build_icons.py --new` (needs
-  access to commons.wikimedia.org), then look at each new picture and pin a better file in `PINS` where the search
-  chose the wrong saint.
+- The 169 icons are downloaded and linked (`saints_unified.json` rebuilt 29-10-2026). Look at each picture and pin a
+  better file in `PINS` of `tools/build_icons.py` where the search chose the wrong saint, then
+  `python tools/build_icons.py --patterns` and `python tools/build_unified_saints.py`.
 - The calendar reads `saints_unified.json`: rerun `python tools/build_unified_saints.py` after any change to
   `saints_*.json` or `icons.json` (it keeps the readings and references of the last build). The Catholic readings
   end in 2027 and follow the American versification, so a few Old Testament references open a verse off in WEB and
