@@ -175,7 +175,7 @@ ICONS = [
     ("ambrose", ["Ambrose of Milan icon", "Saint Ambrose mosaic"], [r"Ambrose(,? (of Milan|bishop))?\b"], None),
     ("sebastian", ["Saint Sebastian icon", "Saint Sebastian mosaic"], [r"Sebastian(,? martyr| of Rome)"], None),
     ("juliana", ["Juliana of Nicomedia icon"], [r"Juliana (of Nicomedia|the Martyr)"], None),
-    ("anastasia", ["Anastasia Pharmakolytria icon", "Saint Anastasia icon"], [r"Anastasia,? (deliverer|of Rome|the Great)"], None),
+    ("anastasia", ["Anastasia Pharmakolytria icon", "Saint Anastasia icon"], [r"Anastasia,? (deliverer|the Great)"], None),
     ("holy_innocents", ["Massacre of the Innocents icon", "Holy Innocents icon"], [r"Holy Innocents", r"children of Bethlehem", r"Slain Children of Bethlehem"], None),
     ("xenia", ["Xenia of Saint Petersburg icon"], [r"Xenia of (St\.? |Saint )?Petersburg"], None),
     ("tatiana", ["Tatiana of Rome icon"], [r"Tatiana"], None),

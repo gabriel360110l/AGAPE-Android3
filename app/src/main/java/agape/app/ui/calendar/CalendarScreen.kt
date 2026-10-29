@@ -104,63 +104,66 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
     Column(Modifier.fillMaxSize()) {
         // A tab of its own; with onBack it is opened from elsewhere as a detail screen.
         if (onBack != null) DetailTopBar(stringResource(R.string.calendar_title), onBack)
-        else TabHeader(kicker = secondaryDate(tradition, today, lang).orEmpty(), title = stringResource(R.string.calendar_title))
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 32.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                IconButton({ month = ym.minusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowLeft, stringResource(R.string.calendar_previous), tint = c.ink) }
-                Text(
-                    ym.month.getDisplayName(TextStyle.FULL_STANDALONE, locale).replaceFirstChar { it.titlecase(locale) } + " ${ym.year}",
-                    style = MaterialTheme.typography.headlineSmall, color = c.ink, modifier = Modifier.weight(1f), textAlign = TextAlign.Center,
-                )
-                IconButton({ month = ym.plusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, stringResource(R.string.calendar_next), tint = c.ink) }
-            }
-            Row(Modifier.fillMaxWidth().padding(vertical = 6.dp)) {
-                DayOfWeek.entries.forEach {
-                    Text(it.getDisplayName(TextStyle.NARROW, locale), style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.weight(1f), textAlign = TextAlign.Center)
+        // The tab header scrolls with the month, so no week is cut off under a fixed title.
+        Column(Modifier.verticalScroll(rememberScrollState())) {
+            if (onBack == null) TabHeader(kicker = secondaryDate(tradition, today, lang).orEmpty(), title = stringResource(R.string.calendar_title))
+            Column(Modifier.padding(horizontal = 16.dp).padding(bottom = 32.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    IconButton({ month = ym.minusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowLeft, stringResource(R.string.calendar_previous), tint = c.ink) }
+                    Text(
+                        ym.month.getDisplayName(TextStyle.FULL_STANDALONE, locale).replaceFirstChar { it.titlecase(locale) } + " ${ym.year}",
+                        style = MaterialTheme.typography.headlineSmall, color = c.ink, modifier = Modifier.weight(1f), textAlign = TextAlign.Center,
+                    )
+                    IconButton({ month = ym.plusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, stringResource(R.string.calendar_next), tint = c.ink) }
                 }
-            }
-            val first = ym.atDay(1)
-            val cells = (0 until 42).map { first.minusDays((first.dayOfWeek.value - 1).toLong()).plusDays(it.toLong()) }
-            cells.chunked(7).forEach { week ->
-                if (week.first().monthValue != ym.monthValue && week.last().monthValue != ym.monthValue) return@forEach
-                Row(Modifier.fillMaxWidth()) {
-                    week.forEach { d ->
-                        val inMonth = d.monthValue == ym.monthValue
-                        val feasts = remember(d, tradition) { LiturgicalCalendar.feasts(tradition, d) }
-                        val fast = remember(d, tradition) { Fasting.status(tradition, d).level }
-                        val isSel = d == day
-                        val isToday = d == today
-                        Column(
-                            Modifier.weight(1f).aspectRatio(0.82f).padding(2.dp).clip(RoundedCornerShape(14.dp))
-                                .background(if (isSel) c.primary else Color.Transparent)
-                                .then(if (isToday && !isSel) Modifier.border(1.dp, c.accent, RoundedCornerShape(14.dp)) else Modifier)
-                                .clickable { selected = d.toString() }
-                                .semantics { contentDescription = d.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)) },
-                            horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,
-                        ) {
-                            Text(
-                                d.dayOfMonth.toString(), style = MaterialTheme.typography.titleMedium.copy(fontFamily = AgapeTheme.type.ui),
-                                color = when { isSel -> c.onPrimary; inMonth -> c.ink; else -> c.inkFaint.copy(alpha = 0.5f) },
-                            )
-                            if (tradition == Tradition.ORIENTAL_ORTHODOX) {
-                                Text(LiturgicalCalendar.coptic(d).day.toString(), style = MaterialTheme.typography.labelSmall, color = if (isSel) c.onPrimary.copy(alpha = 0.8f) else c.inkFaint)
-                            }
-                            Row(Modifier.padding(top = 2.dp), horizontalArrangement = Arrangement.spacedBy(3.dp)) {
-                                if (feasts.any { it.rank != FeastRank.SEASON }) Box(Modifier.size(5.dp).clip(CircleShape).background(if (isSel) c.onPrimary else c.accent))
-                                FastMark(fast, if (isSel) c.onPrimary else c.primary)
-                                if (d.toEpochDay() in activeDays) Box(Modifier.size(5.dp).clip(CircleShape).background(if (isSel) c.onPrimary else c.primary.copy(alpha = 0.6f)))
+                Row(Modifier.fillMaxWidth().padding(vertical = 6.dp)) {
+                    DayOfWeek.entries.forEach {
+                        Text(it.getDisplayName(TextStyle.NARROW, locale), style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.weight(1f), textAlign = TextAlign.Center)
+                    }
+                }
+                val first = ym.atDay(1)
+                val cells = (0 until 42).map { first.minusDays((first.dayOfWeek.value - 1).toLong()).plusDays(it.toLong()) }
+                cells.chunked(7).forEach { week ->
+                    if (week.first().monthValue != ym.monthValue && week.last().monthValue != ym.monthValue) return@forEach
+                    Row(Modifier.fillMaxWidth()) {
+                        week.forEach { d ->
+                            val inMonth = d.monthValue == ym.monthValue
+                            val feasts = remember(d, tradition) { LiturgicalCalendar.feasts(tradition, d) }
+                            val fast = remember(d, tradition) { Fasting.status(tradition, d).level }
+                            val isSel = d == day
+                            val isToday = d == today
+                            Column(
+                                Modifier.weight(1f).aspectRatio(0.82f).padding(2.dp).clip(RoundedCornerShape(14.dp))
+                                    .background(if (isSel) c.primary else Color.Transparent)
+                                    .then(if (isToday && !isSel) Modifier.border(1.dp, c.accent, RoundedCornerShape(14.dp)) else Modifier)
+                                    .clickable { selected = d.toString() }
+                                    .semantics { contentDescription = d.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)) },
+                                horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,
+                            ) {
+                                Text(
+                                    d.dayOfMonth.toString(), style = MaterialTheme.typography.titleMedium.copy(fontFamily = AgapeTheme.type.ui),
+                                    color = when { isSel -> c.onPrimary; inMonth -> c.ink; else -> c.inkFaint.copy(alpha = 0.5f) },
+                                )
+                                if (tradition == Tradition.ORIENTAL_ORTHODOX) {
+                                    Text(LiturgicalCalendar.coptic(d).day.toString(), style = MaterialTheme.typography.labelSmall, color = if (isSel) c.onPrimary.copy(alpha = 0.8f) else c.inkFaint)
+                                }
+                                Row(Modifier.padding(top = 2.dp), horizontalArrangement = Arrangement.spacedBy(3.dp)) {
+                                    if (feasts.any { it.rank != FeastRank.SEASON }) Box(Modifier.size(5.dp).clip(CircleShape).background(if (isSel) c.onPrimary else c.accent))
+                                    FastMark(fast, if (isSel) c.onPrimary else c.primary)
+                                    if (d.toEpochDay() in activeDays) Box(Modifier.size(5.dp).clip(CircleShape).background(if (isSel) c.onPrimary else c.primary.copy(alpha = 0.6f)))
+                                }
                             }
                         }
                     }
                 }
+                Row(Modifier.padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(Modifier.size(6.dp).clip(CircleShape).background(c.accent)); Text("  " + stringResource(R.string.calendar_legend_feast) + "     ", style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
+                    Box(Modifier.size(6.dp).clip(CircleShape).background(c.primary.copy(alpha = 0.6f))); Text("  " + stringResource(R.string.calendar_legend_active) + "     ", style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
+                    FastMark(FastLevel.FAST, c.primary); Text("  " + stringResource(R.string.calendar_legend_fast), style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
+                }
+                Spacer(Modifier.height(8.dp))
+                DayDetails(day, tradition, lang, activity.filter { it.epochDay == day.toEpochDay() }.map { it.title }, openPassage)
             }
-            Row(Modifier.padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.size(6.dp).clip(CircleShape).background(c.accent)); Text("  " + stringResource(R.string.calendar_legend_feast) + "     ", style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
-                Box(Modifier.size(6.dp).clip(CircleShape).background(c.primary.copy(alpha = 0.6f))); Text("  " + stringResource(R.string.calendar_legend_active) + "     ", style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
-                FastMark(FastLevel.FAST, c.primary); Text("  " + stringResource(R.string.calendar_legend_fast), style = MaterialTheme.typography.labelSmall, color = c.inkMuted)
-            }
-            Spacer(Modifier.height(8.dp))
-            DayDetails(day, tradition, lang, activity.filter { it.epochDay == day.toEpochDay() }.map { it.title }, openPassage)
         }
     }
 }
@@ -341,46 +344,4 @@ private fun readingRole(role: String): Int = when (role) {
     "catholic_epistle" -> R.string.reading_catholic_epistle
     "acts" -> R.string.reading_acts
     else -> R.string.reading_other
-}
-
-/** This week at a glance, for Home; tap to open the full calendar. */
-@Composable
-fun WeekStrip(onOpen: () -> Unit) {
-    val lang = LocalLanguage.current
-    val tradition = tradition
-    val c = AgapeTheme.colors
-    val locale = Locale.forLanguageTag(lang.tag)
-    val today = remember { LocalDate.now() }
-    val week = remember(today) { (0L..6L).map { today.minusDays((today.dayOfWeek.value - 1).toLong()).plusDays(it) } }
-    val todayFeast = remember(tradition) { LiturgicalCalendar.feasts(tradition, today).firstOrNull() }
-    AgapeCard(onClick = onOpen) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Kicker(stringResource(R.string.calendar_title), Modifier.weight(1f))
-            secondaryDate(tradition, today, lang)?.let { Text(it, style = MaterialTheme.typography.labelSmall, color = c.inkMuted) }
-        }
-        Spacer(Modifier.height(12.dp))
-        Row(Modifier.fillMaxWidth()) {
-            week.forEach { d ->
-                val isToday = d == today
-                val feast = LiturgicalCalendar.feasts(tradition, d).any { it.rank != FeastRank.SEASON }
-                Column(Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text(d.dayOfWeek.getDisplayName(TextStyle.SHORT, locale).take(2), style = MaterialTheme.typography.labelSmall, color = c.inkFaint)
-                    Box(
-                        Modifier.padding(top = 4.dp).size(36.dp).clip(CircleShape).background(if (isToday) c.primary else Color.Transparent),
-                        contentAlignment = Alignment.Center,
-                    ) { Text(d.dayOfMonth.toString(), style = MaterialTheme.typography.titleSmall, color = if (isToday) c.onPrimary else c.ink) }
-                    Row(Modifier.padding(top = 3.dp).height(6.dp), horizontalArrangement = Arrangement.spacedBy(3.dp), verticalAlignment = Alignment.CenterVertically) {
-                        if (feast) Box(Modifier.size(5.dp).clip(CircleShape).background(c.accent))
-                        FastMark(Fasting.status(tradition, d).level, c.primary)
-                    }
-                }
-            }
-        }
-        todayFeast?.let {
-            Spacer(Modifier.height(10.dp))
-            Text(it.name[lang], style = MaterialTheme.typography.titleMedium, color = c.primary)
-        }
-        Spacer(Modifier.height(6.dp))
-        Text(Fasting.status(tradition, today).label[lang], style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
-    }
 }

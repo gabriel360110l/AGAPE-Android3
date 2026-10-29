@@ -227,7 +227,6 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openHelp = { nav.navigate(HelpRoute) },
                 openProfile = { nav.navigate(MeRoute) },
                 openRosary = { nav.navigate(RosaryRoute) },
-                openCalendar = { nav.navigateToTab(CalendarRoute) },
             )
         }
         composable<CalendarRoute> { CalendarScreen(openPassage = { p -> nav.navigate(ReaderRoute(p.book, p.chapter, p.startVerse ?: 0)) }) }

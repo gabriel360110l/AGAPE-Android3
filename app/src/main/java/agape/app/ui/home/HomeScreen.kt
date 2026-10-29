@@ -16,7 +16,6 @@ import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
 import agape.app.ui.LocalSettings
 import agape.app.ui.bookName
-import agape.app.ui.calendar.WeekStrip
 import agape.app.ui.components.AgapeCard
 import agape.app.ui.components.Backdrop
 import agape.app.ui.components.Kicker
@@ -107,7 +106,6 @@ fun HomeScreen(
     openHelp: () -> Unit,
     openProfile: () -> Unit,
     openRosary: () -> Unit,
-    openCalendar: () -> Unit,
 ) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
@@ -150,21 +148,20 @@ fun HomeScreen(
         item {
             Backdrop(background, Modifier.fillMaxWidth()) {
                 Column(Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(horizontal = 24.dp)) {
-                    Spacer(Modifier.height(170.dp))
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Column(Modifier.weight(1f)) {
-                            Kicker(stringResource(R.string.home_today), color = OnBackdrop.copy(alpha = 0.75f))
-                            Spacer(Modifier.height(4.dp))
-                            Text(
-                                today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(Locale.forLanguageTag(lang.tag)))
-                                    .replaceFirstChar { it.titlecase(Locale.forLanguageTag(lang.tag)) },
-                                style = MaterialTheme.typography.bodyLarge, color = OnBackdrop.copy(alpha = 0.92f),
-                            )
-                        }
+                    // Help and settings sit in the top corner, as in a top bar, clear of the picture and the verse.
+                    Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.End) {
                         RoundIcon(Icons.AutoMirrored.Outlined.HelpOutline, stringResource(R.string.home_help), openHelp)
                         Spacer(Modifier.width(10.dp))
                         RoundIcon(Icons.Outlined.Settings, stringResource(R.string.home_profile), openProfile)
                     }
+                    Spacer(Modifier.height(116.dp))
+                    Kicker(stringResource(R.string.home_today), color = OnBackdrop.copy(alpha = 0.75f))
+                    Spacer(Modifier.height(4.dp))
+                    Text(
+                        today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(Locale.forLanguageTag(lang.tag)))
+                            .replaceFirstChar { it.titlecase(Locale.forLanguageTag(lang.tag)) },
+                        style = MaterialTheme.typography.bodyLarge, color = OnBackdrop.copy(alpha = 0.92f),
+                    )
                     Box(Modifier.padding(top = 12.dp).width(32.dp).height(2.dp).background(c.accent))
                     Spacer(Modifier.height(14.dp))
                     DayStatusPill(dayStatus, tradition, onDark = true)
@@ -307,8 +304,6 @@ fun HomeScreen(
                 }
             }
         }
-
-        item { Box(Modifier.padding(horizontal = 16.dp, vertical = 6.dp)) { WeekStrip(onOpen = openCalendar) } }
 
         background?.let { b ->
             item {

@@ -861,6 +861,1062 @@
    "source": "wikimedia_commons"
   },
   {
+   "key": "gregory_nyssa",
+   "asset": "icons/gregory_nyssa.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St._Gregory_of_Nyssa.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:St._Gregory_of_Nyssa.jpg",
+   "title": "St. Gregory of Nyssa",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "paul_thebes",
+   "asset": "icons/paul_thebes.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint-Paul-of-Thebes-Icon-Orthodox-Hermit-Ascetic-Prayer-7.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint-Paul-of-Thebes-Icon-Orthodox-Hermit-Ascetic-Prayer-7.jpg",
+   "title": "Saint-Paul-of-Thebes-Icon-Orthodox-Hermit-Ascetic-Prayer-7",
+   "artist": "Anonymous",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "euthymius",
+   "asset": "icons/euthymius.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Euthymius_the_Great_%28Tzanes%29.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Euthymius_the_Great_(Tzanes).png",
+   "title": "Euthymius the Great (Tzanes)",
+   "artist": "Emmanuel Tzanes",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "timothy",
+   "asset": "icons/timothy.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_June.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_June.jpg",
+   "title": "Menaion icon (17 c., TsAK) - June",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "tryphon",
+   "asset": "icons/tryphon.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Icon_of_Saint_Tryphon.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Icon_of_Saint_Tryphon.jpg",
+   "title": "Icon of Saint Tryphon",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "agatha",
+   "asset": "icons/agatha.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BabushinIcons1681.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:BabushinIcons1681.jpg",
+   "title": "BabushinIcons1681",
+   "artist": "Бабухин Кузьма Яковлев",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "haralambos",
+   "asset": "icons/haralambos.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%CE%93%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82_%CE%9A%CE%B1%CF%83%CF%84%CF%81%CE%BF%CF%86%CF%8D%CE%BB%CE%B1%CE%BA%CE%B1%CF%82_-_%CE%86%CE%B3%CE%B9%CE%BF%CF%82_%CE%A7%CE%B1%CF%81%CE%AC%CE%BB%CE%B1%CE%BC%CF%80%CE%BF%CF%82_%CE%BA%CE%B1%CE%B9_%CF%83%CE%BA%CE%B7%CE%BD%CE%AD%CF%82_%CE%B1%CF%80%CF%8C_%CF%84%CE%BF%CE%BD_%CE%B2%CE%AF%CE%BF_%CF%84%CE%BF%CF%85_7715.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%CE%93%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82_%CE%9A%CE%B1%CF%83%CF%84%CF%81%CE%BF%CF%86%CF%8D%CE%BB%CE%B1%CE%BA%CE%B1%CF%82_-_%CE%86%CE%B3%CE%B9%CE%BF%CF%82_%CE%A7%CE%B1%CF%81%CE%AC%CE%BB%CE%B1%CE%BC%CF%80%CE%BF%CF%82_%CE%BA%CE%B1%CE%B9_%CF%83%CE%BA%CE%B7%CE%BD%CE%AD%CF%82_%CE%B1%CF%80%CF%8C_%CF%84%CE%BF%CE%BD_%CE%B2%CE%AF%CE%BF_%CF%84%CE%BF%CF%85_7715.jpg",
+   "title": "Γεώργιος Καστροφύλακας - Άγιος Χαράλαμπος και σκηνές από τον βίο του 7715",
+   "artist": "Georgios Kastrofylakas",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "blaise",
+   "asset": "icons/blaise.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Modeste_jerusalem_and-blaise-sebaste_18c_rus.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Modeste_jerusalem_and-blaise-sebaste_18c_rus.png",
+   "title": "Modeste jerusalem and-blaise-sebaste 18c rus",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "leo_great",
+   "asset": "icons/leo_great.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/0413-vector-orange-icon-target.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:0413-vector-orange-icon-target.jpg",
+   "title": "0413-vector-orange-icon-target",
+   "artist": "LeoBlanchette",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "porphyrius_gaza",
+   "asset": "icons/porphyrius_gaza.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porphyry_of_Gaza_Icon_by_Osip_Chirikov.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Porphyry_of_Gaza_Icon_by_Osip_Chirikov.jpg",
+   "title": "Porphyry of Gaza Icon by Osip Chirikov",
+   "artist": "Osip Chirikov (? - 1903)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "john_cassian",
+   "asset": "icons/john_cassian.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%98%D0%BE%D0%B0%D0%BD%D0%BD_%D0%9A%D0%B0%D1%81%D1%81%D0%B8%D0%B0%D0%BD_%D0%A0%D0%B8%D0%BC%D0%BB%D1%8F%D0%BD%D0%B8%D0%BD.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BE%D0%B0%D0%BD%D0%BD_%D0%9A%D0%B0%D1%81%D1%81%D0%B8%D0%B0%D0%BD_%D0%A0%D0%B8%D0%BC%D0%BB%D1%8F%D0%BD%D0%B8%D0%BD.jpg",
+   "title": "Иоанн Кассиан Римлянин",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "gerasimus",
+   "asset": "icons/gerasimus.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Gerasimus_of_Jordan_with_a_Lion._Icon._Russia%2C_16th_century.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Gerasimus_of_Jordan_with_a_Lion._Icon._Russia,_16th_century.jpg",
+   "title": "Saint Gerasimus of Jordan with a Lion. Icon. Russia, 16th century",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "forty_martyrs",
+   "asset": "icons/forty_martyrs.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forty_Martyrs_of_Sebaste_icon%2C_Aleppo.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Forty_Martyrs_of_Sebaste_icon,_Aleppo.jpg",
+   "title": "Forty Martyrs of Sebaste icon, Aleppo",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "sophronius",
+   "asset": "icons/sophronius.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_Icon_of_Saint_Sophronios_of_Jerusalem_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fresco_Icon_of_Saint_Sophronios_of_Jerusalem_2.jpg",
+   "title": "Fresco Icon of Saint Sophronios of Jerusalem 2",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "gregory_dialogos",
+   "asset": "icons/gregory_dialogos.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/0134Hb._Saints_Basil_the_Great%2C_John_Chrysostom%2C_and_Gregory_the_Theologian.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:0134Hb._Saints_Basil_the_Great,_John_Chrysostom,_and_Gregory_the_Theologian.jpg",
+   "title": "0134Hb. Saints Basil the Great, John Chrysostom, and Gregory the Theologian",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "benedict",
+   "asset": "icons/benedict.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedict_of_Nursia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Benedict_of_Nursia.jpg",
+   "title": "Benedict of Nursia",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "alexius",
+   "asset": "icons/alexius.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexius_of_Moscow_%281904%2C_priv.coll.%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alexius_of_Moscow_(1904,_priv.coll.).jpg",
+   "title": "Alexius of Moscow (1904, priv.coll.)",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "cyril_jerusalem",
+   "asset": "icons/cyril_jerusalem.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serbian_Fresco_Icon_of_Saint_Cyril_of_Jerusalem_2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Serbian_Fresco_Icon_of_Saint_Cyril_of_Jerusalem_2.jpg",
+   "title": "Serbian Fresco Icon of Saint Cyril of Jerusalem 2",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "antipas",
+   "asset": "icons/antipas.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Antipas_Icon_Sinai_13th_century.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:St_Antipas_Icon_Sinai_13th_century.jpg",
+   "title": "St Antipas Icon Sinai 13th century",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "jeremiah",
+   "asset": "icons/jeremiah.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/0170Hb._Prophet_Jeremiah%2C_2nd_half_of_the_18th_century.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:0170Hb._Prophet_Jeremiah,_2nd_half_of_the_18th_century.jpg",
+   "title": "0170Hb. Prophet Jeremiah, 2nd half of the 18th century",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "job",
+   "asset": "icons/job.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%98%D0%BE%D0%B2_%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9._%D0%A7%D1%82%D0%B5%D1%86.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BE%D0%B2_%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9._%D0%A7%D1%82%D0%B5%D1%86.jpg",
+   "title": "Иов Многострадальный. Чтец",
+   "artist": "RUSSIAN (MSTERA)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "simon_zealot",
+   "asset": "icons/simon_zealot.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Simon_the_Zealot_-_Apostle.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Simon_the_Zealot_-_Apostle.jpeg",
+   "title": "Simon the Zealot - Apostle",
+   "artist": "Unknown Russian Orthodox church icon painter from 1720",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "jude",
+   "asset": "icons/jude.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Icon_of_Apostle_Jude_Thaddeus%2C_Saint_John_the_Forerunner%2C_Jerusalem.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Icon_of_Apostle_Jude_Thaddeus,_Saint_John_the_Forerunner,_Jerusalem.jpg",
+   "title": "Icon of Apostle Jude Thaddeus, Saint John the Forerunner, Jerusalem",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "epiphanius",
+   "asset": "icons/epiphanius.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%96%D0%B8%D1%82%D0%B8%D1%8F_%D0%A1%D0%B2%D1%8F%D1%82%D1%8B%D1%85_%281903-1911%29_-_%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0_09122_%D0%95%D0%BF%D0%B8%D1%84%D0%B0%D0%BD%D0%B8%D0%B9.png",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%96%D0%B8%D1%82%D0%B8%D1%8F_%D0%A1%D0%B2%D1%8F%D1%82%D1%8B%D1%85_(1903-1911)_-_%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0_09122_%D0%95%D0%BF%D0%B8%D1%84%D0%B0%D0%BD%D0%B8%D0%B9.png",
+   "title": "Жития Святых (1903-1911) - икона 09122 Епифаний",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "justin",
+   "asset": "icons/justin.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_June_-_01_Justin_Martyr.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_June_-_01_Justin_Martyr.jpg",
+   "title": "Menaion icon (17 c., TsAK) - June - 01 Justin Martyr",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "onuphrius",
+   "asset": "icons/onuphrius.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Onuphrius_Emmanuel_Tzanes.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Onuphrius_Emmanuel_Tzanes.png",
+   "title": "Saint Onuphrius Emmanuel Tzanes",
+   "artist": "Emmanuel Tzanes",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "elisha",
+   "asset": "icons/elisha.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/0169Hb._Prophet_Elisha%2C_2nd_half_of_the_19th_century.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:0169Hb._Prophet_Elisha,_2nd_half_of_the_19th_century.jpg",
+   "title": "0169Hb. Prophet Elisha, 2nd half of the 19th century",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "amos",
+   "asset": "icons/amos.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amos-prophet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Amos-prophet.jpg",
+   "title": "Amos-prophet",
+   "artist": "18 cen. icon painter",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "andrew_crete",
+   "asset": "icons/andrew_crete.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrew_of_Crete.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Andrew_of_Crete.jpg",
+   "title": "Andrew of Crete",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "athanasius_athos",
+   "asset": "icons/athanasius_athos.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saints_Athanasios_of_Athos%2C_Varlaam%2C_and_Joasaph._Icon._Novgorod._24_x_19._From_Saint_Sophia_Cathedral._Novgorod_Museum.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saints_Athanasios_of_Athos,_Varlaam,_and_Joasaph._Icon._Novgorod._24_x_19._From_Saint_Sophia_Cathedral._Novgorod_Museum.jpg",
+   "title": "Saints Athanasios of Athos, Varlaam, and Joasaph. Icon. Novgorod. 24 x 19. From Saint Sophia Cathedral. Novgorod Museum",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "sisoes",
+   "asset": "icons/sisoes.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_July.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_July.jpg",
+   "title": "Menaion icon (17 c., TsAK) - July",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "procopius",
+   "asset": "icons/procopius.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Procopius_Icon_Sinai_13th_century.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:St_Procopius_Icon_Sinai_13th_century.jpg",
+   "title": "St Procopius Icon Sinai 13th century",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "vladimir",
+   "asset": "icons/vladimir.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Russian_Icon_of_Saints_Vladimir%2C_Boris%2C_and_Gleb_with_Scenes.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Russian_Icon_of_Saints_Vladimir,_Boris,_and_Gleb_with_Scenes.jpg",
+   "title": "Russian Icon of Saints Vladimir, Boris, and Gleb with Scenes",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "seven_sleepers",
+   "asset": "icons/seven_sleepers.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Russian_Icon_of_the_Seven_Sleepers_of_Ephesos.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Russian_Icon_of_the_Seven_Sleepers_of_Ephesos.jpg",
+   "title": "Russian Icon of the Seven Sleepers of Ephesos",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "matthias",
+   "asset": "icons/matthias.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apostel_Matthias_met_bijl_in_omlijsting_met_architectuur_ornamenten_S._Matthias_%28titel_op_object%29_SS._Apostolorum_et_Evangelistorum_Icones_%28serietitel%29%2C_RP-P-1904-224.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Apostel_Matthias_met_bijl_in_omlijsting_met_architectuur_ornamenten_S._Matthias_(titel_op_object)_SS._Apostolorum_et_Evangelistorum_Icones_(serietitel),_RP-P-1904-224.jpg",
+   "title": "Apostel Matthias met bijl in omlijsting met architectuur ornamenten S. Matthias (titel op object) SS. Apostolorum et Evangelistorum Icones (serietitel), RP-P-1904-224",
+   "artist": "Rijksmuseum",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "lawrence",
+   "asset": "icons/lawrence.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_August.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_August.jpg",
+   "title": "Menaion icon (17 c., TsAK) - August",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "mandylion",
+   "asset": "icons/mandylion.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%BF%D0%B0%D1%81_%D0%9D%D0%B5%D1%80%D1%83%D0%BA%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%2C_%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D1%8C-_%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%82_%28%D0%9F%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0.%29_-_Google_Art_Project.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BF%D0%B0%D1%81_%D0%9D%D0%B5%D1%80%D1%83%D0%BA%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%BD%D1%8B%D0%B9,_%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D1%8C-_%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%82_(%D0%9F%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0.)_-_Google_Art_Project.jpg",
+   "title": "Спас Нерукотворный, деталь- оборот (Прославление креста.) - Google Art Project",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "samuel",
+   "asset": "icons/samuel.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prophet_Samuel%2C_Russian_Icon%2C_private_gallery%2C_London.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Prophet_Samuel,_Russian_Icon,_private_gallery,_London.jpg",
+   "title": "Prophet Samuel, Russian Icon, private gallery, London",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "poemen",
+   "asset": "icons/poemen.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_August.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_August.jpg",
+   "title": "Menaion icon (17 c., TsAK) - August",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "mamas",
+   "asset": "icons/mamas.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_September.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_September.jpg",
+   "title": "Menaion icon (17 c., TsAK) - September",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "zechariah",
+   "asset": "icons/zechariah.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8F_%28%D0%9A%D0%B8%D0%B6%D0%B8%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8F_(%D0%9A%D0%B8%D0%B6%D0%B8).jpg",
+   "title": "Пророк Захария (Кижи)",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "sophia_daughters",
+   "asset": "icons/sophia_daughters.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Sophia_The_Wisdom_of_God_-_Google_Art_Project.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_The_Wisdom_of_God_-_Google_Art_Project.jpg",
+   "title": "Saint Sophia The Wisdom of God - Google Art Project",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "gregory_illuminator",
+   "asset": "icons/gregory_illuminator.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hymnal%2C_St._Gregory_the_Illuminator%2C_Walters_Manuscript_W.547%2C_fol._81v.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hymnal,_St._Gregory_the_Illuminator,_Walters_Manuscript_W.547,_fol._81v.jpg",
+   "title": "Hymnal, St. Gregory the Illuminator, Walters Manuscript W.547, fol. 81v",
+   "artist": "Walters Art Museum Illuminated Manuscripts",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "cyprian_justina",
+   "asset": "icons/cyprian_justina.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_October.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_October.jpg",
+   "title": "Menaion icon (17 c., TsAK) - October",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "dionysius_areopagite",
+   "asset": "icons/dionysius_areopagite.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emmanuel_Tzanes_-_Dionysius_the_Areopagite_-_NG.M.01774_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Emmanuel_Tzanes_-_Dionysius_the_Areopagite_-_NG.M.01774_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+   "title": "Emmanuel Tzanes - Dionysius the Areopagite - NG.M.01774 - National Museum of Art, Architecture and Design",
+   "artist": "Emmanuel Tzanes",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "longinus",
+   "asset": "icons/longinus.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_October.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_October.jpg",
+   "title": "Menaion icon (17 c., TsAK) - October",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "hosea",
+   "asset": "icons/hosea.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hosea.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hosea.jpg",
+   "title": "Hosea",
+   "artist": "18 century icon painter",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "joel",
+   "asset": "icons/joel.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%98%D0%BE%D0%B8%D0%BB%D1%8C%2C_prophet_Joel.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%98%D0%BE%D0%B8%D0%BB%D1%8C,_prophet_Joel.jpg",
+   "title": "Пророк Иоиль, prophet Joel",
+   "artist": "PravoslavnyChristianin",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "obadiah",
+   "asset": "icons/obadiah.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Obadiah_%28%D0%9E%D0%B2%D0%B4%D0%B8%D0%B9%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Obadiah_(%D0%9E%D0%B2%D0%B4%D0%B8%D0%B9).jpg",
+   "title": "Obadiah (Овдий)",
+   "artist": "18 century icon painter",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "jonah",
+   "asset": "icons/jonah.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/II_ProphetJonah.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:II_ProphetJonah.jpg",
+   "title": "II ProphetJonah",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "nahum",
+   "asset": "icons/nahum.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nahum-prophet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nahum-prophet.jpg",
+   "title": "Nahum-prophet",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "habakkuk",
+   "asset": "icons/habakkuk.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prophet_Habakkuk_%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%90%D0%B2%D0%B2%D0%B0%D0%BA%D1%83%D0%BC.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Prophet_Habakkuk_%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%BA_%D0%90%D0%B2%D0%B2%D0%B0%D0%BA%D1%83%D0%BC.jpg",
+   "title": "Prophet Habakkuk Пророк Аввакум",
+   "artist": "PravoslavnyChristianin",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "zephaniah",
+   "asset": "icons/zephaniah.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zephaniah_from_Yaroslavl_%2818_c%2C_priv.coll%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zephaniah_from_Yaroslavl_(18_c,_priv.coll).jpg",
+   "title": "Zephaniah from Yaroslavl (18 c, priv.coll)",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "haggai",
+   "asset": "icons/haggai.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Haggai-prophet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Haggai-prophet.jpg",
+   "title": "Haggai-prophet",
+   "artist": "18 century icon painter",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "malachi",
+   "asset": "icons/malachi.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Malachi.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Malachi.jpg",
+   "title": "Malachi",
+   "artist": "18 century icon painter",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "daniel",
+   "asset": "icons/daniel.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Russian_Icon_of_Prophet_Daniel_in_the_lions%27_den.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Russian_Icon_of_Prophet_Daniel_in_the_lions%27_den.jpg",
+   "title": "Russian Icon of Prophet Daniel in the lions' den",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "david",
+   "asset": "icons/david.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Novgorod_School_-_King_David_-_NG.M.01771_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Novgorod_School_-_King_David_-_NG.M.01771_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+   "title": "Novgorod School - King David - NG.M.01771 - National Museum of Art, Architecture and Design",
+   "artist": "School of Novgorod school",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "john_rila",
+   "asset": "icons/john_rila.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_John_of_Rila_Icon%2C_Odessa.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_John_of_Rila_Icon,_Odessa.jpg",
+   "title": "Saint John of Rila Icon, Odessa",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "artemius",
+   "asset": "icons/artemius.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_October.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_October.jpg",
+   "title": "Menaion icon (17 c., TsAK) - October",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "hilarion",
+   "asset": "icons/hilarion.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saints_Joasaph_and_Hilarion_Icon._Trinity_Lavra_of_Saint_Sergiy.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saints_Joasaph_and_Hilarion_Icon._Trinity_Lavra_of_Saint_Sergiy.jpg",
+   "title": "Saints Joasaph and Hilarion Icon. Trinity Lavra of Saint Sergiy",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "john_merciful",
+   "asset": "icons/john_merciful.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirill_Ulanov._John_the_Merciful._1704.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Kirill_Ulanov._John_the_Merciful._1704.jpg",
+   "title": "Kirill Ulanov. John the Merciful. 1704",
+   "artist": "Kirill Ulanov",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "gregory_wonderworker",
+   "asset": "icons/gregory_wonderworker.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory_Thaumaturgus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Gregory_Thaumaturgus.jpg",
+   "title": "Gregory Thaumaturgus",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "clement_rome",
+   "asset": "icons/clement_rome.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PapstClemensII.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:PapstClemensII.jpg",
+   "title": "PapstClemensII",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "peter_alexandria",
+   "asset": "icons/peter_alexandria.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_June.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_June.jpg",
+   "title": "Menaion icon (17 c., TsAK) - June",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "ambrose",
+   "asset": "icons/ambrose.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Greek_Icon_of_Saint_Ambrose_of_Milan_1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Greek_Icon_of_Saint_Ambrose_of_Milan_1.jpg",
+   "title": "Greek Icon of Saint Ambrose of Milan 1",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "sebastian",
+   "asset": "icons/sebastian.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sebastian_by_M.Dikarev_%28Muz.ist.relig%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sebastian_by_M.Dikarev_(Muz.ist.relig).jpg",
+   "title": "Sebastian by M.Dikarev (Muz.ist.relig)",
+   "artist": "Mikhail Ivanovich Dikarev",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "juliana",
+   "asset": "icons/juliana.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Juliana_of_Nicomedia.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Juliana_of_Nicomedia.jpg",
+   "title": "Juliana of Nicomedia",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "anastasia",
+   "asset": "icons/anastasia.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Theonas_I%2C_metropolitan_of_Thessaloniki_and_Anastasia_the_Healer._icon_in_St_Anastasia%27s_monastery%2C_1836.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Theonas_I,_metropolitan_of_Thessaloniki_and_Anastasia_the_Healer._icon_in_St_Anastasia%27s_monastery,_1836.jpg",
+   "title": "Saint Theonas I, metropolitan of Thessaloniki and Anastasia the Healer. icon in St Anastasia's monastery, 1836",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "holy_innocents",
+   "asset": "icons/holy_innocents.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/0657Ha._Hermitage_Museum_%28Hall_143%29._Icon_of_the_Nativity_of_Christ.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:0657Ha._Hermitage_Museum_(Hall_143)._Icon_of_the_Nativity_of_Christ.jpg",
+   "title": "0657Ha. Hermitage Museum (Hall 143). Icon of the Nativity of Christ",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "xenia",
+   "asset": "icons/xenia.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ksenia_of_petersbourg.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ksenia_of_petersbourg.jpeg",
+   "title": "Ksenia of petersbourg",
+   "artist": "unknown Orthodox Christian painter",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "tatiana",
+   "asset": "icons/tatiana.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tatiana_of_Rome.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Tatiana_of_Rome.jpg",
+   "title": "Tatiana of Rome",
+   "artist": "Anonymous",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "sylvester",
+   "asset": "icons/sylvester.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_January.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_January.jpg",
+   "title": "Menaion icon (17 c., TsAK) - January",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "irenaeus",
+   "asset": "icons/irenaeus.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lyon_2e_-_Chapelle_Saint_Ir%C3%A9n%C3%A9e_%28UCLy%29_%2804%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lyon_2e_-_Chapelle_Saint_Ir%C3%A9n%C3%A9e_(UCLy)_(04).jpg",
+   "title": "Lyon 2e - Chapelle Saint Irénée (UCLy) (04)",
+   "artist": "Romainbehar",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "joseph",
+   "asset": "icons/joseph.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Icon_Fresco_of_Saint_Joseph_of_Arimathea_before_Pilate.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Icon_Fresco_of_Saint_Joseph_of_Arimathea_before_Pilate.jpg",
+   "title": "Icon Fresco of Saint Joseph of Arimathea before Pilate",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "thomas_aquinas",
+   "asset": "icons/thomas_aquinas.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wyspia%C5%84ski_-_%C5%9Awi%C4%99ty_Tomasz_z_Akwinu_-_1899_-_MNK_III-r.a-13017.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Wyspia%C5%84ski_-_%C5%9Awi%C4%99ty_Tomasz_z_Akwinu_-_1899_-_MNK_III-r.a-13017.jpg",
+   "title": "Wyspiański - Święty Tomasz z Akwinu - 1899 - MNK III-r.a-13017",
+   "artist": "Stanisław Wyspiański",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "francis_assisi",
+   "asset": "icons/francis_assisi.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cimabue_-_Madonna_Enthroned_with_the_Child%2C_St_Francis_and_four_Angels_%28detail%29_-_WGA04921.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Cimabue_-_Madonna_Enthroned_with_the_Child,_St_Francis_and_four_Angels_(detail)_-_WGA04921.jpg",
+   "title": "Cimabue - Madonna Enthroned with the Child, St Francis and four Angels (detail) - WGA04921",
+   "artist": "Cimabue",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "dominic",
+   "asset": "icons/dominic.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fra_Angelico_-_Saint_Dominic_Adoring_the_Crucifixion_-_WGA00562.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Saint_Dominic_Adoring_the_Crucifixion_-_WGA00562.jpg",
+   "title": "Fra Angelico - Saint Dominic Adoring the Crucifixion - WGA00562",
+   "artist": "Fra Angelico",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "clare",
+   "asset": "icons/clare.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roundel_with_Saint_Jodocus_and_St._Clare_of_Assisi_MET_cdi32-24-31.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Roundel_with_Saint_Jodocus_and_St._Clare_of_Assisi_MET_cdi32-24-31.jpg",
+   "title": "Roundel with Saint Jodocus and St. Clare of Assisi MET cdi32-24-31",
+   "artist": "anonymous",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "augustine",
+   "asset": "icons/augustine.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Augustine_of_Hippo_Sandro_Botticelli.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Augustine_of_Hippo_Sandro_Botticelli.jpg",
+   "title": "Augustine of Hippo Sandro Botticelli",
+   "artist": "Sandro Botticelli",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "jerome",
+   "asset": "icons/jerome.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Venice_Saint_Jerome.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Venice_Saint_Jerome.jpg",
+   "title": "Venice Saint Jerome",
+   "artist": "Unidentified painter",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "scholastica",
+   "asset": "icons/scholastica.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liesborner_Altar_%286%29_%28cropped%29.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Liesborner_Altar_(6)_(cropped).JPG",
+   "title": "Liesborner Altar (6) (cropped)",
+   "artist": "Meister von Liesborn",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "agnes",
+   "asset": "icons/agnes.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sancta_Agnes_Zenonis.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Sancta_Agnes_Zenonis.jpg",
+   "title": "Sancta Agnes Zenonis",
+   "artist": "Luciano Tronati",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "cecilia",
+   "asset": "icons/cecilia.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Cecilia%2C_ca._1640s%2C_SN134.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Cecilia,_ca._1640s,_SN134.jpg",
+   "title": "Saint Cecilia, ca. 1640s, SN134",
+   "artist": "Artemisia Gentileschi",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "lucy",
+   "asset": "icons/lucy.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Master_of_the_Legend_of_Saint_Lucy_-_Virgin_and_Child_in_a_Landscape_-_1955.942_-_Clark_Art_Institute.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Master_of_the_Legend_of_Saint_Lucy_-_Virgin_and_Child_in_a_Landscape_-_1955.942_-_Clark_Art_Institute.jpg",
+   "title": "Master of the Legend of Saint Lucy - Virgin and Child in a Landscape - 1955.942 - Clark Art Institute",
+   "artist": "Master of the Legend of Saint Lucy",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "anthony_padua",
+   "asset": "icons/anthony_padua.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Anthony_of_Padua_MET_SF_Maso.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Anthony_of_Padua_MET_SF_Maso.jpg",
+   "title": "Saint Anthony of Padua MET SF Maso",
+   "artist": "Maso di Banco",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "bernard",
+   "asset": "icons/bernard.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Bernard_of_Clairvaux_MET_LC-1975_1_070b-001.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Bernard_of_Clairvaux_MET_LC-1975_1_070b-001.jpg",
+   "title": "Saint Bernard of Clairvaux MET LC-1975 1 070b-001",
+   "artist": "Workshop of Filippo Lippi",
+   "licence": "CC0",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "catherine_siena",
+   "asset": "icons/catherine_siena.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni_di_Paolo_The_Mystic_Marriage_of_Saint_Catherine_of_Siena.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Giovanni_di_Paolo_The_Mystic_Marriage_of_Saint_Catherine_of_Siena.jpg",
+   "title": "Giovanni di Paolo The Mystic Marriage of Saint Catherine of Siena",
+   "artist": "Giovanni di Paolo",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "martin_tours",
+   "asset": "icons/martin_tours.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St._Martin_of_Tours.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:St._Martin_of_Tours.jpg",
+   "title": "St. Martin of Tours",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "patrick",
+   "asset": "icons/patrick.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Gr%C3%A9goire_et_la_foule%2C_1569.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Gr%C3%A9goire_et_la_foule,_1569.jpg",
+   "title": "Saint Grégoire et la foule, 1569",
+   "artist": "Vardan of Bales",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "teresa_avila",
+   "asset": "icons/teresa_avila.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Teresa_de_Jes%C3%BAs%2C_de_Francisco_de_Zurbar%C3%A1n_%28Sacrist%C3%ADa_mayor_de_la_catedral_de_Sevilla%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Santa_Teresa_de_Jes%C3%BAs,_de_Francisco_de_Zurbar%C3%A1n_(Sacrist%C3%ADa_mayor_de_la_catedral_de_Sevilla).jpg",
+   "title": "Santa Teresa de Jesús, de Francisco de Zurbarán (Sacristía mayor de la catedral de Sevilla)",
+   "artist": "Francisco de Zurbarán",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "ignatius_loyola",
+   "asset": "icons/ignatius_loyola.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Ignatius_of_Loyola_%281491-1556%29_Founder_of_the_Jesuits.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:St_Ignatius_of_Loyola_(1491-1556)_Founder_of_the_Jesuits.jpg",
+   "title": "St Ignatius of Loyola (1491-1556) Founder of the Jesuits",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "francis_xavier",
+   "asset": "icons/francis_xavier.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco_Mura_-_Saint_Francis_Xavier_-_Santa_B%C3%A1rbara%2C_Madrid.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Francisco_Mura_-_Saint_Francis_Xavier_-_Santa_B%C3%A1rbara,_Madrid.jpg",
+   "title": "Francisco Mura - Saint Francis Xavier - Santa Bárbara, Madrid",
+   "artist": "Marsupium",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "barnabas",
+   "asset": "icons/barnabas.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menaion_icon_%2817_c.%2C_TsAK%29_-_June.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Menaion_icon_(17_c.,_TsAK)_-_June.jpg",
+   "title": "Menaion icon (17 c., TsAK) - June",
+   "artist": "Anonymous Russian icon painter (before 1917)",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "martha",
+   "asset": "icons/martha.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francesco_Signorelli_-_Christ_and_Saint_Martha_-_RES.19.134_-_Museum_of_Fine_Arts.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Francesco_Signorelli_-_Christ_and_Saint_Martha_-_RES.19.134_-_Museum_of_Fine_Arts.jpg",
+   "title": "Francesco Signorelli - Christ and Saint Martha - RES.19.134 - Museum of Fine Arts",
+   "artist": "Francesco Signorelli",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "monica",
+   "asset": "icons/monica.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zanobi_Machiavelli_%28c.1418-1479%29_-_Saint_Bartholomew_and_Saint_Monica_-_NG586.3_-_National_Gallery.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Zanobi_Machiavelli_(c.1418-1479)_-_Saint_Bartholomew_and_Saint_Monica_-_NG586.3_-_National_Gallery.jpg",
+   "title": "Zanobi Machiavelli (c.1418-1479) - Saint Bartholomew and Saint Monica - NG586.3 - National Gallery",
+   "artist": "Zanobi Machiavelli",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
+   "key": "all_saints",
+   "asset": "icons/all_saints.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/All_saints_icon_%28Russia%2C_1890%29.jpeg",
+   "page": "https://commons.wikimedia.org/wiki/File:All_saints_icon_(Russia,_1890).jpeg",
+   "title": "All saints icon (Russia, 1890)",
+   "artist": "Unknown",
+   "licence": "Public domain",
+   "fallback": false,
+   "source": "wikimedia_commons"
+  },
+  {
    "key": "apostles",
    "asset": "icons/apostles.jpg",
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Synaxis_of_the_Twelve_Apostles_by_Constantinople_master_%28early_14th_c.%2C_Pushkin_museum%29.jpg",
@@ -984,7 +2040,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "sylvester",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -1045,7 +2104,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "malachi",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -1343,7 +2405,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "gregory_nyssa",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -1411,7 +2476,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "tatiana",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -1513,7 +2581,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "paul_thebes",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -1719,7 +2790,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "euthymius",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -1790,7 +2864,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "timothy",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -1882,7 +2959,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "xenia",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -2169,7 +3249,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "tryphon",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -2332,7 +3415,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "agatha",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -2529,7 +3615,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "haralambos",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -2563,7 +3652,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "blaise",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -2807,7 +3899,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "leo_great",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3085,7 +4180,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "porphyrius_gaza",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3187,7 +4285,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "john_cassian",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3323,7 +4424,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "gerasimus",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3493,7 +4597,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "forty_martyrs",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3561,7 +4668,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "sophronius",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3620,7 +4730,10 @@
     "nl": "Gregorius Dialogos"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "gregory_dialogos",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3687,7 +4800,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "benedict",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3789,7 +4905,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "alexius",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -3823,7 +4942,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "cyril_jerusalem",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -4657,7 +5779,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "antipas",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -5349,7 +6474,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "jeremiah",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -5522,7 +6650,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "job",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -5691,7 +6822,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "simon_zealot",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -5762,7 +6896,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "epiphanius",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -6475,7 +7612,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "justin",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -6882,7 +8022,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "onuphrius",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -6950,7 +8093,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "elisha",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -7008,7 +8154,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "amos",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -7144,7 +8293,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "jude",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -7669,7 +8821,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "andrew_crete",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -7703,7 +8858,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "athanasius_athos",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -7737,7 +8895,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "sisoes",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -7805,7 +8966,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "procopius",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -8049,7 +9213,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "vladimir",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -8882,7 +10049,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "seven_sleepers",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -9058,7 +10228,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "matthias",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -9092,7 +10265,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "lawrence",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -9329,7 +10505,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "mandylion",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -9465,7 +10644,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "samuel",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -9733,7 +10915,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "poemen",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -9973,7 +11158,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "mamas",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -10099,7 +11287,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "zechariah",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -10552,7 +11743,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "sophia_daughters",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11030,7 +12224,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "gregory_illuminator",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11101,7 +12298,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "cyprian_justina",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11135,7 +12335,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "dionysius_areopagite",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11610,7 +12813,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "longinus",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11644,7 +12850,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "hosea",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11669,7 +12878,10 @@
     "nl": "Andreas van Kreta"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "andrew_crete",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11739,7 +12951,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "joel",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11764,7 +12979,10 @@
     "nl": "Johannes van Rila"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "john_rila",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11797,7 +13015,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "artemius",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -11831,7 +13052,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "hilarion",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -12642,7 +13866,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "john_merciful",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -12821,7 +14048,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "gregory_wonderworker",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -12889,7 +14119,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "obadiah",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -13110,7 +14343,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "clement_rome",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -13135,7 +14371,10 @@
     "nl": "Petrus van Alexandrië"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "peter_alexandria",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -13405,7 +14644,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "nahum",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -13439,7 +14681,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "habakkuk",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -13473,7 +14718,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "zephaniah",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -13645,7 +14893,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "ambrose",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -13960,7 +15211,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "haggai",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -13994,7 +15248,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "daniel",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -14028,7 +15285,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "sebastian",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -14133,7 +15393,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "juliana",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -14167,7 +15430,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "anastasia",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -14414,7 +15680,10 @@
     },
     "scope": "day"
    },
-   "icon": null,
+   "icon": {
+    "key": "holy_innocents",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -15693,7 +16962,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "gregory_illuminator",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -16137,7 +17409,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "jonah",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -17669,7 +18944,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "hilarion",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -18313,7 +19591,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "longinus",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -18946,7 +20227,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "martin_tours",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -19054,7 +20338,10 @@
     "nl": "Inwijding van de kerk van de heilige Abu-Nofer (Onuphrius)"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "onuphrius",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -19730,7 +21017,10 @@
     "nl": "Gedachtenis van de heilige Gregorius, bisschop van Nyssa"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "gregory_nyssa",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -19843,7 +21133,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "peter_alexandria",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -20197,7 +21490,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "nahum",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -20562,7 +21858,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "poemen",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -21068,7 +22367,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "gregory_illuminator",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -21351,7 +22653,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "haggai",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -21425,7 +22730,7 @@
    },
    "life": null,
    "icon": {
-    "key": "apostles",
+    "key": "barnabas",
     "match": "name"
    },
    "readings": [],
@@ -21536,7 +22841,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "david",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -21771,7 +23079,10 @@
     "nl": "Gedachtenis van de heilige Juliana de martelaar"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "juliana",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -22097,7 +23408,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "holy_innocents",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -22354,7 +23668,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "sylvester",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -22880,7 +24197,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "obadiah",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -23267,7 +24587,10 @@
     "nl": "Het heengaan van de heilige Gregorius (Gregorius van Nyssa), broer van de heilige Basilius de Grote"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "gregory_nyssa",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -23338,7 +24661,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "timothy",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -23673,7 +24999,10 @@
     "nl": "De overbrenging van de relieken van de heilige Timoteüs, de apostel"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "timothy",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -23872,7 +25201,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "sophia_daughters",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -23979,7 +25311,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "paul_thebes",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -24903,7 +26238,10 @@
     "nl": "De inwijding van de eerste kerk gewijd aan de Veertig Martelaren van Sebaste"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "forty_martyrs",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -25437,7 +26775,10 @@
     "nl": "Het martelaarschap van de heilige Timoteüs en de heilige Mattias"
    },
    "life": null,
-   "icon": null,
+   "icon": {
+    "key": "matthias",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -26335,7 +27676,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "matthias",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -27491,7 +28835,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "daniel",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -29197,7 +30544,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "antipas",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -30154,7 +31504,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "job",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -30416,7 +31769,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "jeremiah",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -31145,7 +32501,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "simon_zealot",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -33674,7 +35033,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "elisha",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -35859,7 +37221,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "longinus",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -39004,7 +40369,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "sebastian",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -39044,7 +40412,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "agnes",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -39207,7 +40578,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "timothy",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -39287,7 +40661,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "thomas_aquinas",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -39410,7 +40787,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "blaise",
+    "match": "name"
+   },
    "readings": [],
    "refs": [],
    "provenance": {
@@ -39484,7 +40864,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "agatha",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -39644,7 +41027,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "scholastica",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -40136,7 +41522,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "patrick",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -40176,7 +41565,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "cyril_jerusalem",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -40217,8 +41609,8 @@
     "scope": "commemoration"
    },
    "icon": {
-    "key": "theotokos",
-    "match": "fallback"
+    "key": "joseph",
+    "match": "name"
    },
    "readings": [],
    "refs": [
@@ -40868,7 +42260,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "catherine_siena",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -40948,7 +42343,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "joseph",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -41237,7 +42635,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "matthias",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -41720,7 +43121,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "justin",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -41963,7 +43367,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "barnabas",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -42003,7 +43410,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "anthony_padua",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -42289,7 +43699,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "irenaeus",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -42615,7 +44028,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "benedict",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -43187,7 +44603,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "ignatius_loyola",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -43547,7 +44966,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "dominic",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -43627,7 +45049,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "lawrence",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -43667,7 +45092,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "clare",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -43950,7 +45378,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "bernard",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -44236,7 +45667,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "monica",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -44276,7 +45710,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "augustine",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -44359,7 +45796,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "gregory_dialogos",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -45143,7 +46583,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "jerome",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -45266,7 +46709,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "francis_assisi",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -45589,7 +47035,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "teresa_avila",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -45995,7 +47444,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "simon_zealot",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -46035,7 +47487,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "all_saints",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -46229,7 +47684,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "leo_great",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -46269,7 +47727,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "martin_tours",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -46595,7 +48056,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "cecilia",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -46635,7 +48099,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "clement_rome",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -46841,7 +48308,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "francis_xavier",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -46967,7 +48437,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "ambrose",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -47210,7 +48683,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "lucy",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -47456,7 +48932,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "holy_innocents",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
@@ -47536,7 +49015,10 @@
     },
     "scope": "commemoration"
    },
-   "icon": null,
+   "icon": {
+    "key": "sylvester",
+    "match": "name"
+   },
    "readings": [],
    "refs": [
     {
