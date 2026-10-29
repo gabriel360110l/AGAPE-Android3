@@ -146,4 +146,13 @@
     <string name="plan_note_has">Has a note</string>
     <string name="plan_cover_credit">Cover: %1$s · %2$s</string>
     <string name="note_plan_day">%1$s · day %2$d</string>
+    <string name="search_scope_whole">Whole Bible</string>
+    <string name="search_scope_ot">Old Testament</string>
+    <string name="search_scope_nt">New Testament</string>
+    <string name="search_scope_gospels">Gospels</string>
+    <string name="search_scope_psalms">Psalms</string>
+    <string name="search_whole_word">Whole word</string>
+    <string name="search_show_all">Show all %1$d</string>
+    <string name="search_failed">Searching did not work this time.</string>
+    <string name="search_retry">Try again</string>
 </resources>

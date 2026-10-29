@@ -146,4 +146,13 @@
     <string name="plan_note_has">Met notitie</string>
     <string name="plan_cover_credit">Omslag: %1$s · %2$s</string>
     <string name="note_plan_day">%1$s · dag %2$d</string>
+    <string name="search_scope_whole">Hele Bijbel</string>
+    <string name="search_scope_ot">Oude Testament</string>
+    <string name="search_scope_nt">Nieuwe Testament</string>
+    <string name="search_scope_gospels">Evangeliën</string>
+    <string name="search_scope_psalms">Psalmen</string>
+    <string name="search_whole_word">Heel woord</string>
+    <string name="search_show_all">Toon alle %1$d</string>
+    <string name="search_failed">Zoeken lukte deze keer niet.</string>
+    <string name="search_retry">Opnieuw proberen</string>
 </resources>
