@@ -14,6 +14,12 @@ Source: tools/source/commentary/<BOOK>.md, one file per book, written by hand in
     T: theme; theme; theme
     TN: thema; thema; thema
 
+Optional lines, which a chapter may add (both languages together, in any order within the chapter):
+    SS: / SSL:   short summary, one or two sentences (EN / NL)      -> "shortSummary"
+    LS: / LSL:   longer summary (EN / NL)                           -> "longSummary"
+    P: / PN:     patterns, hidden names, typology, connections      -> "patterns"
+Chapters without these lines get no such keys in the JSON.
+
 Output: app/src/main/assets/content/commentary/<BOOK>.json. Chapters without written commentary keep the
 provisional guide from the Bible database, which the app marks as provisional.
 
@@ -29,7 +35,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "tools", "source", "commentary")
 OUT = os.path.join(ROOT, "app", "src", "main", "assets", "content", "commentary")
 FIELDS = {"S": ("summary", "en"), "SN": ("summary", "nl"), "M": ("meaning", "en"), "MN": ("meaning", "nl"),
-          "F": ("fathers", "en"), "FN": ("fathers", "nl"), "T": ("themes", "en"), "TN": ("themes", "nl")}
+          "F": ("fathers", "en"), "FN": ("fathers", "nl"), "T": ("themes", "en"), "TN": ("themes", "nl"),
+          "SS": ("shortSummary", "en"), "SSL": ("shortSummary", "nl"), "LS": ("longSummary", "en"),
+          "LSL": ("longSummary", "nl"), "P": ("patterns", "en"), "PN": ("patterns", "nl")}
 
 
 def parse(path):
@@ -45,15 +53,15 @@ def parse(path):
             current = {"chapter": int(num), "title": {"en": en, "nl": nl}, "summary": {}, "meaning": {}, "fathers": {}, "themes": {}}
             chapters.append(current)
         else:
-            m = re.match(r"^([A-Z]{1,2}):\s*(.*)$", line)
+            m = re.match(r"^([A-Z]{1,3}):\s*(.*)$", line)
             if not m or current is None or m.group(1) not in FIELDS:
                 sys.exit(f"{path}:{n}: cannot read line: {line[:60]}")
             field, lang = FIELDS[m.group(1)]
             value = m.group(2).strip()
-            current[field][lang] = [t.strip() for t in value.split(";") if t.strip()] if field == "themes" else value
+            current.setdefault(field, {})[lang] = [t.strip() for t in value.split(";") if t.strip()] if field == "themes" else value
     for c in chapters:
-        for field in ("summary", "meaning", "fathers"):
-            if set(c[field]) not in (set(), {"en", "nl"}):
+        for field in ("summary", "meaning", "fathers", "shortSummary", "longSummary", "patterns"):
+            if set(c.get(field, {})) not in (set(), {"en", "nl"}):
                 sys.exit(f"{path}: chapter {c['chapter']} has {field} in only one language")
     return book, chapters
 
