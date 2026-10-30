@@ -6,7 +6,7 @@ SN: Dit zijn de woorden die Mozes tot heel Israël spreekt aan de overkant van d
 M: Before entering the land, Israel must remember its own history honestly. God carried His people like a father, even when they did not trust Him.
 MN: Voordat Israël het land binnengaat, moet het zijn eigen geschiedenis eerlijk herinneren. God droeg Zijn volk als een vader, ook toen zij Hem niet vertrouwden.
 F: Deuteronomy, 'the second law', is one of the books Christ quoted most often, including all three answers to the tempter. The Fathers saw the impartial judges as a model for bishops and judges, and loved the image of God carrying His child through the desert.
-FN: Deuteronomium, 'de tweede wet', is een van de boeken die Christus het vaakst citeerde, ook in alle drie de antwoorden aan de verleider. De Vaders zagen de onpartijdige rechters als voorbeeld voor bisschoppen en rechters, en hielden van het beeld van God die Zijn kind door de woestijn draagt.
+FN: Deuteronomium, 'de tweede wet', is een van de boeken die Christus het vaakst citeerde, ook in alle drie de antwoorden aan de verleider. De kerkvaders zagen de onpartijdige rechters als voorbeeld voor bisschoppen en rechters, en hielden van het beeld van God die Zijn kind door de woestijn draagt.
 T: Remembrance; Impartial justice; God carries His people
 TN: Gedenken; Onpartijdig recht; God draagt Zijn volk
 
@@ -16,7 +16,7 @@ SN: Israël zwerft vele dagen rond het gebergte Seïr. De Heer zegt: strijd niet
 M: God also cares for other peoples and gives them their land. Israel is not to take what has been given to others.
 MN: God zorgt ook voor andere volken en geeft hun hun land. Israël mag niet nemen wat aan anderen gegeven is.
 F: The Fathers noted that God's providence extends to all nations, even Israel's rivals. 'You have lacked nothing' these forty years was read as an encouragement to trust God's daily provision on the pilgrimage of life.
-FN: De Vaders merkten op dat Gods voorzienigheid zich uitstrekt tot alle volken, ook de rivalen van Israël. 'Het heeft u aan niets ontbroken' in deze veertig jaar werd gelezen als een aansporing om te vertrouwen op Gods dagelijkse voorziening op de pelgrimstocht van het leven.
+FN: De kerkvaders merkten op dat Gods voorzienigheid zich uitstrekt tot alle volken, ook de rivalen van Israël. 'Het heeft u aan niets ontbroken' in deze veertig jaar werd gelezen als een aansporing om te vertrouwen op Gods dagelijkse voorziening op de pelgrimstocht van het leven.
 T: God's care for the nations; Provision; Respect for others
 TN: Gods zorg voor de volken; Voorziening; Respect voor anderen
 
@@ -26,7 +26,7 @@ SN: Og, de koning van Basan, trekt tegen Israël op, en de Heer geeft hem in hun
 M: Moses accepts a painful no from God and turns to strengthening his successor. Some prayers are answered with a different gift.
 MN: Mozes aanvaardt een pijnlijk nee van God en wendt zich tot het versterken van zijn opvolger. Sommige gebeden worden beantwoord met een andere gave.
 F: The Fathers saw Moses, who saw the land but could not enter, as the Law that points to the promise but cannot bring us in; Joshua, Jesus, leads us across. They noted that Moses did enter the land at last, appearing with Christ on Mount Tabor at the Transfiguration.
-FN: De Vaders zagen Mozes, die het land zag maar er niet in kon, als de Wet die naar de belofte wijst maar ons er niet in kan brengen; Jozua, Jezus, leidt ons erover. Zij merkten op dat Mozes het land uiteindelijk toch binnenging, toen hij met Christus verscheen op de Tabor bij de Gedaanteverandering.
+FN: De kerkvaders zagen Mozes, die het land zag maar er niet in kon, als de Wet die naar de belofte wijst maar ons er niet in kan brengen; Jozua, Jezus, leidt ons erover. Zij merkten op dat Mozes het land uiteindelijk toch binnenging, toen hij met Christus verscheen op de Tabor bij de Gedaanteverandering.
 T: Accepting God's no; Succession; The Law and the promise
 TN: Gods nee aanvaarden; Opvolging; De Wet en de belofte
 
@@ -36,7 +36,7 @@ SN: Luister naar de inzettingen en bepalingen, en voeg niets toe aan het woord d
 M: Israel's wisdom is its nearness to God and obedience to His word. Memory must be handed on, and even in exile God can be found by those who seek Him wholeheartedly.
 MN: De wijsheid van Israël is zijn nabijheid tot God en gehoorzaamheid aan Zijn woord. De herinnering moet doorgegeven worden, en zelfs in ballingschap kan God gevonden worden door wie Hem met heel hun hart zoeken.
 F: Hebrews quotes 'our God is a consuming fire'. The Fathers and the Seventh Ecumenical Council explained that Israel saw no form at Horeb, and so could not depict God, but the invisible God has now become visible in Christ, and so He can be depicted in icons. 'There is no other' was a key text against polytheism.
-FN: Hebreeën citeert 'onze God is een verterend vuur'. De Vaders en het Zevende Oecumenisch Concilie legden uit dat Israël bij de Horeb geen gestalte zag en God daarom niet kon afbeelden, maar dat de onzienlijke God nu in Christus zichtbaar geworden is, en daarom in iconen kan worden afgebeeld. 'Er is geen ander' was een sleuteltekst tegen het veelgodendom.
+FN: Hebreeën citeert 'onze God is een verterend vuur'. De kerkvaders en het Zevende Oecumenisch Concilie legden uit dat Israël bij de Horeb geen gestalte zag en God daarom niet kon afbeelden, maar dat de onzienlijke God nu in Christus zichtbaar geworden is, en daarom in iconen kan worden afgebeeld. 'Er is geen ander' was een sleuteltekst tegen het veelgodendom.
 T: Nearness of God; Memory; No image of the invisible
 TN: Nabijheid van God; Gedachtenis; Geen beeld van de onzienlijke
 
@@ -46,7 +46,7 @@ SN: Mozes roept heel Israël bijeen: de Heer, onze God, heeft bij de Horeb een v
 M: The covenant is not just history; it is made with every generation 'today'. The Sabbath is a weekly feast of freedom.
 MN: Het verbond is niet alleen geschiedenis; het wordt met elke generatie 'vandaag' gesloten. De sabbat is een wekelijks feest van vrijheid.
 F: The Fathers loved God's sigh 'oh that they had such a heart!' as a revelation of His longing for human love, fulfilled when He gives a new heart in Christ and the Spirit. The Lord's Day, they taught, fulfils the Sabbath as the feast of the new exodus from sin and death.
-FN: De Vaders hielden van Gods zucht 'och, hadden zij zo'n hart!' als een openbaring van Zijn verlangen naar menselijke liefde, vervuld wanneer Hij in Christus en de Geest een nieuw hart geeft. De dag van de Heer, leerden zij, vervult de sabbat als het feest van de nieuwe uittocht uit zonde en dood.
+FN: De kerkvaders hielden van Gods zucht 'och, hadden zij zo'n hart!' als een openbaring van Zijn verlangen naar menselijke liefde, vervuld wanneer Hij in Christus en de Geest een nieuw hart geeft. De dag van de Heer, leerden zij, vervult de sabbat als het feest van de nieuwe uittocht uit zonde en dood.
 T: Covenant today; Sabbath of freedom; God's longing
 TN: Verbond vandaag; Sabbat van vrijheid; Gods verlangen
 
@@ -56,7 +56,7 @@ SN: Hoor, Israël: de Heer, onze God, de Heer is één. U zult de Heer, uw God, 
 M: Love for the one God is the heart of the whole Law, and it is to fill every part of life and be handed down at home.
 MN: Liefde voor de ene God is het hart van heel de Wet, en zij moet elk deel van het leven vullen en thuis doorgegeven worden.
 F: Christ calls the Shema the first and great commandment. In the wilderness He answers the tempter: you shall not put the Lord your God to the test. The Fathers used 'the Lord is one' against polytheism and, rightly understood, as fully compatible with faith in the one God in three Persons. The Christian home was to be a place where the faith is talked about at every moment, as here.
-FN: Christus noemt het Sjema het eerste en grote gebod. In de woestijn antwoordt Hij de verleider: u zult de Heer, uw God, niet op de proef stellen. De Vaders gebruikten 'de Heer is één' tegen het veelgodendom en, goed verstaan, als volledig verenigbaar met het geloof in de ene God in drie Personen. Het christelijke huis moest een plaats zijn waar op elk moment over het geloof gesproken wordt, zoals hier.
+FN: Christus noemt het Sjema het eerste en grote gebod. In de woestijn antwoordt Hij de verleider: u zult de Heer, uw God, niet op de proef stellen. De kerkvaders gebruikten 'de Heer is één' tegen het veelgodendom en, goed verstaan, als volledig verenigbaar met het geloof in de ene God in drie Personen. Het christelijke huis moest een plaats zijn waar op elk moment over het geloof gesproken wordt, zoals hier.
 T: The Shema; Love of God; Faith at home
 TN: Het Sjema; Liefde tot God; Geloof thuis
 
@@ -66,7 +66,7 @@ SN: Wanneer de Heer u in het land brengt, zult u geen verbond sluiten met de vol
 M: God's choice rests on love alone, not on Israel's size or merit. Holiness requires separation from idolatry.
 MN: Gods keuze berust alleen op liefde, niet op de grootte of verdienste van Israël. Heiligheid vraagt afzondering van afgoderij.
 F: St Peter calls the Church a people for God's own possession. The Fathers read the command to destroy idols as the Christian's duty to uproot the passions and idols within, while St Augustine stressed that 'He loved you because He loved you' shows that grace precedes all merit.
-FN: De heilige Petrus noemt de Kerk een volk dat God Zich verworven heeft. De Vaders lazen het gebod om de afgoden te vernietigen als de plicht van de christen om de hartstochten en afgoden in zichzelf uit te roeien, terwijl de heilige Augustinus benadrukte dat 'Hij heeft u liefgehad omdat Hij u liefhad' laat zien dat de genade aan alle verdienste voorafgaat.
+FN: De heilige Petrus noemt de Kerk een volk dat God Zich verworven heeft. De kerkvaders lazen het gebod om de afgoden te vernietigen als de plicht van de christen om de hartstochten en afgoden in zichzelf uit te roeien, terwijl de heilige Augustinus benadrukte dat 'Hij heeft u liefgehad omdat Hij u liefhad' laat zien dat de genade aan alle verdienste voorafgaat.
 T: Chosen in love; Holiness; Grace before merit
 TN: Uit liefde verkozen; Heiligheid; Genade vóór verdienste
 
@@ -76,7 +76,7 @@ SN: Denk aan heel de weg die de Heer, uw God, u deze veertig jaar door de woesti
 M: Hunger and hardship can teach dependence on God's word. Prosperity brings its own danger: forgetting the Giver.
 MN: Honger en tegenspoed kunnen afhankelijkheid van Gods woord leren. Voorspoed brengt zijn eigen gevaar: de Gever vergeten.
 F: Christ answers the first temptation with this chapter: man shall not live by bread alone. The Jewish grace after meals comes from 'when you have eaten and are full, bless the Lord', and the Fathers recommended thanksgiving after every meal. They saw the forty years in the desert as the pattern for the forty days of Lent.
-FN: Christus beantwoordt de eerste verleiding met dit hoofdstuk: de mens zal niet van brood alleen leven. Het Joodse dankgebed na de maaltijd komt van 'wanneer u gegeten hebt en verzadigd bent, loof dan de Heer', en de Vaders raadden dankzegging na elke maaltijd aan. Zij zagen de veertig jaar in de woestijn als het patroon voor de veertig dagen van de vasten.
+FN: Christus beantwoordt de eerste verleiding met dit hoofdstuk: de mens zal niet van brood alleen leven. Het Joodse dankgebed na de maaltijd komt van 'wanneer u gegeten hebt en verzadigd bent, loof dan de Heer', en de kerkvaders raadden dankzegging na elke maaltijd aan. Zij zagen de veertig jaar in de woestijn als het patroon voor de veertig dagen van de vasten.
 T: Testing; God's word as bread; Thanksgiving
 TN: Beproeving; Gods woord als brood; Dankzegging
 
@@ -86,7 +86,7 @@ SN: Zeg niet in uw hart: omdat ik rechtvaardig ben, heeft de Heer mij hierheen g
 M: The gift of the land is grace, not reward. Israel's history is a story of stubbornness met by intercession and mercy.
 MN: De gave van het land is genade, geen beloning. De geschiedenis van Israël is een verhaal van hardnekkigheid, beantwoord door voorbede en barmhartigheid.
 F: St Paul echoes this chapter: not because of works of righteousness that we have done, but according to His mercy He saved us. The Fathers saw Moses' forty days of prostration as an image of Christ's intercession and a model of persevering prayer for others.
-FN: De heilige Paulus weerspiegelt dit hoofdstuk: niet op grond van werken van gerechtigheid die wij gedaan hebben, maar naar Zijn barmhartigheid heeft Hij ons gered. De Vaders zagen de veertig dagen van neerbuiging van Mozes als een beeld van de voorbede van Christus en een voorbeeld van volhardend gebed voor anderen.
+FN: De heilige Paulus weerspiegelt dit hoofdstuk: niet op grond van werken van gerechtigheid die wij gedaan hebben, maar naar Zijn barmhartigheid heeft Hij ons gered. De kerkvaders zagen de veertig dagen van neerbuiging van Mozes als een beeld van de voorbede van Christus en een voorbeeld van volhardend gebed voor anderen.
 T: Grace, not merit; Stubbornness; Intercession
 TN: Genade, geen verdienste; Hardnekkigheid; Voorbede
 
@@ -96,7 +96,7 @@ SN: De Heer zegt tegen Mozes twee nieuwe tafelen te houwen; Hij schrijft de Tien
 M: God asks for the heart: reverence, love and service. The God of the heavens cares for widows, orphans and strangers, and so must His people.
 MN: God vraagt het hart: eerbied, liefde en dienst. De God van de hemelen zorgt voor weduwen, wezen en vreemdelingen, en dat moet Zijn volk ook doen.
 F: St Paul speaks of the true circumcision as that of the heart, by the Spirit, and the Fathers saw this chapter as the bridge between the Law and the Gospel. 'Love the stranger, for you were strangers' was central to their teaching on hospitality.
-FN: De heilige Paulus spreekt over de ware besnijdenis als die van het hart, door de Geest, en de Vaders zagen dit hoofdstuk als de brug tussen de Wet en het Evangelie. 'Heb de vreemdeling lief, want u bent vreemdelingen geweest' stond centraal in hun onderwijs over gastvrijheid.
+FN: De heilige Paulus spreekt over de ware besnijdenis als die van het hart, door de Geest, en de kerkvaders zagen dit hoofdstuk als de brug tussen de Wet en het Evangelie. 'Heb de vreemdeling lief, want u bent vreemdelingen geweest' stond centraal in hun onderwijs over gastvrijheid.
 T: Circumcision of the heart; What God requires; Love for the stranger
 TN: Besnijdenis van het hart; Wat God vraagt; Liefde voor de vreemdeling
 
@@ -106,7 +106,7 @@ SN: Heb de Heer, uw God, lief en neem Zijn opdracht altijd in acht. Overdenk Zij
 M: In the promised land Israel depends daily on God's rain, not on its own irrigation. Every generation faces the same choice between blessing and curse.
 MN: In het beloofde land is Israël dagelijks afhankelijk van Gods regen, niet van eigen bevloeiing. Elke generatie staat voor dezelfde keuze tussen zegen en vloek.
 F: The Fathers contrasted Egypt, watered by human effort, with the land watered by heaven, as life under one's own strength and life under grace. The image of a land God's eyes are always upon was applied to the Church and to the soul in His care.
-FN: De Vaders stelden Egypte, bevloeid door menselijke inspanning, tegenover het land dat door de hemel bevloeid wordt, als leven op eigen kracht en leven onder de genade. Het beeld van een land waarop Gods ogen voortdurend rusten, werd toegepast op de Kerk en op de ziel in Zijn zorg.
+FN: De kerkvaders stelden Egypte, bevloeid door menselijke inspanning, tegenover het land dat door de hemel bevloeid wordt, als leven op eigen kracht en leven onder de genade. Het beeld van een land waarop Gods ogen voortdurend rusten, werd toegepast op de Kerk en op de ziel in Zijn zorg.
 T: Dependence on God; Blessing and curse; Teaching children
 TN: Afhankelijkheid van God; Zegen en vloek; Kinderen onderwijzen
 
@@ -116,7 +116,7 @@ SN: Wanneer u het land binnenkomt, vernietig dan alle plaatsen waar de volken hu
 M: Worship is centred on the place God chooses, not on places of human choosing. Worship is joyful and shared with the Levite and the household.
 MN: De eredienst is gericht op de plaats die God kiest, niet op plaatsen naar menselijke keuze. Aanbidding is vreugdevol en wordt gedeeld met de Leviet en het huisgezin.
 F: Christ tells the Samaritan woman that the hour is coming when the true worshippers will worship the Father in spirit and truth, neither on this mountain nor in Jerusalem. The Fathers saw the one place God chooses fulfilled in Christ Himself, the true temple, and in the one altar of the Church.
-FN: Christus zegt tegen de Samaritaanse vrouw dat het uur komt waarop de ware aanbidders de Vader zullen aanbidden in geest en waarheid, niet op deze berg en ook niet in Jeruzalem. De Vaders zagen de ene plaats die God kiest vervuld in Christus Zelf, de ware tempel, en in het ene altaar van de Kerk.
+FN: Christus zegt tegen de Samaritaanse vrouw dat het uur komt waarop de ware aanbidders de Vader zullen aanbidden in geest en waarheid, niet op deze berg en ook niet in Jeruzalem. De kerkvaders zagen de ene plaats die God kiest vervuld in Christus Zelf, de ware tempel, en in het ene altaar van de Kerk.
 T: The chosen place; Joyful worship; Against idolatry
 TN: De gekozen plaats; Vreugdevolle eredienst; Tegen afgoderij
 
@@ -126,7 +126,7 @@ SN: Als er een profeet of een dromer opstaat en u een teken of wonder geeft, en 
 M: Signs and wonders are not enough to prove a message true; faithfulness to the one God is the test. Loyalty to God comes before even the closest human ties.
 MN: Tekenen en wonderen zijn niet genoeg om een boodschap waar te maken; trouw aan de ene God is de toets. Trouw aan God gaat zelfs vóór de nauwste menselijke banden.
 F: Christ warns that false christs and false prophets will perform great signs to lead astray, if possible, even the elect. The Fathers used this chapter in their teaching on discernment: miracles do not prove sanctity unless joined to true faith and humility.
-FN: Christus waarschuwt dat valse christussen en valse profeten grote tekenen zullen doen om zo mogelijk zelfs de uitverkorenen te misleiden. De Vaders gebruikten dit hoofdstuk in hun onderwijs over onderscheiding: wonderen bewijzen geen heiligheid tenzij zij samengaan met waar geloof en nederigheid.
+FN: Christus waarschuwt dat valse christussen en valse profeten grote tekenen zullen doen om zo mogelijk zelfs de uitverkorenen te misleiden. De kerkvaders gebruikten dit hoofdstuk in hun onderwijs over onderscheiding: wonderen bewijzen geen heiligheid tenzij zij samengaan met waar geloof en nederigheid.
 T: False prophets; Discernment; Loyalty to God
 TN: Valse profeten; Onderscheiding; Trouw aan God
 
@@ -136,7 +136,7 @@ SN: U bent kinderen van de Heer, uw God; u zult geen insnijdingen in uzelf maken
 M: As God's children, Israel mourns with hope and gives with joy. The tithe becomes a festive meal and, every third year, food for the poor.
 MN: Als kinderen van God rouwt Israël met hoop en geeft het met vreugde. De tiende wordt een feestmaal en, elk derde jaar, voedsel voor de armen.
 F: St Paul echoes the forbidding of pagan mourning: do not grieve as others do who have no hope. The Fathers praised the third-year tithe for the poor as an example of organised charity that the Church continued in its care for widows and orphans.
-FN: De heilige Paulus weerspiegelt het verbod op heidense rouw: wees niet bedroefd zoals de anderen, die geen hoop hebben. De Vaders prezen de tiende van het derde jaar voor de armen als een voorbeeld van georganiseerde liefdadigheid, die de Kerk voortzette in haar zorg voor weduwen en wezen.
+FN: De heilige Paulus weerspiegelt het verbod op heidense rouw: wees niet bedroefd zoals de anderen, die geen hoop hebben. De kerkvaders prezen de tiende van het derde jaar voor de armen als een voorbeeld van georganiseerde liefdadigheid, die de Kerk voortzette in haar zorg voor weduwen en wezen.
 T: Children of God; Hopeful mourning; Tithe for the poor
 TN: Kinderen van God; Hoopvolle rouw; Tiende voor de armen
 
@@ -146,7 +146,7 @@ SN: Aan het einde van elke zeven jaar zult u kwijtschelding geven: elke schuldei
 M: God's law aims at a society without poverty and commands an open hand towards the poor. Freedom must come with the means to live.
 MN: Gods wet streeft naar een samenleving zonder armoede en gebiedt een open hand naar de armen. Vrijheid moet samengaan met de middelen om te leven.
 F: Christ says: the poor you always have with you, echoing this chapter, not to excuse neglect but to make care for them constant. The Fathers, St Basil and St John Chrysostom especially, preached from 'open your hand wide' that generosity must not calculate.
-FN: Christus zegt: de armen hebt u altijd bij u, naar dit hoofdstuk, niet om verwaarlozing te verontschuldigen, maar om de zorg voor hen blijvend te maken. De Vaders, vooral de heilige Basilius en de heilige Johannes Chrysostomus, preekten vanuit 'open uw hand wijd' dat vrijgevigheid niet moet berekenen.
+FN: Christus zegt: de armen hebt u altijd bij u, naar dit hoofdstuk, niet om verwaarlozing te verontschuldigen, maar om de zorg voor hen blijvend te maken. De kerkvaders, vooral de heilige Basilius en de heilige Johannes Chrysostomus, preekten vanuit 'open uw hand wijd' dat vrijgevigheid niet moet berekenen.
 T: Release of debts; Open hand; Freedom with provision
 TN: Kwijtschelding van schulden; Open hand; Vrijheid met voorziening
 
@@ -156,7 +156,7 @@ SN: Neem de maand Abib in acht en houd het Pascha, want in die maand heeft de He
 M: The feasts are times of memory and of joy shared with all, especially the vulnerable. Justice belongs to the life of a worshipping people.
 MN: De feesten zijn tijden van gedachtenis en van vreugde die met allen gedeeld wordt, vooral met de kwetsbaren. Gerechtigheid hoort bij het leven van een aanbiddend volk.
 F: The Fathers saw the feasts fulfilled in the Church's Pascha and Pentecost, and drew from 'you shall rejoice with the widow and the orphan' that Christian feasts must include the poor. 'Justice, and only justice' was cited in their teaching on the duties of judges.
-FN: De Vaders zagen de feesten vervuld in Pasen en Pinksteren van de Kerk, en leerden uit 'u zult u verheugen met de weduwe en de wees' dat christelijke feesten de armen moeten insluiten. 'Het recht, alleen het recht' werd aangehaald in hun onderwijs over de plichten van rechters.
+FN: De kerkvaders zagen de feesten vervuld in Pasen en Pinksteren van de Kerk, en leerden uit 'u zult u verheugen met de weduwe en de wees' dat christelijke feesten de armen moeten insluiten. 'Het recht, alleen het recht' werd aangehaald in hun onderwijs over de plichten van rechters.
 T: Feasts; Shared joy; Justice
 TN: Feesten; Gedeelde vreugde; Gerechtigheid
 
@@ -166,7 +166,7 @@ SN: U zult geen dier met een gebrek offeren. Wie op grond van twee of drie getui
 M: Even the king is under God's law and must read it daily. Justice requires more than one witness.
 MN: Zelfs de koning staat onder Gods wet en moet die dagelijks lezen. Recht vraagt meer dan één getuige.
 F: Christ and St Paul apply the rule of two or three witnesses to discipline in the Church. The Fathers held up the king who copies and reads the law daily as a model for rulers and bishops, whose authority must be humble and bound to God's word.
-FN: Christus en de heilige Paulus passen de regel van twee of drie getuigen toe op de tucht in de Kerk. De Vaders stelden de koning die de wet overschrijft en dagelijks leest voor als voorbeeld voor heersers en bisschoppen, wier gezag nederig moet zijn en aan Gods woord gebonden.
+FN: Christus en de heilige Paulus passen de regel van twee of drie getuigen toe op de tucht in de Kerk. De kerkvaders stelden de koning die de wet overschrijft en dagelijks leest voor als voorbeeld voor heersers en bisschoppen, wier gezag nederig moet zijn en aan Gods woord gebonden.
 T: Due process; The king under the law; Humility of power
 TN: Eerlijk proces; De koning onder de wet; Nederigheid van de macht
 
@@ -186,7 +186,7 @@ SN: Er moeten drie vrijsteden in het land afgezonderd worden, met gebaande wegen
 M: God's law protects the innocent and limits vengeance. False testimony is punished by its own intended harm.
 MN: Gods wet beschermt de onschuldige en beperkt de wraak. Vals getuigenis wordt gestraft met het kwaad dat het zelf bedoelde.
 F: The Fathers again saw the cities of refuge as Christ, to whom every sinner may flee, with the roads prepared as the ministry of the Church that makes the way clear. Susanna was saved when Daniel exposed the false witnesses, as this law commands.
-FN: De Vaders zagen de vrijsteden opnieuw als Christus, naar wie elke zondaar kan vluchten, met de gebaande wegen als de bediening van de Kerk die de weg vrijmaakt. Susanna werd gered toen Daniël de valse getuigen ontmaskerde, zoals deze wet beveelt.
+FN: De kerkvaders zagen de vrijsteden opnieuw als Christus, naar wie elke zondaar kan vluchten, met de gebaande wegen als de bediening van de Kerk die de weg vrijmaakt. Susanna werd gered toen Daniël de valse getuigen ontmaskerde, zoals deze wet beveelt.
 T: Refuge; Protection of the innocent; Truthful witness
 TN: Toevlucht; Bescherming van de onschuldige; Waarachtig getuigenis
 
@@ -196,7 +196,7 @@ SN: Wanneer u ten strijde trekt en paarden, strijdwagens en een leger ziet dat g
 M: Even in war God's law limits violence: it protects new life and households, offers peace first and spares the trees.
 MN: Zelfs in de oorlog beperkt Gods wet het geweld: zij beschermt nieuw leven en huishoudens, biedt eerst vrede aan en spaart de bomen.
 F: The Fathers read the exemptions spiritually: in the spiritual battle the fearful and the attached cannot fight well, as Christ says, no one who looks back is fit for the kingdom. The care for fruit trees was admired as an early sign of respect for creation.
-FN: De Vaders lazen de vrijstellingen geestelijk: in de geestelijke strijd kunnen wie bang zijn of gehecht niet goed strijden, zoals Christus zegt dat niemand die achterom kijkt geschikt is voor het koninkrijk. De zorg voor vruchtbomen werd bewonderd als een vroeg teken van respect voor de schepping.
+FN: De kerkvaders lazen de vrijstellingen geestelijk: in de geestelijke strijd kunnen wie bang zijn of gehecht niet goed strijden, zoals Christus zegt dat niemand die achterom kijkt geschikt is voor het koninkrijk. De zorg voor vruchtbomen werd bewonderd als een vroeg teken van respect voor de schepping.
 T: Courage; Limits on violence; Peace first
 TN: Moed; Grenzen aan geweld; Eerst vrede
 
@@ -216,7 +216,7 @@ SN: U zult het rund of schaap van uw broeder niet zien afdwalen en het negeren; 
 M: Love of neighbour is practical: returning lost property, helping with a fallen animal, building safely. Mercy reaches even to a bird's nest.
 MN: Naastenliefde is praktisch: verloren bezit teruggeven, helpen met een gevallen dier, veilig bouwen. Barmhartigheid reikt zelfs tot een vogelnest.
 F: The Fathers loved the small laws of this chapter as signs of God's tender care for every creature. Christ asks whether anyone would not pull out a sheep that has fallen into a pit on the Sabbath. The parapet was read as the responsibility not to put others at risk by our actions.
-FN: De Vaders hielden van de kleine wetten van dit hoofdstuk als tekenen van Gods tedere zorg voor elk schepsel. Christus vraagt of iemand een schaap dat op de sabbat in een kuil gevallen is er niet uit zou trekken. De borstwering werd gelezen als de verantwoordelijkheid om anderen door ons handelen niet in gevaar te brengen.
+FN: De kerkvaders hielden van de kleine wetten van dit hoofdstuk als tekenen van Gods tedere zorg voor elk schepsel. Christus vraagt of iemand een schaap dat op de sabbat in een kuil gevallen is er niet uit zou trekken. De borstwering werd gelezen als de verantwoordelijkheid om anderen door ons handelen niet in gevaar te brengen.
 T: Practical love; Care for creation; Responsibility
 TN: Praktische liefde; Zorg voor de schepping; Verantwoordelijkheid
 
@@ -226,7 +226,7 @@ SN: Er worden regels gegeven over wie de gemeente van de Heer mag binnengaan. U 
 M: Remarkable mercy: an escaped slave is given refuge, and the hungry may eat from a neighbour's field. Even old enemies are not to be hated.
 MN: Opmerkelijke barmhartigheid: een gevluchte slaaf krijgt toevlucht, en de hongerige mag eten van de akker van een naaste. Zelfs oude vijanden mogen niet gehaat worden.
 F: The disciples plucked grain as they walked through the fields, according to this law, and Christ defended them. The Fathers praised the refuge given to a runaway slave as remarkable humanity, and used the law against interest in their preaching against usury.
-FN: De leerlingen plukten aren terwijl zij door de velden liepen, volgens deze wet, en Christus verdedigde hen. De Vaders prezen de toevlucht voor een gevluchte slaaf als een opmerkelijke menselijkheid, en gebruikten de wet tegen rente in hun prediking tegen woeker.
+FN: De leerlingen plukten aren terwijl zij door de velden liepen, volgens deze wet, en Christus verdedigde hen. De kerkvaders prezen de toevlucht voor een gevluchte slaaf als een opmerkelijke menselijkheid, en gebruikten de wet tegen rente in hun prediking tegen woeker.
 T: Refuge for the fugitive; Generosity; God in the camp
 TN: Toevlucht voor de vluchteling; Vrijgevigheid; God in het kamp
 
@@ -256,7 +256,7 @@ SN: Wanneer u in het land komt, zult u een deel van de eerstelingen in een mand 
 M: Offering the first of the harvest goes with telling the story of salvation. Gratitude remembers where one came from.
 MN: Het offeren van het eerste van de oogst gaat samen met het vertellen van het heilsverhaal. Dankbaarheid herinnert zich waar men vandaan komt.
 F: The Fathers saw this ancient confession of faith, telling God's saving acts, as a forerunner of the Christian creed and of the Eucharistic prayer, which also remembers God's deeds while offering the firstfruits. Christ risen is the firstfruits of those who have fallen asleep.
-FN: De Vaders zagen deze oude geloofsbelijdenis, die Gods reddende daden vertelt, als een voorloper van het christelijk credo en van het eucharistisch gebed, dat ook Gods daden gedenkt terwijl het de eerstelingen opdraagt. De opgestane Christus is de eersteling van hen die ontslapen zijn.
+FN: De kerkvaders zagen deze oude geloofsbelijdenis, die Gods reddende daden vertelt, als een voorloper van het christelijk credo en van het eucharistisch gebed, dat ook Gods daden gedenkt terwijl het de eerstelingen opdraagt. De opgestane Christus is de eersteling van hen die ontslapen zijn.
 T: Firstfruits; Confession of faith; Gratitude
 TN: Eerstelingen; Geloofsbelijdenis; Dankbaarheid
 
@@ -276,7 +276,7 @@ SN: Als u trouw luistert naar de stem van de Heer, uw God, zullen al deze zegeni
 M: Obedience leads to life and disobedience to disaster; the long list of curses warns of how far a people can fall when it abandons God.
 MN: Gehoorzaamheid leidt tot leven en ongehoorzaamheid tot rampspoed; de lange lijst van vervloekingen waarschuwt hoe diep een volk kan vallen wanneer het God verlaat.
 F: The Fathers saw these curses fulfilled in Israel's exile and in the sieges of Jerusalem, especially in AD 70, as described by Josephus. They taught that in Christ, who bore the curse, the blessings are opened to all, and that suffering is not always a curse but can be a cross shared with Him.
-FN: De Vaders zagen deze vervloekingen vervuld in de ballingschap van Israël en in de belegeringen van Jeruzalem, vooral in het jaar 70, zoals Josephus beschrijft. Zij leerden dat in Christus, die de vloek droeg, de zegeningen voor allen geopend worden, en dat lijden niet altijd een vloek is, maar een kruis kan zijn dat met Hem gedeeld wordt.
+FN: De kerkvaders zagen deze vervloekingen vervuld in de ballingschap van Israël en in de belegeringen van Jeruzalem, vooral in het jaar 70, zoals Josephus beschrijft. Zij leerden dat in Christus, die de vloek droeg, de zegeningen voor allen geopend worden, en dat lijden niet altijd een vloek is, maar een kruis kan zijn dat met Hem gedeeld wordt.
 T: Blessing; Curse; Consequences
 TN: Zegen; Vloek; Gevolgen
 
@@ -286,7 +286,7 @@ SN: Dit zijn de woorden van het verbond dat de Heer Mozes gebood te sluiten met 
 M: The covenant includes everyone, the stranger and future generations too. What God has revealed is enough to live by; the rest belongs to Him.
 MN: Het verbond omvat iedereen, ook de vreemdeling en toekomstige generaties. Wat God geopenbaard heeft, is genoeg om naar te leven; de rest behoort Hem toe.
 F: Hebrews warns against any 'root of bitterness' springing up and causing trouble, from this chapter. The Fathers taught from 'the secret things belong to the Lord' a humble restraint in speculation, contenting oneself with what God has revealed.
-FN: Hebreeën waarschuwt tegen een 'wortel van bitterheid' die opschiet en onrust veroorzaakt, naar dit hoofdstuk. De Vaders leerden uit 'de verborgen dingen zijn voor de Heer' een nederige terughoudendheid in speculatie, en tevredenheid met wat God geopenbaard heeft.
+FN: Hebreeën waarschuwt tegen een 'wortel van bitterheid' die opschiet en onrust veroorzaakt, naar dit hoofdstuk. De kerkvaders leerden uit 'de verborgen dingen zijn voor de Heer' een nederige terughoudendheid in speculatie, en tevredenheid met wat God geopenbaard heeft.
 T: Inclusive covenant; Root of bitterness; Revealed and hidden
 TN: Allesomvattend verbond; Wortel van bitterheid; Geopenbaard en verborgen
 
@@ -296,7 +296,7 @@ SN: Wanneer u met heel uw hart terugkeert tot de Heer, uw God, zal Hij uw lot ke
 M: Even after exile, return is possible, and God promises to change the heart Himself. His word is near; the choice for life is ours to make.
 MN: Zelfs na de ballingschap is terugkeer mogelijk, en God belooft het hart Zelf te veranderen. Zijn woord is nabij; de keuze voor het leven is aan ons.
 F: St Paul in Romans 10 applies 'the word is near you, in your mouth and in your heart' to the word of faith in Christ: if you confess with your mouth that Jesus is Lord and believe in your heart that God raised Him, you will be saved. The Fathers saw the promise of a circumcised heart fulfilled in baptism and the gift of the Spirit, and 'choose life' as the call of freedom.
-FN: De heilige Paulus past in Romeinen 10 'het woord is u nabij, in uw mond en in uw hart' toe op het woord van het geloof in Christus: als u met uw mond belijdt dat Jezus Heer is en met uw hart gelooft dat God Hem heeft opgewekt, zult u behouden worden. De Vaders zagen de belofte van een besneden hart vervuld in de doop en de gave van de Geest, en 'kies het leven' als de roep van de vrijheid.
+FN: De heilige Paulus past in Romeinen 10 'het woord is u nabij, in uw mond en in uw hart' toe op het woord van het geloof in Christus: als u met uw mond belijdt dat Jezus Heer is en met uw hart gelooft dat God Hem heeft opgewekt, zult u behouden worden. De kerkvaders zagen de belofte van een besneden hart vervuld in de doop en de gave van de Geest, en 'kies het leven' als de roep van de vrijheid.
 T: Return; The near word; Choose life
 TN: Terugkeer; Het nabije woord; Kies het leven
 
@@ -306,7 +306,7 @@ SN: Mozes, honderdtwintig jaar oud, zegt tegen Israël: de Heer heeft tegen mij 
 M: Leaders pass, but God goes before His people and does not forsake them. The word must be read aloud to all, generation after generation.
 MN: Leiders gaan heen, maar God gaat voor Zijn volk uit en verlaat hen niet. Het woord moet aan allen voorgelezen worden, van geslacht tot geslacht.
 F: Hebrews quotes 'I will never leave you nor forsake you' as God's promise to every believer. The Fathers saw the public reading of the law to all the people as a pattern for the reading of Scripture in the Church's worship.
-FN: Hebreeën citeert 'Ik zal u niet begeven en u niet verlaten' als Gods belofte aan elke gelovige. De Vaders zagen het openbaar voorlezen van de wet aan het hele volk als een patroon voor de lezing van de Schrift in de eredienst van de Kerk.
+FN: Hebreeën citeert 'Ik zal u niet begeven en u niet verlaten' als Gods belofte aan elke gelovige. De kerkvaders zagen het openbaar voorlezen van de wet aan het hele volk als een patroon voor de lezing van de Schrift in de eredienst van de Kerk.
 T: Succession; God does not forsake; Public reading of Scripture
 TN: Opvolging; God verlaat niet; Openbare lezing van de Schrift
 
@@ -316,7 +316,7 @@ SN: Neem ter ore, hemel, en ik zal spreken; laat de aarde de woorden van mijn mo
 M: God's faithfulness is set against Israel's ingratitude. Like an eagle with its young, He carried His people; even after their unfaithfulness He will not abandon them.
 MN: Gods trouw wordt geplaatst tegenover de ondankbaarheid van Israël. Als een arend met zijn jongen droeg Hij Zijn volk; zelfs na hun ontrouw zal Hij hen niet verlaten.
 F: The Song of Moses is the second biblical ode of the Byzantine canon, sung during Great Lent, a hymn of repentance. St Paul quotes 'they sacrificed to demons, not to God' and 'rejoice, O nations, with His people'. The Fathers saw the eagle bearing its young as God's tender providence and Christ who carries us on His shoulders.
-FN: Het lied van Mozes is de tweede bijbelse ode van de Byzantijnse canon, gezongen tijdens de Grote Vasten, een lied van bekering. De heilige Paulus citeert 'zij offerden aan demonen, niet aan God' en 'verheug u, volken, met Zijn volk'. De Vaders zagen de arend die zijn jongen draagt als Gods tedere voorzienigheid en als Christus die ons op Zijn schouders draagt.
+FN: Het lied van Mozes is de tweede bijbelse ode van de Byzantijnse canon, gezongen tijdens de Grote Vasten, een lied van bekering. De heilige Paulus citeert 'zij offerden aan demonen, niet aan God' en 'verheug u, volken, met Zijn volk'. De kerkvaders zagen de arend die zijn jongen draagt als Gods tedere voorzienigheid en als Christus die ons op Zijn schouders draagt.
 T: God the Rock; Ingratitude; The eagle's care
 TN: God de Rots; Ondankbaarheid; De zorg van de arend
 
@@ -326,7 +326,7 @@ SN: Dit is de zegen waarmee Mozes, de man Gods, Israël vóór zijn dood zegende
 M: Moses' last words are blessing, not reproach. Beneath God's people are the everlasting arms.
 MN: De laatste woorden van Mozes zijn zegen, geen verwijt. Onder Gods volk zijn de eeuwige armen.
 F: The Fathers loved 'underneath are the everlasting arms' as an image of the security of those who rest in God, and saw in the arms stretched out on the cross the everlasting arms that uphold the world. Moses blessing the tribes was compared to Christ blessing the apostles before His ascension.
-FN: De Vaders hielden van 'daaronder zijn de eeuwige armen' als beeld van de veiligheid van wie in God rusten, en zagen in de armen die aan het kruis uitgestrekt zijn de eeuwige armen die de wereld dragen. Mozes die de stammen zegent, werd vergeleken met Christus die de apostelen zegent voor Zijn hemelvaart.
+FN: De kerkvaders hielden van 'daaronder zijn de eeuwige armen' als beeld van de veiligheid van wie in God rusten, en zagen in de armen die aan het kruis uitgestrekt zijn de eeuwige armen die de wereld dragen. Mozes die de stammen zegent, werd vergeleken met Christus die de apostelen zegent voor Zijn hemelvaart.
 T: Blessing; God our dwelling; The everlasting arms
 TN: Zegen; God onze woning; De eeuwige armen
 
@@ -336,6 +336,6 @@ SN: Mozes gaat vanuit de vlakten van Moab de berg Nebo op, naar de top van de Pi
 M: The greatest prophet dies within sight of the promise, buried by God Himself. The story goes on with Joshua, and the promise of a prophet like Moses remains.
 MN: De grootste profeet sterft binnen zicht van de belofte, door God Zelf begraven. Het verhaal gaat verder met Jozua, en de belofte van een profeet zoals Mozes blijft.
 F: St Jude mentions the archangel Michael contending with the devil over the body of Moses. The Fathers noted that the hidden grave prevented the veneration of Moses from turning into idolatry, and that Moses finally stood in the promised land on Mount Tabor, speaking with the transfigured Christ, the Prophet greater than Moses.
-FN: De heilige Judas vermeldt de aartsengel Michaël die met de duivel streed over het lichaam van Mozes. De Vaders merkten op dat het verborgen graf voorkwam dat de verering van Mozes in afgoderij zou omslaan, en dat Mozes uiteindelijk in het beloofde land stond op de Tabor, sprekend met de verheerlijkte Christus, de Profeet die groter is dan Mozes.
+FN: De heilige Judas vermeldt de aartsengel Michaël die met de duivel streed over het lichaam van Mozes. De kerkvaders merkten op dat het verborgen graf voorkwam dat de verering van Mozes in afgoderij zou omslaan, en dat Mozes uiteindelijk in het beloofde land stond op de Tabor, sprekend met de verheerlijkte Christus, de Profeet die groter is dan Mozes.
 T: Death of Moses; Seeing the promise; Face to face
 TN: De dood van Mozes; De belofte zien; Van aangezicht tot aangezicht
