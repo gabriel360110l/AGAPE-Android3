@@ -6,7 +6,7 @@ SN: De zonen van Israël die met Jakob naar Egypte kwamen, worden genoemd; Jozef
 M: Power that forgets God turns to fear and cruelty. Two humble women resist the king because they fear God more than Pharaoh.
 MN: Macht die God vergeet, slaat om in angst en wreedheid. Twee eenvoudige vrouwen weerstaan de koning omdat zij God meer vrezen dan Farao.
 F: The Fathers saw Pharaoh as an image of the devil, who enslaves humanity and tries to destroy what is newly born of God. St Gregory of Nyssa, in his Life of Moses, reads the killing of the male children as the enemy's attack on virtue at its birth. Pharaoh's decree foreshadows Herod's massacre of the innocents.
-FN: De Vaders zagen Farao als een beeld van de duivel, die de mensheid tot slaaf maakt en probeert te vernietigen wat nieuw uit God geboren is. De heilige Gregorius van Nyssa leest in zijn Leven van Mozes het doden van de jongens als de aanval van de vijand op de deugd bij haar geboorte. Farao's bevel is een voorafbeelding van de kindermoord van Herodes.
+FN: De kerkvaders zagen Farao als een beeld van de duivel, die de mensheid tot slaaf maakt en probeert te vernietigen wat nieuw uit God geboren is. De heilige Gregorius van Nyssa leest in zijn Leven van Mozes het doden van de jongens als de aanval van de vijand op de deugd bij haar geboorte. Farao's bevel is een voorafbeelding van de kindermoord van Herodes.
 T: Slavery; Fear of God; Civil courage
 TN: Slavernij; Vreze Gods; Burgermoed
 
@@ -26,7 +26,7 @@ SN: Mozes hoedt de kudde van zijn schoonvader Jethro en komt bij de Horeb, de be
 M: God reveals Himself as the One who truly is and who cares for the oppressed. Holiness approaches, and the human response is reverence and obedience.
 MN: God openbaart Zich als Hij die werkelijk is en die zorgt voor de verdrukten. Heiligheid komt nabij, en het menselijk antwoord is eerbied en gehoorzaamheid.
 F: The Church sees in the bush that burned without being consumed the Theotokos, who bore the fire of the Godhead in her womb without being consumed; this is sung in many hymns and painted in the icon of the Unburnt Bush. The Fathers identified the angel of the Lord with the Word Himself. St Gregory of Nyssa saw in taking off the sandals the putting off of dead, earthly attachments.
-FN: De Kerk ziet in het braambos dat brandde zonder te verteren de Moeder Gods, die het vuur van de Godheid in haar schoot droeg zonder verteerd te worden; dit wordt in vele hymnen bezongen en geschilderd in de icoon van het Onverbrande Braambos. De Vaders identificeerden de engel van de Heer met het Woord Zelf. De heilige Gregorius van Nyssa zag in het uittrekken van de schoenen het afleggen van dode, aardse gehechtheden.
+FN: De Kerk ziet in het braambos dat brandde zonder te verteren de Moeder Gods, die het vuur van de Godheid in haar schoot droeg zonder verteerd te worden; dit wordt in vele hymnen bezongen en geschilderd in de icoon van het Onverbrande Braambos. De kerkvaders identificeerden de engel van de Heer met het Woord Zelf. De heilige Gregorius van Nyssa zag in het uittrekken van de schoenen het afleggen van dode, aardse gehechtheden.
 T: The divine name; Holiness; The Unburnt Bush
 TN: De goddelijke naam; Heiligheid; Het Onverbrande Braambos
 
@@ -36,7 +36,7 @@ SN: Mozes vreest dat het volk hem niet zal geloven. God geeft hem tekenen: zijn 
 M: God's call does not depend on human talent, and excuses do not cancel it. God works with our weakness, giving helpers and signs.
 MN: Gods roeping hangt niet af van menselijk talent, en uitvluchten heffen haar niet op. God werkt met onze zwakheid en geeft helpers en tekenen.
 F: The Fathers saw in the staff of Moses, through which God worked wonders, a figure of the cross, the instrument of salvation. St Gregory the Theologian took Moses' reluctance as a model of the humility with which one should approach the priesthood: not grasping, but obeying.
-FN: De Vaders zagen in de staf van Mozes, waardoor God wonderen deed, een voorafbeelding van het kruis, het werktuig van de verlossing. De heilige Gregorius de Theoloog nam de aarzeling van Mozes als voorbeeld van de nederigheid waarmee men het priesterschap moet benaderen: niet grijpen, maar gehoorzamen.
+FN: De kerkvaders zagen in de staf van Mozes, waardoor God wonderen deed, een voorafbeelding van het kruis, het werktuig van de verlossing. De heilige Gregorius de Theoloog nam de aarzeling van Mozes als voorbeeld van de nederigheid waarmee men het priesterschap moet benaderen: niet grijpen, maar gehoorzamen.
 T: Calling and weakness; Signs; The staff
 TN: Roeping en zwakheid; Tekenen; De staf
 
@@ -46,7 +46,7 @@ SN: Mozes en Aäron zeggen tegen Farao: zo zegt de Heer, de God van Israël, laa
 M: The first step of obedience can make things worse before they get better. Moses brings his disappointment honestly to God.
 MN: De eerste stap van gehoorzaamheid kan de dingen erger maken voordat ze beter worden. Mozes brengt zijn teleurstelling eerlijk bij God.
 F: St Gregory of Nyssa observes that when the soul first turns to God, the enemy increases its burdens, as Pharaoh did; the beginning of freedom often feels like greater slavery. The Fathers note that worship is the purpose of the exodus: let My people go, that they may serve Me.
-FN: De heilige Gregorius van Nyssa merkt op dat wanneer de ziel zich eerst tot God keert, de vijand haar lasten vergroot, zoals Farao deed; het begin van de vrijheid voelt vaak als grotere slavernij. De Vaders merken op dat aanbidding het doel van de uittocht is: laat Mijn volk gaan, zodat zij Mij dienen.
+FN: De heilige Gregorius van Nyssa merkt op dat wanneer de ziel zich eerst tot God keert, de vijand haar lasten vergroot, zoals Farao deed; het begin van de vrijheid voelt vaak als grotere slavernij. De kerkvaders merken op dat aanbidding het doel van de uittocht is: laat Mijn volk gaan, zodat zij Mij dienen.
 T: Opposition; Discouragement; Freedom for worship
 TN: Tegenstand; Ontmoediging; Vrijheid om te aanbidden
 
@@ -56,7 +56,7 @@ SN: De Heer antwoordt Mozes: nu zult u zien wat Ik Farao zal doen. Ik ben de Hee
 M: God's answer to discouragement is His own name and promise. Even when the people cannot listen, God's faithfulness does not depend on them.
 MN: Gods antwoord op ontmoediging is Zijn eigen naam en belofte. Zelfs wanneer het volk niet kan luisteren, hangt Gods trouw niet van hen af.
 F: The Fathers noted the four promises of God, to bring out, deliver, redeem and take as His own, as describing the whole of salvation, fulfilled in Christ who redeems us from the slavery of sin. The genealogy roots Moses and Aaron in a real family, so that the priesthood has a history.
-FN: De Vaders merkten op dat de vier beloften van God, uitleiden, redden, verlossen en tot Zijn eigendom aannemen, het hele heil beschrijven, vervuld in Christus die ons verlost uit de slavernij van de zonde. Het geslachtsregister wortelt Mozes en Aäron in een echte familie, zodat het priesterschap een geschiedenis heeft.
+FN: De kerkvaders merkten op dat de vier beloften van God, uitleiden, redden, verlossen en tot Zijn eigendom aannemen, het hele heil beschrijven, vervuld in Christus die ons verlost uit de slavernij van de zonde. Het geslachtsregister wortelt Mozes en Aäron in een echte familie, zodat het priesterschap een geschiedenis heeft.
 T: The divine name; Redemption; Broken spirit
 TN: De goddelijke naam; Verlossing; Gebroken geest
 
@@ -66,7 +66,7 @@ SN: De Heer maakt Mozes tot een god voor Farao, met Aäron als zijn profeet; Hij
 M: The plagues are a contest between the Lord and the gods of Egypt; the Nile, source of life and worshipped as divine, becomes death. A heart that will not see hardens step by step.
 MN: De plagen zijn een strijd tussen de Heer en de goden van Egypte; de Nijl, bron van leven en als goddelijk vereerd, wordt dood. Een hart dat niet wil zien, verhardt stap voor stap.
 F: The Fathers discussed God's hardening of Pharaoh's heart at length. St John Chrysostom, St Gregory of Nyssa and others explain that God permits the hardening that Pharaoh chooses: the same sun softens wax and hardens clay. Aaron's staff swallowing the serpents was read as the truth swallowing falsehood.
-FN: De Vaders bespraken uitvoerig de verharding van Farao's hart door God. De heilige Johannes Chrysostomus, de heilige Gregorius van Nyssa en anderen leggen uit dat God de verharding toelaat die Farao kiest: dezelfde zon maakt was zacht en klei hard. Dat de staf van Aäron de slangen verslond, werd gelezen als de waarheid die de leugen verslindt.
+FN: De kerkvaders bespraken uitvoerig de verharding van Farao's hart door God. De heilige Johannes Chrysostomus, de heilige Gregorius van Nyssa en anderen leggen uit dat God de verharding toelaat die Farao kiest: dezelfde zon maakt was zacht en klei hard. Dat de staf van Aäron de slangen verslond, werd gelezen als de waarheid die de leugen verslindt.
 T: Hardening of the heart; False gods; Signs
 TN: Verharding van het hart; Valse goden; Tekenen
 
@@ -76,7 +76,7 @@ SN: Kikkers komen uit de rivier en bedekken het land, zelfs de bedden en ovens. 
 M: Promises made under pressure vanish when the pressure lifts. God distinguishes His people and shows that He rules over all creation.
 MN: Beloften onder druk gedaan, verdwijnen als de druk wegvalt. God maakt onderscheid voor Zijn volk en laat zien dat Hij heerst over heel de schepping.
 F: Christ says He casts out demons 'by the finger of God', echoing the magicians' confession. The Fathers drew the lesson that the devil's imitations have limits: he can counterfeit some signs but cannot create life. They saw in Pharaoh's bargaining the temptation to serve God only halfway.
-FN: Christus zegt dat Hij de demonen uitdrijft 'door de vinger van God', wat de belijdenis van de tovenaars weerspiegelt. De Vaders trokken de les dat de nabootsingen van de duivel grenzen hebben: hij kan sommige tekenen namaken, maar geen leven scheppen. Zij zagen in het afdingen van Farao de verleiding om God slechts half te dienen.
+FN: Christus zegt dat Hij de demonen uitdrijft 'door de vinger van God', wat de belijdenis van de tovenaars weerspiegelt. De kerkvaders trokken de les dat de nabootsingen van de duivel grenzen hebben: hij kan sommige tekenen namaken, maar geen leven scheppen. Zij zagen in het afdingen van Farao de verleiding om God slechts half te dienen.
 T: The finger of God; Broken promises; Distinction
 TN: De vinger van God; Gebroken beloften; Onderscheid
 
@@ -86,7 +86,7 @@ SN: Een zware pest treft het vee van Egypte, terwijl er van het vee van Israël 
 M: Even among the Egyptians some begin to fear God's word and are spared. A confession of sin that does not change one's life is not repentance.
 MN: Zelfs onder de Egyptenaren beginnen sommigen Gods woord te vrezen en worden gespaard. Een schuldbelijdenis die het leven niet verandert, is geen bekering.
 F: The Fathers contrasted Pharaoh's words 'I have sinned' with David's same words: the same confession, but one came from fear of punishment, the other from a contrite heart. St Augustine notes that true repentance is shown by what follows it.
-FN: De Vaders stelden Farao's woorden 'ik heb gezondigd' tegenover dezelfde woorden van David: dezelfde belijdenis, maar de ene kwam uit angst voor straf, de andere uit een verbroken hart. De heilige Augustinus merkt op dat ware bekering blijkt uit wat erop volgt.
+FN: De kerkvaders stelden Farao's woorden 'ik heb gezondigd' tegenover dezelfde woorden van David: dezelfde belijdenis, maar de ene kwam uit angst voor straf, de andere uit een verbroken hart. De heilige Augustinus merkt op dat ware bekering blijkt uit wat erop volgt.
 T: False repentance; Fear of the Lord; Judgment
 TN: Valse bekering; Vreze des Heren; Oordeel
 
@@ -96,7 +96,7 @@ SN: Mozes waarschuwt Farao: hoe lang weigert u zich voor Mij te vernederen? Fara
 M: God's people must go out whole: with their children and all they have, keeping nothing back for Pharaoh. Darkness and light now divide Egypt and Israel.
 MN: Gods volk moet geheel uittrekken: met hun kinderen en alles wat zij hebben, zonder iets voor Farao achter te houden. Duisternis en licht scheiden nu Egypte en Israël.
 F: St Gregory of Nyssa reads the darkness that could be felt as the darkness of a soul given to evil, while the light in the dwellings of Israel is the light of virtue that no external darkness can extinguish. The Fathers applied 'not a hoof shall be left' to giving God the whole of oneself.
-FN: De heilige Gregorius van Nyssa leest de tastbare duisternis als de duisternis van een ziel die zich aan het kwaad heeft overgegeven, terwijl het licht in de woningen van Israël het licht van de deugd is dat geen uiterlijke duisternis kan doven. De Vaders pasten 'er zal geen klauw achterblijven' toe op het geven van heel zichzelf aan God.
+FN: De heilige Gregorius van Nyssa leest de tastbare duisternis als de duisternis van een ziel die zich aan het kwaad heeft overgegeven, terwijl het licht in de woningen van Israël het licht van de deugd is dat geen uiterlijke duisternis kan doven. De kerkvaders pasten 'er zal geen klauw achterblijven' toe op het geven van heel zichzelf aan God.
 T: Whole-hearted obedience; Light and darkness; Compromise
 TN: Volledige gehoorzaamheid; Licht en duisternis; Compromis
 
@@ -106,7 +106,7 @@ SN: De Heer zegt tegen Mozes: nog één plaag, en dan zal Farao u laten gaan, ja
 M: Pharaoh, who killed Israel's sons, now faces the death of Egypt's firstborn. God's justice is terrible, yet it serves the liberation of the oppressed.
 MN: Farao, die de zonen van Israël doodde, staat nu voor de dood van de eerstgeborenen van Egypte. Gods gerechtigheid is ontzagwekkend, maar zij dient de bevrijding van de verdrukten.
 F: The Fathers interpreted the silver and gold taken from Egypt as the wealth of pagan learning that Christians may take and use for the service of God; St Augustine and St Gregory of Nyssa both develop this image. It also signified a just wage for years of unpaid labour.
-FN: De Vaders legden het zilver en goud dat uit Egypte werd meegenomen uit als de rijkdom van de heidense kennis die christenen mogen nemen en gebruiken in de dienst van God; zowel de heilige Augustinus als de heilige Gregorius van Nyssa werken dit beeld uit. Het betekende ook een rechtvaardig loon voor jaren van onbetaalde arbeid.
+FN: De kerkvaders legden het zilver en goud dat uit Egypte werd meegenomen uit als de rijkdom van de heidense kennis die christenen mogen nemen en gebruiken in de dienst van God; zowel de heilige Augustinus als de heilige Gregorius van Nyssa werken dit beeld uit. Het betekende ook een rechtvaardig loon voor jaren van onbetaalde arbeid.
 T: Judgment; Firstborn; The spoils of Egypt
 TN: Oordeel; Eerstgeborene; De buit van Egypte
 
@@ -116,7 +116,7 @@ SN: Deze maand zal voor u de eerste maand van het jaar zijn. Elk huisgezin moet 
 M: Israel is saved through the blood of a spotless lamb and a meal eaten in readiness to depart. The Passover becomes the founding memory of God's people.
 MN: Israël wordt gered door het bloed van een vlekkeloos lam en een maaltijd die gegeten wordt in gereedheid om te vertrekken. Het Pascha wordt de stichtende herinnering van Gods volk.
 F: St Paul says: Christ our Passover has been sacrificed for us. St Melito of Sardis' homily On the Pascha reads this chapter line by line as fulfilled in Christ, the true Lamb, whose blood marks us for life. The Church's Pascha, Easter, takes its very name from this night, and the Fathers read the unleavened bread as sincerity and truth.
-FN: De heilige Paulus zegt: Christus, ons Pascha, is voor ons geslacht. De preek Over het Pascha van de heilige Melito van Sardes leest dit hoofdstuk regel voor regel als vervuld in Christus, het ware Lam, wiens bloed ons voor het leven tekent. Het Pascha van de Kerk, Pasen, ontleent zijn naam aan deze nacht, en de Vaders lazen het ongezuurde brood als oprechtheid en waarheid.
+FN: De heilige Paulus zegt: Christus, ons Pascha, is voor ons geslacht. De preek Over het Pascha van de heilige Melito van Sardes leest dit hoofdstuk regel voor regel als vervuld in Christus, het ware Lam, wiens bloed ons voor het leven tekent. Het Pascha van de Kerk, Pasen, ontleent zijn naam aan deze nacht, en de kerkvaders lazen het ongezuurde brood als oprechtheid en waarheid.
 T: Passover; The Lamb; Memorial
 TN: Pascha; Het Lam; Gedachtenis
 
@@ -126,7 +126,7 @@ SN: De Heer zegt: heilig Mij elke eerstgeborene, want die is van Mij. Mozes beve
 M: Salvation is to be remembered and handed on to children. God chooses a longer road out of care for His people's weakness, and He leads them Himself.
 MN: Redding moet gedacht en aan de kinderen doorgegeven worden. God kiest een langere weg uit zorg voor de zwakheid van Zijn volk, en Hij leidt hen Zelf.
 F: The Presentation of Christ in the Temple fulfils the law of the firstborn: the true Firstborn is offered and redeemed by two turtledoves. The Fathers read the pillar of cloud and fire as the Holy Spirit, who overshadows and enlightens the Church on her pilgrimage; St Paul calls the passage under the cloud a baptism.
-FN: De Opdracht van Christus in de Tempel vervult de wet van de eerstgeborenen: de ware Eerstgeborene wordt opgedragen en met twee tortelduiven gelost. De Vaders lazen de wolk- en vuurkolom als de Heilige Geest, die de Kerk op haar pelgrimstocht overschaduwt en verlicht; de heilige Paulus noemt de doortocht onder de wolk een doop.
+FN: De Opdracht van Christus in de Tempel vervult de wet van de eerstgeborenen: de ware Eerstgeborene wordt opgedragen en met twee tortelduiven gelost. De kerkvaders lazen de wolk- en vuurkolom als de Heilige Geest, die de Kerk op haar pelgrimstocht overschaduwt en verlicht; de heilige Paulus noemt de doortocht onder de wolk een doop.
 T: Firstborn; Remembrance; God leads
 TN: Eerstgeborene; Gedachtenis; God leidt
 
@@ -136,7 +136,7 @@ SN: Farao heeft er spijt van dat hij Israël liet gaan en achtervolgt hen met ze
 M: At the moment of utter helplessness God opens a way where there is none. Israel's freedom is entirely His gift.
 MN: Op het moment van volstrekte hulpeloosheid opent God een weg waar er geen is. De vrijheid van Israël is geheel Zijn gave.
 F: St Paul says the fathers were all baptised into Moses in the cloud and in the sea. The Fathers universally read the crossing as baptism: the old Pharaoh, sin and the devil, drowns in the water while the new people passes through to freedom. The crossing is read at the Paschal Vigil, East and West.
-FN: De heilige Paulus zegt dat de vaderen allen in Mozes gedoopt werden in de wolk en in de zee. De Vaders lazen de doortocht algemeen als de doop: de oude Farao, de zonde en de duivel, verdrinkt in het water terwijl het nieuwe volk doortrekt naar de vrijheid. De doortocht wordt gelezen in de Paaswake, in Oost en West.
+FN: De heilige Paulus zegt dat de vaderen allen in Mozes gedoopt werden in de wolk en in de zee. De kerkvaders lazen de doortocht algemeen als de doop: de oude Farao, de zonde en de duivel, verdrinkt in het water terwijl het nieuwe volk doortrekt naar de vrijheid. De doortocht wordt gelezen in de Paaswake, in Oost en West.
 T: Deliverance; Baptism; Stand still and see
 TN: Bevrijding; Doop; Sta stil en zie
 
@@ -146,7 +146,7 @@ SN: Mozes en de Israëlieten zingen: ik zal de Heer zingen, want Hij is hoog ver
 M: The first response to salvation is song. But joy is quickly tested, and God shows Himself as the healer who makes bitter water sweet.
 MN: Het eerste antwoord op verlossing is gezang. Maar de vreugde wordt snel beproefd, en God toont Zich als de heelmeester die bitter water zoet maakt.
 F: The Song of Moses is the first of the biblical odes of the Orthodox Canon at Matins, and it is sung at the Paschal Vigil in the West; Revelation shows the saints singing the song of Moses and of the Lamb. The Fathers saw the tree that sweetened the bitter waters as the cross, which makes the bitterness of life sweet.
-FN: Het lied van Mozes is de eerste van de bijbelse oden van de Orthodoxe canon in de metten, en het wordt in het Westen gezongen in de Paaswake; Openbaring toont de heiligen die het lied van Mozes en van het Lam zingen. De Vaders zagen het hout dat de bittere wateren zoet maakte als het kruis, dat de bitterheid van het leven zoet maakt.
+FN: Het lied van Mozes is de eerste van de bijbelse oden van de Orthodoxe canon in de metten, en het wordt in het Westen gezongen in de Paaswake; Openbaring toont de heiligen die het lied van Mozes en van het Lam zingen. De kerkvaders zagen het hout dat de bittere wateren zoet maakte als het kruis, dat de bitterheid van het leven zoet maakt.
 T: Song of victory; Testing; The Lord who heals
 TN: Overwinningslied; Beproeving; De Heer die geneest
 
@@ -156,7 +156,7 @@ SN: In de woestijn Sin mort de hele gemeente: waren wij maar in Egypte gestorven
 M: God feeds His people day by day and teaches them to trust Him for daily bread. Greed spoils what is given; the Sabbath teaches rest.
 MN: God voedt Zijn volk van dag tot dag en leert hen Hem te vertrouwen voor het dagelijks brood. Hebzucht bederft wat gegeven wordt; de sabbat leert rust.
 F: Christ says: it was not Moses who gave you the bread from heaven, but My Father gives you the true bread from heaven; I am the bread of life. The Fathers read the manna as a figure of the Eucharist, and St Paul uses the equal gathering to teach sharing between churches. The jar of manna, kept in the ark, was seen as an image of the Theotokos who bore the heavenly Bread.
-FN: Christus zegt: niet Mozes heeft u het brood uit de hemel gegeven, maar Mijn Vader geeft u het ware brood uit de hemel; Ik ben het brood des levens. De Vaders lazen het manna als een voorafbeelding van de Eucharistie, en de heilige Paulus gebruikt het gelijk verzamelen om het delen tussen kerken te leren. De kruik met manna, bewaard in de ark, werd gezien als een beeld van de Moeder Gods die het hemelse Brood droeg.
+FN: Christus zegt: niet Mozes heeft u het brood uit de hemel gegeven, maar Mijn Vader geeft u het ware brood uit de hemel; Ik ben het brood des levens. De kerkvaders lazen het manna als een voorafbeelding van de Eucharistie, en de heilige Paulus gebruikt het gelijk verzamelen om het delen tussen kerken te leren. De kruik met manna, bewaard in de ark, werd gezien als een beeld van de Moeder Gods die het hemelse Brood droeg.
 T: Daily bread; Trust; The bread of life
 TN: Dagelijks brood; Vertrouwen; Het brood des levens
 
@@ -166,7 +166,7 @@ SN: Bij Rafidim is geen water, en het volk twist met Mozes: is de Heer in ons mi
 M: Even when the people test God, He gives water from the rock. Victory comes through prayer, and those who pray need others to hold up their hands.
 MN: Zelfs wanneer het volk God verzoekt, geeft Hij water uit de rots. De overwinning komt door gebed, en wie bidt, heeft anderen nodig die zijn handen ondersteunen.
 F: St Paul says: they drank from the spiritual Rock that followed them, and the Rock was Christ; the Fathers saw the water as flowing from His pierced side. Moses with outstretched arms was read by St Justin, St Cyprian and many others as a figure of the cross: by the outstretched arms of Christ the enemy is defeated, and Joshua, whose name is Jesus in Greek, wins the battle.
-FN: De heilige Paulus zegt: zij dronken uit de geestelijke Rots die hen volgde, en de Rots was Christus; de Vaders zagen het water als stromend uit Zijn doorstoken zijde. Mozes met uitgestrekte armen werd door de heilige Justinus, de heilige Cyprianus en vele anderen gelezen als een voorafbeelding van het kruis: door de uitgestrekte armen van Christus wordt de vijand verslagen, en Jozua, wiens naam in het Grieks Jezus is, wint de strijd.
+FN: De heilige Paulus zegt: zij dronken uit de geestelijke Rots die hen volgde, en de Rots was Christus; de kerkvaders zagen het water als stromend uit Zijn doorstoken zijde. Mozes met uitgestrekte armen werd door de heilige Justinus, de heilige Cyprianus en vele anderen gelezen als een voorafbeelding van het kruis: door de uitgestrekte armen van Christus wordt de vijand verslagen, en Jozua, wiens naam in het Grieks Jezus is, wint de strijd.
 T: Water from the rock; Prayer with raised hands; Supporting one another
 TN: Water uit de rots; Gebed met opgeheven handen; Elkaar ondersteunen
 
@@ -176,7 +176,7 @@ SN: Jethro, de priester van Midian, komt naar Mozes met Zippora en haar twee zon
 M: Great leaders know how to listen and share responsibility. Wisdom can come from outside the community of faith.
 MN: Grote leiders weten te luisteren en verantwoordelijkheid te delen. Wijsheid kan van buiten de geloofsgemeenschap komen.
 F: The Fathers praised Moses' humility: the friend of God accepts advice from a Gentile priest. St Gregory the Great used this chapter in his Pastoral Rule to teach bishops not to try to do everything alone, and the Church has seen here a pattern for ordered ministry.
-FN: De Vaders prezen de nederigheid van Mozes: de vriend van God neemt raad aan van een heidense priester. De heilige Gregorius de Grote gebruikte dit hoofdstuk in zijn Regel voor de herders om bisschoppen te leren niet alles alleen te willen doen, en de Kerk heeft hier een patroon gezien voor een geordende bediening.
+FN: De kerkvaders prezen de nederigheid van Mozes: de vriend van God neemt raad aan van een heidense priester. De heilige Gregorius de Grote gebruikte dit hoofdstuk in zijn Regel voor de herders om bisschoppen te leren niet alles alleen te willen doen, en de Kerk heeft hier een patroon gezien voor een geordende bediening.
 T: Humility; Shared leadership; Wisdom
 TN: Nederigheid; Gedeeld leiderschap; Wijsheid
 
@@ -186,7 +186,7 @@ SN: In de derde maand komt Israël in de woestijn Sinaï en legert zich tegenove
 M: God first saves, then calls His people into covenant. Israel is chosen to be a priestly people for the sake of the whole world.
 MN: God redt eerst en roept Zijn volk dan in het verbond. Israël wordt uitverkoren om een priesterlijk volk te zijn ter wille van de hele wereld.
 F: St Peter applies these words to the Church: you are a chosen race, a royal priesthood, a holy nation. St Gregory of Nyssa describes the ascent of Sinai as the soul's ascent into the divine darkness, where God is known beyond knowledge. The Fathers linked the giving of the Law fifty days after Passover with Pentecost, fifty days after Pascha.
-FN: De heilige Petrus past deze woorden toe op de Kerk: u bent een uitverkoren geslacht, een koninklijk priesterschap, een heilig volk. De heilige Gregorius van Nyssa beschrijft de beklimming van de Sinaï als de opgang van de ziel in de goddelijke duisternis, waar God gekend wordt boven het kennen uit. De Vaders verbonden het geven van de Wet vijftig dagen na het Pascha met Pinksteren, vijftig dagen na Pasen.
+FN: De heilige Petrus past deze woorden toe op de Kerk: u bent een uitverkoren geslacht, een koninklijk priesterschap, een heilig volk. De heilige Gregorius van Nyssa beschrijft de beklimming van de Sinaï als de opgang van de ziel in de goddelijke duisternis, waar God gekend wordt boven het kennen uit. De kerkvaders verbonden het geven van de Wet vijftig dagen na het Pascha met Pinksteren, vijftig dagen na Pasen.
 T: Covenant; Priestly people; Theophany
 TN: Verbond; Priesterlijk volk; Godsverschijning
 
@@ -196,6 +196,6 @@ SN: God spreekt al deze woorden: Ik ben de Heer, uw God, die u uit het land Egyp
 M: The commandments begin with grace: I brought you out. They are the shape of a freed people's life, love for God and love for neighbour.
 MN: De geboden beginnen met genade: Ik heb u uitgeleid. Zij zijn de vorm van het leven van een bevrijd volk, liefde tot God en liefde tot de naaste.
 F: Christ summarises the Law in the two great commandments of love, and the Fathers saw the two tablets as these two loves. St Augustine taught that the commandments are fulfilled by charity. The Seventh Ecumenical Council explained that the prohibition of idols does not forbid icons, since the invisible God has now become visible in Christ.
-FN: Christus vat de Wet samen in de twee grote geboden van de liefde, en de Vaders zagen de twee tafelen als deze twee liefdes. De heilige Augustinus leerde dat de geboden vervuld worden door de liefde. Het Zevende Oecumenisch Concilie legde uit dat het verbod op afgodsbeelden de iconen niet verbiedt, omdat de onzienlijke God nu in Christus zichtbaar is geworden.
+FN: Christus vat de Wet samen in de twee grote geboden van de liefde, en de kerkvaders zagen de twee tafelen als deze twee liefdes. De heilige Augustinus leerde dat de geboden vervuld worden door de liefde. Het Zevende Oecumenisch Concilie legde uit dat het verbod op afgodsbeelden de iconen niet verbiedt, omdat de onzienlijke God nu in Christus zichtbaar is geworden.
 T: The Ten Commandments; Freedom; Love of God and neighbour
 TN: De Tien Geboden; Vrijheid; Liefde tot God en de naaste

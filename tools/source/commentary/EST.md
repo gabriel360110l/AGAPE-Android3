@@ -6,7 +6,7 @@ SN: In de dagen van Ahasveros, die regeerde van Indië tot Ethiopië over honder
 M: The book opens in a world of excess, pride and wounded vanity. In this world of power without God, God will quietly save His people.
 MN: Het boek opent in een wereld van overdaad, hoogmoed en gekrenkte ijdelheid. In deze wereld van macht zonder God zal God in stilte Zijn volk redden.
 F: The Hebrew text of Esther never names God, yet His hidden providence guides every event. The Greek text, read in the Orthodox and Catholic Churches, makes this explicit through Mordecai's dream and the prayers it adds. The Fathers read the vanity of the Persian court as an image of the passing glory of this world.
-FN: De Hebreeuwse tekst van Esther noemt God nergens, toch leidt Zijn verborgen voorzienigheid elke gebeurtenis. De Griekse tekst, die in de orthodoxe en katholieke Kerken gelezen wordt, maakt dit uitdrukkelijk door de droom van Mordechai en de gebeden die hij toevoegt. De Vaders lazen de ijdelheid van het Perzische hof als een beeld van de voorbijgaande heerlijkheid van deze wereld.
+FN: De Hebreeuwse tekst van Esther noemt God nergens, toch leidt Zijn verborgen voorzienigheid elke gebeurtenis. De Griekse tekst, die in de orthodoxe en katholieke Kerken gelezen wordt, maakt dit uitdrukkelijk door de droom van Mordechai en de gebeden die hij toevoegt. De kerkvaders lazen de ijdelheid van het Perzische hof als een beeld van de voorbijgaande heerlijkheid van deze wereld.
 T: Hidden providence; Vanity of power; The dream of Mordecai
 TN: Verborgen voorzienigheid; IJdelheid van macht; De droom van Mordechai
 
@@ -16,7 +16,7 @@ SN: De dienaren van de koning stellen voor dat mooie jonge vrouwen uit alle gewe
 M: An orphan girl in exile is raised to the throne, and a forgotten good deed is written down. God prepares deliverance long before the danger appears.
 MN: Een weesmeisje in ballingschap wordt op de troon verheven, en een vergeten goede daad wordt opgeschreven. God bereidt de redding voor lang voordat het gevaar verschijnt.
 F: The Fathers noted how God prepares His instruments in advance: the orphan Esther raised by Mordecai's care, and Mordecai's loyalty recorded in the king's book, waiting for its hour. Mordecai's daily concern for Esther was praised as a picture of faithful care for those entrusted to us.
-FN: De Vaders merkten op hoe God Zijn werktuigen van tevoren voorbereidt: de wees Esther, opgevoed door de zorg van Mordechai, en de trouw van Mordechai, opgetekend in het boek van de koning, wachtend op haar uur. De dagelijkse zorg van Mordechai voor Esther werd geprezen als beeld van trouwe zorg voor wie aan ons toevertrouwd zijn.
+FN: De kerkvaders merkten op hoe God Zijn werktuigen van tevoren voorbereidt: de wees Esther, opgevoed door de zorg van Mordechai, en de trouw van Mordechai, opgetekend in het boek van de koning, wachtend op haar uur. De dagelijkse zorg van Mordechai voor Esther werd geprezen als beeld van trouwe zorg voor wie aan ons toevertrouwd zijn.
 T: God prepares in advance; Raised from lowliness; Faithful care
 TN: God bereidt van tevoren voor; Verheven uit nederigheid; Trouwe zorg
 
@@ -26,7 +26,7 @@ SN: Koning Ahasveros verheft Haman de Agagiet boven alle vorsten, en alle dienar
 M: One man's wounded pride becomes a plan to destroy a whole people. Hatred disguises itself as concern for law and order.
 MN: De gekrenkte trots van één man wordt een plan om een heel volk te verdelgen. Haat vermomt zich als zorg voor wet en orde.
 F: The Fathers saw in Mordecai's refusal to bow a refusal to give to a man the honour due to God alone, as he himself explains in his prayer in the Greek text. Haman's accusation, 'their laws are different', was read as the same charge later brought against Christians, and his plot as an image of the enemy's hatred of God's people.
-FN: De Vaders zagen in de weigering van Mordechai om te buigen een weigering om een mens de eer te geven die alleen God toekomt, zoals hij zelf uitlegt in zijn gebed in de Griekse tekst. De beschuldiging van Haman, 'hun wetten zijn anders', werd gelezen als dezelfde aanklacht die later tegen christenen ingebracht werd, en zijn complot als een beeld van de haat van de vijand tegen Gods volk.
+FN: De kerkvaders zagen in de weigering van Mordechai om te buigen een weigering om een mens de eer te geven die alleen God toekomt, zoals hij zelf uitlegt in zijn gebed in de Griekse tekst. De beschuldiging van Haman, 'hun wetten zijn anders', werd gelezen als dezelfde aanklacht die later tegen christenen ingebracht werd, en zijn complot als een beeld van de haat van de vijand tegen Gods volk.
 T: Honour due to God alone; Pride turned to hatred; Persecution
 TN: Eer die alleen God toekomt; Hoogmoed die haat wordt; Vervolging
 
@@ -46,7 +46,7 @@ SN: Op de derde dag trekt Esther haar koninklijke gewaden aan en gaat in de binn
 M: After fasting and prayer, the door opens. Haman, who has everything, is consumed by the one thing he cannot have.
 MN: Na vasten en gebed gaat de deur open. Haman, die alles heeft, wordt verteerd door het ene dat hij niet kan krijgen.
 F: The Fathers drew from Haman's words, 'all this is worth nothing to me', a sharp lesson on envy and pride, which make a man miserable in the midst of plenty. Later Christian tradition saw Esther, admitted into the king's presence to intercede for her people, as an image of the Theotokos interceding before her Son for the faithful.
-FN: De Vaders leerden uit de woorden van Haman, 'dit alles is mij niets waard', een scherpe les over afgunst en hoogmoed, die een mens ellendig maken te midden van overvloed. Latere christelijke traditie zag Esther, die in de tegenwoordigheid van de koning toegelaten werd om voor haar volk te pleiten, als een beeld van de Moeder Gods die bij haar Zoon voor de gelovigen pleit.
+FN: De kerkvaders leerden uit de woorden van Haman, 'dit alles is mij niets waard', een scherpe les over afgunst en hoogmoed, die een mens ellendig maken te midden van overvloed. Latere christelijke traditie zag Esther, die in de tegenwoordigheid van de koning toegelaten werd om voor haar volk te pleiten, als een beeld van de Moeder Gods die bij haar Zoon voor de gelovigen pleit.
 T: The door opens; Envy that consumes; Intercession
 TN: De deur gaat open; Afgunst die verteert; Voorspraak
 
@@ -56,7 +56,7 @@ SN: Die nacht kan de koning niet slapen, en hij laat het boek met de gedenkwaard
 M: A sleepless night and a forgotten record turn the story around. The proud man is forced to honour the one he meant to destroy.
 MN: Een slapeloze nacht en een vergeten verslag keren het verhaal om. De hoogmoedige wordt gedwongen de man te eren die hij wilde vernietigen.
 F: The Fathers saw God's hand in the king's sleepless night; the Greek text says plainly that the Lord took sleep from the king. Haman leading Mordecai in honour was read as the reversal sung by the Theotokos: He has brought down the mighty from their thrones and exalted the humble.
-FN: De Vaders zagen Gods hand in de slapeloze nacht van de koning; de Griekse tekst zegt duidelijk dat de Heer de slaap van de koning wegnam. Haman die Mordechai in eer rondleidt, werd gelezen als de omkering die de Moeder Gods bezingt: Hij heeft machtigen van hun tronen gestoten en nederigen verheven.
+FN: De kerkvaders zagen Gods hand in de slapeloze nacht van de koning; de Griekse tekst zegt duidelijk dat de Heer de slaap van de koning wegnam. Haman die Mordechai in eer rondleidt, werd gelezen als de omkering die de Moeder Gods bezingt: Hij heeft machtigen van hun tronen gestoten en nederigen verheven.
 T: Providence in small things; Reversal; The humble exalted
 TN: Voorzienigheid in kleine dingen; Omkering; De nederigen verheven
 
@@ -66,7 +66,7 @@ SN: De koning en Haman komen op de tweede maaltijd van Esther, en de koning vraa
 M: Esther speaks at last, identifying herself with her threatened people. The evil Haman planned falls back on his own head.
 MN: Esther spreekt eindelijk en vereenzelvigt zich met haar bedreigde volk. Het kwaad dat Haman beraamde, valt terug op zijn eigen hoofd.
 F: The Fathers saw in Haman hanged on his own gallows the truth of the psalm: he dug a pit and fell into the hole he had made; his mischief returns upon his own head. They praised Esther for pleading not only for herself but for her whole people, as true intercession does.
-FN: De Vaders zagen in Haman, opgehangen aan zijn eigen galg, de waarheid van de psalm: hij heeft een kuil gegraven en is gevallen in de groeve die hij gemaakt had; zijn onheil keert terug op zijn eigen hoofd. Zij prezen Esther omdat zij niet alleen voor zichzelf pleitte, maar voor haar hele volk, zoals ware voorspraak doet.
+FN: De kerkvaders zagen in Haman, opgehangen aan zijn eigen galg, de waarheid van de psalm: hij heeft een kuil gegraven en is gevallen in de groeve die hij gemaakt had; zijn onheil keert terug op zijn eigen hoofd. Zij prezen Esther omdat zij niet alleen voor zichzelf pleitte, maar voor haar hele volk, zoals ware voorspraak doet.
 T: Speaking out; Evil returns on itself; Pleading for others
 TN: Het woord nemen; Kwaad keert zich tegen zichzelf; Pleiten voor anderen
 
@@ -76,7 +76,7 @@ SN: Op die dag geeft de koning Esther het huis van Haman, en Mordechai komt voor
 M: The first decree cannot be undone, but a second decree overcomes it. Mourning gives way to light, gladness and honour.
 MN: Het eerste besluit kan niet ongedaan gemaakt worden, maar een tweede besluit overwint het. Rouw maakt plaats voor licht, blijdschap en eer.
 F: The Fathers saw in the irrevocable first decree an image of the sentence of death that sin brought, and in the second decree, written with the same royal seal, the new law of grace that overcomes it in Christ. The 'light and gladness' of the Jews was read as the joy of salvation.
-FN: De Vaders zagen in het onherroepelijke eerste besluit een beeld van het doodvonnis dat de zonde bracht, en in het tweede besluit, geschreven met hetzelfde koninklijke zegel, de nieuwe wet van de genade die het in Christus overwint. Het 'licht en de blijdschap' van de Joden werd gelezen als de vreugde van de verlossing.
+FN: De kerkvaders zagen in het onherroepelijke eerste besluit een beeld van het doodvonnis dat de zonde bracht, en in het tweede besluit, geschreven met hetzelfde koninklijke zegel, de nieuwe wet van de genade die het in Christus overwint. Het 'licht en de blijdschap' van de Joden werd gelezen als de vreugde van de verlossing.
 T: Persistent intercession; A new decree; Light and gladness
 TN: Volhardende voorspraak; Een nieuw besluit; Licht en blijdschap
 
@@ -86,7 +86,7 @@ SN: Op de dertiende van Adar, juist de dag waarop de vijanden van de Joden hoopt
 M: The day chosen by lot for destruction becomes a day of deliverance. Remembering salvation is kept with feasting, sharing and gifts to the poor.
 MN: De dag die door het lot gekozen werd voor verdelging, wordt een dag van redding. De herinnering aan de redding wordt gevierd met feestmaal, delen en gaven aan de armen.
 F: The Fathers saw in the lot that was cast for destruction but turned to deliverance a sign that God rules even over what seems to be chance. The remembrance kept with gifts to the poor was linked to the Christian custom of joining feasts with almsgiving. The refusal to take plunder was noted as a sign that the struggle was for life, not gain.
-FN: De Vaders zagen in het lot dat geworpen werd voor verdelging maar omsloeg in redding een teken dat God zelfs heerst over wat toeval lijkt. De herdenking met gaven aan de armen werd verbonden met het christelijke gebruik om feesten met aalmoezen te verbinden. De weigering om buit te nemen werd opgemerkt als teken dat de strijd om het leven ging, niet om gewin.
+FN: De kerkvaders zagen in het lot dat geworpen werd voor verdelging maar omsloeg in redding een teken dat God zelfs heerst over wat toeval lijkt. De herdenking met gaven aan de armen werd verbonden met het christelijke gebruik om feesten met aalmoezen te verbinden. De weigering om buit te nemen werd opgemerkt als teken dat de strijd om het leven ging, niet om gewin.
 T: Sorrow into joy; God rules over chance; Gifts to the poor
 TN: Droefheid wordt vreugde; God heerst over het toeval; Gaven aan de armen
 
@@ -96,6 +96,6 @@ SN: Koning Ahasveros legt het land en de kusten een schatting op, en zijn machti
 M: Mordecai uses his power to seek the good of his people and speak peace. What seemed chance is revealed as God's work.
 MN: Mordechai gebruikt zijn macht om het welzijn van zijn volk te zoeken en vrede te spreken. Wat toeval leek, blijkt Gods werk te zijn.
 F: The Fathers held up Mordecai as a model of the righteous in public office, seeking the welfare of others rather than his own glory. The Greek ending, 'these things have come from God', was read as the key to the whole book and to every life: behind the events that seem ordinary, God is at work saving His people.
-FN: De Vaders stelden Mordechai voor als voorbeeld van de rechtvaardige in een openbaar ambt, die het welzijn van anderen zoekt in plaats van zijn eigen eer. Het Griekse slot, 'deze dingen zijn van God gekomen', werd gelezen als de sleutel tot het hele boek en tot elk leven: achter de gebeurtenissen die gewoon lijken, is God aan het werk om Zijn volk te redden.
+FN: De kerkvaders stelden Mordechai voor als voorbeeld van de rechtvaardige in een openbaar ambt, die het welzijn van anderen zoekt in plaats van zijn eigen eer. Het Griekse slot, 'deze dingen zijn van God gekomen', werd gelezen als de sleutel tot het hele boek en tot elk leven: achter de gebeurtenissen die gewoon lijken, is God aan het werk om Zijn volk te redden.
 T: Seeking the good of others; From God; God remembers His people
 TN: Het welzijn van anderen zoeken; Van God gekomen; God gedenkt Zijn volk

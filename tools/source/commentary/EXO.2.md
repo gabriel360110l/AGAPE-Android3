@@ -6,7 +6,7 @@ SN: Het Boek van het Verbond begint met wetten over Hebreeuwse dienstknechten: e
 M: God's law reaches into everyday justice and limits the power of the strong over the weak. 'Eye for eye' set a limit to revenge, not a licence for it.
 MN: Gods wet reikt tot in de alledaagse rechtspraak en beperkt de macht van de sterke over de zwakke. 'Oog voor oog' stelde een grens aan de wraak, geen vergunning ervoor.
 F: Christ takes up 'eye for eye' in the Sermon on the Mount and calls His disciples beyond it, to not resisting evil and to loving enemies; the Fathers saw the Law as a teacher leading step by step to the Gospel. The servant with the pierced ear who stays out of love was read as an image of Christ, who freely became a servant.
-FN: Christus neemt 'oog voor oog' op in de Bergrede en roept Zijn leerlingen verder, tot het niet weerstaan van het kwade en het liefhebben van vijanden; de Vaders zagen de Wet als een leermeester die stap voor stap naar het Evangelie leidt. De dienstknecht met het doorboorde oor die uit liefde blijft, werd gelezen als een beeld van Christus, die vrijwillig dienstknecht werd.
+FN: Christus neemt 'oog voor oog' op in de Bergrede en roept Zijn leerlingen verder, tot het niet weerstaan van het kwade en het liefhebben van vijanden; de kerkvaders zagen de Wet als een leermeester die stap voor stap naar het Evangelie leidt. De dienstknecht met het doorboorde oor die uit liefde blijft, werd gelezen als een beeld van Christus, die vrijwillig dienstknecht werd.
 T: Justice; Limits on revenge; Freedom of servants
 TN: Gerechtigheid; Grenzen aan wraak; Vrijheid van dienstknechten
 
@@ -16,7 +16,7 @@ SN: Wetten regelen diefstal, schadevergoeding, schade aan akkers, goederen in be
 M: God takes the side of the stranger, the widow and the orphan, and He hears their cry. Israel's memory of slavery must become compassion.
 MN: God kiest de kant van de vreemdeling, de weduwe en de wees, en Hij hoort hun geroep. Israëls herinnering aan de slavernij moet barmhartigheid worden.
 F: The Fathers, especially St Basil and St John Chrysostom, preached forcefully from these laws against usury and the neglect of the poor. St Basil asks: if God commands the return of a cloak by sunset, how much more must we not hoard while others go cold?
-FN: De Vaders, vooral de heilige Basilius en de heilige Johannes Chrysostomus, preekten vanuit deze wetten krachtig tegen woeker en verwaarlozing van de armen. De heilige Basilius vraagt: als God gebiedt een mantel voor zonsondergang terug te geven, hoeveel te meer mogen wij dan niet oppotten terwijl anderen het koud hebben?
+FN: De kerkvaders, vooral de heilige Basilius en de heilige Johannes Chrysostomus, preekten vanuit deze wetten krachtig tegen woeker en verwaarlozing van de armen. De heilige Basilius vraagt: als God gebiedt een mantel voor zonsondergang terug te geven, hoeveel te meer mogen wij dan niet oppotten terwijl anderen het koud hebben?
 T: The stranger; Widow and orphan; Lending without interest
 TN: De vreemdeling; Weduwe en wees; Lenen zonder rente
 
@@ -26,7 +26,7 @@ SN: U zult geen vals gerucht verspreiden, de menigte niet volgen om kwaad te doe
 M: Justice must be impartial and kindness must reach even the enemy. The rhythms of Sabbath and feast make time itself holy.
 MN: Recht moet onpartijdig zijn, en vriendelijkheid moet zelfs de vijand bereiken. Het ritme van sabbat en feest maakt de tijd zelf heilig.
 F: The Fathers saw in the command to help an enemy's animal a first step towards Christ's command to love one's enemies. The three pilgrim feasts were seen as fulfilled in the Church's year: Pascha, Pentecost and, for many writers, the final ingathering at the end of the age.
-FN: De Vaders zagen in het gebod om het dier van een vijand te helpen een eerste stap naar Christus' gebod om de vijanden lief te hebben. De drie pelgrimsfeesten werden gezien als vervuld in het kerkelijk jaar: Pasen, Pinksteren en, voor veel schrijvers, de laatste inzameling aan het einde der tijden.
+FN: De kerkvaders zagen in het gebod om het dier van een vijand te helpen een eerste stap naar Christus' gebod om de vijanden lief te hebben. De drie pelgrimsfeesten werden gezien als vervuld in het kerkelijk jaar: Pasen, Pinksteren en, voor veel schrijvers, de laatste inzameling aan het einde der tijden.
 T: Impartial justice; Kindness to enemies; Holy time
 TN: Onpartijdig recht; Vriendelijkheid voor vijanden; Heilige tijd
 
@@ -36,7 +36,7 @@ SN: Mozes vertelt het volk alle woorden van de Heer, en zij antwoorden eenstemmi
 M: The covenant is sealed with blood and celebrated with a meal in God's presence. Word, sacrifice and communion belong together.
 MN: Het verbond wordt bezegeld met bloed en gevierd met een maaltijd in Gods aanwezigheid. Woord, offer en gemeenschap horen bij elkaar.
 F: At the Last Supper Christ takes up these words: this is My blood of the new covenant. The Fathers saw the meal of the elders on the mountain as a foretaste of the Eucharist, where we eat and drink in God's presence, and Hebrews contrasts the blood of animals with the blood of Christ.
-FN: Bij het Laatste Avondmaal neemt Christus deze woorden op: dit is Mijn bloed van het nieuwe verbond. De Vaders zagen de maaltijd van de oudsten op de berg als een voorproef van de Eucharistie, waar wij eten en drinken in Gods aanwezigheid, en Hebreeën stelt het bloed van dieren tegenover het bloed van Christus.
+FN: Bij het Laatste Avondmaal neemt Christus deze woorden op: dit is Mijn bloed van het nieuwe verbond. De kerkvaders zagen de maaltijd van de oudsten op de berg als een voorproef van de Eucharistie, waar wij eten en drinken in Gods aanwezigheid, en Hebreeën stelt het bloed van dieren tegenover het bloed van Christus.
 T: Blood of the covenant; Meal before God; Glory
 TN: Bloed van het verbond; Maaltijd voor God; Heerlijkheid
 
@@ -46,7 +46,7 @@ SN: De Heer zegt tegen Mozes een bijdrage te ontvangen van ieder wiens hart hem 
 M: God wants to dwell among His people, and the people's free gifts build His dwelling. Every detail expresses His holiness and nearness.
 MN: God wil wonen te midden van Zijn volk, en de vrije gaven van het volk bouwen Zijn woning. Elk detail drukt Zijn heiligheid en nabijheid uit.
 F: Hebrews says the earthly tabernacle was a copy and shadow of the heavenly sanctuary. The Church sings of the Theotokos as the ark gilded by the Spirit, the golden lampstand bearing the Light, and the table holding the Bread of life. The Fathers saw the ark of incorruptible wood covered in gold as the humanity and divinity of Christ.
-FN: Hebreeën zegt dat de aardse tabernakel een afbeelding en schaduw was van het hemelse heiligdom. De Kerk bezingt de Moeder Gods als de ark verguld door de Geest, de gouden kandelaar die het Licht draagt, en de tafel die het Brood des levens draagt. De Vaders zagen de ark van onvergankelijk hout overtrokken met goud als de mensheid en godheid van Christus.
+FN: Hebreeën zegt dat de aardse tabernakel een afbeelding en schaduw was van het hemelse heiligdom. De Kerk bezingt de Moeder Gods als de ark verguld door de Geest, de gouden kandelaar die het Licht draagt, en de tafel die het Brood des levens draagt. De kerkvaders zagen de ark van onvergankelijk hout overtrokken met goud als de mensheid en godheid van Christus.
 T: God dwelling among us; Free offering; Figures of the Theotokos
 TN: God die onder ons woont; Vrijwillige gave; Voorafbeeldingen van de Moeder Gods
 
@@ -56,7 +56,7 @@ SN: De tabernakel moet gemaakt worden van tien kleden van fijn linnen en gekleur
 M: God's dwelling is both near and veiled: He lives among His people, yet His holiness must be approached with reverence.
 MN: Gods woning is tegelijk nabij en versluierd: Hij woont onder Zijn volk, maar Zijn heiligheid moet met eerbied benaderd worden.
 F: At Christ's death the veil of the temple was torn in two from top to bottom; Hebrews says we now enter the sanctuary through the veil, that is, His flesh. The Fathers saw the layout of the tabernacle reflected in Christian churches, with the sanctuary as the Holy of Holies.
-FN: Bij de dood van Christus scheurde het voorhangsel van de tempel van boven naar beneden in tweeën; Hebreeën zegt dat wij nu het heiligdom binnengaan door het voorhangsel, dat is Zijn vlees. De Vaders zagen de indeling van de tabernakel weerspiegeld in christelijke kerken, met het altaar als het Heilige der Heiligen.
+FN: Bij de dood van Christus scheurde het voorhangsel van de tempel van boven naar beneden in tweeën; Hebreeën zegt dat wij nu het heiligdom binnengaan door het voorhangsel, dat is Zijn vlees. De kerkvaders zagen de indeling van de tabernakel weerspiegeld in christelijke kerken, met het altaar als het Heilige der Heiligen.
 T: Tabernacle; The veil; Reverence
 TN: Tabernakel; Het voorhangsel; Eerbied
 
@@ -66,7 +66,7 @@ SN: Het brandofferaltaar moet gemaakt worden van acaciahout overtrokken met kope
 M: Approach to God begins at the altar of sacrifice. The ever-burning lamp is a sign of constant prayer and watchfulness.
 MN: De nadering tot God begint bij het offeraltaar. De altijd brandende lamp is een teken van voortdurend gebed en waakzaamheid.
 F: The Fathers saw the altar at the entrance of the court as the cross, through which alone we enter God's presence. The continually burning lamp, tended by the priests through the night, became an image of unceasing prayer and of the lamps that burn before the altar and the icons in churches.
-FN: De Vaders zagen het altaar bij de ingang van de voorhof als het kruis, waardoor alleen wij Gods aanwezigheid binnengaan. De voortdurend brandende lamp, door de priesters de hele nacht verzorgd, werd een beeld van onophoudelijk gebed en van de lampen die in kerken voor het altaar en de iconen branden.
+FN: De kerkvaders zagen het altaar bij de ingang van de voorhof als het kruis, waardoor alleen wij Gods aanwezigheid binnengaan. De voortdurend brandende lamp, door de priesters de hele nacht verzorgd, werd een beeld van onophoudelijk gebed en van de lampen die in kerken voor het altaar en de iconen branden.
 T: The altar; Access to God; The ever-burning lamp
 TN: Het altaar; Toegang tot God; De altijd brandende lamp
 
@@ -76,7 +76,7 @@ SN: Aäron en zijn zonen moeten als priesters worden afgezonderd, met heilige kl
 M: The priest bears the people on his shoulders and on his heart before God. Beauty belongs to worship because it reflects God's glory.
 MN: De priester draagt het volk op zijn schouders en op zijn hart voor God. Schoonheid hoort bij de eredienst omdat zij Gods heerlijkheid weerspiegelt.
 F: The Fathers saw Aaron bearing the names of the tribes on his heart as a figure of Christ the High Priest, who bears all His people before the Father. Christian liturgical vestments developed partly in the light of this chapter, as signs of the dignity of the service rather than of the person.
-FN: De Vaders zagen Aäron, die de namen van de stammen op zijn hart draagt, als een voorafbeelding van Christus de Hogepriester, die heel Zijn volk voor de Vader draagt. Christelijke liturgische gewaden ontwikkelden zich mede in het licht van dit hoofdstuk, als tekenen van de waardigheid van de dienst en niet van de persoon.
+FN: De kerkvaders zagen Aäron, die de namen van de stammen op zijn hart draagt, als een voorafbeelding van Christus de Hogepriester, die heel Zijn volk voor de Vader draagt. Christelijke liturgische gewaden ontwikkelden zich mede in het licht van dit hoofdstuk, als tekenen van de waardigheid van de dienst en niet van de persoon.
 T: Priesthood; Intercession; Beauty in worship
 TN: Priesterschap; Voorbede; Schoonheid in de eredienst
 
@@ -86,7 +86,7 @@ SN: Aäron en zijn zonen moeten bij de ingang van de tent met water gewassen wor
 M: Those who serve God are washed, clothed, anointed and consecrated: ear, hand and foot are given to Him. Daily offering keeps the covenant alive.
 MN: Wie God dient, wordt gewassen, bekleed, gezalfd en geheiligd: oor, hand en voet worden aan Hem gegeven. Het dagelijks offer houdt het verbond levend.
 F: The Fathers saw in the washing, anointing and clothing of the priests an image of baptism, chrismation and putting on Christ, by which every believer shares in Christ's royal priesthood. The morning and evening lamb lies behind the Church's morning and evening prayer, and Psalm 141 is sung at Vespers: let my prayer rise as incense.
-FN: De Vaders zagen in het wassen, zalven en bekleden van de priesters een beeld van doop, zalving en het aandoen van Christus, waardoor elke gelovige deel krijgt aan het koninklijk priesterschap van Christus. Het lam van de morgen en de avond ligt achter het morgen- en avondgebed van de Kerk, en Psalm 141 wordt in de vespers gezongen: laat mijn gebed opstijgen als wierook.
+FN: De kerkvaders zagen in het wassen, zalven en bekleden van de priesters een beeld van doop, zalving en het aandoen van Christus, waardoor elke gelovige deel krijgt aan het koninklijk priesterschap van Christus. Het lam van de morgen en de avond ligt achter het morgen- en avondgebed van de Kerk, en Psalm 141 wordt in de vespers gezongen: laat mijn gebed opstijgen als wierook.
 T: Consecration; Anointing; Daily offering
 TN: Wijding; Zalving; Dagelijks offer
 
@@ -96,7 +96,7 @@ SN: Een altaar om reukwerk te branden wordt gemaakt van acaciahout overtrokken m
 M: Prayer rises before God like incense, morning and evening. Before Him rich and poor are equal; what is holy is set apart for Him alone.
 MN: Gebed stijgt op voor God als wierook, 's morgens en 's avonds. Voor Hem zijn rijk en arm gelijk; wat heilig is, is voor Hem alleen afgezonderd.
 F: Revelation shows the incense as the prayers of the saints. The Church uses incense in worship and blesses holy chrism, prepared with many fragrant ingredients, for the anointing of the newly baptised. The Fathers saw in the equal half shekel the equal price of every soul, redeemed by the one blood of Christ.
-FN: Openbaring toont het reukwerk als de gebeden van de heiligen. De Kerk gebruikt wierook in de eredienst en zegent het heilig chrisma, bereid met vele welriekende bestanddelen, voor de zalving van de pasgedoopten. De Vaders zagen in de gelijke halve sikkel de gelijke prijs van elke ziel, verlost door het ene bloed van Christus.
+FN: Openbaring toont het reukwerk als de gebeden van de heiligen. De Kerk gebruikt wierook in de eredienst en zegent het heilig chrisma, bereid met vele welriekende bestanddelen, voor de zalving van de pasgedoopten. De kerkvaders zagen in de gelijke halve sikkel de gelijke prijs van elke ziel, verlost door het ene bloed van Christus.
 T: Incense and prayer; Holy oil; Equality before God
 TN: Wierook en gebed; Heilige olie; Gelijkheid voor God
 
@@ -106,7 +106,7 @@ SN: De Heer roept Bezaleël uit de stam Juda en vervult hem met de Geest van God
 M: Artistic skill is a gift of the Holy Spirit when it serves God. Work for the sanctuary does not cancel the Sabbath: worship includes rest.
 MN: Artistieke vaardigheid is een gave van de Heilige Geest wanneer zij God dient. Het werk aan het heiligdom heft de sabbat niet op: aanbidding omvat ook rust.
 F: Bezalel is the first person in Scripture said to be filled with the Spirit of God, and the Church has seen in him the patron of sacred art; iconographers pray to work with the same Spirit. The Fathers saw the tablets written by the finger of God fulfilled when the Spirit writes the law on the hearts of believers.
-FN: Bezaleël is de eerste persoon in de Schrift van wie gezegd wordt dat hij vervuld werd met de Geest van God, en de Kerk heeft in hem de beschermheilige van de gewijde kunst gezien; iconenschilders bidden om met dezelfde Geest te werken. De Vaders zagen de tafelen, beschreven door de vinger van God, vervuld wanneer de Geest de wet in de harten van de gelovigen schrijft.
+FN: Bezaleël is de eerste persoon in de Schrift van wie gezegd wordt dat hij vervuld werd met de Geest van God, en de Kerk heeft in hem de beschermheilige van de gewijde kunst gezien; iconenschilders bidden om met dezelfde Geest te werken. De kerkvaders zagen de tafelen, beschreven door de vinger van God, vervuld wanneer de Geest de wet in de harten van de gelovigen schrijft.
 T: Sacred art; The Spirit's gifts; Sabbath
 TN: Gewijde kunst; Gaven van de Geest; Sabbat
 
@@ -116,7 +116,7 @@ SN: Als Mozes op de berg wegblijft, zegt het volk tegen Aäron: maak ons goden d
 M: Impatience turns gifts of gold into an idol. Moses stands in the breach, ready to lose himself for the sake of his people.
 MN: Ongeduld maakt van gaven van goud een afgod. Mozes gaat in de bres staan, bereid zichzelf te verliezen ter wille van zijn volk.
 F: St Paul echoes Moses' prayer when he wishes himself accursed for the sake of his brethren. The Fathers saw in Moses the image of the true pastor and of Christ the intercessor, who did not only offer to be blotted out but was numbered with transgressors for us. They warned that any created thing can become a golden calf when it takes God's place.
-FN: De heilige Paulus weerspiegelt het gebed van Mozes wanneer hij wenst zelf vervloekt te zijn ter wille van zijn broeders. De Vaders zagen in Mozes het beeld van de ware herder en van Christus de voorspreker, die niet alleen aanbood uitgewist te worden, maar voor ons onder de overtreders werd gerekend. Zij waarschuwden dat elk geschapen ding een gouden kalf kan worden wanneer het de plaats van God inneemt.
+FN: De heilige Paulus weerspiegelt het gebed van Mozes wanneer hij wenst zelf vervloekt te zijn ter wille van zijn broeders. De kerkvaders zagen in Mozes het beeld van de ware herder en van Christus de voorspreker, die niet alleen aanbood uitgewist te worden, maar voor ons onder de overtreders werd gerekend. Zij waarschuwden dat elk geschapen ding een gouden kalf kan worden wanneer het de plaats van God inneemt.
 T: Idolatry; Intercession; Broken covenant
 TN: Afgoderij; Voorbede; Gebroken verbond
 
@@ -126,7 +126,7 @@ SN: De Heer zegt dat Hij een engel voor hen uit zal zenden maar zelf niet in hun
 M: What matters most is not the land but God's presence. The friend of God longs to see Him, and God reveals as much as a human being can bear.
 MN: Wat het meest telt, is niet het land maar Gods aanwezigheid. De vriend van God verlangt ernaar Hem te zien, en God openbaart zoveel als een mens kan dragen.
 F: St Gregory of Nyssa makes this chapter the summit of his Life of Moses: to see God's back means to follow Him, and the true vision of God is never to stop desiring Him. The Fathers saw the cleft of the rock as Christ, in whom we are hidden and through whom we see the glory of God.
-FN: De heilige Gregorius van Nyssa maakt dit hoofdstuk tot het hoogtepunt van zijn Leven van Mozes: God van achteren zien betekent Hem volgen, en het ware zien van God is nooit ophouden naar Hem te verlangen. De Vaders zagen de rotskloof als Christus, in wie wij verborgen zijn en door wie wij de heerlijkheid van God zien.
+FN: De heilige Gregorius van Nyssa maakt dit hoofdstuk tot het hoogtepunt van zijn Leven van Mozes: God van achteren zien betekent Hem volgen, en het ware zien van God is nooit ophouden naar Hem te verlangen. De kerkvaders zagen de rotskloof als Christus, in wie wij verborgen zijn en door wie wij de heerlijkheid van God zien.
 T: God's presence; Friendship with God; Desire for God
 TN: Gods aanwezigheid; Vriendschap met God; Verlangen naar God
 
@@ -136,7 +136,7 @@ SN: De Heer zegt tegen Mozes twee nieuwe tafelen te houwen zoals de eerste. Moze
 M: After the people's great sin, God reveals His name as mercy and faithfulness. Communion with God transforms even the human face.
 MN: Na de grote zonde van het volk openbaart God Zijn naam als barmhartigheid en trouw. Gemeenschap met God verandert zelfs het menselijk gezicht.
 F: St Paul contrasts the fading glory on Moses' face with the glory of the new covenant: we all, with unveiled face, beholding the glory of the Lord, are being transformed into the same image. The Fathers linked the shining face of Moses with the Transfiguration, where Moses himself appears beside the radiant Christ, and with the radiance of saints.
-FN: De heilige Paulus stelt de vergankelijke glans op het gezicht van Mozes tegenover de heerlijkheid van het nieuwe verbond: wij allen die met onbedekt gezicht de heerlijkheid van de Heer aanschouwen, worden veranderd naar hetzelfde beeld. De Vaders verbonden het stralende gezicht van Mozes met de Gedaanteverandering, waar Mozes zelf naast de stralende Christus verschijnt, en met de glans van de heiligen.
+FN: De heilige Paulus stelt de vergankelijke glans op het gezicht van Mozes tegenover de heerlijkheid van het nieuwe verbond: wij allen die met onbedekt gezicht de heerlijkheid van de Heer aanschouwen, worden veranderd naar hetzelfde beeld. De kerkvaders verbonden het stralende gezicht van Mozes met de Gedaanteverandering, waar Mozes zelf naast de stralende Christus verschijnt, en met de glans van de heiligen.
 T: Mercy; Renewal; Transfigured face
 TN: Barmhartigheid; Vernieuwing; Verheerlijkt gezicht
 
@@ -146,7 +146,7 @@ SN: Mozes roept het volk bijeen en herhaalt het gebod de sabbat te houden. Hij v
 M: The same gold once given for the calf is now freely given for God's dwelling. Generosity becomes the people's repentance.
 MN: Hetzelfde goud dat eens voor het kalf werd gegeven, wordt nu vrijwillig gegeven voor Gods woning. Vrijgevigheid wordt de bekering van het volk.
 F: The Fathers praised the free-will offering as the model of Christian giving: God loves a cheerful giver. They noted that both men and women contributed with their hands and skills, and saw the building of the tabernacle as an image of the Church built from the gifts of all.
-FN: De Vaders prezen de vrijwillige gave als voorbeeld van christelijk geven: God heeft een blijmoedige gever lief. Zij merkten op dat zowel mannen als vrouwen met hun handen en vaardigheden bijdroegen, en zagen de bouw van de tabernakel als een beeld van de Kerk, gebouwd uit de gaven van allen.
+FN: De kerkvaders prezen de vrijwillige gave als voorbeeld van christelijk geven: God heeft een blijmoedige gever lief. Zij merkten op dat zowel mannen als vrouwen met hun handen en vaardigheden bijdroegen, en zagen de bouw van de tabernakel als een beeld van de Kerk, gebouwd uit de gaven van allen.
 T: Generosity; Willing hearts; Gifts of all
 TN: Vrijgevigheid; Gewillige harten; Gaven van allen
 
@@ -166,7 +166,7 @@ SN: Bezaleël maakt de ark van acaciahout overtrokken met zuiver goud, met ringe
 M: What God showed on the mountain is now made with human hands. The holy things are made with care because they serve the meeting with God.
 MN: Wat God op de berg toonde, wordt nu met mensenhanden gemaakt. De heilige voorwerpen worden met zorg gemaakt omdat zij dienen tot de ontmoeting met God.
 F: The Fathers saw the mercy seat between the cherubim, where God speaks, as an image of Christ, the place of atonement; St Paul calls Christ the hilasterion, the mercy seat. The Church sings of the Theotokos as the lampstand bearing the Light that cannot be approached.
-FN: De Vaders zagen het verzoendeksel tussen de cherubs, waar God spreekt, als een beeld van Christus, de plaats van de verzoening; de heilige Paulus noemt Christus het hilasterion, het verzoendeksel. De Kerk bezingt de Moeder Gods als de kandelaar die het ontoegankelijke Licht draagt.
+FN: De kerkvaders zagen het verzoendeksel tussen de cherubs, waar God spreekt, als een beeld van Christus, de plaats van de verzoening; de heilige Paulus noemt Christus het hilasterion, het verzoendeksel. De Kerk bezingt de Moeder Gods als de kandelaar die het ontoegankelijke Licht draagt.
 T: The mercy seat; Holy things; Craft as worship
 TN: Het verzoendeksel; Heilige voorwerpen; Ambacht als aanbidding
 
@@ -176,7 +176,7 @@ SN: Bezaleël maakt het brandofferaltaar van acaciahout overtrokken met koper, e
 M: Even mirrors, objects of vanity, can be turned into instruments of purification. The work is accounted for honestly.
 MN: Zelfs spiegels, voorwerpen van ijdelheid, kunnen veranderd worden in werktuigen van reiniging. Het werk wordt eerlijk verantwoord.
 F: The Fathers loved the detail of the women's mirrors: what once served self-admiration now serves washing before God. They read the basin as an image of baptism and repentance, in which we see ourselves truly and are cleansed.
-FN: De Vaders hielden van het detail van de spiegels van de vrouwen: wat eens diende tot zelfbewondering, dient nu tot wassing voor God. Zij lazen het wasvat als een beeld van doop en bekering, waarin wij onszelf werkelijk zien en gereinigd worden.
+FN: De kerkvaders hielden van het detail van de spiegels van de vrouwen: wat eens diende tot zelfbewondering, dient nu tot wassing voor God. Zij lazen het wasvat als een beeld van doop en bekering, waarin wij onszelf werkelijk zien en gereinigd worden.
 T: Transformation; Purification; Honest accounting
 TN: Verandering; Reiniging; Eerlijke verantwoording
 
@@ -186,7 +186,7 @@ SN: De vaklieden maken de heilige kleren voor Aäron zoals de Heer Mozes geboden
 M: The refrain 'as the Lord commanded Moses' marks this as a work of obedience. The finished work ends in blessing.
 MN: Het refrein 'zoals de Heer Mozes geboden had' kenmerkt dit als een werk van gehoorzaamheid. Het voltooide werk eindigt in zegen.
 F: The Fathers noticed that Moses' inspection and blessing echo God seeing all He had made and calling it very good: the tabernacle is a new creation, a small world where God dwells. The priestly garments were read as the virtues with which the soul must be clothed.
-FN: De Vaders merkten op dat Mozes' inspectie en zegen weerklinken in God die alles zag wat Hij gemaakt had en het zeer goed noemde: de tabernakel is een nieuwe schepping, een kleine wereld waarin God woont. De priesterkleren werden gelezen als de deugden waarmee de ziel bekleed moet worden.
+FN: De kerkvaders merkten op dat Mozes' inspectie en zegen weerklinken in God die alles zag wat Hij gemaakt had en het zeer goed noemde: de tabernakel is een nieuwe schepping, een kleine wereld waarin God woont. De priesterkleren werden gelezen als de deugden waarmee de ziel bekleed moet worden.
 T: Obedience; Completion; Blessing
 TN: Gehoorzaamheid; Voltooiing; Zegen
 
@@ -196,6 +196,6 @@ SN: Op de eerste dag van de eerste maand van het tweede jaar richt Mozes de tabe
 M: Exodus ends not with the land but with God dwelling among His people. A nation of slaves has become a people that journeys with God in its midst.
 MN: Exodus eindigt niet met het land, maar met God die onder Zijn volk woont. Een volk van slaven is een volk geworden dat met God in zijn midden onderweg is.
 F: St John writes that the Word became flesh and pitched His tent among us, and we beheld His glory: the Fathers saw the tabernacle filled with glory fulfilled in the Incarnation, and again in the Church and in every believer who becomes a temple of the Holy Spirit. The cloud that overshadows the tent was linked with the Spirit overshadowing the Virgin.
-FN: De heilige Johannes schrijft dat het Woord vlees werd en Zijn tent onder ons opsloeg, en wij aanschouwden Zijn heerlijkheid: de Vaders zagen de met heerlijkheid gevulde tabernakel vervuld in de menswording, en opnieuw in de Kerk en in elke gelovige die een tempel van de Heilige Geest wordt. De wolk die de tent overschaduwt, werd verbonden met de Geest die de Maagd overschaduwde.
+FN: De heilige Johannes schrijft dat het Woord vlees werd en Zijn tent onder ons opsloeg, en wij aanschouwden Zijn heerlijkheid: de kerkvaders zagen de met heerlijkheid gevulde tabernakel vervuld in de menswording, en opnieuw in de Kerk en in elke gelovige die een tempel van de Heilige Geest wordt. De wolk die de tent overschaduwt, werd verbonden met de Geest die de Maagd overschaduwde.
 T: Glory; God dwelling with us; Journeying with God
 TN: Heerlijkheid; God die bij ons woont; Onderweg met God
