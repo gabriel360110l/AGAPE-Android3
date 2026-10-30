@@ -6,7 +6,7 @@ SN: Tobit, uit de stam Naftali, wordt in de dagen van Salmanassar, de koning van
 M: Faithfulness does not depend on circumstances. In exile, Tobit keeps God's law, gives to the poor and honours the dead, even at great personal risk.
 MN: Trouw hangt niet af van omstandigheden. In ballingschap houdt Tobit Gods wet, geeft aan de armen en eert de doden, zelfs met groot persoonlijk risico.
 F: The Fathers held up Tobit as a model of the righteous layman living faithfully among unbelievers. Christian tradition counts burying the dead among the works of mercy, following his example, and St Ambrose wrote a treatise, On Tobit, which takes Tobit's generosity as the starting point for teaching against usury and greed.
-FN: De Vaders stelden Tobit voor als voorbeeld van de rechtvaardige leek die trouw leeft onder ongelovigen. De christelijke traditie rekent het begraven van de doden tot de werken van barmhartigheid, naar zijn voorbeeld, en de heilige Ambrosius schreef een verhandeling, Over Tobit, die de vrijgevigheid van Tobit als uitgangspunt neemt voor onderwijs tegen woeker en hebzucht.
+FN: De kerkvaders stelden Tobit voor als voorbeeld van de rechtvaardige leek die trouw leeft onder ongelovigen. De christelijke traditie rekent het begraven van de doden tot de werken van barmhartigheid, naar zijn voorbeeld, en de heilige Ambrosius schreef een verhandeling, Over Tobit, die de vrijgevigheid van Tobit als uitgangspunt neemt voor onderwijs tegen woeker en hebzucht.
 T: Faithful in exile; Works of mercy; Burying the dead
 TN: Trouw in ballingschap; Werken van barmhartigheid; De doden begraven
 
@@ -16,7 +16,7 @@ SN: Op het Pinksterfeest wordt een goede maaltijd voor Tobit klaargemaakt, en hi
 M: The righteous man suffers, not because of sin, but in the very course of doing good. Even his wife's words wound him.
 MN: De rechtvaardige lijdt, niet vanwege zonde, maar juist terwijl hij goed doet. Zelfs de woorden van zijn vrouw verwonden hem.
 F: The Fathers compared Tobit with Job: a righteous man tested by suffering and mocked by those closest to him, so that his patience might be revealed. St Augustine recalls that Tobit, though his bodily eyes were blinded, still taught his son the way of life, seeing with the inner light.
-FN: De Vaders vergeleken Tobit met Job: een rechtvaardige die door lijden beproefd en door zijn naasten bespot wordt, opdat zijn geduld openbaar zou worden. De heilige Augustinus herinnert eraan dat Tobit, hoewel zijn lichamelijke ogen blind waren, zijn zoon nog de weg van het leven leerde, ziende met het innerlijke licht.
+FN: De kerkvaders vergeleken Tobit met Job: een rechtvaardige die door lijden beproefd en door zijn naasten bespot wordt, opdat zijn geduld openbaar zou worden. De heilige Augustinus herinnert eraan dat Tobit, hoewel zijn lichamelijke ogen blind waren, zijn zoon nog de weg van het leven leerde, ziende met het innerlijke licht.
 T: Suffering of the righteous; Patience; Mockery
 TN: Lijden van de rechtvaardige; Geduld; Spot
 
@@ -26,7 +26,7 @@ SN: Bedroefd van geest weent Tobit en bidt: U bent rechtvaardig, Heer, en al Uw 
 M: Two people in despair, far apart, pray on the same day, and God answers both with one plan. Sarah turns from suicide to prayer.
 MN: Twee mensen in wanhoop, ver van elkaar, bidden op dezelfde dag, en God beantwoordt beiden met één plan. Sara keert zich af van zelfdoding en wendt zich tot gebed.
 F: The Fathers marvelled at the providence that wove two prayers into one answer, teaching that no prayer is lost before God. Sarah's turn from despair to prayer was held up as an example for all who are tempted to end their lives: the way out of despair is to bring it before God.
-FN: De Vaders verwonderden zich over de voorzienigheid die twee gebeden tot één antwoord samenweefde, wat leert dat geen gebed bij God verloren gaat. De ommekeer van Sara van wanhoop naar gebed werd voorgesteld als voorbeeld voor allen die in de verleiding komen een einde aan hun leven te maken: de uitweg uit de wanhoop is die voor God te brengen.
+FN: De kerkvaders verwonderden zich over de voorzienigheid die twee gebeden tot één antwoord samenweefde, wat leert dat geen gebed bij God verloren gaat. De ommekeer van Sara van wanhoop naar gebed werd voorgesteld als voorbeeld voor allen die in de verleiding komen een einde aan hun leven te maken: de uitweg uit de wanhoop is die voor God te brengen.
 T: Prayer in despair; Providence; Healing sent
 TN: Gebed in wanhoop; Voorzienigheid; Genezing gezonden
 
@@ -36,7 +36,7 @@ SN: Tobit herinnert zich geld dat hij bij Gabaël in Medië in bewaring heeft ge
 M: A dying father passes on his faith as practical wisdom: honour, prayer, generosity, justice and humility. Giving is measured by what one has, not by an absolute amount.
 MN: Een vader die meent te sterven, geeft zijn geloof door als praktische wijsheid: eer, gebed, vrijgevigheid, gerechtigheid en nederigheid. Geven wordt gemeten naar wat men heeft, niet naar een absoluut bedrag.
 F: St Polycarp, in his letter to the Philippians, quotes this book: 'almsgiving delivers from death'. The saying 'what you hate, do not do to anyone' also appears in the Didache and was seen as the Golden Rule, which Christ gives in its positive form. The Fathers loved this chapter as a model of how parents should pass on the faith to their children.
-FN: De heilige Polycarpus citeert dit boek in zijn brief aan de Filippenzen: 'aalmoezen redden van de dood'. De uitspraak 'wat u haat, doe dat niemand aan' komt ook voor in de Didache en werd gezien als de gulden regel, die Christus in positieve vorm geeft. De Vaders hielden van dit hoofdstuk als voorbeeld van hoe ouders het geloof aan hun kinderen doorgeven.
+FN: De heilige Polycarpus citeert dit boek in zijn brief aan de Filippenzen: 'aalmoezen redden van de dood'. De uitspraak 'wat u haat, doe dat niemand aan' komt ook voor in de Didache en werd gezien als de gulden regel, die Christus in positieve vorm geeft. De kerkvaders hielden van dit hoofdstuk als voorbeeld van hoe ouders het geloof aan hun kinderen doorgeven.
 T: Passing on the faith; Almsgiving; The Golden Rule
 TN: Het geloof doorgeven; Aalmoezen; De gulden regel
 
@@ -46,7 +46,7 @@ SN: Tobias vraagt hoe hij het geld kan krijgen, omdat Gabaël hem niet kent en h
 M: God's help often comes hidden, in an ordinary companion on the road. Tobit's blessing, 'may His angel go with you', becomes literally true.
 MN: Gods hulp komt vaak verborgen, in een gewone metgezel onderweg. De zegen van Tobit, 'moge Zijn engel met u meegaan', wordt letterlijk waar.
 F: The Fathers read Raphael's hidden companionship as an image of the guardian angel given to each believer, who guides us unseen. Raphael, whose name means 'God heals', is honoured with Michael and Gabriel among the archangels, and travellers have long prayed to God for the company of His angel, as Tobit did.
-FN: De Vaders lazen het verborgen gezelschap van Rafaël als een beeld van de beschermengel die aan elke gelovige gegeven is en ons ongezien leidt. Rafaël, wiens naam 'God geneest' betekent, wordt met Michaël en Gabriël onder de aartsengelen geëerd, en reizigers bidden al lang tot God om het gezelschap van Zijn engel, zoals Tobit deed.
+FN: De kerkvaders lazen het verborgen gezelschap van Rafaël als een beeld van de beschermengel die aan elke gelovige gegeven is en ons ongezien leidt. Rafaël, wiens naam 'God geneest' betekent, wordt met Michaël en Gabriël onder de aartsengelen geëerd, en reizigers bidden al lang tot God om het gezelschap van Zijn engel, zoals Tobit deed.
 T: Hidden help; Guardian angels; A mother's love
 TN: Verborgen hulp; Beschermengelen; De liefde van een moeder
 
@@ -76,7 +76,7 @@ SN: Wanneer zij klaar zijn met eten, wordt Tobias naar de bruidskamer gebracht. 
 M: The young couple begin their marriage with prayer, thanksgiving for God's design and a pure intention. The grave prepared in fear is not needed.
 MN: Het jonge paar begint hun huwelijk met gebed, dank voor Gods plan en een zuivere bedoeling. Het graf dat in angst gegraven werd, is niet nodig.
 F: The prayer of Tobias and Sarah, recalling God's creation of man and woman, is offered as a reading at Catholic weddings and has long been loved as a model of Christian marriage: entered with prayer, with a pure intention, and with the hope of growing old together under God's mercy. The Fathers saw in the binding of the demon by the angel the power of prayer over evil.
-FN: Het gebed van Tobias en Sara, dat herinnert aan Gods schepping van man en vrouw, wordt bij katholieke huwelijken als lezing gebruikt en is lang geliefd als voorbeeld van het christelijk huwelijk: aangegaan met gebed, met een zuivere bedoeling, en met de hoop samen oud te worden onder Gods barmhartigheid. De Vaders zagen in het binden van de demon door de engel de kracht van het gebed over het kwaad.
+FN: Het gebed van Tobias en Sara, dat herinnert aan Gods schepping van man en vrouw, wordt bij katholieke huwelijken als lezing gebruikt en is lang geliefd als voorbeeld van het christelijk huwelijk: aangegaan met gebed, met een zuivere bedoeling, en met de hoop samen oud te worden onder Gods barmhartigheid. De kerkvaders zagen in het binden van de demon door de engel de kracht van het gebed over het kwaad.
 T: Marriage begun in prayer; Pure intention; Victory over evil
 TN: Huwelijk begonnen met gebed; Zuivere bedoeling; Overwinning op het kwaad
 
@@ -116,7 +116,7 @@ SN: Tobit en Tobias willen de gids de helft geven van alles wat meegebracht is. 
 M: The angel reveals that heaven was present all along: their prayers and good deeds were seen and brought before God. Thanksgiving and testimony are the fitting response.
 MN: De engel onthult dat de hemel er al die tijd bij was: hun gebeden en goede daden werden gezien en voor God gebracht. Dankzegging en getuigenis zijn het passende antwoord.
 F: The Fathers drew from this chapter the teaching that angels present the prayers of the saints before God, as the Book of Revelation also shows the seven angels before God and the incense of the prayers of the saints. 'Prayer with fasting and almsgiving' was taken as the threefold pattern of Christian devotion that Christ also teaches in the Sermon on the Mount. Raphael is honoured among the archangels in the Church's calendar.
-FN: De Vaders ontleenden aan dit hoofdstuk het onderwijs dat engelen de gebeden van de heiligen voor God brengen, zoals ook het boek Openbaring de zeven engelen voor God toont en het reukwerk van de gebeden van de heiligen. 'Gebed met vasten en aalmoezen' werd opgevat als het drievoudige patroon van christelijke vroomheid dat Christus ook in de Bergrede onderwijst. Rafaël wordt in de kalender van de Kerk onder de aartsengelen geëerd.
+FN: De kerkvaders ontleenden aan dit hoofdstuk het onderwijs dat engelen de gebeden van de heiligen voor God brengen, zoals ook het boek Openbaring de zeven engelen voor God toont en het reukwerk van de gebeden van de heiligen. 'Gebed met vasten en aalmoezen' werd opgevat als het drievoudige patroon van christelijke vroomheid dat Christus ook in de Bergrede onderwijst. Rafaël wordt in de kalender van de Kerk onder de aartsengelen geëerd.
 T: Angels present our prayers; Prayer, fasting and almsgiving; Thanksgiving
 TN: Engelen brengen onze gebeden; Gebed, vasten en aalmoezen; Dankzegging
 
@@ -126,7 +126,7 @@ SN: Tobit schrijft een gebed van vreugde: geloofd zij God die eeuwig leeft, en g
 M: Tobit's personal story becomes a hymn about all Israel: exile is not the end, and God will gather His people and draw the nations to Jerusalem.
 MN: Het persoonlijke verhaal van Tobit wordt een lofzang over heel Israël: ballingschap is niet het einde, en God zal Zijn volk verzamelen en de volken naar Jeruzalem trekken.
 F: The Fathers saw Tobit's vision of a Jerusalem built of sapphires and precious stones fulfilled in the heavenly Jerusalem of Revelation, whose foundations are adorned with every precious stone. 'He leads down to Hades and brings up again' was read in the light of Christ's descent into Hades and resurrection.
-FN: De Vaders zagen het visioen van Tobit van een Jeruzalem gebouwd van saffier en edelstenen vervuld in het hemelse Jeruzalem van de Openbaring, waarvan de fundamenten versierd zijn met allerlei edelstenen. 'Hij voert neer naar het dodenrijk en brengt weer omhoog' werd gelezen in het licht van de nederdaling van Christus in het dodenrijk en Zijn opstanding.
+FN: De kerkvaders zagen het visioen van Tobit van een Jeruzalem gebouwd van saffier en edelstenen vervuld in het hemelse Jeruzalem van de Openbaring, waarvan de fundamenten versierd zijn met allerlei edelstenen. 'Hij voert neer naar het dodenrijk en brengt weer omhoog' werd gelezen in het licht van de nederdaling van Christus in het dodenrijk en Zijn opstanding.
 T: Praise in exile; God afflicts and shows mercy; The new Jerusalem
 TN: Lof in ballingschap; God beproeft en ontfermt Zich; Het nieuwe Jeruzalem
 
@@ -136,6 +136,6 @@ SN: Tobit sterft in vrede op hoge leeftijd, nadat hij zijn overige jaren aalmoez
 M: A life of faithfulness ends in peace, and its last words point beyond itself: to God's mercy on His people and to the conversion of the nations.
 MN: Een leven van trouw eindigt in vrede, en de laatste woorden wijzen voorbij zichzelf: naar Gods barmhartigheid over Zijn volk en de bekering van de volken.
 F: The Fathers saw Tobit's prophecy that the nations would turn to the true God and bury their idols fulfilled in the spread of the Gospel. They held up his death in peace and the faithful life of Tobias as proof that the way of truth, mercy and almsgiving, followed through trials, ends in blessing.
-FN: De Vaders zagen de profetie van Tobit dat de volken zich tot de ware God zouden bekeren en hun afgoden begraven, vervuld in de verspreiding van het Evangelie. Zij stelden zijn dood in vrede en het trouwe leven van Tobias voor als bewijs dat de weg van waarheid, barmhartigheid en aalmoezen, gevolgd door beproevingen heen, eindigt in zegen.
+FN: De kerkvaders zagen de profetie van Tobit dat de volken zich tot de ware God zouden bekeren en hun afgoden begraven, vervuld in de verspreiding van het Evangelie. Zij stelden zijn dood in vrede en het trouwe leven van Tobias voor als bewijs dat de weg van waarheid, barmhartigheid en aalmoezen, gevolgd door beproevingen heen, eindigt in zegen.
 T: A peaceful death; The nations turn to God; Faithfulness rewarded
 TN: Een vredige dood; De volken keren zich tot God; Trouw beloond
