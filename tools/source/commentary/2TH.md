@@ -6,7 +6,7 @@ SN: Paulus dankt God dat het geloof van de Tessalonicenzen groeit en hun liefde 
 M: Suffering for Christ is not meaningless; God's justice will be revealed. Christ is glorified in His saints.
 MN: Lijden om Christus is niet zinloos; Gods rechtvaardigheid zal geopenbaard worden. Christus wordt verheerlijkt in Zijn heiligen.
 F: 'He will be glorified in His saints' was used by the Fathers to explain why the Church honours the saints: the glory given to them is the glory of Christ shining in them.
-FN: 'Hij zal verheerlijkt worden in Zijn heiligen' werd door de Vaders gebruikt om uit te leggen waarom de Kerk de heiligen eert: de eer die hun gegeven wordt, is de heerlijkheid van Christus die in hen straalt.
+FN: 'Hij zal verheerlijkt worden in Zijn heiligen' werd door de kerkvaders gebruikt om uit te leggen waarom de Kerk de heiligen eert: de eer die hun gegeven wordt, is de heerlijkheid van Christus die in hen straalt.
 T: Perseverance; Justice of God; Glory in the saints
 TN: Volharding; Gods rechtvaardigheid; Heerlijkheid in de heiligen
 
@@ -16,7 +16,7 @@ SN: Laat u niet van streek brengen door beweringen dat de dag van de Heer al gek
 M: Christians should be neither alarmed nor careless about the end. Apostolic Tradition, oral and written, keeps the Church steady.
 MN: Christenen moeten niet angstig en ook niet onverschillig zijn over het einde. De apostolische Traditie, mondeling en geschreven, houdt de Kerk stabiel.
 F: St Basil and other Fathers cite 2:15 for the unwritten traditions of the Church, received from the apostles alongside Scripture. The Fathers identified the 'man of lawlessness' with the Antichrist who will come before the end.
-FN: De heilige Basilius en andere Vaders halen 2:15 aan voor de ongeschreven overleveringen van de Kerk, naast de Schrift van de apostelen ontvangen. De Vaders vereenzelvigden de 'mens van de wetteloosheid' met de antichrist die vóór het einde zal komen.
+FN: De heilige Basilius en andere kerkvaders halen 2:15 aan voor de ongeschreven overleveringen van de Kerk, naast de Schrift van de apostelen ontvangen. De kerkvaders vereenzelvigden de 'mens van de wetteloosheid' met de antichrist die vóór het einde zal komen.
 T: Antichrist; Tradition; Steadfastness
 TN: Antichrist; Traditie; Standvastigheid
 
@@ -26,6 +26,6 @@ SN: Bid voor ons, opdat het woord van de Heer snel voortgaat, en dat wij verlost
 M: Waiting for the Lord does not mean abandoning daily work. Correction is given as to a brother, not an enemy.
 MN: Wachten op de Heer betekent niet het dagelijks werk opgeven. Terechtwijzing wordt gegeven als aan een broeder, niet aan een vijand.
 F: The monastic Fathers made manual labour part of the monastic rule from this chapter, uniting prayer and work.
-FN: De monastieke Vaders maakten op grond van dit hoofdstuk handenarbeid tot deel van de kloosterregel, en verbonden zo gebed en werk.
+FN: De monastieke kerkvaders maakten op grond van dit hoofdstuk handenarbeid tot deel van de kloosterregel, en verbonden zo gebed en werk.
 T: Work; Faithfulness of God; Peace
 TN: Werk; Gods trouw; Vrede

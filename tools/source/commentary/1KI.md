@@ -6,7 +6,7 @@ SN: Koning David is oud en kan niet warm worden. Zijn zoon Adonia verheft zich e
 M: The one who seizes power is set aside, and the one God chose is anointed. God's promise is kept through the faithfulness of a prophet and a mother.
 MN: Wie de macht grijpt, wordt opzijgezet, en wie God gekozen heeft, wordt gezalfd. Gods belofte wordt nagekomen door de trouw van een profeet en een moeder.
 F: The Fathers contrasted Adonijah, who exalted himself, with Solomon, who was chosen, as an illustration of 'whoever exalts himself will be humbled'. The anointing of Solomon by Zadok and Nathan has been sung at Christian coronations for centuries, and the Fathers saw Solomon, the son of David anointed king of peace, as a figure of Christ.
-FN: De Vaders stelden Adonia, die zichzelf verhief, tegenover Salomo, die gekozen werd, als illustratie van 'wie zichzelf verhoogt, zal vernederd worden'. De zalving van Salomo door Zadok en Nathan wordt al eeuwen gezongen bij christelijke kroningen, en de Vaders zagen Salomo, de zoon van David die tot koning van de vrede gezalfd werd, als een voorafbeelding van Christus.
+FN: De kerkvaders stelden Adonia, die zichzelf verhief, tegenover Salomo, die gekozen werd, als illustratie van 'wie zichzelf verhoogt, zal vernederd worden'. De zalving van Salomo door Zadok en Nathan wordt al eeuwen gezongen bij christelijke kroningen, en de kerkvaders zagen Salomo, de zoon van David die tot koning van de vrede gezalfd werd, als een voorafbeelding van Christus.
 T: Self-exaltation; God's choice; Anointing
 TN: Zelfverheffing; Gods keuze; Zalving
 
@@ -16,7 +16,7 @@ SN: Wanneer de tijd van David om te sterven nadert, geeft hij Salomo een opdrach
 M: David's last word is to keep God's law. The new reign begins with justice, but also with the hard politics of power.
 MN: Het laatste woord van David is Gods wet te houden. Het nieuwe koningschap begint met gerechtigheid, maar ook met de harde politiek van de macht.
 F: The Fathers praised David's charge, 'be strong and keep the charge of the Lord', as the testament of a father to his son and a model for every Christian parent and teacher. St Peter at Pentecost notes that David died and was buried, and his tomb is with us, while Christ, his descendant, did not see corruption.
-FN: De Vaders prezen de opdracht van David, 'wees sterk en neem de opdracht van de Heer in acht', als het testament van een vader aan zijn zoon en een voorbeeld voor elke christelijke ouder en leraar. De heilige Petrus merkt met Pinksteren op dat David gestorven en begraven is, en dat zijn graf bij ons is, terwijl Christus, zijn nakomeling, geen ontbinding zag.
+FN: De kerkvaders prezen de opdracht van David, 'wees sterk en neem de opdracht van de Heer in acht', als het testament van een vader aan zijn zoon en een voorbeeld voor elke christelijke ouder en leraar. De heilige Petrus merkt met Pinksteren op dat David gestorven en begraven is, en dat zijn graf bij ons is, terwijl Christus, zijn nakomeling, geen ontbinding zag.
 T: A father's charge; Death of David; Justice
 TN: De opdracht van een vader; De dood van David; Gerechtigheid
 
@@ -26,7 +26,7 @@ SN: Salomo heeft de Heer lief en wandelt in de inzettingen van zijn vader David.
 M: Solomon asks not for himself but for the ability to serve justly, and God gives more than he asked. True love would rather lose than destroy.
 MN: Salomo vraagt niet voor zichzelf, maar om het vermogen rechtvaardig te dienen, en God geeft meer dan hij vroeg. Ware liefde verliest liever dan dat zij vernietigt.
 F: Christ echoes this chapter: seek first the kingdom of God, and all these things will be added to you. St James writes: if any of you lacks wisdom, let him ask God, who gives generously. The Fathers praised Solomon's prayer as the model of asking for spiritual gifts, and saw in the true mother, ready to give up her child to save it, an image of self-giving love.
-FN: Christus weerspiegelt dit hoofdstuk: zoek eerst het koninkrijk van God, en al deze dingen zullen u erbij gegeven worden. De heilige Jakobus schrijft: als iemand van u wijsheid ontbreekt, laat hij die van God vragen, die royaal geeft. De Vaders prezen het gebed van Salomo als het voorbeeld van het vragen om geestelijke gaven, en zagen in de echte moeder, die bereid was haar kind af te staan om het te redden, een beeld van zelfgevende liefde.
+FN: Christus weerspiegelt dit hoofdstuk: zoek eerst het koninkrijk van God, en al deze dingen zullen u erbij gegeven worden. De heilige Jakobus schrijft: als iemand van u wijsheid ontbreekt, laat hij die van God vragen, die royaal geeft. De kerkvaders prezen het gebed van Salomo als het voorbeeld van het vragen om geestelijke gaven, en zagen in de echte moeder, die bereid was haar kind af te staan om het te redden, een beeld van zelfgevende liefde.
 T: Asking for wisdom; Discernment; Self-giving love
 TN: Om wijsheid vragen; Onderscheiding; Zelfgevende liefde
 
@@ -36,7 +36,7 @@ SN: De ambtenaren van Salomo worden genoemd: priesters, schrijvers, de legerover
 M: Peace and prosperity flow from wise and just rule. Wisdom embraces the whole of creation.
 MN: Vrede en voorspoed vloeien voort uit wijs en rechtvaardig bestuur. Wijsheid omvat de hele schepping.
 F: The Fathers saw Solomon's reign of peace, with everyone under his vine and fig tree, as a figure of the peace of Christ's kingdom, which the prophets Micah and Zechariah also describe with this image. His knowledge of trees and animals was taken as a sign that wisdom includes the study of creation.
-FN: De Vaders zagen het vrederijk van Salomo, met ieder onder zijn wijnstok en vijgenboom, als een voorafbeelding van de vrede van het koninkrijk van Christus, die de profeten Micha en Zacharia ook met dit beeld beschrijven. Zijn kennis van bomen en dieren werd gezien als een teken dat wijsheid ook de studie van de schepping omvat.
+FN: De kerkvaders zagen het vrederijk van Salomo, met ieder onder zijn wijnstok en vijgenboom, als een voorafbeelding van de vrede van het koninkrijk van Christus, die de profeten Micha en Zacharia ook met dit beeld beschrijven. Zijn kennis van bomen en dieren werd gezien als een teken dat wijsheid ook de studie van de schepping omvat.
 T: Peace; Wisdom; Prosperity
 TN: Vrede; Wijsheid; Voorspoed
 
@@ -46,7 +46,7 @@ SN: Hiram, de koning van Tyrus, altijd een vriend van David, zendt gezanten naar
 M: The temple is built in a time of peace, with the help of a foreign king. Many hands and gifts come together for God's house.
 MN: De tempel wordt gebouwd in een tijd van vrede, met de hulp van een buitenlandse koning. Veel handen en gaven komen samen voor Gods huis.
 F: The Fathers saw the cooperation of Hiram, a Gentile, in building the temple as a figure of the nations bringing their gifts into the Church. They noted that the temple, the house of peace, was built by the king of peace, as the Church is built by Christ, our peace.
-FN: De Vaders zagen de medewerking van Hiram, een heiden, aan de bouw van de tempel als een voorafbeelding van de volken die hun gaven in de Kerk binnenbrengen. Zij merkten op dat de tempel, het huis van de vrede, gebouwd werd door de koning van de vrede, zoals de Kerk gebouwd wordt door Christus, onze vrede.
+FN: De kerkvaders zagen de medewerking van Hiram, een heiden, aan de bouw van de tempel als een voorafbeelding van de volken die hun gaven in de Kerk binnenbrengen. Zij merkten op dat de tempel, het huis van de vrede, gebouwd werd door de koning van de vrede, zoals de Kerk gebouwd wordt door Christus, onze vrede.
 T: Building God's house; Peace; Gifts of the nations
 TN: Gods huis bouwen; Vrede; Gaven van de volken
 
@@ -56,7 +56,7 @@ SN: In het vierhonderdtachtigste jaar nadat Israël uit Egypte trok, in het vier
 M: The temple is built in silence and beauty, a dwelling for God in the midst of His people. God's presence depends on faithfulness, not on buildings alone.
 MN: De tempel wordt gebouwd in stilte en schoonheid, een woning voor God te midden van Zijn volk. Gods aanwezigheid hangt af van trouw, niet alleen van gebouwen.
 F: The Fathers loved the detail that no hammer was heard on the building site: the stones were shaped elsewhere and fitted together in silence, as believers are shaped in this life and fitted into the heavenly temple as living stones. They saw the temple decorated with cherubim, palms and flowers as an image of paradise restored.
-FN: De Vaders hielden van het detail dat er op de bouwplaats geen hamer gehoord werd: de stenen werden elders gevormd en in stilte samengevoegd, zoals gelovigen in dit leven gevormd worden en als levende stenen in de hemelse tempel ingevoegd. Zij zagen de tempel, versierd met cherubs, palmen en bloemen, als een beeld van het herstelde paradijs.
+FN: De kerkvaders hielden van het detail dat er op de bouwplaats geen hamer gehoord werd: de stenen werden elders gevormd en in stilte samengevoegd, zoals gelovigen in dit leven gevormd worden en als levende stenen in de hemelse tempel ingevoegd. Zij zagen de tempel, versierd met cherubs, palmen en bloemen, als een beeld van het herstelde paradijs.
 T: God's dwelling; Silence and beauty; Living stones
 TN: Gods woning; Stilte en schoonheid; Levende stenen
 
@@ -66,7 +66,7 @@ SN: Salomo bouwt dertien jaar aan zijn eigen huis, met het Huis van het Woud van
 M: Beauty and craftsmanship serve worship. The names of the pillars proclaim where the strength of God's house lies.
 MN: Schoonheid en vakmanschap dienen de eredienst. De namen van de zuilen verkondigen waar de kracht van Gods huis ligt.
 F: The Fathers noted that Solomon spent thirteen years on his own house and seven on God's, a warning against building one's own comfort more than God's dwelling. They read the bronze Sea for washing as a figure of the baptismal font, and the twelve oxen bearing it as the twelve apostles carrying baptism to the four corners of the world.
-FN: De Vaders merkten op dat Salomo dertien jaar aan zijn eigen huis besteedde en zeven aan dat van God, een waarschuwing om niet meer aan het eigen gemak te bouwen dan aan Gods woning. Zij lazen de koperen zee om zich te wassen als een voorafbeelding van de doopvont, en de twaalf runderen die haar droegen als de twaalf apostelen die de doop naar de vier hoeken van de wereld brachten.
+FN: De kerkvaders merkten op dat Salomo dertien jaar aan zijn eigen huis besteedde en zeven aan dat van God, een waarschuwing om niet meer aan het eigen gemak te bouwen dan aan Gods woning. Zij lazen de koperen zee om zich te wassen als een voorafbeelding van de doopvont, en de twaalf runderen die haar droegen als de twaalf apostelen die de doop naar de vier hoeken van de wereld brachten.
 T: Sacred art; The bronze Sea; Priorities
 TN: Gewijde kunst; De koperen zee; Prioriteiten
 
@@ -76,7 +76,7 @@ SN: Salomo verzamelt de oudsten, en de priesters brengen de ark van het verbond 
 M: The God whom heaven cannot contain chooses to dwell among His people. The temple is a house of prayer for repentant sinners and for foreigners.
 MN: De God die de hemel niet kan bevatten, kiest ervoor te wonen te midden van Zijn volk. De tempel is een huis van gebed voor berouwvolle zondaars en voor vreemdelingen.
 F: This chapter is read at the Vespers of the Entry of the Theotokos into the Temple: the Fathers saw the Virgin as the living temple filled with God's glory, who contained in her womb the One whom heaven cannot contain. The Church also reads it at the dedication of churches, and St John says the Word pitched His tent among us.
-FN: Dit hoofdstuk wordt gelezen in de vespers van het feest van de Intrede van de Moeder Gods in de Tempel: de Vaders zagen de Maagd als de levende tempel, vervuld met Gods heerlijkheid, die in haar schoot Hem droeg die de hemel niet kan bevatten. De Kerk leest het ook bij de wijding van kerken, en de heilige Johannes zegt dat het Woord Zijn tent onder ons opsloeg.
+FN: Dit hoofdstuk wordt gelezen in de vespers van het feest van de Intrede van de Moeder Gods in de Tempel: de kerkvaders zagen de Maagd als de levende tempel, vervuld met Gods heerlijkheid, die in haar schoot Hem droeg die de hemel niet kan bevatten. De Kerk leest het ook bij de wijding van kerken, en de heilige Johannes zegt dat het Woord Zijn tent onder ons opsloeg.
 T: God's glory; House of prayer; The Theotokos as temple
 TN: Gods heerlijkheid; Huis van gebed; De Moeder Gods als tempel
 
@@ -86,7 +86,7 @@ SN: De Heer verschijnt Salomo een tweede keer, zoals in Gibeon: Ik heb uw gebed 
 M: God's presence in the temple is a gift, but it does not guarantee protection to an unfaithful people. The promise is conditional on faithfulness.
 MN: Gods aanwezigheid in de tempel is een gave, maar garandeert geen bescherming voor een ontrouw volk. De belofte is afhankelijk van trouw.
 F: The Fathers read God's warning as a prophecy fulfilled when the temple was destroyed, first by Babylon and later by Rome, and as a lesson for Christians: churches and rites do not save without faith and holiness of life.
-FN: De Vaders lazen Gods waarschuwing als een profetie die vervuld werd toen de tempel verwoest werd, eerst door Babel en later door Rome, en als een les voor christenen: kerken en riten redden niet zonder geloof en heiligheid van leven.
+FN: De kerkvaders lazen Gods waarschuwing als een profetie die vervuld werd toen de tempel verwoest werd, eerst door Babel en later door Rome, en als een les voor christenen: kerken en riten redden niet zonder geloof en heiligheid van leven.
 T: Conditional promise; God's heart in His house; Warning
 TN: Voorwaardelijke belofte; Gods hart in Zijn huis; Waarschuwing
 
@@ -96,7 +96,7 @@ SN: De koningin van Scheba hoort van de roem van Salomo vanwege de naam van de H
 M: A foreign queen travels far to seek wisdom and ends in praise of Israel's God. The reality exceeds every report.
 MN: Een buitenlandse koningin reist ver om wijsheid te zoeken en eindigt in lof van de God van Israël. De werkelijkheid overtreft elk bericht.
 F: Christ says: the queen of the South came from the ends of the earth to hear the wisdom of Solomon, and behold, something greater than Solomon is here. The Fathers saw the queen of Sheba as the Church of the Gentiles coming to Christ, the true Wisdom, and her gifts as the gifts of the Magi. Ethiopian tradition holds her as its own queen.
-FN: Christus zegt: de koningin van het Zuiden kwam van de einden van de aarde om de wijsheid van Salomo te horen, en zie, hier is meer dan Salomo. De Vaders zagen de koningin van Scheba als de Kerk uit de heidenen die tot Christus komt, de ware Wijsheid, en haar gaven als de gaven van de Wijzen. De Ethiopische traditie beschouwt haar als haar eigen koningin.
+FN: Christus zegt: de koningin van het Zuiden kwam van de einden van de aarde om de wijsheid van Salomo te horen, en zie, hier is meer dan Salomo. De kerkvaders zagen de koningin van Scheba als de Kerk uit de heidenen die tot Christus komt, de ware Wijsheid, en haar gaven als de gaven van de Wijzen. De Ethiopische traditie beschouwt haar als haar eigen koningin.
 T: Seeking wisdom; Gentiles drawn to God; Something greater than Solomon
 TN: Wijsheid zoeken; Heidenen tot God getrokken; Meer dan Salomo
 
@@ -106,7 +106,7 @@ SN: Koning Salomo heeft veel buitenlandse vrouwen lief, en wanneer hij oud is, w
 M: The wisest king falls through a divided heart. Gifts do not protect against slow compromise; only wholehearted love of God does.
 MN: De wijste koning valt door een verdeeld hart. Gaven beschermen niet tegen langzaam compromis; alleen een volkomen liefde voor God doet dat.
 F: The Fathers, St Augustine and St Gregory the Great among them, used Solomon's fall as a sobering lesson: wisdom and great gifts do not guarantee perseverance, and one must watch to the end. They noted the contrast with his father David, who sinned gravely but repented with his whole heart.
-FN: De Vaders, onder wie de heilige Augustinus en de heilige Gregorius de Grote, gebruikten de val van Salomo als een ontnuchterende les: wijsheid en grote gaven garanderen geen volharding, en men moet waakzaam blijven tot het einde. Zij merkten het contrast op met zijn vader David, die zwaar zondigde maar zich met heel zijn hart bekeerde.
+FN: De kerkvaders, onder wie de heilige Augustinus en de heilige Gregorius de Grote, gebruikten de val van Salomo als een ontnuchterende les: wijsheid en grote gaven garanderen geen volharding, en men moet waakzaam blijven tot het einde. Zij merkten het contrast op met zijn vader David, die zwaar zondigde maar zich met heel zijn hart bekeerde.
 T: A divided heart; Fall of the wise; Perseverance
 TN: Een verdeeld hart; De val van de wijze; Volharding
 
@@ -116,7 +116,7 @@ SN: Rehabeam, de zoon van Salomo, gaat naar Sichem om koning gemaakt te worden. 
 M: Arrogance divides a kingdom; servant leadership would have kept it. Political fear leads to religious corruption.
 MN: Arrogantie verdeelt een koninkrijk; dienend leiderschap zou het bewaard hebben. Politieke angst leidt tot religieuze verdorvenheid.
 F: The Fathers drew from the elders' counsel, 'be a servant to this people', the principle that Christ later taught: whoever would be great among you must be your servant. Jeroboam's calves were seen as the archetype of schism: dividing the people from the true place of worship for political reasons.
-FN: De Vaders ontleenden aan de raad van de oudsten, 'wees een dienaar van dit volk', het principe dat Christus later leerde: wie onder u groot wil zijn, moet uw dienaar zijn. De kalveren van Jerobeam werden gezien als het oerbeeld van scheuring: het volk scheiden van de ware plaats van aanbidding om politieke redenen.
+FN: De kerkvaders ontleenden aan de raad van de oudsten, 'wees een dienaar van dit volk', het principe dat Christus later leerde: wie onder u groot wil zijn, moet uw dienaar zijn. De kalveren van Jerobeam werden gezien als het oerbeeld van scheuring: het volk scheiden van de ware plaats van aanbidding om politieke redenen.
 T: Servant leadership; Division; Schism and idolatry
 TN: Dienend leiderschap; Verdeeldheid; Scheuring en afgoderij
 
@@ -126,7 +126,7 @@ SN: Terwijl Jerobeam bij het altaar in Bethel staat om reukwerk te branden, roep
 M: Faithful in great things, the man of God is deceived in a small one. A clear word from God must not be set aside, even for a claimed new revelation.
 MN: Trouw in grote dingen, wordt de man Gods in een kleine zaak misleid. Een duidelijk woord van God mag niet terzijde geschoven worden, zelfs niet voor een beweerde nieuwe openbaring.
 F: The Fathers, St Paul's warning in mind, 'even if an angel from heaven should preach another gospel, let him be accursed', used this chapter to teach that no supposed revelation may contradict God's clear command. The prophecy of Josiah, fulfilled three centuries later, was cited as proof of true prophecy.
-FN: De Vaders, met de waarschuwing van de heilige Paulus in gedachten, 'zelfs als een engel uit de hemel een ander evangelie zou verkondigen, die zij vervloekt', gebruikten dit hoofdstuk om te leren dat geen vermeende openbaring Gods duidelijk gebod mag tegenspreken. De profetie over Josia, drie eeuwen later vervuld, werd aangehaald als bewijs van ware profetie.
+FN: De kerkvaders, met de waarschuwing van de heilige Paulus in gedachten, 'zelfs als een engel uit de hemel een ander evangelie zou verkondigen, die zij vervloekt', gebruikten dit hoofdstuk om te leren dat geen vermeende openbaring Gods duidelijk gebod mag tegenspreken. De profetie over Josia, drie eeuwen later vervuld, werd aangehaald als bewijs van ware profetie.
 T: Obedience; Deception; True prophecy
 TN: Gehoorzaamheid; Misleiding; Ware profetie
 
@@ -136,7 +136,7 @@ SN: De zoon van Jerobeam, Abia, wordt ziek, en Jerobeam stuurt zijn vrouw vermom
 M: No disguise can hide us from God. Glory lost through unfaithfulness is replaced by bronze imitations.
 MN: Geen vermomming kan ons voor God verbergen. Heerlijkheid die door ontrouw verloren gaat, wordt vervangen door koperen namaak.
 F: The Fathers noted that God saw the good in Jeroboam's child even in an evil house, and gave him an honourable death. Rehoboam's bronze shields replacing gold were read as an image of a faith that keeps outward appearances after losing its inner glory.
-FN: De Vaders merkten op dat God het goede zag in het kind van Jerobeam, zelfs in een slecht huis, en hem een eervolle dood gaf. De koperen schilden van Rehabeam in plaats van gouden werden gelezen als een beeld van een geloof dat de uiterlijke schijn bewaart nadat het zijn innerlijke glans verloren heeft.
+FN: De kerkvaders merkten op dat God het goede zag in het kind van Jerobeam, zelfs in een slecht huis, en hem een eervolle dood gaf. De koperen schilden van Rehabeam in plaats van gouden werden gelezen als een beeld van een geloof dat de uiterlijke schijn bewaart nadat het zijn innerlijke glans verloren heeft.
 T: God sees through disguise; Judgment; Lost glory
 TN: God ziet door vermomming heen; Oordeel; Verloren heerlijkheid
 
@@ -146,7 +146,7 @@ SN: Abiam regeert drie jaar in Juda en wandelt in de zonden van zijn vader, maar
 M: God keeps a lamp burning in Jerusalem for David's sake. Reform is real but often incomplete; even a good king may trust human alliances more than God.
 MN: God houdt omwille van David een lamp brandend in Jeruzalem. Hervorming is echt, maar vaak onvolledig; zelfs een goede koning kan meer op menselijke bondgenootschappen vertrouwen dan op God.
 F: The Fathers saw the 'lamp' kept in Jerusalem for David's sake as God's faithfulness preserving the line from which Christ would come. Asa's courage in removing even his grandmother's idol was praised as putting God above family ties.
-FN: De Vaders zagen de 'lamp' die omwille van David in Jeruzalem bewaard werd als Gods trouw die het geslacht bewaarde waaruit Christus zou komen. De moed van Asa om zelfs het afgodsbeeld van zijn grootmoeder te verwijderen, werd geprezen als het stellen van God boven familiebanden.
+FN: De kerkvaders zagen de 'lamp' die omwille van David in Jeruzalem bewaard werd als Gods trouw die het geslacht bewaarde waaruit Christus zou komen. De moed van Asa om zelfs het afgodsbeeld van zijn grootmoeder te verwijderen, werd geprezen als het stellen van God boven familiebanden.
 T: The lamp of David; Reform; Incomplete faithfulness
 TN: De lamp van David; Hervorming; Onvolledige trouw
 
@@ -156,7 +156,7 @@ SN: De profeet Jehu, de zoon van Hanani, kondigt het oordeel aan over Baësa. Ko
 M: Without God, power becomes a cycle of violence and short reigns. Ahab and Jezebel bring Baal worship into the heart of Israel.
 MN: Zonder God wordt macht een kringloop van geweld en korte regeringen. Achab en Izebel brengen de Baälsdienst in het hart van Israël.
 F: The Fathers saw in the rapid fall of Israel's kings the instability of power without God, and in Ahab and Jezebel the darkest moment that called forth the greatest prophet, Elijah. They noted the fulfilment of Joshua's word about Jericho as a sign that God's word does not fail.
-FN: De Vaders zagen in de snelle val van de koningen van Israël de instabiliteit van macht zonder God, en in Achab en Izebel het donkerste moment dat de grootste profeet voortbracht, Elia. Zij merkten de vervulling op van het woord van Jozua over Jericho als een teken dat Gods woord niet faalt.
+FN: De kerkvaders zagen in de snelle val van de koningen van Israël de instabiliteit van macht zonder God, en in Achab en Izebel het donkerste moment dat de grootste profeet voortbracht, Elia. Zij merkten de vervulling op van het woord van Jozua over Jericho als een teken dat Gods woord niet faalt.
 T: Instability of power; Idolatry; God's word fulfilled
 TN: Instabiliteit van de macht; Afgoderij; Gods woord vervuld
 
@@ -166,7 +166,7 @@ SN: Elia de Tisbiet zegt tegen Achab: zo waar de Heer, de God van Israël, leeft
 M: God feeds His prophet through ravens and a poor foreign widow. Her generosity in poverty is rewarded, and life returns to her son.
 MN: God voedt Zijn profeet door raven en een arme buitenlandse weduwe. Haar vrijgevigheid in armoede wordt beloond, en het leven keert terug naar haar zoon.
 F: Christ recalls in Nazareth that Elijah was sent to none of the widows of Israel but to a widow of Sidon, and the Fathers saw her as the Church of the Gentiles. St Ambrose and others saw the unfailing flour and oil as the Eucharist and the chrism of the Church. 'The Lord before whom I stand' was taken as the motto of a life lived in God's presence; Elijah is honoured by the Church as the angel in the flesh.
-FN: Christus herinnert er in Nazaret aan dat Elia naar geen van de weduwen van Israël werd gezonden, maar naar een weduwe in Sidon, en de Vaders zagen haar als de Kerk uit de heidenen. De heilige Ambrosius en anderen zagen het meel en de olie die niet opraakten als de Eucharistie en het chrisma van de Kerk. 'De Heer voor wiens aangezicht ik sta' werd genomen als het motto van een leven in Gods aanwezigheid; Elia wordt door de Kerk geëerd als de engel in het vlees.
+FN: Christus herinnert er in Nazaret aan dat Elia naar geen van de weduwen van Israël werd gezonden, maar naar een weduwe in Sidon, en de kerkvaders zagen haar als de Kerk uit de heidenen. De heilige Ambrosius en anderen zagen het meel en de olie die niet opraakten als de Eucharistie en het chrisma van de Kerk. 'De Heer voor wiens aangezicht ik sta' werd genomen als het motto van een leven in Gods aanwezigheid; Elia wordt door de Kerk geëerd als de engel in het vlees.
 T: God provides; Generosity in poverty; Raising the dead
 TN: God voorziet; Vrijgevigheid in armoede; Het opwekken van doden
 
@@ -176,7 +176,7 @@ SN: In het derde jaar zendt de Heer Elia naar Achab. Obadja, de hofmeester van A
 M: There can be no neutrality between the living God and idols. Persistent prayer brings both fire and rain.
 MN: Er is geen neutraliteit mogelijk tussen de levende God en de afgoden. Volhardend gebed brengt zowel vuur als regen.
 F: St James holds up Elijah, a man with a nature like ours, who prayed fervently and the heavens gave rain, as the model of effective prayer. The Fathers saw the fire falling on the water-soaked offering as a figure of the Holy Spirit descending in baptism, and later Christian tradition, especially in the West, saw the little cloud rising from the sea as the Theotokos, from whom came the rain of grace.
-FN: De heilige Jakobus stelt Elia voor, een mens met dezelfde natuur als wij, die vurig bad en de hemel gaf regen, als het voorbeeld van krachtig gebed. De Vaders zagen het vuur dat op het met water doordrenkte offer viel als een voorafbeelding van de Heilige Geest die in de doop neerdaalt, en de latere christelijke traditie, vooral in het Westen, zag de kleine wolk die uit de zee opsteeg als de Moeder Gods, uit wie de regen van de genade kwam.
+FN: De heilige Jakobus stelt Elia voor, een mens met dezelfde natuur als wij, die vurig bad en de hemel gaf regen, als het voorbeeld van krachtig gebed. De kerkvaders zagen het vuur dat op het met water doordrenkte offer viel als een voorafbeelding van de Heilige Geest die in de doop neerdaalt, en de latere christelijke traditie, vooral in het Westen, zag de kleine wolk die uit de zee opsteeg als de Moeder Gods, uit wie de regen van de genade kwam.
 T: Decision for God; Fire from heaven; Persistent prayer
 TN: Kiezen voor God; Vuur uit de hemel; Volhardend gebed
 
@@ -186,7 +186,7 @@ SN: Izebel bedreigt het leven van Elia, en hij vlucht naar Berseba en gaat een d
 M: After his greatest victory the prophet falls into despair, and God cares for him with food, rest and a gentle word. God is found not in spectacle but in quiet.
 MN: Na zijn grootste overwinning valt de profeet in wanhoop, en God zorgt voor hem met voedsel, rust en een zacht woord. God wordt niet gevonden in spektakel maar in stilte.
 F: The Fathers saw the bread brought by the angel, which strengthened Elijah for forty days, as a figure of the Eucharist, the food for the journey to God's mountain; Elijah's forty-day fast became a model for Lent. The 'still small voice' became for St Gregory the Great and the hesychast tradition the image of God's presence in contemplative stillness. St Paul cites the seven thousand faithful as the remnant chosen by grace.
-FN: De Vaders zagen het brood dat de engel bracht en dat Elia veertig dagen sterkte, als een voorafbeelding van de Eucharistie, het voedsel voor de tocht naar de berg van God; de veertigdaagse vasten van Elia werd een voorbeeld voor de Grote Vasten. De 'stem van een zachte stilte' werd voor de heilige Gregorius de Grote en de hesychastische traditie het beeld van Gods aanwezigheid in beschouwende stilte. De heilige Paulus noemt de zevenduizend trouwen als de rest die door genade verkozen is.
+FN: De kerkvaders zagen het brood dat de engel bracht en dat Elia veertig dagen sterkte, als een voorafbeelding van de Eucharistie, het voedsel voor de tocht naar de berg van God; de veertigdaagse vasten van Elia werd een voorbeeld voor de Grote Vasten. De 'stem van een zachte stilte' werd voor de heilige Gregorius de Grote en de hesychastische traditie het beeld van Gods aanwezigheid in beschouwende stilte. De heilige Paulus noemt de zevenduizend trouwen als de rest die door genade verkozen is.
 T: Despair and care; The still small voice; Food for the journey
 TN: Wanhoop en zorg; De stem van een zachte stilte; Voedsel voor onderweg
 
@@ -196,7 +196,7 @@ SN: Ben-Hadad van Syrië belegert Samaria met tweeëndertig koningen en stelt bu
 M: God shows His power even to an unfaithful king, yet Ahab uses God's victory for his own political ends. God is Lord of all places.
 MN: God toont Zijn macht zelfs aan een ontrouwe koning, maar Achab gebruikt Gods overwinning voor zijn eigen politieke doeleinden. God is Heer over alle plaatsen.
 F: The Fathers drew from 'God of the hills, not of the valleys' a lesson against limiting God's power to certain places or circumstances: He is Lord everywhere. They noted that, like David with Nathan, Ahab was led to condemn himself through a parable, but unlike David he did not repent.
-FN: De Vaders trokken uit 'God van de bergen, niet van de dalen' een les tegen het beperken van Gods macht tot bepaalde plaatsen of omstandigheden: Hij is overal Heer. Zij merkten op dat Achab, zoals David bij Nathan, door een gelijkenis ertoe gebracht werd zichzelf te veroordelen, maar dat hij zich, anders dan David, niet bekeerde.
+FN: De kerkvaders trokken uit 'God van de bergen, niet van de dalen' een les tegen het beperken van Gods macht tot bepaalde plaatsen of omstandigheden: Hij is overal Heer. Zij merkten op dat Achab, zoals David bij Nathan, door een gelijkenis ertoe gebracht werd zichzelf te veroordelen, maar dat hij zich, anders dan David, niet bekeerde.
 T: God's power everywhere; Misused victory; No repentance
 TN: Gods macht overal; Misbruikte overwinning; Geen bekering
 
@@ -206,7 +206,7 @@ SN: Naboth uit Jizreël heeft een wijngaard naast het paleis van Achab. Achab bi
 M: Greed and abuse of power kill an innocent man under the cover of religion and law. Yet even Ahab's late humility is noticed by God.
 MN: Hebzucht en machtsmisbruik doden een onschuldige man onder de dekmantel van religie en recht. Toch merkt God zelfs de late nederigheid van Achab op.
 F: St Ambrose wrote a whole treatise, On Naboth, using this chapter to denounce the greed of the rich who take the land and goods of the poor: Naboth's story, he says, is ancient in time but daily in practice. The Fathers marvelled that God showed mercy even to Ahab's brief repentance, a sign of His readiness to forgive.
-FN: De heilige Ambrosius schreef een hele verhandeling, Over Naboth, waarin hij dit hoofdstuk gebruikte om de hebzucht van de rijken aan te klagen die het land en de goederen van de armen nemen: het verhaal van Naboth, zegt hij, is oud in tijd maar dagelijks in de praktijk. De Vaders verwonderden zich erover dat God zelfs barmhartigheid toonde voor het korte berouw van Achab, een teken van Zijn bereidheid om te vergeven.
+FN: De heilige Ambrosius schreef een hele verhandeling, Over Naboth, waarin hij dit hoofdstuk gebruikte om de hebzucht van de rijken aan te klagen die het land en de goederen van de armen nemen: het verhaal van Naboth, zegt hij, is oud in tijd maar dagelijks in de praktijk. De kerkvaders verwonderden zich erover dat God zelfs barmhartigheid toonde voor het korte berouw van Achab, een teken van Zijn bereidheid om te vergeven.
 T: Greed; Abuse of power; Mercy for the repentant
 TN: Hebzucht; Machtsmisbruik; Barmhartigheid voor de berouwvolle
 
@@ -216,6 +216,6 @@ SN: Achab haalt Josafat, de koning van Juda, over om met hem tegen Ramoth in Gil
 M: The majority of prophets says what the king wants to hear; one faithful prophet speaks the truth at great cost. God's word cannot be escaped by disguise.
 MN: De meerderheid van de profeten zegt wat de koning wil horen; één trouwe profeet spreekt de waarheid tegen een hoge prijs. Aan Gods woord ontkomt men niet door vermomming.
 F: The Fathers held up Micaiah as the model of a true prophet and pastor, who speaks what God says rather than what pleases the powerful, and warned against flattering preachers. The image of the people 'scattered like sheep without a shepherd' is taken up by Christ, who has compassion on the crowds.
-FN: De Vaders stelden Micha voor als het voorbeeld van een ware profeet en herder, die spreekt wat God zegt en niet wat de machtigen behaagt, en waarschuwden tegen vleiende predikers. Het beeld van het volk 'verstrooid als schapen zonder herder' wordt opgenomen door Christus, die medelijden heeft met de menigte.
+FN: De kerkvaders stelden Micha voor als het voorbeeld van een ware profeet en herder, die spreekt wat God zegt en niet wat de machtigen behaagt, en waarschuwden tegen vleiende predikers. Het beeld van het volk 'verstrooid als schapen zonder herder' wordt opgenomen door Christus, die medelijden heeft met de menigte.
 T: True and false prophets; Courage to speak truth; Judgment fulfilled
 TN: Ware en valse profeten; Moed om de waarheid te spreken; Vervuld oordeel

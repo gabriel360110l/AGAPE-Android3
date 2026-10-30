@@ -6,7 +6,7 @@ SN: Nader, volken, om te horen; de Heer is toornig op alle volken. Heel het heer
 M: God's judgment on oppressive powers is certain and total. The world as we know it is not permanent; it will be rolled up like a scroll.
 MN: Gods oordeel over onderdrukkende machten is zeker en volledig. De wereld zoals wij die kennen is niet blijvend; zij zal opgerold worden als een boekrol.
 F: Revelation takes up the image of the sky rolled up like a scroll at the opening of the sixth seal. The Fathers read Edom, Esau's people, as a figure of all who oppose God's people, and the desolation as a warning about the end of every proud power.
-FN: Openbaring neemt het beeld op van de hemel die als een boekrol opgerold wordt bij het openen van het zesde zegel. De Vaders lazen Edom, het volk van Ezau, als een voorafbeelding van allen die zich tegen Gods volk keren, en de verwoesting als een waarschuwing over het einde van elke hoogmoedige macht.
+FN: Openbaring neemt het beeld op van de hemel die als een boekrol opgerold wordt bij het openen van het zesde zegel. De kerkvaders lazen Edom, het volk van Ezau, als een voorafbeelding van allen die zich tegen Gods volk keren, en de verwoesting als een waarschuwing over het einde van elke hoogmoedige macht.
 T: Final judgment; Edom; The passing world
 TN: Laatste oordeel; Edom; De voorbijgaande wereld
 
@@ -16,7 +16,7 @@ SN: De woestijn en het dorre land zullen blij zijn; de wildernis zal zich verheu
 M: God's coming transforms everything: deserts bloom, the disabled are healed, and the redeemed return home with singing.
 MN: Gods komst verandert alles: woestijnen bloeien, gehandicapten worden genezen, en de verlosten keren met gezang naar huis terug.
 F: When John the Baptist's disciples ask whether He is the one who is to come, Christ answers with this chapter: the blind see, the lame walk, the deaf hear. It is read in Advent in the West. The Fathers saw the blooming desert as the Gentile world made fruitful by the Gospel, and the Way of Holiness as Christ, the Way.
-FN: Wanneer de leerlingen van Johannes de Doper vragen of Hij degene is die komen zou, antwoordt Christus met dit hoofdstuk: blinden zien, kreupelen lopen, doven horen. Het wordt in het Westen in de advent gelezen. De Vaders zagen de bloeiende woestijn als de heidense wereld die door het Evangelie vruchtbaar werd, en de Heilige Weg als Christus, de Weg.
+FN: Wanneer de leerlingen van Johannes de Doper vragen of Hij degene is die komen zou, antwoordt Christus met dit hoofdstuk: blinden zien, kreupelen lopen, doven horen. Het wordt in het Westen in de advent gelezen. De kerkvaders zagen de bloeiende woestijn als de heidense wereld die door het Evangelie vruchtbaar werd, en de Heilige Weg als Christus, de Weg.
 T: Transformation; Healing; Joyful return
 TN: Verandering; Genezing; Vreugdevolle terugkeer
 
@@ -26,7 +26,7 @@ SN: In het veertiende jaar van koning Hizkia trekt Sanherib, de koning van Assyr
 M: The enemy's propaganda attacks trust in God itself. Silence can be the wisest answer to mockery.
 MN: De propaganda van de vijand valt het vertrouwen op God zelf aan. Zwijgen kan het wijste antwoord zijn op spot.
 F: The Fathers read the Rabshakeh's speech as a model of the tempter's voice, which tries to undermine trust in God by mockery and comparison. The people's silence was compared with Christ's silence before His accusers.
-FN: De Vaders lazen de toespraak van de Rabsake als een voorbeeld van de stem van de verleider, die het vertrouwen op God probeert te ondermijnen met spot en vergelijking. Het zwijgen van het volk werd vergeleken met het zwijgen van Christus voor Zijn aanklagers.
+FN: De kerkvaders lazen de toespraak van de Rabsake als een voorbeeld van de stem van de verleider, die het vertrouwen op God probeert te ondermijnen met spot en vergelijking. Het zwijgen van het volk werd vergeleken met het zwijgen van Christus voor Zijn aanklagers.
 T: Mockery of faith; Temptation; Silence
 TN: Spot met het geloof; Verleiding; Zwijgen
 
@@ -36,7 +36,7 @@ SN: Hizkia scheurt zijn kleren, trekt een rouwgewaad aan, gaat het huis van de H
 M: Hezekiah does the right thing in crisis: he goes to God's house, seeks the prophet's word, and spreads the threat before the Lord. God answers and saves.
 MN: Hizkia doet het juiste in de crisis: hij gaat naar Gods huis, zoekt het woord van de profeet en spreidt de dreiging uit voor de Heer. God antwoordt en redt.
 F: The Fathers held up Hezekiah spreading the letter before the Lord as a model of prayer: bring your troubles, written out, before God. The night deliverance by the angel was celebrated as one of the great saving acts, and the Church has long sung it as a sign of God's protection of His city.
-FN: De Vaders stelden Hizkia, die de brief voor de Heer uitspreidt, voor als voorbeeld van gebed: breng uw zorgen, uitgeschreven, voor God. De nachtelijke redding door de engel werd gevierd als een van de grote reddende daden, en de Kerk heeft haar lang bezongen als teken van Gods bescherming van Zijn stad.
+FN: De kerkvaders stelden Hizkia, die de brief voor de Heer uitspreidt, voor als voorbeeld van gebed: breng uw zorgen, uitgeschreven, voor God. De nachtelijke redding door de engel werd gevierd als een van de grote reddende daden, en de Kerk heeft haar lang bezongen als teken van Gods bescherming van Zijn stad.
 T: Prayer in crisis; God alone is God; Deliverance
 TN: Gebed in crisis; God alleen is God; Bevrijding
 
@@ -46,7 +46,7 @@ SN: Hizkia wordt ziek, dodelijk ziek, en Jesaja zegt hem: geef bevelen voor uw h
 M: Tears and prayer can move God's heart. Facing death teaches the value of life and the depth of God's forgiveness.
 MN: Tranen en gebed kunnen Gods hart bewegen. Oog in oog met de dood leert men de waarde van het leven en de diepte van Gods vergeving kennen.
 F: Hezekiah's song is sung as a canticle at morning prayer in the West and was among the biblical odes of the Greek Church. The Fathers drew from 'I have seen your tears' the power of tearful prayer, and from 'You have cast all my sins behind Your back' the completeness of God's forgiveness.
-FN: Het lied van Hizkia wordt in het Westen gezongen als canticum in het morgengebed en behoorde tot de bijbelse oden van de Griekse Kerk. De Vaders leerden uit 'Ik heb uw tranen gezien' de kracht van gebed met tranen, en uit 'U hebt al mijn zonden achter Uw rug geworpen' de volledigheid van Gods vergeving.
+FN: Het lied van Hizkia wordt in het Westen gezongen als canticum in het morgengebed en behoorde tot de bijbelse oden van de Griekse Kerk. De kerkvaders leerden uit 'Ik heb uw tranen gezien' de kracht van gebed met tranen, en uit 'U hebt al mijn zonden achter Uw rug geworpen' de volledigheid van Gods vergeving.
 T: Illness; Prayer with tears; Thanksgiving for life
 TN: Ziekte; Gebed met tranen; Dank voor het leven
 
@@ -56,7 +56,7 @@ SN: Merodach-Baladan, de koning van Babel, zendt gezanten met brieven en een ges
 M: After a great deliverance, Hezekiah's vanity exposes everything to a future enemy. Pride after grace is dangerous, and comfort for oneself can blind to the future of others.
 MN: Na een grote bevrijding stelt de ijdelheid van Hizkia alles bloot aan een toekomstige vijand. Hoogmoed na genade is gevaarlijk, en eigen gemak kan blind maken voor de toekomst van anderen.
 F: The Fathers used this chapter to warn against vainglory: what we display to win admiration we often lose. St John Cassian and others noted that showing off one's spiritual treasures to others is a way of losing them.
-FN: De Vaders gebruikten dit hoofdstuk om te waarschuwen tegen ijdele eer: wat wij tonen om bewondering te winnen, verliezen wij vaak. De heilige Johannes Cassianus en anderen merkten op dat het pronken met geestelijke schatten voor anderen een manier is om ze te verliezen.
+FN: De kerkvaders gebruikten dit hoofdstuk om te waarschuwen tegen ijdele eer: wat wij tonen om bewondering te winnen, verliezen wij vaak. De heilige Johannes Cassianus en anderen merkten op dat het pronken met geestelijke schatten voor anderen een manier is om ze te verliezen.
 T: Vainglory; Exile foretold; Short-sightedness
 TN: IJdele eer; Voorzegde ballingschap; Kortzichtigheid
 
@@ -76,7 +76,7 @@ SN: Zwijg voor Mij, eilanden. Wie heeft iemand uit het oosten opgewekt, die de o
 M: God's people, small as a worm, are held by His right hand. The idols cannot speak or act, but the Lord of history helps the poor.
 MN: Gods volk, klein als een worm, wordt vastgehouden door Zijn rechterhand. De afgoden kunnen niet spreken of handelen, maar de Heer van de geschiedenis helpt de armen.
 F: The Fathers loved 'fear not, for I am with you' as God's word to every believer in trial. St James calls Abraham 'the friend of God', taking up this chapter. The one stirred up from the east was read by some as Cyrus, by others as Abraham, and ultimately as Christ, the dayspring from on high.
-FN: De Vaders hielden van 'vrees niet, want Ik ben met u' als Gods woord tot elke gelovige in beproeving. De heilige Jakobus noemt Abraham 'de vriend van God', naar dit hoofdstuk. Degene die uit het oosten werd opgewekt, werd door sommigen gelezen als Cyrus, door anderen als Abraham, en uiteindelijk als Christus, de Opgang uit de hoogte.
+FN: De kerkvaders hielden van 'vrees niet, want Ik ben met u' als Gods woord tot elke gelovige in beproeving. De heilige Jakobus noemt Abraham 'de vriend van God', naar dit hoofdstuk. Degene die uit het oosten werd opgewekt, werd door sommigen gelezen als Cyrus, door anderen als Abraham, en uiteindelijk als Christus, de Opgang uit de hoogte.
 T: Fear not; God's right hand; Idols powerless
 TN: Vrees niet; Gods rechterhand; Machteloze afgoden
 
@@ -86,7 +86,7 @@ SN: Zie, Mijn Knecht, die Ik ondersteun, Mijn uitverkorene, in wie Mijn ziel een
 M: The Servant of the Lord brings justice not by force but by gentleness, sparing the bruised and the weak. He is a covenant and a light for all nations.
 MN: De Knecht van de Heer brengt recht niet met geweld maar met zachtmoedigheid, en spaart de geknakten en zwakken. Hij is een verbond en een licht voor alle volken.
 F: This is the first of the four Servant Songs. St Matthew quotes it in full of Jesus' gentle ministry, and the Father's voice at the baptism, 'My beloved, in whom I am well pleased', echoes its first verse. It is read in the West on the feast of the Baptism of the Lord. The Fathers loved the bruised reed and smoking wick as images of Christ's patience with weak souls.
-FN: Dit is het eerste van de vier Knechtsliederen. De heilige Matteüs citeert het volledig over de zachtmoedige bediening van Jezus, en de stem van de Vader bij de doop, 'Mijn geliefde, in wie Ik een welbehagen heb', weerspiegelt het eerste vers. Het wordt in het Westen gelezen op het feest van de Doop van de Heer. De Vaders hielden van het geknakte riet en de walmende vlaspit als beelden van het geduld van Christus met zwakke zielen.
+FN: Dit is het eerste van de vier Knechtsliederen. De heilige Matteüs citeert het volledig over de zachtmoedige bediening van Jezus, en de stem van de Vader bij de doop, 'Mijn geliefde, in wie Ik een welbehagen heb', weerspiegelt het eerste vers. Het wordt in het Westen gelezen op het feest van de Doop van de Heer. De kerkvaders hielden van het geknakte riet en de walmende vlaspit als beelden van het geduld van Christus met zwakke zielen.
 T: The Servant; Gentleness; Light to the nations
 TN: De Knecht; Zachtmoedigheid; Licht voor de volken
 
@@ -96,7 +96,7 @@ SN: Maar nu, zo zegt de Heer, die u geschapen heeft, Jakob: vrees niet, want Ik 
 M: Each person is known by name, precious and loved by God. He accompanies us through water and fire and makes all things new.
 MN: Ieder mens is bij naam gekend, kostbaar en geliefd bij God. Hij gaat met ons mee door water en vuur en maakt alle dingen nieuw.
 F: The Fathers read 'when you pass through the waters' of baptism, and 'when you walk through fire' of the three young men in the furnace and the martyrs. Many saw 'I have called you by name' fulfilled in the giving of a Christian name at baptism. 'Behold, I make all things new' in Revelation echoes 'I am doing a new thing'.
-FN: De Vaders lazen 'wanneer u door het water gaat' als de doop, en 'wanneer u door het vuur gaat' als de drie jongemannen in de oven en de martelaren. Velen zagen 'Ik heb u bij uw naam geroepen' vervuld in het geven van een christelijke naam bij de doop. 'Zie, Ik maak alle dingen nieuw' in Openbaring weerspiegelt 'Ik maak iets nieuws'.
+FN: De kerkvaders lazen 'wanneer u door het water gaat' als de doop, en 'wanneer u door het vuur gaat' als de drie jongemannen in de oven en de martelaren. Velen zagen 'Ik heb u bij uw naam geroepen' vervuld in het geven van een christelijke naam bij de doop. 'Zie, Ik maak alle dingen nieuw' in Openbaring weerspiegelt 'Ik maak iets nieuws'.
 T: Called by name; God's love; A new thing
 TN: Bij naam geroepen; Gods liefde; Iets nieuws
 
@@ -106,7 +106,7 @@ SN: Vrees niet, Jakob, Mijn knecht. Want Ik zal water gieten op het dorstige en 
 M: The living God pours out His Spirit and redeems, while idols are only pieces of wood. It is absurd to bow down to what our own hands have made.
 MN: De levende God giet Zijn Geest uit en verlost, terwijl afgoden slechts stukken hout zijn. Het is dwaas zich neer te buigen voor wat onze eigen handen gemaakt hebben.
 F: The Fathers read the outpouring of the Spirit on thirsty land as baptism and Pentecost, and 'this one will say: I am the Lord's' as the confession of the newly baptised. Revelation calls Christ 'the First and the Last'. The satire on idols was used by early Christian apologists against paganism.
-FN: De Vaders lazen de uitstorting van de Geest op dorstig land als doop en Pinksteren, en 'de een zal zeggen: ik ben van de Heer' als de belijdenis van de pasgedoopten. Openbaring noemt Christus 'de Eerste en de Laatste'. De spotrede over afgoden werd door vroegchristelijke apologeten gebruikt tegen het heidendom.
+FN: De kerkvaders lazen de uitstorting van de Geest op dorstig land als doop en Pinksteren, en 'de een zal zeggen: ik ben van de Heer' als de belijdenis van de pasgedoopten. Openbaring noemt Christus 'de Eerste en de Laatste'. De spotrede over afgoden werd door vroegchristelijke apologeten gebruikt tegen het heidendom.
 T: Outpouring of the Spirit; The First and the Last; Folly of idols
 TN: Uitstorting van de Geest; De Eerste en de Laatste; Dwaasheid van afgoden
 
@@ -126,7 +126,7 @@ SN: Bel zakt ineen; Nebo buigt zich; hun afgoden liggen op dieren en vee, lasten
 M: Idols must be carried by their worshippers; the living God carries His people from birth to old age.
 MN: Afgoden moeten door hun aanbidders gedragen worden; de levende God draagt Zijn volk van de geboorte tot de ouderdom.
 F: The Fathers loved the contrast between gods that must be carried and the God who carries, and saw it fulfilled in Christ the Good Shepherd, who carries the lost sheep on His shoulders. 'Even to grey hairs I will carry you' became a comfort for the elderly.
-FN: De Vaders hielden van het contrast tussen goden die gedragen moeten worden en de God die draagt, en zagen het vervuld in Christus de Goede Herder, die het verloren schaap op Zijn schouders draagt. 'Tot uw grijsheid zal Ik u dragen' werd een troost voor ouderen.
+FN: De kerkvaders hielden van het contrast tussen goden die gedragen moeten worden en de God die draagt, en zagen het vervuld in Christus de Goede Herder, die het verloren schaap op Zijn schouders draagt. 'Tot uw grijsheid zal Ik u dragen' werd een troost voor ouderen.
 T: God carries us; Idols as burdens; God's counsel
 TN: God draagt ons; Afgoden als lasten; Gods raad
 
@@ -136,7 +136,7 @@ SN: Daal af en ga in het stof zitten, jonkvrouw, dochter van Babel; zit op de gr
 M: Babylon, which said 'I am, and there is no one besides me', claims what belongs to God alone. Merciless pride falls into the dust.
 MN: Babel, dat zei 'ik ben het, en buiten mij is er niemand', eist op wat alleen God toekomt. Meedogenloze hoogmoed valt in het stof.
 F: Revelation takes up the fall of Babylon, who says in her heart 'I sit as a queen'. The Fathers read Babylon's arrogance and her trust in astrology as the spirit of the world, and they rejected astrology on the basis of chapters like this.
-FN: Openbaring neemt de val op van Babel, dat in haar hart zegt 'ik zit als een koningin'. De Vaders lazen de hoogmoed van Babel en haar vertrouwen op sterrenwichelarij als de geest van de wereld, en verwierpen de astrologie op grond van hoofdstukken als dit.
+FN: Openbaring neemt de val op van Babel, dat in haar hart zegt 'ik zit als een koningin'. De kerkvaders lazen de hoogmoed van Babel en haar vertrouwen op sterrenwichelarij als de geest van de wereld, en verwierpen de astrologie op grond van hoofdstukken als dit.
 T: Pride; Mercilessness; False security
 TN: Hoogmoed; Meedogenloosheid; Valse zekerheid
 
@@ -146,7 +146,7 @@ SN: Hoor dit, huis van Jakob, die zweert bij de naam van de Heer, maar niet in w
 M: God purifies His stubborn people through suffering, not to destroy them but to teach them. Obedience would have brought peace like a river.
 MN: God loutert Zijn koppige volk door lijden, niet om het te vernietigen maar om het te onderwijzen. Gehoorzaamheid zou vrede gebracht hebben als een rivier.
 F: The Fathers drew from 'I have tried you in the furnace of affliction' their teaching that suffering, accepted in faith, refines the soul. Revelation's call 'come out of her, My people' echoes 'go out from Babylon', which the Fathers read as leaving the worldly life for the Church.
-FN: De Vaders ontleenden aan 'Ik heb u beproefd in de smeltoven van ellende' hun onderwijs dat lijden, in geloof aanvaard, de ziel loutert. De oproep in Openbaring 'ga uit van haar, Mijn volk' weerspiegelt 'ga uit Babel', wat de Vaders lazen als het verlaten van het wereldse leven voor de Kerk.
+FN: De kerkvaders ontleenden aan 'Ik heb u beproefd in de smeltoven van ellende' hun onderwijs dat lijden, in geloof aanvaard, de ziel loutert. De oproep in Openbaring 'ga uit van haar, Mijn volk' weerspiegelt 'ga uit Babel', wat de kerkvaders lazen als het verlaten van het wereldse leven voor de Kerk.
 T: Refining; Obedience and peace; Leaving Babylon
 TN: Loutering; Gehoorzaamheid en vrede; Babel verlaten
 
@@ -156,7 +156,7 @@ SN: Luister naar Mij, eilanden: de Heer heeft Mij geroepen van de moederschoot a
 M: The Servant's mission seems to fail, yet God makes Him a light for all nations. God's love is more faithful than a mother's.
 MN: De zending van de Knecht lijkt te mislukken, maar God maakt Hem tot een licht voor alle volken. Gods liefde is trouwer dan die van een moeder.
 F: This second Servant Song is read in the West on the Nativity of St John the Baptist. Simeon's 'a light to enlighten the Gentiles' and St Paul's mission to the nations in Acts 13 both quote it, and St Paul applies 'now is the day of salvation' to the present time of grace. The Fathers saw the palms engraved with Zion's name as the wounded hands of Christ.
-FN: Dit tweede Knechtslied wordt in het Westen gelezen op het hoogfeest van de Geboorte van de heilige Johannes de Doper. Simeons 'een licht tot verlichting van de heidenen' en de zending van de heilige Paulus naar de volken in Handelingen 13 citeren het beide, en de heilige Paulus past 'nu is het de dag van het heil' toe op de huidige tijd van genade. De Vaders zagen de handpalmen waarin de naam van Sion gegraveerd is als de doorwonde handen van Christus.
+FN: Dit tweede Knechtslied wordt in het Westen gelezen op het hoogfeest van de Geboorte van de heilige Johannes de Doper. Simeons 'een licht tot verlichting van de heidenen' en de zending van de heilige Paulus naar de volken in Handelingen 13 citeren het beide, en de heilige Paulus past 'nu is het de dag van het heil' toe op de huidige tijd van genade. De kerkvaders zagen de handpalmen waarin de naam van Sion gegraveerd is als de doorwonde handen van Christus.
 T: The Servant's calling; Light to the nations; Love stronger than a mother's
 TN: De roeping van de Knecht; Licht voor de volken; Liefde sterker dan die van een moeder
 
@@ -166,7 +166,7 @@ SN: Zo zegt de Heer: waar is de scheidbrief van uw moeder? Zie, om uw ongerechti
 M: The Servant listens to God every morning and speaks a word to the weary. He accepts suffering without turning back, trusting that God will vindicate Him.
 MN: De Knecht luistert elke morgen naar God en spreekt een woord tot de vermoeiden. Hij aanvaardt het lijden zonder terug te deinzen, vertrouwend dat God Hem recht zal doen.
 F: This third Servant Song is read on Palm Sunday in the West and in Holy Week in the East. The Gospels show it fulfilled: Christ was struck, spat upon and mocked, and 'set His face to go to Jerusalem'. The Fathers took 'morning by morning He awakens My ear' as the model of daily listening prayer.
-FN: Dit derde Knechtslied wordt in het Westen op Palmzondag gelezen en in het Oosten in de Goede Week. De Evangeliën tonen het vervuld: Christus werd geslagen, bespuwd en bespot, en 'richtte Zijn gezicht vastberaden op Jeruzalem'. De Vaders namen 'elke morgen wekt Hij Mijn oor' als voorbeeld van dagelijks luisterend gebed.
+FN: Dit derde Knechtslied wordt in het Westen op Palmzondag gelezen en in het Oosten in de Goede Week. De Evangeliën tonen het vervuld: Christus werd geslagen, bespuwd en bespot, en 'richtte Zijn gezicht vastberaden op Jeruzalem'. De kerkvaders namen 'elke morgen wekt Hij Mijn oor' als voorbeeld van dagelijks luisterend gebed.
 T: The listening Servant; Suffering accepted; Trust in darkness
 TN: De luisterende Knecht; Aanvaard lijden; Vertrouwen in duisternis
 
@@ -176,7 +176,7 @@ SN: Luister naar Mij, u die de gerechtigheid najaagt: let op de rots waaruit u g
 M: Remembering our origins in God's call gives hope. The God of the exodus will comfort His people and take away the cup of suffering.
 MN: Het gedenken van onze oorsprong in Gods roeping geeft hoop. De God van de uittocht zal Zijn volk troosten en de beker van het lijden wegnemen.
 F: The Fathers saw the cup of wrath taken from Jerusalem's hand fulfilled when Christ, in Gethsemane, took that cup and drank it Himself. They read 'look to the rock from which you were hewn' as a call to remember our new birth from Christ, the Rock.
-FN: De Vaders zagen de beker van de grimmigheid, die uit de hand van Jeruzalem genomen wordt, vervuld toen Christus in Getsemane die beker nam en hem Zelf dronk. Zij lazen 'let op de rots waaruit u gehouwen bent' als een oproep om onze wedergeboorte uit Christus, de Rots, te gedenken.
+FN: De kerkvaders zagen de beker van de grimmigheid, die uit de hand van Jeruzalem genomen wordt, vervuld toen Christus in Getsemane die beker nam en hem Zelf dronk. Zij lazen 'let op de rots waaruit u gehouwen bent' als een oproep om onze wedergeboorte uit Christus, de Rots, te gedenken.
 T: Remembering origins; Comfort; The cup taken away
 TN: Gedenken van de oorsprong; Troost; De beker weggenomen
 
@@ -186,7 +186,7 @@ SN: Ontwaak, ontwaak, bekleed u met uw kracht, Sion; trek uw sierlijke kleren aa
 M: The messenger of good news brings the most beautiful message: your God reigns. The fourth Servant Song begins: the one who is marred will be exalted.
 MN: De boodschapper van goed nieuws brengt de mooiste boodschap: uw God is Koning. Het vierde Knechtslied begint: Hij die misvormd is, zal verhoogd worden.
 F: St Paul applies 'how beautiful are the feet of those who preach good news' to the apostles' preaching in Romans 10. The Byzantine services of the apostles echo it. The Fathers read the Servant 'high and lifted up' after being 'marred beyond human semblance' as the cross itself, where Christ is lifted up in glory and humiliation at once.
-FN: De heilige Paulus past 'hoe liefelijk zijn de voeten van wie goed nieuws verkondigen' toe op de prediking van de apostelen in Romeinen 10. De Byzantijnse diensten van de apostelen weerspiegelen het. De Vaders lazen de Knecht die 'verhoogd en verheven' wordt nadat Hij 'onherkenbaar misvormd' was, als het kruis zelf, waar Christus tegelijk in heerlijkheid en vernedering verhoogd wordt.
+FN: De heilige Paulus past 'hoe liefelijk zijn de voeten van wie goed nieuws verkondigen' toe op de prediking van de apostelen in Romeinen 10. De Byzantijnse diensten van de apostelen weerspiegelen het. De kerkvaders lazen de Knecht die 'verhoogd en verheven' wordt nadat Hij 'onherkenbaar misvormd' was, als het kruis zelf, waar Christus tegelijk in heerlijkheid en vernedering verhoogd wordt.
 T: Good news; Your God reigns; The exalted Servant
 TN: Goed nieuws; Uw God is Koning; De verhoogde Knecht
 
@@ -196,7 +196,7 @@ SN: Wie heeft geloofd wat wij gehoord hebben? Hij is als een jonge scheut voor Z
 M: The innocent Servant suffers in the place of the guilty, and His wounds heal us. This is the heart of the Gospel, written centuries before Christ.
 MN: De onschuldige Knecht lijdt in de plaats van de schuldigen, en Zijn wonden genezen ons. Dit is het hart van het Evangelie, eeuwen vóór Christus geschreven.
 F: Philip begins from this chapter to tell the Ethiopian eunuch the good news of Jesus. St Peter writes: by His wounds you have been healed. The Fathers called this chapter the Gospel of the Old Testament; St Augustine said it reads more like history than prophecy. It is read on Good Friday in the West and at Vespers of Holy Friday in the East.
-FN: Filippus begint bij dit hoofdstuk om de Ethiopische kamerheer het goede nieuws over Jezus te vertellen. De heilige Petrus schrijft: door Zijn striemen bent u genezen. De Vaders noemden dit hoofdstuk het Evangelie van het Oude Testament; de heilige Augustinus zei dat het meer leest als geschiedenis dan als profetie. Het wordt in het Westen op Goede Vrijdag gelezen en in het Oosten in de vespers van Goede Vrijdag.
+FN: Filippus begint bij dit hoofdstuk om de Ethiopische kamerheer het goede nieuws over Jezus te vertellen. De heilige Petrus schrijft: door Zijn striemen bent u genezen. De kerkvaders noemden dit hoofdstuk het Evangelie van het Oude Testament; de heilige Augustinus zei dat het meer leest als geschiedenis dan als profetie. Het wordt in het Westen op Goede Vrijdag gelezen en in het Oosten in de vespers van Goede Vrijdag.
 T: The Suffering Servant; Substitution; Healing by His wounds
 TN: De Lijdende Knecht; Plaatsvervanging; Genezing door Zijn striemen
 
@@ -206,7 +206,7 @@ SN: Juich, onvruchtbare, die niet gebaard hebt; breek uit in gejuich en jubel, u
 M: After the Servant's suffering comes fruitfulness. The forsaken bride becomes a mother of many, held by a love more lasting than mountains.
 MN: Na het lijden van de Knecht komt vruchtbaarheid. De verlaten bruid wordt moeder van velen, gedragen door een liefde die langer duurt dan de bergen.
 F: St Paul quotes 'Sing, O barren one' of the Jerusalem above, the mother of all believers. Christ quotes 'they shall all be taught by God'. The Fathers read the enlarged tent as the Church spreading to all nations; this chapter is read at the Easter Vigil in the West.
-FN: De heilige Paulus citeert 'Juich, onvruchtbare' over het Jeruzalem dat boven is, de moeder van alle gelovigen. Christus citeert 'zij zullen allen door God onderwezen worden'. De Vaders lazen de verwijde tent als de Kerk die zich over alle volken uitbreidt; dit hoofdstuk wordt in het Westen in de Paaswake gelezen.
+FN: De heilige Paulus citeert 'Juich, onvruchtbare' over het Jeruzalem dat boven is, de moeder van alle gelovigen. Christus citeert 'zij zullen allen door God onderwezen worden'. De kerkvaders lazen de verwijde tent als de Kerk die zich over alle volken uitbreidt; dit hoofdstuk wordt in het Westen in de Paaswake gelezen.
 T: Fruitfulness; Everlasting love; The Church enlarged
 TN: Vruchtbaarheid; Eeuwige liefde; De Kerk verbreed
 
@@ -216,7 +216,7 @@ SN: Kom, allen die dorst hebt, kom tot de wateren; en wie geen geld heeft, kom, 
 M: God's grace is free: come and receive without paying. His word is effective and His mercy beyond our understanding.
 MN: Gods genade is gratis: kom en ontvang zonder te betalen. Zijn woord is werkzaam en Zijn barmhartigheid gaat ons verstand te boven.
 F: The Fathers read the free water, wine and milk as baptism, the Eucharist and the teaching of the Church given without price. Christ's cry 'if anyone thirsts, let him come to Me and drink' echoes this chapter. It is read at the Easter Vigil in the West. 'My thoughts are not your thoughts' was used against those who measure God by human standards.
-FN: De Vaders lazen het gratis water, de wijn en de melk als de doop, de Eucharistie en het onderwijs van de Kerk, gegeven zonder prijs. De uitroep van Christus 'als iemand dorst heeft, laat hij tot Mij komen en drinken' weerspiegelt dit hoofdstuk. Het wordt in het Westen in de Paaswake gelezen. 'Mijn gedachten zijn niet uw gedachten' werd gebruikt tegen wie God naar menselijke maatstaven meten.
+FN: De kerkvaders lazen het gratis water, de wijn en de melk als de doop, de Eucharistie en het onderwijs van de Kerk, gegeven zonder prijs. De uitroep van Christus 'als iemand dorst heeft, laat hij tot Mij komen en drinken' weerspiegelt dit hoofdstuk. Het wordt in het Westen in de Paaswake gelezen. 'Mijn gedachten zijn niet uw gedachten' werd gebruikt tegen wie God naar menselijke maatstaven meten.
 T: Free grace; Seek the Lord; The effective word
 TN: Gratis genade; Zoek de Heer; Het werkzame woord
 
@@ -226,7 +226,7 @@ SN: Neem het recht in acht en doe gerechtigheid, want Mijn heil is nabij om te k
 M: God's house is open to those once excluded: foreigners and eunuchs. Faithfulness, not origin or condition, gives a place among His people.
 MN: Gods huis staat open voor wie eens uitgesloten waren: vreemdelingen en eunuchen. Trouw, niet afkomst of toestand, geeft een plaats onder Zijn volk.
 F: Christ quotes 'My house shall be called a house of prayer for all nations' when He cleanses the temple. The Fathers saw the promise to eunuchs fulfilled in the baptism of the Ethiopian eunuch and in all who give up marriage for the kingdom, receiving a name better than sons and daughters.
-FN: Christus citeert 'Mijn huis zal een huis van gebed genoemd worden voor alle volken' wanneer Hij de tempel reinigt. De Vaders zagen de belofte aan de eunuchen vervuld in de doop van de Ethiopische kamerheer en in allen die het huwelijk opgeven omwille van het koninkrijk en een naam ontvangen die beter is dan zonen en dochters.
+FN: Christus citeert 'Mijn huis zal een huis van gebed genoemd worden voor alle volken' wanneer Hij de tempel reinigt. De kerkvaders zagen de belofte aan de eunuchen vervuld in de doop van de Ethiopische kamerheer en in allen die het huwelijk opgeven omwille van het koninkrijk en een naam ontvangen die beter is dan zonen en dochters.
 T: Inclusion; House of prayer; Bad shepherds
 TN: Insluiting; Huis van gebed; Slechte herders
 
@@ -236,7 +236,7 @@ SN: De rechtvaardige komt om, en niemand neemt het ter harte; hij wordt weggenom
 M: The infinitely high God chooses to dwell with the humble and broken-hearted. Peace is offered to the far and the near alike.
 MN: De oneindig hoge God kiest ervoor te wonen bij de nederigen en gebrokenen van hart. Vrede wordt aangeboden aan wie veraf en wie dichtbij zijn.
 F: St Paul echoes 'peace to the far and to the near' in Ephesians 2: Christ is our peace, who made Jew and Gentile one. The Fathers loved 'I dwell with the contrite and lowly' as the promise that humility makes the soul a dwelling of God.
-FN: De heilige Paulus weerspiegelt 'vrede voor wie veraf en voor wie dichtbij is' in Efeziërs 2: Christus is onze vrede, die Jood en heiden één gemaakt heeft. De Vaders hielden van 'Ik woon bij de verbrijzelde en nederige' als de belofte dat nederigheid de ziel tot een woning van God maakt.
+FN: De heilige Paulus weerspiegelt 'vrede voor wie veraf en voor wie dichtbij is' in Efeziërs 2: Christus is onze vrede, die Jood en heiden één gemaakt heeft. De kerkvaders hielden van 'Ik woon bij de verbrijzelde en nederige' als de belofte dat nederigheid de ziel tot een woning van God maakt.
 T: God with the humble; Idolatry; Peace to all
 TN: God bij de nederigen; Afgoderij; Vrede voor allen
 
@@ -246,7 +246,7 @@ SN: Roep luid; houd niet in; maak Mijn volk zijn overtreding bekend. Zij zoeken 
 M: Fasting pleases God when it overflows into justice and generosity. Freeing the oppressed and feeding the hungry is the fast He chooses.
 MN: Vasten behaagt God wanneer het overvloeit in gerechtigheid en vrijgevigheid. De verdrukten bevrijden en de hongerigen voeden is het vasten dat Hij verkiest.
 F: In the West this chapter is read in the first days of Lent, and in the Byzantine rite during the Great Fast. The Fathers, St Basil and St John Chrysostom above all, preached that the true fast is abstaining from evil and giving to the poor what we save by fasting. Christ in Nazareth reads 'to let the oppressed go free' as part of His mission.
-FN: Dit hoofdstuk wordt in het Westen in de eerste dagen van de vasten gelezen, en in de Byzantijnse ritus tijdens de Grote Vasten. De Vaders, vooral de heilige Basilius en de heilige Johannes Chrysostomus, preekten dat het ware vasten is je onthouden van het kwade en aan de armen geven wat je door het vasten bespaart. Christus leest in Nazareth 'om de verdrukten vrij te laten' als deel van Zijn zending.
+FN: Dit hoofdstuk wordt in het Westen in de eerste dagen van de vasten gelezen, en in de Byzantijnse ritus tijdens de Grote Vasten. De kerkvaders, vooral de heilige Basilius en de heilige Johannes Chrysostomus, preekten dat het ware vasten is je onthouden van het kwade en aan de armen geven wat je door het vasten bespaart. Christus leest in Nazareth 'om de verdrukten vrij te laten' als deel van Zijn zending.
 T: True fasting; Justice; Generosity
 TN: Waar vasten; Gerechtigheid; Vrijgevigheid
 
@@ -256,7 +256,7 @@ SN: Zie, de hand van de Heer is niet te kort om te verlossen, en Zijn oor is nie
 M: Sin, not God's weakness, causes separation from Him. When no human intercessor is found, God Himself comes as Redeemer.
 MN: De zonde, niet Gods zwakheid, veroorzaakt de scheiding van Hem. Wanneer er geen menselijke voorspreker te vinden is, komt God Zelf als Verlosser.
 F: St Paul quotes 'the Deliverer will come from Zion' in Romans 11 and uses the breastplate of righteousness and helmet of salvation in his image of the armour of God. The Fathers saw in God's arm bringing salvation when there was no one to intercede the Incarnation of the Son.
-FN: De heilige Paulus citeert 'de Verlosser zal uit Sion komen' in Romeinen 11 en gebruikt het pantser van de gerechtigheid en de helm van het heil in zijn beeld van de wapenrusting van God. De Vaders zagen in Gods arm die heil brengt toen er niemand was om tussenbeide te komen, de menswording van de Zoon.
+FN: De heilige Paulus citeert 'de Verlosser zal uit Sion komen' in Romeinen 11 en gebruikt het pantser van de gerechtigheid en de helm van het heil in zijn beeld van de wapenrusting van God. De kerkvaders zagen in Gods arm die heil brengt toen er niemand was om tussenbeide te komen, de menswording van de Zoon.
 T: Separation by sin; God intervenes; The Redeemer
 TN: Scheiding door zonde; God grijpt in; De Verlosser
 
@@ -276,7 +276,7 @@ SN: De Geest van de Heer God is op mij, omdat de Heer mij gezalfd heeft om aan a
 M: The Anointed One is sent with good news for the poor, healing for the broken-hearted and freedom for captives. Mourning is exchanged for joy.
 MN: De Gezalfde wordt gezonden met goed nieuws voor de armen, genezing voor de gebrokenen van hart en vrijheid voor gevangenen. Rouw wordt ingeruild voor vreugde.
 F: In the synagogue of Nazareth Christ reads this passage and says: today this Scripture has been fulfilled in your hearing. It is read at the Chrism Mass in the West. When the Byzantine priest vests, he says 'My soul shall rejoice in the Lord, for He has clothed me with the garment of salvation'. The Fathers saw in the anointing the Holy Spirit resting on Christ at the Jordan.
-FN: In de synagoge van Nazareth leest Christus dit gedeelte en zegt: heden is deze Schrift in uw oren vervuld. Het wordt in het Westen gelezen in de Chrismamis. Wanneer de Byzantijnse priester zich aankleedt, zegt hij 'Mijn ziel zal zich verheugen in de Heer, want Hij heeft mij bekleed met het kleed van het heil'. De Vaders zagen in de zalving de Heilige Geest die bij de Jordaan op Christus rustte.
+FN: In de synagoge van Nazareth leest Christus dit gedeelte en zegt: heden is deze Schrift in uw oren vervuld. Het wordt in het Westen gelezen in de Chrismamis. Wanneer de Byzantijnse priester zich aankleedt, zegt hij 'Mijn ziel zal zich verheugen in de Heer, want Hij heeft mij bekleed met het kleed van het heil'. De kerkvaders zagen in de zalving de Heilige Geest die bij de Jordaan op Christus rustte.
 T: The Anointed One; Good news for the poor; Garments of salvation
 TN: De Gezalfde; Goed nieuws voor de armen; Kleren van het heil
 
@@ -286,7 +286,7 @@ SN: Omwille van Sion zal ik niet zwijgen, en omwille van Jeruzalem zal ik niet r
 M: God gives His people a new name: from Forsaken to My Delight. His joy over them is like a bridegroom's joy.
 MN: God geeft Zijn volk een nieuwe naam: van Verlaten tot Mijn Welbehagen. Zijn vreugde over hen is als de vreugde van een bruidegom.
 F: The Fathers read this chapter of the Church as Christ's bride and of each soul He takes to Himself; it is read at Christmas and at weddings in the West. The watchmen who never keep silent were seen as those who pray day and night for the Church, giving God 'no rest' in intercession.
-FN: De Vaders lazen dit hoofdstuk over de Kerk als de bruid van Christus en over elke ziel die Hij tot Zich neemt; het wordt in het Westen met Kerstmis en bij huwelijken gelezen. De wachters die nooit zwijgen, werden gezien als zij die dag en nacht bidden voor de Kerk en God 'geen rust gunnen' in hun voorbede.
+FN: De kerkvaders lazen dit hoofdstuk over de Kerk als de bruid van Christus en over elke ziel die Hij tot Zich neemt; het wordt in het Westen met Kerstmis en bij huwelijken gelezen. De wachters die nooit zwijgen, werden gezien als zij die dag en nacht bidden voor de Kerk en God 'geen rust gunnen' in hun voorbede.
 T: A new name; God's delight; Intercession
 TN: Een nieuwe naam; Gods welbehagen; Voorbede
 
@@ -296,7 +296,7 @@ SN: Wie is Hij die uit Edom komt, met rood geverfde kleren uit Bozra, sierlijk i
 M: The divine warrior has fought alone and won. Recalling God's past compassion, the people call Him Father and beg Him to come down.
 MN: De goddelijke strijder heeft alleen gestreden en overwonnen. Terugdenkend aan Gods mededogen van vroeger noemt het volk Hem Vader en smeekt Hem neer te dalen.
 F: The Fathers and the hymns of the Ascension read the figure in red garments coming from Edom as Christ ascending into heaven with His humanity marked by the passion, the angels asking 'Who is this?'. The winepress trodden alone was read as the cross. 'In all their affliction He was afflicted' was cherished as a word on God's compassion.
-FN: De Vaders en de hymnen van Hemelvaart lazen de gestalte met rode kleren die uit Edom komt als Christus die ten hemel vaart met Zijn mensheid getekend door het lijden, terwijl de engelen vragen 'Wie is Hij?'. De wijnpers die alleen getreden wordt, werd gelezen als het kruis. 'In al hun benauwdheid was Hij benauwd' werd gekoesterd als een woord over Gods mededogen.
+FN: De kerkvaders en de hymnen van Hemelvaart lazen de gestalte met rode kleren die uit Edom komt als Christus die ten hemel vaart met Zijn mensheid getekend door het lijden, terwijl de engelen vragen 'Wie is Hij?'. De wijnpers die alleen getreden wordt, werd gelezen als het kruis. 'In al hun benauwdheid was Hij benauwd' werd gekoesterd als een woord over Gods mededogen.
 T: Victory alone; God's compassion; God our Father
 TN: Overwinning alleen; Gods mededogen; God onze Vader
 
@@ -306,7 +306,7 @@ SN: Och, scheurde U de hemel maar en daalde U neer, zodat de bergen voor Uw aang
 M: Aware of their total unworthiness, the people appeal to God as Father and Potter. Only He can reshape the broken clay.
 MN: Zich bewust van hun volledige onwaardigheid, doet het volk een beroep op God als Vader en Pottenbakker. Alleen Hij kan het gebroken leem opnieuw vormen.
 F: 'Oh that You would rend the heavens and come down' became an Advent prayer of the Church, heard as fulfilled in the Incarnation and the heavens torn open at the baptism of Christ. St Paul quotes 'no eye has seen... what God has prepared for those who love Him'. The Fathers drew from the image of clay and potter a lesson in humble surrender.
-FN: 'Och, scheurde U de hemel maar en daalde U neer' werd een adventsgebed van de Kerk, gehoord als vervuld in de menswording en in de hemel die openscheurde bij de doop van Christus. De heilige Paulus citeert 'geen oog heeft gezien... wat God bereid heeft voor wie Hem liefhebben'. De Vaders trokken uit het beeld van leem en pottenbakker een les in nederige overgave.
+FN: 'Och, scheurde U de hemel maar en daalde U neer' werd een adventsgebed van de Kerk, gehoord als vervuld in de menswording en in de hemel die openscheurde bij de doop van Christus. De heilige Paulus citeert 'geen oog heeft gezien... wat God bereid heeft voor wie Hem liefhebben'. De kerkvaders trokken uit het beeld van leem en pottenbakker een les in nederige overgave.
 T: Longing for God to come; Unworthiness; God the potter
 TN: Verlangen naar Gods komst; Onwaardigheid; God de pottenbakker
 
@@ -316,7 +316,7 @@ SN: Ik liet Mij zoeken door wie niet naar Mij vroegen; Ik liet Mij vinden door w
 M: God lets Himself be found by those who did not seek Him. His final purpose is a new creation where weeping ends and peace reigns.
 MN: God laat Zich vinden door wie Hem niet zochten. Zijn uiteindelijk doel is een nieuwe schepping waar het geween eindigt en vrede heerst.
 F: St Paul quotes 'I was found by those who did not seek Me' of the Gentiles in Romans 10, and the Fathers saw God's hands spread out all the day as Christ's arms stretched out on the cross. Revelation and St Peter take up the promise of new heavens and a new earth.
-FN: De heilige Paulus citeert 'Ik ben gevonden door wie Mij niet zochten' over de heidenen in Romeinen 10, en de Vaders zagen Gods handen die de hele dag uitgestrekt zijn als de armen van Christus die aan het kruis uitgestrekt zijn. Openbaring en de heilige Petrus nemen de belofte van een nieuwe hemel en een nieuwe aarde op.
+FN: De heilige Paulus citeert 'Ik ben gevonden door wie Mij niet zochten' over de heidenen in Romeinen 10, en de kerkvaders zagen Gods handen die de hele dag uitgestrekt zijn als de armen van Christus die aan het kruis uitgestrekt zijn. Openbaring en de heilige Petrus nemen de belofte van een nieuwe hemel en een nieuwe aarde op.
 T: Found by the unseeking; New creation; Peace
 TN: Gevonden door wie niet zochten; Nieuwe schepping; Vrede
 
@@ -326,6 +326,6 @@ SN: Zo zegt de Heer: de hemel is Mijn troon, en de aarde de bank voor Mijn voete
 M: The God whom heaven cannot contain looks to the humble. He comforts like a mother and sends messengers to gather all nations.
 MN: De God die de hemel niet kan bevatten, ziet naar de nederigen. Hij troost als een moeder en zendt boden om alle volken te verzamelen.
 F: St Stephen quotes 'heaven is My throne, and the earth My footstool' before his martyrdom. The Fathers read the birth of a nation in a single day as Pentecost, when the Church was born, and the messengers sent to the nations as the apostles. The image of God comforting as a mother was treasured as a sign of His tender love.
-FN: De heilige Stefanus citeert 'de hemel is Mijn troon, en de aarde de bank voor Mijn voeten' voor zijn marteldood. De Vaders lazen de geboorte van een volk op één dag als Pinksteren, toen de Kerk geboren werd, en de boden die naar de volken gezonden worden als de apostelen. Het beeld van God die troost als een moeder werd gekoesterd als teken van Zijn tedere liefde.
+FN: De heilige Stefanus citeert 'de hemel is Mijn troon, en de aarde de bank voor Mijn voeten' voor zijn marteldood. De kerkvaders lazen de geboorte van een volk op één dag als Pinksteren, toen de Kerk geboren werd, en de boden die naar de volken gezonden worden als de apostelen. Het beeld van God die troost als een moeder werd gekoesterd als teken van Zijn tedere liefde.
 T: God looks to the humble; Motherly comfort; Gathering of the nations
 TN: God ziet naar de nederigen; Moederlijke troost; Verzameling van de volken

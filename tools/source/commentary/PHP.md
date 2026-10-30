@@ -6,7 +6,7 @@ SN: Paulus schrijft vanuit de gevangenis aan zijn geliefde Filippenzen, ervan ov
 M: For the Christian, life is Christ and death is not loss but gain. Even chains can serve the gospel.
 MN: Voor de christen is leven Christus en is sterven geen verlies maar winst. Zelfs ketenen kunnen het evangelie dienen.
 F: The Fathers drew from 'to depart and be with Christ' the faith that the souls of the righteous are with the Lord immediately after death, awaiting the resurrection.
-FN: De Vaders putten uit 'heengaan en bij Christus zijn' het geloof dat de zielen van de rechtvaardigen direct na de dood bij de Heer zijn, in afwachting van de opstanding.
+FN: De kerkvaders putten uit 'heengaan en bij Christus zijn' het geloof dat de zielen van de rechtvaardigen direct na de dood bij de Heer zijn, in afwachting van de opstanding.
 T: Joy in suffering; Life in Christ; Perseverance
 TN: Vreugde in het lijden; Leven in Christus; Volharding
 
@@ -16,7 +16,7 @@ SN: Wees eensgezind, doe niets uit eigenbelang, maar acht in nederigheid de ande
 M: The humility of the Son of God is the pattern of Christian life. He who was God became a servant, and through the cross was exalted.
 MN: De nederigheid van de Zoon van God is het voorbeeld van het christelijk leven. Hij die God was, werd dienaar, en werd door het kruis verhoogd.
 F: The Fathers used this hymn against Arius (He was in the form of God, equal with Him) and against Apollinaris (He truly took the form of a servant). 'Working out salvation' while God works in us became a key text for the cooperation (synergy) of grace and freedom.
-FN: De Vaders gebruikten deze hymne tegen Arius (Hij had de gestalte van God, gelijk aan Hem) en tegen Apollinaris (Hij nam werkelijk de gestalte van een dienaar aan). Werken aan de redding terwijl God in ons werkt, werd een sleuteltekst voor de samenwerking (synergie) van genade en vrijheid.
+FN: De kerkvaders gebruikten deze hymne tegen Arius (Hij had de gestalte van God, gelijk aan Hem) en tegen Apollinaris (Hij nam werkelijk de gestalte van een dienaar aan). Werken aan de redding terwijl God in ons werkt, werd een sleuteltekst voor de samenwerking (synergie) van genade en vrijheid.
 T: Humility; Kenosis; Exaltation
 TN: Nederigheid; Zelfontlediging; Verhoging
 
@@ -36,6 +36,6 @@ SN: Paulus spoort Euodia en Syntyche aan eensgezind te zijn in de Heer. Verheug 
 M: Joy and peace are possible in every situation because the Lord is near. Prayer with thanksgiving drives out anxiety.
 MN: Vreugde en vrede zijn in elke situatie mogelijk omdat de Heer nabij is. Gebed met dankzegging verdrijft de zorg.
 F: The Fathers taught that Christian joy is not the absence of trials but the presence of God in them. 'The Lord is near' was understood both of His coming and of His nearness to every one who prays.
-FN: De Vaders leerden dat christelijke vreugde niet de afwezigheid van beproevingen is, maar de aanwezigheid van God daarin. 'De Heer is nabij' werd verstaan zowel van Zijn komst als van Zijn nabijheid bij ieder die bidt.
+FN: De kerkvaders leerden dat christelijke vreugde niet de afwezigheid van beproevingen is, maar de aanwezigheid van God daarin. 'De Heer is nabij' werd verstaan zowel van Zijn komst als van Zijn nabijheid bij ieder die bidt.
 T: Joy; Peace; Contentment
 TN: Vreugde; Vrede; Tevredenheid

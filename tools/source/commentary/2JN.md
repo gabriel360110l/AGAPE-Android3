@@ -6,6 +6,6 @@ SN: De oudste schrijft aan de uitverkoren vrouw en haar kinderen, die hij in waa
 M: Truth and love belong together: love is not indifferent to the truth about Christ, and truth is lived in love.
 MN: Waarheid en liefde horen bij elkaar: liefde is niet onverschillig voor de waarheid over Christus, en waarheid wordt beleefd in liefde.
 F: Many Fathers took the 'elect lady' as a local church and her children as its members. Tradition attributes the letter to St John the Theologian in his old age.
-FN: Veel Vaders vatten de 'uitverkoren vrouw' op als een plaatselijke kerk en haar kinderen als haar leden. De overlevering schrijft de brief toe aan de heilige Johannes de Theoloog op hoge leeftijd.
+FN: Veel kerkvaders vatten de 'uitverkoren vrouw' op als een plaatselijke kerk en haar kinderen als haar leden. De overlevering schrijft de brief toe aan de heilige Johannes de Theoloog op hoge leeftijd.
 T: Truth; Love; Abiding in Christ's teaching
 TN: Waarheid; Liefde; Blijven in de leer van Christus

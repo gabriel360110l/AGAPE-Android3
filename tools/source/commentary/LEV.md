@@ -6,7 +6,7 @@ SN: De Heer roept Mozes vanuit de tent van de samenkomst en geeft de wet van de 
 M: The burnt offering is total: nothing is kept back. Even the poorest can come before God with a small offering.
 MN: Het brandoffer is volledig: niets wordt achtergehouden. Zelfs de armste kan voor God komen met een klein offer.
 F: Origen, in his homilies on Leviticus, reads the burnt offering as Christ's complete self-giving and also as the soul that offers itself wholly to God. The Fathers noted that Mary and Joseph offered the poor man's turtledoves at the Presentation, a sign of Christ's poverty.
-FN: Origenes leest in zijn preken over Leviticus het brandoffer als de volledige zelfgave van Christus en ook als de ziel die zich geheel aan God aanbiedt. De Vaders merkten op dat Maria en Jozef bij de Opdracht het tortelduivenoffer van de armen brachten, een teken van de armoede van Christus.
+FN: Origenes leest in zijn preken over Leviticus het brandoffer als de volledige zelfgave van Christus en ook als de ziel die zich geheel aan God aanbiedt. De kerkvaders merkten op dat Maria en Jozef bij de Opdracht het tortelduivenoffer van de armen brachten, een teken van de armoede van Christus.
 T: Total self-offering; Atonement; Offering of the poor
 TN: Volledige zelfgave; Verzoening; Offer van de armen
 
@@ -16,7 +16,7 @@ SN: Wanneer iemand een spijsoffer brengt, moet het van fijn meel zijn, met olie 
 M: The fruit of human work is offered back to God in thanksgiving. Salt, which preserves, is the sign of a covenant that does not decay.
 MN: De vrucht van menselijke arbeid wordt in dankzegging aan God teruggegeven. Zout, dat bewaart, is het teken van een verbond dat niet vergaat.
 F: The Fathers saw the fine flour with oil and frankincense as a figure of the Eucharistic bread, offered with the anointing of the Spirit and the incense of prayer. Christ calls His disciples the salt of the earth, and the Fathers linked this with the salt of the covenant.
-FN: De Vaders zagen het fijne meel met olie en wierook als een voorafbeelding van het eucharistisch brood, opgedragen met de zalving van de Geest en de wierook van het gebed. Christus noemt Zijn leerlingen het zout van de aarde, en de Vaders verbonden dit met het zout van het verbond.
+FN: De kerkvaders zagen het fijne meel met olie en wierook als een voorafbeelding van het eucharistisch brood, opgedragen met de zalving van de Geest en de wierook van het gebed. Christus noemt Zijn leerlingen het zout van de aarde, en de kerkvaders verbonden dit met het zout van het verbond.
 T: Thanksgiving; Salt of the covenant; Firstfruits
 TN: Dankzegging; Zout van het verbond; Eerstelingen
 
@@ -26,7 +26,7 @@ SN: Het dankoffer mag een mannelijk of vrouwelijk dier van runderen of kleinvee 
 M: The peace offering is a shared meal with God: part is burned, part is eaten by the priests and the offerer. Communion with God is the goal of sacrifice.
 MN: Het dankoffer is een gedeelde maaltijd met God: een deel wordt verbrand, een deel wordt door de priesters en de offeraar gegeten. Gemeenschap met God is het doel van het offer.
 F: The Fathers saw the peace offering, eaten in fellowship before God, as the clearest Old Testament figure of the Eucharist, where Christ our peace is both sacrifice and meal. St Paul says that Christ is our peace.
-FN: De Vaders zagen het dankoffer, dat in gemeenschap voor God gegeten werd, als de duidelijkste oudtestamentische voorafbeelding van de Eucharistie, waar Christus, onze vrede, tegelijk offer en maaltijd is. De heilige Paulus zegt dat Christus onze vrede is.
+FN: De kerkvaders zagen het dankoffer, dat in gemeenschap voor God gegeten werd, als de duidelijkste oudtestamentische voorafbeelding van de Eucharistie, waar Christus, onze vrede, tegelijk offer en maaltijd is. De heilige Paulus zegt dat Christus onze vrede is.
 T: Communion with God; Peace; The shared meal
 TN: Gemeenschap met God; Vrede; De gedeelde maaltijd
 
@@ -36,7 +36,7 @@ SN: Als iemand onopzettelijk zondigt tegen een van de geboden van de Heer, moet 
 M: Even unintentional sin damages the relationship with God and needs atonement. The greater one's responsibility, the greater the offering required.
 MN: Zelfs onopzettelijke zonde beschadigt de relatie met God en heeft verzoening nodig. Hoe groter iemands verantwoordelijkheid, hoe groter het offer dat gevraagd wordt.
 F: Hebrews says the bodies of sin offerings were burned outside the camp, and so Jesus suffered outside the gate to sanctify the people through His own blood. The Fathers drew from this chapter the seriousness of sins of ignorance, for which the Church prays in every Liturgy.
-FN: Hebreeën zegt dat de lichamen van de zondoffers buiten de legerplaats verbrand werden, en dat daarom ook Jezus buiten de poort geleden heeft om het volk door Zijn eigen bloed te heiligen. De Vaders leerden uit dit hoofdstuk de ernst van zonden uit onwetendheid, waarvoor de Kerk in elke Liturgie bidt.
+FN: Hebreeën zegt dat de lichamen van de zondoffers buiten de legerplaats verbrand werden, en dat daarom ook Jezus buiten de poort geleden heeft om het volk door Zijn eigen bloed te heiligen. De kerkvaders leerden uit dit hoofdstuk de ernst van zonden uit onwetendheid, waarvoor de Kerk in elke Liturgie bidt.
 T: Sin offering; Outside the camp; Sins of ignorance
 TN: Zondoffer; Buiten de legerplaats; Zonden uit onwetendheid
 
@@ -46,7 +46,7 @@ SN: Als iemand een openbare bezwering hoort en niet getuigt, of iets onreins aan
 M: Confession comes before atonement, and repair comes with repentance. No one is too poor to be reconciled to God.
 MN: Belijdenis komt vóór de verzoening, en herstel hoort bij berouw. Niemand is te arm om met God verzoend te worden.
 F: The Fathers noted that the law commands confession of the sin committed, the first sign in Scripture of what the Church practises in the sacrament of confession. The added fifth in restitution was taken as a lesson that true repentance repairs the harm done, as Zacchaeus did.
-FN: De Vaders merkten op dat de wet beveelt de begane zonde te belijden, het eerste teken in de Schrift van wat de Kerk in het sacrament van de biecht beoefent. Het toegevoegde vijfde deel bij de vergoeding werd opgevat als een les dat ware bekering de aangerichte schade herstelt, zoals Zacheüs deed.
+FN: De kerkvaders merkten op dat de wet beveelt de begane zonde te belijden, het eerste teken in de Schrift van wat de Kerk in het sacrament van de biecht beoefent. Het toegevoegde vijfde deel bij de vergoeding werd opgevat als een les dat ware bekering de aangerichte schade herstelt, zoals Zacheüs deed.
 T: Confession; Restitution; Mercy for the poor
 TN: Belijdenis; Vergoeding; Barmhartigheid voor de armen
 
@@ -56,7 +56,7 @@ SN: Wie zijn naaste berooft of afzet, moet het volledig teruggeven en er een vij
 M: Wrong done to a neighbour is also an offence against God and must be set right. The fire that never goes out is a sign of unceasing worship.
 MN: Onrecht tegen een naaste is ook een overtreding tegen God en moet hersteld worden. Het vuur dat nooit uitgaat, is een teken van onophoudelijke aanbidding.
 F: The Fathers saw the perpetual fire on the altar as the image of unceasing prayer and of the fire of divine love that must be tended in the heart, as the priest added wood every morning. Christ said: I came to cast fire on the earth.
-FN: De Vaders zagen het altijddurende vuur op het altaar als het beeld van onophoudelijk gebed en van het vuur van de goddelijke liefde dat in het hart verzorgd moet worden, zoals de priester elke morgen hout toevoegde. Christus zei: Ik ben gekomen om vuur op de aarde te werpen.
+FN: De kerkvaders zagen het altijddurende vuur op het altaar als het beeld van onophoudelijk gebed en van het vuur van de goddelijke liefde dat in het hart verzorgd moet worden, zoals de priester elke morgen hout toevoegde. Christus zei: Ik ben gekomen om vuur op de aarde te werpen.
 T: Restitution; Unceasing fire; Holiness
 TN: Vergoeding; Onophoudelijk vuur; Heiligheid
 
@@ -66,7 +66,7 @@ SN: Het schuldoffer is hoogheilig, en de priester die ermee verzoening doet, ont
 M: Thanksgiving, vows and freewill gifts are all ways of approaching God. Those who share the holy meal must be clean.
 MN: Lofoffer, gelofte en vrijwillige gave zijn allemaal manieren om God te naderen. Wie de heilige maaltijd deelt, moet rein zijn.
 F: St Paul echoes this law when he warns that whoever eats the bread or drinks the cup unworthily eats judgment on himself; the Fathers based the Church's practice of preparing for Holy Communion on such texts. The thanksgiving offering (todah) was seen as a figure of the Eucharist, the 'thanksgiving'.
-FN: De heilige Paulus weerspiegelt deze wet wanneer hij waarschuwt dat wie onwaardig het brood eet of de beker drinkt, zichzelf een oordeel eet; de Vaders grondden de praktijk van de voorbereiding op de Heilige Communie op zulke teksten. Het lofoffer (toda) werd gezien als een voorafbeelding van de Eucharistie, de 'dankzegging'.
+FN: De heilige Paulus weerspiegelt deze wet wanneer hij waarschuwt dat wie onwaardig het brood eet of de beker drinkt, zichzelf een oordeel eet; de kerkvaders grondden de praktijk van de voorbereiding op de Heilige Communie op zulke teksten. Het lofoffer (toda) werd gezien als een voorafbeelding van de Eucharistie, de 'dankzegging'.
 T: Thanksgiving; Worthiness; Holy meal
 TN: Dankzegging; Waardigheid; Heilige maaltijd
 
@@ -76,7 +76,7 @@ SN: Mozes verzamelt de gemeenschap bij de ingang van de tent van de samenkomst, 
 M: Priesthood is received, not taken: God calls, the community witnesses, and the whole person is consecrated.
 MN: Het priesterschap wordt ontvangen, niet genomen: God roept, de gemeenschap is getuige, en de hele mens wordt geheiligd.
 F: Hebrews says no one takes this honour for himself, but is called by God, as Aaron was. The Fathers saw in the washing, clothing and anointing of Aaron the pattern of Christian ordination, and in a wider sense of baptism and chrismation, by which all share in Christ's priesthood.
-FN: Hebreeën zegt dat niemand zichzelf deze eer aanmatigt, maar door God geroepen wordt, zoals Aäron. De Vaders zagen in het wassen, bekleden en zalven van Aäron het patroon van de christelijke wijding, en in ruimere zin van doop en zalving, waardoor allen deel hebben aan het priesterschap van Christus.
+FN: Hebreeën zegt dat niemand zichzelf deze eer aanmatigt, maar door God geroepen wordt, zoals Aäron. De kerkvaders zagen in het wassen, bekleden en zalven van Aäron het patroon van de christelijke wijding, en in ruimere zin van doop en zalving, waardoor allen deel hebben aan het priesterschap van Christus.
 T: Ordination; Anointing; Divine calling
 TN: Wijding; Zalving; Goddelijke roeping
 
@@ -86,7 +86,7 @@ SN: Op de achtste dag roept Mozes Aäron, zijn zonen en de oudsten. Aäron breng
 M: God answers obedient worship with His presence. The priest first offers for his own sins, then for the people, then blesses.
 MN: God antwoordt op gehoorzame aanbidding met Zijn aanwezigheid. De priester offert eerst voor zijn eigen zonden, dan voor het volk, en zegent dan.
 F: The Fathers noted that this happens on the eighth day, the day of new creation, as the resurrection and the descent of the Spirit happened on the first day of a new week. Hebrews contrasts Aaron, who had to offer first for himself, with Christ, the sinless High Priest. Christ at His ascension lifted up His hands and blessed His disciples.
-FN: De Vaders merkten op dat dit gebeurt op de achtste dag, de dag van de nieuwe schepping, zoals de opstanding en de komst van de Geest plaatsvonden op de eerste dag van een nieuwe week. Hebreeën stelt Aäron, die eerst voor zichzelf moest offeren, tegenover Christus, de zondeloze Hogepriester. Christus hief bij Zijn hemelvaart Zijn handen op en zegende Zijn leerlingen.
+FN: De kerkvaders merkten op dat dit gebeurt op de achtste dag, de dag van de nieuwe schepping, zoals de opstanding en de komst van de Geest plaatsvonden op de eerste dag van een nieuwe week. Hebreeën stelt Aäron, die eerst voor zichzelf moest offeren, tegenover Christus, de zondeloze Hogepriester. Christus hief bij Zijn hemelvaart Zijn handen op en zegende Zijn leerlingen.
 T: The eighth day; Blessing; God's glory
 TN: De achtste dag; Zegen; Gods heerlijkheid
 
@@ -96,7 +96,7 @@ SN: Nadab en Abihu, de zonen van Aäron, nemen hun vuurpannen, doen er vuur en r
 M: Closeness to God brings greater responsibility. Worship invented according to one's own will, without reverence, is dangerous.
 MN: Nabijheid tot God brengt grotere verantwoordelijkheid. Eredienst die naar eigen goeddunken bedacht wordt, zonder eerbied, is gevaarlijk.
 F: The Fathers used this chapter to warn against approaching the holy mysteries carelessly or with 'strange fire', worship of one's own invention. Aaron's silence before his grief was admired as submission to God's judgment.
-FN: De Vaders gebruikten dit hoofdstuk om te waarschuwen tegen het lichtzinnig naderen van de heilige mysteriën of met 'vreemd vuur', een eredienst van eigen vinding. Het zwijgen van Aäron in zijn verdriet werd bewonderd als onderwerping aan Gods oordeel.
+FN: De kerkvaders gebruikten dit hoofdstuk om te waarschuwen tegen het lichtzinnig naderen van de heilige mysteriën of met 'vreemd vuur', een eredienst van eigen vinding. Het zwijgen van Aäron in zijn verdriet werd bewonderd als onderwerping aan Gods oordeel.
 T: Reverence; Strange fire; Sobriety
 TN: Eerbied; Vreemd vuur; Nuchterheid
 
@@ -106,7 +106,7 @@ SN: De Heer zegt tegen Mozes en Aäron welke dieren gegeten mogen worden. Van de
 M: The food laws set Israel apart in daily life: even eating becomes a matter of holiness. The goal is stated plainly: be holy, for I am holy.
 MN: De spijswetten zonderen Israël af in het dagelijks leven: zelfs het eten wordt een zaak van heiligheid. Het doel wordt duidelijk gezegd: wees heilig, want Ik ben heilig.
 F: St Peter quotes 'be holy, for I am holy'. Christ declared all foods clean, and Peter's vision in Acts confirmed it. The Fathers, from the Letter of Barnabas onwards, read the animals symbolically: parting the hoof is discernment between good and evil, chewing the cud is meditating on God's word.
-FN: De heilige Petrus citeert 'wees heilig, want Ik ben heilig'. Christus verklaarde alle spijzen rein, en het visioen van Petrus in Handelingen bevestigde dit. De Vaders, vanaf de Brief van Barnabas, lazen de dieren symbolisch: het splijten van de hoef is het onderscheid tussen goed en kwaad, het herkauwen is het overdenken van Gods woord.
+FN: De heilige Petrus citeert 'wees heilig, want Ik ben heilig'. Christus verklaarde alle spijzen rein, en het visioen van Petrus in Handelingen bevestigde dit. De kerkvaders, vanaf de Brief van Barnabas, lazen de dieren symbolisch: het splijten van de hoef is het onderscheid tussen goed en kwaad, het herkauwen is het overdenken van Gods woord.
 T: Holiness in daily life; Discernment; Be holy
 TN: Heiligheid in het dagelijks leven; Onderscheiding; Wees heilig
 
@@ -116,7 +116,7 @@ SN: Wanneer een vrouw een zoon baart, is zij zeven dagen onrein, en de jongen wo
 M: The mystery of life and birth is surrounded with reverence. After childbirth, the mother returns to worship with an offering of thanksgiving.
 MN: Het mysterie van leven en geboorte wordt met eerbied omringd. Na de bevalling keert de moeder terug naar de eredienst met een dankoffer.
 F: Forty days after the birth of Jesus, Mary and Joseph fulfilled this law, offering the poor family's two turtledoves; the Church celebrates this as the Meeting of the Lord or the Presentation. The Fathers noted that the all-pure Virgin needed no purification but humbly kept the law. The Church's prayers for a mother on the fortieth day come from this chapter.
-FN: Veertig dagen na de geboorte van Jezus vervulden Maria en Jozef deze wet en brachten de twee tortelduiven van een arm gezin; de Kerk viert dit als de Ontmoeting van de Heer of de Opdracht. De Vaders merkten op dat de alreine Maagd geen reiniging nodig had, maar nederig de wet hield. De gebeden van de Kerk voor een moeder op de veertigste dag komen uit dit hoofdstuk voort.
+FN: Veertig dagen na de geboorte van Jezus vervulden Maria en Jozef deze wet en brachten de twee tortelduiven van een arm gezin; de Kerk viert dit als de Ontmoeting van de Heer of de Opdracht. De kerkvaders merkten op dat de alreine Maagd geen reiniging nodig had, maar nederig de wet hield. De gebeden van de Kerk voor een moeder op de veertigste dag komen uit dit hoofdstuk voort.
 T: Birth; Purification; The Presentation of the Lord
 TN: Geboorte; Reiniging; De Opdracht van de Heer
 
@@ -126,7 +126,7 @@ SN: Wanneer iemand op zijn huid een zwelling, uitslag of vlek heeft die melaatsh
 M: The skin disease brings exclusion from the community, a painful image of what sin does. Careful examination protects both the sick and the healthy.
 MN: De huidziekte brengt uitsluiting uit de gemeenschap, een pijnlijk beeld van wat zonde doet. Zorgvuldig onderzoek beschermt zowel de zieke als de gezonde.
 F: In the Gospels Christ touches the lepers, whom no one would touch, and heals them, sending them to the priests as this law commanded. The Fathers saw leprosy as an image of sin, which separates from God and others, and the priest's examination as a figure of the discernment of the spiritual father.
-FN: In de Evangeliën raakt Christus de melaatsen aan, die niemand wilde aanraken, en geneest hen, en zendt hen naar de priesters zoals deze wet beval. De Vaders zagen melaatsheid als een beeld van de zonde, die scheidt van God en van anderen, en het onderzoek van de priester als een voorafbeelding van de onderscheiding van de geestelijke vader.
+FN: In de Evangeliën raakt Christus de melaatsen aan, die niemand wilde aanraken, en geneest hen, en zendt hen naar de priesters zoals deze wet beval. De kerkvaders zagen melaatsheid als een beeld van de zonde, die scheidt van God en van anderen, en het onderzoek van de priester als een voorafbeelding van de onderscheiding van de geestelijke vader.
 T: Exclusion; Image of sin; Christ touches the leper
 TN: Uitsluiting; Beeld van de zonde; Christus raakt de melaatse aan
 
@@ -136,7 +136,7 @@ SN: Wanneer de persoon met de huidziekte genezen is, gaat de priester buiten de 
 M: The one who was excluded is welcomed back with a solemn rite. Restoration to the community is part of healing.
 MN: Wie was uitgesloten, wordt met een plechtige rite weer opgenomen. Herstel in de gemeenschap hoort bij de genezing.
 F: The Fathers saw the two birds as Christ's death and resurrection: one bird killed over living water, the other set free, dipped in its blood. The anointing of ear, hand and foot with oil was seen as a figure of chrismation after baptism. Christ told the healed leper: go, show yourself to the priest.
-FN: De Vaders zagen de twee vogels als de dood en opstanding van Christus: de ene vogel geslacht boven levend water, de andere vrijgelaten, gedoopt in zijn bloed. De zalving van oor, hand en voet met olie werd gezien als een voorafbeelding van de zalving na de doop. Christus zei tegen de genezen melaatse: ga, toon u aan de priester.
+FN: De kerkvaders zagen de twee vogels als de dood en opstanding van Christus: de ene vogel geslacht boven levend water, de andere vrijgelaten, gedoopt in zijn bloed. De zalving van oor, hand en voet met olie werd gezien als een voorafbeelding van de zalving na de doop. Christus zei tegen de genezen melaatse: ga, toon u aan de priester.
 T: Restoration; Death and resurrection prefigured; Anointing
 TN: Herstel; Dood en opstanding voorafgebeeld; Zalving
 
@@ -146,7 +146,7 @@ SN: Er worden wetten gegeven over vloeiingen uit het lichaam van mannen en vrouw
 M: Life, blood and fertility are holy and mysterious, and Israel approaches them with reverence. These rules are about ritual purity before God's dwelling, not about moral guilt.
 MN: Leven, bloed en vruchtbaarheid zijn heilig en geheimzinnig, en Israël benadert ze met eerbied. Deze regels gaan over rituele reinheid tegenover Gods woning, niet over morele schuld.
 F: The woman with a flow of blood for twelve years, untouchable under this law, touched Christ's garment and was healed; the Fathers loved this as a sign that Christ makes clean what the law could only set apart. St Gregory the Great taught that such natural conditions are not sin.
-FN: De vrouw met twaalf jaar bloedvloeiing, onaanraakbaar volgens deze wet, raakte het kleed van Christus aan en werd genezen; de Vaders hielden hiervan als teken dat Christus rein maakt wat de wet alleen kon afzonderen. De heilige Gregorius de Grote leerde dat zulke natuurlijke toestanden geen zonde zijn.
+FN: De vrouw met twaalf jaar bloedvloeiing, onaanraakbaar volgens deze wet, raakte het kleed van Christus aan en werd genezen; de kerkvaders hielden hiervan als teken dat Christus rein maakt wat de wet alleen kon afzonderen. De heilige Gregorius de Grote leerde dat zulke natuurlijke toestanden geen zonde zijn.
 T: Ritual purity; Reverence for life; Christ heals
 TN: Rituele reinheid; Eerbied voor het leven; Christus geneest
 
@@ -156,7 +156,7 @@ SN: Na de dood van Aärons twee zonen zegt de Heer tegen Mozes dat Aäron niet o
 M: Once a year the whole people is cleansed of all its sins. The two goats show both sides of atonement: sin covered by blood and sin carried away.
 MN: Eens per jaar wordt het hele volk gereinigd van al zijn zonden. De twee bokken tonen beide kanten van de verzoening: zonde bedekt door bloed en zonde weggedragen.
 F: Hebrews 9 interprets this day in full: Christ, the High Priest, entered once for all not into a sanctuary made with hands, but into heaven itself, with His own blood, securing an eternal redemption. The Fathers saw both goats as Christ, who died for our sins and carried them away, as the Lamb who takes away the sin of the world.
-FN: Hebreeën 9 legt deze dag uitvoerig uit: Christus, de Hogepriester, is eens voor altijd binnengegaan, niet in een heiligdom met handen gemaakt, maar in de hemel zelf, met Zijn eigen bloed, en heeft een eeuwige verlossing teweeggebracht. De Vaders zagen beide bokken als Christus, die stierf voor onze zonden en ze wegdroeg, als het Lam dat de zonde van de wereld wegneemt.
+FN: Hebreeën 9 legt deze dag uitvoerig uit: Christus, de Hogepriester, is eens voor altijd binnengegaan, niet in een heiligdom met handen gemaakt, maar in de hemel zelf, met Zijn eigen bloed, en heeft een eeuwige verlossing teweeggebracht. De kerkvaders zagen beide bokken als Christus, die stierf voor onze zonden en ze wegdroeg, als het Lam dat de zonde van de wereld wegneemt.
 T: Atonement; The High Priest; Sin carried away
 TN: Verzoening; De Hogepriester; Weggedragen zonde
 
@@ -166,7 +166,7 @@ SN: Elke Israëliet die een rund, lam of geit slacht, moet het naar de ingang va
 M: Life belongs to God, and blood, the sign of life, is reserved for Him and for atonement. All of life is to be oriented to the one true God.
 MN: Het leven behoort God toe, en bloed, het teken van het leven, is voor Hem en voor de verzoening bestemd. Heel het leven moet gericht zijn op de ene ware God.
 F: Hebrews says that without the shedding of blood there is no forgiveness of sins, and that Christ's blood speaks better than all others. The Fathers marvelled that the blood which Israel was forbidden to drink is given to Christians to drink in the Eucharist, because it is the life-giving blood of Christ.
-FN: Hebreeën zegt dat er zonder bloedstorting geen vergeving van zonden is, en dat het bloed van Christus beter spreekt dan al het andere. De Vaders verwonderden zich erover dat het bloed dat Israël niet mocht drinken, aan christenen in de Eucharistie te drinken wordt gegeven, omdat het het levendmakende bloed van Christus is.
+FN: Hebreeën zegt dat er zonder bloedstorting geen vergeving van zonden is, en dat het bloed van Christus beter spreekt dan al het andere. De kerkvaders verwonderden zich erover dat het bloed dat Israël niet mocht drinken, aan christenen in de Eucharistie te drinken wordt gegeven, omdat het het levendmakende bloed van Christus is.
 T: Life in the blood; Atonement; The one altar
 TN: Leven in het bloed; Verzoening; Het ene altaar
 
@@ -176,7 +176,7 @@ SN: U zult niet doen zoals men doet in het land Egypte, waar u gewoond hebt, en 
 M: God's people is to be different from the surrounding cultures in its family life. The commandments are given for life: whoever keeps them shall live.
 MN: Gods volk moet anders zijn dan de omringende culturen in zijn gezinsleven. De geboden worden gegeven tot leven: wie ze houdt, zal leven.
 F: St Paul quotes 'the one who does them shall live by them' in Romans and Galatians. The Fathers taught that chastity and the protection of the family belong to holiness, and the Church has always kept the moral content of these laws.
-FN: De heilige Paulus citeert 'wie ze doet, zal erdoor leven' in Romeinen en Galaten. De Vaders leerden dat kuisheid en de bescherming van het gezin bij de heiligheid horen, en de Kerk heeft de morele inhoud van deze wetten altijd bewaard.
+FN: De heilige Paulus citeert 'wie ze doet, zal erdoor leven' in Romeinen en Galaten. De kerkvaders leerden dat kuisheid en de bescherming van het gezin bij de heiligheid horen, en de Kerk heeft de morele inhoud van deze wetten altijd bewaard.
 T: Holiness of family; Distinctiveness; Life through obedience
 TN: Heiligheid van het gezin; Anders zijn; Leven door gehoorzaamheid
 
@@ -186,7 +186,7 @@ SN: Spreek tot heel de gemeenschap: wees heilig, want Ik, de Heer, uw God, ben h
 M: Holiness is lived out in justice, honesty and love for the neighbour and the stranger. This is the heart of the whole Law.
 MN: Heiligheid wordt geleefd in gerechtigheid, eerlijkheid en liefde voor de naaste en de vreemdeling. Dit is het hart van heel de Wet.
 F: Christ calls 'love your neighbour as yourself' the second great commandment, like the first, and St Paul and St James call it the fulfilment of the law and the royal law. The Fathers, St Basil above all, drew from the gleanings left for the poor their teaching that the surplus of the rich belongs to the needy.
-FN: Christus noemt 'heb uw naaste lief als uzelf' het tweede grote gebod, gelijk aan het eerste, en de heilige Paulus en de heilige Jakobus noemen het de vervulling van de wet en de koninklijke wet. De Vaders, vooral de heilige Basilius, ontleenden aan de nalezing die voor de armen werd achtergelaten hun onderwijs dat het overschot van de rijken aan de behoeftigen toekomt.
+FN: Christus noemt 'heb uw naaste lief als uzelf' het tweede grote gebod, gelijk aan het eerste, en de heilige Paulus en de heilige Jakobus noemen het de vervulling van de wet en de koninklijke wet. De kerkvaders, vooral de heilige Basilius, ontleenden aan de nalezing die voor de armen werd achtergelaten hun onderwijs dat het overschot van de rijken aan de behoeftigen toekomt.
 T: Love of neighbour; Holiness in daily life; The stranger
 TN: Naastenliefde; Heiligheid in het dagelijks leven; De vreemdeling
 
@@ -196,7 +196,7 @@ SN: Er worden straffen vastgesteld voor wie hun kinderen aan Moloch geven, voor 
 M: Israel belongs to God and is set apart. The seriousness of the penalties shows how deeply these sins wound the community and its covenant with God.
 MN: Israël behoort God toe en is afgezonderd. De ernst van de straffen laat zien hoe diep deze zonden de gemeenschap en haar verbond met God verwonden.
 F: The Fathers read 'I am the Lord who sanctifies you' as a reminder that holiness is God's work in us before it is our effort. They warned particularly against occult practices, which the Church has always forbidden, following this chapter.
-FN: De Vaders lazen 'Ik ben de Heer die u heiligt' als een herinnering dat heiligheid Gods werk in ons is, voordat het onze inspanning is. Zij waarschuwden vooral tegen occulte praktijken, die de Kerk in navolging van dit hoofdstuk altijd verboden heeft.
+FN: De kerkvaders lazen 'Ik ben de Heer die u heiligt' als een herinnering dat heiligheid Gods werk in ons is, voordat het onze inspanning is. Zij waarschuwden vooral tegen occulte praktijken, die de Kerk in navolging van dit hoofdstuk altijd verboden heeft.
 T: Belonging to God; Occult practices; God sanctifies
 TN: Toebehoren aan God; Occulte praktijken; God heiligt
 
@@ -206,7 +206,7 @@ SN: De priesters mogen zich niet verontreinigen aan een dode, behalve voor hun n
 M: Those who stand closest to God's presence are held to a stricter standard of holiness. Their whole life must reflect their service.
 MN: Wie het dichtst bij Gods aanwezigheid staan, worden aan een strengere maatstaf van heiligheid gehouden. Hun hele leven moet hun dienst weerspiegelen.
 F: The Fathers read the physical requirements as figures of spiritual wholeness required of those who serve at the altar. The Church's canons on the life of clergy draw on this chapter, and the Fathers saw in the high priest, wholly given to God, an image of Christ.
-FN: De Vaders lazen de lichamelijke vereisten als voorafbeeldingen van de geestelijke heelheid die gevraagd wordt van wie aan het altaar dienen. De canons van de Kerk over het leven van de geestelijkheid putten uit dit hoofdstuk, en de Vaders zagen in de hogepriester, geheel aan God gewijd, een beeld van Christus.
+FN: De kerkvaders lazen de lichamelijke vereisten als voorafbeeldingen van de geestelijke heelheid die gevraagd wordt van wie aan het altaar dienen. De canons van de Kerk over het leven van de geestelijkheid putten uit dit hoofdstuk, en de kerkvaders zagen in de hogepriester, geheel aan God gewijd, een beeld van Christus.
 T: Priestly holiness; Wholeness; Service at the altar
 TN: Priesterlijke heiligheid; Heelheid; Dienst aan het altaar
 
@@ -216,7 +216,7 @@ SN: De priesters moeten zorgvuldig omgaan met de heilige dingen van Israël; een
 M: God deserves our best, not our leftovers. Even the law of offerings shows mercy for animal life.
 MN: God verdient ons beste, niet onze restjes. Zelfs de offerwet toont barmhartigheid voor dierlijk leven.
 F: The prophet Malachi rebukes those who offer blind and lame animals, and the Fathers applied this to Christians who give God only what costs them nothing. St Peter calls Christ the lamb without blemish or spot. The Fathers admired the kindness in the law that spares mother and young on the same day.
-FN: De profeet Maleachi bestraft wie blinde en kreupele dieren offeren, en de Vaders pasten dit toe op christenen die God alleen geven wat hun niets kost. De heilige Petrus noemt Christus het lam zonder gebrek en zonder smet. De Vaders bewonderden de goedheid in de wet die moeder en jong op dezelfde dag spaart.
+FN: De profeet Maleachi bestraft wie blinde en kreupele dieren offeren, en de kerkvaders pasten dit toe op christenen die God alleen geven wat hun niets kost. De heilige Petrus noemt Christus het lam zonder gebrek en zonder smet. De kerkvaders bewonderden de goedheid in de wet die moeder en jong op dezelfde dag spaart.
 T: Offering our best; Reverence for holy things; Mercy
 TN: Ons beste geven; Eerbied voor heilige dingen; Barmhartigheid
 
@@ -226,7 +226,7 @@ SN: Dit zijn de vaste feesten van de Heer, heilige samenkomsten. Zes dagen zal e
 M: God shapes time itself into a rhythm of rest, memory and joy. The feasts keep the story of salvation alive year after year.
 MN: God vormt de tijd zelf tot een ritme van rust, gedachtenis en vreugde. De feesten houden het heilsverhaal jaar na jaar levend.
 F: The Fathers saw the feasts fulfilled in Christ: He died at Passover as the true Lamb, rose on the day the firstfruits were offered, the firstfruits of those who have fallen asleep, and fifty days later the Spirit was poured out at Pentecost, the Feast of Weeks. The Church's own year of feasts grew from this pattern.
-FN: De Vaders zagen de feesten vervuld in Christus: Hij stierf op het Pascha als het ware Lam, stond op op de dag dat de eerstelingen werden geofferd, de eersteling van hen die ontslapen zijn, en vijftig dagen later werd de Geest uitgestort met Pinksteren, het Wekenfeest. Het eigen feestjaar van de Kerk groeide uit dit patroon.
+FN: De kerkvaders zagen de feesten vervuld in Christus: Hij stierf op het Pascha als het ware Lam, stond op op de dag dat de eerstelingen werden geofferd, de eersteling van hen die ontslapen zijn, en vijftig dagen later werd de Geest uitgestort met Pinksteren, het Wekenfeest. Het eigen feestjaar van de Kerk groeide uit dit patroon.
 T: Holy time; Feasts fulfilled in Christ; Sabbath rest
 TN: Heilige tijd; Feesten vervuld in Christus; Sabbatsrust
 
@@ -236,7 +236,7 @@ SN: Het volk moet zuivere olijfolie brengen voor de lamp, zodat die voortdurend 
 M: Constant light and bread before God express Israel's continual presence before Him. God's name is holy, and justice applies equally to all.
 MN: Voortdurend licht en brood voor God drukken uit dat Israël voortdurend voor Hem aanwezig is. Gods naam is heilig, en het recht geldt gelijkelijk voor allen.
 F: Christ refers to David eating the bread of the Presence, which only priests could eat. The Fathers saw the twelve loaves before God as a figure of the Eucharistic bread and of the twelve apostles, and the ever-burning lamp as the light of faith kept by the Church.
-FN: Christus verwijst naar David die de toonbroden at, die alleen priesters mochten eten. De Vaders zagen de twaalf broden voor God als een voorafbeelding van het eucharistisch brood en van de twaalf apostelen, en de altijd brandende lamp als het licht van het geloof dat door de Kerk bewaard wordt.
+FN: Christus verwijst naar David die de toonbroden at, die alleen priesters mochten eten. De kerkvaders zagen de twaalf broden voor God als een voorafbeelding van het eucharistisch brood en van de twaalf apostelen, en de altijd brandende lamp als het licht van het geloof dat door de Kerk bewaard wordt.
 T: Continual light; Bread of the Presence; Reverence for God's name
 TN: Voortdurend licht; Toonbroden; Eerbied voor Gods naam
 
@@ -246,7 +246,7 @@ SN: Elk zevende jaar zal het land een sabbatsrust hebben: u zult uw akker niet b
 M: The land belongs to God, and every fifty years the inequalities that build up are undone. Freedom and restoration are written into Israel's economy.
 MN: Het land behoort God toe, en elke vijftig jaar worden de ongelijkheden die ontstaan zijn ongedaan gemaakt. Vrijheid en herstel zijn in de economie van Israël ingeschreven.
 F: In Nazareth Christ proclaims 'the year of the Lord's favour', the Jubilee, as fulfilled in Him: liberty to captives and release for the oppressed. The Fathers saw the fiftieth year as a figure of Pentecost and of the eternal rest, and drew from 'the land is Mine' their teaching that we are only stewards of what we possess.
-FN: In Nazaret verkondigt Christus 'het jaar van het welbehagen van de Heer', het jubeljaar, als in Hem vervuld: vrijlating voor gevangenen en bevrijding voor verdrukten. De Vaders zagen het vijftigste jaar als een voorafbeelding van Pinksteren en van de eeuwige rust, en ontleenden aan 'het land is van Mij' hun onderwijs dat wij slechts rentmeesters zijn van wat wij bezitten.
+FN: In Nazaret verkondigt Christus 'het jaar van het welbehagen van de Heer', het jubeljaar, als in Hem vervuld: vrijlating voor gevangenen en bevrijding voor verdrukten. De kerkvaders zagen het vijftigste jaar als een voorafbeelding van Pinksteren en van de eeuwige rust, en ontleenden aan 'het land is van Mij' hun onderwijs dat wij slechts rentmeesters zijn van wat wij bezitten.
 T: Jubilee; Liberty; God owns the land
 TN: Jubeljaar; Vrijheid; Het land is van God
 
@@ -256,7 +256,7 @@ SN: U zult geen afgoden maken, en u zult Mijn sabbatten houden en Mijn heiligdom
 M: Faithfulness brings life, peace and God's presence; unfaithfulness brings ruin. But even exile is not the end: confession opens the way back.
 MN: Trouw brengt leven, vrede en Gods aanwezigheid; ontrouw brengt ondergang. Maar zelfs de ballingschap is niet het einde: belijdenis opent de weg terug.
 F: St Paul quotes 'I will walk among you and be your God, and you shall be My people' of the Church as the temple of the living God. The Fathers loved the image 'I have made you walk upright' as the dignity restored to fallen humanity in Christ.
-FN: De heilige Paulus citeert 'Ik zal onder u wandelen en uw God zijn, en u zult Mijn volk zijn' over de Kerk als tempel van de levende God. De Vaders hielden van het beeld 'Ik heb u rechtop laten gaan' als de waardigheid die in Christus aan de gevallen mens wordt teruggegeven.
+FN: De heilige Paulus citeert 'Ik zal onder u wandelen en uw God zijn, en u zult Mijn volk zijn' over de Kerk als tempel van de levende God. De kerkvaders hielden van het beeld 'Ik heb u rechtop laten gaan' als de waardigheid die in Christus aan de gevallen mens wordt teruggegeven.
 T: Blessing and curse; God's presence; Confession and return
 TN: Zegen en vloek; Gods aanwezigheid; Belijdenis en terugkeer
 
@@ -266,6 +266,6 @@ SN: Wanneer iemand de Heer een bijzondere gelofte doet die de waarde van persone
 M: Promises made to God must be kept, and a share of everything belongs to Him. God's law again makes room for the poor.
 MN: Beloften aan God moeten nagekomen worden, en een deel van alles behoort Hem toe. Gods wet maakt ook hier ruimte voor de armen.
 F: The Fathers warned, with Ecclesiastes, that it is better not to vow than to vow and not pay. They took the tithe as the minimum of Christian giving, St John Chrysostom and others urging believers to give more than the tithe, since grace asks more than the Law.
-FN: De Vaders waarschuwden, met Prediker, dat het beter is niet te beloven dan te beloven en niet na te komen. Zij namen de tiende als het minimum van christelijk geven, waarbij de heilige Johannes Chrysostomus en anderen de gelovigen aanspoorden meer dan de tiende te geven, omdat de genade meer vraagt dan de Wet.
+FN: De kerkvaders waarschuwden, met Prediker, dat het beter is niet te beloven dan te beloven en niet na te komen. Zij namen de tiende als het minimum van christelijk geven, waarbij de heilige Johannes Chrysostomus en anderen de gelovigen aanspoorden meer dan de tiende te geven, omdat de genade meer vraagt dan de Wet.
 T: Vows; Tithes; Holiness of gifts
 TN: Geloften; Tienden; Heiligheid van gaven

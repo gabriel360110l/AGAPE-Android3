@@ -26,7 +26,7 @@ SN: Juich in de Heer, rechtvaardigen; lof past de oprechten. Zing Hem een nieuw 
 M: Creation by God's word grounds trust in His faithfulness. Hope in God, not in military strength.
 MN: De schepping door Gods woord is de grond van vertrouwen in Zijn trouw. Hoop op God, niet op militaire kracht.
 F: The Fathers saw the Holy Trinity in 'by the word of the Lord the heavens were made, and by the breath of His mouth all their host': the Father creates through the Word and the Spirit. St Basil preached on this psalm. The last verse closes the Te Deum: let Your mercy be upon us, as we have hoped in You.
-FN: De Vaders zagen de Heilige Drie-eenheid in 'door het woord van de Heer is de hemel gemaakt, en door de adem van Zijn mond heel hun legermacht': de Vader schept door het Woord en de Geest. De heilige Basilius preekte over deze psalm. Het laatste vers sluit het Te Deum: laat Uw barmhartigheid over ons zijn, zoals wij op U gehoopt hebben.
+FN: De kerkvaders zagen de Heilige Drie-eenheid in 'door het woord van de Heer is de hemel gemaakt, en door de adem van Zijn mond heel hun legermacht': de Vader schept door het Woord en de Geest. De heilige Basilius preekte over deze psalm. Het laatste vers sluit het Te Deum: laat Uw barmhartigheid over ons zijn, zoals wij op U gehoopt hebben.
 T: New song; Creation by the word; Hope
 TN: Nieuw lied; Schepping door het woord; Hoop
 
@@ -46,7 +46,7 @@ SN: Strijd, Heer, tegen wie met mij strijden; bestrijd wie mij bestrijden. Zeg t
 M: The one repaid with evil for good brings his cause to God instead of taking revenge. He had prayed and fasted for his enemies.
 MN: Wie kwaad voor goed vergolden krijgt, brengt zijn zaak bij God in plaats van wraak te nemen. Hij had gebeden en gevast voor zijn vijanden.
 F: Christ applies 'they hated Me without cause' to Himself in John 15. The Fathers saw in this psalm the voice of Christ betrayed and falsely accused, and drew the lesson that we too must pray for those who wrong us, as the psalmist mourned for them in their sickness.
-FN: Christus past 'zij hebben Mij zonder reden gehaat' toe op Zichzelf in Johannes 15. De Vaders zagen in deze psalm de stem van de verraden en valselijk beschuldigde Christus, en trokken de les dat ook wij moeten bidden voor wie ons onrecht doen, zoals de psalmist om hen rouwde in hun ziekte.
+FN: Christus past 'zij hebben Mij zonder reden gehaat' toe op Zichzelf in Johannes 15. De kerkvaders zagen in deze psalm de stem van de verraden en valselijk beschuldigde Christus, en trokken de les dat ook wij moeten bidden voor wie ons onrecht doen, zoals de psalmist om hen rouwde in hun ziekte.
 T: False accusation; Evil for good; God as defender
 TN: Valse beschuldiging; Kwaad voor goed; God als verdediger
 
@@ -56,7 +56,7 @@ SN: De overtreding spreekt tot de goddeloze diep in zijn hart; er is geen vreze 
 M: Against the darkness of a heart without God stands the immensity of His love. Only in His light do we truly see.
 MN: Tegenover de duisternis van een hart zonder God staat de onmetelijkheid van Zijn liefde. Alleen in Zijn licht zien wij werkelijk.
 F: The Fathers read 'in Your light we see light' as a revelation of the Trinity: in the light of the Father we see the Light of the Son through the light of the Spirit; St Basil uses it this way. The verse is sung in the Byzantine Great Doxology and recalled in the Creed's 'Light from Light'.
-FN: De Vaders lazen 'in Uw licht zien wij het licht' als een openbaring van de Drie-eenheid: in het licht van de Vader zien wij het Licht van de Zoon door het licht van de Geest; de heilige Basilius gebruikt het zo. Het vers wordt gezongen in de Byzantijnse Grote Doxologie en klinkt door in 'Licht uit Licht' van het Credo.
+FN: De kerkvaders lazen 'in Uw licht zien wij het licht' als een openbaring van de Drie-eenheid: in het licht van de Vader zien wij het Licht van de Zoon door het licht van de Geest; de heilige Basilius gebruikt het zo. Het vers wordt gezongen in de Byzantijnse Grote Doxologie en klinkt door in 'Licht uit Licht' van het Credo.
 T: Steadfast love; Fountain of life; Light from light
 TN: Goedertierenheid; Bron van het leven; Licht uit licht
 
@@ -66,7 +66,7 @@ SN: Wees niet ontstoken over de boosdoeners; benijd niet wie onrecht doen, want 
 M: Envy and anger at the success of the wicked poison the heart. Patient trust and doing good lead to lasting peace.
 MN: Afgunst en woede over het succes van de goddelozen vergiftigen het hart. Geduldig vertrouwen en het goede doen leiden tot blijvende vrede.
 F: Christ takes up this psalm in the Beatitudes: blessed are the meek, for they shall inherit the earth. The Fathers used it to counsel against envy and anxiety, teaching that the true inheritance of the meek is the kingdom of heaven.
-FN: Christus neemt deze psalm op in de zaligsprekingen: zalig de zachtmoedigen, want zij zullen de aarde beërven. De Vaders gebruikten hem om af te raden van afgunst en bezorgdheid, en leerden dat het ware erfdeel van de zachtmoedigen het koninkrijk der hemelen is.
+FN: Christus neemt deze psalm op in de zaligsprekingen: zalig de zachtmoedigen, want zij zullen de aarde beërven. De kerkvaders gebruikten hem om af te raden van afgunst en bezorgdheid, en leerden dat het ware erfdeel van de zachtmoedigen het koninkrijk der hemelen is.
 T: Envy; Patience; The meek
 TN: Afgunst; Geduld; De zachtmoedigen
 
@@ -76,7 +76,7 @@ SN: Heer, straf mij niet in Uw toorn en kastijd mij niet in Uw grimmigheid. Uw p
 M: Sin isolates, wounds and weakens. The sinner abandoned by friends turns to the One who does not abandon him.
 MN: Zonde isoleert, verwondt en verzwakt. De zondaar die door vrienden verlaten wordt, keert zich tot Hem die hem niet verlaat.
 F: This is the second psalm of the Six Psalms at Byzantine Matins and one of the seven penitential psalms. The Fathers saw the silence of the psalmist, 'like a deaf man who does not hear', as the example of Christ who was silent before His accusers.
-FN: Dit is de tweede psalm van de Zes Psalmen in de Byzantijnse metten en een van de zeven boetepsalmen. De Vaders zagen het zwijgen van de psalmist, 'als een dove die niet hoort', als het voorbeeld van Christus die zweeg voor Zijn aanklagers.
+FN: Dit is de tweede psalm van de Zes Psalmen in de Byzantijnse metten en een van de zeven boetepsalmen. De kerkvaders zagen het zwijgen van de psalmist, 'als een dove die niet hoort', als het voorbeeld van Christus die zweeg voor Zijn aanklagers.
 T: Repentance; Isolation; Waiting for God
 TN: Boetvaardigheid; Isolement; Wachten op God
 
@@ -86,7 +86,7 @@ SN: Ik zei: ik zal mijn wegen bewaren, zodat ik niet zondig met mijn tong. Ik wa
 M: Remembering the brevity of life frees us from grasping and turns hope towards God. We are guests on earth.
 MN: Het gedenken van de kortheid van het leven bevrijdt ons van grijpen en richt de hoop op God. Wij zijn gasten op aarde.
 F: The Fathers made 'make me know my end' a foundation for the remembrance of death, which St John Climacus calls a gift of God that cuts off vain cares. St Ambrose commented at length on this psalm, especially on guarding the tongue.
-FN: De Vaders maakten 'maak mij mijn einde bekend' tot een grondslag voor het gedenken van de dood, dat de heilige Johannes Climacus een gave van God noemt die ijdele zorgen afsnijdt. De heilige Ambrosius gaf uitvoerig commentaar op deze psalm, vooral op het bewaren van de tong.
+FN: De kerkvaders maakten 'maak mij mijn einde bekend' tot een grondslag voor het gedenken van de dood, dat de heilige Johannes Climacus een gave van God noemt die ijdele zorgen afsnijdt. De heilige Ambrosius gaf uitvoerig commentaar op deze psalm, vooral op het bewaren van de tong.
 T: Brevity of life; Guarding the tongue; Pilgrims
 TN: Kortheid van het leven; Het bewaren van de tong; Vreemdelingen
 
@@ -96,7 +96,7 @@ SN: Ik heb de Heer geduldig verwacht; Hij boog Zich naar mij toe en hoorde mijn 
 M: God desires an obedient heart more than ritual sacrifice. The rescued become witnesses who cannot keep silent.
 MN: God wil liever een gehoorzaam hart dan rituele offers. Wie gered is, wordt een getuige die niet kan zwijgen.
 F: Hebrews 10 puts the words 'sacrifice and offering You did not desire, but a body You have prepared for Me; behold, I have come to do Your will' in the mouth of Christ at His coming into the world, following the Greek text. The Fathers read the whole psalm as Christ's self-offering and resurrection from the pit.
-FN: Hebreeën 10 legt de woorden 'offer en gave hebt U niet gewild, maar een lichaam hebt U Mij bereid; zie, Ik kom om Uw wil te doen' in de mond van Christus bij Zijn komst in de wereld, volgens de Griekse tekst. De Vaders lazen de hele psalm als de zelfgave van Christus en Zijn opstanding uit de kuil.
+FN: Hebreeën 10 legt de woorden 'offer en gave hebt U niet gewild, maar een lichaam hebt U Mij bereid; zie, Ik kom om Uw wil te doen' in de mond van Christus bij Zijn komst in de wereld, volgens de Griekse tekst. De kerkvaders lazen de hele psalm als de zelfgave van Christus en Zijn opstanding uit de kuil.
 T: Rescue; Obedience over sacrifice; Witness
 TN: Redding; Gehoorzaamheid boven offer; Getuigenis
 
@@ -106,7 +106,7 @@ SN: Welzalig wie acht slaat op de arme; op de dag van het kwaad zal de Heer hem 
 M: Mercy to the poor is answered by God's mercy in our need. Betrayal by a friend is among the deepest wounds.
 MN: Barmhartigheid voor de arme wordt beantwoord door Gods barmhartigheid in onze nood. Verraad door een vriend is een van de diepste wonden.
 F: At the Last Supper Christ quotes 'he who ate My bread has lifted his heel against Me' of Judas. The Fathers noted that this psalm ends the first book of the Psalter with a doxology, and they praised its opening beatitude on mercy to the poor, which Christ echoes: blessed are the merciful.
-FN: Bij het Laatste Avondmaal citeert Christus 'die Mijn brood at, heeft zijn hiel tegen Mij opgeheven' over Judas. De Vaders merkten op dat deze psalm het eerste boek van het psalmboek afsluit met een lofprijzing, en zij prezen de openingszaligspreking over barmhartigheid voor de arme, die Christus herhaalt: zalig de barmhartigen.
+FN: Bij het Laatste Avondmaal citeert Christus 'die Mijn brood at, heeft zijn hiel tegen Mij opgeheven' over Judas. De kerkvaders merkten op dat deze psalm het eerste boek van het psalmboek afsluit met een lofprijzing, en zij prezen de openingszaligspreking over barmhartigheid voor de arme, die Christus herhaalt: zalig de barmhartigen.
 T: Mercy to the poor; Betrayal; Healing
 TN: Barmhartigheid voor de arme; Verraad; Genezing
 
@@ -126,7 +126,7 @@ SN: Doe mij recht, God, en verdedig mijn zaak tegen een onheilig volk; bevrijd m
 M: The longing of Psalm 42 becomes a prayer to be led by God's light and truth to His altar, where sorrow turns into joy.
 MN: Het verlangen van Psalm 42 wordt een gebed om door Gods licht en waarheid naar Zijn altaar geleid te worden, waar verdriet verandert in vreugde.
 F: For centuries the Roman Mass began with this psalm at the foot of the altar: 'I will go in to the altar of God, to God who gives joy to my youth', following the Latin text. The Fathers saw the light and truth that lead us as Christ and the Holy Spirit.
-FN: Eeuwenlang begon de Romeinse Mis met deze psalm aan de voet van het altaar: 'Ik zal ingaan tot het altaar van God, tot God die mijn jeugd verblijdt', volgens de Latijnse tekst. De Vaders zagen het licht en de waarheid die ons leiden als Christus en de Heilige Geest.
+FN: Eeuwenlang begon de Romeinse Mis met deze psalm aan de voet van het altaar: 'Ik zal ingaan tot het altaar van God, tot God die mijn jeugd verblijdt', volgens de Latijnse tekst. De kerkvaders zagen het licht en de waarheid die ons leiden als Christus en de Heilige Geest.
 T: Light and truth; The altar of God; Hope
 TN: Licht en waarheid; Het altaar van God; Hoop
 
@@ -136,7 +136,7 @@ SN: God, wij hebben het met onze oren gehoord, onze vaderen hebben ons verteld w
 M: Faith remembers God's past acts and then dares to protest when the present contradicts them. Suffering is not always punishment for sin.
 MN: Geloof herinnert zich Gods daden uit het verleden en durft dan te protesteren wanneer het heden daarmee in strijd is. Lijden is niet altijd straf voor zonde.
 F: St Paul quotes 'for Your sake we are killed all the day long; we are regarded as sheep to be slaughtered' in Romans 8, adding that in all these things we are more than conquerors through Him who loved us. The Fathers applied the psalm to the martyrs.
-FN: De heilige Paulus citeert 'om Uwentwil worden wij de hele dag gedood; wij worden geacht als slachtschapen' in Romeinen 8, en voegt eraan toe dat wij in dit alles meer dan overwinnaars zijn door Hem die ons heeft liefgehad. De Vaders pasten de psalm toe op de martelaren.
+FN: De heilige Paulus citeert 'om Uwentwil worden wij de hele dag gedood; wij worden geacht als slachtschapen' in Romeinen 8, en voegt eraan toe dat wij in dit alles meer dan overwinnaars zijn door Hem die ons heeft liefgehad. De kerkvaders pasten de psalm toe op de martelaren.
 T: Remembrance; Innocent suffering; Martyrs
 TN: Gedenken; Onschuldig lijden; Martelaren
 
@@ -146,7 +146,7 @@ SN: Mijn hart borrelt over van een goed woord; ik zeg mijn gedichten tot de koni
 M: A wedding song for the king becomes a song of the divine Bridegroom and His bride. Love calls the bride to leave the old and belong wholly to the King.
 MN: Een bruiloftslied voor de koning wordt een lied over de goddelijke Bruidegom en Zijn bruid. Liefde roept de bruid op het oude te verlaten en geheel de Koning toe te behoren.
 F: Hebrews 1 applies 'Your throne, O God, is for ever' to the Son. The Fathers read the queen at the King's right hand as the Church and, in a special way, the Theotokos; verses of this psalm are the prokeimenon and the verses of her feasts: 'I will remember your name in all generations' and 'Hear, O daughter'.
-FN: Hebreeën 1 past 'Uw troon, o God, is voor eeuwig' toe op de Zoon. De Vaders lazen de koningin aan de rechterhand van de Koning als de Kerk en, op bijzondere wijze, de Moeder Gods; verzen uit deze psalm zijn het prokeimenon en de verzen van haar feesten: 'Ik zal uw naam gedenken in alle geslachten' en 'Hoor, dochter'.
+FN: Hebreeën 1 past 'Uw troon, o God, is voor eeuwig' toe op de Zoon. De kerkvaders lazen de koningin aan de rechterhand van de Koning als de Kerk en, op bijzondere wijze, de Moeder Gods; verzen uit deze psalm zijn het prokeimenon en de verzen van haar feesten: 'Ik zal uw naam gedenken in alle geslachten' en 'Hoor, dochter'.
 T: Christ the Bridegroom; The Church as bride; The Theotokos
 TN: Christus de Bruidegom; De Kerk als bruid; De Moeder Gods
 
@@ -156,7 +156,7 @@ SN: God is ons een toevlucht en sterkte, een hulp in benauwdheden, zeer nabij ge
 M: When everything shakes, God remains present in the midst of His people. Stillness before Him is the answer to chaos.
 MN: Wanneer alles wankelt, blijft God aanwezig in het midden van Zijn volk. Stilte voor Hem is het antwoord op de chaos.
 F: The Fathers read the river that gladdens the city of God as the Holy Spirit flowing through the Church, and 'God is in the midst of her' as the Incarnation and God's presence among the faithful. Martin Luther's hymn later made this psalm famous in the West, but its use in Christian prayer is ancient.
-FN: De Vaders lazen de rivier die de stad van God verblijdt als de Heilige Geest die door de Kerk stroomt, en 'God is in haar midden' als de menswording en Gods aanwezigheid onder de gelovigen. Een lied van Maarten Luther maakte deze psalm later beroemd in het Westen, maar het gebruik ervan in christelijk gebed is oud.
+FN: De kerkvaders lazen de rivier die de stad van God verblijdt als de Heilige Geest die door de Kerk stroomt, en 'God is in haar midden' als de menswording en Gods aanwezigheid onder de gelovigen. Een lied van Maarten Luther maakte deze psalm later beroemd in het Westen, maar het gebruik ervan in christelijk gebed is oud.
 T: Refuge; God in our midst; Stillness
 TN: Toevlucht; God in ons midden; Stilte
 
@@ -166,7 +166,7 @@ SN: Klap in de handen, alle volken! Juich God toe met een stem van vreugde! Want
 M: All peoples are invited to rejoice in God's kingship. Praise should be joyful and intelligent at once.
 MN: Alle volken worden uitgenodigd zich te verheugen in Gods koningschap. Lof moet tegelijk vreugdevol en verstandig zijn.
 F: The Church sings this psalm on the Feast of the Ascension: 'God has gone up with a shout' was read by the Fathers as Christ ascending in His glorified humanity, while the angels sound the trumpet. The gathering of the princes of the nations was seen as the Gentiles joining the people of Abraham in the Church.
-FN: De Kerk zingt deze psalm op het feest van de Hemelvaart: 'God vaart op onder gejuich' werd door de Vaders gelezen als Christus die opvaart in Zijn verheerlijkte mensheid, terwijl de engelen de bazuin laten klinken. Het samenkomen van de edelen van de volken werd gezien als het opgenomen worden van de heidenen in het volk van Abraham in de Kerk.
+FN: De Kerk zingt deze psalm op het feest van de Hemelvaart: 'God vaart op onder gejuich' werd door de kerkvaders gelezen als Christus die opvaart in Zijn verheerlijkte mensheid, terwijl de engelen de bazuin laten klinken. Het samenkomen van de edelen van de volken werd gezien als het opgenomen worden van de heidenen in het volk van Abraham in de Kerk.
 T: God's kingship; Ascension; Joyful praise
 TN: Gods koningschap; Hemelvaart; Vreugdevolle lof
 
@@ -176,7 +176,7 @@ SN: Groot is de Heer en zeer te prijzen in de stad van onze God! Zijn heilige be
 M: God's presence makes His city beautiful and secure. What we have heard of Him becomes what we have seen, to be handed on.
 MN: Gods aanwezigheid maakt Zijn stad schoon en veilig. Wat wij over Hem gehoord hebben, wordt wat wij gezien hebben, om door te geven.
 F: The Fathers read Zion as the Church and the heavenly Jerusalem, the city of the great King built on Christ. 'We have thought on Your steadfast love in the midst of Your temple' is used in the Western liturgy of the Presentation of the Lord, when Christ comes into His temple.
-FN: De Vaders lazen Sion als de Kerk en het hemelse Jeruzalem, de stad van de grote Koning, gebouwd op Christus. 'Wij overdenken Uw goedertierenheid in het midden van Uw tempel' wordt gebruikt in de Westerse liturgie van de Opdracht van de Heer, wanneer Christus in Zijn tempel komt.
+FN: De kerkvaders lazen Sion als de Kerk en het hemelse Jeruzalem, de stad van de grote Koning, gebouwd op Christus. 'Wij overdenken Uw goedertierenheid in het midden van Uw tempel' wordt gebruikt in de Westerse liturgie van de Opdracht van de Heer, wanneer Christus in Zijn tempel komt.
 T: City of God; Beauty; Tradition
 TN: Stad van God; Schoonheid; Overlevering
 
@@ -186,7 +186,7 @@ SN: Hoor dit, alle volken! Neem het ter ore, alle bewoners van de wereld, zowel 
 M: Wealth cannot buy life or escape death. Only God can ransom the soul.
 MN: Rijkdom kan geen leven kopen en niet ontkomen aan de dood. Alleen God kan de ziel loskopen.
 F: St Basil preached a homily on this psalm against trust in riches. Christ's parable of the rich fool echoes it: you cannot take it with you. The Fathers saw in 'no man can ransom another' a pointer to Christ, the only one who could pay the ransom for all.
-FN: De heilige Basilius hield een preek over deze psalm tegen het vertrouwen op rijkdom. De gelijkenis van Christus over de rijke dwaas weerspiegelt hem: je kunt het niet meenemen. De Vaders zagen in 'niemand kan een ander loskopen' een verwijzing naar Christus, de enige die het losgeld voor allen kon betalen.
+FN: De heilige Basilius hield een preek over deze psalm tegen het vertrouwen op rijkdom. De gelijkenis van Christus over de rijke dwaas weerspiegelt hem: je kunt het niet meenemen. De kerkvaders zagen in 'niemand kan een ander loskopen' een verwijzing naar Christus, de enige die het losgeld voor allen kon betalen.
 T: Wealth; Death; God's ransom
 TN: Rijkdom; Dood; Gods losprijs
 
@@ -196,7 +196,7 @@ SN: De Machtige, God de Heer, spreekt en roept de aarde. Uit Sion, de volmaakthe
 M: God does not need our gifts; He desires grateful hearts and lives that match our words.
 MN: God heeft onze gaven niet nodig; Hij verlangt dankbare harten en een leven dat overeenkomt met onze woorden.
 F: The Fathers loved the 'sacrifice of praise' (thanksgiving, eucharistia), seeing in it the pure offering of the Church; Hebrews calls us to offer a sacrifice of praise continually. St Augustine warns that reciting God's words while hating His discipline is hypocrisy.
-FN: De Vaders hielden van het 'offer van de lof' (dankzegging, eucharistia), en zagen daarin het zuivere offer van de Kerk; Hebreeën roept ons op voortdurend een offer van lof te brengen. De heilige Augustinus waarschuwt dat Gods woorden opzeggen terwijl men Zijn tucht haat, huichelarij is.
+FN: De kerkvaders hielden van het 'offer van de lof' (dankzegging, eucharistia), en zagen daarin het zuivere offer van de Kerk; Hebreeën roept ons op voortdurend een offer van lof te brengen. De heilige Augustinus waarschuwt dat Gods woorden opzeggen terwijl men Zijn tucht haat, huichelarij is.
 T: Thanksgiving; True worship; Hypocrisy
 TN: Dankzegging; Ware aanbidding; Huichelarij
 
@@ -216,7 +216,7 @@ SN: Toen Doëg de Edomiet aan Saul vertelde dat David in het huis van Achimelech
 M: The informer's tongue destroys, but the one rooted in God's house flourishes. Trust in riches is set against trust in God's love.
 MN: De tong van de verklikker vernietigt, maar wie geworteld is in Gods huis, bloeit. Vertrouwen op rijkdom staat tegenover vertrouwen op Gods liefde.
 F: The Fathers saw Doeg, who betrayed David and caused the slaughter of the priests, as a figure of Judas. The green olive tree in God's house was read as the believer anointed with the oil of the Spirit and rooted in the Church.
-FN: De Vaders zagen Doëg, die David verraadde en de slachting van de priesters veroorzaakte, als een voorafbeelding van Judas. De groene olijfboom in Gods huis werd gelezen als de gelovige die gezalfd is met de olie van de Geest en geworteld in de Kerk.
+FN: De kerkvaders zagen Doëg, die David verraadde en de slachting van de priesters veroorzaakte, als een voorafbeelding van Judas. De groene olijfboom in Gods huis werd gelezen als de gelovige die gezalfd is met de olie van de Geest en geworteld in de Kerk.
 T: The destructive tongue; Rootedness in God; Trust
 TN: De vernietigende tong; Geworteld in God; Vertrouwen
 
@@ -226,7 +226,7 @@ SN: De dwaas zegt in zijn hart: er is geen God. Zij zijn verdorven, zij doen gru
 M: This psalm repeats Psalm 14 with small changes: godlessness of the heart corrupts life, and all need salvation from God.
 MN: Deze psalm herhaalt Psalm 14 met kleine veranderingen: goddeloosheid van het hart bederft het leven, en allen hebben verlossing van God nodig.
 F: The Fathers explained the repetition as emphasis: what the Holy Spirit says twice must be taken to heart. St Augustine notes that the fool's denial is not with the lips but in the heart, in the way he lives.
-FN: De Vaders legden de herhaling uit als nadruk: wat de Heilige Geest twee keer zegt, moet ter harte genomen worden. De heilige Augustinus merkt op dat de ontkenning van de dwaas niet met de lippen gebeurt maar in het hart, in de manier waarop hij leeft.
+FN: De kerkvaders legden de herhaling uit als nadruk: wat de Heilige Geest twee keer zegt, moet ter harte genomen worden. De heilige Augustinus merkt op dat de ontkenning van de dwaas niet met de lippen gebeurt maar in het hart, in de manier waarop hij leeft.
 T: Folly; Universal sin; Salvation from Zion
 TN: Dwaasheid; Algemene zondigheid; Heil uit Sion
 
@@ -236,7 +236,7 @@ SN: Toen de Zifieten Saul gingen vertellen: houdt David zich niet bij ons verbor
 M: Betrayed by those around him, David calls on God's name. A short prayer moves from danger to thanksgiving.
 MN: Verraden door wie om hem heen zijn, roept David Gods naam aan. Een kort gebed gaat van gevaar naar dankzegging.
 F: This psalm is said at the Sixth Hour in the Byzantine rite, the hour of the crucifixion. The Fathers heard in it the prayer of Christ, betrayed and sought by enemies, who trusted the Father to uphold His life.
-FN: Deze psalm wordt gebeden in het Zesde Uur van de Byzantijnse ritus, het uur van de kruisiging. De Vaders hoorden erin het gebed van Christus, verraden en gezocht door vijanden, die erop vertrouwde dat de Vader Zijn leven zou ondersteunen.
+FN: Deze psalm wordt gebeden in het Zesde Uur van de Byzantijnse ritus, het uur van de kruisiging. De kerkvaders hoorden erin het gebed van Christus, verraden en gezocht door vijanden, die erop vertrouwde dat de Vader Zijn leven zou ondersteunen.
 T: Betrayal; God's name; Freewill offering
 TN: Verraad; Gods naam; Vrijwillig offer
 
@@ -246,7 +246,7 @@ SN: Neem mijn gebed ter ore, God, en verberg U niet voor mijn smeekbede! Mijn ha
 M: The pain of betrayal by a close friend makes us long to flee. Instead, the psalmist prays throughout the day and casts his burden on God.
 MN: De pijn van verraad door een goede vriend doet ons verlangen te vluchten. In plaats daarvan bidt de psalmist de hele dag door en werpt zijn last op God.
 F: St Peter echoes this psalm: cast all your anxiety on Him, because He cares for you. The Fathers saw the betraying friend as Judas, and 'evening, morning and noon' as a witness to the ancient practice of fixed hours of prayer. It is said at the Sixth Hour in the Byzantine rite.
-FN: De heilige Petrus weerspiegelt deze psalm: werp al uw zorg op Hem, want Hij zorgt voor u. De Vaders zagen de verraderlijke vriend als Judas, en ''s avonds, 's morgens en 's middags' als een getuigenis van de oude gewoonte van vaste gebedsuren. Hij wordt gebeden in het Zesde Uur van de Byzantijnse ritus.
+FN: De heilige Petrus weerspiegelt deze psalm: werp al uw zorg op Hem, want Hij zorgt voor u. De kerkvaders zagen de verraderlijke vriend als Judas, en ''s avonds, 's morgens en 's middags' als een getuigenis van de oude gewoonte van vaste gebedsuren. Hij wordt gebeden in het Zesde Uur van de Byzantijnse ritus.
 T: Betrayal by a friend; Prayer through the day; Casting cares on God
 TN: Verraad door een vriend; Gebed door de dag; Zorgen op God werpen
 
@@ -256,7 +256,7 @@ SN: Toen de Filistijnen David in Gath grepen. Wees mij genadig, God, want de men
 M: Fear is real, but it can become the moment of trust. God keeps every tear; none is forgotten.
 MN: Angst is echt, maar kan het moment van vertrouwen worden. God bewaart elke traan; geen enkele wordt vergeten.
 F: Hebrews quotes the related words: the Lord is my helper; I will not fear; what can man do to me? The Fathers loved the image of God gathering our tears in a bottle, teaching that tears of repentance and suffering are precious to Him.
-FN: Hebreeën citeert de verwante woorden: de Heer is mijn helper; ik zal niet vrezen; wat zal een mens mij doen? De Vaders hielden van het beeld van God die onze tranen in een kruik verzamelt, en leerden dat tranen van berouw en lijden kostbaar zijn voor Hem.
+FN: Hebreeën citeert de verwante woorden: de Heer is mijn helper; ik zal niet vrezen; wat zal een mens mij doen? De kerkvaders hielden van het beeld van God die onze tranen in een kruik verzamelt, en leerden dat tranen van berouw en lijden kostbaar zijn voor Hem.
 T: Fear and trust; Tears; God is for me
 TN: Angst en vertrouwen; Tranen; God is voor mij
 
@@ -266,7 +266,7 @@ SN: Toen David voor Saul vluchtte in de grot. Wees mij genadig, God, want bij U 
 M: Hiding in a cave, David sings as if dawn were already breaking. Praise can begin in the darkness before deliverance comes.
 MN: Verborgen in een grot zingt David alsof de dageraad al aanbreekt. Lof kan in het donker beginnen, voordat de redding komt.
 F: The Fathers read this psalm of Christ in the tomb, the cave, rising at dawn: 'Awake, my glory! I will awake the dawn.' It is used in the Western Lauds, the morning prayer, and the image of the shadow of God's wings runs through the Church's prayers of protection.
-FN: De Vaders lazen deze psalm over Christus in het graf, de grot, die opstaat bij de dageraad: 'Ontwaak, mijn eer! Ik zal de dageraad wekken.' Hij wordt gebruikt in de Westerse lauden, het morgengebed, en het beeld van de schaduw van Gods vleugels loopt door de beschermingsgebeden van de Kerk.
+FN: De kerkvaders lazen deze psalm over Christus in het graf, de grot, die opstaat bij de dageraad: 'Ontwaak, mijn eer! Ik zal de dageraad wekken.' Hij wordt gebruikt in de Westerse lauden, het morgengebed, en het beeld van de schaduw van Gods vleugels loopt door de beschermingsgebeden van de Kerk.
 T: Refuge; Steadfast heart; Morning praise
 TN: Toevlucht; Een vast hart; Morgenlof
 
@@ -276,7 +276,7 @@ SN: Spreekt u werkelijk recht, u machthebbers? Oordeelt u de mensenkinderen met 
 M: When judges and rulers are corrupt, the oppressed cry for God's justice. The psalm assures that injustice will not have the last word.
 MN: Wanneer rechters en machthebbers corrupt zijn, roepen de verdrukten om Gods gerechtigheid. De psalm verzekert dat onrecht niet het laatste woord heeft.
 F: The Fathers taught Christians to pray the harsh curses of such psalms against sin and the demons rather than against people. St Augustine notes that the deaf adder that stops its ear is the soul that refuses to hear the word of God.
-FN: De Vaders leerden christenen de harde vervloekingen van zulke psalmen te bidden tegen de zonde en de demonen, en niet tegen mensen. De heilige Augustinus merkt op dat de dove adder die haar oor dichtstopt de ziel is die weigert het woord van God te horen.
+FN: De kerkvaders leerden christenen de harde vervloekingen van zulke psalmen te bidden tegen de zonde en de demonen, en niet tegen mensen. De heilige Augustinus merkt op dat de dove adder die haar oor dichtstopt de ziel is die weigert het woord van God te horen.
 T: Corrupt judges; Divine justice; Praying the curses
 TN: Corrupte rechters; Goddelijke gerechtigheid; Het bidden van de vervloekingen
 
@@ -286,7 +286,7 @@ SN: Toen Saul mannen stuurde om het huis van David te bewaken om hem te doden. R
 M: Surrounded by enemies at night, the believer watches for God and expects to sing in the morning.
 MN: 's Nachts omringd door vijanden, kijkt de gelovige uit naar God en verwacht 's morgens te zingen.
 F: The Fathers saw in the enemies who 'come back at evening' the passions and demons that assail the soul at night, and in the morning song the joy of the resurrection. St Augustine reads it as the prayer of Christ and His body against persecution.
-FN: De Vaders zagen in de vijanden die ''s avonds terugkomen' de hartstochten en demonen die de ziel 's nachts aanvallen, en in het morgenlied de vreugde van de opstanding. De heilige Augustinus leest hem als het gebed van Christus en Zijn lichaam tegen vervolging.
+FN: De kerkvaders zagen in de vijanden die ''s avonds terugkomen' de hartstochten en demonen die de ziel 's nachts aanvallen, en in het morgenlied de vreugde van de opstanding. De heilige Augustinus leest hem als het gebed van Christus en Zijn lichaam tegen vervolging.
 T: Watching for God; Night and morning; Fortress
 TN: Uitzien naar God; Nacht en morgen; Burcht
 
@@ -296,6 +296,6 @@ SN: God, U hebt ons verstoten, onze verdediging doorbroken; U bent toornig gewee
 M: After defeat the people turn to God's promise and confess that human help is vain. Strength comes from God.
 MN: Na een nederlaag keert het volk zich tot Gods belofte en belijdt dat menselijke hulp ijdel is. Kracht komt van God.
 F: The Fathers read the banner set up for those who fear God as the cross, around which the faithful gather. 'Vain is the salvation of man' was seen as a lesson that the spiritual battle is won by grace and not by human effort alone.
-FN: De Vaders lazen de banier die gegeven wordt aan wie God vrezen als het kruis, waaromheen de gelovigen zich verzamelen. 'Menselijke hulp is ijdel' werd gezien als een les dat de geestelijke strijd door genade gewonnen wordt en niet door menselijke inspanning alleen.
+FN: De kerkvaders lazen de banier die gegeven wordt aan wie God vrezen als het kruis, waaromheen de gelovigen zich verzamelen. 'Menselijke hulp is ijdel' werd gezien als een les dat de geestelijke strijd door genade gewonnen wordt en niet door menselijke inspanning alleen.
 T: Defeat and restoration; The banner; God's strength
 TN: Nederlaag en herstel; De banier; Gods kracht

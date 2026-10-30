@@ -6,7 +6,7 @@ SN: In het begin was het Woord, en het Woord was bij God, en het Woord was God. 
 M: The prologue is the summit of the Church's faith in Christ: the eternal Word, God from God, became truly man. To all who receive Him He gives power to become children of God.
 MN: De proloog is het hoogtepunt van het geloof van de Kerk in Christus: het eeuwige Woord, God uit God, is waarlijk mens geworden. Aan allen die Hem ontvangen, geeft Hij macht kinderen van God te worden.
 F: The Fathers of Nicaea defended the full divinity of the Son from this chapter. St Athanasius teaches that the Word became man so that we might become partakers of God. The Fathers gave John the symbol of the eagle, for he soars to the heights of the Godhead.
-FN: De Vaders van Nicea verdedigden vanuit dit hoofdstuk de volle godheid van de Zoon. De heilige Athanasius leert dat het Woord mens werd opdat wij deel zouden krijgen aan God. De Vaders gaven Johannes het symbool van de adelaar, omdat hij opstijgt naar de hoogten van de Godheid.
+FN: De kerkvaders van Nicea verdedigden vanuit dit hoofdstuk de volle godheid van de Zoon. De heilige Athanasius leert dat het Woord mens werd opdat wij deel zouden krijgen aan God. De kerkvaders gaven Johannes het symbool van de adelaar, omdat hij opstijgt naar de hoogten van de Godheid.
 T: Incarnation; Divinity of Christ; Lamb of God
 TN: Menswording; Godheid van Christus; Lam van God
 
@@ -16,7 +16,7 @@ SN: Op een bruiloft in Kana raakt de wijn op. De Moeder van Jezus zegt tegen de 
 M: Christ brings the new wine of the kingdom and sanctifies marriage by His presence. His body is the true temple where God dwells with us.
 MN: Christus brengt de nieuwe wijn van het koninkrijk en heiligt het huwelijk door Zijn aanwezigheid. Zijn lichaam is de ware tempel waar God bij ons woont.
 F: The Fathers taught that by coming to the wedding Christ blessed marriage; the Byzantine marriage service reads this Gospel. Mary's words, 'do whatever He tells you', were seen as her constant counsel to the Church.
-FN: De Vaders leerden dat Christus door naar de bruiloft te komen het huwelijk zegende; de Byzantijnse huwelijksdienst leest dit Evangelie. De woorden van Maria, 'doet maar wat Hij u zegt', werden gezien als haar blijvende raad aan de Kerk.
+FN: De kerkvaders leerden dat Christus door naar de bruiloft te komen het huwelijk zegende; de Byzantijnse huwelijksdienst leest dit Evangelie. De woorden van Maria, 'doet maar wat Hij u zegt', werden gezien als haar blijvende raad aan de Kerk.
 T: Signs; Marriage; The new temple
 TN: Tekenen; Huwelijk; De nieuwe tempel
 
@@ -24,11 +24,11 @@ TN: Tekenen; Huwelijk; De nieuwe tempel
 S: Nicodemus, a Pharisee and ruler, comes to Jesus by night. Jesus tells him that unless one is born of water and the Spirit, he cannot enter the kingdom of God. As Moses lifted up the serpent, so must the Son of Man be lifted up. For God so loved the world that He gave His only Son, that whoever believes in Him should not perish but have eternal life. John the Baptist rejoices as the friend of the bridegroom: He must increase, I must decrease.
 SN: Nicodemus, een farizeeër en overste, komt 's nachts naar Jezus. Jezus zegt hem dat wie niet geboren wordt uit water en Geest, het koninkrijk van God niet kan binnengaan. Zoals Mozes de slang verhief, zo moet de Mensenzoon verhoogd worden. Want zo lief heeft God de wereld gehad dat Hij Zijn eniggeboren Zoon gegeven heeft, opdat wie in Hem gelooft niet verloren gaat, maar eeuwig leven heeft. Johannes de Doper verheugt zich als de vriend van de bruidegom: Hij moet groter worden, ik kleiner.
 M: New life is a gift from above, received in baptism and faith. The cross is the 'lifting up' where God's love for the world is revealed.
-MN: Nieuw leven is een geschenk van boven, ontvangen in doopsel en geloof. Het kruis is de 'verhoging' waar Gods liefde voor de wereld geopenbaard wordt.
+MN: Nieuw leven is een geschenk van boven, ontvangen in doop en geloof. Het kruis is de 'verhoging' waar Gods liefde voor de wereld geopenbaard wordt.
 F: The Fathers unanimously read 'born of water and the Spirit' as baptism. St John Chrysostom notes that Nicodemus came by night, still timid, but later came openly to bury the Lord.
-FN: De Vaders lezen 'geboren uit water en Geest' eensgezind als het doopsel. De heilige Johannes Chrysostomus merkt op dat Nicodemus 's nachts kwam, nog schuchter, maar later openlijk kwam om de Heer te begraven.
+FN: De kerkvaders lezen 'geboren uit water en Geest' eensgezind als de doop. De heilige Johannes Chrysostomus merkt op dat Nicodemus 's nachts kwam, nog schuchter, maar later openlijk kwam om de Heer te begraven.
 T: New birth; Baptism; God's love
-TN: Wedergeboorte; Doopsel; Gods liefde
+TN: Wedergeboorte; Doop; Gods liefde
 
 ## 4 | The Samaritan woman | De Samaritaanse vrouw
 S: Tired from His journey, Jesus sits by Jacob's well and asks a Samaritan woman for a drink. He offers her living water, a spring welling up to eternal life, reveals her past, and teaches that true worshippers will worship the Father in spirit and truth. I who speak to you am He. She leaves her jar and calls her town, and many Samaritans believe: this is truly the Saviour of the world. In Cana He heals an official's son by His word.
@@ -36,7 +36,7 @@ SN: Moe van de reis zit Jezus bij de bron van Jakob en vraagt een Samaritaanse v
 M: Christ crosses barriers of nation, gender and sin to offer the Spirit, the living water. The woman becomes an evangelist.
 MN: Christus overschrijdt grenzen van volk, geslacht en zonde om de Geest aan te bieden, het levende water. De vrouw wordt een evangelist.
 F: The Orthodox Church honours the Samaritan woman as St Photini, 'the enlightened one', equal to the apostles, and reads this Gospel in the Paschal season. The Fathers see in Jesus' weariness the truth of His humanity.
-FN: De Orthodoxe Kerk eert de Samaritaanse vrouw als de heilige Fotini, 'de verlichte', gelijk aan de apostelen, en leest dit Evangelie in de paastijd. De Vaders zien in de vermoeidheid van Jezus de waarheid van Zijn mensheid.
+FN: De Orthodoxe Kerk eert de Samaritaanse vrouw als de heilige Fotini, 'de verlichte', gelijk aan de apostelen, en leest dit Evangelie in de paastijd. De kerkvaders zien in de vermoeidheid van Jezus de waarheid van Zijn mensheid.
 T: Living water; Worship in spirit and truth; Witness
 TN: Levend water; Aanbidding in geest en waarheid; Getuigenis
 
@@ -46,7 +46,7 @@ SN: Bij het bad van Betesda geneest Jezus een man die achtendertig jaar ziek was
 M: The Son is equal to the Father in honour and in work: He gives life and raises the dead. The one who has 'no one' finds that Christ Himself is the help he lacked.
 MN: De Zoon is gelijk aan de Vader in eer en in werk: Hij geeft leven en wekt de doden op. Wie 'niemand' heeft, ontdekt dat Christus Zelf de hulp is die hem ontbrak.
 F: The Fathers saw the pool and the angel who stirred the waters as a figure of baptism. The Orthodox Church reads this Gospel on the Sunday of the Paralytic after Pascha.
-FN: De Vaders zagen het bad en de engel die het water in beroering bracht als een voorafbeelding van het doopsel. De Orthodoxe Kerk leest dit Evangelie op de zondag van de verlamde na Pasen.
+FN: De kerkvaders zagen het bad en de engel die het water in beroering bracht als een voorafbeelding van de doop. De Orthodoxe Kerk leest dit Evangelie op de zondag van de verlamde na Pasen.
 T: Healing; Equality of the Son; Witness
 TN: Genezing; Gelijkheid van de Zoon; Getuigenis
 
@@ -56,7 +56,7 @@ SN: Jezus voedt vijfduizend mensen met vijf gerstebroden en twee vissen, en loop
 M: This is the great Eucharistic discourse: Christ gives Himself as food, truly His flesh and blood, for the life of the world.
 MN: Dit is de grote eucharistische rede: Christus geeft Zichzelf als voedsel, waarlijk Zijn vlees en bloed, voor het leven van de wereld.
 F: The Fathers read this chapter of the Eucharist. St Cyril of Alexandria teaches that the flesh of Christ is life-giving because it is the flesh of the Word, and through it we are united with Him in body and soul.
-FN: De Vaders lezen dit hoofdstuk over de eucharistie. De heilige Cyrillus van Alexandrië leert dat het vlees van Christus levendmakend is omdat het het vlees van het Woord is, en dat wij daardoor met Hem verenigd worden naar lichaam en ziel.
+FN: De kerkvaders lezen dit hoofdstuk over de eucharistie. De heilige Cyrillus van Alexandrië leert dat het vlees van Christus levendmakend is omdat het het vlees van het Woord is, en dat wij daardoor met Hem verenigd worden naar lichaam en ziel.
 T: Eucharist; Faith; Eternal life
 TN: Eucharistie; Geloof; Eeuwig leven
 
@@ -76,7 +76,7 @@ SN: Schriftgeleerden brengen een vrouw die op overspel betrapt is; Jezus zegt: w
 M: 'I AM' is the divine Name revealed to Moses at the burning bush. Christ frees us from the slavery of sin, without condoning sin.
 MN: 'IK BEN' is de goddelijke Naam die aan Mozes bij de brandende braamstruik werd geopenbaard. Christus bevrijdt ons van de slavernij van de zonde, zonder de zonde goed te keuren.
 F: St Augustine sums up the scene of the adulteress: 'two were left, misery and mercy'. The Fathers read 'before Abraham was, I AM' as a clear confession of Christ's eternal divinity.
-FN: De heilige Augustinus vat het tafereel met de overspelige vrouw samen: 'twee bleven over, ellende en barmhartigheid'. De Vaders lezen 'vóór Abraham was, BEN IK' als een duidelijke belijdenis van Christus' eeuwige godheid.
+FN: De heilige Augustinus vat het tafereel met de overspelige vrouw samen: 'twee bleven over, ellende en barmhartigheid'. De kerkvaders lezen 'vóór Abraham was, BEN IK' als een duidelijke belijdenis van Christus' eeuwige godheid.
 T: Light; Freedom from sin; I AM
 TN: Licht; Vrijheid van zonde; IK BEN
 
@@ -86,7 +86,7 @@ SN: Jezus ziet een man die blind geboren is. Noch hij noch zijn ouders hebben ge
 M: The healed man grows step by step in faith, from 'the man called Jesus' to worship. Spiritual blindness is the refusal to see.
 MN: De genezen man groeit stap voor stap in geloof, van 'de man die Jezus heet' tot aanbidding. Geestelijke blindheid is de weigering om te zien.
 F: St Irenaeus and other Fathers note that Christ, who formed Adam from the earth, uses clay to give new eyes: the Creator completes His work. The washing in Siloam ('Sent') was read as baptism, called 'illumination' by the early Church.
-FN: De heilige Irenaeus en andere Vaders merken op dat Christus, die Adam uit de aarde vormde, slijk gebruikt om nieuwe ogen te geven: de Schepper voltooit Zijn werk. Het wassen in Siloam ('Gezonden') werd gelezen als het doopsel, dat de vroege Kerk 'verlichting' noemde.
+FN: De heilige Irenaeus en andere kerkvaders merken op dat Christus, die Adam uit de aarde vormde, slijk gebruikt om nieuwe ogen te geven: de Schepper voltooit Zijn werk. Het wassen in Siloam ('Gezonden') werd gelezen als de doop, die de vroege Kerk 'verlichting' noemde.
 T: Illumination; Faith; Spiritual blindness
 TN: Verlichting; Geloof; Geestelijke blindheid
 
@@ -96,7 +96,7 @@ SN: Jezus zegt: Ik ben de deur van de schapen; wie door Mij binnengaat, zal gere
 M: The Shepherd gives His life freely and keeps His sheep forever. 'I and the Father are one' expresses the unity of essence of the Son with the Father.
 MN: De Herder geeft vrijwillig Zijn leven en bewaart Zijn schapen voor altijd. 'Ik en de Vader zijn één' drukt de eenheid van wezen uit van de Zoon met de Vader.
 F: The Fathers used 'I and the Father are one' against Arius (one in essence) and against Sabellius ('are', not 'is': two Persons). Shepherds of the Church, St Gregory the Great teaches, must be ready to give their lives like Christ.
-FN: De Vaders gebruikten 'Ik en de Vader zijn één' tegen Arius (één van wezen) en tegen Sabellius ('zijn', niet 'is': twee Personen). Herders van de Kerk, leert de heilige Gregorius de Grote, moeten bereid zijn hun leven te geven zoals Christus.
+FN: De kerkvaders gebruikten 'Ik en de Vader zijn één' tegen Arius (één van wezen) en tegen Sabellius ('zijn', niet 'is': twee Personen). Herders van de Kerk, leert de heilige Gregorius de Grote, moeten bereid zijn hun leven te geven zoals Christus.
 T: Good Shepherd; Unity with the Father; Self-giving
 TN: Goede Herder; Eenheid met de Vader; Zelfgave
 
@@ -106,6 +106,6 @@ SN: Lazarus van Betanië is ziek; Jezus wacht twee dagen, en als Hij aankomt, li
 M: Christ weeps as man and raises the dead as God. The raising of Lazarus is a pledge of the general resurrection and leads directly to the cross.
 MN: Christus weent als mens en wekt de doden op als God. De opwekking van Lazarus is een onderpand van de algemene opstanding en leidt rechtstreeks naar het kruis.
 F: The Church celebrates Lazarus Saturday before Palm Sunday, singing that Christ 'confirmed the common resurrection' by raising Lazarus. The Fathers point to His tears and His command as signs of the two natures in one Person.
-FN: De Kerk viert Lazaruszaterdag vóór Palmzondag en zingt dat Christus door de opwekking van Lazarus 'de algemene opstanding bevestigde'. De Vaders wijzen op Zijn tranen en Zijn bevel als tekenen van de twee naturen in één Persoon.
+FN: De Kerk viert Lazaruszaterdag vóór Palmzondag en zingt dat Christus door de opwekking van Lazarus 'de algemene opstanding bevestigde'. De kerkvaders wijzen op Zijn tranen en Zijn bevel als tekenen van de twee naturen in één Persoon.
 T: Resurrection; Compassion; Faith
 TN: Opstanding; Medelijden; Geloof

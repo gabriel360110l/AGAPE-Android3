@@ -6,7 +6,7 @@ SN: Paulus, Silvanus en Timoteüs danken God voor het werk van het geloof, de in
 M: Probably Paul's earliest letter shows the shape of Christian life from the start: faith, love and hope, turning from idols to the living God.
 MN: Waarschijnlijk de vroegste brief van Paulus toont de vorm van het christelijk leven vanaf het begin: geloof, liefde en hoop, een bekering van de afgoden tot de levende God.
 F: The Fathers note that the triad of faith, love and hope appears here before 1 Corinthians 13; St John Chrysostom praises this young church as a model for older ones.
-FN: De Vaders merken op dat het drietal geloof, liefde en hoop hier al vóór 1 Korintiërs 13 verschijnt; de heilige Johannes Chrysostomus prijst deze jonge kerk als voorbeeld voor oudere.
+FN: De kerkvaders merken op dat het drietal geloof, liefde en hoop hier al vóór 1 Korintiërs 13 verschijnt; de heilige Johannes Chrysostomus prijst deze jonge kerk als voorbeeld voor oudere.
 T: Faith, love, hope; Conversion; Example
 TN: Geloof, liefde, hoop; Bekering; Voorbeeld
 
@@ -16,7 +16,7 @@ SN: Paulus kwam bij hen nadat hij in Filippi mishandeld was en predikte vrijmoed
 M: A true pastor is both mother and father: gentle and demanding, giving his whole life. The apostolic word is truly God's word.
 MN: Een ware herder is zowel moeder als vader: zacht en veeleisend, en geeft zijn hele leven. Het apostolisch woord is waarlijk Gods woord.
 F: The Fathers often held up Paul's image of the nursing mother as the model for bishops and spiritual fathers.
-FN: De Vaders hielden vaak het beeld van Paulus als voedster voor als voorbeeld voor bisschoppen en geestelijke vaders.
+FN: De kerkvaders hielden vaak het beeld van Paulus als voedster voor als voorbeeld voor bisschoppen en geestelijke vaders.
 T: Pastoral love; Word of God; Sincerity
 TN: Herderlijke liefde; Woord van God; Oprechtheid
 
@@ -26,7 +26,7 @@ SN: Omdat hij de scheiding niet kon verdragen, zond Paulus Timoteüs om hen te v
 M: The life of the shepherd is bound to the faithfulness of his flock. Love must grow toward all people.
 MN: Het leven van de herder is verbonden met de trouw van zijn kudde. Liefde moet groeien naar alle mensen toe.
 F: The Fathers read 'with all His saints' of the angels and the righteous who accompany Christ at His coming.
-FN: De Vaders lazen 'met al Zijn heiligen' als de engelen en de rechtvaardigen die Christus bij Zijn komst begeleiden.
+FN: De kerkvaders lazen 'met al Zijn heiligen' als de engelen en de rechtvaardigen die Christus bij Zijn komst begeleiden.
 T: Perseverance; Love; Holiness
 TN: Volharding; Liefde; Heiligheid
 
@@ -36,7 +36,7 @@ SN: Dit is de wil van God, uw heiliging: onthoud u van ontucht en bewaar uw lich
 M: Christians grieve, but with hope. Death is 'falling asleep' for those in Christ, who will rise.
 MN: Christenen rouwen, maar met hoop. De dood is 'ontslapen' voor wie in Christus zijn, want zij zullen opstaan.
 F: This passage is read at Orthodox funerals. The Fathers note that Christians called their burial places 'cemeteries', from the Greek for 'sleeping places', in this hope.
-FN: Deze passage wordt gelezen bij orthodoxe uitvaarten. De Vaders merken op dat christenen hun begraafplaatsen 'cemeteria' noemden, van het Griekse woord voor 'slaapplaatsen', in deze hoop.
+FN: Deze passage wordt gelezen bij orthodoxe uitvaarten. De kerkvaders merken op dat christenen hun begraafplaatsen 'cemeteria' noemden, van het Griekse woord voor 'slaapplaatsen', in deze hoop.
 T: Holiness; Hope; Resurrection
 TN: Heiligheid; Hoop; Opstanding
 

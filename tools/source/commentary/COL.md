@@ -6,7 +6,7 @@ SN: Paulus dankt God voor het geloof en de liefde van de Kolossenzen en bidt dat
 M: Christ is Creator, sustainer and reconciler of all things. All creation, visible and invisible, belongs to Him.
 MN: Christus is Schepper, onderhouder en verzoener van alle dingen. Heel de schepping, zichtbaar en onzichtbaar, behoort Hem toe.
 F: The Fathers explained 'firstborn of all creation' not as the first creature but as the One through whom all was made, against Arius. St John of Damascus defended icons from 1:15: the invisible God has an image, Christ, who became visible.
-FN: De Vaders verklaarden 'eerstgeborene van heel de schepping' niet als het eerste schepsel, maar als Degene door wie alles gemaakt is, tegen Arius. De heilige Johannes van Damascus verdedigde de iconen vanuit 1:15: de onzichtbare God heeft een beeld, Christus, die zichtbaar werd.
+FN: De kerkvaders verklaarden 'eerstgeborene van heel de schepping' niet als het eerste schepsel, maar als Degene door wie alles gemaakt is, tegen Arius. De heilige Johannes van Damascus verdedigde de iconen vanuit 1:15: de onzichtbare God heeft een beeld, Christus, die zichtbaar werd.
 T: Supremacy of Christ; Creation; Reconciliation
 TN: Opperheerschappij van Christus; Schepping; Verzoening
 
@@ -16,17 +16,17 @@ SN: Paulus strijdt voor hen, opdat hun harten in liefde samengebonden worden en 
 M: Everything we need is found in Christ. On the cross He cancelled our debt and triumphed over the powers of evil.
 MN: Alles wat wij nodig hebben, is te vinden in Christus. Aan het kruis heeft Hij onze schuld uitgewist en over de machten van het kwaad gezegevierd.
 F: 'In Him the whole fullness of deity dwells bodily' was for the Fathers one of the strongest texts for the Incarnation: God fully present in a human body.
-FN: 'In Hem woont heel de volheid van de Godheid lichamelijk' was voor de Vaders een van de sterkste teksten voor de menswording: God volledig aanwezig in een menselijk lichaam.
+FN: 'In Hem woont heel de volheid van de Godheid lichamelijk' was voor de kerkvaders een van de sterkste teksten voor de menswording: God volledig aanwezig in een menselijk lichaam.
 T: Fullness of Christ; Baptism; Victory of the cross
-TN: Volheid van Christus; Doopsel; Overwinning van het kruis
+TN: Volheid van Christus; Doop; Overwinning van het kruis
 
 ## 3 | Raised with Christ | Opgewekt met Christus
 S: If you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God; your life is hidden with Christ in God. Put to death what is earthly in you, and put off anger, malice and lying, having put on the new self, renewed in the image of its creator, where there is not Greek and Jew, but Christ is all and in all. Put on compassion, kindness, humility, meekness and patience, forgiving each other; and above all put on love, which binds everything together. Let the peace of Christ rule in your hearts and the word of Christ dwell in you richly. Whatever you do, do everything in the name of the Lord Jesus, giving thanks.
 SN: Als u met Christus bent opgewekt, zoek dan de dingen die boven zijn, waar Christus is, gezeten aan de rechterhand van God; uw leven is met Christus verborgen in God. Dood wat aards in u is, en leg woede, boosaardigheid en leugen af, nu u de nieuwe mens hebt aangetrokken, die vernieuwd wordt naar het beeld van zijn Schepper, waar geen Griek of Jood is, maar Christus alles en in allen. Bekleed u met medeleven, vriendelijkheid, nederigheid, zachtmoedigheid en geduld, en vergeef elkaar; en bovenal met de liefde, die alles samenbindt. Laat de vrede van Christus in uw harten heersen en het woord van Christus rijk in u wonen. Wat u ook doet, doe alles in de naam van de Heer Jezus, en dank God.
 M: Baptism raises us with Christ, and so our hearts are set on Him. The new life is clothed with virtues, bound together by love.
-MN: Het doopsel wekt ons op met Christus, en daarom is ons hart op Hem gericht. Het nieuwe leven is bekleed met deugden, samengebonden door de liefde.
+MN: De doop wekt ons op met Christus, en daarom is ons hart op Hem gericht. Het nieuwe leven is bekleed met deugden, samengebonden door de liefde.
 F: The Fathers read 'your life is hidden with Christ in God' as the description of the inner life of prayer. The baptismal garment was explained by them as 'putting on' the new self.
-FN: De Vaders lazen 'uw leven is met Christus verborgen in God' als beschrijving van het innerlijk gebedsleven. Het doopkleed werd door hen uitgelegd als het 'aantrekken' van de nieuwe mens.
+FN: De kerkvaders lazen 'uw leven is met Christus verborgen in God' als beschrijving van het innerlijk gebedsleven. Het doopkleed werd door hen uitgelegd als het 'aantrekken' van de nieuwe mens.
 T: New life; Virtues; Thanksgiving
 TN: Nieuw leven; Deugden; Dankzegging
 

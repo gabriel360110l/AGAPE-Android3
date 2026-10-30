@@ -6,7 +6,7 @@ SN: Een groot teken verschijnt in de hemel: een vrouw bekleed met de zon, met de
 M: The cosmic struggle behind history is already decided by Christ's victory. The faithful overcome evil through the blood of the Lamb and faithful witness.
 MN: De kosmische strijd achter de geschiedenis is al beslist door de overwinning van Christus. De gelovigen overwinnen het kwaad door het bloed van het Lam en trouw getuigenis.
 F: The Fathers read the woman both as the Church, who gives birth to Christ in the faithful, and as the Mother of God; St Andrew of Caesarea mentions both interpretations. Michael's victory is celebrated in the Synaxis of the Archangels.
-FN: De Vaders lazen de vrouw zowel als de Kerk, die Christus baart in de gelovigen, als de Moeder Gods; de heilige Andreas van Caesarea noemt beide verklaringen. De overwinning van Michaël wordt gevierd op de Synaxis van de Aartsengelen.
+FN: De kerkvaders lazen de vrouw zowel als de Kerk, die Christus baart in de gelovigen, als de Moeder Gods; de heilige Andreas van Caesarea noemt beide verklaringen. De overwinning van Michaël wordt gevierd op de Synaxis van de Aartsengelen.
 T: Spiritual warfare; The Church and the Theotokos; Victory of the Lamb
 TN: Geestelijke strijd; De Kerk en de Moeder Gods; Overwinning van het Lam
 
@@ -16,7 +16,7 @@ SN: Een beest stijgt op uit de zee met tien horens en zeven koppen, en de draak 
 M: Evil imitates Christ: it has a 'wound healed', looks like a lamb and demands worship. Worldly power that claims divine honour is the beast's mark.
 MN: Het kwaad bootst Christus na: het heeft een 'genezen wond', lijkt op een lam en eist aanbidding. Wereldlijke macht die goddelijke eer opeist, is het merkteken van het beest.
 F: St Irenaeus discussed the number 666 and wisely refused to name the Antichrist, saying that if it were needed, John would have revealed it. The Fathers warned against both fear and speculation.
-FN: De heilige Irenaeus besprak het getal 666 en weigerde wijselijk de antichrist een naam te geven: als het nodig was geweest, zou Johannes het geopenbaard hebben. De Vaders waarschuwden zowel tegen angst als tegen speculatie.
+FN: De heilige Irenaeus besprak het getal 666 en weigerde wijselijk de antichrist een naam te geven: als het nodig was geweest, zou Johannes het geopenbaard hebben. De kerkvaders waarschuwden zowel tegen angst als tegen speculatie.
 T: Idolatry of power; Discernment; Endurance
 TN: Afgoderij van de macht; Onderscheiding; Volharding
 
@@ -26,7 +26,7 @@ SN: Johannes ziet het Lam staan op de berg Sion met de 144.000 die de naam van Z
 M: The faithful follow the Lamb wherever He goes. Those who die in the Lord find rest; their works are not lost.
 MN: De gelovigen volgen het Lam waar Het ook gaat. Wie in de Heer sterven, vinden rust; hun werken gaan niet verloren.
 F: 'Blessed are the dead who die in the Lord' is read in Western funeral rites. The Fathers saw the virgins who follow the Lamb as those consecrated wholly to Christ, in body and heart.
-FN: 'Zalig de doden die in de Heer sterven' wordt gelezen in westerse uitvaartriten. De Vaders zagen de maagden die het Lam volgen als hen die geheel aan Christus gewijd zijn, naar lichaam en hart.
+FN: 'Zalig de doden die in de Heer sterven' wordt gelezen in westerse uitvaartriten. De kerkvaders zagen de maagden die het Lam volgen als hen die geheel aan Christus gewijd zijn, naar lichaam en hart.
 T: Following the Lamb; Eternal gospel; Rest in the Lord
 TN: Het Lam volgen; Eeuwig evangelie; Rust in de Heer
 
@@ -36,7 +36,7 @@ SN: Johannes ziet zeven engelen met de zeven laatste plagen, waarmee de toorn va
 M: The redeemed sing a new exodus song: as Israel crossed the sea, the faithful pass through tribulation into God's presence.
 MN: De verlosten zingen een nieuw exoduslied: zoals Israël door de zee trok, gaan de gelovigen door de verdrukking heen Gods aanwezigheid binnen.
 F: The Fathers connected the sea mingled with fire with baptism and the Holy Spirit. The song of Moses (Exodus 15) is the first of the biblical odes sung in the Byzantine Matins canon.
-FN: De Vaders verbonden de zee vermengd met vuur met het doopsel en de Heilige Geest. Het lied van Mozes (Exodus 15) is de eerste van de bijbelse oden die in de canon van de Byzantijnse metten gezongen worden.
+FN: De kerkvaders verbonden de zee vermengd met vuur met de doop en de Heilige Geest. Het lied van Mozes (Exodus 15) is de eerste van de bijbelse oden die in de canon van de Byzantijnse metten gezongen worden.
 T: New exodus; Praise; Holiness of God
 TN: Nieuwe exodus; Lofprijzing; Heiligheid van God
 
@@ -46,7 +46,7 @@ SN: Een stem uit de tempel gebiedt de zeven engelen de zeven schalen van Gods to
 M: Judgement reveals what hearts have chosen. In the middle of the plagues Christ speaks a beatitude: blessed is the one who stays awake.
 MN: Het oordeel maakt zichtbaar wat harten gekozen hebben. Midden in de plagen spreekt Christus een zaligspreking uit: zalig wie waakt.
 F: The Fathers read the plagues as echoes of the plagues of Egypt: God liberates His people and judges the oppressor. 'It is done' recalls Christ's 'It is finished' on the cross.
-FN: De Vaders lazen de plagen als echo's van de plagen van Egypte: God bevrijdt Zijn volk en oordeelt de onderdrukker. 'Het is geschied' herinnert aan Christus' 'Het is volbracht' aan het kruis.
+FN: De kerkvaders lazen de plagen als echo's van de plagen van Egypte: God bevrijdt Zijn volk en oordeelt de onderdrukker. 'Het is geschied' herinnert aan Christus' 'Het is volbracht' aan het kruis.
 T: Judgement; Hardness of heart; Watchfulness
 TN: Oordeel; Verharding van het hart; Waakzaamheid
 
@@ -56,7 +56,7 @@ SN: Een engel toont Johannes de grote hoer die zit op vele wateren, met wie de k
 M: Babylon is the seductive city of wealth, pleasure and power that persecutes the faithful. Its glamour hides its emptiness; the Lamb is the true King.
 MN: Babylon is de verleidelijke stad van rijkdom, genot en macht die de gelovigen vervolgt. Haar glans verbergt haar leegte; het Lam is de ware Koning.
 F: The Fathers identified Babylon with pagan Rome on its seven hills, and more broadly with every society that worships wealth and power against God. St Augustine's City of God contrasts the earthly city with the city of God.
-FN: De Vaders vereenzelvigden Babylon met het heidense Rome op zijn zeven heuvels, en breder met elke samenleving die rijkdom en macht aanbidt tegen God in. De Stad van God van de heilige Augustinus stelt de aardse stad tegenover de stad van God.
+FN: De kerkvaders vereenzelvigden Babylon met het heidense Rome op zijn zeven heuvels, en breder met elke samenleving die rijkdom en macht aanbidt tegen God in. De Stad van God van de heilige Augustinus stelt de aardse stad tegenover de stad van God.
 T: Seduction of the world; Persecution; Kingship of the Lamb
 TN: Verleiding van de wereld; Vervolging; Koningschap van het Lam
 
@@ -66,7 +66,7 @@ SN: Een engel roept: gevallen, gevallen is Babylon de grote! Een stem roept: ga 
 M: Economies built on greed and on trading in human beings will not last. God's people are called to 'come out', to live differently in the midst of the world.
 MN: Economieën die gebouwd zijn op hebzucht en op handel in mensen, zullen geen stand houden. Gods volk wordt geroepen 'uit te gaan', om anders te leven te midden van de wereld.
 F: The Fathers drew from 'come out of her, My people' a call to inner detachment from worldly vanities, which the monks took literally by leaving the world for the desert.
-FN: De Vaders haalden uit 'ga uit haar weg, Mijn volk' een oproep tot innerlijke onthechting van wereldse ijdelheden, die de monniken letterlijk namen door de wereld te verlaten voor de woestijn.
+FN: De kerkvaders haalden uit 'ga uit haar weg, Mijn volk' een oproep tot innerlijke onthechting van wereldse ijdelheden, die de monniken letterlijk namen door de wereld te verlaten voor de woestijn.
 T: Judgement on greed; Separation from evil; Human dignity
 TN: Oordeel over hebzucht; Afscheiding van het kwaad; Menselijke waardigheid
 
@@ -76,7 +76,7 @@ SN: Johannes hoort de stem van een grote menigte: Halleluja! De redding en de he
 M: History ends in a wedding: the union of Christ and His Church. The victorious Rider is the Word of God, whose robe is stained with His own blood.
 MN: De geschiedenis eindigt in een bruiloft: de vereniging van Christus en Zijn Kerk. De zegevierende Ruiter is het Woord van God, wiens kleed gedrenkt is in Zijn eigen bloed.
 F: 'Blessed are those invited to the marriage supper of the Lamb' echoes in the Roman Mass before Communion. The Fathers used the angel's refusal of worship to distinguish the adoration due to God alone from the honour given to angels and saints.
-FN: 'Zalig wie genodigd zijn tot het bruiloftsmaal van het Lam' weerklinkt in de Romeinse Mis vóór de communie. De Vaders gebruikten de weigering van de engel om aanbeden te worden om de aanbidding die alleen God toekomt te onderscheiden van de eer die aan engelen en heiligen gegeven wordt.
+FN: 'Zalig wie genodigd zijn tot het bruiloftsmaal van het Lam' weerklinkt in de Romeinse Mis vóór de communie. De kerkvaders gebruikten de weigering van de engel om aanbeden te worden om de aanbidding die alleen God toekomt te onderscheiden van de eer die aan engelen en heiligen gegeven wordt.
 T: Marriage of the Lamb; The Word of God; Victory
 TN: Bruiloft van het Lam; Het Woord van God; Overwinning
 
@@ -96,7 +96,7 @@ SN: Johannes ziet een nieuwe hemel en een nieuwe aarde, en de heilige stad, het 
 M: The goal of history is not escape from the world but its renewal: God dwelling with His people in a renewed creation, where every tear is wiped away.
 MN: Het doel van de geschiedenis is niet de vlucht uit de wereld, maar haar vernieuwing: God die bij Zijn volk woont in een vernieuwde schepping, waar alle tranen worden afgewist.
 F: The Fathers saw the Church's worship as a foretaste of the new Jerusalem: the church building, lit and adorned, is an image of the heavenly city. This chapter is read in the West at the dedication of churches.
-FN: De Vaders zagen de eredienst van de Kerk als een voorproef van het nieuwe Jeruzalem: het kerkgebouw, verlicht en versierd, is een beeld van de hemelse stad. Dit hoofdstuk wordt in het Westen gelezen bij de wijding van kerken.
+FN: De kerkvaders zagen de eredienst van de Kerk als een voorproef van het nieuwe Jeruzalem: het kerkgebouw, verlicht en versierd, is een beeld van de hemelse stad. Dit hoofdstuk wordt in het Westen gelezen bij de wijding van kerken.
 T: New creation; God with us; Comfort
 TN: Nieuwe schepping; God met ons; Troost
 
@@ -106,6 +106,6 @@ SN: De engel toont Johannes de rivier van het water van het leven, helder als kr
 M: The Bible ends where it began, with the tree of life, now opened again for the healing of the nations. The last word of Scripture is a prayer: Come, Lord Jesus.
 MN: De Bijbel eindigt waar hij begon, bij de boom van het leven, nu weer geopend tot genezing van de volken. Het laatste woord van de Schrift is een gebed: Kom, Heer Jezus.
 F: The Fathers saw in the tree of life the Cross, and in its fruit the Eucharist, which opens again the Paradise closed by Adam's sin. The Coptic Church reads the whole Book of Revelation during the night of Bright Saturday, awaiting the Resurrection.
-FN: De Vaders zagen in de boom van het leven het Kruis, en in zijn vrucht de eucharistie, die het paradijs weer opent dat door de zonde van Adam gesloten werd. De Koptische Kerk leest het hele boek Openbaring in de nacht van Stille Zaterdag, in afwachting van de Verrijzenis.
+FN: De kerkvaders zagen in de boom van het leven het Kruis, en in zijn vrucht de eucharistie, die het paradijs weer opent dat door de zonde van Adam gesloten werd. De Koptische Kerk leest het hele boek Openbaring in de nacht van Stille Zaterdag, in afwachting van de Verrijzenis.
 T: Tree of life; Vision of God; Maranatha
 TN: Boom van het leven; Het aanschouwen van God; Maranatha

@@ -6,7 +6,7 @@ SN: Koning Ahazia van Israël valt door het traliewerk van zijn bovenkamer en ra
 M: Seeking help from false gods is an insult to the living God. Arrogance is consumed; humility is spared.
 MN: Hulp zoeken bij valse goden is een belediging van de levende God. Hoogmoed wordt verteerd; nederigheid wordt gespaard.
 F: When James and John want to call down fire on a Samaritan village 'as Elijah did', Christ rebukes them: you do not know what spirit you are of; the Son of Man came not to destroy lives but to save them. The Fathers used this contrast to show the difference between the zeal of the Old Covenant and the meekness of the Gospel. John the Baptist, dressed like Elijah, came in his spirit.
-FN: Wanneer Jakobus en Johannes vuur willen laten neerdalen op een Samaritaans dorp 'zoals Elia deed', bestraft Christus hen: u weet niet van welke geest u bent; de Mensenzoon is niet gekomen om levens te verderven, maar om ze te redden. De Vaders gebruikten dit contrast om het verschil te tonen tussen de ijver van het Oude Verbond en de zachtmoedigheid van het Evangelie. Johannes de Doper, gekleed zoals Elia, kwam in zijn geest.
+FN: Wanneer Jakobus en Johannes vuur willen laten neerdalen op een Samaritaans dorp 'zoals Elia deed', bestraft Christus hen: u weet niet van welke geest u bent; de Mensenzoon is niet gekomen om levens te verderven, maar om ze te redden. De kerkvaders gebruikten dit contrast om het verschil te tonen tussen de ijver van het Oude Verbond en de zachtmoedigheid van het Evangelie. Johannes de Doper, gekleed zoals Elia, kwam in zijn geest.
 T: False gods; Humility spared; Zeal and meekness
 TN: Valse goden; Gespaarde nederigheid; IJver en zachtmoedigheid
 
@@ -16,7 +16,7 @@ SN: Wanneer de Heer op het punt staat Elia in een storm ten hemel op te nemen, l
 M: Faithful perseverance receives the prophet's spirit. Elijah does not die but is taken up, and his mission passes to his disciple.
 MN: Trouwe volharding ontvangt de geest van de profeet. Elia sterft niet, maar wordt opgenomen, en zijn zending gaat over op zijn leerling.
 F: The Fathers saw Elijah's ascension as a figure of Christ's ascension, and Elisha receiving the mantle and a double portion of the spirit as the apostles receiving the Holy Spirit at Pentecost after the Lord was taken up. The Church honours Elijah, who did not taste death, and many Fathers expected him to return before the end, as Malachi foretold.
-FN: De Vaders zagen de hemelvaart van Elia als een voorafbeelding van de hemelvaart van Christus, en Elisa die de mantel en een dubbel deel van de geest ontvangt, als de apostelen die met Pinksteren de Heilige Geest ontvingen nadat de Heer was opgenomen. De Kerk eert Elia, die de dood niet smaakte, en veel Vaders verwachtten dat hij vóór het einde zou terugkeren, zoals Maleachi voorzei.
+FN: De kerkvaders zagen de hemelvaart van Elia als een voorafbeelding van de hemelvaart van Christus, en Elisa die de mantel en een dubbel deel van de geest ontvangt, als de apostelen die met Pinksteren de Heilige Geest ontvingen nadat de Heer was opgenomen. De Kerk eert Elia, die de dood niet smaakte, en veel kerkvaders verwachtten dat hij vóór het einde zou terugkeren, zoals Maleachi voorzei.
 T: Ascension; Perseverance; The spirit passed on
 TN: Hemelvaart; Volharding; De geest doorgegeven
 
@@ -26,7 +26,7 @@ SN: Joram, de zoon van Achab, regeert over Israël; hij verwijdert de gedenkstee
 M: God gives water in the desert without wind or rain. Faithfulness of one king brings help to others.
 MN: God geeft water in de woestijn zonder wind of regen. De trouw van één koning brengt hulp voor anderen.
 F: The Fathers noted that Elisha called for music before prophesying, a sign of the role of sacred song in preparing the soul to hear God. The water filling the dry ditches was read as grace filling hearts that are made ready to receive it.
-FN: De Vaders merkten op dat Elisa om muziek vroeg voordat hij profeteerde, een teken van de rol van gewijde zang bij het voorbereiden van de ziel om God te horen. Het water dat de droge kuilen vulde, werd gelezen als de genade die harten vult die bereid gemaakt zijn om haar te ontvangen.
+FN: De kerkvaders merkten op dat Elisa om muziek vroeg voordat hij profeteerde, een teken van de rol van gewijde zang bij het voorbereiden van de ziel om God te horen. Het water dat de droge kuilen vulde, werd gelezen als de genade die harten vult die bereid gemaakt zijn om haar te ontvangen.
 T: Water in the desert; Preparing to receive; Music and prophecy
 TN: Water in de woestijn; Voorbereid om te ontvangen; Muziek en profetie
 
@@ -36,7 +36,7 @@ SN: De weduwe van een van de profetenzonen roept tot Elisa: de schuldeiser komt 
 M: God provides for the widow, the hospitable and the hungry. Life is restored where faith persists.
 MN: God voorziet in de nood van de weduwe, de gastvrije en de hongerige. Het leven wordt hersteld waar het geloof volhardt.
 F: The Fathers saw in Elisha stretching himself on the dead child, matching himself to the child's size, a figure of the Incarnation: God makes Himself small to fit our condition and give us life. The feeding of a hundred with twenty loaves foreshadows Christ's multiplication of the loaves. The oil that flows as long as there are vessels was read as grace measured only by our openness.
-FN: De Vaders zagen in Elisa, die zich uitstrekte over het dode kind en zich naar de grootte van het kind voegde, een voorafbeelding van de menswording: God maakt Zich klein om in onze toestand te passen en ons leven te geven. De spijziging van honderd man met twintig broden is een voorafbeelding van de broodvermenigvuldiging door Christus. De olie die stroomt zolang er vaten zijn, werd gelezen als genade die alleen begrensd wordt door onze ontvankelijkheid.
+FN: De kerkvaders zagen in Elisa, die zich uitstrekte over het dode kind en zich naar de grootte van het kind voegde, een voorafbeelding van de menswording: God maakt Zich klein om in onze toestand te passen en ons leven te geven. De spijziging van honderd man met twintig broden is een voorafbeelding van de broodvermenigvuldiging door Christus. De olie die stroomt zolang er vaten zijn, werd gelezen als genade die alleen begrensd wordt door onze ontvankelijkheid.
 T: Provision; Hospitality rewarded; Life restored
 TN: Voorziening; Beloonde gastvrijheid; Hersteld leven
 
@@ -46,7 +46,7 @@ SN: Naäman, de legeroverste van Syrië, een groot man en een dapper strijder, i
 M: Healing comes through humble obedience to a simple command. A captive girl's faith opens the way for a foreign general; the prophet's servant falls through greed.
 MN: Genezing komt door nederige gehoorzaamheid aan een eenvoudig bevel. Het geloof van een gevangen meisje opent de weg voor een buitenlandse generaal; de dienaar van de profeet valt door hebzucht.
 F: Christ recalls in Nazareth that many lepers were in Israel, but none was cleansed except Naaman the Syrian. The Fathers read Naaman's washing in the Jordan as a clear figure of baptism, in which the soul is reborn like a little child, and this chapter is among the readings of the Eve of Theophany. They saw Naaman's anger at the simple command as the pride that despises the humble means of grace.
-FN: Christus herinnert er in Nazaret aan dat er veel melaatsen in Israël waren, maar dat niemand gereinigd werd dan Naäman de Syriër. De Vaders lazen het wassen van Naäman in de Jordaan als een duidelijke voorafbeelding van de doop, waarin de ziel herboren wordt als een klein kind, en dit hoofdstuk hoort bij de lezingen van de vooravond van Theofanie. Zij zagen de woede van Naäman over het eenvoudige bevel als de hoogmoed die de nederige middelen van de genade veracht.
+FN: Christus herinnert er in Nazaret aan dat er veel melaatsen in Israël waren, maar dat niemand gereinigd werd dan Naäman de Syriër. De kerkvaders lazen het wassen van Naäman in de Jordaan als een duidelijke voorafbeelding van de doop, waarin de ziel herboren wordt als een klein kind, en dit hoofdstuk hoort bij de lezingen van de vooravond van Theofanie. Zij zagen de woede van Naäman over het eenvoudige bevel als de hoogmoed die de nederige middelen van de genade veracht.
 T: Baptism prefigured; Humble obedience; Greed punished
 TN: Doop voorafgebeeld; Nederige gehoorzaamheid; Gestrafte hebzucht
 
@@ -56,7 +56,7 @@ SN: De profetenzonen bouwen een nieuwe woning bij de Jordaan; terwijl er een een
 M: Faith sees the invisible armies of God. Mercy shown to enemies breaks the cycle of raids.
 MN: Geloof ziet de onzichtbare legers van God. Barmhartigheid voor vijanden doorbreekt de kringloop van rooftochten.
 F: St Irenaeus and other Fathers saw the iron raised from the depths by a piece of wood as a figure of the cross, which raises fallen humanity from the depths of sin. 'Those who are with us are more than those with them' was a favourite text on the angels guarding the faithful, and Elisha's feeding of the enemy army was compared to Christ's command to love one's enemies.
-FN: De heilige Irenaeus en andere Vaders zagen het ijzer dat door een stuk hout uit de diepte werd opgehaald als een voorafbeelding van het kruis, dat de gevallen mensheid uit de diepte van de zonde opheft. 'Wie bij ons zijn, zijn talrijker dan wie bij hen zijn' was een geliefde tekst over de engelen die de gelovigen bewaken, en het voeden van het vijandelijke leger door Elisa werd vergeleken met het gebod van Christus om de vijanden lief te hebben.
+FN: De heilige Irenaeus en andere kerkvaders zagen het ijzer dat door een stuk hout uit de diepte werd opgehaald als een voorafbeelding van het kruis, dat de gevallen mensheid uit de diepte van de zonde opheft. 'Wie bij ons zijn, zijn talrijker dan wie bij hen zijn' was een geliefde tekst over de engelen die de gelovigen bewaken, en het voeden van het vijandelijke leger door Elisa werd vergeleken met het gebod van Christus om de vijanden lief te hebben.
 T: The wood that raises; Angelic protection; Mercy to enemies
 TN: Het hout dat opheft; Bescherming door engelen; Barmhartigheid voor vijanden
 
@@ -66,7 +66,7 @@ SN: Elisa zegt: hoor het woord van de Heer: morgen omstreeks deze tijd zal een m
 M: God's word comes true overnight, though scoffers doubt it. Those who find good news must not keep it to themselves.
 MN: Gods woord wordt van de ene dag op de andere waar, al twijfelen spotters eraan. Wie goed nieuws vindt, mag het niet voor zichzelf houden.
 F: The Fathers loved the lepers' words, 'this is a day of good news, and we are keeping silent', as a call to evangelise: those who have found the bread of life must share it. They saw the outcasts at the gate becoming the first messengers of deliverance as a sign of how God uses the despised.
-FN: De Vaders hielden van de woorden van de melaatsen, 'dit is een dag van goed nieuws, en wij zwijgen', als een oproep tot evangelisatie: wie het brood des levens gevonden hebben, moeten het delen. Zij zagen de verstotenen bij de poort die de eerste boden van de bevrijding werden, als een teken van hoe God de verachten gebruikt.
+FN: De kerkvaders hielden van de woorden van de melaatsen, 'dit is een dag van goed nieuws, en wij zwijgen', als een oproep tot evangelisatie: wie het brood des levens gevonden hebben, moeten het delen. Zij zagen de verstotenen bij de poort die de eerste boden van de bevrijding werden, als een teken van hoe God de verachten gebruikt.
 T: God's word fulfilled; Sharing good news; Unbelief
 TN: Gods woord vervuld; Goed nieuws delen; Ongeloof
 
@@ -76,7 +76,7 @@ SN: Elisa had de Sunamitische vrouw gewaarschuwd het land te verlaten vanwege ee
 M: God's providence arranges the timing of the Shunammite's appeal. The prophet weeps over the suffering he foresees for his people.
 MN: Gods voorzienigheid regelt het moment van het beroep van de Sunamitische. De profeet weent over het lijden dat hij voor zijn volk voorziet.
 F: The Fathers were moved by Elisha's tears over Hazael, comparing them with Christ weeping over Jerusalem as He foresaw its destruction. They again noted God's faithfulness to keep a 'lamp' for David, preserving the line of Christ through unfaithful kings.
-FN: De Vaders werden ontroerd door de tranen van Elisa over Hazaël, en vergeleken ze met Christus die weende over Jeruzalem toen Hij de verwoesting ervan voorzag. Zij merkten opnieuw Gods trouw op om voor David een 'lamp' te bewaren, waardoor het geslacht van Christus door ontrouwe koningen heen bewaard bleef.
+FN: De kerkvaders werden ontroerd door de tranen van Elisa over Hazaël, en vergeleken ze met Christus die weende over Jeruzalem toen Hij de verwoesting ervan voorzag. Zij merkten opnieuw Gods trouw op om voor David een 'lamp' te bewaren, waardoor het geslacht van Christus door ontrouwe koningen heen bewaard bleef.
 T: Providence; The prophet's tears; The lamp of David
 TN: Voorzienigheid; De tranen van de profeet; De lamp van David
 
@@ -86,7 +86,7 @@ SN: Elisa zendt een van de profetenzonen naar Ramoth in Gilead om Jehu, de leger
 M: Judgment on Ahab's house comes at Naboth's field, as God had spoken. There is no peace while idolatry and injustice continue.
 MN: Het oordeel over het huis van Achab voltrekt zich op de akker van Naboth, zoals God gesproken had. Er is geen vrede zolang afgoderij en onrecht voortduren.
 F: The Fathers saw the fulfilment of Elijah's word at Naboth's field as a sign that innocent blood cries out to God and does not go unanswered. Jehu's question 'what peace?' was taken as a warning against seeking peace without repentance.
-FN: De Vaders zagen de vervulling van het woord van Elia op de akker van Naboth als een teken dat onschuldig bloed tot God roept en niet onbeantwoord blijft. De vraag van Jehu 'wat vrede?' werd opgevat als een waarschuwing tegen het zoeken van vrede zonder bekering.
+FN: De kerkvaders zagen de vervulling van het woord van Elia op de akker van Naboth als een teken dat onschuldig bloed tot God roept en niet onbeantwoord blijft. De vraag van Jehu 'wat vrede?' werd opgevat als een waarschuwing tegen het zoeken van vrede zonder bekering.
 T: Judgment fulfilled; Innocent blood; No peace without repentance
 TN: Vervuld oordeel; Onschuldig bloed; Geen vrede zonder bekering
 
@@ -96,7 +96,7 @@ SN: Jehu schrijft aan de verzorgers van de zeventig zonen van Achab in Samaria, 
 M: Violent zeal can destroy one idol while leaving another standing. Zeal without a whole heart for God is incomplete.
 MN: Gewelddadige ijver kan één afgod vernietigen en een andere laten staan. IJver zonder een volkomen hart voor God is onvolledig.
 F: The Fathers used Jehu as an example of zeal mixed with ambition: he boasted 'see my zeal for the Lord' yet kept the calves that served his political interest. Hosea later condemns the bloodshed of Jezreel. They taught that true zeal begins with purifying one's own heart.
-FN: De Vaders gebruikten Jehu als voorbeeld van ijver vermengd met eerzucht: hij pochte 'zie mijn ijver voor de Heer', maar behield de kalveren die zijn politieke belang dienden. Hosea veroordeelt later het bloedvergieten van Jizreël. Zij leerden dat ware ijver begint met het zuiveren van het eigen hart.
+FN: De kerkvaders gebruikten Jehu als voorbeeld van ijver vermengd met eerzucht: hij pochte 'zie mijn ijver voor de Heer', maar behield de kalveren die zijn politieke belang dienden. Hosea veroordeelt later het bloedvergieten van Jizreël. Zij leerden dat ware ijver begint met het zuiveren van het eigen hart.
 T: Zeal and ambition; Incomplete reform; A whole heart
 TN: IJver en eerzucht; Onvolledige hervorming; Een volkomen hart
 
@@ -106,7 +106,7 @@ SN: Wanneer Athalia, de moeder van Ahazia, ziet dat haar zoon dood is, roeit zij
 M: When David's line almost disappears, God preserves it through a courageous woman and a faithful priest. The hidden king is revealed at the right time.
 MN: Wanneer het geslacht van David bijna verdwijnt, bewaart God het door een moedige vrouw en een trouwe priester. De verborgen koning wordt op het juiste moment geopenbaard.
 F: The Fathers saw in Joash, the infant hidden in the temple while a usurper ruled, a figure of Christ, hidden in Egypt while Herod sought to destroy Him, and preserved to reign. They praised Jehosheba as one of the brave women through whom God saved the line of David.
-FN: De Vaders zagen in Joas, het kind dat in de tempel verborgen werd terwijl een overweldigster regeerde, een voorafbeelding van Christus, verborgen in Egypte terwijl Herodes Hem wilde doden, en bewaard om te regeren. Zij prezen Joseba als een van de moedige vrouwen door wie God het geslacht van David redde.
+FN: De kerkvaders zagen in Joas, het kind dat in de tempel verborgen werd terwijl een overweldigster regeerde, een voorafbeelding van Christus, verborgen in Egypte terwijl Herodes Hem wilde doden, en bewaard om te regeren. Zij prezen Joseba als een van de moedige vrouwen door wie God het geslacht van David redde.
 T: The line preserved; The hidden king; Covenant renewed
 TN: Het geslacht bewaard; De verborgen koning; Vernieuwd verbond
 
@@ -116,7 +116,7 @@ SN: Joas regeert veertig jaar in Jeruzalem en doet wat recht is in de ogen van d
 M: A king does well while guided by a faithful teacher. Honest stewardship of what is given for God's house is part of worship.
 MN: Een koning doet het goed zolang hij door een trouwe leraar geleid wordt. Eerlijk beheer van wat voor Gods huis gegeven wordt, hoort bij de eredienst.
 F: The Fathers drew from Joash's story the importance of good spiritual guidance, noting from Chronicles that after Jehoiada's death Joash turned away. The offering chest became a pattern for gifts in churches, and the honesty of the workmen a model for those who handle the goods of the Church.
-FN: De Vaders leerden uit het verhaal van Joas het belang van goede geestelijke begeleiding, en merkten uit Kronieken op dat Joas zich na de dood van Jojada afkeerde. De offerkist werd een patroon voor gaven in kerken, en de eerlijkheid van de werklieden een voorbeeld voor wie de goederen van de Kerk beheren.
+FN: De kerkvaders leerden uit het verhaal van Joas het belang van goede geestelijke begeleiding, en merkten uit Kronieken op dat Joas zich na de dood van Jojada afkeerde. De offerkist werd een patroon voor gaven in kerken, en de eerlijkheid van de werklieden een voorbeeld voor wie de goederen van de Kerk beheren.
 T: Spiritual guidance; Repair of God's house; Honest stewardship
 TN: Geestelijke begeleiding; Herstel van Gods huis; Eerlijk beheer
 
@@ -126,7 +126,7 @@ SN: Joahaz en daarna Joas regeren over Israël; Israël wordt door Syrië verdru
 M: Half-hearted faith receives half a victory. Even in death the prophet is a channel of God's life-giving power.
 MN: Halfhartig geloof ontvangt een halve overwinning. Zelfs in zijn dood is de profeet een kanaal van Gods levenwekkende kracht.
 F: St Cyril of Jerusalem and other Fathers cited the dead man raised by touching Elisha's bones to show that the relics of the saints, bodies sanctified by the Spirit, can be channels of grace, a basis for the Church's veneration of relics. King Jehoash's three strikes were taken as a warning against praying with little faith.
-FN: De heilige Cyrillus van Jeruzalem en andere Vaders haalden de dode die opstond door de beenderen van Elisa aan te raken aan om te tonen dat de relikwieën van de heiligen, lichamen die door de Geest geheiligd zijn, kanalen van genade kunnen zijn, een grondslag voor de verering van relikwieën door de Kerk. De drie slagen van koning Joas werden opgevat als een waarschuwing tegen bidden met weinig geloof.
+FN: De heilige Cyrillus van Jeruzalem en andere kerkvaders haalden de dode die opstond door de beenderen van Elisa aan te raken aan om te tonen dat de relikwieën van de heiligen, lichamen die door de Geest geheiligd zijn, kanalen van genade kunnen zijn, een grondslag voor de verering van relikwieën door de Kerk. De drie slagen van koning Joas werden opgevat als een waarschuwing tegen bidden met weinig geloof.
 T: Half-hearted faith; Relics; God's covenant mercy
 TN: Halfhartig geloof; Relikwieën; Gods verbondsgenade
 
@@ -136,7 +136,7 @@ SN: Amasia van Juda doet wat recht is, maar niet zoals David; hij doodt de diena
 M: Victory breeds pride, and pride brings defeat. God shows mercy even to unfaithful Israel because He sees its suffering.
 MN: Overwinning kweekt hoogmoed, en hoogmoed brengt nederlaag. God toont barmhartigheid, zelfs aan het ontrouwe Israël, omdat Hij zijn lijden ziet.
 F: The Fathers noted Amaziah's obedience to the law that children do not die for their fathers' sins, a principle later preached by Ezekiel. Jonah son of Amittai, mentioned here, is the prophet of the book of Jonah, whom Christ calls a sign of His resurrection.
-FN: De Vaders merkten de gehoorzaamheid van Amasia op aan de wet dat kinderen niet sterven voor de zonden van hun vaders, een principe dat later door Ezechiël gepredikt werd. Jona, de zoon van Amittai, die hier genoemd wordt, is de profeet van het boek Jona, die Christus een teken van Zijn opstanding noemt.
+FN: De kerkvaders merkten de gehoorzaamheid van Amasia op aan de wet dat kinderen niet sterven voor de zonden van hun vaders, een principe dat later door Ezechiël gepredikt werd. Jona, de zoon van Amittai, die hier genoemd wordt, is de profeet van het boek Jona, die Christus een teken van Zijn opstanding noemt.
 T: Pride before a fall; Personal responsibility; God sees affliction
 TN: Hoogmoed komt voor de val; Persoonlijke verantwoordelijkheid; God ziet de ellende
 
@@ -146,7 +146,7 @@ SN: Azarja, ook Uzzia genoemd, regeert tweeënvijftig jaar in Juda en doet wat r
 M: Israel's kingdom collapses in a spiral of assassinations. The first exiles come from Galilee, the region where light would later dawn.
 MN: Het koninkrijk Israël stort in in een spiraal van moorden. De eerste ballingen komen uit Galilea, de streek waar later het licht zou opgaan.
 F: It was in the year King Uzziah died that Isaiah saw the Lord. The Fathers noted that Galilee, the first region to be taken into exile, became the region where Christ began His preaching, fulfilling Isaiah's word: the people who walked in darkness have seen a great light.
-FN: Het was in het jaar dat koning Uzzia stierf, dat Jesaja de Heer zag. De Vaders merkten op dat Galilea, de eerste streek die in ballingschap werd weggevoerd, de streek werd waar Christus Zijn prediking begon, waarmee het woord van Jesaja vervuld werd: het volk dat in duisternis wandelt, ziet een groot licht.
+FN: Het was in het jaar dat koning Uzzia stierf, dat Jesaja de Heer zag. De kerkvaders merkten op dat Galilea, de eerste streek die in ballingschap werd weggevoerd, de streek werd waar Christus Zijn prediking begon, waarmee het woord van Jesaja vervuld werd: het volk dat in duisternis wandelt, ziet een groot licht.
 T: Collapse; Violence; Galilee in darkness
 TN: Ineenstorting; Geweld; Galilea in duisternis
 
@@ -156,7 +156,7 @@ SN: Achaz regeert zestien jaar in Juda en doet niet wat recht is: hij verbrandt 
 M: Trusting a foreign empire instead of God, Ahaz reshapes even the worship of God to please human power.
 MN: Door een buitenlands rijk te vertrouwen in plaats van God, past Achaz zelfs de eredienst van God aan om de menselijke macht te behagen.
 F: This is the king to whom Isaiah offered the sign of Immanuel, which he refused. The Fathers saw in Ahaz's altar the danger of conforming the Church's worship and teaching to the fashions of worldly power, and in his trust in Assyria the opposite of faith.
-FN: Dit is de koning aan wie Jesaja het teken van Immanuël aanbood, dat hij weigerde. De Vaders zagen in het altaar van Achaz het gevaar om de eredienst en het onderwijs van de Kerk aan te passen aan de mode van de wereldlijke macht, en in zijn vertrouwen op Assyrië het tegendeel van geloof.
+FN: Dit is de koning aan wie Jesaja het teken van Immanuël aanbood, dat hij weigerde. De kerkvaders zagen in het altaar van Achaz het gevaar om de eredienst en het onderwijs van de Kerk aan te passen aan de mode van de wereldlijke macht, en in zijn vertrouwen op Assyrië het tegendeel van geloof.
 T: Trust in empires; Corrupted worship; Refusal of faith
 TN: Vertrouwen op rijken; Verdorven eredienst; Weigering van geloof
 
@@ -166,7 +166,7 @@ SN: Hosea regeert over Israël en wordt vazal van Salmanassar van Assyrië, maar
 M: The northern kingdom falls after two centuries of warnings ignored. Mixed worship, fearing God while serving idols, is not true faith.
 MN: Het noordelijk rijk valt na twee eeuwen van genegeerde waarschuwingen. Gemengde eredienst, God vrezen en tegelijk afgoden dienen, is geen waar geloof.
 F: The Fathers read this chapter as a sermon on the patience of God, who warned by every prophet before judgment came. The origin of the Samaritans described here gives background to Christ's encounter with the Samaritan woman, to whom He reveals true worship in spirit and truth.
-FN: De Vaders lazen dit hoofdstuk als een preek over het geduld van God, die door alle profeten waarschuwde voordat het oordeel kwam. De oorsprong van de Samaritanen die hier beschreven wordt, geeft de achtergrond van de ontmoeting van Christus met de Samaritaanse vrouw, aan wie Hij de ware aanbidding in geest en waarheid openbaart.
+FN: De kerkvaders lazen dit hoofdstuk als een preek over het geduld van God, die door alle profeten waarschuwde voordat het oordeel kwam. De oorsprong van de Samaritanen die hier beschreven wordt, geeft de achtergrond van de ontmoeting van Christus met de Samaritaanse vrouw, aan wie Hij de ware aanbidding in geest en waarheid openbaart.
 T: Judgment after warnings; Exile; Mixed worship
 TN: Oordeel na waarschuwingen; Ballingschap; Gemengde eredienst
 
@@ -176,7 +176,7 @@ SN: Hizkia regeert negenentwintig jaar in Jeruzalem en doet wat recht is, zoals 
 M: Even a holy object becomes an idol when it takes God's place, and must then be removed. Trust in God is tested by mockery.
 MN: Zelfs een heilig voorwerp wordt een afgod wanneer het de plaats van God inneemt, en moet dan verwijderd worden. Vertrouwen op God wordt beproefd door spot.
 F: The Fathers drew from Hezekiah's destruction of the bronze serpent a careful lesson: holy images and objects are to be honoured for what they point to, but never worshipped in themselves; the Seventh Ecumenical Council distinguished veneration of images from the worship due to God alone.
-FN: De Vaders trokken uit het vernietigen van de koperen slang door Hizkia een zorgvuldige les: heilige beelden en voorwerpen moeten geëerd worden om waarnaar zij verwijzen, maar nooit op zichzelf aanbeden; het Zevende Oecumenisch Concilie onderscheidde de verering van iconen van de aanbidding die alleen aan God toekomt.
+FN: De kerkvaders trokken uit het vernietigen van de koperen slang door Hizkia een zorgvuldige les: heilige beelden en voorwerpen moeten geëerd worden om waarnaar zij verwijzen, maar nooit op zichzelf aanbeden; het Zevende Oecumenisch Concilie onderscheidde de verering van iconen van de aanbidding die alleen aan God toekomt.
 T: Reform; Holy objects and idolatry; Trust under mockery
 TN: Hervorming; Heilige voorwerpen en afgoderij; Vertrouwen onder spot
 
@@ -186,7 +186,7 @@ SN: Hizkia scheurt zijn kleren, bedekt zich met een rouwgewaad en gaat het huis 
 M: In the face of overwhelming threat, Hezekiah turns to prayer, and God answers with deliverance. The proud empire is humbled overnight.
 MN: Tegenover een overweldigende dreiging keert Hizkia zich tot het gebed, en God antwoordt met bevrijding. Het hoogmoedige rijk wordt in één nacht vernederd.
 F: The Fathers held up Hezekiah spreading the letter before the Lord as the model of prayer in crisis, and the night deliverance as a sign that God defends those who trust Him. They saw the angel's victory as a figure of Christ's victory over the powers of evil.
-FN: De Vaders stelden Hizkia, die de brief voor de Heer uitspreidt, voor als voorbeeld van gebed in crisis, en de nachtelijke bevrijding als een teken dat God wie op Hem vertrouwen verdedigt. Zij zagen de overwinning van de engel als een voorafbeelding van de overwinning van Christus op de machten van het kwaad.
+FN: De kerkvaders stelden Hizkia, die de brief voor de Heer uitspreidt, voor als voorbeeld van gebed in crisis, en de nachtelijke bevrijding als een teken dat God wie op Hem vertrouwen verdedigt. Zij zagen de overwinning van de engel als een voorafbeelding van de overwinning van Christus op de machten van het kwaad.
 T: Prayer in crisis; Deliverance; God alone is God
 TN: Gebed in crisis; Bevrijding; God alleen is God
 
@@ -196,7 +196,7 @@ SN: Hizkia wordt dodelijk ziek; Jesaja zegt hem: geef bevelen voor uw huis, want
 M: God hears tears and grants healing. But Hezekiah's pride in his treasures and indifference to the future spoil his legacy.
 MN: God hoort tranen en schenkt genezing. Maar de trots van Hizkia op zijn schatten en zijn onverschilligheid voor de toekomst bederven zijn nalatenschap.
 F: The Fathers taught from 'I have seen your tears' the power of prayer with tears to move God, and from Hezekiah's display of his treasures the danger of vainglory after receiving grace. They saw in his words 'peace in my days' a warning against caring only for one's own generation.
-FN: De Vaders leerden uit 'Ik heb uw tranen gezien' de kracht van gebed met tranen om God te bewegen, en uit het tonen van zijn schatten door Hizkia het gevaar van ijdele eer na het ontvangen van genade. Zij zagen in zijn woorden 'vrede in mijn dagen' een waarschuwing om niet alleen voor de eigen generatie te zorgen.
+FN: De kerkvaders leerden uit 'Ik heb uw tranen gezien' de kracht van gebed met tranen om God te bewegen, en uit het tonen van zijn schatten door Hizkia het gevaar van ijdele eer na het ontvangen van genade. Zij zagen in zijn woorden 'vrede in mijn dagen' een waarschuwing om niet alleen voor de eigen generatie te zorgen.
 T: Prayer with tears; Healing; Vainglory
 TN: Gebed met tranen; Genezing; IJdele eer
 
@@ -206,7 +206,7 @@ SN: Manasse regeert vijfenvijftig jaar in Jeruzalem en doet wat kwaad is: hij he
 M: The longest reign in Judah is also the most evil. A leader can undo in one lifetime the reform of a faithful father.
 MN: Het langste koningschap in Juda is ook het slechtste. Een leider kan in één leven de hervorming van een trouwe vader ongedaan maken.
 F: Chronicles tells that Manasseh, taken captive to Babylon, humbled himself and prayed, and God restored him; the Prayer of Manasseh, recited at Byzantine Great Compline, is the Church's great prayer of repentance from the depths. The Fathers held up Manasseh as proof that no sinner is beyond God's mercy if he repents.
-FN: Kronieken vertelt dat Manasse, gevangen weggevoerd naar Babel, zich verootmoedigde en bad, en dat God hem herstelde; het Gebed van Manasse, gebeden in de Byzantijnse Grote Completen, is het grote boetegebed van de Kerk uit de diepte. De Vaders stelden Manasse voor als bewijs dat geen zondaar buiten Gods barmhartigheid valt als hij zich bekeert.
+FN: Kronieken vertelt dat Manasse, gevangen weggevoerd naar Babel, zich verootmoedigde en bad, en dat God hem herstelde; het Gebed van Manasse, gebeden in de Byzantijnse Grote Completen, is het grote boetegebed van de Kerk uit de diepte. De kerkvaders stelden Manasse voor als bewijs dat geen zondaar buiten Gods barmhartigheid valt als hij zich bekeert.
 T: Apostasy; Innocent blood; Mercy for the worst sinner
 TN: Afval; Onschuldig bloed; Barmhartigheid voor de grootste zondaar
 
@@ -216,7 +216,7 @@ SN: Josia wordt op achtjarige leeftijd koning en regeert eenendertig jaar; hij d
 M: God's word, forgotten and rediscovered, moves a young king to repentance. Hearing Scripture should lead to a broken heart and renewal.
 MN: Gods woord, vergeten en herontdekt, beweegt een jonge koning tot bekering. Het horen van de Schrift moet leiden tot een verbroken hart en vernieuwing.
 F: The Fathers saw in the rediscovery of the Book of the Law the power of Scripture to renew the Church when it has been neglected, and urged the faithful to read it. Josiah's tender heart, which trembled at God's word, was praised as the beginning of true reform.
-FN: De Vaders zagen in de herontdekking van het wetboek de kracht van de Schrift om de Kerk te vernieuwen wanneer zij verwaarloosd is, en spoorden de gelovigen aan haar te lezen. Het tedere hart van Josia, dat beefde voor Gods woord, werd geprezen als het begin van ware hervorming.
+FN: De kerkvaders zagen in de herontdekking van het wetboek de kracht van de Schrift om de Kerk te vernieuwen wanneer zij verwaarloosd is, en spoorden de gelovigen aan haar te lezen. Het tedere hart van Josia, dat beefde voor Gods woord, werd geprezen als het begin van ware hervorming.
 T: Rediscovered Scripture; Repentance; Tender heart
 TN: Herontdekte Schrift; Bekering; Een week hart
 
@@ -226,7 +226,7 @@ SN: Josia verzamelt het hele volk, leest alle woorden van het verbondsboek voor 
 M: The most thorough reform in Judah's history renews the covenant and the Passover. Yet personal faithfulness cannot undo a whole nation's accumulated sin.
 MN: De grondigste hervorming in de geschiedenis van Juda vernieuwt het verbond en het Pascha. Toch kan persoonlijke trouw de opgehoopte zonde van een heel volk niet ongedaan maken.
 F: The Fathers praised Josiah as the king who loved God 'with all his heart, soul and might', fulfilling the Shema, and saw the prophecy fulfilled at Bethel as proof of true prophecy. His death at Megiddo was mourned by Jeremiah, and the Fathers saw in his fate that the righteous are sometimes taken before the evil comes.
-FN: De Vaders prezen Josia als de koning die God liefhad 'met heel zijn hart, ziel en kracht', waarmee hij het Sjema vervulde, en zagen de vervulde profetie in Bethel als bewijs van ware profetie. Zijn dood bij Megiddo werd door Jeremia beweend, en de Vaders zagen in zijn lot dat de rechtvaardigen soms weggenomen worden voordat het onheil komt.
+FN: De kerkvaders prezen Josia als de koning die God liefhad 'met heel zijn hart, ziel en kracht', waarmee hij het Sjema vervulde, en zagen de vervulde profetie in Bethel als bewijs van ware profetie. Zijn dood bij Megiddo werd door Jeremia beweend, en de kerkvaders zagen in zijn lot dat de rechtvaardigen soms weggenomen worden voordat het onheil komt.
 T: Covenant renewed; Passover restored; The limits of reform
 TN: Vernieuwd verbond; Hersteld Pascha; De grenzen van hervorming
 
@@ -236,7 +236,7 @@ SN: Nebukadnezar, de koning van Babel, trekt op, en Jojakim wordt drie jaar zijn
 M: The prophets' warnings come true: the first wave of exile carries away king, leaders and treasures. Sin left unrepented brings its harvest.
 MN: De waarschuwingen van de profeten worden waar: de eerste golf van ballingschap voert koning, leiders en schatten weg. Zonde waarvan men zich niet bekeert, brengt haar oogst.
 F: Among the exiles of this deportation were the prophet Ezekiel and, according to tradition, Daniel and his companions had gone earlier. The Fathers saw the exile as both judgment and purification, out of which a faithful remnant would return.
-FN: Onder de ballingen van deze wegvoering was de profeet Ezechiël, en volgens de overlevering waren Daniël en zijn vrienden al eerder weggevoerd. De Vaders zagen de ballingschap als oordeel en loutering tegelijk, waaruit een trouwe rest zou terugkeren.
+FN: Onder de ballingen van deze wegvoering was de profeet Ezechiël, en volgens de overlevering waren Daniël en zijn vrienden al eerder weggevoerd. De kerkvaders zagen de ballingschap als oordeel en loutering tegelijk, waaruit een trouwe rest zou terugkeren.
 T: Exile; Prophecy fulfilled; Consequences of sin
 TN: Ballingschap; Vervulde profetie; Gevolgen van zonde
 
@@ -246,6 +246,6 @@ SN: In het negende jaar van Zedekia belegert Nebukadnezar Jeruzalem; de hongersn
 M: The temple burns and the kingdom ends. Yet the book closes with a small sign of hope: David's heir lives and is honoured, and God's promise is not dead.
 MN: De tempel brandt en het koninkrijk eindigt. Toch sluit het boek met een klein teken van hoop: de erfgenaam van David leeft en wordt geëerd, en Gods belofte is niet dood.
 F: The Fathers saw the release of Jehoiachin as a sign that God had not forgotten His covenant with David; Matthew names Jechoniah in the genealogy of Christ, through whom the line continued to the Messiah. The Lamentations of Jeremiah grieve over this destruction, and the Western Church sings them in Holy Week.
-FN: De Vaders zagen de vrijlating van Jojachin als een teken dat God Zijn verbond met David niet vergeten was; Matteüs noemt Jechonia in het geslachtsregister van Christus, door wie het geslacht voortging tot de Messias. De Klaagliederen van Jeremia rouwen over deze verwoesting, en de Westerse Kerk zingt ze in de Goede Week.
+FN: De kerkvaders zagen de vrijlating van Jojachin als een teken dat God Zijn verbond met David niet vergeten was; Matteüs noemt Jechonia in het geslachtsregister van Christus, door wie het geslacht voortging tot de Messias. De Klaagliederen van Jeremia rouwen over deze verwoesting, en de Westerse Kerk zingt ze in de Goede Week.
 T: Destruction; Exile; A spark of hope
 TN: Verwoesting; Ballingschap; Een sprankje hoop

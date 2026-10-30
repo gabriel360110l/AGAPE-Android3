@@ -6,7 +6,7 @@ SN: Tijdens een hongersnood zegt de Heer tegen Isaak niet naar Egypte te gaan en
 M: Isaac is the quiet patriarch who keeps digging wells instead of fighting. Patience and gentleness make room in the end.
 MN: Isaak is de stille aartsvader die blijft putten graven in plaats van te vechten. Geduld en zachtmoedigheid maken uiteindelijk ruimte.
 F: St John Chrysostom praises Isaac's meekness: rather than contend, he moves on and digs again. The Fathers loved to read the wells as the depths of Scripture, which the patriarchs opened, the enemies of truth try to fill with earth, and the saints reopen for the people.
-FN: De heilige Johannes Chrysostomus prijst de zachtmoedigheid van Isaak: in plaats van te strijden, trekt hij verder en graaft opnieuw. De Vaders lazen de putten graag als de diepten van de Schrift, die de aartsvaders openden, die de vijanden van de waarheid met aarde proberen te vullen en die de heiligen voor het volk weer openen.
+FN: De heilige Johannes Chrysostomus prijst de zachtmoedigheid van Isaak: in plaats van te strijden, trekt hij verder en graaft opnieuw. De kerkvaders lazen de putten graag als de diepten van de Schrift, die de aartsvaders openden, die de vijanden van de waarheid met aarde proberen te vullen en die de heiligen voor het volk weer openen.
 T: Meekness; Wells; Renewed promise
 TN: Zachtmoedigheid; Putten; Vernieuwde belofte
 
@@ -16,7 +16,7 @@ SN: Isaak, oud en blind, vraagt Ezau wild te jagen en een maaltijd te bereiden, 
 M: God's purpose goes forward even through flawed and deceitful people, but the deceit bears bitter fruit: Jacob must flee and will himself be deceived.
 MN: Gods plan gaat voort, zelfs door gebrekkige en bedrieglijke mensen, maar het bedrog draagt bittere vruchten: Jakob moet vluchten en zal zelf bedrogen worden.
 F: Some Fathers, such as St Irenaeus and St Augustine, read the scene as a figure: the younger people, the Church, receives the blessing clothed in the garment of the elder brother, as we receive the Father's blessing clothed in Christ. Others, like St John Chrysostom, stress that Scripture records the deceit without approving it.
-FN: Sommige Vaders, zoals de heilige Irenaeus en de heilige Augustinus, lazen het tafereel als een voorafbeelding: het jongere volk, de Kerk, ontvangt de zegen gekleed in het kleed van de oudere broer, zoals wij de zegen van de Vader ontvangen bekleed met Christus. Anderen, zoals de heilige Johannes Chrysostomus, benadrukken dat de Schrift het bedrog vermeldt zonder het goed te keuren.
+FN: Sommige kerkvaders, zoals de heilige Irenaeus en de heilige Augustinus, lazen het tafereel als een voorafbeelding: het jongere volk, de Kerk, ontvangt de zegen gekleed in het kleed van de oudere broer, zoals wij de zegen van de Vader ontvangen bekleed met Christus. Anderen, zoals de heilige Johannes Chrysostomus, benadrukken dat de Schrift het bedrog vermeldt zonder het goed te keuren.
 T: Blessing; Deceit; God's purpose
 TN: Zegen; Bedrog; Gods plan
 
@@ -36,7 +36,7 @@ SN: Jakob bereikt een put bij Haran en ontmoet Rachel, de dochter van Laban; hij
 M: The deceiver is deceived, and learns in his own flesh what it means. God looks with special care on the unloved Leah, mother of Levi and Judah.
 MN: De bedrieger wordt bedrogen en leert aan den lijve wat dat betekent. God ziet met bijzondere zorg naar de onbeminde Lea, moeder van Levi en Juda.
 F: The Fathers noted that from Leah, the overlooked wife, came both the priestly tribe of Levi and the royal tribe of Judah, from which Christ was born. Some read Leah and Rachel as the active and contemplative life: one must first labour in the one to receive the other.
-FN: De Vaders merkten op dat uit Lea, de over het hoofd geziene vrouw, zowel de priesterstam Levi als de koninklijke stam Juda voortkwam, waaruit Christus geboren werd. Sommigen lazen Lea en Rachel als het actieve en het beschouwende leven: men moet eerst in het ene arbeiden om het andere te ontvangen.
+FN: De kerkvaders merkten op dat uit Lea, de over het hoofd geziene vrouw, zowel de priesterstam Levi als de koninklijke stam Juda voortkwam, waaruit Christus geboren werd. Sommigen lazen Lea en Rachel als het actieve en het beschouwende leven: men moet eerst in het ene arbeiden om het andere te ontvangen.
 T: Love and patience; The deceiver deceived; God sees the unloved
 TN: Liefde en geduld; De bedrieger bedrogen; God ziet de onbeminde
 
@@ -46,7 +46,7 @@ SN: Rachel, nog altijd kinderloos, is jaloers op haar zuster en geeft Jakob haar
 M: Out of rivalry, jealousy and human scheming God builds the twelve tribes of Israel. He works patiently with a very imperfect family.
 MN: Uit rivaliteit, jaloezie en menselijk gekonkel bouwt God de twaalf stammen van Israël. Hij werkt geduldig met een zeer onvolmaakt gezin.
 F: The Fathers saw in the twelve sons of Jacob a foreshadowing of the twelve apostles, foundation of the new Israel. St Augustine reflects that God remembers Rachel in His own time, teaching that barrenness and waiting are not signs of His forgetting.
-FN: De Vaders zagen in de twaalf zonen van Jakob een voorafbeelding van de twaalf apostelen, het fundament van het nieuwe Israël. De heilige Augustinus overweegt dat God Rachel gedenkt op Zijn eigen tijd, wat leert dat onvruchtbaarheid en wachten geen tekenen zijn dat Hij vergeet.
+FN: De kerkvaders zagen in de twaalf zonen van Jakob een voorafbeelding van de twaalf apostelen, het fundament van het nieuwe Israël. De heilige Augustinus overweegt dat God Rachel gedenkt op Zijn eigen tijd, wat leert dat onvruchtbaarheid en wachten geen tekenen zijn dat Hij vergeet.
 T: Twelve tribes; Rivalry; God remembers
 TN: Twaalf stammen; Rivaliteit; God gedenkt
 
@@ -56,7 +56,7 @@ SN: De Heer zegt tegen Jakob: keer terug naar het land van uw vaderen, en Ik zal
 M: God protects Jacob in a relationship full of injustice. Old idols still cling to the family, a reminder that conversion takes time.
 MN: God beschermt Jakob in een relatie vol onrecht. Oude afgoden kleven nog aan de familie, een herinnering dat bekering tijd kost.
 F: The Fathers drew a moral lesson from Rachel's hidden idols: we often carry our old attachments with us even as we set out towards God, and must later bury them, as Jacob does at Shechem. Jacob's faithful labour was praised as the model of the honest servant.
-FN: De Vaders trokken een morele les uit de verborgen afgodsbeelden van Rachel: wij dragen vaak onze oude gehechtheden mee, zelfs wanneer wij op weg gaan naar God, en moeten ze later begraven, zoals Jakob bij Sichem doet. Jakobs trouwe arbeid werd geprezen als voorbeeld van de eerlijke dienaar.
+FN: De kerkvaders trokken een morele les uit de verborgen afgodsbeelden van Rachel: wij dragen vaak onze oude gehechtheden mee, zelfs wanneer wij op weg gaan naar God, en moeten ze later begraven, zoals Jakob bij Sichem doet. Jakobs trouwe arbeid werd geprezen als voorbeeld van de eerlijke dienaar.
 T: Return; Protection; Hidden idols
 TN: Terugkeer; Bescherming; Verborgen afgoden
 
@@ -66,7 +66,7 @@ SN: Engelen van God ontmoeten Jakob onderweg. Als hij hoort dat Ezau komt met vi
 M: Prayer can be a wrestling with God that does not let go until it is blessed. Jacob is changed: he receives a new name, and a wound that reminds him of his weakness.
 MN: Gebed kan een worsteling met God zijn die niet loslaat voordat zij gezegend is. Jakob wordt veranderd: hij krijgt een nieuwe naam en een wond die hem aan zijn zwakheid herinnert.
 F: The Fathers recognised in the mysterious man the Word of God, who would one day take flesh; St Justin and others saw here an appearance of the pre-incarnate Son. They taught that Israel means 'the one who sees God', and that persevering prayer is precisely this holy struggle.
-FN: De Vaders herkenden in de geheimzinnige man het Woord van God, dat eens vlees zou worden; de heilige Justinus en anderen zagen hier een verschijning van de Zoon vóór de menswording. Zij leerden dat Israël betekent 'wie God ziet', en dat volhardend gebed precies deze heilige strijd is.
+FN: De kerkvaders herkenden in de geheimzinnige man het Woord van God, dat eens vlees zou worden; de heilige Justinus en anderen zagen hier een verschijning van de Zoon vóór de menswording. Zij leerden dat Israël betekent 'wie God ziet', en dat volhardend gebed precies deze heilige strijd is.
 T: Wrestling in prayer; New name; Face to face
 TN: Worstelen in gebed; Nieuwe naam; Van aangezicht tot aangezicht
 
@@ -76,7 +76,7 @@ SN: Jakob ziet Ezau aankomen met vierhonderd man. Hij gaat zijn gezin voor en bu
 M: The one who has met God face to face can now meet his brother's face. Reconciliation is a gift that surpasses all fear.
 MN: Wie God van aangezicht tot aangezicht heeft ontmoet, kan nu het gezicht van zijn broer ontmoeten. Verzoening is een gave die alle angst te boven gaat.
 F: The Fathers loved this embrace of the two brothers as a lesson in forgiveness. Some compared Esau running to Jacob with the father of the prodigal son, who runs to embrace his returning child.
-FN: De Vaders hielden van deze omhelzing van de twee broers als een les in vergeving. Sommigen vergeleken Ezau die naar Jakob toe loopt met de vader van de verloren zoon, die zijn terugkerend kind tegemoet rent om het te omhelzen.
+FN: De kerkvaders hielden van deze omhelzing van de twee broers als een les in vergeving. Sommigen vergeleken Ezau die naar Jakob toe loopt met de vader van de verloren zoon, die zijn terugkerend kind tegemoet rent om het te omhelzen.
 T: Reconciliation; The brother's face; Humility
 TN: Verzoening; Het gezicht van de broer; Nederigheid
 
@@ -86,7 +86,7 @@ SN: Dina, de dochter van Lea, gaat uit om de vrouwen van het land te zien. Siche
 M: Violence answers violence, and a holy sign is abused as a weapon. Scripture tells this dark story honestly, without approving the revenge.
 MN: Geweld beantwoordt geweld, en een heilig teken wordt als wapen misbruikt. De Schrift vertelt dit donkere verhaal eerlijk, zonder de wraak goed te keuren.
 F: Jacob later curses the anger of Simeon and Levi on his deathbed. The Fathers saw the chapter as a warning against curiosity and wandering, and above all against wrath disguised as zeal: the sons used the sacred sign of the covenant for deceit and slaughter.
-FN: Jakob vervloekt op zijn sterfbed de toorn van Simeon en Levi. De Vaders zagen het hoofdstuk als een waarschuwing tegen nieuwsgierigheid en ronddwalen, en vooral tegen toorn die zich als ijver voordoet: de zonen gebruikten het heilige verbondsteken voor bedrog en slachting.
+FN: Jakob vervloekt op zijn sterfbed de toorn van Simeon en Levi. De kerkvaders zagen het hoofdstuk als een waarschuwing tegen nieuwsgierigheid en ronddwalen, en vooral tegen toorn die zich als ijver voordoet: de zonen gebruikten het heilige verbondsteken voor bedrog en slachting.
 T: Violence; Revenge; Abuse of the sacred
 TN: Geweld; Wraak; Misbruik van het heilige
 
@@ -96,7 +96,7 @@ SN: God zegt tegen Jakob: sta op, trek naar Bethel en maak daar een altaar. Jako
 M: Returning to God requires leaving idols behind and being purified. Joy and grief, birth and death are woven together on the way.
 MN: Terugkeren naar God vraagt het achterlaten van afgoden en reiniging. Vreugde en verdriet, geboorte en dood zijn onderweg met elkaar verweven.
 F: The Fathers saw in the burying of idols and changing of garments an image of the renunciation and new white garment of baptism. Rachel's tomb near Bethlehem is recalled in Matthew, where Rachel weeps for her children at the massacre of the innocents.
-FN: De Vaders zagen in het begraven van de afgoden en het verwisselen van de kleren een beeld van de afzwering en het nieuwe witte kleed van de doop. Het graf van Rachel bij Bethlehem wordt in Matteüs gedacht, waar Rachel weent om haar kinderen bij de kindermoord.
+FN: De kerkvaders zagen in het begraven van de afgoden en het verwisselen van de kleren een beeld van de afzwering en het nieuwe witte kleed van de doop. Het graf van Rachel bij Bethlehem wordt in Matteüs gedacht, waar Rachel weent om haar kinderen bij de kindermoord.
 T: Purification; Bethel; Death of Rachel
 TN: Reiniging; Bethel; De dood van Rachel
 
@@ -106,7 +106,7 @@ SN: De geslachten van Ezau, dat is Edom, worden opgesomd: zijn vrouwen uit de Ka
 M: Esau too is blessed and becomes a people. God's care reaches beyond the chosen line, even as the story now turns back to Jacob.
 MN: Ook Ezau wordt gezegend en wordt een volk. Gods zorg reikt verder dan de uitverkoren lijn, ook nu het verhaal weer naar Jakob terugkeert.
 F: The Fathers noted that Edom had kings long before Israel did, observing that worldly greatness often comes quickly, while God's promises ripen slowly. Job, according to an ancient tradition in the Greek Bible, was a descendant of Esau.
-FN: De Vaders merkten op dat Edom al lang vóór Israël koningen had, en zagen daarin dat wereldse grootheid vaak snel komt, terwijl Gods beloften langzaam rijpen. Job was volgens een oude overlevering in de Griekse Bijbel een nakomeling van Ezau.
+FN: De kerkvaders merkten op dat Edom al lang vóór Israël koningen had, en zagen daarin dat wereldse grootheid vaak snel komt, terwijl Gods beloften langzaam rijpen. Job was volgens een oude overlevering in de Griekse Bijbel een nakomeling van Ezau.
 T: Edom; Genealogy; Patience of the promise
 TN: Edom; Geslachtsregister; Geduld van de belofte
 
@@ -116,7 +116,7 @@ SN: Jakob heeft Jozef meer lief dan al zijn zonen en maakt hem een veelkleurig k
 M: Favouritism and envy tear a family apart. Yet God's plan is hidden within the betrayal: the brother sold into slavery will become the saviour of many.
 MN: Voortrekken en afgunst scheuren een gezin uiteen. Toch is Gods plan verborgen in het verraad: de broer die als slaaf verkocht wordt, zal de redder van velen worden.
 F: For the Fathers Joseph is among the clearest images of Christ in the Old Testament: beloved of his father, sent to his brothers, hated without cause, stripped of his garment, cast into a pit, sold for silver. St Ambrose wrote a whole treatise on Joseph as a model of chastity and a figure of the Lord.
-FN: Voor de Vaders is Jozef een van de duidelijkste beelden van Christus in het Oude Testament: geliefd bij zijn vader, gezonden naar zijn broers, zonder reden gehaat, van zijn kleed beroofd, in een put geworpen, verkocht voor zilver. De heilige Ambrosius schreef een hele verhandeling over Jozef als voorbeeld van kuisheid en voorafbeelding van de Heer.
+FN: Voor de kerkvaders is Jozef een van de duidelijkste beelden van Christus in het Oude Testament: geliefd bij zijn vader, gezonden naar zijn broers, zonder reden gehaat, van zijn kleed beroofd, in een put geworpen, verkocht voor zilver. De heilige Ambrosius schreef een hele verhandeling over Jozef als voorbeeld van kuisheid en voorafbeelding van de Heer.
 T: Envy; Betrayal; Joseph as image of Christ
 TN: Afgunst; Verraad; Jozef als beeld van Christus
 
@@ -126,7 +126,7 @@ SN: Juda verlaat zijn broers, trouwt met een Kanaänitische vrouw en krijgt drie
 M: Judah begins to change when he admits his own guilt. God works even through this tangled story: Perez is an ancestor of David and of Christ.
 MN: Juda begint te veranderen wanneer hij zijn eigen schuld erkent. God werkt zelfs door dit verwarde verhaal: Perez is een voorvader van David en van Christus.
 F: The Fathers noted that Matthew names Tamar in the genealogy of Christ, together with Rahab, Ruth and the wife of Uriah. St John Chrysostom explains that Christ did not disdain to descend from sinners, so that He might heal sinners and show that no past excludes from His mercy.
-FN: De Vaders merkten op dat Matteüs Tamar noemt in het geslachtsregister van Christus, samen met Rachab, Ruth en de vrouw van Uria. De heilige Johannes Chrysostomus legt uit dat Christus Zich niet schaamde af te stammen van zondaars, om zondaars te genezen en te tonen dat geen verleden van Zijn barmhartigheid uitsluit.
+FN: De kerkvaders merkten op dat Matteüs Tamar noemt in het geslachtsregister van Christus, samen met Rachab, Ruth en de vrouw van Uria. De heilige Johannes Chrysostomus legt uit dat Christus Zich niet schaamde af te stammen van zondaars, om zondaars te genezen en te tonen dat geen verleden van Zijn barmhartigheid uitsluit.
 T: Repentance; Justice for the widow; The line of Christ
 TN: Berouw; Recht voor de weduwe; De lijn van Christus
 
@@ -136,7 +136,7 @@ SN: De Heer is met Jozef in Egypte, en het gaat hem goed in het huis van Potifar
 M: Joseph's chastity flows from his relationship with God, not merely from fear of men. Faithfulness may lead to suffering, but God remains with the faithful in the prison.
 MN: Jozefs kuisheid komt voort uit zijn relatie met God, niet alleen uit angst voor mensen. Trouw kan tot lijden leiden, maar God blijft bij de getrouwe in de gevangenis.
 F: The Fathers, St Ambrose and St John Chrysostom above all, made Joseph the great model of chastity: he preferred losing his garment to losing his innocence. The Church calls him 'the all-comely Joseph' and remembers him in the services of Holy Monday as a figure of Christ.
-FN: De Vaders, vooral de heilige Ambrosius en de heilige Johannes Chrysostomus, maakten Jozef tot het grote voorbeeld van kuisheid: hij verloor liever zijn kleed dan zijn onschuld. De Kerk noemt hem 'de zeer schone Jozef' en gedenkt hem in de diensten van Grote Maandag als een beeld van Christus.
+FN: De kerkvaders, vooral de heilige Ambrosius en de heilige Johannes Chrysostomus, maakten Jozef tot het grote voorbeeld van kuisheid: hij verloor liever zijn kleed dan zijn onschuld. De Kerk noemt hem 'de zeer schone Jozef' en gedenkt hem in de diensten van Grote Maandag als een beeld van Christus.
 T: Chastity; False accusation; God with us in prison
 TN: Kuisheid; Valse beschuldiging; God met ons in de gevangenis
 
@@ -146,7 +146,7 @@ SN: De opperschenker en de opperbakker van Farao misdoen tegen hun heer en worde
 M: Joseph gives the glory to God and serves others even in his own distress. Human gratitude fails, but God has not forgotten.
 MN: Jozef geeft de eer aan God en dient anderen, zelfs in zijn eigen nood. Menselijke dankbaarheid schiet tekort, maar God is niet vergeten.
 F: The Fathers saw Joseph between two prisoners, one raised up and one condemned, as a figure of Christ crucified between two thieves, one of whom said: remember me when You come into Your kingdom. Unlike the cupbearer, Christ did remember.
-FN: De Vaders zagen Jozef tussen twee gevangenen, van wie één verhoogd en één veroordeeld wordt, als een voorafbeelding van Christus gekruisigd tussen twee misdadigers, van wie één zei: gedenk mij wanneer U in Uw koninkrijk komt. Anders dan de schenker vergat Christus niet.
+FN: De kerkvaders zagen Jozef tussen twee gevangenen, van wie één verhoogd en één veroordeeld wordt, als een voorafbeelding van Christus gekruisigd tussen twee misdadigers, van wie één zei: gedenk mij wanneer U in Uw koninkrijk komt. Anders dan de schenker vergat Christus niet.
 T: Dreams; Remember me; God's timing
 TN: Dromen; Gedenk mij; Gods tijd
 
@@ -156,7 +156,7 @@ SN: Twee jaar later droomt Farao van zeven vette koeien die door zeven magere ko
 M: In one day God lifts the forgotten prisoner to the throne. Joseph's wisdom serves life: he feeds the nations in the time of hunger.
 MN: Op één dag verheft God de vergeten gevangene tot de troon. Jozefs wijsheid dient het leven: hij voedt de volken in de tijd van honger.
 F: The Fathers saw in Joseph, raised from the prison to the right hand of the king and giving bread to the whole world, a figure of Christ risen from the dead, who gives the Bread of Life. 'Go to Joseph', Pharaoh's word, was later applied in the West to St Joseph, guardian of the Holy Family.
-FN: De Vaders zagen in Jozef, die uit de gevangenis werd verheven tot de rechterhand van de koning en brood gaf aan de hele wereld, een voorafbeelding van de uit de doden opgestane Christus, die het Brood des levens geeft. 'Ga naar Jozef', het woord van Farao, werd in het Westen later toegepast op de heilige Jozef, beschermer van het Heilig Huisgezin.
+FN: De kerkvaders zagen in Jozef, die uit de gevangenis werd verheven tot de rechterhand van de koning en brood gaf aan de hele wereld, een voorafbeelding van de uit de doden opgestane Christus, die het Brood des levens geeft. 'Ga naar Jozef', het woord van Farao, werd in het Westen later toegepast op de heilige Jozef, beschermer van het Heilig Huisgezin.
 T: Exaltation; Wisdom; Bread for the world
 TN: Verhoging; Wijsheid; Brood voor de wereld
 
@@ -166,7 +166,7 @@ SN: Jakob stuurt tien van zijn zonen naar Egypte om graan te kopen, maar houdt B
 M: Hunger brings the brothers face to face with their past, and conscience awakens. Joseph's severity is a test that serves their healing.
 MN: Honger brengt de broers oog in oog met hun verleden, en het geweten ontwaakt. Jozefs strengheid is een beproeving die hun genezing dient.
 F: The Fathers observed how the brothers' guilt, buried for many years, rose up at the first trial: the conscience, St John Chrysostom says, is an incorruptible judge within us. Joseph's tears show that his hardness is the mask of love.
-FN: De Vaders zagen hoe de schuld van de broers, jarenlang begraven, bij de eerste beproeving bovenkwam: het geweten, zegt de heilige Johannes Chrysostomus, is een onomkoopbare rechter in ons. Jozefs tranen laten zien dat zijn hardheid het masker van de liefde is.
+FN: De kerkvaders zagen hoe de schuld van de broers, jarenlang begraven, bij de eerste beproeving bovenkwam: het geweten, zegt de heilige Johannes Chrysostomus, is een onomkoopbare rechter in ons. Jozefs tranen laten zien dat zijn hardheid het masker van de liefde is.
 T: Conscience; Testing; Hidden love
 TN: Geweten; Beproeving; Verborgen liefde
 
@@ -176,7 +176,7 @@ SN: De hongersnood is zwaar en het graan raakt op. Juda staat borg voor de veili
 M: Judah, who once sold his brother, now offers himself for his brother. Repentance shows itself in a willingness to bear the cost.
 MN: Juda, die eens zijn broer verkocht, biedt zich nu aan voor zijn broer. Berouw toont zich in de bereidheid de prijs te dragen.
 F: The Fathers saw Judah, offering himself as surety, as a figure of Christ, the Lion of Judah, who became our surety before the Father. The shared meal in Joseph's house was read as an image of the Eucharistic banquet, where the brothers are fed by the one they did not yet recognise.
-FN: De Vaders zagen Juda, die zich als borg aanbiedt, als een voorafbeelding van Christus, de Leeuw uit Juda, die onze borg werd bij de Vader. De gedeelde maaltijd in het huis van Jozef werd gelezen als een beeld van de eucharistische maaltijd, waar de broers gevoed worden door hem die zij nog niet herkenden.
+FN: De kerkvaders zagen Juda, die zich als borg aanbiedt, als een voorafbeelding van Christus, de Leeuw uit Juda, die onze borg werd bij de Vader. De gedeelde maaltijd in het huis van Jozef werd gelezen als een beeld van de eucharistische maaltijd, waar de broers gevoed worden door hem die zij nog niet herkenden.
 T: Surety; Repentance; The shared meal
 TN: Borgtocht; Berouw; De gedeelde maaltijd
 
@@ -186,7 +186,7 @@ SN: Jozef laat zijn zilveren beker in de zak van Benjamin verbergen. Als de broe
 M: The final test reveals the brothers' change: they will not abandon Benjamin as they once abandoned Joseph. Judah offers his freedom for his brother.
 MN: De laatste beproeving onthult de verandering van de broers: zij laten Benjamin niet in de steek zoals zij ooit Jozef in de steek lieten. Juda biedt zijn vrijheid aan voor zijn broer.
 F: St John Chrysostom calls Judah's speech one of the most moving in all Scripture, a sign of a heart truly converted. The Fathers saw in it substitution born of love, pointing to the One who would give His life in place of His brothers.
-FN: De heilige Johannes Chrysostomus noemt de toespraak van Juda een van de meest ontroerende in heel de Schrift, een teken van een werkelijk bekeerd hart. De Vaders zagen daarin plaatsvervanging uit liefde, wijzend naar Hem die Zijn leven zou geven in de plaats van Zijn broeders.
+FN: De heilige Johannes Chrysostomus noemt de toespraak van Juda een van de meest ontroerende in heel de Schrift, een teken van een werkelijk bekeerd hart. De kerkvaders zagen daarin plaatsvervanging uit liefde, wijzend naar Hem die Zijn leven zou geven in de plaats van Zijn broeders.
 T: Final test; Substitution; Love for the brother
 TN: Laatste beproeving; Plaatsvervanging; Liefde voor de broer
 
@@ -196,7 +196,7 @@ SN: Jozef kan zich niet langer bedwingen; hij stuurt iedereen weg en huilt luid.
 M: Forgiveness sees God's hand even in the evil done to us. Joseph does not deny the wrong but places it within God's providence for the saving of many.
 MN: Vergeving ziet Gods hand zelfs in het kwaad dat ons is aangedaan. Jozef ontkent het onrecht niet, maar plaatst het binnen Gods voorzienigheid tot redding van velen.
 F: The Fathers read Joseph's self-revelation as a figure of the risen Christ making Himself known to His disciples, who had abandoned Him, and saying 'peace be with you'. St John Chrysostom marvels that Joseph comforts those who had wronged him, as if he were the one at fault.
-FN: De Vaders lazen de zelfopenbaring van Jozef als een voorafbeelding van de opgestane Christus die Zich bekendmaakt aan Zijn leerlingen, die Hem in de steek hadden gelaten, en zegt: vrede zij u. De heilige Johannes Chrysostomus verwondert zich erover dat Jozef hen troost die hem onrecht hadden gedaan, alsof hij zelf de schuldige was.
+FN: De kerkvaders lazen de zelfopenbaring van Jozef als een voorafbeelding van de opgestane Christus die Zich bekendmaakt aan Zijn leerlingen, die Hem in de steek hadden gelaten, en zegt: vrede zij u. De heilige Johannes Chrysostomus verwondert zich erover dat Jozef hen troost die hem onrecht hadden gedaan, alsof hij zelf de schuldige was.
 T: Forgiveness; Providence; Revelation and reunion
 TN: Vergeving; Voorzienigheid; Openbaring en hereniging
 
@@ -206,7 +206,7 @@ SN: Israël trekt weg met alles wat hij heeft en brengt offers in Berseba. God s
 M: God goes with His people even into a foreign land. The promised land is left behind for a time, but the promise is not abandoned.
 MN: God gaat met Zijn volk mee, zelfs naar een vreemd land. Het beloofde land wordt voor een tijd achtergelaten, maar de belofte wordt niet opgegeven.
 F: The Fathers heard in 'I will go down with you, and I will bring you up again' a promise fulfilled in Christ, who went down into our exile and even into death, and brought humanity up with Him. Jacob's words 'now let me die, since I have seen your face' echo in the song of Simeon.
-FN: De Vaders hoorden in 'Ik zal met u naar beneden gaan, en Ik zal u weer terugbrengen' een belofte die vervuld werd in Christus, die afdaalde in onze ballingschap en zelfs in de dood, en de mensheid met Zich mee omhoog bracht. Jakobs woorden 'laat mij nu sterven, nu ik uw gezicht gezien heb' klinken door in de lofzang van Simeon.
+FN: De kerkvaders hoorden in 'Ik zal met u naar beneden gaan, en Ik zal u weer terugbrengen' een belofte die vervuld werd in Christus, die afdaalde in onze ballingschap en zelfs in de dood, en de mensheid met Zich mee omhoog bracht. Jakobs woorden 'laat mij nu sterven, nu ik uw gezicht gezien heb' klinken door in de lofzang van Simeon.
 T: God goes with us; Reunion; Exile
 TN: God gaat met ons mee; Hereniging; Ballingschap
 
@@ -216,7 +216,7 @@ SN: Jozef stelt vijf van zijn broers voor aan Farao, die hun het land Gosen geef
 M: The aged pilgrim blesses the most powerful king on earth: the lesser is blessed by the greater. Jacob knows that his true home is not Egypt.
 MN: De oude pelgrim zegent de machtigste koning op aarde: de mindere wordt door de meerdere gezegend. Jakob weet dat zijn ware thuis niet Egypte is.
 F: The Fathers loved Jacob's description of life as a pilgrimage, few and evil days, as the attitude of the Christian on earth, who seeks the city to come. His wish to be buried in the land of promise was read as faith in the resurrection.
-FN: De Vaders hielden van Jakobs beschrijving van het leven als een vreemdelingschap van weinige en kwade dagen, als de houding van de christen op aarde, die de toekomstige stad zoekt. Zijn wens om in het land van de belofte begraven te worden, werd gelezen als geloof in de opstanding.
+FN: De kerkvaders hielden van Jakobs beschrijving van het leven als een vreemdelingschap van weinige en kwade dagen, als de houding van de christen op aarde, die de toekomstige stad zoekt. Zijn wens om in het land van de belofte begraven te worden, werd gelezen als geloof in de opstanding.
 T: Pilgrimage; Blessing; Providence in famine
 TN: Vreemdelingschap; Zegen; Voorzienigheid in de hongersnood
 
@@ -226,7 +226,7 @@ SN: Jozef brengt zijn twee zonen bij zijn zieke vader. Jakob herinnert zich hoe 
 M: Once more God's blessing reverses human order. The dying patriarch's faith looks back on a whole life shepherded by God.
 MN: Opnieuw keert Gods zegen de menselijke rangorde om. Het geloof van de stervende aartsvader kijkt terug op een heel leven waarin God hem hoedde.
 F: The Fathers saw in Jacob's crossed hands, forming the sign of the cross, a figure of the blessing that comes to the nations through the cross of Christ, the younger people receiving the right hand. Hebrews names this blessing as an act of faith.
-FN: De Vaders zagen in de gekruiste handen van Jakob, die het teken van het kruis vormen, een voorafbeelding van de zegen die door het kruis van Christus tot de volken komt, waarbij het jongere volk de rechterhand ontvangt. Hebreeën noemt deze zegen een daad van geloof.
+FN: De kerkvaders zagen in de gekruiste handen van Jakob, die het teken van het kruis vormen, een voorafbeelding van de zegen die door het kruis van Christus tot de volken komt, waarbij het jongere volk de rechterhand ontvangt. Hebreeën noemt deze zegen een daad van geloof.
 T: Blessing; Crossed hands; God my shepherd
 TN: Zegen; Gekruiste handen; God mijn herder
 
@@ -236,7 +236,7 @@ SN: Jakob roept zijn zonen bijeen om hun te zeggen wat er in de laatste dagen za
 M: The blessings are also judgments: each son's character shapes his future. Over all stands the promise of a ruler from Judah to whom the nations will belong.
 MN: De zegeningen zijn ook oordelen: het karakter van elke zoon bepaalt zijn toekomst. Boven alles staat de belofte van een heerser uit Juda aan wie de volken zullen toebehoren.
 F: The Fathers read the prophecy over Judah as one of the great messianic promises: the sceptre passed from Judah when Herod, a foreigner, ruled, and then Christ was born. The garments washed in wine and the blood of grapes were seen as His passion, and the lion's whelp who lies down and is roused as His death and resurrection.
-FN: De Vaders lazen de profetie over Juda als een van de grote messiaanse beloften: de scepter ging van Juda over toen Herodes, een vreemdeling, regeerde, en toen werd Christus geboren. De kleren gewassen in wijn en het bloed van de druiven werden gezien als Zijn lijden, en de jonge leeuw die zich neerlegt en wordt opgewekt als Zijn dood en opstanding.
+FN: De kerkvaders lazen de profetie over Juda als een van de grote messiaanse beloften: de scepter ging van Juda over toen Herodes, een vreemdeling, regeerde, en toen werd Christus geboren. De kleren gewassen in wijn en het bloed van de druiven werden gezien als Zijn lijden, en de jonge leeuw die zich neerlegt en wordt opgewekt als Zijn dood en opstanding.
 T: Prophecy; The sceptre of Judah; Waiting for salvation
 TN: Profetie; De scepter van Juda; Wachten op het heil
 
@@ -246,6 +246,6 @@ SN: Jozef valt zijn vader om het gezicht, huilt over hem en kust hem. Jakob word
 M: Genesis ends with forgiveness and hope. God brings good out of evil without making evil good, and the story looks forward to the exodus.
 MN: Genesis eindigt met vergeving en hoop. God brengt goed voort uit kwaad zonder het kwaad goed te maken, en het verhaal kijkt vooruit naar de uittocht.
 F: St John Chrysostom concludes his homilies on Genesis praising Joseph's refusal to take revenge as the crown of his virtues. The Fathers made 'you meant evil, but God meant it for good' a key to understanding providence and, supremely, the cross, where the greatest evil became the salvation of the world.
-FN: De heilige Johannes Chrysostomus besluit zijn preken over Genesis met lof voor Jozefs weigering om wraak te nemen, als de kroon op zijn deugden. De Vaders maakten 'u hebt kwaad bedacht, maar God heeft het ten goede gedacht' tot een sleutel om de voorzienigheid te begrijpen en, bovenal, het kruis, waar het grootste kwaad de redding van de wereld werd.
+FN: De heilige Johannes Chrysostomus besluit zijn preken over Genesis met lof voor Jozefs weigering om wraak te nemen, als de kroon op zijn deugden. De kerkvaders maakten 'u hebt kwaad bedacht, maar God heeft het ten goede gedacht' tot een sleutel om de voorzienigheid te begrijpen en, bovenal, het kruis, waar het grootste kwaad de redding van de wereld werd.
 T: Forgiveness; Providence; Hope of the exodus
 TN: Vergeving; Voorzienigheid; Hoop op de uittocht

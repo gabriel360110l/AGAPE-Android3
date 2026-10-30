@@ -6,7 +6,7 @@ SN: Paulus, apostel niet van mensen, maar door Jezus Christus en God de Vader, v
 M: The gospel is not a human invention to be adapted at will; it is received from Christ and handed on faithfully.
 MN: Het evangelie is geen menselijke uitvinding die naar believen aangepast kan worden; het is van Christus ontvangen en wordt trouw doorgegeven.
 F: The Fathers used 'even if an angel' against later heresies claiming new revelations. St Jerome and St John Chrysostom both wrote commentaries on Galatians.
-FN: De Vaders gebruikten 'zelfs als een engel' tegen latere ketterijen die nieuwe openbaringen claimden. De heilige Hiëronymus en de heilige Johannes Chrysostomus schreven beiden commentaren op Galaten.
+FN: De kerkvaders gebruikten 'zelfs als een engel' tegen latere ketterijen die nieuwe openbaringen claimden. De heilige Hiëronymus en de heilige Johannes Chrysostomus schreven beiden commentaren op Galaten.
 T: The one gospel; Revelation; Calling
 TN: Het ene evangelie; Openbaring; Roeping
 
@@ -16,7 +16,7 @@ SN: Paulus ging naar Jeruzalem en legde zijn evangelie voor aan de leiders; Jako
 M: Life in Christ is union with Him: He lives in us. The unity of Jew and Gentile at the table is part of the gospel itself.
 MN: Leven in Christus is vereniging met Hem: Hij leeft in ons. De eenheid van Jood en heiden aan tafel hoort bij het evangelie zelf.
 F: The Fathers discussed the clash at Antioch at length; St Augustine and St Jerome even debated it in letters. St John Chrysostom notes Paul's 'for me': Christ's love is personal for each one.
-FN: De Vaders bespraken het conflict in Antiochië uitvoerig; de heilige Augustinus en de heilige Hiëronymus debatteerden er zelfs over in brieven. De heilige Johannes Chrysostomus wijst op 'voor mij': de liefde van Christus is persoonlijk voor ieder.
+FN: De kerkvaders bespraken het conflict in Antiochië uitvoerig; de heilige Augustinus en de heilige Hiëronymus debatteerden er zelfs over in brieven. De heilige Johannes Chrysostomus wijst op 'voor mij': de liefde van Christus is persoonlijk voor ieder.
 T: Justification; Union with Christ; Unity at table
 TN: Rechtvaardiging; Vereniging met Christus; Eenheid aan tafel
 
@@ -24,11 +24,11 @@ TN: Rechtvaardiging; Vereniging met Christus; Eenheid aan tafel
 S: Did you receive the Spirit by works of the Law or by hearing with faith? Abraham believed God, and those of faith are his sons. Christ redeemed us from the curse of the Law by becoming a curse for us, so that the blessing of Abraham might come to the Gentiles. The Law, given 430 years later, cannot annul the promise; it was a guardian until Christ came. In Christ you are all sons of God through faith; all who were baptised into Christ have put on Christ. There is neither Jew nor Greek, slave nor free, male and female, for you are all one in Christ Jesus.
 SN: Hebt u de Geest ontvangen uit werken van de Wet of uit het horen met geloof? Abraham geloofde God, en wie uit het geloof zijn, zijn zijn zonen. Christus heeft ons verlost van de vloek van de Wet door voor ons een vloek te worden, opdat de zegen van Abraham tot de heidenen zou komen. De Wet, 430 jaar later gegeven, kan de belofte niet ongeldig maken; zij was een opvoeder tot Christus kwam. In Christus bent u allen zonen van God door het geloof; allen die in Christus gedoopt zijn, hebben Christus aangedaan. Er is geen Jood of Griek, slaaf of vrije, man en vrouw, want u bent allen één in Christus Jezus.
 M: Baptism clothes us with Christ and makes us one family, beyond every human division.
-MN: Het doopsel bekleedt ons met Christus en maakt ons tot één familie, voorbij elke menselijke scheiding.
+MN: De doop bekleedt ons met Christus en maakt ons tot één familie, voorbij elke menselijke scheiding.
 F: 'As many as have been baptised into Christ have put on Christ. Alleluia' is sung in place of the Trisagion at baptisms and at the great feasts of the Orthodox Church.
 FN: 'Allen die in Christus gedoopt zijn, hebben Christus aangedaan. Alleluia' wordt gezongen in plaats van het Trisagion bij dopen en op de grote feesten van de Orthodoxe Kerk.
 T: Faith of Abraham; Baptism; Unity in Christ
-TN: Geloof van Abraham; Doopsel; Eenheid in Christus
+TN: Geloof van Abraham; Doop; Eenheid in Christus
 
 ## 4 | Sons, not slaves | Zonen, geen slaven
 S: When the fullness of time had come, God sent forth His Son, born of a woman, born under the Law, to redeem those under the Law, so that we might receive adoption. Because you are sons, God has sent the Spirit of His Son into our hearts, crying, Abba, Father. So you are no longer a slave but a son, and if a son, then an heir. Paul pleads with the Galatians, recalling how they welcomed him as an angel of God despite his illness. He gives the allegory of Hagar and Sarah: we are children of the free woman, the Jerusalem above.
@@ -36,7 +36,7 @@ SN: Toen de volheid van de tijd gekomen was, zond God Zijn Zoon, geboren uit een
 M: The Son became a child of a woman so that we might become children of God. The Spirit gives us the confidence to call God 'Father'.
 MN: De Zoon werd kind van een vrouw, opdat wij kinderen van God zouden worden. De Geest geeft ons het vertrouwen om God 'Vader' te noemen.
 F: The Fathers saw 'born of a woman' as a witness to Mary as true Mother of God's Son. 'The Spirit of His Son' was later cited in East and West in the discussion of the Spirit's procession.
-FN: De Vaders zagen 'geboren uit een vrouw' als getuigenis van Maria als ware Moeder van Gods Zoon. 'De Geest van Zijn Zoon' werd later in Oost en West aangehaald in de discussie over de uitgang van de Geest.
+FN: De kerkvaders zagen 'geboren uit een vrouw' als getuigenis van Maria als ware Moeder van Gods Zoon. 'De Geest van Zijn Zoon' werd later in Oost en West aangehaald in de discussie over de uitgang van de Geest.
 T: Adoption; Fullness of time; Freedom
 TN: Kindschap; Volheid van de tijd; Vrijheid
 
@@ -46,7 +46,7 @@ SN: Tot vrijheid heeft Christus ons vrijgemaakt; sta dan vast en laat u niet opn
 M: Christian freedom is freedom for love. Virtue is the fruit of the Spirit growing in us, not mere effort.
 MN: Christelijke vrijheid is vrijheid om lief te hebben. Deugd is de vrucht van de Geest die in ons groeit, niet louter inspanning.
 F: 'Faith working through love' (5:6) was for the Fathers the summary of saving faith. St Seraphim of Sarov said the aim of the Christian life is the acquisition of the Holy Spirit, whose fruit is listed here.
-FN: 'Geloof dat werkt door de liefde' (5:6) was voor de Vaders de samenvatting van het reddende geloof. De heilige Serafim van Sarov zei dat het doel van het christelijk leven het verwerven van de Heilige Geest is, wiens vrucht hier genoemd wordt.
+FN: 'Geloof dat werkt door de liefde' (5:6) was voor de kerkvaders de samenvatting van het reddende geloof. De heilige Serafim van Sarov zei dat het doel van het christelijk leven het verwerven van de Heilige Geest is, wiens vrucht hier genoemd wordt.
 T: Freedom; Fruit of the Spirit; Love
 TN: Vrijheid; Vrucht van de Geest; Liefde
 
@@ -56,6 +56,6 @@ SN: Als iemand op een overtreding betrapt wordt, breng hem dan terecht in een ge
 M: The law of Christ is shared burdens and gentle correction. The cross is the Christian's only boast.
 MN: De wet van Christus is gedeelde lasten en zachtmoedige terechtwijzing. Het kruis is het enige waarop de christen roemt.
 F: The Fathers urged gentleness in correcting sinners, 'watching yourself, lest you too be tempted'. The marks of Jesus were understood as the scars of Paul's sufferings for Christ.
-FN: De Vaders spoorden aan tot zachtmoedigheid bij het terechtwijzen van zondaars, 'let op uzelf, opdat ook u niet verzocht wordt'. De littekens van Jezus werden verstaan als de littekens van het lijden van Paulus voor Christus.
+FN: De kerkvaders spoorden aan tot zachtmoedigheid bij het terechtwijzen van zondaars, 'let op uzelf, opdat ook u niet verzocht wordt'. De littekens van Jezus werden verstaan als de littekens van het lijden van Paulus voor Christus.
 T: Bearing burdens; The cross; New creation
 TN: Lasten dragen; Het kruis; Nieuwe schepping

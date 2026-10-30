@@ -6,6 +6,6 @@ SN: Judas, dienaar van Jezus Christus en broer van Jakobus, schrijft aan de gero
 M: The faith is a sacred deposit, received once for all and to be defended. Yet defence of the truth goes together with mercy toward the wavering.
 MN: Het geloof is een heilig pand, eens en voor altijd ontvangen en te verdedigen. Toch gaat de verdediging van de waarheid samen met barmhartigheid voor wie wankelen.
 F: The Fathers loved 'the faith once delivered to the saints' as a summary of Holy Tradition. Jude's closing doxology is often used to end sermons and prayers.
-FN: De Vaders hielden van 'het geloof dat eens aan de heiligen is overgeleverd' als samenvatting van de Heilige Traditie. De slotdoxologie van Judas wordt vaak gebruikt om preken en gebeden te besluiten.
+FN: De kerkvaders hielden van 'het geloof dat eens aan de heiligen is overgeleverd' als samenvatting van de Heilige Traditie. De slotdoxologie van Judas wordt vaak gebruikt om preken en gebeden te besluiten.
 T: Holy Tradition; Faithfulness; Mercy
 TN: Heilige Traditie; Trouw; Barmhartigheid

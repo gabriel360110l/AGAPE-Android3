@@ -6,7 +6,7 @@ SN: Matteüs begint met het geslachtsregister van Jezus, van Abraham via David t
 M: The genealogy shows that Jesus is the promised Son of Abraham and Son of David, the fulfilment of Israel's whole history. The birth from the Virgin fulfils Isaiah's word: Emmanuel, God with us.
 MN: Het geslachtsregister laat zien dat Jezus de beloofde Zoon van Abraham en Zoon van David is, de vervulling van heel de geschiedenis van Israël. De geboorte uit de Maagd vervult het woord van Jesaja: Immanuël, God met ons.
 F: St John Chrysostom notes that Matthew names women such as Tamar, Rahab and Ruth: Christ did not hide the sins and the foreign blood in His family, because He came to heal sinners and gather the nations. The Fathers praise Joseph's righteousness, which was mercy rather than harshness.
-FN: De heilige Johannes Chrysostomus merkt op dat Matteüs vrouwen als Tamar, Rachab en Ruth noemt: Christus verborg de zonden en het vreemde bloed in Zijn familie niet, want Hij kwam om zondaars te genezen en de volken te verzamelen. De Vaders prijzen de rechtvaardigheid van Jozef, die eerder barmhartigheid was dan hardheid.
+FN: De heilige Johannes Chrysostomus merkt op dat Matteüs vrouwen als Tamar, Rachab en Ruth noemt: Christus verborg de zonden en het vreemde bloed in Zijn familie niet, want Hij kwam om zondaars te genezen en de volken te verzamelen. De kerkvaders prijzen de rechtvaardigheid van Jozef, die eerder barmhartigheid was dan hardheid.
 T: Son of David; Virgin birth; Emmanuel
 TN: Zoon van David; Maagdelijke geboorte; Immanuël
 
@@ -16,7 +16,7 @@ SN: Wijzen uit het Oosten volgen een ster naar Jeruzalem en daarna naar Bethlehe
 M: The nations come to worship the King of the Jews while His own rulers reject Him. Like Israel, the Son goes down into Egypt and is called out again: His life relives and fulfils the story of His people.
 MN: De volken komen de Koning van de Joden aanbidden, terwijl Zijn eigen leiders Hem verwerpen. Zoals Israël gaat de Zoon naar Egypte en wordt Hij er weer uit geroepen: Zijn leven doorleeft en vervult de geschiedenis van Zijn volk.
 F: The Fathers read the gifts as a confession of faith: gold for a king, frankincense for God, myrrh for one who would die. The Church honours the children of Bethlehem as the first martyrs, who died for Christ before they could speak.
-FN: De Vaders lezen de geschenken als een geloofsbelijdenis: goud voor een koning, wierook voor God, mirre voor Iemand die zou sterven. De Kerk eert de kinderen van Bethlehem als de eerste martelaren, die voor Christus stierven voordat zij konden spreken.
+FN: De kerkvaders lezen de geschenken als een geloofsbelijdenis: goud voor een koning, wierook voor God, mirre voor Iemand die zou sterven. De Kerk eert de kinderen van Bethlehem als de eerste martelaren, die voor Christus stierven voordat zij konden spreken.
 T: Epiphany; Kingship of Christ; The nations
 TN: Openbaring des Heren; Koningschap van Christus; De volken
 
@@ -24,9 +24,9 @@ TN: Openbaring des Heren; Koningschap van Christus; De volken
 S: John the Baptist preaches in the wilderness of Judea: repent, for the kingdom of heaven is at hand. He baptises in the Jordan and warns the Pharisees and Sadducees that the axe is laid to the root. Jesus comes to be baptised; John hesitates, but Jesus says it is fitting to fulfil all righteousness. The heavens open, the Spirit descends like a dove, and the Father's voice says: This is My beloved Son.
 SN: Johannes de Doper predikt in de woestijn van Judea: bekeert u, want het koninkrijk der hemelen is nabij. Hij doopt in de Jordaan en waarschuwt de farizeeën en sadduceeën dat de bijl aan de wortel ligt. Jezus komt om gedoopt te worden; Johannes aarzelt, maar Jezus zegt dat het past alle gerechtigheid te vervullen. De hemel opent zich, de Geest daalt neer als een duif, en de stem van de Vader zegt: Dit is Mijn geliefde Zoon.
 M: At the Jordan the Holy Trinity is revealed: the Father speaks, the Son stands in the water, the Spirit descends. Christ, who has no sin, enters the waters to sanctify them for our baptism.
-MN: Bij de Jordaan wordt de Heilige Drie-eenheid geopenbaard: de Vader spreekt, de Zoon staat in het water, de Geest daalt neer. Christus, die zonder zonde is, gaat het water in om het te heiligen voor ons doopsel.
+MN: Bij de Jordaan wordt de Heilige Drie-eenheid geopenbaard: de Vader spreekt, de Zoon staat in het water, de Geest daalt neer. Christus, die zonder zonde is, gaat het water in om het te heiligen voor ons doop.
 F: The Fathers teach that Christ was not cleansed by the water but cleansed the water. The Eastern Church celebrates this as Theophany, the manifestation of God, and blesses water on that feast.
-FN: De Vaders leren dat Christus niet door het water werd gereinigd, maar het water reinigde. De Oosterse Kerk viert dit als Theofanie, de verschijning van God, en zegent op dat feest het water.
+FN: De kerkvaders leren dat Christus niet door het water werd gereinigd, maar het water reinigde. De Oosterse Kerk viert dit als Theofanie, de verschijning van God, en zegent op dat feest het water.
 T: Repentance; Theophany; Holy Trinity
 TN: Bekering; Theofanie; Heilige Drie-eenheid
 
@@ -36,7 +36,7 @@ SN: De Geest leidt Jezus de woestijn in, waar Hij veertig dagen vast en door de 
 M: Where Adam fell and Israel failed in the wilderness, Christ stands firm. He overcomes the tempter as a man, with fasting, humility and God's word, and so shows us the way to victory.
 MN: Waar Adam viel en Israël in de woestijn faalde, blijft Christus staan. Hij overwint de verleider als mens, met vasten, nederigheid en Gods woord, en toont ons zo de weg naar de overwinning.
 F: The Fathers see in the three temptations the roots of all sin: the desire of the flesh, vainglory and the love of power. Great Lent's forty days take their pattern from this fast of the Lord.
-FN: De Vaders zien in de drie verzoekingen de wortels van alle zonde: de begeerte van het vlees, ijdele roem en machtszucht. De veertig dagen van de Grote Vasten nemen dit vasten van de Heer als voorbeeld.
+FN: De kerkvaders zien in de drie verzoekingen de wortels van alle zonde: de begeerte van het vlees, ijdele roem en machtszucht. De veertig dagen van de Grote Vasten nemen dit vasten van de Heer als voorbeeld.
 T: Temptation; Fasting; Calling
 TN: Verzoeking; Vasten; Roeping
 
@@ -56,7 +56,7 @@ SN: Jezus waarschuwt ervoor de vroomheid te beoefenen om door anderen gezien te 
 M: The three pillars of the spiritual life are given their true purpose: not human praise, but communion with the Father. The Lord's Prayer is the summary of all prayer and of the whole Gospel.
 MN: De drie pijlers van het geestelijk leven krijgen hun ware doel: niet menselijke lof, maar gemeenschap met de Vader. Het Onze Vader is de samenvatting van alle gebed en van heel het Evangelie.
 F: St Cyprian and Tertullian wrote treatises on the Lord's Prayer, calling it a summary of the Gospel. The Fathers read 'our daily bread' both as the food we need and as the Eucharist, the Bread of life.
-FN: De heilige Cyprianus en Tertullianus schreven verhandelingen over het Onze Vader en noemden het een samenvatting van het Evangelie. De Vaders lazen 'ons dagelijks brood' zowel als het voedsel dat wij nodig hebben als de eucharistie, het Brood des levens.
+FN: De heilige Cyprianus en Tertullianus schreven verhandelingen over het Onze Vader en noemden het een samenvatting van het Evangelie. De kerkvaders lazen 'ons dagelijks brood' zowel als het voedsel dat wij nodig hebben als de eucharistie, het Brood des levens.
 T: Prayer; Fasting; Trust in God
 TN: Gebed; Vasten; Godsvertrouwen
 
@@ -66,7 +66,7 @@ SN: Jezus verbiedt huichelachtig oordelen: haal eerst de balk uit je eigen oog. 
 M: Hearing is not enough; the Sermon must be done. A life built on Christ's word stands when the storms come.
 MN: Horen is niet genoeg; de Bergrede moet gedaan worden. Een leven dat op Christus' woord gebouwd is, blijft staan als de stormen komen.
 F: The Fathers apply 'judge not' to the condemnation of persons, not to the discernment of good and evil. St John Chrysostom teaches that the rock is Christ's teaching kept in practice, which no temptation can overthrow.
-FN: De Vaders passen 'oordeelt niet' toe op het veroordelen van personen, niet op het onderscheiden van goed en kwaad. De heilige Johannes Chrysostomus leert dat de rots het onderwijs van Christus is dat in praktijk wordt gebracht, en dat geen verzoeking kan omverwerpen.
+FN: De kerkvaders passen 'oordeelt niet' toe op het veroordelen van personen, niet op het onderscheiden van goed en kwaad. De heilige Johannes Chrysostomus leert dat de rots het onderwijs van Christus is dat in praktijk wordt gebracht, en dat geen verzoeking kan omverwerpen.
 T: Judging; Prayer; Obedience
 TN: Oordelen; Gebed; Gehoorzaamheid
 
@@ -76,7 +76,7 @@ SN: Als Hij van de berg afdaalt, raakt Jezus een melaatse aan en reinigt hem, ge
 M: After His words come His deeds: the authority of the Teacher is the authority of the Creator over sickness, nature and demons. The centurion's faith shows that the Gentiles will sit at Abraham's table.
 MN: Na Zijn woorden komen Zijn daden: het gezag van de Leraar is het gezag van de Schepper over ziekte, natuur en demonen. Het geloof van de hoofdman laat zien dat de heidenen aan de tafel van Abraham zullen aanzitten.
 F: The centurion's words, 'Lord, I am not worthy that You should come under my roof', became part of the preparation for Holy Communion. The Fathers see the boat as the Church, tossed by storms but safe with Christ aboard.
-FN: De woorden van de hoofdman, 'Heer, ik ben niet waardig dat Gij onder mijn dak komt', werden een deel van de voorbereiding op de Heilige Communie. De Vaders zien de boot als de Kerk, door stormen geslingerd maar veilig met Christus aan boord.
+FN: De woorden van de hoofdman, 'Heer, ik ben niet waardig dat Gij onder mijn dak komt', werden een deel van de voorbereiding op de Heilige Communie. De kerkvaders zien de boot als de Kerk, door stormen geslingerd maar veilig met Christus aan boord.
 T: Faith; Healing; Authority of Christ
 TN: Geloof; Genezing; Gezag van Christus
 
@@ -86,7 +86,7 @@ SN: Jezus vergeeft en geneest een verlamde man en toont zo dat de Mensenzoon mac
 M: Christ is the Physician of souls and bodies. He heals the root of all sickness, sin, and gathers those whom others despise.
 MN: Christus is de Geneesheer van zielen en lichamen. Hij geneest de wortel van alle ziekte, de zonde, en verzamelt wie door anderen veracht worden.
 F: The prayers of the Church often call Christ 'Physician of our souls and bodies'. The Fathers note that Matthew writes humbly about his own calling, naming himself a tax collector.
-FN: De gebeden van de Kerk noemen Christus vaak 'Geneesheer van onze zielen en lichamen'. De Vaders merken op dat Matteüs nederig over zijn eigen roeping schrijft en zichzelf tollenaar noemt.
+FN: De gebeden van de Kerk noemen Christus vaak 'Geneesheer van onze zielen en lichamen'. De kerkvaders merken op dat Matteüs nederig over zijn eigen roeping schrijft en zichzelf tollenaar noemt.
 T: Forgiveness; Mercy to sinners; Faith that heals
 TN: Vergeving; Barmhartigheid voor zondaars; Geloof dat geneest
 
@@ -96,7 +96,7 @@ SN: Jezus geeft de twaalf apostelen macht over onreine geesten en ziekte en zend
 M: The Church is apostolic: sent by Christ, sharing His authority and His sufferings. The disciple is not above his teacher.
 MN: De Kerk is apostolisch: gezonden door Christus, delend in Zijn gezag en in Zijn lijden. De leerling staat niet boven zijn meester.
 F: The Fathers saw in this chapter the courage of the martyrs foretold. St John Chrysostom notes that Christ first tells of the dangers, so that the apostles would not be shaken when they came.
-FN: De Vaders zagen in dit hoofdstuk de moed van de martelaren voorzegd. De heilige Johannes Chrysostomus merkt op dat Christus eerst de gevaren noemt, zodat de apostelen niet zouden wankelen als ze kwamen.
+FN: De kerkvaders zagen in dit hoofdstuk de moed van de martelaren voorzegd. De heilige Johannes Chrysostomus merkt op dat Christus eerst de gevaren noemt, zodat de apostelen niet zouden wankelen als ze kwamen.
 T: Apostles; Mission; Confessing Christ
 TN: Apostelen; Zending; Christus belijden
 
@@ -106,7 +106,7 @@ SN: Vanuit de gevangenis laat Johannes de Doper vragen: bent U Degene die komen 
 M: The Son alone knows the Father and reveals Him. His yoke is light because He carries it with us.
 MN: Alleen de Zoon kent de Vader en openbaart Hem. Zijn juk is licht omdat Hij het met ons draagt.
 F: Several Fathers think John asked not from doubt but so that his disciples would hear Jesus and follow Him. 'Learn from Me, for I am meek and humble' was seen by the desert Fathers as the heart of the spiritual life.
-FN: Verschillende Vaders denken dat Johannes niet uit twijfel vroeg, maar opdat zijn leerlingen Jezus zouden horen en Hem volgen. 'Leert van Mij, want Ik ben zachtmoedig en nederig' gold voor de woestijnvaders als het hart van het geestelijk leven.
+FN: Verschillende kerkvaders denken dat Johannes niet uit twijfel vroeg, maar opdat zijn leerlingen Jezus zouden horen en Hem volgen. 'Leert van Mij, want Ik ben zachtmoedig en nederig' gold voor de woestijnvaders als het hart van het geestelijk leven.
 T: Humility; Rest in Christ; Revelation of the Father
 TN: Nederigheid; Rust in Christus; Openbaring van de Vader
 
@@ -116,7 +116,7 @@ SN: De farizeeën bekritiseren de leerlingen omdat zij op de sabbat aren plukken
 M: Christ is greater than the temple, than Jonah and than Solomon. To call the work of the Spirit evil is to shut oneself off from the very source of forgiveness.
 MN: Christus is meer dan de tempel, dan Jona en dan Salomo. Het werk van de Geest kwaad noemen, is zich afsluiten van de bron van de vergeving zelf.
 F: The Fathers explain the unforgivable sin as hardened, unrepentant resistance to grace: it is not forgiven because it refuses forgiveness. The sign of Jonah, three days in the whale, points to the Resurrection.
-FN: De Vaders verklaren de onvergeeflijke zonde als verharde, onboetvaardige weerstand tegen de genade: ze wordt niet vergeven omdat ze vergeving weigert. Het teken van Jona, drie dagen in de vis, wijst naar de Verrijzenis.
+FN: De kerkvaders verklaren de onvergeeflijke zonde als verharde, onboetvaardige weerstand tegen de genade: ze wordt niet vergeven omdat ze vergeving weigert. Het teken van Jona, drie dagen in de vis, wijst naar de Verrijzenis.
 T: Sabbath; Holy Spirit; Mercy
 TN: Sabbat; Heilige Geest; Barmhartigheid
 
@@ -126,7 +126,7 @@ SN: Vanuit een boot onderwijst Jezus in gelijkenissen: de zaaier wiens zaad op d
 M: The kingdom begins small and hidden, grows by God's power, and is worth everything we have. Good and evil grow together until the harvest at the end of the age.
 MN: Het koninkrijk begint klein en verborgen, groeit door Gods kracht en is alles waard wat wij hebben. Goed en kwaad groeien samen tot de oogst aan het einde der tijden.
 F: The Fathers read the four soils as the states of the heart and urged their hearers to become good soil. St Augustine used the wheat and the weeds to teach patience: the Church on earth is a mixed field, and judgement belongs to the Lord.
-FN: De Vaders lazen de vier soorten grond als toestanden van het hart en spoorden hun hoorders aan goede aarde te worden. De heilige Augustinus gebruikte het onkruid tussen de tarwe om geduld te leren: de Kerk op aarde is een gemengd veld, en het oordeel behoort aan de Heer.
+FN: De kerkvaders lazen de vier soorten grond als toestanden van het hart en spoorden hun hoorders aan goede aarde te worden. De heilige Augustinus gebruikte het onkruid tussen de tarwe om geduld te leren: de Kerk op aarde is een gemengd veld, en het oordeel behoort aan de Heer.
 T: Kingdom of heaven; Parables; Hearing the word
 TN: Koninkrijk der hemelen; Gelijkenissen; Het woord horen
 
@@ -136,6 +136,6 @@ SN: Herodes laat Johannes de Doper onthoofden op een feestmaal om een eed aan zi
 M: Christ feeds His people in the wilderness like a new Moses, a sign of the Eucharist. He rules the waters as only God does, and lifts up those whose faith is weak.
 MN: Christus voedt Zijn volk in de woestijn als een nieuwe Mozes, een teken van de eucharistie. Hij heerst over de wateren zoals alleen God dat doet, en tilt hen op wier geloof zwak is.
 F: The Fathers note the eucharistic words: He took, blessed, broke and gave. Peter sinking became for them an image of every soul that looks at the storm instead of at Christ, and his cry 'Lord, save me' a model of prayer.
-FN: De Vaders wijzen op de eucharistische woorden: Hij nam, zegende, brak en gaf. Petrus die zinkt, werd voor hen een beeld van elke ziel die naar de storm kijkt in plaats van naar Christus, en zijn roep 'Heer, red mij' een voorbeeld van gebed.
+FN: De kerkvaders wijzen op de eucharistische woorden: Hij nam, zegende, brak en gaf. Petrus die zinkt, werd voor hen een beeld van elke ziel die naar de storm kijkt in plaats van naar Christus, en zijn roep 'Heer, red mij' een voorbeeld van gebed.
 T: Martyrdom; Eucharist; Faith and doubt
 TN: Martelaarschap; Eucharistie; Geloof en twijfel
