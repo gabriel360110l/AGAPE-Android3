@@ -6,7 +6,7 @@ SN: Sommigen leren dat heidense gelovigen besneden moeten worden en de Wet van M
 M: The first council shows how the Church settles disputes: together, under the Spirit, listening to Scripture and to what God is doing. Salvation is by grace, not by the works of the Law.
 MN: Het eerste concilie laat zien hoe de Kerk geschillen beslecht: samen, onder de Geest, luisterend naar de Schrift en naar wat God doet. Redding is door genade, niet door de werken van de Wet.
 F: The Fathers regarded this assembly as the model of all later councils. 'It seemed good to the Holy Spirit and to us' became the conciliar formula of the Church.
-FN: De Vaders beschouwden deze vergadering als het voorbeeld van alle latere concilies. 'Het heeft de Heilige Geest en ons goedgedacht' werd de conciliaire formule van de Kerk.
+FN: De kerkvaders beschouwden deze vergadering als het voorbeeld van alle latere concilies. 'Het heeft de Heilige Geest en ons goedgedacht' werd de conciliaire formule van de Kerk.
 T: Councils; Grace; Unity
 TN: Concilies; Genade; Eenheid
 
@@ -16,7 +16,7 @@ SN: Paulus neemt Timoteüs als metgezel. Door de Geest verhinderd in Asia te pre
 M: The Spirit guides the mission. Praise in the prison at midnight opens hearts and doors.
 MN: De Geest leidt de zending. Lofzang in de gevangenis om middernacht opent harten en deuren.
 F: St John Chrysostom marvels that Paul and Silas, beaten and in stocks, did not sleep but sang: prayer turns a prison into a church. The baptism of whole households was cited by the Fathers for the baptism of children.
-FN: De heilige Johannes Chrysostomus verwondert zich erover dat Paulus en Silas, geslagen en in het blok, niet sliepen maar zongen: gebed maakt van een gevangenis een kerk. De doop van hele huisgezinnen werd door de Vaders aangehaald voor de kinderdoop.
+FN: De heilige Johannes Chrysostomus verwondert zich erover dat Paulus en Silas, geslagen en in het blok, niet sliepen maar zongen: gebed maakt van een gevangenis een kerk. De doop van hele huisgezinnen werd door de kerkvaders aangehaald voor de kinderdoop.
 T: Guidance of the Spirit; Praise; Household baptism
 TN: Leiding van de Geest; Lofzang; Doop van het huisgezin
 
@@ -26,7 +26,7 @@ SN: In Tessalonica toont Paulus vanuit de Schriften aan dat de Christus moest li
 M: Paul meets philosophers on their ground, starting from their own search for God. The Resurrection is the stumbling block and the heart of the message.
 MN: Paulus ontmoet filosofen op hun eigen terrein en begint bij hun eigen zoeken naar God. De Verrijzenis is het struikelblok en het hart van de boodschap.
 F: The Fathers, such as St Justin Martyr and St Clement of Alexandria, followed Paul's example in finding 'seeds of the Word' in Greek philosophy while preaching Christ as its fulfilment.
-FN: De Vaders, zoals de heilige Justinus de Martelaar en de heilige Clemens van Alexandrië, volgden het voorbeeld van Paulus door 'zaden van het Woord' te vinden in de Griekse filosofie, terwijl zij Christus predikten als de vervulling ervan.
+FN: De kerkvaders, zoals de heilige Justinus de Martelaar en de heilige Clemens van Alexandrië, volgden het voorbeeld van Paulus door 'zaden van het Woord' te vinden in de Griekse filosofie, terwijl zij Christus predikten als de vervulling ervan.
 T: Scripture; Faith and reason; Resurrection
 TN: Schrift; Geloof en rede; Verrijzenis
 
@@ -46,7 +46,7 @@ SN: In Efeze vindt Paulus leerlingen die alleen de doop van Johannes kennen; zij
 M: Baptism in Christ's name and the gift of the Spirit belong together. The gospel overturns the economy of idolatry and magic.
 MN: Doop in Christus' naam en de gave van de Geest horen bij elkaar. Het evangelie werpt de economie van afgoderij en magie omver.
 F: The Fathers pointed to the handkerchiefs touched by Paul as an early witness to the veneration of relics, through which God works for the sake of His saints.
-FN: De Vaders wezen op de zweetdoeken die Paulus aangeraakt had als een vroeg getuigenis van de verering van relieken, waardoor God werkt omwille van Zijn heiligen.
+FN: De kerkvaders wezen op de zweetdoeken die Paulus aangeraakt had als een vroeg getuigenis van de verering van relieken, waardoor God werkt omwille van Zijn heiligen.
 T: Gift of the Spirit; Renouncing magic; Conflict with idolatry
 TN: Gave van de Geest; Afstand van magie; Conflict met afgoderij
 
@@ -56,7 +56,7 @@ SN: Op de eerste dag van de week komen de gelovigen in Troas samen om brood te b
 M: Sunday, the first day, is the day of the Eucharist. Pastors are guardians of a flock bought with the blood of God.
 MN: Zondag, de eerste dag, is de dag van de eucharistie. Herders zijn bewakers van een kudde die met het bloed van God gekocht is.
 F: The Fathers cite this chapter as early evidence of the Sunday Eucharist. Paul's speech to the elders was read by them as a mirror for bishops and priests.
-FN: De Vaders halen dit hoofdstuk aan als vroeg bewijs van de zondagse eucharistie. De rede van Paulus tot de oudsten lazen zij als een spiegel voor bisschoppen en priesters.
+FN: De kerkvaders halen dit hoofdstuk aan als vroeg bewijs van de zondagse eucharistie. De rede van Paulus tot de oudsten lazen zij als een spiegel voor bisschoppen en priesters.
 T: Sunday Eucharist; Pastoral care; Farewell
 TN: Zondagse eucharistie; Herderlijke zorg; Afscheid
 
@@ -74,11 +74,11 @@ TN: Bereidheid tot lijden; Vrede in de Kerk; Arrestatie
 S: From the steps of the barracks Paul addresses the crowd in Hebrew. He tells of his zeal for the Law, his persecution of the Way, and his encounter with Jesus on the road to Damascus; Ananias restored his sight and told him to be baptised and wash away his sins. Later the Lord sent him far away to the Gentiles. At that word the crowd cries out against him. About to be flogged, Paul reveals he is a Roman citizen.
 SN: Vanaf de trappen van de kazerne spreekt Paulus de menigte toe in het Hebreeuws. Hij vertelt over zijn ijver voor de Wet, zijn vervolging van de Weg, en zijn ontmoeting met Jezus op de weg naar Damascus; Ananias gaf hem zijn gezicht terug en zei hem zich te laten dopen en zijn zonden af te wassen. Later zond de Heer hem ver weg naar de heidenen. Bij dat woord schreeuwt de menigte tegen hem. Op het punt gegeseld te worden, maakt Paulus bekend dat hij Romeins burger is.
 M: Paul's testimony is simply the story of what Christ did in his life. Baptism washes away sins.
-MN: Het getuigenis van Paulus is eenvoudig het verhaal van wat Christus in zijn leven deed. Het doopsel wast de zonden af.
+MN: Het getuigenis van Paulus is eenvoudig het verhaal van wat Christus in zijn leven deed. De doop wast de zonden af.
 F: The Fathers cite 'be baptised and wash away your sins' as apostolic witness to the power of baptism, confessed in the Creed: one baptism for the remission of sins.
-FN: De Vaders halen 'laat u dopen en uw zonden afwassen' aan als apostolisch getuigenis van de kracht van het doopsel, beleden in de Geloofsbelijdenis: één doopsel tot vergeving van de zonden.
+FN: De kerkvaders halen 'laat u dopen en uw zonden afwassen' aan als apostolisch getuigenis van de kracht van de doop, beleden in de Geloofsbelijdenis: één doop tot vergeving van de zonden.
 T: Testimony; Baptism; Mission to the nations
-TN: Getuigenis; Doopsel; Zending naar de volken
+TN: Getuigenis; Doop; Zending naar de volken
 
 ## 23 | Before the Sanhedrin; the plot | Voor het Sanhedrin; het complot
 S: Before the council Paul declares that he is on trial for the hope of the resurrection, dividing the Pharisees and Sadducees. That night the Lord stands by him: take courage, as you have testified about Me in Jerusalem, so you must testify in Rome. More than forty men vow to kill him, but Paul's nephew hears of the plot, and the tribune sends Paul by night under heavy guard to the governor Felix in Caesarea.
@@ -86,7 +86,7 @@ SN: Voor de raad verklaart Paulus dat hij terechtstaat vanwege de hoop op de ops
 M: The Lord stands by His witness in the dark hour. God's providence works even through a young nephew and a Roman officer.
 MN: De Heer staat Zijn getuige bij in het donkere uur. Gods voorzienigheid werkt zelfs door een jonge neef en een Romeinse officier.
 F: The Fathers note how often in Acts the Lord appears to Paul at moments of danger, a comfort for every persecuted believer.
-FN: De Vaders merken op hoe vaak de Heer in Handelingen aan Paulus verschijnt op momenten van gevaar, een troost voor elke vervolgde gelovige.
+FN: De kerkvaders merken op hoe vaak de Heer in Handelingen aan Paulus verschijnt op momenten van gevaar, een troost voor elke vervolgde gelovige.
 T: Hope of resurrection; Courage; Providence
 TN: Hoop op de opstanding; Moed; Voorzienigheid
 
@@ -106,7 +106,7 @@ SN: De nieuwe stadhouder Festus behandelt de zaak. Om te voorkomen dat hij naar 
 M: Festus sums up the whole faith without understanding it: Jesus, who was dead, is alive. God uses the Roman legal system to bring His witness to Rome.
 MN: Festus vat het hele geloof samen zonder het te begrijpen: Jezus, die gestorven was, leeft. God gebruikt het Romeinse rechtsstelsel om Zijn getuige naar Rome te brengen.
 F: The Fathers note that Paul used his rights as a citizen without shame: Christians may make lawful use of the institutions of the state.
-FN: De Vaders merken op dat Paulus zonder schaamte gebruikmaakte van zijn rechten als burger: christenen mogen op wettige wijze gebruikmaken van de instellingen van de staat.
+FN: De kerkvaders merken op dat Paulus zonder schaamte gebruikmaakte van zijn rechten als burger: christenen mogen op wettige wijze gebruikmaken van de instellingen van de staat.
 T: Resurrection; Providence; Justice
 TN: Verrijzenis; Voorzienigheid; Rechtvaardigheid
 
@@ -126,7 +126,7 @@ SN: Paulus vaart als gevangene naar Rome. Hij waarschuwt tegen varen laat in het
 M: In the storm the prisoner becomes the true captain, because he trusts God. Thanksgiving and broken bread bring courage to all.
 MN: In de storm wordt de gevangene de echte kapitein, omdat hij op God vertrouwt. Dankzegging en gebroken brood geven allen moed.
 F: The Fathers saw the ship as an image of the Church and of the world, saved for the sake of the righteous among them, as God granted Paul all who sailed with him.
-FN: De Vaders zagen het schip als beeld van de Kerk en van de wereld, gered omwille van de rechtvaardigen onder hen, zoals God Paulus allen schonk die met hem voeren.
+FN: De kerkvaders zagen het schip als beeld van de Kerk en van de wereld, gered omwille van de rechtvaardigen onder hen, zoals God Paulus allen schonk die met hem voeren.
 T: Trust in God; Thanksgiving; Providence
 TN: Godsvertrouwen; Dankzegging; Voorzienigheid
 
@@ -136,6 +136,6 @@ SN: Op Malta bijt een adder zich vast in de hand van Paulus; hij schudt hem af z
 M: The gospel has reached the heart of the empire. Acts ends open, with the word 'unhindered': the mission continues in every generation.
 MN: Het evangelie heeft het hart van het rijk bereikt. Handelingen eindigt open, met het woord 'onbelemmerd': de zending gaat verder in elke generatie.
 F: The Fathers record that Paul was later martyred in Rome under Nero, by the sword, and the Church honours Peter and Paul together on 29 June.
-FN: De Vaders vermelden dat Paulus later in Rome onder Nero met het zwaard werd gedood, en de Kerk eert Petrus en Paulus samen op 29 juni.
+FN: De kerkvaders vermelden dat Paulus later in Rome onder Nero met het zwaard werd gedood, en de Kerk eert Petrus en Paulus samen op 29 juni.
 T: Mission; Boldness; The word unhindered
 TN: Zending; Vrijmoedigheid; Het woord onbelemmerd
