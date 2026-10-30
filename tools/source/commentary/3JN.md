@@ -6,6 +6,6 @@ SN: De oudste schrijft aan zijn geliefde Gajus, en bidt dat het hem goed gaat en
 M: Hospitality to missionaries makes us fellow workers in their mission. Ambition and love of power destroy communion.
 MN: Gastvrijheid voor missionarissen maakt ons medearbeiders in hun zending. Eerzucht en machtszucht vernietigen de gemeenschap.
 F: The Fathers held up Gaius as a model of Christian hospitality, and Diotrephes as a warning against pride in church leadership.
-FN: De Vaders hielden Gajus voor als voorbeeld van christelijke gastvrijheid, en Diotrefes als waarschuwing tegen hoogmoed in het leiderschap van de kerk.
+FN: De kerkvaders hielden Gajus voor als voorbeeld van christelijke gastvrijheid, en Diotrefes als waarschuwing tegen hoogmoed in het leiderschap van de kerk.
 T: Hospitality; Walking in the truth; Humility
 TN: Gastvrijheid; In de waarheid wandelen; Nederigheid
