@@ -6,7 +6,7 @@ SN: De spreuken van Salomo, de zoon van David, de koning van Israël: om wijshei
 M: True wisdom begins with reverence for God. It is offered freely in the public square, but must be heeded before it is too late.
 MN: Ware wijsheid begint met eerbied voor God. Zij wordt vrij aangeboden op het openbare plein, maar moet ter harte genomen worden voordat het te laat is.
 F: In the Byzantine rite Proverbs is read at Vespers on the weekdays of Great Lent, together with Genesis. The Fathers identified Wisdom, who calls in the streets and pours out her spirit, with Christ, the Wisdom of God, as St Paul calls Him. St Basil wrote a homily on the beginning of Proverbs.
-FN: In de Byzantijnse ritus wordt Spreuken gelezen in de vespers op de weekdagen van de Grote Vasten, samen met Genesis. De Vaders identificeerden de Wijsheid, die op straat roept en haar geest uitstort, met Christus, de Wijsheid van God, zoals de heilige Paulus Hem noemt. De heilige Basilius schreef een preek over het begin van Spreuken.
+FN: In de Byzantijnse ritus wordt Spreuken gelezen in de vespers op de weekdagen van de Grote Vasten, samen met Genesis. De kerkvaders identificeerden de Wijsheid, die op straat roept en haar geest uitstort, met Christus, de Wijsheid van God, zoals de heilige Paulus Hem noemt. De heilige Basilius schreef een preek over het begin van Spreuken.
 T: Fear of the Lord; Wisdom's call; Parental teaching
 TN: Vreze des Heren; De roep van de wijsheid; Onderricht van ouders
 
@@ -16,7 +16,7 @@ SN: Mijn zoon, als u mijn woorden aanneemt en mijn geboden bij u bewaart, zodat 
 M: Wisdom must be sought with the passion of a treasure hunter, yet in the end it is God who gives it. It protects from the paths that destroy.
 MN: Wijsheid moet gezocht worden met de hartstocht van een schatzoeker, maar uiteindelijk is het God die haar geeft. Zij beschermt tegen de paden die verwoesten.
 F: The Fathers read this chapter as an exhortation to study Scripture diligently, digging for its hidden meaning as for treasure. Origen and St Augustine both stressed that understanding Scripture is both our search and God's gift.
-FN: De Vaders lazen dit hoofdstuk als een aansporing om de Schrift ijverig te bestuderen en naar haar verborgen betekenis te graven als naar een schat. Origenes en de heilige Augustinus benadrukten beiden dat het verstaan van de Schrift zowel ons zoeken als Gods gave is.
+FN: De kerkvaders lazen dit hoofdstuk als een aansporing om de Schrift ijverig te bestuderen en naar haar verborgen betekenis te graven als naar een schat. Origenes en de heilige Augustinus benadrukten beiden dat het verstaan van de Schrift zowel ons zoeken als Gods gave is.
 T: Seeking wisdom; God gives wisdom; Protection
 TN: Wijsheid zoeken; God geeft wijsheid; Bescherming
 
@@ -26,7 +26,7 @@ SN: Mijn zoon, vergeet mijn onderricht niet. Laten goedertierenheid en trouw u n
 M: Wholehearted trust in God, generosity and acceptance of His discipline make life straight. Wisdom is a tree of life.
 MN: Vertrouwen op God met heel het hart, vrijgevigheid en het aanvaarden van Zijn tucht maken het leven recht. Wijsheid is een boom des levens.
 F: Hebrews 12 quotes 'the Lord disciplines the one He loves' to comfort suffering Christians, and St James and St Peter quote 'God opposes the proud but gives grace to the humble'. The Fathers saw the tree of life, lost in Eden, given back in Christ the Wisdom of God and in the cross.
-FN: Hebreeën 12 citeert 'de Heer tuchtigt wie Hij liefheeft' om lijdende christenen te troosten, en de heilige Jakobus en de heilige Petrus citeren 'God weerstaat de hoogmoedigen, maar de nederigen geeft Hij genade'. De Vaders zagen de boom des levens, verloren in Eden, teruggegeven in Christus, de Wijsheid van God, en in het kruis.
+FN: Hebreeën 12 citeert 'de Heer tuchtigt wie Hij liefheeft' om lijdende christenen te troosten, en de heilige Jakobus en de heilige Petrus citeren 'God weerstaat de hoogmoedigen, maar de nederigen geeft Hij genade'. De kerkvaders zagen de boom des levens, verloren in Eden, teruggegeven in Christus, de Wijsheid van God, en in het kruis.
 T: Trust; Discipline as love; Tree of life
 TN: Vertrouwen; Tucht als liefde; Boom des levens
 
@@ -36,7 +36,7 @@ SN: Hoor, kinderen, de vermaning van een vader. Toen ik een zoon was bij mijn va
 M: Wisdom is passed down through generations. Guarding the heart is the centre of the moral life, for everything flows from it.
 MN: Wijsheid wordt van geslacht op geslacht doorgegeven. Het hart bewaken is het middelpunt van het morele leven, want alles komt eruit voort.
 F: 'Keep your heart with all vigilance' became a foundation of the Fathers' teaching on watchfulness (nepsis), the guarding of the heart against thoughts that lead to sin, central to the Philokalia. The path of the righteous growing brighter like the dawn was read as the soul's progress towards the full light of God.
-FN: 'Behoed uw hart boven al wat te bewaren is' werd een grondslag van het onderwijs van de Vaders over waakzaamheid (nepsis), het bewaken van het hart tegen gedachten die tot zonde leiden, centraal in de Filokalia. Het pad van de rechtvaardigen dat helderder wordt als de dageraad, werd gelezen als de voortgang van de ziel naar het volle licht van God.
+FN: 'Behoed uw hart boven al wat te bewaren is' werd een grondslag van het onderwijs van de kerkvaders over waakzaamheid (nepsis), het bewaken van het hart tegen gedachten die tot zonde leiden, centraal in de Filokalia. Het pad van de rechtvaardigen dat helderder wordt als de dageraad, werd gelezen als de voortgang van de ziel naar het volle licht van God.
 T: Guarding the heart; Generations; The growing light
 TN: Het hart bewaken; Geslachten; Het groeiende licht
 
@@ -46,7 +46,7 @@ SN: Mijn zoon, let op mijn wijsheid. De lippen van de vreemde vrouw druppen honi
 M: Adultery promises sweetness but ends in bitterness. Faithful love within marriage is a blessed spring of joy.
 MN: Overspel belooft zoetheid maar eindigt in bitterheid. Trouwe liefde binnen het huwelijk is een gezegende bron van vreugde.
 F: The Fathers read the warning against the strange woman both literally, as a call to marital fidelity, and spiritually, as a warning against false teaching that sounds sweet but leads to death. Rejoicing in 'the wife of your youth' was used in their praise of Christian marriage.
-FN: De Vaders lazen de waarschuwing tegen de vreemde vrouw zowel letterlijk, als een oproep tot huwelijkstrouw, als geestelijk, als een waarschuwing tegen valse leer die zoet klinkt maar tot de dood leidt. Het zich verblijden in 'de vrouw van uw jeugd' werd gebruikt in hun lof van het christelijk huwelijk.
+FN: De kerkvaders lazen de waarschuwing tegen de vreemde vrouw zowel letterlijk, als een oproep tot huwelijkstrouw, als geestelijk, als een waarschuwing tegen valse leer die zoet klinkt maar tot de dood leidt. Het zich verblijden in 'de vrouw van uw jeugd' werd gebruikt in hun lof van het christelijk huwelijk.
 T: Faithfulness; Deceptive pleasure; Marriage
 TN: Trouw; Bedrieglijk genot; Huwelijk
 
@@ -56,7 +56,7 @@ SN: Mijn zoon, als u borg bent geworden voor uw naaste, ga, haast u en dring aan
 M: Diligence, honesty and fidelity guard a life. God hates especially pride, lies, violence and the sowing of discord.
 MN: IJver, eerlijkheid en trouw behoeden een leven. God haat vooral hoogmoed, leugen, geweld en het zaaien van tweedracht.
 F: St Basil, in his homilies on the six days of creation, praises the ant's foresight as a lesson from nature. The Fathers listed the seven things the Lord hates in their teaching on the passions, and noted that sowing discord among brothers is placed last as the climax, the sin most opposed to the unity of the Church.
-FN: De heilige Basilius prijst in zijn preken over de zes scheppingsdagen de vooruitziende blik van de mier als een les uit de natuur. De Vaders noemden de zeven dingen die de Heer haat in hun onderwijs over de hartstochten, en merkten op dat het zaaien van tweedracht tussen broeders als hoogtepunt als laatste genoemd wordt, de zonde die het meest tegen de eenheid van de Kerk ingaat.
+FN: De heilige Basilius prijst in zijn preken over de zes scheppingsdagen de vooruitziende blik van de mier als een les uit de natuur. De kerkvaders noemden de zeven dingen die de Heer haat in hun onderwijs over de hartstochten, en merkten op dat het zaaien van tweedracht tussen broeders als hoogtepunt als laatste genoemd wordt, de zonde die het meest tegen de eenheid van de Kerk ingaat.
 T: Diligence; Seven abominations; Fidelity
 TN: IJver; Zeven gruwelen; Trouw
 
@@ -66,7 +66,7 @@ SN: Mijn zoon, bewaar mijn woorden; bewaar mijn geboden en leef; bewaar mijn ond
 M: Temptation grows in the twilight, step by step, and catches the one who wanders without purpose. Wisdom must be as close as a sister.
 MN: Verleiding groeit in de schemering, stap voor stap, en vangt wie zonder doel ronddwaalt. Wijsheid moet zo dichtbij zijn als een zuster.
 F: The Fathers used this vivid scene to describe the stages of temptation: the wandering eye, the dangerous place, the conversation, consent and the fall. They taught that the first defence is to avoid 'her corner', the occasions of sin.
-FN: De Vaders gebruikten dit levendige tafereel om de fasen van de verleiding te beschrijven: het dwalende oog, de gevaarlijke plaats, het gesprek, de instemming en de val. Zij leerden dat de eerste verdediging is 'haar hoek' te vermijden, de gelegenheden tot zonde.
+FN: De kerkvaders gebruikten dit levendige tafereel om de fasen van de verleiding te beschrijven: het dwalende oog, de gevaarlijke plaats, het gesprek, de instemming en de val. Zij leerden dat de eerste verdediging is 'haar hoek' te vermijden, de gelegenheden tot zonde.
 T: Temptation; Stages of sin; Wisdom as sister
 TN: Verleiding; Fasen van de zonde; Wijsheid als zuster
 
@@ -76,7 +76,7 @@ SN: Roept de wijsheid niet? Op de hoogten bij de weg, op de kruispunten neemt zi
 M: Wisdom was with God before creation and delights in humanity. To find her is to find life.
 MN: De wijsheid was bij God vóór de schepping en heeft vreugde in de mensen. Haar vinden is het leven vinden.
 F: No chapter of Proverbs was more discussed by the Fathers. They identified Wisdom with the eternal Son, present with the Father at creation and delighting in mankind. When the Arians used the Greek 'the Lord created me' to call the Son a creature, St Athanasius answered that the verse refers to the Son's taking flesh, not to His eternal being. In the West it is read on Trinity Sunday and was long read on feasts of the Virgin Mary.
-FN: Geen hoofdstuk van Spreuken werd door de Vaders meer besproken. Zij identificeerden de Wijsheid met de eeuwige Zoon, aanwezig bij de Vader bij de schepping en vreugde vindend in de mensheid. Toen de Arianen het Griekse 'de Heer schiep mij' gebruikten om de Zoon een schepsel te noemen, antwoordde de heilige Athanasius dat het vers verwijst naar het aannemen van het vlees door de Zoon, niet naar Zijn eeuwig bestaan. In het Westen wordt het gelezen op Drievuldigheidszondag en werd het lang gelezen op feesten van de Maagd Maria.
+FN: Geen hoofdstuk van Spreuken werd door de kerkvaders meer besproken. Zij identificeerden de Wijsheid met de eeuwige Zoon, aanwezig bij de Vader bij de schepping en vreugde vindend in de mensheid. Toen de Arianen het Griekse 'de Heer schiep mij' gebruikten om de Zoon een schepsel te noemen, antwoordde de heilige Athanasius dat het vers verwijst naar het aannemen van het vlees door de Zoon, niet naar Zijn eeuwig bestaan. In het Westen wordt het gelezen op Drievuldigheidszondag en werd het lang gelezen op feesten van de Maagd Maria.
 T: Wisdom with God; Christ the Wisdom; Life
 TN: Wijsheid bij God; Christus de Wijsheid; Leven
 
@@ -86,7 +86,7 @@ SN: De wijsheid heeft haar huis gebouwd; zij heeft haar zeven pilaren uitgehouwe
 M: Two hostesses call to every passer-by: Wisdom with her banquet of life, Folly with her stolen pleasures that lead to death. Each person must choose which house to enter.
 MN: Twee gastvrouwen roepen elke voorbijganger: de Wijsheid met haar maaltijd van het leven, de Dwaasheid met haar gestolen genoegens die tot de dood leiden. Ieder moet kiezen welk huis hij binnengaat.
 F: The Fathers read Wisdom building her house as the Son of God taking flesh from the Virgin, and her table of bread and mixed wine as the Eucharist; the seven pillars were read as the seven gifts of the Spirit or the Church. This chapter is read at Vespers on feasts of the Theotokos, the house that Wisdom built for Himself.
-FN: De Vaders lazen de Wijsheid die haar huis bouwt als de Zoon van God die vlees aanneemt uit de Maagd, en haar tafel met brood en gemengde wijn als de Eucharistie; de zeven pilaren werden gelezen als de zeven gaven van de Geest of als de Kerk. Dit hoofdstuk wordt gelezen in de vespers op feesten van de Moeder Gods, het huis dat de Wijsheid voor Zichzelf bouwde.
+FN: De kerkvaders lazen de Wijsheid die haar huis bouwt als de Zoon van God die vlees aanneemt uit de Maagd, en haar tafel met brood en gemengde wijn als de Eucharistie; de zeven pilaren werden gelezen als de zeven gaven van de Geest of als de Kerk. Dit hoofdstuk wordt gelezen in de vespers op feesten van de Moeder Gods, het huis dat de Wijsheid voor Zichzelf bouwde.
 T: Wisdom's banquet; Folly's invitation; The Eucharist
 TN: De maaltijd van de wijsheid; De uitnodiging van de dwaasheid; De Eucharistie
 
@@ -96,7 +96,7 @@ SN: De spreuken van Salomo. Een wijze zoon verblijdt zijn vader, maar een dwaze 
 M: Here the collection of short proverbs begins. Integrity, love that covers faults and restraint in speech build a life that leaves a blessed memory.
 MN: Hier begint de verzameling korte spreuken. Oprechtheid, liefde die fouten bedekt en terughoudendheid in spreken bouwen een leven dat een gezegende gedachtenis nalaat.
 F: 'The memory of the just is celebrated with praise', as the Greek has it, opens the troparion of St John the Forerunner and is sung on the feasts of saints. St Peter and St James echo 'love covers a multitude of sins'. The Fathers praised restraint of the tongue as the beginning of stillness.
-FN: 'De gedachtenis van de rechtvaardige wordt met lof gevierd', zoals het Grieks luidt, opent het troparion van de heilige Johannes de Voorloper en wordt gezongen op de feesten van heiligen. De heilige Petrus en de heilige Jakobus weerspiegelen 'de liefde bedekt een menigte van zonden'. De Vaders prezen het beteugelen van de tong als het begin van de stilte.
+FN: 'De gedachtenis van de rechtvaardige wordt met lof gevierd', zoals het Grieks luidt, opent het troparion van de heilige Johannes de Voorloper en wordt gezongen op de feesten van heiligen. De heilige Petrus en de heilige Jakobus weerspiegelen 'de liefde bedekt een menigte van zonden'. De kerkvaders prezen het beteugelen van de tong als het begin van de stilte.
 T: Memory of the righteous; Love covers faults; Restraint in speech
 TN: Gedachtenis van de rechtvaardige; Liefde bedekt fouten; Terughoudendheid in spreken
 
@@ -106,7 +106,7 @@ SN: Een bedrieglijke weegschaal is de Heer een gruwel, maar een juist gewicht is
 M: Honesty in business, humility and generosity are pleasing to God. The paradox of giving: the generous grow richer.
 MN: Eerlijkheid in de handel, nederigheid en vrijgevigheid behagen God. De paradox van het geven: de vrijgevige wordt rijker.
 F: The Fathers drew on 'one gives freely, yet grows richer' in their teaching on almsgiving: what is given to the poor is not lost but stored in heaven. 'Whoever wins souls is wise' was applied to the apostolic and pastoral calling.
-FN: De Vaders putten uit 'de een deelt uit en krijgt steeds meer' in hun onderwijs over aalmoezen: wat aan de armen gegeven wordt, gaat niet verloren maar wordt in de hemel bewaard. 'Wie zielen wint, is wijs' werd toegepast op de apostolische en pastorale roeping.
+FN: De kerkvaders putten uit 'de een deelt uit en krijgt steeds meer' in hun onderwijs over aalmoezen: wat aan de armen gegeven wordt, gaat niet verloren maar wordt in de hemel bewaard. 'Wie zielen wint, is wijs' werd toegepast op de apostolische en pastorale roeping.
 T: Honesty; Generosity; Humility
 TN: Eerlijkheid; Vrijgevigheid; Nederigheid
 
@@ -116,7 +116,7 @@ SN: Wie tucht liefheeft, heeft kennis lief, maar wie terechtwijzing haat, is dom
 M: Words can wound like swords or heal like medicine. The wise accept correction, care even for animals, and speak words that lift up the anxious.
 MN: Woorden kunnen verwonden als zwaarden of genezen als medicijn. De wijze aanvaardt terechtwijzing, zorgt zelfs voor dieren en spreekt woorden die de bezorgde opbeuren.
 F: The Fathers noted that the righteous care even for the life of their animals, a sign that mercy extends to all creation. St Isaac the Syrian later spoke of the merciful heart that burns with love for every creature. 'A good word makes him glad' was applied to the ministry of consolation.
-FN: De Vaders merkten op dat de rechtvaardigen zelfs zorgen voor het leven van hun dieren, een teken dat barmhartigheid zich uitstrekt over heel de schepping. De heilige Isaak de Syriër sprak later over het barmhartige hart dat brandt van liefde voor elk schepsel. 'Een goed woord verblijdt hem' werd toegepast op de bediening van de troost.
+FN: De kerkvaders merkten op dat de rechtvaardigen zelfs zorgen voor het leven van hun dieren, een teken dat barmhartigheid zich uitstrekt over heel de schepping. De heilige Isaak de Syriër sprak later over het barmhartige hart dat brandt van liefde voor elk schepsel. 'Een goed woord verblijdt hem' werd toegepast op de bediening van de troost.
 T: Healing words; Accepting correction; Mercy to creatures
 TN: Genezende woorden; Terechtwijzing aanvaarden; Barmhartigheid voor schepselen
 
@@ -126,7 +126,7 @@ SN: Een wijze zoon luistert naar de vermaning van zijn vader. Wie zijn mond bewa
 M: The company we keep shapes us. Discipline given in love, diligence and good counsel build a lasting inheritance.
 MN: Het gezelschap dat wij houden, vormt ons. Tucht die in liefde gegeven wordt, ijver en goede raad bouwen een blijvende erfenis.
 F: The Fathers loved 'whoever walks with the wise becomes wise' as advice to seek a spiritual father and good companions. They read 'hope deferred makes the heart sick' with compassion for the suffering, and saw the fulfilled desire, a tree of life, as the soul's union with God.
-FN: De Vaders hielden van 'wie met wijzen omgaat, wordt wijs' als raad om een geestelijke vader en goede metgezellen te zoeken. Zij lazen 'langdurig uitgestelde hoop maakt het hart ziek' met mededogen voor wie lijden, en zagen het vervulde verlangen, een boom des levens, als de vereniging van de ziel met God.
+FN: De kerkvaders hielden van 'wie met wijzen omgaat, wordt wijs' als raad om een geestelijke vader en goede metgezellen te zoeken. Zij lazen 'langdurig uitgestelde hoop maakt het hart ziek' met mededogen voor wie lijden, en zagen het vervulde verlangen, een boom des levens, als de vereniging van de ziel met God.
 T: Good company; Hope and longing; Loving discipline
 TN: Goed gezelschap; Hoop en verlangen; Liefdevolle tucht
 
@@ -136,7 +136,7 @@ SN: Een wijze vrouw bouwt haar huis, maar de dwaasheid breekt het met eigen hand
 M: Our own judgment can deceive us. How we treat the poor is how we treat God, for He made them.
 MN: Ons eigen oordeel kan ons bedriegen. Hoe wij de armen behandelen, zo behandelen wij God, want Hij heeft hen gemaakt.
 F: 'There is a way that seems right to a man, but its end is death' was used by the Fathers to warn against trusting one's own judgment without counsel, and against heresy. 'Whoever oppresses the poor insults his Maker' anticipates Christ's words: as you did it to one of the least of these, you did it to Me.
-FN: 'Er is een weg die iemand recht lijkt, maar het einde ervan is de dood' werd door de Vaders gebruikt om te waarschuwen tegen vertrouwen op het eigen oordeel zonder raad, en tegen ketterij. 'Wie de arme verdrukt, smaadt zijn Maker' loopt vooruit op de woorden van Christus: wat u aan een van deze geringsten gedaan hebt, hebt u Mij gedaan.
+FN: 'Er is een weg die iemand recht lijkt, maar het einde ervan is de dood' werd door de kerkvaders gebruikt om te waarschuwen tegen vertrouwen op het eigen oordeel zonder raad, en tegen ketterij. 'Wie de arme verdrukt, smaadt zijn Maker' loopt vooruit op de woorden van Christus: wat u aan een van deze geringsten gedaan hebt, hebt u Mij gedaan.
 T: Self-deception; Care for the poor; Inner peace
 TN: Zelfbedrog; Zorg voor de armen; Innerlijke vrede
 
@@ -146,7 +146,7 @@ SN: Een zacht antwoord keert de grimmigheid af, maar een krenkend woord doet de 
 M: Gentleness defuses conflict and love makes a simple meal a feast. God sees everything and hears the prayer of the upright.
 MN: Zachtmoedigheid ontmijnt conflicten, en liefde maakt een eenvoudige maaltijd tot een feest. God ziet alles en hoort het gebed van de oprechten.
 F: The Fathers often quoted 'a soft answer turns away wrath' in their teaching against anger, and 'better a dinner of herbs where love is' in praise of monastic simplicity and the shared table. 'Humility comes before honour' was echoed in Christ's teaching that the one who humbles himself will be exalted.
-FN: De Vaders citeerden vaak 'een zacht antwoord keert de grimmigheid af' in hun onderwijs tegen de toorn, en 'beter een maaltijd van groente waar liefde is' in hun lof van de monastieke eenvoud en de gedeelde tafel. 'Nederigheid gaat aan eer vooraf' klinkt door in het onderwijs van Christus dat wie zichzelf vernedert, verhoogd zal worden.
+FN: De kerkvaders citeerden vaak 'een zacht antwoord keert de grimmigheid af' in hun onderwijs tegen de toorn, en 'beter een maaltijd van groente waar liefde is' in hun lof van de monastieke eenvoud en de gedeelde tafel. 'Nederigheid gaat aan eer vooraf' klinkt door in het onderwijs van Christus dat wie zichzelf vernedert, verhoogd zal worden.
 T: Gentleness; Contentment; God sees all
 TN: Zachtmoedigheid; Tevredenheid; God ziet alles
 
@@ -156,7 +156,7 @@ SN: Bij de mens zijn de overleggingen van het hart, maar van de Heer is het antw
 M: We make plans, but God directs our steps. Mastering oneself is a greater victory than conquering a city.
 MN: Wij maken plannen, maar God richt onze schreden. Zichzelf beheersen is een grotere overwinning dan een stad veroveren.
 F: The Fathers loved 'he who rules his spirit is better than he who takes a city' as a summary of the ascetic struggle against the passions. 'Pride goes before destruction' was read of the fall of the devil and of Adam. 'Commit your work to the Lord' became a prayer before beginning any task.
-FN: De Vaders hielden van 'wie zijn geest beheerst, is beter dan wie een stad inneemt' als samenvatting van de ascetische strijd tegen de hartstochten. 'Hoogmoed gaat vooraf aan het verderf' werd gelezen als de val van de duivel en van Adam. 'Wentel uw werken op de Heer' werd een gebed voor het begin van elke taak.
+FN: De kerkvaders hielden van 'wie zijn geest beheerst, is beter dan wie een stad inneemt' als samenvatting van de ascetische strijd tegen de hartstochten. 'Hoogmoed gaat vooraf aan het verderf' werd gelezen als de val van de duivel en van Adam. 'Wentel uw werken op de Heer' werd een gebed voor het begin van elke taak.
 T: Providence; Pride before a fall; Self-control
 TN: Voorzienigheid; Hoogmoed komt voor de val; Zelfbeheersing
 
@@ -166,7 +166,7 @@ SN: Beter een droge bete met rust dan een huis vol feestmaaltijden met twist. De
 M: Peace is worth more than plenty. True friendship stays faithful in hard times, and covering others' faults builds love.
 MN: Vrede is meer waard dan overvloed. Ware vriendschap blijft trouw in moeilijke tijden, en het bedekken van fouten van anderen bouwt liefde op.
 F: The Fathers saw in 'a friend loves at all times, and a brother is born for adversity' a description of Christ, the friend who did not abandon us in our misery but became our brother. They warned against gossip, which 'separates close friends', as a grave sin against charity.
-FN: De Vaders zagen in 'een vriend heeft te allen tijde lief, en een broer wordt in de benauwdheid geboren' een beschrijving van Christus, de vriend die ons in onze ellende niet verliet maar onze broeder werd. Zij waarschuwden tegen roddel, die 'vertrouwde vrienden scheidt', als een ernstige zonde tegen de liefde.
+FN: De kerkvaders zagen in 'een vriend heeft te allen tijde lief, en een broer wordt in de benauwdheid geboren' een beschrijving van Christus, de vriend die ons in onze ellende niet verliet maar onze broeder werd. Zij waarschuwden tegen roddel, die 'vertrouwde vrienden scheidt', als een ernstige zonde tegen de liefde.
 T: Friendship; Peace over plenty; Avoiding gossip
 TN: Vriendschap; Vrede boven overvloed; Roddel vermijden
 
@@ -176,7 +176,7 @@ SN: Wie zich afzondert, zoekt zijn eigen begeerte; hij keert zich tegen elk vers
 M: Listening before speaking, humility and refuge in God's name protect against the dangers of isolation and gossip. The tongue holds power over life and death.
 MN: Luisteren voordat men spreekt, nederigheid en toevlucht in Gods naam beschermen tegen de gevaren van isolement en roddel. De tong heeft macht over leven en dood.
 F: 'The name of the Lord is a strong tower' was dear to the Fathers who taught the Jesus Prayer: calling on the name of Jesus is running into a strong tower. They warned that 'answering before hearing' is the root of many quarrels, and saw the friend closer than a brother as Christ.
-FN: 'De naam van de Heer is een sterke toren' was dierbaar aan de Vaders die het Jezusgebed leerden: de naam van Jezus aanroepen is wegrennen naar een sterke toren. Zij waarschuwden dat 'antwoorden voordat men gehoord heeft' de wortel is van veel ruzies, en zagen de vriend die meer aanhangt dan een broer als Christus.
+FN: 'De naam van de Heer is een sterke toren' was dierbaar aan de kerkvaders die het Jezusgebed leerden: de naam van Jezus aanroepen is wegrennen naar een sterke toren. Zij waarschuwden dat 'antwoorden voordat men gehoord heeft' de wortel is van veel ruzies, en zagen de vriend die meer aanhangt dan een broer als Christus.
 T: The name of the Lord; Listening; Power of the tongue
 TN: De naam van de Heer; Luisteren; Macht van de tong
 
@@ -186,7 +186,7 @@ SN: Beter een arme die in zijn oprechtheid wandelt dan iemand met verdraaide lip
 M: Kindness to the poor is a loan to God Himself. Overlooking offences is a glory, and God's purpose stands above all human plans.
 MN: Goedheid voor de armen is een lening aan God Zelf. Overtredingen voorbijgaan is een eer, en Gods raad staat boven alle menselijke plannen.
 F: 'Whoever is generous to the poor lends to the Lord' was one of the Fathers' favourite verses on almsgiving; St Basil and St John Chrysostom preached that the poor man's hand is God's treasury, and God repays with interest in eternity. Overlooking an offence was praised as the glory of the meek.
-FN: 'Wie zich over de arme ontfermt, leent aan de Heer' was een van de geliefdste verzen van de Vaders over aalmoezen; de heilige Basilius en de heilige Johannes Chrysostomus preekten dat de hand van de arme Gods schatkist is, en dat God met rente vergeldt in de eeuwigheid. Een overtreding voorbijgaan werd geprezen als de eer van de zachtmoedigen.
+FN: 'Wie zich over de arme ontfermt, leent aan de Heer' was een van de geliefdste verzen van de kerkvaders over aalmoezen; de heilige Basilius en de heilige Johannes Chrysostomus preekten dat de hand van de arme Gods schatkist is, en dat God met rente vergeldt in de eeuwigheid. Een overtreding voorbijgaan werd geprezen als de eer van de zachtmoedigen.
 T: Almsgiving; Patience; God's purpose
 TN: Aalmoezen; Geduld; Gods raad
 
@@ -196,7 +196,7 @@ SN: De wijn is een spotter, sterke drank een rumoerige, en ieder die zich erdoor
 M: No one can claim a pure heart by himself. Leave vengeance to God, and let conscience, the lamp of the Lord, search the heart.
 MN: Niemand kan op eigen kracht een rein hart claimen. Laat de wraak aan God, en laat het geweten, de lamp van de Heer, het hart doorzoeken.
 F: The Fathers used 'who can say: I have made my heart pure?' against pride and to show that all need God's mercy. They read 'the spirit of man is the lamp of the Lord' of the conscience, God's light within, and taught examination of conscience by its light.
-FN: De Vaders gebruikten 'wie kan zeggen: ik heb mijn hart gezuiverd?' tegen de hoogmoed en om te tonen dat allen Gods barmhartigheid nodig hebben. Zij lazen 'de geest van de mens is een lamp van de Heer' over het geweten, Gods licht in ons, en leerden het geweten bij dat licht te onderzoeken.
+FN: De kerkvaders gebruikten 'wie kan zeggen: ik heb mijn hart gezuiverd?' tegen de hoogmoed en om te tonen dat allen Gods barmhartigheid nodig hebben. Zij lazen 'de geest van de mens is een lamp van de Heer' over het geweten, Gods licht in ons, en leerden het geweten bij dat licht te onderzoeken.
 T: Humility; Leaving vengeance to God; Conscience
 TN: Nederigheid; De wraak aan God laten; Geweten
 
@@ -206,7 +206,7 @@ SN: Het hart van de koning is als waterstromen in de hand van de Heer; Hij leidt
 M: God values justice above ritual and holds even rulers in His hand. Whoever ignores the poor will find his own cry unheard.
 MN: God waardeert gerechtigheid boven ritueel en houdt zelfs heersers in Zijn hand. Wie de armen negeert, zal merken dat zijn eigen roep niet gehoord wordt.
 F: The Fathers connected 'righteousness is more acceptable than sacrifice' with the prophets and with Christ's word 'I desire mercy, not sacrifice'. 'Whoever closes his ear to the cry of the poor' was a stern warning in their preaching, and 'the king's heart in the hand of the Lord' grounded prayer for rulers.
-FN: De Vaders verbonden 'gerechtigheid is welgevalliger dan offer' met de profeten en met het woord van Christus 'barmhartigheid wil Ik, en geen offer'. 'Wie zijn oor stopt voor het geroep van de arme' was een ernstige waarschuwing in hun prediking, en 'het hart van de koning in de hand van de Heer' was de grond voor gebed voor de overheid.
+FN: De kerkvaders verbonden 'gerechtigheid is welgevalliger dan offer' met de profeten en met het woord van Christus 'barmhartigheid wil Ik, en geen offer'. 'Wie zijn oor stopt voor het geroep van de arme' was een ernstige waarschuwing in hun prediking, en 'het hart van de koning in de hand van de Heer' was de grond voor gebed voor de overheid.
 T: Justice over ritual; The cry of the poor; God's sovereignty
 TN: Gerechtigheid boven ritueel; Het geroep van de arme; Gods soevereiniteit
 
@@ -216,7 +216,7 @@ SN: Een goede naam is verkieslijker dan grote rijkdom. Rijke en arme ontmoeten e
 M: Rich and poor share one Maker. Good formation in childhood and respect for inherited boundaries give a life stability.
 MN: Rijk en arm hebben één Maker. Goede vorming in de kinderjaren en respect voor geërfde grenzen geven een leven stabiliteit.
 F: 'Do not move the ancient boundaries which your fathers set' was quoted by the Fathers, St John of Damascus among them, in defence of holy Tradition against innovation. 'Train up a child in the way he should go' grounded St John Chrysostom's teaching on the Christian upbringing of children.
-FN: 'Verzet de oude grenspalen niet die uw vaderen gemaakt hebben' werd door de Vaders aangehaald, onder wie de heilige Johannes van Damascus, ter verdediging van de heilige Overlevering tegen vernieuwing. 'Leer de jongen de weg die hij gaan moet' was de grondslag van het onderwijs van de heilige Johannes Chrysostomus over de christelijke opvoeding van kinderen.
+FN: 'Verzet de oude grenspalen niet die uw vaderen gemaakt hebben' werd door de kerkvaders aangehaald, onder wie de heilige Johannes van Damascus, ter verdediging van de heilige Overlevering tegen vernieuwing. 'Leer de jongen de weg die hij gaan moet' was de grondslag van het onderwijs van de heilige Johannes Chrysostomus over de christelijke opvoeding van kinderen.
 T: A good name; Raising children; Tradition
 TN: Een goede naam; Kinderen opvoeden; Overlevering
 
@@ -226,7 +226,7 @@ SN: Wanneer u aanzit om te eten met een heerser, let dan goed op wat voor u staa
 M: Riches fly away and drunkenness bites like a serpent. What God asks for above all is the heart.
 MN: Rijkdom vliegt weg en dronkenschap bijt als een slang. Wat God bovenal vraagt, is het hart.
 F: The Fathers heard 'My son, give Me your heart' as the voice of God to every soul: He asks not for possessions but for love. They used the vivid description of drunkenness in their homilies on temperance, and 'riches make themselves wings' against the love of money.
-FN: De Vaders hoorden 'Mijn zoon, geef Mij uw hart' als de stem van God tot elke ziel: Hij vraagt niet om bezittingen maar om liefde. Zij gebruikten de levendige beschrijving van dronkenschap in hun preken over matigheid, en 'rijkdom maakt zich vleugels' tegen de geldzucht.
+FN: De kerkvaders hoorden 'Mijn zoon, geef Mij uw hart' als de stem van God tot elke ziel: Hij vraagt niet om bezittingen maar om liefde. Zij gebruikten de levendige beschrijving van dronkenschap in hun preken over matigheid, en 'rijkdom maakt zich vleugels' tegen de geldzucht.
 T: Giving the heart; Fleeting riches; Temperance
 TN: Het hart geven; Vluchtige rijkdom; Matigheid
 
@@ -246,7 +246,7 @@ SN: Ook dit zijn spreuken van Salomo, die de mannen van Hizkia, de koning van Ju
 M: Do good even to your enemy; it may melt his heart. Humility, well-timed words and self-control protect the soul like walls protect a city.
 MN: Doe zelfs uw vijand goed; het kan zijn hart doen smelten. Nederigheid, woorden op hun tijd en zelfbeheersing beschermen de ziel zoals muren een stad beschermen.
 F: St Paul quotes 'if your enemy is hungry, feed him' in Romans 12, adding: do not be overcome by evil, but overcome evil with good. Christ's parable of choosing the lowest seat at a wedding echoes 'better to be told: come up here'. The Fathers taught that the burning coals are the shame that leads an enemy to repentance.
-FN: De heilige Paulus citeert 'als uw vijand honger heeft, geef hem te eten' in Romeinen 12, en voegt toe: laat u niet overwinnen door het kwade, maar overwin het kwade door het goede. De gelijkenis van Christus over het kiezen van de laagste plaats op een bruiloft weerspiegelt 'het is beter dat men tegen u zegt: kom hier boven'. De Vaders leerden dat de vurige kolen de schaamte zijn die een vijand tot bekering brengt.
+FN: De heilige Paulus citeert 'als uw vijand honger heeft, geef hem te eten' in Romeinen 12, en voegt toe: laat u niet overwinnen door het kwade, maar overwin het kwade door het goede. De gelijkenis van Christus over het kiezen van de laagste plaats op een bruiloft weerspiegelt 'het is beter dat men tegen u zegt: kom hier boven'. De kerkvaders leerden dat de vurige kolen de schaamte zijn die een vijand tot bekering brengt.
 T: Love of enemies; Humility; Self-control
 TN: Liefde voor vijanden; Nederigheid; Zelfbeheersing
 
@@ -256,7 +256,7 @@ SN: Zoals sneeuw in de zomer en regen in de oogst, zo past eer niet bij een dwaa
 M: Wisdom knows when to answer and when to be silent. Self-conceit is worse than ignorance, and evil returns on the one who plots it.
 MN: Wijsheid weet wanneer te antwoorden en wanneer te zwijgen. Eigenwaan is erger dan onwetendheid, en het kwade keert terug op wie het beraamt.
 F: St Peter applies 'the dog returns to its own vomit' to those who return to sin after knowing the way of righteousness. The Fathers saw the two sayings about answering a fool as a lesson in discernment: the same truth requires different responses in different situations. 'More hope for a fool than for one wise in his own eyes' was a classic warning against spiritual pride.
-FN: De heilige Petrus past 'de hond keert terug naar zijn eigen braaksel' toe op wie terugkeren tot de zonde nadat zij de weg van de gerechtigheid gekend hebben. De Vaders zagen de twee spreuken over het antwoorden van een dwaas als een les in onderscheiding: dezelfde waarheid vraagt in verschillende situaties om verschillende antwoorden. 'Meer hoop voor een dwaas dan voor wie wijs is in eigen ogen' was een klassieke waarschuwing tegen geestelijke hoogmoed.
+FN: De heilige Petrus past 'de hond keert terug naar zijn eigen braaksel' toe op wie terugkeren tot de zonde nadat zij de weg van de gerechtigheid gekend hebben. De kerkvaders zagen de twee spreuken over het antwoorden van een dwaas als een les in onderscheiding: dezelfde waarheid vraagt in verschillende situaties om verschillende antwoorden. 'Meer hoop voor een dwaas dan voor wie wijs is in eigen ogen' was een klassieke waarschuwing tegen geestelijke hoogmoed.
 T: Discernment; Self-conceit; Returning to sin
 TN: Onderscheiding; Eigenwaan; Terugkeer tot de zonde
 
@@ -266,7 +266,7 @@ SN: Beroem u niet op de dag van morgen, want u weet niet wat een dag zal brengen
 M: The future belongs to God. Honest friends who correct us, like iron sharpening iron, help us grow.
 MN: De toekomst behoort God toe. Eerlijke vrienden die ons terechtwijzen, als ijzer dat ijzer scherpt, helpen ons groeien.
 F: St James echoes 'do not boast about tomorrow': you do not know what your life will be tomorrow; say instead, if the Lord wills. The Fathers saw in 'faithful are the wounds of a friend' and 'iron sharpens iron' the value of fraternal correction and spiritual friendship in community life. Knowing the state of one's flock was applied to pastors.
-FN: De heilige Jakobus weerspiegelt 'beroem u niet op de dag van morgen': u weet niet wat uw leven morgen zal zijn; zeg liever: als de Heer het wil. De Vaders zagen in 'de wonden van een vriend zijn betrouwbaar' en 'ijzer scherpt ijzer' de waarde van broederlijke terechtwijzing en geestelijke vriendschap in het gemeenschapsleven. Het kennen van de toestand van de kudde werd toegepast op herders.
+FN: De heilige Jakobus weerspiegelt 'beroem u niet op de dag van morgen': u weet niet wat uw leven morgen zal zijn; zeg liever: als de Heer het wil. De kerkvaders zagen in 'de wonden van een vriend zijn betrouwbaar' en 'ijzer scherpt ijzer' de waarde van broederlijke terechtwijzing en geestelijke vriendschap in het gemeenschapsleven. Het kennen van de toestand van de kudde werd toegepast op herders.
 T: Humility about the future; Honest friendship; Mutual growth
 TN: Nederigheid over de toekomst; Eerlijke vriendschap; Wederzijdse groei
 
@@ -276,7 +276,7 @@ SN: De goddelozen vluchten terwijl niemand hen achtervolgt, maar de rechtvaardig
 M: Hiding sin leads to ruin; confessing and forsaking it brings mercy. A clear conscience gives the courage of a lion.
 MN: Zonde verbergen leidt tot ondergang; haar belijden en laten brengt barmhartigheid. Een zuiver geweten geeft de moed van een leeuw.
 F: 'He who confesses and forsakes his sins will obtain mercy' was a key verse for the Fathers' teaching on repentance and the sacrament of confession: both confessing and forsaking are needed. St John Chrysostom contrasted the guilty conscience that flees from shadows with the boldness of the martyrs.
-FN: 'Wie zijn overtredingen belijdt en laat, zal barmhartigheid vinden' was een sleutelvers voor het onderwijs van de Vaders over bekering en het sacrament van de biecht: zowel belijden als laten is nodig. De heilige Johannes Chrysostomus stelde het schuldige geweten dat voor schaduwen vlucht tegenover de vrijmoedigheid van de martelaren.
+FN: 'Wie zijn overtredingen belijdt en laat, zal barmhartigheid vinden' was een sleutelvers voor het onderwijs van de kerkvaders over bekering en het sacrament van de biecht: zowel belijden als laten is nodig. De heilige Johannes Chrysostomus stelde het schuldige geweten dat voor schaduwen vlucht tegenover de vrijmoedigheid van de martelaren.
 T: Confession; Integrity; Boldness of a clear conscience
 TN: Belijdenis; Oprechtheid; Vrijmoedigheid van een zuiver geweten
 
@@ -286,7 +286,7 @@ SN: Iemand die dikwijls terechtgewezen wordt en toch zijn nek verhardt, zal plot
 M: A people without vision from God loses its way. The fear of others traps us; trust in the Lord sets us free.
 MN: Een volk zonder visie van God raakt de weg kwijt. De vrees voor mensen houdt ons gevangen; vertrouwen op de Heer maakt ons vrij.
 F: The Fathers saw in 'where there is no vision the people perish' the necessity of the prophetic word and of Scripture for the life of God's people. 'The fear of man lays a snare' was used to encourage confessors and martyrs to fear God rather than human judgment.
-FN: De Vaders zagen in 'waar geen profetie is, verwildert het volk' de noodzaak van het profetische woord en van de Schrift voor het leven van Gods volk. 'De vrees voor mensen legt een strik' werd gebruikt om belijders en martelaren aan te moedigen God te vrezen en niet het oordeel van mensen.
+FN: De kerkvaders zagen in 'waar geen profetie is, verwildert het volk' de noodzaak van het profetische woord en van de Schrift voor het leven van Gods volk. 'De vrees voor mensen legt een strik' werd gebruikt om belijders en martelaren aan te moedigen God te vrezen en niet het oordeel van mensen.
 T: Stubbornness; Vision; Fear of man
 TN: Koppigheid; Visie; Mensenvrees
 
@@ -296,7 +296,7 @@ SN: De woorden van Agur, de zoon van Jake. Ik ben moe, o God, en uitgeput; ik he
 M: Humility before God's mystery leads to a wise prayer: enough, but not too much. Both wealth and poverty bring their own temptations.
 MN: Nederigheid tegenover Gods mysterie leidt tot een wijs gebed: genoeg, maar niet te veel. Zowel rijkdom als armoede brengen hun eigen verleidingen.
 F: The Fathers heard in 'what is his name, and what is his son's name?' a hint of the Father and the Son, and in 'who has ascended to heaven and come down?' Christ, who alone came down from heaven and ascended. Agur's prayer for daily bread, neither poverty nor riches, was held up as a model and compared with the Lord's Prayer.
-FN: De Vaders hoorden in 'wat is zijn naam, en wat is de naam van zijn zoon?' een verwijzing naar de Vader en de Zoon, en in 'wie is naar de hemel opgevaren en neergedaald?' Christus, die alleen uit de hemel neerdaalde en opvoer. Het gebed van Agur om dagelijks brood, geen armoede of rijkdom, werd als voorbeeld gesteld en vergeleken met het Onzevader.
+FN: De kerkvaders hoorden in 'wat is zijn naam, en wat is de naam van zijn zoon?' een verwijzing naar de Vader en de Zoon, en in 'wie is naar de hemel opgevaren en neergedaald?' Christus, die alleen uit de hemel neerdaalde en opvoer. Het gebed van Agur om dagelijks brood, geen armoede of rijkdom, werd als voorbeeld gesteld en vergeleken met het Onzevader.
 T: Humility; Contentment; Mystery of God
 TN: Nederigheid; Tevredenheid; Mysterie van God
 
@@ -306,6 +306,6 @@ SN: De woorden van koning Lemuël, die zijn moeder hem leerde: geef uw kracht ni
 M: A mother teaches her son to rule justly and speak for the voiceless. The book ends with the portrait of a strong, wise, generous woman who fears the Lord: wisdom lived out in daily life.
 MN: Een moeder leert haar zoon rechtvaardig te regeren en op te komen voor wie geen stem heeft. Het boek eindigt met het portret van een sterke, wijze, vrijgevige vrouw die de Heer vreest: wijsheid in het dagelijks leven.
 F: The Fathers read the woman of valour as the Church, the bride of Christ, and as every holy soul; the Western Church reads this chapter on feasts of holy women. St Augustine, in a sermon on this chapter, saw in her the Church that clothes her children and gives to the poor. 'Open your mouth for the mute' was taken as a call to defend the defenceless.
-FN: De Vaders lazen de deugdzame vrouw als de Kerk, de bruid van Christus, en als elke heilige ziel; de Westerse Kerk leest dit hoofdstuk op feesten van heilige vrouwen. De heilige Augustinus zag in een preek over dit hoofdstuk in haar de Kerk die haar kinderen kleedt en aan de armen geeft. 'Open uw mond voor de stomme' werd opgevat als een oproep om de weerlozen te verdedigen.
+FN: De kerkvaders lazen de deugdzame vrouw als de Kerk, de bruid van Christus, en als elke heilige ziel; de Westerse Kerk leest dit hoofdstuk op feesten van heilige vrouwen. De heilige Augustinus zag in een preek over dit hoofdstuk in haar de Kerk die haar kinderen kleedt en aan de armen geeft. 'Open uw mond voor de stomme' werd opgevat als een oproep om de weerlozen te verdedigen.
 T: Just rule; Woman of valour; Wisdom in daily life
 TN: Rechtvaardig bestuur; Deugdzame vrouw; Wijsheid in het dagelijks leven
