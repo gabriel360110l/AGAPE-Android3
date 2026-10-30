@@ -6,7 +6,7 @@ SN: Zes dagen voor Pasen zalft Maria de voeten van Jezus met kostbare nardus en 
 M: Christ's glory is His self-giving death, the seed that bears much fruit. From the cross He draws all people to Himself.
 MN: Christus' heerlijkheid is Zijn zelfgevende dood, het zaad dat veel vrucht draagt. Vanaf het kruis trekt Hij alle mensen naar Zich toe.
 F: The Fathers see in the coming of the Greeks the beginning of the gathering of the nations. St Augustine applies the grain of wheat to the martyrs, whose death made the Church grow.
-FN: De Vaders zien in de komst van de Grieken het begin van het verzamelen van de volken. De heilige Augustinus past de graankorrel toe op de martelaren, door wier dood de Kerk groeide.
+FN: De kerkvaders zien in de komst van de Grieken het begin van het verzamelen van de volken. De heilige Augustinus past de graankorrel toe op de martelaren, door wier dood de Kerk groeide.
 T: Glory; Self-giving; The nations
 TN: Heerlijkheid; Zelfgave; De volken
 
@@ -26,7 +26,7 @@ SN: Laat uw hart niet verontrust worden; in het huis van Mijn Vader zijn veel wo
 M: In Christ we see the Father; through Christ we go to Him; in the Spirit He dwells in us. Love shows itself in keeping His word.
 MN: In Christus zien wij de Vader; door Christus gaan wij tot Hem; in de Geest woont Hij in ons. Liefde toont zich in het bewaren van Zijn woord.
 F: The Fathers read 'whoever has seen Me has seen the Father' as proof that the Son is the perfect image of the Father, of one essence. 'My peace I give to you' is echoed in the 'Peace be with you' of the Liturgy.
-FN: De Vaders lezen 'wie Mij gezien heeft, heeft de Vader gezien' als bewijs dat de Zoon het volmaakte beeld van de Vader is, één van wezen. 'Mijn vrede geef Ik u' klinkt door in het 'Vrede zij met u' van de liturgie.
+FN: De kerkvaders lezen 'wie Mij gezien heeft, heeft de Vader gezien' als bewijs dat de Zoon het volmaakte beeld van de Vader is, één van wezen. 'Mijn vrede geef Ik u' klinkt door in het 'Vrede zij met u' van de liturgie.
 T: The way to the Father; The Comforter; Peace
 TN: De weg tot de Vader; De Trooster; Vrede
 
@@ -36,7 +36,7 @@ SN: Ik ben de ware wijnstok, en Mijn Vader is de wijngaardenier. Blijf in Mij, e
 M: The Christian life is communion: abiding in Christ as a branch in the vine. All fruit comes from this union.
 MN: Het christelijk leven is gemeenschap: blijven in Christus zoals een rank in de wijnstok. Alle vrucht komt voort uit deze vereniging.
 F: The words 'who proceeds from the Father' are taken up in the Nicene Creed. The Fathers saw the vine as an image of the Eucharist and of the Church, one life flowing through all the members.
-FN: De woorden 'die van de Vader uitgaat' zijn opgenomen in de Geloofsbelijdenis van Nicea. De Vaders zagen de wijnstok als beeld van de eucharistie en van de Kerk: één leven dat door alle leden stroomt.
+FN: De woorden 'die van de Vader uitgaat' zijn opgenomen in de Geloofsbelijdenis van Nicea. De kerkvaders zagen de wijnstok als beeld van de eucharistie en van de Kerk: één leven dat door alle leden stroomt.
 T: Abiding; Friendship with Christ; Fruitfulness
 TN: Blijven; Vriendschap met Christus; Vruchtbaarheid
 
@@ -46,7 +46,7 @@ SN: Jezus waarschuwt dat zij uit de synagogen gezet en gedood zullen worden. Het
 M: The Spirit continues Christ's work in the Church, leading her into the truth. Christian joy is born through suffering and cannot be taken away.
 MN: De Geest zet het werk van Christus in de Kerk voort en leidt haar in de waarheid. Christelijke vreugde wordt geboren door het lijden heen en kan niet worden afgenomen.
 F: The Fathers see in 'He will guide you into all truth' the Spirit's work in the councils and Tradition of the Church. 'I have overcome the world' became a watchword of the martyrs.
-FN: De Vaders zien in 'Hij zal u de weg wijzen naar heel de waarheid' het werk van de Geest in de concilies en de Traditie van de Kerk. 'Ik heb de wereld overwonnen' werd een leus van de martelaren.
+FN: De kerkvaders zien in 'Hij zal u de weg wijzen naar heel de waarheid' het werk van de Geest in de concilies en de Traditie van de Kerk. 'Ik heb de wereld overwonnen' werd een leus van de martelaren.
 T: The Holy Spirit; Joy; Victory
 TN: De Heilige Geest; Vreugde; Overwinning
 
@@ -66,7 +66,7 @@ SN: In een hof aan de overkant van de Kidron ontmoet Jezus de soldaten onder lei
 M: Jesus goes to His passion freely and as King. The Truth stands before Pilate, who does not recognise it.
 MN: Jezus gaat vrijwillig en als Koning naar Zijn lijden. De Waarheid staat voor Pilatus, die haar niet herkent.
 F: The Fathers note that the soldiers fell back at His word 'I AM', a sign that no one could take Him unless He gave Himself up. St Augustine: Pilate asked 'what is truth?' while Truth stood before him.
-FN: De Vaders merken op dat de soldaten terugdeinsden bij Zijn woord 'IK BEN', een teken dat niemand Hem kon grijpen tenzij Hij Zichzelf overgaf. De heilige Augustinus: Pilatus vroeg 'wat is waarheid?' terwijl de Waarheid voor hem stond.
+FN: De kerkvaders merken op dat de soldaten terugdeinsden bij Zijn woord 'IK BEN', een teken dat niemand Hem kon grijpen tenzij Hij Zichzelf overgaf. De heilige Augustinus: Pilatus vroeg 'wat is waarheid?' terwijl de Waarheid voor hem stond.
 T: Kingship; Truth; Freedom of Christ
 TN: Koningschap; Waarheid; Vrijheid van Christus
 
@@ -76,7 +76,7 @@ SN: Pilatus laat Jezus geselen; de soldaten kronen Hem met doornen. Zie de mens.
 M: The cross is Christ's enthronement and the completion of His work. From His side flow the sacraments, and at the cross He gives His Mother to the Church.
 MN: Het kruis is Christus' troonsbestijging en de voltooiing van Zijn werk. Uit Zijn zijde vloeien de sacramenten, en bij het kruis geeft Hij Zijn Moeder aan de Kerk.
 F: St John Chrysostom and St Augustine teach that the Church was born from Christ's pierced side, as Eve from the side of sleeping Adam: water for baptism, blood for the Eucharist.
-FN: De heilige Johannes Chrysostomus en de heilige Augustinus leren dat de Kerk geboren werd uit de doorstoken zijde van Christus, zoals Eva uit de zijde van de slapende Adam: water voor het doopsel, bloed voor de eucharistie.
+FN: De heilige Johannes Chrysostomus en de heilige Augustinus leren dat de Kerk geboren werd uit de doorstoken zijde van Christus, zoals Eva uit de zijde van de slapende Adam: water voor de doop, bloed voor de eucharistie.
 T: Cross; Fulfilment; The Mother of God
 TN: Kruis; Voltooiing; De Moeder Gods
 
@@ -96,6 +96,6 @@ SN: Zeven leerlingen vissen de hele nacht en vangen niets. Bij dageraad zegt Jez
 M: By another charcoal fire, three confessions of love heal three denials. Love for Christ becomes care for His flock.
 MN: Bij een ander houtskoolvuur helen drie liefdesbetuigingen drie verloocheningen. Liefde voor Christus wordt zorg voor Zijn kudde.
 F: St Augustine notes that the threefold question answers the threefold denial. The Fathers read the 153 fish as the fullness of the nations gathered into the Church's unbroken net.
-FN: De heilige Augustinus merkt op dat de drievoudige vraag antwoordt op de drievoudige verloochening. De Vaders lezen de 153 vissen als de volheid van de volken, verzameld in het ongescheurde net van de Kerk.
+FN: De heilige Augustinus merkt op dat de drievoudige vraag antwoordt op de drievoudige verloochening. De kerkvaders lezen de 153 vissen als de volheid van de volken, verzameld in het ongescheurde net van de Kerk.
 T: Restoration; Love; Pastoral care
 TN: Herstel; Liefde; Herderlijke zorg

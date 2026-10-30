@@ -6,7 +6,7 @@ SN: Elifaz antwoordt voor de derde keer: kan een mens God van nut zijn? Is het d
 M: Unable to find Job's sin, Eliphaz invents specific crimes. His call to return to God is beautiful, but it rests on a false accusation.
 MN: Omdat hij de zonde van Job niet kan vinden, verzint Elifaz specifieke misdaden. Zijn oproep tot terugkeer naar God is mooi, maar rust op een valse beschuldiging.
 F: The Fathers noted that Eliphaz's final promise was fulfilled in an unexpected way: at the end it is Job who prays for Eliphaz, and Eliphaz who is delivered through the cleanness of Job's hands. His words 'agree with God and be at peace' were valued in themselves as a call to reconciliation with God.
-FN: De Vaders merkten op dat de laatste belofte van Elifaz op onverwachte wijze vervuld werd: aan het einde is het Job die voor Elifaz bidt, en Elifaz die gered wordt door de reinheid van de handen van Job. Zijn woorden 'verzoen u met God en heb vrede' werden op zichzelf gewaardeerd als een oproep tot verzoening met God.
+FN: De kerkvaders merkten op dat de laatste belofte van Elifaz op onverwachte wijze vervuld werd: aan het einde is het Job die voor Elifaz bidt, en Elifaz die gered wordt door de reinheid van de handen van Job. Zijn woorden 'verzoen u met God en heb vrede' werden op zichzelf gewaardeerd als een oproep tot verzoening met God.
 T: False accusation; Call to reconciliation; Unexpected fulfilment
 TN: Valse beschuldiging; Oproep tot verzoening; Onverwachte vervulling
 
@@ -16,7 +16,7 @@ SN: Job antwoordt: ook vandaag is mijn klacht bitter; mijn hand is zwaar vanwege
 M: Job seeks God everywhere and cannot find Him, yet trusts that God knows his way. Trial will prove him like gold in the fire.
 MN: Job zoekt God overal en kan Hem niet vinden, toch vertrouwt hij dat God zijn weg kent. De beproeving zal hem als goud in het vuur louteren.
 F: The Fathers loved 'when He has tried me, I shall come out as gold' as a key to the meaning of suffering: trials purify the soul as fire refines gold. Job's search for the hidden God, who is present yet unseen, was read as the experience of the soul in spiritual darkness, still holding to God's word.
-FN: De Vaders hielden van 'als Hij mij beproefd heeft, zal ik als goud tevoorschijn komen' als sleutel tot de betekenis van het lijden: beproevingen louteren de ziel zoals vuur goud zuivert. De zoektocht van Job naar de verborgen God, die aanwezig is en toch ongezien, werd gelezen als de ervaring van de ziel in geestelijke duisternis, die toch vasthoudt aan Gods woord.
+FN: De kerkvaders hielden van 'als Hij mij beproefd heeft, zal ik als goud tevoorschijn komen' als sleutel tot de betekenis van het lijden: beproevingen louteren de ziel zoals vuur goud zuivert. De zoektocht van Job naar de verborgen God, die aanwezig is en toch ongezien, werd gelezen als de ervaring van de ziel in geestelijke duisternis, die toch vasthoudt aan Gods woord.
 T: Seeking the hidden God; Tried as gold; Holding to God's word
 TN: De verborgen God zoeken; Beproefd als goud; Vasthouden aan Gods woord
 
@@ -26,7 +26,7 @@ SN: Job gaat verder: waarom zijn de tijden van het oordeel niet vastgesteld door
 M: Job widens his gaze from his own pain to the suffering of all the poor and oppressed. Why does God seem silent while the weak cry out?
 MN: Job verruimt zijn blik van zijn eigen pijn naar het lijden van alle armen en verdrukten. Waarom lijkt God te zwijgen terwijl de zwakken roepen?
 F: The Fathers saw in this chapter a vivid portrait of social injustice that God's people must not ignore, and in Job's question why the times of judgment are hidden an echo of the souls under the altar in Revelation who cry, how long, O Lord? The answer is the coming judgment and God's patience.
-FN: De Vaders zagen in dit hoofdstuk een levendig beeld van sociaal onrecht dat Gods volk niet mag negeren, en in de vraag van Job waarom de tijden van het oordeel verborgen zijn een echo van de zielen onder het altaar in de Openbaring die roepen: hoe lang nog, Heer? Het antwoord is het komende oordeel en Gods geduld.
+FN: De kerkvaders zagen in dit hoofdstuk een levendig beeld van sociaal onrecht dat Gods volk niet mag negeren, en in de vraag van Job waarom de tijden van het oordeel verborgen zijn een echo van de zielen onder het altaar in de Openbaring die roepen: hoe lang nog, Heer? Het antwoord is het komende oordeel en Gods geduld.
 T: The suffering of the poor; God's apparent silence; How long, O Lord?
 TN: Het lijden van de armen; Gods schijnbare zwijgen; Hoe lang nog, Heer?
 
@@ -36,7 +36,7 @@ SN: Bildad de Suhiet antwoordt: heerschappij en ontzag zijn bij God; Hij maakt v
 M: The friends have run out of words. Bildad's short speech affirms God's majesty but ends by describing man as a worm.
 MN: De vrienden zijn uitgepraat. De korte rede van Bildad bevestigt Gods majesteit, maar eindigt met de mens als een worm te beschrijven.
 F: The Fathers contrasted Bildad's 'man, who is a worm' with the Gospel, in which the Son of God takes on human nature and raises it to glory. Yet Psalm 22, which Christ prayed on the cross, says 'I am a worm and no man', so the Fathers saw even this lowest image taken up by Christ in His humility.
-FN: De Vaders stelden 'de mens, die een made is' van Bildad tegenover het Evangelie, waarin de Zoon van God de menselijke natuur aanneemt en tot heerlijkheid verheft. Toch zegt Psalm 22, die Christus aan het kruis bad: 'ik ben een worm en geen man', zodat de Vaders zelfs dit laagste beeld door Christus in Zijn nederigheid opgenomen zagen.
+FN: De kerkvaders stelden 'de mens, die een made is' van Bildad tegenover het Evangelie, waarin de Zoon van God de menselijke natuur aanneemt en tot heerlijkheid verheft. Toch zegt Psalm 22, die Christus aan het kruis bad: 'ik ben een worm en geen man', zodat de kerkvaders zelfs dit laagste beeld door Christus in Zijn nederigheid opgenomen zagen.
 T: God's majesty; Human lowliness; Taken up by Christ
 TN: Gods majesteit; Menselijke geringheid; Door Christus opgenomen
 
@@ -46,7 +46,7 @@ SN: Job antwoordt: hoe hebt u hem geholpen die geen kracht heeft! Hoe hebt u hem
 M: Job outdoes his friends in praising God's power over creation and the depths. All we see is only the edge of His ways, a faint whisper.
 MN: Job overtreft zijn vrienden in het loven van Gods macht over de schepping en de diepten. Alles wat wij zien, is slechts de rand van Zijn wegen, een zacht gefluister.
 F: The Fathers marvelled at the words 'He hangs the earth on nothing' and loved the confession that all we know of God is 'but the outskirts of His ways, a small whisper', which they took as a lesson in humility: God's being infinitely exceeds what we can grasp.
-FN: De Vaders verwonderden zich over de woorden 'Hij hangt de aarde aan het niets' en hielden van de belijdenis dat alles wat wij van God weten 'slechts de uiteinden van Zijn wegen, een zacht gefluister' is, wat zij opvatten als een les in nederigheid: Gods wezen gaat oneindig uit boven wat wij kunnen bevatten.
+FN: De kerkvaders verwonderden zich over de woorden 'Hij hangt de aarde aan het niets' en hielden van de belijdenis dat alles wat wij van God weten 'slechts de uiteinden van Zijn wegen, een zacht gefluister' is, wat zij opvatten als een les in nederigheid: Gods wezen gaat oneindig uit boven wat wij kunnen bevatten.
 T: God's power in creation; The edges of His ways; Humility of knowledge
 TN: Gods macht in de schepping; De uiteinden van Zijn wegen; Nederigheid van kennis
 
@@ -56,7 +56,7 @@ SN: Job gaat verder met zijn rede: zo waar God leeft, die mij mijn recht ontnome
 M: Job will not confess sins he did not commit just to satisfy his friends. Integrity means refusing to lie, even about oneself, even before God.
 MN: Job wil geen zonden belijden die hij niet begaan heeft, alleen om zijn vrienden tevreden te stellen. Oprechtheid betekent weigeren te liegen, zelfs over zichzelf, zelfs voor God.
 F: The Fathers admired Job's refusal to make a false confession as true integrity: God is not honoured by lies, even humble-sounding ones. They distinguished his clear conscience from pride, for he still acknowledged human weakness before God, and God Himself later affirms that Job spoke rightly.
-FN: De Vaders bewonderden de weigering van Job om een valse belijdenis af te leggen als ware oprechtheid: God wordt niet geëerd door leugens, zelfs niet door leugens die nederig klinken. Zij onderscheidden zijn zuivere geweten van hoogmoed, want hij erkende nog steeds de menselijke zwakheid voor God, en God Zelf bevestigt later dat Job juist gesproken heeft.
+FN: De kerkvaders bewonderden de weigering van Job om een valse belijdenis af te leggen als ware oprechtheid: God wordt niet geëerd door leugens, zelfs niet door leugens die nederig klinken. Zij onderscheidden zijn zuivere geweten van hoogmoed, want hij erkende nog steeds de menselijke zwakheid voor God, en God Zelf bevestigt later dat Job juist gesproken heeft.
 T: Integrity; No false confession; A clear conscience
 TN: Oprechtheid; Geen valse belijdenis; Een zuiver geweten
 
@@ -66,7 +66,7 @@ SN: Er is wel een mijn voor het zilver, en een plaats voor het goud dat men lout
 M: In a quiet hymn between the debates, the book asks where true wisdom is found. Humans can mine the earth's treasures, but wisdom belongs to God alone; for us it is the fear of the Lord.
 MN: In een rustige lofzang tussen de debatten vraagt het boek waar ware wijsheid te vinden is. Mensen kunnen de schatten van de aarde opgraven, maar wijsheid behoort alleen aan God; voor ons is zij de vreze des Heren.
 F: The Fathers read this hymn as pointing to the Wisdom of God hidden from the world and revealed in Christ, in whom are hidden all the treasures of wisdom and knowledge. St Augustine opens his Enchiridion with the Greek form of the last verse, 'behold, piety is wisdom', teaching that true wisdom is the worship of God.
-FN: De Vaders lazen deze lofzang als verwijzing naar de Wijsheid van God die voor de wereld verborgen is en in Christus geopenbaard, in wie alle schatten van wijsheid en kennis verborgen zijn. De heilige Augustinus opent zijn Enchiridion met de Griekse vorm van het laatste vers, 'zie, godsvrucht is wijsheid', en leert dat ware wijsheid de aanbidding van God is.
+FN: De kerkvaders lazen deze lofzang als verwijzing naar de Wijsheid van God die voor de wereld verborgen is en in Christus geopenbaard, in wie alle schatten van wijsheid en kennis verborgen zijn. De heilige Augustinus opent zijn Enchiridion met de Griekse vorm van het laatste vers, 'zie, godsvrucht is wijsheid', en leert dat ware wijsheid de aanbidding van God is.
 T: Hidden wisdom; Wisdom belongs to God; The fear of the Lord
 TN: Verborgen wijsheid; Wijsheid behoort aan God; De vreze des Heren
 
@@ -76,7 +76,7 @@ SN: Job gaat verder met zijn rede: ach, was ik maar als in de maanden van weleer
 M: Job remembers his former life, when he enjoyed God's friendship and used his position to serve the poor, the blind, the lame and the widow. He longs above all for the closeness of God.
 MN: Job herinnert zich zijn vroegere leven, toen hij Gods vriendschap genoot en zijn positie gebruikte om de armen, de blinden, de lammen en de weduwe te dienen. Hij verlangt bovenal naar de nabijheid van God.
 F: The Fathers held up Job's description of himself, 'eyes to the blind and feet to the lame, a father to the needy', as a model of how the wealthy and powerful should use their gifts, a portrait of mercy in action. They noted that what Job missed most was not his wealth but 'the friendship of God upon my tent'.
-FN: De Vaders stelden de zelfbeschrijving van Job, 'ogen voor de blinde en voeten voor de lamme, een vader voor de armen', voor als voorbeeld van hoe rijken en machtigen hun gaven moeten gebruiken, een portret van barmhartigheid in daden. Zij merkten op dat wat Job het meest miste niet zijn rijkdom was, maar 'de vriendschap van God over mijn tent'.
+FN: De kerkvaders stelden de zelfbeschrijving van Job, 'ogen voor de blinde en voeten voor de lamme, een vader voor de armen', voor als voorbeeld van hoe rijken en machtigen hun gaven moeten gebruiken, een portret van barmhartigheid in daden. Zij merkten op dat wat Job het meest miste niet zijn rijkdom was, maar 'de vriendschap van God over mijn tent'.
 T: The friendship of God; Mercy in action; Memory of better days
 TN: De vriendschap van God; Barmhartigheid in daden; Herinnering aan betere dagen
 
@@ -86,7 +86,7 @@ SN: Maar nu lachen zij mij uit, mannen die jonger zijn dan ik, wier vaders ik te
 M: The contrast with the past is total: the honoured man is spat upon, the helper of the poor finds no help. Job's prayer meets only silence.
 MN: Het contrast met vroeger is totaal: de geëerde man wordt bespuwd, de helper van de armen vindt geen hulp. Het gebed van Job ontmoet alleen stilte.
 F: The Fathers saw in Job, spat upon and mocked by the lowest, a figure of Christ in His Passion, who was spat upon and mocked though He had healed and helped so many. 'My lyre is turned to mourning' was taken up in the Church's laments over the sufferings of the righteous.
-FN: De Vaders zagen in Job, bespuwd en bespot door de geringsten, een voorafbeelding van Christus in Zijn lijden, die bespuwd en bespot werd hoewel Hij zovelen genezen en geholpen had. 'Mijn lier is in rouw veranderd' werd opgenomen in de klaagliederen van de Kerk over het lijden van de rechtvaardigen.
+FN: De kerkvaders zagen in Job, bespuwd en bespot door de geringsten, een voorafbeelding van Christus in Zijn lijden, die bespuwd en bespot werd hoewel Hij zovelen genezen en geholpen had. 'Mijn lier is in rouw veranderd' werd opgenomen in de klaagliederen van de Kerk over het lijden van de rechtvaardigen.
 T: Humiliation; Unanswered prayer; A figure of Christ's Passion
 TN: Vernedering; Onbeantwoord gebed; Een voorafbeelding van het lijden van Christus
 
@@ -96,7 +96,7 @@ SN: Job besluit: ik heb een verbond gesloten met mijn ogen; hoe zou ik dan naar 
 M: Job's final oath sets out a moral life of remarkable depth: purity of the eyes and heart, justice to servants, care for the poor, no trust in gold, no joy at an enemy's fall. He places his case before God.
 MN: De laatste eed van Job beschrijft een moreel leven van opmerkelijke diepte: reinheid van ogen en hart, gerechtigheid voor dienaren, zorg voor de armen, geen vertrouwen op goud, geen vreugde over de val van een vijand. Hij legt zijn zaak aan God voor.
 F: The Fathers marvelled that Job, long before the Gospel, lived an ethic close to the Sermon on the Mount: a covenant with the eyes against lust, no rejoicing over an enemy's ruin. His words about his servant, 'did not He who made me in the womb make him?', were cited as a witness to the equal dignity of all people before their Creator.
-FN: De Vaders verwonderden zich erover dat Job, lang vóór het Evangelie, een ethiek leefde die dicht bij de Bergrede ligt: een verbond met de ogen tegen begeerte, geen vreugde over de ondergang van een vijand. Zijn woorden over zijn dienaar, 'heeft Hij die mij in de schoot maakte, hem niet gemaakt?', werden aangehaald als getuigenis van de gelijke waardigheid van alle mensen voor hun Schepper.
+FN: De kerkvaders verwonderden zich erover dat Job, lang vóór het Evangelie, een ethiek leefde die dicht bij de Bergrede ligt: een verbond met de ogen tegen begeerte, geen vreugde over de ondergang van een vijand. Zijn woorden over zijn dienaar, 'heeft Hij die mij in de schoot maakte, hem niet gemaakt?', werden aangehaald als getuigenis van de gelijke waardigheid van alle mensen voor hun Schepper.
 T: Purity of heart; Equal dignity; Justice and mercy
 TN: Reinheid van hart; Gelijke waardigheid; Gerechtigheid en barmhartigheid
 
@@ -106,7 +106,7 @@ SN: Zo houden deze drie mannen op Job te antwoorden, omdat hij in zijn eigen oge
 M: A young man, silent until now, enters the debate. He insists that understanding comes from God's Spirit, not merely from age.
 MN: Een jonge man, tot nu toe zwijgend, mengt zich in het debat. Hij houdt vol dat verstand van Gods Geest komt, niet alleen van de leeftijd.
 F: The Fathers were divided about Elihu. St Gregory the Great saw in him one who says many true things, yet with a self-confidence that resembles the arrogant within the Church. Others valued his teaching that wisdom is the gift of 'the breath of the Almighty', which they read in the light of the Holy Spirit.
-FN: De Vaders waren verdeeld over Elihu. De heilige Gregorius de Grote zag in hem iemand die veel ware dingen zegt, maar met een zelfverzekerdheid die lijkt op die van de hoogmoedigen binnen de Kerk. Anderen waardeerden zijn onderwijs dat wijsheid de gave is van 'de adem van de Almachtige', wat zij lazen in het licht van de Heilige Geest.
+FN: De kerkvaders waren verdeeld over Elihu. De heilige Gregorius de Grote zag in hem iemand die veel ware dingen zegt, maar met een zelfverzekerdheid die lijkt op die van de hoogmoedigen binnen de Kerk. Anderen waardeerden zijn onderwijs dat wijsheid de gave is van 'de adem van de Almachtige', wat zij lazen in het licht van de Heilige Geest.
 T: The young speak; Wisdom from the Spirit; Impatience to speak
 TN: De jongere spreekt; Wijsheid van de Geest; Ongeduld om te spreken
 
@@ -116,7 +116,7 @@ SN: Elihu spreekt Job aan: de Geest van God heeft mij gemaakt, en de adem van de
 M: Elihu adds something new: suffering can be God's way of speaking, a warning to turn back from pride. He also speaks of a mediator who finds a ransom.
 MN: Elihu voegt iets nieuws toe: lijden kan Gods manier van spreken zijn, een waarschuwing om terug te keren van hoogmoed. Hij spreekt ook over een middelaar die een losprijs vindt.
 F: The Fathers heard in Elihu's 'angel, a mediator, one of the thousand' who says 'I have found a ransom' a foreshadowing of Christ, the Angel of great counsel and the one Mediator, who gave Himself as a ransom for all. His teaching that God speaks through dreams and through pain was valued as an insight into God's patient pedagogy.
-FN: De Vaders hoorden in de 'engel, een middelaar, één uit duizend' van Elihu, die zegt 'ik heb een losprijs gevonden', een voorafbeelding van Christus, de Engel van de grote raad en de ene Middelaar, die Zichzelf gaf als losprijs voor allen. Zijn onderwijs dat God spreekt door dromen en door pijn werd gewaardeerd als inzicht in Gods geduldige opvoeding.
+FN: De kerkvaders hoorden in de 'engel, een middelaar, één uit duizend' van Elihu, die zegt 'ik heb een losprijs gevonden', een voorafbeelding van Christus, de Engel van de grote raad en de ene Middelaar, die Zichzelf gaf als losprijs voor allen. Zijn onderwijs dat God spreekt door dromen en door pijn werd gewaardeerd als inzicht in Gods geduldige opvoeding.
 T: God speaks through suffering; A mediator and a ransom; Brought back from the pit
 TN: God spreekt door lijden; Een middelaar en een losprijs; Teruggebracht uit de groeve
 
@@ -126,7 +126,7 @@ SN: Elihu gaat verder: hoor mijn woorden, u wijzen. Want Job heeft gezegd: ik be
 M: Elihu firmly defends God's justice and impartiality. He rightly says that God is just and sustains all life, but he still misjudges Job.
 MN: Elihu verdedigt vastberaden Gods rechtvaardigheid en onpartijdigheid. Hij zegt terecht dat God rechtvaardig is en al het leven in stand houdt, maar hij beoordeelt Job nog steeds verkeerd.
 F: The Fathers took 'far be it from God that He should do wickedness' as a principle of faith: whatever we cannot understand, God is never unjust. 'If He gathered to Himself His spirit and His breath, all flesh would perish' was read with Psalm 104 as a confession that every creature lives by God's continual gift.
-FN: De Vaders namen 'het zij verre van God dat Hij goddeloos zou handelen' als geloofsbeginsel: wat wij ook niet begrijpen, God is nooit onrechtvaardig. 'Als Hij Zijn geest en Zijn adem tot Zich zou terugnemen, zou alle vlees sterven' werd gelezen met Psalm 104 als belijdenis dat elk schepsel leeft door Gods voortdurende gave.
+FN: De kerkvaders namen 'het zij verre van God dat Hij goddeloos zou handelen' als geloofsbeginsel: wat wij ook niet begrijpen, God is nooit onrechtvaardig. 'Als Hij Zijn geest en Zijn adem tot Zich zou terugnemen, zou alle vlees sterven' werd gelezen met Psalm 104 als belijdenis dat elk schepsel leeft door Gods voortdurende gave.
 T: God is just; Life by God's breath; Impartial judgment
 TN: God is rechtvaardig; Leven door Gods adem; Onpartijdig oordeel
 
@@ -136,7 +136,7 @@ SN: Elihu gaat verder: meent u dat dit rechtvaardig is, dat u zegt: mijn gerecht
 M: Elihu reminds Job that God is far above human deeds. Many cry out in distress, but few seek God Himself, 'who gives songs in the night'.
 MN: Elihu herinnert Job eraan dat God ver boven menselijke daden verheven is. Velen roepen in nood, maar weinigen zoeken God Zelf, 'die lofzangen geeft in de nacht'.
 F: The Fathers loved the phrase 'God my Maker, who gives songs in the night' as a description of the consolation God gives in the darkness of trial, and of the night prayer of monks and of the Church, who sing to God while the world sleeps.
-FN: De Vaders hielden van de uitdrukking 'God, mijn Maker, die lofzangen geeft in de nacht' als beschrijving van de troost die God geeft in de duisternis van de beproeving, en van het nachtgebed van monniken en van de Kerk, die tot God zingen terwijl de wereld slaapt.
+FN: De kerkvaders hielden van de uitdrukking 'God, mijn Maker, die lofzangen geeft in de nacht' als beschrijving van de troost die God geeft in de duisternis van de beproeving, en van het nachtgebed van monniken en van de Kerk, die tot God zingen terwijl de wereld slaapt.
 T: God above all; Seeking God, not only help; Songs in the night
 TN: God boven alles; God zoeken, niet alleen hulp; Lofzangen in de nacht
 
@@ -146,7 +146,7 @@ SN: Elihu gaat verder: verdraag mij nog een weinig, en ik zal u onderwijzen, wan
 M: Elihu teaches that affliction can be God's school: He delivers the afflicted by their affliction. God is the greatest Teacher, great beyond our knowing.
 MN: Elihu leert dat verdrukking Gods school kan zijn: Hij redt de ellendige door zijn ellende. God is de grootste Leraar, groot boven ons kennen.
 F: The Fathers often cited 'He delivers the afflicted by their affliction and opens their ear by adversity' to explain the healing purpose of trials, and loved 'God is great, and we know Him not' as an expression of the mystery of God that even the wise cannot comprehend.
-FN: De Vaders haalden vaak 'Hij redt de ellendige door zijn ellende en opent hun oor in de verdrukking' aan om het genezende doel van beproevingen te verklaren, en hielden van 'God is groot, en wij kennen Hem niet' als uitdrukking van het mysterie van God dat zelfs de wijzen niet kunnen bevatten.
+FN: De kerkvaders haalden vaak 'Hij redt de ellendige door zijn ellende en opent hun oor in de verdrukking' aan om het genezende doel van beproevingen te verklaren, en hielden van 'God is groot, en wij kennen Hem niet' als uitdrukking van het mysterie van God dat zelfs de wijzen niet kunnen bevatten.
 T: Affliction as teacher; God the Teacher; God beyond knowing
 TN: Verdrukking als leraar; God de Leraar; God boven ons kennen
 
@@ -156,7 +156,7 @@ SN: Elihu besluit: ook hierover beeft mijn hart en springt het op van zijn plaat
 M: Elihu ends by pointing to a gathering storm, the voice of God in thunder. His words prepare the scene for God Himself to speak.
 MN: Elihu eindigt met te wijzen op een opkomend onweer, de stem van God in de donder. Zijn woorden bereiden het toneel voor waarop God Zelf zal spreken.
 F: The Fathers noted that Elihu's description of the storm leads directly into the whirlwind from which God answers Job. His call, 'stop and consider the wondrous works of God', was used to encourage the contemplation of creation as a way to the Creator, and his confession that 'we cannot find Him' as a lesson in reverence.
-FN: De Vaders merkten op dat de beschrijving van het onweer door Elihu rechtstreeks leidt naar de storm waaruit God Job antwoordt. Zijn oproep, 'sta stil en let op de wonderen van God', werd gebruikt om aan te moedigen tot beschouwing van de schepping als weg naar de Schepper, en zijn belijdenis dat 'wij Hem niet kunnen vinden' als een les in eerbied.
+FN: De kerkvaders merkten op dat de beschrijving van het onweer door Elihu rechtstreeks leidt naar de storm waaruit God Job antwoordt. Zijn oproep, 'sta stil en let op de wonderen van God', werd gebruikt om aan te moedigen tot beschouwing van de schepping als weg naar de Schepper, en zijn belijdenis dat 'wij Hem niet kunnen vinden' als een les in eerbied.
 T: God's voice in the storm; Contemplating creation; Reverence
 TN: Gods stem in het onweer; De schepping beschouwen; Eerbied
 
@@ -166,7 +166,7 @@ SN: Dan antwoordt de Heer Job uit de storm: wie is hij die de raad verduistert m
 M: God finally speaks, but He gives no explanation for Job's suffering. Instead He shows Job the vastness and beauty of creation, inviting him to trust the wisdom of the Creator.
 MN: God spreekt eindelijk, maar Hij geeft geen verklaring voor het lijden van Job. In plaats daarvan toont Hij Job de weidsheid en schoonheid van de schepping, en nodigt hem uit te vertrouwen op de wijsheid van de Schepper.
 F: The Fathers saw the greatest answer in the fact that God came and spoke: Job's cry was heard, and God revealed Himself. Several Fathers, including St Gregory the Great, read 'when the morning stars sang together and all the sons of God shouted for joy' as the angels, created before the visible world, rejoicing at its creation. God's care for the desert where no man is and for the raven's young was read as His providence over all creatures, which Christ also taught.
-FN: De Vaders zagen het grootste antwoord in het feit dat God kwam en sprak: de roep van Job werd gehoord, en God openbaarde Zich. Verschillende Vaders, onder wie de heilige Gregorius de Grote, lazen 'toen de morgensterren samen jubelden en alle zonen van God juichten' als de engelen, geschapen vóór de zichtbare wereld, die zich verheugden over haar schepping. Gods zorg voor de woestijn waar geen mens is en voor de jongen van de raaf werd gelezen als Zijn voorzienigheid over alle schepselen, die ook Christus onderwees.
+FN: De kerkvaders zagen het grootste antwoord in het feit dat God kwam en sprak: de roep van Job werd gehoord, en God openbaarde Zich. Verschillende kerkvaders, onder wie de heilige Gregorius de Grote, lazen 'toen de morgensterren samen jubelden en alle zonen van God juichten' als de engelen, geschapen vóór de zichtbare wereld, die zich verheugden over haar schepping. Gods zorg voor de woestijn waar geen mens is en voor de jongen van de raaf werd gelezen als Zijn voorzienigheid over alle schepselen, die ook Christus onderwees.
 T: God speaks; The wonder of creation; Trusting the Creator
 TN: God spreekt; Het wonder van de schepping; Vertrouwen op de Schepper
 
@@ -176,7 +176,7 @@ SN: God gaat verder: kunt u voor de leeuw prooi jagen, of de honger van de jonge
 M: God leads Job through a gallery of wild creatures, free, strange and beyond human control, yet each known and cared for by God. The world is far larger than Job's questions.
 MN: God leidt Job langs een galerij van wilde dieren, vrij, vreemd en buiten menselijke controle, maar elk door God gekend en verzorgd. De wereld is veel groter dan de vragen van Job.
 F: The Fathers drew from this chapter a sense of wonder at the variety of creatures, each with its own nature given by God, as St Basil does in his homilies on creation. They read the lesson as humility: if we cannot understand the ways of the wild goat and the ostrich, how much less can we judge the ways of God with us.
-FN: De Vaders ontleenden aan dit hoofdstuk een gevoel van verwondering over de verscheidenheid van de schepselen, elk met een eigen natuur die God gegeven heeft, zoals de heilige Basilius doet in zijn preken over de schepping. Zij lazen de les als nederigheid: als wij de wegen van de steenbok en de struisvogel niet kunnen begrijpen, hoeveel te minder kunnen wij de wegen van God met ons beoordelen.
+FN: De kerkvaders ontleenden aan dit hoofdstuk een gevoel van verwondering over de verscheidenheid van de schepselen, elk met een eigen natuur die God gegeven heeft, zoals de heilige Basilius doet in zijn preken over de schepping. Zij lazen de les als nederigheid: als wij de wegen van de steenbok en de struisvogel niet kunnen begrijpen, hoeveel te minder kunnen wij de wegen van God met ons beoordelen.
 T: Wonder at creatures; God's care for the wild; Humility
 TN: Verwondering over de schepselen; Gods zorg voor het wild; Nederigheid
 
@@ -186,7 +186,7 @@ SN: De Heer antwoordt Job opnieuw uit de storm: omgord uw lendenen als een man. 
 M: Job falls silent before God's majesty. God then asks whether Job could govern the world and humble the proud, and shows him Behemoth, a mighty creature only God can master.
 MN: Job valt stil voor Gods majesteit. God vraagt dan of Job de wereld zou kunnen besturen en de hoogmoedigen vernederen, en toont hem Behemoth, een machtig schepsel dat alleen God kan bedwingen.
 F: St Gregory the Great and other Fathers read Behemoth, and Leviathan after him, as figures of the devil, mighty and terrifying to man, yet only a creature of God, whom God alone can overcome. Job's 'I lay my hand on my mouth' was cherished as the beginning of true wisdom: silence before the mystery of God.
-FN: De heilige Gregorius de Grote en andere Vaders lazen Behemoth, en Leviathan na hem, als beelden van de duivel, machtig en angstaanjagend voor de mens, maar slechts een schepsel van God, die God alleen kan overwinnen. 'Ik leg mijn hand op mijn mond' van Job werd gekoesterd als het begin van ware wijsheid: stilte voor het mysterie van God.
+FN: De heilige Gregorius de Grote en andere kerkvaders lazen Behemoth, en Leviathan na hem, als beelden van de duivel, machtig en angstaanjagend voor de mens, maar slechts een schepsel van God, die God alleen kan overwinnen. 'Ik leg mijn hand op mijn mond' van Job werd gekoesterd als het begin van ware wijsheid: stilte voor het mysterie van God.
 T: Silence before God; Who governs the world?; Behemoth
 TN: Stilte voor God; Wie bestuurt de wereld?; Behemoth
 
@@ -206,6 +206,6 @@ SN: Job antwoordt de Heer: ik weet dat U alles vermag, en dat geen voornemen van
 M: Job's questions are not answered, but they are swallowed up in the vision of God: now my eye sees You. The friends who defended God wrongly are forgiven through Job's prayer, and Job is restored.
 MN: De vragen van Job worden niet beantwoord, maar zij worden opgeslokt door het zien van God: nu ziet mijn oog U. De vrienden die God verkeerd verdedigden, worden vergeven door het gebed van Job, en Job wordt hersteld.
 F: The Fathers saw the goal of Job's whole trial in 'now my eye sees You': suffering led him from knowing about God to knowing God. Job interceding for the friends who wounded him was read as a figure of Christ praying for those who persecuted Him, and the Greek Bible adds that Job will rise again with those whom the Lord raises up. St James sums up the book: you have heard of the steadfastness of Job, and have seen the purpose of the Lord, how the Lord is compassionate and merciful.
-FN: De Vaders zagen het doel van heel de beproeving van Job in 'nu ziet mijn oog U': het lijden leidde hem van het weten over God naar het kennen van God. Job die voorbede doet voor de vrienden die hem verwondden, werd gelezen als een voorafbeelding van Christus die bidt voor wie Hem vervolgden, en de Griekse Bijbel voegt eraan toe dat Job weer zal opstaan met hen die de Heer opwekt. De heilige Jakobus vat het boek samen: u hebt van de volharding van Job gehoord, en het einde van de Heer gezien, dat de Heer vol ontferming en barmhartig is.
+FN: De kerkvaders zagen het doel van heel de beproeving van Job in 'nu ziet mijn oog U': het lijden leidde hem van het weten over God naar het kennen van God. Job die voorbede doet voor de vrienden die hem verwondden, werd gelezen als een voorafbeelding van Christus die bidt voor wie Hem vervolgden, en de Griekse Bijbel voegt eraan toe dat Job weer zal opstaan met hen die de Heer opwekt. De heilige Jakobus vat het boek samen: u hebt van de volharding van Job gehoord, en het einde van de Heer gezien, dat de Heer vol ontferming en barmhartig is.
 T: Seeing God; Intercession for enemies; Restoration
 TN: God zien; Voorbede voor vijanden; Herstel
