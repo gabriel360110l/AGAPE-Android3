@@ -6,7 +6,7 @@ SN: Nehemia, schenker van koning Artaxerxes in de burcht Susan, vraagt zijn broe
 M: Nehemiah lives in comfort far away, yet the ruin of God's city breaks his heart. His first response is not a plan but tears, fasting and prayer.
 MN: Nehemia leeft in comfort ver weg, toch breekt de verwoesting van Gods stad zijn hart. Zijn eerste reactie is geen plan, maar tranen, vasten en gebed.
 F: The Fathers held up Nehemiah as an example of compassion for the Church in distress: he could have stayed safe at court, but chose to weep and act. His prayer, confessing 'we have sinned' and appealing to God's own promise, was read as a model of intercession.
-FN: De Vaders stelden Nehemia voor als voorbeeld van medeleven met de Kerk in nood: hij had veilig aan het hof kunnen blijven, maar koos ervoor te wenen en te handelen. Zijn gebed, dat belijdt 'wij hebben gezondigd' en een beroep doet op Gods eigen belofte, werd gelezen als voorbeeld van voorbede.
+FN: De kerkvaders stelden Nehemia voor als voorbeeld van medeleven met de Kerk in nood: hij had veilig aan het hof kunnen blijven, maar koos ervoor te wenen en te handelen. Zijn gebed, dat belijdt 'wij hebben gezondigd' en een beroep doet op Gods eigen belofte, werd gelezen als voorbeeld van voorbede.
 T: Grief for God's city; Fasting and prayer; Appealing to God's promise
 TN: Verdriet om Gods stad; Vasten en gebed; Beroep op Gods belofte
 
@@ -16,7 +16,7 @@ SN: Maanden later, terwijl Nehemia wijn schenkt, merkt de koning zijn bedroefde 
 M: Between the king's question and his answer, Nehemiah prays a silent prayer. Careful preparation and bold faith go together.
 MN: Tussen de vraag van de koning en zijn antwoord bidt Nehemia een stil gebed. Zorgvuldige voorbereiding en moedig geloof gaan samen.
 F: The Fathers pointed to Nehemiah's brief prayer between the king's question and his reply as an example of the short, constant prayer of the heart that can be offered in any moment of daily work, the kind of prayer the desert Fathers practised. 'Let us rise up and build' became a call to rebuild the ruined walls of the soul.
-FN: De Vaders wezen op het korte gebed van Nehemia tussen de vraag van de koning en zijn antwoord als voorbeeld van het korte, voortdurende gebed van het hart dat in elk moment van het dagelijks werk opgedragen kan worden, het soort gebed dat de woestijnvaders beoefenden. 'Laten wij opstaan en bouwen' werd een oproep om de verwoeste muren van de ziel te herbouwen.
+FN: De kerkvaders wezen op het korte gebed van Nehemia tussen de vraag van de koning en zijn antwoord als voorbeeld van het korte, voortdurende gebed van het hart dat in elk moment van het dagelijks werk opgedragen kan worden, het soort gebed dat de woestijnvaders beoefenden. 'Laten wij opstaan en bouwen' werd een oproep om de verwoeste muren van de ziel te herbouwen.
 T: Prayer in the moment; Preparation and faith; Rebuilding
 TN: Gebed op het moment zelf; Voorbereiding en geloof; Herbouwen
 
@@ -26,7 +26,7 @@ SN: De hogepriester Eljasib en zijn broeders de priesters staan op en bouwen de 
 M: The wall is rebuilt because everyone takes a section, starting with the priests and in front of their own homes. Each person's part is remembered by name.
 MN: De muur wordt herbouwd omdat ieder een deel op zich neemt, te beginnen met de priesters en tegenover hun eigen huis. Het deel van ieder wordt bij naam onthouden.
 F: The Fathers read this chapter as an image of the Church, built up by the work of all its members, each with a different gift, as St Paul describes the one body with many members. That the priests began first was seen as a lesson for clergy to lead by example; repairing 'opposite one's own house' as beginning reform with oneself and one's household.
-FN: De Vaders lazen dit hoofdstuk als een beeld van de Kerk, opgebouwd door het werk van al haar leden, ieder met een andere gave, zoals de heilige Paulus het ene lichaam met vele leden beschrijft. Dat de priesters als eersten begonnen, werd gezien als een les voor de geestelijkheid om voor te gaan met het voorbeeld; het herstellen 'tegenover het eigen huis' als het beginnen van hervorming bij zichzelf en het eigen gezin.
+FN: De kerkvaders lazen dit hoofdstuk als een beeld van de Kerk, opgebouwd door het werk van al haar leden, ieder met een andere gave, zoals de heilige Paulus het ene lichaam met vele leden beschrijft. Dat de priesters als eersten begonnen, werd gezien als een les voor de geestelijkheid om voor te gaan met het voorbeeld; het herstellen 'tegenover het eigen huis' als het beginnen van hervorming bij zichzelf en het eigen gezin.
 T: Everyone builds; Leading by example; Beginning at home
 TN: Iedereen bouwt; Voorgaan met het voorbeeld; Thuis beginnen
 
@@ -36,7 +36,7 @@ SN: Sanballat is woedend en spot: wat doen die zwakke Joden? Tobia voegt eraan t
 M: Mockery, threats and weariness are met with prayer, watchfulness and perseverance. The builders work and watch at the same time.
 MN: Spot, bedreigingen en vermoeidheid worden beantwoord met gebed, waakzaamheid en volharding. De bouwers werken en waken tegelijk.
 F: The Fathers loved the image of building with one hand and holding a sword with the other as a picture of the Christian life: building up virtue while fighting temptation, with prayer and watchfulness together. 'We prayed to our God and set a guard' was cited as the balance between trusting God and doing our part.
-FN: De Vaders hielden van het beeld van bouwen met de ene hand en een zwaard vasthouden met de andere als beeld van het christelijk leven: deugd opbouwen terwijl men tegen verleiding strijdt, met gebed en waakzaamheid samen. 'Wij baden tot onze God en zetten een wacht uit' werd aangehaald als het evenwicht tussen op God vertrouwen en ons deel doen.
+FN: De kerkvaders hielden van het beeld van bouwen met de ene hand en een zwaard vasthouden met de andere als beeld van het christelijk leven: deugd opbouwen terwijl men tegen verleiding strijdt, met gebed en waakzaamheid samen. 'Wij baden tot onze God en zetten een wacht uit' werd aangehaald als het evenwicht tussen op God vertrouwen en ons deel doen.
 T: Building and fighting; Prayer and watchfulness; Perseverance
 TN: Bouwen en strijden; Gebed en waakzaamheid; Volharding
 
@@ -46,7 +46,7 @@ SN: Er ontstaat een groot geroep van het volk tegen hun Joodse broeders. Sommige
 M: The greatest danger comes not from outside enemies but from injustice within. Rebuilding walls means nothing if brothers enslave brothers.
 MN: Het grootste gevaar komt niet van vijanden buiten, maar van onrecht binnen. Muren herbouwen betekent niets als broeders broeders tot slaven maken.
 F: The Fathers, especially St Basil the Great and St John Chrysostom in their sermons against usury and greed, echoed Nehemiah's outrage at the rich exploiting the poor. They held up Nehemiah's refusal of his rightful allowance as the model of a leader who seeks the good of the people rather than his own gain.
-FN: De Vaders, vooral de heilige Basilius de Grote en de heilige Johannes Chrysostomus in hun preken tegen woeker en hebzucht, sloten zich aan bij de verontwaardiging van Nehemia over rijken die de armen uitbuiten. Zij stelden de weigering van Nehemia om zijn rechtmatige toelage te nemen voor als voorbeeld van een leider die het welzijn van het volk zoekt in plaats van eigen gewin.
+FN: De kerkvaders, vooral de heilige Basilius de Grote en de heilige Johannes Chrysostomus in hun preken tegen woeker en hebzucht, sloten zich aan bij de verontwaardiging van Nehemia over rijken die de armen uitbuiten. Zij stelden de weigering van Nehemia om zijn rechtmatige toelage te nemen voor als voorbeeld van een leider die het welzijn van het volk zoekt in plaats van eigen gewin.
 T: Justice within; Against exploitation; Selfless leadership
 TN: Recht binnen de gemeenschap; Tegen uitbuiting; Onbaatzuchtig leiderschap
 
@@ -56,7 +56,7 @@ SN: Wanneer de vijanden horen dat de muur herbouwd is zonder dat er een bres ove
 M: Nehemiah is not distracted from his calling by invitations, slander or false prophecy. Focus and discernment finish the work.
 MN: Nehemia laat zich niet van zijn roeping afleiden door uitnodigingen, laster of valse profetie. Gerichtheid en onderscheiding voltooien het werk.
 F: The Fathers made 'I am doing a great work and cannot come down' a watchword for monks and all who pray: do not leave the work of God to argue with distractions and tempters. Nehemiah's refusal to hide in the sanctuary, which he as a layman could not enter, was praised as discernment of a false prophecy that would have led him into sin.
-FN: De Vaders maakten 'ik ben bezig met een groot werk en kan niet naar beneden komen' tot een wachtwoord voor monniken en allen die bidden: verlaat het werk van God niet om te twisten met afleidingen en verleiders. De weigering van Nehemia om zich te verbergen in het heiligdom, dat hij als leek niet mocht betreden, werd geprezen als onderscheiding van een valse profetie die hem tot zonde zou hebben gebracht.
+FN: De kerkvaders maakten 'ik ben bezig met een groot werk en kan niet naar beneden komen' tot een wachtwoord voor monniken en allen die bidden: verlaat het werk van God niet om te twisten met afleidingen en verleiders. De weigering van Nehemia om zich te verbergen in het heiligdom, dat hij als leek niet mocht betreden, werd geprezen als onderscheiding van een valse profetie die hem tot zonde zou hebben gebracht.
 T: Undistracted focus; Discernment; God completes the work
 TN: Onafgeleide gerichtheid; Onderscheiding; God voltooit het werk
 
@@ -66,7 +66,7 @@ SN: Wanneer de muur gebouwd is en de deuren geplaatst zijn, worden poortwachters
 M: Walls are not enough; the city needs faithful leaders, watchfulness and people to live in it. Nehemiah chooses leaders for their faithfulness and fear of God.
 MN: Muren zijn niet genoeg; de stad heeft trouwe leiders, waakzaamheid en mensen nodig om erin te wonen. Nehemia kiest leiders om hun trouw en godsvrucht.
 F: The Fathers noted that Nehemiah chose Hananiah because he was 'faithful and feared God more than many', the qualities the Church looks for in those it appoints to serve. The empty city was read as a call to fill the Church with living stones, believers who dwell in it, not only walls.
-FN: De Vaders merkten op dat Nehemia Hananja koos omdat hij 'betrouwbaar was en God meer vreesde dan velen', de eigenschappen die de Kerk zoekt in wie zij aanstelt om te dienen. De lege stad werd gelezen als een oproep om de Kerk te vullen met levende stenen, gelovigen die erin wonen, niet alleen muren.
+FN: De kerkvaders merkten op dat Nehemia Hananja koos omdat hij 'betrouwbaar was en God meer vreesde dan velen', de eigenschappen die de Kerk zoekt in wie zij aanstelt om te dienen. De lege stad werd gelezen als een oproep om de Kerk te vullen met levende stenen, gelovigen die erin wonen, niet alleen muren.
 T: Faithful leaders; Watchfulness; A city needs people
 TN: Trouwe leiders; Waakzaamheid; Een stad heeft mensen nodig
 
@@ -76,7 +76,7 @@ SN: Heel het volk verzamelt zich als één man op het plein voor de Waterpoort e
 M: God's word is read aloud, explained and received with attention, tears and joy. Understanding the word leads to worship, generosity and feasting.
 MN: Gods woord wordt voorgelezen, uitgelegd en met aandacht, tranen en vreugde ontvangen. Het begrijpen van het woord leidt tot aanbidding, vrijgevigheid en feest.
 F: The Fathers saw in this assembly the pattern of the Church's Liturgy of the Word: the people stand when the book is opened, the reader blesses God, the people answer Amen, and the reading is explained in a homily. 'The joy of the Lord is your strength' was loved as a reminder that holy days are for joy and for sharing with those who have nothing.
-FN: De Vaders zagen in deze samenkomst het patroon van de dienst van het Woord in de Kerk: het volk staat wanneer het boek geopend wordt, de lezer looft God, het volk antwoordt amen, en de lezing wordt uitgelegd in een preek. 'De vreugde van de Heer is uw kracht' was geliefd als herinnering dat heilige dagen bedoeld zijn voor vreugde en om te delen met wie niets hebben.
+FN: De kerkvaders zagen in deze samenkomst het patroon van de dienst van het Woord in de Kerk: het volk staat wanneer het boek geopend wordt, de lezer looft God, het volk antwoordt amen, en de lezing wordt uitgelegd in een preek. 'De vreugde van de Heer is uw kracht' was geliefd als herinnering dat heilige dagen bedoeld zijn voor vreugde en om te delen met wie niets hebben.
 T: The word read and explained; Standing for the Gospel; Joy of the Lord
 TN: Het woord voorgelezen en uitgelegd; Staan voor het Evangelie; Vreugde van de Heer
 
@@ -86,7 +86,7 @@ SN: Op de vierentwintigste dag van de maand komt het volk samen met vasten, in r
 M: Remembering the whole story of God's faithfulness and Israel's failures leads to honest confession and a renewed commitment.
 MN: Het herinneren van het hele verhaal van Gods trouw en Israëls falen leidt tot eerlijke belijdenis en een vernieuwde toewijding.
 F: This prayer tells salvation history as praise and confession, much like the great Eucharistic prayers of the Church, such as the Anaphora of St Basil, which recount God's works from creation onwards. 'You are a God ready to forgive, gracious and merciful' echoes the revelation of God's name to Moses, which the Fathers saw fulfilled in Christ.
-FN: Dit gebed vertelt de heilsgeschiedenis als lof en belijdenis, zoals de grote eucharistische gebeden van de Kerk, bijvoorbeeld de anafora van de heilige Basilius, die Gods werken vanaf de schepping verhalen. 'U bent een God van vergeving, genadig en barmhartig' herhaalt de openbaring van Gods naam aan Mozes, die de Vaders in Christus vervuld zagen.
+FN: Dit gebed vertelt de heilsgeschiedenis als lof en belijdenis, zoals de grote eucharistische gebeden van de Kerk, bijvoorbeeld de anafora van de heilige Basilius, die Gods werken vanaf de schepping verhalen. 'U bent een God van vergeving, genadig en barmhartig' herhaalt de openbaring van Gods naam aan Mozes, die de kerkvaders in Christus vervuld zagen.
 T: Remembering God's works; Confession; A God ready to forgive
 TN: Gods werken gedenken; Schuldbelijdenis; Een God van vergeving
 
@@ -96,7 +96,7 @@ SN: Nehemia de landvoogd, de priesters, de Levieten en de hoofden van het volk z
 M: Renewal becomes concrete: family life, the Sabbath, debts, offerings and support of worship. Commitments are made together and written down.
 MN: Vernieuwing wordt concreet: gezinsleven, de sabbat, schulden, gaven en ondersteuning van de eredienst. Verbintenissen worden samen aangegaan en opgeschreven.
 F: The Fathers noted that true repentance takes concrete form in how we live, spend our time and use our goods. 'We will not neglect the house of our God' was taken as a summary of the faithful's responsibility to support the Church's worship and those who serve it.
-FN: De Vaders merkten op dat ware bekering concreet vorm krijgt in hoe wij leven, onze tijd besteden en onze goederen gebruiken. 'Wij zullen het huis van onze God niet verwaarlozen' werd opgevat als samenvatting van de verantwoordelijkheid van de gelovigen om de eredienst van de Kerk en wie haar dienen te ondersteunen.
+FN: De kerkvaders merkten op dat ware bekering concreet vorm krijgt in hoe wij leven, onze tijd besteden en onze goederen gebruiken. 'Wij zullen het huis van onze God niet verwaarlozen' werd opgevat als samenvatting van de verantwoordelijkheid van de gelovigen om de eredienst van de Kerk en wie haar dienen te ondersteunen.
 T: Concrete commitment; Holy time; Supporting worship
 TN: Concrete toewijding; Heilige tijd; Ondersteuning van de eredienst
 
@@ -116,7 +116,7 @@ SN: De priesters en Levieten die met Zerubbabel en Jesua optrokken, worden opges
 M: The finished work is dedicated to God with purification, thanksgiving and song. The joy of the whole community is heard far away.
 MN: Het voltooide werk wordt aan God gewijd met reiniging, dankzegging en zang. De vreugde van heel de gemeenschap wordt tot ver weg gehoord.
 F: The Fathers saw in the two choirs singing 'opposite one another' the antiphonal singing that the Church practises in its services, and in the procession around the walls an image of the processions with which churches are consecrated. The joy heard far away was read as the witness of a community that truly rejoices in God.
-FN: De Vaders zagen in de twee koren die 'tegenover elkaar' zongen de beurtzang die de Kerk in haar diensten beoefent, en in de processie rond de muren een beeld van de processies waarmee kerken ingewijd worden. De vreugde die tot ver weg gehoord werd, werd gelezen als het getuigenis van een gemeenschap die zich werkelijk in God verheugt.
+FN: De kerkvaders zagen in de twee koren die 'tegenover elkaar' zongen de beurtzang die de Kerk in haar diensten beoefent, en in de processie rond de muren een beeld van de processies waarmee kerken ingewijd worden. De vreugde die tot ver weg gehoord werd, werd gelezen als het getuigenis van een gemeenschap die zich werkelijk in God verheugt.
 T: Dedication; Antiphonal praise; Joy that is heard
 TN: Inwijding; Beurtzang; Vreugde die gehoord wordt
 
@@ -126,6 +126,6 @@ SN: Wanneer de wet voorgelezen wordt, scheidt het volk uit Israël wie van vreem
 M: The covenant made with such joy is soon neglected. Renewal is never finished; it must be guarded and taken up again.
 MN: Het verbond dat met zoveel vreugde gesloten werd, wordt al snel verwaarloosd. Vernieuwing is nooit af; zij moet bewaakt en opnieuw opgenomen worden.
 F: The Fathers saw in Nehemiah's cleansing of the temple chamber a foreshadowing of Christ cleansing the temple, and in the quick decline after great renewal a lesson about human weakness: the soul must be guarded continually. In his repeated prayer, 'remember me, O my God, for good', Christian readers hear an echo of the thief's prayer, 'remember me when You come into Your kingdom'.
-FN: De Vaders zagen in de reiniging van de tempelkamer door Nehemia een voorafbeelding van Christus die de tempel reinigt, en in het snelle verval na een grote vernieuwing een les over menselijke zwakheid: de ziel moet voortdurend bewaakt worden. In zijn herhaalde gebed, 'gedenk mij, mijn God, ten goede', horen christelijke lezers een echo van het gebed van de goede moordenaar, 'gedenk mij wanneer U in Uw koninkrijk komt'.
+FN: De kerkvaders zagen in de reiniging van de tempelkamer door Nehemia een voorafbeelding van Christus die de tempel reinigt, en in het snelle verval na een grote vernieuwing een les over menselijke zwakheid: de ziel moet voortdurend bewaakt worden. In zijn herhaalde gebed, 'gedenk mij, mijn God, ten goede', horen christelijke lezers een echo van het gebed van de goede moordenaar, 'gedenk mij wanneer U in Uw koninkrijk komt'.
 T: Renewal must be guarded; Cleansing God's house; Remember me
 TN: Vernieuwing moet bewaakt worden; Gods huis reinigen; Gedenk mij
