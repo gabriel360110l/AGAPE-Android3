@@ -6,7 +6,7 @@ SN: Petrus schrijft aan de uitverkoren vreemdelingen in de verstrooiing. Gepreze
 M: Christians are pilgrims with a living hope rooted in the Resurrection. Holiness is the response to being bought at so great a price.
 MN: Christenen zijn pelgrims met een levende hoop, geworteld in de Verrijzenis. Heiligheid is het antwoord op zo'n hoge prijs.
 F: The Fathers noted that the 'Spirit of Christ' spoke in the prophets: the one Spirit inspired both Testaments. St Bede wrote a commentary on the Catholic epistles, including 1 Peter.
-FN: De Vaders merkten op dat de 'Geest van Christus' in de profeten sprak: de ene Geest inspireerde beide Testamenten. De heilige Beda schreef een commentaar op de katholieke brieven, ook op 1 Petrus.
+FN: De kerkvaders merkten op dat de 'Geest van Christus' in de profeten sprak: de ene Geest inspireerde beide Testamenten. De heilige Beda schreef een commentaar op de katholieke brieven, ook op 1 Petrus.
 T: Living hope; Holiness; Redemption
 TN: Levende hoop; Heiligheid; Verlossing
 
@@ -16,19 +16,19 @@ SN: Verlang als pasgeboren kinderen naar de zuivere geestelijke melk. Kom tot He
 M: All the baptised share in Christ's royal priesthood, offering their lives to God. Suffering patiently follows in Christ's footsteps.
 MN: Alle gedoopten delen in het koninklijk priesterschap van Christus en bieden hun leven aan God aan. Geduldig lijden volgt in de voetstappen van Christus.
 F: The Fathers distinguished the royal priesthood of all the baptised, anointed at chrismation, from the ordained priesthood that serves the altar; both come from Christ.
-FN: De Vaders onderscheidden het koninklijk priesterschap van alle gedoopten, gezalfd bij de myronzalving, van het gewijde priesterschap dat het altaar dient; beide komen van Christus.
+FN: De kerkvaders onderscheidden het koninklijk priesterschap van alle gedoopten, gezalfd bij de myronzalving, van het gewijde priesterschap dat het altaar dient; beide komen van Christus.
 T: Royal priesthood; Living stones; Following Christ
 TN: Koninklijk priesterschap; Levende stenen; Christus volgen
 
 ## 3 | Suffering for righteousness; Christ preached to the spirits | Lijden om de gerechtigheid; Christus predikte aan de geesten
 S: Wives and husbands are to honour one another; let the adornment of wives be the imperishable beauty of a gentle and quiet spirit, and husbands live with their wives with understanding, as heirs together of the grace of life. Have unity of mind, sympathy, brotherly love, a tender heart and a humble mind; do not repay evil for evil. Even if you suffer for righteousness' sake, you will be blessed. Always be prepared to give a defence to anyone who asks a reason for the hope that is in you, yet with gentleness and respect. Christ suffered once for sins, the righteous for the unrighteous, being put to death in the flesh but made alive in the spirit, in which He went and proclaimed to the spirits in prison. Baptism, which corresponds to the ark of Noah, now saves you, through the Resurrection of Jesus Christ.
-SN: Vrouwen en mannen moeten elkaar eren; laat het sieraad van vrouwen de onvergankelijke schoonheid zijn van een zachtmoedige en stille geest, en laten mannen met verstand met hun vrouwen samenleven, als mede-erfgenamen van de genade van het leven. Wees eensgezind, meelevend, vol broederliefde, barmhartig en nederig; vergeld geen kwaad met kwaad. Ook als u lijdt om de gerechtigheid, bent u zalig. Wees altijd bereid tot verantwoording tegenover ieder die u rekenschap vraagt van de hoop die in u is, maar met zachtmoedigheid en respect. Christus heeft eens voor de zonden geleden, de Rechtvaardige voor de onrechtvaardigen, gedood naar het vlees maar levend gemaakt naar de geest, in welke Hij ook heenging en predikte aan de geesten in de gevangenis. Het doopsel, waarvan de ark van Noach een voorafbeelding is, redt u nu, door de Verrijzenis van Jezus Christus.
+SN: Vrouwen en mannen moeten elkaar eren; laat het sieraad van vrouwen de onvergankelijke schoonheid zijn van een zachtmoedige en stille geest, en laten mannen met verstand met hun vrouwen samenleven, als mede-erfgenamen van de genade van het leven. Wees eensgezind, meelevend, vol broederliefde, barmhartig en nederig; vergeld geen kwaad met kwaad. Ook als u lijdt om de gerechtigheid, bent u zalig. Wees altijd bereid tot verantwoording tegenover ieder die u rekenschap vraagt van de hoop die in u is, maar met zachtmoedigheid en respect. Christus heeft eens voor de zonden geleden, de Rechtvaardige voor de onrechtvaardigen, gedood naar het vlees maar levend gemaakt naar de geest, in welke Hij ook heenging en predikte aan de geesten in de gevangenis. De doop, waarvan de ark van Noach een voorafbeelding is, redt u nu, door de Verrijzenis van Jezus Christus.
 M: Christians give reasons for their hope with gentleness. Christ's victory reaches even the dead, and baptism saves through His Resurrection.
-MN: Christenen geven rekenschap van hun hoop met zachtmoedigheid. De overwinning van Christus reikt zelfs tot de doden, en het doopsel redt door Zijn Verrijzenis.
+MN: Christenen geven rekenschap van hun hoop met zachtmoedigheid. De overwinning van Christus reikt zelfs tot de doden, en de doop redt door Zijn Verrijzenis.
 F: The Fathers read 3:19 of Christ's descent into Hades, confessed in the Creed ('He descended into hell') and painted in the Paschal icon of the Anastasis, where He raises Adam and Eve.
-FN: De Vaders lazen 3:19 als de nederdaling van Christus in het dodenrijk, beleden in de Geloofsbelijdenis ('nedergedaald ter helle') en geschilderd in de paasicoon van de Anastasis, waarin Hij Adam en Eva opwekt.
+FN: De kerkvaders lazen 3:19 als de nederdaling van Christus in het dodenrijk, beleden in de Geloofsbelijdenis ('nedergedaald ter helle') en geschilderd in de paasicoon van de Anastasis, waarin Hij Adam en Eva opwekt.
 T: Hope; Descent into Hades; Baptism
-TN: Hoop; Nederdaling in het dodenrijk; Doopsel
+TN: Hoop; Nederdaling in het dodenrijk; Doop
 
 ## 4 | Love covers a multitude of sins | Liefde bedekt een menigte van zonden
 S: Since Christ suffered in the flesh, arm yourselves with the same way of thinking: live no longer for human passions but for the will of God. The end of all things is at hand; be self-controlled and sober-minded for the sake of your prayers. Above all, keep loving one another earnestly, since love covers a multitude of sins. Show hospitality without grumbling. As each has received a gift, use it to serve one another, as good stewards of God's varied grace. Do not be surprised at the fiery trial; rejoice insofar as you share Christ's sufferings. If you are insulted for the name of Christ, you are blessed, because the Spirit of glory rests upon you. It is time for judgement to begin at the household of God.
@@ -36,7 +36,7 @@ SN: Omdat Christus in het vlees geleden heeft, wapen u dan met dezelfde gezindhe
 M: Love and hospitality are the signs of a community living toward the end. Suffering for Christ brings the Spirit's glory.
 MN: Liefde en gastvrijheid zijn de tekenen van een gemeenschap die op het einde gericht leeft. Lijden om Christus brengt de heerlijkheid van de Geest.
 F: The Fathers taught that love, shown especially in almsgiving and forgiveness, heals the soul and covers sins, citing 4:8 alongside Proverbs 10:12.
-FN: De Vaders leerden dat de liefde, vooral getoond in aalmoezen en vergeving, de ziel geneest en zonden bedekt, en haalden 4:8 aan naast Spreuken 10:12.
+FN: De kerkvaders leerden dat de liefde, vooral getoond in aalmoezen en vergeving, de ziel geneest en zonden bedekt, en haalden 4:8 aan naast Spreuken 10:12.
 T: Love; Gifts for service; Suffering with Christ
 TN: Liefde; Gaven om te dienen; Lijden met Christus
 
@@ -46,6 +46,6 @@ SN: Petrus, medeoudste en getuige van het lijden van Christus, vermaant de oudst
 M: Pastors serve as examples, not lords. God cares for us, so we can cast our anxieties on Him and stand firm.
 MN: Herders dienen als voorbeeld, niet als heersers. God zorgt voor ons, dus kunnen wij onze zorgen op Hem werpen en vaststaan.
 F: The Fathers understood 'Babylon' as Rome, where Peter was with Mark. 'Be sober, be watchful' is read at Compline in the Western Church every night.
-FN: De Vaders verstonden 'Babylon' als Rome, waar Petrus met Marcus was. 'Wees nuchter, wees waakzaam' wordt in de Westerse Kerk elke avond bij de Completen gelezen.
+FN: De kerkvaders verstonden 'Babylon' als Rome, waar Petrus met Marcus was. 'Wees nuchter, wees waakzaam' wordt in de Westerse Kerk elke avond bij de Completen gelezen.
 T: Pastoral care; Humility; Watchfulness
 TN: Herderlijke zorg; Nederigheid; Waakzaamheid
