@@ -6,7 +6,7 @@ SN: Wat er was vanaf het begin, wat wij gehoord hebben, met onze ogen gezien en 
 M: The faith rests on witnesses who touched the incarnate Word. Honest confession of sin opens the way to cleansing and communion.
 MN: Het geloof rust op getuigen die het mensgeworden Woord aanraakten. Eerlijke belijdenis van zonde opent de weg naar reiniging en gemeenschap.
 F: The Fathers used 'touched with our hands' against the Docetists, who claimed Christ's body only seemed real. St Augustine preached ten homilies on this letter, calling it a letter of love.
-FN: De Vaders gebruikten 'met onze handen aangeraakt' tegen de docetisten, die beweerden dat het lichaam van Christus slechts schijn was. De heilige Augustinus hield tien homilieën over deze brief en noemde hem een brief van de liefde.
+FN: De kerkvaders gebruikten 'met onze handen aangeraakt' tegen de docetisten, die beweerden dat het lichaam van Christus slechts schijn was. De heilige Augustinus hield tien homilieën over deze brief en noemde hem een brief van de liefde.
 T: Incarnation; Light; Confession of sin
 TN: Menswording; Licht; Belijdenis van zonde
 
@@ -16,7 +16,7 @@ SN: Als iemand zondigt, hebben wij een voorspraak bij de Vader, Jezus Christus, 
 M: Knowing God is shown by obedience and love. Christ is our advocate for the sins of the whole world.
 MN: God kennen blijkt uit gehoorzaamheid en liefde. Christus is onze voorspraak voor de zonden van de hele wereld.
 F: The Fathers saw in the three desires (flesh, eyes, pride) the three temptations of Adam and of Christ in the wilderness. 'The anointing from the Holy One' was linked to the chrism of initiation.
-FN: De Vaders zagen in de drie begeerten (vlees, ogen, hoogmoed) de drie verzoekingen van Adam en van Christus in de woestijn. 'De zalving van de Heilige' werd verbonden met het myron van de inwijding.
+FN: De kerkvaders zagen in de drie begeerten (vlees, ogen, hoogmoed) de drie verzoekingen van Adam en van Christus in de woestijn. 'De zalving van de Heilige' werd verbonden met het myron van de inwijding.
 T: Advocate; Obedience; Detachment from the world
 TN: Voorspraak; Gehoorzaamheid; Onthechting van de wereld
 
@@ -26,7 +26,7 @@ SN: Zie welk een liefde de Vader ons gegeven heeft, dat wij kinderen van God gen
 M: We are God's children now, and will become like Him. Love is proven by deeds of self-giving.
 MN: Wij zijn nu kinderen van God, en zullen aan Hem gelijk worden. Liefde wordt bewezen door daden van zelfgave.
 F: 'We shall be like Him, for we shall see Him as He is' was for the Fathers a description of theosis: the vision of God transforms the one who sees.
-FN: 'Wij zullen aan Hem gelijk zijn, want wij zullen Hem zien zoals Hij is' was voor de Vaders een beschrijving van de vergoddelijking: het zien van God verandert wie Hem ziet.
+FN: 'Wij zullen aan Hem gelijk zijn, want wij zullen Hem zien zoals Hij is' was voor de kerkvaders een beschrijving van de vergoddelijking: het zien van God verandert wie Hem ziet.
 T: Children of God; Hope of glory; Love in deed
 TN: Kinderen van God; Hoop op heerlijkheid; Liefde in daden
 
@@ -36,7 +36,7 @@ SN: Beproef de geesten: elke geest die belijdt dat Jezus Christus in het vlees g
 M: 'God is love' is the deepest word about God. Love for God and love for neighbour cannot be separated.
 MN: 'God is liefde' is het diepste woord over God. Liefde voor God en liefde voor de naaste kunnen niet gescheiden worden.
 F: The Fathers explained that 'God is love' reveals the Holy Trinity: love needs a lover, a beloved and the love between them, eternally in God. St Augustine: 'Love, and do what you will.'
-FN: De Vaders legden uit dat 'God is liefde' de Heilige Drie-eenheid openbaart: liefde vraagt om een minnaar, een geliefde en de liefde tussen hen, eeuwig in God. De heilige Augustinus: 'Heb lief, en doe wat je wilt.'
+FN: De kerkvaders legden uit dat 'God is liefde' de Heilige Drie-eenheid openbaart: liefde vraagt om een minnaar, een geliefde en de liefde tussen hen, eeuwig in God. De heilige Augustinus: 'Heb lief, en doe wat je wilt.'
 T: God is love; Love of neighbour; Fearless love
 TN: God is liefde; Naastenliefde; Liefde zonder vrees
 
@@ -46,6 +46,6 @@ SN: Ieder die gelooft dat Jezus de Christus is, is uit God geboren, en dit is de
 M: Faith overcomes the world. Eternal life is not a thing but a Person: the Son, the true God.
 MN: Het geloof overwint de wereld. Eeuwig leven is geen ding maar een Persoon: de Zoon, de waarachtige God.
 F: The Fathers saw in 'water and blood' the baptism and passion of Christ, and in the Church the sacraments of baptism and the Eucharist flowing from His side. 'He is the true God' (5:20) was cited against Arius.
-FN: De Vaders zagen in 'water en bloed' de doop en het lijden van Christus, en in de Kerk de sacramenten van doopsel en eucharistie die uit Zijn zijde vloeien. 'Hij is de waarachtige God' (5:20) werd aangehaald tegen Arius.
+FN: De kerkvaders zagen in 'water en bloed' de doop en het lijden van Christus, en in de Kerk de sacramenten van doop en eucharistie die uit Zijn zijde vloeien. 'Hij is de waarachtige God' (5:20) werd aangehaald tegen Arius.
 T: Victory of faith; Eternal life; Prayer for others
 TN: Overwinning van het geloof; Eeuwig leven; Gebed voor anderen
