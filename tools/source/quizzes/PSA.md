@@ -3775,6 +3775,26 @@
 - David, as he enters Hebron | David, als hij Hebron binnentrekt
 - Moses, as he descends Sinai | Mozes, als hij van de Sinaï afdaalt
 - Solomon, as he enters the temple | Salomo, als hij de tempel binnengaat
+? What does the psalmist say the nations did to him? | Wat zegt de dichter dat de volken met hem deden?
+= They surrounded him like bees, but in the Lord's name he cut them off | Zij omringden hem als bijen, maar in de naam van de Heer hieuw hij hen af
+- They served him like servants, and in the Lord's name he sent them home | Zij dienden hem als dienaren, en in de naam van de Heer zond hij hen naar huis
+- They scattered before him like dust, and by his own sword he drove them out | Zij stoven voor hem uiteen als stof, en met zijn eigen zwaard dreef hij hen weg
+- They waited around him like sheep, and at the king's order he left them | Zij wachtten rond hem als schapen, en op bevel van de koning liet hij hen
+? What does the psalmist say will happen to him in the end? | Wat zegt de dichter dat er met hem zal gebeuren?
+= He shall not die, but live and declare the works of the Lord | Hij zal niet sterven, maar leven en de werken van de Heer verkondigen
+- He will not live, but die and be forgotten | Hij zal niet leven, maar sterven en vergeten worden
+- He will not rest, but fight and win the crown | Hij zal niet rusten, maar strijden en de kroon winnen
+- He will not weep, but sing and wait for the king | Hij zal niet wenen, maar zingen en op de koning wachten
+? How does the Lord answer the psalmist's distress? | Hoe antwoordt de Heer op de nood van de dichter?
+= He answered me and set me in a large place | Hij antwoordde mij en stelde mij in de ruimte
+- He sent me away and left me in a narrow place | Hij zond mij weg en liet mij in een benauwde plaats
+- He told me to wait and set me in a high tower | Hij zei mij te wachten en zette mij in een hoge toren
+- He heard me and sent me back to the king's court | Hij hoorde mij en zond mij terug naar het hof van de koning
+? What does the psalmist ask to be opened to him? | Wat vraagt de dichter dat voor hem geopend wordt?
+= The gates of righteousness | De poorten der gerechtigheid
+- The doors of the king's palace | De deuren van het paleis van de koning
+- The gates of the great city | De poorten van de grote stad
+- The doors of the ancient temple | De deuren van de oude tempel
 
 ## 119
 ? How can a young man keep his way pure? | Waarmee zal de jongeling zijn pad zuiver houden?
@@ -3807,6 +3827,26 @@
 - It is his weapon in the day of war | Het is zijn wapen op de dag van de oorlog
 - It is his wealth in the time of famine | Het is zijn rijkdom in de tijd van hongersnood
 - It is his throne in the house of the king | Het is zijn troon in het huis van de koning
+? What does the psalmist say is better to him than thousands of gold and silver? | Wat zegt de dichter dat beter voor hem is dan duizenden van goud en zilver?
+= The law of God's mouth | De wet van uw mond
+- A great inheritance in the land | Een groot erfdeel in het land
+- The honour of a king's court | De eer van een koningshof
+- A long life in his own house | Een lang leven in zijn eigen huis
+? What does the psalmist ask God to open, that he may see wondrous things? | Wat vraagt de dichter dat God opent, om wonderen te zien?
+= My eyes, that I may see wondrous things out of your law | Mijn ogen, opdat ik wonderen zie in uw wet
+- My ears, that I may hear wise words in the court | Mijn oren, opdat ik wijze woorden hoor aan het hof
+- My hands, that I may build a house for the Lord | Mijn handen, opdat ik een huis voor de Heer bouw
+- My mouth, that I may speak boldly before kings | Mijn mond, opdat ik vrijmoedig voor koningen spreek
+? What does the psalmist say about the time before he was afflicted? | Wat zegt de dichter over de tijd voordat hij verdrukt werd?
+= He went astray, but now he keeps God's word | Hij dwaalde, maar nu houdt hij Gods woord
+- He kept God's word, but now he has gone astray | Hij hield Gods woord, maar nu is hij afgedwaald
+- He was at peace with God, but now he has no hope | Hij was in vrede met God, maar nu heeft hij geen hoop
+- He was a king in the land, but now he is a slave | Hij was een koning in het land, maar nu is hij een slaaf
+? How does the psalmist say he will walk, since he seeks God's precepts? | Hoe zegt de dichter te zullen wandelen, omdat hij Gods bevelen zoekt?
+= At liberty, for he seeks your precepts | In vrijheid, want hij zoekt uw bevelen
+- In fear, for he hides from the mighty | In vrees, want hij verbergt zich voor de machtigen
+- In haste, for he runs from the city gate | Haastig, want hij rent van de stadspoort weg
+- In sorrow, for he mourns the days of old | In droefheid, want hij rouwt om de dagen van weleer
 
 ## 120
 ? From what does the psalmist ask to be delivered? | Waarvan vraagt de psalmist gered te worden?
