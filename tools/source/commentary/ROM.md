@@ -6,7 +6,7 @@ SN: Paulus groet de christenen in Rome en verlangt ernaar hen te bezoeken. Hij s
 M: Creation itself speaks of God, so humanity is without excuse. Idolatry, the worship of created things, is the root of moral disorder.
 MN: De schepping zelf spreekt over God, zodat de mens geen verontschuldiging heeft. Afgoderij, de aanbidding van geschapen dingen, is de wortel van morele wanorde.
 F: St John Chrysostom preached thirty-two homilies on Romans, calling Paul 'the trumpet of heaven'. The First Vatican Council and many Fathers cite verse 20 for the natural knowledge of God.
-FN: De heilige Johannes Chrysostomus hield tweeëndertig homilieën over Romeinen en noemde Paulus 'de bazuin van de hemel'. Het Eerste Vaticaans Concilie en veel Vaders halen vers 20 aan voor de natuurlijke kennis van God.
+FN: De heilige Johannes Chrysostomus hield tweeëndertig homilieën over Romeinen en noemde Paulus 'de bazuin van de hemel'. Het Eerste Vaticaans Concilie en veel kerkvaders halen vers 20 aan voor de natuurlijke kennis van God.
 T: The gospel; Knowledge of God; Idolatry
 TN: Het evangelie; Kennis van God; Afgoderij
 
@@ -16,7 +16,7 @@ SN: Wie anderen oordelen, veroordelen zichzelf, want zij doen hetzelfde. Gods go
 M: No one stands before God on privilege. The conscience is a law written on every heart.
 MN: Niemand staat voor God op grond van voorrecht. Het geweten is een wet die in ieder hart geschreven is.
 F: The Fathers draw from this chapter the doctrine of the natural law and the conscience. St John Chrysostom stresses that the goodness of God is not permission to sin but a call to repent.
-FN: De Vaders halen uit dit hoofdstuk de leer van de natuurwet en het geweten. De heilige Johannes Chrysostomus benadrukt dat de goedheid van God geen toestemming is om te zondigen, maar een roep om bekering.
+FN: De kerkvaders halen uit dit hoofdstuk de leer van de natuurwet en het geweten. De heilige Johannes Chrysostomus benadrukt dat de goedheid van God geen toestemming is om te zondigen, maar een roep om bekering.
 T: Judgement; Conscience; Repentance
 TN: Oordeel; Geweten; Bekering
 
@@ -26,7 +26,7 @@ SN: Aan de Joden zijn de woorden van God toevertrouwd, en God blijft trouw. Toch
 M: Salvation is a gift, received in faith, not earned. All stand equally in need of grace, and grace is offered equally to all.
 MN: Redding is een geschenk, ontvangen in geloof, niet verdiend. Allen hebben evenzeer genade nodig, en genade wordt allen evenzeer aangeboden.
 F: The Fathers read 'works of the Law' chiefly as the ceremonial works of the Mosaic Law, and taught that the faith which justifies is a living faith that works through love, as Paul says in Galatians.
-FN: De Vaders lazen 'werken van de Wet' vooral als de ceremoniële werken van de Mozaïsche Wet, en leerden dat het geloof dat rechtvaardigt een levend geloof is dat werkt door de liefde, zoals Paulus in Galaten zegt.
+FN: De kerkvaders lazen 'werken van de Wet' vooral als de ceremoniële werken van de Mozaïsche Wet, en leerden dat het geloof dat rechtvaardigt een levend geloof is dat werkt door de liefde, zoals Paulus in Galaten zegt.
 T: Sin; Grace; Justification
 TN: Zonde; Genade; Rechtvaardiging
 
@@ -36,7 +36,7 @@ SN: Abraham geloofde God, en het werd hem tot gerechtigheid gerekend, voordat hi
 M: Faith is trusting the God who raises the dead. Abraham's faith anticipates Easter faith.
 MN: Geloof is vertrouwen op de God die de doden opwekt. Het geloof van Abraham loopt vooruit op het paasgeloof.
 F: St Irenaeus and other Fathers present Abraham as the forefather of the Church, whose faith unites the Old and New Covenants.
-FN: De heilige Irenaeus en andere Vaders stellen Abraham voor als de voorvader van de Kerk, wiens geloof het Oude en het Nieuwe Verbond verbindt.
+FN: De heilige Irenaeus en andere kerkvaders stellen Abraham voor als de voorvader van de Kerk, wiens geloof het Oude en het Nieuwe Verbond verbindt.
 T: Faith; Abraham; Promise
 TN: Geloof; Abraham; Belofte
 
@@ -46,7 +46,7 @@ SN: Gerechtvaardigd door het geloof hebben wij vrede met God door Christus. Wij 
 M: Christ is the new Adam who undoes the fall. God's love comes first, before any merit of ours.
 MN: Christus is de nieuwe Adam die de val ongedaan maakt. Gods liefde komt eerst, vóór elke verdienste van ons.
 F: Eastern Fathers read 5:12 as death entering the world through Adam and enslaving all, from which sin springs; St Augustine stressed inherited guilt. Both agree that Christ's grace is greater than Adam's fall.
-FN: Oosterse Vaders lezen 5:12 zo dat de dood door Adam de wereld binnenkwam en allen tot slaaf maakte, waaruit de zonde voortkomt; de heilige Augustinus benadrukte de geërfde schuld. Beiden zijn het erover eens dat de genade van Christus groter is dan de val van Adam.
+FN: Oosterse kerkvaders lezen 5:12 zo dat de dood door Adam de wereld binnenkwam en allen tot slaaf maakte, waaruit de zonde voortkomt; de heilige Augustinus benadrukte de geërfde schuld. Beiden zijn het erover eens dat de genade van Christus groter is dan de val van Adam.
 T: Peace with God; New Adam; Grace
 TN: Vrede met God; Nieuwe Adam; Genade
 
@@ -54,11 +54,11 @@ TN: Vrede met God; Nieuwe Adam; Genade
 S: Shall we continue in sin that grace may abound? By no means! All who were baptised into Christ were baptised into His death; buried with Him, we rise to walk in newness of life. Our old self was crucified with Him. Consider yourselves dead to sin and alive to God in Christ. Do not let sin reign in your mortal bodies; present yourselves to God as instruments of righteousness. The wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.
 SN: Zullen wij in de zonde blijven, opdat de genade toeneemt? Volstrekt niet! Allen die in Christus gedoopt zijn, zijn in Zijn dood gedoopt; met Hem begraven, staan wij op om in een nieuw leven te wandelen. Onze oude mens is met Hem gekruisigd. Beschouw uzelf als dood voor de zonde en levend voor God in Christus. Laat de zonde niet heersen in uw sterfelijk lichaam; stel uzelf aan God ter beschikking als werktuigen van gerechtigheid. Het loon van de zonde is de dood, maar de genadegave van God is eeuwig leven in Christus Jezus, onze Heer.
 M: Baptism is a real sharing in Christ's death and Resurrection. Grace is not permission to sin but power to live a new life.
-MN: Het doopsel is een werkelijke deelname aan Christus' dood en Verrijzenis. Genade is geen toestemming om te zondigen, maar kracht om een nieuw leven te leiden.
+MN: De doop is een werkelijke deelname aan Christus' dood en Verrijzenis. Genade is geen toestemming om te zondigen, maar kracht om een nieuw leven te leiden.
 F: This chapter is read at every Orthodox baptism. The Fathers explained the threefold immersion as burial with Christ for three days and rising with Him.
-FN: Dit hoofdstuk wordt bij elk orthodox doopsel gelezen. De Vaders legden de drievoudige onderdompeling uit als begraven worden met Christus voor drie dagen en met Hem opstaan.
+FN: Dit hoofdstuk wordt bij elke orthodoxe doop gelezen. De kerkvaders legden de drievoudige onderdompeling uit als begraven worden met Christus voor drie dagen en met Hem opstaan.
 T: Baptism; New life; Freedom from sin
-TN: Doopsel; Nieuw leven; Vrijheid van zonde
+TN: Doop; Nieuw leven; Vrijheid van zonde
 
 ## 7 | The Law and the struggle within | De Wet en de innerlijke strijd
 S: As a wife is freed from the law of marriage by her husband's death, so we have died to the Law through the body of Christ, to belong to Him who was raised. The Law is holy and good, but sin used the commandment to deceive and kill. I do not do the good I want, but the evil I do not want. I delight in God's Law in my inner being, but I see another law in my members. Wretched man that I am! Who will deliver me? Thanks be to God through Jesus Christ our Lord.
@@ -66,7 +66,7 @@ SN: Zoals een vrouw door de dood van haar man vrij is van de wet van het huwelij
 M: The Law shows the good but cannot give power to do it. Only Christ delivers from the inner division of the human heart.
 MN: De Wet toont het goede, maar kan geen kracht geven om het te doen. Alleen Christus verlost uit de innerlijke verdeeldheid van het menselijk hart.
 F: Many Eastern Fathers, like St John Chrysostom, read Paul as speaking in the person of humanity under the Law before grace; St Augustine came to read it also of the believer's ongoing struggle.
-FN: Veel oosterse Vaders, zoals de heilige Johannes Chrysostomus, lezen Paulus hier als sprekend namens de mensheid onder de Wet vóór de genade; de heilige Augustinus ging het ook lezen als de blijvende strijd van de gelovige.
+FN: Veel oosterse kerkvaders, zoals de heilige Johannes Chrysostomus, lezen Paulus hier als sprekend namens de mensheid onder de Wet vóór de genade; de heilige Augustinus ging het ook lezen als de blijvende strijd van de gelovige.
 T: The Law; Inner struggle; Deliverance
 TN: De Wet; Innerlijke strijd; Verlossing
 
@@ -76,7 +76,7 @@ SN: Er is nu geen veroordeling voor wie in Christus Jezus zijn. De wet van de Ge
 M: This is the summit of Romans: life in the Spirit, adoption as children of God, hope for all creation, and an unbreakable love.
 MN: Dit is het hoogtepunt van Romeinen: leven in de Geest, aanneming als kinderen van God, hoop voor heel de schepping, en een onverbrekelijke liefde.
 F: The Fathers saw in the groaning of creation the cosmic scope of salvation: the whole world will share in the glory of the children of God. 'The Spirit intercedes for us' was for them the foundation of prayer of the heart.
-FN: De Vaders zagen in het zuchten van de schepping de kosmische reikwijdte van de verlossing: heel de wereld zal delen in de heerlijkheid van de kinderen van God. 'De Geest pleit voor ons' was voor hen het fundament van het gebed van het hart.
+FN: De kerkvaders zagen in het zuchten van de schepping de kosmische reikwijdte van de verlossing: heel de wereld zal delen in de heerlijkheid van de kinderen van God. 'De Geest pleit voor ons' was voor hen het fundament van het gebed van het hart.
 T: Holy Spirit; Adoption; Hope of creation
 TN: Heilige Geest; Kindschap; Hoop van de schepping
 
@@ -86,7 +86,7 @@ SN: Paulus heeft groot verdriet om zijn volksgenoten: aan hen behoren het kindsc
 M: Paul's anguish for Israel teaches the Church to love the Jewish people. Christ is called 'God over all, blessed forever'.
 MN: De zielenpijn van Paulus om Israël leert de Kerk het Joodse volk lief te hebben. Christus wordt 'God boven alles, geprezen in eeuwigheid' genoemd.
 F: The Fathers, among them St Irenaeus and St Athanasius, cited 9:5 as a clear witness that Christ is God. St John Chrysostom insists that election does not remove human freedom.
-FN: De Vaders, onder wie de heilige Irenaeus en de heilige Athanasius, haalden 9:5 aan als duidelijk getuigenis dat Christus God is. De heilige Johannes Chrysostomus benadrukt dat de verkiezing de menselijke vrijheid niet opheft.
+FN: De kerkvaders, onder wie de heilige Irenaeus en de heilige Athanasius, haalden 9:5 aan als duidelijk getuigenis dat Christus God is. De heilige Johannes Chrysostomus benadrukt dat de verkiezing de menselijke vrijheid niet opheft.
 T: Israel; Election; Divinity of Christ
 TN: Israël; Verkiezing; Godheid van Christus
 
@@ -96,7 +96,7 @@ SN: Christus is het einde, het doel, van de Wet tot gerechtigheid voor ieder die
 M: Faith joins heart and mouth, inner trust and public confession. The Church is sent so that all may hear.
 MN: Geloof verbindt hart en mond, innerlijk vertrouwen en openlijke belijdenis. De Kerk is gezonden opdat allen zouden horen.
 F: 'Jesus is Lord' is among the earliest Christian confessions of faith. The Fathers cite 'how beautiful are the feet of those who preach the good news' in honour of the apostles and missionaries.
-FN: 'Jezus is Heer' behoort tot de vroegste christelijke geloofsbelijdenissen. De Vaders halen 'hoe lieflijk zijn de voeten van wie het goede nieuws brengen' aan ter ere van de apostelen en missionarissen.
+FN: 'Jezus is Heer' behoort tot de vroegste christelijke geloofsbelijdenissen. De kerkvaders halen 'hoe lieflijk zijn de voeten van wie het goede nieuws brengen' aan ter ere van de apostelen en missionarissen.
 T: Confession of faith; Preaching; Salvation
 TN: Geloofsbelijdenis; Prediking; Redding
 
@@ -106,7 +106,7 @@ SN: Heeft God Zijn volk verstoten? Volstrekt niet; er is een rest die door genad
 M: The Church is grafted onto Israel's root and must never despise it. God's faithfulness to Israel endures, and His mercy embraces all.
 MN: De Kerk is op de wortel van Israël geënt en mag die nooit verachten. Gods trouw aan Israël blijft, en Zijn barmhartigheid omvat allen.
 F: Many Fathers expected that Israel would turn to Christ before the end. The Second Vatican Council quoted 11:29, the irrevocable calling of Israel, in Nostra Aetate.
-FN: Veel Vaders verwachtten dat Israël zich vóór het einde tot Christus zou keren. Het Tweede Vaticaans Concilie citeerde 11:29, de onberouwelijke roeping van Israël, in Nostra Aetate.
+FN: Veel kerkvaders verwachtten dat Israël zich vóór het einde tot Christus zou keren. Het Tweede Vaticaans Concilie citeerde 11:29, de onberouwelijke roeping van Israël, in Nostra Aetate.
 T: Israel; Humility; God's wisdom
 TN: Israël; Nederigheid; Gods wijsheid
 
@@ -116,7 +116,7 @@ SN: Stel uw lichamen ter beschikking als een levend, heilig en God welgevallig o
 M: The whole of life becomes worship. Doctrine (chapters 1–11) now becomes life: transformed minds, shared gifts, sincere love.
 MN: Heel het leven wordt eredienst. De leer (hoofdstukken 1–11) wordt nu leven: veranderd denken, gedeelde gaven, oprechte liefde.
 F: The Fathers called this 'logical worship' (logike latreia) and connected it with the Eucharist, the 'reasonable and bloodless sacrifice' of the Liturgy. 'Be transformed' was for them the path to theosis.
-FN: De Vaders noemden dit 'redelijke eredienst' (logikè latreia) en verbonden het met de eucharistie, het 'redelijke en onbloedige offer' van de liturgie. 'Word veranderd' was voor hen de weg naar de vergoddelijking.
+FN: De kerkvaders noemden dit 'redelijke eredienst' (logikè latreia) en verbonden het met de eucharistie, het 'redelijke en onbloedige offer' van de liturgie. 'Word veranderd' was voor hen de weg naar de vergoddelijking.
 T: Worship; Body of Christ; Love
 TN: Eredienst; Lichaam van Christus; Liefde
 
@@ -126,7 +126,7 @@ SN: Laat ieder zich onderwerpen aan de overheden, want er is geen gezag dan van 
 M: Christians are good citizens, while their first loyalty is to God. Love sums up every commandment.
 MN: Christenen zijn goede burgers, terwijl hun eerste trouw aan God toekomt. De liefde vat alle geboden samen.
 F: St Augustine was converted on reading 13:13–14 in a garden in Milan after hearing a child's voice say 'take up and read', as he tells in his Confessions. The Fathers taught that authority comes from God, but an order contrary to God must not be obeyed.
-FN: De heilige Augustinus kwam tot bekering toen hij in een tuin in Milaan 13:13–14 las, nadat hij een kinderstem had horen zeggen 'neem en lees', zoals hij in zijn Belijdenissen vertelt. De Vaders leerden dat gezag van God komt, maar dat een bevel tegen God niet gehoorzaamd mag worden.
+FN: De heilige Augustinus kwam tot bekering toen hij in een tuin in Milaan 13:13–14 las, nadat hij een kinderstem had horen zeggen 'neem en lees', zoals hij in zijn Belijdenissen vertelt. De kerkvaders leerden dat gezag van God komt, maar dat een bevel tegen God niet gehoorzaamd mag worden.
 T: Authority; Love fulfils the Law; Put on Christ
 TN: Gezag; Liefde vervult de Wet; Bekleed u met Christus
 
@@ -136,7 +136,7 @@ SN: Ontvang wie zwak is in het geloof, zonder te twisten over meningen. De een e
 M: Love limits freedom for the sake of the weaker brother. Unity matters more than winning arguments on secondary things.
 MN: Liefde beperkt de vrijheid omwille van de zwakkere broeder. Eenheid is belangrijker dan het winnen van discussies over bijzaken.
 F: The Fathers applied this chapter to fasting: those who fast should not despise those who cannot, and those who eat should not mock those who fast. 'Whether we live or die, we are the Lord's' is sung in services for the departed.
-FN: De Vaders pasten dit hoofdstuk toe op het vasten: wie vast, mag wie niet kan niet verachten, en wie eet, mag niet spotten met wie vast. 'Of wij leven of sterven, wij zijn van de Heer' klinkt in diensten voor de overledenen.
+FN: De kerkvaders pasten dit hoofdstuk toe op het vasten: wie vast, mag wie niet kan niet verachten, en wie eet, mag niet spotten met wie vast. 'Of wij leven of sterven, wij zijn van de Heer' klinkt in diensten voor de overledenen.
 T: Charity; Conscience; Unity
 TN: Naastenliefde; Geweten; Eenheid
 
@@ -146,7 +146,7 @@ SN: De sterken moeten de zwakheden van de zwakken dragen, niet om zichzelf te be
 M: Christ's welcome is the pattern for the Church's welcome. United voices in worship are the goal of all mission.
 MN: Christus' ontvangst is het voorbeeld voor de ontvangst door de Kerk. Eensgezinde stemmen in de eredienst zijn het doel van alle zending.
 F: St Clement of Rome, writing soon after, says Paul reached 'the limits of the West', which many Fathers took as his journey to Spain.
-FN: De heilige Clemens van Rome, die kort daarna schreef, zegt dat Paulus 'de grenzen van het Westen' bereikte, wat veel Vaders opvatten als zijn reis naar Spanje.
+FN: De heilige Clemens van Rome, die kort daarna schreef, zegt dat Paulus 'de grenzen van het Westen' bereikte, wat veel kerkvaders opvatten als zijn reis naar Spanje.
 T: Welcome; Harmony; Mission
 TN: Ontvangst; Eensgezindheid; Zending
 

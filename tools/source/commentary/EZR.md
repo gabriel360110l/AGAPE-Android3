@@ -6,7 +6,7 @@ SN: In het eerste jaar van Cyrus, de koning van Perzië, opdat het woord van de 
 M: God keeps His word through a pagan king, and He stirs the hearts both of the king and of those who go. Return from exile begins with God's initiative.
 MN: God houdt Zijn woord door een heidense koning, en Hij wekt zowel het hart van de koning als dat van wie gaan. De terugkeer uit de ballingschap begint met Gods initiatief.
 F: The Fathers read the return from Babylon as a figure of the soul's return from the captivity of sin, made possible because God first stirs the heart. The holy vessels, carried off and now restored, were seen as an image of the gifts of grace that sin cannot finally destroy. The Venerable Bede, who wrote a commentary on Ezra and Nehemiah, read the whole return as the building up of the Church.
-FN: De Vaders lazen de terugkeer uit Babel als een voorafbeelding van de terugkeer van de ziel uit de gevangenschap van de zonde, mogelijk gemaakt omdat God eerst het hart opwekt. De heilige voorwerpen, weggevoerd en nu teruggegeven, werden gezien als een beeld van de gaven van de genade die de zonde niet definitief kan vernietigen. De eerwaarde Beda, die een commentaar op Ezra en Nehemia schreef, las de hele terugkeer als de opbouw van de Kerk.
+FN: De kerkvaders lazen de terugkeer uit Babel als een voorafbeelding van de terugkeer van de ziel uit de gevangenschap van de zonde, mogelijk gemaakt omdat God eerst het hart opwekt. De heilige voorwerpen, weggevoerd en nu teruggegeven, werden gezien als een beeld van de gaven van de genade die de zonde niet definitief kan vernietigen. De eerwaarde Beda, die een commentaar op Ezra en Nehemia schreef, las de hele terugkeer als de opbouw van de Kerk.
 T: God stirs the heart; Return from exile; Restored vessels
 TN: God wekt het hart; Terugkeer uit ballingschap; Teruggegeven voorwerpen
 
@@ -16,7 +16,7 @@ SN: Dit is de lijst van de mensen van het gewest die uit de gevangenschap optrok
 M: Every returning family is named; none is forgotten. The renewed community is built from real people who chose to come back and gave what they could.
 MN: Elke terugkerende familie wordt bij naam genoemd; niemand wordt vergeten. De vernieuwde gemeenschap wordt gebouwd uit echte mensen die ervoor kozen terug te komen en gaven wat zij konden.
 F: The Fathers saw in these lists the truth that God knows His own by name, as the Good Shepherd calls His sheep by name. The giving 'according to ability' was read with St Paul's teaching that God loves a cheerful giver and receives each gift according to what one has.
-FN: De Vaders zagen in deze lijsten de waarheid dat God de Zijnen bij naam kent, zoals de Goede Herder Zijn schapen bij naam roept. Het geven 'naar vermogen' werd gelezen samen met het onderwijs van de heilige Paulus dat God een blijmoedige gever liefheeft en elke gave ontvangt naar wat men heeft.
+FN: De kerkvaders zagen in deze lijsten de waarheid dat God de Zijnen bij naam kent, zoals de Goede Herder Zijn schapen bij naam roept. Het geven 'naar vermogen' werd gelezen samen met het onderwijs van de heilige Paulus dat God een blijmoedige gever liefheeft en elke gave ontvangt naar wat men heeft.
 T: Known by name; Choosing to return; Giving according to ability
 TN: Bij naam gekend; Kiezen om terug te keren; Geven naar vermogen
 
@@ -26,7 +26,7 @@ SN: In de zevende maand verzamelt het volk zich als één man in Jeruzalem. De p
 M: Worship is restored first, even before the walls and the temple: the altar comes before everything else. Joy and grief mingle when a new beginning recalls what was lost.
 MN: De eredienst wordt eerst hersteld, nog vóór de muren en de tempel: het altaar komt vóór al het andere. Vreugde en verdriet vermengen zich wanneer een nieuw begin herinnert aan wat verloren is.
 F: The Fathers noted that the returnees built the altar before anything else, teaching that renewal begins with worship and sacrifice. The mingled weeping and rejoicing were read as an image of the Christian life, in which sorrow for sin and joy in God's mercy go together, what Eastern spiritual writers such as St John Climacus call 'joy-making mourning'.
-FN: De Vaders merkten op dat de teruggekeerden eerst het altaar bouwden, wat leert dat vernieuwing begint met aanbidding en offer. Het vermengde wenen en juichen werd gelezen als een beeld van het christelijk leven, waarin droefheid over de zonde en vreugde over Gods barmhartigheid samengaan, wat oosterse geestelijke schrijvers zoals de heilige Johannes Climacus 'vreugdebrengende rouw' noemen.
+FN: De kerkvaders merkten op dat de teruggekeerden eerst het altaar bouwden, wat leert dat vernieuwing begint met aanbidding en offer. Het vermengde wenen en juichen werd gelezen als een beeld van het christelijk leven, waarin droefheid over de zonde en vreugde over Gods barmhartigheid samengaan, wat oosterse geestelijke schrijvers zoals de heilige Johannes Climacus 'vreugdebrengende rouw' noemen.
 T: The altar first; Praise restored; Joy and tears together
 TN: Eerst het altaar; Herstelde lof; Vreugde en tranen samen
 
@@ -36,7 +36,7 @@ SN: De tegenstanders van Juda en Benjamin horen dat de teruggekeerde ballingen e
 M: God's work meets opposition, sometimes as an offer of mixed cooperation, sometimes as fear and accusation. Discouragement can halt the work for years.
 MN: Gods werk stuit op tegenstand, soms als een aanbod van gemengde samenwerking, soms als angst en beschuldiging. Ontmoediging kan het werk jaren stilleggen.
 F: The Fathers saw in the adversaries who offered to 'build with you' the danger of help from those who do not share the true faith, and in the false accusations the pattern of the persecutions the Church would suffer. They drew the lesson that fear and discouragement are among the enemy's chief weapons against God's work.
-FN: De Vaders zagen in de tegenstanders die aanboden 'met u te bouwen' het gevaar van hulp van wie het ware geloof niet delen, en in de valse beschuldigingen het patroon van de vervolgingen die de Kerk zou lijden. Zij leerden de les dat angst en ontmoediging tot de voornaamste wapens van de vijand tegen Gods werk behoren.
+FN: De kerkvaders zagen in de tegenstanders die aanboden 'met u te bouwen' het gevaar van hulp van wie het ware geloof niet delen, en in de valse beschuldigingen het patroon van de vervolgingen die de Kerk zou lijden. Zij leerden de les dat angst en ontmoediging tot de voornaamste wapens van de vijand tegen Gods werk behoren.
 T: Opposition; Discouragement; False accusation
 TN: Tegenstand; Ontmoediging; Valse beschuldiging
 
@@ -46,7 +46,7 @@ SN: De profeten Haggai en Zacharia profeteren tot de Joden in Juda en Jeruzalem 
 M: The word of God through the prophets restarts the stalled work. The builders openly confess whose servants they are.
 MN: Het woord van God door de profeten zet het stilgevallen werk weer in gang. De bouwers belijden openlijk wiens dienaren zij zijn.
 F: The Fathers saw the prophets standing with the builders as an image of the word of God that strengthens the Church's work, and loved the confession 'we are the servants of the God of heaven and earth' as the simple and fearless answer of believers before worldly authorities, like the answers of the martyrs.
-FN: De Vaders zagen de profeten die bij de bouwers stonden als een beeld van het woord van God dat het werk van de Kerk versterkt, en hielden van de belijdenis 'wij zijn de dienaren van de God van hemel en aarde' als het eenvoudige en onbevreesde antwoord van gelovigen voor wereldlijke machten, zoals de antwoorden van de martelaren.
+FN: De kerkvaders zagen de profeten die bij de bouwers stonden als een beeld van het woord van God dat het werk van de Kerk versterkt, en hielden van de belijdenis 'wij zijn de dienaren van de God van hemel en aarde' als het eenvoudige en onbevreesde antwoord van gelovigen voor wereldlijke machten, zoals de antwoorden van de martelaren.
 T: God's word restarts the work; Confession before rulers; God's watchful eye
 TN: Gods woord zet het werk weer in gang; Belijdenis voor heersers; Gods waakzaam oog
 
@@ -56,7 +56,7 @@ SN: Darius laat zoeken, en in Ekbatana wordt een rol gevonden met het besluit va
 M: What opponents meant to stop becomes the occasion for royal support. The temple is finished with joy, and those who turn from impurity to seek the Lord are welcomed to the Passover.
 MN: Wat tegenstanders wilden stoppen, wordt de aanleiding voor koninklijke steun. De tempel wordt met vreugde voltooid, en wie zich van onreinheid afkeren om de Heer te zoeken, worden welkom geheten bij het Pascha.
 F: The Fathers saw God's providence in the decree found in the archives, turning the enemies' complaint into help. Darius's request that prayers be offered for the king was linked with St Paul's call to pray for kings and all in authority, a practice kept in every Christian liturgy.
-FN: De Vaders zagen Gods voorzienigheid in het besluit dat in de archieven gevonden werd, waardoor de klacht van de vijanden in hulp veranderde. Het verzoek van Darius om voor de koning te bidden werd verbonden met de oproep van de heilige Paulus om te bidden voor koningen en allen die gezag hebben, een gebruik dat in elke christelijke liturgie bewaard is.
+FN: De kerkvaders zagen Gods voorzienigheid in het besluit dat in de archieven gevonden werd, waardoor de klacht van de vijanden in hulp veranderde. Het verzoek van Darius om voor de koning te bidden werd verbonden met de oproep van de heilige Paulus om te bidden voor koningen en allen die gezag hebben, een gebruik dat in elke christelijke liturgie bewaard is.
 T: Providence; Dedication with joy; Prayer for rulers
 TN: Voorzienigheid; Inwijding met vreugde; Gebed voor heersers
 
@@ -66,7 +66,7 @@ SN: Onder de regering van Artaxerxes trekt Ezra, een priester uit het geslacht v
 M: Ezra's life follows a clear order: study God's word, do it, then teach it. God's good hand rests on such a heart.
 MN: Het leven van Ezra volgt een duidelijke volgorde: Gods woord onderzoeken, het doen, en het dan onderwijzen. Gods goede hand rust op zo'n hart.
 F: The Fathers held up Ezra 7:10 as the rule for every teacher in the Church: first to study, then to practise, and only then to teach, as St Gregory the Theologian insisted that one must be purified before purifying others. Some early Fathers, such as St Irenaeus, held that Ezra was inspired by God to restore the Scriptures after the exile.
-FN: De Vaders stelden Ezra 7:10 voor als de regel voor elke leraar in de Kerk: eerst onderzoeken, dan in praktijk brengen, en pas dan onderwijzen, zoals de heilige Gregorius de Theoloog benadrukte dat men gereinigd moet zijn voordat men anderen reinigt. Sommige vroege Vaders, zoals de heilige Irenaeus, meenden dat Ezra door God geïnspireerd werd om na de ballingschap de Schriften te herstellen.
+FN: De kerkvaders stelden Ezra 7:10 voor als de regel voor elke leraar in de Kerk: eerst onderzoeken, dan in praktijk brengen, en pas dan onderwijzen, zoals de heilige Gregorius de Theoloog benadrukte dat men gereinigd moet zijn voordat men anderen reinigt. Sommige vroege kerkvaders, zoals de heilige Irenaeus, meenden dat Ezra door God geïnspireerd werd om na de ballingschap de Schriften te herstellen.
 T: Study, do, teach; God's good hand; Restoring the Law
 TN: Onderzoeken, doen, onderwijzen; Gods goede hand; Herstel van de wet
 
@@ -76,7 +76,7 @@ SN: De familiehoofden die met Ezra optrekken, worden opgesomd. Bij de rivier de 
 M: Ezra's words about God's protection must be matched by his actions. Fasting and prayer replace an armed escort.
 MN: De woorden van Ezra over Gods bescherming moeten overeenkomen met zijn daden. Vasten en gebed vervangen een gewapend escorte.
 F: The Fathers admired Ezra's refusal to ask for soldiers after confessing God's protection, as the consistency between faith professed and faith lived. They held up the fast at Ahava as an example of preparing every undertaking with fasting and prayer, as the Church does before great feasts and important decisions.
-FN: De Vaders bewonderden de weigering van Ezra om soldaten te vragen nadat hij Gods bescherming beleden had, als de overeenstemming tussen beleden en geleefd geloof. Zij stelden het vasten bij de Ahava voor als voorbeeld van het voorbereiden van elke onderneming met vasten en gebed, zoals de Kerk doet vóór grote feesten en belangrijke beslissingen.
+FN: De kerkvaders bewonderden de weigering van Ezra om soldaten te vragen nadat hij Gods bescherming beleden had, als de overeenstemming tussen beleden en geleefd geloof. Zij stelden het vasten bij de Ahava voor als voorbeeld van het voorbereiden van elke onderneming met vasten en gebed, zoals de Kerk doet vóór grote feesten en belangrijke beslissingen.
 T: Living what we profess; Fasting before a journey; God's protecting hand
 TN: Leven wat wij belijden; Vasten vóór een reis; Gods beschermende hand
 
@@ -86,7 +86,7 @@ SN: De leiders melden dat het volk, de priesters en de Levieten zich niet afgezo
 M: Ezra does not accuse the people from a distance; he confesses their sin as 'our' sin. True repentance knows both shame and God's undeserved mercy.
 MN: Ezra beschuldigt het volk niet van een afstand; hij belijdt hun zonde als 'onze' zonde. Ware bekering kent zowel schaamte als Gods onverdiende barmhartigheid.
 F: The Fathers loved Ezra's prayer at the hour of the evening sacrifice as a model of intercession that identifies with the sinner, as Daniel and Nehemiah also prayed. 'I am ashamed to lift my face to You' resembles the tax collector in the temple who would not lift his eyes to heaven, and the penitential prayers of the Church.
-FN: De Vaders hielden van het gebed van Ezra op het uur van het avondoffer als voorbeeld van voorbede die zich met de zondaar vereenzelvigt, zoals ook Daniël en Nehemia baden. 'Ik schaam mij mijn gezicht naar U op te heffen' lijkt op de tollenaar in de tempel die zijn ogen niet naar de hemel wilde opheffen, en op de boetegebeden van de Kerk.
+FN: De kerkvaders hielden van het gebed van Ezra op het uur van het avondoffer als voorbeeld van voorbede die zich met de zondaar vereenzelvigt, zoals ook Daniël en Nehemia baden. 'Ik schaam mij mijn gezicht naar U op te heffen' lijkt op de tollenaar in de tempel die zijn ogen niet naar de hemel wilde opheffen, en op de boetegebeden van de Kerk.
 T: Confession as 'we'; Shame and mercy; Intercession
 TN: Belijdenis als 'wij'; Schaamte en barmhartigheid; Voorbede
 
@@ -96,6 +96,6 @@ SN: Terwijl Ezra bidt en belijdt, wenend en neergeworpen voor het huis van God, 
 M: Even after grave unfaithfulness there is hope, if the people return to God together. The concern is fidelity to the covenant, not ethnicity, at a moment when the small community could have dissolved into idolatry.
 MN: Zelfs na ernstige ontrouw is er hoop, als het volk samen tot God terugkeert. Het gaat om trouw aan het verbond, niet om afkomst, op een moment dat de kleine gemeenschap in afgoderij had kunnen opgaan.
 F: The Fathers loved Shecaniah's words, 'there is hope for Israel in spite of this', as a word against despair after sin. They read the separation spiritually, as separation from sin and false teaching, and did not make it a rule for Christian marriages: St Paul instructs a believer not to leave an unbelieving spouse who is willing to stay, for the believing spouse sanctifies the marriage.
-FN: De Vaders hielden van de woorden van Sechanja, 'er is nog hoop voor Israël ondanks dit', als een woord tegen wanhoop na de zonde. Zij lazen de afscheiding geestelijk, als afscheiding van zonde en dwaalleer, en maakten er geen regel van voor christelijke huwelijken: de heilige Paulus draagt een gelovige op een ongelovige echtgenoot die wil blijven niet te verlaten, want de gelovige echtgenoot heiligt het huwelijk.
+FN: De kerkvaders hielden van de woorden van Sechanja, 'er is nog hoop voor Israël ondanks dit', als een woord tegen wanhoop na de zonde. Zij lazen de afscheiding geestelijk, als afscheiding van zonde en dwaalleer, en maakten er geen regel van voor christelijke huwelijken: de heilige Paulus draagt een gelovige op een ongelovige echtgenoot die wil blijven niet te verlaten, want de gelovige echtgenoot heiligt het huwelijk.
 T: Hope after sin; Covenant renewal; Faithfulness
 TN: Hoop na de zonde; Vernieuwing van het verbond; Trouw

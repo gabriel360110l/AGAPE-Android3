@@ -16,7 +16,7 @@ SN: Paulus spoort aan tot smekingen, gebeden, voorbeden en dankzeggingen voor al
 M: God wills the salvation of all, and so the Church prays for all, including rulers. Christ alone mediates between God and humanity.
 MN: God wil de redding van allen, en daarom bidt de Kerk voor allen, ook voor de machthebbers. Christus alleen is middelaar tussen God en de mensheid.
 F: From this chapter come the litanies of the Liturgy, which pray for the whole world, for rulers and for all in need. The Fathers explain that the prayers of the saints do not compete with Christ's mediation but share in it.
-FN: Uit dit hoofdstuk komen de litanieën van de liturgie, die bidden voor heel de wereld, voor machthebbers en voor allen in nood. De Vaders leggen uit dat de gebeden van de heiligen niet concurreren met de middelaarschap van Christus, maar eraan deelhebben.
+FN: Uit dit hoofdstuk komen de litanieën van de liturgie, die bidden voor heel de wereld, voor machthebbers en voor allen in nood. De kerkvaders leggen uit dat de gebeden van de heiligen niet concurreren met de middelaarschap van Christus, maar eraan deelhebben.
 T: Intercession; Universal salvation; One mediator
 TN: Voorbede; Universeel heil; Eén middelaar
 
@@ -26,7 +26,7 @@ SN: Wie naar het ambt van opziener streeft, begeert een goed werk. Hij moet onbe
 M: Ministers must be tested in character before they are ordained. The Church guards the truth, which is Christ Himself.
 MN: Ambtsdragers moeten in hun karakter beproefd zijn voordat zij gewijd worden. De Kerk bewaart de waarheid, die Christus Zelf is.
 F: St John Chrysostom's treatise On the Priesthood reflects on these qualifications, stressing that a bishop must be humble, patient and wise. The Fathers saw in 3:16 an early hymn confessing the Incarnation.
-FN: De verhandeling Over het priesterschap van de heilige Johannes Chrysostomus denkt na over deze vereisten en benadrukt dat een bisschop nederig, geduldig en wijs moet zijn. De Vaders zagen in 3:16 een vroege hymne die de menswording belijdt.
+FN: De verhandeling Over het priesterschap van de heilige Johannes Chrysostomus denkt na over deze vereisten en benadrukt dat een bisschop nederig, geduldig en wijs moet zijn. De kerkvaders zagen in 3:16 een vroege hymne die de menswording belijdt.
 T: Ministry; The Church; Incarnation
 TN: Ambt; De Kerk; Menswording
 
@@ -36,7 +36,7 @@ SN: De Geest zegt dat in latere tijden sommigen van het geloof zullen afvallen, 
 M: Creation is good, and asceticism is for training, not for despising God's gifts. Ordination by the laying on of hands gives a lasting gift of grace.
 MN: De schepping is goed, en ascese is training, geen verachting van Gods gaven. De wijding door handoplegging geeft een blijvende genadegave.
 F: The Fathers used this chapter against dualist sects that condemned marriage and meat as evil, insisting that fasting is a discipline of love, not contempt for creation. The laying on of hands was cited as the apostolic basis of ordination.
-FN: De Vaders gebruikten dit hoofdstuk tegen dualistische sekten die het huwelijk en vlees als kwaad veroordeelden, en benadrukten dat vasten een tucht van liefde is, geen minachting voor de schepping. De handoplegging werd aangehaald als apostolische basis van de wijding.
+FN: De kerkvaders gebruikten dit hoofdstuk tegen dualistische sekten die het huwelijk en vlees als kwaad veroordeelden, en benadrukten dat vasten een tucht van liefde is, geen minachting voor de schepping. De handoplegging werd aangehaald als apostolische basis van de wijding.
 T: Goodness of creation; Spiritual discipline; Ordination
 TN: Goedheid van de schepping; Geestelijke oefening; Wijding
 
@@ -56,6 +56,6 @@ SN: Slaven moeten hun heren eren, opdat Gods naam niet gelasterd wordt. Sommigen
 M: Contentment frees the heart; the love of money enslaves it. Wealth becomes a blessing when it is shared.
 MN: Tevredenheid bevrijdt het hart; geldzucht maakt het tot slaaf. Rijkdom wordt een zegen wanneer hij gedeeld wordt.
 F: 'Guard the deposit' (paratheke) was for St Vincent of Lérins the charge to keep the faith handed down 'everywhere, always and by all'. The Fathers often quoted 'the love of money is the root of all evil' in their preaching on almsgiving.
-FN: 'Bewaar het pand' (parathèkè) was voor de heilige Vincentius van Lérins de opdracht om het geloof te bewaren dat 'overal, altijd en door allen' is doorgegeven. De Vaders haalden 'de geldzucht is de wortel van alle kwaad' vaak aan in hun preken over het geven van aalmoezen.
+FN: 'Bewaar het pand' (parathèkè) was voor de heilige Vincentius van Lérins de opdracht om het geloof te bewaren dat 'overal, altijd en door allen' is doorgegeven. De kerkvaders haalden 'de geldzucht is de wortel van alle kwaad' vaak aan in hun preken over het geven van aalmoezen.
 T: Contentment; Generosity; Guarding the faith
 TN: Tevredenheid; Vrijgevigheid; Het geloof bewaren

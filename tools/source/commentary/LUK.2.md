@@ -6,7 +6,7 @@ SN: Als Hem verteld wordt over Galileeërs die door Pilatus gedood zijn, zegt Je
 M: Disasters are not a measure of guilt but a call to conversion. God's patience gives time, but not endless time, to bear fruit.
 MN: Rampen zijn geen maatstaf voor schuld, maar een oproep tot bekering. Gods geduld geeft tijd om vrucht te dragen, maar geen eindeloze tijd.
 F: The Fathers see in the vinedresser who pleads for the fig tree an image of Christ interceding for us, and in the bent woman the soul bowed down by sin, which Christ lifts up to see heaven.
-FN: De Vaders zien in de wijngaardenier die voor de vijgenboom pleit een beeld van Christus die voor ons voorspraak doet, en in de kromgebogen vrouw de ziel die door de zonde gebogen is en die Christus opricht om de hemel te zien.
+FN: De kerkvaders zien in de wijngaardenier die voor de vijgenboom pleit een beeld van Christus die voor ons voorspraak doet, en in de kromgebogen vrouw de ziel die door de zonde gebogen is en die Christus opricht om de hemel te zien.
 T: Repentance; Patience of God; Healing
 TN: Bekering; Gods geduld; Genezing
 
@@ -46,7 +46,7 @@ SN: Jezus waarschuwt ervoor anderen tot zonde te brengen en gebiedt vergeving, z
 M: Healing is completed by thanksgiving. The grateful Samaritan receives more than health: your faith has saved you.
 MN: Genezing wordt voltooid door dankzegging. De dankbare Samaritaan ontvangt meer dan gezondheid: je geloof heeft je gered.
 F: The Fathers note that 'Eucharist' means thanksgiving, and that the one leper who returned is a figure of the Church giving thanks to Christ for salvation.
-FN: De Vaders merken op dat 'eucharistie' dankzegging betekent, en dat de ene melaatse die terugkeerde een beeld is van de Kerk die Christus dankt voor het heil.
+FN: De kerkvaders merken op dat 'eucharistie' dankzegging betekent, en dat de ene melaatse die terugkeerde een beeld is van de Kerk die Christus dankt voor het heil.
 T: Gratitude; Faith; Forgiveness
 TN: Dankbaarheid; Geloof; Vergeving
 
@@ -55,8 +55,8 @@ S: Jesus tells of a widow who wears down an unjust judge, to teach that we shoul
 SN: Jezus vertelt over een weduwe die een onrechtvaardige rechter afmat, om te leren dat wij altijd moeten bidden en niet de moed verliezen. Een farizeeër bidt en dankt God dat hij niet is als andere mensen; een tollenaar staat op afstand en slaat zich op de borst: God, wees mij zondaar genadig; hij gaat gerechtvaardigd naar huis. Jezus verwelkomt kinderen, zegt een rijke overste alles te verkopen, voorzegt Zijn lijden en geneest een blinde bedelaar bij Jericho die roept: Zoon van David, ontferm U over mij.
 M: Prayer must be persistent and humble. God hears not the one who displays his virtues but the one who confesses his need.
 MN: Gebed moet volhardend en nederig zijn. God hoort niet wie zijn deugden toont, maar wie zijn nood belijdt.
-F: The prayer of the tax collector, with the cry of the blind man, became part of the Jesus Prayer of the Eastern Church. The Orthodox Church begins the Lenten Triodion with this parable, teaching that humility is the door of repentance.
-FN: Het gebed van de tollenaar werd, met de roep van de blinde, een deel van het Jezusgebed van de Oosterse Kerk. De Orthodoxe Kerk begint de Triodion van de Vasten met deze gelijkenis en leert dat nederigheid de deur van de boetvaardigheid is.
+F: St Cyril of Alexandria, in his Commentary on Luke (Homily 120), warns that fasting and tithes are worth nothing when they are joined to pride and the judging of others, while the tax collector shows his sickness to the Physician and goes home justified. The prayer of the tax collector, with the cry of the blind man, became part of the Jesus Prayer of the Eastern Church. The Orthodox Church begins the Lenten Triodion with this parable, teaching that humility is the door of repentance.
+FN: De heilige Cyrillus van Alexandrië waarschuwt in zijn Commentaar op Lucas (Homilie 120) dat vasten en tienden niets waard zijn wanneer ze gepaard gaan met hoogmoed en het oordelen over anderen, terwijl de tollenaar zijn ziekte aan de Arts toont en gerechtvaardigd naar huis gaat. Het gebed van de tollenaar werd, met de roep van de blinde, een deel van het Jezusgebed van de Oosterse Kerk. De Orthodoxe Kerk begint de Triodion van de Vasten met deze gelijkenis en leert dat nederigheid de deur van de boetvaardigheid is.
 T: Persevering prayer; Humility; Mercy
 TN: Volhardend gebed; Nederigheid; Barmhartigheid
 
@@ -66,7 +66,7 @@ SN: In Jericho klimt de hoofdtollenaar Zacheüs in een vijgenboom om Jezus te zi
 M: Conversion shows itself in restored justice and generosity. Christ weeps over those who refuse His peace.
 MN: Bekering toont zich in hersteld recht en vrijgevigheid. Christus weent over wie Zijn vrede weigeren.
 F: The Fathers see Zacchaeus' small stature as the smallness of a soul that must rise above the crowd of worldly concerns to see Christ. The Orthodox Church reads his story on the Sunday that announces the coming of Lent.
-FN: De Vaders zien de kleine gestalte van Zacheüs als de kleinheid van een ziel die boven de menigte van aardse zorgen moet uitstijgen om Christus te zien. De Orthodoxe Kerk leest zijn verhaal op de zondag die de komst van de Vasten aankondigt.
+FN: De kerkvaders zien de kleine gestalte van Zacheüs als de kleinheid van een ziel die boven de menigte van aardse zorgen moet uitstijgen om Christus te zien. De Orthodoxe Kerk leest zijn verhaal op de zondag die de komst van de Vasten aankondigt.
 T: Conversion; Seeking the lost; Visitation
 TN: Bekering; Het verlorene zoeken; Bezoeking
 
@@ -76,7 +76,7 @@ SN: De hogepriesters vragen met welk gezag Jezus handelt; Hij vraagt hen naar de
 M: Christ is David's son and David's Lord: man and God. The dead live to God, the ground of our hope in the resurrection.
 MN: Christus is de zoon van David en de Heer van David: mens en God. De doden leven voor God, de grond van onze hoop op de opstanding.
 F: The Fathers drew from 'all live to Him' the faith of the Church that the departed saints are alive in God, which is why the Church remembers them and asks their prayers.
-FN: De Vaders putten uit 'voor Hem leven allen' het geloof van de Kerk dat de ontslapen heiligen leven in God, en daarom gedenkt de Kerk hen en vraagt zij hun gebed.
+FN: De kerkvaders putten uit 'voor Hem leven allen' het geloof van de Kerk dat de ontslapen heiligen leven in God, en daarom gedenkt de Kerk hen en vraagt zij hun gebed.
 T: Authority of Christ; Resurrection; Son of David
 TN: Gezag van Christus; Opstanding; Zoon van David
 
@@ -86,7 +86,7 @@ SN: Jezus ziet een arme weduwe twee kleine muntjes geven en zegt dat zij meer ga
 M: The end is not a reason for fear but for lifting up our heads in hope. Endurance and prayer guard the heart.
 MN: Het einde is geen reden tot angst, maar om in hoop het hoofd op te heffen. Volharding en gebed bewaken het hart.
 F: The Fathers, among them St John Chrysostom, saw the destruction of Jerusalem in AD 70 as the clear fulfilment of the first part of this prophecy, which strengthened faith in the rest.
-FN: De Vaders, onder wie de heilige Johannes Chrysostomus, zagen de verwoesting van Jeruzalem in het jaar 70 als de duidelijke vervulling van het eerste deel van deze profetie, wat het geloof in de rest versterkte.
+FN: De kerkvaders, onder wie de heilige Johannes Chrysostomus, zagen de verwoesting van Jeruzalem in het jaar 70 als de duidelijke vervulling van het eerste deel van deze profetie, wat het geloof in de rest versterkte.
 T: Generosity; Endurance; Hope
 TN: Vrijgevigheid; Volharding; Hoop
 
@@ -96,7 +96,7 @@ SN: Satan vaart in Judas, die belooft Jezus te verraden. Bij het paasmaal zegt J
 M: In the Eucharist Christ gives Himself as the new covenant. His look at Peter is not condemnation but a call home.
 MN: In de eucharistie geeft Christus Zichzelf als het nieuwe verbond. Zijn blik naar Petrus is geen veroordeling, maar een roep om terug te keren.
 F: The Fathers see in the bloody sweat the full reality of Christ's human nature and suffering, against those who said His body was only an appearance. St Ambrose: Peter wept because the Lord looked at him; tears wash away what words cannot.
-FN: De Vaders zien in het bloedzweet de volle werkelijkheid van Christus' menselijke natuur en lijden, tegen hen die zeiden dat Zijn lichaam slechts schijn was. De heilige Ambrosius: Petrus weende omdat de Heer hem aankeek; tranen wassen weg wat woorden niet kunnen.
+FN: De kerkvaders zien in het bloedzweet de volle werkelijkheid van Christus' menselijke natuur en lijden, tegen hen die zeiden dat Zijn lichaam slechts schijn was. De heilige Ambrosius: Petrus weende omdat de Heer hem aankeek; tranen wassen weg wat woorden niet kunnen.
 T: Eucharist; Service; Repentance
 TN: Eucharistie; Dienstbaarheid; Berouw
 
@@ -116,6 +116,6 @@ SN: Vrouwen vinden het graf leeg; twee mannen in stralende kleding vragen: waaro
 M: Emmaus is the shape of every Liturgy: the word opened, then Christ known in the breaking of bread. The whole Old Testament speaks of His suffering and glory.
 MN: Emmaüs is de vorm van elke liturgie: het woord geopend, dan Christus herkend in het breken van het brood. Heel het Oude Testament spreekt over Zijn lijden en heerlijkheid.
 F: The Fathers drew from Christ's opening of the Scriptures their way of reading the whole Bible as pointing to Him. St Augustine says Christ is known in the breaking of bread so that we, who do not see Him in the flesh, may know Him there.
-FN: De Vaders ontleenden aan Christus' opening van de Schriften hun manier om heel de Bijbel te lezen als wijzend naar Hem. De heilige Augustinus zegt dat Christus herkend wordt in het breken van het brood, opdat wij, die Hem niet in het vlees zien, Hem daar zouden kennen.
+FN: De kerkvaders ontleenden aan Christus' opening van de Schriften hun manier om heel de Bijbel te lezen als wijzend naar Hem. De heilige Augustinus zegt dat Christus herkend wordt in het breken van het brood, opdat wij, die Hem niet in het vlees zien, Hem daar zouden kennen.
 T: Resurrection; Word and sacrament; Ascension
 TN: Verrijzenis; Woord en sacrament; Hemelvaart

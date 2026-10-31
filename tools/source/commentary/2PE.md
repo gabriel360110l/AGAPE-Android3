@@ -6,7 +6,7 @@ SN: Zijn goddelijke kracht heeft ons alles geschonken wat tot het leven en de go
 M: The goal of salvation is to share in God's own life. Virtues are steps on this ladder, grounded in the apostles' eyewitness and the Spirit-inspired Scriptures.
 MN: Het doel van de redding is te delen in Gods eigen leven. Deugden zijn treden op die ladder, gegrond in het ooggetuigenverslag van de apostelen en de door de Geest ingegeven Schriften.
 F: 'Partakers of the divine nature' (1:4) is the classic text for theosis in the Eastern Fathers: by grace, not by nature, we become what God is. 'Not by private interpretation' was cited for reading Scripture within the Church.
-FN: 'Deelgenoten van de goddelijke natuur' (1:4) is de klassieke tekst voor de vergoddelijking bij de oosterse Vaders: door genade, niet van nature, worden wij wat God is. 'Niet uit eigen uitleg' werd aangehaald voor het lezen van de Schrift binnen de Kerk.
+FN: 'Deelgenoten van de goddelijke natuur' (1:4) is de klassieke tekst voor de vergoddelijking bij de oosterse kerkvaders: door genade, niet van nature, worden wij wat God is. 'Niet uit eigen uitleg' werd aangehaald voor het lezen van de Schrift binnen de Kerk.
 T: Theosis; Virtues; Inspiration of Scripture
 TN: Vergoddelijking; Deugden; Inspiratie van de Schrift
 
@@ -16,7 +16,7 @@ SN: Zoals er valse profeten waren onder het volk, zo zullen er onder u valse ler
 M: False freedom is slavery to the passions. God protects the faithful in the midst of corruption.
 MN: Valse vrijheid is slavernij aan de hartstochten. God beschermt de gelovigen te midden van het verderf.
 F: The Fathers applied this chapter to the heretics of their time, whose teaching led to moral as well as doctrinal ruin, and warned that true freedom is only found in Christ.
-FN: De Vaders pasten dit hoofdstuk toe op de ketters van hun tijd, wier leer leidde tot zowel morele als leerstellige ondergang, en waarschuwden dat ware vrijheid alleen in Christus te vinden is.
+FN: De kerkvaders pasten dit hoofdstuk toe op de ketters van hun tijd, wier leer leidde tot zowel morele als leerstellige ondergang, en waarschuwden dat ware vrijheid alleen in Christus te vinden is.
 T: Heresy; True freedom; God's protection
 TN: Ketterij; Ware vrijheid; Gods bescherming
 
@@ -26,6 +26,6 @@ SN: Spotters zullen komen die zeggen: waar is de belofte van Zijn komst? Maar bi
 M: God's delay is mercy, giving time for repentance. Creation is not destroyed but renewed into new heavens and a new earth.
 MN: Gods uitstel is barmhartigheid en geeft tijd voor bekering. De schepping wordt niet vernietigd, maar vernieuwd tot nieuwe hemelen en een nieuwe aarde.
 F: The Fathers drew from 3:9 that God desires the salvation of all. Peter's calling Paul's letters 'Scripture' (3:16) was cited as early witness to the New Testament canon.
-FN: De Vaders putten uit 3:9 dat God de redding van allen wil. Dat Petrus de brieven van Paulus 'Schriften' noemt (3:16), werd aangehaald als vroeg getuigenis van de canon van het Nieuwe Testament.
+FN: De kerkvaders putten uit 3:9 dat God de redding van allen wil. Dat Petrus de brieven van Paulus 'Schriften' noemt (3:16), werd aangehaald als vroeg getuigenis van de canon van het Nieuwe Testament.
 T: Patience of God; New creation; Growth in grace
 TN: Gods geduld; Nieuwe schepping; Groei in genade

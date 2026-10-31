@@ -6,7 +6,7 @@ SN: Kronieken begint met namen: Adam, Set, Enos, via Noach en zijn zonen Sem, Ch
 M: Israel's story is set within the story of all humanity from Adam. God's plan begins with the whole human family.
 MN: Het verhaal van Israël wordt geplaatst binnen het verhaal van de hele mensheid vanaf Adam. Gods plan begint met heel de menselijke familie.
 F: The Fathers noted that Chronicles, like Luke's genealogy of Christ, goes back to Adam, showing that salvation concerns the whole human race. St Jerome, who valued Chronicles highly, said that whoever thinks he knows Scripture without it deceives himself.
-FN: De Vaders merkten op dat Kronieken, zoals het geslachtsregister van Christus bij Lucas, teruggaat tot Adam, wat toont dat de verlossing het hele mensengeslacht aangaat. De heilige Hiëronymus, die Kronieken hoog waardeerde, zei dat wie meent de Schrift te kennen zonder dit boek, zichzelf bedriegt.
+FN: De kerkvaders merkten op dat Kronieken, zoals het geslachtsregister van Christus bij Lucas, teruggaat tot Adam, wat toont dat de verlossing het hele mensengeslacht aangaat. De heilige Hiëronymus, die Kronieken hoog waardeerde, zei dat wie meent de Schrift te kennen zonder dit boek, zichzelf bedriegt.
 T: All humanity; Genealogy; God's plan
 TN: De hele mensheid; Geslachtsregister; Gods plan
 
@@ -16,7 +16,7 @@ SN: De zonen van Israël worden genoemd, en daarna de nakomelingen van Juda: doo
 M: Judah comes first among the tribes because from it comes the line of David. Each name is a link in God's long preparation.
 MN: Juda komt als eerste van de stammen, omdat daaruit het geslacht van David voortkomt. Elke naam is een schakel in Gods lange voorbereiding.
 F: The Fathers saw this list from Judah to David repeated in the genealogy of Christ in Matthew and Luke, with Tamar and Boaz among them, and marvelled at God's patience in preparing, generation after generation, the coming of His Son.
-FN: De Vaders zagen deze lijst van Juda tot David herhaald in het geslachtsregister van Christus bij Matteüs en Lucas, met Tamar en Boaz daarin, en verwonderden zich over Gods geduld in het voorbereiden, geslacht na geslacht, van de komst van Zijn Zoon.
+FN: De kerkvaders zagen deze lijst van Juda tot David herhaald in het geslachtsregister van Christus bij Matteüs en Lucas, met Tamar en Boaz daarin, en verwonderden zich over Gods geduld in het voorbereiden, geslacht na geslacht, van de komst van Zijn Zoon.
 T: Judah; The line of David; God's patient preparation
 TN: Juda; Het geslacht van David; Gods geduldige voorbereiding
 
@@ -26,7 +26,7 @@ SN: De zonen die David in Hebron en in Jeruzalem geboren werden, worden genoemd,
 M: Even after the fall of the kingdom, the line of David continues. God's promise of an everlasting house is not forgotten.
 MN: Zelfs na de val van het koninkrijk gaat het geslacht van David verder. Gods belofte van een eeuwig huis wordt niet vergeten.
 F: The Fathers drew comfort from the survival of David's line through exile: Shealtiel and Zerubbabel appear also in Christ's genealogy. It showed them that God keeps His promises through times when everything seems lost.
-FN: De Vaders putten troost uit het voortbestaan van het geslacht van David door de ballingschap heen: Sealthiël en Zerubbabel komen ook voor in het geslachtsregister van Christus. Het toonde hun dat God Zijn beloften houdt door tijden heen waarin alles verloren lijkt.
+FN: De kerkvaders putten troost uit het voortbestaan van het geslacht van David door de ballingschap heen: Sealthiël en Zerubbabel komen ook voor in het geslachtsregister van Christus. Het toonde hun dat God Zijn beloften houdt door tijden heen waarin alles verloren lijkt.
 T: The royal line; Survival through exile; God's promise
 TN: Het koninklijk geslacht; Overleven door de ballingschap; Gods belofte
 
@@ -36,7 +36,7 @@ SN: Er worden meer families van Juda en Simeon genoemd, met hun steden en beroep
 M: In a list of names, one man is remembered for his prayer. God hears the simple, honest prayer of an ordinary person.
 MN: In een lijst van namen wordt één man herinnerd om zijn gebed. God hoort het eenvoudige, eerlijke gebed van een gewoon mens.
 F: The Fathers noticed how Scripture interrupts a genealogy to tell of one man's prayer, as if to say that what makes a life worth remembering before God is prayer. Jabez's request to be kept from harm was taken as a model of humble petition.
-FN: De Vaders merkten op hoe de Schrift een geslachtsregister onderbreekt om over het gebed van één man te vertellen, alsof zij wil zeggen dat wat een leven voor God gedenkwaardig maakt, het gebed is. Het verzoek van Jabez om voor onheil bewaard te worden, werd genomen als voorbeeld van nederige smeekbede.
+FN: De kerkvaders merkten op hoe de Schrift een geslachtsregister onderbreekt om over het gebed van één man te vertellen, alsof zij wil zeggen dat wat een leven voor God gedenkwaardig maakt, het gebed is. Het verzoek van Jabez om voor onheil bewaard te worden, werd genomen als voorbeeld van nederige smeekbede.
 T: Prayer; Remembered by God; Ordinary lives
 TN: Gebed; Door God gedacht; Gewone levens
 
@@ -46,7 +46,7 @@ SN: De geslachtsregisters van Ruben, die zijn eerstgeboorterecht verloor omdat h
 M: Trust brings victory; unfaithfulness brings exile. The same tribes experience both.
 MN: Vertrouwen brengt overwinning; ontrouw brengt ballingschap. Dezelfde stammen ervaren beide.
 F: The Fathers saw in these tribes a summary of the whole lesson of Chronicles: those who cry to God and trust Him are heard, while those who forsake Him lose their inheritance. The theme of crying to God in battle runs through the book.
-FN: De Vaders zagen in deze stammen een samenvatting van de hele les van Kronieken: wie tot God roepen en op Hem vertrouwen, worden verhoord, terwijl wie Hem verlaten, hun erfdeel verliezen. Het thema van roepen tot God in de strijd loopt door het hele boek.
+FN: De kerkvaders zagen in deze stammen een samenvatting van de hele les van Kronieken: wie tot God roepen en op Hem vertrouwen, worden verhoord, terwijl wie Hem verlaten, hun erfdeel verliezen. Het thema van roepen tot God in de strijd loopt door het hele boek.
 T: Trust in battle; Unfaithfulness; Exile
 TN: Vertrouwen in de strijd; Ontrouw; Ballingschap
 
@@ -56,7 +56,7 @@ SN: De nakomelingen van Levi worden genoemd, met het geslacht van hogepriesters 
 M: Worship is central to Israel's identity: priests for sacrifice, Levites for song. Music in God's house is ordered and honoured.
 MN: Eredienst staat centraal in de identiteit van Israël: priesters voor het offer, Levieten voor de zang. Muziek in Gods huis wordt geordend en geëerd.
 F: The Fathers noted that Asaph, Heman and Ethan are named in the titles of many psalms, and saw in David's ordering of temple music the root of the Church's tradition of sacred chant. The continuity of the priesthood was read as a figure of apostolic succession.
-FN: De Vaders merkten op dat Asaf, Heman en Ethan in de opschriften van veel psalmen genoemd worden, en zagen in de ordening van de tempelmuziek door David de wortel van de traditie van gewijde zang in de Kerk. De continuïteit van het priesterschap werd gelezen als een voorafbeelding van de apostolische opvolging.
+FN: De kerkvaders merkten op dat Asaf, Heman en Ethan in de opschriften van veel psalmen genoemd worden, en zagen in de ordening van de tempelmuziek door David de wortel van de traditie van gewijde zang in de Kerk. De continuïteit van het priesterschap werd gelezen als een voorafbeelding van de apostolische opvolging.
 T: Priesthood; Sacred music; Continuity
 TN: Priesterschap; Gewijde muziek; Continuïteit
 
@@ -66,7 +66,7 @@ SN: De geslachtsregisters van Issaschar, Benjamin, Naftali, Manasse, Efraïm en 
 M: Each tribe is remembered, with its sorrows as well as its strength. Grief and comfort are part of the family story.
 MN: Elke stam wordt gedacht, met zijn verdriet en zijn kracht. Rouw en troost horen bij het familieverhaal.
 F: The Fathers noted that even small details of grief and comfort are kept in Scripture, as signs that God remembers every family's sorrows. Joshua's descent from Ephraim was seen as fulfilling Jacob's blessing on Ephraim, the younger son.
-FN: De Vaders merkten op dat zelfs kleine details van rouw en troost in de Schrift bewaard worden, als tekenen dat God het verdriet van elke familie gedenkt. De afstamming van Jozua uit Efraïm werd gezien als vervulling van de zegen van Jakob over Efraïm, de jongere zoon.
+FN: De kerkvaders merkten op dat zelfs kleine details van rouw en troost in de Schrift bewaard worden, als tekenen dat God het verdriet van elke familie gedenkt. De afstamming van Jozua uit Efraïm werd gezien als vervulling van de zegen van Jakob over Efraïm, de jongere zoon.
 T: Remembering every tribe; Grief and comfort; Joshua
 TN: Elke stam gedacht; Rouw en troost; Jozua
 
@@ -76,7 +76,7 @@ SN: De nakomelingen van Benjamin worden genoemd, met families die in Geba, Jeruz
 M: Even the house of Saul, the rejected king, is carefully remembered. The line of Jonathan continues.
 MN: Zelfs het huis van Saul, de verworpen koning, wordt zorgvuldig gedacht. Het geslacht van Jonathan gaat verder.
 F: The Fathers noted with tenderness that Jonathan's line, preserved through Mephibosheth by David's kindness, continues for many generations, a sign that faithful friendship bears fruit. St Paul, of the tribe of Benjamin and named after Saul, came from this tribe.
-FN: De Vaders merkten met tederheid op dat het geslacht van Jonathan, bewaard door Mefiboseth dankzij de goedheid van David, vele generaties voortduurt, een teken dat trouwe vriendschap vrucht draagt. De heilige Paulus, uit de stam Benjamin en naar Saul genoemd, kwam uit deze stam.
+FN: De kerkvaders merkten met tederheid op dat het geslacht van Jonathan, bewaard door Mefiboseth dankzij de goedheid van David, vele generaties voortduurt, een teken dat trouwe vriendschap vrucht draagt. De heilige Paulus, uit de stam Benjamin en naar Saul genoemd, kwam uit deze stam.
 T: Benjamin; The house of Saul; Fruit of friendship
 TN: Benjamin; Het huis van Saul; Vrucht van vriendschap
 
@@ -86,7 +86,7 @@ SN: Heel Israël werd in geslachtsregisters opgetekend; Juda werd naar Babel in 
 M: After exile, the community rebuilds around God's house with every service in its place, from gatekeepers to singers. Worship never stops, day or night.
 MN: Na de ballingschap bouwt de gemeenschap zich weer op rond Gods huis, met elke dienst op zijn plaats, van poortwachters tot zangers. De eredienst houdt nooit op, dag en nacht.
 F: The Fathers saw in the singers serving 'day and night' the ideal of unceasing praise, realised later in monasteries where prayer never ceases. The gatekeepers who guard the thresholds were read as an image of guarding the heart.
-FN: De Vaders zagen in de zangers die 'dag en nacht' dienden het ideaal van onophoudelijke lof, later verwerkelijkt in kloosters waar het gebed nooit ophoudt. De poortwachters die de drempels bewaken, werden gelezen als een beeld van het bewaken van het hart.
+FN: De kerkvaders zagen in de zangers die 'dag en nacht' dienden het ideaal van onophoudelijke lof, later verwerkelijkt in kloosters waar het gebed nooit ophoudt. De poortwachters die de drempels bewaken, werden gelezen als een beeld van het bewaken van het hart.
 T: Return; Ordered worship; Unceasing praise
 TN: Terugkeer; Geordende eredienst; Onophoudelijke lof
 
@@ -96,7 +96,7 @@ SN: De Filistijnen strijden tegen Israël op de berg Gilboa; de zonen van Saul w
 M: Chronicles gives the reason for Saul's fall in a few words: he did not seek the Lord. Seeking God is the measure of every king.
 MN: Kronieken geeft de reden voor de val van Saul in een paar woorden: hij zocht de Heer niet. God zoeken is de maatstaf voor elke koning.
 F: The Fathers noted that Chronicles reduces Saul's whole story to its spiritual root: he sought guidance from a medium instead of from God. 'Seek the Lord' is the key word of Chronicles, and the Fathers made it the key of the spiritual life.
-FN: De Vaders merkten op dat Kronieken het hele verhaal van Saul terugbrengt tot zijn geestelijke wortel: hij zocht raad bij een dodenbezweerster in plaats van bij God. 'Zoek de Heer' is het sleutelwoord van Kronieken, en de Vaders maakten het tot de sleutel van het geestelijk leven.
+FN: De kerkvaders merkten op dat Kronieken het hele verhaal van Saul terugbrengt tot zijn geestelijke wortel: hij zocht raad bij een dodenbezweerster in plaats van bij God. 'Zoek de Heer' is het sleutelwoord van Kronieken, en de kerkvaders maakten het tot de sleutel van het geestelijk leven.
 T: Unfaithfulness; Not seeking God; The kingdom transferred
 TN: Ontrouw; God niet zoeken; Het koningschap overgedragen
 
@@ -106,7 +106,7 @@ SN: Heel Israël komt bij David in Hebron: wij zijn uw gebeente en uw vlees; u z
 M: All Israel unites around God's chosen shepherd. A king's strength lies in God's presence and in loyal companions.
 MN: Heel Israël verenigt zich rond Gods uitverkoren herder. De kracht van een koning ligt in Gods aanwezigheid en in trouwe metgezellen.
 F: The Fathers saw in the united Israel gathering to David a figure of the Church gathering to Christ, the Good Shepherd. David pouring out the precious water was again seen as a lesson that what is bought with others' blood belongs to God.
-FN: De Vaders zagen in het verenigde Israël dat zich rond David verzamelt een voorafbeelding van de Kerk die zich rond Christus, de Goede Herder, verzamelt. Dat David het kostbare water uitgoot, werd opnieuw gezien als een les dat wat met het bloed van anderen gekocht is, aan God toebehoort.
+FN: De kerkvaders zagen in het verenigde Israël dat zich rond David verzamelt een voorafbeelding van de Kerk die zich rond Christus, de Goede Herder, verzamelt. Dat David het kostbare water uitgoot, werd opnieuw gezien als een les dat wat met het bloed van anderen gekocht is, aan God toebehoort.
 T: Unity; The shepherd-king; Loyalty
 TN: Eenheid; De herder-koning; Trouw
 
@@ -116,7 +116,7 @@ SN: Mannen komen naar David in Ziklag terwijl hij zich nog voor Saul verbergt: b
 M: People from every tribe recognise God's chosen king and join him even before his triumph. Wisdom understands the times and knows what to do.
 MN: Mensen uit elke stam erkennen Gods uitverkoren koning en sluiten zich bij hem aan nog vóór zijn triomf. Wijsheid begrijpt de tijden en weet wat te doen.
 F: The Fathers loved Amasai's Spirit-inspired confession, 'yours are we, O David, and with you', as the cry of the disciples who followed Christ in His humility before His glory. The men of Issachar who 'understood the times' became a model for discerning God's will in each age.
-FN: De Vaders hielden van de door de Geest ingegeven belijdenis van Amasai, 'van u zijn wij, David, en met u', als de roep van de leerlingen die Christus volgden in Zijn nederigheid vóór Zijn heerlijkheid. De mannen uit Issaschar die 'verstand hadden van de tijden', werden een voorbeeld voor het onderscheiden van Gods wil in elke tijd.
+FN: De kerkvaders hielden van de door de Geest ingegeven belijdenis van Amasai, 'van u zijn wij, David, en met u', als de roep van de leerlingen die Christus volgden in Zijn nederigheid vóór Zijn heerlijkheid. De mannen uit Issaschar die 'verstand hadden van de tijden', werden een voorbeeld voor het onderscheiden van Gods wil in elke tijd.
 T: Following before the triumph; Discernment of the times; Joy
 TN: Volgen vóór de triomf; Onderscheiding van de tijden; Vreugde
 
@@ -126,7 +126,7 @@ SN: David beraadslaagt met de leiders en heel de gemeente: laten wij de ark van 
 M: David seeks God's presence after years of neglect, but zeal without obedience to God's way brings disaster.
 MN: David zoekt Gods aanwezigheid na jaren van verwaarlozing, maar ijver zonder gehoorzaamheid aan Gods weg brengt rampspoed.
 F: The Fathers noted that the ark should have been carried on the shoulders of Levites, not on a cart, as Chronicles later explains; good intentions do not replace reverent obedience. The blessing of Obed-edom's house was seen as the grace that comes to a home that receives God's presence.
-FN: De Vaders merkten op dat de ark op de schouders van Levieten gedragen had moeten worden, niet op een wagen, zoals Kronieken later uitlegt; goede bedoelingen vervangen eerbiedige gehoorzaamheid niet. De zegen over het huis van Obed-Edom werd gezien als de genade die komt over een huis dat Gods aanwezigheid ontvangt.
+FN: De kerkvaders merkten op dat de ark op de schouders van Levieten gedragen had moeten worden, niet op een wagen, zoals Kronieken later uitlegt; goede bedoelingen vervangen eerbiedige gehoorzaamheid niet. De zegen over het huis van Obed-Edom werd gezien als de genade die komt over een huis dat Gods aanwezigheid ontvangt.
 T: Seeking God's presence; Zeal and obedience; Blessing
 TN: Gods aanwezigheid zoeken; IJver en gehoorzaamheid; Zegen
 
@@ -136,7 +136,7 @@ SN: Hiram, de koning van Tyrus, zendt boden, cederhout, metselaars en timmerlied
 M: David understands that his kingdom exists for the sake of God's people. He wins by asking God each time and waiting for His signal.
 MN: David begrijpt dat zijn koninkrijk bestaat ter wille van Gods volk. Hij overwint door God telkens te raadplegen en op Zijn teken te wachten.
 F: The Fathers drew from David's waiting for 'the sound of marching in the treetops' a lesson in discerning God's timing, acting not on one's own impulse but when God goes before. They noted that David's greatness was given 'for the sake of His people', the purpose of every authority.
-FN: De Vaders trokken uit het wachten van David op 'het geluid van voetstappen in de boomtoppen' een les in het onderscheiden van Gods tijd, door niet op eigen impuls te handelen maar wanneer God voorgaat. Zij merkten op dat de grootheid van David gegeven werd 'omwille van Zijn volk', het doel van elk gezag.
+FN: De kerkvaders trokken uit het wachten van David op 'het geluid van voetstappen in de boomtoppen' een les in het onderscheiden van Gods tijd, door niet op eigen impuls te handelen maar wanneer God voorgaat. Zij merkten op dat de grootheid van David gegeven werd 'omwille van Zijn volk', het doel van elk gezag.
 T: Authority for others; Seeking God; Waiting for God's signal
 TN: Gezag voor anderen; God zoeken; Wachten op Gods teken
 
@@ -146,7 +146,7 @@ SN: David bereidt een plaats voor de ark en zet er een tent voor op. Niemand and
 M: David learns from his mistake and seeks God 'according to the rule'. Obedience and joy go together in true worship.
 MN: David leert van zijn fout en zoekt God 'naar de voorschriften'. Gehoorzaamheid en vreugde gaan samen in ware aanbidding.
 F: The Fathers praised David for humbly acknowledging his error and correcting it, and saw the ark carried on the Levites' shoulders as a figure of Christ carried by His ministers in the Church. The Church sings of the Theotokos as the ark borne in joyful procession.
-FN: De Vaders prezen David omdat hij zijn fout nederig erkende en herstelde, en zagen de ark op de schouders van de Levieten als een voorafbeelding van Christus die door Zijn dienaren in de Kerk gedragen wordt. De Kerk bezingt de Moeder Gods als de ark die in een vreugdevolle processie gedragen wordt.
+FN: De kerkvaders prezen David omdat hij zijn fout nederig erkende en herstelde, en zagen de ark op de schouders van de Levieten als een voorafbeelding van Christus die door Zijn dienaren in de Kerk gedragen wordt. De Kerk bezingt de Moeder Gods als de ark die in een vreugdevolle processie gedragen wordt.
 T: Learning from mistakes; Ordered worship; Joy
 TN: Leren van fouten; Geordende eredienst; Vreugde
 
@@ -156,7 +156,7 @@ SN: Zij brengen de ark binnen en zetten haar in de tent, en brengen brand- en da
 M: When God's presence comes, the response is thanksgiving, sharing bread with all, and ongoing praise. 'His steadfast love endures for ever' is the heart of worship.
 MN: Wanneer Gods aanwezigheid komt, is het antwoord dankzegging, het delen van brood met allen en voortdurende lof. 'Zijn goedertierenheid is voor eeuwig' is het hart van de aanbidding.
 F: David's song combines parts of Psalms 105, 96 and 106, and the Fathers saw in it the beginning of the Church's liturgy of praise. They noted that David shared bread with all the people after the offering, a figure of the Eucharist shared among the faithful, and that the people's 'Amen' remains the Church's response.
-FN: Het lied van David combineert delen van Psalm 105, 96 en 106, en de Vaders zagen daarin het begin van de lofliturgie van de Kerk. Zij merkten op dat David na het offer brood met heel het volk deelde, een voorafbeelding van de Eucharistie die onder de gelovigen gedeeld wordt, en dat het 'amen' van het volk het antwoord van de Kerk blijft.
+FN: Het lied van David combineert delen van Psalm 105, 96 en 106, en de kerkvaders zagen daarin het begin van de lofliturgie van de Kerk. Zij merkten op dat David na het offer brood met heel het volk deelde, een voorafbeelding van de Eucharistie die onder de gelovigen gedeeld wordt, en dat het 'amen' van het volk het antwoord van de Kerk blijft.
 T: Thanksgiving; Sharing bread; Continual praise
 TN: Dankzegging; Brood delen; Voortdurende lof
 
@@ -166,7 +166,7 @@ SN: David zegt tegen Nathan: ik woon in een huis van ceder, maar de ark van het 
 M: God's promise to David reaches beyond any earthly king: a son whose throne and kingdom are God's own and last for ever.
 MN: Gods belofte aan David reikt verder dan elke aardse koning: een zoon wiens troon en koninkrijk van God Zelf zijn en voor eeuwig blijven.
 F: The Fathers noted that Chronicles says 'I will confirm him in My house and in My kingdom', making the kingdom God's own, a promise fulfilled only in Christ, whose kingdom has no end. Hebrews applies 'I will be to him a father, and he shall be to Me a son' to the eternal Son.
-FN: De Vaders merkten op dat Kronieken zegt 'Ik zal hem bevestigen in Mijn huis en in Mijn koninkrijk', waardoor het koninkrijk Gods eigen koninkrijk wordt, een belofte die alleen in Christus vervuld wordt, wiens koninkrijk geen einde heeft. Hebreeën past 'Ik zal hem tot Vader zijn, en hij zal Mij tot zoon zijn' toe op de eeuwige Zoon.
+FN: De kerkvaders merkten op dat Kronieken zegt 'Ik zal hem bevestigen in Mijn huis en in Mijn koninkrijk', waardoor het koninkrijk Gods eigen koninkrijk wordt, een belofte die alleen in Christus vervuld wordt, wiens koninkrijk geen einde heeft. Hebreeën past 'Ik zal hem tot Vader zijn, en hij zal Mij tot zoon zijn' toe op de eeuwige Zoon.
 T: The eternal kingdom; Father and Son; Humble wonder
 TN: Het eeuwige koninkrijk; Vader en Zoon; Nederige verwondering
 
@@ -176,7 +176,7 @@ SN: David verslaat de Filistijnen, Moab, Hadadezer van Zoba en de Syriërs, en l
 M: The spoils of war are turned into materials for God's house. Victory serves justice and worship.
 MN: De oorlogsbuit wordt omgezet in materiaal voor Gods huis. De overwinning dient recht en eredienst.
 F: The Fathers loved the detail that the bronze taken from enemies became the bronze Sea of the temple, used for washing: what once served war now serves purification, as Christ turns even our struggles into means of grace.
-FN: De Vaders hielden van het detail dat het koper dat van vijanden genomen werd, de koperen zee van de tempel werd, gebruikt om zich te wassen: wat eens de oorlog diende, dient nu de reiniging, zoals Christus zelfs onze strijd omzet in middelen van genade.
+FN: De kerkvaders hielden van het detail dat het koper dat van vijanden genomen werd, de koperen zee van de tempel werd, gebruikt om zich te wassen: wat eens de oorlog diende, dient nu de reiniging, zoals Christus zelfs onze strijd omzet in middelen van genade.
 T: Victory; Spoils for God; Just rule
 TN: Overwinning; Buit voor God; Rechtvaardig bestuur
 
@@ -186,7 +186,7 @@ SN: Wanneer Nahas, de koning van de Ammonieten, sterft, zendt David boden om zij
 M: Kindness rejected with suspicion leads to conflict. Courage does its part and trusts God with the outcome.
 MN: Goedheid die met wantrouwen wordt afgewezen, leidt tot conflict. Moed doet zijn deel en vertrouwt de uitkomst aan God toe.
 F: The Fathers noted that this chapter, like 2 Samuel 10, shows how suspicion corrupts good intentions, and they admired Joab's words as a model for every undertaking: give your best effort, and leave the outcome to God.
-FN: De Vaders merkten op dat dit hoofdstuk, zoals 2 Samuël 10, laat zien hoe wantrouwen goede bedoelingen bederft, en zij bewonderden de woorden van Joab als voorbeeld voor elke onderneming: doe uw best, en laat de uitkomst aan God over.
+FN: De kerkvaders merkten op dat dit hoofdstuk, zoals 2 Samuël 10, laat zien hoe wantrouwen goede bedoelingen bederft, en zij bewonderden de woorden van Joab als voorbeeld voor elke onderneming: doe uw best, en laat de uitkomst aan God over.
 T: Suspicion; Courage; Trusting God with the outcome
 TN: Wantrouwen; Moed; De uitkomst aan God toevertrouwen
 
@@ -196,7 +196,7 @@ SN: In het voorjaar, wanneer koningen ten strijde trekken, leidt Joab het leger 
 M: Chronicles passes over David's sin with Bathsheba in silence and records only the outcome of the war. Giants still fall before God's people.
 MN: Kronieken zwijgt over de zonde van David met Bathseba en vermeldt alleen de afloop van de oorlog. Reuzen vallen nog steeds voor Gods volk.
 F: The Fathers noted that Chronicles, focused on David as founder of the temple worship, does not repeat his fall, though Samuel had told it honestly; Scripture as a whole hides nothing, but each book has its purpose. The defeat of the giants recalled David's victory over Goliath.
-FN: De Vaders merkten op dat Kronieken, gericht op David als stichter van de tempeldienst, zijn val niet herhaalt, hoewel Samuël die eerlijk had verteld; de Schrift als geheel verbergt niets, maar elk boek heeft zijn eigen doel. De nederlaag van de reuzen herinnerde aan de overwinning van David op Goliat.
+FN: De kerkvaders merkten op dat Kronieken, gericht op David als stichter van de tempeldienst, zijn val niet herhaalt, hoewel Samuël die eerlijk had verteld; de Schrift als geheel verbergt niets, maar elk boek heeft zijn eigen doel. De nederlaag van de reuzen herinnerde aan de overwinning van David op Goliat.
 T: Victory; Selective memory; Giants overcome
 TN: Overwinning; Selectieve herinnering; Overwonnen reuzen
 
@@ -206,7 +206,7 @@ SN: De satan staat op tegen Israël en zet David ertoe aan Israël te tellen. Jo
 M: Pride in numbers is a temptation from the enemy. David repents, offers himself for his people and makes a costly offering, and judgment gives way to mercy.
 MN: Trots op aantallen is een verleiding van de vijand. David bekeert zich, biedt zichzelf aan voor zijn volk en brengt een kostbaar offer, en het oordeel wijkt voor barmhartigheid.
 F: The Fathers saw the angel sheathing his sword over the place of sacrifice as a figure of the cross, where God's judgment was turned into mercy. This threshing floor became the site of the temple, and 'I will not offer what costs me nothing' became a principle of Christian giving. They noted that Chronicles names Satan as the tempter, showing the spiritual source of David's pride.
-FN: De Vaders zagen de engel die zijn zwaard in de schede stak boven de plaats van het offer als een voorafbeelding van het kruis, waar Gods oordeel in barmhartigheid veranderde. Deze dorsvloer werd de plaats van de tempel, en 'ik zal niet offeren wat mij niets kost' werd een principe van christelijk geven. Zij merkten op dat Kronieken de satan als verleider noemt, wat de geestelijke bron van de hoogmoed van David toont.
+FN: De kerkvaders zagen de engel die zijn zwaard in de schede stak boven de plaats van het offer als een voorafbeelding van het kruis, waar Gods oordeel in barmhartigheid veranderde. Deze dorsvloer werd de plaats van de tempel, en 'ik zal niet offeren wat mij niets kost' werd een principe van christelijk geven. Zij merkten op dat Kronieken de satan als verleider noemt, wat de geestelijke bron van de hoogmoed van David toont.
 T: Pride; Intercession; Costly offering
 TN: Hoogmoed; Voorbede; Kostbaar offer
 
@@ -216,7 +216,7 @@ SN: David zegt: hier zal het huis van de Heer God zijn en het brandofferaltaar v
 M: David accepts that another will build what he desired, and prepares everything generously for his son. God's house is to be built by a man of peace.
 MN: David aanvaardt dat een ander zal bouwen wat hij verlangde, en bereidt alles royaal voor zijn zoon voor. Gods huis moet gebouwd worden door een man van vrede.
 F: The Fathers saw in Solomon, the 'man of rest' and of peace who builds God's house, a figure of Christ, the Prince of Peace, who builds the Church. They praised David's humility in preparing for a work whose glory would go to another, a model for all who labour for the next generation.
-FN: De Vaders zagen in Salomo, de 'man van rust' en van vrede die Gods huis bouwt, een voorafbeelding van Christus, de Vredevorst, die de Kerk bouwt. Zij prezen de nederigheid van David in het voorbereiden van een werk waarvan de eer naar een ander zou gaan, een voorbeeld voor allen die werken voor de volgende generatie.
+FN: De kerkvaders zagen in Salomo, de 'man van rust' en van vrede die Gods huis bouwt, een voorafbeelding van Christus, de Vredevorst, die de Kerk bouwt. Zij prezen de nederigheid van David in het voorbereiden van een werk waarvan de eer naar een ander zou gaan, een voorbeeld voor allen die werken voor de volgende generatie.
 T: Preparing for others; The man of peace; Courage to build
 TN: Voorbereiden voor anderen; De man van vrede; Moed om te bouwen
 
@@ -226,7 +226,7 @@ SN: Wanneer David oud en der dagen zat is, maakt hij Salomo koning over Israël.
 M: Every task in God's house matters, from cleaning the courts to singing praise. Morning and evening thanksgiving frames each day.
 MN: Elke taak in Gods huis telt, van het schoonmaken van de voorhoven tot het zingen van lof. Dankzegging 's morgens en 's avonds omlijst elke dag.
 F: The Fathers saw in the Levites' ordered ministries a pattern for the various ministries of the Church, each serving in its own way. The morning and evening praise was the root of the Church's morning and evening prayer.
-FN: De Vaders zagen in de geordende diensten van de Levieten een patroon voor de verschillende bedieningen in de Kerk, die elk op hun eigen wijze dienen. De lof 's morgens en 's avonds was de wortel van het morgen- en avondgebed van de Kerk.
+FN: De kerkvaders zagen in de geordende diensten van de Levieten een patroon voor de verschillende bedieningen in de Kerk, die elk op hun eigen wijze dienen. De lof 's morgens en 's avonds was de wortel van het morgen- en avondgebed van de Kerk.
 T: Ordered ministry; Every task matters; Morning and evening praise
 TN: Geordende bediening; Elke taak telt; Lof 's morgens en 's avonds
 
@@ -236,7 +236,7 @@ SN: De zonen van Aäron, nakomelingen van Eleazar en Ithamar, worden door het lo
 M: Service in God's house is shared fairly by lot, the great alongside the small. Each takes his turn.
 MN: De dienst in Gods huis wordt eerlijk door het lot verdeeld, de groten naast de kleinen. Ieder komt aan de beurt.
 F: Luke tells that Zechariah, father of John the Baptist, belonged to the division of Abijah and was serving his turn in the temple when the angel Gabriel appeared to him. The Fathers marvelled that this list of priestly turns leads directly to the dawn of the Gospel.
-FN: Lucas vertelt dat Zacharias, de vader van Johannes de Doper, tot de afdeling van Abia behoorde en zijn beurt in de tempel waarnam toen de engel Gabriël aan hem verscheen. De Vaders verwonderden zich erover dat deze lijst van priesterlijke diensten rechtstreeks leidt naar de dageraad van het Evangelie.
+FN: Lucas vertelt dat Zacharias, de vader van Johannes de Doper, tot de afdeling van Abia behoorde en zijn beurt in de tempel waarnam toen de engel Gabriël aan hem verscheen. De kerkvaders verwonderden zich erover dat deze lijst van priesterlijke diensten rechtstreeks leidt naar de dageraad van het Evangelie.
 T: Shared service; Order; The division of Abijah
 TN: Gedeelde dienst; Orde; De afdeling van Abia
 
@@ -246,7 +246,7 @@ SN: David en de leiders van de dienst zonderen de zonen van Asaf, Heman en Jedut
 M: Sacred music is called prophecy: it proclaims God's word and stirs praise. Skill and humility go together, teacher and pupil sharing the same service.
 MN: Gewijde muziek wordt profetie genoemd: zij verkondigt Gods woord en wekt lof. Bekwaamheid en nederigheid gaan samen, leraar en leerling delen dezelfde dienst.
 F: The Fathers, St Basil and St John Chrysostom among them, praised sacred song as a gift of the Holy Spirit that lifts the soul and teaches truth sweetly. They saw in David's trained singers the forerunners of the Church's chanters and choirs, whose service is a ministry of the word.
-FN: De Vaders, onder wie de heilige Basilius en de heilige Johannes Chrysostomus, prezen gewijde zang als een gave van de Heilige Geest die de ziel verheft en de waarheid op liefelijke wijze onderwijst. Zij zagen in de geoefende zangers van David de voorlopers van de cantors en koren van de Kerk, wier dienst een bediening van het woord is.
+FN: De kerkvaders, onder wie de heilige Basilius en de heilige Johannes Chrysostomus, prezen gewijde zang als een gave van de Heilige Geest die de ziel verheft en de waarheid op liefelijke wijze onderwijst. Zij zagen in de geoefende zangers van David de voorlopers van de cantors en koren van de Kerk, wier dienst een bediening van het woord is.
 T: Sacred music; Prophecy in song; Skill and humility
 TN: Gewijde muziek; Profetie in zang; Bekwaamheid en nederigheid
 
@@ -256,7 +256,7 @@ SN: De afdelingen van de poortwachters worden genoemd, dappere en bekwame mannen
 M: Guarding, managing and administering are also holy service. Gifts dedicated across generations are faithfully kept.
 MN: Bewaken, beheren en besturen zijn ook heilige dienst. Gaven die over generaties heen gewijd zijn, worden trouw bewaard.
 F: The Fathers saw in the gatekeepers an image of the watchfulness required of those who guard the Church and of each soul guarding its own heart, and in the treasurers a model for honest stewardship of the Church's goods.
-FN: De Vaders zagen in de poortwachters een beeld van de waakzaamheid die gevraagd wordt van wie de Kerk bewaken, en van elke ziel die het eigen hart bewaakt, en in de schatbewaarders een voorbeeld voor eerlijk beheer van de goederen van de Kerk.
+FN: De kerkvaders zagen in de poortwachters een beeld van de waakzaamheid die gevraagd wordt van wie de Kerk bewaken, en van elke ziel die het eigen hart bewaakt, en in de schatbewaarders een voorbeeld voor eerlijk beheer van de goederen van de Kerk.
 T: Watchfulness; Stewardship; Holy service
 TN: Waakzaamheid; Rentmeesterschap; Heilige dienst
 
@@ -266,7 +266,7 @@ SN: De twaalf afdelingen van het leger worden genoemd, die elk één maand per j
 M: A well-ordered kingdom shares its burdens fairly. Behind the organisation stands trust in God's promise.
 MN: Een goed geordend koninkrijk verdeelt de lasten eerlijk. Achter de organisatie staat vertrouwen op Gods belofte.
 F: The Fathers noted the mention of Hushai as 'the king's friend', faithful in betrayal, and Ahithophel the counsellor who betrayed him, reminders that even in a well-ordered court loyalty is tested. They read the rotation of service as a model of fair sharing of burdens in community.
-FN: De Vaders merkten de vermelding op van Husai als 'de vriend van de koning', trouw in het verraad, en Achitofel, de raadsman die hem verraadde, herinneringen dat zelfs aan een goed geordend hof de trouw beproefd wordt. Zij lazen de beurtelingse dienst als een voorbeeld van een eerlijke verdeling van lasten in de gemeenschap.
+FN: De kerkvaders merkten de vermelding op van Husai als 'de vriend van de koning', trouw in het verraad, en Achitofel, de raadsman die hem verraadde, herinneringen dat zelfs aan een goed geordend hof de trouw beproefd wordt. Zij lazen de beurtelingse dienst als een voorbeeld van een eerlijke verdeling van lasten in de gemeenschap.
 T: Order; Shared burdens; Loyalty tested
 TN: Orde; Gedeelde lasten; Beproefde trouw
 
@@ -276,7 +276,7 @@ SN: David verzamelt alle leiders van Israël in Jeruzalem en gaat staan: hoor mi
 M: Knowing God personally and serving Him wholeheartedly is the foundation of everything. The throne belongs to the Lord; the king only sits on it.
 MN: God persoonlijk kennen en Hem met heel het hart dienen, is het fundament van alles. De troon behoort de Heer toe; de koning zit er alleen op.
 F: The Fathers loved David's words to his son, 'know the God of your father and serve Him with a whole heart', as the essence of handing on the faith, and 'if you seek Him, He will be found by you' as the promise that runs through Chronicles. They noted that the throne is called 'the throne of the kingdom of the Lord', fulfilled in Christ.
-FN: De Vaders hielden van de woorden van David aan zijn zoon, 'ken de God van uw vader en dien Hem met een volkomen hart', als de kern van het doorgeven van het geloof, en van 'als u Hem zoekt, zal Hij Zich door u laten vinden' als de belofte die door heel Kronieken loopt. Zij merkten op dat de troon 'de troon van het koninkrijk van de Heer' genoemd wordt, vervuld in Christus.
+FN: De kerkvaders hielden van de woorden van David aan zijn zoon, 'ken de God van uw vader en dien Hem met een volkomen hart', als de kern van het doorgeven van het geloof, en van 'als u Hem zoekt, zal Hij Zich door u laten vinden' als de belofte die door heel Kronieken loopt. Zij merkten op dat de troon 'de troon van het koninkrijk van de Heer' genoemd wordt, vervuld in Christus.
 T: Knowing God; A whole heart; Seek and find
 TN: God kennen; Een volkomen hart; Zoeken en vinden
 
@@ -286,6 +286,6 @@ SN: David geeft zijn eigen schat van goud en zilver voor het huis van God, en vr
 M: Everything we give to God was first His gift to us. Generosity springs from gratitude and from knowing we are guests on earth.
 MN: Alles wat wij God geven, was eerst Zijn gave aan ons. Vrijgevigheid komt voort uit dankbaarheid en uit het besef dat wij gasten op aarde zijn.
 F: 'Thine own of Thine own we offer unto Thee', the words at the heart of the Byzantine Divine Liturgy as the holy gifts are lifted up, echo David's prayer, 'of Your own have we given You'. The doxology 'Yours is the greatness and the power and the glory' was taken into the ending of the Lord's Prayer in many traditions. The Fathers saw David's prayer as the model of Christian offering: humble, joyful and grateful.
-FN: 'Het Uwe uit het Uwe brengen wij U', de woorden in het hart van de Byzantijnse Goddelijke Liturgie wanneer de heilige gaven worden opgeheven, weerspiegelen het gebed van David, 'van het Uwe hebben wij U gegeven'. De lofprijzing 'van U is de grootheid en de macht en de heerlijkheid' werd in veel tradities opgenomen in het slot van het Onzevader. De Vaders zagen het gebed van David als het voorbeeld van christelijk offeren: nederig, vreugdevol en dankbaar.
+FN: 'Het Uwe uit het Uwe brengen wij U', de woorden in het hart van de Byzantijnse Goddelijke Liturgie wanneer de heilige gaven worden opgeheven, weerspiegelen het gebed van David, 'van het Uwe hebben wij U gegeven'. De lofprijzing 'van U is de grootheid en de macht en de heerlijkheid' werd in veel tradities opgenomen in het slot van het Onzevader. De kerkvaders zagen het gebed van David als het voorbeeld van christelijk offeren: nederig, vreugdevol en dankbaar.
 T: Willing offering; All is God's; Guests on earth
 TN: Gewillige gave; Alles is van God; Gasten op aarde

@@ -6,7 +6,7 @@ SN: Na de dood van Jozua vraagt het volk de Heer: wie zal als eerste optrekken t
 M: Half-hearted obedience leaves the old ways living in the midst of God's people. Compromise prepares the way for later decline.
 MN: Halfslachtige gehoorzaamheid laat de oude wegen voortleven te midden van Gods volk. Compromis bereidt de weg voor later verval.
 F: The Fathers read the Canaanites left in the land as the passions we tolerate instead of uprooting; Origen and St Gregory the Great warned that what we make 'pay tribute' to us today will rule us tomorrow.
-FN: De Vaders lazen de Kanaänieten die in het land bleven als de hartstochten die wij dulden in plaats van ze uit te roeien; Origenes en de heilige Gregorius de Grote waarschuwden dat wat wij vandaag 'schatplichtig' maken, ons morgen zal beheersen.
+FN: De kerkvaders lazen de Kanaänieten die in het land bleven als de hartstochten die wij dulden in plaats van ze uit te roeien; Origenes en de heilige Gregorius de Grote waarschuwden dat wat wij vandaag 'schatplichtig' maken, ons morgen zal beheersen.
 T: Incomplete obedience; Compromise; Tolerated sin
 TN: Onvolledige gehoorzaamheid; Compromis; Gedulde zonde
 
@@ -16,7 +16,7 @@ SN: De engel van de Heer komt van Gilgal naar Bochim: Ik heb u uit Egypte geleid
 M: Faith that is not handed on is lost in one generation. The pattern repeats: sin, oppression, crying out, deliverance, and relapse.
 MN: Geloof dat niet wordt doorgegeven, gaat in één generatie verloren. Het patroon herhaalt zich: zonde, verdrukking, roepen, redding en terugval.
 F: The Fathers saw in the cycle of Judges the story of every soul that falls and is raised again, and of God's patience that keeps sending deliverers until the final Deliverer, Christ. They stressed the failure to teach the next generation as the root of the decline.
-FN: De Vaders zagen in de kringloop van Richteren het verhaal van elke ziel die valt en weer wordt opgericht, en van Gods geduld dat telkens redders zendt tot de laatste Redder, Christus. Zij benadrukten het falen om de volgende generatie te onderwijzen als de wortel van het verval.
+FN: De kerkvaders zagen in de kringloop van Richteren het verhaal van elke ziel die valt en weer wordt opgericht, en van Gods geduld dat telkens redders zendt tot de laatste Redder, Christus. Zij benadrukten het falen om de volgende generatie te onderwijzen als de wortel van het verval.
 T: Forgetting God; The cycle of sin; God's compassion
 TN: God vergeten; De kringloop van de zonde; Gods medelijden
 
@@ -26,7 +26,7 @@ SN: Israël dient de Baäls, en de Heer geeft hen acht jaar in de hand van Kusan
 M: God saves through unlikely people: a left-handed man, a farmer with an oxgoad. The Spirit of the Lord equips the deliverer.
 MN: God redt door onwaarschijnlijke mensen: een linkshandige man, een boer met een ossenstok. De Geest van de Heer rust de redder toe.
 F: The Fathers noted that God chooses the weak and the overlooked to shame the strong, as St Paul writes. They read the judges' victories, like the conquest, as figures of the spiritual struggle against the vices that oppress the soul.
-FN: De Vaders merkten op dat God het zwakke en over het hoofd geziene kiest om het sterke te beschamen, zoals de heilige Paulus schrijft. Zij lazen de overwinningen van de richters, zoals de verovering, als voorafbeeldingen van de geestelijke strijd tegen de ondeugden die de ziel verdrukken.
+FN: De kerkvaders merkten op dat God het zwakke en over het hoofd geziene kiest om het sterke te beschamen, zoals de heilige Paulus schrijft. Zij lazen de overwinningen van de richters, zoals de verovering, als voorafbeeldingen van de geestelijke strijd tegen de ondeugden die de ziel verdrukken.
 T: Unlikely deliverers; The Spirit equips; Rest
 TN: Onwaarschijnlijke redders; De Geest rust toe; Rust
 
@@ -36,7 +36,7 @@ SN: Jabin, de koning van Kanaän, met zijn legeroverste Sisera en negenhonderd i
 M: God raises up a woman as prophet and judge, and gives victory through another woman. Courage and wisdom do not depend on rank or gender.
 MN: God verwekt een vrouw als profetes en richter, en geeft de overwinning door een andere vrouw. Moed en wijsheid hangen niet af van rang of geslacht.
 F: The Fathers, St Ambrose especially in his work on widows, praised Deborah as proof that courage and wisdom are given to women as to men. Some read Jael, who crushed the enemy's head, as a figure of the Theotokos, recalling the promise that the woman's seed would crush the serpent's head.
-FN: De Vaders, vooral de heilige Ambrosius in zijn werk over weduwen, prezen Debora als bewijs dat moed en wijsheid aan vrouwen evenzeer gegeven worden als aan mannen. Sommigen lazen Jaël, die het hoofd van de vijand verbrijzelde, als een voorafbeelding van de Moeder Gods, met een verwijzing naar de belofte dat het zaad van de vrouw de kop van de slang zou vermorzelen.
+FN: De kerkvaders, vooral de heilige Ambrosius in zijn werk over weduwen, prezen Debora als bewijs dat moed en wijsheid aan vrouwen evenzeer gegeven worden als aan mannen. Sommigen lazen Jaël, die het hoofd van de vijand verbrijzelde, als een voorafbeelding van de Moeder Gods, met een verwijzing naar de belofte dat het zaad van de vrouw de kop van de slang zou vermorzelen.
 T: Women of faith; Courage; God gives victory
 TN: Vrouwen van geloof; Moed; God geeft de overwinning
 
@@ -46,7 +46,7 @@ SN: Debora en Barak zingen op die dag: dat de leiders voorgingen in Israël, dat
 M: Victory is celebrated as God's work, with all creation fighting on His side. Willing self-offering is praised; standing aside is rebuked.
 MN: De overwinning wordt gevierd als Gods werk, waarbij de hele schepping aan Zijn kant strijdt. Gewillige zelfgave wordt geprezen; afzijdig blijven wordt berispt.
 F: The Fathers heard in 'blessed among women be Jael' an anticipation of Elizabeth's greeting to Mary, 'blessed are you among women'. The final verse, 'those who love Him are like the sun rising in its might', was applied to the saints who shine in the kingdom.
-FN: De Vaders hoorden in 'gezegend boven de vrouwen zij Jaël' een vooruitwijzing naar de groet van Elisabet aan Maria, 'gezegend bent u onder de vrouwen'. Het laatste vers, 'wie Hem liefhebben, zijn als de zon wanneer zij opgaat in haar kracht', werd toegepast op de heiligen die stralen in het koninkrijk.
+FN: De kerkvaders hoorden in 'gezegend boven de vrouwen zij Jaël' een vooruitwijzing naar de groet van Elisabet aan Maria, 'gezegend bent u onder de vrouwen'. Het laatste vers, 'wie Hem liefhebben, zijn als de zon wanneer zij opgaat in haar kracht', werd toegepast op de heiligen die stralen in het koninkrijk.
 T: Song of victory; Willing service; Those who love God shine
 TN: Overwinningslied; Gewillige dienst; Wie God liefhebben, stralen
 
@@ -66,7 +66,7 @@ SN: Gideon legert zich met tweeëndertigduizend man, maar de Heer zegt: het volk
 M: God reduces the army so that the victory is clearly His. Light breaks out when the jars are shattered.
 MN: God verkleint het leger zodat de overwinning duidelijk de Zijne is. Licht breekt door wanneer de kruiken gebroken worden.
 F: St Paul writes that we have this treasure in earthen vessels, to show that the power belongs to God; the Fathers saw Gideon's torches in broken jars as the light of Christ shining through the broken bodies of the martyrs and through the humility of His servants. The few chosen were read as the small flock to whom the kingdom is given.
-FN: De heilige Paulus schrijft dat wij deze schat hebben in aarden vaten, om te tonen dat de kracht van God is; de Vaders zagen de fakkels van Gideon in gebroken kruiken als het licht van Christus dat straalt door de gebroken lichamen van de martelaren en door de nederigheid van Zijn dienaren. De weinigen die gekozen werden, werden gelezen als de kleine kudde aan wie het koninkrijk gegeven wordt.
+FN: De heilige Paulus schrijft dat wij deze schat hebben in aarden vaten, om te tonen dat de kracht van God is; de kerkvaders zagen de fakkels van Gideon in gebroken kruiken als het licht van Christus dat straalt door de gebroken lichamen van de martelaren en door de nederigheid van Zijn dienaren. De weinigen die gekozen werden, werden gelezen als de kleine kudde aan wie het koninkrijk gegeven wordt.
 T: God's strength in weakness; Light from broken vessels; Humility
 TN: Gods kracht in zwakheid; Licht uit gebroken vaten; Nederigheid
 
@@ -76,7 +76,7 @@ SN: De Efraïmieten krijgen ruzie met Gideon, en hij kalmeert hen met een zacht 
 M: Gideon rightly refuses the crown, but then sets up an object that leads the people astray. Even good leaders can leave a harmful legacy.
 MN: Gideon weigert terecht de kroon, maar richt daarna een voorwerp op dat het volk op een dwaalspoor brengt. Zelfs goede leiders kunnen een schadelijke erfenis nalaten.
 F: The Fathers praised Gideon's words 'the Lord will rule over you' as true humility, and warned with his ephod how religious objects can become idols when they replace God. Hebrews names Gideon among the heroes of faith.
-FN: De Vaders prezen de woorden van Gideon 'de Heer zal over u heersen' als ware nederigheid, en waarschuwden met zijn efod hoe religieuze voorwerpen afgoden kunnen worden wanneer zij God vervangen. Hebreeën noemt Gideon onder de helden van het geloof.
+FN: De kerkvaders prezen de woorden van Gideon 'de Heer zal over u heersen' als ware nederigheid, en waarschuwden met zijn efod hoe religieuze voorwerpen afgoden kunnen worden wanneer zij God vervangen. Hebreeën noemt Gideon onder de helden van het geloof.
 T: God as king; Humility; Snares of religion
 TN: God als koning; Nederigheid; Valstrikken van religie
 
@@ -86,7 +86,7 @@ SN: Abimelech, de zoon van Gideon bij een bijvrouw in Sichem, haalt de Sichemiet
 M: Power seized through murder destroys both ruler and people. Those who are truly fruitful are often unwilling to rule; the worthless are eager.
 MN: Macht die door moord gegrepen wordt, vernietigt zowel heerser als volk. Wie werkelijk vruchtbaar zijn, willen vaak niet heersen; de waardelozen zijn er gretig naar.
 F: The Fathers used Jotham's fable to warn against ambition for office in Church and state: the olive, fig and vine, symbols of the virtuous, prefer their fruitful service. St Gregory the Great reflected on this in his Pastoral Rule. Abimelech's end shows that God's justice overtakes the violent.
-FN: De Vaders gebruikten de fabel van Jotham om te waarschuwen tegen eerzucht naar ambten in Kerk en staat: de olijfboom, de vijgenboom en de wijnstok, symbolen van de deugdzamen, verkiezen hun vruchtbare dienst. De heilige Gregorius de Grote overwoog dit in zijn Regel voor de herders. Het einde van Abimelech toont dat Gods gerechtigheid de gewelddadigen inhaalt.
+FN: De kerkvaders gebruikten de fabel van Jotham om te waarschuwen tegen eerzucht naar ambten in Kerk en staat: de olijfboom, de vijgenboom en de wijnstok, symbolen van de deugdzamen, verkiezen hun vruchtbare dienst. De heilige Gregorius de Grote overwoog dit in zijn Regel voor de herders. Het einde van Abimelech toont dat Gods gerechtigheid de gewelddadigen inhaalt.
 T: Ambition; Violence; Fruitful service
 TN: Eerzucht; Geweld; Vruchtbare dienst
 
@@ -96,7 +96,7 @@ SN: Na Abimelech richt Tola Israël drieëntwintig jaar, en Jaïr de Gileadiet t
 M: True repentance puts away idols and surrenders to God's will. God's heart is moved by His people's misery.
 MN: Ware bekering doet de afgoden weg en geeft zich over aan Gods wil. Gods hart wordt bewogen door de ellende van Zijn volk.
 F: The Fathers saw in 'His soul could no longer bear the misery of Israel' a revelation of God's compassion, which moved Him at last to become man and share our misery. They admired the repentance that does not bargain but says: do with us as You will.
-FN: De Vaders zagen in 'Hij kon de ellende van Israël niet langer aanzien' een openbaring van Gods mededogen, dat Hem uiteindelijk bewoog mens te worden en onze ellende te delen. Zij bewonderden de bekering die niet onderhandelt maar zegt: doe met ons wat U wilt.
+FN: De kerkvaders zagen in 'Hij kon de ellende van Israël niet langer aanzien' een openbaring van Gods mededogen, dat Hem uiteindelijk bewoog mens te worden en onze ellende te delen. Zij bewonderden de bekering die niet onderhandelt maar zegt: doe met ons wat U wilt.
 T: Repentance; God's compassion; Putting away idols
 TN: Bekering; Gods mededogen; Afgoden wegdoen
 
@@ -106,7 +106,7 @@ SN: Jefta de Gileadiet, een dapper strijder en de zoon van een hoer, was door zi
 M: A rejected man becomes a deliverer, but a rash vow ends in tragedy. God never asked for such a vow; human sacrifice is abhorrent to Him.
 MN: Een verstoten man wordt een redder, maar een onbezonnen gelofte eindigt in een tragedie. God heeft nooit om zo'n gelofte gevraagd; mensenoffers zijn Hem een gruwel.
 F: The Fathers, St Jerome, St John Chrysostom and St Ambrose among them, condemned Jephthah's vow as rash and its fulfilment as wrong, teaching that a vow to commit a sin must not be kept. Chrysostom saw God's permission of the outcome as a lesson to all later generations never to make such vows. Hebrews names Jephthah for his faith, not his vow.
-FN: De Vaders, onder wie de heilige Hiëronymus, de heilige Johannes Chrysostomus en de heilige Ambrosius, veroordeelden de gelofte van Jefta als onbezonnen en de uitvoering ervan als verkeerd, en leerden dat een gelofte om een zonde te begaan niet gehouden mag worden. Chrysostomus zag in Gods toelating van de afloop een les voor alle latere generaties om nooit zulke geloften te doen. Hebreeën noemt Jefta vanwege zijn geloof, niet vanwege zijn gelofte.
+FN: De kerkvaders, onder wie de heilige Hiëronymus, de heilige Johannes Chrysostomus en de heilige Ambrosius, veroordeelden de gelofte van Jefta als onbezonnen en de uitvoering ervan als verkeerd, en leerden dat een gelofte om een zonde te begaan niet gehouden mag worden. Chrysostomus zag in Gods toelating van de afloop een les voor alle latere generaties om nooit zulke geloften te doen. Hebreeën noemt Jefta vanwege zijn geloof, niet vanwege zijn gelofte.
 T: The rejected deliverer; A rash vow; Tragedy
 TN: De verstoten redder; Een onbezonnen gelofte; Tragedie
 
@@ -116,7 +116,7 @@ SN: De mannen van Efraïm klagen dat Jefta hen niet heeft opgeroepen om te strij
 M: Pride and offended honour turn brothers into enemies. Israel's tribes destroy each other over a word.
 MN: Hoogmoed en gekrenkte eer maken broeders tot vijanden. De stammen van Israël vernietigen elkaar om een woord.
 F: The Fathers used this civil war as a warning against division among brothers in faith, when small differences of speech become reasons for hatred. Gideon's soft answer to the same Ephraimites in chapter 8 shows the better way.
-FN: De Vaders gebruikten deze burgeroorlog als waarschuwing tegen verdeeldheid tussen broeders in het geloof, wanneer kleine verschillen in spreken redenen worden voor haat. Het zachte antwoord van Gideon aan dezelfde Efraïmieten in hoofdstuk 8 toont de betere weg.
+FN: De kerkvaders gebruikten deze burgeroorlog als waarschuwing tegen verdeeldheid tussen broeders in het geloof, wanneer kleine verschillen in spreken redenen worden voor haat. Het zachte antwoord van Gideon aan dezelfde Efraïmieten in hoofdstuk 8 toont de betere weg.
 T: Pride; Division; Civil strife
 TN: Hoogmoed; Verdeeldheid; Burgertwist
 
@@ -126,7 +126,7 @@ SN: Israël doet wat kwaad is, en de Heer geeft hen veertig jaar in de hand van 
 M: God announces a deliverer through a barren woman. Parents pray to be taught how to raise the child God gives them.
 MN: God kondigt een redder aan door een onvruchtbare vrouw. Ouders bidden om onderwezen te worden hoe zij het kind dat God hun geeft moeten opvoeden.
 F: The Fathers noted the pattern of birth announcements, Isaac, Samson, Samuel, John the Baptist, culminating in the Annunciation to the Virgin. The angel's name 'Wonderful' was linked to Isaiah's 'His name shall be called Wonderful', and many saw here an appearance of the Word.
-FN: De Vaders merkten het patroon van geboorteaankondigingen op, Isaak, Simson, Samuël, Johannes de Doper, met als hoogtepunt de Annunciatie aan de Maagd. De naam van de engel 'Wonderlijk' werd verbonden met Jesaja's 'men noemt Zijn naam Wonderlijk', en velen zagen hier een verschijning van het Woord.
+FN: De kerkvaders merkten het patroon van geboorteaankondigingen op, Isaak, Simson, Samuël, Johannes de Doper, met als hoogtepunt de Annunciatie aan de Maagd. De naam van de engel 'Wonderlijk' werd verbonden met Jesaja's 'men noemt Zijn naam Wonderlijk', en velen zagen hier een verschijning van het Woord.
 T: Announced birth; Consecration; The wonderful name
 TN: Aangekondigde geboorte; Toewijding; De wonderlijke naam
 
@@ -136,7 +136,7 @@ SN: Simson ziet een Filistijnse vrouw in Timna en wil met haar trouwen; zijn oud
 M: Samson's strength comes from the Spirit, but his passions lead him into trouble. God works His purpose even through flawed choices.
 MN: De kracht van Simson komt van de Geest, maar zijn hartstochten brengen hem in moeilijkheden. God voert Zijn plan uit, zelfs door gebrekkige keuzes.
 F: St Augustine and other Fathers read Samson's riddle as a figure of Christ: from the lion, death conquered, comes the sweetness of life, and from the strong one, Christ risen, the honey of the Gospel. Samson killing the lion was seen as Christ's victory over the devil, who prowls like a roaring lion.
-FN: De heilige Augustinus en andere Vaders lazen het raadsel van Simson als een voorafbeelding van Christus: uit de leeuw, de overwonnen dood, komt de zoetheid van het leven, en uit de sterke, de opgestane Christus, de honing van het Evangelie. Simson die de leeuw doodt, werd gezien als de overwinning van Christus op de duivel, die rondgaat als een brullende leeuw.
+FN: De heilige Augustinus en andere kerkvaders lazen het raadsel van Simson als een voorafbeelding van Christus: uit de leeuw, de overwonnen dood, komt de zoetheid van het leven, en uit de sterke, de opgestane Christus, de honing van het Evangelie. Simson die de leeuw doodt, werd gezien als de overwinning van Christus op de duivel, die rondgaat als een brullende leeuw.
 T: Strength from the Spirit; Passions; Sweetness from the strong
 TN: Kracht van de Geest; Hartstochten; Zoetheid uit de sterke
 
@@ -146,7 +146,7 @@ SN: Wanneer hij ontdekt dat zijn vrouw aan een ander gegeven is, neemt Simson wr
 M: Revenge feeds revenge. Yet when Samson is bound by his own people, God's Spirit sets him free, and after his victory he learns his dependence in thirst.
 MN: Wraak voedt wraak. Toch maakt Gods Geest Simson vrij wanneer hij door zijn eigen volk gebonden wordt, en na zijn overwinning leert hij in zijn dorst zijn afhankelijkheid.
 F: The Fathers saw Samson, handed over by his own people and breaking his bonds, as a figure of Christ betrayed by His own and breaking the bonds of death. The water springing from the hollow place after his cry was read as the grace given to those who acknowledge their need.
-FN: De Vaders zagen Simson, die door zijn eigen volk werd uitgeleverd en zijn boeien verbrak, als een voorafbeelding van Christus die door de Zijnen werd verraden en de boeien van de dood verbrak. Het water dat na zijn roep uit de holte opwelde, werd gelezen als de genade die gegeven wordt aan wie hun nood erkennen.
+FN: De kerkvaders zagen Simson, die door zijn eigen volk werd uitgeleverd en zijn boeien verbrak, als een voorafbeelding van Christus die door de Zijnen werd verraden en de boeien van de dood verbrak. Het water dat na zijn roep uit de holte opwelde, werd gelezen als de genade die gegeven wordt aan wie hun nood erkennen.
 T: Revenge; Bonds broken; Dependence on God
 TN: Wraak; Verbroken boeien; Afhankelijkheid van God
 
@@ -166,7 +166,7 @@ SN: Een man uit het bergland van Efraïm die Micha heet, geeft elfhonderd zilver
 M: Religion invented to serve one's own interests becomes idolatry, even when it uses God's name. Without God as king, everyone becomes his own judge.
 MN: Godsdienst die bedacht wordt om de eigen belangen te dienen, wordt afgoderij, zelfs wanneer zij Gods naam gebruikt. Zonder God als koning wordt ieder zijn eigen rechter.
 F: The Fathers used Micah's private shrine and hired priest as a warning against self-made religion and against clergy who serve for gain. 'Everyone did what was right in his own eyes' was cited as the root of moral confusion in every age.
-FN: De Vaders gebruikten het eigen heiligdom van Micha en zijn gehuurde priester als waarschuwing tegen zelfgemaakte religie en tegen geestelijken die om gewin dienen. 'Ieder deed wat recht was in zijn eigen ogen' werd aangehaald als de wortel van morele verwarring in elke tijd.
+FN: De kerkvaders gebruikten het eigen heiligdom van Micha en zijn gehuurde priester als waarschuwing tegen zelfgemaakte religie en tegen geestelijken die om gewin dienen. 'Ieder deed wat recht was in zijn eigen ogen' werd aangehaald als de wortel van morele verwarring in elke tijd.
 T: Self-made religion; Idolatry; Everyone his own judge
 TN: Zelfgemaakte religie; Afgoderij; Ieder zijn eigen rechter
 
@@ -176,7 +176,7 @@ SN: De stam Dan, nog zonder erfdeel, zendt vijf verspieders naar het noorden. Bi
 M: Gods that can be stolen cannot save. Idolatry spreads from a household to a whole tribe, led by a priest who follows the highest bidder.
 MN: Goden die gestolen kunnen worden, kunnen niet redden. Afgoderij verspreidt zich van een huisgezin naar een hele stam, geleid door een priester die de hoogste bieder volgt.
 F: The Fathers found Micah's cry, 'you have taken my gods that I made', almost comic: a god one makes and can lose is no god. They noted with grief that even a grandson of Moses could serve idols, showing that holy ancestry does not guarantee faithfulness.
-FN: De Vaders vonden de uitroep van Micha, 'u neemt mijn goden die ik gemaakt heb', bijna komisch: een god die men maakt en kan verliezen, is geen god. Zij merkten met verdriet op dat zelfs een kleinzoon van Mozes afgoden kon dienen, wat toont dat een heilige afkomst geen garantie is voor trouw.
+FN: De kerkvaders vonden de uitroep van Micha, 'u neemt mijn goden die ik gemaakt heb', bijna komisch: een god die men maakt en kan verliezen, is geen god. Zij merkten met verdriet op dat zelfs een kleinzoon van Mozes afgoden kon dienen, wat toont dat een heilige afkomst geen garantie is voor trouw.
 T: Powerless idols; Greedy priesthood; Spreading idolatry
 TN: Machteloze afgoden; Hebzuchtig priesterschap; Verspreiding van afgoderij
 
@@ -186,7 +186,7 @@ SN: Een Leviet uit Efraïm haalt zijn bijvrouw terug uit het huis van haar vader
 M: Scripture does not hide the depth of evil that comes when God is forgotten: inhospitality, violence and the betrayal of the vulnerable within Israel itself.
 MN: De Schrift verbergt niet hoe diep het kwaad gaat wanneer God vergeten wordt: ongastvrijheid, geweld en verraad van de kwetsbaren binnen Israël zelf.
 F: The Fathers read this chapter with horror as the fruit of a time when there was no king and everyone did as he pleased, and as a call to protect the weak. Hosea later recalls 'the days of Gibeah' as the depth of Israel's corruption.
-FN: De Vaders lazen dit hoofdstuk met afschuw als de vrucht van een tijd waarin er geen koning was en ieder deed wat hij wilde, en als een oproep om de zwakken te beschermen. Hosea herinnert later aan 'de dagen van Gibea' als het diepste punt van de verdorvenheid van Israël.
+FN: De kerkvaders lazen dit hoofdstuk met afschuw als de vrucht van een tijd waarin er geen koning was en ieder deed wat hij wilde, en als een oproep om de zwakken te beschermen. Hosea herinnert later aan 'de dagen van Gibea' als het diepste punt van de verdorvenheid van Israël.
 T: Depth of evil; Inhospitality; Protecting the vulnerable
 TN: Diepte van het kwaad; Ongastvrijheid; Bescherming van de kwetsbaren
 
@@ -196,7 +196,7 @@ SN: Heel Israël verzamelt zich als één man in Mizpa, vierhonderdduizend man. 
 M: Justice is pursued, but through a civil war that nearly wipes out a whole tribe. Even righteous anger needs humility, fasting and prayer.
 MN: Gerechtigheid wordt nagestreefd, maar via een burgeroorlog die bijna een hele stam uitroeit. Zelfs rechtvaardige toorn heeft nederigheid, vasten en gebed nodig.
 F: The Fathers noted that Israel was defeated twice even though its cause was just, until it humbled itself with weeping and fasting; they drew the lesson that self-righteous zeal must first be purified by repentance.
-FN: De Vaders merkten op dat Israël twee keer verslagen werd, ook al was zijn zaak rechtvaardig, totdat het zich verootmoedigde met wenen en vasten; zij trokken de les dat zelfingenomen ijver eerst door bekering gezuiverd moet worden.
+FN: De kerkvaders merkten op dat Israël twee keer verslagen werd, ook al was zijn zaak rechtvaardig, totdat het zich verootmoedigde met wenen en vasten; zij trokken de les dat zelfingenomen ijver eerst door bekering gezuiverd moet worden.
 T: Justice and humility; Civil war; Fasting and prayer
 TN: Gerechtigheid en nederigheid; Burgeroorlog; Vasten en gebed
 
@@ -206,6 +206,6 @@ SN: Israël had in Mizpa gezworen hun dochters niet aan Benjamin te geven, en we
 M: Rash oaths lead to further violence to repair the damage. The book ends in moral chaos, pointing to the need for a true king.
 MN: Onbezonnen eden leiden tot nieuw geweld om de schade te herstellen. Het boek eindigt in morele chaos en wijst op de behoefte aan een ware koning.
 F: The Fathers saw the closing refrain, 'there was no king; everyone did what was right in his own eyes', as preparing for the kingship of David and ultimately for Christ, the true King, whose law of love alone can heal such disorder.
-FN: De Vaders zagen het slotrefrein, 'er was geen koning; ieder deed wat recht was in zijn eigen ogen', als voorbereiding op het koningschap van David en uiteindelijk op Christus, de ware Koning, wiens wet van de liefde alleen zulke wanorde kan genezen.
+FN: De kerkvaders zagen het slotrefrein, 'er was geen koning; ieder deed wat recht was in zijn eigen ogen', als voorbereiding op het koningschap van David en uiteindelijk op Christus, de ware Koning, wiens wet van de liefde alleen zulke wanorde kan genezen.
 T: Rash oaths; Moral chaos; Need for a true king
 TN: Onbezonnen eden; Morele chaos; Behoefte aan een ware koning

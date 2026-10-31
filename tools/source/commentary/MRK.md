@@ -6,7 +6,7 @@ SN: Marcus begint abrupt: het begin van het Evangelie van Jezus Christus, de Zoo
 M: Mark's Gospel moves 'immediately' from one deed to the next: the kingdom has broken in with power. Already in chapter one Jesus is revealed as Son of God, though the demons are silenced.
 MN: Het Evangelie van Marcus gaat 'onmiddellijk' van de ene daad naar de volgende: het koninkrijk is met kracht doorgebroken. Al in het eerste hoofdstuk wordt Jezus geopenbaard als Zoon van God, al worden de demonen tot zwijgen gebracht.
 F: Early tradition, recorded by Papias and St Irenaeus, holds that Mark wrote down the preaching of St Peter in Rome. The Fathers gave Mark the symbol of the lion, because his Gospel opens with a voice crying in the wilderness.
-FN: Een vroege overlevering, opgetekend door Papias en de heilige Irenaeus, zegt dat Marcus de prediking van de heilige Petrus in Rome opschreef. De Vaders gaven Marcus het symbool van de leeuw, omdat zijn Evangelie opent met een stem die roept in de woestijn.
+FN: Een vroege overlevering, opgetekend door Papias en de heilige Irenaeus, zegt dat Marcus de prediking van de heilige Petrus in Rome opschreef. De kerkvaders gaven Marcus het symbool van de leeuw, omdat zijn Evangelie opent met een stem die roept in de woestijn.
 T: Gospel; Authority; Calling
 TN: Evangelie; Gezag; Roeping
 
@@ -16,7 +16,7 @@ SN: Vier vrienden laten een verlamde man door het dak zakken; Jezus vergeeft zij
 M: The scribes are right that only God forgives sins; Jesus forgives, and so reveals who He is. The faith of friends carries the sick man to Christ.
 MN: De schriftgeleerden hebben gelijk dat alleen God zonden vergeeft; Jezus vergeeft, en openbaart zo wie Hij is. Het geloof van vrienden draagt de zieke naar Christus.
 F: The Fathers see in the four friends the power of intercession: Christ healed one man because of the faith of others. St Ambrose and St Jerome apply this to the prayers of the Church for those who cannot pray.
-FN: De Vaders zien in de vier vrienden de kracht van voorspraak: Christus genas een man om het geloof van anderen. De heilige Ambrosius en de heilige Hiëronymus passen dit toe op de gebeden van de Kerk voor wie zelf niet kunnen bidden.
+FN: De kerkvaders zien in de vier vrienden de kracht van voorspraak: Christus genas een man om het geloof van anderen. De heilige Ambrosius en de heilige Hiëronymus passen dit toe op de gebeden van de Kerk voor wie zelf niet kunnen bidden.
 T: Forgiveness; Intercession; Sabbath
 TN: Vergeving; Voorspraak; Sabbat
 
@@ -26,7 +26,7 @@ SN: Jezus geneest op de sabbat een man met een verschrompelde hand, bedroefd om 
 M: The Twelve are called first 'to be with Him', then to be sent. Christ has bound the strong man and plunders his house.
 MN: De twaalf worden eerst geroepen 'om bij Hem te zijn', en dan om uitgezonden te worden. Christus heeft de sterke gebonden en berooft zijn huis.
 F: The Fathers note that being with Christ comes before every mission. They teach that the Mother of God is blessed above all precisely because she heard the word of God and kept it.
-FN: De Vaders merken op dat bij Christus zijn voorafgaat aan elke zending. Zij leren dat de Moeder Gods juist boven allen gezegend is omdat zij het woord van God hoorde en bewaarde.
+FN: De kerkvaders merken op dat bij Christus zijn voorafgaat aan elke zending. Zij leren dat de Moeder Gods juist boven allen gezegend is omdat zij het woord van God hoorde en bewaarde.
 T: Apostles; Victory over Satan; Doing God's will
 TN: Apostelen; Overwinning op Satan; Gods wil doen
 
@@ -46,7 +46,7 @@ SN: In het land van de Gerasenen woont een man, bezeten door een legioen demonen
 M: No bondage, sickness or death is beyond Christ's reach. The first missionary to the pagan Decapolis is a man freed from demons.
 MN: Geen gebondenheid, ziekte of dood is buiten het bereik van Christus. De eerste missionaris in het heidense Dekapolis is een man die van demonen bevrijd is.
 F: The Fathers contrast the crowd pressing on Jesus with the one woman who touched Him in faith: many come near Christ, few touch Him. This was applied to receiving the Eucharist with faith.
-FN: De Vaders stellen de menigte die tegen Jezus aandringt tegenover de ene vrouw die Hem in geloof aanraakte: velen komen dicht bij Christus, weinigen raken Hem aan. Dit werd toegepast op het ontvangen van de eucharistie met geloof.
+FN: De kerkvaders stellen de menigte die tegen Jezus aandringt tegenover de ene vrouw die Hem in geloof aanraakte: velen komen dicht bij Christus, weinigen raken Hem aan. Dit werd toegepast op het ontvangen van de eucharistie met geloof.
 T: Deliverance; Faith that touches; Raising the dead
 TN: Bevrijding; Geloof dat aanraakt; Opwekking uit de dood
 
@@ -56,7 +56,7 @@ SN: In Nazaret vragen de mensen: is dit niet de timmerman, de zoon van Maria? Hi
 M: The Shepherd gathers and feeds His scattered flock. Familiarity can blind us to the presence of God among us.
 MN: De Herder verzamelt en voedt Zijn verstrooide kudde. Vertrouwdheid kan ons blind maken voor Gods aanwezigheid onder ons.
 F: The Fathers explain 'brothers and sisters' of Jesus as relatives, according to the Church's faith in Mary's perpetual virginity; St Jerome called them cousins, other Fathers children of Joseph from an earlier marriage.
-FN: De Vaders verklaren 'broers en zussen' van Jezus als verwanten, overeenkomstig het geloof van de Kerk in Maria's altijddurende maagdelijkheid; de heilige Hiëronymus noemde hen neven, andere Vaders kinderen van Jozef uit een eerder huwelijk.
+FN: De kerkvaders verklaren 'broers en zussen' van Jezus als verwanten, overeenkomstig het geloof van de Kerk in Maria's altijddurende maagdelijkheid; de heilige Hiëronymus noemde hen neven, andere kerkvaders kinderen van Jozef uit een eerder huwelijk.
 T: Unbelief; Compassion; Mission
 TN: Ongeloof; Medelijden; Zending
 
@@ -76,7 +76,7 @@ SN: Jezus voedt vierduizend mensen, weigert de farizeeën een teken en waarschuw
 M: The two-stage healing pictures the disciples: they see who Jesus is, but not yet clearly that the Christ must suffer. This is the turning point of the Gospel.
 MN: De genezing in twee stappen beeldt de leerlingen uit: zij zien wie Jezus is, maar nog niet duidelijk dat de Christus moet lijden. Dit is het keerpunt van het Evangelie.
 F: The Fathers see the gradual healing of the blind man as the soul's slow illumination by grace. Peter's rebuke shows, they say, that even right confession needs to be purified from human thoughts.
-FN: De Vaders zien de geleidelijke genezing van de blinde als de langzame verlichting van de ziel door de genade. De terechtwijzing van Petrus toont, zeggen zij, dat zelfs een juiste belijdenis gezuiverd moet worden van menselijke gedachten.
+FN: De kerkvaders zien de geleidelijke genezing van de blinde als de langzame verlichting van de ziel door de genade. De terechtwijzing van Petrus toont, zeggen zij, dat zelfs een juiste belijdenis gezuiverd moet worden van menselijke gedachten.
 T: Confession; Cross; Spiritual sight
 TN: Belijdenis; Kruis; Geestelijk zien
 
@@ -86,7 +86,7 @@ SN: Jezus wordt van gedaante veranderd voor Petrus, Jakobus en Johannes, met Moz
 M: Glory on the mountain and struggle in the valley belong together. The father's honest prayer is a prayer for every believer.
 MN: Heerlijkheid op de berg en strijd in het dal horen bij elkaar. Het eerlijke gebed van de vader is een gebed voor iedere gelovige.
 F: 'I believe; help my unbelief' was loved by the Fathers as a model of humble prayer. Many ancient manuscripts add 'and fasting' to 'prayer', and the Fathers joined the two in their teaching on spiritual warfare.
-FN: 'Ik geloof; kom mijn ongeloof te hulp' werd door de Vaders geliefd als voorbeeld van nederig gebed. Veel oude handschriften voegen 'en vasten' toe aan 'gebed', en de Vaders verbonden die twee in hun onderricht over de geestelijke strijd.
+FN: 'Ik geloof; kom mijn ongeloof te hulp' werd door de kerkvaders geliefd als voorbeeld van nederig gebed. Veel oude handschriften voegen 'en vasten' toe aan 'gebed', en de kerkvaders verbonden die twee in hun onderricht over de geestelijke strijd.
 T: Transfiguration; Prayer and faith; Service
 TN: Gedaanteverandering; Gebed en geloof; Dienstbaarheid
 
@@ -96,7 +96,7 @@ SN: Jezus leert dat het huwelijk sinds de schepping een levenslange verbintenis 
 M: Jesus looked at the rich man 'and loved him': His demands come from love. Bartimaeus, who sees and follows, is the model disciple.
 MN: Jezus keek de rijke man aan 'en kreeg hem lief': Zijn eisen komen voort uit liefde. Bartimeüs, die ziet en volgt, is de modelleerling.
 F: The cry of Bartimaeus and of the blind men, 'Son of David, have mercy on me', is one of the roots of the Jesus Prayer, 'Lord Jesus Christ, Son of God, have mercy on me', prayed by the hesychast Fathers.
-FN: De roep van Bartimeüs en van de blinden, 'Zoon van David, ontferm U over mij', is een van de wortels van het Jezusgebed, 'Heer Jezus Christus, Zoon van God, ontferm U over mij', dat de hesychastische Vaders baden.
+FN: De roep van Bartimeüs en van de blinden, 'Zoon van David, ontferm U over mij', is een van de wortels van het Jezusgebed, 'Heer Jezus Christus, Zoon van God, ontferm U over mij', dat de hesychastische kerkvaders baden.
 T: Discipleship; Service; Mercy
 TN: Leerlingschap; Dienstbaarheid; Barmhartigheid
 
@@ -106,7 +106,7 @@ SN: Jezus trekt Jeruzalem binnen op een veulen, onder het geroep van Hosanna. Hi
 M: The fig tree full of leaves and empty of fruit is a sign of worship without life. True prayer is joined to faith and forgiveness.
 MN: De vijgenboom vol bladeren maar zonder vrucht is een teken van eredienst zonder leven. Waar gebed gaat samen met geloof en vergeving.
 F: The Fathers explain that Christ, who always healed, here performs one sign of judgement, on a tree and not a person, as a warning to Israel and to every soul that bears leaves but no fruit.
-FN: De Vaders leggen uit dat Christus, die altijd genas, hier één teken van oordeel verricht, aan een boom en niet aan een mens, als waarschuwing voor Israël en voor iedere ziel die bladeren draagt maar geen vrucht.
+FN: De kerkvaders leggen uit dat Christus, die altijd genas, hier één teken van oordeel verricht, aan een boom en niet aan een mens, als waarschuwing voor Israël en voor iedere ziel die bladeren draagt maar geen vrucht.
 T: Kingship; True worship; Faith and forgiveness
 TN: Koningschap; Ware eredienst; Geloof en vergeving
 
@@ -126,7 +126,7 @@ SN: Jezus voorzegt de verwoesting van de tempel en spreekt op de Olijfberg over 
 M: The chapter ends with one word for all: watch. Vigilance is the posture of the Christian between the first and second coming of Christ.
 MN: Het hoofdstuk eindigt met één woord voor allen: waakt. Waakzaamheid is de houding van de christen tussen de eerste en de tweede komst van Christus.
 F: The Fathers explain 'not even the Son' as said according to His humanity, or in the sense that it was not His to reveal; they warned the faithful not to calculate the end but to be ready each day.
-FN: De Vaders verklaren 'ook de Zoon niet' als gezegd naar Zijn mensheid, of in de zin dat het niet aan Hem was om het te openbaren; zij waarschuwden de gelovigen het einde niet te berekenen maar elke dag gereed te zijn.
+FN: De kerkvaders verklaren 'ook de Zoon niet' als gezegd naar Zijn mensheid, of in de zin dat het niet aan Hem was om het te openbaren; zij waarschuwden de gelovigen het einde niet te berekenen maar elke dag gereed te zijn.
 T: Watchfulness; Second Coming; Endurance
 TN: Waakzaamheid; Wederkomst; Volharding
 
@@ -136,7 +136,7 @@ SN: In Betanië breekt een vrouw een albasten kruik met nardus boven Jezus' hoof
 M: At the moment of His greatest weakness Jesus openly confesses that He is the Christ. 'Abba' reveals the trust of the Son, into which He brings us.
 MN: Op het moment van Zijn grootste zwakte belijdt Jezus openlijk dat Hij de Christus is. 'Abba' toont het vertrouwen van de Zoon, waarin Hij ons opneemt.
 F: Some ancient writers suggested that the young man who fled was Mark himself, leaving a quiet signature in his Gospel. The Fathers see in Peter's tears the model of true repentance.
-FN: Sommige oude schrijvers dachten dat de jongeman die vluchtte Marcus zelf was, die zo een stille handtekening in zijn Evangelie achterliet. De Vaders zien in de tranen van Petrus het voorbeeld van waar berouw.
+FN: Sommige oude schrijvers dachten dat de jongeman die vluchtte Marcus zelf was, die zo een stille handtekening in zijn Evangelie achterliet. De kerkvaders zien in de tranen van Petrus het voorbeeld van waar berouw.
 T: Eucharist; Gethsemane; Repentance
 TN: Eucharistie; Getsemane; Berouw
 
@@ -146,7 +146,7 @@ SN: Pilatus, die weet dat Jezus uit afgunst is overgeleverd, laat Barabbas vrij 
 M: In Mark the first human being to confess Jesus as Son of God is a Gentile soldier at the cross. The cross is where God is revealed.
 MN: Bij Marcus is de eerste mens die Jezus als Zoon van God belijdt een heidense soldaat bij het kruis. Het kruis is de plaats waar God geopenbaard wordt.
 F: The Fathers honour Simon of Cyrene as a figure of every Christian who takes up the cross after Christ. The hours of the passion, the third, sixth and ninth, became the hours of daily prayer in the Church.
-FN: De Vaders eren Simon van Cyrene als beeld van iedere christen die achter Christus het kruis opneemt. De uren van het lijden, het derde, zesde en negende, werden de uren van het dagelijks gebed in de Kerk.
+FN: De kerkvaders eren Simon van Cyrene als beeld van iedere christen die achter Christus het kruis opneemt. De uren van het lijden, het derde, zesde en negende, werden de uren van het dagelijks gebed in de Kerk.
 T: Cross; Kingship; Confession of the centurion
 TN: Kruis; Koningschap; Belijdenis van de hoofdman
 
@@ -156,6 +156,6 @@ SN: Als de sabbat voorbij is, brengen Maria Magdalena, Maria de moeder van Jakob
 M: 'And Peter': the risen Lord singles out the one who denied Him, to restore him. The Gospel ends with the Church sent into the world.
 MN: 'En tegen Petrus': de verrezen Heer noemt juist hem die Hem verloochende, om hem te herstellen. Het Evangelie eindigt met de Kerk die de wereld in wordt gezonden.
 F: The Church reads Mark 16:9–20 at the Resurrection Matins as one of the eleven 'resurrection gospels'. The Fathers note the mercy of the words 'and Peter'.
-FN: De Kerk leest Marcus 16:9–20 in de Metten van de Verrijzenis als een van de elf 'verrijzenisevangeliën'. De Vaders wijzen op de barmhartigheid van de woorden 'en tegen Petrus'.
+FN: De Kerk leest Marcus 16:9–20 in de Metten van de Verrijzenis als een van de elf 'verrijzenisevangeliën'. De kerkvaders wijzen op de barmhartigheid van de woorden 'en tegen Petrus'.
 T: Resurrection; Restoration; Mission
 TN: Verrijzenis; Herstel; Zending

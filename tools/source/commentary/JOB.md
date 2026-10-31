@@ -16,7 +16,7 @@ SN: Opnieuw komen de zonen van God voor de Heer staan. De Heer zegt: Job houdt n
 M: Job accepts suffering in his own body without turning against God. His friends' first and best act of comfort is to sit with him in silence.
 MN: Job aanvaardt lijden in zijn eigen lichaam zonder zich tegen God te keren. De eerste en beste troost van zijn vrienden is zwijgend bij hem te zitten.
 F: St Augustine remarks that the devil took everything from Job except his wife, leaving her not as a comfort but as a helper in temptation, as Eve was for Adam. The Fathers praised Job's answer, 'shall we receive good from God and not evil?', and many have seen in the friends' seven days of silence the wisest part of their visit: presence before words.
-FN: De heilige Augustinus merkt op dat de duivel Job alles afnam behalve zijn vrouw, en haar liet niet als troost, maar als helpster bij de verzoeking, zoals Eva voor Adam was. De Vaders prezen het antwoord van Job, 'zouden wij het goede van God ontvangen en het kwade niet?', en velen hebben in de zeven dagen van zwijgen van de vrienden het wijste deel van hun bezoek gezien: aanwezigheid vóór woorden.
+FN: De heilige Augustinus merkt op dat de duivel Job alles afnam behalve zijn vrouw, en haar liet niet als troost, maar als helpster bij de verzoeking, zoals Eva voor Adam was. De kerkvaders prezen het antwoord van Job, 'zouden wij het goede van God ontvangen en het kwade niet?', en velen hebben in de zeven dagen van zwijgen van de vrienden het wijste deel van hun bezoek gezien: aanwezigheid vóór woorden.
 T: Suffering in the body; Temptation; Silent comfort
 TN: Lijden in het lichaam; Verzoeking; Zwijgende troost
 
@@ -26,7 +26,7 @@ SN: Hierna opent Job zijn mond en vervloekt de dag van zijn geboorte: laat de da
 M: After the silence, Job pours out his anguish honestly. He curses his birth, not God; his lament becomes a prayer of pain.
 MN: Na het zwijgen stort Job eerlijk zijn angst uit. Hij vervloekt zijn geboorte, niet God; zijn klacht wordt een gebed van pijn.
 F: The Fathers distinguished Job's lament from blasphemy: he speaks the truth of his pain without renouncing God, like the psalms of lament and like Jeremiah. Some read his curse spiritually, as a lament over the fallen condition into which every human being is born, and so as a longing for the new birth.
-FN: De Vaders onderscheidden de klacht van Job van godslastering: hij spreekt de waarheid van zijn pijn uit zonder God te verloochenen, zoals de klaagpsalmen en zoals Jeremia. Sommigen lazen zijn vervloeking geestelijk, als een klacht over de gevallen toestand waarin ieder mens geboren wordt, en dus als een verlangen naar de nieuwe geboorte.
+FN: De kerkvaders onderscheidden de klacht van Job van godslastering: hij spreekt de waarheid van zijn pijn uit zonder God te verloochenen, zoals de klaagpsalmen en zoals Jeremia. Sommigen lazen zijn vervloeking geestelijk, als een klacht over de gevallen toestand waarin ieder mens geboren wordt, en dus als een verlangen naar de nieuwe geboorte.
 T: Honest lament; Longing for rest; Pain spoken before God
 TN: Eerlijke klacht; Verlangen naar rust; Pijn uitgesproken voor God
 
@@ -36,7 +36,7 @@ SN: Elifaz de Temaniet antwoordt: als men een woord tot u waagt, zult u het dan 
 M: Eliphaz begins gently, but his theology is simple: the innocent never perish, so Job's suffering must have a cause in his sin. What he says about human weakness is true, but it is wrongly applied.
 MN: Elifaz begint vriendelijk, maar zijn theologie is eenvoudig: onschuldigen komen nooit om, dus moet het lijden van Job een oorzaak hebben in zijn zonde. Wat hij zegt over menselijke zwakheid is waar, maar het wordt verkeerd toegepast.
 F: The Fathers noted that the friends often speak true words about God, yet God says at the end that they did not speak rightly of Him: truth wrongly applied to a sufferer becomes a wound. Eliphaz's question, 'can a man be pure before his Maker?', was nevertheless valued as a reminder of human humility before God.
-FN: De Vaders merkten op dat de vrienden vaak ware woorden over God spreken, maar dat God aan het einde zegt dat zij niet juist over Hem gesproken hebben: waarheid die verkeerd toegepast wordt op een lijdende, wordt een wond. De vraag van Elifaz, 'kan een man rein zijn voor zijn Maker?', werd toch gewaardeerd als herinnering aan menselijke nederigheid voor God.
+FN: De kerkvaders merkten op dat de vrienden vaak ware woorden over God spreken, maar dat God aan het einde zegt dat zij niet juist over Hem gesproken hebben: waarheid die verkeerd toegepast wordt op een lijdende, wordt een wond. De vraag van Elifaz, 'kan een man rein zijn voor zijn Maker?', werd toch gewaardeerd als herinnering aan menselijke nederigheid voor God.
 T: Truth misapplied; Suffering and sin; Human frailty
 TN: Verkeerd toegepaste waarheid; Lijden en zonde; Menselijke broosheid
 
@@ -46,7 +46,7 @@ SN: Elifaz gaat verder: roep toch; is er iemand die u antwoordt? Ellende komt ni
 M: Eliphaz advises Job to seek God and accept His discipline. His words are beautiful and partly true, but they assume that Job is being corrected for sin.
 MN: Elifaz raadt Job aan God te zoeken en Zijn tucht te aanvaarden. Zijn woorden zijn mooi en gedeeltelijk waar, maar zij gaan ervan uit dat Job voor zonde gecorrigeerd wordt.
 F: St Paul quotes this chapter, 'He catches the wise in their craftiness', and the Letter to the Hebrews and Proverbs echo 'despise not the discipline of the Lord'. The Fathers used 'He wounds, but He binds up' to speak of God as the physician of souls, while noting that the friends' error lay not in these truths but in treating Job as guilty.
-FN: De heilige Paulus citeert dit hoofdstuk, 'Hij vangt de wijzen in hun sluwheid', en de brief aan de Hebreeën en Spreuken herhalen 'versmaad de tucht van de Heer niet'. De Vaders gebruikten 'Hij verwondt, maar Hij verbindt' om over God te spreken als de geneesheer van de zielen, terwijl zij opmerkten dat de fout van de vrienden niet in deze waarheden lag, maar in het behandelen van Job als schuldig.
+FN: De heilige Paulus citeert dit hoofdstuk, 'Hij vangt de wijzen in hun sluwheid', en de brief aan de Hebreeën en Spreuken herhalen 'versmaad de tucht van de Heer niet'. De kerkvaders gebruikten 'Hij verwondt, maar Hij verbindt' om over God te spreken als de geneesheer van de zielen, terwijl zij opmerkten dat de fout van de vrienden niet in deze waarheden lag, maar in het behandelen van Job als schuldig.
 T: God's discipline; God the physician; Assumed guilt
 TN: Gods tucht; God de geneesheer; Veronderstelde schuld
 
@@ -56,7 +56,7 @@ SN: Job antwoordt: als mijn verdriet maar gewogen werd, en al mijn ellende op de
 M: Job feels betrayed by friends who came to comfort but now accuse. He asks them to show him his sin, not to assume it.
 MN: Job voelt zich verraden door vrienden die kwamen troosten, maar nu beschuldigen. Hij vraagt hun hem zijn zonde te tonen, niet die te veronderstellen.
 F: The Fathers drew from Job's complaint, 'he who withholds kindness from a friend forsakes the fear of the Almighty', a lesson for all who visit the suffering: love must come before correction. His comfort, 'that I had not denied the words of the Holy One', was read as the strength of a conscience faithful to God.
-FN: De Vaders leerden uit de klacht van Job, 'wie een vriend vriendelijkheid onthoudt, verlaat de vreze van de Almachtige', een les voor allen die lijdenden bezoeken: liefde moet vóór correctie komen. Zijn troost, 'dat ik de woorden van de Heilige niet verloochend heb', werd gelezen als de kracht van een geweten dat trouw is aan God.
+FN: De kerkvaders leerden uit de klacht van Job, 'wie een vriend vriendelijkheid onthoudt, verlaat de vreze van de Almachtige', een les voor allen die lijdenden bezoeken: liefde moet vóór correctie komen. Zijn troost, 'dat ik de woorden van de Heilige niet verloochend heb', werd gelezen als de kracht van een geweten dat trouw is aan God.
 T: Failed friendship; Love before correction; A faithful conscience
 TN: Gefaalde vriendschap; Liefde vóór correctie; Een trouw geweten
 
@@ -66,7 +66,7 @@ SN: Job gaat verder: heeft de mens niet een zware dienst op aarde, en zijn zijn 
 M: Job turns from his friends to God and speaks to Him directly. His question 'what is man?' turns the praise of Psalm 8 into a cry of pain.
 MN: Job wendt zich af van zijn vrienden en spreekt God rechtstreeks aan. Zijn vraag 'wat is de mens?' maakt van de lof van Psalm 8 een kreet van pijn.
 F: The Fathers noted that Job's bitter question 'what is man, that You make so much of him?' unknowingly points to the mystery that God does indeed set His heart on man, so much that He became man. 'My days are swifter than a weaver's shuttle' was often used to teach the remembrance of death and the brevity of life.
-FN: De Vaders merkten op dat de bittere vraag van Job 'wat is de mens, dat U hem zo groot maakt?' onbewust wijst naar het mysterie dat God Zijn hart werkelijk op de mens zet, zozeer dat Hij mens werd. 'Mijn dagen gaan sneller dan een weversspoel' werd vaak gebruikt om de gedachtenis aan de dood en de kortheid van het leven te onderwijzen.
+FN: De kerkvaders merkten op dat de bittere vraag van Job 'wat is de mens, dat U hem zo groot maakt?' onbewust wijst naar het mysterie dat God Zijn hart werkelijk op de mens zet, zozeer dat Hij mens werd. 'Mijn dagen gaan sneller dan een weversspoel' werd vaak gebruikt om de gedachtenis aan de dood en de kortheid van het leven te onderwijzen.
 T: Speaking to God directly; The brevity of life; What is man?
 TN: God rechtstreeks aanspreken; De kortheid van het leven; Wat is de mens?
 
@@ -76,7 +76,7 @@ SN: Bildad de Suhiet antwoordt: hoe lang zult u deze dingen zeggen, en zullen de
 M: Bildad defends God's justice by blaming Job's dead children. His certainty about God's ways leaves no room for innocent suffering.
 MN: Bildad verdedigt Gods rechtvaardigheid door de dode kinderen van Job de schuld te geven. Zijn zekerheid over Gods wegen laat geen ruimte voor onschuldig lijden.
 F: The Fathers saw in Bildad's cruel words about Job's children the danger of defending God at the expense of mercy. Yet his promise that God will 'fill your mouth with laughter' was in the end fulfilled, though not for the reasons Bildad gave.
-FN: De Vaders zagen in de wrede woorden van Bildad over de kinderen van Job het gevaar om God te verdedigen ten koste van barmhartigheid. Toch werd zijn belofte dat God 'uw mond met lachen zal vullen' uiteindelijk vervuld, maar niet om de redenen die Bildad gaf.
+FN: De kerkvaders zagen in de wrede woorden van Bildad over de kinderen van Job het gevaar om God te verdedigen ten koste van barmhartigheid. Toch werd zijn belofte dat God 'uw mond met lachen zal vullen' uiteindelijk vervuld, maar niet om de redenen die Bildad gaf.
 T: Defending God without mercy; Tradition of the fathers; Hope of restoration
 TN: God verdedigen zonder barmhartigheid; De traditie van de vaderen; Hoop op herstel
 
@@ -86,7 +86,7 @@ SN: Job antwoordt: waarlijk, ik weet dat het zo is: maar hoe kan een mens rechtv
 M: Job feels the infinite distance between himself and the almighty Creator. He longs for someone who could stand between God and man and lay a hand on both.
 MN: Job voelt de oneindige afstand tussen zichzelf en de almachtige Schepper. Hij verlangt naar iemand die tussen God en mens zou kunnen staan en zijn hand op beiden zou leggen.
 F: The Fathers, St Gregory the Great among them, heard in Job's longing for an 'arbiter who might lay his hand on us both' a cry for the one Mediator between God and man, Christ Jesus, who as God and man can touch both. Job's despairing 'He destroys both the blameless and the wicked' was read as the voice of anguish, not his final word.
-FN: De Vaders, onder wie de heilige Gregorius de Grote, hoorden in het verlangen van Job naar een 'scheidsrechter die zijn hand op ons beiden zou leggen' een roep om de ene Middelaar tussen God en mensen, Christus Jezus, die als God en mens beiden kan aanraken. Het wanhopige 'Hij vernietigt zowel de onberispelijke als de goddeloze' van Job werd gelezen als de stem van angst, niet als zijn laatste woord.
+FN: De kerkvaders, onder wie de heilige Gregorius de Grote, hoorden in het verlangen van Job naar een 'scheidsrechter die zijn hand op ons beiden zou leggen' een roep om de ene Middelaar tussen God en mensen, Christus Jezus, die als God en mens beiden kan aanraken. Het wanhopige 'Hij vernietigt zowel de onberispelijke als de goddeloze' van Job werd gelezen als de stem van angst, niet als zijn laatste woord.
 T: The distance between God and man; Longing for a mediator; God's majesty
 TN: De afstand tussen God en mens; Verlangen naar een middelaar; Gods majesteit
 
@@ -96,7 +96,7 @@ SN: Job gaat verder: ik walg van mijn leven; ik zal mijn klacht de vrije loop la
 M: Even in his complaint, Job confesses that God formed him lovingly in the womb. He cannot reconcile that tender care with his present suffering.
 MN: Zelfs in zijn klacht belijdt Job dat God hem liefdevol in de schoot gevormd heeft. Hij kan die tedere zorg niet rijmen met zijn huidige lijden.
 F: The Fathers cherished Job's description of God knitting the body together in the womb, 'You clothed me with skin and flesh, and knit me together with bones and sinews', as a witness to the dignity of the human body and of life before birth, and as an argument for the resurrection: the hands that formed us can form us again.
-FN: De Vaders koesterden de beschrijving van Job van God die het lichaam in de schoot samenweeft, 'U hebt mij met huid en vlees bekleed, en mij met beenderen en pezen samengeweven', als getuigenis van de waardigheid van het menselijk lichaam en van het leven vóór de geboorte, en als argument voor de opstanding: de handen die ons gevormd hebben, kunnen ons opnieuw vormen.
+FN: De kerkvaders koesterden de beschrijving van Job van God die het lichaam in de schoot samenweeft, 'U hebt mij met huid en vlees bekleed, en mij met beenderen en pezen samengeweven', als getuigenis van de waardigheid van het menselijk lichaam en van het leven vóór de geboorte, en als argument voor de opstanding: de handen die ons gevormd hebben, kunnen ons opnieuw vormen.
 T: Formed by God's hands; Life in the womb; Complaint and trust
 TN: Gevormd door Gods handen; Leven in de schoot; Klacht en vertrouwen
 
@@ -106,7 +106,7 @@ SN: Zofar de Naämathiet antwoordt: zou een menigte woorden onbeantwoord blijven
 M: Zophar is the harshest of the friends: Job deserves even worse. He speaks rightly of God's unsearchable depths, yet claims to know exactly why Job suffers.
 MN: Zofar is de hardste van de vrienden: Job verdient nog erger. Hij spreekt terecht over Gods ondoorgrondelijke diepten, maar beweert precies te weten waarom Job lijdt.
 F: The Fathers noted the irony of Zophar: he proclaims that God's depths cannot be searched out, yet presumes to judge Job's hidden guilt. His words on the unsearchable God were nevertheless taken up in teaching on the incomprehensibility of God, like St Paul's 'how unsearchable are His judgments'.
-FN: De Vaders merkten de ironie van Zofar op: hij verkondigt dat Gods diepten niet te doorgronden zijn, maar meent toch de verborgen schuld van Job te kunnen beoordelen. Zijn woorden over de ondoorgrondelijke God werden toch opgenomen in het onderwijs over de onbegrijpelijkheid van God, zoals Paulus' 'hoe ondoorgrondelijk zijn Zijn oordelen'.
+FN: De kerkvaders merkten de ironie van Zofar op: hij verkondigt dat Gods diepten niet te doorgronden zijn, maar meent toch de verborgen schuld van Job te kunnen beoordelen. Zijn woorden over de ondoorgrondelijke God werden toch opgenomen in het onderwijs over de onbegrijpelijkheid van God, zoals Paulus' 'hoe ondoorgrondelijk zijn Zijn oordelen'.
 T: The unsearchable God; Presumption; Harsh judgment
 TN: De ondoorgrondelijke God; Aanmatiging; Hard oordeel
 
@@ -116,7 +116,7 @@ SN: Job antwoordt: ongetwijfeld bent u het volk, en met u zal de wijsheid sterve
 M: Job answers the friends' wisdom with his own: all creation knows God's sovereign power. He does not doubt God's might, only the friends' explanation of it.
 MN: Job beantwoordt de wijsheid van de vrienden met zijn eigen wijsheid: de hele schepping kent Gods soevereine macht. Hij twijfelt niet aan Gods macht, alleen aan de verklaring die de vrienden ervan geven.
 F: The Fathers loved 'ask the beasts, and they will teach you' as a witness that creation itself proclaims its Creator, a theme developed by St Basil in his homilies on the six days of creation. 'In His hand is the life of every living thing' was read as a confession of God's providence over all life.
-FN: De Vaders hielden van 'vraag het de dieren, en zij zullen u onderwijzen' als getuigenis dat de schepping zelf haar Schepper verkondigt, een thema dat de heilige Basilius uitwerkte in zijn preken over de zes scheppingsdagen. 'In Zijn hand is het leven van al wat leeft' werd gelezen als een belijdenis van Gods voorzienigheid over al het leven.
+FN: De kerkvaders hielden van 'vraag het de dieren, en zij zullen u onderwijzen' als getuigenis dat de schepping zelf haar Schepper verkondigt, een thema dat de heilige Basilius uitwerkte in zijn preken over de zes scheppingsdagen. 'In Zijn hand is het leven van al wat leeft' werd gelezen als een belijdenis van Gods voorzienigheid over al het leven.
 T: Creation proclaims God; God's sovereignty; Mocked as righteous
 TN: De schepping verkondigt God; Gods soevereiniteit; Bespot als rechtvaardige
 
@@ -126,7 +126,7 @@ SN: Job gaat verder: wat u weet, weet ik ook. Maar ik zou tot de Almachtige will
 M: Job refuses to accept lies told in defence of God. He clings to God even while questioning Him: though He slay me, I will hope in Him.
 MN: Job weigert leugens te aanvaarden die ter verdediging van God verteld worden. Hij klampt zich aan God vast terwijl hij Hem ondervraagt: al zou Hij mij doden, ik zal op Hem hopen.
 F: The Fathers loved Job's 'though He slay me, I will hope in Him' as the summit of trust: faith that holds on even when God seems an enemy. His rebuke, 'will you speak falsely for God?', was cited as a warning that God has no need of lies told in His defence.
-FN: De Vaders hielden van 'al zou Hij mij doden, ik zal op Hem hopen' van Job als het hoogtepunt van vertrouwen: geloof dat vasthoudt, zelfs wanneer God een vijand lijkt. Zijn berisping, 'zult u leugens spreken voor God?', werd aangehaald als waarschuwing dat God geen leugens nodig heeft die ter Zijner verdediging verteld worden.
+FN: De kerkvaders hielden van 'al zou Hij mij doden, ik zal op Hem hopen' van Job als het hoogtepunt van vertrouwen: geloof dat vasthoudt, zelfs wanneer God een vijand lijkt. Zijn berisping, 'zult u leugens spreken voor God?', werd aangehaald als waarschuwing dat God geen leugens nodig heeft die ter Zijner verdediging verteld worden.
 T: Hope against all; No lies for God; Seeking God's face
 TN: Hoop tegen alles in; Geen leugens voor God; Gods aangezicht zoeken
 
@@ -136,7 +136,7 @@ SN: De mens, uit een vrouw geboren, is kort van dagen en vol onrust. Hij komt op
 M: Job meditates on the brevity of life and asks the great question: if a man dies, shall he live again? For a moment he glimpses a hope beyond death, a time when God would call him back.
 MN: Job overdenkt de kortheid van het leven en stelt de grote vraag: als een man sterft, zal hij weer leven? Even ziet hij een hoop voorbij de dood, een tijd waarin God hem zou terugroepen.
 F: 'Man born of a woman is few of days' is read in the traditional Western Office of the Dead, and the Fathers saw in Job's question, 'if a man dies, shall he live again?', a question answered only by Christ's resurrection. The image of the cut-down tree that sprouts again at the scent of water was read as a figure of the resurrection and of baptism.
-FN: 'De mens, uit een vrouw geboren, is kort van dagen' wordt gelezen in het traditionele westerse dodenofficie, en de Vaders zagen in de vraag van Job, 'als een man sterft, zal hij weer leven?', een vraag die alleen door de opstanding van Christus beantwoord wordt. Het beeld van de omgehakte boom die bij de geur van water weer uitloopt, werd gelezen als een beeld van de opstanding en van de doop.
+FN: 'De mens, uit een vrouw geboren, is kort van dagen' wordt gelezen in het traditionele westerse dodenofficie, en de kerkvaders zagen in de vraag van Job, 'als een man sterft, zal hij weer leven?', een vraag die alleen door de opstanding van Christus beantwoord wordt. Het beeld van de omgehakte boom die bij de geur van water weer uitloopt, werd gelezen als een beeld van de opstanding en van de doop.
 T: The brevity of life; Hope beyond death; The tree that sprouts again
 TN: De kortheid van het leven; Hoop voorbij de dood; De boom die weer uitloopt
 
@@ -156,7 +156,7 @@ SN: Job antwoordt: ik heb veel van zulke dingen gehoord; ellendige troosters ben
 M: Abandoned by his friends and struck, as he feels, by God, Job appeals from God to God: he trusts that there is a witness for him in heaven who will plead his case.
 MN: Verlaten door zijn vrienden en, zoals hij voelt, door God geslagen, doet Job een beroep van God op God: hij vertrouwt dat er een getuige voor hem in de hemel is die zijn zaak zal bepleiten.
 F: The Fathers heard in Job's words a prophecy of Christ's Passion: struck on the cheek, mocked by enemies, innocent of violence, with a pure prayer. They saw in 'my witness is in heaven, who pleads for a man with God' the heavenly Advocate, Christ, who intercedes for us before the Father.
-FN: De Vaders hoorden in de woorden van Job een profetie van het lijden van Christus: op de wang geslagen, bespot door vijanden, onschuldig aan geweld, met een zuiver gebed. Zij zagen in 'mijn getuige is in de hemel, die pleit voor een man bij God' de hemelse Voorspraak, Christus, die voor ons bij de Vader pleit.
+FN: De kerkvaders hoorden in de woorden van Job een profetie van het lijden van Christus: op de wang geslagen, bespot door vijanden, onschuldig aan geweld, met een zuiver gebed. Zij zagen in 'mijn getuige is in de hemel, die pleit voor een man bij God' de hemelse Voorspraak, Christus, die voor ons bij de Vader pleit.
 T: Miserable comforters; The innocent sufferer; A witness in heaven
 TN: Ellendige troosters; De onschuldige lijdende; Een getuige in de hemel
 
@@ -166,7 +166,7 @@ SN: Job gaat verder: mijn geest is gebroken; mijn dagen zijn uitgeblust; het gra
 M: At the edge of despair, Job asks God Himself to stand surety for him. Even so, he holds that the righteous keeps to his way and grows stronger.
 MN: Aan de rand van de wanhoop vraagt Job God Zelf borg voor hem te staan. Toch houdt hij vast dat de rechtvaardige zijn weg houdt en sterker wordt.
 F: The Fathers saw in Job's plea, 'lay down a pledge for me with Yourself; who will put up security for me?', a longing fulfilled in Christ, who became the surety of a better covenant. 'The righteous holds to his way' was cited as encouragement to persevere when every hope seems gone.
-FN: De Vaders zagen in de smeekbede van Job, 'stel zelf een onderpand voor mij bij U; wie anders zou borg voor mij staan?', een verlangen dat vervuld werd in Christus, die borg werd van een beter verbond. 'De rechtvaardige houdt vast aan zijn weg' werd aangehaald als aanmoediging om te volharden wanneer alle hoop verdwenen lijkt.
+FN: De kerkvaders zagen in de smeekbede van Job, 'stel zelf een onderpand voor mij bij U; wie anders zou borg voor mij staan?', een verlangen dat vervuld werd in Christus, die borg werd van een beter verbond. 'De rechtvaardige houdt vast aan zijn weg' werd aangehaald als aanmoediging om te volharden wanneer alle hoop verdwenen lijkt.
 T: God as surety; Perseverance; Hope at the edge of death
 TN: God als borg; Volharding; Hoop aan de rand van de dood
 
@@ -176,7 +176,7 @@ SN: Bildad antwoordt opnieuw: hoe lang zult u op woorden jagen? Denk na, en dan 
 M: Bildad paints the fate of the wicked, and each detail is aimed at Job: his tent destroyed, his children gone, his name forgotten. The general truth becomes a cruel accusation.
 MN: Bildad schildert het lot van de goddeloze, en elk detail is op Job gericht: zijn tent verwoest, zijn kinderen weg, zijn naam vergeten. De algemene waarheid wordt een wrede beschuldiging.
 F: The Fathers recognised that the wicked do often fall into the net of their own schemes, as the psalms also say, but warned against reading every misfortune as a sign of hidden wickedness. Christ Himself rejected this reasoning when asked whether the man born blind or his parents had sinned.
-FN: De Vaders erkenden dat de goddelozen vaak in het net van hun eigen plannen vallen, zoals ook de psalmen zeggen, maar waarschuwden ertegen elk ongeluk te lezen als teken van verborgen goddeloosheid. Christus Zelf verwierp deze redenering toen Hem gevraagd werd of de blindgeborene of zijn ouders gezondigd hadden.
+FN: De kerkvaders erkenden dat de goddelozen vaak in het net van hun eigen plannen vallen, zoals ook de psalmen zeggen, maar waarschuwden ertegen elk ongeluk te lezen als teken van verborgen goddeloosheid. Christus Zelf verwierp deze redenering toen Hem gevraagd werd of de blindgeborene of zijn ouders gezondigd hadden.
 T: The fate of the wicked; Indirect accusation; Misreading misfortune
 TN: Het lot van de goddeloze; Indirecte beschuldiging; Ongeluk verkeerd lezen
 
@@ -186,7 +186,7 @@ SN: Job antwoordt: hoe lang zult u mij kwellen en mij met woorden verbrijzelen? 
 M: At the lowest point, abandoned by family and friends, Job breaks through to a startling confidence: his Redeemer lives, and he himself, in his own flesh, will see God.
 MN: Op het laagste punt, verlaten door familie en vrienden, breekt Job door tot een verrassend vertrouwen: zijn Verlosser leeft, en hijzelf zal in zijn eigen vlees God zien.
 F: This is the best-loved passage of the book. St Clement of Rome already cites Job as a witness to the resurrection of the flesh, and the Church has always heard in 'I know that my Redeemer lives' a prophecy of Christ the Redeemer and of the resurrection of the body. It is sung in the traditional Western Office of the Dead, and the Fathers saw in 'in my flesh I shall see God' the hope that the same body will rise and behold the Lord.
-FN: Dit is de meest geliefde passage van het boek. De heilige Clemens van Rome haalt Job al aan als getuige van de opstanding van het vlees, en de Kerk heeft in 'ik weet dat mijn Verlosser leeft' altijd een profetie gehoord van Christus de Verlosser en van de opstanding van het lichaam. Het wordt gezongen in het traditionele westerse dodenofficie, en de Vaders zagen in 'uit mijn vlees zal ik God aanschouwen' de hoop dat hetzelfde lichaam zal opstaan en de Heer zal aanschouwen.
+FN: Dit is de meest geliefde passage van het boek. De heilige Clemens van Rome haalt Job al aan als getuige van de opstanding van het vlees, en de Kerk heeft in 'ik weet dat mijn Verlosser leeft' altijd een profetie gehoord van Christus de Verlosser en van de opstanding van het lichaam. Het wordt gezongen in het traditionele westerse dodenofficie, en de kerkvaders zagen in 'uit mijn vlees zal ik God aanschouwen' de hoop dat hetzelfde lichaam zal opstaan en de Heer zal aanschouwen.
 T: My Redeemer lives; Resurrection of the flesh; Abandoned by all
 TN: Mijn Verlosser leeft; Opstanding van het vlees; Door allen verlaten
 
@@ -196,7 +196,7 @@ SN: Zofar antwoordt opnieuw: mijn gedachten geven mij antwoord, vanwege de haast
 M: Zophar insists that the wicked's prosperity is always short-lived. He is partly right, but his words, like the others', imply that Job's fall reveals his guilt.
 MN: Zofar houdt vol dat de voorspoed van de goddelozen altijd kort is. Hij heeft gedeeltelijk gelijk, maar ook zijn woorden suggereren dat de val van Job zijn schuld onthult.
 F: The Fathers used Zophar's image of sin that is sweet in the mouth but turns to venom within as a vivid description of how sin deceives: what seems pleasant at first ends in bitterness. Yet they noted that such truths do not explain the suffering of the righteous.
-FN: De Vaders gebruikten het beeld van Zofar van zonde die zoet is in de mond maar binnenin in gif verandert als een levendige beschrijving van hoe de zonde misleidt: wat eerst aangenaam lijkt, eindigt in bitterheid. Toch merkten zij op dat zulke waarheden het lijden van de rechtvaardigen niet verklaren.
+FN: De kerkvaders gebruikten het beeld van Zofar van zonde die zoet is in de mond maar binnenin in gif verandert als een levendige beschrijving van hoe de zonde misleidt: wat eerst aangenaam lijkt, eindigt in bitterheid. Toch merkten zij op dat zulke waarheden het lijden van de rechtvaardigen niet verklaren.
 T: The deceit of sin; Short-lived prosperity; Oppression of the poor
 TN: Het bedrog van de zonde; Kortstondige voorspoed; Verdrukking van de armen
 
@@ -206,6 +206,6 @@ SN: Job antwoordt: luister toch naar mijn woorden, en laat dat uw troost zijn. W
 M: Job confronts the friends with reality: the wicked often prosper and die in peace, while the righteous suffer. Their tidy theology does not match the world.
 MN: Job confronteert de vrienden met de werkelijkheid: de goddelozen hebben vaak voorspoed en sterven in vrede, terwijl de rechtvaardigen lijden. Hun nette theologie past niet bij de wereld.
 F: The Fathers took Job's honest observation as a proof that justice is not fully done in this life, and therefore as a pointer to the judgment and the life to come. St John Chrysostom often argued that the prosperity of the wicked and the suffering of the righteous in this world show that there must be a resurrection and a judgment.
-FN: De Vaders namen de eerlijke waarneming van Job als bewijs dat in dit leven niet volledig recht gedaan wordt, en dus als verwijzing naar het oordeel en het komende leven. De heilige Johannes Chrysostomus betoogde vaak dat de voorspoed van de goddelozen en het lijden van de rechtvaardigen in deze wereld tonen dat er een opstanding en een oordeel moeten zijn.
+FN: De kerkvaders namen de eerlijke waarneming van Job als bewijs dat in dit leven niet volledig recht gedaan wordt, en dus als verwijzing naar het oordeel en het komende leven. De heilige Johannes Chrysostomus betoogde vaak dat de voorspoed van de goddelozen en het lijden van de rechtvaardigen in deze wereld tonen dat er een opstanding en een oordeel moeten zijn.
 T: The prosperity of the wicked; Honest observation; Judgment to come
 TN: De voorspoed van de goddelozen; Eerlijke waarneming; Het komende oordeel

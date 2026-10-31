@@ -6,7 +6,7 @@ SN: Farizeeën uit Jeruzalem beschuldigen de leerlingen ervan hun handen niet te
 M: True purity is of the heart. The humble, persistent faith of a pagan woman opens the door of mercy to the nations.
 MN: Ware reinheid is die van het hart. Het nederige, volhardende geloof van een heidense vrouw opent de deur van de barmhartigheid voor de volken.
 F: St John Chrysostom admires the Canaanite woman's perseverance and humility, saying Christ delayed only to reveal her faith to all. The Fathers make her a model of unceasing prayer.
-FN: De heilige Johannes Chrysostomus bewondert de volharding en nederigheid van de Kananese vrouw en zegt dat Christus alleen talmde om haar geloof aan allen te tonen. De Vaders maken haar tot voorbeeld van onophoudelijk gebed.
+FN: De heilige Johannes Chrysostomus bewondert de volharding en nederigheid van de Kananese vrouw en zegt dat Christus alleen talmde om haar geloof aan allen te tonen. De kerkvaders maken haar tot voorbeeld van onophoudelijk gebed.
 T: Purity of heart; Persevering prayer; Faith of the nations
 TN: Reinheid van hart; Volhardend gebed; Geloof van de volken
 
@@ -16,7 +16,7 @@ SN: Bij Caesarea Filippi vraagt Jezus: wie zegt u dat Ik ben? Petrus antwoordt: 
 M: The confession of Christ as Son of God is the foundation of the Church. Glory and the cross belong together: there is no following of Christ without self-denial.
 MN: De belijdenis van Christus als Zoon van God is het fundament van de Kerk. Heerlijkheid en kruis horen samen: er is geen navolging van Christus zonder zelfverloochening.
 F: Many Eastern Fathers, such as St John Chrysostom, read 'this rock' as Peter's confession of faith; Latin Fathers also see Peter himself as the rock on which the Church is built. Both readings are part of the Church's tradition and were later weighed differently in East and West.
-FN: Veel oosterse Vaders, zoals de heilige Johannes Chrysostomus, lezen 'deze rots' als de geloofsbelijdenis van Petrus; Latijnse Vaders zien ook Petrus zelf als de rots waarop de Kerk gebouwd is. Beide lezingen behoren tot de overlevering van de Kerk en werden later in Oost en West verschillend gewogen.
+FN: Veel oosterse kerkvaders, zoals de heilige Johannes Chrysostomus, lezen 'deze rots' als de geloofsbelijdenis van Petrus; Latijnse kerkvaders zien ook Petrus zelf als de rots waarop de Kerk gebouwd is. Beide lezingen behoren tot de overlevering van de Kerk en werden later in Oost en West verschillend gewogen.
 T: Confession of faith; The Church; The cross
 TN: Geloofsbelijdenis; De Kerk; Het kruis
 
@@ -26,7 +26,7 @@ SN: Jezus neemt Petrus, Jakobus en Johannes mee een hoge berg op en wordt voor h
 M: Before the cross, the disciples see the divine glory of Christ, so that they would know His suffering was freely chosen. The Law (Moses) and the Prophets (Elijah) bear witness to Him.
 MN: Vóór het kruis zien de leerlingen de goddelijke heerlijkheid van Christus, zodat zij zouden weten dat Zijn lijden vrijwillig was. De Wet (Mozes) en de Profeten (Elia) getuigen van Hem.
 F: The Fathers teach that Christ did not become something new on Tabor but opened the disciples' eyes to what He always was. The Orthodox tradition, with St Gregory Palamas, speaks of the uncreated light of Tabor, which the saints are given to see.
-FN: De Vaders leren dat Christus op de Tabor niet iets nieuws werd, maar de ogen van de leerlingen opende voor wat Hij altijd was. De orthodoxe traditie spreekt, met de heilige Gregorius Palamas, van het ongeschapen licht van de Tabor, dat de heiligen mogen zien.
+FN: De kerkvaders leren dat Christus op de Tabor niet iets nieuws werd, maar de ogen van de leerlingen opende voor wat Hij altijd was. De orthodoxe traditie spreekt, met de heilige Gregorius Palamas, van het ongeschapen licht van de Tabor, dat de heiligen mogen zien.
 T: Transfiguration; Divine glory; Faith
 TN: Gedaanteverandering; Goddelijke heerlijkheid; Geloof
 
@@ -36,7 +36,7 @@ SN: De leerlingen vragen wie de grootste is; Jezus zet een kind in hun midden: a
 M: The Church is a family of the humble and the forgiven. Whoever has received God's immense mercy must forgive without limit.
 MN: De Kerk is een gezin van nederigen en van wie vergeven is. Wie Gods onmetelijke barmhartigheid ontvangen heeft, moet zonder grens vergeven.
 F: The Fathers see in the lost sheep the whole human race, which the Word went out to seek by becoming man. St John Chrysostom stresses that the debt forgiven to us is beyond counting, while what others owe us is small.
-FN: De Vaders zien in het verloren schaap het hele mensengeslacht, dat het Woord ging zoeken door mens te worden. De heilige Johannes Chrysostomus benadrukt dat de schuld die ons vergeven is ontelbaar groot is, terwijl wat anderen ons schuldig zijn klein is.
+FN: De kerkvaders zien in het verloren schaap het hele mensengeslacht, dat het Woord ging zoeken door mens te worden. De heilige Johannes Chrysostomus benadrukt dat de schuld die ons vergeven is ontelbaar groot is, terwijl wat anderen ons schuldig zijn klein is.
 T: Humility; Forgiveness; The lost sheep
 TN: Nederigheid; Vergeving; Het verloren schaap
 
@@ -66,7 +66,7 @@ SN: Jezus rijdt Jeruzalem binnen op een ezel, zoals Zacharia had geprofeteerd, t
 M: The King comes humbly, to reign from the cross. He claims the temple as His Father's house and warns that a people without fruit cannot stand before God.
 MN: De Koning komt nederig, om vanaf het kruis te regeren. Hij eist de tempel op als het huis van Zijn Vader en waarschuwt dat een volk zonder vrucht niet voor God kan bestaan.
 F: The Church celebrates this entry on Palm Sunday. The Fathers see the colt as the nations, never yet ridden, which Christ would now lead, and the branches as the victory of life over death.
-FN: De Kerk viert deze intocht op Palmzondag. De Vaders zien in het veulen de volken, waarop nog nooit iemand gezeten had en die Christus nu zou leiden, en in de takken de overwinning van het leven op de dood.
+FN: De Kerk viert deze intocht op Palmzondag. De kerkvaders zien in het veulen de volken, waarop nog nooit iemand gezeten had en die Christus nu zou leiden, en in de takken de overwinning van het leven op de dood.
 T: Palm Sunday; Kingship; Fruitfulness
 TN: Palmzondag; Koningschap; Vruchtbaarheid
 
@@ -76,7 +76,7 @@ SN: Jezus vertelt over een koning wiens genodigden weigeren te komen naar de bru
 M: All are invited to the Lamb's wedding, but the invitation must be received with a changed life. Love of God and love of neighbour sum up the whole Law.
 MN: Allen zijn uitgenodigd voor de bruiloft van het Lam, maar de uitnodiging moet worden aanvaard met een veranderd leven. Liefde tot God en tot de naaste vatten heel de Wet samen.
 F: The Fathers interpret the wedding garment as the love and holiness that clothe the baptised. St Augustine taught that the coin bears Caesar's image, while the human soul bears God's image and must be given back to Him.
-FN: De Vaders verklaren het bruiloftskleed als de liefde en heiligheid die de gedoopten bekleden. De heilige Augustinus leerde dat de munt het beeld van de keizer draagt, terwijl de menselijke ziel Gods beeld draagt en aan Hem moet worden teruggegeven.
+FN: De kerkvaders verklaren het bruiloftskleed als de liefde en heiligheid die de gedoopten bekleden. De heilige Augustinus leerde dat de munt het beeld van de keizer draagt, terwijl de menselijke ziel Gods beeld draagt en aan Hem moet worden teruggegeven.
 T: Invitation; Love of God and neighbour; Resurrection
 TN: Uitnodiging; Liefde tot God en naaste; Opstanding
 
@@ -86,7 +86,7 @@ SN: Jezus zegt de menigte te doen wat de schriftgeleerden en farizeeën vanaf de
 M: These words are a warning for every religious person and every leader in the Church: outward piety without inner conversion is empty. Behind the severity is the grief of a loving God.
 MN: Deze woorden zijn een waarschuwing voor iedere gelovige en iedere leider in de Kerk: uiterlijke vroomheid zonder innerlijke bekering is leeg. Achter de strengheid ligt het verdriet van een liefhebbende God.
 F: St John Chrysostom applies these woes to Christians, especially to clergy, warning that titles and robes avail nothing without virtue. The image of the hen was loved by the Fathers as a picture of Christ's motherly tenderness.
-FN: De heilige Johannes Chrysostomus past deze weeën toe op christenen, vooral op geestelijken, en waarschuwt dat titels en gewaden niets baten zonder deugd. Het beeld van de hen werd door de Vaders geliefd als een beeld van Christus' moederlijke tederheid.
+FN: De heilige Johannes Chrysostomus past deze weeën toe op christenen, vooral op geestelijken, en waarschuwt dat titels en gewaden niets baten zonder deugd. Het beeld van de hen werd door de kerkvaders geliefd als een beeld van Christus' moederlijke tederheid.
 T: Hypocrisy; Inner purity; Jerusalem
 TN: Huichelarij; Innerlijke reinheid; Jeruzalem
 
@@ -96,7 +96,7 @@ SN: Als Jezus de tempel verlaat, voorzegt Hij de verwoesting ervan. Op de Olijfb
 M: The fall of Jerusalem in AD 70 and the end of the world are seen together. The Christian lives in watchful hope, not in fear or in calculation of dates.
 MN: De val van Jeruzalem in het jaar 70 en het einde van de wereld worden samen gezien. De christen leeft in waakzame hoop, niet in angst of in het uitrekenen van data.
 F: The Fathers distinguish the prophecies fulfilled in AD 70 from those about Christ's second coming. They warn against those who claim to know the day, since the Lord Himself did not reveal it.
-FN: De Vaders onderscheiden de profetieën die in het jaar 70 vervuld zijn van die over Christus' wederkomst. Zij waarschuwen tegen wie beweren de dag te kennen, omdat de Heer Zelf die niet geopenbaard heeft.
+FN: De kerkvaders onderscheiden de profetieën die in het jaar 70 vervuld zijn van die over Christus' wederkomst. Zij waarschuwen tegen wie beweren de dag te kennen, omdat de Heer Zelf die niet geopenbaard heeft.
 T: Second Coming; Watchfulness; Endurance
 TN: Wederkomst; Waakzaamheid; Volharding
 
@@ -126,7 +126,7 @@ SN: Jezus wordt aan Pilatus overgeleverd. Judas, vol wroeging, werpt het zilver 
 M: The innocent One dies for the guilty, the Son of God for His enemies. The torn veil shows that through His death the way to God is opened for all.
 MN: De Onschuldige sterft voor de schuldigen, de Zoon van God voor Zijn vijanden. Het gescheurde voorhangsel toont dat door Zijn dood de weg tot God voor allen geopend is.
 F: The Fathers note that 'My God, My God' is the beginning of Psalm 22, which ends in triumph: Christ speaks in our name, taking our abandonment upon Himself. They contrast Judas' despair with Peter's tears: both sinned, but one did not trust in mercy.
-FN: De Vaders wijzen erop dat 'Mijn God, Mijn God' het begin is van Psalm 22, die in triomf eindigt: Christus spreekt in onze naam en neemt onze verlatenheid op Zich. Zij stellen de wanhoop van Judas tegenover de tranen van Petrus: beiden zondigden, maar de een vertrouwde niet op de barmhartigheid.
+FN: De kerkvaders wijzen erop dat 'Mijn God, Mijn God' het begin is van Psalm 22, die in triomf eindigt: Christus spreekt in onze naam en neemt onze verlatenheid op Zich. Zij stellen de wanhoop van Judas tegenover de tranen van Petrus: beiden zondigden, maar de een vertrouwde niet op de barmhartigheid.
 T: Passion; Sacrifice; The cross
 TN: Lijden; Offer; Het kruis
 
@@ -134,8 +134,8 @@ TN: Lijden; Offer; Het kruis
 S: At dawn on the first day of the week Mary Magdalene and the other Mary come to the tomb. An angel rolls back the stone and tells them: He is not here, He is risen. Running to tell the disciples, they meet the risen Jesus and worship Him. The guards are bribed to say the body was stolen. On a mountain in Galilee Jesus meets the Eleven: all authority is given to Me; go and make disciples of all nations, baptising them in the name of the Father and of the Son and of the Holy Spirit; and I am with you always, to the end of the age.
 SN: Bij het aanbreken van de eerste dag van de week komen Maria Magdalena en de andere Maria naar het graf. Een engel rolt de steen weg en zegt hun: Hij is niet hier, Hij is verrezen. Terwijl zij het de leerlingen gaan vertellen, ontmoeten zij de verrezen Jezus en aanbidden Hem. De wachters worden omgekocht om te zeggen dat het lichaam gestolen is. Op een berg in Galilea ontmoet Jezus de elf: Mij is alle macht gegeven; gaat en maakt alle volken tot Mijn leerlingen, doopt hen in de naam van de Vader en de Zoon en de Heilige Geest; en Ik ben met u alle dagen, tot aan de voleinding van de wereld.
 M: The Resurrection is the heart of the faith. The risen Lord sends the Church to all nations with the trinitarian baptism and the promise of His constant presence.
-MN: De Verrijzenis is het hart van het geloof. De verrezen Heer zendt de Kerk naar alle volken met het doopsel in de naam van de Drie-eenheid en de belofte van Zijn blijvende aanwezigheid.
+MN: De Verrijzenis is het hart van het geloof. De verrezen Heer zendt de Kerk naar alle volken met de doop in de naam van de Drie-eenheid en de belofte van Zijn blijvende aanwezigheid.
 F: The Fathers honour the myrrh-bearing women as the first witnesses of the Resurrection, 'apostles to the apostles'. They point out that the baptismal formula names one Name for the three Persons, a witness to the one God in Trinity.
-FN: De Vaders eren de mirredraagsters als de eerste getuigen van de Verrijzenis, 'apostelen van de apostelen'. Zij wijzen erop dat de doopformule één Naam noemt voor de drie Personen, een getuigenis van de ene God in Drie-eenheid.
+FN: De kerkvaders eren de mirredraagsters als de eerste getuigen van de Verrijzenis, 'apostelen van de apostelen'. Zij wijzen erop dat de doopformule één Naam noemt voor de drie Personen, een getuigenis van de ene God in Drie-eenheid.
 T: Resurrection; Mission; Baptism
-TN: Verrijzenis; Zending; Doopsel
+TN: Verrijzenis; Zending; Doop

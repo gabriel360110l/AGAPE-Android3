@@ -16,7 +16,7 @@ SN: De Israëlieten moeten zich legeren ieder bij zijn eigen vaandel, met de tek
 M: God's dwelling is at the centre of the people's life, and every tribe faces it. Order serves worship and the journey.
 MN: Gods woning staat in het middelpunt van het leven van het volk, en elke stam is erop gericht. Orde dient de eredienst en de tocht.
 F: The Fathers saw the camp arranged around the tabernacle in the form of a cross, with Judah, the tribe of Christ, at the east towards the rising sun, as an image of the Church gathered around Christ, facing east in prayer.
-FN: De Vaders zagen het kamp rondom de tabernakel in de vorm van een kruis, met Juda, de stam van Christus, aan de oostkant naar de opgaande zon, als een beeld van de Kerk die rond Christus verzameld is en in het gebed naar het oosten gericht is.
+FN: De kerkvaders zagen het kamp rondom de tabernakel in de vorm van een kruis, met Juda, de stam van Christus, aan de oostkant naar de opgaande zon, als een beeld van de Kerk die rond Christus verzameld is en in het gebed naar het oosten gericht is.
 T: God at the centre; Order; Facing east
 TN: God in het midden; Orde; Gericht naar het oosten
 
@@ -26,7 +26,7 @@ SN: De geslachten van Aäron en Mozes worden gegeven; Nadab en Abihu stierven to
 M: The firstborn spared at the Passover belong to God, and the Levites take their place in His service. Every life saved by God belongs to Him.
 MN: De eerstgeborenen die bij het Pascha gespaard werden, behoren God toe, en de Levieten nemen hun plaats in Zijn dienst in. Elk leven dat door God gered is, behoort Hem toe.
 F: The Fathers saw in the substitution of the Levites for the firstborn a figure of Christ, the true Firstborn, who gave Himself in place of all. They also took it as the basis for a consecrated clergy serving on behalf of the whole people.
-FN: De Vaders zagen in de vervanging van de eerstgeborenen door de Levieten een voorafbeelding van Christus, de ware Eerstgeborene, die Zichzelf voor allen gaf. Zij namen het ook als grondslag voor een gewijde geestelijkheid die dient namens het hele volk.
+FN: De kerkvaders zagen in de vervanging van de eerstgeborenen door de Levieten een voorafbeelding van Christus, de ware Eerstgeborene, die Zichzelf voor allen gaf. Zij namen het ook als grondslag voor een gewijde geestelijkheid die dient namens het hele volk.
 T: Firstborn; Substitution; Consecrated service
 TN: Eerstgeborenen; Plaatsvervanging; Gewijde dienst
 
@@ -36,7 +36,7 @@ SN: De taken van de Levitische geslachten bij het verplaatsen van de tabernakel 
 M: Every task in God's service matters, from carrying the ark to carrying tent pegs. The holy is approached with reverence and veiled.
 MN: Elke taak in Gods dienst telt, van het dragen van de ark tot het dragen van tentpinnen. Het heilige wordt met eerbied benaderd en bedekt.
 F: The Fathers drew from the covering of the holy things a lesson in reverence for the mysteries, and the Church's practice of veiling the holy gifts and vessels reflects this chapter. Origen notes that the humblest service in God's house is still a service of holy things.
-FN: De Vaders trokken uit het bedekken van de heilige dingen een les in eerbied voor de mysteriën, en de praktijk van de Kerk om de heilige gaven en vaten te bedekken weerspiegelt dit hoofdstuk. Origenes merkt op dat de nederigste dienst in Gods huis toch een dienst van heilige dingen is.
+FN: De kerkvaders trokken uit het bedekken van de heilige dingen een les in eerbied voor de mysteriën, en de praktijk van de Kerk om de heilige gaven en vaten te bedekken weerspiegelt dit hoofdstuk. Origenes merkt op dat de nederigste dienst in Gods huis toch een dienst van heilige dingen is.
 T: Reverence; Every service matters; The veiled holy
 TN: Eerbied; Elke dienst telt; Het bedekte heilige
 
@@ -46,7 +46,7 @@ SN: Iedereen met een huidziekte, een vloeiing of onreinheid door een dode moet b
 M: God dwells in the camp, and the community must be kept clean. Wrongs against others are to be confessed and repaired.
 MN: God woont in de legerplaats, en de gemeenschap moet rein gehouden worden. Onrecht tegen anderen moet beleden en hersteld worden.
 F: The Fathers again saw in 'he shall confess the sin he has committed' a root of the practice of confession. The ritual of the bitter water was understood as protecting the accused wife from her husband's suspicion by leaving the judgment to God.
-FN: De Vaders zagen opnieuw in 'hij zal de zonde belijden die hij begaan heeft' een wortel van de praktijk van de biecht. De rite van het bittere water werd verstaan als een bescherming van de verdachte vrouw tegen de achterdocht van haar man, doordat het oordeel aan God werd overgelaten.
+FN: De kerkvaders zagen opnieuw in 'hij zal de zonde belijden die hij begaan heeft' een wortel van de praktijk van de biecht. De rite van het bittere water werd verstaan als een bescherming van de verdachte vrouw tegen de achterdocht van haar man, doordat het oordeel aan God werd overgelaten.
 T: God's dwelling; Confession and restitution; Justice
 TN: Gods woning; Belijdenis en vergoeding; Gerechtigheid
 
@@ -56,7 +56,7 @@ SN: Wanneer een man of vrouw een bijzondere gelofte doet als nazireeër, om zich
 M: Anyone, man or woman, may dedicate a period of life wholly to God. God's blessing is the gift of His shining face, His grace and His peace.
 MN: Iedereen, man of vrouw, kan een periode van het leven geheel aan God wijden. Gods zegen is de gave van Zijn lichtend aangezicht, Zijn genade en Zijn vrede.
 F: The Fathers saw the Nazirite vow as a forerunner of the monastic life; Samson, Samuel and John the Baptist were consecrated from birth. The threefold priestly blessing was read as a blessing in the name of the Holy Trinity, and it is still used to bless the faithful in many churches.
-FN: De Vaders zagen de gelofte van de nazireeër als een voorloper van het monastieke leven; Simson, Samuël en Johannes de Doper waren vanaf hun geboorte gewijd. De drievoudige priesterzegen werd gelezen als een zegen in de naam van de Heilige Drie-eenheid, en wordt in veel kerken nog gebruikt om de gelovigen te zegenen.
+FN: De kerkvaders zagen de gelofte van de nazireeër als een voorloper van het monastieke leven; Simson, Samuël en Johannes de Doper waren vanaf hun geboorte gewijd. De drievoudige priesterzegen werd gelezen als een zegen in de naam van de Heilige Drie-eenheid, en wordt in veel kerken nog gebruikt om de gelovigen te zegenen.
 T: Consecration; The priestly blessing; Peace
 TN: Toewijding; De priesterzegen; Vrede
 
@@ -66,7 +66,7 @@ SN: Op de dag dat Mozes klaar is met het oprichten en zalven van de tabernakel, 
 M: Every tribe gives the same, and each gift is recorded in full: before God no tribe is greater or lesser. God answers by speaking from the mercy seat.
 MN: Elke stam geeft hetzelfde, en elke gave wordt volledig vermeld: voor God is geen stam groter of kleiner. God antwoordt door te spreken vanaf het verzoendeksel.
 F: The Fathers noted the patient repetition of each tribe's offering as a sign that God values and remembers each gift personally. The voice from between the cherubim was read as the Word of God, who would speak to us face to face in Christ.
-FN: De Vaders zagen de geduldige herhaling van de gave van elke stam als een teken dat God elke gave persoonlijk waardeert en gedenkt. De stem van tussen de cherubs werd gelezen als het Woord van God, dat in Christus van aangezicht tot aangezicht tot ons zou spreken.
+FN: De kerkvaders zagen de geduldige herhaling van de gave van elke stam als een teken dat God elke gave persoonlijk waardeert en gedenkt. De stem van tussen de cherubs werd gelezen als het Woord van God, dat in Christus van aangezicht tot aangezicht tot ons zou spreken.
 T: Equal gifts; God remembers; The voice from the mercy seat
 TN: Gelijke gaven; God gedenkt; De stem van het verzoendeksel
 
@@ -76,7 +76,7 @@ SN: Aäron moet de zeven lampen zo plaatsen dat zij licht geven aan de voorkant 
 M: The Levites are a gift from the people to God. Through the laying on of hands the community offers them for service.
 MN: De Levieten zijn een gave van het volk aan God. Door de handoplegging biedt de gemeenschap hen aan voor de dienst.
 F: The Fathers saw in the laying on of hands by the people a pattern for ordination with the consent of the Church, as when the apostles laid hands on the seven deacons chosen by the people. The seven lamps were read as the seven gifts of the Spirit, giving light to the Church.
-FN: De Vaders zagen in de handoplegging door het volk een patroon voor wijding met instemming van de Kerk, zoals toen de apostelen de handen oplegden aan de zeven diakens die door het volk gekozen waren. De zeven lampen werden gelezen als de zeven gaven van de Geest, die licht geven aan de Kerk.
+FN: De kerkvaders zagen in de handoplegging door het volk een patroon voor wijding met instemming van de Kerk, zoals toen de apostelen de handen oplegden aan de zeven diakens die door het volk gekozen waren. De zeven lampen werden gelezen als de zeven gaven van de Geest, die licht geven aan de Kerk.
 T: Light; Laying on of hands; Service
 TN: Licht; Handoplegging; Dienst
 
@@ -86,7 +86,7 @@ SN: In de eerste maand van het tweede jaar houdt Israël het Pascha in de woesti
 M: God makes room for those who cannot keep the feast at the normal time. The people learn to move and rest only at God's direction.
 MN: God maakt ruimte voor wie het feest niet op de gewone tijd kunnen houden. Het volk leert alleen op Gods aanwijzing op te breken en te rusten.
 F: The Fathers loved the people's following of the cloud as an image of the Christian life guided by the Holy Spirit, waiting when God says wait and going when He says go. The second Passover showed God's mercy that does not exclude those prevented by circumstances.
-FN: De Vaders hielden van het volgen van de wolk door het volk als een beeld van het christelijk leven, geleid door de Heilige Geest, wachtend wanneer God zegt te wachten en gaand wanneer Hij zegt te gaan. Het tweede Pascha toonde Gods barmhartigheid, die niet uitsluit wie door omstandigheden verhinderd zijn.
+FN: De kerkvaders hielden van het volgen van de wolk door het volk als een beeld van het christelijk leven, geleid door de Heilige Geest, wachtend wanneer God zegt te wachten en gaand wanneer Hij zegt te gaan. Het tweede Pascha toonde Gods barmhartigheid, die niet uitsluit wie door omstandigheden verhinderd zijn.
 T: Passover; Following God's lead; Mercy
 TN: Pascha; Gods leiding volgen; Barmhartigheid
 
@@ -96,7 +96,7 @@ SN: Mozes maakt twee zilveren trompetten om de gemeenschap bijeen te roepen en o
 M: After almost a year at Sinai, the journey to the promised land begins, with God leading and the people following in order.
 MN: Na bijna een jaar bij de Sinaï begint de tocht naar het beloofde land, waarbij God voorgaat en het volk in orde volgt.
 F: The words 'Arise, O Lord, let Your enemies be scattered' became the opening of Psalm 68, which the Church sings at Pascha. The Fathers saw the silver trumpets as the preaching of the Gospel that gathers the Church and as the trumpet of the resurrection.
-FN: De woorden 'Sta op, Heer, laat Uw vijanden verstrooid worden' werden het begin van Psalm 68, die de Kerk met Pasen zingt. De Vaders zagen de zilveren trompetten als de verkondiging van het Evangelie die de Kerk bijeenroept en als de bazuin van de opstanding.
+FN: De woorden 'Sta op, Heer, laat Uw vijanden verstrooid worden' werden het begin van Psalm 68, die de Kerk met Pasen zingt. De kerkvaders zagen de zilveren trompetten als de verkondiging van het Evangelie die de Kerk bijeenroept en als de bazuin van de opstanding.
 T: Departure; God leads; Arise, O Lord
 TN: Vertrek; God leidt; Sta op, Heer
 
@@ -106,7 +106,7 @@ SN: Het volk klaagt, en er breekt vuur uit aan de rand van de legerplaats totdat
 M: Ingratitude forgets slavery and remembers only the food. God shares the burden of leadership by giving His Spirit to many.
 MN: Ondankbaarheid vergeet de slavernij en herinnert zich alleen het eten. God deelt de last van het leiderschap door Zijn Geest aan velen te geven.
 F: The Fathers saw the seventy elders receiving the Spirit as a foreshadowing of the seventy disciples and of Pentecost, when the Spirit was poured on all. Moses' wish that all the Lord's people were prophets was fulfilled, they taught, in the Church. The longing for Egypt's food was a classic image of the passions that look back to slavery.
-FN: De Vaders zagen de zeventig oudsten die de Geest ontvingen als een voorafbeelding van de zeventig leerlingen en van Pinksteren, toen de Geest over allen werd uitgestort. De wens van Mozes dat heel het volk profeet zou zijn, werd volgens hen vervuld in de Kerk. Het verlangen naar het voedsel van Egypte was een klassiek beeld van de hartstochten die terugkijken naar de slavernij.
+FN: De kerkvaders zagen de zeventig oudsten die de Geest ontvingen als een voorafbeelding van de zeventig leerlingen en van Pinksteren, toen de Geest over allen werd uitgestort. De wens van Mozes dat heel het volk profeet zou zijn, werd volgens hen vervuld in de Kerk. Het verlangen naar het voedsel van Egypte was een klassiek beeld van de hartstochten die terugkijken naar de slavernij.
 T: Ingratitude; Sharing the Spirit; Craving
 TN: Ondankbaarheid; Het delen van de Geest; Begeerte
 
@@ -116,7 +116,7 @@ SN: Mirjam en Aäron spreken tegen Mozes vanwege zijn Kusjitische vrouw: heeft d
 M: Jealousy among leaders damages the whole community. Moses answers criticism not by defending himself but by praying for his sister.
 MN: Jaloezie tussen leiders schaadt de hele gemeenschap. Mozes antwoordt op kritiek niet door zichzelf te verdedigen, maar door voor zijn zuster te bidden.
 F: The Fathers held up Moses' meekness as the virtue that made him the friend of God. They read his marriage to a Cushite woman as a figure of Christ's union with the Church from the Gentiles. Moses praying for the sister who opposed him was compared to Christ praying for His enemies.
-FN: De Vaders stelden de zachtmoedigheid van Mozes voor als de deugd die hem tot vriend van God maakte. Zij lazen zijn huwelijk met een Kusjitische vrouw als een voorafbeelding van de verbintenis van Christus met de Kerk uit de heidenen. Mozes die bidt voor de zuster die tegen hem was, werd vergeleken met Christus die bidt voor Zijn vijanden.
+FN: De kerkvaders stelden de zachtmoedigheid van Mozes voor als de deugd die hem tot vriend van God maakte. Zij lazen zijn huwelijk met een Kusjitische vrouw als een voorafbeelding van de verbintenis van Christus met de Kerk uit de heidenen. Mozes die bidt voor de zuster die tegen hem was, werd vergeleken met Christus die bidt voor Zijn vijanden.
 T: Meekness; Jealousy; Intercession
 TN: Zachtmoedigheid; Jaloezie; Voorbede
 
@@ -126,7 +126,7 @@ SN: De Heer zegt tegen Mozes mannen te zenden om het land Kanaän te verkennen, 
 M: The same facts are seen with faith or with fear. Caleb measures the giants against God; the others measure themselves against the giants.
 MN: Dezelfde feiten worden gezien met geloof of met angst. Kaleb meet de reuzen af aan God; de anderen meten zichzelf af aan de reuzen.
 F: The Fathers saw the great cluster of grapes carried on a pole between two men as a figure of Christ hanging on the cross, the true vine; the one in front, who does not see it, was read as the synagogue, the one behind as the Church. Hoshea's new name, Joshua, is the Hebrew form of Jesus.
-FN: De Vaders zagen de grote druiventros die aan een draagstok tussen twee mannen werd gedragen als een voorafbeelding van Christus aan het kruis, de ware wijnstok; de voorste, die hem niet ziet, werd gelezen als de synagoge, de achterste als de Kerk. De nieuwe naam van Hosea, Jozua, is de Hebreeuwse vorm van Jezus.
+FN: De kerkvaders zagen de grote druiventros die aan een draagstok tussen twee mannen werd gedragen als een voorafbeelding van Christus aan het kruis, de ware wijnstok; de voorste, die hem niet ziet, werd gelezen als de synagoge, de achterste als de Kerk. De nieuwe naam van Hosea, Jozua, is de Hebreeuwse vorm van Jezus.
 T: Faith or fear; The promised land; Joshua named
 TN: Geloof of angst; Het beloofde land; Jozua genoemd
 
@@ -136,7 +136,7 @@ SN: De hele gemeenschap huilt de hele nacht en mort: waren wij maar in Egypte ge
 M: Unbelief at the threshold of the promise costs a whole generation its inheritance. Forgiveness is granted, yet consequences remain.
 MN: Ongeloof op de drempel van de belofte kost een hele generatie haar erfdeel. Vergeving wordt geschonken, maar de gevolgen blijven.
 F: Hebrews 3 and 4 use this chapter as a warning: they could not enter because of unbelief; let us therefore strive to enter God's rest. The Fathers admired Moses' intercession and saw Joshua, whose name is Jesus, as the one who brings God's people into the promised inheritance.
-FN: Hebreeën 3 en 4 gebruiken dit hoofdstuk als waarschuwing: zij konden niet binnengaan vanwege ongeloof; laten wij ons dus inspannen om Gods rust binnen te gaan. De Vaders bewonderden de voorbede van Mozes en zagen Jozua, wiens naam Jezus is, als degene die Gods volk in het beloofde erfdeel brengt.
+FN: Hebreeën 3 en 4 gebruiken dit hoofdstuk als waarschuwing: zij konden niet binnengaan vanwege ongeloof; laten wij ons dus inspannen om Gods rust binnen te gaan. De kerkvaders bewonderden de voorbede van Mozes en zagen Jozua, wiens naam Jezus is, als degene die Gods volk in het beloofde erfdeel brengt.
 T: Unbelief; Intercession; Forty years
 TN: Ongeloof; Voorbede; Veertig jaar
 
@@ -146,7 +146,7 @@ SN: De Heer geeft wetten voor de offers wanneer Israël het land binnenkomt, met
 M: Right after the great failure, God speaks of life in the land: the promise still stands. The tassels are a daily, visible reminder to remember God's word.
 MN: Direct na het grote falen spreekt God over het leven in het land: de belofte blijft staan. De kwastjes zijn een dagelijkse, zichtbare herinnering om aan Gods woord te denken.
 F: The Fathers noted the mercy in this chapter: after Israel's rebellion God immediately speaks of 'when you come into the land', renewing hope for the next generation. The woman with the flow of blood touched the tassel of Jesus' garment and was healed.
-FN: De Vaders merkten de barmhartigheid in dit hoofdstuk op: na de opstand van Israël spreekt God meteen over 'wanneer u in het land komt', en vernieuwt de hoop voor de volgende generatie. De vrouw met de bloedvloeiing raakte de zoom van Jezus' kleed aan en werd genezen.
+FN: De kerkvaders merkten de barmhartigheid in dit hoofdstuk op: na de opstand van Israël spreekt God meteen over 'wanneer u in het land komt', en vernieuwt de hoop voor de volgende generatie. De vrouw met de bloedvloeiing raakte de zoom van Jezus' kleed aan en werd genezen.
 T: Renewed hope; Remembering God's word; Deliberate sin
 TN: Vernieuwde hoop; Gods woord gedenken; Opzettelijke zonde
 
@@ -156,7 +156,7 @@ SN: Korach de Leviet, met Dathan, Abiram en On uit Ruben en 250 leiders, staat o
 M: Rebellion disguised as equality seeks power for itself. Aaron, the true priest, stands between the dead and the living and stops the plague.
 MN: Opstand vermomd als gelijkheid zoekt macht voor zichzelf. Aäron, de ware priester, staat tussen de doden en de levenden en stuit de plaag.
 F: St Jude warns against those who perish 'in the rebellion of Korah'. The Fathers, St Clement of Rome among them, used this chapter against schism and the usurping of priestly office. They saw Aaron standing with incense between the dead and the living as an image of Christ the intercessor.
-FN: De heilige Judas waarschuwt tegen wie omkomen 'in de opstand van Korach'. De Vaders, onder wie de heilige Clemens van Rome, gebruikten dit hoofdstuk tegen scheuring en het zich toe-eigenen van het priesterambt. Zij zagen Aäron, die met reukwerk tussen de doden en de levenden staat, als een beeld van Christus de voorspreker.
+FN: De heilige Judas waarschuwt tegen wie omkomen 'in de opstand van Korach'. De kerkvaders, onder wie de heilige Clemens van Rome, gebruikten dit hoofdstuk tegen scheuring en het zich toe-eigenen van het priesterambt. Zij zagen Aäron, die met reukwerk tussen de doden en de levenden staat, als een beeld van Christus de voorspreker.
 T: Rebellion; Schism; Intercession
 TN: Opstand; Scheuring; Voorbede
 
@@ -166,7 +166,7 @@ SN: Om een einde te maken aan het morren zegt de Heer tegen Mozes een staf te ne
 M: God confirms His chosen priest with a sign of life from dead wood. Life from what seems dead is God's signature.
 MN: God bevestigt Zijn uitverkoren priester met een teken van leven uit dood hout. Leven uit wat dood lijkt, is Gods handtekening.
 F: The Church sings of the Theotokos as the rod of Aaron that blossomed: from her, without seed, came forth Christ, the flower. The Fathers also saw in the dead wood that bore fruit the cross that became the tree of life, and the resurrection. Hebrews mentions Aaron's rod kept in the ark.
-FN: De Kerk bezingt de Moeder Gods als de staf van Aäron die bloeide: uit haar kwam, zonder zaad, Christus voort, de bloem. De Vaders zagen in het dode hout dat vrucht droeg ook het kruis dat de boom des levens werd, en de opstanding. Hebreeën noemt de staf van Aäron die in de ark bewaard werd.
+FN: De Kerk bezingt de Moeder Gods als de staf van Aäron die bloeide: uit haar kwam, zonder zaad, Christus voort, de bloem. De kerkvaders zagen in het dode hout dat vrucht droeg ook het kruis dat de boom des levens werd, en de opstanding. Hebreeën noemt de staf van Aäron die in de ark bewaard werd.
 T: God's choice; Life from dead wood; Figure of the Theotokos
 TN: Gods keuze; Leven uit dood hout; Voorafbeelding van de Moeder Gods
 
@@ -186,7 +186,7 @@ SN: De Heer beveelt dat een rode koe zonder gebrek, waarop nooit een juk is gewe
 M: Death is the deepest uncleanness, and God provides a way to be cleansed from contact with it.
 MN: De dood is de diepste onreinheid, en God voorziet in een weg om van het contact ermee gereinigd te worden.
 F: Hebrews says that if the sprinkling of the ashes of a heifer sanctifies for the purification of the flesh, how much more will the blood of Christ purify our conscience from dead works. The Fathers saw the spotless heifer slain outside the camp as Christ, who suffered outside the gate.
-FN: Hebreeën zegt dat als de besprenkeling met de as van een koe heiligt tot reinheid van het vlees, hoeveel te meer het bloed van Christus ons geweten zal reinigen van dode werken. De Vaders zagen de vlekkeloze koe die buiten de legerplaats geslacht werd als Christus, die buiten de poort geleden heeft.
+FN: Hebreeën zegt dat als de besprenkeling met de as van een koe heiligt tot reinheid van het vlees, hoeveel te meer het bloed van Christus ons geweten zal reinigen van dode werken. De kerkvaders zagen de vlekkeloze koe die buiten de legerplaats geslacht werd als Christus, die buiten de poort geleden heeft.
 T: Cleansing from death; Water of purification; Christ outside the gate
 TN: Reiniging van de dood; Water van de ontzondiging; Christus buiten de poort
 
@@ -196,7 +196,7 @@ SN: Mirjam sterft in Kades en wordt daar begraven. Er is geen water, en het volk
 M: Even Moses, weary and angry, fails to honour God before the people. God still gives water, but leadership carries great responsibility.
 MN: Zelfs Mozes, moe en boos, faalt erin God voor het volk te eren. God geeft toch water, maar leiderschap draagt een grote verantwoordelijkheid.
 F: The Fathers taught that the rock, which St Paul says was Christ, was to be struck only once, as Christ died once for all; afterwards one need only speak to Him in prayer. They saw Moses' exclusion from the land as a sign that the Law cannot bring us into the inheritance; only Joshua, Jesus, can.
-FN: De Vaders leerden dat de rots, die volgens de heilige Paulus Christus was, slechts één keer geslagen moest worden, zoals Christus eens voor altijd stierf; daarna hoeft men alleen in gebed tot Hem te spreken. Zij zagen de uitsluiting van Mozes uit het land als een teken dat de Wet ons niet in het erfdeel kan brengen; alleen Jozua, Jezus, kan dat.
+FN: De kerkvaders leerden dat de rots, die volgens de heilige Paulus Christus was, slechts één keer geslagen moest worden, zoals Christus eens voor altijd stierf; daarna hoeft men alleen in gebed tot Hem te spreken. Zij zagen de uitsluiting van Mozes uit het land als een teken dat de Wet ons niet in het erfdeel kan brengen; alleen Jozua, Jezus, kan dat.
 T: Water from the rock; Failure of a leader; Death of Aaron
 TN: Water uit de rots; Falen van een leider; Dood van Aäron
 
@@ -206,7 +206,7 @@ SN: Israël verslaat de Kanaänitische koning van Arad. Op de omweg rond Edom wo
 M: The very image of their punishment, lifted up, becomes the means of healing. Salvation comes by looking in faith to what God provides.
 MN: Juist het beeld van hun straf, omhooggeheven, wordt het middel tot genezing. Redding komt door in geloof te kijken naar wat God geeft.
 F: Christ says: as Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in Him may have eternal life. The Fathers saw the bronze serpent, bearing the likeness of the deadly creature without its venom, as Christ who came in the likeness of sinful flesh without sin, and the pole as the cross.
-FN: Christus zegt: zoals Mozes de slang in de woestijn verhoogd heeft, zo moet de Mensenzoon verhoogd worden, opdat ieder die in Hem gelooft eeuwig leven heeft. De Vaders zagen de koperen slang, met de gestalte van het dodelijke dier maar zonder zijn gif, als Christus die kwam in de gelijkenis van het zondige vlees maar zonder zonde, en de staak als het kruis.
+FN: Christus zegt: zoals Mozes de slang in de woestijn verhoogd heeft, zo moet de Mensenzoon verhoogd worden, opdat ieder die in Hem gelooft eeuwig leven heeft. De kerkvaders zagen de koperen slang, met de gestalte van het dodelijke dier maar zonder zijn gif, als Christus die kwam in de gelijkenis van het zondige vlees maar zonder zonde, en de staak als het kruis.
 T: The bronze serpent; Look and live; The cross foreshadowed
 TN: De koperen slang; Kijk en leef; Het kruis voorafgebeeld
 
@@ -216,7 +216,7 @@ SN: Balak, de koning van Moab, doodsbang voor Israël, zendt oudsten met waarzeg
 M: Greed blinds the seer, while the donkey sees what he cannot. God can speak through the humblest creature.
 MN: Hebzucht verblindt de ziener, terwijl de ezelin ziet wat hij niet ziet. God kan spreken door het nederigste schepsel.
 F: St Peter and St Jude warn against the way of Balaam, who loved gain from wrongdoing and was rebuked by a speechless donkey speaking with a human voice. The Fathers noted that God can use even unwilling instruments to proclaim His blessing.
-FN: De heilige Petrus en de heilige Judas waarschuwen tegen de weg van Bileam, die het loon van de ongerechtigheid liefhad en berispt werd door een stom lastdier dat met een mensenstem sprak. De Vaders merkten op dat God zelfs onwillige werktuigen kan gebruiken om Zijn zegen te verkondigen.
+FN: De heilige Petrus en de heilige Judas waarschuwen tegen de weg van Bileam, die het loon van de ongerechtigheid liefhad en berispt werd door een stom lastdier dat met een mensenstem sprak. De kerkvaders merkten op dat God zelfs onwillige werktuigen kan gebruiken om Zijn zegen te verkondigen.
 T: Greed; Spiritual blindness; God speaks through the humble
 TN: Hebzucht; Geestelijke blindheid; God spreekt door het nederige
 
@@ -226,7 +226,7 @@ SN: Balak bouwt zeven altaren, maar Bileam kan alleen spreken wat God in zijn mo
 M: No human curse can undo God's blessing. God's word does not change like human words.
 MN: Geen menselijke vloek kan Gods zegen ongedaan maken. Gods woord verandert niet zoals menselijke woorden.
 F: The Fathers loved 'God is not man, that He should lie' as a foundation of trust in His promises. They noted the irony that the one hired to curse becomes a prophet of blessing, a sign that God's purposes cannot be bought.
-FN: De Vaders hielden van 'God is geen man, dat Hij zou liegen' als een grondslag voor vertrouwen in Zijn beloften. Zij merkten de ironie op dat wie werd ingehuurd om te vervloeken een profeet van zegen wordt, een teken dat Gods plannen niet te koop zijn.
+FN: De kerkvaders hielden van 'God is geen man, dat Hij zou liegen' als een grondslag voor vertrouwen in Zijn beloften. Zij merkten de ironie op dat wie werd ingehuurd om te vervloeken een profeet van zegen wordt, een teken dat Gods plannen niet te koop zijn.
 T: Blessing that cannot be undone; God's faithfulness; Irony of providence
 TN: Zegen die niet ongedaan gemaakt kan worden; Gods trouw; Ironie van de voorzienigheid
 
@@ -236,7 +236,7 @@ SN: Omdat Bileam ziet dat het de Heer behaagt Israël te zegenen, zoekt hij geen
 M: Through a foreign seer God announces a coming King, far in the future, whose rule will reach beyond Israel.
 MN: Door een buitenlandse ziener kondigt God een komende Koning aan, ver in de toekomst, wiens heerschappij verder zal reiken dan Israël.
 F: The Fathers saw the star out of Jacob as the Messiah, and its fulfilment in the star seen by the Magi from the east, whom some, like Origen, thought were heirs of Balaam's prophecy. The Byzantine Christmas services and many Fathers cite this prophecy.
-FN: De Vaders zagen de ster uit Jakob als de Messias, en de vervulling ervan in de ster die de Wijzen uit het oosten zagen, die volgens sommigen, zoals Origenes, erfgenamen waren van de profetie van Bileam. De Byzantijnse kerstdiensten en veel Vaders citeren deze profetie.
+FN: De kerkvaders zagen de ster uit Jakob als de Messias, en de vervulling ervan in de ster die de Wijzen uit het oosten zagen, die volgens sommigen, zoals Origenes, erfgenamen waren van de profetie van Bileam. De Byzantijnse kerstdiensten en veel kerkvaders citeren deze profetie.
 T: The star of Jacob; Messianic prophecy; Blessing
 TN: De ster uit Jakob; Messiaanse profetie; Zegen
 
@@ -246,7 +246,7 @@ SN: Terwijl Israël in Sittim verblijft, begint het volk hoererij te bedrijven m
 M: What curses could not do, seduction did: Israel fell through immorality and idolatry. Zeal for God's honour stops the plague.
 MN: Wat vloeken niet konden, deed verleiding: Israël viel door ontucht en afgoderij. IJver voor Gods eer stuit de plaag.
 F: Revelation says Balaam taught Balak to put a stumbling block before Israel, to eat food sacrificed to idols and practise immorality. St Paul cites this as a warning for Christians. The Fathers praised Phinehas' zeal while teaching that Christian zeal fights sin in oneself, not people.
-FN: Openbaring zegt dat Bileam Balak leerde een struikelblok voor Israël te leggen, om afgodenoffers te eten en ontucht te bedrijven. De heilige Paulus noemt dit als waarschuwing voor christenen. De Vaders prezen de ijver van Pinehas, terwijl zij leerden dat christelijke ijver de zonde in zichzelf bestrijdt, niet mensen.
+FN: Openbaring zegt dat Bileam Balak leerde een struikelblok voor Israël te leggen, om afgodenoffers te eten en ontucht te bedrijven. De heilige Paulus noemt dit als waarschuwing voor christenen. De kerkvaders prezen de ijver van Pinehas, terwijl zij leerden dat christelijke ijver de zonde in zichzelf bestrijdt, niet mensen.
 T: Seduction; Idolatry; Zeal
 TN: Verleiding; Afgoderij; IJver
 
@@ -256,7 +256,7 @@ SN: Na de plaag zegt de Heer tegen Mozes en Eleazar het volk opnieuw te tellen, 
 M: A new generation stands ready to enter the land. God's word of judgment has been fulfilled, and so will His promise.
 MN: Een nieuwe generatie staat klaar om het land binnen te gaan. Gods woord van oordeel is vervuld, en zo ook zal Zijn belofte vervuld worden.
 F: Origen reads the two censuses as two stages of the spiritual life: the first generation that left Egypt but fell in the desert, and the second that enters the inheritance. The Fathers stressed that only those who believed, Caleb and Joshua, remained from the first.
-FN: Origenes leest de twee tellingen als twee fasen van het geestelijk leven: de eerste generatie die Egypte verliet maar in de woestijn viel, en de tweede die het erfdeel binnengaat. De Vaders benadrukten dat van de eerste alleen wie geloofden, Kaleb en Jozua, overbleven.
+FN: Origenes leest de twee tellingen als twee fasen van het geestelijk leven: de eerste generatie die Egypte verliet maar in de woestijn viel, en de tweede die het erfdeel binnengaat. De kerkvaders benadrukten dat van de eerste alleen wie geloofden, Kaleb en Jozua, overbleven.
 T: A new generation; God's word fulfilled; Inheritance
 TN: Een nieuwe generatie; Gods woord vervuld; Erfdeel
 
@@ -266,7 +266,7 @@ SN: De vijf dochters van Selafchad, Machla, Noa, Chogla, Milka en Tirza, komen v
 M: Five women speak up for justice, and God agrees with them. Moses, facing death, thinks first of his people's need for a shepherd.
 MN: Vijf vrouwen komen op voor gerechtigheid, en God geeft hun gelijk. Mozes denkt, oog in oog met de dood, eerst aan de behoefte van zijn volk aan een herder.
 F: The Fathers praised the daughters of Zelophehad for their faith in the promised land, which they had not yet seen. They saw Moses laying hands on Joshua as the origin of ordination by the laying on of hands, and Joshua, filled with the Spirit, as a figure of Jesus, the Good Shepherd.
-FN: De Vaders prezen de dochters van Selafchad om hun geloof in het beloofde land, dat zij nog niet gezien hadden. Zij zagen de handoplegging van Mozes bij Jozua als de oorsprong van wijding door handoplegging, en Jozua, vervuld met de Geest, als een voorafbeelding van Jezus, de Goede Herder.
+FN: De kerkvaders prezen de dochters van Selafchad om hun geloof in het beloofde land, dat zij nog niet gezien hadden. Zij zagen de handoplegging van Mozes bij Jozua als de oorsprong van wijding door handoplegging, en Jozua, vervuld met de Geest, als een voorafbeelding van Jezus, de Goede Herder.
 T: Justice for women; A shepherd for the people; Laying on of hands
 TN: Recht voor vrouwen; Een herder voor het volk; Handoplegging
 
@@ -276,7 +276,7 @@ SN: De Heer beveelt de offers die Israël op de vastgestelde tijden moet brengen
 M: Worship structures every day, week, month and year. The morning and evening offering marks all of time as belonging to God.
 MN: Eredienst structureert elke dag, week, maand en elk jaar. Het morgen- en avondoffer markeert alle tijd als Gods eigendom.
 F: The Church's morning and evening prayer were understood by the Fathers as the fulfilment of the daily morning and evening offering, now a sacrifice of praise. Christ died at the hour of the evening sacrifice.
-FN: Het morgen- en avondgebed van de Kerk werd door de Vaders verstaan als de vervulling van het dagelijkse morgen- en avondoffer, nu een offer van lof. Christus stierf op het uur van het avondoffer.
+FN: Het morgen- en avondgebed van de Kerk werd door de kerkvaders verstaan als de vervulling van het dagelijkse morgen- en avondoffer, nu een offer van lof. Christus stierf op het uur van het avondoffer.
 T: Daily offering; Holy time; Sacrifice of praise
 TN: Dagelijks offer; Heilige tijd; Lofoffer
 
@@ -286,7 +286,7 @@ SN: In de zevende maand zijn er drie grote gelegenheden: de dag van het bazuinge
 M: The festal year culminates in repentance and joy: atonement followed by the feast of thanksgiving for the harvest and the journey.
 MN: Het feestjaar culmineert in boete en vreugde: verzoening gevolgd door het dankfeest voor de oogst en de tocht.
 F: Jewish tradition linked the seventy bulls of Booths with the seventy nations of the world, for whom Israel offered. The Fathers saw the eighth day of solemn assembly as an image of the eternal age to come, the day after the week of this world.
-FN: De Joodse traditie verbond de zeventig stieren van het Loofhuttenfeest met de zeventig volken van de wereld, voor wie Israël offerde. De Vaders zagen de achtste dag van de plechtige samenkomst als een beeld van de eeuwige komende tijd, de dag na de week van deze wereld.
+FN: De Joodse traditie verbond de zeventig stieren van het Loofhuttenfeest met de zeventig volken van de wereld, voor wie Israël offerde. De kerkvaders zagen de achtste dag van de plechtige samenkomst als een beeld van de eeuwige komende tijd, de dag na de week van deze wereld.
 T: Atonement and joy; Booths; The eighth day
 TN: Verzoening en vreugde; Loofhutten; De achtste dag
 
@@ -296,7 +296,7 @@ SN: Als een man de Heer een gelofte doet of een eed zweert om zich te binden, ma
 M: Words spoken before God are binding. Promises are not to be made lightly.
 MN: Woorden die voor God gesproken worden, zijn bindend. Beloften mogen niet lichtvaardig gedaan worden.
 F: Christ teaches: let your yes be yes and your no be no. The Fathers drew from this chapter the seriousness of vows, especially monastic and baptismal vows, which must be kept with God's help.
-FN: Christus leert: laat uw ja ja zijn en uw nee nee. De Vaders ontleenden aan dit hoofdstuk de ernst van geloften, vooral monastieke en doopgeloften, die met Gods hulp gehouden moeten worden.
+FN: Christus leert: laat uw ja ja zijn en uw nee nee. De kerkvaders ontleenden aan dit hoofdstuk de ernst van geloften, vooral monastieke en doopgeloften, die met Gods hulp gehouden moeten worden.
 T: Faithful words; Vows; Responsibility
 TN: Trouwe woorden; Geloften; Verantwoordelijkheid
 
@@ -306,7 +306,7 @@ SN: De Heer zegt tegen Mozes Israël te wreken op de Midianieten vanwege de verl
 M: This hard chapter shows how seriously Israel's faith regarded the seduction to idolatry. It belongs to an ancient world and must be read in the light of Christ.
 MN: Dit harde hoofdstuk laat zien hoe ernstig het geloof van Israël de verleiding tot afgoderij nam. Het hoort bij een oude wereld en moet gelezen worden in het licht van Christus.
 F: The Fathers, Origen above all, read the wars of Israel spiritually: the Christian's war is against the passions and the demons that seduce to sin, not against people. Balaam's death among the enemies of Israel was seen as the end of one who knew the truth but loved gain.
-FN: De Vaders, vooral Origenes, lazen de oorlogen van Israël geestelijk: de strijd van de christen is tegen de hartstochten en de demonen die tot zonde verleiden, niet tegen mensen. De dood van Bileam onder de vijanden van Israël werd gezien als het einde van iemand die de waarheid kende maar het gewin liefhad.
+FN: De kerkvaders, vooral Origenes, lazen de oorlogen van Israël geestelijk: de strijd van de christen is tegen de hartstochten en de demonen die tot zonde verleiden, niet tegen mensen. De dood van Bileam onder de vijanden van Israël werd gezien als het einde van iemand die de waarheid kende maar het gewin liefhad.
 T: Judgment on seduction; Spiritual warfare; Purification
 TN: Oordeel over verleiding; Geestelijke strijd; Reiniging
 
@@ -316,7 +316,7 @@ SN: De stammen Ruben en Gad, die veel vee hebben, vragen om zich te vestigen in 
 M: Personal comfort must not come at the cost of solidarity with others. Those who are settled must help those still on the way.
 MN: Eigen gemak mag niet ten koste gaan van solidariteit met anderen. Wie zich gevestigd heeft, moet helpen wie nog onderweg zijn.
 F: The Fathers drew from Moses' rebuke a lesson for the Church: those who have received grace are bound to labour for the salvation of their brothers. 'Be sure your sin will find you out' was used as a warning about hidden sin.
-FN: De Vaders trokken uit de berisping van Mozes een les voor de Kerk: wie genade ontvangen heeft, is verplicht te werken voor het heil van zijn broeders. 'Weet dat uw zonde u zal vinden' werd gebruikt als waarschuwing over verborgen zonde.
+FN: De kerkvaders trokken uit de berisping van Mozes een les voor de Kerk: wie genade ontvangen heeft, is verplicht te werken voor het heil van zijn broeders. 'Weet dat uw zonde u zal vinden' werd gebruikt als waarschuwing over verborgen zonde.
 T: Solidarity; Keeping one's word; Hidden sin
 TN: Solidariteit; Woord houden; Verborgen zonde
 
@@ -336,7 +336,7 @@ SN: De Heer beschrijft de grenzen van het land Kanaän dat Israël zal beërven:
 M: The promise has concrete boundaries: God's gifts are real and specific. Each tribe will receive its place.
 MN: De belofte heeft concrete grenzen: Gods gaven zijn werkelijk en specifiek. Elke stam zal zijn plaats ontvangen.
 F: The Fathers read the boundaries of the land as a figure of the heavenly inheritance, prepared for each according to God's will. Joshua and Eleazar together, leader and priest, were seen as figures of Christ the King and High Priest dividing the inheritance.
-FN: De Vaders lazen de grenzen van het land als een voorafbeelding van het hemelse erfdeel, voor ieder bereid naar Gods wil. Jozua en Eleazar samen, leider en priester, werden gezien als voorafbeeldingen van Christus de Koning en Hogepriester die het erfdeel verdeelt.
+FN: De kerkvaders lazen de grenzen van het land als een voorafbeelding van het hemelse erfdeel, voor ieder bereid naar Gods wil. Jozua en Eleazar samen, leider en priester, werden gezien als voorafbeeldingen van Christus de Koning en Hogepriester die het erfdeel verdeelt.
 T: Inheritance; God's concrete gifts; Leadership
 TN: Erfdeel; Gods concrete gaven; Leiderschap
 
@@ -346,7 +346,7 @@ SN: De Levieten moeten achtenveertig steden met weidegronden ontvangen van de an
 M: God's law distinguishes murder from accident and protects the innocent from blind vengeance. Mercy and justice are built into the land.
 MN: Gods wet onderscheidt moord van ongeluk en beschermt de onschuldige tegen blinde wraak. Barmhartigheid en gerechtigheid zijn in het land ingebouwd.
 F: The Fathers saw the city of refuge as Christ, in whom sinners find shelter from condemnation; Hebrews speaks of fleeing for refuge to lay hold of the hope set before us. They noted that the manslayer was freed by the death of the high priest, a figure of Christ's death that sets us free.
-FN: De Vaders zagen de vrijstad als Christus, in wie zondaars een schuilplaats vinden tegen veroordeling; Hebreeën spreekt over het vluchten om de hoop vast te grijpen die voor ons ligt. Zij merkten op dat de doodslager vrijkwam door de dood van de hogepriester, een voorafbeelding van de dood van Christus die ons vrijmaakt.
+FN: De kerkvaders zagen de vrijstad als Christus, in wie zondaars een schuilplaats vinden tegen veroordeling; Hebreeën spreekt over het vluchten om de hoop vast te grijpen die voor ons ligt. Zij merkten op dat de doodslager vrijkwam door de dood van de hogepriester, een voorafbeelding van de dood van Christus die ons vrijmaakt.
 T: Refuge; Justice and mercy; Death of the High Priest
 TN: Toevlucht; Gerechtigheid en barmhartigheid; Dood van de Hogepriester
 
@@ -356,6 +356,6 @@ SN: De hoofden van de geslachten van Gilead komen bij Mozes met een zorg: als de
 M: Justice for individuals is balanced with the stability of the community. Numbers ends on the threshold of the promised land.
 MN: Recht voor personen wordt in evenwicht gebracht met de stabiliteit van de gemeenschap. Numeri eindigt op de drempel van het beloofde land.
 F: The Fathers saw the care to keep each tribe's inheritance as a sign that each has a place in God's kingdom that no one can take away. Numbers closes at the Jordan, waiting for Joshua, Jesus, to lead the people across.
-FN: De Vaders zagen de zorg om het erfdeel van elke stam te bewaren als een teken dat ieder een plaats heeft in Gods koninkrijk die niemand kan afnemen. Numeri eindigt bij de Jordaan, wachtend op Jozua, Jezus, om het volk erover te leiden.
+FN: De kerkvaders zagen de zorg om het erfdeel van elke stam te bewaren als een teken dat ieder een plaats heeft in Gods koninkrijk die niemand kan afnemen. Numeri eindigt bij de Jordaan, wachtend op Jozua, Jezus, om het volk erover te leiden.
 T: Inheritance preserved; Community and individual; On the threshold
 TN: Bewaard erfdeel; Gemeenschap en persoon; Op de drempel

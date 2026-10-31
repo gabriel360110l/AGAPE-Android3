@@ -6,7 +6,7 @@ SN: Geprezen zij de God en Vader van onze Heer Jezus Christus, die ons in Christ
 M: God's eternal plan is to gather the whole cosmos into Christ. The Church is His body and the beginning of this fullness.
 MN: Gods eeuwig plan is de hele kosmos in Christus samen te brengen. De Kerk is Zijn lichaam en het begin van die volheid.
 F: St Irenaeus built his theology of 'recapitulation' on 1:10: Christ sums up all things and restores what was lost in Adam. The Fathers note the Trinity in the opening hymn: the Father chooses, the Son redeems, the Spirit seals.
-FN: De heilige Irenaeus bouwde zijn theologie van de 'recapitulatie' op 1:10: Christus vat alle dingen samen en herstelt wat in Adam verloren ging. De Vaders wijzen op de Drie-eenheid in de openingshymne: de Vader verkiest, de Zoon verlost, de Geest verzegelt.
+FN: De heilige Irenaeus bouwde zijn theologie van de 'recapitulatie' op 1:10: Christus vat alle dingen samen en herstelt wat in Adam verloren ging. De kerkvaders wijzen op de Drie-eenheid in de openingshymne: de Vader verkiest, de Zoon verlost, de Geest verzegelt.
 T: Election; Recapitulation; Church as body
 TN: Verkiezing; Recapitulatie; Kerk als lichaam
 
@@ -16,7 +16,7 @@ SN: U was dood door uw overtredingen en zonden, maar God, rijk aan barmhartighei
 M: Salvation is pure gift, and it leads to good works. Christ reconciles enemies and builds one household of God.
 MN: Redding is zuiver geschenk, en zij leidt tot goede werken. Christus verzoent vijanden en bouwt één huisgezin van God.
 F: St John Chrysostom stresses that even faith is a gift, so that no one may boast; yet God does not save us without our free consent. The Fathers saw the Church as the temple built of living stones.
-FN: De heilige Johannes Chrysostomus benadrukt dat zelfs het geloof een geschenk is, zodat niemand kan roemen; toch redt God ons niet zonder onze vrije instemming. De Vaders zagen de Kerk als de tempel gebouwd van levende stenen.
+FN: De heilige Johannes Chrysostomus benadrukt dat zelfs het geloof een geschenk is, zodat niemand kan roemen; toch redt God ons niet zonder onze vrije instemming. De kerkvaders zagen de Kerk als de tempel gebouwd van levende stenen.
 T: Grace; Reconciliation; Household of God
 TN: Genade; Verzoening; Huisgezin van God
 
@@ -26,7 +26,7 @@ SN: Het geheimenis dat eeuwenlang verborgen was, is nu geopenbaard: de heidenen 
 M: The Church makes God's wisdom known even to the angels. The goal of prayer is to be filled with the fullness of God.
 MN: De Kerk maakt Gods wijsheid bekend, zelfs aan de engelen. Het doel van het gebed is vervuld te worden met de volheid van God.
 F: The Fathers saw in 'filled with all the fullness of God' the vocation to theosis: by grace we become partakers of the divine life.
-FN: De Vaders zagen in 'vervuld tot heel de volheid van God' de roeping tot vergoddelijking: door genade worden wij deelgenoten van het goddelijk leven.
+FN: De kerkvaders zagen in 'vervuld tot heel de volheid van God' de roeping tot vergoddelijking: door genade worden wij deelgenoten van het goddelijk leven.
 T: Mystery of Christ; Prayer; Love of Christ
 TN: Geheimenis van Christus; Gebed; Liefde van Christus
 
@@ -36,7 +36,7 @@ SN: Wandel waardig aan uw roeping, met nederigheid, zachtmoedigheid en geduld, e
 M: Unity is a gift to guard and a goal to grow into. Ministries exist to build up the whole body to maturity.
 MN: Eenheid is een gave om te bewaren en een doel om in te groeien. Ambten bestaan om het hele lichaam op te bouwen tot volwassenheid.
 F: 'One Lord, one faith, one baptism' shaped the Creed's 'one baptism for the remission of sins'. The Fathers saw the ordered ministries of the Church as Christ's gifts for growth in holiness.
-FN: 'Eén Heer, één geloof, één doop' vormde het 'één doopsel tot vergeving van de zonden' van de Geloofsbelijdenis. De Vaders zagen de geordende ambten van de Kerk als gaven van Christus voor de groei in heiligheid.
+FN: 'Eén Heer, één geloof, één doop' vormde het 'één doop tot vergeving van de zonden' van de Geloofsbelijdenis. De kerkvaders zagen de geordende ambten van de Kerk als gaven van Christus voor de groei in heiligheid.
 T: Unity; Ministries; New self
 TN: Eenheid; Ambten; Nieuwe mens
 

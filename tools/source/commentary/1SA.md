@@ -6,7 +6,7 @@ SN: Elkana uit Rama heeft twee vrouwen: Peninna heeft kinderen, maar Hanna niet,
 M: In her anguish Hannah pours out her soul to God, and what she receives she gives back. Silent prayer from the heart is heard.
 MN: In haar nood stort Hanna haar ziel uit voor God, en wat zij ontvangt, geeft zij terug. Stil gebed uit het hart wordt gehoord.
 F: St Cyprian, in his treatise on the Lord's Prayer, holds up Hannah praying silently in her heart as the model of Christian prayer, for God hears the heart, not the voice. The Fathers compared Hannah, who received a son after barrenness and dedicated him to God, with Anna, mother of the Theotokos, and with the Virgin who offered her Son in the temple.
-FN: De heilige Cyprianus houdt in zijn verhandeling over het Onzevader Hanna, die stil in haar hart bad, voor als voorbeeld van christelijk gebed, want God hoort het hart, niet de stem. De Vaders vergeleken Hanna, die na onvruchtbaarheid een zoon ontving en hem aan God wijdde, met Anna, de moeder van de Moeder Gods, en met de Maagd die haar Zoon in de tempel opdroeg.
+FN: De heilige Cyprianus houdt in zijn verhandeling over het Onzevader Hanna, die stil in haar hart bad, voor als voorbeeld van christelijk gebed, want God hoort het hart, niet de stem. De kerkvaders vergeleken Hanna, die na onvruchtbaarheid een zoon ontving en hem aan God wijdde, met Anna, de moeder van de Moeder Gods, en met de Maagd die haar Zoon in de tempel opdroeg.
 T: Prayer of the heart; Barrenness; Dedication
 TN: Gebed van het hart; Onvruchtbaarheid; Toewijding
 
@@ -16,7 +16,7 @@ SN: Hanna bidt: mijn hart juicht in de Heer. Er is niemand heilig zoals de Heer;
 M: God reverses fortunes: the proud are humbled and the lowly lifted up. Corruption in the priesthood cannot stop God from raising a faithful servant.
 MN: God keert het lot om: de hoogmoedigen worden vernederd en de geringen verheven. Verdorvenheid in het priesterschap kan God niet beletten een trouwe dienaar te verwekken.
 F: Hannah's song is the third biblical ode of the Byzantine canon, and Mary's Magnificat echoes it closely. It is the first time Scripture speaks of the Lord's 'anointed', Messiah. Luke says of the boy Jesus, as of Samuel, that He grew in favour with God and man. The Fathers used Eli, who failed to restrain his sons, as a warning to parents and to bishops.
-FN: Het lied van Hanna is de derde bijbelse ode van de Byzantijnse canon, en het Magnificat van Maria weerspiegelt het nauw. Het is de eerste keer dat de Schrift spreekt over de 'gezalfde' van de Heer, de Messias. Lucas zegt over de jongen Jezus, zoals over Samuël, dat Hij opgroeide in de gunst van God en de mensen. De Vaders gebruikten Eli, die zijn zonen niet in toom hield, als waarschuwing voor ouders en bisschoppen.
+FN: Het lied van Hanna is de derde bijbelse ode van de Byzantijnse canon, en het Magnificat van Maria weerspiegelt het nauw. Het is de eerste keer dat de Schrift spreekt over de 'gezalfde' van de Heer, de Messias. Lucas zegt over de jongen Jezus, zoals over Samuël, dat Hij opgroeide in de gunst van God en de mensen. De kerkvaders gebruikten Eli, die zijn zonen niet in toom hield, als waarschuwing voor ouders en bisschoppen.
 T: The great reversal; The Anointed; Corrupt priests
 TN: De grote omkering; De Gezalfde; Verdorven priesters
 
@@ -26,7 +26,7 @@ SN: Het woord van de Heer was zeldzaam in die dagen. Op een nacht, terwijl de la
 M: God speaks to a child when the priests no longer listen. Learning to recognise God's voice often needs the help of an older guide.
 MN: God spreekt tot een kind wanneer de priesters niet meer luisteren. Leren Gods stem te herkennen, heeft vaak de hulp van een oudere gids nodig.
 F: The Fathers loved Samuel's answer, 'speak, Lord, for Your servant hears', as the perfect attitude of prayer: listening before speaking. They noted that even Eli, who failed as a father, rightly guided the boy to recognise God's voice, a lesson for spiritual fathers.
-FN: De Vaders hielden van het antwoord van Samuël, 'spreek, Heer, want Uw dienaar hoort', als de volmaakte houding van het gebed: luisteren voordat men spreekt. Zij merkten op dat zelfs Eli, die als vader faalde, de jongen terecht leerde Gods stem te herkennen, een les voor geestelijke vaders.
+FN: De kerkvaders hielden van het antwoord van Samuël, 'spreek, Heer, want Uw dienaar hoort', als de volmaakte houding van het gebed: luisteren voordat men spreekt. Zij merkten op dat zelfs Eli, die als vader faalde, de jongen terecht leerde Gods stem te herkennen, een les voor geestelijke vaders.
 T: God's call; Listening; Spiritual guidance
 TN: Gods roeping; Luisteren; Geestelijke begeleiding
 
@@ -36,7 +36,7 @@ SN: Israël trekt uit om tegen de Filistijnen te strijden en wordt bij Eben-Haë
 M: Holy objects used as lucky charms cannot save a people that has abandoned God. God is not a tool at our disposal.
 MN: Heilige voorwerpen die als talisman gebruikt worden, kunnen een volk dat God verlaten heeft niet redden. God is geen werktuig waarover wij beschikken.
 F: The Fathers warned from this chapter against superstition: trusting in sacred objects or rites without repentance and faith. Jeremiah later points to Shiloh as a warning that the temple itself is no guarantee for an unfaithful people.
-FN: De Vaders waarschuwden vanuit dit hoofdstuk tegen bijgeloof: vertrouwen op heilige voorwerpen of riten zonder bekering en geloof. Jeremia wijst later op Silo als waarschuwing dat ook de tempel geen garantie is voor een ontrouw volk.
+FN: De kerkvaders waarschuwden vanuit dit hoofdstuk tegen bijgeloof: vertrouwen op heilige voorwerpen of riten zonder bekering en geloof. Jeremia wijst later op Silo als waarschuwing dat ook de tempel geen garantie is voor een ontrouw volk.
 T: Superstition; The glory departed; Judgment
 TN: Bijgeloof; De heerlijkheid geweken; Oordeel
 
@@ -46,7 +46,7 @@ SN: De Filistijnen brengen de ark naar Asdod en zetten haar naast hun god Dagon.
 M: God is not defeated when His people are. Before Him the idols fall on their faces.
 MN: God is niet verslagen wanneer Zijn volk verslagen is. Voor Hem vallen de afgoden op hun gezicht.
 F: The Fathers saw Dagon falling before the ark as a figure of the idols of Egypt falling before the Christ Child, as Egyptian tradition tells, and of the fall of paganism before the Gospel. They read the ark as a figure of Christ, and of the Theotokos who carried Him.
-FN: De Vaders zagen Dagon die voor de ark viel als een voorafbeelding van de afgoden van Egypte die vielen voor het Christuskind, zoals de Egyptische overlevering vertelt, en van de val van het heidendom voor het Evangelie. Zij lazen de ark als een voorafbeelding van Christus, en van de Moeder Gods die Hem droeg.
+FN: De kerkvaders zagen Dagon die voor de ark viel als een voorafbeelding van de afgoden van Egypte die vielen voor het Christuskind, zoals de Egyptische overlevering vertelt, en van de val van het heidendom voor het Evangelie. Zij lazen de ark als een voorafbeelding van Christus, en van de Moeder Gods die Hem droeg.
 T: God's power; Idols fall; The ark
 TN: Gods macht; Afgoden vallen; De ark
 
@@ -56,7 +56,7 @@ SN: Na zeven maanden vragen de Filistijnen hun priesters wat zij moeten doen. Zi
 M: Even the Philistines recognise the hand of God. God's holiness is a gift, but it must be approached with reverence.
 MN: Zelfs de Filistijnen erkennen de hand van God. Gods heiligheid is een gave, maar moet met eerbied benaderd worden.
 F: The Fathers marvelled that the cows, against nature, left their calves to carry the ark straight to Israel, seeing in it a sign that creation serves its Creator. The question 'who can stand before this holy God?' was applied to approaching the holy mysteries with fear and love.
-FN: De Vaders verwonderden zich erover dat de koeien, tegen hun natuur in, hun kalveren achterlieten om de ark regelrecht naar Israël te brengen, en zagen daarin een teken dat de schepping haar Schepper dient. De vraag 'wie kan bestaan voor deze heilige God?' werd toegepast op het naderen van de heilige mysteriën met vreze en liefde.
+FN: De kerkvaders verwonderden zich erover dat de koeien, tegen hun natuur in, hun kalveren achterlieten om de ark regelrecht naar Israël te brengen, en zagen daarin een teken dat de schepping haar Schepper dient. De vraag 'wie kan bestaan voor deze heilige God?' werd toegepast op het naderen van de heilige mysteriën met vreze en liefde.
 T: God's holiness; Creation obeys; Reverence
 TN: Gods heiligheid; De schepping gehoorzaamt; Eerbied
 
@@ -66,7 +66,7 @@ SN: Twintig jaar blijft de ark in Kirjath-Jearim, en heel Israël klaagt de Heer
 M: Where the ark failed as a charm, repentance, fasting and prayer succeed. Every step of help is to be remembered with thanksgiving.
 MN: Waar de ark als talisman faalde, slagen bekering, vasten en gebed. Elke stap van hulp moet met dankbaarheid herdacht worden.
 F: The Fathers contrasted chapter 4, where Israel trusted in the ark, with this chapter, where it trusted in God through repentance. Water poured out before the Lord was read as tears of compunction. 'Thus far the Lord has helped us' became a cherished prayer of thanksgiving for the Church's journey.
-FN: De Vaders stelden hoofdstuk 4, waar Israël op de ark vertrouwde, tegenover dit hoofdstuk, waar het door bekering op God vertrouwde. Het water dat voor de Heer werd uitgegoten, werd gelezen als tranen van berouw. 'Tot hiertoe heeft de Heer ons geholpen' werd een gekoesterd dankgebed voor de weg van de Kerk.
+FN: De kerkvaders stelden hoofdstuk 4, waar Israël op de ark vertrouwde, tegenover dit hoofdstuk, waar het door bekering op God vertrouwde. Het water dat voor de Heer werd uitgegoten, werd gelezen als tranen van berouw. 'Tot hiertoe heeft de Heer ons geholpen' werd een gekoesterd dankgebed voor de weg van de Kerk.
 T: Repentance; Victory through prayer; Thanksgiving
 TN: Bekering; Overwinning door gebed; Dankzegging
 
@@ -76,7 +76,7 @@ SN: Wanneer Samuël oud wordt, maakt hij zijn zonen tot richters, maar zij nemen
 M: The desire to be 'like all the nations' rejects God's kingship. God allows the request, but warns of its cost.
 MN: Het verlangen om te zijn 'zoals alle volken' verwerpt Gods koningschap. God staat het verzoek toe, maar waarschuwt voor de prijs ervan.
 F: The Fathers drew from this chapter that God sometimes grants what we insist on, even when it is not best for us, so that we learn by experience. They saw the true King, whom Israel rejected, coming at last in Christ, the Son of David, whose kingship is service.
-FN: De Vaders leerden uit dit hoofdstuk dat God soms geeft waar wij op aandringen, zelfs wanneer het niet het beste voor ons is, zodat wij door ervaring leren. Zij zagen de ware Koning, die Israël verwierp, uiteindelijk komen in Christus, de Zoon van David, wiens koningschap dienst is.
+FN: De kerkvaders leerden uit dit hoofdstuk dat God soms geeft waar wij op aandringen, zelfs wanneer het niet het beste voor ons is, zodat wij door ervaring leren. Zij zagen de ware Koning, die Israël verwierp, uiteindelijk komen in Christus, de Zoon van David, wiens koningschap dienst is.
 T: Rejecting God as king; Conformity; The cost of power
 TN: God als koning verwerpen; Aanpassing; De prijs van de macht
 
@@ -86,7 +86,7 @@ SN: Saul, de zoon van Kis uit Benjamin, een knappe jongeman, groter dan iedereen
 M: God's purposes are hidden in ordinary events like searching for lost donkeys. Saul begins in humility.
 MN: Gods plannen zijn verborgen in gewone gebeurtenissen, zoals het zoeken naar verloren ezelinnen. Saul begint in nederigheid.
 F: The Fathers noted that Saul, seeking donkeys, found a kingdom, a sign of how God's providence works through ordinary searching. They praised his initial humility, and warned with his later story how quickly humility can be lost when power is gained.
-FN: De Vaders merkten op dat Saul, die ezelinnen zocht, een koninkrijk vond, een teken van hoe Gods voorzienigheid werkt door gewoon zoeken. Zij prezen zijn aanvankelijke nederigheid, en waarschuwden met zijn latere verhaal hoe snel nederigheid verloren kan gaan wanneer macht verkregen wordt.
+FN: De kerkvaders merkten op dat Saul, die ezelinnen zocht, een koninkrijk vond, een teken van hoe Gods voorzienigheid werkt door gewoon zoeken. Zij prezen zijn aanvankelijke nederigheid, en waarschuwden met zijn latere verhaal hoe snel nederigheid verloren kan gaan wanneer macht verkregen wordt.
 T: Providence; Humility; Calling
 TN: Voorzienigheid; Nederigheid; Roeping
 
@@ -96,7 +96,7 @@ SN: Samuël neemt een kruikje olie, giet het op het hoofd van Saul en kust hem: 
 M: Anointing brings the Spirit and a changed heart. Saul's hiding among the baggage shows both humility and fear.
 MN: De zalving brengt de Geest en een veranderd hart. Dat Saul zich tussen de bagage verbergt, toont zowel nederigheid als angst.
 F: The Fathers saw the anointing of kings as a figure of Christ, the Anointed One, and of the chrismation of every Christian, by which the Spirit makes us 'another person'. They praised Saul's silence before his detractors as a virtue he would later lose.
-FN: De Vaders zagen de zalving van koningen als een voorafbeelding van Christus, de Gezalfde, en van de zalving van elke christen, waardoor de Geest ons tot 'een ander mens' maakt. Zij prezen het zwijgen van Saul tegenover zijn critici als een deugd die hij later zou verliezen.
+FN: De kerkvaders zagen de zalving van koningen als een voorafbeelding van Christus, de Gezalfde, en van de zalving van elke christen, waardoor de Geest ons tot 'een ander mens' maakt. Zij prezen het zwijgen van Saul tegenover zijn critici als een deugd die hij later zou verliezen.
 T: Anointing; The Spirit changes the heart; Humility and fear
 TN: Zalving; De Geest verandert het hart; Nederigheid en angst
 
@@ -106,7 +106,7 @@ SN: Nahas de Ammoniet belegert Jabes in Gilead en biedt alleen vrede aan als hij
 M: Saul's first act as king is to rescue the weak, and his first victory ends in mercy, not revenge.
 MN: De eerste daad van Saul als koning is het redden van de zwakken, en zijn eerste overwinning eindigt in barmhartigheid, niet in wraak.
 F: The Fathers praised Saul's mercy to his opponents after victory, giving the glory to God. The people of Jabesh-gilead never forgot what he did for them, as chapter 31 shows.
-FN: De Vaders prezen de barmhartigheid van Saul voor zijn tegenstanders na de overwinning, waarbij hij de eer aan God gaf. De mensen van Jabes in Gilead vergaten nooit wat hij voor hen gedaan had, zoals hoofdstuk 31 laat zien.
+FN: De kerkvaders prezen de barmhartigheid van Saul voor zijn tegenstanders na de overwinning, waarbij hij de eer aan God gaf. De mensen van Jabes in Gilead vergaten nooit wat hij voor hen gedaan had, zoals hoofdstuk 31 laat zien.
 T: Rescue of the weak; Mercy after victory; God's salvation
 TN: Redding van de zwakken; Barmhartigheid na de overwinning; Gods verlossing
 
@@ -116,7 +116,7 @@ SN: Samuël spreekt tot heel Israël: ik heb voor u gewandeld van mijn jeugd af 
 M: A faithful leader can face the people with a clean conscience. Even when rejected, Samuel continues to pray for them.
 MN: Een trouwe leider kan het volk met een zuiver geweten onder ogen komen. Zelfs wanneer hij verworpen is, blijft Samuël voor hen bidden.
 F: The Fathers held up Samuel's farewell as the model of an honest pastor, who took nothing for himself. His words 'far be it from me to sin by ceasing to pray for you' were seen as the heart of the pastoral office: never to stop interceding for one's people, even the ungrateful.
-FN: De Vaders stelden het afscheid van Samuël voor als het voorbeeld van een eerlijke herder, die niets voor zichzelf nam. Zijn woorden 'het zij verre van mij te zondigen door op te houden voor u te bidden' werden gezien als het hart van het herdersambt: nooit ophouden met voorbidden voor zijn volk, ook niet voor de ondankbaren.
+FN: De kerkvaders stelden het afscheid van Samuël voor als het voorbeeld van een eerlijke herder, die niets voor zichzelf nam. Zijn woorden 'het zij verre van mij te zondigen door op te houden voor u te bidden' werden gezien als het hart van het herdersambt: nooit ophouden met voorbidden voor zijn volk, ook niet voor de ondankbaren.
 T: Integrity; Intercession; God does not forsake
 TN: Integriteit; Voorbede; God verlaat niet
 
@@ -126,7 +126,7 @@ SN: Saul verzamelt een leger tegen de Filistijnen, die bijeenkomen met strijdwag
 M: Fear and impatience lead Saul to take on a role that was not his. Waiting on God is part of obedience.
 MN: Angst en ongeduld brengen Saul ertoe een rol op zich te nemen die niet de zijne was. Wachten op God is een deel van gehoorzaamheid.
 F: The Fathers used Saul's sacrifice as a warning against usurping priestly functions and against impatience in trial. St Paul in Acts quotes 'a man after My own heart' of David, from whom God brought a Saviour, Jesus.
-FN: De Vaders gebruikten het offer van Saul als waarschuwing tegen het zich toe-eigenen van priesterlijke taken en tegen ongeduld in de beproeving. De heilige Paulus citeert in Handelingen 'een man naar Mijn hart' over David, uit wiens nageslacht God een Redder bracht, Jezus.
+FN: De kerkvaders gebruikten het offer van Saul als waarschuwing tegen het zich toe-eigenen van priesterlijke taken en tegen ongeduld in de beproeving. De heilige Paulus citeert in Handelingen 'een man naar Mijn hart' over David, uit wiens nageslacht God een Redder bracht, Jezus.
 T: Impatience; Obedience; A man after God's heart
 TN: Ongeduld; Gehoorzaamheid; Een man naar Gods hart
 
@@ -136,7 +136,7 @@ SN: Jonathan zegt tegen zijn wapendrager: kom, laten wij oversteken naar de post
 M: Faith does not count numbers; God can save by few. Saul's rash oath harms his own army and nearly kills his son.
 MN: Geloof telt geen aantallen; God kan door weinigen redden. De onbezonnen eed van Saul schaadt zijn eigen leger en doodt bijna zijn zoon.
 F: The Fathers praised Jonathan's 'nothing can hinder the Lord from saving by many or by few' as a confession of faith in God's power. They contrasted Jonathan's bold trust with Saul's rash oath, a warning against imposing burdens on others in the name of zeal.
-FN: De Vaders prezen Jonathans 'niets kan de Heer verhinderen te verlossen, door velen of door weinigen' als een belijdenis van geloof in Gods macht. Zij stelden het vrijmoedige vertrouwen van Jonathan tegenover de onbezonnen eed van Saul, een waarschuwing tegen het opleggen van lasten aan anderen in naam van ijver.
+FN: De kerkvaders prezen Jonathans 'niets kan de Heer verhinderen te verlossen, door velen of door weinigen' als een belijdenis van geloof in Gods macht. Zij stelden het vrijmoedige vertrouwen van Jonathan tegenover de onbezonnen eed van Saul, een waarschuwing tegen het opleggen van lasten aan anderen in naam van ijver.
 T: Faith and courage; Rash oaths; God saves by few
 TN: Geloof en moed; Onbezonnen eden; God redt door weinigen
 
@@ -146,7 +146,7 @@ SN: Samuël zegt Saul Amalek met de ban te slaan vanwege wat zij Israël aandede
 M: Partial obedience dressed up in religious language is still disobedience. God desires a listening heart more than sacrifices.
 MN: Gedeeltelijke gehoorzaamheid in religieuze taal verpakt, is nog altijd ongehoorzaamheid. God wil liever een luisterend hart dan offers.
 F: The Fathers made 'to obey is better than sacrifice' a foundation of their teaching on obedience, especially in monastic life: self-chosen good works do not replace obedience to God. They noted how Saul blamed others and excused himself, the opposite of true repentance.
-FN: De Vaders maakten 'gehoorzamen is beter dan offeren' tot een grondslag van hun onderwijs over gehoorzaamheid, vooral in het monastieke leven: zelfgekozen goede werken vervangen de gehoorzaamheid aan God niet. Zij merkten op hoe Saul anderen de schuld gaf en zichzelf verontschuldigde, het tegendeel van ware bekering.
+FN: De kerkvaders maakten 'gehoorzamen is beter dan offeren' tot een grondslag van hun onderwijs over gehoorzaamheid, vooral in het monastieke leven: zelfgekozen goede werken vervangen de gehoorzaamheid aan God niet. Zij merkten op hoe Saul anderen de schuld gaf en zichzelf verontschuldigde, het tegendeel van ware bekering.
 T: Obedience; Self-justification; Rejection
 TN: Gehoorzaamheid; Zelfrechtvaardiging; Verwerping
 
@@ -156,7 +156,7 @@ SN: De Heer zegt tegen Samuël: hoe lang zult u nog om Saul treuren? Vul uw hoor
 M: God chooses the overlooked youngest son, looking at the heart and not at appearance. The Spirit rests on the one God chooses.
 MN: God kiest de over het hoofd geziene jongste zoon en kijkt naar het hart, niet naar het uiterlijk. De Geest rust op wie God kiest.
 F: The Fathers saw David, the shepherd from Bethlehem anointed by God, as a figure of Christ, the Good Shepherd born in Bethlehem and anointed with the Spirit. 'The Lord looks on the heart' was central in their teaching against judging by appearances. David's music calming Saul was taken as a sign of the healing power of sacred song.
-FN: De Vaders zagen David, de herder uit Bethlehem die door God gezalfd werd, als een voorafbeelding van Christus, de Goede Herder die in Bethlehem geboren werd en met de Geest gezalfd. 'De Heer ziet het hart aan' stond centraal in hun onderwijs tegen oordelen naar het uiterlijk. De muziek van David die Saul kalmeerde, werd gezien als een teken van de genezende kracht van gewijde zang.
+FN: De kerkvaders zagen David, de herder uit Bethlehem die door God gezalfd werd, als een voorafbeelding van Christus, de Goede Herder die in Bethlehem geboren werd en met de Geest gezalfd. 'De Heer ziet het hart aan' stond centraal in hun onderwijs tegen oordelen naar het uiterlijk. De muziek van David die Saul kalmeerde, werd gezien als een teken van de genezende kracht van gewijde zang.
 T: God looks on the heart; The chosen shepherd; Anointing
 TN: God ziet het hart aan; De uitverkoren herder; Zalving
 
@@ -166,7 +166,7 @@ SN: De Filistijnen verzamelen zich bij Socho, en hun voorvechter Goliat uit Gath
 M: The battle is the Lord's: faith in the living God is stronger than armour and size. God uses a shepherd boy where an army is afraid.
 MN: De strijd is van de Heer: geloof in de levende God is sterker dan wapenrusting en grootte. God gebruikt een herdersjongen waar een leger bang is.
 F: The Fathers saw David as a figure of Christ defeating the devil: coming in humility, without armour, he overcomes the proud giant and cuts off his head with his own sword, as Christ destroyed death by death. St Augustine read the five stones as the five books of Moses, the Law taken up by David and fulfilled by Christ, and the staff as the cross.
-FN: De Vaders zagen David als een voorafbeelding van Christus die de duivel verslaat: hij komt in nederigheid, zonder wapenrusting, overwint de hoogmoedige reus en hakt zijn hoofd af met diens eigen zwaard, zoals Christus de dood door de dood vernietigde. De heilige Augustinus las de vijf stenen als de vijf boeken van Mozes, de Wet die door David werd opgenomen en door Christus vervuld, en de staf als het kruis.
+FN: De kerkvaders zagen David als een voorafbeelding van Christus die de duivel verslaat: hij komt in nederigheid, zonder wapenrusting, overwint de hoogmoedige reus en hakt zijn hoofd af met diens eigen zwaard, zoals Christus de dood door de dood vernietigde. De heilige Augustinus las de vijf stenen als de vijf boeken van Mozes, de Wet die door David werd opgenomen en door Christus vervuld, en de staf als het kruis.
 T: Faith against fear; The battle is the Lord's; Christ conquers
 TN: Geloof tegen angst; De strijd is van de Heer; Christus overwint
 
@@ -176,7 +176,7 @@ SN: De ziel van Jonathan wordt verbonden met de ziel van David, en Jonathan heef
 M: Jonathan's selfless love and Saul's consuming envy stand side by side. Envy cannot bear another's blessing; love rejoices in it.
 MN: De onbaatzuchtige liefde van Jonathan en de verterende afgunst van Saul staan naast elkaar. Afgunst kan de zegen van een ander niet verdragen; liefde verheugt zich erover.
 F: The Fathers held up the friendship of David and Jonathan as the model of holy friendship, free of rivalry; St Ambrose cites it in his work on duties. St Basil and St John Chrysostom used Saul as the classic example of envy, which turns benefits into hatred.
-FN: De Vaders stelden de vriendschap van David en Jonathan voor als het voorbeeld van heilige vriendschap, vrij van rivaliteit; de heilige Ambrosius haalt haar aan in zijn werk over de plichten. De heilige Basilius en de heilige Johannes Chrysostomus gebruikten Saul als het klassieke voorbeeld van afgunst, die weldaden in haat verandert.
+FN: De kerkvaders stelden de vriendschap van David en Jonathan voor als het voorbeeld van heilige vriendschap, vrij van rivaliteit; de heilige Ambrosius haalt haar aan in zijn werk over de plichten. De heilige Basilius en de heilige Johannes Chrysostomus gebruikten Saul als het klassieke voorbeeld van afgunst, die weldaden in haat verandert.
 T: Holy friendship; Envy; God with David
 TN: Heilige vriendschap; Afgunst; God met David
 
@@ -186,7 +186,7 @@ SN: Saul zegt Jonathan en zijn dienaren David te doden, maar Jonathan spreekt go
 M: God protects David through friends, a wife and finally His own Spirit. No human plan can overpower God's protection.
 MN: God beschermt David door vrienden, een vrouw en uiteindelijk door Zijn eigen Geest. Geen menselijk plan kan Gods bescherming overmeesteren.
 F: The Fathers noted that the Spirit overpowered Saul's messengers and Saul himself, showing that God guards His chosen. They also saw that spiritual gifts like prophecy do not prove holiness, since Saul prophesied while seeking innocent blood.
-FN: De Vaders merkten op dat de Geest de boden van Saul en Saul zelf overmeesterde, wat toont dat God Zijn uitverkorene bewaakt. Zij zagen ook dat geestelijke gaven zoals profetie geen heiligheid bewijzen, omdat Saul profeteerde terwijl hij onschuldig bloed zocht.
+FN: De kerkvaders merkten op dat de Geest de boden van Saul en Saul zelf overmeesterde, wat toont dat God Zijn uitverkorene bewaakt. Zij zagen ook dat geestelijke gaven zoals profetie geen heiligheid bewijzen, omdat Saul profeteerde terwijl hij onschuldig bloed zocht.
 T: God's protection; Friendship and loyalty; Gifts are not holiness
 TN: Gods bescherming; Vriendschap en trouw; Gaven zijn geen heiligheid
 
@@ -196,7 +196,7 @@ SN: David vraagt Jonathan: wat heb ik gedaan, dat uw vader mijn leven zoekt? Er 
 M: True friendship risks everything for the other and is sealed before God. Parting can be holy when it is made in God's peace.
 MN: Ware vriendschap riskeert alles voor de ander en wordt voor God bezegeld. Afscheid kan heilig zijn wanneer het in Gods vrede genomen wordt.
 F: The Fathers admired Jonathan, heir to the throne, who loved David more than his own prospects, as an example of love that seeks not its own. They saw friendship sworn 'in the name of the Lord' as the Christian ideal: friends bound together by God.
-FN: De Vaders bewonderden Jonathan, de troonopvolger, die David meer liefhad dan zijn eigen vooruitzichten, als een voorbeeld van liefde die niet het hare zoekt. Zij zagen vriendschap die 'in de naam van de Heer' gezworen is als het christelijk ideaal: vrienden die door God met elkaar verbonden zijn.
+FN: De kerkvaders bewonderden Jonathan, de troonopvolger, die David meer liefhad dan zijn eigen vooruitzichten, als een voorbeeld van liefde die niet het hare zoekt. Zij zagen vriendschap die 'in de naam van de Heer' gezworen is als het christelijk ideaal: vrienden die door God met elkaar verbonden zijn.
 T: Selfless friendship; Covenant; Farewell
 TN: Onbaatzuchtige vriendschap; Verbond; Afscheid
 
@@ -216,7 +216,7 @@ SN: David ontkomt naar de grot van Adullam; zijn familie en iedereen die in nood
 M: The outcast David gathers the distressed and indebted around him. Saul's paranoia turns into the murder of priests.
 MN: De verstoten David verzamelt de benauwden en schuldenaars om zich heen. De achterdocht van Saul slaat om in de moord op priesters.
 F: The Fathers saw David in the cave, gathering the distressed and burdened, as a figure of Christ who calls all who labour and are heavy laden. Psalm 52 is linked to Doeg's betrayal, and the Fathers saw Doeg as a figure of Judas. David's taking responsibility before Abiathar was praised as true contrition.
-FN: De Vaders zagen David in de grot, die de benauwden en belasten verzamelt, als een voorafbeelding van Christus die allen roept die vermoeid en belast zijn. Psalm 52 wordt verbonden met het verraad van Doëg, en de Vaders zagen Doëg als een voorafbeelding van Judas. Dat David tegenover Abjathar de verantwoordelijkheid op zich nam, werd geprezen als oprecht berouw.
+FN: De kerkvaders zagen David in de grot, die de benauwden en belasten verzamelt, als een voorafbeelding van Christus die allen roept die vermoeid en belast zijn. Psalm 52 wordt verbonden met het verraad van Doëg, en de kerkvaders zagen Doëg als een voorafbeelding van Judas. Dat David tegenover Abjathar de verantwoordelijkheid op zich nam, werd geprezen als oprecht berouw.
 T: Refuge for the distressed; Paranoia and violence; Responsibility
 TN: Toevlucht voor de benauwden; Achterdocht en geweld; Verantwoordelijkheid
 
@@ -226,7 +226,7 @@ SN: De Filistijnen vallen Keïla aan; David raadpleegt de Heer en redt de stad. 
 M: David seeks God's guidance at every step. A true friend strengthens another's hand in God.
 MN: David zoekt bij elke stap Gods leiding. Een ware vriend sterkt de hand van de ander in God.
 F: The Fathers loved the phrase 'he strengthened his hand in God' as a description of the ministry of spiritual friendship: to encourage another not in himself but in God. Psalm 54 is linked to the betrayal by the Ziphites.
-FN: De Vaders hielden van de uitdrukking 'hij sterkte zijn hand in God' als een beschrijving van de bediening van geestelijke vriendschap: de ander bemoedigen, niet in zichzelf maar in God. Psalm 54 wordt verbonden met het verraad door de Zifieten.
+FN: De kerkvaders hielden van de uitdrukking 'hij sterkte zijn hand in God' als een beschrijving van de bediening van geestelijke vriendschap: de ander bemoedigen, niet in zichzelf maar in God. Psalm 54 wordt verbonden met het verraad door de Zifieten.
 T: Seeking guidance; Encouragement in God; Betrayal
 TN: Leiding zoeken; Bemoediging in God; Verraad
 
@@ -236,7 +236,7 @@ SN: Saul achtervolgt David met drieduizend man tot in de woestijn van En-Gedi en
 M: David refuses to seize what God has promised by violence. Mercy to an enemy can touch even a hardened heart.
 MN: David weigert met geweld te grijpen wat God beloofd heeft. Barmhartigheid voor een vijand kan zelfs een verhard hart raken.
 F: St John Chrysostom preached three homilies on David and Saul, praising David's restraint in the cave as a greater victory than over Goliath: he conquered his own anger. The Fathers used 'the Lord's anointed' to teach respect even for unworthy rulers, leaving judgment to God. Psalms 57 and 142 are linked to the cave.
-FN: De heilige Johannes Chrysostomus hield drie preken over David en Saul, waarin hij de zelfbeheersing van David in de grot prees als een grotere overwinning dan die op Goliat: hij overwon zijn eigen toorn. De Vaders gebruikten 'de gezalfde van de Heer' om respect te leren, zelfs voor onwaardige heersers, en het oordeel aan God te laten. Psalm 57 en 142 worden met de grot verbonden.
+FN: De heilige Johannes Chrysostomus hield drie preken over David en Saul, waarin hij de zelfbeheersing van David in de grot prees als een grotere overwinning dan die op Goliat: hij overwon zijn eigen toorn. De kerkvaders gebruikten 'de gezalfde van de Heer' om respect te leren, zelfs voor onwaardige heersers, en het oordeel aan God te laten. Psalm 57 en 142 worden met de grot verbonden.
 T: Mercy to an enemy; Restraint; Leaving judgment to God
 TN: Barmhartigheid voor een vijand; Zelfbeheersing; Het oordeel aan God laten
 
@@ -246,7 +246,7 @@ SN: Samuël sterft, en heel Israël rouwt om hem. David, in de woestijn, zendt j
 M: Even David, who spared Saul, is nearly carried away by anger. A wise woman's intervention saves him from sin.
 MN: Zelfs David, die Saul spaarde, wordt bijna door toorn meegesleept. De tussenkomst van een wijze vrouw redt hem van zonde.
 F: The Fathers praised Abigail as a peacemaker whose humility and wisdom turned away wrath, and David for accepting correction from a woman. They noted that the same man who conquered his anger in the cave nearly fell here, a reminder that no victory over passion is permanent.
-FN: De Vaders prezen Abigaïl als een vredestichter wier nederigheid en wijsheid de toorn afwendden, en David omdat hij terechtwijzing van een vrouw aanvaardde. Zij merkten op dat dezelfde man die in de grot zijn toorn overwon, hier bijna viel, een herinnering dat geen overwinning op een hartstocht blijvend is.
+FN: De kerkvaders prezen Abigaïl als een vredestichter wier nederigheid en wijsheid de toorn afwendden, en David omdat hij terechtwijzing van een vrouw aanvaardde. Zij merkten op dat dezelfde man die in de grot zijn toorn overwon, hier bijna viel, een herinnering dat geen overwinning op een hartstocht blijvend is.
 T: Anger; Peacemaking; Wise counsel
 TN: Toorn; Vrede stichten; Wijze raad
 
@@ -256,7 +256,7 @@ SN: De Zifieten vertellen Saul opnieuw waar David zich verbergt, en Saul komt me
 M: A second time David refuses to take revenge. He entrusts his life to God, who values those who show mercy.
 MN: Een tweede keer weigert David wraak te nemen. Hij vertrouwt zijn leven toe aan God, die waarde hecht aan wie barmhartigheid tonen.
 F: The Fathers drew from David's words 'as your life was precious in my sight, so may mine be in the Lord's' the principle of Christ's teaching: with the measure you use, it will be measured to you; blessed are the merciful, for they shall obtain mercy.
-FN: De Vaders leerden uit de woorden van David 'zoals uw leven kostbaar was in mijn ogen, zo moge het mijne zijn in die van de Heer' het principe van Christus' onderwijs: met de maat waarmee u meet, zal u gemeten worden; zalig de barmhartigen, want zij zullen barmhartigheid ontvangen.
+FN: De kerkvaders leerden uit de woorden van David 'zoals uw leven kostbaar was in mijn ogen, zo moge het mijne zijn in die van de Heer' het principe van Christus' onderwijs: met de maat waarmee u meet, zal u gemeten worden; zalig de barmhartigen, want zij zullen barmhartigheid ontvangen.
 T: Mercy again; Trust in God; Measure for measure
 TN: Opnieuw barmhartigheid; Vertrouwen op God; Maat voor maat
 
@@ -266,7 +266,7 @@ SN: David zegt in zijn hart: nu zal ik op een dag omkomen door de hand van Saul;
 M: In weariness David acts out of fear rather than faith and lives a double life among the enemy. Scripture records his deceit honestly.
 MN: Uit vermoeidheid handelt David uit angst in plaats van geloof en leidt hij een dubbelleven bij de vijand. De Schrift vermeldt zijn bedrog eerlijk.
 F: The Fathers noted that this chapter begins with David speaking to his own heart rather than inquiring of the Lord, as he had done before, and that fear led him into deceit. They saw it as a lesson that even the saints falter when weariness replaces prayer.
-FN: De Vaders merkten op dat dit hoofdstuk begint met David die tot zijn eigen hart spreekt in plaats van de Heer te raadplegen, zoals hij eerder deed, en dat angst hem tot bedrog bracht. Zij zagen het als een les dat zelfs de heiligen wankelen wanneer vermoeidheid het gebed vervangt.
+FN: De kerkvaders merkten op dat dit hoofdstuk begint met David die tot zijn eigen hart spreekt in plaats van de Heer te raadplegen, zoals hij eerder deed, en dat angst hem tot bedrog bracht. Zij zagen het als een les dat zelfs de heiligen wankelen wanneer vermoeidheid het gebed vervangt.
 T: Fear instead of faith; Double life; Weariness
 TN: Angst in plaats van geloof; Dubbelleven; Vermoeidheid
 
@@ -276,7 +276,7 @@ SN: De Filistijnen verzamelen zich tegen Israël, en Saul is doodsbang. Hij raad
 M: The one who would not listen to God turns in despair to forbidden means. God's silence is the fruit of Saul's long disobedience.
 MN: Wie niet naar God wilde luisteren, wendt zich in wanhoop tot verboden middelen. Gods zwijgen is de vrucht van de langdurige ongehoorzaamheid van Saul.
 F: The Fathers debated whether Samuel truly appeared: Origen held that he did, while St Eustathius of Antioch wrote against him that it was a demonic illusion; Sirach says that Samuel prophesied even after his death. All agreed that consulting the dead is forbidden and that Saul's end shows the fruit of turning from God to the occult.
-FN: De Vaders debatteerden over de vraag of Samuël werkelijk verscheen: Origenes meende van wel, terwijl de heilige Eustathius van Antiochië tegen hem schreef dat het een demonische illusie was; Sirach zegt dat Samuël zelfs na zijn dood profeteerde. Allen waren het erover eens dat het raadplegen van doden verboden is en dat het einde van Saul de vrucht toont van het zich afkeren van God naar het occulte.
+FN: De kerkvaders debatteerden over de vraag of Samuël werkelijk verscheen: Origenes meende van wel, terwijl de heilige Eustathius van Antiochië tegen hem schreef dat het een demonische illusie was; Sirach zegt dat Samuël zelfs na zijn dood profeteerde. Allen waren het erover eens dat het raadplegen van doden verboden is en dat het einde van Saul de vrucht toont van het zich afkeren van God naar het occulte.
 T: God's silence; The occult; Despair
 TN: Gods zwijgen; Het occulte; Wanhoop
 
@@ -286,7 +286,7 @@ SN: De Filistijnen verzamelen zich in Afek om tegen Israël te strijden, en Davi
 M: God spares David from having to fight against his own people. Providence works even through the suspicion of enemies.
 MN: God bespaart David de noodzaak tegen zijn eigen volk te strijden. De voorzienigheid werkt zelfs door het wantrouwen van vijanden.
 F: The Fathers saw God's hidden hand in this release: David, who had put himself in an impossible position, is rescued from it not by his own wisdom but by the suspicion of the Philistine lords.
-FN: De Vaders zagen Gods verborgen hand in deze vrijlating: David, die zichzelf in een onmogelijke positie had gebracht, wordt er niet door zijn eigen wijsheid uit gered, maar door het wantrouwen van de Filistijnse vorsten.
+FN: De kerkvaders zagen Gods verborgen hand in deze vrijlating: David, die zichzelf in een onmogelijke positie had gebracht, wordt er niet door zijn eigen wijsheid uit gered, maar door het wantrouwen van de Filistijnse vorsten.
 T: Providence; Rescue from compromise; Hidden mercy
 TN: Voorzienigheid; Redding uit een compromis; Verborgen barmhartigheid
 
@@ -296,7 +296,7 @@ SN: Wanneer David en zijn mannen terugkeren naar Ziklag, vinden zij het door de 
 M: In the darkest hour, abandoned by his own men, David finds strength in God. He shares the victory generously with the weak.
 MN: In het donkerste uur, verlaten door zijn eigen mannen, vindt David kracht in God. Hij deelt de overwinning royaal met de zwakken.
 F: The Fathers loved 'David strengthened himself in the Lord his God' as the model for every soul in desolation: when all human support fails, turn to God. David's rule of equal shares was read as the Church's way, where the weak and the strong share alike in the grace won by Christ.
-FN: De Vaders hielden van 'David sterkte zich in de Heer, zijn God' als het voorbeeld voor elke ziel in verlatenheid: wanneer alle menselijke steun wegvalt, keer u tot God. De regel van David van gelijke delen werd gelezen als de weg van de Kerk, waar zwakken en sterken gelijk delen in de genade die door Christus verworven is.
+FN: De kerkvaders hielden van 'David sterkte zich in de Heer, zijn God' als het voorbeeld voor elke ziel in verlatenheid: wanneer alle menselijke steun wegvalt, keer u tot God. De regel van David van gelijke delen werd gelezen als de weg van de Kerk, waar zwakken en sterken gelijk delen in de genade die door Christus verworven is.
 T: Strength in God; Recovery; Sharing with the weak
 TN: Kracht in God; Herstel; Delen met de zwakken
 
@@ -306,6 +306,6 @@ SN: De Filistijnen strijden tegen Israël op de berg Gilboa, en de mannen van Is
 M: Saul's reign ends in defeat and despair. Yet the people he once rescued honour him in death; gratitude remembers.
 MN: Het koningschap van Saul eindigt in nederlaag en wanhoop. Toch eren de mensen die hij eens gered had hem in zijn dood; dankbaarheid gedenkt.
 F: The Fathers saw in Saul's end the tragedy of a gifted man who began well but would not obey, and in his suicide the fruit of despair; the Church has always regarded taking one's own life as contrary to hope in God's mercy. The men of Jabesh-gilead were praised for their loyal gratitude and care for the dead.
-FN: De Vaders zagen in het einde van Saul de tragedie van een begaafd man die goed begon maar niet wilde gehoorzamen, en in zijn zelfmoord de vrucht van wanhoop; de Kerk heeft het zich van het leven beroven altijd beschouwd als in strijd met de hoop op Gods barmhartigheid. De mannen van Jabes in Gilead werden geprezen om hun trouwe dankbaarheid en hun zorg voor de doden.
+FN: De kerkvaders zagen in het einde van Saul de tragedie van een begaafd man die goed begon maar niet wilde gehoorzamen, en in zijn zelfmoord de vrucht van wanhoop; de Kerk heeft het zich van het leven beroven altijd beschouwd als in strijd met de hoop op Gods barmhartigheid. De mannen van Jabes in Gilead werden geprezen om hun trouwe dankbaarheid en hun zorg voor de doden.
 T: Tragic end; Despair; Loyal gratitude
 TN: Tragisch einde; Wanhoop; Trouwe dankbaarheid

@@ -6,7 +6,7 @@ SN: Salomo bevestigt zich in zijn koninkrijk, en de Heer, zijn God, is met hem e
 M: The new king begins at the place of worship and asks for wisdom to serve. God gives what is asked and more.
 MN: De nieuwe koning begint bij de plaats van aanbidding en vraagt om wijsheid om te dienen. God geeft wat gevraagd wordt en meer.
 F: The Fathers drew from Solomon's request the order of Christian prayer: first the gifts that serve God and others, and the rest will be added. St James's promise that God gives wisdom generously to those who ask was read alongside this chapter.
-FN: De Vaders leerden uit het verzoek van Salomo de volgorde van christelijk gebed: eerst de gaven die God en anderen dienen, en de rest zal erbij gegeven worden. De belofte van de heilige Jakobus dat God royaal wijsheid geeft aan wie erom vragen, werd naast dit hoofdstuk gelezen.
+FN: De kerkvaders leerden uit het verzoek van Salomo de volgorde van christelijk gebed: eerst de gaven die God en anderen dienen, en de rest zal erbij gegeven worden. De belofte van de heilige Jakobus dat God royaal wijsheid geeft aan wie erom vragen, werd naast dit hoofdstuk gelezen.
 T: Wisdom; Prayer for service; God's generosity
 TN: Wijsheid; Gebed om te dienen; Gods vrijgevigheid
 
@@ -16,7 +16,7 @@ SN: Salomo neemt zich voor een tempel te bouwen voor de naam van de Heer en een 
 M: Solomon builds with humility: no house can contain God, yet He allows a place for worship. Even a foreign king praises the God of Israel.
 MN: Salomo bouwt met nederigheid: geen huis kan God bevatten, toch staat Hij een plaats voor aanbidding toe. Zelfs een buitenlandse koning looft de God van Israël.
 F: The Fathers praised Solomon's words 'heaven cannot contain Him' as the right attitude for building churches: we build not to contain God but to meet Him. They saw Huram's blessing of Israel's God as a sign of the nations coming to know the true God.
-FN: De Vaders prezen de woorden van Salomo 'de hemel kan Hem niet bevatten' als de juiste houding bij het bouwen van kerken: wij bouwen niet om God te bevatten, maar om Hem te ontmoeten. Zij zagen de lofprijzing van Huram over de God van Israël als een teken dat de volken de ware God leren kennen.
+FN: De kerkvaders prezen de woorden van Salomo 'de hemel kan Hem niet bevatten' als de juiste houding bij het bouwen van kerken: wij bouwen niet om God te bevatten, maar om Hem te ontmoeten. Zij zagen de lofprijzing van Huram over de God van Israël als een teken dat de volken de ware God leren kennen.
 T: Humility in building; God beyond all; The nations' praise
 TN: Nederigheid bij het bouwen; God boven alles; De lof van de volken
 
@@ -26,7 +26,7 @@ SN: Salomo begint het huis van de Heer te bouwen in Jeruzalem op de berg Moria, 
 M: The temple stands where Abraham offered Isaac and where David's sacrifice stopped the plague: a place of sacrifice and mercy.
 MN: De tempel staat waar Abraham Isaak offerde en waar het offer van David de plaag stuitte: een plaats van offer en barmhartigheid.
 F: Only Chronicles explicitly links the temple site to Mount Moriah, where Abraham offered Isaac. The Fathers saw in this one place the history of salvation converging: the sacrifice of Isaac, the mercy shown to David, the temple sacrifices, all pointing to the sacrifice of Christ on Golgotha nearby. The torn veil at His death was read in the light of the veil described here.
-FN: Alleen Kronieken verbindt de plaats van de tempel uitdrukkelijk met de berg Moria, waar Abraham Isaak offerde. De Vaders zagen in deze ene plaats de heilsgeschiedenis samenkomen: het offer van Isaak, de barmhartigheid die David bewezen werd, de tempeloffers, alle wijzend naar het offer van Christus op het nabije Golgotha. Het gescheurde voorhangsel bij Zijn dood werd gelezen in het licht van het voorhangsel dat hier beschreven wordt.
+FN: Alleen Kronieken verbindt de plaats van de tempel uitdrukkelijk met de berg Moria, waar Abraham Isaak offerde. De kerkvaders zagen in deze ene plaats de heilsgeschiedenis samenkomen: het offer van Isaak, de barmhartigheid die David bewezen werd, de tempeloffers, alle wijzend naar het offer van Christus op het nabije Golgotha. Het gescheurde voorhangsel bij Zijn dood werd gelezen in het licht van het voorhangsel dat hier beschreven wordt.
 T: Moriah; Place of sacrifice; The veil
 TN: Moria; Plaats van het offer; Het voorhangsel
 
@@ -36,7 +36,7 @@ SN: Salomo maakt het koperen altaar, de grote gegoten zee die op twaalf runderen
 M: Everything needed for sacrifice, cleansing, light and bread is provided in abundance. God is served with the best and without measure.
 MN: Alles wat nodig is voor offer, reiniging, licht en brood wordt in overvloed voorzien. God wordt gediend met het beste en zonder maat.
 F: The Fathers saw the abundance of the temple vessels as an image of the abundance of grace in the Church: washing in baptism, light in the word and bread in the Eucharist, provided beyond measure.
-FN: De Vaders zagen de overvloed van de tempelvoorwerpen als een beeld van de overvloed van genade in de Kerk: wassing in de doop, licht in het woord en brood in de Eucharistie, voorzien boven alle maat.
+FN: De kerkvaders zagen de overvloed van de tempelvoorwerpen als een beeld van de overvloed van genade in de Kerk: wassing in de doop, licht in het woord en brood in de Eucharistie, voorzien boven alle maat.
 T: Abundance; Washing, light and bread; Generous worship
 TN: Overvloed; Wassing, licht en brood; Royale eredienst
 
@@ -46,7 +46,7 @@ SN: Wanneer al het werk voltooid is, brengt Salomo de dingen binnen die David ge
 M: God's glory comes when His people praise Him with one voice. Unity in worship opens heaven.
 MN: Gods heerlijkheid komt wanneer Zijn volk Hem met één stem looft. Eenheid in de aanbidding opent de hemel.
 F: The Fathers loved the detail that the glory came 'when they made themselves heard in unison': harmony of voices and hearts draws down God's presence, as the Spirit came at Pentecost when the disciples were all together in one place. The refrain 'for He is good, for His mercy endures for ever' is still sung throughout the Church's worship.
-FN: De Vaders hielden van het detail dat de heerlijkheid kwam 'toen zij zich als één stem lieten horen': eensgezindheid van stemmen en harten trekt Gods aanwezigheid neer, zoals de Geest met Pinksteren kwam toen de leerlingen allen eendrachtig bijeen waren. Het refrein 'want Hij is goed, want Zijn barmhartigheid is voor eeuwig' wordt nog steeds overal in de eredienst van de Kerk gezongen.
+FN: De kerkvaders hielden van het detail dat de heerlijkheid kwam 'toen zij zich als één stem lieten horen': eensgezindheid van stemmen en harten trekt Gods aanwezigheid neer, zoals de Geest met Pinksteren kwam toen de leerlingen allen eendrachtig bijeen waren. Het refrein 'want Hij is goed, want Zijn barmhartigheid is voor eeuwig' wordt nog steeds overal in de eredienst van de Kerk gezongen.
 T: Unity in praise; God's glory; Steadfast love
 TN: Eenheid in lof; Gods heerlijkheid; Goedertierenheid
 
@@ -56,7 +56,7 @@ SN: Salomo zegent de gemeente en herinnert aan Gods belofte aan David. Hij kniel
 M: The temple is above all a house of prayer, where every need, sin and exile can be brought before God. God's mercy is the hope of all.
 MN: De tempel is bovenal een huis van gebed, waar elke nood, zonde en ballingschap voor God gebracht kan worden. Gods barmhartigheid is de hoop van allen.
 F: The Fathers saw Solomon kneeling with outstretched hands as the model of the Church's posture of prayer. The final words, 'arise, O Lord, to Your resting place', taken from Psalm 132, were read of the ark and of the Theotokos, the living ark. They praised the prayer's openness to the foreigner, fulfilled in the Church of all nations.
-FN: De Vaders zagen Salomo, knielend met uitgestrekte handen, als het voorbeeld van de gebedshouding van de Kerk. De slotwoorden, 'sta op, Heer, tot Uw rustplaats', ontleend aan Psalm 132, werden gelezen over de ark en over de Moeder Gods, de levende ark. Zij prezen de openheid van het gebed voor de vreemdeling, vervuld in de Kerk van alle volken.
+FN: De kerkvaders zagen Salomo, knielend met uitgestrekte handen, als het voorbeeld van de gebedshouding van de Kerk. De slotwoorden, 'sta op, Heer, tot Uw rustplaats', ontleend aan Psalm 132, werden gelezen over de ark en over de Moeder Gods, de levende ark. Zij prezen de openheid van het gebed voor de vreemdeling, vervuld in de Kerk van alle volken.
 T: House of prayer; Forgiveness; Openness to all
 TN: Huis van gebed; Vergeving; Openheid voor allen
 
@@ -66,7 +66,7 @@ SN: Wanneer Salomo klaar is met bidden, daalt vuur uit de hemel neer en verteert
 M: God's answer gives the pattern of revival for every generation: humility, prayer, seeking His face and turning from evil. He promises to forgive and heal.
 MN: Gods antwoord geeft het patroon van herleving voor elke generatie: nederigheid, gebed, Zijn aangezicht zoeken en zich afkeren van het kwade. Hij belooft te vergeven en te genezen.
 F: The Fathers made 'if My people humble themselves and pray' a key text on repentance for the whole Church, especially in times of calamity, when fasts and prayers are offered for the healing of the land. The fire from heaven on Solomon's offering was read as a figure of the Spirit's descent on the Eucharistic gifts.
-FN: De Vaders maakten 'als Mijn volk zich verootmoedigt en bidt' tot een sleuteltekst over bekering voor de hele Kerk, vooral in tijden van rampspoed, wanneer vasten en gebeden worden opgedragen voor de genezing van het land. Het vuur uit de hemel op het offer van Salomo werd gelezen als een voorafbeelding van de neerdaling van de Geest op de eucharistische gaven.
+FN: De kerkvaders maakten 'als Mijn volk zich verootmoedigt en bidt' tot een sleuteltekst over bekering voor de hele Kerk, vooral in tijden van rampspoed, wanneer vasten en gebeden worden opgedragen voor de genezing van het land. Het vuur uit de hemel op het offer van Salomo werd gelezen als een voorafbeelding van de neerdaling van de Geest op de eucharistische gaven.
 T: Humility and prayer; Forgiveness and healing; Fire from heaven
 TN: Nederigheid en gebed; Vergeving en genezing; Vuur uit de hemel
 
@@ -76,7 +76,7 @@ SN: Twintig jaar lang bouwt Salomo het huis van de Heer en zijn eigen huis, herb
 M: Solomon orders worship faithfully and treats holy places with respect. Yet the seeds of compromise are already present.
 MN: Salomo regelt de eredienst trouw en behandelt heilige plaatsen met respect. Toch zijn de kiemen van compromis al aanwezig.
 F: The Fathers noted Solomon's reverence for places where the ark had come, a sign of respect for holy places, and his faithful keeping of the feasts. Some also saw in his foreign marriage the beginning of the divided heart that 1 Kings later describes.
-FN: De Vaders merkten de eerbied van Salomo op voor plaatsen waar de ark gekomen was, een teken van respect voor heilige plaatsen, en zijn trouwe viering van de feesten. Sommigen zagen in zijn buitenlandse huwelijk ook het begin van het verdeelde hart dat 1 Koningen later beschrijft.
+FN: De kerkvaders merkten de eerbied van Salomo op voor plaatsen waar de ark gekomen was, een teken van respect voor heilige plaatsen, en zijn trouwe viering van de feesten. Sommigen zagen in zijn buitenlandse huwelijk ook het begin van het verdeelde hart dat 1 Koningen later beschrijft.
 T: Ordered worship; Holy places; Hidden compromise
 TN: Geordende eredienst; Heilige plaatsen; Verborgen compromis
 
@@ -86,7 +86,7 @@ SN: De koningin van Scheba hoort van de roem van Salomo en komt hem met raadsels
 M: The queen recognises that Solomon sits on God's throne. True wisdom draws the nations and leads them to praise God.
 MN: De koningin erkent dat Salomo op Gods troon zit. Ware wijsheid trekt de volken aan en brengt hen ertoe God te loven.
 F: Chronicles calls the throne 'His throne', the Lord's, and the Fathers saw this fulfilled in Christ, of whom He said: something greater than Solomon is here. The queen of the South coming to hear wisdom was read as the Gentiles coming to Christ.
-FN: Kronieken noemt de troon 'Zijn troon', die van de Heer, en de Vaders zagen dit vervuld in Christus, over wie Hij zei: hier is meer dan Salomo. De koningin van het Zuiden die kwam om wijsheid te horen, werd gelezen als de heidenen die tot Christus komen.
+FN: Kronieken noemt de troon 'Zijn troon', die van de Heer, en de kerkvaders zagen dit vervuld in Christus, over wie Hij zei: hier is meer dan Salomo. De koningin van het Zuiden die kwam om wijsheid te horen, werd gelezen als de heidenen die tot Christus komen.
 T: God's throne; Wisdom draws the nations; Greater than Solomon
 TN: Gods troon; Wijsheid trekt de volken; Meer dan Salomo
 
@@ -96,7 +96,7 @@ SN: Rehabeam gaat naar Sichem om koning gemaakt te worden. Jerobeam en heel Isra
 M: Harshness and pride divide God's people. Yet even through human folly God's word is fulfilled.
 MN: Hardheid en hoogmoed verdelen Gods volk. Toch wordt zelfs door menselijke dwaasheid Gods woord vervuld.
 F: The Fathers again took the elders' advice, 'be good to this people', as the model of Christian authority, and noted how God's providence works even through human mistakes. They grieved over the division of God's people as a figure of all schism.
-FN: De Vaders namen opnieuw de raad van de oudsten, 'wees goed voor dit volk', als het voorbeeld van christelijk gezag, en merkten op hoe Gods voorzienigheid zelfs door menselijke fouten werkt. Zij treurden over de verdeling van Gods volk als een voorafbeelding van elke scheuring.
+FN: De kerkvaders namen opnieuw de raad van de oudsten, 'wees goed voor dit volk', als het voorbeeld van christelijk gezag, en merkten op hoe Gods voorzienigheid zelfs door menselijke fouten werkt. Zij treurden over de verdeling van Gods volk als een voorafbeelding van elke scheuring.
 T: Harsh authority; Division; Providence
 TN: Hard gezag; Verdeeldheid; Voorzienigheid
 
@@ -106,7 +106,7 @@ SN: Rehabeam verzamelt 180.000 strijders om tegen Israël te strijden, maar het 
 M: Obeying God's word prevents a war between brothers. Those who seek the Lord leave everything to worship Him rightly.
 MN: Gehoorzaamheid aan Gods woord voorkomt een oorlog tussen broeders. Wie de Heer zoeken, laten alles achter om Hem op de juiste wijze te aanbidden.
 F: The Fathers praised Rehoboam's army for obeying the prophet and not shedding their brothers' blood. They saw the priests and faithful who left the north for Jerusalem as the remnant who choose true worship over convenience, a figure of those who remain faithful to the true Church.
-FN: De Vaders prezen het leger van Rehabeam omdat het de profeet gehoorzaamde en het bloed van zijn broeders niet vergoot. Zij zagen de priesters en gelovigen die het noorden verlieten voor Jeruzalem als de rest die ware aanbidding verkiest boven gemak, een voorafbeelding van wie trouw blijven aan de ware Kerk.
+FN: De kerkvaders prezen het leger van Rehabeam omdat het de profeet gehoorzaamde en het bloed van zijn broeders niet vergoot. Zij zagen de priesters en gelovigen die het noorden verlieten voor Jeruzalem als de rest die ware aanbidding verkiest boven gemak, een voorafbeelding van wie trouw blijven aan de ware Kerk.
 T: Obedience prevents war; Seeking the Lord; Faithful remnant
 TN: Gehoorzaamheid voorkomt oorlog; De Heer zoeken; Trouwe rest
 
@@ -116,7 +116,7 @@ SN: Wanneer het koningschap van Rehabeam gevestigd en sterk is, verlaten hij en 
 M: Strength and security can lead to forgetting God. Humbling oneself brings mercy, and serving earthly masters teaches the sweetness of serving God.
 MN: Kracht en zekerheid kunnen ertoe leiden dat men God vergeet. Zich verootmoedigen brengt barmhartigheid, en het dienen van aardse heersers leert hoe zoet het is God te dienen.
 F: The Fathers drew a deep lesson from 'that they may know My service and the service of the kingdoms': God sometimes lets us experience slavery to worldly powers so that we learn how light His yoke is. They noted that Chronicles repeatedly links mercy to humbling oneself.
-FN: De Vaders leerden een diepe les uit 'opdat zij het verschil leren kennen tussen Mijn dienst en de dienst van de koninkrijken': God laat ons soms slavernij aan wereldse machten ervaren, zodat wij leren hoe licht Zijn juk is. Zij merkten op dat Kronieken barmhartigheid herhaaldelijk verbindt met zich verootmoedigen.
+FN: De kerkvaders leerden een diepe les uit 'opdat zij het verschil leren kennen tussen Mijn dienst en de dienst van de koninkrijken': God laat ons soms slavernij aan wereldse machten ervaren, zodat wij leren hoe licht Zijn juk is. Zij merkten op dat Kronieken barmhartigheid herhaaldelijk verbindt met zich verootmoedigen.
 T: Forgetting God in prosperity; Humility; Light yoke of God
 TN: God vergeten in voorspoed; Nederigheid; Gods lichte juk
 
@@ -126,7 +126,7 @@ SN: Abia regeert over Juda en trekt ten strijde tegen Jerobeam, met 400.000 man 
 M: Faithfulness to God's covenant and true worship is the real strength of a people. In crisis, they cry to God and He fights for them.
 MN: Trouw aan Gods verbond en ware eredienst zijn de werkelijke kracht van een volk. In de crisis roepen zij tot God en Hij strijdt voor hen.
 F: The Fathers loved Abijah's cry, 'God is with us at our head', which echoes Isaiah's 'God with us' sung at Byzantine Great Compline. The 'covenant of salt', a covenant that does not decay, was read as God's unbreakable promise fulfilled in Christ.
-FN: De Vaders hielden van de roep van Abia, 'God is met ons, aan ons hoofd', die doorklinkt in Jesaja's 'God met ons', gezongen in de Byzantijnse Grote Completen. Het 'zoutverbond', een verbond dat niet vergaat, werd gelezen als Gods onverbrekelijke belofte, vervuld in Christus.
+FN: De kerkvaders hielden van de roep van Abia, 'God is met ons, aan ons hoofd', die doorklinkt in Jesaja's 'God met ons', gezongen in de Byzantijnse Grote Completen. Het 'zoutverbond', een verbond dat niet vergaat, werd gelezen als Gods onverbrekelijke belofte, vervuld in Christus.
 T: God with us; True worship; Reliance on God
 TN: God met ons; Ware eredienst; Steunen op God
 
@@ -136,7 +136,7 @@ SN: Asa doet wat goed en recht is in de ogen van de Heer, zijn God: hij neemt de
 M: Reform and seeking God bring rest. Facing overwhelming odds, Asa's short prayer places everything in God's hands.
 MN: Hervorming en God zoeken brengen rust. Tegenover overweldigende overmacht legt het korte gebed van Asa alles in Gods handen.
 F: The Fathers held up Asa's prayer, 'there is none like You to help, between the mighty and the weak', as a model of prayer in impossible situations: God's help does not depend on the strength of those He helps.
-FN: De Vaders stelden het gebed van Asa, 'er is niemand zoals U om te helpen, tussen de machtige en de zwakke', voor als voorbeeld van gebed in onmogelijke situaties: Gods hulp hangt niet af van de kracht van wie Hij helpt.
+FN: De kerkvaders stelden het gebed van Asa, 'er is niemand zoals U om te helpen, tussen de machtige en de zwakke', voor als voorbeeld van gebed in onmogelijke situaties: Gods hulp hangt niet af van de kracht van wie Hij helpt.
 T: Reform; Prayer in crisis; God helps the weak
 TN: Hervorming; Gebed in crisis; God helpt de zwakke
 
@@ -146,7 +146,7 @@ SN: De Geest van God komt over Azarja, de zoon van Oded, die Asa tegemoetgaat: d
 M: God is near to those who seek Him with their whole heart. Covenant renewal brings joy, not burden.
 MN: God is nabij wie Hem met heel hun hart zoeken. Vernieuwing van het verbond brengt vreugde, geen last.
 F: The Fathers loved 'the Lord is with you while you are with Him' as a summary of the spiritual life: God never abandons us first. 'If you seek Him, He will be found' was linked with Christ's 'seek and you will find'. They praised the joy with which the people bound themselves to God.
-FN: De Vaders hielden van 'de Heer is met u zolang u met Hem bent' als samenvatting van het geestelijk leven: God verlaat ons nooit als eerste. 'Als u Hem zoekt, zal Hij Zich laten vinden' werd verbonden met Christus' 'zoek en u zult vinden'. Zij prezen de vreugde waarmee het volk zich aan God verbond.
+FN: De kerkvaders hielden van 'de Heer is met u zolang u met Hem bent' als samenvatting van het geestelijk leven: God verlaat ons nooit als eerste. 'Als u Hem zoekt, zal Hij Zich laten vinden' werd verbonden met Christus' 'zoek en u zult vinden'. Zij prezen de vreugde waarmee het volk zich aan God verbond.
 T: Seek and find; Covenant with joy; God's faithfulness
 TN: Zoeken en vinden; Verbond met vreugde; Gods trouw
 
@@ -156,7 +156,7 @@ SN: Wanneer Baësa van Israël Rama uitbouwt om Juda af te sluiten, neemt Asa zi
 M: The king who once trusted God turns to human alliances, and when rebuked, turns against the prophet. Faithfulness must last to the end.
 MN: De koning die eens op God vertrouwde, wendt zich tot menselijke bondgenootschappen, en wanneer hij berispt wordt, keert hij zich tegen de profeet. Trouw moet tot het einde duren.
 F: The Fathers loved 'the eyes of the Lord run to and fro throughout the whole earth' as an image of God's watchful care for the faithful. They did not condemn seeking physicians, which Sirach praises, but seeking them without God, and drew from Asa the warning that a good beginning must be crowned by perseverance.
-FN: De Vaders hielden van 'de ogen van de Heer gaan over heel de aarde' als beeld van Gods waakzame zorg voor de gelovigen. Zij veroordeelden het raadplegen van artsen niet, dat Sirach prijst, maar het raadplegen zonder God, en leerden uit Asa de waarschuwing dat een goed begin bekroond moet worden met volharding.
+FN: De kerkvaders hielden van 'de ogen van de Heer gaan over heel de aarde' als beeld van Gods waakzame zorg voor de gelovigen. Zij veroordeelden het raadplegen van artsen niet, dat Sirach prijst, maar het raadplegen zonder God, en leerden uit Asa de waarschuwing dat een goed begin bekroond moet worden met volharding.
 T: Trust and its loss; God's watchful eyes; Perseverance
 TN: Vertrouwen en het verlies ervan; Gods waakzame ogen; Volharding
 
@@ -166,7 +166,7 @@ SN: Josafat versterkt zich tegen Israël. De Heer is met hem, omdat hij wandelt 
 M: A good king sends teachers with God's word throughout the land. Teaching the faith is a foundation of peace.
 MN: Een goede koning zendt leraars met Gods woord door het hele land. Het onderwijzen van het geloof is een fundament van vrede.
 F: The Fathers saw in Jehoshaphat's travelling teachers a forerunner of catechesis and of the apostles sent to teach all nations. They praised his 'courageous heart in the ways of the Lord', the inner strength that comes from seeking God.
-FN: De Vaders zagen in de rondtrekkende leraars van Josafat een voorloper van de catechese en van de apostelen die uitgezonden werden om alle volken te onderwijzen. Zij prezen zijn 'moedig hart in de wegen van de Heer', de innerlijke kracht die voortkomt uit het zoeken van God.
+FN: De kerkvaders zagen in de rondtrekkende leraars van Josafat een voorloper van de catechese en van de apostelen die uitgezonden werden om alle volken te onderwijzen. Zij prezen zijn 'moedig hart in de wegen van de Heer', de innerlijke kracht die voortkomt uit het zoeken van God.
 T: Teaching God's word; Courage in God's ways; Peace
 TN: Gods woord onderwijzen; Moed in Gods wegen; Vrede
 
@@ -176,7 +176,7 @@ SN: Josafat sluit een huwelijksverbond met Achab en gaat met hem mee tegen Ramot
 M: An alliance with the ungodly nearly costs a good king his life. God hears the cry of one who calls on Him even in a wrong situation.
 MN: Een bondgenootschap met de goddeloze kost een goede koning bijna het leven. God hoort de roep van wie Hem aanroept, zelfs in een verkeerde situatie.
 F: The Fathers again held up Micaiah as the model of fearless truth-telling, and noted Chronicles' addition that when Jehoshaphat cried out, God helped him: even when we have walked into danger by our own fault, a cry to God is not in vain.
-FN: De Vaders stelden Micha opnieuw voor als het voorbeeld van onbevreesd de waarheid spreken, en merkten de toevoeging van Kronieken op dat God Josafat hielp toen hij het uitriep: zelfs wanneer wij door eigen schuld in gevaar geraakt zijn, is een roep tot God niet tevergeefs.
+FN: De kerkvaders stelden Micha opnieuw voor als het voorbeeld van onbevreesd de waarheid spreken, en merkten de toevoeging van Kronieken op dat God Josafat hielp toen hij het uitriep: zelfs wanneer wij door eigen schuld in gevaar geraakt zijn, is een roep tot God niet tevergeefs.
 T: Ungodly alliances; Truth-telling; God hears the cry
 TN: Goddeloze bondgenootschappen; De waarheid spreken; God hoort de roep
 
@@ -186,7 +186,7 @@ SN: Wanneer Josafat behouden terugkeert, komt de ziener Jehu, de zoon van Hanani
 M: Rebuked, Jehoshaphat responds by bringing the people back to God and establishing just courts. Judges serve God, not human interests.
 MN: Berispt, antwoordt Josafat door het volk terug te brengen tot God en rechtvaardige rechtbanken in te stellen. Rechters dienen God, geen menselijke belangen.
 F: The Fathers used Jehoshaphat's charge, 'you judge not for man but for the Lord', in their teaching on the duties of judges and of bishops in their courts. They admired how he accepted rebuke and turned it into reform.
-FN: De Vaders gebruikten de opdracht van Josafat, 'u spreekt geen recht voor mensen, maar voor de Heer', in hun onderwijs over de plichten van rechters en van bisschoppen in hun rechtbanken. Zij bewonderden hoe hij berisping aanvaardde en omzette in hervorming.
+FN: De kerkvaders gebruikten de opdracht van Josafat, 'u spreekt geen recht voor mensen, maar voor de Heer', in hun onderwijs over de plichten van rechters en van bisschoppen in hun rechtbanken. Zij bewonderden hoe hij berisping aanvaardde en omzette in hervorming.
 T: Accepting rebuke; Justice before God; Courage
 TN: Berisping aanvaarden; Recht voor God; Moed
 
@@ -196,7 +196,7 @@ SN: Moabieten, Ammonieten en Meünieten trekken tegen Josafat op met een grote m
 M: When we do not know what to do, we can fix our eyes on God. Prayer, fasting and praise become the weapons of God's people.
 MN: Wanneer wij niet weten wat wij moeten doen, kunnen wij onze ogen op God richten. Gebed, vasten en lof worden de wapens van Gods volk.
 F: The Fathers made Jehoshaphat's prayer, 'we do not know what to do, but our eyes are on You', a cherished prayer in every trial. They saw the singers going before the army as a figure of the Church's praise as spiritual warfare, and drew from 'the battle is not yours but God's' the trust that grace fights for those who pray.
-FN: De Vaders maakten het gebed van Josafat, 'wij weten niet wat wij moeten doen, maar onze ogen zijn op U gericht', tot een gekoesterd gebed in elke beproeving. Zij zagen de zangers die voor het leger uitgingen als een voorafbeelding van de lof van de Kerk als geestelijke strijd, en ontleenden aan 'de strijd is niet van u, maar van God' het vertrouwen dat de genade strijdt voor wie bidden.
+FN: De kerkvaders maakten het gebed van Josafat, 'wij weten niet wat wij moeten doen, maar onze ogen zijn op U gericht', tot een gekoesterd gebed in elke beproeving. Zij zagen de zangers die voor het leger uitgingen als een voorafbeelding van de lof van de Kerk als geestelijke strijd, en ontleenden aan 'de strijd is niet van u, maar van God' het vertrouwen dat de genade strijdt voor wie bidden.
 T: Eyes on God; Praise as warfare; The battle is God's
 TN: Ogen op God; Lof als strijd; De strijd is van God
 
@@ -206,7 +206,7 @@ SN: Joram wordt koning en doodt al zijn broers. Hij wandelt in de weg van de kon
 M: A ruler who murders his brothers and leads his people astray dies unmourned. Yet God keeps His lamp burning for David's sake.
 MN: Een heerser die zijn broers vermoordt en zijn volk misleidt, sterft onbetreurd. Toch houdt God Zijn lamp brandend omwille van David.
 F: The Fathers noted the sad epitaph, 'he departed with no one's regret', as a warning that a life without love leaves no mourning. They again marvelled at God's faithfulness preserving David's line through such kings for the sake of the coming Christ.
-FN: De Vaders merkten het droevige grafschrift op, 'hij ging heen zonder dat iemand hem betreurde', als een waarschuwing dat een leven zonder liefde geen rouw nalaat. Zij verwonderden zich opnieuw over Gods trouw die het geslacht van David door zulke koningen heen bewaarde omwille van de komende Christus.
+FN: De kerkvaders merkten het droevige grafschrift op, 'hij ging heen zonder dat iemand hem betreurde', als een waarschuwing dat een leven zonder liefde geen rouw nalaat. Zij verwonderden zich opnieuw over Gods trouw die het geslacht van David door zulke koningen heen bewaarde omwille van de komende Christus.
 T: Evil rule; Unmourned death; God's lamp for David
 TN: Kwaad bestuur; Onbetreurde dood; Gods lamp voor David
 
@@ -216,7 +216,7 @@ SN: De bewoners van Jeruzalem maken Ahazia, de jongste zoon van Joram, koning; z
 M: Bad counsel destroys a king. When David's line nearly disappears, a courageous woman preserves the one hidden heir.
 MN: Slechte raad richt een koning te gronde. Wanneer het geslacht van David bijna verdwijnt, bewaart een moedige vrouw de ene verborgen erfgenaam.
 F: The Fathers saw the infant Joash, hidden in God's house while the usurper raged, as a figure of the Christ Child preserved from Herod. They praised Jehoshabeath, wife of a priest, as an instrument of providence in keeping the promise to David alive.
-FN: De Vaders zagen het kind Joas, verborgen in Gods huis terwijl de overweldigster woedde, als een voorafbeelding van het Christuskind dat voor Herodes bewaard werd. Zij prezen Josabath, de vrouw van een priester, als een werktuig van de voorzienigheid in het levend houden van de belofte aan David.
+FN: De kerkvaders zagen het kind Joas, verborgen in Gods huis terwijl de overweldigster woedde, als een voorafbeelding van het Christuskind dat voor Herodes bewaard werd. Zij prezen Josabath, de vrouw van een priester, als een werktuig van de voorzienigheid in het levend houden van de belofte aan David.
 T: Bad counsel; The hidden heir; Providence
 TN: Slechte raad; De verborgen erfgenaam; Voorzienigheid
 
@@ -226,7 +226,7 @@ SN: In het zevende jaar vat Jojada moed en sluit een verbond met de bevelhebbers
 M: The rightful heir is revealed and crowned according to God's promise. A restored covenant brings joy and quiet.
 MN: De rechtmatige erfgenaam wordt geopenbaard en gekroond volgens Gods belofte. Een hersteld verbond brengt vreugde en rust.
 F: The Fathers saw the revealing of the hidden king in the temple as a figure of Christ revealed as King, and Jehoiada's covenant 'that they should be the Lord's people' as the renewal the Church seeks in every age. They noted that the restoration was accompanied by song and joy.
-FN: De Vaders zagen de openbaring van de verborgen koning in de tempel als een voorafbeelding van Christus die als Koning geopenbaard wordt, en het verbond van Jojada 'dat zij het volk van de Heer zouden zijn' als de vernieuwing die de Kerk in elke tijd zoekt. Zij merkten op dat het herstel gepaard ging met zang en vreugde.
+FN: De kerkvaders zagen de openbaring van de verborgen koning in de tempel als een voorafbeelding van Christus die als Koning geopenbaard wordt, en het verbond van Jojada 'dat zij het volk van de Heer zouden zijn' als de vernieuwing die de Kerk in elke tijd zoekt. Zij merkten op dat het herstel gepaard ging met zang en vreugde.
 T: The rightful king; Covenant renewal; Joy restored
 TN: De rechtmatige koning; Vernieuwing van het verbond; Teruggekeerde vreugde
 
@@ -236,7 +236,7 @@ SN: Joas doet wat recht is al de dagen van de priester Jojada. Hij besluit het h
 M: Joash's faith depended on his mentor and collapsed when flatterers replaced him. He kills the son of the man who saved his life.
 MN: Het geloof van Joas hing af van zijn leermeester en stortte in toen vleiers zijn plaats innamen. Hij doodt de zoon van de man die zijn leven redde.
 F: Christ speaks of the blood of Zechariah, murdered between the sanctuary and the altar, as the last of the righteous blood shed in the Hebrew Scriptures, which ends with Chronicles. The Fathers contrasted Zechariah's dying words, 'may the Lord see and avenge', with Christ's and Stephen's prayer for forgiveness, showing the newness of the Gospel. Joash's fall taught that faith must become one's own, not borrowed.
-FN: Christus spreekt over het bloed van Zacharia, vermoord tussen het heiligdom en het altaar, als het laatste rechtvaardige bloed dat vergoten werd in de Hebreeuwse Schriften, die eindigen met Kronieken. De Vaders stelden de laatste woorden van Zacharia, 'de Heer zie het en vergelde het', tegenover het gebed om vergeving van Christus en van Stefanus, wat de nieuwheid van het Evangelie toont. De val van Joas leerde dat het geloof een eigen geloof moet worden, niet geleend.
+FN: Christus spreekt over het bloed van Zacharia, vermoord tussen het heiligdom en het altaar, als het laatste rechtvaardige bloed dat vergoten werd in de Hebreeuwse Schriften, die eindigen met Kronieken. De kerkvaders stelden de laatste woorden van Zacharia, 'de Heer zie het en vergelde het', tegenover het gebed om vergeving van Christus en van Stefanus, wat de nieuwheid van het Evangelie toont. De val van Joas leerde dat het geloof een eigen geloof moet worden, niet geleend.
 T: Borrowed faith; Martyrdom of a prophet; Ingratitude
 TN: Geleend geloof; Marteldood van een profeet; Ondankbaarheid
 
@@ -246,7 +246,7 @@ SN: Amasia doet wat recht is, maar niet met een volkomen hart. Hij huurt honderd
 M: Obedience sometimes costs money, but God can give much more. Victory followed by worshipping the defeated enemy's gods is spiritual folly.
 MN: Gehoorzaamheid kost soms geld, maar God kan veel meer geven. Een overwinning gevolgd door het aanbidden van de goden van de verslagen vijand is geestelijke dwaasheid.
 F: The Fathers loved the prophet's answer, 'the Lord is able to give you much more than this', as encouragement to obey God even at a financial loss. They found Amaziah's adoption of Edom's defeated gods almost absurd, an image of how we sometimes take up the very sins God has delivered us from.
-FN: De Vaders hielden van het antwoord van de profeet, 'de Heer kan u veel meer geven dan dit', als aanmoediging om God te gehoorzamen, zelfs met financieel verlies. Zij vonden het overnemen van de verslagen goden van Edom door Amasia bijna absurd, een beeld van hoe wij soms juist de zonden overnemen waarvan God ons bevrijd heeft.
+FN: De kerkvaders hielden van het antwoord van de profeet, 'de Heer kan u veel meer geven dan dit', als aanmoediging om God te gehoorzamen, zelfs met financieel verlies. Zij vonden het overnemen van de verslagen goden van Edom door Amasia bijna absurd, een beeld van hoe wij soms juist de zonden overnemen waarvan God ons bevrijd heeft.
 T: A half heart; The cost of obedience; Absurd idolatry
 TN: Een half hart; De prijs van gehoorzaamheid; Absurde afgoderij
 
@@ -256,7 +256,7 @@ SN: Uzzia wordt op zestienjarige leeftijd koning en regeert tweeënvijftig jaar.
 M: Success that comes from seeking God can turn into pride that grasps at what belongs to God. 'He was helped until he was strong' is a warning.
 MN: Succes dat voortkomt uit het zoeken van God, kan omslaan in hoogmoed die grijpt naar wat aan God toebehoort. 'Hij werd geholpen tot hij sterk was' is een waarschuwing.
 F: The Fathers drew from Uzziah's story that pride is most dangerous after success, and that strength given by God must not make us forget our dependence on Him. They used his intrusion into the priest's office as a warning against usurping sacred ministries, and praised the courage of the priests who withstood the king.
-FN: De Vaders leerden uit het verhaal van Uzzia dat hoogmoed het gevaarlijkst is na succes, en dat kracht die door God gegeven is ons niet onze afhankelijkheid van Hem mag doen vergeten. Zij gebruikten zijn indringen in het ambt van de priester als waarschuwing tegen het zich toe-eigenen van heilige bedieningen, en prezen de moed van de priesters die de koning weerstonden.
+FN: De kerkvaders leerden uit het verhaal van Uzzia dat hoogmoed het gevaarlijkst is na succes, en dat kracht die door God gegeven is ons niet onze afhankelijkheid van Hem mag doen vergeten. Zij gebruikten zijn indringen in het ambt van de priester als waarschuwing tegen het zich toe-eigenen van heilige bedieningen, en prezen de moed van de priesters die de koning weerstonden.
 T: Pride after success; Usurping the sacred; Dependence on God
 TN: Hoogmoed na succes; Het heilige toe-eigenen; Afhankelijkheid van God
 
@@ -266,7 +266,7 @@ SN: Jotham regeert zestien jaar en doet wat recht is in de ogen van de Heer, zoa
 M: Jotham learns from his father's mistake and orders his ways before God. A leader's faithfulness does not automatically change the people's hearts.
 MN: Jotham leert van de fout van zijn vader en richt zijn wegen voor God. De trouw van een leider verandert niet vanzelf het hart van het volk.
 F: The Fathers noted the summary of Jotham's life, 'he ordered his ways before the Lord his God', as the secret of true strength, and his learning from his father's sin as the wisdom of those who take warning from others' falls.
-FN: De Vaders merkten de samenvatting van het leven van Jotham op, 'hij richtte zijn wegen voor het aangezicht van de Heer, zijn God', als het geheim van ware kracht, en zijn leren van de zonde van zijn vader als de wijsheid van wie zich laten waarschuwen door de val van anderen.
+FN: De kerkvaders merkten de samenvatting van het leven van Jotham op, 'hij richtte zijn wegen voor het aangezicht van de Heer, zijn God', als het geheim van ware kracht, en zijn leren van de zonde van zijn vader als de wijsheid van wie zich laten waarschuwen door de val van anderen.
 T: Ordered ways; Learning from others; Strength from God
 TN: Gerichte wegen; Leren van anderen; Kracht van God
 
@@ -276,7 +276,7 @@ SN: Achaz doet niet wat recht is: hij maakt beelden voor de Baäls en verbrandt 
 M: At the heart of a dark chapter, people of the north show remarkable mercy to their enemies, clothing, feeding and anointing them. Ahaz, by contrast, sinks deeper in distress.
 MN: In het hart van een donker hoofdstuk tonen mensen uit het noorden opmerkelijke barmhartigheid aan hun vijanden: zij kleden, voeden en zalven hen. Achaz zinkt daarentegen in zijn nood steeds dieper weg.
 F: The Fathers and later readers noted the striking parallel with Christ's parable of the Good Samaritan: men from Samaria clothe, anoint and carry the wounded on donkeys to Jericho. They saw in it God's mercy breaking through even among the estranged, and in Ahaz's closing of the temple doors the depth of apostasy.
-FN: De Vaders en latere lezers merkten de treffende overeenkomst op met de gelijkenis van Christus over de barmhartige Samaritaan: mannen uit Samaria kleden en zalven de gewonden en dragen hen op ezels naar Jericho. Zij zagen erin Gods barmhartigheid die zelfs onder vervreemden doorbreekt, en in het sluiten van de tempeldeuren door Achaz de diepte van de afval.
+FN: De kerkvaders en latere lezers merkten de treffende overeenkomst op met de gelijkenis van Christus over de barmhartige Samaritaan: mannen uit Samaria kleden en zalven de gewonden en dragen hen op ezels naar Jericho. Zij zagen erin Gods barmhartigheid die zelfs onder vervreemden doorbreekt, en in het sluiten van de tempeldeuren door Achaz de diepte van de afval.
 T: Mercy to enemies; The Good Samaritan foreshadowed; Apostasy in distress
 TN: Barmhartigheid voor vijanden; De barmhartige Samaritaan voorafgebeeld; Afval in nood
 
@@ -286,7 +286,7 @@ SN: Hizkia wordt op vijfentwintigjarige leeftijd koning en doet wat recht is, zo
 M: Renewal begins at once, in the first month, with opening the doors and cleansing God's house. Worship and joy return quickly when the heart turns.
 MN: Vernieuwing begint meteen, in de eerste maand, met het openen van de deuren en het reinigen van Gods huis. Aanbidding en vreugde keren snel terug wanneer het hart zich bekeert.
 F: The Fathers saw Hezekiah's cleansing of the temple as a figure of repentance cleansing the temple of the heart, and of Christ cleansing the temple. They noted that 'the song began when the offering began', the union of sacrifice and praise that marks the Church's liturgy.
-FN: De Vaders zagen de reiniging van de tempel door Hizkia als een voorafbeelding van de bekering die de tempel van het hart reinigt, en van Christus die de tempel reinigt. Zij merkten op dat 'het lied begon toen het offer begon', de eenheid van offer en lof die de liturgie van de Kerk kenmerkt.
+FN: De kerkvaders zagen de reiniging van de tempel door Hizkia als een voorafbeelding van de bekering die de tempel van het hart reinigt, en van Christus die de tempel reinigt. Zij merkten op dat 'het lied begon toen het offer begon', de eenheid van offer en lof die de liturgie van de Kerk kenmerkt.
 T: Cleansing; Prompt renewal; Sacrifice and song
 TN: Reiniging; Snelle vernieuwing; Offer en zang
 
@@ -296,7 +296,7 @@ SN: Hizkia zendt brieven naar heel Israël en Juda, zelfs naar Efraïm en Manass
 M: Hezekiah invites even the estranged north back to the Passover. A sincere heart seeking God matters more to Him than perfect ritual correctness.
 MN: Hizkia nodigt zelfs het vervreemde noorden uit om terug te komen voor het Pascha. Een oprecht hart dat God zoekt, telt voor Hem meer dan volmaakte rituele correctheid.
 F: The Fathers loved Hezekiah's prayer, 'may the good Lord pardon everyone who sets his heart to seek God', as a revelation of God's mercy towards sincere but imperfect worshippers. They saw his invitation to the divided north as an image of the Church's call to reconciliation and unity around the Paschal mystery.
-FN: De Vaders hielden van het gebed van Hizkia, 'moge de goede Heer vergeven aan ieder die zijn hart erop richt God te zoeken', als een openbaring van Gods barmhartigheid voor oprechte maar onvolmaakte aanbidders. Zij zagen zijn uitnodiging aan het verdeelde noorden als een beeld van de roep van de Kerk tot verzoening en eenheid rond het paasmysterie.
+FN: De kerkvaders hielden van het gebed van Hizkia, 'moge de goede Heer vergeven aan ieder die zijn hart erop richt God te zoeken', als een openbaring van Gods barmhartigheid voor oprechte maar onvolmaakte aanbidders. Zij zagen zijn uitnodiging aan het verdeelde noorden als een beeld van de roep van de Kerk tot verzoening en eenheid rond het paasmysterie.
 T: Invitation to return; A sincere heart; Joyful Passover
 TN: Uitnodiging tot terugkeer; Een oprecht hart; Vreugdevol Pascha
 
@@ -306,7 +306,7 @@ SN: Na het Pascha trekt heel Israël uit en breekt de gedenkstenen en hakt de As
 M: Renewed worship overflows in generous giving, and there is more than enough. Wholehearted service brings blessing.
 MN: Vernieuwde eredienst stroomt over in royaal geven, en er is meer dan genoeg. Dienst met heel het hart brengt zegen.
 F: The Fathers held up the overflowing gifts as the fruit of true revival: when hearts return to God, hands open to give. The faithful distribution to all, even the children of the Levites, was a model for the Church's care for those who serve and their families.
-FN: De Vaders stelden de overvloeiende gaven voor als de vrucht van ware herleving: wanneer harten tot God terugkeren, openen handen zich om te geven. De trouwe verdeling aan allen, zelfs aan de kinderen van de Levieten, was een voorbeeld voor de zorg van de Kerk voor wie dienen en hun gezinnen.
+FN: De kerkvaders stelden de overvloeiende gaven voor als de vrucht van ware herleving: wanneer harten tot God terugkeren, openen handen zich om te geven. De trouwe verdeling aan allen, zelfs aan de kinderen van de Levieten, was een voorbeeld voor de zorg van de Kerk voor wie dienen en hun gezinnen.
 T: Generosity; Abundance; Wholehearted service
 TN: Vrijgevigheid; Overvloed; Dienst met heel het hart
 
@@ -316,7 +316,7 @@ SN: Na deze daden van trouw valt Sanherib, de koning van Assyrië, Juda binnen. 
 M: Trust in God is stronger than the 'arm of flesh'. Even a faithful king is tested in his heart by pride and must humble himself again.
 MN: Vertrouwen op God is sterker dan de 'arm van vlees'. Zelfs een trouwe koning wordt in zijn hart beproefd door hoogmoed en moet zich opnieuw verootmoedigen.
 F: The Fathers loved Hezekiah's words, 'with him is an arm of flesh, but with us is the Lord our God', as a confession of faith for every spiritual battle. They noted the honest remark that God left Hezekiah to himself 'to know all that was in his heart', teaching that trials reveal the hidden pride even of the righteous.
-FN: De Vaders hielden van de woorden van Hizkia, 'met hem is een arm van vlees, maar met ons is de Heer, onze God', als een geloofsbelijdenis voor elke geestelijke strijd. Zij merkten de eerlijke opmerking op dat God Hizkia aan zichzelf overliet 'om alles te weten wat in zijn hart was', wat leert dat beproevingen de verborgen hoogmoed zelfs van de rechtvaardigen onthullen.
+FN: De kerkvaders hielden van de woorden van Hizkia, 'met hem is een arm van vlees, maar met ons is de Heer, onze God', als een geloofsbelijdenis voor elke geestelijke strijd. Zij merkten de eerlijke opmerking op dat God Hizkia aan zichzelf overliet 'om alles te weten wat in zijn hart was', wat leert dat beproevingen de verborgen hoogmoed zelfs van de rechtvaardigen onthullen.
 T: Arm of flesh; Prayer and deliverance; Testing of the heart
 TN: Arm van vlees; Gebed en bevrijding; Beproeving van het hart
 
@@ -326,7 +326,7 @@ SN: Manasse regeert vijfenvijftig jaar en doet groot kwaad: hij herbouwt de offe
 M: Even the worst of kings can repent, and God hears him. No sin is greater than God's mercy for the one who humbles himself.
 MN: Zelfs de slechtste koning kan zich bekeren, en God hoort hem. Geen zonde is groter dan Gods barmhartigheid voor wie zich verootmoedigt.
 F: The Prayer of Manasseh, the penitent king's prayer from chains, is read at Byzantine Great Compline and was cherished by the Fathers as a model of repentance: 'I am not worthy to look up to the height of heaven because of the multitude of my iniquities'. They held up Manasseh as the proof that God's mercy is greater than any sin, and Amon as the warning of one who would not humble himself.
-FN: Het Gebed van Manasse, het gebed van de berouwvolle koning in boeien, wordt gelezen in de Byzantijnse Grote Completen en werd door de Vaders gekoesterd als voorbeeld van bekering: 'ik ben niet waard op te zien naar de hoogte van de hemel vanwege de menigte van mijn ongerechtigheden'. Zij stelden Manasse voor als het bewijs dat Gods barmhartigheid groter is dan elke zonde, en Amon als de waarschuwing van iemand die zich niet wilde verootmoedigen.
+FN: Het Gebed van Manasse, het gebed van de berouwvolle koning in boeien, wordt gelezen in de Byzantijnse Grote Completen en werd door de kerkvaders gekoesterd als voorbeeld van bekering: 'ik ben niet waard op te zien naar de hoogte van de hemel vanwege de menigte van mijn ongerechtigheden'. Zij stelden Manasse voor als het bewijs dat Gods barmhartigheid groter is dan elke zonde, en Amon als de waarschuwing van iemand die zich niet wilde verootmoedigen.
 T: Repentance of the worst; God's mercy; Humility
 TN: Bekering van de ergste; Gods barmhartigheid; Nederigheid
 
@@ -336,7 +336,7 @@ SN: Josia is acht jaar oud wanneer hij koning wordt. In het achtste jaar van zij
 M: Seeking God can begin in youth and grow step by step. A tender heart that trembles at God's word brings renewal to a whole people.
 MN: God zoeken kan in de jeugd beginnen en stap voor stap groeien. Een week hart dat beeft voor Gods woord, brengt vernieuwing voor een heel volk.
 F: The Fathers held up Josiah, who began to seek God at sixteen, as an encouragement to the young, and his tender heart as the beginning of all true reform. They saw the rediscovered Book of the Law as a call to the Church to renew itself by returning to Scripture.
-FN: De Vaders stelden Josia, die op zestienjarige leeftijd God begon te zoeken, voor als aanmoediging voor de jeugd, en zijn week hart als het begin van alle ware hervorming. Zij zagen het herontdekte wetboek als een oproep aan de Kerk om zich te vernieuwen door terug te keren naar de Schrift.
+FN: De kerkvaders stelden Josia, die op zestienjarige leeftijd God begon te zoeken, voor als aanmoediging voor de jeugd, en zijn week hart als het begin van alle ware hervorming. Zij zagen het herontdekte wetboek als een oproep aan de Kerk om zich te vernieuwen door terug te keren naar de Schrift.
 T: Seeking God in youth; A tender heart; Scripture renews
 TN: God zoeken in de jeugd; Een week hart; De Schrift vernieuwt
 
@@ -346,7 +346,7 @@ SN: Josia houdt in Jeruzalem een Pascha voor de Heer. Hij zegt de Levieten de he
 M: The great Passover, given generously by the king, crowns Josiah's reform. Yet even the best king fails to listen once, and dies.
 MN: Het grote Pascha, royaal door de koning gegeven, bekroont de hervorming van Josia. Toch luistert zelfs de beste koning één keer niet, en sterft.
 F: The Fathers noted that Josiah gave the Passover lambs from his own flocks, a figure of Christ the King who gives Himself as the Passover Lamb. His death after not listening was read as a warning that God may speak even through unexpected voices, and that even the holiest must remain humble and attentive.
-FN: De Vaders merkten op dat Josia de paaslammeren uit zijn eigen kudden gaf, een voorafbeelding van Christus de Koning die Zichzelf geeft als het Paaslam. Zijn dood na het niet luisteren werd gelezen als een waarschuwing dat God zelfs door onverwachte stemmen kan spreken, en dat zelfs de heiligsten nederig en opmerkzaam moeten blijven.
+FN: De kerkvaders merkten op dat Josia de paaslammeren uit zijn eigen kudden gaf, een voorafbeelding van Christus de Koning die Zichzelf geeft als het Paaslam. Zijn dood na het niet luisteren werd gelezen als een waarschuwing dat God zelfs door onverwachte stemmen kan spreken, en dat zelfs de heiligsten nederig en opmerkzaam moeten blijven.
 T: The great Passover; Generosity of the king; Humility to the end
 TN: Het grote Pascha; Vrijgevigheid van de koning; Nederigheid tot het einde
 
@@ -356,6 +356,6 @@ SN: De laatste koningen van Juda, Joahaz, Jojakim, Jojachin en Zedekia, doen wat
 M: God's compassion sent warning after warning until there was no remedy left. Yet the last word is not exile but return: 'let him go up'.
 MN: Gods medelijden zond waarschuwing na waarschuwing tot er geen genezing meer was. Toch is het laatste woord geen ballingschap maar terugkeer: 'laat hij optrekken'.
 F: In the Hebrew ordering Chronicles is the last book of Scripture, ending with the word 'let him go up', an open invitation to return. The Fathers saw in God's persistent sending of messengers 'because He had compassion' the same love that finally sent His Son. Cyrus, a pagan king used by God, was read as a figure of how God's providence rules even the powers of the world.
-FN: In de Hebreeuwse ordening is Kronieken het laatste boek van de Schrift, eindigend met het woord 'laat hij optrekken', een open uitnodiging tot terugkeer. De Vaders zagen in het voortdurend zenden van boden door God 'omdat Hij medelijden had' dezelfde liefde die uiteindelijk Zijn Zoon zond. Cyrus, een heidense koning door God gebruikt, werd gelezen als een beeld van hoe Gods voorzienigheid zelfs de machten van de wereld bestuurt.
+FN: In de Hebreeuwse ordening is Kronieken het laatste boek van de Schrift, eindigend met het woord 'laat hij optrekken', een open uitnodiging tot terugkeer. De kerkvaders zagen in het voortdurend zenden van boden door God 'omdat Hij medelijden had' dezelfde liefde die uiteindelijk Zijn Zoon zond. Cyrus, een heidense koning door God gebruikt, werd gelezen als een beeld van hoe Gods voorzienigheid zelfs de machten van de wereld bestuurt.
 T: God's patient compassion; Exile; Invitation to return
 TN: Gods geduldig medelijden; Ballingschap; Uitnodiging tot terugkeer

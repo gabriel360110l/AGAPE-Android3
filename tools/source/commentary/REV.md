@@ -6,7 +6,7 @@ SN: De openbaring van Jezus Christus, gegeven aan Zijn dienaar Johannes op het e
 M: Revelation opens with the glorified Christ, Lord of history, walking among His churches. The book is meant to give hope, not fear: the Living One holds the keys of death.
 MN: De Openbaring opent met de verheerlijkte Christus, Heer van de geschiedenis, die tussen Zijn kerken wandelt. Het boek wil hoop geven, geen angst: de Levende heeft de sleutels van de dood.
 F: St Andrew of Caesarea wrote the classic Eastern commentary on Revelation. The Fathers read 'the Lord's day' as Sunday, the day of the Resurrection, on which John received his vision.
-FN: De heilige Andreas van Caesarea schreef het klassieke oosterse commentaar op de Openbaring. De Vaders lazen 'de dag van de Heer' als de zondag, de dag van de Verrijzenis, waarop Johannes zijn visioen ontving.
+FN: De heilige Andreas van Caesarea schreef het klassieke oosterse commentaar op de Openbaring. De kerkvaders lazen 'de dag van de Heer' als de zondag, de dag van de Verrijzenis, waarop Johannes zijn visioen ontving.
 T: The glorified Christ; Hope; The Lord's day
 TN: De verheerlijkte Christus; Hoop; De dag van de Heer
 
@@ -16,7 +16,7 @@ SN: Aan Efeze: Ik ken uw werken en uw volharding, maar u hebt uw eerste liefde v
 M: Christ knows each church intimately, praising what is good and calling to repentance. The first love must be guarded.
 MN: Christus kent elke kerk van binnenuit, prijst wat goed is en roept op tot bekering. De eerste liefde moet bewaard worden.
 F: St Polycarp, bishop of Smyrna and disciple of John, was faithful unto death and burned as a martyr around 155; the Fathers saw in him the fulfilment of the promise to Smyrna.
-FN: De heilige Polycarpus, bisschop van Smyrna en leerling van Johannes, was trouw tot de dood en werd rond 155 als martelaar verbrand; de Vaders zagen in hem de vervulling van de belofte aan Smyrna.
+FN: De heilige Polycarpus, bisschop van Smyrna en leerling van Johannes, was trouw tot de dood en werd rond 155 als martelaar verbrand; de kerkvaders zagen in hem de vervulling van de belofte aan Smyrna.
 T: First love; Faithfulness; Repentance
 TN: Eerste liefde; Trouw; Bekering
 
@@ -26,7 +26,7 @@ SN: Aan Sardis: u hebt de naam dat u leeft, maar u bent dood; word wakker en ver
 M: Lukewarmness and self-satisfaction are the most dangerous states. Yet Christ knocks patiently, offering communion at His table.
 MN: Lauwheid en zelfgenoegzaamheid zijn de gevaarlijkste toestanden. Toch klopt Christus geduldig aan en biedt gemeenschap aan Zijn tafel.
 F: The Fathers read 'I will come in and eat with him' as an image of the Eucharist and of Christ dwelling in the soul. The seven letters were seen as addressed to the Church of every age.
-FN: De Vaders lazen 'Ik zal binnenkomen en met hem eten' als beeld van de eucharistie en van Christus die in de ziel woont. De zeven brieven werden gezien als gericht aan de Kerk van alle tijden.
+FN: De kerkvaders lazen 'Ik zal binnenkomen en met hem eten' als beeld van de eucharistie en van Christus die in de ziel woont. De zeven brieven werden gezien als gericht aan de Kerk van alle tijden.
 T: Watchfulness; Lukewarmness; Christ at the door
 TN: Waakzaamheid; Lauwheid; Christus aan de deur
 
@@ -46,7 +46,7 @@ SN: In de rechterhand van Hem die op de troon zit, is een boekrol verzegeld met 
 M: The Lion turns out to be a slain Lamb: Christ conquers through self-giving love. He alone opens the meaning of history.
 MN: De Leeuw blijkt een geslacht Lam te zijn: Christus overwint door zelfgevende liefde. Hij alleen opent de betekenis van de geschiedenis.
 F: The Fathers drew from the golden bowls of incense, which are 'the prayers of the saints', the use of incense in worship and the intercession of the saints before God.
-FN: De Vaders putten uit de gouden schalen met reukwerk, die 'de gebeden van de heiligen' zijn, het gebruik van wierook in de eredienst en de voorspraak van de heiligen bij God.
+FN: De kerkvaders putten uit de gouden schalen met reukwerk, die 'de gebeden van de heiligen' zijn, het gebruik van wierook in de eredienst en de voorspraak van de heiligen bij God.
 T: The Lamb; Redemption of the nations; Worship
 TN: Het Lam; Verlossing van de volken; Aanbidding
 
@@ -66,7 +66,7 @@ SN: Vier engelen houden de winden tegen totdat de dienaren van God op hun voorho
 M: God protects His own in the midst of tribulation. The redeemed are a countless multitude from every nation.
 MN: God beschermt de Zijnen te midden van de verdrukking. De verlosten zijn een ontelbare menigte uit alle volken.
 F: The Fathers linked the seal on the forehead with the sign of the cross and the anointing at baptism. This chapter is read on the feast of All Saints in the West.
-FN: De Vaders verbonden het zegel op het voorhoofd met het kruisteken en de zalving bij het doopsel. Dit hoofdstuk wordt in het Westen gelezen op het feest van Allerheiligen.
+FN: De kerkvaders verbonden het zegel op het voorhoofd met het kruisteken en de zalving bij de doop. Dit hoofdstuk wordt in het Westen gelezen op het feest van Allerheiligen.
 T: Seal of God; All saints; Comfort
 TN: Zegel van God; Alle heiligen; Troost
 
@@ -76,7 +76,7 @@ SN: Als het Lam het zevende zegel opent, is er een stilte in de hemel van ongeve
 M: The prayers of the saints rise to God and have effect in history. The judgements are partial ('a third'), calls to repentance rather than final destruction.
 MN: De gebeden van de heiligen stijgen op tot God en hebben uitwerking in de geschiedenis. De oordelen zijn gedeeltelijk ('een derde'), oproepen tot bekering eerder dan definitieve vernietiging.
 F: The Fathers saw in the angel with the censer the image of the earthly Liturgy, where the priest offers incense and the prayers of the faithful ascend: 'Let my prayer arise as incense before You.'
-FN: De Vaders zagen in de engel met het wierookvat het beeld van de aardse liturgie, waar de priester wierook offert en de gebeden van de gelovigen opstijgen: 'Laat mijn gebed opstijgen als wierook voor U.'
+FN: De kerkvaders zagen in de engel met het wierookvat het beeld van de aardse liturgie, waar de priester wierook offert en de gebeden van de gelovigen opstijgen: 'Laat mijn gebed opstijgen als wierook voor U.'
 T: Prayer of the saints; Judgement; Silence
 TN: Gebed van de heiligen; Oordeel; Stilte
 
@@ -96,7 +96,7 @@ SN: Een machtige engel daalt neer uit de hemel, gehuld in een wolk, met een rege
 M: God's word is sweet to receive but brings bitterness when proclaimed in a hostile world. The prophet must digest the word before speaking it.
 MN: Gods woord is zoet om te ontvangen, maar brengt bitterheid wanneer het verkondigd wordt in een vijandige wereld. De profeet moet het woord verteren voordat hij het spreekt.
 F: The Fathers connected the eating of the scroll with Ezekiel 3 and taught that Scripture must be 'eaten', interiorised by meditation, to become life.
-FN: De Vaders verbonden het opeten van de boekrol met Ezechiël 3 en leerden dat de Schrift 'gegeten' moet worden, verinnerlijkt door overweging, om leven te worden.
+FN: De kerkvaders verbonden het opeten van de boekrol met Ezechiël 3 en leerden dat de Schrift 'gegeten' moet worden, verinnerlijkt door overweging, om leven te worden.
 T: The word of God; Prophecy; Fulfilment
 TN: Het woord van God; Profetie; Voltooiing
 
@@ -106,6 +106,6 @@ SN: Johannes meet de tempel van God. Twee getuigen, gekleed in zakken, profetere
 M: The witnesses share their Lord's fate: death and resurrection. The final word belongs to God: the kingdom of the world becomes the kingdom of Christ.
 MN: De getuigen delen het lot van hun Heer: dood en opstanding. Het laatste woord is aan God: het koningschap over de wereld wordt het koninkrijk van Christus.
 F: Many Fathers identified the two witnesses with Enoch and Elijah, who did not die and will return before the end. Others saw in them the witness of the Church, the Law and the Prophets.
-FN: Veel Vaders vereenzelvigden de twee getuigen met Henoch en Elia, die niet gestorven zijn en vóór het einde zullen terugkeren. Anderen zagen in hen het getuigenis van de Kerk, de Wet en de Profeten.
+FN: Veel kerkvaders vereenzelvigden de twee getuigen met Henoch en Elia, die niet gestorven zijn en vóór het einde zullen terugkeren. Anderen zagen in hen het getuigenis van de Kerk, de Wet en de Profeten.
 T: Witness; Resurrection; Kingdom of Christ
 TN: Getuigenis; Opstanding; Koninkrijk van Christus

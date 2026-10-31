@@ -6,7 +6,7 @@ SN: Na de dood van Mozes spreekt de Heer tot Jozua: Mozes, Mijn dienaar, is gest
 M: God's presence passes from one leader to the next. Courage grows from meditating on His word day and night.
 MN: Gods aanwezigheid gaat over van de ene leider op de volgende. Moed groeit uit het dag en nacht overdenken van Zijn woord.
 F: The Fathers never tired of noting that Joshua's name is the same as Jesus in Greek: as Joshua, not Moses, led the people into the promised land, so Jesus, not the Law, brings us into the kingdom. Origen's homilies on Joshua develop this throughout.
-FN: De Vaders werden nooit moe op te merken dat de naam Jozua in het Grieks dezelfde is als Jezus: zoals Jozua, en niet Mozes, het volk het beloofde land binnenleidde, zo brengt Jezus, en niet de Wet, ons in het koninkrijk. De preken van Origenes over Jozua werken dit overal uit.
+FN: De kerkvaders werden nooit moe op te merken dat de naam Jozua in het Grieks dezelfde is als Jezus: zoals Jozua, en niet Mozes, het volk het beloofde land binnenleidde, zo brengt Jezus, en niet de Wet, ons in het koninkrijk. De preken van Origenes over Jozua werken dit overal uit.
 T: Courage; God's presence; Meditation on the word
 TN: Moed; Gods aanwezigheid; Overdenking van het woord
 
@@ -16,7 +16,7 @@ SN: Jozua zendt in het geheim twee verspieders naar Jericho, en zij komen in het
 M: A foreign woman with a bad reputation confesses faith in Israel's God and is saved. God's mercy reaches beyond expected boundaries.
 MN: Een buitenlandse vrouw met een slechte naam belijdt het geloof in de God van Israël en wordt gered. Gods barmhartigheid reikt verder dan verwachte grenzen.
 F: Rahab appears in Christ's genealogy in Matthew, and Hebrews and St James praise her faith and works. St Clement of Rome saw in the scarlet cord a sign of redemption through the blood of the Lord for all who believe and hope in God. The Fathers saw Rahab as a figure of the Church gathered from the Gentiles.
-FN: Rachab komt voor in het geslachtsregister van Christus in Matteüs, en Hebreeën en de heilige Jakobus prijzen haar geloof en werken. De heilige Clemens van Rome zag in het scharlaken koord een teken van verlossing door het bloed van de Heer voor allen die geloven en op God hopen. De Vaders zagen Rachab als een voorafbeelding van de Kerk die uit de heidenen verzameld wordt.
+FN: Rachab komt voor in het geslachtsregister van Christus in Matteüs, en Hebreeën en de heilige Jakobus prijzen haar geloof en werken. De heilige Clemens van Rome zag in het scharlaken koord een teken van verlossing door het bloed van de Heer voor allen die geloven en op God hopen. De kerkvaders zagen Rachab als een voorafbeelding van de Kerk die uit de heidenen verzameld wordt.
 T: Faith of an outsider; The scarlet cord; Mercy
 TN: Geloof van een buitenstaander; Het scharlaken koord; Barmhartigheid
 
@@ -26,7 +26,7 @@ SN: Jozua en het volk vertrekken uit Sittim en komen bij de Jordaan. Heilig u, w
 M: The God of the Red Sea is the God of the Jordan: the new generation sees the same wonder. God's presence, the ark, goes first into the water.
 MN: De God van de Rode Zee is de God van de Jordaan: de nieuwe generatie ziet hetzelfde wonder. Gods aanwezigheid, de ark, gaat als eerste het water in.
 F: This crossing is read at the Vespers of Theophany, for the Fathers saw it fulfilled when Jesus entered the Jordan and was baptised, opening the way into the kingdom. Origen and others read the passage through the Jordan as Christian baptism, the entry into the promised land.
-FN: Deze doortocht wordt gelezen in de vespers van Theofanie, want de Vaders zagen haar vervuld toen Jezus de Jordaan binnenging en gedoopt werd, waardoor de weg naar het koninkrijk geopend werd. Origenes en anderen lazen de doortocht door de Jordaan als de christelijke doop, de toegang tot het beloofde land.
+FN: Deze doortocht wordt gelezen in de vespers van Theofanie, want de kerkvaders zagen haar vervuld toen Jezus de Jordaan binnenging en gedoopt werd, waardoor de weg naar het koninkrijk geopend werd. Origenes en anderen lazen de doortocht door de Jordaan als de christelijke doop, de toegang tot het beloofde land.
 T: Crossing over; Baptism; God goes first
 TN: Doortocht; Doop; God gaat voorop
 
@@ -36,7 +36,7 @@ SN: Wanneer het volk overgestoken is, zegt de Heer tegen Jozua twaalf mannen, é
 M: God's acts are to be remembered and explained to the next generation. Memorials make faith visible.
 MN: Gods daden moeten gedacht en aan de volgende generatie uitgelegd worden. Gedenktekens maken het geloof zichtbaar.
 F: The Fathers saw the twelve stones taken from the river as the twelve apostles, living stones drawn from the waters of baptism to found the Church. Christian churches and feasts were understood in the same spirit: memorials that make children ask what they mean.
-FN: De Vaders zagen de twaalf stenen die uit de rivier genomen werden als de twaalf apostelen, levende stenen uit het water van de doop gehaald om de Kerk te grondvesten. Christelijke kerken en feesten werden in dezelfde geest verstaan: gedenktekens die kinderen doen vragen wat zij betekenen.
+FN: De kerkvaders zagen de twaalf stenen die uit de rivier genomen werden als de twaalf apostelen, levende stenen uit het water van de doop gehaald om de Kerk te grondvesten. Christelijke kerken en feesten werden in dezelfde geest verstaan: gedenktekens die kinderen doen vragen wat zij betekenen.
 T: Memorial; Teaching children; Twelve stones
 TN: Gedenkteken; Kinderen onderwijzen; Twaalf stenen
 
@@ -46,7 +46,7 @@ SN: De koningen van de Amorieten en Kanaänieten verliezen de moed wanneer zij h
 M: Before conquest come consecration and worship. The question is not whether God is on our side but whether we are on His.
 MN: Vóór de verovering komen toewijding en aanbidding. De vraag is niet of God aan onze kant staat, maar of wij aan Zijn kant staan.
 F: The Fathers, St Justin and Origen among them, saw in the commander of the Lord's army an appearance of the Word of God before His Incarnation, since Joshua worships Him and is told to remove his sandals as Moses was at the burning bush. The end of the manna on entering the land was compared to the end of signs when we see God face to face.
-FN: De Vaders, onder wie de heilige Justinus en Origenes, zagen in de legeroverste van het leger van de Heer een verschijning van het Woord van God vóór Zijn menswording, omdat Jozua Hem aanbidt en zijn schoenen moet uittrekken zoals Mozes bij het brandende braambos. Het einde van het manna bij het binnengaan van het land werd vergeleken met het einde van de tekenen wanneer wij God van aangezicht tot aangezicht zien.
+FN: De kerkvaders, onder wie de heilige Justinus en Origenes, zagen in de legeroverste van het leger van de Heer een verschijning van het Woord van God vóór Zijn menswording, omdat Jozua Hem aanbidt en zijn schoenen moet uittrekken zoals Mozes bij het brandende braambos. Het einde van het manna bij het binnengaan van het land werd vergeleken met het einde van de tekenen wanneer wij God van aangezicht tot aangezicht zien.
 T: Consecration; Passover; The commander of the Lord's army
 TN: Toewijding; Pascha; De legeroverste van de Heer
 
@@ -56,7 +56,7 @@ SN: Jericho is stevig gesloten vanwege Israël. De Heer zegt tegen Jozua: trek z
 M: The first victory comes not by force but by obedience and worship. Rahab's faith saves her whole household.
 MN: De eerste overwinning komt niet door kracht maar door gehoorzaamheid en aanbidding. Het geloof van Rachab redt haar hele huis.
 F: Hebrews says: by faith the walls of Jericho fell down after they had been encircled for seven days, and by faith Rahab did not perish. The Fathers saw the priests' trumpets as the preaching of the apostles, at whose sound the walls of the world's pride fell, and the seventh day as the fulfilment of time.
-FN: Hebreeën zegt: door het geloof zijn de muren van Jericho gevallen, nadat zij zeven dagen omsingeld waren, en door het geloof is Rachab niet omgekomen. De Vaders zagen de bazuinen van de priesters als de prediking van de apostelen, bij wier geluid de muren van de hoogmoed van de wereld vielen, en de zevende dag als de vervulling van de tijd.
+FN: Hebreeën zegt: door het geloof zijn de muren van Jericho gevallen, nadat zij zeven dagen omsingeld waren, en door het geloof is Rachab niet omgekomen. De kerkvaders zagen de bazuinen van de priesters als de prediking van de apostelen, bij wier geluid de muren van de hoogmoed van de wereld vielen, en de zevende dag als de vervulling van de tijd.
 T: Victory by obedience; Faith; Rahab spared
 TN: Overwinning door gehoorzaamheid; Geloof; Rachab gespaard
 
@@ -66,7 +66,7 @@ SN: Israël is ontrouw wat betreft de gebannen dingen: Achan uit Juda neemt er e
 M: One person's hidden sin affects the whole community. Sin follows the path of seeing, coveting and taking.
 MN: De verborgen zonde van één persoon treft de hele gemeenschap. De zonde volgt de weg van zien, begeren en nemen.
 F: The Fathers drew from Achan's words, 'I saw, I coveted, I took', the classic stages of temptation, as with Eve. They used the defeat at Ai to show that the Church as a body is wounded by the hidden sins of its members. Hosea later promises to make the Valley of Achor a door of hope.
-FN: De Vaders ontleenden aan de woorden van Achan, 'ik zag, ik begeerde, ik nam', de klassieke fasen van de verleiding, zoals bij Eva. Zij gebruikten de nederlaag bij Ai om te tonen dat de Kerk als lichaam gewond wordt door de verborgen zonden van haar leden. Hosea belooft later het dal Achor te maken tot een deur van hoop.
+FN: De kerkvaders ontleenden aan de woorden van Achan, 'ik zag, ik begeerde, ik nam', de klassieke fasen van de verleiding, zoals bij Eva. Zij gebruikten de nederlaag bij Ai om te tonen dat de Kerk als lichaam gewond wordt door de verborgen zonden van haar leden. Hosea belooft later het dal Achor te maken tot een deur van hoop.
 T: Hidden sin; Covetousness; The body wounded
 TN: Verborgen zonde; Begeerte; Het lichaam gewond
 
@@ -76,7 +76,7 @@ SN: De Heer bemoedigt Jozua: wees niet bang; trek op naar Ai. Jozua legt een hin
 M: After repentance comes restoration and victory. Israel stops in the middle of conquest to renew its covenant with God.
 MN: Na bekering komen herstel en overwinning. Israël houdt midden in de verovering stil om zijn verbond met God te vernieuwen.
 F: The Fathers saw Joshua's outstretched javelin, held out until victory, as a figure of the cross, like Moses' outstretched arms against Amalek. They noted that the whole law was read to the whole people, women, children and strangers included.
-FN: De Vaders zagen de uitgestoken speer van Jozua, uitgestoken gehouden tot de overwinning, als een voorafbeelding van het kruis, zoals de uitgestrekte armen van Mozes tegen Amalek. Zij merkten op dat de hele wet aan het hele volk werd voorgelezen, vrouwen, kinderen en vreemdelingen inbegrepen.
+FN: De kerkvaders zagen de uitgestoken speer van Jozua, uitgestoken gehouden tot de overwinning, als een voorafbeelding van het kruis, zoals de uitgestrekte armen van Mozes tegen Amalek. Zij merkten op dat de hele wet aan het hele volk werd voorgelezen, vrouwen, kinderen en vreemdelingen inbegrepen.
 T: Restoration; Covenant renewal; The outstretched javelin
 TN: Herstel; Vernieuwing van het verbond; De uitgestoken speer
 
@@ -86,7 +86,7 @@ SN: De koningen van Kanaän verzamelen zich om tegen Israël te strijden, maar d
 M: Decisions made without seeking God's counsel can be costly. Yet an oath made in God's name must be kept.
 MN: Beslissingen die genomen worden zonder Gods raad te vragen, kunnen duur uitvallen. Toch moet een eed in Gods naam gehouden worden.
 F: The Fathers warned from this chapter against judging by appearances without prayer. They also saw the Gibeonites, who sought Israel's protection and ended up serving at God's altar, as Gentiles who, by whatever path, came to serve in God's house.
-FN: De Vaders waarschuwden vanuit dit hoofdstuk tegen oordelen naar de schijn zonder gebed. Zij zagen de Gibeonieten, die bescherming bij Israël zochten en uiteindelijk bij Gods altaar dienden, ook als heidenen die langs welke weg ook tot de dienst in Gods huis kwamen.
+FN: De kerkvaders waarschuwden vanuit dit hoofdstuk tegen oordelen naar de schijn zonder gebed. Zij zagen de Gibeonieten, die bescherming bij Israël zochten en uiteindelijk bij Gods altaar dienden, ook als heidenen die langs welke weg ook tot de dienst in Gods huis kwamen.
 T: Seeking God's counsel; Keeping oaths; Deception
 TN: Gods raad vragen; Eden houden; Bedrog
 
@@ -96,7 +96,7 @@ SN: Vijf Amoritische koningen, onder leiding van Adoni-Zedek van Jeruzalem, vall
 M: Joshua keeps his word to the Gibeonites even at great cost. God fights for His people and hears the bold prayer of a man.
 MN: Jozua houdt zijn woord aan de Gibeonieten, zelfs tegen een hoge prijs. God strijdt voor Zijn volk en hoort het vrijmoedige gebed van een man.
 F: The Fathers marvelled that God 'obeyed the voice of a man', and saw in it the power of prayer offered in faith. Some read the sun standing still as a figure of Christ, the Sun of Righteousness, whose day does not set.
-FN: De Vaders verwonderden zich erover dat God 'luisterde naar de stem van een man', en zagen daarin de kracht van gebed dat in geloof wordt opgedragen. Sommigen lazen de stilstaande zon als een voorafbeelding van Christus, de Zon van de gerechtigheid, wiens dag niet ondergaat.
+FN: De kerkvaders verwonderden zich erover dat God 'luisterde naar de stem van een man', en zagen daarin de kracht van gebed dat in geloof wordt opgedragen. Sommigen lazen de stilstaande zon als een voorafbeelding van Christus, de Zon van de gerechtigheid, wiens dag niet ondergaat.
 T: Faithfulness to allies; Bold prayer; God fights for us
 TN: Trouw aan bondgenoten; Vrijmoedig gebed; God strijdt voor ons
 
@@ -106,7 +106,7 @@ SN: Jabin, de koning van Hazor, verzamelt de koningen van het noorden met een en
 M: Even the greatest coalition cannot stand against God's promise. Joshua's obedience brings the land rest.
 MN: Zelfs de grootste coalitie kan niet standhouden tegen Gods belofte. De gehoorzaamheid van Jozua brengt het land rust.
 F: Origen and the Fathers after him read the conquest of Canaan as a figure of the spiritual battle: the kings of the land are the passions and vices that rule the soul, and Jesus, the true Joshua, drives them out so the soul can find rest. They insisted that Christians wage this war against sin, not against people.
-FN: Origenes en de Vaders na hem lazen de verovering van Kanaän als een voorafbeelding van de geestelijke strijd: de koningen van het land zijn de hartstochten en ondeugden die de ziel beheersen, en Jezus, de ware Jozua, verdrijft ze zodat de ziel rust kan vinden. Zij hielden vol dat christenen deze strijd tegen de zonde voeren, niet tegen mensen.
+FN: Origenes en de kerkvaders na hem lazen de verovering van Kanaän als een voorafbeelding van de geestelijke strijd: de koningen van het land zijn de hartstochten en ondeugden die de ziel beheersen, en Jezus, de ware Jozua, verdrijft ze zodat de ziel rust kan vinden. Zij hielden vol dat christenen deze strijd tegen de zonde voeren, niet tegen mensen.
 T: Victory; Spiritual battle; Rest
 TN: Overwinning; Geestelijke strijd; Rust
 
@@ -116,7 +116,7 @@ SN: Dit hoofdstuk somt de koningen van het land op die Israël verslagen heeft: 
 M: The list records God's faithfulness concretely, king by king, place by place. Moses' and Joshua's work belong together.
 MN: De lijst vermeldt Gods trouw concreet, koning na koning, plaats na plaats. Het werk van Mozes en Jozua hoort bij elkaar.
 F: The Fathers read such lists as records of God's faithfulness to His promises. Origen read the thirty-one defeated kings as the powers of evil overcome one by one by Christ in the soul that receives Him.
-FN: De Vaders lazen zulke lijsten als verslagen van Gods trouw aan Zijn beloften. Origenes las de eenendertig verslagen koningen als de machten van het kwaad die één voor één door Christus overwonnen worden in de ziel die Hem ontvangt.
+FN: De kerkvaders lazen zulke lijsten als verslagen van Gods trouw aan Zijn beloften. Origenes las de eenendertig verslagen koningen als de machten van het kwaad die één voor één door Christus overwonnen worden in de ziel die Hem ontvangt.
 T: God's faithfulness; Remembrance; Victory
 TN: Gods trouw; Gedachtenis; Overwinning
 
@@ -126,7 +126,7 @@ SN: Jozua is oud en hoogbejaard, en de Heer zegt: er blijft nog zeer veel land o
 M: The work is never fully finished in one generation. God Himself is the inheritance of those who serve Him.
 MN: Het werk is nooit volledig af in één generatie. God Zelf is het erfdeel van wie Hem dienen.
 F: The Fathers drew from 'there remains very much land to possess' that the spiritual life is never complete in this world: there is always more ground to win from sin. The Levites' inheritance in God alone was applied to clergy and monastics.
-FN: De Vaders leerden uit 'er blijft nog zeer veel land over om in bezit te nemen' dat het geestelijk leven in deze wereld nooit voltooid is: er is altijd meer terrein op de zonde te winnen. Het erfdeel van de Levieten in God alleen werd toegepast op geestelijken en monniken.
+FN: De kerkvaders leerden uit 'er blijft nog zeer veel land over om in bezit te nemen' dat het geestelijk leven in deze wereld nooit voltooid is: er is altijd meer terrein op de zonde te winnen. Het erfdeel van de Levieten in God alleen werd toegepast op geestelijken en monniken.
 T: Unfinished work; Inheritance; God our portion
 TN: Onvoltooid werk; Erfdeel; God ons deel
 
@@ -136,7 +136,7 @@ SN: Het land ten westen van de Jordaan moet door het lot aan de negen en een hal
 M: Forty-five years of faithful waiting are rewarded. At eighty-five, Caleb asks not for rest but for the hardest mountain.
 MN: Vijfenveertig jaar trouw wachten worden beloond. Op vijfentachtigjarige leeftijd vraagt Kaleb niet om rust, maar om de zwaarste berg.
 F: The Fathers held up Caleb, who 'wholly followed the Lord', as a model of perseverance and courage in old age. His request for the land of giants was read as the zeal of the saints who seek the hardest struggles for God.
-FN: De Vaders stelden Kaleb, die 'de Heer volkomen volgde', voor als voorbeeld van volharding en moed op hoge leeftijd. Zijn verzoek om het land van de reuzen werd gelezen als de ijver van de heiligen die de zwaarste strijd voor God zoeken.
+FN: De kerkvaders stelden Kaleb, die 'de Heer volkomen volgde', voor als voorbeeld van volharding en moed op hoge leeftijd. Zijn verzoek om het land van de reuzen werd gelezen als de ijver van de heiligen die de zwaarste strijd voor God zoeken.
 T: Wholehearted faith; Perseverance; Courage in old age
 TN: Volkomen geloof; Volharding; Moed op hoge leeftijd
 
@@ -146,7 +146,7 @@ SN: De grenzen van het gebied van Juda worden beschreven, van de Zoutzee tot de 
 M: Judah, the tribe of the coming king, receives the largest share. A daughter's bold request for water is granted.
 MN: Juda, de stam van de komende koning, ontvangt het grootste deel. Het vrijmoedige verzoek van een dochter om water wordt ingewilligd.
 F: The Fathers saw in Achsah, who asked for the upper and lower springs, the soul that asks God for both heavenly and earthly blessings, or for the tears of compunction and of longing for God. They noted that Jerusalem remained unconquered until David, the king from Judah.
-FN: De Vaders zagen in Achsa, die om de bovenste en de onderste bronnen vroeg, de ziel die God om zowel hemelse als aardse zegeningen vraagt, of om de tranen van berouw en van verlangen naar God. Zij merkten op dat Jeruzalem onveroverd bleef tot David, de koning uit Juda.
+FN: De kerkvaders zagen in Achsa, die om de bovenste en de onderste bronnen vroeg, de ziel die God om zowel hemelse als aardse zegeningen vraagt, of om de tranen van berouw en van verlangen naar God. Zij merkten op dat Jeruzalem onveroverd bleef tot David, de koning uit Juda.
 T: Inheritance; Bold asking; Springs of water
 TN: Erfdeel; Vrijmoedig vragen; Waterbronnen
 
@@ -166,7 +166,7 @@ SN: Het lot van Manasse ten westen van de Jordaan wordt beschreven. De dochters 
 M: God's earlier promises are kept, also to the daughters of Zelophehad. Complaining is answered with a call to work and courage.
 MN: Gods eerdere beloften worden nagekomen, ook aan de dochters van Selafchad. Klagen wordt beantwoord met een oproep tot werk en moed.
 F: The Fathers noted Joshua's answer to the complaint: rather than more given land, he points to the forest to be cleared, teaching that God's gifts often come through our own labour and courage.
-FN: De Vaders merkten het antwoord van Jozua op de klacht op: in plaats van meer gegeven land wijst hij op het bos dat gekapt moet worden, wat leert dat Gods gaven vaak komen door onze eigen arbeid en moed.
+FN: De kerkvaders merkten het antwoord van Jozua op de klacht op: in plaats van meer gegeven land wijst hij op het bos dat gekapt moet worden, wat leert dat Gods gaven vaak komen door onze eigen arbeid en moed.
 T: Promises kept; Effort and courage; Complaint
 TN: Nagekomen beloften; Inspanning en moed; Klacht
 
@@ -176,7 +176,7 @@ SN: De hele gemeenschap komt in Silo bijeen en richt daar de tent van de samenko
 M: God's dwelling is placed at the centre before the land is fully divided. Delay in taking up God's gifts is itself a fault.
 MN: Gods woning wordt in het midden geplaatst voordat het land volledig verdeeld is. Uitstel in het aannemen van Gods gaven is zelf een tekortkoming.
 F: The Fathers drew from 'how long will you put off taking possession?' a warning against spiritual laziness: grace is offered, but must be taken up. Shiloh, where the tabernacle rested, was seen as a figure of the Church where God dwells among His people.
-FN: De Vaders trokken uit 'hoe lang blijft u nalatig om het land in bezit te nemen?' een waarschuwing tegen geestelijke traagheid: genade wordt aangeboden, maar moet aangenomen worden. Silo, waar de tabernakel rustte, werd gezien als een voorafbeelding van de Kerk waar God onder Zijn volk woont.
+FN: De kerkvaders trokken uit 'hoe lang blijft u nalatig om het land in bezit te nemen?' een waarschuwing tegen geestelijke traagheid: genade wordt aangeboden, maar moet aangenomen worden. Silo, waar de tabernakel rustte, werd gezien als een voorafbeelding van de Kerk waar God onder Zijn volk woont.
 T: God at the centre; Spiritual laziness; Inheritance by lot
 TN: God in het midden; Geestelijke traagheid; Erfdeel door het lot
 
@@ -186,7 +186,7 @@ SN: De loten voor Simeon, wiens erfdeel binnen Juda ligt, en voor Zebulon, Issas
 M: The leader takes his own inheritance last, after everyone else has received theirs.
 MN: De leider neemt zijn eigen erfdeel als laatste, nadat ieder ander het zijne ontvangen heeft.
 F: The Fathers praised Joshua's humility in receiving his portion only after all the tribes, a model for pastors who put the flock first. Zebulun and Naphtali, allotted here, are later named by Isaiah and Matthew as the land where the great light dawned.
-FN: De Vaders prezen de nederigheid van Jozua, die zijn deel pas na alle stammen ontving, een voorbeeld voor herders die de kudde voorop stellen. Zebulon en Naftali, die hier hun lot ontvangen, worden later door Jesaja en Matteüs genoemd als het land waar het grote licht opging.
+FN: De kerkvaders prezen de nederigheid van Jozua, die zijn deel pas na alle stammen ontving, een voorbeeld voor herders die de kudde voorop stellen. Zebulon en Naftali, die hier hun lot ontvangen, worden later door Jesaja en Matteüs genoemd als het land waar het grote licht opging.
 T: Inheritance; Humility of the leader; The tribes
 TN: Erfdeel; Nederigheid van de leider; De stammen
 
@@ -196,7 +196,7 @@ SN: De Heer zegt tegen Jozua de vrijsteden aan te wijzen, zoals Hij door Mozes g
 M: The promise of refuge becomes concrete in real cities, open to Israelites and strangers alike.
 MN: De belofte van toevlucht wordt concreet in echte steden, open voor Israëlieten en vreemdelingen.
 F: The Fathers again saw the cities of refuge as Christ and His Church, open to every repentant sinner, and the release at the high priest's death as the freedom won by Christ's death.
-FN: De Vaders zagen de vrijsteden opnieuw als Christus en Zijn Kerk, open voor elke berouwvolle zondaar, en de vrijlating bij de dood van de hogepriester als de vrijheid die door de dood van Christus is verworven.
+FN: De kerkvaders zagen de vrijsteden opnieuw als Christus en Zijn Kerk, open voor elke berouwvolle zondaar, en de vrijlating bij de dood van de hogepriester als de vrijheid die door de dood van Christus is verworven.
 T: Refuge; Mercy; Christ our refuge
 TN: Toevlucht; Barmhartigheid; Christus onze toevlucht
 
@@ -206,7 +206,7 @@ SN: De hoofden van de Levieten vragen om de steden die door Mozes beloofd waren,
 M: The Levites are spread among all the tribes, so that God's service is present everywhere. Every promise of God has been kept.
 MN: De Levieten worden over alle stammen verspreid, zodat Gods dienst overal aanwezig is. Elke belofte van God is nagekomen.
 F: The Fathers loved the summary 'not one word of all the good promises failed' as a confession of God's faithfulness, and saw the Levites scattered among the tribes as a figure of clergy serving in every place.
-FN: De Vaders hielden van de samenvatting 'geen woord van alle goede beloften faalde' als een belijdenis van Gods trouw, en zagen de Levieten die over de stammen verspreid waren als een voorafbeelding van geestelijken die op elke plaats dienen.
+FN: De kerkvaders hielden van de samenvatting 'geen woord van alle goede beloften faalde' als een belijdenis van Gods trouw, en zagen de Levieten die over de stammen verspreid waren als een voorafbeelding van geestelijken die op elke plaats dienen.
 T: Promises fulfilled; Service everywhere; Faithfulness
 TN: Vervulde beloften; Dienst overal; Trouw
 
@@ -216,7 +216,7 @@ SN: Jozua zendt de oostelijke stammen met zegen naar huis, rijk aan vee en buit,
 M: A misunderstanding nearly causes civil war, but honest dialogue restores unity. Zeal for God is wise to listen before acting.
 MN: Een misverstand leidt bijna tot een burgeroorlog, maar een eerlijk gesprek herstelt de eenheid. IJver voor God doet er goed aan te luisteren voordat hij handelt.
 F: The Fathers praised the way this conflict was resolved: by sending envoys and listening rather than attacking. They used it as a model for settling disputes in the Church, where suspicion must give way to dialogue.
-FN: De Vaders prezen de manier waarop dit conflict werd opgelost: door gezanten te sturen en te luisteren in plaats van aan te vallen. Zij gebruikten het als voorbeeld voor het beslechten van geschillen in de Kerk, waar wantrouwen moet wijken voor dialoog.
+FN: De kerkvaders prezen de manier waarop dit conflict werd opgelost: door gezanten te sturen en te luisteren in plaats van aan te vallen. Zij gebruikten het als voorbeeld voor het beslechten van geschillen in de Kerk, waar wantrouwen moet wijken voor dialoog.
 T: Unity; Dialogue; Misunderstanding resolved
 TN: Eenheid; Dialoog; Opgelost misverstand
 
@@ -226,7 +226,7 @@ SN: Lange tijd daarna, wanneer de Heer Israël rust gegeven heeft, roept Jozua, 
 M: Rest in the land is a gift that must be guarded by faithfulness. Joshua's last concern is that the people cling to God.
 MN: Rust in het land is een gave die door trouw bewaard moet worden. De laatste zorg van Jozua is dat het volk God aanhangt.
 F: The Fathers compared Joshua's farewell to Christ's farewell discourse, both leaders exhorting their people to remain faithful after their departure. 'The way of all the earth' was taken as a reminder that even the greatest saints die and leave their example.
-FN: De Vaders vergeleken het afscheid van Jozua met de afscheidsrede van Christus, waarin beide leiders hun volk aansporen trouw te blijven na hun vertrek. 'De weg van heel de aarde' werd opgevat als een herinnering dat zelfs de grootste heiligen sterven en hun voorbeeld nalaten.
+FN: De kerkvaders vergeleken het afscheid van Jozua met de afscheidsrede van Christus, waarin beide leiders hun volk aansporen trouw te blijven na hun vertrek. 'De weg van heel de aarde' werd opgevat als een herinnering dat zelfs de grootste heiligen sterven en hun voorbeeld nalaten.
 T: Farewell; Faithfulness; God's promises kept
 TN: Afscheid; Trouw; Gods beloften nagekomen
 
@@ -236,6 +236,6 @@ SN: Jozua verzamelt alle stammen in Sichem en vertelt hun geschiedenis opnieuw i
 M: Faith is a choice each generation must make for itself. Joshua leads by example: his household will serve the Lord.
 MN: Geloof is een keuze die elke generatie zelf moet maken. Jozua gaat voor met zijn voorbeeld: zijn huis zal de Heer dienen.
 F: 'As for me and my house, we will serve the Lord' became the motto of countless Christian homes, and the Fathers saw the domestic church in it. The burial of Joseph's bones at Shechem fulfilled his dying request in Genesis, a sign that God's promises span centuries.
-FN: 'Ik en mijn huis, wij zullen de Heer dienen' werd het motto van talloze christelijke huizen, en de Vaders zagen er de huiskerk in. De begrafenis van de beenderen van Jozef in Sichem vervulde zijn verzoek op zijn sterfbed in Genesis, een teken dat Gods beloften eeuwen overspannen.
+FN: 'Ik en mijn huis, wij zullen de Heer dienen' werd het motto van talloze christelijke huizen, en de kerkvaders zagen er de huiskerk in. De begrafenis van de beenderen van Jozef in Sichem vervulde zijn verzoek op zijn sterfbed in Genesis, een teken dat Gods beloften eeuwen overspannen.
 T: Choosing God; The household of faith; Covenant renewal
 TN: Voor God kiezen; Het huis van het geloof; Vernieuwing van het verbond

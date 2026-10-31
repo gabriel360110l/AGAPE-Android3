@@ -6,7 +6,7 @@ SN: Geprezen zij de God en Vader van onze Heer Jezus Christus, de Vader van de b
 M: Suffering received from God becomes a source of comfort for others. Christ is God's faithful Yes to all His promises.
 MN: Lijden dat uit Gods hand ontvangen wordt, wordt een bron van troost voor anderen. Christus is Gods trouwe Ja op al Zijn beloften.
 F: The Fathers saw in 'anointed, sealed and given the Spirit' a description of baptism and chrismation; the Byzantine rite anoints with the words 'the seal of the gift of the Holy Spirit'.
-FN: De Vaders zagen in 'gezalfd, verzegeld en de Geest gegeven' een beschrijving van doopsel en myronzalving; de Byzantijnse ritus zalft met de woorden 'het zegel van de gave van de Heilige Geest'.
+FN: De kerkvaders zagen in 'gezalfd, verzegeld en de Geest gegeven' een beschrijving van doop en myronzalving; de Byzantijnse ritus zalft met de woorden 'het zegel van de gave van de Heilige Geest'.
 T: Comfort; Trust in God; Seal of the Spirit
 TN: Troost; Vertrouwen op God; Zegel van de Geest
 
@@ -36,7 +36,7 @@ SN: Omdat wij deze bediening door Gods barmhartigheid hebben, verliezen wij de m
 M: God's glory shines through human weakness. Present sufferings are light compared with the eternal weight of glory.
 MN: Gods heerlijkheid schijnt door menselijke zwakheid heen. Het huidige lijden is licht vergeleken met het eeuwige gewicht van heerlijkheid.
 F: The Fathers loved the image of the treasure in clay jars: God chose weak and simple apostles so that the conversion of the world could only be His work.
-FN: De Vaders hielden van het beeld van de schat in aarden vaten: God koos zwakke en eenvoudige apostelen, zodat de bekering van de wereld alleen Zijn werk kon zijn.
+FN: De kerkvaders hielden van het beeld van de schat in aarden vaten: God koos zwakke en eenvoudige apostelen, zodat de bekering van de wereld alleen Zijn werk kon zijn.
 T: Weakness and power; Light of Christ; Endurance
 TN: Zwakheid en kracht; Licht van Christus; Volharding
 
@@ -46,7 +46,7 @@ SN: Als onze aardse tent wordt afgebroken, hebben wij een gebouw van God, eeuwig
 M: In Christ the world is reconciled and made new. The Church is sent as an ambassador of reconciliation.
 MN: In Christus wordt de wereld verzoend en nieuw gemaakt. De Kerk is gezonden als gezant van de verzoening.
 F: The Fathers explain 'made Him to be sin' as made a sin-offering and bearing the curse of sin for us, while remaining sinless Himself. The ministry of reconciliation was seen as the foundation of the sacrament of confession.
-FN: De Vaders verklaren 'tot zonde gemaakt' als: tot zondoffer gemaakt en de vloek van de zonde voor ons dragend, terwijl Hij Zelf zonder zonde bleef. De bediening van de verzoening werd gezien als het fundament van het sacrament van de biecht.
+FN: De kerkvaders verklaren 'tot zonde gemaakt' als: tot zondoffer gemaakt en de vloek van de zonde voor ons dragend, terwijl Hij Zelf zonder zonde bleef. De bediening van de verzoening werd gezien als het fundament van het sacrament van de biecht.
 T: New creation; Reconciliation; Hope of glory
 TN: Nieuwe schepping; Verzoening; Hoop op heerlijkheid
 
@@ -56,7 +56,7 @@ SN: Nu is het welaangename tijd; nu is het de dag van het heil. Paulus beveelt z
 M: Grace must not be received in vain; today is always the day to respond. The apostle's paradoxes describe the Christian life.
 MN: De genade mag niet tevergeefs ontvangen worden; vandaag is altijd de dag om te antwoorden. De paradoxen van de apostel beschrijven het christelijk leven.
 F: 'Now is the day of salvation' is sung in the Lenten services of the Church. The Fathers held up Paul's list of hardships as the true credentials of a shepherd.
-FN: 'Nu is het de dag van het heil' wordt gezongen in de diensten van de Vasten. De Vaders hielden de lijst van ontberingen van Paulus voor als de ware geloofsbrieven van een herder.
+FN: 'Nu is het de dag van het heil' wordt gezongen in de diensten van de Vasten. De kerkvaders hielden de lijst van ontberingen van Paulus voor als de ware geloofsbrieven van een herder.
 T: Today of salvation; Paradox of the cross; Open hearts
 TN: Het heden van het heil; Paradox van het kruis; Open harten
 
@@ -76,7 +76,7 @@ SN: Paulus vertelt over de kerken van Macedonië, die in diepe armoede vrijgevig
 M: Christian giving flows from Christ's self-emptying. Generosity is a grace, a share in the life of God.
 MN: Christelijk geven komt voort uit Christus' zelfontlediging. Vrijgevigheid is een genade, een deel aan het leven van God.
 F: The Fathers often preached 8:9 at the Nativity: the rich One became poor in the manger to make us rich with divinity.
-FN: De Vaders preekten vaak over 8:9 met Kerstmis: de Rijke werd arm in de kribbe om ons rijk te maken met goddelijkheid.
+FN: De kerkvaders preekten vaak over 8:9 met Kerstmis: de Rijke werd arm in de kribbe om ons rijk te maken met goddelijkheid.
 T: Generosity; Poverty of Christ; Sharing
 TN: Vrijgevigheid; Armoede van Christus; Delen
 
@@ -96,7 +96,7 @@ SN: Paulus, van wie gezegd wordt dat hij in persoon nederig maar in brieven vrij
 M: The spiritual struggle is fought in the mind, by bringing every thought to Christ.
 MN: De geestelijke strijd wordt gevoerd in het denken, door elke gedachte naar Christus te brengen.
 F: 'Taking every thought captive' became central in the teaching of the Fathers on watchfulness (nepsis): guard the mind and cut off evil thoughts at their first appearance.
-FN: 'Elke gedachte gevangen nemen' werd centraal in het onderricht van de Vaders over waakzaamheid (nepsis): bewaak het denken en snijd kwade gedachten af bij hun eerste verschijnen.
+FN: 'Elke gedachte gevangen nemen' werd centraal in het onderricht van de kerkvaders over waakzaamheid (nepsis): bewaak het denken en snijd kwade gedachten af bij hun eerste verschijnen.
 T: Spiritual warfare; Watchfulness; Humility
 TN: Geestelijke strijd; Waakzaamheid; Nederigheid
 
@@ -106,7 +106,7 @@ SN: Paulus vreest dat, zoals de slang Eva misleidde, hun denken afgeleid wordt v
 M: True apostleship is marked by the cross, not by worldly success. Discernment is needed, for evil can appear as light.
 MN: Echt apostelschap wordt gekenmerkt door het kruis, niet door wereldlijk succes. Onderscheiding is nodig, want het kwaad kan zich als licht voordoen.
 F: 'Satan disguises himself as an angel of light' is a constant warning in the Fathers' teaching on discernment of spirits: humility and obedience protect against deceptive visions.
-FN: 'Satan doet zich voor als een engel van het licht' is een voortdurende waarschuwing in het onderricht van de Vaders over de onderscheiding van de geesten: nederigheid en gehoorzaamheid beschermen tegen misleidende visioenen.
+FN: 'Satan doet zich voor als een engel van het licht' is een voortdurende waarschuwing in het onderricht van de kerkvaders over de onderscheiding van de geesten: nederigheid en gehoorzaamheid beschermen tegen misleidende visioenen.
 T: Discernment; Suffering for Christ; Care for the churches
 TN: Onderscheiding; Lijden om Christus; Zorg voor de kerken
 
@@ -116,7 +116,7 @@ SN: Paulus vertelt over een mens in Christus die werd weggevoerd tot in de derde
 M: Even the greatest mystical experiences are less important than humble dependence on grace. God's power is at work precisely in our weakness.
 MN: Zelfs de grootste mystieke ervaringen zijn minder belangrijk dan nederige afhankelijkheid van de genade. Gods kracht werkt juist in onze zwakheid.
 F: The Fathers offered various explanations of the thorn: bodily illness, persecution, or temptation. All agree on the lesson: humility guards the gifts of God.
-FN: De Vaders gaven verschillende verklaringen voor de doorn: lichamelijke ziekte, vervolging of verzoeking. Allen zijn het eens over de les: nederigheid bewaart de gaven van God.
+FN: De kerkvaders gaven verschillende verklaringen voor de doorn: lichamelijke ziekte, vervolging of verzoeking. Allen zijn het eens over de les: nederigheid bewaart de gaven van God.
 T: Grace; Weakness; Mystical experience
 TN: Genade; Zwakheid; Mystieke ervaring
 
