@@ -24,7 +24,7 @@ OUT = os.path.join(ROOT, "app", "src", "main", "assets", "content", "council_tex
 COUNCILS = {
     "nicaea-1": ("3801", [("The Nicene Creed", "The Creed of Nicaea"), ("The Synodal Letter", "Synodal letter to the Church of Alexandria")]),
     "constantinople-1": ("3808", [("Creed", "The Creed"), ("Letter of the Same Holy Synod", "Letter to Emperor Theodosius")]),
-    "ephesus": ("3810", [("Cum salvator noster", "Third Letter of St Cyril to Nestorius"), ("The Twelve Anathemas", "The Twelve Anathemas of St Cyril")]),
+    "ephesus": ("3810", [("Cum salvator noster", "Third Letter of St Cyril to Nestorius"), ("The Twelve Anathemas", "The Twelve Anathemas of St Cyril (appended to his Third Letter; not separately voted on by the council)")]),
     # (match, title, first paragraph starts with, stop before paragraph starting with)
     "chalcedon": ("3811", [("Session V", "The Definition of Faith", "The Definition of Faith of the Council", "After the reading")]),
     "constantinople-2": ("3812", [("The Sentence of the Synod", "The Sentence of the Synod"), ("The Capitula of the Council", "The Fourteen Anathemas")]),
