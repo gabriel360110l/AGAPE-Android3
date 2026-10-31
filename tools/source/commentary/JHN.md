@@ -65,8 +65,8 @@ S: Jesus' brothers do not believe in Him. He goes up secretly to the Feast of Ta
 SN: De broers van Jezus geloven niet in Hem. Hij gaat in het geheim naar het Loofhuttenfeest en leert in de tempel, en de mensen verbazen zich over Zijn kennis: Mijn leer is niet van Mij, maar van Hem die Mij gezonden heeft. De menigte is verdeeld over de vraag of Hij de Christus is. Op de laatste dag van het feest roept Hij: als iemand dorst heeft, laat hij tot Mij komen en drinken; stromen van levend water zullen uit zijn binnenste vloeien. Dit zei Hij over de Geest.
 M: Christ fulfils the feast's water ceremony: He is the rock from which the Spirit flows to quench the thirst of the world.
 MN: Christus vervult de waterceremonie van het feest: Hij is de rots waaruit de Geest stroomt om de dorst van de wereld te lessen.
-F: The Orthodox Church reads 'if anyone thirsts' at the Divine Liturgy of Pentecost, for the rivers of living water are the Holy Spirit poured out on the Church.
-FN: De Orthodoxe Kerk leest 'als iemand dorst heeft' in de Goddelijke Liturgie van Pinksteren, want de stromen van levend water zijn de Heilige Geest die over de Kerk wordt uitgestort.
+F: St John Chrysostom, in his Homilies on John (Homily 51), explains that the 'living water' is the grace of the Spirit, which once it is established in the heart never fails or runs dry; therefore Christ speaks not of one river but of many. The Orthodox Church reads 'if anyone thirsts' at the Divine Liturgy of Pentecost, for the rivers of living water are the Holy Spirit poured out on the Church.
+FN: De heilige Johannes Chrysostomus legt in zijn Homilieën op Johannes (Homilie 51) uit dat het 'levende water' de genade van de Geest is, die, wanneer zij eenmaal in het hart gevestigd is, nooit ophoudt en nooit opdroogt; daarom spreekt Christus niet van één rivier maar van vele. De Orthodoxe Kerk leest 'als iemand dorst heeft' in de Goddelijke Liturgie van Pinksteren, want de stromen van levend water zijn de Heilige Geest die over de Kerk wordt uitgestort.
 T: Holy Spirit; Living water; Division
 TN: Heilige Geest; Levend water; Verdeeldheid
 
