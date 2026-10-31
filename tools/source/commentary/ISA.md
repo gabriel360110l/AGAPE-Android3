@@ -6,7 +6,7 @@ SN: Het visioen van Jesaja, de zoon van Amoz, over Juda en Jeruzalem. Hoor, heme
 M: Worship without justice is hateful to God. Yet His judgment is an invitation: He offers cleansing to those who turn and do good.
 MN: Eredienst zonder gerechtigheid is God een gruwel. Toch is Zijn oordeel een uitnodiging: Hij biedt reiniging aan wie zich bekeren en het goede doen.
 F: The Fathers saw in the ox and the donkey that know their master's manger the Gentiles who recognised Christ, and this is why the ox and the donkey appear in every icon of the Nativity. St Jerome, who wrote a great commentary on Isaiah, called him an evangelist rather than a prophet. In the Byzantine rite Isaiah is read through at the Sixth Hour on the weekdays of Great Lent, beginning with this chapter.
-FN: De Vaders zagen in de os en de ezel die de kribbe van hun heer kennen de heidenen die Christus herkenden, en daarom staan de os en de ezel op elke icoon van de Geboorte. De heilige Hiëronymus, die een groot commentaar op Jesaja schreef, noemde hem eerder een evangelist dan een profeet. In de Byzantijnse ritus wordt Jesaja op de weekdagen van de Grote Vasten in het Zesde Uur doorgelezen, te beginnen met dit hoofdstuk.
+FN: De kerkvaders zagen in de os en de ezel die de kribbe van hun heer kennen de heidenen die Christus herkenden, en daarom staan de os en de ezel op elke icoon van de Geboorte. De heilige Hiëronymus, die een groot commentaar op Jesaja schreef, noemde hem eerder een evangelist dan een profeet. In de Byzantijnse ritus wordt Jesaja op de weekdagen van de Grote Vasten in het Zesde Uur doorgelezen, te beginnen met dit hoofdstuk.
 T: Empty worship; Justice; Cleansing from sin
 TN: Lege eredienst; Gerechtigheid; Reiniging van zonde
 
@@ -16,7 +16,7 @@ SN: In het laatste der dagen zal de berg van het huis van de Heer vastgesteld zi
 M: God's final purpose is a world where all nations learn His ways and war is unlearned. Before that peace comes, human pride must be brought low.
 MN: Gods uiteindelijke doel is een wereld waarin alle volken Zijn wegen leren en de oorlog afgeleerd wordt. Voordat die vrede komt, moet menselijke hoogmoed vernederd worden.
 F: St Justin, St Irenaeus and others saw this prophecy fulfilled when the word of the Lord went out from Jerusalem through the apostles, and peoples who had lived by war became disciples of the Prince of Peace. The Fathers read the mountain of the Lord's house as the Church, raised above all.
-FN: De heilige Justinus, de heilige Irenaeus en anderen zagen deze profetie vervuld toen het woord van de Heer door de apostelen uit Jeruzalem uitging, en volken die van oorlog leefden leerlingen werden van de Vredevorst. De Vaders lazen de berg van het huis van de Heer als de Kerk, verheven boven alles.
+FN: De heilige Justinus, de heilige Irenaeus en anderen zagen deze profetie vervuld toen het woord van de Heer door de apostelen uit Jeruzalem uitging, en volken die van oorlog leefden leerlingen werden van de Vredevorst. De kerkvaders lazen de berg van het huis van de Heer als de Kerk, verheven boven alles.
 T: Peace among nations; The mountain of the Lord; Humility
 TN: Vrede tussen volken; De berg van de Heer; Nederigheid
 
@@ -26,7 +26,7 @@ SN: De Heer neemt uit Jeruzalem steun en staf weg: brood en water, de held en de
 M: When leaders exploit the poor and luxury becomes pride, society falls apart. God holds the powerful accountable for the vineyard entrusted to them.
 MN: Wanneer leiders de armen uitbuiten en weelde hoogmoed wordt, valt de samenleving uiteen. God houdt de machtigen verantwoordelijk voor de wijngaard die hun is toevertrouwd.
 F: The Fathers, St John Chrysostom above all, preached against the luxury of the rich in the spirit of this chapter, where the spoil of the poor fills the houses of the powerful. They also noted the comfort in the midst of judgment: say to the righteous that it shall be well with them.
-FN: De Vaders, vooral de heilige Johannes Chrysostomus, preekten in de geest van dit hoofdstuk tegen de weelde van de rijken, waar de buit van de armen de huizen van de machtigen vult. Zij merkten ook de troost op te midden van het oordeel: zeg de rechtvaardige dat het hem goed zal gaan.
+FN: De kerkvaders, vooral de heilige Johannes Chrysostomus, preekten in de geest van dit hoofdstuk tegen de weelde van de rijken, waar de buit van de armen de huizen van de machtigen vult. Zij merkten ook de troost op te midden van het oordeel: zeg de rechtvaardige dat het hem goed zal gaan.
 T: Corrupt leadership; Exploitation of the poor; Vanity
 TN: Corrupt leiderschap; Uitbuiting van de armen; IJdelheid
 
@@ -36,7 +36,7 @@ SN: Zeven vrouwen zullen op die dag één man vastgrijpen en alleen vragen naar 
 M: After purifying judgment, a holy remnant remains under God's protecting presence, like Israel in the wilderness under the cloud and fire.
 MN: Na het reinigende oordeel blijft een heilige rest over onder Gods beschermende aanwezigheid, zoals Israël in de woestijn onder de wolk en het vuur.
 F: The Fathers read the 'Branch of the Lord' as Christ, the shoot that springs from God and from the earth. The washing by a spirit of judgment and burning was seen as baptism with the Holy Spirit and fire, and the cloud over Zion as the Spirit overshadowing the Church.
-FN: De Vaders lazen de 'Spruit van de Heer' als Christus, de scheut die opkomt uit God en uit de aarde. Het wassen door de geest van het oordeel en de uitbranding werd gezien als de doop met de Heilige Geest en vuur, en de wolk boven Sion als de Geest die de Kerk overschaduwt.
+FN: De kerkvaders lazen de 'Spruit van de Heer' als Christus, de scheut die opkomt uit God en uit de aarde. Het wassen door de geest van het oordeel en de uitbranding werd gezien als de doop met de Heilige Geest en vuur, en de wolk boven Sion als de Geest die de Kerk overschaduwt.
 T: The Branch; Purification; God's sheltering presence
 TN: De Spruit; Reiniging; Gods beschuttende aanwezigheid
 
@@ -46,7 +46,7 @@ SN: Laat mij voor mijn beminde een lied zingen, het lied van mijn geliefde over 
 M: God has done everything for His people, yet the harvest is injustice. Calling evil good and good evil is the deepest corruption.
 MN: God heeft alles voor Zijn volk gedaan, maar de oogst is onrecht. Het kwade goed noemen en het goede kwaad is de diepste verdorvenheid.
 F: Christ takes up this song in the parable of the wicked tenants. The Fathers heard God's question 'What more could I have done for My vineyard?' in the Reproaches sung on Good Friday in the West: 'My people, what have I done to you?' They applied it to every soul that receives God's gifts without bearing fruit.
-FN: Christus neemt dit lied op in de gelijkenis van de boze wijnbouwers. De Vaders hoorden Gods vraag 'Wat had Ik nog meer aan Mijn wijngaard moeten doen?' in de Improperia die in het Westen op Goede Vrijdag gezongen worden: 'Mijn volk, wat heb Ik u gedaan?' Zij pasten haar toe op elke ziel die Gods gaven ontvangt zonder vrucht te dragen.
+FN: Christus neemt dit lied op in de gelijkenis van de boze wijnbouwers. De kerkvaders hoorden Gods vraag 'Wat had Ik nog meer aan Mijn wijngaard moeten doen?' in de Improperia die in het Westen op Goede Vrijdag gezongen worden: 'Mijn volk, wat heb Ik u gedaan?' Zij pasten haar toe op elke ziel die Gods gaven ontvangt zonder vrucht te dragen.
 T: The vineyard; Fruitlessness; Moral confusion
 TN: De wijngaard; Vruchteloosheid; Morele verwarring
 
@@ -56,7 +56,7 @@ SN: In het jaar dat koning Uzzia stierf, zag ik de Heer zitten op een hoge en ve
 M: The vision of God's holiness reveals human sinfulness, and then God Himself cleanses and sends. Every true calling begins with worship and purification.
 MN: Het zien van Gods heiligheid onthult de menselijke zondigheid, en dan reinigt en zendt God Zelf. Elke ware roeping begint met aanbidding en reiniging.
 F: The seraphim's hymn became the Sanctus and the Trisagion at the heart of every Eucharistic prayer, East and West. The Fathers saw the burning coal taken from the altar with tongs as the Body of Christ received in Holy Communion; after communing, the Byzantine priest says Isaiah's words: this has touched my lips and shall take away my iniquities. St John says Isaiah saw Christ's glory. The threefold 'holy' was read as a hint of the Trinity.
-FN: De hymne van de serafs werd het Sanctus en het Trisagion in het hart van elk eucharistisch gebed, in Oost en West. De Vaders zagen de gloeiende kool, met een tang van het altaar genomen, als het Lichaam van Christus dat in de Heilige Communie ontvangen wordt; na de communie zegt de Byzantijnse priester de woorden van Jesaja: zie, dit heeft mijn lippen aangeraakt en zal mijn ongerechtigheden wegnemen. De heilige Johannes zegt dat Jesaja de heerlijkheid van Christus zag. Het drievoudige 'heilig' werd gelezen als een verwijzing naar de Drie-eenheid.
+FN: De hymne van de serafs werd het Sanctus en het Trisagion in het hart van elk eucharistisch gebed, in Oost en West. De kerkvaders zagen de gloeiende kool, met een tang van het altaar genomen, als het Lichaam van Christus dat in de Heilige Communie ontvangen wordt; na de communie zegt de Byzantijnse priester de woorden van Jesaja: zie, dit heeft mijn lippen aangeraakt en zal mijn ongerechtigheden wegnemen. De heilige Johannes zegt dat Jesaja de heerlijkheid van Christus zag. Het drievoudige 'heilig' werd gelezen als een verwijzing naar de Drie-eenheid.
 T: Holiness of God; Cleansing; Calling
 TN: Heiligheid van God; Reiniging; Roeping
 
@@ -66,7 +66,7 @@ SN: Rezin van Syrië en Pekah van Israël trekken op tegen Jeruzalem, en het har
 M: In a moment of panic, God calls for quiet faith. When the king refuses to trust, God gives a sign that goes far beyond his time: God with us.
 MN: In een moment van paniek roept God op tot stil geloof. Wanneer de koning weigert te vertrouwen, geeft God een teken dat ver voorbij zijn tijd reikt: God met ons.
 F: St Matthew sees 'the virgin shall conceive and bear a son' fulfilled in the birth of Jesus from the Virgin Mary, following the Greek text, which says parthenos, virgin. The Fathers, from St Justin and St Irenaeus onward, defended this reading, and it is read in the services of Christmas and the Annunciation. 'If you will not believe, you will not understand', as the Greek has it, became St Augustine's motto for faith seeking understanding.
-FN: De heilige Matteüs ziet 'de maagd zal zwanger worden en een zoon baren' vervuld in de geboorte van Jezus uit de Maagd Maria, volgens de Griekse tekst, die parthenos, maagd, heeft. De Vaders, vanaf de heilige Justinus en de heilige Irenaeus, verdedigden deze lezing, en zij wordt gelezen in de diensten van Kerstmis en de Annunciatie. 'Als u niet gelooft, zult u niet verstaan', zoals het Grieks luidt, werd het motto van de heilige Augustinus voor het geloof dat inzicht zoekt.
+FN: De heilige Matteüs ziet 'de maagd zal zwanger worden en een zoon baren' vervuld in de geboorte van Jezus uit de Maagd Maria, volgens de Griekse tekst, die parthenos, maagd, heeft. De kerkvaders, vanaf de heilige Justinus en de heilige Irenaeus, verdedigden deze lezing, en zij wordt gelezen in de diensten van Kerstmis en de Annunciatie. 'Als u niet gelooft, zult u niet verstaan', zoals het Grieks luidt, werd het motto van de heilige Augustinus voor het geloof dat inzicht zoekt.
 T: Immanuel; The Virgin; Faith in crisis
 TN: Immanuël; De Maagd; Geloof in crisis
 
@@ -86,7 +86,7 @@ SN: Er zal geen duisternis zijn voor haar die in benauwdheid was. In vroeger tij
 M: Light breaks into the darkest region, and the hope of the world is a child. His reign of peace has no end.
 MN: Licht breekt door in het donkerste gebied, en de hoop van de wereld is een kind. Zijn vredesrijk heeft geen einde.
 F: St Matthew sees Christ's preaching in Galilee as the great light dawning on Zebulun and Naphtali. This chapter is read at Christmas in all traditions; the Greek text calls the child 'Angel of Great Counsel', a title the Church gives to Christ in icons and hymns. The Fathers saw the government on His shoulder as the cross He carried.
-FN: De heilige Matteüs ziet de prediking van Christus in Galilea als het grote licht dat opgaat over Zebulon en Naftali. Dit hoofdstuk wordt in alle tradities met Kerstmis gelezen; de Griekse tekst noemt het kind 'Engel van de grote raad', een titel die de Kerk in iconen en hymnen aan Christus geeft. De Vaders zagen de heerschappij op Zijn schouder als het kruis dat Hij droeg.
+FN: De heilige Matteüs ziet de prediking van Christus in Galilea als het grote licht dat opgaat over Zebulon en Naftali. Dit hoofdstuk wordt in alle tradities met Kerstmis gelezen; de Griekse tekst noemt het kind 'Engel van de grote raad', een titel die de Kerk in iconen en hymnen aan Christus geeft. De kerkvaders zagen de heerschappij op Zijn schouder als het kruis dat Hij droeg.
 T: Light in darkness; The Child; Prince of Peace
 TN: Licht in de duisternis; Het Kind; Vredevorst
 
@@ -96,7 +96,7 @@ SN: Wee hun die onrechtvaardige inzettingen maken, om de armen uit het recht te 
 M: God can use even proud empires as instruments, but He judges their arrogance. A faithful remnant learns to lean on the Lord.
 MN: God kan zelfs hoogmoedige rijken als werktuigen gebruiken, maar Hij oordeelt hun hoogmoed. Een trouwe rest leert op de Heer te steunen.
 F: St Paul quotes 'though the number of the sons of Israel be as the sand of the sea, only a remnant will be saved' in Romans 9. The Fathers drew from the image of the boasting axe a lesson against pride: every power, even when used by God, is only an instrument.
-FN: De heilige Paulus citeert 'al was het aantal van de Israëlieten als het zand van de zee, slechts een rest zal behouden worden' in Romeinen 9. De Vaders trokken uit het beeld van de roemende bijl een les tegen hoogmoed: elke macht, ook wanneer God haar gebruikt, is slechts een werktuig.
+FN: De heilige Paulus citeert 'al was het aantal van de Israëlieten als het zand van de zee, slechts een rest zal behouden worden' in Romeinen 9. De kerkvaders trokken uit het beeld van de roemende bijl een les tegen hoogmoed: elke macht, ook wanneer God haar gebruikt, is slechts een werktuig.
 T: Unjust laws; Pride of empires; The remnant
 TN: Onrechtvaardige wetten; Hoogmoed van rijken; De rest
 
@@ -106,7 +106,7 @@ SN: Er zal een Rijsje voortkomen uit de tronk van Isaï, en een Scheut uit zijn 
 M: From the cut-down stump of David's line God raises a king filled with the Spirit, whose justice serves the poor and whose reign heals even creation.
 MN: Uit de afgehouwen stronk van Davids huis doet God een koning opkomen, vervuld met de Geest, wiens gerechtigheid de armen dient en wiens heerschappij zelfs de schepping geneest.
 F: From the Greek and Latin text of this chapter, which adds piety, the Church draws the seven gifts of the Holy Spirit. The Fathers saw the shoot from Jesse's root as Christ and the rod (virga) as the Virgin (virgo) from whom the flower came; the hymn 'Lo, how a rose e'er blooming' and the Jesse Tree in art come from this text. It is read at Christmas Eve.
-FN: Uit de Griekse en Latijnse tekst van dit hoofdstuk, die vroomheid toevoegt, ontleent de Kerk de zeven gaven van de Heilige Geest. De Vaders zagen het rijsje uit de wortel van Isaï als Christus en de twijg (virga) als de Maagd (virgo) uit wie de bloem voortkwam; het lied 'Er is een roos ontloken' en de boom van Jesse in de kunst komen uit deze tekst. Het wordt op Kerstavond gelezen.
+FN: Uit de Griekse en Latijnse tekst van dit hoofdstuk, die vroomheid toevoegt, ontleent de Kerk de zeven gaven van de Heilige Geest. De kerkvaders zagen het rijsje uit de wortel van Isaï als Christus en de twijg (virga) als de Maagd (virgo) uit wie de bloem voortkwam; het lied 'Er is een roos ontloken' en de boom van Jesse in de kunst komen uit deze tekst. Het wordt op Kerstavond gelezen.
 T: Messiah; Gifts of the Spirit; Peace of creation
 TN: Messias; Gaven van de Geest; Vrede van de schepping
 
@@ -116,7 +116,7 @@ SN: U zult op die dag zeggen: ik loof U, Heer, want al was U toornig op mij, Uw 
 M: After judgment comes comfort, and the redeemed people sing. Salvation is like fresh water drawn with joy.
 MN: Na het oordeel komt troost, en het verloste volk zingt. Verlossing is als vers water dat met vreugde geschept wordt.
 F: This song is sung as a canticle at morning prayer in the West and at the Easter Vigil after the readings. The Fathers read the 'wells of salvation' as the sacraments, especially baptism, and the fountains of grace flowing from the pierced side of Christ.
-FN: Dit lied wordt in het Westen gezongen als canticum in het morgengebed en in de Paaswake na de lezingen. De Vaders lazen de 'bronnen van het heil' als de sacramenten, vooral de doop, en de bronnen van genade die uit de doorstoken zijde van Christus stromen.
+FN: Dit lied wordt in het Westen gezongen als canticum in het morgengebed en in de Paaswake na de lezingen. De kerkvaders lazen de 'bronnen van het heil' als de sacramenten, vooral de doop, en de bronnen van genade die uit de doorstoken zijde van Christus stromen.
 T: Thanksgiving; Wells of salvation; Joy
 TN: Dankzegging; Bronnen van het heil; Vreugde
 
@@ -126,7 +126,7 @@ SN: De godsspraak over Babel die Jesaja zag. Steek een banier op op een kale ber
 M: The greatest empire of the age will fall. No human power is permanent before the day of the Lord.
 MN: Het grootste rijk van die tijd zal vallen. Geen menselijke macht is blijvend voor de dag van de Heer.
 F: The Fathers, following Revelation, read Babylon as the image of every proud power opposed to God and of the world's vanity. The darkening of sun and stars is echoed in Christ's words about the end of the age.
-FN: De Vaders lazen Babel, in navolging van Openbaring, als het beeld van elke hoogmoedige macht die tegen God ingaat en van de ijdelheid van de wereld. Het verduisteren van zon en sterren klinkt door in de woorden van Christus over het einde der tijden.
+FN: De kerkvaders lazen Babel, in navolging van Openbaring, als het beeld van elke hoogmoedige macht die tegen God ingaat en van de ijdelheid van de wereld. Het verduisteren van zon en sterren klinkt door in de woorden van Christus over het einde der tijden.
 T: Day of the Lord; Fall of empires; Pride
 TN: Dag van de Heer; Val van rijken; Hoogmoed
 
@@ -136,7 +136,7 @@ SN: De Heer zal Zich over Jakob ontfermen en hen in hun eigen land zetten; vreem
 M: The tyrant who wanted to make himself like God falls into the pit. Pride is the root of the fall; God's plan stands.
 MN: De tiran die zichzelf aan God gelijk wilde maken, valt in de kuil. Hoogmoed is de wortel van de val; Gods plan houdt stand.
 F: Origen, St Jerome and many Fathers, linking this taunt with Christ's word 'I saw Satan fall like lightning from heaven', read the fall of the Day Star, Lucifer in Latin, as the fall of the devil through pride. 'I will make myself like the Most High' became for them the definition of the first sin.
-FN: Origenes, de heilige Hiëronymus en veel Vaders verbonden dit spotlied met het woord van Christus 'Ik zag de satan als een bliksem uit de hemel vallen', en lazen de val van de morgenster, Lucifer in het Latijn, als de val van de duivel door hoogmoed. 'Ik zal aan de Allerhoogste gelijk worden' werd voor hen de definitie van de eerste zonde.
+FN: Origenes, de heilige Hiëronymus en veel kerkvaders verbonden dit spotlied met het woord van Christus 'Ik zag de satan als een bliksem uit de hemel vallen', en lazen de val van de morgenster, Lucifer in het Latijn, als de val van de duivel door hoogmoed. 'Ik zal aan de Allerhoogste gelijk worden' werd voor hen de definitie van de eerste zonde.
 T: Pride and fall; The tyrant's end; Refuge in Zion
 TN: Hoogmoed en val; Het einde van de tiran; Toevlucht in Sion
 
@@ -146,7 +146,7 @@ SN: De godsspraak over Moab. Omdat Ar in Moab in één nacht verwoest is, is Moa
 M: The prophet weeps even over a hostile nation's ruin. God's judgment on the nations is not cold; it is announced with compassion.
 MN: De profeet weent zelfs over de ondergang van een vijandig volk. Gods oordeel over de volken is niet kil; het wordt met mededogen aangekondigd.
 F: The Fathers noted the prophet's tears over Moab, a traditional enemy, as a model for the Christian, who must grieve even over the fall of enemies, and they compared them with Christ weeping over Jerusalem.
-FN: De Vaders merkten de tranen van de profeet over Moab op, een traditionele vijand, als voorbeeld voor de christen, die zelfs om de val van vijanden moet treuren, en zij vergeleken ze met Christus die weent over Jeruzalem.
+FN: De kerkvaders merkten de tranen van de profeet over Moab op, een traditionele vijand, als voorbeeld voor de christen, die zelfs om de val van vijanden moet treuren, en zij vergeleken ze met Christus die weent over Jeruzalem.
 T: Judgment on nations; Compassion; Lament
 TN: Oordeel over de volken; Mededogen; Klacht
 
@@ -156,7 +156,7 @@ SN: De vluchtelingen van Moab worden aangespoord tribuut naar Sion te zenden en 
 M: Even enemy refugees are to find shelter in Zion. A future king from David's tent will rule with steadfast love and justice.
 MN: Zelfs vluchtelingen van de vijand moeten in Sion beschutting vinden. Een toekomstige koning uit de tent van David zal regeren met goedertierenheid en recht.
 F: The Fathers read the throne established in steadfast love in the tent of David as the kingdom of Christ, which welcomes refugees from all nations. They remembered that Ruth, the ancestress of David and of Christ, was a Moabite.
-FN: De Vaders lazen de troon bevestigd in goedertierenheid in de tent van David als het koninkrijk van Christus, dat vluchtelingen uit alle volken verwelkomt. Zij herinnerden eraan dat Ruth, de stammoeder van David en van Christus, een Moabitische was.
+FN: De kerkvaders lazen de troon bevestigd in goedertierenheid in de tent van David als het koninkrijk van Christus, dat vluchtelingen uit alle volken verwelkomt. Zij herinnerden eraan dat Ruth, de stammoeder van David en van Christus, een Moabitische was.
 T: Refuge for strangers; Davidic king; Pride
 TN: Schuilplaats voor vreemdelingen; Koning uit David; Hoogmoed
 
@@ -166,7 +166,7 @@ SN: Damascus zal geen stad meer zijn en een puinhoop worden. De heerlijkheid van
 M: When human alliances and self-made altars fail, people turn back to their Maker. The roaring nations are scattered at God's word.
 MN: Wanneer menselijke bondgenootschappen en zelfgemaakte altaren falen, keren mensen terug naar hun Maker. De bulderende volken worden door Gods woord verstrooid.
 F: The Fathers saw the few olives left on the highest branch as the remnant who believed, the apostles and first disciples from Israel. They read the forgetting of 'the Rock of your refuge' in the light of St Paul: the Rock was Christ.
-FN: De Vaders zagen de enkele olijven op de hoogste tak als de rest die geloofde, de apostelen en eerste leerlingen uit Israël. Zij lazen het vergeten van 'de Rots van uw sterkte' in het licht van de heilige Paulus: de Rots was Christus.
+FN: De kerkvaders zagen de enkele olijven op de hoogste tak als de rest die geloofde, de apostelen en eerste leerlingen uit Israël. Zij lazen het vergeten van 'de Rots van uw sterkte' in het licht van de heilige Paulus: de Rots was Christus.
 T: Judgment; Turning to the Maker; The remnant
 TN: Oordeel; Terugkeer naar de Maker; De rest
 
@@ -176,7 +176,7 @@ SN: Wee het land van de zoemende vleugels aan de overzijde van de rivieren van K
 M: God watches the plans of the nations calmly, like summer heat. In the end even distant Cush brings gifts to Zion.
 MN: God ziet de plannen van de volken rustig aan, als zomerse hitte. Uiteindelijk brengt zelfs het verre Kusj geschenken naar Sion.
 F: The Fathers saw the gifts brought to Zion from Cush, ancient Ethiopia and Nubia, fulfilled in the conversion of the Ethiopian eunuch in Acts 8, who was reading Isaiah, and in the ancient Churches of Ethiopia and Nubia.
-FN: De Vaders zagen de geschenken die uit Kusj, het oude Ethiopië en Nubië, naar Sion gebracht worden, vervuld in de bekering van de Ethiopische kamerheer in Handelingen 8, die Jesaja aan het lezen was, en in de oude Kerken van Ethiopië en Nubië.
+FN: De kerkvaders zagen de geschenken die uit Kusj, het oude Ethiopië en Nubië, naar Sion gebracht worden, vervuld in de bekering van de Ethiopische kamerheer in Handelingen 8, die Jesaja aan het lezen was, en in de oude Kerken van Ethiopië en Nubië.
 T: Nations; God's calm sovereignty; Gifts to Zion
 TN: Volken; Gods rustige soevereiniteit; Geschenken voor Sion
 
@@ -186,7 +186,7 @@ SN: Zie, de Heer rijdt op een snelle wolk en komt naar Egypte; de afgoden van Eg
 M: Egypt, the old oppressor, is judged and then healed and called 'My people'. God's salvation embraces former enemies.
 MN: Egypte, de oude verdrukker, wordt geoordeeld en daarna genezen en 'Mijn volk' genoemd. Gods verlossing omvat vroegere vijanden.
 F: The Fathers read 'the Lord rides on a swift cloud and comes to Egypt' as the flight of the Holy Family into Egypt, with the Christ Child carried by the Virgin, the light cloud; Egyptian tradition says the idols fell as He passed. The Coptic Church sees in the altar in the midst of Egypt her own altars, and venerates the places the Holy Family visited.
-FN: De Vaders lazen 'de Heer rijdt op een snelle wolk en komt naar Egypte' als de vlucht van de Heilige Familie naar Egypte, waarbij het Christuskind gedragen werd door de Maagd, de lichte wolk; de Egyptische overlevering zegt dat de afgodsbeelden vielen waar Hij voorbijkwam. De Koptische Kerk ziet in het altaar midden in Egypte haar eigen altaren en vereert de plaatsen die de Heilige Familie bezocht.
+FN: De kerkvaders lazen 'de Heer rijdt op een snelle wolk en komt naar Egypte' als de vlucht van de Heilige Familie naar Egypte, waarbij het Christuskind gedragen werd door de Maagd, de lichte wolk; de Egyptische overlevering zegt dat de afgodsbeelden vielen waar Hij voorbijkwam. De Koptische Kerk ziet in het altaar midden in Egypte haar eigen altaren en vereert de plaatsen die de Heilige Familie bezocht.
 T: Egypt blessed; Former enemies as God's people; Flight into Egypt
 TN: Egypte gezegend; Vroegere vijanden als Gods volk; Vlucht naar Egypte
 
@@ -196,7 +196,7 @@ SN: In het jaar dat de veldheer naar Asdod kwam en het innam, zegt de Heer tegen
 M: The prophet's own body becomes a sermon: do not put your hope in powerful allies, for they too will fall.
 MN: Het lichaam van de profeet zelf wordt een preek: stel uw hoop niet op machtige bondgenoten, want ook zij zullen vallen.
 F: The Fathers marvelled at the prophet's obedience, enduring shame for three years to deliver God's word. They saw in it a foreshadowing of Christ, stripped of His garments and led away, who bore our shame to save us.
-FN: De Vaders verwonderden zich over de gehoorzaamheid van de profeet, die drie jaar schande verdroeg om Gods woord over te brengen. Zij zagen daarin een voorafbeelding van Christus, ontdaan van Zijn kleren en weggevoerd, die onze schande droeg om ons te redden.
+FN: De kerkvaders verwonderden zich over de gehoorzaamheid van de profeet, die drie jaar schande verdroeg om Gods woord over te brengen. Zij zagen daarin een voorafbeelding van Christus, ontdaan van Zijn kleren en weggevoerd, die onze schande droeg om ons te redden.
 T: Prophetic sign; False hope in allies; Obedience
 TN: Profetisch teken; Valse hoop op bondgenoten; Gehoorzaamheid
 
@@ -206,7 +206,7 @@ SN: De godsspraak over de woestijn aan de zee: een hard visioen is mij bekendgem
 M: The prophet is a watchman who reports what God shows him, even when it is hard. To those who ask how long the night will last, the answer is: morning is coming, but keep asking.
 MN: De profeet is een wachter die meldt wat God hem toont, ook als het zwaar is. Aan wie vraagt hoe lang de nacht nog duurt, luidt het antwoord: de morgen komt, maar blijf vragen.
 F: Revelation echoes 'fallen, fallen is Babylon'. The Fathers made the watchman an image of the bishop and pastor, who must keep vigil for the souls entrusted to him and answer those who ask about the night of this age.
-FN: Openbaring weerspiegelt 'gevallen, gevallen is Babel'. De Vaders maakten van de wachter een beeld van de bisschop en herder, die moet waken over de zielen die hem zijn toevertrouwd en moet antwoorden aan wie vragen naar de nacht van deze tijd.
+FN: Openbaring weerspiegelt 'gevallen, gevallen is Babel'. De kerkvaders maakten van de wachter een beeld van de bisschop en herder, die moet waken over de zielen die hem zijn toevertrouwd en moet antwoorden aan wie vragen naar de nacht van deze tijd.
 T: The watchman; Fall of Babylon; Waiting for morning
 TN: De wachter; Val van Babel; Wachten op de morgen
 
@@ -226,7 +226,7 @@ SN: De godsspraak over Tyrus. Jammer, schepen van Tarsis, want Tyrus is verwoest
 M: The great trading city, proud of its wealth, is humbled. Yet in the end even commercial wealth can be made holy and serve God's people.
 MN: De grote handelsstad, trots op haar rijkdom, wordt vernederd. Toch kan uiteindelijk zelfs handelsrijkdom geheiligd worden en Gods volk dienen.
 F: The Fathers noted that Christ visited the region of Tyre and Sidon and healed the daughter of the Canaanite woman, and that there was an early Christian community in Tyre (Acts 21). They read the consecration of Tyre's wealth as the conversion of the merchant world to Christ.
-FN: De Vaders merkten op dat Christus de streek van Tyrus en Sidon bezocht en de dochter van de Kanaänitische vrouw genas, en dat er al vroeg een christelijke gemeente in Tyrus was (Handelingen 21). Zij lazen de heiliging van de rijkdom van Tyrus als de bekering van de handelswereld tot Christus.
+FN: De kerkvaders merkten op dat Christus de streek van Tyrus en Sidon bezocht en de dochter van de Kanaänitische vrouw genas, en dat er al vroeg een christelijke gemeente in Tyrus was (Handelingen 21). Zij lazen de heiliging van de rijkdom van Tyrus als de bekering van de handelswereld tot Christus.
 T: Wealth and pride; Humbling; Wealth made holy
 TN: Rijkdom en hoogmoed; Vernedering; Geheiligde rijkdom
 
@@ -236,7 +236,7 @@ SN: Zie, de Heer zal de aarde ontledigen en haar verwoesten. Zoals het volk, zo 
 M: Human sin defiles the whole earth, and judgment touches every class alike. Beyond the catastrophe, God's reign shines brighter than sun and moon.
 MN: Menselijke zonde ontheiligt de hele aarde, en het oordeel treft elke stand gelijk. Voorbij de ramp straalt Gods heerschappij helderder dan zon en maan.
 F: Chapters 24–27, often called the 'Isaiah Apocalypse', were read by the Fathers as a prophecy of the end of the world and the final judgment. They saw in the Lord reigning before His elders the vision of Revelation, where the elders worship before the throne.
-FN: De hoofdstukken 24–27, vaak de 'Apocalyps van Jesaja' genoemd, werden door de Vaders gelezen als een profetie over het einde van de wereld en het laatste oordeel. Zij zagen in de Heer die regeert voor Zijn oudsten het visioen van Openbaring, waar de oudsten voor de troon aanbidden.
+FN: De hoofdstukken 24–27, vaak de 'Apocalyps van Jesaja' genoemd, werden door de kerkvaders gelezen als een profetie over het einde van de wereld en het laatste oordeel. Zij zagen in de Heer die regeert voor Zijn oudsten het visioen van Openbaring, waar de oudsten voor de troon aanbidden.
 T: Cosmic judgment; Broken covenant; God's reign
 TN: Kosmisch oordeel; Gebroken verbond; Gods heerschappij
 
@@ -246,7 +246,7 @@ SN: Heer, U bent mijn God; ik zal U verheffen; ik zal Uw naam loven, want U hebt
 M: God prepares a banquet for all peoples, removes the shroud of mourning and swallows up death itself. This is the great hope of the Bible.
 MN: God bereidt een maaltijd voor alle volken, neemt het rouwkleed weg en verslindt de dood zelf. Dit is de grote hoop van de Bijbel.
 F: St Paul quotes 'death is swallowed up in victory' in 1 Corinthians 15, and Revelation takes up 'God will wipe away every tear'. The Fathers saw the feast on the mountain as the Eucharist and the wedding banquet of the Lamb. The chapter is read at funerals in the West.
-FN: De heilige Paulus citeert 'de dood is verslonden in de overwinning' in 1 Korintiërs 15, en Openbaring neemt 'God zal alle tranen afwissen' op. De Vaders zagen de maaltijd op de berg als de Eucharistie en de bruiloftsmaaltijd van het Lam. Het hoofdstuk wordt in het Westen bij uitvaarten gelezen.
+FN: De heilige Paulus citeert 'de dood is verslonden in de overwinning' in 1 Korintiërs 15, en Openbaring neemt 'God zal alle tranen afwissen' op. De kerkvaders zagen de maaltijd op de berg als de Eucharistie en de bruiloftsmaaltijd van het Lam. Het hoofdstuk wordt in het Westen bij uitvaarten gelezen.
 T: The banquet; Death defeated; Tears wiped away
 TN: De maaltijd; De dood verslagen; Tranen afgewist
 
@@ -256,7 +256,7 @@ SN: Op die dag zal dit lied gezongen worden in het land Juda: wij hebben een ste
 M: Trust brings perfect peace, and longing for God fills even the night. Isaiah dares to hope that the dead will rise.
 MN: Vertrouwen brengt volkomen vrede, en verlangen naar God vult zelfs de nacht. Jesaja durft te hopen dat de doden zullen opstaan.
 F: The prayer 'From the night my spirit seeks You early, O God, for Your commandments are a light upon the earth' forms the fifth biblical ode of the Byzantine canon, and its themes run through every fifth ode. The Fathers saw 'your dead shall live; their bodies shall rise' as one of the clearest Old Testament prophecies of the resurrection.
-FN: Het gebed 'Uit de nacht zoekt mijn geest U vroeg, o God, want Uw geboden zijn een licht op de aarde' vormt de vijfde bijbelse ode van de Byzantijnse canon, en de thema's ervan lopen door elke vijfde ode. De Vaders zagen 'uw doden zullen leven; hun lichamen zullen opstaan' als een van de duidelijkste profetieën van de opstanding in het Oude Testament.
+FN: Het gebed 'Uit de nacht zoekt mijn geest U vroeg, o God, want Uw geboden zijn een licht op de aarde' vormt de vijfde bijbelse ode van de Byzantijnse canon, en de thema's ervan lopen door elke vijfde ode. De kerkvaders zagen 'uw doden zullen leven; hun lichamen zullen opstaan' als een van de duidelijkste profetieën van de opstanding in het Oude Testament.
 T: Perfect peace; Night prayer; Resurrection
 TN: Volkomen vrede; Nachtgebed; Opstanding
 
@@ -266,7 +266,7 @@ SN: Op die dag zal de Heer met Zijn harde, grote en sterke zwaard Leviatan straf
 M: God defeats the ancient serpent and tends His people like a beloved vineyard. The song of the vineyard from chapter 5 turns from judgment to joy.
 MN: God verslaat de oude slang en verzorgt Zijn volk als een geliefde wijngaard. Het lied van de wijngaard uit hoofdstuk 5 keert van oordeel naar vreugde.
 F: The Fathers saw in the slaying of Leviathan the twisting serpent Christ's victory over the devil, 'that ancient serpent' of Revelation; the Byzantine Theophany hymns speak of Christ crushing the heads of the dragons in the Jordan. The great trumpet was read as the trumpet of the resurrection.
-FN: De Vaders zagen in het doden van Leviatan, de kronkelende slang, de overwinning van Christus op de duivel, 'de oude slang' van Openbaring; de Byzantijnse hymnen van Theofanie spreken over Christus die de koppen van de draken in de Jordaan verbrijzelt. De grote bazuin werd gelezen als de bazuin van de opstanding.
+FN: De kerkvaders zagen in het doden van Leviatan, de kronkelende slang, de overwinning van Christus op de duivel, 'de oude slang' van Openbaring; de Byzantijnse hymnen van Theofanie spreken over Christus die de koppen van de draken in de Jordaan verbrijzelt. De grote bazuin werd gelezen als de bazuin van de opstanding.
 T: Victory over evil; God's vineyard; Gathering
 TN: Overwinning op het kwaad; Gods wijngaard; Verzameling
 
@@ -276,7 +276,7 @@ SN: Wee de hoogmoedige kroon van de dronkaards van Efraïm, de verwelkende bloem
 M: Leaders drunk with pride scorn God's patient teaching. God lays a sure foundation in Zion; whoever trusts it will stand.
 MN: Leiders die dronken zijn van hoogmoed, minachten Gods geduldig onderwijs. God legt een vast fundament in Sion; wie daarop vertrouwt, zal staan.
 F: St Peter and St Paul apply the precious cornerstone laid in Zion to Christ. St Paul quotes 'by strange lips and a foreign tongue' in his teaching on speaking in tongues. The Fathers saw in the farmer's parable God's wisdom in dealing with each soul according to its nature.
-FN: De heilige Petrus en de heilige Paulus passen de kostbare hoeksteen die in Sion gelegd is toe op Christus. De heilige Paulus citeert 'door stamelende lippen en een vreemde tong' in zijn onderwijs over het spreken in tongen. De Vaders zagen in de gelijkenis van de boer Gods wijsheid in de omgang met elke ziel naar haar aard.
+FN: De heilige Petrus en de heilige Paulus passen de kostbare hoeksteen die in Sion gelegd is toe op Christus. De heilige Paulus citeert 'door stamelende lippen en een vreemde tong' in zijn onderwijs over het spreken in tongen. De kerkvaders zagen in de gelijkenis van de boer Gods wijsheid in de omgang met elke ziel naar haar aard.
 T: Pride; The cornerstone; God's patient wisdom
 TN: Hoogmoed; De hoeksteen; Gods geduldige wijsheid
 
@@ -286,7 +286,7 @@ SN: Wee Ariël, de stad waar David zich legerde! Ik zal Ariël benauwen, maar de
 M: Religion of the lips without the heart is empty and blind. God promises to open deaf ears and blind eyes and to bring joy to the humble.
 MN: Godsdienst van de lippen zonder het hart is leeg en blind. God belooft dove oren en blinde ogen te openen en de nederigen vreugde te brengen.
 F: Christ quotes 'this people honours Me with their lips, but their heart is far from Me' against the tradition of men that empties God's command. The Fathers saw the sealed book as the Scriptures that remain closed until Christ opens them, and the deaf hearing and the blind seeing as fulfilled in His miracles.
-FN: Christus citeert 'dit volk eert Mij met de lippen, maar hun hart is ver van Mij' tegen de menselijke overlevering die Gods gebod uitholt. De Vaders zagen het verzegelde boek als de Schriften die gesloten blijven totdat Christus ze opent, en het horen van de doven en het zien van de blinden als vervuld in Zijn wonderen.
+FN: Christus citeert 'dit volk eert Mij met de lippen, maar hun hart is ver van Mij' tegen de menselijke overlevering die Gods gebod uitholt. De kerkvaders zagen het verzegelde boek als de Schriften die gesloten blijven totdat Christus ze opent, en het horen van de doven en het zien van de blinden als vervuld in Zijn wonderen.
 T: Lip service; The sealed book; Opened eyes
 TN: Lippendienst; Het verzegelde boek; Geopende ogen
 
@@ -296,7 +296,7 @@ SN: Wee de opstandige kinderen, die een plan uitvoeren, maar niet het Mijne, die
 M: Panic seeks human alliances; faith returns to God in quiet trust. God Himself waits to be gracious and guides the steps of those who turn back.
 MN: Paniek zoekt menselijke bondgenootschappen; geloof keert in stil vertrouwen terug tot God. God Zelf wacht om genadig te zijn en leidt de stappen van wie terugkeren.
 F: Spiritual writers have long taken 'in quietness and trust shall be your strength' as a description of the stillness in which prayer grows. The Fathers saw the Teacher who no longer hides as Christ, the Word made visible, and the voice behind us as the Holy Spirit guiding the conscience.
-FN: Geestelijke schrijvers hebben 'in stilheid en vertrouwen zal uw kracht zijn' al lang opgevat als een beschrijving van de stilte waarin het gebed groeit. De Vaders zagen de Leraar die Zich niet meer verbergt als Christus, het zichtbaar geworden Woord, en de stem achter ons als de Heilige Geest die het geweten leidt.
+FN: Geestelijke schrijvers hebben 'in stilheid en vertrouwen zal uw kracht zijn' al lang opgevat als een beschrijving van de stilte waarin het gebed groeit. De kerkvaders zagen de Leraar die Zich niet meer verbergt als Christus, het zichtbaar geworden Woord, en de stem achter ons als de Heilige Geest die het geweten leidt.
 T: Trust instead of alliances; Quietness; Guidance
 TN: Vertrouwen in plaats van bondgenootschappen; Stilte; Leiding
 
@@ -306,7 +306,7 @@ SN: Wee hun die naar Egypte gaan om hulp en op paarden steunen, die op wagens ve
 M: Human power is flesh, not spirit; only God can truly protect. Like a lion and like a mother bird, He guards His city.
 MN: Menselijke macht is vlees, geen geest; alleen God kan werkelijk beschermen. Als een leeuw en als een moedervogel bewaakt Hij Zijn stad.
 F: The Fathers loved the image of God hovering like birds over Jerusalem, echoed in Christ's lament: how often would I have gathered your children as a hen gathers her brood under her wings. They taught that every trust in created power instead of God is a 'going down to Egypt'.
-FN: De Vaders hielden van het beeld van God die als vogels boven Jeruzalem fladdert, weerklinkend in de klacht van Christus: hoe dikwijls heb Ik uw kinderen willen bijeenbrengen zoals een hen haar kuikens onder haar vleugels. Zij leerden dat elk vertrouwen op geschapen macht in plaats van op God een 'afdalen naar Egypte' is.
+FN: De kerkvaders hielden van het beeld van God die als vogels boven Jeruzalem fladdert, weerklinkend in de klacht van Christus: hoe dikwijls heb Ik uw kinderen willen bijeenbrengen zoals een hen haar kuikens onder haar vleugels. Zij leerden dat elk vertrouwen op geschapen macht in plaats van op God een 'afdalen naar Egypte' is.
 T: False security; God's protection; Return to God
 TN: Valse zekerheid; Gods bescherming; Terugkeer tot God
 
@@ -316,7 +316,7 @@ SN: Zie, een koning zal regeren in gerechtigheid, en vorsten zullen heersen naar
 M: Righteous leaders are a shelter for others. The true change comes when God pours out His Spirit, and righteousness bears the fruit of peace.
 MN: Rechtvaardige leiders zijn een schuilplaats voor anderen. De ware verandering komt wanneer God Zijn Geest uitgiet, en gerechtigheid de vrucht van vrede draagt.
 F: The Fathers read the outpouring of the Spirit from on high, making the wilderness fruitful, as fulfilled at Pentecost. The king who reigns in righteousness and is a shade in a weary land was read as Christ.
-FN: De Vaders lazen de uitstorting van de Geest uit de hoogte, die de woestijn vruchtbaar maakt, als vervuld met Pinksteren. De koning die regeert in gerechtigheid en een schaduw is in een uitgeput land, werd gelezen als Christus.
+FN: De kerkvaders lazen de uitstorting van de Geest uit de hoogte, die de woestijn vruchtbaar maakt, als vervuld met Pinksteren. De koning die regeert in gerechtigheid en een schaduw is in een uitgeput land, werd gelezen als Christus.
 T: Righteous rule; Outpouring of the Spirit; Peace
 TN: Rechtvaardig bestuur; Uitstorting van de Geest; Vrede
 
@@ -326,6 +326,6 @@ SN: Wee u, verwoester, die zelf niet verwoest bent. Heer, wees ons genadig; op U
 M: God's holiness is a consuming fire, yet the just can dwell with Him. The promise is to see the King in His beauty in a land where sin is forgiven and sickness ends.
 MN: Gods heiligheid is een verterend vuur, maar de rechtvaardige kan bij Hem wonen. De belofte is de Koning te zien in Zijn schoonheid, in een land waar de zonde vergeven is en de ziekte eindigt.
 F: The Fathers read 'your eyes will see the King in His beauty' as the promise of the vision of God in Christ, both in the Transfiguration and in the age to come. The question 'who can dwell with the consuming fire?' is answered as in Psalms 15 and 24: the one with clean hands and an upright heart.
-FN: De Vaders lazen 'uw ogen zullen de Koning zien in Zijn schoonheid' als de belofte van het aanschouwen van God in Christus, zowel in de Gedaanteverandering als in de komende eeuw. De vraag 'wie kan verblijven bij een verterend vuur?' wordt beantwoord zoals in Psalm 15 en 24: wie reine handen en een oprecht hart heeft.
+FN: De kerkvaders lazen 'uw ogen zullen de Koning zien in Zijn schoonheid' als de belofte van het aanschouwen van God in Christus, zowel in de Gedaanteverandering als in de komende eeuw. De vraag 'wie kan verblijven bij een verterend vuur?' wordt beantwoord zoals in Psalm 15 en 24: wie reine handen en een oprecht hart heeft.
 T: Consuming fire; Integrity; Vision of the King
 TN: Verterend vuur; Integriteit; Het zien van de Koning

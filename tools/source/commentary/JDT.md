@@ -6,7 +6,7 @@ SN: Nebukadnezar, die regeert over de Assyriërs in Ninevé, voert oorlog tegen 
 M: The story opens with a world power that demands total submission. The details are symbolic rather than historical: Nebuchadnezzar of Babylon is called king of Assyria to represent every proud empire.
 MN: Het verhaal opent met een wereldmacht die totale onderwerping eist. De details zijn eerder symbolisch dan historisch: Nebukadnezar van Babel wordt koning van Assyrië genoemd om elk hoogmoedig rijk te vertegenwoordigen.
 F: Christian readers have long recognised that Judith tells its story in a deliberately stylised way, combining names and empires from different periods, so that the conflict becomes timeless: the proud power of this world against the God of the humble. The Fathers read it as a story about faith and prayer more than about politics.
-FN: Christelijke lezers hebben lang erkend dat Judit haar verhaal op een bewust gestileerde manier vertelt, door namen en rijken uit verschillende tijden te combineren, zodat het conflict tijdloos wordt: de hoogmoedige macht van deze wereld tegenover de God van de nederigen. De Vaders lazen het als een verhaal over geloof en gebed, meer dan over politiek.
+FN: Christelijke lezers hebben lang erkend dat Judit haar verhaal op een bewust gestileerde manier vertelt, door namen en rijken uit verschillende tijden te combineren, zodat het conflict tijdloos wordt: de hoogmoedige macht van deze wereld tegenover de God van de nederigen. De kerkvaders lazen het als een verhaal over geloof en gebed, meer dan over politiek.
 T: Proud empire; Demand for submission; A timeless conflict
 TN: Hoogmoedig rijk; Eis tot onderwerping; Een tijdloos conflict
 
@@ -26,7 +26,7 @@ SN: De kustvolken sturen boden om vrede te vragen: wij, de dienaren van Nebukadn
 M: Submission does not satisfy the tyrant; he demands worship. The real issue of the book becomes clear: who is God?
 MN: Onderwerping bevredigt de tiran niet; hij eist aanbidding. De werkelijke vraag van het boek wordt duidelijk: wie is God?
 F: The Fathers saw in Nebuchadnezzar's demand to be worshipped as a god the same claim made by the persecuting emperors who demanded sacrifice, and the pattern of every power that seeks to take God's place. Those who yield in everything still lose everything.
-FN: De Vaders zagen in de eis van Nebukadnezar om als god aanbeden te worden dezelfde aanspraak die de vervolgende keizers maakten toen zij offers eisten, en het patroon van elke macht die Gods plaats wil innemen. Wie in alles toegeeft, verliest toch alles.
+FN: De kerkvaders zagen in de eis van Nebukadnezar om als god aanbeden te worden dezelfde aanspraak die de vervolgende keizers maakten toen zij offers eisten, en het patroon van elke macht die Gods plaats wil innemen. Wie in alles toegeeft, verliest toch alles.
 T: Who is God?; Demand for worship; Submission without end
 TN: Wie is God?; Eis tot aanbidding; Onderwerping zonder einde
 
@@ -36,7 +36,7 @@ SN: De Israëlieten in Judea horen wat Holofernes gedaan heeft en zijn doodsbang
 M: The small nation prepares both practically and spiritually. The whole community, from high priest to slave, turns to God with fasting and prayer.
 MN: Het kleine volk bereidt zich zowel praktisch als geestelijk voor. De hele gemeenschap, van hogepriester tot slaaf, keert zich tot God met vasten en gebed.
 F: The Fathers held up Israel's united fasting and prayer as the model for the Church in times of danger, when all, great and small, humble themselves together before God. 'The Lord heard their cry' was read as the assurance that common prayer is never in vain.
-FN: De Vaders stelden het eensgezinde vasten en bidden van Israël voor als voorbeeld voor de Kerk in tijden van gevaar, wanneer allen, groot en klein, zich samen voor God verootmoedigen. 'De Heer hoorde hun roep' werd gelezen als de zekerheid dat gemeenschappelijk gebed nooit tevergeefs is.
+FN: De kerkvaders stelden het eensgezinde vasten en bidden van Israël voor als voorbeeld voor de Kerk in tijden van gevaar, wanneer allen, groot en klein, zich samen voor God verootmoedigen. 'De Heer hoorde hun roep' werd gelezen als de zekerheid dat gemeenschappelijk gebed nooit tevergeefs is.
 T: Common prayer; Fasting in danger; God hears
 TN: Gemeenschappelijk gebed; Vasten in gevaar; God hoort
 
@@ -46,7 +46,7 @@ SN: Holofernes is woedend dat Israël zich voorbereidt op verzet en vraagt de le
 M: A foreigner tells Israel's history more truly than the powerful want to hear. Israel's strength is not its army but its faithfulness to God.
 MN: Een vreemdeling vertelt de geschiedenis van Israël waarachtiger dan de machtigen willen horen. De kracht van Israël is niet zijn leger, maar zijn trouw aan God.
 F: The Fathers admired Achior, a Gentile who speaks the truth about God's people before a tyrant, and saw in him an image of the Gentiles who would come to know the God of Israel. His words, that Israel is invincible while it does not sin, were read as a lesson for the Church: her true defence is holiness.
-FN: De Vaders bewonderden Achior, een heiden die voor een tiran de waarheid spreekt over Gods volk, en zagen in hem een beeld van de heidenen die de God van Israël zouden leren kennen. Zijn woorden, dat Israël onoverwinnelijk is zolang het niet zondigt, werden gelezen als een les voor de Kerk: haar ware verdediging is heiligheid.
+FN: De kerkvaders bewonderden Achior, een heiden die voor een tiran de waarheid spreekt over Gods volk, en zagen in hem een beeld van de heidenen die de God van Israël zouden leren kennen. Zijn woorden, dat Israël onoverwinnelijk is zolang het niet zondigt, werden gelezen als een les voor de Kerk: haar ware verdediging is heiligheid.
 T: Truth before power; Strength in faithfulness; A Gentile witness
 TN: Waarheid voor de macht; Kracht in trouw; Een heidense getuige
 
@@ -56,7 +56,7 @@ SN: Holofernes antwoordt Achior in woede: wie bent u om te profeteren dat de God
 M: 'Who is God except Nebuchadnezzar?' The question is now explicit. The one rejected by the tyrant is welcomed by God's people.
 MN: 'Wie is God, behalve Nebukadnezar?' De vraag is nu uitdrukkelijk. Wie door de tiran verworpen wordt, wordt door Gods volk verwelkomd.
 F: The Fathers contrasted Holofernes' blasphemous question, 'who is God except Nebuchadnezzar?', with the confession of the faithful, and saw in the welcome given to Achior, the outsider, an image of the Church receiving those who are cast out for speaking the truth.
-FN: De Vaders stelden de godslasterlijke vraag van Holofernes, 'wie is God, behalve Nebukadnezar?', tegenover de belijdenis van de gelovigen, en zagen in het welkom dat Achior, de buitenstaander, ontving, een beeld van de Kerk die hen opneemt die verstoten worden omdat zij de waarheid spreken.
+FN: De kerkvaders stelden de godslasterlijke vraag van Holofernes, 'wie is God, behalve Nebukadnezar?', tegenover de belijdenis van de gelovigen, en zagen in het welkom dat Achior, de buitenstaander, ontving, een beeld van de Kerk die hen opneemt die verstoten worden omdat zij de waarheid spreken.
 T: Blasphemy of power; Welcome for the outcast; Prayer through the night
 TN: Godslastering van de macht; Welkom voor de verstotene; Gebed in de nacht
 
@@ -66,17 +66,17 @@ SN: Holofernes trekt met zijn enorme leger op tegen Betulia en neemt de bronnen 
 M: Thirst and despair wear down faith. Uzziah, meaning well, sets a deadline for God.
 MN: Dorst en wanhoop slijten het geloof af. Uzzia, met goede bedoelingen, stelt God een termijn.
 F: The Fathers saw in the siege of Bethulia an image of the soul under prolonged temptation, when the wells of consolation seem cut off. They noted that despair speaks the language of realism: better to surrender than to suffer.
-FN: De Vaders zagen in het beleg van Betulia een beeld van de ziel onder langdurige verzoeking, wanneer de bronnen van troost afgesneden lijken. Zij merkten op dat wanhoop de taal van realisme spreekt: beter overgeven dan lijden.
+FN: De kerkvaders zagen in het beleg van Betulia een beeld van de ziel onder langdurige verzoeking, wanneer de bronnen van troost afgesneden lijken. Zij merkten op dat wanhoop de taal van realisme spreekt: beter overgeven dan lijden.
 T: Prolonged trial; Despair; Deadlines for God
 TN: Langdurige beproeving; Wanhoop; Termijnen voor God
 
 ## 8 | Judith rebukes the elders | Judit berispt de oudsten
 S: Judith hears of this. She is the widow of Manasseh, who died of sunstroke at the barley harvest; for three years and four months she has lived as a widow in a tent on her roof, wearing sackcloth and fasting all the days of her widowhood except the eve of the Sabbath, the Sabbath and the feasts. She is beautiful and wealthy, and no one speaks ill of her, for she fears God greatly. She summons the elders: listen to me. What you said to the people today is not right; you have sworn to surrender the city unless the Lord helps you within five days. Who are you to put God to the test this day and set yourselves in the place of God? You cannot plumb the depths of the human heart; how can you search out God, who made all these things? Do not try to bind the purposes of the Lord our God, for God is not like man, to be threatened. Let us wait for His deliverance and call on Him to help us. Let us give thanks to the Lord our God, who is testing us as He tested our fathers, Abraham, Isaac and Jacob. The Lord scourges those who draw near to Him in order to admonish them. Judith announces that she will do something that will go down through all generations, but will not say what.
-SN: Judit hoort hiervan. Zij is de weduwe van Manasse, die tijdens de gersteoogst aan een zonnesteek stierf; drie jaar en vier maanden leeft zij als weduwe in een tent op haar dak, in een rouwgewaad, en vast al de dagen van haar weduwschap behalve de dag vóór de sabbat, de sabbat en de feesten. Zij is mooi en rijk, en niemand spreekt kwaad over haar, want zij vreest God zeer. Zij roept de oudsten bijeen: luister naar mij. Wat u vandaag tot het volk gezegd hebt, is niet juist; u hebt gezworen de stad over te geven tenzij de Heer u binnen vijf dagen helpt. Wie bent u dat u God vandaag op de proef stelt en uzelf in de plaats van God stelt? U kunt de diepten van het menselijk hart niet peilen; hoe kunt u God doorgronden, die al deze dingen gemaakt heeft? Probeer de plannen van de Heer, onze God, niet te binden, want God is niet als een mens, die men kan dreigen. Laten wij wachten op Zijn redding en Hem aanroepen om ons te helpen. Laten wij de Heer, onze God, danken, die ons beproeft zoals Hij onze vaderen beproefde, Abraham, Isaak en Jakob. De Heer kastijdt wie tot Hem naderen om hen te vermanen. Judit kondigt aan dat zij iets zal doen dat door alle geslachten heen bekend zal worden, maar zegt niet wat.
+SN: Judit hoort hiervan. Zij is de weduwe van Manasse, die tijdens de gerstoogst aan een zonnesteek stierf; drie jaar en vier maanden leeft zij als weduwe in een tent op haar dak, in een rouwgewaad, en vast al de dagen van haar weduwschap behalve de dag vóór de sabbat, de sabbat en de feesten. Zij is mooi en rijk, en niemand spreekt kwaad over haar, want zij vreest God zeer. Zij roept de oudsten bijeen: luister naar mij. Wat u vandaag tot het volk gezegd hebt, is niet juist; u hebt gezworen de stad over te geven tenzij de Heer u binnen vijf dagen helpt. Wie bent u dat u God vandaag op de proef stelt en uzelf in de plaats van God stelt? U kunt de diepten van het menselijk hart niet peilen; hoe kunt u God doorgronden, die al deze dingen gemaakt heeft? Probeer de plannen van de Heer, onze God, niet te binden, want God is niet als een mens, die men kan dreigen. Laten wij wachten op Zijn redding en Hem aanroepen om ons te helpen. Laten wij de Heer, onze God, danken, die ons beproeft zoals Hij onze vaderen beproefde, Abraham, Isaak en Jakob. De Heer kastijdt wie tot Hem naderen om hen te vermanen. Judit kondigt aan dat zij iets zal doen dat door alle geslachten heen bekend zal worden, maar zegt niet wat.
 M: A praying widow sees more clearly than the elders. We do not set deadlines for God; we trust Him, give thanks even in trial, and act.
 MN: Een biddende weduwe ziet helderder dan de oudsten. Wij stellen God geen termijnen; wij vertrouwen op Hem, danken zelfs in de beproeving, en handelen.
 F: St Jerome, who translated the book, commends Judith as an example of chastity to be imitated by men as well as women, and St Ambrose praises her in his treatise On Widows for her fasting, prayer and courage. The Fathers loved her rebuke, 'who are you to put God to the test?', as a lesson against dictating terms to God, and her call to give thanks even in trial as true faith.
-FN: De heilige Hiëronymus, die het boek vertaalde, prijst Judit als een voorbeeld van kuisheid dat niet alleen door vrouwen, maar ook door mannen nagevolgd moet worden, en de heilige Ambrosius prijst haar in zijn verhandeling Over weduwen om haar vasten, gebed en moed. De Vaders hielden van haar berisping, 'wie bent u dat u God op de proef stelt?', als een les tegen het stellen van voorwaarden aan God, en van haar oproep om zelfs in de beproeving te danken als waar geloof.
+FN: De heilige Hiëronymus, die het boek vertaalde, prijst Judit als een voorbeeld van kuisheid dat niet alleen door vrouwen, maar ook door mannen nagevolgd moet worden, en de heilige Ambrosius prijst haar in zijn verhandeling Over weduwen om haar vasten, gebed en moed. De kerkvaders hielden van haar berisping, 'wie bent u dat u God op de proef stelt?', als een les tegen het stellen van voorwaarden aan God, en van haar oproep om zelfs in de beproeving te danken als waar geloof.
 T: Do not test God; Thanksgiving in trial; The praying widow
 TN: Stel God niet op de proef; Dank in de beproeving; De biddende weduwe
 
@@ -96,7 +96,7 @@ SN: Wanneer Judit klaar is met bidden, staat zij op, roept haar dienstmaagd, gaa
 M: Judith goes out alone with her maid into the camp of the enemy, armed with prayer and courage. She even brings her own clean food.
 MN: Judit gaat alleen met haar dienstmaagd het kamp van de vijand in, gewapend met gebed en moed. Zij neemt zelfs haar eigen reine voedsel mee.
 F: St Clement of Rome praises the blessed Judith, who, when her city was besieged, went out into the camp of the enemy, exposing herself to danger out of love for her country and her people. The Fathers saw in her going out the courage that faith gives to the weak.
-FN: De heilige Clemens van Rome prijst de zalige Judit, die, toen haar stad belegerd werd, naar het kamp van de vijand ging en zich aan gevaar blootstelde uit liefde voor haar land en haar volk. De Vaders zagen in haar uittocht de moed die het geloof aan de zwakken geeft.
+FN: De heilige Clemens van Rome prijst de zalige Judit, die, toen haar stad belegerd werd, naar het kamp van de vijand ging en zich aan gevaar blootstelde uit liefde voor haar land en haar volk. De kerkvaders zagen in haar uittocht de moed die het geloof aan de zwakken geeft.
 T: Courage; Going out alone; Love for one's people
 TN: Moed; Alleen naar buiten gaan; Liefde voor het eigen volk
 
@@ -106,7 +106,7 @@ SN: Holofernes ontvangt haar: houd moed, vrouw; ik heb nooit iemand kwaad gedaan
 M: Judith's words are full of irony: what she says is often true in a sense Holofernes does not understand. The proud are deceived by their own desires.
 MN: De woorden van Judit zijn vol ironie: wat zij zegt is vaak waar in een zin die Holofernes niet begrijpt. De hoogmoedigen worden misleid door hun eigen begeerten.
 F: Christian readers have wrestled with Judith's deceptions. The Fathers praised her courage, chastity and prayer rather than her stratagems, and the Church has not taken her story, set in a time of war, as a general permission to deceive. Readers also note the irony: Holofernes, who claims to rule the earth, is mastered by his own desire.
-FN: Christelijke lezers hebben geworsteld met de misleidingen van Judit. De Vaders prezen haar moed, kuisheid en gebed, niet haar listen, en de Kerk heeft haar verhaal, dat zich in een tijd van oorlog afspeelt, niet opgevat als een algemene toestemming om te misleiden. Lezers merken ook de ironie op: Holofernes, die beweert de aarde te beheersen, wordt beheerst door zijn eigen begeerte.
+FN: Christelijke lezers hebben geworsteld met de misleidingen van Judit. De kerkvaders prezen haar moed, kuisheid en gebed, niet haar listen, en de Kerk heeft haar verhaal, dat zich in een tijd van oorlog afspeelt, niet opgevat als een algemene toestemming om te misleiden. Lezers merken ook de ironie op: Holofernes, die beweert de aarde te beheersen, wordt beheerst door zijn eigen begeerte.
 T: Irony; Mastered by desire; A hard question
 TN: Ironie; Beheerst door begeerte; Een moeilijke vraag
 
@@ -116,7 +116,7 @@ SN: Holofernes beveelt dat zij bediend wordt van zijn eigen eten en wijn, maar J
 M: In the enemy's camp Judith keeps God's law, prays at night and keeps herself pure. Her discipline contrasts with Holofernes' lack of self-control.
 MN: In het kamp van de vijand houdt Judit Gods wet, bidt 's nachts en houdt zichzelf rein. Haar discipline staat tegenover het gebrek aan zelfbeheersing van Holofernes.
 F: The Fathers praised Judith's fidelity in the midst of the enemy, keeping the law, fasting and praying each night, as an example for Christians living in a hostile world. They contrasted her temperance with Holofernes' drunkenness and lust, which deliver him into her hands.
-FN: De Vaders prezen de trouw van Judit te midden van de vijand, het houden van de wet, vasten en elke nacht bidden, als voorbeeld voor christenen die in een vijandige wereld leven. Zij stelden haar matigheid tegenover de dronkenschap en wellust van Holofernes, die hem in haar handen overleveren.
+FN: De kerkvaders prezen de trouw van Judit te midden van de vijand, het houden van de wet, vasten en elke nacht bidden, als voorbeeld voor christenen die in een vijandige wereld leven. Zij stelden haar matigheid tegenover de dronkenschap en wellust van Holofernes, die hem in haar handen overleveren.
 T: Faithful among enemies; Night prayer; Temperance and excess
 TN: Trouw te midden van vijanden; Nachtelijk gebed; Matigheid en overdaad
 
@@ -136,7 +136,7 @@ SN: Judit zegt het volk het hoofd aan de muur te hangen en bij het aanbreken van
 M: The Gentile Achior, who spoke the truth about Israel's God, now believes in Him. The army that terrified the world collapses in panic.
 MN: De heiden Achior, die de waarheid sprak over de God van Israël, gelooft nu in Hem. Het leger dat de wereld schrik aanjoeg, stort in paniek ineen.
 F: The Fathers saw in Achior's conversion an image of the Gentiles coming to faith when they see God's power at work in the weak. The sudden collapse of the mighty army without its head was read as the defeat of evil when its head, the devil, is overcome.
-FN: De Vaders zagen in de bekering van Achior een beeld van de heidenen die tot geloof komen wanneer zij Gods kracht zien werken in de zwakken. De plotselinge ineenstorting van het machtige leger zonder zijn hoofd werd gelezen als de nederlaag van het kwaad wanneer zijn hoofd, de duivel, overwonnen is.
+FN: De kerkvaders zagen in de bekering van Achior een beeld van de heidenen die tot geloof komen wanneer zij Gods kracht zien werken in de zwakken. De plotselinge ineenstorting van het machtige leger zonder zijn hoofd werd gelezen als de nederlaag van het kwaad wanneer zijn hoofd, de duivel, overwonnen is.
 T: A Gentile believes; The mighty fall; Evil without its head
 TN: Een heiden gelooft; De machtigen vallen; Het kwaad zonder hoofd
 
@@ -146,7 +146,7 @@ SN: De Assyriërs vluchten in doodsangst, en de Israëlieten achtervolgen en ver
 M: The whole people, from the high priest to the women of Israel, honours the one through whom God saved them. Victory becomes worship, dance and song.
 MN: Het hele volk, van de hogepriester tot de vrouwen van Israël, eert haar door wie God hen gered heeft. Overwinning wordt aanbidding, dans en zang.
 F: The words 'you are the glory of Jerusalem, you are the joy of Israel, you are the honour of our people' were taken up in Western Marian hymns such as the 'Tota pulchra', applied to the Virgin Mary. The Fathers saw in Judith leading the women in dance an echo of Miriam at the Red Sea, the joy of the redeemed.
-FN: De woorden 'u bent de roem van Jeruzalem, u bent de vreugde van Israël, u bent de eer van ons volk' werden overgenomen in westerse Maria-hymnen zoals het 'Tota pulchra', toegepast op de Maagd Maria. De Vaders zagen in Judit, die de vrouwen voorgaat in de dans, een echo van Mirjam bij de Rode Zee, de vreugde van de verlosten.
+FN: De woorden 'u bent de roem van Jeruzalem, u bent de vreugde van Israël, u bent de eer van ons volk' werden overgenomen in westerse Maria-hymnen zoals het 'Tota pulchra', toegepast op de Maagd Maria. De kerkvaders zagen in Judit, die de vrouwen voorgaat in de dans, een echo van Mirjam bij de Rode Zee, de vreugde van de verlosten.
 T: Honour to God's instrument; Victory as worship; Joy of the redeemed
 TN: Eer voor Gods werktuig; Overwinning als aanbidding; Vreugde van de verlosten
 
@@ -156,6 +156,6 @@ SN: Judit begint deze dankzang voor heel Israël: hef een lied aan voor mijn God
 M: Judith ends with praise, not self-glory, and returns to a quiet life of faithfulness. Fearing the Lord is greater than every sacrifice.
 MN: Judit eindigt met lof, niet met zelfverheerlijking, en keert terug naar een rustig leven van trouw. De Heer vrezen is groter dan elk offer.
 F: The Fathers praised Judith because, after her great deed, she sought no honour or power but dedicated the spoils to God, freed her maid and returned to her life of prayer. Her song, 'You sent forth Your Spirit and it formed them', was read as a witness to the Spirit's work in creation, and 'whoever fears the Lord is great for ever' as the measure of true greatness.
-FN: De Vaders prezen Judit omdat zij na haar grote daad geen eer of macht zocht, maar de buit aan God wijdde, haar dienstmaagd vrijliet en terugkeerde naar haar leven van gebed. Haar lied, 'U zond Uw Geest uit en Hij vormde hen', werd gelezen als getuigenis van het werk van de Geest in de schepping, en 'wie de Heer vreest, is altijd groot' als de maat van ware grootheid.
+FN: De kerkvaders prezen Judit omdat zij na haar grote daad geen eer of macht zocht, maar de buit aan God wijdde, haar dienstmaagd vrijliet en terugkeerde naar haar leven van gebed. Haar lied, 'U zond Uw Geest uit en Hij vormde hen', werd gelezen als getuigenis van het werk van de Geest in de schepping, en 'wie de Heer vreest, is altijd groot' als de maat van ware grootheid.
 T: A new song; Humility after victory; The fear of the Lord
 TN: Een nieuw lied; Nederigheid na de overwinning; De vreze des Heren

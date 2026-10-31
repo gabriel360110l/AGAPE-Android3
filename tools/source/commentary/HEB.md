@@ -36,7 +36,7 @@ SN: De belofte om Gods rust binnen te gaan blijft staan; er blijft een sabbatsru
 M: God's word searches the heart, and Christ, who knows our temptations, welcomes us to the throne of grace.
 MN: Gods woord doorzoekt het hart, en Christus, die onze verzoekingen kent, verwelkomt ons bij de troon van de genade.
 F: The Fathers taught that Christ was truly tempted, as man, yet His will never consented to sin, which is why He can heal ours. The 'rest' was read as the eternal Sabbath of the kingdom, foreshadowed by Sunday.
-FN: De Vaders leerden dat Christus werkelijk verzocht werd, als mens, maar dat Zijn wil nooit instemde met de zonde, en daarom kan Hij de onze genezen. De 'rust' werd gelezen als de eeuwige sabbat van het koninkrijk, voorafgebeeld door de zondag.
+FN: De kerkvaders leerden dat Christus werkelijk verzocht werd, als mens, maar dat Zijn wil nooit instemde met de zonde, en daarom kan Hij de onze genezen. De 'rust' werd gelezen als de eeuwige sabbat van het koninkrijk, voorafgebeeld door de zondag.
 T: Eternal rest; The living word; Throne of grace
 TN: Eeuwige rust; Het levende woord; Troon van de genade
 
@@ -46,7 +46,7 @@ SN: Elke hogepriester wordt uit de mensen gekozen om gaven en offers voor de zon
 M: Christ's priesthood is rooted in His shared humanity, His prayers and tears. Growth in faith requires moving on to solid food.
 MN: Christus' priesterschap is geworteld in Zijn gedeelde mensheid, Zijn gebeden en tranen. Groei in het geloof vraagt om over te gaan naar vast voedsel.
 F: The Fathers saw Gethsemane in 'loud cries and tears', and in Melchizedek, who offered bread and wine, a figure of Christ the High Priest and of the Eucharist.
-FN: De Vaders zagen Getsemane in 'luid geroep en tranen', en in Melchizedek, die brood en wijn bracht, een voorafbeelding van Christus de Hogepriester en van de eucharistie.
+FN: De kerkvaders zagen Getsemane in 'luid geroep en tranen', en in Melchizedek, die brood en wijn bracht, een voorafbeelding van Christus de Hogepriester en van de eucharistie.
 T: Priesthood of Christ; Obedience; Spiritual maturity
 TN: Priesterschap van Christus; Gehoorzaamheid; Geestelijke volwassenheid
 
@@ -56,7 +56,7 @@ SN: Laten wij voortgaan naar de volwassenheid, voorbij het beginonderricht over 
 M: Hope in Christ anchors the soul in heaven. The warning against apostasy is meant to awaken, not to make despair.
 MN: Hoop op Christus verankert de ziel in de hemel. De waarschuwing tegen afval is bedoeld om wakker te schudden, niet om wanhoop te wekken.
 F: The Fathers, against the Novatians, explained 6:4–6 to mean that baptism cannot be repeated, not that repentance is impossible for sinners after baptism, for the Church always receives the penitent.
-FN: De Vaders verklaarden 6:4–6, tegen de novatianen, zo dat het doopsel niet herhaald kan worden, niet dat bekering onmogelijk is voor zondaars na het doopsel, want de Kerk ontvangt altijd de boetvaardigen.
+FN: De kerkvaders verklaarden 6:4–6, tegen de novatianen, zo dat de doop niet herhaald kan worden, niet dat bekering onmogelijk is voor zondaars na de doop, want de Kerk ontvangt altijd de boetvaardigen.
 T: Maturity; Perseverance; Hope as anchor
 TN: Volwassenheid; Volharding; Hoop als anker
 
@@ -66,7 +66,7 @@ SN: Melchizedek, koning van Salem en priester van God de Allerhoogste, ontmoette
 M: Christ's priesthood is eternal and never interrupted: He always lives to intercede for us.
 MN: Christus' priesterschap is eeuwig en nooit onderbroken: Hij leeft altijd om voor ons te pleiten.
 F: The Fathers loved the figure of Melchizedek: 'without father' as man (in His humanity He has no earthly father) and 'without mother' as God (in His divinity He has no mother).
-FN: De Vaders hielden van de figuur van Melchizedek: 'zonder vader' als mens (in Zijn mensheid heeft Hij geen aardse vader) en 'zonder moeder' als God (in Zijn godheid heeft Hij geen moeder).
+FN: De kerkvaders hielden van de figuur van Melchizedek: 'zonder vader' als mens (in Zijn mensheid heeft Hij geen aardse vader) en 'zonder moeder' als God (in Zijn godheid heeft Hij geen moeder).
 T: Melchizedek; Eternal priesthood; Intercession
 TN: Melchizedek; Eeuwig priesterschap; Voorspraak
 
@@ -76,7 +76,7 @@ SN: Wij hebben zo'n hogepriester, die zit aan de rechterhand van de troon van de
 M: In the new covenant God's law is written on the heart, and sins are truly forgiven. Earthly worship mirrors the heavenly.
 MN: In het nieuwe verbond wordt Gods wet in het hart geschreven, en worden zonden werkelijk vergeven. De aardse eredienst weerspiegelt de hemelse.
 F: The Fathers saw the Liturgy as a participation in the heavenly worship of Christ the High Priest; the Cherubic Hymn says we 'mystically represent the Cherubim'.
-FN: De Vaders zagen de liturgie als een deelname aan de hemelse eredienst van Christus de Hogepriester; de cherubijnenhymne zegt dat wij 'op mystieke wijze de cherubijnen afbeelden'.
+FN: De kerkvaders zagen de liturgie als een deelname aan de hemelse eredienst van Christus de Hogepriester; de cherubijnenhymne zegt dat wij 'op mystieke wijze de cherubijnen afbeelden'.
 T: New covenant; Heavenly worship; Forgiveness
 TN: Nieuw verbond; Hemelse eredienst; Vergeving
 
@@ -86,7 +86,7 @@ SN: Het eerste verbond had een tabernakel met het Heilige en het Heilige der hei
 M: Christ's one sacrifice is complete and eternal. The Holy Trinity is at work in it: through the eternal Spirit the Son offers Himself to the Father.
 MN: Christus' ene offer is volkomen en eeuwig. De Heilige Drie-eenheid is erin werkzaam: door de eeuwige Geest offert de Zoon Zichzelf aan de Vader.
 F: The Fathers taught that the Eucharist does not repeat Christ's sacrifice but makes the one sacrifice present; the priest's prayer in the Liturgy of St John Chrysostom says Christ is 'the One who offers and is offered'.
-FN: De Vaders leerden dat de eucharistie het offer van Christus niet herhaalt, maar het ene offer tegenwoordig stelt; het gebed van de priester in de liturgie van de heilige Johannes Chrysostomus zegt dat Christus 'Hij is die offert en geofferd wordt'.
+FN: De kerkvaders leerden dat de eucharistie het offer van Christus niet herhaalt, maar het ene offer tegenwoordig stelt; het gebed van de priester in de liturgie van de heilige Johannes Chrysostomus zegt dat Christus 'Hij is die offert en geofferd wordt'.
 T: Sacrifice of Christ; Redemption; Purified conscience
 TN: Offer van Christus; Verlossing; Gereinigd geweten
 
@@ -96,7 +96,7 @@ SN: De Wet, een schaduw van de toekomstige goederen, kon wie naderden nooit volm
 M: Christ's flesh is the curtain through which we enter God's presence. Faith is lived in the gathered community.
 MN: Christus' vlees is het voorhangsel waardoor wij Gods aanwezigheid binnengaan. Geloof wordt beleefd in de samengekomen gemeenschap.
 F: 'Not neglecting to meet together' was applied by the Fathers to faithful attendance at the Sunday Liturgy. St John Chrysostom warns that staying away weakens the whole body.
-FN: 'De onderlinge bijeenkomsten niet verzuimen' werd door de Vaders toegepast op trouwe deelname aan de zondagse liturgie. De heilige Johannes Chrysostomus waarschuwt dat wegblijven het hele lichaam verzwakt.
+FN: 'De onderlinge bijeenkomsten niet verzuimen' werd door de kerkvaders toegepast op trouwe deelname aan de zondagse liturgie. De heilige Johannes Chrysostomus waarschuwt dat wegblijven het hele lichaam verzwakt.
 T: Access to God; Community; Endurance
 TN: Toegang tot God; Gemeenschap; Volharding
 
@@ -106,7 +106,7 @@ SN: Het geloof is een vaste grond van de dingen die men hoopt en een bewijs van 
 M: Faith trusts God's word beyond what is seen. The saints of the Old Covenant are our ancestors in faith, awaiting perfection with us.
 MN: Geloof vertrouwt Gods woord voorbij wat zichtbaar is. De heiligen van het Oude Verbond zijn onze voorouders in het geloof, die samen met ons op de voltooiing wachten.
 F: The Orthodox Church reads this chapter on the Sunday of the Forefathers before Christmas and venerates the righteous of the Old Testament as saints. The Fathers saw in 'sawn in two' the tradition of the prophet Isaiah's martyrdom.
-FN: De Orthodoxe Kerk leest dit hoofdstuk op de zondag van de voorvaderen vóór Kerstmis en eert de rechtvaardigen van het Oude Testament als heiligen. De Vaders zagen in 'doormidden gezaagd' de overlevering van het martelaarschap van de profeet Jesaja.
+FN: De Orthodoxe Kerk leest dit hoofdstuk op de zondag van de voorvaderen vóór Kerstmis en eert de rechtvaardigen van het Oude Testament als heiligen. De kerkvaders zagen in 'doormidden gezaagd' de overlevering van het martelaarschap van de profeet Jesaja.
 T: Faith; Saints of the Old Covenant; Hope
 TN: Geloof; Heiligen van het Oude Verbond; Hoop
 
@@ -116,7 +116,7 @@ SN: Omdat wij omringd zijn door zo'n grote wolk van getuigen, laten wij elke las
 M: The saints surround us like spectators cheering in a stadium. In worship the Church on earth joins the heavenly assembly of angels and saints.
 MN: De heiligen omringen ons als toeschouwers die aanmoedigen in een stadion. In de eredienst voegt de Kerk op aarde zich bij de hemelse vergadering van engelen en heiligen.
 F: The Fathers drew from 12:22–24 the communion of saints and the unity of the earthly and heavenly Church in the Liturgy. The icons on church walls make this 'cloud of witnesses' visible.
-FN: De Vaders putten uit 12:22–24 de gemeenschap van de heiligen en de eenheid van de aardse en hemelse Kerk in de liturgie. De iconen op de kerkmuren maken deze 'wolk van getuigen' zichtbaar.
+FN: De kerkvaders putten uit 12:22–24 de gemeenschap van de heiligen en de eenheid van de aardse en hemelse Kerk in de liturgie. De iconen op de kerkmuren maken deze 'wolk van getuigen' zichtbaar.
 T: Communion of saints; Endurance; Holiness
 TN: Gemeenschap van de heiligen; Volharding; Heiligheid
 
@@ -126,6 +126,6 @@ SN: Laat de broederliefde blijven. Vergeet de gastvrijheid niet, want daardoor h
 M: Faith becomes visible in love, hospitality, faithfulness and praise. Christ never changes; He is our constant.
 MN: Geloof wordt zichtbaar in liefde, gastvrijheid, trouw en lofprijzing. Christus verandert nooit; Hij is ons vaste punt.
 F: The Fathers saw in 'entertained angels unawares' Abraham's hospitality at Mamre, which Orthodox iconography paints as the Old Testament Trinity, as in Rublev's icon. 'We have an altar' was cited for the Eucharistic altar of the Church.
-FN: De Vaders zagen in 'zonder het te weten engelen ontvangen' de gastvrijheid van Abraham bij Mamre, die de orthodoxe iconografie schildert als de oudtestamentische Drie-eenheid, zoals in de icoon van Roebljov. 'Wij hebben een altaar' werd aangehaald voor het eucharistisch altaar van de Kerk.
+FN: De kerkvaders zagen in 'zonder het te weten engelen ontvangen' de gastvrijheid van Abraham bij Mamre, die de orthodoxe iconografie schildert als de oudtestamentische Drie-eenheid, zoals in de icoon van Roebljov. 'Wij hebben een altaar' werd aangehaald voor het eucharistisch altaar van de Kerk.
 T: Hospitality; Faithfulness of Christ; Sacrifice of praise
 TN: Gastvrijheid; Trouw van Christus; Lofoffer

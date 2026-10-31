@@ -16,7 +16,7 @@ SN: Ik zei in mijn hart: kom, ik zal u beproeven met vreugde; geniet van het goe
 M: The richest and wisest of kings tries every pleasure and achievement, and finds them all empty. Yet the simple joys of food, drink and work, received from God's hand, are good.
 MN: De rijkste en wijste van de koningen probeert elk genot en elke prestatie, en vindt ze allemaal leeg. Toch zijn de eenvoudige vreugden van eten, drinken en werk, ontvangen uit Gods hand, goed.
 F: In his homilies on Ecclesiastes, St Gregory of Nyssa seized on the words 'I bought male and female slaves' to deliver one of the strongest condemnations of slavery in the ancient world: no one can buy the image of God, for human nature was created free. The Fathers read the whole chapter as proof that the soul, made for God, cannot be filled by created things.
-FN: In zijn preken over Prediker greep de heilige Gregorius van Nyssa de woorden 'ik kocht slaven en slavinnen' aan voor een van de sterkste veroordelingen van de slavernij in de oude wereld: niemand kan het beeld van God kopen, want de menselijke natuur is vrij geschapen. De Vaders lazen het hele hoofdstuk als bewijs dat de ziel, die voor God gemaakt is, niet door geschapen dingen vervuld kan worden.
+FN: In zijn preken over Prediker greep de heilige Gregorius van Nyssa de woorden 'ik kocht slaven en slavinnen' aan voor een van de sterkste veroordelingen van de slavernij in de oude wereld: niemand kan het beeld van God kopen, want de menselijke natuur is vrij geschapen. De kerkvaders lazen het hele hoofdstuk als bewijs dat de ziel, die voor God gemaakt is, niet door geschapen dingen vervuld kan worden.
 T: Pleasure that does not satisfy; Against slavery; Simple joys from God
 TN: Genot dat niet verzadigt; Tegen de slavernij; Eenvoudige vreugden van God
 
@@ -26,7 +26,7 @@ SN: Voor alles is er een vastgestelde tijd, en een tijd voor elk voornemen onder
 M: Life moves in seasons appointed by God, and each has its beauty in its time. God has placed a longing for eternity in the human heart that nothing temporal can fill.
 MN: Het leven beweegt zich in seizoenen die God bepaald heeft, en elk heeft zijn schoonheid op zijn tijd. God heeft een verlangen naar de eeuwigheid in het menselijk hart gelegd dat niets tijdelijks kan vervullen.
 F: St Gregory of Nyssa devoted several homilies to the 'times', reading 'a time to be born' as the timely birth of the soul through the fear of God and 'a time to die' as dying to sin. The Fathers saw in 'He has put eternity into man's heart' the same truth St Augustine expressed: our heart is restless until it rests in God.
-FN: De heilige Gregorius van Nyssa wijdde verschillende preken aan de 'tijden', en las 'een tijd om geboren te worden' als de tijdige geboorte van de ziel door de vreze Gods en 'een tijd om te sterven' als het sterven aan de zonde. De Vaders zagen in 'Hij heeft de eeuwigheid in hun hart gelegd' dezelfde waarheid die de heilige Augustinus uitsprak: ons hart is onrustig totdat het rust in God.
+FN: De heilige Gregorius van Nyssa wijdde verschillende preken aan de 'tijden', en las 'een tijd om geboren te worden' als de tijdige geboorte van de ziel door de vreze Gods en 'een tijd om te sterven' als het sterven aan de zonde. De kerkvaders zagen in 'Hij heeft de eeuwigheid in hun hart gelegd' dezelfde waarheid die de heilige Augustinus uitsprak: ons hart is onrustig totdat het rust in God.
 T: Seasons of life; Eternity in the heart; God's judgment
 TN: Seizoenen van het leven; Eeuwigheid in het hart; Gods oordeel
 
@@ -36,7 +36,7 @@ SN: Opnieuw zag ik al de onderdrukkingen die onder de zon gedaan worden. En zie,
 M: The Preacher grieves over the oppressed who have no comforter and the lonely who toil without end. Against isolation he praises companionship: two are better than one.
 MN: De Prediker treurt over de onderdrukten die geen trooster hebben en de eenzamen die eindeloos zwoegen. Tegenover de eenzaamheid prijst hij de verbondenheid: twee zijn beter dan één.
 F: The Fathers read 'woe to him who is alone when he falls' as a warning against spiritual isolation and a praise of brotherly life, in the Church and in monastic community. Christian readers have seen in the threefold cord an image of the bond of faith, hope and love, or of two believers joined by Christ, who promised to be where two or three are gathered in His name.
-FN: De Vaders lazen 'wee hem die alleen is wanneer hij valt' als een waarschuwing tegen geestelijke eenzaamheid en een lofprijzing van het broederlijk leven, in de Kerk en in de kloostergemeenschap. Christelijke lezers hebben in het drievoudige snoer een beeld gezien van de band van geloof, hoop en liefde, of van twee gelovigen die verbonden zijn door Christus, die beloofde te zijn waar twee of drie in Zijn naam samen zijn.
+FN: De kerkvaders lazen 'wee hem die alleen is wanneer hij valt' als een waarschuwing tegen geestelijke eenzaamheid en een lofprijzing van het broederlijk leven, in de Kerk en in de kloostergemeenschap. Christelijke lezers hebben in het drievoudige snoer een beeld gezien van de band van geloof, hoop en liefde, of van twee gelovigen die verbonden zijn door Christus, die beloofde te zijn waar twee of drie in Zijn naam samen zijn.
 T: The oppressed without comfort; Companionship; The threefold cord
 TN: Onderdrukten zonder troost; Verbondenheid; Het drievoudige snoer
 
@@ -46,7 +46,7 @@ SN: Wees niet te snel met uw mond, en laat uw hart zich niet haasten een woord v
 M: Before God, reverence means listening more than speaking, and keeping one's word. Wealth cannot satisfy and cannot be taken along; the ability to enjoy life is itself God's gift.
 MN: Voor God betekent eerbied meer luisteren dan spreken, en zijn woord houden. Rijkdom kan niet verzadigen en kan niet meegenomen worden; het vermogen om van het leven te genieten is zelf Gods gave.
 F: The Fathers drew from 'God is in heaven and you on earth, therefore let your words be few' a teaching on prayer that agrees with Christ's warning against heaping up empty phrases, and with the short, humble prayer of the desert Fathers. 'Naked he shall go as he came' was read with Job and St Paul: we brought nothing into the world and can take nothing out.
-FN: De Vaders leerden uit 'God is in de hemel en u op de aarde, laat daarom uw woorden weinig zijn' een onderwijs over gebed dat overeenkomt met de waarschuwing van Christus tegen veel woorden maken, en met het korte, nederige gebed van de woestijnvaders. 'Naakt zal hij gaan zoals hij kwam' werd gelezen met Job en de heilige Paulus: wij hebben niets in de wereld gebracht en kunnen er niets uit meenemen.
+FN: De kerkvaders leerden uit 'God is in de hemel en u op de aarde, laat daarom uw woorden weinig zijn' een onderwijs over gebed dat overeenkomt met de waarschuwing van Christus tegen veel woorden maken, en met het korte, nederige gebed van de woestijnvaders. 'Naakt zal hij gaan zoals hij kwam' werd gelezen met Job en de heilige Paulus: wij hebben niets in de wereld gebracht en kunnen er niets uit meenemen.
 T: Reverent listening; Few words in prayer; Wealth that does not satisfy
 TN: Eerbiedig luisteren; Weinig woorden in gebed; Rijkdom die niet verzadigt
 
@@ -56,7 +56,7 @@ SN: Er is een kwaad dat ik onder de zon gezien heb, en het drukt zwaar op de men
 M: Having everything is not the same as being able to enjoy it. Human desire is endless, and only God knows what is truly good for us.
 MN: Alles hebben is niet hetzelfde als ervan kunnen genieten. Het menselijk verlangen is eindeloos, en alleen God weet wat werkelijk goed voor ons is.
 F: The Fathers saw in 'all the toil of man is for his mouth, yet his appetite is not satisfied' a description of the insatiable passions, which grow the more they are fed. They concluded with St Augustine that desire, created for the infinite God, can never be satisfied by finite goods, and that contentment is learned by turning desire toward God.
-FN: De Vaders zagen in 'al het zwoegen van de mens is voor zijn mond, toch wordt zijn begeerte niet vervuld' een beschrijving van de onverzadigbare hartstochten, die groeien naarmate ze meer gevoed worden. Zij besloten met de heilige Augustinus dat het verlangen, geschapen voor de oneindige God, nooit door eindige goederen verzadigd kan worden, en dat tevredenheid geleerd wordt door het verlangen op God te richten.
+FN: De kerkvaders zagen in 'al het zwoegen van de mens is voor zijn mond, toch wordt zijn begeerte niet vervuld' een beschrijving van de onverzadigbare hartstochten, die groeien naarmate ze meer gevoed worden. Zij besloten met de heilige Augustinus dat het verlangen, geschapen voor de oneindige God, nooit door eindige goederen verzadigd kan worden, en dat tevredenheid geleerd wordt door het verlangen op God te richten.
 T: Unable to enjoy; Insatiable desire; Who knows what is good?
 TN: Niet kunnen genieten; Onverzadigbaar verlangen; Wie weet wat goed is?
 
@@ -66,7 +66,7 @@ SN: Een goede naam is beter dan kostbare olie, en de dag van de dood dan de dag 
 M: The house of mourning teaches more than the house of feasting, because it reminds us of our end. Patience, humility and honesty about our own sin are true wisdom.
 MN: Het huis van rouw leert meer dan het huis van de maaltijd, omdat het ons aan ons einde herinnert. Geduld, nederigheid en eerlijkheid over onze eigen zonde zijn ware wijsheid.
 F: The Church keeps the feasts of the martyrs and saints on the day of their death, which she calls their birthday into heaven, in the spirit of 'the day of death is better than the day of birth'. The Fathers loved 'by sadness of face the heart is made glad' as a description of godly sorrow and compunction, and 'God made man upright, but they have sought out many schemes' as a summary of the fall.
-FN: De Kerk viert de feesten van de martelaren en heiligen op de dag van hun dood, die zij hun geboortedag in de hemel noemt, in de geest van 'de dag van de dood is beter dan de dag van de geboorte'. De Vaders hielden van 'door een bedroefd gezicht wordt het hart verbeterd' als beschrijving van droefheid naar God en inkeer, en van 'God heeft de mens oprecht gemaakt, maar zij hebben vele listen gezocht' als samenvatting van de zondeval.
+FN: De Kerk viert de feesten van de martelaren en heiligen op de dag van hun dood, die zij hun geboortedag in de hemel noemt, in de geest van 'de dag van de dood is beter dan de dag van de geboorte'. De kerkvaders hielden van 'door een bedroefd gezicht wordt het hart verbeterd' als beschrijving van droefheid naar God en inkeer, en van 'God heeft de mens oprecht gemaakt, maar zij hebben vele listen gezocht' als samenvatting van de zondeval.
 T: Remembering death; Godly sorrow; Created upright
 TN: Gedachtenis aan de dood; Droefheid naar God; Oprecht geschapen
 
@@ -76,7 +76,7 @@ SN: Wie is als de wijze? De wijsheid van een mens doet zijn gezicht stralen. Bew
 M: Life is full of injustice that seems unpunished, and no one controls the day of death. Yet the Preacher holds that it will be well with those who fear God, even when he cannot see how.
 MN: Het leven is vol onrecht dat ongestraft lijkt, en niemand beheerst de dag van de dood. Toch houdt de Prediker vast dat het goed zal gaan met wie God vrezen, ook als hij niet ziet hoe.
 F: The Fathers noted that the delay of punishment, which emboldens sinners, is in truth God's patience, giving time for repentance, as St Peter says: the Lord is not slow, but patient, not wishing that any should perish. The Preacher's admission that God's work cannot be found out was read as a call to humble trust.
-FN: De Vaders merkten op dat het uitstel van de straf, dat zondaars stoutmoedig maakt, in werkelijkheid Gods geduld is, dat tijd geeft voor bekering, zoals de heilige Petrus zegt: de Heer vertraagt niet, maar is geduldig, omdat Hij niet wil dat iemand verloren gaat. Het eerlijke toegeven van de Prediker dat Gods werk niet te doorgronden is, werd gelezen als een oproep tot nederig vertrouwen.
+FN: De kerkvaders merkten op dat het uitstel van de straf, dat zondaars stoutmoedig maakt, in werkelijkheid Gods geduld is, dat tijd geeft voor bekering, zoals de heilige Petrus zegt: de Heer vertraagt niet, maar is geduldig, omdat Hij niet wil dat iemand verloren gaat. Het eerlijke toegeven van de Prediker dat Gods werk niet te doorgronden is, werd gelezen als een oproep tot nederig vertrouwen.
 T: Unpunished evil; God's patience; Humble trust
 TN: Ongestraft kwaad; Gods geduld; Nederig vertrouwen
 
@@ -96,7 +96,7 @@ SN: Dode vliegen doen de olie van de zalfmenger stinken; zo weegt een beetje dwa
 M: A collection of practical proverbs: small follies spoil great wisdom, calmness overcomes anger, laziness ruins, and careless words travel far.
 MN: Een verzameling praktische spreuken: kleine dwaasheden bederven grote wijsheid, kalmte overwint toorn, luiheid brengt ondergang, en onbezonnen woorden reizen ver.
 F: The Fathers used 'dead flies spoil the perfumer's ointment' to warn that small, neglected sins and idle thoughts can spoil the fragrance of a virtuous life. 'Calmness lays great offences to rest' was cited in teaching on meekness and the overcoming of anger.
-FN: De Vaders gebruikten 'dode vliegen doen de olie van de zalfmenger stinken' om te waarschuwen dat kleine, verwaarloosde zonden en ijdele gedachten de geur van een deugdzaam leven kunnen bederven. 'Kalmte doet grote zonden ophouden' werd aangehaald in het onderwijs over zachtmoedigheid en het overwinnen van toorn.
+FN: De kerkvaders gebruikten 'dode vliegen doen de olie van de zalfmenger stinken' om te waarschuwen dat kleine, verwaarloosde zonden en ijdele gedachten de geur van een deugdzaam leven kunnen bederven. 'Kalmte doet grote zonden ophouden' werd aangehaald in het onderwijs over zachtmoedigheid en het overwinnen van toorn.
 T: Small sins spoil much; Calmness; Guarding the tongue
 TN: Kleine zonden bederven veel; Kalmte; De tong bewaken
 
@@ -106,7 +106,7 @@ SN: Werp uw brood uit op het water, want u zult het na vele dagen vinden. Geef e
 M: Give generously and work faithfully without waiting for perfect conditions, for the outcome is in God's hands. Enjoy youth, but remember that all will be brought before God.
 MN: Geef royaal en werk trouw zonder te wachten op volmaakte omstandigheden, want de uitkomst is in Gods hand. Geniet van de jeugd, maar bedenk dat alles voor God gebracht zal worden.
 F: St Jerome and other Fathers read 'cast your bread upon the waters' as a call to almsgiving, given freely even to those who may seem unworthy or unable to repay, for God will return it. 'Give a portion to seven, or even to eight' was read by some as pointing beyond the seventh day of this age to the eighth day, the day of the resurrection.
-FN: De heilige Hiëronymus en andere Vaders lazen 'werp uw brood op het water' als een oproep tot aalmoezen, vrijelijk gegeven, zelfs aan wie onwaardig lijken of niet kunnen terugbetalen, want God zal het teruggeven. 'Geef een deel aan zeven, of zelfs aan acht' werd door sommigen gelezen als verwijzing voorbij de zevende dag van deze tijd naar de achtste dag, de dag van de opstanding.
+FN: De heilige Hiëronymus en andere kerkvaders lazen 'werp uw brood op het water' als een oproep tot aalmoezen, vrijelijk gegeven, zelfs aan wie onwaardig lijken of niet kunnen terugbetalen, want God zal het teruggeven. 'Geef een deel aan zeven, of zelfs aan acht' werd door sommigen gelezen als verwijzing voorbij de zevende dag van deze tijd naar de achtste dag, de dag van de opstanding.
 T: Generous giving; Work without waiting; Joy and judgment
 TN: Royaal geven; Werken zonder te wachten; Vreugde en oordeel
 
@@ -116,6 +116,6 @@ SN: Gedenk uw Schepper in de dagen van uw jeugd, voordat de kwade dagen komen en
 M: In a moving poem about old age and death, the Preacher urges the young to remember God early. His final word gathers everything: fear God and keep His commandments.
 MN: In een ontroerend gedicht over ouderdom en dood spoort de Prediker de jongeren aan God vroeg te gedenken. Zijn laatste woord vat alles samen: vrees God en houd Zijn geboden.
 F: The Fathers, St Jerome among them, read the poem of old age line by line: the keepers of the house are the trembling hands, the grinders the teeth, those who look through the windows the eyes. 'The spirit returns to God who gave it' was cited as a witness that the soul does not perish with the body. The 'one Shepherd' who gives the words of the wise was understood as Christ, the Good Shepherd and Word of God.
-FN: De Vaders, onder wie de heilige Hiëronymus, lazen het gedicht over de ouderdom regel voor regel: de wachters van het huis zijn de bevende handen, de maalsters de tanden, zij die door de vensters kijken de ogen. 'De geest keert terug tot God die hem gegeven heeft' werd aangehaald als getuigenis dat de ziel niet met het lichaam vergaat. De 'ene Herder' die de woorden van de wijzen geeft, werd verstaan als Christus, de Goede Herder en het Woord van God.
+FN: De kerkvaders, onder wie de heilige Hiëronymus, lazen het gedicht over de ouderdom regel voor regel: de wachters van het huis zijn de bevende handen, de maalsters de tanden, zij die door de vensters kijken de ogen. 'De geest keert terug tot God die hem gegeven heeft' werd aangehaald als getuigenis dat de ziel niet met het lichaam vergaat. De 'ene Herder' die de woorden van de wijzen geeft, werd verstaan als Christus, de Goede Herder en het Woord van God.
 T: Remember God in youth; Old age and death; Fear God
 TN: God gedenken in de jeugd; Ouderdom en dood; Vrees God

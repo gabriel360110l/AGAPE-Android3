@@ -6,7 +6,7 @@ SN: Vanuit de gevangenis in Rome schrijft Paulus aan Timoteüs, zijn geliefde ki
 M: Faith is handed on through families and through the Church. The grace of ordination must be rekindled continually.
 MN: Geloof wordt doorgegeven via gezinnen en via de Kerk. De genade van de wijding moet voortdurend aangewakkerd worden.
 F: The Fathers often held up Lois and Eunice as models for Christian mothers and grandmothers who pass on the faith at home.
-FN: De Vaders hielden Loïs en Eunike vaak voor als voorbeelden voor christelijke moeders en grootmoeders die het geloof thuis doorgeven.
+FN: De kerkvaders hielden Loïs en Eunike vaak voor als voorbeelden voor christelijke moeders en grootmoeders die het geloof thuis doorgeven.
 T: Handing on the faith; Courage; Grace of ordination
 TN: Het geloof doorgeven; Moed; Genade van de wijding
 
@@ -26,7 +26,7 @@ SN: In de laatste dagen zullen de mensen zelfzuchtig en geldzuchtig zijn, hoogmo
 M: Scripture is inspired by God and forms the whole person for salvation. It is received from trusted teachers within the Church.
 MN: De Schrift is door God ingegeven en vormt de hele mens tot redding. Zij wordt ontvangen van betrouwbare leraars binnen de Kerk.
 F: The Fathers called Scripture 'theopneustos', God-breathed, and read it in the Church's tradition: 'knowing from whom you learned it'. St John Chrysostom urged lay people to read the Bible daily at home.
-FN: De Vaders noemden de Schrift 'theopneustos', door God ingeblazen, en lazen haar binnen de traditie van de Kerk: 'wetend van wie u het geleerd hebt'. De heilige Johannes Chrysostomus spoorde leken aan dagelijks thuis de Bijbel te lezen.
+FN: De kerkvaders noemden de Schrift 'theopneustos', door God ingeblazen, en lazen haar binnen de traditie van de Kerk: 'wetend van wie u het geleerd hebt'. De heilige Johannes Chrysostomus spoorde leken aan dagelijks thuis de Bijbel te lezen.
 T: Inspiration of Scripture; Persecution; Formation
 TN: Inspiratie van de Schrift; Vervolging; Vorming
 
@@ -36,6 +36,6 @@ SN: Verkondig het woord; dring erop aan, gelegen of ongelegen; weerleg, bestraf 
 M: Paul's last words are a testament of faithfulness. The minister preaches whether the message is welcome or not.
 MN: De laatste woorden van Paulus zijn een testament van trouw. De dienaar predikt, of de boodschap nu welkom is of niet.
 F: The Church reads 'I have fought the good fight' on the feasts of apostles and martyrs. The Fathers saw in this letter Paul's farewell shortly before his martyrdom in Rome.
-FN: De Kerk leest 'ik heb de goede strijd gestreden' op de feesten van apostelen en martelaren. De Vaders zagen in deze brief het afscheid van Paulus kort vóór zijn martelaarschap in Rome.
+FN: De Kerk leest 'ik heb de goede strijd gestreden' op de feesten van apostelen en martelaren. De kerkvaders zagen in deze brief het afscheid van Paulus kort vóór zijn martelaarschap in Rome.
 T: Preaching; Faithfulness; Crown of righteousness
 TN: Prediking; Trouw; Krans van de gerechtigheid

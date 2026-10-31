@@ -6,7 +6,7 @@ SN: Drie dagen nadat David in Ziklag is teruggekeerd, komt een Amalekiet aan met
 M: David does not rejoice over his enemy's death but mourns him sincerely. Grief for those we loved, and even for those who wronged us, is holy.
 MN: David verheugt zich niet over de dood van zijn vijand, maar rouwt oprecht om hem. Verdriet om wie wij liefhadden, en zelfs om wie ons onrecht deden, is heilig.
 F: The Fathers, St John Chrysostom especially, admired David weeping for Saul, who had tried to kill him, as the fulfilment of 'love your enemies' before the Gospel. David's lament is one of the most moving elegies in Scripture, and the Church has drawn from it in its funeral prayers.
-FN: De Vaders, vooral de heilige Johannes Chrysostomus, bewonderden David die weende om Saul, die hem had willen doden, als de vervulling van 'heb uw vijanden lief' vóór het Evangelie. Het klaaglied van David is een van de meest ontroerende rouwklachten in de Schrift, en de Kerk heeft eruit geput in haar uitvaartgebeden.
+FN: De kerkvaders, vooral de heilige Johannes Chrysostomus, bewonderden David die weende om Saul, die hem had willen doden, als de vervulling van 'heb uw vijanden lief' vóór het Evangelie. Het klaaglied van David is een van de meest ontroerende rouwklachten in de Schrift, en de Kerk heeft eruit geput in haar uitvaartgebeden.
 T: Lament; Love for an enemy; Friendship
 TN: Klaaglied; Liefde voor een vijand; Vriendschap
 
@@ -16,7 +16,7 @@ SN: David raadpleegt de Heer en trekt naar Hebron, waar de mannen van Juda hem z
 M: David waits for God's timing and does not seize the whole kingdom by force. Civil war between brothers brings only grief.
 MN: David wacht op Gods tijd en grijpt het hele koninkrijk niet met geweld. Een burgeroorlog tussen broeders brengt alleen verdriet.
 F: The Fathers noted that David, though anointed long before, receives the kingdom step by step and not by violence, a sign of patience in God's promises. Abner's question 'shall the sword devour for ever?' was taken up as a plea for peace among brothers.
-FN: De Vaders merkten op dat David, hoewel lang tevoren gezalfd, het koningschap stap voor stap ontvangt en niet door geweld, een teken van geduld met Gods beloften. De vraag van Abner 'zal het zwaard voor altijd verslinden?' werd opgenomen als een pleidooi voor vrede tussen broeders.
+FN: De kerkvaders merkten op dat David, hoewel lang tevoren gezalfd, het koningschap stap voor stap ontvangt en niet door geweld, een teken van geduld met Gods beloften. De vraag van Abner 'zal het zwaard voor altijd verslinden?' werd opgenomen als een pleidooi voor vrede tussen broeders.
 T: Patience; Civil war; Peace among brothers
 TN: Geduld; Burgeroorlog; Vrede tussen broeders
 
@@ -26,7 +26,7 @@ SN: De oorlog tussen het huis van Saul en het huis van David duurt lang; David w
 M: David seeks peace, but private vengeance destroys it. A just ruler publicly disowns violence done in his name.
 MN: David zoekt vrede, maar persoonlijke wraak verwoest die. Een rechtvaardige heerser wijst geweld dat in zijn naam gepleegd wordt openlijk af.
 F: The Fathers contrasted David's sincere grief with Joab's vengeful violence, and taught that leaders must not profit from crimes committed on their behalf. David's mourning for Abner was seen as a model of reconciliation even after hostility.
-FN: De Vaders stelden het oprechte verdriet van David tegenover het wraakzuchtige geweld van Joab, en leerden dat leiders geen voordeel mogen halen uit misdaden die namens hen gepleegd worden. De rouw van David om Abner werd gezien als voorbeeld van verzoening, zelfs na vijandschap.
+FN: De kerkvaders stelden het oprechte verdriet van David tegenover het wraakzuchtige geweld van Joab, en leerden dat leiders geen voordeel mogen halen uit misdaden die namens hen gepleegd worden. De rouw van David om Abner werd gezien als voorbeeld van verzoening, zelfs na vijandschap.
 T: Vengeance; Justice; Public mourning
 TN: Wraak; Gerechtigheid; Openbare rouw
 
@@ -36,7 +36,7 @@ SN: Wanneer Isboseth hoort van de dood van Abner, verliest hij de moed, en heel 
 M: David will not receive the kingdom through murder. He trusts the Lord who has redeemed his life rather than violent shortcuts.
 MN: David wil het koningschap niet ontvangen door moord. Hij vertrouwt op de Heer die zijn leven verlost heeft, in plaats van op gewelddadige kortere wegen.
 F: The Fathers saw in David's refusal of the murderers' gift his consistent principle: God's promises are not to be fulfilled by sinful means. They noted that those who expected reward for evil received justice instead.
-FN: De Vaders zagen in de weigering van David van het geschenk van de moordenaars zijn consequente principe: Gods beloften mogen niet met zondige middelen vervuld worden. Zij merkten op dat wie beloning verwachtten voor het kwaad, in plaats daarvan gerechtigheid ontvingen.
+FN: De kerkvaders zagen in de weigering van David van het geschenk van de moordenaars zijn consequente principe: Gods beloften mogen niet met zondige middelen vervuld worden. Zij merkten op dat wie beloning verwachtten voor het kwaad, in plaats daarvan gerechtigheid ontvingen.
 T: Refusing evil means; Justice; Trust in God
 TN: Kwade middelen weigeren; Gerechtigheid; Vertrouwen op God
 
@@ -46,7 +46,7 @@ SN: Alle stammen van Israël komen naar David in Hebron: wij zijn uw gebeente en
 M: The shepherd becomes king of all Israel, and Jerusalem becomes the city of God. David's success comes from God's presence and his constant seeking of God's guidance.
 MN: De herder wordt koning over heel Israël, en Jeruzalem wordt de stad van God. Het succes van David komt voort uit Gods aanwezigheid en zijn voortdurend zoeken naar Gods leiding.
 F: The Fathers noted that David began to reign at thirty, the age at which Christ began His ministry. They saw Zion, taken by David, as a figure of the Church and the heavenly Jerusalem, and David the shepherd-king as a figure of Christ, the Good Shepherd and King.
-FN: De Vaders merkten op dat David op dertigjarige leeftijd begon te regeren, de leeftijd waarop Christus Zijn bediening begon. Zij zagen Sion, door David ingenomen, als een voorafbeelding van de Kerk en het hemelse Jeruzalem, en David, de herder-koning, als een voorafbeelding van Christus, de Goede Herder en Koning.
+FN: De kerkvaders merkten op dat David op dertigjarige leeftijd begon te regeren, de leeftijd waarop Christus Zijn bediening begon. Zij zagen Sion, door David ingenomen, als een voorafbeelding van de Kerk en het hemelse Jeruzalem, en David, de herder-koning, als een voorafbeelding van Christus, de Goede Herder en Koning.
 T: Shepherd-king; Zion; God's presence
 TN: Herder-koning; Sion; Gods aanwezigheid
 
@@ -66,7 +66,7 @@ SN: Wanneer de koning in zijn huis woont en de Heer hem rust gegeven heeft, zegt
 M: David wants to build a house for God, but God promises to build a house, a dynasty, for David that will last for ever. David answers in humble wonder.
 MN: David wil een huis voor God bouwen, maar God belooft een huis, een dynastie, voor David te bouwen dat eeuwig zal bestaan. David antwoordt in nederige verwondering.
 F: The angel Gabriel echoes this promise to Mary: the Lord God will give Him the throne of His father David, and of His kingdom there will be no end. Hebrews applies 'I will be to him a father, and he shall be to Me a son' to Christ. The Fathers saw the promise fulfilled not in Solomon's temporary kingdom but in Christ, the Son of David, whose reign is eternal.
-FN: De engel Gabriël herhaalt deze belofte tegenover Maria: God de Heer zal Hem de troon van Zijn vader David geven, en aan Zijn koninkrijk zal geen einde zijn. Hebreeën past 'Ik zal hem tot Vader zijn, en hij zal Mij tot zoon zijn' toe op Christus. De Vaders zagen de belofte niet vervuld in het tijdelijke koninkrijk van Salomo, maar in Christus, de Zoon van David, wiens heerschappij eeuwig is.
+FN: De engel Gabriël herhaalt deze belofte tegenover Maria: God de Heer zal Hem de troon van Zijn vader David geven, en aan Zijn koninkrijk zal geen einde zijn. Hebreeën past 'Ik zal hem tot Vader zijn, en hij zal Mij tot zoon zijn' toe op Christus. De kerkvaders zagen de belofte niet vervuld in het tijdelijke koninkrijk van Salomo, maar in Christus, de Zoon van David, wiens heerschappij eeuwig is.
 T: Covenant with David; The eternal throne; Humility
 TN: Verbond met David; De eeuwige troon; Nederigheid
 
@@ -76,7 +76,7 @@ SN: David verslaat de Filistijnen, Moab, Hadadezer van Zoba en de Syriërs van D
 M: God fulfils His promise of rest from enemies. Victory is followed by dedicating the spoils to God and by justice for all.
 MN: God vervult Zijn belofte van rust van de vijanden. Op de overwinning volgen het wijden van de buit aan God en recht voor allen.
 F: The Fathers praised David for dedicating the spoils to God rather than keeping them, and for ruling with justice and equity, the two marks of a godly ruler. They saw David's kingdom as a preparation for the peace of Solomon and of Christ.
-FN: De Vaders prezen David omdat hij de buit aan God wijdde in plaats van die te houden, en omdat hij regeerde met recht en gerechtigheid, de twee kenmerken van een godvrezende heerser. Zij zagen het koninkrijk van David als een voorbereiding op de vrede van Salomo en van Christus.
+FN: De kerkvaders prezen David omdat hij de buit aan God wijdde in plaats van die te houden, en omdat hij regeerde met recht en gerechtigheid, de twee kenmerken van een godvrezende heerser. Zij zagen het koninkrijk van David als een voorbereiding op de vrede van Salomo en van Christus.
 T: Victory; Dedication; Just rule
 TN: Overwinning; Toewijding; Rechtvaardig bestuur
 
@@ -86,7 +86,7 @@ SN: David vraagt: is er nog iemand over van het huis van Saul, zodat ik hem goed
 M: David keeps his covenant with Jonathan by showing grace to his helpless son. The lame heir of a rival house is welcomed to the king's table.
 MN: David houdt zijn verbond met Jonathan door genade te bewijzen aan diens hulpeloze zoon. De kreupele erfgenaam van een rivaliserend huis wordt aan de tafel van de koning verwelkomd.
 F: The Fathers saw in Mephibosheth, lame and fearful yet seated at the king's table as a son, an image of every sinner welcomed by Christ to His Eucharistic table out of pure grace, for the sake of a covenant made by another.
-FN: De Vaders zagen in Mefiboseth, kreupel en angstig maar als een zoon aan de tafel van de koning gezeten, een beeld van elke zondaar die uit pure genade door Christus aan Zijn eucharistische tafel verwelkomd wordt, omwille van een verbond dat door een ander gesloten is.
+FN: De kerkvaders zagen in Mefiboseth, kreupel en angstig maar als een zoon aan de tafel van de koning gezeten, een beeld van elke zondaar die uit pure genade door Christus aan Zijn eucharistische tafel verwelkomd wordt, omwille van een verbond dat door een ander gesloten is.
 T: Covenant kindness; Grace to the weak; The king's table
 TN: Verbondstrouw; Genade voor de zwakke; De tafel van de koning
 
@@ -96,7 +96,7 @@ SN: Wanneer de koning van de Ammonieten sterft, zendt David dienaren om zijn zoo
 M: Kindness rejected and insulted leads to war. Courage does its part and leaves the outcome to God.
 MN: Afgewezen en beledigde goedheid leidt tot oorlog. Moed doet zijn deel en laat de uitkomst aan God.
 F: The Fathers noted David's care for the humiliated messengers, sparing them shame, and admired Joab's words 'the Lord do what seems good to Him' as a model of doing one's duty while trusting God with the result.
-FN: De Vaders merkten de zorg van David op voor de vernederde boden, die hij schaamte bespaarde, en bewonderden de woorden van Joab 'de Heer doe wat goed is in Zijn ogen' als voorbeeld van zijn plicht doen terwijl men de uitkomst aan God toevertrouwt.
+FN: De kerkvaders merkten de zorg van David op voor de vernederde boden, die hij schaamte bespaarde, en bewonderden de woorden van Joab 'de Heer doe wat goed is in Zijn ogen' als voorbeeld van zijn plicht doen terwijl men de uitkomst aan God toevertrouwt.
 T: Kindness rejected; Courage; Trust in the outcome
 TN: Afgewezen goedheid; Moed; Vertrouwen in de uitkomst
 
@@ -106,7 +106,7 @@ SN: In het voorjaar, wanneer koningen ten strijde trekken, stuurt David Joab en 
 M: Idleness, a look, desire, adultery, deceit and murder: one sin leads to the next. The foreign soldier Uriah is more faithful than the king.
 MN: Ledigheid, een blik, begeerte, overspel, bedrog en moord: de ene zonde leidt tot de volgende. De buitenlandse soldaat Uria is trouwer dan de koning.
 F: The Fathers, St Ambrose and St John Chrysostom among them, used David's fall as the classic warning that even the holiest can fall through idleness and the unguarded eye, and that hidden sin breeds worse sin. They noted that Matthew names 'the wife of Uriah' in the genealogy of Christ, a sign that Christ came to save sinners.
-FN: De Vaders, onder wie de heilige Ambrosius en de heilige Johannes Chrysostomus, gebruikten de val van David als de klassieke waarschuwing dat zelfs de heiligsten kunnen vallen door ledigheid en het onbewaakte oog, en dat verborgen zonde ergere zonde voortbrengt. Zij merkten op dat Matteüs 'de vrouw van Uria' noemt in het geslachtsregister van Christus, een teken dat Christus kwam om zondaars te redden.
+FN: De kerkvaders, onder wie de heilige Ambrosius en de heilige Johannes Chrysostomus, gebruikten de val van David als de klassieke waarschuwing dat zelfs de heiligsten kunnen vallen door ledigheid en het onbewaakte oog, en dat verborgen zonde ergere zonde voortbrengt. Zij merkten op dat Matteüs 'de vrouw van Uria' noemt in het geslachtsregister van Christus, een teken dat Christus kwam om zondaars te redden.
 T: The fall of the righteous; Chain of sin; The faithful outsider
 TN: De val van de rechtvaardige; Keten van zonde; De trouwe buitenstaander
 
@@ -116,7 +116,7 @@ SN: De Heer zendt Nathan naar David. Hij vertelt een gelijkenis: een rijke man m
 M: The prophet's parable lets David condemn himself. Immediate confession receives forgiveness, though consequences remain.
 MN: De gelijkenis van de profeet laat David zichzelf veroordelen. Directe belijdenis ontvangt vergeving, hoewel de gevolgen blijven.
 F: Psalm 51 is the prayer of David after Nathan came to him, and the Fathers made this chapter the model of repentance: honest confession without excuses, 'I have sinned against the Lord'. St Ambrose wrote an Apology of David on it. They praised Nathan's courage and wisdom in rebuking a king, a model for confessors.
-FN: Psalm 51 is het gebed van David nadat Nathan bij hem kwam, en de Vaders maakten dit hoofdstuk tot het voorbeeld van bekering: eerlijke belijdenis zonder uitvluchten, 'ik heb gezondigd tegen de Heer'. De heilige Ambrosius schreef er een Verdediging van David over. Zij prezen de moed en wijsheid van Nathan in het berispen van een koning, een voorbeeld voor biechtvaders.
+FN: Psalm 51 is het gebed van David nadat Nathan bij hem kwam, en de kerkvaders maakten dit hoofdstuk tot het voorbeeld van bekering: eerlijke belijdenis zonder uitvluchten, 'ik heb gezondigd tegen de Heer'. De heilige Ambrosius schreef er een Verdediging van David over. Zij prezen de moed en wijsheid van Nathan in het berispen van een koning, een voorbeeld voor biechtvaders.
 T: Confession; Forgiveness and consequences; Prophetic courage
 TN: Belijdenis; Vergeving en gevolgen; Profetische moed
 
@@ -126,7 +126,7 @@ SN: Amnon, de zoon van David, begeert zijn halfzuster Tamar. Op aanraden van zij
 M: Lust that is not love turns into hatred. A father's failure to act on injustice breeds vengeance in his own house.
 MN: Begeerte die geen liefde is, slaat om in haat. Het falen van een vader om tegen onrecht op te treden, kweekt wraak in zijn eigen huis.
 F: The Fathers noted how Amnon's 'love' turned at once into hatred, the mark of passion rather than love. They saw in David's inaction, after his own sin, a father weakened in authority, and in the violence in his house the sword Nathan had foretold.
-FN: De Vaders merkten op hoe de 'liefde' van Amnon onmiddellijk in haat omsloeg, het kenmerk van hartstocht en niet van liefde. Zij zagen in de passiviteit van David, na zijn eigen zonde, een vader die in gezag verzwakt was, en in het geweld in zijn huis het zwaard dat Nathan had voorzegd.
+FN: De kerkvaders merkten op hoe de 'liefde' van Amnon onmiddellijk in haat omsloeg, het kenmerk van hartstocht en niet van liefde. Zij zagen in de passiviteit van David, na zijn eigen zonde, een vader die in gezag verzwakt was, en in het geweld in zijn huis het zwaard dat Nathan had voorzegd.
 T: Lust and hatred; Injustice ignored; Vengeance
 TN: Begeerte en haat; Genegeerd onrecht; Wraak
 
@@ -136,7 +136,7 @@ SN: Joab ziet dat het hart van de koning naar Absalom uitgaat, en zendt een wijz
 M: Reconciliation half-done is not reconciliation. God, however, seeks ways to bring back the banished.
 MN: Een half voltooide verzoening is geen verzoening. God echter zoekt wegen om de verbannene terug te brengen.
 F: The Fathers loved the woman of Tekoa's words 'God devises means so that the banished one may not remain an outcast' as a description of God's plan of salvation in Christ, who brings back exiled humanity. They contrasted David's half-hearted reconciliation with the father of the prodigal, who ran to embrace his son.
-FN: De Vaders hielden van de woorden van de vrouw uit Tekoa 'God bedenkt middelen opdat de verbannene niet verstoten blijft' als een beschrijving van Gods heilsplan in Christus, die de verbannen mensheid terugbrengt. Zij stelden de halfslachtige verzoening van David tegenover de vader van de verloren zoon, die naar zijn zoon toe rende om hem te omhelzen.
+FN: De kerkvaders hielden van de woorden van de vrouw uit Tekoa 'God bedenkt middelen opdat de verbannene niet verstoten blijft' als een beschrijving van Gods heilsplan in Christus, die de verbannen mensheid terugbrengt. Zij stelden de halfslachtige verzoening van David tegenover de vader van de verloren zoon, die naar zijn zoon toe rende om hem te omhelzen.
 T: Reconciliation; God brings back the banished; Wisdom
 TN: Verzoening; God brengt de verbannene terug; Wijsheid
 
@@ -146,7 +146,7 @@ SN: Absalom schaft zich een wagen en paarden aan en staat elke morgen bij de sta
 M: Betrayed by his son and his counsellor, David leaves in humility and entrusts himself to God's will. A foreigner proves more loyal than many Israelites.
 MN: Verraden door zijn zoon en zijn raadsman vertrekt David in nederigheid en vertrouwt zich toe aan Gods wil. Een buitenlander blijkt trouwer dan veel Israëlieten.
 F: The Fathers saw David, betrayed, crossing the Kidron and going up the Mount of Olives weeping, as a figure of Christ on the night of His betrayal, who crossed the Kidron to Gethsemane. Ittai's 'whether for death or for life' was compared to Peter's vow and to the faithful who follow Christ to the end.
-FN: De Vaders zagen David, verraden, die de Kidron overstak en wenend de Olijfberg opging, als een voorafbeelding van Christus in de nacht van Zijn verraad, die de Kidron overstak naar Getsemane. Ittai's 'in dood of leven' werd vergeleken met de gelofte van Petrus en met de gelovigen die Christus tot het einde volgen.
+FN: De kerkvaders zagen David, verraden, die de Kidron overstak en wenend de Olijfberg opging, als een voorafbeelding van Christus in de nacht van Zijn verraad, die de Kidron overstak naar Getsemane. Ittai's 'in dood of leven' werd vergeleken met de gelofte van Petrus en met de gelovigen die Christus tot het einde volgen.
 T: Betrayal; Humility in suffering; Loyalty
 TN: Verraad; Nederigheid in het lijden; Trouw
 
@@ -156,7 +156,7 @@ SN: Ziba ontmoet David met ezels en proviand en beweert dat Mefiboseth in Jeruza
 M: David receives insults humbly as part of God's discipline, refusing revenge. He trusts that God can turn curses into blessing.
 MN: David ontvangt beledigingen nederig als deel van Gods tucht en weigert wraak. Hij vertrouwt dat God vloeken in zegen kan veranderen.
 F: The Fathers, St John Chrysostom especially, held up David's patience under Shimei's curses as one of the highest examples of meekness, seeing in it the attitude Christ commands: bless those who curse you. They taught that accepting insults humbly is a powerful remedy for one's own sins.
-FN: De Vaders, vooral de heilige Johannes Chrysostomus, stelden het geduld van David onder de vervloekingen van Simeï voor als een van de hoogste voorbeelden van zachtmoedigheid, en zagen daarin de houding die Christus gebiedt: zegen wie u vervloeken. Zij leerden dat het nederig aanvaarden van beledigingen een krachtig geneesmiddel is voor de eigen zonden.
+FN: De kerkvaders, vooral de heilige Johannes Chrysostomus, stelden het geduld van David onder de vervloekingen van Simeï voor als een van de hoogste voorbeelden van zachtmoedigheid, en zagen daarin de houding die Christus gebiedt: zegen wie u vervloeken. Zij leerden dat het nederig aanvaarden van beledigingen een krachtig geneesmiddel is voor de eigen zonden.
 T: Meekness; Accepting insults; Trust in God's justice
 TN: Zachtmoedigheid; Beledigingen aanvaarden; Vertrouwen op Gods gerechtigheid
 
@@ -166,7 +166,7 @@ SN: Achitofel raadt Absalom aan hem David meteen met twaalfduizend man te laten 
 M: God answers David's prayer by turning wise counsel into foolishness. The traitor who seemed so clever ends in despair.
 MN: God verhoort het gebed van David door wijze raad tot dwaasheid te maken. De verrader die zo slim leek, eindigt in wanhoop.
 F: The Fathers saw Ahithophel, the trusted counsellor who betrayed his king and then hanged himself, as a figure of Judas; Psalm 41 and Psalm 55, on the betrayal by a close friend, were connected with him. They saw God's providence in the defeat of his counsel, as at the cross God turned the plans of the wicked into salvation.
-FN: De Vaders zagen Achitofel, de vertrouwde raadsman die zijn koning verraadde en zich daarna ophing, als een voorafbeelding van Judas; Psalm 41 en Psalm 55, over het verraad door een goede vriend, werden met hem verbonden. Zij zagen Gods voorzienigheid in het verijdelen van zijn raad, zoals God aan het kruis de plannen van de goddelozen in verlossing veranderde.
+FN: De kerkvaders zagen Achitofel, de vertrouwde raadsman die zijn koning verraadde en zich daarna ophing, als een voorafbeelding van Judas; Psalm 41 en Psalm 55, over het verraad door een goede vriend, werden met hem verbonden. Zij zagen Gods voorzienigheid in het verijdelen van zijn raad, zoals God aan het kruis de plannen van de goddelozen in verlossing veranderde.
 T: Answered prayer; The traitor's end; Providence
 TN: Verhoord gebed; Het einde van de verrader; Voorzienigheid
 
@@ -176,7 +176,7 @@ SN: David verdeelt zijn leger in drie afdelingen en wil met hen uittrekken, maar
 M: A father's love survives even his son's rebellion. David's grief is the cry of a love that would rather die than lose its child.
 MN: De liefde van een vader overleeft zelfs de opstand van zijn zoon. Het verdriet van David is de roep van een liefde die liever zou sterven dan haar kind te verliezen.
 F: The Fathers heard in David's cry 'would I had died instead of you' an image of God's love for rebellious humanity, a love that in Christ did die in our place. St Augustine and others drew from it the depth of fatherly love that outlasts every offence.
-FN: De Vaders hoorden in de roep van David 'was ik maar in uw plaats gestorven' een beeld van Gods liefde voor de opstandige mensheid, een liefde die in Christus werkelijk in onze plaats stierf. De heilige Augustinus en anderen leerden eruit de diepte van vaderlijke liefde die elke krenking overleeft.
+FN: De kerkvaders hoorden in de roep van David 'was ik maar in uw plaats gestorven' een beeld van Gods liefde voor de opstandige mensheid, een liefde die in Christus werkelijk in onze plaats stierf. De heilige Augustinus en anderen leerden eruit de diepte van vaderlijke liefde die elke krenking overleeft.
 T: A father's grief; Rebellion; Love that would die for another
 TN: Het verdriet van een vader; Opstand; Liefde die voor een ander zou sterven
 
@@ -186,7 +186,7 @@ SN: De overwinning wordt voor heel het volk in rouw veranderd, totdat Joab de ko
 M: The king's return is a time of mercy: enemies are forgiven, the loyal are honoured. Mephibosheth's joy at the king's return matters more to him than property.
 MN: De terugkeer van de koning is een tijd van barmhartigheid: vijanden worden vergeven, de trouwen worden geëerd. De vreugde van Mefiboseth over de terugkeer van de koning telt voor hem meer dan bezit.
 F: The Fathers saw in David's return a figure of Christ's return in glory, when the loyal are welcomed and repentant enemies forgiven. Mephibosheth, who cared only that the king had come home, was held up as the soul that loves the Lord more than His gifts.
-FN: De Vaders zagen in de terugkeer van David een voorafbeelding van de wederkomst van Christus in heerlijkheid, wanneer de trouwen verwelkomd worden en berouwvolle vijanden vergeven. Mefiboseth, die alleen gaf om het feit dat de koning thuisgekomen was, werd voorgesteld als de ziel die de Heer meer liefheeft dan Zijn gaven.
+FN: De kerkvaders zagen in de terugkeer van David een voorafbeelding van de wederkomst van Christus in heerlijkheid, wanneer de trouwen verwelkomd worden en berouwvolle vijanden vergeven. Mefiboseth, die alleen gaf om het feit dat de koning thuisgekomen was, werd voorgesteld als de ziel die de Heer meer liefheeft dan Zijn gaven.
 T: Mercy; Return of the king; Loving the giver more than the gift
 TN: Barmhartigheid; Terugkeer van de koning; De gever meer liefhebben dan de gave
 
@@ -196,7 +196,7 @@ SN: Seba, de zoon van Bichri, een waardeloze man, blaast op de bazuin: wij hebbe
 M: Division and violence continue to trouble David's kingdom. A wise woman's words save a whole city.
 MN: Verdeeldheid en geweld blijven het koninkrijk van David verontrusten. De woorden van een wijze vrouw redden een hele stad.
 F: The Fathers compared Joab's treacherous kiss of Amasa to the kiss of Judas. The wise woman of Abel was praised, like the woman of Tekoa and Abigail, as one of the peacemaking women of Scripture.
-FN: De Vaders vergeleken de verraderlijke kus van Joab aan Amasa met de kus van Judas. De wijze vrouw van Abel werd geprezen, zoals de vrouw uit Tekoa en Abigaïl, als een van de vredestichtende vrouwen van de Schrift.
+FN: De kerkvaders vergeleken de verraderlijke kus van Joab aan Amasa met de kus van Judas. De wijze vrouw van Abel werd geprezen, zoals de vrouw uit Tekoa en Abigaïl, als een van de vredestichtende vrouwen van de Schrift.
 T: Division; Treachery; Peacemaking wisdom
 TN: Verdeeldheid; Verraad; Vredestichtende wijsheid
 
@@ -206,7 +206,7 @@ SN: Er is drie jaar hongersnood, en de Heer zegt dat het komt doordat Saul de Gi
 M: Broken oaths have lasting consequences. A grieving mother's faithful vigil moves the king to honour the dead.
 MN: Gebroken eden hebben blijvende gevolgen. De trouwe wake van een rouwende moeder beweegt de koning om de doden te eren.
 F: The Fathers were moved by Rizpah's vigil as an image of a mother's undying love and of the Church's care for the dead. They saw the consequences of Saul's broken oath as a warning about the seriousness of promises made in God's name.
-FN: De Vaders werden ontroerd door de wake van Rizpa als een beeld van de onvergankelijke liefde van een moeder en van de zorg van de Kerk voor de doden. Zij zagen de gevolgen van de gebroken eed van Saul als een waarschuwing over de ernst van beloften die in Gods naam gedaan worden.
+FN: De kerkvaders werden ontroerd door de wake van Rizpa als een beeld van de onvergankelijke liefde van een moeder en van de zorg van de Kerk voor de doden. Zij zagen de gevolgen van de gebroken eed van Saul als een waarschuwing over de ernst van beloften die in Gods naam gedaan worden.
 T: Broken oaths; A mother's vigil; Honouring the dead
 TN: Gebroken eden; De wake van een moeder; De doden eren
 
@@ -216,7 +216,7 @@ SN: David spreekt de woorden van dit lied op de dag dat de Heer hem redt uit de 
 M: Looking back on his whole life, David sees God's deliverance at every turn. Thanksgiving is the crown of a life of trials.
 MN: Terugkijkend op heel zijn leven ziet David Gods redding bij elke wending. Dankzegging is de kroon op een leven vol beproevingen.
 F: This song appears almost identically as Psalm 18. The Fathers read God 'bowing the heavens and coming down' as the Incarnation, and the rescue from many waters as Christ's resurrection. St Paul quotes its final verses to show that the Gentiles glorify God for His mercy.
-FN: Dit lied komt bijna woordelijk voor als Psalm 18. De Vaders lazen God die 'de hemel boog en neerdaalde' als de menswording, en de redding uit grote wateren als de opstanding van Christus. De heilige Paulus citeert de slotverzen om te tonen dat de heidenen God verheerlijken om Zijn barmhartigheid.
+FN: Dit lied komt bijna woordelijk voor als Psalm 18. De kerkvaders lazen God die 'de hemel boog en neerdaalde' als de menswording, en de redding uit grote wateren als de opstanding van Christus. De heilige Paulus citeert de slotverzen om te tonen dat de heidenen God verheerlijken om Zijn barmhartigheid.
 T: Thanksgiving; Deliverance; God our rock
 TN: Dankzegging; Bevrijding; God onze rots
 
@@ -226,7 +226,7 @@ SN: Dit zijn de laatste woorden van David, de zoon van Isaï, de gezalfde van de
 M: The just ruler is like morning sunlight. David honours the sacrifice of his men by offering their gift to God rather than enjoying it himself.
 MN: De rechtvaardige heerser is als het morgenlicht. David eert het offer van zijn mannen door hun gave aan God aan te bieden in plaats van er zelf van te genieten.
 F: The Fathers read David's claim 'the Spirit of the Lord speaks by me' as the foundation for reading the Psalms as inspired prophecy. The just ruler 'like the morning light' was applied to Christ, the Sun of Righteousness. The water from Bethlehem poured out was compared with Christ's blood, too precious to be used for oneself.
-FN: De Vaders lazen de bewering van David 'de Geest van de Heer spreekt door mij' als de grondslag om de psalmen te lezen als geïnspireerde profetie. De rechtvaardige heerser 'als het morgenlicht' werd toegepast op Christus, de Zon van de gerechtigheid. Het water uit Bethlehem dat werd uitgegoten, werd vergeleken met het bloed van Christus, te kostbaar om voor zichzelf te gebruiken.
+FN: De kerkvaders lazen de bewering van David 'de Geest van de Heer spreekt door mij' als de grondslag om de psalmen te lezen als geïnspireerde profetie. De rechtvaardige heerser 'als het morgenlicht' werd toegepast op Christus, de Zon van de gerechtigheid. Het water uit Bethlehem dat werd uitgegoten, werd vergeleken met het bloed van Christus, te kostbaar om voor zichzelf te gebruiken.
 T: Inspired psalmist; Just rule; Honouring sacrifice
 TN: Geïnspireerde psalmdichter; Rechtvaardig bestuur; Het offer eren
 
@@ -236,6 +236,6 @@ SN: David beveelt Joab de strijdbare mannen van Israël en Juda te tellen; Joab 
 M: Pride in numbers is sin, but David repents and asks that the punishment fall on him rather than his people. True offering costs something.
 MN: Trots op aantallen is zonde, maar David bekeert zich en vraagt dat de straf op hem valt in plaats van op zijn volk. Een waar offer kost iets.
 F: The Fathers noted that the threshing floor of Araunah became the site of Solomon's temple, on Mount Moriah where Abraham offered Isaac, and saw it as a place where judgment gives way to mercy. 'I will not offer to the Lord what costs me nothing' became a principle of Christian giving and sacrifice. David asking that the punishment fall on him was read as a figure of Christ, the Shepherd who takes the blow for the sheep.
-FN: De Vaders merkten op dat de dorsvloer van Arauna de plaats werd van de tempel van Salomo, op de berg Moria waar Abraham Isaak offerde, en zagen haar als een plaats waar het oordeel wijkt voor barmhartigheid. 'Ik zal de Heer niet offeren wat mij niets kost' werd een principe van christelijk geven en offeren. Dat David vroeg dat de straf op hem zou vallen, werd gelezen als een voorafbeelding van Christus, de Herder die de slag voor de schapen opvangt.
+FN: De kerkvaders merkten op dat de dorsvloer van Arauna de plaats werd van de tempel van Salomo, op de berg Moria waar Abraham Isaak offerde, en zagen haar als een plaats waar het oordeel wijkt voor barmhartigheid. 'Ik zal de Heer niet offeren wat mij niets kost' werd een principe van christelijk geven en offeren. Dat David vroeg dat de straf op hem zou vallen, werd gelezen als een voorafbeelding van Christus, de Herder die de slag voor de schapen opvangt.
 T: Pride; The shepherd takes the blow; Costly offering
 TN: Hoogmoed; De herder vangt de slag op; Een kostbaar offer

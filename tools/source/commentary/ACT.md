@@ -16,7 +16,7 @@ SN: Op de dag van Pinksteren vult een geluid als van een geweldige wind het huis
 M: Pentecost is the birthday of the Church. Babel's confusion is healed: one Spirit gathers all languages into one confession.
 MN: Pinksteren is de geboortedag van de Kerk. De verwarring van Babel wordt geheeld: één Geest verzamelt alle talen in één belijdenis.
 F: The Pentecost kontakion contrasts Babel and Pentecost: then the tongues were confused, now the Spirit calls all to unity. Verse 42 was seen by the Fathers as the lasting shape of Church life.
-FN: Het kontakion van Pinksteren stelt Babel en Pinksteren tegenover elkaar: toen werden de talen verward, nu roept de Geest allen tot eenheid. Vers 42 werd door de Vaders gezien als de blijvende vorm van het leven van de Kerk.
+FN: Het kontakion van Pinksteren stelt Babel en Pinksteren tegenover elkaar: toen werden de talen verward, nu roept de Geest allen tot eenheid. Vers 42 werd door de kerkvaders gezien als de blijvende vorm van het leven van de Kerk.
 T: Holy Spirit; Church; Repentance and baptism
 TN: Heilige Geest; Kerk; Bekering en doop
 
@@ -26,7 +26,7 @@ SN: Op het uur van het gebed ontmoeten Petrus en Johannes een man die vanaf zijn
 M: The apostles have no wealth but carry the power of Christ's name. The healing is a sign of the new creation.
 MN: De apostelen hebben geen rijkdom, maar dragen de kracht van Christus' naam. De genezing is een teken van de nieuwe schepping.
 F: St John Chrysostom contrasts the poverty of the apostles with their power: they gave what gold cannot buy. The Fathers note they still went up to the temple to pray at the fixed hours.
-FN: De heilige Johannes Chrysostomus stelt de armoede van de apostelen tegenover hun kracht: zij gaven wat goud niet kan kopen. De Vaders merken op dat zij nog steeds op de vaste uren naar de tempel gingen om te bidden.
+FN: De heilige Johannes Chrysostomus stelt de armoede van de apostelen tegenover hun kracht: zij gaven wat goud niet kan kopen. De kerkvaders merken op dat zij nog steeds op de vaste uren naar de tempel gingen om te bidden.
 T: The name of Jesus; Healing; Repentance
 TN: De naam van Jezus; Genezing; Bekering
 
@@ -46,7 +46,7 @@ SN: Ananias en Saffira verkopen bezit, maar houden heimelijk een deel achter ter
 M: Lying to the Church is lying to the Holy Spirit, who is God. The apostles rejoice in suffering for Christ.
 MN: Liegen tegen de Kerk is liegen tegen de Heilige Geest, die God is. De apostelen verheugen zich in het lijden voor Christus.
 F: St Basil and other Fathers drew from Peter's words, 'you have not lied to men but to God', a proof of the divinity of the Holy Spirit.
-FN: De heilige Basilius en andere Vaders haalden uit de woorden van Petrus, 'u hebt niet tegen mensen gelogen, maar tegen God', een bewijs van de godheid van de Heilige Geest.
+FN: De heilige Basilius en andere kerkvaders haalden uit de woorden van Petrus, 'u hebt niet tegen mensen gelogen, maar tegen God', een bewijs van de godheid van de Heilige Geest.
 T: Truthfulness; Divinity of the Spirit; Obedience to God
 TN: Waarachtigheid; Godheid van de Geest; Gehoorzaamheid aan God
 
@@ -56,7 +56,7 @@ SN: De Griekssprekende weduwen worden vergeten bij de dagelijkse verdeling. De t
 M: Ministry in the Church grows to meet real needs, through prayer and the laying on of hands. Service at table and service of the word belong together.
 MN: Het ambt in de Kerk groeit om aan echte noden te voldoen, door gebed en handoplegging. Dienst aan tafel en dienst aan het woord horen bij elkaar.
 F: The Fathers saw in the Seven the origin of the diaconate, ordained by the laying on of hands, which the Church has kept ever since.
-FN: De Vaders zagen in de zeven de oorsprong van het diakenambt, gewijd door handoplegging, dat de Kerk sindsdien bewaard heeft.
+FN: De kerkvaders zagen in de zeven de oorsprong van het diakenambt, gewijd door handoplegging, dat de Kerk sindsdien bewaard heeft.
 T: Diaconate; Service; Laying on of hands
 TN: Diakenambt; Dienstbaarheid; Handoplegging
 
@@ -66,7 +66,7 @@ SN: Stefanus vertelt de geschiedenis van Israël: Abraham geroepen uit zijn land
 M: The first martyr dies like his Lord, forgiving his killers. His prayer for his persecutors bears fruit in Saul.
 MN: De eerste martelaar sterft zoals zijn Heer, terwijl hij zijn moordenaars vergeeft. Zijn gebed voor zijn vervolgers draagt vrucht in Saulus.
 F: St Augustine said: if Stephen had not prayed, the Church would not have had Paul. The Fathers note that Christ, seated at the Father's right hand, stood up to receive His first martyr.
-FN: De heilige Augustinus zei: als Stefanus niet gebeden had, zou de Kerk Paulus niet gehad hebben. De Vaders merken op dat Christus, gezeten aan de rechterhand van de Vader, opstond om Zijn eerste martelaar te ontvangen.
+FN: De heilige Augustinus zei: als Stefanus niet gebeden had, zou de Kerk Paulus niet gehad hebben. De kerkvaders merken op dat Christus, gezeten aan de rechterhand van de Vader, opstond om Zijn eerste martelaar te ontvangen.
 T: Martyrdom; Forgiveness; Heaven opened
 TN: Martelaarschap; Vergeving; De hemel geopend
 
@@ -76,9 +76,9 @@ SN: Na de dood van Stefanus verstrooit een vervolging de gelovigen, en Saulus ri
 M: Persecution spreads the gospel beyond Jerusalem. The Spirit is given through the apostles' laying on of hands, the root of chrismation and confirmation.
 MN: Vervolging verspreidt het evangelie buiten Jeruzalem. De Geest wordt gegeven door de handoplegging van de apostelen, de wortel van het vormsel en de myronzalving.
 F: The Fathers see in Peter and John laying hands on the baptised the origin of the anointing with chrism after baptism. The Ethiopian Church honours the eunuch as the first to bring the faith to Africa.
-FN: De Vaders zien in Petrus en Johannes die de gedoopten de handen opleggen de oorsprong van de zalving met myron na het doopsel. De Ethiopische Kerk eert de hoveling als de eerste die het geloof naar Afrika bracht.
+FN: De kerkvaders zien in Petrus en Johannes die de gedoopten de handen opleggen de oorsprong van de zalving met myron na de doop. De Ethiopische Kerk eert de hoveling als de eerste die het geloof naar Afrika bracht.
 T: Mission; Baptism; Gift of the Spirit
-TN: Zending; Doopsel; Gave van de Geest
+TN: Zending; Doop; Gave van de Geest
 
 ## 9 | The conversion of Saul | De bekering van Saulus
 S: On the road to Damascus a light from heaven flashes around Saul: Saul, Saul, why do you persecute Me? I am Jesus, whom you are persecuting. Blinded, he is led to Damascus, where Ananias, sent by the Lord, lays hands on him; something like scales fall from his eyes, he is baptised and preaches that Jesus is the Son of God. After escaping in a basket, he comes to Jerusalem, where Barnabas brings him to the apostles. Peter heals Aeneas and raises Tabitha at Joppa.
@@ -96,9 +96,9 @@ SN: Cornelius, een vrome Romeinse hoofdman in Caesarea, ziet een engel die hem z
 M: The door of the Church opens to the nations. God Himself removes the wall between Jew and Gentile.
 MN: De deur van de Kerk gaat open voor de volken. God Zelf breekt de muur tussen Jood en heiden af.
 F: St John Chrysostom notes that the Spirit came before baptism here, so that Peter and the Jewish believers could not object to baptising Gentiles.
-FN: De heilige Johannes Chrysostomus merkt op dat de Geest hier vóór het doopsel kwam, zodat Petrus en de Joodse gelovigen geen bezwaar konden maken tegen het dopen van heidenen.
+FN: De heilige Johannes Chrysostomus merkt op dat de Geest hier vóór de doop kwam, zodat Petrus en de Joodse gelovigen geen bezwaar konden maken tegen het dopen van heidenen.
 T: The Gentiles; Impartiality of God; Baptism
-TN: De heidenen; Onpartijdigheid van God; Doopsel
+TN: De heidenen; Onpartijdigheid van God; Doop
 
 ## 11 | Peter explains; the Church at Antioch | Petrus legt uit; de Kerk in Antiochië
 S: In Jerusalem some criticise Peter for eating with the uncircumcised. He tells what happened, and they glorify God: God has granted repentance unto life to the Gentiles. Scattered believers preach to Greeks in Antioch, and many believe. Barnabas is sent, rejoices, and brings Saul from Tarsus; for a year they teach there, and in Antioch the disciples are first called Christians. When a famine is foretold, the disciples send relief to Judea.
@@ -116,7 +116,7 @@ SN: Koning Herodes Agrippa doodt Jakobus, de broer van Johannes, met het zwaard 
 M: The prayer of the Church is powerful. Tyrants pass away, but the word of God grows and multiplies.
 MN: Het gebed van de Kerk is krachtig. Tirannen gaan voorbij, maar het woord van God groeit en vermenigvuldigt zich.
 F: The Church remembers James as the first apostle to die a martyr. The Fathers saw Peter's chains as a sign of the Church's freedom; the West keeps a feast of St Peter's Chains.
-FN: De Kerk gedenkt Jakobus als de eerste apostel die als martelaar stierf. De Vaders zagen de ketenen van Petrus als teken van de vrijheid van de Kerk; het Westen viert een feest van de Ketenen van Petrus.
+FN: De Kerk gedenkt Jakobus als de eerste apostel die als martelaar stierf. De kerkvaders zagen de ketenen van Petrus als teken van de vrijheid van de Kerk; het Westen viert een feest van de Ketenen van Petrus.
 T: Prayer of the Church; Deliverance; Martyrdom
 TN: Gebed van de Kerk; Bevrijding; Martelaarschap
 
@@ -126,7 +126,7 @@ SN: Terwijl de kerk in Antiochië God dient en vast, zegt de Heilige Geest: zond
 M: Mission is born in worship and fasting and is sent by the Spirit through the Church. The gospel is offered first to Israel, then to the nations.
 MN: Zending wordt geboren in eredienst en vasten en wordt door de Geest via de Kerk gezonden. Het evangelie wordt eerst aan Israël aangeboden, dan aan de volken.
 F: The Fathers note that the Spirit speaks as a Person, 'whom I have called', another witness to His divinity. From here Luke calls Saul by his Roman name, Paul.
-FN: De Vaders merken op dat de Geest spreekt als een Persoon, 'waartoe Ik hen geroepen heb', een ander getuigenis van Zijn godheid. Vanaf hier noemt Lucas Saulus bij zijn Romeinse naam, Paulus.
+FN: De kerkvaders merken op dat de Geest spreekt als een Persoon, 'waartoe Ik hen geroepen heb', een ander getuigenis van Zijn godheid. Vanaf hier noemt Lucas Saulus bij zijn Romeinse naam, Paulus.
 T: Mission; Fasting and prayer; Fulfilment of the promises
 TN: Zending; Vasten en gebed; Vervulling van de beloften
 
@@ -136,6 +136,6 @@ SN: In Ikonium gaan velen geloven, maar tegenstanders zetten de stad op, en Paul
 M: To pagans Paul preaches the Creator, known through His gifts in nature. The new churches receive shepherds to guard them.
 MN: Aan heidenen predikt Paulus de Schepper, die gekend wordt door Zijn gaven in de natuur. De nieuwe kerken krijgen herders om hen te behoeden.
 F: The Fathers see in the appointment of elders (presbyters) with prayer and fasting the apostolic origin of ordained ministry in every local church.
-FN: De Vaders zien in de aanstelling van oudsten (presbyters) met gebed en vasten de apostolische oorsprong van het gewijde ambt in elke plaatselijke kerk.
+FN: De kerkvaders zien in de aanstelling van oudsten (presbyters) met gebed en vasten de apostolische oorsprong van het gewijde ambt in elke plaatselijke kerk.
 T: Creator; Suffering; Church order
 TN: Schepper; Lijden; Kerkelijke orde

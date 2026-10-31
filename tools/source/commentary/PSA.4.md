@@ -6,7 +6,7 @@ SN: Wie in de schuilplaats van de Allerhoogste is gezeten, zal vernachten in de 
 M: The one who lives close to God is held in His protection day and night. God's final word is personal: I will be with him in trouble.
 MN: Wie dicht bij God leeft, wordt dag en nacht door Hem beschermd. Gods laatste woord is persoonlijk: Ik zal bij hem zijn in de benauwdheid.
 F: The devil quotes this psalm to tempt Christ in the wilderness, and Christ answers with Scripture, teaching that trust is not presumption. It is said at the Byzantine Sixth Hour and at Compline in the West. The Fathers read the angels bearing up the righteous and the treading on lion and serpent as Christ's victory over the devil, shared with His saints.
-FN: De duivel citeert deze psalm om Christus in de woestijn te verleiden, en Christus antwoordt met de Schrift, waarmee Hij leert dat vertrouwen geen overmoed is. Hij wordt gebeden in het Byzantijnse Zesde Uur en in de completen in het Westen. De Vaders lazen de engelen die de rechtvaardige dragen en het treden op leeuw en slang als de overwinning van Christus op de duivel, die Hij met Zijn heiligen deelt.
+FN: De duivel citeert deze psalm om Christus in de woestijn te verleiden, en Christus antwoordt met de Schrift, waarmee Hij leert dat vertrouwen geen overmoed is. Hij wordt gebeden in het Byzantijnse Zesde Uur en in de completen in het Westen. De kerkvaders lazen de engelen die de rechtvaardige dragen en het treden op leeuw en slang als de overwinning van Christus op de duivel, die Hij met Zijn heiligen deelt.
 T: God's protection; Angels; Trust without presumption
 TN: Gods bescherming; Engelen; Vertrouwen zonder overmoed
 
@@ -16,7 +16,7 @@ SN: Een lied voor de sabbatdag. Het is goed de Heer te loven en Uw naam te bezin
 M: Thanksgiving morning and evening shapes a life that keeps bearing fruit, even in old age.
 MN: Dankzegging 's morgens en 's avonds vormt een leven dat vrucht blijft dragen, zelfs in de ouderdom.
 F: This Sabbath psalm was sung by the early Church on the Lord's Day. The Fathers saw the palm tree, which bears fruit in old age and grows straight upward, as the image of the righteous soul. The Byzantine Saturday evening prokeimenon draws on the next psalm, 'The Lord is King', while this psalm is used in Sunday prayer in the West.
-FN: Deze sabbatpsalm werd door de vroege Kerk gezongen op de dag van de Heer. De Vaders zagen de palmboom, die op hoge leeftijd vrucht draagt en recht omhoog groeit, als het beeld van de rechtvaardige ziel. Het Byzantijnse prokeimenon van zaterdagavond ontleent aan de volgende psalm, 'De Heer is Koning', terwijl deze psalm in het Westen in het zondagsgebed wordt gebruikt.
+FN: Deze sabbatpsalm werd door de vroege Kerk gezongen op de dag van de Heer. De kerkvaders zagen de palmboom, die op hoge leeftijd vrucht draagt en recht omhoog groeit, als het beeld van de rechtvaardige ziel. Het Byzantijnse prokeimenon van zaterdagavond ontleent aan de volgende psalm, 'De Heer is Koning', terwijl deze psalm in het Westen in het zondagsgebed wordt gebruikt.
 T: Thanksgiving; Sabbath; Fruitfulness
 TN: Dankzegging; Sabbat; Vruchtbaarheid
 
@@ -26,7 +26,7 @@ SN: De Heer regeert; Hij is met majesteit bekleed; de Heer is bekleed; Hij heeft
 M: The roaring floods of chaos cannot overthrow God's throne. His kingship is the stability of the world.
 MN: De bruisende vloeden van de chaos kunnen Gods troon niet omverwerpen. Zijn koningschap is de stabiliteit van de wereld.
 F: 'The Lord is King, He is robed in majesty' is the prokeimenon of Saturday evening Vespers in the Byzantine rite, opening the Lord's Day of the resurrection. The Fathers read 'robed in majesty, girded with strength' as the risen Christ, clothed in the glory of His humanity.
-FN: 'De Heer is Koning, Hij is met majesteit bekleed' is het prokeimenon van de vespers op zaterdagavond in de Byzantijnse ritus, waarmee de dag van de Heer, de dag van de opstanding, begint. De Vaders lazen 'bekleed met majesteit, omgord met kracht' als de opgestane Christus, bekleed met de heerlijkheid van Zijn mensheid.
+FN: 'De Heer is Koning, Hij is met majesteit bekleed' is het prokeimenon van de vespers op zaterdagavond in de Byzantijnse ritus, waarmee de dag van de Heer, de dag van de opstanding, begint. De kerkvaders lazen 'bekleed met majesteit, omgord met kracht' als de opgestane Christus, bekleed met de heerlijkheid van Zijn mensheid.
 T: God's kingship; Chaos overcome; Holiness
 TN: Gods koningschap; Overwonnen chaos; Heiligheid
 
@@ -36,7 +36,7 @@ SN: Heer, God van de wraak, verschijn blinkend! Sta op, Rechter van de aarde. Ho
 M: The Creator of eye and ear sees and hears all injustice. In the midst of many anxieties, God's consolations hold us up.
 MN: De Schepper van oog en oor ziet en hoort alle onrecht. Te midden van vele zorgen ondersteunen Gods vertroostingen ons.
 F: The Fathers loved the argument 'He who planted the ear, does He not hear?' as a simple proof of God's providence. 'When the cares of my heart are many, Your consolations cheer my soul' became a favourite verse of comfort in spiritual direction.
-FN: De Vaders hielden van het argument 'Zou Hij die het oor geplant heeft, niet horen?' als een eenvoudig bewijs van Gods voorzienigheid. 'Toen mijn zorgen talrijk waren, verkwikten Uw vertroostingen mijn ziel' werd een geliefd troostvers in de geestelijke begeleiding.
+FN: De kerkvaders hielden van het argument 'Zou Hij die het oor geplant heeft, niet horen?' als een eenvoudig bewijs van Gods voorzienigheid. 'Toen mijn zorgen talrijk waren, verkwikten Uw vertroostingen mijn ziel' werd een geliefd troostvers in de geestelijke begeleiding.
 T: God sees; Discipline; Consolation
 TN: God ziet; Tucht; Vertroosting
 
@@ -56,7 +56,7 @@ SN: Zing de Heer een nieuw lied; zing de Heer, heel de aarde! Verkondig van dag 
 M: The whole earth, people and nature alike, is called to rejoice at the coming of the Lord who reigns.
 MN: De hele aarde, mensen en natuur samen, wordt geroepen zich te verheugen over de komst van de Heer die regeert.
 F: The Church sings this psalm at Christmas: the heavens rejoice and the earth is glad, for He comes. The Fathers read the 'new song' as the song of the new covenant. An early Christian addition in some Latin texts, 'the Lord reigns from the tree', was beloved by the Fathers as a reference to the cross.
-FN: De Kerk zingt deze psalm met Kerstmis: de hemel verblijdt zich en de aarde verheugt zich, want Hij komt. De Vaders lazen het 'nieuwe lied' als het lied van het nieuwe verbond. Een vroegchristelijke toevoeging in sommige Latijnse teksten, 'de Heer regeert vanaf het hout', was geliefd bij de Vaders als verwijzing naar het kruis.
+FN: De Kerk zingt deze psalm met Kerstmis: de hemel verblijdt zich en de aarde verheugt zich, want Hij komt. De kerkvaders lazen het 'nieuwe lied' als het lied van het nieuwe verbond. Een vroegchristelijke toevoeging in sommige Latijnse teksten, 'de Heer regeert vanaf het hout', was geliefd bij de kerkvaders als verwijzing naar het kruis.
 T: New song; Mission; The Lord comes
 TN: Nieuw lied; Zending; De Heer komt
 
@@ -66,7 +66,7 @@ SN: De Heer regeert, laat de aarde zich verheugen; laten de vele eilanden zich v
 M: God's coming is fearsome for evil, but for the righteous it is light sown like seed that will grow into joy.
 MN: Gods komst is ontzagwekkend voor het kwaad, maar voor de rechtvaardige is het licht, gezaaid als zaad dat tot vreugde zal opgroeien.
 F: The Western Church sings 'Light shall shine upon us this day' with this psalm at the Christmas dawn Mass. Hebrews quotes 'let all God's angels worship Him' from the Greek of this psalm, applying it to the Son brought into the world. The Fathers read the light sown for the righteous as Christ born in the night.
-FN: De Westerse Kerk zingt 'Licht straalt over ons vandaag' met deze psalm in de dageraadsmis van Kerstmis. Hebreeën citeert 'laten alle engelen van God Hem aanbidden' uit het Grieks van deze psalm, en past het toe op de Zoon die in de wereld komt. De Vaders lazen het licht dat voor de rechtvaardige gezaaid is als Christus, geboren in de nacht.
+FN: De Westerse Kerk zingt 'Licht straalt over ons vandaag' met deze psalm in de dageraadsmis van Kerstmis. Hebreeën citeert 'laten alle engelen van God Hem aanbidden' uit het Grieks van deze psalm, en past het toe op de Zoon die in de wereld komt. De kerkvaders lazen het licht dat voor de rechtvaardige gezaaid is als Christus, geboren in de nacht.
 T: God's majesty; Light for the righteous; Hating evil
 TN: Gods majesteit; Licht voor de rechtvaardige; Het kwade haten
 
@@ -76,7 +76,7 @@ SN: Zing de Heer een nieuw lied, want Hij heeft wonderen gedaan! Zijn rechterhan
 M: God's salvation, first shown to Israel, is now seen by all the earth. Creation itself joins in the song.
 MN: Gods heil, eerst aan Israël getoond, wordt nu door de hele aarde gezien. De schepping zelf zingt mee.
 F: This psalm is sung at Christmas in the West: all the ends of the earth have seen the salvation of our God. The Fathers saw Mary's Magnificat echo it ('He has remembered His mercy to Israel'), and Simeon's song ('my eyes have seen Your salvation, prepared before all peoples') as its fulfilment.
-FN: Deze psalm wordt in het Westen met Kerstmis gezongen: alle einden van de aarde hebben het heil van onze God gezien. De Vaders zagen het Magnificat van Maria erin weerklinken ('Hij heeft gedacht aan Zijn barmhartigheid voor Israël'), en de lofzang van Simeon ('mijn ogen hebben Uw heil gezien, dat U bereid hebt voor alle volken') als de vervulling ervan.
+FN: Deze psalm wordt in het Westen met Kerstmis gezongen: alle einden van de aarde hebben het heil van onze God gezien. De kerkvaders zagen het Magnificat van Maria erin weerklinken ('Hij heeft gedacht aan Zijn barmhartigheid voor Israël'), en de lofzang van Simeon ('mijn ogen hebben Uw heil gezien, dat U bereid hebt voor alle volken') als de vervulling ervan.
 T: Salvation revealed; New song; Joy of creation
 TN: Geopenbaard heil; Nieuw lied; Vreugde van de schepping
 
@@ -86,7 +86,7 @@ SN: De Heer regeert; laten de volken beven! Hij troont op de cherubs; laat de aa
 M: The threefold refrain 'Holy is He' proclaims God's otherness and majesty. Yet this holy God answers those who call on Him and forgives.
 MN: Het drievoudige refrein 'Heilig is Hij' verkondigt Gods andersheid en majesteit. Toch antwoordt deze heilige God wie Hem aanroepen en vergeeft Hij.
 F: 'Worship at His footstool, for He is holy' is sung at the Feast of the Exaltation of the Cross in the Byzantine rite, the cross being seen as the footstool where we bow down. The Fathers heard in the threefold 'holy' a hint of the Trinity, as in the Sanctus.
-FN: 'Buig u neer voor Zijn voetbank, want Hij is heilig' wordt gezongen op het feest van de Kruisverheffing in de Byzantijnse ritus, waarbij het kruis gezien wordt als de voetbank waarvoor wij ons neerbuigen. De Vaders hoorden in het drievoudige 'heilig' een verwijzing naar de Drie-eenheid, zoals in het Sanctus.
+FN: 'Buig u neer voor Zijn voetbank, want Hij is heilig' wordt gezongen op het feest van de Kruisverheffing in de Byzantijnse ritus, waarbij het kruis gezien wordt als de voetbank waarvoor wij ons neerbuigen. De kerkvaders hoorden in het drievoudige 'heilig' een verwijzing naar de Drie-eenheid, zoals in het Sanctus.
 T: Holiness; Worship; Intercessors
 TN: Heiligheid; Aanbidding; Voorbidders
 
@@ -96,7 +96,7 @@ SN: Juich de Heer toe, heel de aarde! Dien de Heer met blijdschap! Kom voor Zijn
 M: Worship is joyful service grounded in knowing that God made us and we belong to Him.
 MN: Aanbidding is vreugdevolle dienst, gegrond in het weten dat God ons gemaakt heeft en wij Hem toebehoren.
 F: The 'Jubilate' is among the most widely sung psalms in Christian worship; in the West it is one of the invitatory psalms that may open the day's prayer. The Fathers took 'it is He who made us, and not we ourselves' as a lesson in humility against self-sufficiency.
-FN: Het 'Jubilate' is een van de meest gezongen psalmen in de christelijke eredienst; in het Westen is het een van de invitatoriumpsalmen waarmee het dagelijks gebed kan openen. De Vaders namen 'Hij heeft ons gemaakt, en niet wijzelf' als een les in nederigheid tegen zelfgenoegzaamheid.
+FN: Het 'Jubilate' is een van de meest gezongen psalmen in de christelijke eredienst; in het Westen is het een van de invitatoriumpsalmen waarmee het dagelijks gebed kan openen. De kerkvaders namen 'Hij heeft ons gemaakt, en niet wijzelf' als een les in nederigheid tegen zelfgenoegzaamheid.
 T: Joyful service; Belonging to God; Thanksgiving
 TN: Vreugdevolle dienst; Toebehoren aan God; Dankzegging
 
@@ -106,7 +106,7 @@ SN: Ik zal goedertierenheid en recht bezingen; voor U, Heer, zal ik psalmen zing
 M: A ruler's vow to govern himself and his household in integrity. Holiness begins at home and with what we set before our eyes.
 MN: De gelofte van een heerser om zichzelf en zijn huis in oprechtheid te leiden. Heiligheid begint thuis en met wat wij voor onze ogen stellen.
 F: This psalm is said at the First Hour in the Byzantine rite, as a resolution for the day ahead. The Fathers applied 'I will not set before my eyes anything worthless' to guarding the senses, a central theme of the ascetic life.
-FN: Deze psalm wordt gebeden in het Eerste Uur van de Byzantijnse ritus, als voornemen voor de komende dag. De Vaders pasten 'ik zal niets verwerpelijks voor mijn ogen stellen' toe op het bewaken van de zintuigen, een centraal thema van het ascetische leven.
+FN: Deze psalm wordt gebeden in het Eerste Uur van de Byzantijnse ritus, als voornemen voor de komende dag. De kerkvaders pasten 'ik zal niets verwerpelijks voor mijn ogen stellen' toe op het bewaken van de zintuigen, een centraal thema van het ascetische leven.
 T: Integrity; Guarding the eyes; Good leadership
 TN: Oprechtheid; Het bewaken van de ogen; Goed leiderschap
 
@@ -116,7 +116,7 @@ SN: Een gebed van een ellendige, wanneer hij bezwijkt en zijn klacht uitstort vo
 M: Personal desolation and the ruin of Zion are set against God's unchanging eternity. Because He remains, there is hope for a future generation.
 MN: Persoonlijke verlatenheid en de ondergang van Sion worden geplaatst tegenover Gods onveranderlijke eeuwigheid. Omdat Hij blijft, is er hoop voor een komend geslacht.
 F: This is one of the seven penitential psalms, and its title was taken by the Fathers as a model of prayer in weakness: pouring out one's complaint before God. Hebrews 1 applies 'You remain the same, and Your years have no end' to the Son. The lonely sparrow on the housetop became an image of the hermit.
-FN: Dit is een van de zeven boetepsalmen, en het opschrift werd door de Vaders genomen als voorbeeld van gebed in zwakheid: zijn klacht uitstorten voor God. Hebreeën 1 past 'U bent Dezelfde, en Uw jaren hebben geen einde' toe op de Zoon. De eenzame mus op het dak werd een beeld van de kluizenaar.
+FN: Dit is een van de zeven boetepsalmen, en het opschrift werd door de kerkvaders genomen als voorbeeld van gebed in zwakheid: zijn klacht uitstorten voor God. Hebreeën 1 past 'U bent Dezelfde, en Uw jaren hebben geen einde' toe op de Zoon. De eenzame mus op het dak werd een beeld van de kluizenaar.
 T: Affliction; God's eternity; Hope for the future
 TN: Ellende; Gods eeuwigheid; Hoop voor de toekomst
 
@@ -126,7 +126,7 @@ SN: Loof de Heer, mijn ziel, en al wat in mij is, Zijn heilige naam! Loof de Hee
 M: Gratitude counts God's gifts one by one: forgiveness, healing, redemption, renewal. His mercy is the mercy of a father who knows we are dust.
 MN: Dankbaarheid telt Gods gaven één voor één: vergeving, genezing, verlossing, vernieuwing. Zijn barmhartigheid is die van een vader die weet dat wij stof zijn.
 F: This psalm is the first antiphon of the Byzantine Divine Liturgy on ordinary Sundays and the fifth of the Six Psalms at Matins. The Fathers saw in the list of benefits the whole economy of salvation in Christ, from forgiveness to the renewal of youth in the resurrection.
-FN: Deze psalm is de eerste antifoon van de Byzantijnse Goddelijke Liturgie op gewone zondagen en de vijfde van de Zes Psalmen in de metten. De Vaders zagen in de opsomming van weldaden de hele heilseconomie in Christus, van vergeving tot de vernieuwing van de jeugd in de opstanding.
+FN: Deze psalm is de eerste antifoon van de Byzantijnse Goddelijke Liturgie op gewone zondagen en de vijfde van de Zes Psalmen in de metten. De kerkvaders zagen in de opsomming van weldaden de hele heilseconomie in Christus, van vergeving tot de vernieuwing van de jeugd in de opstanding.
 T: Gratitude; Forgiveness; Fatherly compassion
 TN: Dankbaarheid; Vergeving; Vaderlijke ontferming
 
@@ -136,7 +136,7 @@ SN: Loof de Heer, mijn ziel! Heer, mijn God, U bent zeer groot! U bent bekleed m
 M: All creation, in its astonishing variety, depends on God for life and breath. His Spirit continually renews the face of the earth.
 MN: De hele schepping, in haar verbazingwekkende verscheidenheid, hangt voor leven en adem af van God. Zijn Geest vernieuwt voortdurend het aanzien van de aarde.
 F: This psalm opens every Byzantine Vespers, sung as the day ends, recalling creation. 'Send forth Your Spirit, and they shall be created, and You shall renew the face of the earth' is the great prayer of Pentecost in the West. The Fathers saw the light as a garment as a hint of the uncreated light of Mount Tabor.
-FN: Deze psalm opent elke Byzantijnse vesper, gezongen wanneer de dag eindigt, ter gedachtenis van de schepping. 'Zend Uw Geest uit, en zij zullen geschapen worden, en U zult het aanzien van de aarde vernieuwen' is het grote gebed van Pinksteren in het Westen. De Vaders zagen het licht als een kleed als een verwijzing naar het ongeschapen licht van de Tabor.
+FN: Deze psalm opent elke Byzantijnse vesper, gezongen wanneer de dag eindigt, ter gedachtenis van de schepping. 'Zend Uw Geest uit, en zij zullen geschapen worden, en U zult het aanzien van de aarde vernieuwen' is het grote gebed van Pinksteren in het Westen. De kerkvaders zagen het licht als een kleed als een verwijzing naar het ongeschapen licht van de Tabor.
 T: Creation; The Spirit renews; Wonder
 TN: Schepping; De Geest vernieuwt; Verwondering
 
@@ -146,7 +146,7 @@ SN: Loof de Heer; roep Zijn naam aan; maak onder de volken Zijn daden bekend! Zo
 M: Israel's history is retold entirely as God's faithfulness. Remembering His works keeps the covenant alive.
 MN: De geschiedenis van Israël wordt geheel verteld als Gods trouw. Het gedenken van Zijn werken houdt het verbond levend.
 F: 'Seek His face continually' became a watchword of the contemplative life. The Fathers read Joseph's story, briefly retold here, as a figure of Christ, sold, humbled and exalted. The first verses were sung when the ark was brought to Jerusalem, according to Chronicles.
-FN: 'Zoek voortdurend Zijn aangezicht' werd een leus van het beschouwende leven. De Vaders lazen het verhaal van Jozef, hier kort herverteld, als een voorafbeelding van Christus, verkocht, vernederd en verhoogd. De eerste verzen werden volgens Kronieken gezongen toen de ark naar Jeruzalem gebracht werd.
+FN: 'Zoek voortdurend Zijn aangezicht' werd een leus van het beschouwende leven. De kerkvaders lazen het verhaal van Jozef, hier kort herverteld, als een voorafbeelding van Christus, verkocht, vernederd en verhoogd. De eerste verzen werden volgens Kronieken gezongen toen de ark naar Jeruzalem gebracht werd.
 T: Remembrance; Covenant faithfulness; Seeking God's face
 TN: Gedenken; Verbondstrouw; Gods aangezicht zoeken
 
@@ -156,7 +156,7 @@ SN: Halleluja! Loof de Heer, want Hij is goed, want Zijn goedertierenheid is voo
 M: Honest confession of a whole people's history of sin is met by God's steadfast love that does not give up.
 MN: Eerlijke belijdenis van de zondegeschiedenis van een heel volk wordt beantwoord door Gods goedertierenheid die niet opgeeft.
 F: 'Remember me, O Lord, when You show favour to Your people' was taken up in the prayer of the good thief and in many liturgical prayers. The Fathers used this psalm to teach that the Church, too, must confess its sins together, and that God's mercy is greater than repeated failure.
-FN: 'Gedenk mij, Heer, wanneer U Uw volk gunst bewijst' klinkt door in het gebed van de goede moordenaar en in vele liturgische gebeden. De Vaders gebruikten deze psalm om te leren dat ook de Kerk haar zonden gezamenlijk moet belijden, en dat Gods barmhartigheid groter is dan herhaald falen.
+FN: 'Gedenk mij, Heer, wanneer U Uw volk gunst bewijst' klinkt door in het gebed van de goede moordenaar en in vele liturgische gebeden. De kerkvaders gebruikten deze psalm om te leren dat ook de Kerk haar zonden gezamenlijk moet belijden, en dat Gods barmhartigheid groter is dan herhaald falen.
 T: Corporate confession; Unfaithfulness; Steadfast love
 TN: Gezamenlijke belijdenis; Ontrouw; Goedertierenheid
 
@@ -166,7 +166,7 @@ SN: Loof de Heer, want Hij is goed, want Zijn goedertierenheid is voor eeuwig! L
 M: Wanderers, prisoners, the sick and the storm-tossed all find that crying out to God brings rescue. Every rescue calls for thanksgiving.
 MN: Zwervers, gevangenen, zieken en wie door storm worden geteisterd, ervaren allen dat roepen tot God redding brengt. Elke redding roept om dankzegging.
 F: The Fathers saw Christ fulfilling this psalm: He sent His word and healed them, He fed the hungry in the wilderness, freed prisoners, and stilled the storm on the Sea of Galilee. 'He sent out His word and healed them' was read of the Word made flesh.
-FN: De Vaders zagen Christus deze psalm vervullen: Hij zond Zijn woord en genas hen, Hij voedde de hongerigen in de woestijn, bevrijdde gevangenen en stilde de storm op het meer van Galilea. 'Hij zond Zijn woord en genas hen' werd gelezen als het Woord dat vlees werd.
+FN: De kerkvaders zagen Christus deze psalm vervullen: Hij zond Zijn woord en genas hen, Hij voedde de hongerigen in de woestijn, bevrijdde gevangenen en stilde de storm op het meer van Galilea. 'Hij zond Zijn woord en genas hen' werd gelezen als het Woord dat vlees werd.
 T: Rescue; Crying out; Thanksgiving
 TN: Redding; Roepen; Dankzegging
 
@@ -176,7 +176,7 @@ SN: Mijn hart is vast, God! Ik zal zingen en psalmen met heel mijn wezen! Ontwaa
 M: Two earlier psalms are joined: morning praise from Psalm 57 and the plea for help from Psalm 60. Praise comes first, then the request.
 MN: Twee eerdere psalmen worden samengevoegd: de morgenlof uit Psalm 57 en de bede om hulp uit Psalm 60. Eerst komt de lof, dan het verzoek.
 F: The Fathers noted that the Holy Spirit reuses earlier words in a new setting, teaching that the Psalms are a living treasury for every situation. 'I will awake the dawn' was again read of Christ's resurrection, and the psalm is used at morning prayer.
-FN: De Vaders merkten op dat de Heilige Geest eerdere woorden in een nieuwe samenhang hergebruikt, wat leert dat de psalmen een levende schatkamer zijn voor elke situatie. 'Ik zal de dageraad wekken' werd opnieuw gelezen als de opstanding van Christus, en de psalm wordt gebruikt in het morgengebed.
+FN: De kerkvaders merkten op dat de Heilige Geest eerdere woorden in een nieuwe samenhang hergebruikt, wat leert dat de psalmen een levende schatkamer zijn voor elke situatie. 'Ik zal de dageraad wekken' werd opnieuw gelezen als de opstanding van Christus, en de psalm wordt gebruikt in het morgengebed.
 T: Steadfast heart; Morning praise; Help from God
 TN: Een vast hart; Morgenlof; Hulp van God
 
@@ -186,7 +186,7 @@ SN: God van mijn lof, zwijg niet! Want goddeloze en bedrieglijke monden zijn teg
 M: Betrayed love is the deepest wound. The psalmist answers accusation with prayer and leaves judgment to God.
 MN: Verraden liefde is de diepste wond. De psalmist antwoordt op beschuldiging met gebed en laat het oordeel aan God.
 F: In Acts St Peter applies 'may another take his office' to Judas, before Matthias is chosen. The Fathers read the curses as prophecy of the betrayer's fate rather than as words for Christians to wish on others; St Augustine notes that Christ, the one accused in return for love, prayed for His enemies.
-FN: In Handelingen past de heilige Petrus 'laat een ander zijn ambt nemen' toe op Judas, voordat Matthias gekozen wordt. De Vaders lazen de vervloekingen als profetie over het lot van de verrader en niet als woorden die christenen anderen moeten toewensen; de heilige Augustinus merkt op dat Christus, aangeklaagd voor Zijn liefde, voor Zijn vijanden bad.
+FN: In Handelingen past de heilige Petrus 'laat een ander zijn ambt nemen' toe op Judas, voordat Matthias gekozen wordt. De kerkvaders lazen de vervloekingen als profetie over het lot van de verrader en niet als woorden die christenen anderen moeten toewensen; de heilige Augustinus merkt op dat Christus, aangeklaagd voor Zijn liefde, voor Zijn vijanden bad.
 T: Betrayed love; Prayer under accusation; Judas
 TN: Verraden liefde; Gebed onder beschuldiging; Judas
 
@@ -196,7 +196,7 @@ SN: De Heer heeft tot mijn Heer gesproken: zit aan Mijn rechterhand, totdat Ik U
 M: David's Lord is enthroned at God's right hand as eternal King and Priest. This psalm is the foundation of the Church's faith in the exalted Christ.
 MN: Davids Heer troont aan Gods rechterhand als eeuwige Koning en Priester. Deze psalm is het fundament van het geloof van de Kerk in de verhoogde Christus.
 F: No psalm is quoted more often in the New Testament. Christ uses it to show that the Messiah is more than David's son; St Peter preaches it at Pentecost; Hebrews builds on Christ's eternal priesthood after the order of Melchizedek. The Creed's 'He sits at the right hand of the Father' comes from here. The Fathers read 'from the womb, before the morning star, I have begotten You' (in the Greek) of the Son's eternal birth. It opens Sunday Vespers in the West.
-FN: Geen psalm wordt vaker geciteerd in het Nieuwe Testament. Christus gebruikt hem om te tonen dat de Messias meer is dan Davids zoon; de heilige Petrus preekt hem met Pinksteren; Hebreeën bouwt op het eeuwige priesterschap van Christus naar de ordening van Melchisedek. 'Hij zit aan de rechterhand van de Vader' uit het Credo komt hiervandaan. De Vaders lazen 'uit de schoot, vóór de morgenster, heb Ik U verwekt' (in het Grieks) als de eeuwige geboorte van de Zoon. Hij opent de zondagse vespers in het Westen.
+FN: Geen psalm wordt vaker geciteerd in het Nieuwe Testament. Christus gebruikt hem om te tonen dat de Messias meer is dan Davids zoon; de heilige Petrus preekt hem met Pinksteren; Hebreeën bouwt op het eeuwige priesterschap van Christus naar de ordening van Melchisedek. 'Hij zit aan de rechterhand van de Vader' uit het Credo komt hiervandaan. De kerkvaders lazen 'uit de schoot, vóór de morgenster, heb Ik U verwekt' (in het Grieks) als de eeuwige geboorte van de Zoon. Hij opent de zondagse vespers in het Westen.
 T: Christ enthroned; Eternal priesthood; Melchizedek
 TN: Christus op de troon; Eeuwig priesterschap; Melchisedek
 
@@ -206,7 +206,7 @@ SN: Halleluja! Ik zal de Heer loven met heel mijn hart, in de kring van de oprec
 M: Studying God's works leads to praise, and reverence for Him is where all wisdom begins.
 MN: Het bestuderen van Gods werken leidt tot lof, en eerbied voor Hem is waar alle wijsheid begint.
 F: The Fathers read 'He has caused His wondrous works to be remembered; He provides food for those who fear Him' as a prophecy of the Eucharist, the memorial and food of the new covenant. The psalm is an acrostic, each line beginning with a new letter of the Hebrew alphabet, praising God from A to Z.
-FN: De Vaders lazen 'Hij heeft een gedachtenis gemaakt van Zijn wonderen; Hij geeft voedsel aan wie Hem vrezen' als een profetie van de Eucharistie, de gedachtenis en het voedsel van het nieuwe verbond. De psalm is een acrostichon, waarbij elke regel begint met een nieuwe letter van het Hebreeuwse alfabet, een lof aan God van A tot Z.
+FN: De kerkvaders lazen 'Hij heeft een gedachtenis gemaakt van Zijn wonderen; Hij geeft voedsel aan wie Hem vrezen' als een profetie van de Eucharistie, de gedachtenis en het voedsel van het nieuwe verbond. De psalm is een acrostichon, waarbij elke regel begint met een nieuwe letter van het Hebreeuwse alfabet, een lof aan God van A tot Z.
 T: God's works; Memorial; Fear of the Lord
 TN: Gods werken; Gedachtenis; Vreze des Heren
 
@@ -226,7 +226,7 @@ SN: Halleluja! Loof, dienaren van de Heer, loof de naam van de Heer! De naam van
 M: The exalted God bends down to lift the lowly. His greatness shows in His care for the poor and the barren.
 MN: De verheven God buigt Zich neer om de geringen op te richten. Zijn grootheid blijkt uit Zijn zorg voor de armen en de onvruchtbaren.
 F: This psalm begins the Hallel, sung at Passover, which Christ and His disciples sang at the Last Supper. The Fathers heard its echo in the songs of Hannah and of Mary: He has lifted up the lowly. 'Blessed be the name of the Lord from this time forth and for evermore' is said at the end of the Byzantine Liturgy and at episcopal blessings in the West.
-FN: Deze psalm begint het Hallel, gezongen bij het Pascha, dat Christus en Zijn leerlingen zongen bij het Laatste Avondmaal. De Vaders hoorden zijn echo in de lofzangen van Hanna en Maria: Hij heeft nederigen verheven. 'De naam van de Heer zij geloofd, van nu aan tot in eeuwigheid' wordt gezegd aan het einde van de Byzantijnse Liturgie en bij bisschoppelijke zegeningen in het Westen.
+FN: Deze psalm begint het Hallel, gezongen bij het Pascha, dat Christus en Zijn leerlingen zongen bij het Laatste Avondmaal. De kerkvaders hoorden zijn echo in de lofzangen van Hanna en Maria: Hij heeft nederigen verheven. 'De naam van de Heer zij geloofd, van nu aan tot in eeuwigheid' wordt gezegd aan het einde van de Byzantijnse Liturgie en bij bisschoppelijke zegeningen in het Westen.
 T: God's condescension; The poor lifted up; Hallel
 TN: Gods neerbuigendheid; De arme opgericht; Hallel
 
@@ -236,7 +236,7 @@ SN: Toen Israël uit Egypte trok, het huis van Jakob uit een volk met een vreemd
 M: Creation itself trembles and makes way when God leads His people to freedom. The God of the exodus turns rock into springs.
 MN: De schepping zelf beeft en maakt plaats wanneer God Zijn volk naar de vrijheid leidt. De God van de uittocht verandert rots in bronnen.
 F: The Church sings 'the sea saw and fled, the Jordan turned back' at Theophany, seeing the Jordan's waters sanctified at Christ's baptism. Dante, following the Fathers, made 'When Israel went out of Egypt' the song of souls freed from sin. In the Greek and Latin numbering this psalm and the next form one psalm.
-FN: De Kerk zingt 'de zee zag het en vluchtte, de Jordaan keerde terug' op Theofanie, en ziet daarin de wateren van de Jordaan geheiligd bij de doop van Christus. Dante maakte, in navolging van de Vaders, 'Toen Israël uit Egypte trok' tot het lied van zielen die van de zonde bevrijd zijn. In de Griekse en Latijnse nummering vormen deze psalm en de volgende één psalm.
+FN: De Kerk zingt 'de zee zag het en vluchtte, de Jordaan keerde terug' op Theofanie, en ziet daarin de wateren van de Jordaan geheiligd bij de doop van Christus. Dante maakte, in navolging van de kerkvaders, 'Toen Israël uit Egypte trok' tot het lied van zielen die van de zonde bevrijd zijn. In de Griekse en Latijnse nummering vormen deze psalm en de volgende één psalm.
 T: Exodus; Creation trembles; Theophany
 TN: Uittocht; De schepping beeft; Theofanie
 
@@ -246,7 +246,7 @@ SN: Niet ons, Heer, niet ons, maar Uw naam geef eer, omwille van Uw goedertieren
 M: All glory belongs to God, not to us. We become like what we worship: dead idols make lifeless people, the living God gives life.
 MN: Alle eer komt God toe, niet ons. Wij gaan lijken op wat wij aanbidden: dode afgoden maken levenloze mensen, de levende God geeft leven.
 F: 'Not to us, O Lord, but to Your name give glory' became a motto of Christian humility, sung by many after victories and achievements. The Fathers taught that the idols are not only statues but anything we put in God's place, and that the true image of God is Christ, who sees, hears and speaks.
-FN: 'Niet ons, Heer, maar Uw naam geef eer' werd een leus van christelijke nederigheid, door velen gezongen na overwinningen en prestaties. De Vaders leerden dat afgoden niet alleen beelden zijn maar alles wat wij op Gods plaats zetten, en dat het ware beeld van God Christus is, die ziet, hoort en spreekt.
+FN: 'Niet ons, Heer, maar Uw naam geef eer' werd een leus van christelijke nederigheid, door velen gezongen na overwinningen en prestaties. De kerkvaders leerden dat afgoden niet alleen beelden zijn maar alles wat wij op Gods plaats zetten, en dat het ware beeld van God Christus is, die ziet, hoort en spreekt.
 T: Glory to God; Idols; Becoming what we worship
 TN: Eer aan God; Afgoden; Worden wat wij aanbidden
 
@@ -266,7 +266,7 @@ SN: Loof de Heer, alle volken! Prijs Hem, alle naties! Want Zijn goedertierenhei
 M: The shortest psalm has the widest reach: all nations are called to praise God's love and faithfulness.
 MN: De kortste psalm heeft het grootste bereik: alle volken worden geroepen Gods liefde en trouw te loven.
 F: St Paul quotes this psalm in Romans 15 to show that the Gentiles were always meant to glorify God for His mercy. It is sung in the Byzantine Vespers at 'Lord, I have cried', and the Fathers marvelled that so short a psalm contains the whole mission of the Church.
-FN: De heilige Paulus citeert deze psalm in Romeinen 15 om te tonen dat de heidenen altijd bestemd waren om God te verheerlijken om Zijn barmhartigheid. Hij wordt gezongen in de Byzantijnse vespers bij 'Heer, ik roep tot U', en de Vaders verwonderden zich erover dat zo'n korte psalm de hele zending van de Kerk bevat.
+FN: De heilige Paulus citeert deze psalm in Romeinen 15 om te tonen dat de heidenen altijd bestemd waren om God te verheerlijken om Zijn barmhartigheid. Hij wordt gezongen in de Byzantijnse vespers bij 'Heer, ik roep tot U', en de kerkvaders verwonderden zich erover dat zo'n korte psalm de hele zending van de Kerk bevat.
 T: Praise of all nations; Steadfast love; Mission
 TN: Lof van alle volken; Goedertierenheid; Zending
 
@@ -296,6 +296,6 @@ SN: Een pelgrimslied. In mijn benauwdheid riep ik tot de Heer, en Hij antwoordde
 M: The first song of ascents begins far from Jerusalem, among people of lies and war. The pilgrimage to God starts with a longing for peace.
 MN: Het eerste pelgrimslied begint ver van Jeruzalem, tussen mensen van leugen en oorlog. De pelgrimstocht naar God begint met een verlangen naar vrede.
 F: Psalms 120–134 are the Songs of Ascents, sung by pilgrims going up to Jerusalem; in the Byzantine rite they form the eighteenth kathisma, sung at Vespers in Lent. The Fathers read them as the soul's ascent to God, step by step, beginning with repentance and weariness of the world's falsehood.
-FN: Psalm 120–134 zijn de pelgrimsliederen, gezongen door pelgrims op weg naar Jeruzalem; in de Byzantijnse ritus vormen zij de achttiende kathisma, gezongen in de vespers tijdens de Grote Vasten. De Vaders lazen ze als de opgang van de ziel naar God, trede voor trede, beginnend met bekering en moeheid van de leugen van de wereld.
+FN: Psalm 120–134 zijn de pelgrimsliederen, gezongen door pelgrims op weg naar Jeruzalem; in de Byzantijnse ritus vormen zij de achttiende kathisma, gezongen in de vespers tijdens de Grote Vasten. De kerkvaders lazen ze als de opgang van de ziel naar God, trede voor trede, beginnend met bekering en moeheid van de leugen van de wereld.
 T: Pilgrimage; Lying tongues; Longing for peace
 TN: Pelgrimstocht; Leugenachtige tongen; Verlangen naar vrede

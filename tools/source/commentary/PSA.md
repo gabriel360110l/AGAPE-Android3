@@ -6,7 +6,7 @@ SN: Welzalig de man die niet wandelt in de raad van de goddelozen, niet staat op
 M: The Psalter opens with a choice between two ways of life. Happiness grows from being rooted in God's word, not from following the crowd.
 MN: Het psalmboek opent met een keuze tussen twee levenswegen. Geluk groeit uit geworteld zijn in Gods woord, niet uit het volgen van de menigte.
 F: St Basil the Great, in his homily on this psalm, calls the Psalter a medicine for every illness of the soul. Many Fathers saw in the 'blessed man' first of all Christ, the only one who walked perfectly in God's way, and in the tree by the waters the cross and the baptised believer. It opens the first kathisma of the Byzantine Psalter.
-FN: De heilige Basilius de Grote noemt het psalmboek in zijn preek over deze psalm een geneesmiddel voor elke ziekte van de ziel. Veel Vaders zagen in de 'welzalige man' allereerst Christus, de enige die volmaakt in Gods weg wandelde, en in de boom aan het water het kruis en de gedoopte gelovige. Hij opent de eerste kathisma van het Byzantijnse psalmboek.
+FN: De heilige Basilius de Grote noemt het psalmboek in zijn preek over deze psalm een geneesmiddel voor elke ziekte van de ziel. Veel kerkvaders zagen in de 'welzalige man' allereerst Christus, de enige die volmaakt in Gods weg wandelde, en in de boom aan het water het kruis en de gedoopte gelovige. Hij opent de eerste kathisma van het Byzantijnse psalmboek.
 T: Two ways; God's word; Rootedness
 TN: Twee wegen; Gods woord; Geworteld zijn
 
@@ -16,7 +16,7 @@ SN: Waarom woeden de volken en bedenken de naties ijdelheid? De koningen van de 
 M: Human powers may rage against God, but His anointed King reigns. The wise response is reverent trust.
 MN: Menselijke machten mogen woeden tegen God, maar Zijn gezalfde Koning regeert. Het wijze antwoord is eerbiedig vertrouwen.
 F: The apostles quote this psalm in Acts when Herod and Pilate conspired against Jesus, and Hebrews applies 'You are My Son' to Christ. The Fathers read 'today I have begotten You' both of the eternal generation of the Son and of His resurrection; the verse is sung in the Nativity services.
-FN: De apostelen citeren deze psalm in Handelingen wanneer Herodes en Pilatus samenspanden tegen Jezus, en Hebreeën past 'U bent Mijn Zoon' toe op Christus. De Vaders lazen 'vandaag heb Ik U verwekt' zowel van de eeuwige geboorte van de Zoon als van Zijn opstanding; het vers wordt gezongen in de diensten van Kerstmis.
+FN: De apostelen citeren deze psalm in Handelingen wanneer Herodes en Pilatus samenspanden tegen Jezus, en Hebreeën past 'U bent Mijn Zoon' toe op Christus. De kerkvaders lazen 'vandaag heb Ik U verwekt' zowel van de eeuwige geboorte van de Zoon als van Zijn opstanding; het vers wordt gezongen in de diensten van Kerstmis.
 T: The Anointed; Kingship of Christ; Refuge
 TN: De Gezalfde; Koningschap van Christus; Toevlucht
 
@@ -26,7 +26,7 @@ SN: Een psalm van David toen hij vluchtte voor zijn zoon Absalom. Heer, hoe talr
 M: Even betrayed by his own son, David can sleep in peace because God holds him. Prayer turns fear into trust.
 MN: Zelfs verraden door zijn eigen zoon kan David in vrede slapen, omdat God hem vasthoudt. Gebed verandert angst in vertrouwen.
 F: This is the first of the Six Psalms read at the beginning of Byzantine Matins. The Fathers heard in 'I lay down and slept; I woke again' the voice of Christ speaking of His death and resurrection, and they used the psalm as a morning prayer.
-FN: Dit is de eerste van de Zes Psalmen die aan het begin van de Byzantijnse metten worden gelezen. De Vaders hoorden in 'ik legde mij neer en sliep; ik werd wakker' de stem van Christus die spreekt over Zijn dood en opstanding, en zij gebruikten de psalm als morgengebed.
+FN: Dit is de eerste van de Zes Psalmen die aan het begin van de Byzantijnse metten worden gelezen. De kerkvaders hoorden in 'ik legde mij neer en sliep; ik werd wakker' de stem van Christus die spreekt over Zijn dood en opstanding, en zij gebruikten de psalm als morgengebed.
 T: Trust in danger; Morning prayer; Resurrection
 TN: Vertrouwen in gevaar; Morgengebed; Opstanding
 
@@ -36,7 +36,7 @@ SN: Antwoord mij als ik roep, God van mijn gerechtigheid; U hebt mij ruimte gege
 M: Joy in God is deeper than material abundance. At night, the heart can examine itself in silence and rest in God's protection.
 MN: Vreugde in God is dieper dan materiële overvloed. In de nacht kan het hart zich in stilte onderzoeken en rusten in Gods bescherming.
 F: St Paul quotes 'be angry and do not sin'. St Augustine describes in his Confessions how this psalm moved him deeply after his conversion. It is a classic evening and Compline psalm in the West, and the Fathers taught examining one's conscience 'on your bed' before sleep.
-FN: De heilige Paulus citeert 'wees toornig en zondig niet'. De heilige Augustinus beschrijft in zijn Belijdenissen hoe deze psalm hem na zijn bekering diep raakte. Het is in het Westen een klassieke avond- en completenpsalm, en de Vaders leerden het geweten 'op uw bed' te onderzoeken voor het slapen.
+FN: De heilige Paulus citeert 'wees toornig en zondig niet'. De heilige Augustinus beschrijft in zijn Belijdenissen hoe deze psalm hem na zijn bekering diep raakte. Het is in het Westen een klassieke avond- en completenpsalm, en de kerkvaders leerden het geweten 'op uw bed' te onderzoeken voor het slapen.
 T: Evening prayer; Joy in God; Examination of conscience
 TN: Avondgebed; Vreugde in God; Gewetensonderzoek
 
@@ -46,7 +46,7 @@ SN: Neem mijn woorden ter ore, Heer; let op mijn zuchten. Tot U bid ik: 's morge
 M: The day begins best with prayer and expectant watching. We enter God's house not by our merit but by His steadfast love.
 MN: De dag begint het best met gebed en verwachtend uitzien. Wij gaan Gods huis binnen niet door onze verdienste maar door Zijn goedertierenheid.
 F: This psalm opens the First Hour in the Byzantine rite, said at daybreak. The Fathers saw in 'in the morning I will stand before You' the dawn of the resurrection and the soul's first offering of the day to God.
-FN: Deze psalm opent het Eerste Uur in de Byzantijnse ritus, gebeden bij het aanbreken van de dag. De Vaders zagen in ''s morgens sta ik voor U' de dageraad van de opstanding en het eerste offer van de dag dat de ziel aan God brengt.
+FN: Deze psalm opent het Eerste Uur in de Byzantijnse ritus, gebeden bij het aanbreken van de dag. De kerkvaders zagen in ''s morgens sta ik voor U' de dageraad van de opstanding en het eerste offer van de dag dat de ziel aan God brengt.
 T: Morning prayer; God's house; Guidance
 TN: Morgengebed; Gods huis; Leiding
 
@@ -56,7 +56,7 @@ SN: Heer, straf mij niet in Uw toorn en kastijd mij niet in Uw grimmigheid. Wees
 M: Honest tears are a prayer that God hears. Sin wounds body and soul, and God's mercy is the only medicine.
 MN: Eerlijke tranen zijn een gebed dat God hoort. Zonde verwondt lichaam en ziel, en Gods barmhartigheid is het enige medicijn.
 F: This is the first of the seven penitential psalms of the Western Church. The Fathers, including St John Chrysostom, praised the 'bed flooded with tears' as the model of compunction, and the Desert Fathers spoke often of the gift of tears that cleanses the soul.
-FN: Dit is de eerste van de zeven boetepsalmen van de Westerse Kerk. De Vaders, onder wie de heilige Johannes Chrysostomus, prezen het 'bed dat zwemt in tranen' als voorbeeld van verslagenheid, en de woestijnvaders spraken vaak over de gave van de tranen die de ziel reinigt.
+FN: Dit is de eerste van de zeven boetepsalmen van de Westerse Kerk. De kerkvaders, onder wie de heilige Johannes Chrysostomus, prezen het 'bed dat zwemt in tranen' als voorbeeld van verslagenheid, en de woestijnvaders spraken vaak over de gave van de tranen die de ziel reinigt.
 T: Repentance; Tears; Healing
 TN: Boetvaardigheid; Tranen; Genezing
 
@@ -66,7 +66,7 @@ SN: Heer, mijn God, bij U schuil ik; verlos mij van al mijn vervolgers, opdat zi
 M: The falsely accused entrusts his cause to God, who sees the heart. Evil often traps the one who plots it.
 MN: Wie valselijk beschuldigd wordt, vertrouwt zijn zaak toe aan God, die het hart ziet. Het kwaad vangt vaak degene die het beraamt.
 F: St Basil preached on this psalm, warning that we should first examine whether we have repaid evil, before asking God to vindicate us. The Fathers saw the image of the pit as the way sin destroys the sinner from within.
-FN: De heilige Basilius preekte over deze psalm en waarschuwde dat wij eerst moeten onderzoeken of wij kwaad met kwaad vergolden hebben, voordat wij God vragen ons recht te doen. De Vaders zagen het beeld van de kuil als de manier waarop zonde de zondaar van binnenuit vernietigt.
+FN: De heilige Basilius preekte over deze psalm en waarschuwde dat wij eerst moeten onderzoeken of wij kwaad met kwaad vergolden hebben, voordat wij God vragen ons recht te doen. De kerkvaders zagen het beeld van de kuil als de manier waarop zonde de zondaar van binnenuit vernietigt.
 T: False accusation; Divine justice; Self-examination
 TN: Valse beschuldiging; Goddelijke gerechtigheid; Zelfonderzoek
 
@@ -76,7 +76,7 @@ SN: Heer, onze Heer, hoe heerlijk is Uw naam op heel de aarde! U hebt Uw majeste
 M: Before the vastness of the cosmos, man is small, yet God has given him astonishing dignity. Praise begins with wonder.
 MN: Tegenover de uitgestrektheid van de kosmos is de mens klein, maar God heeft hem een verbazingwekkende waardigheid gegeven. Lof begint met verwondering.
 F: Christ quotes 'out of the mouth of infants' when the children cry Hosanna on Palm Sunday. Hebrews reads 'all things under his feet' as fulfilled in Jesus, made for a little while lower than the angels and now crowned with glory. The Fathers marvelled that human dignity is restored in Christ.
-FN: Christus citeert 'uit de mond van kinderen' wanneer de kinderen op Palmzondag Hosanna roepen. Hebreeën leest 'alles onder zijn voeten' als vervuld in Jezus, die voor korte tijd minder werd gemaakt dan de engelen en nu met heerlijkheid gekroond is. De Vaders verwonderden zich erover dat de menselijke waardigheid in Christus hersteld wordt.
+FN: Christus citeert 'uit de mond van kinderen' wanneer de kinderen op Palmzondag Hosanna roepen. Hebreeën leest 'alles onder zijn voeten' als vervuld in Jezus, die voor korte tijd minder werd gemaakt dan de engelen en nu met heerlijkheid gekroond is. De kerkvaders verwonderden zich erover dat de menselijke waardigheid in Christus hersteld wordt.
 T: Wonder; Human dignity; Praise of creation
 TN: Verwondering; Menselijke waardigheid; Lof van de schepping
 
@@ -86,7 +86,7 @@ SN: Ik zal de Heer loven met heel mijn hart; ik zal al Uw wonderen vertellen. Mi
 M: God is the refuge of the poor and oppressed. Praise for past help gives courage for present needs.
 MN: God is de toevlucht van de armen en verdrukten. Lof voor hulp in het verleden geeft moed voor de nood van nu.
 F: The Fathers noted that God's judgment is good news for the oppressed. St Augustine, commenting on 'the hope of the poor shall not perish', teaches that the poor in spirit, who hope in God rather than in riches, are those whom God never forgets.
-FN: De Vaders merkten op dat Gods oordeel goed nieuws is voor de verdrukten. De heilige Augustinus leert, bij 'de hoop van de ellendigen zal niet vergaan', dat de armen van geest, die hun hoop op God stellen en niet op rijkdom, degenen zijn die God nooit vergeet.
+FN: De kerkvaders merkten op dat Gods oordeel goed nieuws is voor de verdrukten. De heilige Augustinus leert, bij 'de hoop van de ellendigen zal niet vergaan', dat de armen van geest, die hun hoop op God stellen en niet op rijkdom, degenen zijn die God nooit vergeet.
 T: Thanksgiving; God the refuge; The poor
 TN: Dankzegging; God de toevlucht; De armen
 
@@ -96,7 +96,7 @@ SN: Waarom, Heer, staat U van verre? Waarom verbergt U Zich in tijden van benauw
 M: Faith dares to ask God why He seems absent. The wicked think God does not see, but He sees and acts for the helpless.
 MN: Geloof durft God te vragen waarom Hij afwezig lijkt. De goddeloze denkt dat God niet ziet, maar Hij ziet en handelt voor de hulpelozen.
 F: The Fathers taught that God's apparent distance is a test and a school of patience, not abandonment. St John Chrysostom notes that the wicked man's real error is practical atheism: living as if God does not see.
-FN: De Vaders leerden dat Gods schijnbare afstand een beproeving en een school van geduld is, geen verlatenheid. De heilige Johannes Chrysostomus merkt op dat de eigenlijke dwaling van de goddeloze praktisch atheïsme is: leven alsof God niet ziet.
+FN: De kerkvaders leerden dat Gods schijnbare afstand een beproeving en een school van geduld is, geen verlatenheid. De heilige Johannes Chrysostomus merkt op dat de eigenlijke dwaling van de goddeloze praktisch atheïsme is: leven alsof God niet ziet.
 T: God's hiddenness; Oppression; God sees
 TN: Gods verborgenheid; Verdrukking; God ziet
 
@@ -106,7 +106,7 @@ SN: Bij de Heer schuil ik; hoe kunt u tegen mijn ziel zeggen: vlucht als een vog
 M: When foundations shake, the believer does not flee in panic but looks to the Lord enthroned above. The goal of the upright is to see God's face.
 MN: Wanneer de fundamenten wankelen, vlucht de gelovige niet in paniek, maar kijkt op naar de Heer die boven troont. Het doel van de oprechten is Gods aangezicht te zien.
 F: The Fathers connected the promise that the upright shall behold His face with Christ's beatitude: blessed are the pure in heart, for they shall see God. St Augustine reads the psalm as a warning against heretics who urge the faithful to flee the Church for their own mountains.
-FN: De Vaders verbonden de belofte dat de oprechten Zijn aangezicht zullen aanschouwen met de zaligspreking van Christus: zalig de zuiveren van hart, want zij zullen God zien. De heilige Augustinus leest de psalm als een waarschuwing tegen ketters die de gelovigen aansporen de Kerk te ontvluchten naar hun eigen bergen.
+FN: De kerkvaders verbonden de belofte dat de oprechten Zijn aangezicht zullen aanschouwen met de zaligspreking van Christus: zalig de zuiveren van hart, want zij zullen God zien. De heilige Augustinus leest de psalm als een waarschuwing tegen ketters die de gelovigen aansporen de Kerk te ontvluchten naar hun eigen bergen.
 T: Refuge; Steadfastness; Seeing God
 TN: Toevlucht; Standvastigheid; God zien
 
@@ -116,7 +116,7 @@ SN: Verlos, Heer, want de godvrezende is er niet meer; de getrouwen zijn verdwen
 M: In a world of lies and flattery, God's word is pure and reliable. He rises for the sake of the poor.
 MN: In een wereld van leugens en vleierij is Gods woord zuiver en betrouwbaar. Hij staat op ter wille van de armen.
 F: The Fathers contrasted the double heart of the flatterer with the 'seven times purified' word of God, seeing in the number seven the fullness of the Holy Spirit. St James's warnings about the tongue were read alongside this psalm.
-FN: De Vaders stelden het dubbele hart van de vleier tegenover het 'zevenmaal gezuiverde' woord van God, en zagen in het getal zeven de volheid van de Heilige Geest. De waarschuwingen van de heilige Jakobus over de tong werden naast deze psalm gelezen.
+FN: De kerkvaders stelden het dubbele hart van de vleier tegenover het 'zevenmaal gezuiverde' woord van God, en zagen in het getal zeven de volheid van de Heilige Geest. De waarschuwingen van de heilige Jakobus over de tong werden naast deze psalm gelezen.
 T: Truthfulness; The tongue; God's pure word
 TN: Waarachtigheid; De tong; Gods zuivere woord
 
@@ -126,7 +126,7 @@ SN: Hoe lang nog, Heer? Zult U mij voor altijd vergeten? Hoe lang verbergt U Uw 
 M: In four short verses of 'how long' the psalmist passes from desolation to trust. Lament is a path of faith, not its opposite.
 MN: In vier korte verzen van 'hoe lang' gaat de psalmist van verlatenheid naar vertrouwen. Klagen is een weg van geloof, niet het tegendeel ervan.
 F: The Fathers taught that the soul which cries 'how long' already shows its love for God, for it cannot bear His absence. 'Light up my eyes' was understood as the prayer for spiritual vigilance and illumination that keeps the soul from the sleep of sin.
-FN: De Vaders leerden dat de ziel die 'hoe lang' roept, al haar liefde voor God toont, want zij kan Zijn afwezigheid niet verdragen. 'Verlicht mijn ogen' werd verstaan als het gebed om geestelijke waakzaamheid en verlichting, dat de ziel bewaart voor de slaap van de zonde.
+FN: De kerkvaders leerden dat de ziel die 'hoe lang' roept, al haar liefde voor God toont, want zij kan Zijn afwezigheid niet verdragen. 'Verlicht mijn ogen' werd verstaan als het gebed om geestelijke waakzaamheid en verlichting, dat de ziel bewaart voor de slaap van de zonde.
 T: Lament; Trust; Illumination
 TN: Klacht; Vertrouwen; Verlichting
 
@@ -136,7 +136,7 @@ SN: De dwaas zegt in zijn hart: er is geen God. Zij zijn verdorven, zij doen gru
 M: Denying God in the heart leads to corruption in deeds. The whole human race needs a salvation that only God can bring.
 MN: God in het hart ontkennen leidt tot verdorvenheid in daden. Het hele mensengeslacht heeft een verlossing nodig die alleen God kan brengen.
 F: St Paul quotes this psalm in Romans 3 to show that all, Jews and Gentiles, are under sin and need the grace of Christ. The Fathers noted that the fool says it 'in his heart': practical denial of God often precedes any theory. Psalm 53 is almost the same psalm.
-FN: De heilige Paulus citeert deze psalm in Romeinen 3 om te laten zien dat allen, Joden en heidenen, onder de zonde zijn en de genade van Christus nodig hebben. De Vaders merkten op dat de dwaas het 'in zijn hart' zegt: praktische ontkenning van God gaat vaak aan elke theorie vooraf. Psalm 53 is bijna dezelfde psalm.
+FN: De heilige Paulus citeert deze psalm in Romeinen 3 om te laten zien dat allen, Joden en heidenen, onder de zonde zijn en de genade van Christus nodig hebben. De kerkvaders merkten op dat de dwaas het 'in zijn hart' zegt: praktische ontkenning van God gaat vaak aan elke theorie vooraf. Psalm 53 is bijna dezelfde psalm.
 T: Atheism of the heart; Universal sin; Hope for salvation
 TN: Atheïsme van het hart; Algemene zondigheid; Hoop op verlossing
 
@@ -146,7 +146,7 @@ SN: Heer, wie zal verblijven in Uw tent? Wie zal wonen op Uw heilige berg? Wie o
 M: Access to God's presence is bound up with how we treat our neighbour: truthfulness, faithfulness and justice.
 MN: Toegang tot Gods aanwezigheid is verbonden met hoe wij onze naaste behandelen: waarachtigheid, trouw en gerechtigheid.
 F: The Fathers read this psalm as a portrait of the citizen of the heavenly Jerusalem. St Basil and others drew from it their teaching against usury. St Augustine notes that 'truth in his heart' means that our speech must flow from an undivided inner life.
-FN: De Vaders lazen deze psalm als een portret van de burger van het hemelse Jeruzalem. De heilige Basilius en anderen ontleenden er hun onderwijs tegen woeker aan. De heilige Augustinus merkt op dat 'waarheid in zijn hart' betekent dat onze woorden moeten voortkomen uit een onverdeeld innerlijk leven.
+FN: De kerkvaders lazen deze psalm als een portret van de burger van het hemelse Jeruzalem. De heilige Basilius en anderen ontleenden er hun onderwijs tegen woeker aan. De heilige Augustinus merkt op dat 'waarheid in zijn hart' betekent dat onze woorden moeten voortkomen uit een onverdeeld innerlijk leven.
 T: Holiness; Integrity; Love of neighbour
 TN: Heiligheid; Integriteit; Naastenliefde
 
@@ -156,7 +156,7 @@ SN: Bewaar mij, God, want bij U schuil ik. Ik zeg tot de Heer: U bent mijn Heer;
 M: God Himself is the believer's inheritance and joy. Life with Him is stronger than death.
 MN: God Zelf is het erfdeel en de vreugde van de gelovige. Leven met Hem is sterker dan de dood.
 F: On the day of Pentecost St Peter, and later St Paul at Antioch, quote this psalm as a prophecy of Christ's resurrection: His flesh did not see corruption. 'I have set the Lord always before me' became for the Fathers the summary of constant remembrance of God.
-FN: Op de Pinksterdag citeert de heilige Petrus, en later de heilige Paulus in Antiochië, deze psalm als profetie van de opstanding van Christus: Zijn vlees zag geen ontbinding. 'Ik stel de Heer altijd voor mij' werd voor de Vaders de samenvatting van het voortdurend gedenken van God.
+FN: Op de Pinksterdag citeert de heilige Petrus, en later de heilige Paulus in Antiochië, deze psalm als profetie van de opstanding van Christus: Zijn vlees zag geen ontbinding. 'Ik stel de Heer altijd voor mij' werd voor de kerkvaders de samenvatting van het voortdurend gedenken van God.
 T: God my portion; Resurrection; Joy in His presence
 TN: God mijn deel; Opstanding; Vreugde in Zijn aanwezigheid
 
@@ -166,7 +166,7 @@ SN: Hoor, Heer, een rechtvaardige zaak; let op mijn roepen; neem mijn gebed ter 
 M: The believer is as precious to God as the pupil of His eye. The deepest satisfaction is to see God's face.
 MN: De gelovige is God zo kostbaar als de appel van Zijn oog. De diepste verzadiging is Gods aangezicht te zien.
 F: The Fathers read 'when I awake, I shall be satisfied with Your likeness' as the hope of the resurrection, when the image of God in us will be fully restored. 'The shadow of Your wings' entered many prayers, including the evening prayers of the Church.
-FN: De Vaders lazen 'als ik ontwaak, zal ik verzadigd worden met Uw beeld' als de hoop op de opstanding, wanneer het beeld van God in ons volledig hersteld zal zijn. 'De schaduw van Uw vleugels' vond zijn weg in vele gebeden, ook in de avondgebeden van de Kerk.
+FN: De kerkvaders lazen 'als ik ontwaak, zal ik verzadigd worden met Uw beeld' als de hoop op de opstanding, wanneer het beeld van God in ons volledig hersteld zal zijn. 'De schaduw van Uw vleugels' vond zijn weg in vele gebeden, ook in de avondgebeden van de Kerk.
 T: God's protection; Integrity; Vision of God
 TN: Gods bescherming; Integriteit; Het zien van God
 
@@ -176,7 +176,7 @@ SN: David zingt dit lied wanneer de Heer hem verlost van al zijn vijanden en van
 M: God bends the heavens to rescue the one who calls to Him. Gratitude for deliverance becomes love: I love You, O Lord.
 MN: God buigt de hemel om wie Hem aanroept te redden. Dankbaarheid voor bevrijding wordt liefde: ik heb U lief, Heer.
 F: The Fathers saw in the Lord 'bowing the heavens and coming down' a prophecy of the Incarnation, and in the rescue from many waters a figure of Christ's resurrection and our baptism. St Paul quotes the end of this psalm in Romans to show that the Gentiles praise God among the nations.
-FN: De Vaders zagen in de Heer die 'de hemel boog en neerdaalde' een profetie van de menswording, en in de redding uit grote wateren een voorafbeelding van de opstanding van Christus en van onze doop. De heilige Paulus citeert het slot van deze psalm in Romeinen om te tonen dat de heidenen God loven onder de volken.
+FN: De kerkvaders zagen in de Heer die 'de hemel boog en neerdaalde' een profetie van de menswording, en in de redding uit grote wateren een voorafbeelding van de opstanding van Christus en van onze doop. De heilige Paulus citeert het slot van deze psalm in Romeinen om te tonen dat de heidenen God loven onder de volken.
 T: Deliverance; Love for God; Theophany
 TN: Bevrijding; Liefde tot God; Godsverschijning
 
@@ -186,7 +186,7 @@ SN: De hemel vertelt Gods eer, en het uitspansel verkondigt het werk van Zijn ha
 M: God speaks through two books: creation, which shows His glory, and His word, which revives the soul. Both lead to humble self-examination.
 MN: God spreekt door twee boeken: de schepping, die Zijn heerlijkheid toont, en Zijn woord, dat de ziel verkwikt. Beide leiden tot nederig zelfonderzoek.
 F: St Paul applies 'their voice goes out through all the earth' to the preaching of the apostles, and the verse is used in the services of the apostles. The Fathers saw Christ as the sun coming forth like a bridegroom from the bridal chamber of the Virgin's womb, an image sung at Christmas.
-FN: De heilige Paulus past 'hun stem gaat uit over de hele aarde' toe op de prediking van de apostelen, en het vers wordt gebruikt in de diensten van de apostelen. De Vaders zagen Christus als de zon die als een bruidegom uitgaat uit de bruidskamer van de schoot van de Maagd, een beeld dat met Kerstmis bezongen wordt.
+FN: De heilige Paulus past 'hun stem gaat uit over de hele aarde' toe op de prediking van de apostelen, en het vers wordt gebruikt in de diensten van de apostelen. De kerkvaders zagen Christus als de zon die als een bruidegom uitgaat uit de bruidskamer van de schoot van de Maagd, een beeld dat met Kerstmis bezongen wordt.
 T: Creation's praise; God's word; Hidden faults
 TN: Lof van de schepping; Gods woord; Verborgen fouten
 
@@ -196,7 +196,7 @@ SN: De Heer antwoorde u op de dag van de benauwdheid; de naam van de God van Jak
 M: A people prays for its leader before battle. True security lies not in weapons but in the name of the Lord.
 MN: Een volk bidt voor zijn leider voor de strijd. Ware veiligheid ligt niet in wapens maar in de naam van de Heer.
 F: The Church has long used this psalm in prayers for rulers, and in the Byzantine rite it is said in the Royal Office at the beginning of Matins. The Fathers read the 'anointed' as Christ, whose victory is won not by chariots but by the cross.
-FN: De Kerk gebruikt deze psalm al lang in gebeden voor de overheid, en in de Byzantijnse ritus wordt hij gebeden in het Koninklijk Officie aan het begin van de metten. De Vaders lazen de 'gezalfde' als Christus, wiens overwinning niet door wagens maar door het kruis behaald wordt.
+FN: De Kerk gebruikt deze psalm al lang in gebeden voor de overheid, en in de Byzantijnse ritus wordt hij gebeden in het Koninklijk Officie aan het begin van de metten. De kerkvaders lazen de 'gezalfde' als Christus, wiens overwinning niet door wagens maar door het kruis behaald wordt.
 T: Prayer for leaders; Trust in God's name; Victory
 TN: Gebed voor leiders; Vertrouwen op Gods naam; Overwinning
 
@@ -206,7 +206,7 @@ SN: Heer, in Uw kracht verheugt zich de koning, en hoe zeer juicht hij in Uw hei
 M: The king's joy and strength come from God, not from himself. Thanksgiving follows answered prayer.
 MN: De vreugde en kracht van de koning komen van God, niet van hemzelf. Dankzegging volgt op verhoord gebed.
 F: The Fathers read this psalm of Christ the King, who asked for life and received it in the resurrection, 'length of days for ever and ever'. The crown of gold was linked to the crown of glory given after the crown of thorns.
-FN: De Vaders lazen deze psalm over Christus de Koning, die om leven vroeg en het ontving in de opstanding, 'lengte van dagen voor eeuwig en altijd'. De gouden kroon werd verbonden met de kroon van heerlijkheid die na de doornenkroon gegeven werd.
+FN: De kerkvaders lazen deze psalm over Christus de Koning, die om leven vroeg en het ontving in de opstanding, 'lengte van dagen voor eeuwig en altijd'. De gouden kroon werd verbonden met de kroon van heerlijkheid die na de doornenkroon gegeven werd.
 T: Thanksgiving; God-given strength; Christ the King
 TN: Dankzegging; Kracht van God; Christus de Koning
 
@@ -216,7 +216,7 @@ SN: Mijn God, mijn God, waarom hebt U mij verlaten? Waarom bent U zo ver van mij
 M: The cry of abandonment is still a prayer to 'my God'. Out of the deepest suffering comes praise that reaches to all nations and future generations.
 MN: De roep van verlatenheid is nog altijd een gebed tot 'mijn God'. Uit het diepste lijden komt lof voort die alle volken en toekomstige geslachten bereikt.
 F: Christ prays the first verse of this psalm on the cross, and the Gospels show the casting of lots and the mocking fulfilled. The Fathers taught that by praying it Christ made the whole psalm His own, including its triumphant ending; St Augustine says He spoke in the voice of His body, the Church, taking our abandonment upon Himself. It is read in the services of Holy Friday.
-FN: Christus bidt het eerste vers van deze psalm aan het kruis, en de Evangeliën tonen het werpen van het lot en de spot als vervuld. De Vaders leerden dat Christus, door hem te bidden, de hele psalm Zich eigen maakte, ook het triomfantelijke einde; de heilige Augustinus zegt dat Hij sprak met de stem van Zijn lichaam, de Kerk, en onze verlatenheid op Zich nam. Hij wordt gelezen in de diensten van Goede Vrijdag.
+FN: Christus bidt het eerste vers van deze psalm aan het kruis, en de Evangeliën tonen het werpen van het lot en de spot als vervuld. De kerkvaders leerden dat Christus, door hem te bidden, de hele psalm Zich eigen maakte, ook het triomfantelijke einde; de heilige Augustinus zegt dat Hij sprak met de stem van Zijn lichaam, de Kerk, en onze verlatenheid op Zich nam. Hij wordt gelezen in de diensten van Goede Vrijdag.
 T: The passion; Abandonment; Praise to the nations
 TN: Het lijden; Verlatenheid; Lof onder de volken
 
@@ -226,7 +226,7 @@ SN: De Heer is mijn herder; mij zal niets ontbreken. Hij doet mij neerliggen in 
 M: God cares for each person as a shepherd for his sheep, in every season of life, even through the valley of death. His goodness pursues us home.
 MN: God zorgt voor ieder mens zoals een herder voor zijn schapen, in elk seizoen van het leven, zelfs door het dal van de dood. Zijn goedheid volgt ons tot thuis.
 F: Christ calls Himself the Good Shepherd. The Fathers, St Cyril of Jerusalem and St Ambrose among them, read this psalm as a description of Christian initiation: the still waters of baptism, the anointing with chrism, the table and the overflowing cup of the Eucharist. It is among the psalms of the Byzantine preparation for Holy Communion and was sung by the newly baptised in the early Church.
-FN: Christus noemt Zichzelf de Goede Herder. De Vaders, onder wie de heilige Cyrillus van Jeruzalem en de heilige Ambrosius, lazen deze psalm als een beschrijving van de christelijke initiatie: de rustige wateren van de doop, de zalving met het chrisma, de tafel en de overvloeiende beker van de Eucharistie. Hij hoort bij de psalmen van de Byzantijnse voorbereiding op de Heilige Communie en werd in de vroege Kerk door de pasgedoopten gezongen.
+FN: Christus noemt Zichzelf de Goede Herder. De kerkvaders, onder wie de heilige Cyrillus van Jeruzalem en de heilige Ambrosius, lazen deze psalm als een beschrijving van de christelijke initiatie: de rustige wateren van de doop, de zalving met het chrisma, de tafel en de overvloeiende beker van de Eucharistie. Hij hoort bij de psalmen van de Byzantijnse voorbereiding op de Heilige Communie en werd in de vroege Kerk door de pasgedoopten gezongen.
 T: The Good Shepherd; Trust; Sacraments
 TN: De Goede Herder; Vertrouwen; Sacramenten
 
@@ -236,7 +236,7 @@ SN: De aarde is van de Heer en haar volheid, de wereld en wie daarin wonen. Wie 
 M: All the earth belongs to God, and those who would approach Him need pure hands and hearts. The King of glory Himself comes in.
 MN: De hele aarde behoort God toe, en wie Hem wil naderen, heeft reine handen en een zuiver hart nodig. De Koning der ere komt Zelf binnen.
 F: The Fathers sang this psalm of Christ's ascension, the angels asking 'who is this King of glory?' as He enters heaven in His human flesh; and also of His descent into Hades, where He breaks the ancient gates. It belongs to the Byzantine preparation for Holy Communion, and the Western Church uses it at Advent and at the dedication of churches.
-FN: De Vaders bezongen met deze psalm de hemelvaart van Christus, waarbij de engelen vragen 'wie is die Koning der ere?' terwijl Hij in Zijn menselijk vlees de hemel binnengaat; en ook Zijn nederdaling in het dodenrijk, waar Hij de eeuwige poorten breekt. Hij hoort bij de Byzantijnse voorbereiding op de Heilige Communie, en de Westerse Kerk gebruikt hem in de advent en bij de wijding van kerken.
+FN: De kerkvaders bezongen met deze psalm de hemelvaart van Christus, waarbij de engelen vragen 'wie is die Koning der ere?' terwijl Hij in Zijn menselijk vlees de hemel binnengaat; en ook Zijn nederdaling in het dodenrijk, waar Hij de eeuwige poorten breekt. Hij hoort bij de Byzantijnse voorbereiding op de Heilige Communie, en de Westerse Kerk gebruikt hem in de advent en bij de wijding van kerken.
 T: King of glory; Purity of heart; Ascension
 TN: Koning der ere; Zuiverheid van hart; Hemelvaart
 
@@ -246,7 +246,7 @@ SN: Tot U, Heer, hef ik mijn ziel op; mijn God, op U vertrouw ik; laat mij niet 
 M: A sinner lifts his soul to God, asking to be taught, forgiven and befriended. Humility opens the way to God's guidance.
 MN: Een zondaar heft zijn ziel op tot God en vraagt onderwezen, vergeven en tot vriend gemaakt te worden. Nederigheid opent de weg voor Gods leiding.
 F: The opening words, 'To You, O Lord, I lift up my soul', open the Western liturgy of the First Sunday of Advent. In the Byzantine rite this psalm is read at the Third Hour. The Fathers praised its honest request: remember not the sins of my youth, but remember me according to Your mercy.
-FN: De openingswoorden, 'Tot U, Heer, hef ik mijn ziel op', openen de Westerse liturgie van de Eerste Zondag van de Advent. In de Byzantijnse ritus wordt deze psalm gelezen in het Derde Uur. De Vaders prezen het eerlijke verzoek: gedenk de zonden van mijn jeugd niet, maar gedenk mij naar Uw barmhartigheid.
+FN: De openingswoorden, 'Tot U, Heer, hef ik mijn ziel op', openen de Westerse liturgie van de Eerste Zondag van de Advent. In de Byzantijnse ritus wordt deze psalm gelezen in het Derde Uur. De kerkvaders prezen het eerlijke verzoek: gedenk de zonden van mijn jeugd niet, maar gedenk mij naar Uw barmhartigheid.
 T: Trust; Guidance; Forgiveness
 TN: Vertrouwen; Leiding; Vergeving
 
@@ -256,7 +256,7 @@ SN: Doe mij recht, Heer, want ik heb in mijn oprechtheid gewandeld en op de Heer
 M: Love for God's house and integrity of life go together. The worshipper asks God to search his heart.
 MN: Liefde voor Gods huis en oprechtheid van leven gaan samen. Wie aanbidt, vraagt God zijn hart te doorzoeken.
 F: 'I will wash my hands in innocence and go around Your altar' is said by the priest at the washing of hands in the Byzantine Divine Liturgy and was long said at the Lavabo in the Roman Mass. The Fathers saw the washing as the purity of heart required to approach the holy mysteries.
-FN: 'Ik was mijn handen in onschuld en ga rond Uw altaar' wordt door de priester gezegd bij de handwassing in de Byzantijnse Goddelijke Liturgie en werd lange tijd gezegd bij het Lavabo in de Romeinse Mis. De Vaders zagen de wassing als de zuiverheid van hart die nodig is om de heilige mysteriën te naderen.
+FN: 'Ik was mijn handen in onschuld en ga rond Uw altaar' wordt door de priester gezegd bij de handwassing in de Byzantijnse Goddelijke Liturgie en werd lange tijd gezegd bij het Lavabo in de Romeinse Mis. De kerkvaders zagen de wassing als de zuiverheid van hart die nodig is om de heilige mysteriën te naderen.
 T: Integrity; Love for God's house; Liturgy
 TN: Oprechtheid; Liefde voor Gods huis; Liturgie
 
@@ -266,7 +266,7 @@ SN: De Heer is mijn licht en mijn heil; voor wie zou ik bang zijn? De Heer is de
 M: One desire gathers the whole life: to behold God's beauty. Seeking His face casts out fear.
 MN: Eén verlangen bundelt het hele leven: Gods schoonheid aanschouwen. Het zoeken van Zijn aangezicht drijft de angst uit.
 F: The Fathers made 'one thing have I asked' a key text for the contemplative life, linking it to Mary of Bethany who chose the one thing needful. 'The Lord is my light' was read as a prophecy of baptism, called illumination. St Augustine comments that the face we seek is the face of God shown to us in Christ.
-FN: De Vaders maakten 'één ding heb ik gevraagd' tot een sleuteltekst voor het beschouwende leven, en verbonden het met Maria van Bethanië die het ene nodige koos. 'De Heer is mijn licht' werd gelezen als een profetie van de doop, die verlichting genoemd wordt. De heilige Augustinus merkt op dat het aangezicht dat wij zoeken het aangezicht van God is, ons getoond in Christus.
+FN: De kerkvaders maakten 'één ding heb ik gevraagd' tot een sleuteltekst voor het beschouwende leven, en verbonden het met Maria van Bethanië die het ene nodige koos. 'De Heer is mijn licht' werd gelezen als een profetie van de doop, die verlichting genoemd wordt. De heilige Augustinus merkt op dat het aangezicht dat wij zoeken het aangezicht van God is, ons getoond in Christus.
 T: Light; Seeking God's face; Courage
 TN: Licht; Gods aangezicht zoeken; Moed
 
@@ -276,7 +276,7 @@ SN: Tot U, Heer, roep ik; mijn rots, zwijg niet tegen mij, opdat ik, als U zwijg
 M: God's silence is the greatest fear of the one who prays; His answer becomes song. Personal prayer widens into prayer for the whole people.
 MN: Gods zwijgen is de grootste angst van wie bidt; Zijn antwoord wordt een lied. Persoonlijk gebed verbreedt zich tot gebed voor het hele volk.
 F: 'Save Your people and bless Your inheritance' is one of the most frequent petitions of the Byzantine liturgy, said by the priest after Holy Communion and sung in the troparion of the Cross. The Western Te Deum also takes it up. The Fathers praised the lifting up of hands as the posture of prayer.
-FN: 'Verlos Uw volk en zegen Uw erfdeel' is een van de meest voorkomende beden van de Byzantijnse liturgie, door de priester gezegd na de Heilige Communie en gezongen in het troparion van het Kruis. Ook het Westerse Te Deum neemt haar op. De Vaders prezen het opheffen van de handen als de houding van het gebed.
+FN: 'Verlos Uw volk en zegen Uw erfdeel' is een van de meest voorkomende beden van de Byzantijnse liturgie, door de priester gezegd na de Heilige Communie en gezongen in het troparion van het Kruis. Ook het Westerse Te Deum neemt haar op. De kerkvaders prezen het opheffen van de handen als de houding van het gebed.
 T: God's answer; Strength; Prayer for the people
 TN: Gods antwoord; Kracht; Gebed voor het volk
 
@@ -286,7 +286,7 @@ SN: Geef de Heer, hemelse wezens, eer en kracht; aanbid de Heer in heilige prach
 M: The thunderstorm reveals the overwhelming power of God's word over all creation. That same power becomes strength and peace for His people.
 MN: Het onweer toont de overweldigende macht van Gods woord over heel de schepping. Diezelfde macht wordt kracht en vrede voor Zijn volk.
 F: The Fathers heard 'the voice of the Lord is over the waters' as the voice of the Father at the baptism of Christ in the Jordan, and the psalm is used at the Feast of Theophany and in the Great Blessing of Waters. St Basil wrote a homily on this psalm.
-FN: De Vaders hoorden 'de stem van de Heer is boven de wateren' als de stem van de Vader bij de doop van Christus in de Jordaan, en de psalm wordt gebruikt op het feest van Theofanie en bij de Grote Waterwijding. De heilige Basilius schreef een preek over deze psalm.
+FN: De kerkvaders hoorden 'de stem van de Heer is boven de wateren' als de stem van de Vader bij de doop van Christus in de Jordaan, en de psalm wordt gebruikt op het feest van Theofanie en bij de Grote Waterwijding. De heilige Basilius schreef een preek over deze psalm.
 T: The voice of God; Theophany; Peace
 TN: De stem van God; Theofanie; Vrede
 
@@ -296,6 +296,6 @@ SN: Een lied bij de inwijding van het huis. Ik zal U verheffen, Heer, want U heb
 M: Self-confidence in good times is fragile, but God turns mourning into dancing. Night ends, and joy comes with the morning.
 MN: Zelfvertrouwen in goede tijden is broos, maar God verandert rouw in een reidans. De nacht eindigt, en 's morgens komt de vreugde.
 F: The Fathers read this psalm as Christ's thanksgiving for the resurrection: 'You brought up my soul from Hades', with weeping in the evening of Good Friday and joy on the morning of Pascha. It is a psalm of thanksgiving after recovery from illness.
-FN: De Vaders lazen deze psalm als de dankzegging van Christus voor de opstanding: 'U hebt mijn ziel uit het dodenrijk doen opkomen', met geween op de avond van Goede Vrijdag en vreugde op de morgen van Pasen. Het is een psalm van dankzegging na herstel van ziekte.
+FN: De kerkvaders lazen deze psalm als de dankzegging van Christus voor de opstanding: 'U hebt mijn ziel uit het dodenrijk doen opkomen', met geween op de avond van Goede Vrijdag en vreugde op de morgen van Pasen. Het is een psalm van dankzegging na herstel van ziekte.
 T: Healing; Mourning into dancing; Resurrection joy
 TN: Genezing; Rouw in een reidans; Paasvreugde

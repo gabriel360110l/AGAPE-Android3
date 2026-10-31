@@ -16,7 +16,7 @@ SN: Paulus kwam naar Korinte niet met verheven woorden, maar in zwakheid, vrees 
 M: True knowledge of God is a gift of the Spirit, received by the humble. The Spirit, who knows God's depths, is Himself God.
 MN: Ware kennis van God is een gave van de Geest, ontvangen door de nederigen. De Geest, die Gods diepten kent, is Zelf God.
 F: The Fathers drew from 2:10–11 a proof of the Spirit's divinity: as only a man's spirit knows his thoughts, only God's Spirit knows God. St Basil uses this in his treatise On the Holy Spirit.
-FN: De Vaders haalden uit 2:10–11 een bewijs voor de godheid van de Geest: zoals alleen de geest van een mens zijn gedachten kent, kent alleen Gods Geest God. De heilige Basilius gebruikt dit in zijn verhandeling Over de Heilige Geest.
+FN: De kerkvaders haalden uit 2:10–11 een bewijs voor de godheid van de Geest: zoals alleen de geest van een mens zijn gedachten kent, kent alleen Gods Geest God. De heilige Basilius gebruikt dit in zijn verhandeling Over de Heilige Geest.
 T: Humility; Revelation; Holy Spirit
 TN: Nederigheid; Openbaring; Heilige Geest
 
@@ -26,7 +26,7 @@ SN: Paulus kon niet tot hen spreken als tot geestelijke mensen, maar als tot kle
 M: Ministers are only servants; God gives the growth. The community itself is God's temple, holy because the Spirit dwells in it.
 MN: Dienaren zijn slechts dienaren; God geeft de groei. De gemeenschap zelf is Gods tempel, heilig omdat de Geest erin woont.
 F: The Fathers read the testing fire as God's judgement on each person's work. In the West this passage was later linked with the doctrine of purgatory; Eastern Fathers spoke of the purifying fire of God's presence.
-FN: De Vaders lazen het beproevende vuur als Gods oordeel over ieders werk. In het Westen werd deze passage later verbonden met de leer van het vagevuur; oosterse Vaders spraken over het zuiverende vuur van Gods aanwezigheid.
+FN: De kerkvaders lazen het beproevende vuur als Gods oordeel over ieders werk. In het Westen werd deze passage later verbonden met de leer van het vagevuur; oosterse kerkvaders spraken over het zuiverende vuur van Gods aanwezigheid.
 T: Spiritual growth; Temple of the Spirit; Judgement
 TN: Geestelijke groei; Tempel van de Geest; Oordeel
 
@@ -36,7 +36,7 @@ SN: Laat men ons beschouwen als dienaren van Christus en rentmeesters van de geh
 M: Everything we have is received, so there is no room for pride. Ministers are stewards of the 'mysteries', which the Church came to call the sacraments.
 MN: Alles wat wij hebben is ontvangen, dus er is geen plaats voor trots. Dienaren zijn rentmeesters van de 'mysteriën', die de Kerk later de sacramenten ging noemen.
 F: The Fathers loved 'what do you have that you did not receive?'; St Augustine made it a key text of his teaching on grace. 'Fools for Christ' inspired the holy fools of the Eastern Church.
-FN: De Vaders hielden van 'wat hebt u dat u niet ontvangen hebt?'; de heilige Augustinus maakte het tot een sleuteltekst van zijn leer over de genade. 'Dwaas om Christus' inspireerde de heilige dwazen van de Oosterse Kerk.
+FN: De kerkvaders hielden van 'wat hebt u dat u niet ontvangen hebt?'; de heilige Augustinus maakte het tot een sleuteltekst van zijn leer over de genade. 'Dwaas om Christus' inspireerde de heilige dwazen van de Oosterse Kerk.
 T: Stewardship; Humility; Fools for Christ
 TN: Rentmeesterschap; Nederigheid; Dwaas om Christus
 
@@ -46,7 +46,7 @@ SN: Een man leeft met de vrouw van zijn vader, en de Korintiërs zijn trots in p
 M: Church discipline aims at healing and salvation, not mere punishment. Christ is our Passover, and Christian life is a continual feast of purity.
 MN: Kerkelijke tucht heeft genezing en redding tot doel, niet alleen straf. Christus is ons Pascha, en het christelijk leven is een voortdurend feest van reinheid.
 F: 'Christ our Pascha has been sacrificed' is sung in the Paschal hymns of the Church. The Fathers stress that excommunication is medicine, with the sinner's restoration as its goal, as 2 Corinthians 2 shows.
-FN: 'Christus, ons Pascha, is geslacht' wordt gezongen in de paashymnen van de Kerk. De Vaders benadrukken dat excommunicatie een geneesmiddel is, met het herstel van de zondaar als doel, zoals 2 Korintiërs 2 laat zien.
+FN: 'Christus, ons Pascha, is geslacht' wordt gezongen in de paashymnen van de Kerk. De kerkvaders benadrukken dat excommunicatie een geneesmiddel is, met het herstel van de zondaar als doel, zoals 2 Korintiërs 2 laat zien.
 T: Holiness; Discipline; Christ our Pascha
 TN: Heiligheid; Tucht; Christus ons Pascha
 
@@ -54,9 +54,9 @@ TN: Heiligheid; Tucht; Christus ons Pascha
 S: Brothers take each other to court before unbelievers; it would be better to suffer wrong. The unrighteous will not inherit the kingdom; such were some of you, but you were washed, sanctified and justified in the name of the Lord Jesus and by the Spirit of our God. All things are lawful, but not all are helpful. The body is not for immorality but for the Lord. Do you not know that your body is a temple of the Holy Spirit within you? You are not your own; you were bought with a price. So glorify God in your body.
 SN: Broeders voeren rechtszaken tegen elkaar voor ongelovigen; het zou beter zijn onrecht te lijden. Onrechtvaardigen zullen het koninkrijk niet beërven; zo waren sommigen van u, maar u bent afgewassen, geheiligd en gerechtvaardigd in de naam van de Heer Jezus en door de Geest van onze God. Alles is geoorloofd, maar niet alles is nuttig. Het lichaam is niet voor ontucht, maar voor de Heer. Weet u niet dat uw lichaam een tempel is van de Heilige Geest in u? U bent niet van uzelf; u bent gekocht en betaald. Verheerlijk God dan in uw lichaam.
 M: The body is holy, destined for resurrection and indwelt by the Spirit. Baptism washes and sanctifies; holiness must then be lived in the body.
-MN: Het lichaam is heilig, bestemd voor de opstanding en bewoond door de Geest. Het doopsel wast en heiligt; heiligheid moet daarna in het lichaam beleefd worden.
+MN: Het lichaam is heilig, bestemd voor de opstanding en bewoond door de Geest. De doop wast en heiligt; heiligheid moet daarna in het lichaam beleefd worden.
 F: The Fathers drew from this chapter the Church's high view of the body against those who despised matter. The relics of saints are honoured because their bodies were temples of the Spirit.
-FN: De Vaders putten uit dit hoofdstuk de hoge waardering van de Kerk voor het lichaam, tegen wie de materie verachtten. De relieken van heiligen worden geëerd omdat hun lichamen tempels van de Geest waren.
+FN: De kerkvaders putten uit dit hoofdstuk de hoge waardering van de Kerk voor het lichaam, tegen wie de materie verachtten. De relieken van heiligen worden geëerd omdat hun lichamen tempels van de Geest waren.
 T: Body as temple; Purity; Reconciliation
 TN: Lichaam als tempel; Reinheid; Verzoening
 
@@ -66,7 +66,7 @@ SN: Paulus beantwoordt vragen over het huwelijk. Man en vrouw moeten elkaar geve
 M: Marriage and celibacy are both gifts from God. Everything is seen in the light of the coming kingdom.
 MN: Huwelijk en celibaat zijn beide gaven van God. Alles wordt gezien in het licht van het komende koninkrijk.
 F: The Fathers praised virginity as an angelic life and an anticipation of the kingdom, while defending marriage against those who condemned it; the Council of Gangra anathematised those who despised marriage.
-FN: De Vaders prezen de maagdelijkheid als een engelachtig leven en een voorproef van het koninkrijk, terwijl zij het huwelijk verdedigden tegen wie het veroordeelden; het Concilie van Gangra sprak de banvloek uit over wie het huwelijk verachtten.
+FN: De kerkvaders prezen de maagdelijkheid als een engelachtig leven en een voorproef van het koninkrijk, terwijl zij het huwelijk verdedigden tegen wie het veroordeelden; het Concilie van Gangra sprak de banvloek uit over wie het huwelijk verachtten.
 T: Marriage; Celibacy; Calling
 TN: Huwelijk; Celibaat; Roeping
 
@@ -76,7 +76,7 @@ SN: Kennis maakt opgeblazen, maar liefde bouwt op. Wij weten dat een afgod niets
 M: Love, not knowledge, is the measure of Christian freedom. Verse 6 is an early creed that places Jesus within the one God of Israel.
 MN: Liefde, niet kennis, is de maatstaf van christelijke vrijheid. Vers 6 is een vroege geloofsbelijdenis die Jezus plaatst binnen de ene God van Israël.
 F: The Fathers saw in 8:6 the seed of the Nicene Creed: one God the Father, one Lord Jesus Christ, through whom all things were made.
-FN: De Vaders zagen in 8:6 de kiem van de Geloofsbelijdenis van Nicea: één God de Vader, één Heer Jezus Christus, door wie alles gemaakt is.
+FN: De kerkvaders zagen in 8:6 de kiem van de Geloofsbelijdenis van Nicea: één God de Vader, één Heer Jezus Christus, door wie alles gemaakt is.
 T: Love; Conscience; One God and one Lord
 TN: Liefde; Geweten; Eén God en één Heer
 
@@ -86,7 +86,7 @@ SN: Paulus heeft het recht om door de kerken onderhouden te worden, zoals de and
 M: Love gives up rights for the sake of others. The spiritual life is a disciplined race toward an imperishable crown.
 MN: Liefde geeft rechten op omwille van anderen. Het geestelijk leven is een gedisciplineerde wedloop naar een onvergankelijke kroon.
 F: The Fathers, especially the ascetic writers, took the image of the athlete as the basis for ascetic discipline: fasting and vigilance as the training of a soul for the crown.
-FN: De Vaders, vooral de ascetische schrijvers, namen het beeld van de atleet als basis voor ascetische tucht: vasten en waakzaamheid als training van de ziel voor de kroon.
+FN: De kerkvaders, vooral de ascetische schrijvers, namen het beeld van de atleet als basis voor ascetische tucht: vasten en waakzaamheid als training van de ziel voor de kroon.
 T: Self-giving; Mission; Ascesis
 TN: Zelfgave; Zending; Ascese
 
@@ -96,7 +96,7 @@ SN: Onze vaderen gingen door de zee en werden in Mozes gedoopt; allen aten hetze
 M: The sacraments do not work like magic apart from faithfulness. The Eucharist is true communion in Christ and makes the many one body.
 MN: De sacramenten werken niet als magie los van trouw. De eucharistie is ware gemeenschap met Christus en maakt de velen tot één lichaam.
 F: The Fathers read the crossing of the Red Sea as a type of baptism and the manna and water from the rock as types of the Eucharist, following Paul here. St Augustine: 'Be what you see, receive what you are', the body of Christ.
-FN: De Vaders lazen de doortocht door de Rode Zee als voorafbeelding van het doopsel en het manna en het water uit de rots als voorafbeeldingen van de eucharistie, Paulus hierin volgend. De heilige Augustinus: 'Wees wat u ziet, ontvang wat u bent', het lichaam van Christus.
+FN: De kerkvaders lazen de doortocht door de Rode Zee als voorafbeelding van de doop en het manna en het water uit de rots als voorafbeeldingen van de eucharistie, Paulus hierin volgend. De heilige Augustinus: 'Wees wat u ziet, ontvang wat u bent', het lichaam van Christus.
 T: Typology; Eucharist; Temptation
 TN: Typologie; Eucharistie; Verzoeking
 
@@ -106,7 +106,7 @@ SN: Paulus geeft aanwijzingen over hoofdbedekking in de eredienst, gegrond in de
 M: This is the oldest written account of the Eucharist. Receiving the Body and Blood unworthily is a grave matter; preparation and self-examination belong to Communion.
 MN: Dit is het oudste geschreven verslag van de eucharistie. Het Lichaam en Bloed onwaardig ontvangen is een ernstige zaak; voorbereiding en zelfonderzoek horen bij de communie.
 F: The Fathers based the prayers before Communion and the practice of confession and fasting before receiving on 'let a person examine himself'. St John Chrysostom warns against approaching the holy table without reconciliation with one's neighbour.
-FN: De Vaders baseerden de gebeden vóór de communie en de gewoonte van biecht en vasten vóór het ontvangen op 'laat ieder zichzelf beproeven'. De heilige Johannes Chrysostomus waarschuwt ervoor de heilige tafel te naderen zonder verzoening met de naaste.
+FN: De kerkvaders baseerden de gebeden vóór de communie en de gewoonte van biecht en vasten vóór het ontvangen op 'laat ieder zichzelf beproeven'. De heilige Johannes Chrysostomus waarschuwt ervoor de heilige tafel te naderen zonder verzoening met de naaste.
 T: Eucharist; Worthy reception; Order in worship
 TN: Eucharistie; Waardig ontvangen; Orde in de eredienst
 
@@ -116,7 +116,7 @@ SN: Niemand die door de Geest spreekt, zegt dat Jezus vervloekt is, en niemand k
 M: Every baptised person has a gift for the good of all. The Church is a living body, not an organisation; no member is useless.
 MN: Iedere gedoopte heeft een gave voor het welzijn van allen. De Kerk is een levend lichaam, geen organisatie; geen lid is nutteloos.
 F: The Fathers note the Trinity in 12:4–6: Spirit, Lord and God working the gifts. St John Chrysostom applies the body image to care for the poor and weak members of the Church.
-FN: De Vaders wijzen op de Drie-eenheid in 12:4–6: Geest, Heer en God die de gaven bewerken. De heilige Johannes Chrysostomus past het beeld van het lichaam toe op de zorg voor de arme en zwakke leden van de Kerk.
+FN: De kerkvaders wijzen op de Drie-eenheid in 12:4–6: Geest, Heer en God die de gaven bewerken. De heilige Johannes Chrysostomus past het beeld van het lichaam toe op de zorg voor de arme en zwakke leden van de Kerk.
 T: Gifts of the Spirit; Body of Christ; Unity in diversity
 TN: Gaven van de Geest; Lichaam van Christus; Eenheid in verscheidenheid
 
@@ -126,7 +126,7 @@ SN: Al sprak ik de talen van mensen en van engelen, maar had ik de liefde niet, 
 M: All gifts are worthless without love, which is the very life of God in us. Love alone continues into eternity.
 MN: Alle gaven zijn waardeloos zonder de liefde, die het leven van God Zelf in ons is. Alleen de liefde gaat door in de eeuwigheid.
 F: The Fathers taught that the description of love is a portrait of Christ: put His name in place of 'love' and the hymn is still true. St Gregory of Nyssa saw in 'love never ends' the endless growth of the soul in God.
-FN: De Vaders leerden dat de beschrijving van de liefde een portret van Christus is: zet Zijn naam in plaats van 'liefde' en het lied blijft waar. De heilige Gregorius van Nyssa zag in 'de liefde vergaat nooit' de eindeloze groei van de ziel in God.
+FN: De kerkvaders leerden dat de beschrijving van de liefde een portret van Christus is: zet Zijn naam in plaats van 'liefde' en het lied blijft waar. De heilige Gregorius van Nyssa zag in 'de liefde vergaat nooit' de eindeloze groei van de ziel in God.
 T: Love; Faith, hope and love; Eternity
 TN: Liefde; Geloof, hoop en liefde; Eeuwigheid
 

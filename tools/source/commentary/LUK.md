@@ -16,7 +16,7 @@ SN: Vanwege een volkstelling gaan Jozef en Maria naar Bethlehem, waar Jezus gebo
 M: The Lord of the universe is born poor and laid where animals feed. Simeon greets Him as the light of the nations and foretells the sword that will pierce Mary's soul.
 MN: De Heer van het heelal wordt arm geboren en gelegd waar dieren eten. Simeon begroet Hem als het licht voor de volken en voorzegt het zwaard dat Maria's ziel zal doorboren.
 F: The Fathers saw in the manger a sign of the Eucharist: He who is the Bread of heaven is laid in a feeding trough. Simeon's song, the Nunc dimittis, is sung at every Vespers in the East and at Compline in the West.
-FN: De Vaders zagen in de kribbe een teken van de eucharistie: Hij die het Brood uit de hemel is, wordt in een voederbak gelegd. Het lied van Simeon, het Nunc dimittis, wordt in het Oosten bij elke Vespers en in het Westen bij de Completen gezongen.
+FN: De kerkvaders zagen in de kribbe een teken van de eucharistie: Hij die het Brood uit de hemel is, wordt in een voederbak gelegd. Het lied van Simeon, het Nunc dimittis, wordt in het Oosten bij elke Vespers en in het Westen bij de Completen gezongen.
 T: Nativity; Humility; Light of the nations
 TN: Geboorte; Nederigheid; Licht voor de volken
 
@@ -26,9 +26,9 @@ SN: In het vijftiende jaar van Tiberius komt het woord van God tot Johannes in d
 M: Repentance is concrete: it changes how we share, work and use power. By tracing the line to Adam, Luke shows Christ as the new Adam for the whole human race.
 MN: Bekering is concreet: zij verandert hoe wij delen, werken en macht gebruiken. Door het geslachtsregister tot Adam te volgen, toont Lucas Christus als de nieuwe Adam voor het hele mensengeslacht.
 F: St Ambrose, in his Exposition of Luke, notes that Luke's genealogy rises from Christ to God, as baptism raises us to be children of God.
-FN: De heilige Ambrosius merkt in zijn Uitleg van Lucas op dat het geslachtsregister van Lucas opstijgt van Christus naar God, zoals het doopsel ons verheft tot kinderen van God.
+FN: De heilige Ambrosius merkt in zijn Uitleg van Lucas op dat het geslachtsregister van Lucas opstijgt van Christus naar God, zoals de doop ons verheft tot kinderen van God.
 T: Repentance; Baptism; New Adam
-TN: Bekering; Doopsel; Nieuwe Adam
+TN: Bekering; Doop; Nieuwe Adam
 
 ## 4 | Temptation and Nazareth | Verzoeking en Nazaret
 S: Full of the Spirit, Jesus is tempted in the wilderness and returns in the power of the Spirit. In the synagogue of Nazareth He reads from Isaiah: the Spirit of the Lord is upon Me, to preach good news to the poor, release to captives and sight to the blind; today this Scripture is fulfilled. When He recalls God's mercy to the widow of Zarephath and Naaman the Syrian, the people try to throw Him off a cliff. In Capernaum He casts out demons and heals many.
@@ -46,7 +46,7 @@ SN: Na een nacht zonder vangst laat Simon op Jezus' woord zijn netten zakken en 
 M: Holiness reveals our sinfulness, but Christ does not depart; He sends. Obedience to His word bears fruit where human effort failed.
 MN: Heiligheid toont onze zondigheid, maar Christus gaat niet weg; Hij zendt. Gehoorzaamheid aan Zijn woord draagt vrucht waar menselijke inspanning faalde.
 F: The Fathers see Peter's boat as the Church and the full nets as the nations drawn into it by the apostles' preaching.
-FN: De Vaders zien de boot van Petrus als de Kerk en de volle netten als de volken die door de prediking van de apostelen erin worden getrokken.
+FN: De kerkvaders zien de boot van Petrus als de Kerk en de volle netten als de volken die door de prediking van de apostelen erin worden getrokken.
 T: Calling; Humility; Mission
 TN: Roeping; Nederigheid; Zending
 
@@ -56,7 +56,7 @@ SN: Jezus geneest op de sabbat en kiest na een nacht van gebed twaalf apostelen.
 M: Luke's Beatitudes and woes are blunt: God takes the side of the poor and warns the comfortable. Mercy is the measure of the Christian life.
 MN: De zaligsprekingen en weeën van Lucas zijn direct: God kiest de kant van de armen en waarschuwt de welgestelden. Barmhartigheid is de maat van het christelijk leven.
 F: The Fathers note that Jesus chose the apostles after a whole night of prayer, an example for every important decision in the Church.
-FN: De Vaders merken op dat Jezus de apostelen koos na een hele nacht gebed, een voorbeeld voor elke belangrijke beslissing in de Kerk.
+FN: De kerkvaders merken op dat Jezus de apostelen koos na een hele nacht gebed, een voorbeeld voor elke belangrijke beslissing in de Kerk.
 T: Mercy; Love of enemies; Poverty
 TN: Barmhartigheid; Liefde voor de vijand; Armoede
 
@@ -66,7 +66,7 @@ SN: Jezus geneest de knecht van een hoofdman en prijst zijn geloof. In Naïn ont
 M: Christ's compassion goes out to the grieving and the despised. Love and forgiveness flow into each other.
 MN: Christus' medelijden gaat uit naar wie rouwen en wie veracht worden. Liefde en vergeving vloeien in elkaar over.
 F: The Byzantine hymn of Kassiani, sung on Holy Tuesday night, gives voice to the sinful woman: 'Lord, the woman who had fallen into many sins...'. The Fathers make her tears a model of repentance.
-FN: De Byzantijnse hymne van Kassiani, gezongen in de nacht van Dinsdag in de Goede Week, geeft een stem aan de zondige vrouw: 'Heer, de vrouw die in vele zonden gevallen was...'. De Vaders maken haar tranen tot een voorbeeld van boetvaardigheid.
+FN: De Byzantijnse hymne van Kassiani, gezongen in de nacht van Dinsdag in de Goede Week, geeft een stem aan de zondige vrouw: 'Heer, de vrouw die in vele zonden gevallen was...'. De kerkvaders maken haar tranen tot een voorbeeld van boetvaardigheid.
 T: Compassion; Repentance; Forgiveness
 TN: Medelijden; Boetvaardigheid; Vergeving
 
@@ -76,7 +76,7 @@ SN: Vrouwen die genezen waren, Maria Magdalena, Johanna, Susanna en vele anderen
 M: Luke highlights the women disciples who serve Christ from their own means. The word bears fruit in patience.
 MN: Lucas laat de vrouwelijke leerlingen zien die Christus met hun eigen middelen dienen. Het woord draagt vrucht in geduld.
 F: The Fathers honour these women as the same who later stood by the cross and came to the tomb, faithful when others fled.
-FN: De Vaders eren deze vrouwen als dezelfden die later bij het kruis stonden en naar het graf kwamen, trouw toen anderen vluchtten.
+FN: De kerkvaders eren deze vrouwen als dezelfden die later bij het kruis stonden en naar het graf kwamen, trouw toen anderen vluchtten.
 T: Women disciples; Hearing the word; Power over evil
 TN: Vrouwelijke leerlingen; Het woord horen; Macht over het kwaad
 
@@ -86,7 +86,7 @@ SN: Jezus zendt de twaalf uit, voedt vijfduizend mensen en hoort Petrus Hem beli
 M: From here Luke's Gospel is a journey toward the cross. The cross is to be taken up 'daily', in ordinary life.
 MN: Vanaf hier is het Evangelie van Lucas een reis naar het kruis. Het kruis moet 'dagelijks' opgenomen worden, in het gewone leven.
 F: The Fathers note that in Luke the Transfiguration happens while Jesus prays: prayer is the place where the glory of God shines through.
-FN: De Vaders merken op dat bij Lucas de Gedaanteverandering plaatsvindt terwijl Jezus bidt: het gebed is de plaats waar de heerlijkheid van God doorschijnt.
+FN: De kerkvaders merken op dat bij Lucas de Gedaanteverandering plaatsvindt terwijl Jezus bidt: het gebed is de plaats waar de heerlijkheid van God doorschijnt.
 T: Daily cross; Exodus; Gentleness
 TN: Dagelijks kruis; Exodus; Zachtmoedigheid
 
@@ -96,7 +96,7 @@ SN: Jezus zendt zeventig anderen voor Zich uit; zij keren blij terug omdat de de
 M: The neighbour is not a category to define but a person to become. Action and contemplation both belong to the disciple, but listening to Christ comes first.
 MN: De naaste is geen categorie om te definiëren, maar iemand die je wordt. Handelen en beschouwen horen beide bij de leerling, maar luisteren naar Christus komt eerst.
 F: Origen and many Fathers read the Samaritan as Christ Himself, who finds wounded humanity, pours in oil and wine (the sacraments) and brings it to the inn (the Church). Martha and Mary became for them images of the active and contemplative life.
-FN: Origenes en veel Vaders lezen de Samaritaan als Christus Zelf, die de gewonde mensheid vindt, olie en wijn ingiet (de sacramenten) en haar naar de herberg brengt (de Kerk). Marta en Maria werden voor hen beelden van het actieve en het beschouwende leven.
+FN: Origenes en veel kerkvaders lezen de Samaritaan als Christus Zelf, die de gewonde mensheid vindt, olie en wijn ingiet (de sacramenten) en haar naar de herberg brengt (de Kerk). Marta en Maria werden voor hen beelden van het actieve en het beschouwende leven.
 T: Love of neighbour; Mercy; Listening
 TN: Naastenliefde; Barmhartigheid; Luisteren
 
@@ -106,7 +106,7 @@ SN: De leerlingen vragen Jezus hen te leren bidden, en Hij geeft het Onze Vader.
 M: The greatest gift the Father gives in prayer is the Holy Spirit. Persistence in prayer is not nagging God but trusting His goodness.
 MN: Het grootste geschenk dat de Vader in het gebed geeft, is de Heilige Geest. Volharding in gebed is God niet lastigvallen, maar vertrouwen op Zijn goedheid.
 F: St Gregory of Nyssa preached five homilies on the Lord's Prayer. Some ancient manuscripts and St Gregory read 'Your Holy Spirit come upon us and cleanse us' in place of 'Your kingdom come', showing how the Fathers linked the kingdom with the Spirit.
-FN: De heilige Gregorius van Nyssa hield vijf homilieën over het Onze Vader. Sommige oude handschriften en Gregorius lezen 'Uw Heilige Geest kome over ons en reinige ons' in plaats van 'Uw rijk kome', wat laat zien hoe de Vaders het koninkrijk met de Geest verbonden.
+FN: De heilige Gregorius van Nyssa hield vijf homilieën over het Onze Vader. Sommige oude handschriften en Gregorius lezen 'Uw Heilige Geest kome over ons en reinige ons' in plaats van 'Uw rijk kome', wat laat zien hoe de kerkvaders het koninkrijk met de Geest verbonden.
 T: Prayer; Holy Spirit; Hearing and keeping
 TN: Gebed; Heilige Geest; Horen en bewaren
 

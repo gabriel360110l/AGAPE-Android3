@@ -6,7 +6,7 @@ SN: Alexander van Macedonië verovert de wereld, wordt dan ziek en sterft, en zi
 M: The threat to faith comes both from outside persecution and from inside compromise. Some abandon the covenant to fit in; others choose death rather than betrayal.
 MN: De bedreiging van het geloof komt zowel van vervolging van buiten als van compromis van binnen. Sommigen verlaten het verbond om erbij te horen; anderen kiezen de dood boven verraad.
 F: The 'desolating sacrilege' set on the altar is the 'abomination of desolation' foretold by Daniel, of which Christ speaks in His warning about the last days. The Fathers saw in the faithful who chose to die rather than be defiled the forerunners of the Christian martyrs. St Augustine notes that the Church received the books of the Maccabees as Scripture because of the wonderful sufferings of these martyrs.
-FN: De 'gruwel der verwoesting' die op het altaar werd opgericht, is de gruwel die Daniël voorzegde en waarover Christus spreekt in Zijn waarschuwing over de laatste dagen. De Vaders zagen in de gelovigen die liever stierven dan zich te verontreinigen de voorlopers van de christelijke martelaren. De heilige Augustinus merkt op dat de Kerk de boeken van de Makkabeeën als Schrift aanvaardde vanwege het wonderbaarlijke lijden van deze martelaren.
+FN: De 'gruwel der verwoesting' die op het altaar werd opgericht, is de gruwel die Daniël voorzegde en waarover Christus spreekt in Zijn waarschuwing over de laatste dagen. De kerkvaders zagen in de gelovigen die liever stierven dan zich te verontreinigen de voorlopers van de christelijke martelaren. De heilige Augustinus merkt op dat de Kerk de boeken van de Makkabeeën als Schrift aanvaardde vanwege het wonderbaarlijke lijden van deze martelaren.
 T: Compromise and persecution; Abomination of desolation; Faithful unto death
 TN: Compromis en vervolging; Gruwel der verwoesting; Trouw tot de dood
 
@@ -16,7 +16,7 @@ SN: Mattatias, een priester uit het geslacht van Jojarib, woont in Modein met zi
 M: One old priest refuses to follow the crowd, even if all the nations obey. His last words teach his sons to draw courage from the faithful who went before them.
 MN: Eén oude priester weigert de menigte te volgen, ook al gehoorzamen alle volken. Zijn laatste woorden leren zijn zonen moed te putten uit de gelovigen die hen voorgingen.
 F: The Fathers praised Mattathias' refusal, 'even if all the nations obey, I and my sons will live by the covenant of our fathers', as the model of steadfastness in the face of pressure to conform. His farewell recalling the faithful of old resembles the Letter to the Hebrews' great list of the heroes of faith. Christians have also recalled the decision about the Sabbath in the light of Christ's teaching that it is lawful to save life on the Sabbath.
-FN: De Vaders prezen de weigering van Mattatias, 'ook al gehoorzamen alle volken, ik en mijn zonen zullen leven volgens het verbond van onze vaderen', als het voorbeeld van standvastigheid onder druk om zich aan te passen. Zijn afscheid, dat herinnert aan de gelovigen van vroeger, lijkt op de grote lijst van geloofshelden in de brief aan de Hebreeën. Christenen hebben het besluit over de sabbat ook overdacht in het licht van het onderwijs van Christus dat het geoorloofd is op de sabbat een leven te redden.
+FN: De kerkvaders prezen de weigering van Mattatias, 'ook al gehoorzamen alle volken, ik en mijn zonen zullen leven volgens het verbond van onze vaderen', als het voorbeeld van standvastigheid onder druk om zich aan te passen. Zijn afscheid, dat herinnert aan de gelovigen van vroeger, lijkt op de grote lijst van geloofshelden in de brief aan de Hebreeën. Christenen hebben het besluit over de sabbat ook overdacht in het licht van het onderwijs van Christus dat het geoorloofd is op de sabbat een leven te redden.
 T: Standing firm alone; Zeal for the covenant; The cloud of witnesses
 TN: Alleen standhouden; IJver voor het verbond; De wolk van getuigen
 
@@ -26,7 +26,7 @@ SN: Judas, Makkabeüs genoemd, staat op in de plaats van zijn vader, en al zijn 
 M: Judas's courage rests on prayer and trust: strength comes from Heaven, not from numbers. He prepares for battle with fasting and the book of the Law.
 MN: De moed van Judas rust op gebed en vertrouwen: de kracht komt uit de hemel, niet uit aantallen. Hij bereidt zich op de strijd voor met vasten en het wetboek.
 F: The Fathers held up Judas's words, 'victory does not depend on the size of the army, but strength comes from Heaven', alongside Gideon and Jonathan, as a lesson in trusting God's power rather than human resources. His submission, 'as His will in heaven may be, so He will do', was heard as an echo of the Lord's Prayer and of Christ in Gethsemane.
-FN: De Vaders stelden de woorden van Judas, 'de overwinning hangt niet af van de grootte van het leger, maar de kracht komt uit de hemel', naast Gideon en Jonatan voor als een les in vertrouwen op Gods kracht in plaats van menselijke middelen. Zijn overgave, 'zoals Zijn wil in de hemel is, zo zal Hij doen', werd gehoord als een echo van het Onzevader en van Christus in Getsemane.
+FN: De kerkvaders stelden de woorden van Judas, 'de overwinning hangt niet af van de grootte van het leger, maar de kracht komt uit de hemel', naast Gideon en Jonatan voor als een les in vertrouwen op Gods kracht in plaats van menselijke middelen. Zijn overgave, 'zoals Zijn wil in de hemel is, zo zal Hij doen', werd gehoord als een echo van het Onzevader en van Christus in Getsemane.
 T: Strength from Heaven; Prayer before battle; Thy will be done
 TN: Kracht uit de hemel; Gebed vóór de strijd; Uw wil geschiede
 
@@ -36,7 +36,7 @@ SN: Gorgias probeert een nachtelijke aanval, maar Judas valt het hoofdkamp bij E
 M: The first act of victory is to restore worship. The feast of the Dedication, Hanukkah, celebrates God's house cleansed and given back to His service.
 MN: De eerste daad na de overwinning is het herstel van de eredienst. Het feest van de inwijding, Chanoeka, viert Gods huis dat gereinigd en aan Zijn dienst teruggegeven is.
 F: Christ Himself went up to Jerusalem for this Feast of the Dedication, in winter, and walked in the temple in Solomon's portico, where He said: I and the Father are one. The Fathers read the cleansing of the profaned temple as a figure of the cleansing of the soul by repentance and of the consecration of churches; the stones set aside 'until a prophet should come' show Israel's longing for a word from God.
-FN: Christus Zelf ging naar Jeruzalem voor dit feest van de tempelwijding, in de winter, en wandelde in de tempel in de zuilengang van Salomo, waar Hij zei: Ik en de Vader zijn één. De Vaders lazen de reiniging van de ontheiligde tempel als een voorafbeelding van de reiniging van de ziel door bekering en van de inwijding van kerken; de stenen die opzij gezet werden 'totdat er een profeet zou komen' tonen het verlangen van Israël naar een woord van God.
+FN: Christus Zelf ging naar Jeruzalem voor dit feest van de tempelwijding, in de winter, en wandelde in de tempel in de zuilengang van Salomo, waar Hij zei: Ik en de Vader zijn één. De kerkvaders lazen de reiniging van de ontheiligde tempel als een voorafbeelding van de reiniging van de ziel door bekering en van de inwijding van kerken; de stenen die opzij gezet werden 'totdat er een profeet zou komen' tonen het verlangen van Israël naar een woord van God.
 T: Restoring worship; Feast of Dedication; Waiting for a prophet
 TN: Herstel van de eredienst; Feest van de tempelwijding; Wachten op een profeet
 
@@ -46,7 +46,7 @@ SN: Wanneer de omringende volken horen dat het altaar herbouwd is, worden zij ze
 M: Victory is used to rescue brothers in danger far away. Those who fight to make a name for themselves fail.
 MN: De overwinning wordt gebruikt om broeders in gevaar ver weg te redden. Wie strijden om zich een naam te maken, falen.
 F: The Fathers drew from the failure of Joseph and Azariah a warning against seeking glory for oneself in God's work: what is done for vainglory, not by God's calling, does not prosper. The rescue of scattered brothers was read as an image of the Church's care for her persecuted members.
-FN: De Vaders leerden uit het falen van Jozef en Azarja een waarschuwing tegen het zoeken van eigen eer in Gods werk: wat uit ijdelheid gedaan wordt, niet uit Gods roeping, heeft geen voorspoed. De redding van verstrooide broeders werd gelezen als een beeld van de zorg van de Kerk voor haar vervolgde leden.
+FN: De kerkvaders leerden uit het falen van Jozef en Azarja een waarschuwing tegen het zoeken van eigen eer in Gods werk: wat uit ijdelheid gedaan wordt, niet uit Gods roeping, heeft geen voorspoed. De redding van verstrooide broeders werd gelezen als een beeld van de zorg van de Kerk voor haar vervolgde leden.
 T: Rescuing the persecuted; Against vainglory; God's chosen instruments
 TN: De vervolgden redden; Tegen ijdele eer; Gods uitverkoren werktuigen
 
@@ -56,7 +56,7 @@ SN: Koning Antiochus, op veldtocht in Perzië, slaagt er niet in een rijke tempe
 M: The persecutor recognises too late that his misfortunes come from the evil he did. A brother of Judas gives his life for his people.
 MN: De vervolger erkent te laat dat zijn rampen voortkomen uit het kwaad dat hij gedaan heeft. Een broer van Judas geeft zijn leven voor zijn volk.
 F: The Fathers saw in Antiochus' end the pattern of persecutors who, at the last, recognise the hand of God they had defied. Eleazar's self-sacrifice under the elephant was admired as courage for the sake of others, though his hope of an 'everlasting name' was contrasted with the martyrs' hope of eternal life.
-FN: De Vaders zagen in het einde van Antiochus het patroon van vervolgers die op het laatst de hand van God erkennen die zij getrotseerd hadden. De zelfopoffering van Eleazar onder de olifant werd bewonderd als moed omwille van anderen, hoewel zijn hoop op een 'eeuwige naam' werd vergeleken met de hoop van de martelaren op het eeuwige leven.
+FN: De kerkvaders zagen in het einde van Antiochus het patroon van vervolgers die op het laatst de hand van God erkennen die zij getrotseerd hadden. De zelfopoffering van Eleazar onder de olifant werd bewonderd als moed omwille van anderen, hoewel zijn hoop op een 'eeuwige naam' werd vergeleken met de hoop van de martelaren op het eeuwige leven.
 T: The persecutor's end; Recognising God's hand; Giving one's life
 TN: Het einde van de vervolger; Gods hand erkennen; Het eigen leven geven
 
@@ -66,7 +66,7 @@ SN: Demetrius, de zoon van Seleucus, grijpt de troon. Wetteloze mannen uit Isra�
 M: Trusting a man because of his religious title, without discernment, leads to disaster. Blasphemy against God's house is answered by God.
 MN: Een man vertrouwen vanwege zijn religieuze titel, zonder onderscheiding, leidt tot rampspoed. Godslastering tegen Gods huis wordt door God beantwoord.
 F: The Fathers drew a warning from the Hasideans' misplaced trust in Alcimus: a sacred office does not guarantee a faithful heart, and discernment is needed even toward those in high positions. The priests' prayer, 'a house of prayer for Your people', anticipates Christ's words when He cleansed the temple.
-FN: De Vaders leerden een waarschuwing uit het misplaatste vertrouwen van de Chasideeën in Alkimus: een heilig ambt garandeert geen trouw hart, en onderscheiding is nodig, zelfs tegenover wie hoge posities bekleden. Het gebed van de priesters, 'een huis van gebed voor Uw volk', loopt vooruit op de woorden van Christus toen Hij de tempel reinigde.
+FN: De kerkvaders leerden een waarschuwing uit het misplaatste vertrouwen van de Chasideeën in Alkimus: een heilig ambt garandeert geen trouw hart, en onderscheiding is nodig, zelfs tegenover wie hoge posities bekleden. Het gebed van de priesters, 'een huis van gebed voor Uw volk', loopt vooruit op de woorden van Christus toen Hij de tempel reinigde.
 T: Discernment; False shepherds; House of prayer
 TN: Onderscheiding; Valse herders; Huis van gebed
 
@@ -76,7 +76,7 @@ SN: Judas hoort van de roem van de Romeinen: zij zijn zeer sterk, welgezind tege
 M: Seeking protection, Judas turns to a distant power. The chapter sets the stage for the later history in which Rome will rule Judea.
 MN: Op zoek naar bescherming wendt Judas zich tot een verre macht. Het hoofdstuk zet de toon voor de latere geschiedenis waarin Rome over Judea zal heersen.
 F: Christian readers have noted the irony of this chapter: the power welcomed as a friend would later rule Judea and destroy the temple. Yet Fathers such as Origen saw God's providence in the Roman peace into which Christ was born and through which the Gospel spread.
-FN: Christelijke lezers hebben de ironie van dit hoofdstuk opgemerkt: de macht die als vriend verwelkomd werd, zou later over Judea heersen en de tempel verwoesten. Toch zagen Vaders zoals Origenes Gods voorzienigheid in de Romeinse vrede waarin Christus geboren werd en waardoor het Evangelie zich verspreidde.
+FN: Christelijke lezers hebben de ironie van dit hoofdstuk opgemerkt: de macht die als vriend verwelkomd werd, zou later over Judea heersen en de tempel verwoesten. Toch zagen kerkvaders zoals Origenes Gods voorzienigheid in de Romeinse vrede waarin Christus geboren werd en waardoor het Evangelie zich verspreidde.
 T: Human alliances; Irony of history; Preparation for the Gospel
 TN: Menselijke bondgenootschappen; Ironie van de geschiedenis; Voorbereiding op het Evangelie
 
@@ -86,7 +86,7 @@ SN: Demetrius zendt opnieuw Bacchides en Alkimus met een groot leger. Judas lege
 M: Judas does not flee when his time comes. His death does not end the struggle: others take it up.
 MN: Judas vlucht niet wanneer zijn tijd gekomen is. Zijn dood beëindigt de strijd niet: anderen nemen hem over.
 F: The Fathers admired Judas's refusal to flee, 'if our time has come, let us die bravely for our brothers', as the courage of one who has learned to face death for others. The lament 'how is the mighty one fallen, the saviour of Israel' was read as a reminder that even the greatest deliverers are mortal and point beyond themselves to the one Saviour.
-FN: De Vaders bewonderden de weigering van Judas om te vluchten, 'als onze tijd gekomen is, laten wij dan moedig sterven voor onze broeders', als de moed van iemand die geleerd heeft de dood onder ogen te zien voor anderen. De klacht 'hoe is de held gevallen, de redder van Israël' werd gelezen als een herinnering dat zelfs de grootste bevrijders sterfelijk zijn en verder wijzen naar de ene Redder.
+FN: De kerkvaders bewonderden de weigering van Judas om te vluchten, 'als onze tijd gekomen is, laten wij dan moedig sterven voor onze broeders', als de moed van iemand die geleerd heeft de dood onder ogen te zien voor anderen. De klacht 'hoe is de held gevallen, de redder van Israël' werd gelezen als een herinnering dat zelfs de grootste bevrijders sterfelijk zijn en verder wijzen naar de ene Redder.
 T: Courage unto death; Mourning a deliverer; The struggle continues
 TN: Moed tot in de dood; Rouw om een bevrijder; De strijd gaat door
 
@@ -106,7 +106,7 @@ SN: Ptolemeüs van Egypte neemt met bedrog de steden van Alexander in en keert z
 M: Kings make and break promises; human loyalties shift constantly. When all flee, Jonathan turns to prayer and finds strength.
 MN: Koningen doen beloften en breken ze; menselijke trouw wisselt voortdurend. Wanneer allen vluchten, wendt Jonatan zich tot gebed en vindt kracht.
 F: The Fathers drew from these shifting alliances the lesson of the psalm: put not your trust in princes. Jonathan's prayer when abandoned at Hazor was held up as the right response when human support fails.
-FN: De Vaders leerden uit deze wisselende bondgenootschappen de les van de psalm: vertrouw niet op vorsten. Het gebed van Jonatan toen hij bij Hazor verlaten werd, werd voorgesteld als het juiste antwoord wanneer menselijke steun faalt.
+FN: De kerkvaders leerden uit deze wisselende bondgenootschappen de les van de psalm: vertrouw niet op vorsten. Het gebed van Jonatan toen hij bij Hazor verlaten werd, werd voorgesteld als het juiste antwoord wanneer menselijke steun faalt.
 T: Do not trust in princes; Broken promises; Prayer when abandoned
 TN: Vertrouw niet op vorsten; Gebroken beloften; Gebed wanneer men verlaten is
 
@@ -116,7 +116,7 @@ SN: Jonatan vernieuwt de vriendschap met Rome en schrijft aan de Spartanen: hoew
 M: Jonathan's strength is the holy books in his hands, yet he falls by trusting a flatterer. Betrayal comes disguised as honour.
 MN: De kracht van Jonatan zijn de heilige boeken in zijn handen, toch valt hij doordat hij een vleier vertrouwt. Verraad komt vermomd als eer.
 F: The Fathers valued Jonathan's words to the Spartans, 'we have as encouragement the holy books in our hands', as a witness that Scripture is the true strength and consolation of God's people. His capture through Trypho's flattering welcome was read as a warning about the snares hidden in honours and fair words.
-FN: De Vaders waardeerden de woorden van Jonatan aan de Spartanen, 'wij hebben als bemoediging de heilige boeken in onze handen', als getuigenis dat de Schrift de ware kracht en troost van Gods volk is. Zijn gevangenneming door het vleiende welkom van Tryfon werd gelezen als een waarschuwing voor de strikken die verborgen zijn in eerbewijzen en mooie woorden.
+FN: De kerkvaders waardeerden de woorden van Jonatan aan de Spartanen, 'wij hebben als bemoediging de heilige boeken in onze handen', als getuigenis dat de Schrift de ware kracht en troost van Gods volk is. Zijn gevangenneming door het vleiende welkom van Tryfon werd gelezen als een waarschuwing voor de strikken die verborgen zijn in eerbewijzen en mooie woorden.
 T: Strength in Scripture; Flattery and betrayal; Remembering brothers
 TN: Kracht in de Schrift; Vleierij en verraad; Broeders gedenken
 
@@ -126,7 +126,7 @@ SN: Simon gaat naar Jeruzalem en bemoedigt het bevende volk: u weet welke grote 
 M: The last brother takes up the burden without sparing himself. After decades of struggle, freedom comes, celebrated with palms and songs.
 MN: De laatste broer neemt de last op zich zonder zichzelf te sparen. Na decennia van strijd komt de vrijheid, gevierd met palmtakken en liederen.
 F: The Fathers admired Simon's words, 'I am not better than my brothers', as the humility of one who accepts the same sacrifice as those before him. The entry into the citadel with palm branches and songs was seen as a foreshadowing of Christ's entry into Jerusalem, greeted with palms as the true Deliverer.
-FN: De Vaders bewonderden de woorden van Simon, 'ik ben niet beter dan mijn broers', als de nederigheid van iemand die hetzelfde offer aanvaardt als wie hem voorgingen. De intocht in de burcht met palmtakken en liederen werd gezien als een voorafbeelding van de intocht van Christus in Jeruzalem, begroet met palmen als de ware Bevrijder.
+FN: De kerkvaders bewonderden de woorden van Simon, 'ik ben niet beter dan mijn broers', als de nederigheid van iemand die hetzelfde offer aanvaardt als wie hem voorgingen. De intocht in de burcht met palmtakken en liederen werd gezien als een voorafbeelding van de intocht van Christus in Jeruzalem, begroet met palmen als de ware Bevrijder.
 T: Taking up the burden; Freedom; Palms and praise
 TN: De last op zich nemen; Vrijheid; Palmtakken en lof
 
@@ -146,7 +146,7 @@ SN: Antiochus, de zoon van Demetrius, schrijft vanaf de eilanden aan Simon en be
 M: Another king makes and breaks promises. Simon answers with a calm defence of justice: Israel claims only its inheritance.
 MN: Weer een koning die beloften doet en breekt. Simon antwoordt met een rustige verdediging van het recht: Israël eist alleen zijn erfdeel op.
 F: Christian readers have seen in Simon's answer a measured defence of what is just, without greed or vengeance. The Fathers read the 'inheritance of our fathers' spiritually as the inheritance of faith that must be guarded against those who would take it.
-FN: Christelijke lezers hebben in het antwoord van Simon een gematigde verdediging gezien van wat rechtvaardig is, zonder hebzucht of wraak. De Vaders lazen het 'erfdeel van onze vaderen' geestelijk als het erfdeel van het geloof dat bewaakt moet worden tegen wie het zouden willen afnemen.
+FN: Christelijke lezers hebben in het antwoord van Simon een gematigde verdediging gezien van wat rechtvaardig is, zonder hebzucht of wraak. De kerkvaders lazen het 'erfdeel van onze vaderen' geestelijk als het erfdeel van het geloof dat bewaakt moet worden tegen wie het zouden willen afnemen.
 T: Broken promises; Defending what is just; The inheritance of the fathers
 TN: Gebroken beloften; Verdedigen wat rechtvaardig is; Het erfdeel van de vaderen
 
@@ -156,6 +156,6 @@ SN: Simon, nu oud, vertrouwt de strijd toe aan zijn zonen Judas en Johannes: ik 
 M: The last of the brothers falls not to a foreign enemy but to treachery within his own family. The book ends with the struggle handed to the next generation.
 MN: De laatste van de broers valt niet door een buitenlandse vijand, maar door verraad binnen zijn eigen familie. Het boek eindigt met de strijd die aan de volgende generatie overgedragen wordt.
 F: The Fathers saw in the deaths of all the sons of Mattathias the truth that no earthly deliverer can bring lasting salvation; the hope of Israel awaited a greater Saviour. Simon's charge, 'may the help that comes from Heaven be with you', was read as the blessing every generation must receive anew.
-FN: De Vaders zagen in de dood van alle zonen van Mattatias de waarheid dat geen aardse bevrijder blijvende verlossing kan brengen; de hoop van Israël wachtte op een grotere Redder. De opdracht van Simon, 'moge de hulp die uit de hemel komt met u zijn', werd gelezen als de zegen die elke generatie opnieuw moet ontvangen.
+FN: De kerkvaders zagen in de dood van alle zonen van Mattatias de waarheid dat geen aardse bevrijder blijvende verlossing kan brengen; de hoop van Israël wachtte op een grotere Redder. De opdracht van Simon, 'moge de hulp die uit de hemel komt met u zijn', werd gelezen als de zegen die elke generatie opnieuw moet ontvangen.
 T: Handing on the struggle; Treachery within; Awaiting the Saviour
 TN: De strijd overdragen; Verraad van binnen; Wachten op de Redder
