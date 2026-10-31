@@ -25,8 +25,8 @@ S: Consider Jesus, the apostle and high priest of our confession, faithful as Mo
 SN: Let op Jezus, de apostel en hogepriester van onze belijdenis, trouw zoals Mozes trouw was; maar Mozes was een dienaar in Gods huis, Christus is de Zoon over dat huis, en wij zijn Zijn huis als wij ons vertrouwen vasthouden. Daarom, zoals de Heilige Geest zegt: heden, als u Zijn stem hoort, verhard dan uw hart niet zoals bij de opstand in de woestijn. Spoor elkaar elke dag aan, zolang het 'heden' heet, opdat niemand van u verhard wordt door het bedrog van de zonde. De Israëlieten konden Gods rust niet binnengaan vanwege hun ongeloof.
 M: Every day is God's 'today', a new chance to hear and respond. Mutual encouragement guards against hardness of heart.
 MN: Elke dag is Gods 'heden', een nieuwe kans om te horen en te antwoorden. Elkaar aanmoedigen beschermt tegen verharding van het hart.
-F: Psalm 95 (94), quoted here, opens the daily Office of Readings in the Western Church as the invitatory: 'Today, if you hear His voice'.
-FN: Psalm 95 (94), die hier aangehaald wordt, opent in de Westerse Kerk dagelijks het getijdengebed als invitatorium: 'Heden, als u Zijn stem hoort'.
+F: St John Chrysostom, in his Homilies on Hebrews (Homily 6), teaches that 'today' lasts as long as the world lasts: while it is still today no one may despair, and Paul says 'exhort one another', not 'rebuke'. Psalm 95 (94), quoted here, opens the daily Office of Readings in the Western Church as the invitatory: 'Today, if you hear His voice'.
+FN: De heilige Johannes Chrysostomus leert in zijn Homilieën op Hebreeën (Homilie 6) dat 'heden' duurt zolang de wereld bestaat: zolang het nog heden is, mag niemand wanhopen, en Paulus zegt 'vermaant elkander', niet 'bestraft'. Psalm 95 (94), die hier aangehaald wordt, opent in de Westerse Kerk dagelijks het getijdengebed als invitatorium: 'Heden, als u Zijn stem hoort'.
 T: Faithfulness; Today; Hardness of heart
 TN: Trouw; Heden; Verharding van het hart
 
