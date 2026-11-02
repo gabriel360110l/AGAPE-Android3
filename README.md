@@ -69,7 +69,8 @@ The first visit to Prayer explains the hours and asks to enable notifications (p
   it, Father quotes and cross-references, in English and Dutch. Only the quizzes follow the last verse: every
   chapter of all 82 books, Old and New Testament with the deuterocanon (Psalms, Sirach, Wisdom, the Maccabees,
   1 Esdras, the Prayer of Manasseh, Psalm 151 and the additions to Esther and Daniel included), has hand-written
-  questions (4 per chapter, the Esther quiz keeps to the text both Bibles share); the book quiz of 20 questions
+  questions (at least 6 per chapter, 10 for Psalms 118 and 119, mostly 4 options; the Esther quiz keeps to the text
+  both Bibles share); the book quiz of 20 questions
   is still generated from the Bible text (`data/quiz/QuizGenerator.kt`).
 - **Saint of the Day** (Home, further down, and the calendar), offline for all three Churches from one uniform
   dataset (`assets/content/saints_unified.json`, schema in `tools/schema/`): the Byzantine
@@ -171,7 +172,9 @@ wisdom books (Job, Psalms, Proverbs, Ecclesiastes, Song of Songs, Wisdom, Sirach
 Lamentations, Baruch, Ezekiel and Daniel; the twelve minor prophets, Hosea to Malachi; and the other
 deuterocanonical books: the Prayer of Manasseh, Psalm 151, 1 Esdras, 3 and 4 Maccabees, and the Greek additions to
 Esther and Daniel, which the Dutch Bible keeps as separate books (Ester (Griekse toevoegingen), Gebed van Azarja,
-Susanna, Bel en de draak). Every book of the Bible now has written chapter commentary. The Psalms follow the Hebrew numbering of the Bible text; the Greek number
+Susanna, Bel en de draak). Every book of the Bible now has written chapter commentary. A chapter may also carry a short summary (`SS:`/`SSL:`),
+a longer summary (`LS:`/`LSL:`) and patterns (`P:`/`PN:`, typology and connections); so far only Genesis has them,
+and the app does not show these fields yet. The Psalms follow the Hebrew numbering of the Bible text; the Greek number
 is noted where the liturgy uses it. The English Esther and Daniel carry the Greek additions in place (Daniel 3, 13
 and 14) and their commentary mentions them; the Dutch Bible keeps them as separate books. Where the Dutch chapter
 breaks differ (Job 38–41, Ecclesiastes 4–5, Hosea 1–2, 11–14, Micah 4–5), the Dutch summary follows the Dutch text.

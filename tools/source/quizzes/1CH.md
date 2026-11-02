@@ -185,7 +185,7 @@
 = The prophet came from a line of Levites who served God's house | De profeet kwam uit een lijn van Levieten die Gods huis dienden
 - Because Samuel was also the high priest in Jerusalem | Omdat Samuël ook de hogepriester in Jeruzalem was
 - Because Samuel had been born into the family of David | Omdat Samuël in de familie van David was geboren
-- Because the writer wished to leave out the other prophets | Omdat de schrijver de andere profeten wilde weglaten en alleen aan Samuel wilde denken
+- Because the writer wished to leave out the other prophets | Omdat de schrijver de andere profeten wilde weglaten en alleen aan Samuël wilde denken
 ? What was the work of the Levites who were not priests? | Wat was het werk van de Levieten die geen priesters waren?
 = All the service of the tabernacle, the tent of God's house | Alle dienst aan de tabernakel, de tent van Gods huis
 - To offer the sacrifices of the people at the altar | Om de offers van het volk op het altaar te brengen
@@ -521,7 +521,7 @@
 ? Which prophet brought God's answer? | Welke profeet bracht Gods antwoord?
 = Nathan | Nathan
 - Gad | Gad
-- Samuel | Samuel
+- Samuel | Samuël
 - Ahijah | Ahia
 ? Why does Nathan first tell David to do all that is in his heart? | Waarom zegt Natan David eerst te doen wat hij in zijn hart heeft?
 = He spoke as a man, until God's own word came to him in the night | Hij sprak als mens, totdat Gods eigen woord in de nacht tot hem kwam
@@ -645,7 +645,7 @@
 = Gad | Gad
 - Nathan | Nathan
 - Elijah | Elia
-- Samuel | Samuel
+- Samuel | Samuël
 ? How did the Lord answer David's offering there? | Hoe antwoordde de Heer daar op Davids offer?
 = With fire from heaven on the altar | Met vuur uit de hemel op het altaar
 - With an earthquake | Met een aardbeving

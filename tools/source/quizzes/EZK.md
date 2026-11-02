@@ -805,7 +805,7 @@
 = Tyre | Tyrus
 - Sidon | Sidon
 - Damascus | Damascus
-- Damascus | Damascus
+- Gaza | Gaza
 ? What would Tyre become? | Wat zou Tyrus worden?
 = A bare rock, a place for spreading nets | Een kale rots, een plaats om netten te spreiden
 - A great garden | Een grote tuin
@@ -1386,7 +1386,7 @@
 = The prince | De vorst
 - The high priest | De hogepriester
 - Ezekiel | Ezechiël
-- The high priest | De hogepriester en zijn zonen
+- The Levites | De Levieten
 ? Which priests may come near to minister to the Lord? | Welke priesters mogen naderen om de Heer te dienen?
 = The Levitical priests, the sons of Zadok | De Levitische priesters, de zonen van Zadok
 - All Levites | Alle Levieten

@@ -650,7 +650,7 @@
 = Elijah | Elia
 - Elisha | Elisa
 - Isaiah | Jesaja
-- Samuel | Samuel
+- Samuel | Samuël
 ? What does Jehoram's killing of his brothers show? | Wat toont Joram's moord op zijn broers?
 = A king who loves power more than kin destroys the house he should guard | Een koning die macht meer liefheeft dan familie, vernietigt het huis dat hij moest bewaken
 - That the brothers had planned a revolt against him | Dat de broers een opstand tegen hem hadden gepland

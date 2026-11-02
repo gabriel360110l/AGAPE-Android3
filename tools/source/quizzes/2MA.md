@@ -299,12 +299,12 @@
 - Swords | Zwaarden
 - Torches | Fakkels
 - Torches and lamps, wreathed in ivy | Fakkels en lampen
-? What appeared from heaven during the battle against Timothy? | Wat verscheen er uit de hemel tijdens de strijd tegen Timotheüs?
+? What appeared from heaven during the battle against Timothy? | Wat verscheen er uit de hemel tijdens de strijd tegen Timoteüs?
 = Five men on horses with golden bridles | Vijf mannen op paarden met gouden tomen
 - A flock of birds | Een zwerm vogels
 - A rainbow | Een regenboog
 - A fire from the sky that burned the enemy camp | Een vuur uit de hemel dat het vijandelijke kamp verbrandde
-? Where was Timothy found and killed? | Waar werd Timotheüs gevonden en gedood?
+? Where was Timothy found and killed? | Waar werd Timoteüs gevonden en gedood?
 = Hiding in a pit | Verscholen in een kuil
 - In the temple | In de tempel
 - On a ship | Op een schip

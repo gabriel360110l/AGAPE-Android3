@@ -3498,7 +3498,7 @@
 = Melchizedek | Melchizedek
 - Aaron the priest | Aäron de priester
 - Levi | Levi
-- Levi | Levi
+- Abraham | Abraham
 ? Out of where will the Lord send the rod of his strength? | Uit waar zal de Heer de scepter Zijner sterkte zenden?
 = Zion | Sion
 - Egypt | Egypte
@@ -4333,7 +4333,7 @@
 = Jacob | Jakob
 - Esau | Ezau
 - Egypt | Egypte
-- Esau | Ezau
+- Moab | Moab
 ? Which two kings struck down by God are named? | Welke twee door God verslagen koningen worden genoemd?
 = Sihon and Og | Sihon en Og
 - Pharaoh and Nebuchadnezzar | Farao en Nebukadnezar
@@ -4781,7 +4781,7 @@
 = A new song | Een nieuw lied
 - An old lament | Een oude klaagzang
 - A war chant | Een strijdlied
-- A war chant | Een krijgslied
+- A drinking song | Een drinklied
 ? Where should his praise be sung? | Waar moet Zijn lof klinken?
 = In the assembly of the saints | In de gemeente van Zijn gunstgenoten
 - In the courts of Pharaoh | In de hoven van Farao

@@ -613,7 +613,7 @@
 = Pashhur | Pashur
 - Hananiah | Hananja
 - Seraiah | Seraja
-- Zephaniah | Zefanja
+- Zephaniah | Sefanja
 ? What new name did Jeremiah give Pashhur? | Welke nieuwe naam gaf Jeremia aan Pashur?
 = Terror on Every Side | Schrik van rondom
 - Friend of God | Vriend van God

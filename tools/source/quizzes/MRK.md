@@ -1,11 +1,11 @@
 # MRK
 ## 1
-? What does Mark's opening line make clear about Jesus from the start? | Wat maakt de openingszin van Markus vanaf het begin duidelijk over Jezus?
+? What does Mark's opening line make clear about Jesus from the start? | Wat maakt de openingszin van Marcus vanaf het begin duidelijk over Jezus?
 = He is the Christ and the Son of God | Hij is de Christus en de Zoon van God
 - He is a prophet like Elijah, sent to Israel alone | Hij is een profeet zoals Elia, alleen naar Israël gezonden
 - He is a teacher whose message starts with John | Hij is een leraar wiens boodschap met Johannes begint
 - He becomes the Son of God only at His baptism | Hij wordt pas bij zijn doop de Zoon van God
-? How does Mark link John the Baptist to the prophets? | Hoe verbindt Markus Johannes de Doper met de profeten?
+? How does Mark link John the Baptist to the prophets? | Hoe verbindt Marcus Johannes de Doper met de profeten?
 = He is the messenger who prepares the way of the Lord | Hij is de bode die de weg van de Heer bereidt
 - He is the Messiah himself, who baptises with fire | Hij is zelf de Messias, die met vuur doopt
 - He is the new Moses, giving a law in the wilderness | Hij is de nieuwe Mozes, die een wet geeft in de woestijn
@@ -276,7 +276,7 @@
 - Food that is eaten with unwashed hands | Voedsel dat met ongewassen handen gegeten wordt
 - Contact with Gentiles and entering their houses at any time | Contact met heidenen en het betreden van hun huizen op elk moment
 - Touching the dead bodies of animals or people | Het aanraken van dode lichamen van dieren of mensen
-? What does Mark mean when he says Jesus 'declared all foods clean'? | Wat bedoelt Markus als hij zegt dat Jezus 'alle spijzen rein verklaarde'?
+? What does Mark mean when he says Jesus 'declared all foods clean'? | Wat bedoelt Marcus als hij zegt dat Jezus 'alle spijzen rein verklaarde'?
 = Purity is now of the heart, and the food laws are fulfilled in Christ | Reinheid is nu een zaak van het hart; de spijswetten zijn in Christus vervuld
 - Christians may eat anything without giving thanks to God | Christenen mogen alles eten zonder God te danken
 - The food laws were never really given by God | De spijswetten zijn nooit werkelijk door God gegeven
@@ -322,7 +322,7 @@
 - His power was weakened there by the unbelief of the whole town | Zijn kracht werd daar verzwakt door het ongeloof van de hele stad
 - The man at first failed to believe | De man geloofde eerst niet
 - He healed in two steps to follow the Law | Hij genas in twee stappen om de wet te volgen
-? What is the meaning of Peter's confession 'You are the Christ' in Mark? | Wat is de betekenis van Petrus' belijdenis 'U bent de Christus' bij Markus?
+? What is the meaning of Peter's confession 'You are the Christ' in Mark? | Wat is de betekenis van Petrus' belijdenis 'U bent de Christus' bij Marcus?
 = The first clear confession, yet Peter has not grasped the cross | De eerste heldere belijdenis, maar Petrus begrijpt het kruis nog niet
 - A full understanding of the suffering Messiah | Een volledig begrip van de lijdende Messias
 - A repetition of the crowd's opinion that He is Elijah | Een herhaling van de mening van de menigte dat Hij Elia is

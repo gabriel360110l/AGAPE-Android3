@@ -165,7 +165,7 @@
 = Eleazar | Eleazar
 - Simon the priest | Simon de priester
 - Onias | Onias
-- Onias | Onias
+- Mattathias | Mattatias
 ? What came down from heaven? | Wat kwam er uit de hemel neer?
 = Two terrible angels | Twee schrikkelijke engelen
 - Fire | Vuur
