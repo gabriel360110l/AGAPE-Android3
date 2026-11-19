@@ -1,5 +1,8 @@
 package agape.app.data.content
 
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Tradition
 import agape.app.data.saints.UnifiedSaints
@@ -26,7 +29,8 @@ class ContentRepository(private val context: Context) {
     private val prayers: List<Prayer> by lazy { load("prayers_extra.json") }
     val councils: List<Council> by lazy { load<List<Council>>("councils.json").sortedBy { it.number } }
     val plans: List<PlanDefinition> by lazy { load("plans.json") }
-    private val quizFile: QuizFile by lazy { load("quizzes.json") }
+    /** The pass mark and the quizzes that do not belong to one Bible book (plans); the chapter quizzes are per book. */
+    private val quizIndex: QuizFile by lazy { load("quizzes/index.json") }
     private val church: ChurchFile by lazy { load("church.json") }
     private val councilTexts: Map<String, CouncilTexts> by lazy { load("council_texts.json") }
     private val saintsEo: List<SaintEntry> by lazy { load("saints_eo.json") }
@@ -37,13 +41,17 @@ class ContentRepository(private val context: Context) {
 
     fun book(id: String): Book? = booksById[id]
 
-    private val commentaries = java.util.concurrent.ConcurrentHashMap<String, Map<Int, ChapterCommentary>>()
+    private val commentaries = ConcurrentHashMap<String, Map<Int, ChapterCommentary>>()
 
-    /** Written commentary for a chapter, or null where only the provisional guide in the Bible database exists yet. */
-    fun commentary(book: String, chapter: Int): ChapterCommentary? =
+    /**
+     * Written commentary for a chapter, or null when there is none.
+     * A book's file is read once, off the main thread.
+     */
+    suspend fun commentary(book: String, chapter: Int): ChapterCommentary? = withContext(Dispatchers.IO) {
         commentaries.getOrPut(book) {
             runCatching { load<BookCommentary>("commentary/$book.json").chapters.associateBy { it.chapter } }.getOrDefault(emptyMap())
         }[chapter]
+    }
 
     /** Books of [tradition]'s canon that exist in the translation used for [language]. */
     fun canon(tradition: Tradition, language: AppLanguage): List<Book> =
@@ -58,10 +66,28 @@ class ContentRepository(private val context: Context) {
     fun prayer(id: String): Prayer? = prayers.firstOrNull { it.id == id }
     fun listedPrayers(tradition: Tradition): List<Prayer> = prayers.filter { it.listed && tradition in it.traditions }
 
-    val quizPassMark: Double get() = quizFile.passMark
-    fun quiz(key: String): List<QuizQuestion>? =
-        quizFile.quizzes[key] ?: key.removePrefix("council:").takeIf { key.startsWith("council:") }
-            ?.let { id -> councils.firstOrNull { it.id == id }?.quiz?.takeIf { q -> q.isNotEmpty() } }
+    private val bookQuizzes = ConcurrentHashMap<String, Map<String, List<QuizQuestion>>>()
+
+    /** Share of right answers needed to pass; from the small quiz index, so it is cheap to read. */
+    val quizPassMark: Double get() = quizIndex.passMark
+
+    /**
+     * The written questions for a quiz key ("chapter:BOOK.N", "plan:…", "council:ID"), or null where the app generates
+     * them from the Bible text. Chapter quizzes are read per book (quizzes/BOOK.json), off the main thread.
+     */
+    suspend fun quiz(key: String): List<QuizQuestion>? = withContext(Dispatchers.IO) {
+        when {
+            key.startsWith("chapter:") -> {
+                val book = key.removePrefix("chapter:").substringBefore('.')
+                bookQuizzes.getOrPut(book) {
+                    runCatching { load<Map<String, List<QuizQuestion>>>("quizzes/$book.json") }.getOrDefault(emptyMap())
+                }[key]
+            }
+            key.startsWith("council:") -> key.removePrefix("council:")
+                .let { id -> councils.firstOrNull { it.id == id }?.quiz?.takeIf { q -> q.isNotEmpty() } }
+            else -> quizIndex.quizzes[key]
+        }
+    }
 
     fun councils(tradition: Tradition): List<Council> = councils.filter { tradition in it.recognizedBy }
     fun council(id: String): Council? = councils.firstOrNull { it.id == id }

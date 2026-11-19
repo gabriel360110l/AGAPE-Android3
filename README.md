@@ -44,7 +44,8 @@ supabase/migrations/     database schema (user snapshot table, RLS, account dele
 
 ## App flow
 
-Welcome → Terms → Choose Church → Choose style → Sign in / Create account → Guided tour → Home · Bible · Calendar · Prayer · Search.
+Welcome → Terms → Choose Church → Choose style → Sign in / Create account, or continue without an account → Guided tour → Home · Bible · Calendar · Prayer · Search.
+An account is optional: it only syncs progress between devices, and can be added later under Profile and settings.
 Profile and settings open from the gear on Home, help from the question mark beside it.
 The first visit to Prayer explains the hours and asks to enable notifications (prayer times and inactivity reminders).
 
@@ -159,7 +160,7 @@ python tools/build_prayers.py --nl-only   # only fill in the Horologion Dutch, n
 python tools/build_hours_ca.py    # Liturgy of the Hours, a full week (offline)
 python tools/build_councils.py    # council texts and canons; --later merges only councils 9–21 (offline)
 python tools/build_commentary.py  # chapter commentary from tools/source/commentary/
-python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/
+python tools/build_quizzes.py     # hand-written chapter quizzes from tools/source/quizzes/ into content/quizzes/<BOOK>.json
 python tools/build_verse_notes.py # verse notes (verse sheet) from tools/source/verse_notes/
 python tools/build_church.py      # Church articles (history and per tradition) from tools/source/church/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar

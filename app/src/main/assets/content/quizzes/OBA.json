@@ -1,0 +1,10 @@
+{
+ "chapter:OBA.1": [
+  {"q": {"en": "Against which nation is the vision of Obadiah?", "nl": "Tegen welk volk is het visioen van Obadja gericht?"}, "options": [{"en": "Edom", "nl": "Edom"}, {"en": "Moab", "nl": "Moab"}, {"en": "Assyria", "nl": "Assyrië"}], "answer": 0},
+  {"q": {"en": "What has deceived Edom?", "nl": "Wat heeft Edom bedrogen?"}, "options": [{"en": "A false prophet", "nl": "Een valse profeet"}, {"en": "The pride of its heart", "nl": "De hoogmoed van zijn hart"}, {"en": "Its king", "nl": "Zijn koning"}], "answer": 1},
+  {"q": {"en": "What does the Lord say even if Edom sets its nest among the stars?", "nl": "Wat zegt de Heer, al bouwt Edom zijn nest tussen de sterren?"}, "options": [{"en": "You are safe there", "nl": "Daar bent u veilig"}, {"en": "I will join you", "nl": "Ik zal mij bij u voegen"}, {"en": "I will bring you down from there", "nl": "Ik zal u daarvandaan neerstoten"}], "answer": 2},
+  {"q": {"en": "Why is Edom judged?", "nl": "Waarom wordt Edom geoordeeld?"}, "options": [{"en": "For violence against its brother Jacob in his day of disaster", "nl": "Om het geweld tegen zijn broeder Jakob op de dag van zijn ellende"}, {"en": "For refusing to trade", "nl": "Omdat het weigerde handel te drijven"}, {"en": "For worshiping the Lord", "nl": "Omdat het de Heer aanbad"}], "answer": 0},
+  {"q": {"en": "What principle does the Lord announce?", "nl": "Welk beginsel kondigt de Heer aan?"}, "options": [{"en": "As you have done, it will be done to you", "nl": "Zoals u gedaan hebt, zal u gedaan worden"}, {"en": "Forgive and forget", "nl": "Vergeven en vergeten"}, {"en": "The strong always win", "nl": "De sterken winnen altijd"}], "answer": 0},
+  {"q": {"en": "How does the book end?", "nl": "Hoe eindigt het boek?"}, "options": [{"en": "The kingdom shall be the Lord's", "nl": "Het koningschap zal van de Heer zijn"}, {"en": "Edom shall rule", "nl": "Edom zal heersen"}, {"en": "Israel is scattered", "nl": "Israël wordt verstrooid"}], "answer": 0}
+ ]
+}

@@ -17,8 +17,8 @@ fun ContentRepository.planDays(plan: PlanDefinition, tradition: Tradition, langu
         councils(tradition),
     )
 
-/** The quiz guarding a day, if one exists. */
-fun ContentRepository.quizKeyFor(plan: PlanDefinition, day: PlanDay): String? =
+/** The quiz guarding a day, if one exists. Reads quiz content, so it runs in a coroutine. */
+suspend fun ContentRepository.quizKeyFor(plan: PlanDefinition, day: PlanDay): String? =
     // Every chapter has a quiz: written questions where they exist, otherwise questions generated from the text.
     PlanEngine.quizKey(plan, day) { it.startsWith("chapter:") || quiz(it) != null }
 

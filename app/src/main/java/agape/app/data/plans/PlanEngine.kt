@@ -68,7 +68,8 @@ object PlanEngine {
     }
 
     /** The quiz that guards a plan day, if any content exists for it. */
-    fun quizKey(plan: PlanDefinition, day: PlanDay, hasQuiz: (String) -> Boolean): String? {
+    /** Inline, so [hasQuiz] may read content in a coroutine (see ContentRepository.quizKeyFor). */
+    inline fun quizKey(plan: PlanDefinition, day: PlanDay, hasQuiz: (String) -> Boolean): String? {
         val candidates = buildList {
             add("plan:${plan.id}:${day.number}")
             day.councilId?.let { add("council:$it") }

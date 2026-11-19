@@ -38,6 +38,8 @@ import kotlinx.serialization.Serializable
 
 // Me
 @Serializable data object SettingsRoute
+/** Sign in later, from Me, to keep progress in sync between devices. */
+@Serializable data object SignInRoute
 @Serializable data object SavedRoute
 @Serializable data object ActivityRoute
 @Serializable data object AchievementsRoute

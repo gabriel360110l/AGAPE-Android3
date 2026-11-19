@@ -12,7 +12,7 @@ AGAPE werkt offline. De Bijbel, gebeden, uitleg en andere inhoud zitten in de ap
 
 ## Je account
 
-Om je voortgang te bewaren vraagt de app je een account aan te maken met je e-mailadres en een wachtwoord, of in te loggen met Google. Voor een account bewaren we je e-mailadres, een gebruikers-ID en de datum waarop het account is aangemaakt. Je wachtwoord wordt door onze hostingpartij alleen versleuteld (gehasht) opgeslagen; wij kunnen het niet zien. Log je in met Google, dan geeft Google ons je e-mailadres en bevestigt het wie je bent; andere gegevens uit je Google-account ontvangen we niet.
+Je kunt de app zonder account gebruiken; er wordt dan niets naar ons gestuurd. Om je voortgang gelijk te houden tussen toestellen kun je een account aanmaken met je e-mailadres en een wachtwoord, of inloggen met Google. Voor een account bewaren we je e-mailadres, een gebruikers-ID en de datum waarop het account is aangemaakt. Je wachtwoord wordt door onze hostingpartij alleen versleuteld (gehasht) opgeslagen; wij kunnen het niet zien. Log je in met Google, dan geeft Google ons je e-mailadres en bevestigt het wie je bent; andere gegevens uit je Google-account ontvangen we niet.
 
 ## Je voortgang
 

@@ -71,7 +71,8 @@ fun ChapterInfoSheet(book: String, chapter: Int, onDismiss: () -> Unit, openRefe
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val c = AgapeTheme.colors
-    val commentary = remember(book, chapter) { container.content.commentary(book, chapter) }
+    // The book's commentary file is read off the main thread; the sheet fills in when it is there.
+    val commentary by produceState<ChapterCommentary?>(null, book, chapter) { value = container.content.commentary(book, chapter) }
     val bookInfo = remember(book) { container.content.book(book) }
     val quotes by produceState(emptyList<FatherQuote>(), book, chapter) { value = container.bible.chapterQuotes(book, chapter) }
     val notes by produceState(emptyList<FatherNote>(), book, chapter) { value = container.bible.fatherNotes(book, chapter) }

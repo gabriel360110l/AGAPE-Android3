@@ -25,7 +25,7 @@
     <string name="terms_title">Before we begin</string>
     <string name="terms_subtitle">Please read and accept our terms.</string>
     <string name="terms_point_1">AGAPE is free, without advertising.</string>
-    <string name="terms_point_2">Your progress is stored on your device and in your account.</string>
+    <string name="terms_point_2">Your progress is stored on your device, and also in your account if you sign in.</string>
     <string name="terms_point_3">Commentary supports personal study; it does not replace your priest or pastor.</string>
     <string name="terms_point_4">You can delete your account and data at any time.</string>
     <string name="terms_read_terms">Terms of Use</string>
@@ -63,6 +63,8 @@
     <string name="auth_create">Create account</string>
     <string name="auth_signin">Sign in</string>
     <string name="auth_or">or</string>
+    <string name="auth_without_account">Continue without an account</string>
+    <string name="auth_without_hint">Everything works on this device without an account. An account only keeps your progress in sync between devices; you can still sign in later under Profile and settings.</string>
     <string name="auth_google">Continue with Google</string>
     <string name="auth_have_account">I already have an account</string>
     <string name="auth_need_account">Create a new account</string>
@@ -215,6 +217,8 @@
     <string name="me_feedback">Send feedback</string>
     <string name="me_donate">Support AGAPE</string>
     <string name="me_sign_out">Sign out</string>
+    <string name="me_sign_in">Sign in to sync</string>
+    <string name="me_sign_in_hint">Optional: keep your progress on all your devices.</string>
     <string name="me_sign_out_text">Your progress is saved in your account. It will be removed from this device until you sign in again.</string>
     <string name="saved_bookmarks">Bookmarks</string>
     <string name="saved_highlights">Highlights</string>

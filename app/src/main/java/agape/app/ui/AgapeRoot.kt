@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.key
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.getValue
@@ -49,15 +50,18 @@ fun AgapeRoot(container: AppContainer, newIntents: StateFlow<Intent?>, onIntentH
     ) {
         AgapeTheme(style = style, dark = dark, fontScale = s.fontScale) {
             Box(Modifier.fillMaxSize().background(AgapeTheme.colors.background)) {
-                val inApp = s.readyForSignIn && auth is AuthState.SignedIn
-                Crossfade(targetState = inApp, label = "root") { signedIn ->
-                    if (signedIn) MainShell(newIntents = newIntents, onIntentHandled = onIntentHandled)
+                val signedIn = auth is AuthState.SignedIn
+                // Someone who signed in before this step existed counts as past it, so signing out later keeps the app open.
+                LaunchedEffect(signedIn) { if (signedIn && !s.accountStepDone) container.settings.setAccountStepDone() }
+                val inApp = s.opensApp(signedIn)
+                Crossfade(targetState = inApp, label = "root") { open ->
+                    if (open) MainShell(newIntents = newIntents, onIntentHandled = onIntentHandled)
                     else if (auth !is AuthState.Loading) Onboarding(settings = s, onPreviewStyle = { previewStyle = it })
                 }
                 // The opening plays on every start of the app and again whenever the church is changed.
                 val church = s.tradition
                 val context = androidx.compose.ui.platform.LocalContext.current
-                androidx.compose.runtime.LaunchedEffect(church) { agape.app.widget.VerseWidget.refresh(context) }
+                LaunchedEffect(church) { agape.app.widget.VerseWidget.refresh(context) }
                 var shownFor by rememberSaveable { mutableStateOf<Tradition?>(null) }
                 if (inApp && church != null && church != shownFor) {
                     key(church) { AgapeIntro(church) { shownFor = church } }

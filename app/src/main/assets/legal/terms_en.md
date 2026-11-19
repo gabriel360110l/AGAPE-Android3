@@ -8,7 +8,7 @@ AGAPE is a Bible and prayer app for Eastern Orthodox, Oriental Orthodox and Cath
 
 ## 2. Your account
 
-You need an account to keep your streaks, reading plans, quizzes and saved items on your devices. Give a correct e-mail address, keep your password private, and do not share your account. You are responsible for what happens in your account. You can delete it at any time in Me → Settings → Delete account; your synced progress is then deleted as well.
+An account is optional: the app works without one, and you only need an account to keep your streaks, reading plans, quizzes and saved items in sync between your devices. If you create one, give a correct e-mail address, keep your password private, and do not share your account. You are responsible for what happens in your account. You can delete it at any time in Me → Settings → Delete account; your synced progress is then deleted as well.
 
 ## 3. Content
 

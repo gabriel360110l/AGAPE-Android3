@@ -12,7 +12,7 @@ AGAPE works offline. The Bible, prayers, commentary and other content are part o
 
 ## Your account
 
-To keep your progress, the app asks you to create an account with your e-mail address and a password, or to sign in with Google. For an account we store your e-mail address, a user ID and the date the account was created. Your password is stored by our hosting provider only in hashed form; we cannot see it. If you sign in with Google, Google tells us your e-mail address and confirms your identity; we receive no other information from your Google account.
+You can use the app without an account; nothing is then sent to us. To keep your progress in sync between devices, you can create an account with your e-mail address and a password, or sign in with Google. For an account we store your e-mail address, a user ID and the date the account was created. Your password is stored by our hosting provider only in hashed form; we cannot see it. If you sign in with Google, Google tells us your e-mail address and confirms your identity; we receive no other information from your Google account.
 
 ## Your progress
 

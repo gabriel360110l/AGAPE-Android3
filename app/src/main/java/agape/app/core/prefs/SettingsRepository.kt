@@ -65,9 +65,13 @@ data class Settings(
     val ropeCounterOnly: Boolean = false,
     /** Real black behind the prayer screens in dark mode. */
     val prayerTrueBlack: Boolean = false,
+    /** The account step of the first launch is behind us: the person signed in once or chose to go on without an account. */
+    val accountStepDone: Boolean = false,
 ) {
-    /** Onboarding is complete up to (but not including) sign-in. */
+    /** Onboarding is complete up to (but not including) the account step. */
     val readyForSignIn: Boolean get() = welcomeSeen && termsAccepted && tradition != null && style != null
+    /** Whether the app itself opens. An account is optional: it only keeps progress in sync between devices. */
+    fun opensApp(signedIn: Boolean): Boolean = readyForSignIn && (signedIn || accountStepDone)
     val tourComplete: Boolean get() = tourSeen.containsAll(TourStop.entries)
 }
 
@@ -104,6 +108,7 @@ class SettingsRepository(private val context: Context) {
         val ropeMarkers = intPreferencesKey("rope_markers")
         val ropeCounterOnly = booleanPreferencesKey("rope_counter_only")
         val prayerTrueBlack = booleanPreferencesKey("prayer_true_black")
+        val accountStepDone = booleanPreferencesKey("account_step_done")
     }
 
     val settings: Flow<Settings> = context.dataStore.data.map { p ->
@@ -132,6 +137,7 @@ class SettingsRepository(private val context: Context) {
             ropeMarkers = p[Keys.ropeMarkers]?.takeIf { it in PrayerRope.MARKER_CHOICES } ?: 10,
             ropeCounterOnly = p[Keys.ropeCounterOnly] ?: false,
             prayerTrueBlack = p[Keys.prayerTrueBlack] ?: false,
+            accountStepDone = p[Keys.accountStepDone] ?: false,
         )
     }
 
@@ -164,6 +170,7 @@ class SettingsRepository(private val context: Context) {
     suspend fun setRopeMarkers(every: Int) = context.dataStore.edit { it[Keys.ropeMarkers] = every }
     suspend fun setRopeCounterOnly(on: Boolean) = context.dataStore.edit { it[Keys.ropeCounterOnly] = on }
     suspend fun setPrayerTrueBlack(on: Boolean) = context.dataStore.edit { it[Keys.prayerTrueBlack] = on }
+    suspend fun setAccountStepDone() = context.dataStore.edit { it[Keys.accountStepDone] = true }
 
     suspend fun setLastPosition(pos: ReadingPosition) = context.dataStore.edit {
         it[Keys.lastBook] = pos.book

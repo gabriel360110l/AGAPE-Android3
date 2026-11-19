@@ -8,7 +8,7 @@ AGAPE is een Bijbel- en gebedsapp voor Oosters-Orthodoxe, Oriëntaals-Orthodoxe 
 
 ## 2. Je account
 
-Je hebt een account nodig om je reeksen, leesplannen, quizzen en opgeslagen items op je toestellen te bewaren. Geef een juist e-mailadres op, houd je wachtwoord geheim en deel je account niet. Je bent verantwoordelijk voor wat er in je account gebeurt. Je kunt het altijd verwijderen via Ik → Instellingen → Account verwijderen; je gesynchroniseerde voortgang wordt dan ook verwijderd.
+Een account is optioneel: de app werkt ook zonder, en je hebt alleen een account nodig om je reeksen, leesplannen, quizzen en opgeslagen items gelijk te houden tussen je toestellen. Maak je er een aan, geef dan een juist e-mailadres op, houd je wachtwoord geheim en deel je account niet. Je bent verantwoordelijk voor wat er in je account gebeurt. Je kunt het altijd verwijderen via Ik → Instellingen → Account verwijderen; je gesynchroniseerde voortgang wordt dan ook verwijderd.
 
 ## 3. Inhoud
 
