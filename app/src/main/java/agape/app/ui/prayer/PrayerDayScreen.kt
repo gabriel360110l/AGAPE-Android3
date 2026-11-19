@@ -230,6 +230,9 @@ fun PrayerDayScreen(onBack: () -> Unit) {
                 Toggle(stringResource(R.string.day_vibrate_toggle), stringResource(R.string.day_vibrate_hint), settings.prayerVibration) { on ->
                     scope.launch { container.settings.setPrayerVibration(on) }
                 }
+                if (settings.prayerVibration) Toggle(stringResource(R.string.day_quiet_markers_toggle), stringResource(R.string.day_quiet_markers_hint), settings.quietMarkers) { on ->
+                    scope.launch { container.settings.setQuietMarkers(on) }
+                }
             }
         }
     }

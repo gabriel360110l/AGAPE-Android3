@@ -146,4 +146,51 @@ class PrayerTextTest {
         val catholic = File(content, "prayers_ca.json").readText() + File(content, "prayers_eo.json").readText()
         for (line in lines("oo-creed")) assertTrue("Not Coptic hours have: $line", !catholic.contains(line))
     }
+
+    /**
+     * The Sub tuum and the prayers around Scripture: Catholics get the Catholic words (the Nationale Raad voor
+     * Liturgie's Sub tuum, "Moeder Gods", the Dutch sign of the cross) and nothing Byzantine; the Oriental Orthodox get
+     * the Sub tuum without the Byzantine hymns; the Byzantine hymns stay with the Eastern Orthodox.
+     */
+    @Test fun eachTraditionPraysTheSubTuumInItsOwnWords() {
+        assertEquals(listOf("CATHOLIC"), traditions("sub-tuum-ca"))
+        assertEquals(text("ca-sub-tuum"), dutch("sub-tuum-ca"))
+        assertEquals(listOf("ORIENTAL_ORTHODOX"), traditions("sub-tuum-oo"))
+        assertEquals(listOf("EASTERN_ORTHODOX"), traditions("sub-tuum"))
+        assertTrue(dutch("sub-tuum").startsWith("Het is waarlijk waardig"))
+        for (byzantine in listOf("Het is waarlijk waardig", "Eerwaardiger dan de cherubs", "Maagd Theotokos, verheug u")) {
+            assertTrue(!visibleTo("CATHOLIC").contains(byzantine))
+            assertTrue(!visibleTo("ORIENTAL_ORTHODOX").contains(byzantine))
+        }
+        assertTrue(dutch("sub-tuum-oo").startsWith("Onder uw hoede nemen wij onze toevlucht"))
+
+        val catholic = visibleTo("CATHOLIC")
+        assertTrue("Catholics see Theotokos", !catholic.contains("Theotokos"))
+        assertTrue(!catholic.contains("In de Naam van de Vader"))
+        for (id in listOf("before-scripture-ca", "after-scripture-ca")) {
+            assertEquals(listOf("CATHOLIC"), traditions(id))
+            assertTrue(dutch(id).contains("Moeder Gods"))
+        }
+        assertTrue(dutch("before-scripture-ca").startsWith(text("ca-sign-of-the-cross")))
+        for (id in listOf("before-scripture", "after-scripture")) {
+            assertEquals(listOf("EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX"), traditions(id))
+            assertTrue(dutch(id).contains("Theotokos"))
+        }
+    }
+
+    /** The Agpeya prays the Trisagion with its lines on Christ, in every hour that has it, the Veil included. */
+    @Test fun agpeyaPraysTheCopticTrisagion() {
+        val hours = Json.parseToJsonElement(File(content, "prayers_oo.json").readText()).jsonObject.getValue("hours").jsonArray
+        var found = 0
+        for (hour in hours) for (section in hour.jsonObject.getValue("sections").jsonArray) {
+            val nl = section.jsonObject["body"]?.jsonObject?.get("nl")?.jsonArray?.map { it.jsonPrimitive.content } ?: continue
+            val trisagion = nl.filter { it.startsWith("Heilige God, heilige Sterke", ignoreCase = true) }
+            if (trisagion.isEmpty()) continue
+            found++
+            val id = hour.jsonObject.getValue("id").jsonPrimitive.content
+            assertTrue("$id has the Byzantine Trisagion", trisagion.none { it.contains("Onsterfelijke, ontferm") })
+            assertTrue("$id lacks the Virgin", trisagion.any { it.contains("uit de Maagd geboren") })
+        }
+        assertTrue(found >= 3)
+    }
 }

@@ -4,10 +4,13 @@ import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Passage
 import agape.app.data.content.PrayerSection
+import agape.app.data.counter.AtEnd
+import agape.app.ui.components.counterTapArea
+import agape.app.ui.components.rememberPrayerCounter
+import agape.app.ui.components.rememberReduceMotion
 import agape.app.notifications.QuietWhilePraying
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
-import agape.app.ui.LocalSettings
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
 import agape.app.ui.components.Ornament
@@ -16,10 +19,10 @@ import agape.app.ui.components.ProgressLine
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.tradition
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.snap
+import androidx.compose.animation.core.spring
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -40,12 +43,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -54,13 +55,8 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
-import androidx.compose.ui.hapticfeedback.HapticFeedbackType
-import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.LiveRegionMode
-import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.heading
-import androidx.compose.ui.semantics.liveRegion
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
@@ -105,7 +101,7 @@ fun HourScreen(hourId: String, onBack: () -> Unit) {
                     }
                 }
             }
-            items(sections.size) { i -> PrayerSectionView(sections[i]) }
+            items(sections.size) { i -> PrayerSectionView(sections[i], "hour:${hour.id}:$i") }
             item { IntentionsInHour() }
             item {
                 Column(Modifier.fillMaxWidth().padding(top = 28.dp), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -122,7 +118,7 @@ fun HourScreen(hourId: String, onBack: () -> Unit) {
 }
 
 @Composable
-private fun PrayerSectionView(section: PrayerSection) {
+private fun PrayerSectionView(section: PrayerSection, key: String) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val c = AgapeTheme.colors
@@ -164,33 +160,30 @@ private fun PrayerSectionView(section: PrayerSection) {
             SectionTitle(section.title?.get(lang) ?: prayer.title[lang])
             prayer.body[lang].forEach { Text(it, style = textStyle, color = c.ink, modifier = Modifier.padding(bottom = 12.dp)) }
         }
-        PrayerSection.Kind.counter -> PrayerCounter(section)
+        PrayerSection.Kind.counter -> PrayerCounter(section, key)
     }
 }
 
-/** Tap the bead for each Κύριε ἐλέησον; the ring fills as you go. */
+/**
+ * Tap the circle for each Κύριε ἐλέησον; the ring fills as you go, and a tap after the last starts again. The shared
+ * prayer counter: the same tap, feel and TalkBack as the prayer rope and the Rosary, kept for the day under [key].
+ */
 @Composable
-private fun PrayerCounter(section: PrayerSection) {
+private fun PrayerCounter(section: PrayerSection, key: String) {
     val lang = LocalLanguage.current
     val c = AgapeTheme.colors
-    val haptics = LocalHapticFeedback.current
-    val vibrate = LocalSettings.current.prayerVibration
     val total = section.count.coerceAtLeast(1)
-    var done by rememberSaveable(section.hashCode()) { mutableIntStateOf(0) }
-    val sweep by animateFloatAsState(done / total.toFloat(), label = "counter")
+    val counter = rememberPrayerCounter(key, total, AtEnd.RESTART, daily = true)
+    val done = counter.count.done
+    val still = rememberReduceMotion()
+    val sweep by animateFloatAsState(done / total.toFloat(), if (still) snap() else spring(), label = "counter")
     val phrase = section.body?.get(lang)?.firstOrNull().orEmpty()
     val desc = stringResource(R.string.counter_a11y, phrase, done, total)
     Column(Modifier.fillMaxWidth().padding(vertical = 20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
         section.title?.get(lang)?.let { SectionTitle(it) }
         Box(
             Modifier.size(176.dp).clip(CircleShape).background(c.surface)
-                .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null) {
-                    if (done < total) {
-                        done++
-                        if (vibrate) haptics.performHapticFeedback(if (done == total) HapticFeedbackType.LongPress else HapticFeedbackType.TextHandleMove)
-                    } else done = 0
-                }
-                .semantics { contentDescription = desc; liveRegion = LiveRegionMode.Polite },
+                .counterTapArea(counter, desc, stringResource(R.string.counter_tap), stringResource(R.string.counter_back)),
             contentAlignment = Alignment.Center,
         ) {
             Canvas(Modifier.fillMaxSize().padding(10.dp)) {

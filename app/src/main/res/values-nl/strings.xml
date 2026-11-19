@@ -331,7 +331,7 @@
     <string name="church_councils_count">%1$d concilies</string>
     <string name="church_fathers_count">%1$d Vaders</string>
     <string name="prayer_services">Diensten en gebedsregels</string>
-    <string name="counter_a11y">%1$s, %2$d van %3$d. Dubbeltik om te tellen.</string>
+    <string name="counter_a11y">%1$s, %2$d van %3$d</string>
     <string name="counter_hint">Tik bij elk gebed op de cirkel.</string>
     <string name="counter_done">Voltooid. Tik om opnieuw te beginnen.</string>
     <string name="verse_father_quotes">De Vaders over dit vers</string>

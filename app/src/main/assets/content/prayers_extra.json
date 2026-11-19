@@ -232,9 +232,7 @@
  {
   "id": "sub-tuum",
   "traditions": [
-   "EASTERN_ORTHODOX",
-   "ORIENTAL_ORTHODOX",
-   "CATHOLIC"
+   "EASTERN_ORTHODOX"
   ],
   "title": {
    "en": "To the Theotokos",
@@ -258,6 +256,50 @@
     "Onder uw hoede nemen wij onze toevlucht, heilige Theotokos. Veracht onze gebeden in de nood niet, maar verlos ons van alle gevaar, gij, alleen gezegende, alleen geprezen.",
     "Beveel ons, o Theotokos, want wij nemen tot u onze toevlucht. Wijk niet af van onze smekingen in de noden, maar red ons van gevaren, gij, alleen reine, alleen gezegende.",
     "Maagd Theotokos, verheug u, begenadigde Maria, de Heere is met u. Gezegend zijt gij onder de vrouwen, en gezegend is de vrucht van uw schoot, want gij hebt gebaard den Heiland onzer zielen."
+   ]
+  }
+ },
+ {
+  "id": "sub-tuum-oo",
+  "traditions": [
+   "ORIENTAL_ORTHODOX"
+  ],
+  "title": {
+   "en": "To the Theotokos",
+   "nl": "Tot de Theotokos"
+  },
+  "subtitle": {
+   "en": "Sub tuum praesidium",
+   "nl": "Sub tuum praesidium"
+  },
+  "body": {
+   "en": [
+    "Beneath your compassion we take refuge, O Theotokos. Do not despise our prayers in trouble, but deliver us from danger, O only blessed, only praised."
+   ],
+   "nl": [
+    "Onder uw hoede nemen wij onze toevlucht, heilige Theotokos. Veracht onze gebeden in de nood niet, maar verlos ons van alle gevaar, gij, alleen gezegende, alleen geprezen."
+   ]
+  }
+ },
+ {
+  "id": "sub-tuum-ca",
+  "traditions": [
+   "CATHOLIC"
+  ],
+  "title": {
+   "en": "To the Mother of God",
+   "nl": "Tot de Moeder van God"
+  },
+  "subtitle": {
+   "en": "Sub tuum praesidium",
+   "nl": "Sub tuum praesidium"
+  },
+  "body": {
+   "en": [
+    "We fly to thy protection, O holy Mother of God; despise not our petitions in our necessities, but deliver us always from all dangers, O glorious and blessed Virgin."
+   ],
+   "nl": [
+    "Tot u nemen wij onze toevlucht: wees onze bescherming, heilige Moeder van God, wijs onze gebeden niet af als wij in nood zijn, maar verlos ons uit alle gevaren, gij, glorierijke en gezegende Maagd."
    ]
   }
  },
@@ -294,8 +336,7 @@
   "id": "before-scripture",
   "traditions": [
    "EASTERN_ORTHODOX",
-   "ORIENTAL_ORTHODOX",
-   "CATHOLIC"
+   "ORIENTAL_ORTHODOX"
   ],
   "title": {
    "en": "Before reading Scripture",
@@ -317,6 +358,34 @@
     "Heer Jezus Christus, open de ogen van mijn hart, opdat ik Uw woord versta en Uw wil doe.",
     "Verlicht mijn duisternis, dat ik niet leze tot oordeel, maar tot leven. Want Gij zijt het Licht der wereld, en tot U komen de Schriften.",
     "Door de gebeden van de allerheiligste Theotokos, van den heiligen apostel en evangelist, en van alle heiligen, Heer Jezus Christus onze God, ontferm U over ons. Amen."
+   ]
+  }
+ },
+ {
+  "id": "before-scripture-ca",
+  "traditions": [
+   "CATHOLIC"
+  ],
+  "title": {
+   "en": "Before reading Scripture",
+   "nl": "Voor het lezen van de Schrift"
+  },
+  "subtitle": {
+   "en": "Open the Scriptures",
+   "nl": "Open de Schriften"
+  },
+  "body": {
+   "en": [
+    "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+    "Lord Jesus Christ, open the eyes of my heart, that I may understand Your word and do Your will.",
+    "Enlighten my darkness, that I may not read unto judgment, but unto life. For You are the Light of the world, and to You the Scriptures come.",
+    "Through the prayers of the holy Mother of God, of the holy apostle and evangelist, and of all the saints, Lord Jesus Christ our God, have mercy on us. Amen."
+   ],
+   "nl": [
+    "In de naam van de Vader en de Zoon en de heilige Geest. Amen.",
+    "Heer Jezus Christus, open de ogen van mijn hart, opdat ik Uw woord versta en Uw wil doe.",
+    "Verlicht mijn duisternis, dat ik niet leze tot oordeel, maar tot leven. Want Gij zijt het Licht der wereld, en tot U komen de Schriften.",
+    "Door de gebeden van de heilige Moeder Gods, van de heilige apostel en evangelist, en van alle heiligen, Heer Jezus Christus, onze God, ontferm U over ons. Amen."
    ]
   }
  },
@@ -519,8 +588,7 @@
   "id": "after-scripture",
   "traditions": [
    "EASTERN_ORTHODOX",
-   "ORIENTAL_ORTHODOX",
-   "CATHOLIC"
+   "ORIENTAL_ORTHODOX"
   ],
   "title": {
    "en": "After reading",
@@ -542,6 +610,34 @@
     "Geef mij te doen wat ik gelezen heb, en te worden wat Gij zegt.",
     "Bewaar de zaadkorrel, dat de vogel haar niet rooft, de steen haar niet verdort, de doornen haar niet verstikken.",
     "Door de gebeden van de Theotokos en van al Uw heiligen. Amen."
+   ]
+  }
+ },
+ {
+  "id": "after-scripture-ca",
+  "traditions": [
+   "CATHOLIC"
+  ],
+  "title": {
+   "en": "After reading",
+   "nl": "Na het lezen"
+  },
+  "subtitle": {
+   "en": "After Scripture",
+   "nl": "Na de Schrift"
+  },
+  "body": {
+   "en": [
+    "Lord, let Your word remain in me, not as a letter that kills, but as Spirit who gives life.",
+    "Give me to do what I have read, and to become what You say.",
+    "Keep the seed, that the bird may not steal it, the stone not wither it, the thorns not choke it.",
+    "Through the prayers of the holy Mother of God and of all Your saints. Amen."
+   ],
+   "nl": [
+    "Heer, laat Uw woord in mij blijven, niet als letter die doodt, maar als Geest die levend maakt.",
+    "Geef mij te doen wat ik gelezen heb, en te worden wat Gij zegt.",
+    "Bewaar de zaadkorrel, dat de vogel haar niet rooft, de steen haar niet verdort, de doornen haar niet verstikken.",
+    "Door de gebeden van de heilige Moeder Gods en van al Uw heiligen. Amen."
    ]
   }
  },

@@ -8,7 +8,13 @@ import agape.app.data.rosary.Rosary
 import agape.app.data.rosary.RosaryStep
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
-import agape.app.data.rosary.RosaryProgress
+import agape.app.data.counter.AtEnd
+import agape.app.ui.components.counterSemantics
+import agape.app.ui.components.rememberPrayerCounter
+import agape.app.ui.components.rememberReduceMotion
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
+import androidx.compose.runtime.SideEffect
 import agape.app.notifications.QuietWhilePraying
 import agape.app.ui.LocalSettings
 import androidx.compose.foundation.gestures.detectTapGestures
@@ -75,11 +81,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
-import androidx.compose.ui.hapticfeedback.HapticFeedbackType
-import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import java.time.LocalDate
@@ -90,54 +92,60 @@ import kotlin.math.sin
 const val ROSARY_ID = "rosary"
 
 /** The least time on one bead of the Rosary before Next opens, when waiting on each bead is switched on. */
-private const val ROSARY_BEAD_MILLIS = 10_000
+private const val ROSARY_BEAD_MILLIS = 10_000L
 
 /**
  * The Rosary, bead by bead. Next goes on one bead at a time; with waiting on each bead switched on (Settings), only
  * after at least ten seconds on a bead, so no bead is rushed. Tapping a bead goes to its prayer. The card shows the
  * mystery and the prayer of the bead, so the beads can be followed without knowing the prayers. Where the prayer is
- * stays kept for the rest of the day, also when the screen is left and opened again.
+ * stays kept for the rest of the day, also when the screen is left and opened again. The count is the shared prayer
+ * counter: the number of steps prayed, so the step shown is the next one, and all of them prayed is the end.
+ * Quiet mode darkens the screen and makes all of it the tap area.
  */
 @Composable
 fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val scope = rememberCoroutineScope()
-    val haptics = LocalHapticFeedback.current
     val settings = LocalSettings.current
     val c = AgapeTheme.colors
     val today = remember { LocalDate.now() }
-    val saved = remember { container.prayerProgress.rosary()?.takeIf { it.resumableOn(today.toEpochDay()) } }
-    var setIndex by rememberSaveable { mutableIntStateOf(saved?.set?.ordinal ?: MysterySet.forDay(today.dayOfWeek).ordinal) }
-    var step by rememberSaveable { mutableIntStateOf(saved?.step ?: 0) }
-    var finished by rememberSaveable { mutableStateOf(saved?.finished ?: false) }
-    LaunchedEffect(setIndex, step, finished) {
-        container.prayerProgress.saveRosary(RosaryProgress(MysterySet.entries[setIndex], step, finished, today.toEpochDay()))
+    val steps = Rosary.steps
+    val title = stringResource(R.string.rosary_title)
+    var setIndex by rememberSaveable {
+        val saved = container.prayerProgress.text(ROSARY_SET_KEY, today.toEpochDay())
+        mutableIntStateOf(MysterySet.entries.firstOrNull { it.name == saved }?.ordinal ?: MysterySet.forDay(today.dayOfWeek).ordinal)
     }
+    LaunchedEffect(setIndex) { container.prayerProgress.saveText(ROSARY_SET_KEY, MysterySet.entries[setIndex].name, today.toEpochDay()) }
+    val counter = rememberPrayerCounter(ROSARY_ID, steps.size, AtEnd.STOP, daily = true)
+    SideEffect {
+        // A marker on every large bead (an Our Father, a new decade) and at the end.
+        counter.marker = { it.complete || Rosary.kind(steps[it.done].bead) == BeadKind.LARGE }
+        counter.onComplete = { scope.launch { container.user.markPrayed(ROSARY_ID, title) } }
+        counter.paceMillis = if (settings.paceWait) ROSARY_BEAD_MILLIS else 0L
+    }
+    val finished = counter.count.complete
+    val step = counter.count.done.coerceAtMost(steps.lastIndex)
     val set = MysterySet.entries[setIndex]
     val mysteries = Rosary.mysteries.getValue(set)
-    val steps = Rosary.steps
     val current = steps[step]
+    var quiet by rememberSaveable { mutableStateOf(false) }
+    val kicker = stepKicker(current)
+    val description = stringResource(R.string.counter_a11y, "$title, $kicker", step + 1, steps.size)
     QuietWhilePraying()
-    val title = stringResource(R.string.rosary_title)
 
-    fun go(to: Int) {
-        if (to in steps.indices) {
-            step = to
-            if (settings.prayerVibration) haptics.performHapticFeedback(HapticFeedbackType.TextHandleMove)
-        }
-    }
-    fun next() {
-        if (step < steps.lastIndex) go(step + 1)
-        else if (!finished) {
-            finished = true
-            if (settings.prayerVibration) haptics.performHapticFeedback(HapticFeedbackType.LongPress)
-            scope.launch { container.user.markPrayed("rosary", title) }
-        }
+    if (quiet) {
+        QuietCounter(
+            counter,
+            headline = if (finished) stringResource(R.string.rosary_done_title) else kicker,
+            detail = if (finished) set.title[lang] else current.prayers.joinToString(" · ") { it.title[lang] },
+            text = null, description = description, onExit = { quiet = false },
+        )
+        return
     }
 
     Column(Modifier.fillMaxSize()) {
-        DetailTopBar(title, onBack)
+        DetailTopBar(title, onBack) { QuietModeButton { quiet = true } }
         Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
             Row(
                 Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 4.dp),
@@ -163,18 +171,20 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
                 finished = finished,
                 onBead = { bead ->
                     val to = Rosary.firstStepOn(bead)
-                    if (to >= 0 && (to != step || finished)) { finished = false; go(to) }
+                    if (to >= 0 && (to != step || finished)) counter.jump(to)
                 },
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 8.dp),
+                modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 8.dp)
+                    .counterSemantics(counter, description, stringResource(R.string.counter_tap), stringResource(R.string.counter_back)),
             )
 
+            val still = rememberReduceMotion()
             AnimatedContent(
                 targetState = step to finished,
-                transitionSpec = { fadeIn(tween(220)) togetherWith fadeOut(tween(160)) },
+                transitionSpec = { if (still) EnterTransition.None togetherWith ExitTransition.None else fadeIn(tween(220)) togetherWith fadeOut(tween(160)) },
                 label = "step",
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
             ) { (s, done) ->
-                if (done) FinishedCard(set.title[lang]) { finished = false; step = 0 }
+                if (done) FinishedCard(set.title[lang]) { counter.reset() }
                 else StepCard(steps[s], mysteries, set, openPassage)
             }
             Spacer(Modifier.height(12.dp))
@@ -184,15 +194,30 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
             Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(horizontal = 16.dp, vertical = 10.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            QuietButton(stringResource(R.string.rosary_previous), { finished = false; go(step - 1) })
+            QuietButton(stringResource(R.string.rosary_previous), { counter.back() })
             Spacer(Modifier.width(8.dp))
             PaceButton(
                 stringResource(if (step == steps.lastIndex) R.string.rosary_amen else R.string.rosary_next),
                 waiting = stringResource(R.string.pace_praying),
-                minMillis = if (settings.paceWait) ROSARY_BEAD_MILLIS else 0, step = step, onClick = ::next,
+                minMillis = if (settings.paceWait) ROSARY_BEAD_MILLIS.toInt() else 0, step = counter.count, onClick = { counter.tap() },
                 modifier = Modifier.weight(1f), enabled = !finished,
             )
         }
+    }
+}
+
+/** Where the set of mysteries prayed today is kept, next to the count. */
+private const val ROSARY_SET_KEY = "rosary_set"
+
+/** What a step is: the opening, a mystery, the n-th Hail Mary of a decade, or the closing. */
+@Composable
+private fun stepKicker(s: RosaryStep): String {
+    val ordinals = listOf(R.string.rosary_first, R.string.rosary_second, R.string.rosary_third, R.string.rosary_fourth, R.string.rosary_fifth)
+    return when {
+        s.decade != null && s.count > 0 -> stringResource(R.string.rosary_decade_count, stringResource(ordinals[s.decade]), s.count)
+        s.decade != null -> stringResource(R.string.rosary_mystery_n, stringResource(ordinals[s.decade]))
+        s.bead == Rosary.MEDAL -> stringResource(R.string.rosary_closing)
+        else -> stringResource(R.string.rosary_opening)
     }
 }
 
@@ -211,14 +236,8 @@ private fun StepCard(s: RosaryStep, mysteries: List<agape.app.data.rosary.Myster
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val c = AgapeTheme.colors
-    val ordinals = listOf(R.string.rosary_first, R.string.rosary_second, R.string.rosary_third, R.string.rosary_fourth, R.string.rosary_fifth)
     AgapeCard {
-        val kicker = when {
-            s.decade != null && s.count > 0 -> stringResource(R.string.rosary_decade_count, stringResource(ordinals[s.decade]), s.count)
-            s.decade != null -> stringResource(R.string.rosary_mystery_n, stringResource(ordinals[s.decade]))
-            s.bead == Rosary.MEDAL -> stringResource(R.string.rosary_closing)
-            else -> stringResource(R.string.rosary_opening)
-        }
+        val kicker = stepKicker(s)
         Row(verticalAlignment = Alignment.CenterVertically) {
             Kicker(kicker, Modifier.weight(1f))
             // Five dots: the decades, filled as they are prayed.
@@ -333,8 +352,10 @@ private fun RosaryBeads(step: Int, finished: Boolean, onBead: (Int) -> Unit, mod
         if (!finished) beads.remove(currentBead)
         beads
     }
-    val pulse by rememberInfiniteTransition(label = "bead").animateFloat(0.55f, 1f, infiniteRepeatable(tween(1100), RepeatMode.Reverse), label = "pulse")
-    val label = stringResource(R.string.rosary_beads_description, step + 1, Rosary.steps.size)
+    // The current bead glows softly; still, when animations are turned off in Android.
+    val still = rememberReduceMotion()
+    val glow by rememberInfiniteTransition(label = "bead").animateFloat(0.55f, 1f, infiniteRepeatable(tween(1100), RepeatMode.Reverse), label = "pulse")
+    val pulse = if (still) 1f else glow
     BoxWithConstraints(modifier) {
         val density = LocalDensity.current
         val wPx = with(density) { maxWidth.toPx() }
@@ -343,7 +364,6 @@ private fun RosaryBeads(step: Int, finished: Boolean, onBead: (Int) -> Unit, mod
         val touch = with(density) { 22.dp.toPx() }
         Canvas(
             Modifier.fillMaxWidth().height(heightDp)
-                .semantics { contentDescription = label }
                 .pointerInput(layout) {
                     detectTapGestures { tap -> layout.beadAt(tap, touch)?.let(onBead) }
                 },

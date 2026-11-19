@@ -2,8 +2,8 @@ package agape.app.ui.prayer
 
 import agape.app.R
 import agape.app.core.model.Tradition
+import agape.app.data.counter.AtEnd
 import agape.app.data.rosary.PrayerRope
-import agape.app.data.rosary.RopeCount
 import agape.app.notifications.QuietWhilePraying
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
@@ -15,14 +15,14 @@ import agape.app.ui.components.PaceButton
 import agape.app.ui.components.Pill
 import agape.app.ui.components.QuietButton
 import agape.app.ui.components.TraditionCross
+import agape.app.ui.components.counterTapArea
+import agape.app.ui.components.rememberPrayerCounter
+import agape.app.ui.components.rememberReduceMotion
 import agape.app.ui.components.crossPath
 import agape.app.ui.theme.AgapeTheme
-import android.content.Context
-import android.os.Build
-import android.os.VibrationEffect
-import android.os.Vibrator
-import android.os.VibratorManager
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.snap
+import androidx.compose.animation.core.spring
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -43,11 +43,11 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.saveable.Saver
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -58,10 +58,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.translate
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
@@ -70,53 +67,51 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 /** The least time on one knot before Next opens, when waiting on each bead is switched on. */
-private const val KNOT_MILLIS = 2_000
+private const val KNOT_MILLIS = 2_000L
 
 /** The rope's names, and the cross that hangs from it. */
 val PrayerRope.title: Int get() = R.string.rope_chotki
 val PrayerRope.subtitle: Int get() = R.string.rope_chotki_sub
 val PrayerRope.cross: Tradition get() = Tradition.EASTERN_ORTHODOX
 
-/** Keeps a [RopeCount] across rotation and other recreations of the screen. */
-private val RopeCountSaver = Saver<RopeCount, String>(save = { it.encode() }, restore = { RopeCount.decode(it) })
-
 /**
  * A prayer rope to pray along: Next moves one knot on. With waiting on each bead switched on (Settings), Next opens
- * again only after two seconds, so the prayer is said on every knot. A soft tick on every knot and a firmer one on
- * every tenth, unless vibration is switched off. The count is kept when the screen is left and opened again.
+ * again only after two seconds, so the prayer is said on every knot. A soft tick on every knot and a marked pulse on
+ * every tenth, unless vibration is switched off. The count is kept when the screen is left and opened again. Quiet
+ * mode darkens the screen and makes all of it the tap area, to pray without looking.
  */
 @Composable
 fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val settings = LocalSettings.current
-    val context = LocalContext.current
     val scope = rememberCoroutineScope()
     val c = AgapeTheme.colors
-    var count by rememberSaveable(stateSaver = RopeCountSaver) {
-        mutableStateOf(container.prayerProgress.rope(rope) ?: RopeCount(rope.sizes.first()))
+    val title = stringResource(rope.title)
+    val counter = rememberPrayerCounter(
+        "rope_${rope.name.lowercase()}", rope.sizes.first(), AtEnd.WRAP, daily = false, accept = { it.total in rope.sizes },
+    )
+    SideEffect {
+        counter.marker = { PrayerRope.isBead(it.done) || it.complete }
+        counter.onComplete = { scope.launch { container.user.markPrayed("rope:${rope.name.lowercase()}", title) } }
+        counter.paceMillis = if (settings.paceWait) KNOT_MILLIS else 0L
     }
+    val count = counter.count
     // Asking before the count is cleared: the rope size to start again with, or null when not asking.
     var confirmRestart by remember { mutableStateOf<Int?>(null) }
-    val size = count.size
-    val title = stringResource(rope.title)
+    var quiet by rememberSaveable { mutableStateOf(false) }
+    val size = count.total
     val prayer = rope.prayer[lang]
     val bead = rope.bead?.get(lang)
+    val line = if (bead != null && PrayerRope.isBead(count.done)) bead else prayer
+    val description = stringResource(R.string.counter_a11y, title, count.done, size)
+    val tapLabel = stringResource(R.string.counter_tap)
+    val backLabel = stringResource(R.string.counter_back)
     QuietWhilePraying()
 
-    fun update(next: RopeCount) {
-        count = next
-        container.prayerProgress.saveRope(rope, next)
-    }
-    fun tap() {
-        val next = count.next()
-        update(next)
-        if (settings.prayerVibration) tick(context, strong = PrayerRope.isBead(next.knot) || next.done)
-        if (next.done) scope.launch { container.user.markPrayed("rope:${rope.name.lowercase()}", title) }
-    }
     /** Starts again with [newSize] knots; asks first when something has been counted. */
     fun restart(newSize: Int) {
-        if (count.knot == 0 && count.rounds == 0) update(RopeCount(newSize)) else confirmRestart = newSize
+        if (count.done == 0 && count.rounds == 0) counter.reset(newSize) else confirmRestart = newSize
     }
 
     confirmRestart?.let { newSize ->
@@ -124,13 +119,22 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
             onDismissRequest = { confirmRestart = null },
             title = { Text(stringResource(R.string.rope_restart_title)) },
             text = { Text(stringResource(R.string.rope_restart_text)) },
-            confirmButton = { TextButton({ confirmRestart = null; update(RopeCount(newSize)) }) { Text(stringResource(R.string.rope_restart)) } },
+            confirmButton = { TextButton({ confirmRestart = null; counter.reset(newSize) }) { Text(stringResource(R.string.rope_restart)) } },
             dismissButton = { TextButton({ confirmRestart = null }) { Text(stringResource(R.string.cancel)) } },
         )
     }
 
+    if (quiet) {
+        QuietCounter(
+            counter, headline = "${count.done}",
+            detail = stringResource(R.string.rope_of, size) + if (count.rounds > 0) " · " + stringResource(R.string.rope_rounds, count.rounds) else "",
+            text = line, description = description, onExit = { quiet = false },
+        )
+        return
+    }
+
     Column(Modifier.fillMaxSize()) {
-        DetailTopBar(title, onBack)
+        DetailTopBar(title, onBack) { QuietModeButton { quiet = true } }
         Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
             Kicker(stringResource(rope.subtitle))
             Spacer(Modifier.height(10.dp))
@@ -141,33 +145,29 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
             Box(
                 Modifier.fillMaxWidth().aspectRatio(1f)
                     .background(Brush.radialGradient(listOf(c.accent.copy(alpha = 0.16f), Color.Transparent)))
-                    .semantics { contentDescription = "$title, ${count.knot} / $size" },
+                    .counterTapArea(counter, description, tapLabel, backLabel),
                 contentAlignment = Alignment.Center,
             ) {
-                RopeRing(size, count.knot, rope, Modifier.fillMaxSize())
+                RopeRing(size, count.done, rope, Modifier.fillMaxSize())
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text("${count.knot}", style = MaterialTheme.typography.displayLarge, color = c.primary)
+                    Text("${count.done}", style = MaterialTheme.typography.displayLarge, color = c.primary)
                     Text(stringResource(R.string.rope_of, size), style = MaterialTheme.typography.labelLarge, color = c.inkMuted)
                     if (count.rounds > 0) Text(stringResource(R.string.rope_rounds, count.rounds), style = MaterialTheme.typography.labelMedium, color = c.accent)
                 }
             }
             Spacer(Modifier.height(8.dp))
-            Text(
-                if (bead != null && PrayerRope.isBead(count.knot)) bead else prayer,
-                style = AgapeTheme.type.scripture, color = c.ink, textAlign = TextAlign.Center,
-                modifier = Modifier.padding(horizontal = 8.dp),
-            )
+            Text(line, style = AgapeTheme.type.scripture, color = c.ink, textAlign = TextAlign.Center, modifier = Modifier.padding(horizontal = 8.dp))
             Spacer(Modifier.height(22.dp))
             PaceButton(
                 stringResource(R.string.rope_next), waiting = stringResource(R.string.pace_praying),
-                minMillis = if (settings.paceWait) KNOT_MILLIS else 0, step = count.knot to count.rounds, onClick = ::tap,
+                minMillis = if (settings.paceWait) KNOT_MILLIS.toInt() else 0, step = count, onClick = { counter.tap() },
             )
             Spacer(Modifier.height(14.dp))
             AgapeCard(tonal = true) {
                 Text(stringResource(R.string.rope_chotki_about), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
             }
             Row(Modifier.padding(vertical = 8.dp)) {
-                QuietButton(stringResource(R.string.rosary_previous), { update(count.back()) })
+                QuietButton(stringResource(R.string.rosary_previous), { counter.back() })
                 QuietButton(stringResource(R.string.rope_restart), { restart(size) })
             }
         }
@@ -178,7 +178,8 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
 @Composable
 private fun RopeRing(size: Int, knot: Int, rope: PrayerRope, modifier: Modifier = Modifier) {
     val c = AgapeTheme.colors
-    val progress by animateFloatAsState(knot / size.toFloat(), label = "rope")
+    val still = rememberReduceMotion()
+    val progress by animateFloatAsState(knot / size.toFloat(), if (still) snap() else spring(), label = "rope")
     val wool = if (c.isDark) Color(0xFF3A3530) else Color(0xFF2B2622)
     Canvas(modifier.padding(8.dp)) {
         val center = Offset(this.size.width / 2, this.size.height * 0.46f)
@@ -203,16 +204,6 @@ private fun RopeRing(size: Int, knot: Int, rope: PrayerRope, modifier: Modifier 
         val ch = cw * 1.33f
         translate(center.x - cw / 2, bottom.y + r * 0.16f) { drawPath(crossPath(rope.cross, Size(cw, ch)), c.accent) }
     }
-}
-
-/** A short tick, or a firmer one for a bead; silent on phones without a vibrator. */
-private fun tick(context: Context, strong: Boolean) {
-    val vibrator = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) context.getSystemService(VibratorManager::class.java)?.defaultVibrator
-    else @Suppress("DEPRECATION") context.getSystemService(Vibrator::class.java)
-    if (vibrator?.hasVibrator() != true) return
-    val effect = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) VibrationEffect.createPredefined(if (strong) VibrationEffect.EFFECT_HEAVY_CLICK else VibrationEffect.EFFECT_TICK)
-    else VibrationEffect.createOneShot(if (strong) 60L else 15L, if (strong) 255 else 80)
-    vibrator.vibrate(effect)
 }
 
 /** A small rope with its cross, as a mark on cards. */
