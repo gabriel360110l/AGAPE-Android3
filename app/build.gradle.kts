@@ -8,12 +8,28 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
-// Backend keys live in local.properties (never committed). Without them the app runs with a local
-// development account so every screen can still be tried.
+// Backend keys live in local.properties (never committed) or in environment variables (for CI). Without them a
+// debug build runs with a local development account so every screen can still be tried; a release build stops
+// (see checkReleaseBackend below).
 val localProps = Properties().apply {
     rootProject.file("local.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
 }
-fun localProp(name: String) = "\"${localProps.getProperty(name, "")}\""
+fun setting(name: String, env: String): String = localProps.getProperty(name)?.takeIf { it.isNotBlank() } ?: System.getenv(env).orEmpty()
+fun quoted(value: String) = "\"$value\""
+val supabaseUrl = setting("supabase.url", "AGAPE_SUPABASE_URL")
+val supabaseAnonKey = setting("supabase.anonKey", "AGAPE_SUPABASE_ANON_KEY")
+
+// Release signing. The upload key and its passwords are never committed: they come from keystore.properties
+// (see keystore.properties.example) or from environment variables. Without them the release build is unsigned.
+val keystoreProps = Properties().apply {
+    rootProject.file("keystore.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
+}
+fun signing(name: String, env: String): String? = keystoreProps.getProperty(name)?.takeIf { it.isNotBlank() } ?: System.getenv(env)?.takeIf { it.isNotBlank() }
+val releaseStoreFile = signing("storeFile", "AGAPE_KEYSTORE_FILE")
+val releaseStorePassword = signing("storePassword", "AGAPE_KEYSTORE_PASSWORD")
+val releaseKeyAlias = signing("keyAlias", "AGAPE_KEY_ALIAS")
+val releaseKeyPassword = signing("keyPassword", "AGAPE_KEY_PASSWORD")
+val hasReleaseSigning = listOf(releaseStoreFile, releaseStorePassword, releaseKeyAlias, releaseKeyPassword).all { it != null }
 
 android {
     namespace = "agape.app"
@@ -26,11 +42,11 @@ android {
         versionCode = 4
         versionName = "3.0.0"
 
-        buildConfigField("String", "SUPABASE_URL", localProp("supabase.url"))
-        buildConfigField("String", "SUPABASE_ANON_KEY", localProp("supabase.anonKey"))
-        buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", localProp("google.webClientId"))
-        // Donation URL is a placeholder until the real donation page is known (see README "Before release").
-        buildConfigField("String", "DONATION_URL", "\"https://example.org/agape/donate\"")
+        buildConfigField("String", "SUPABASE_URL", quoted(supabaseUrl))
+        buildConfigField("String", "SUPABASE_ANON_KEY", quoted(supabaseAnonKey))
+        buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", quoted(setting("google.webClientId", "AGAPE_GOOGLE_WEB_CLIENT_ID")))
+        // No donation page exists yet, so the donation row stays hidden while this is empty (see README "Before release").
+        buildConfigField("String", "DONATION_URL", quoted(setting("donation.url", "AGAPE_DONATION_URL")))
         buildConfigField("String", "SUPPORT_EMAIL", "\"gabriel360110l@gmail.com\"")
     }
 
@@ -38,8 +54,27 @@ android {
         localeFilters += listOf("en", "nl")
     }
 
+    // The language can be changed inside the app, so every App Bundle install must carry both English and Dutch.
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+
+    signingConfigs {
+        if (hasReleaseSigning) {
+            create("release") {
+                storeFile = rootProject.file(releaseStoreFile!!)
+                storePassword = releaseStorePassword
+                keyAlias = releaseKeyAlias
+                keyPassword = releaseKeyPassword
+            }
+        }
+    }
+
     buildTypes {
         release {
+            if (hasReleaseSigning) signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
@@ -66,6 +101,27 @@ android {
 ksp {
     arg("room.schemaLocation", "$projectDir/schemas")
 }
+
+// A release without the Supabase keys would fall back to the local development account, so it is stopped here
+// with a clear message. For a local smoke test only, -PallowReleaseWithoutBackend=true lets it through.
+val checkReleaseBackend by tasks.registering {
+    val missing = listOfNotNull(
+        "supabase.url (or AGAPE_SUPABASE_URL)".takeIf { supabaseUrl.isBlank() },
+        "supabase.anonKey (or AGAPE_SUPABASE_ANON_KEY)".takeIf { supabaseAnonKey.isBlank() },
+    )
+    val allowed = providers.gradleProperty("allowReleaseWithoutBackend").orNull == "true"
+    doLast {
+        if (missing.isNotEmpty() && !allowed) {
+            throw GradleException(
+                "Release build stopped: the Supabase keys are missing: ${missing.joinToString(", ")}. " +
+                    "Set them in local.properties or as environment variables. Without them the app would use a " +
+                    "local development account instead of real accounts.",
+            )
+        }
+        if (missing.isNotEmpty()) logger.warn("WARNING: release built WITHOUT Supabase keys (allowReleaseWithoutBackend); do not publish it.")
+    }
+}
+tasks.matching { it.name == "preReleaseBuild" }.configureEach { dependsOn(checkReleaseBackend) }
 
 dependencies {
     implementation(libs.androidx.core.ktx)

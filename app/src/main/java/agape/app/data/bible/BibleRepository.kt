@@ -7,8 +7,6 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import kotlinx.serialization.Serializable
-import kotlinx.serialization.json.Json
 import java.io.File
 
 data class Verse(val book: String, val chapter: Int, val verse: Int, val text: String) {
@@ -17,16 +15,12 @@ data class Verse(val book: String, val chapter: Int, val verse: Int, val text: S
 
 data class CrossRef(val book: String, val chapter: Int, val verse: Int, val verseEnd: Int)
 
-data class ChapterGuide(val title: String, val summary: String, val context: String, val themes: List<String>, val related: List<Passage>)
-
 data class FatherQuote(val book: String, val chapter: Int, val verse: Int, val verseEnd: Int, val father: String, val year: Int, val source: String, val text: String)
 
 data class FatherNote(val father: String, val work: String, val date: String, val verseFrom: Int, val verseTo: Int, val note: String, val source: String)
 
 /** The bundled, read-only Bible database. Translation follows the app language: WEB for English, Statenvertaling for Dutch. */
 class BibleRepository(private val context: Context) {
-    private val json = Json { ignoreUnknownKeys = true }
-
     @Volatile private var db: SQLiteDatabase? = null
 
     private fun database(): SQLiteDatabase = db ?: synchronized(this) {
@@ -78,33 +72,13 @@ class BibleRepository(private val context: Context) {
         ).use { c -> buildList { while (c.moveToNext()) add(CrossRef(c.getString(0), c.getInt(1), c.getInt(2), c.getInt(3))) } }
     }
 
-    /** The English chapter guide. The legacy Dutch guides are machine-made and are not shown until they are rewritten. */
-    suspend fun chapterGuide(book: String, chapter: Int): ChapterGuide? = withContext(Dispatchers.IO) {
-        database().rawQuery(
-            "SELECT title, summary, context, themes, related FROM chapter_guides WHERE book = ? AND chapter = ? AND lang = 'en' LIMIT 1",
-            arrayOf(book, chapter.toString()),
-        ).use { c ->
-            if (!c.moveToFirst()) null else ChapterGuide(
-                title = c.getString(0),
-                summary = c.getString(1),
-                context = c.getString(2),
-                themes = runCatching { json.decodeFromString<List<String>>(c.getString(3)) }.getOrDefault(emptyList()),
-                related = runCatching { json.decodeFromString<List<RelatedRow>>(c.getString(4)) }.getOrDefault(emptyList())
-                    .mapNotNull { r -> r.chapter?.let { Passage(r.book, it, r.verse) } },
-            )
-        }
-    }
-
     /**
-     * The legacy Father notes that are real summaries of a Father's reading. Most legacy notes are generated filler
-     * ("the note that follows is a paraphrase…"), and all Dutch ones are; those are left out, and the English note
-     * is shown in both languages.
+     * The Father notes on a chapter: short summaries of how a Father read it. Only real summaries are bundled (the
+     * generated filler of the legacy app was removed from the database); the English note is shown in both languages.
      */
     suspend fun fatherNotes(book: String, chapter: Int): List<FatherNote> = withContext(Dispatchers.IO) {
         database().rawQuery(
-            "SELECT father, work, date, verse_from, verse_to, note_en, source FROM father_notes WHERE book = ? AND chapter = ? " +
-                "AND note_en NOT LIKE '%fabricated%' AND note_en NOT LIKE '%named above%' AND note_en NOT LIKE '%burden is%' " +
-                "AND note_en NOT LIKE '%invented for the app%' AND note_en NOT LIKE '%names that surface%' ORDER BY sort",
+            "SELECT father, work, date, verse_from, verse_to, note_en, source FROM father_notes WHERE book = ? AND chapter = ? ORDER BY sort",
             arrayOf(book, chapter.toString()),
         ).use { c ->
             buildList {
@@ -193,10 +167,7 @@ class BibleRepository(private val context: Context) {
         }
     }
 
-    @Serializable
-    private data class RelatedRow(val book: String, val chapter: Int? = null, val verse: Int? = null)
-
     companion object {
-        const val DB_VERSION = 3
+        const val DB_VERSION = 4
     }
 }

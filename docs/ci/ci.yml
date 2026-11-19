@@ -1,0 +1,47 @@
+# To switch CI on, move this file to .github/workflows/ci.yml (the push that adds it needs a GitHub login with the
+# "workflow" permission, which the automated PR could not use).
+# Runs the unit tests and Android Lint on every pull request and on every push to main.
+# No secrets are used: without the Supabase keys the debug build uses the local development account.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Unit tests
+        run: bash gradlew --no-daemon :app:testDebugUnitTest
+
+      - name: Lint
+        run: bash gradlew --no-daemon :app:lintDebug
+
+      - name: Keep the reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            app/build/reports/
+            app/build/test-results/
+          retention-days: 14

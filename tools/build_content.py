@@ -2,15 +2,14 @@
 """Builds AGAPE's bundled offline content.
 
 Outputs (committed, so the app builds without Python):
-  app/src/main/assets/bible/bible.db       Bible texts, cross-references, chapter guides, Father notes
+  app/src/main/assets/bible/bible.db       Bible texts, cross-references, Father notes and quotes
   app/src/main/assets/content/books.json   Book list with canon membership per tradition
   app/src/main/assets/content/prayers_extra.json  Additional prayers
   app/src/main/assets/content/saints_eo.json      Byzantine menologion (fixed feasts)
 
 Inputs:
   tools/source/statenvertaling.tsv         Statenvertaling 1637 + Apocrypha (public domain)
-  tools/source/chapter_guides.jsonl        Chapter guides from the legacy app
-  tools/source/father_notes.jsonl          Church Father notes from the legacy app
+  tools/source/father_notes.jsonl          Church Father notes from the legacy app (generated filler is skipped)
   tools/source/legacy/*.json               Legacy prayer / calendar / canon content
   tools/.cache/eng-web_vpl.txt             World English Bible Classic, downloaded from ebible.org
   tools/.cache/cross_references.txt        OpenBible.info cross-references (CC-BY), downloaded
@@ -29,7 +28,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "tools", "source")
 CACHE = os.path.join(ROOT, "tools", ".cache")
 ASSETS = os.path.join(ROOT, "app", "src", "main", "assets")
-DB_VERSION = 3
+DB_VERSION = 4
 MIN_CROSS_REF_VOTES = 10
 
 EO, OO, CA = "EASTERN_ORTHODOX", "ORIENTAL_ORTHODOX", "CATHOLIC"
@@ -305,13 +304,13 @@ def load_father_quotes():
     return out
 
 
-def related_json(raw):
-    out = []
-    for r in json.loads(raw or "[]"):
-        book = SLUG_TO_USFM.get(r.get("bookId"))
-        if book:
-            out.append({"book": book, "chapter": r.get("chapter"), "verse": r.get("verse")})
-    return json.dumps(out)
+# The legacy father notes are mostly generated filler; these phrases mark it. Only real summaries are bundled.
+FILLER_MARKERS = ("fabricated", "named above", "burden is", "invented for the app", "names that surface")
+
+
+def is_filler(note):
+    low = note.lower()
+    return any(m in low for m in FILLER_MARKERS)
 
 
 def build_db():
@@ -331,10 +330,6 @@ def build_db():
             to_book TEXT NOT NULL, to_chapter INTEGER NOT NULL, to_verse INTEGER NOT NULL,
             to_verse_end INTEGER NOT NULL, votes INTEGER NOT NULL);
         CREATE INDEX cross_refs_from ON cross_refs (book, chapter, verse);
-        CREATE TABLE chapter_guides (
-            book TEXT NOT NULL, chapter INTEGER NOT NULL, lang TEXT NOT NULL,
-            title TEXT NOT NULL, summary TEXT NOT NULL, context TEXT NOT NULL, themes TEXT NOT NULL,
-            related TEXT NOT NULL, PRIMARY KEY (book, chapter, lang)) WITHOUT ROWID;
         CREATE TABLE father_notes (
             book TEXT NOT NULL, chapter INTEGER NOT NULL, father TEXT NOT NULL, work TEXT NOT NULL,
             date TEXT NOT NULL, verse_from INTEGER NOT NULL, verse_to INTEGER NOT NULL,
@@ -351,31 +346,14 @@ def build_db():
     refs = load_cross_refs()
     db.executemany("INSERT INTO cross_refs VALUES (?,?,?,?,?,?,?,?)", refs)
 
-    guides = 0
-    with open(os.path.join(SRC, "chapter_guides.jsonl"), encoding="utf-8") as f:
-        for line in f:
-            g = json.loads(line)
-            book = SLUG_TO_USFM.get(g["book_id"])
-            if not book:
-                continue
-            for lang, sfx in (("en", ""), ("nl", "_nl")):
-                title = g.get("title" + sfx) or ""
-                if not title:
-                    continue
-                db.execute(
-                    "INSERT OR REPLACE INTO chapter_guides VALUES (?,?,?,?,?,?,?,?)",
-                    (book, g["chapter"], lang, title, g.get("summary" + sfx) or "",
-                     g.get("context" + sfx) or g.get("purpose" + sfx) or "",
-                     g.get("themes" + sfx) or "[]", related_json(g.get("related" + sfx))),
-                )
-                guides += 1
-
     notes = 0
     with open(os.path.join(SRC, "father_notes.jsonl"), encoding="utf-8") as f:
         for line in f:
             n = json.loads(line)
             book = SLUG_TO_USFM.get(n["book_id"])
             if not book:
+                continue
+            if is_filler(n["commentary"]):
                 continue
             m = re.match(r"(\d+)(?:-(\d+))?", n.get("verses") or "")
             vf = int(m.group(1)) if m else 1
@@ -401,7 +379,7 @@ def build_db():
     db.commit()
     db.execute("VACUUM")
     db.close()
-    print(f"bible.db: {len(verses)} verses, {len(refs)} cross-refs, {guides} guides, {notes} father notes,"
+    print(f"bible.db: {len(verses)} verses, {len(refs)} cross-refs, {notes} father notes,"
           f" {os.path.getsize(out) // 1024} KB")
     return verses
 

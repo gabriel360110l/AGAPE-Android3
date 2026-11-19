@@ -2,8 +2,8 @@
 """Builds the offline Saint-of-the-Day calendars for the Oriental Orthodox and Catholic traditions.
 
 Outputs (committed):
-  app/src/main/assets/content/saints_oo.json   Coptic Synaxarium per Coptic month/day (api.coptic.io)
-  app/src/main/assets/content/saints_ca.json   Saints of the General Roman Calendar per month/day (calapi.inadiutorium.cz)
+  tools/source/saints/saints_oo.json   Coptic Synaxarium per Coptic month/day (api.coptic.io)
+  tools/source/saints/saints_ca.json   Saints of the General Roman Calendar per month/day (calapi.inadiutorium.cz)
 
 Dutch names come from tools/source/saints_nl.json (hand-checked); names without a Dutch entry fall back to English
 and are listed when the script runs. The Eastern Orthodox menologion (saints_eo.json) is built by build_content.py.
@@ -23,7 +23,8 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "tools", ".cache", "saints")
-OUT = os.path.join(ROOT, "app", "src", "main", "assets", "content")
+# The Coptic and Roman lists are build inputs only (the app reads saints_unified.json), so they live in tools/source.
+OUT = os.path.join(ROOT, "tools", "source", "saints")
 NL_PATH = os.path.join(ROOT, "tools", "source", "saints_nl.json")
 UA = "AGAPE-app-build/1.0 (https://github.com/gabriel360110l/AGAPE-Android3)"
 

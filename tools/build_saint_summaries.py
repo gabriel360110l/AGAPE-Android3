@@ -2,7 +2,7 @@
 """Adds the hand-written summaries to the Coptic and Catholic saint calendars.
 
 Inputs:   tools/source/saint_summaries_oo.tsv, tools/source/saint_summaries_ca.tsv (title, English, Dutch[, ?])
-Outputs:  app/src/main/assets/content/saints_oo.json and saints_ca.json, rewritten in place with a "summary"
+Outputs:  tools/source/saints/saints_oo.json and saints_ca.json, rewritten in place with a "summary"
           {en, nl} on every saint whose English title has a line in the TSV.
 
 Works offline on the committed JSON, so it can run after build_saints.py or on its own. Summaries are matched on the
@@ -16,7 +16,7 @@ import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "tools", "source")
-OUT = os.path.join(ROOT, "app", "src", "main", "assets", "content")
+OUT = os.path.join(ROOT, "tools", "source", "saints")
 
 
 def read_tsv(name):

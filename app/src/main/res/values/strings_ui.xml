@@ -17,6 +17,7 @@
     <string name="home_help">Help</string>
     <string name="home_profile">Profile and settings</string>
     <string name="home_background_credit">Background: %1$s · %2$s</string>
+    <string name="home_background_credit_by">Background: %1$s, by %2$s · %3$s</string>
     <string name="home_rosary_today">Today: %1$s</string>
     <string name="rosary_title">The Rosary</string>
     <string name="rosary_today">today</string>
@@ -47,9 +48,6 @@
     <string name="reader_next_chapter">Next chapter</string>
     <string name="bible_gospels">Gospels</string>
     <string name="bible_find_book">Find a book (e.g. Matthew, Psalms)</string>
-    <string name="speaker_unavailable">Reading aloud is not available on this phone. Install a text-to-speech engine in Android settings.</string>
-    <string name="speaker_no_voice_nl">No Dutch voice is installed. Add one under Settings → System → Languages → Text-to-speech.</string>
-    <string name="speaker_no_voice_en">No English voice is installed. Add one under Settings → System → Languages → Text-to-speech.</string>
     <string name="verse_image">Image</string>
     <string name="verse_image_title">Share as image</string>
     <string name="verse_image_share">Share image</string>
@@ -162,7 +160,6 @@
     <string name="prayer_pray_this">Pray this hour</string>
     <string name="prayer_service_n">%1$d of %2$d</string>
     <string name="prayer_open">Open</string>
-    <string name="rosary_step_of">%1$d / %2$d</string>
     <string name="pace_praying">Praying…</string>
     <string name="rope_next">Next knot</string>
     <string name="counter_tap">Count</string>

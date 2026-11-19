@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and earlier: the same rules as data_extraction_rules.xml. -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="agape.app_preferences.xml" />
+    <exclude domain="sharedpref" path="agape_dev_auth.xml" />
+    <exclude domain="sharedpref" path="agape_alarms.xml" />
+</full-backup-content>
