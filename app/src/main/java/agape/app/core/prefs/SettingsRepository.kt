@@ -50,6 +50,10 @@ data class Settings(
     val place: Place? = null,
     /** Do Not Disturb while praying, when Android allows the app to set it. */
     val quietPrayer: Boolean = false,
+    /** Whether Next on the Rosary and the prayer rope waits a moment on every bead (10 s) and knot (2 s). Off by default. */
+    val paceWait: Boolean = false,
+    /** A tick on every bead and knot while counting prayers. */
+    val prayerVibration: Boolean = true,
 ) {
     /** Onboarding is complete up to (but not including) sign-in. */
     val readyForSignIn: Boolean get() = welcomeSeen && termsAccepted && tradition != null && style != null
@@ -82,6 +86,8 @@ class SettingsRepository(private val context: Context) {
         val sunTimes = booleanPreferencesKey("sun_times")
         val place = stringPreferencesKey("place")
         val quietPrayer = booleanPreferencesKey("quiet_prayer")
+        val paceWait = booleanPreferencesKey("pace_wait")
+        val prayerVibration = booleanPreferencesKey("prayer_vibration")
     }
 
     val settings: Flow<Settings> = context.dataStore.data.map { p ->
@@ -103,6 +109,8 @@ class SettingsRepository(private val context: Context) {
             sunTimes = p[Keys.sunTimes] ?: false,
             place = Place.decode(p[Keys.place]),
             quietPrayer = p[Keys.quietPrayer] ?: false,
+            paceWait = p[Keys.paceWait] ?: false,
+            prayerVibration = p[Keys.prayerVibration] ?: true,
         )
     }
 
@@ -128,6 +136,8 @@ class SettingsRepository(private val context: Context) {
     suspend fun setSunTimes(on: Boolean) = context.dataStore.edit { it[Keys.sunTimes] = on }
     suspend fun setPlace(place: Place) = context.dataStore.edit { it[Keys.place] = place.encode() }
     suspend fun setQuietPrayer(on: Boolean) = context.dataStore.edit { it[Keys.quietPrayer] = on }
+    suspend fun setPaceWait(on: Boolean) = context.dataStore.edit { it[Keys.paceWait] = on }
+    suspend fun setPrayerVibration(on: Boolean) = context.dataStore.edit { it[Keys.prayerVibration] = on }
 
     suspend fun setLastPosition(pos: ReadingPosition) = context.dataStore.edit {
         it[Keys.lastBook] = pos.book

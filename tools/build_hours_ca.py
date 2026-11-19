@@ -373,7 +373,7 @@ def lauds():
     sections.append({"kind": "scripture", "title": tr("Benedictus", "Benedictus"), "ref": "LUK 1:68-79"})
     for day in DAYS:
         sections += on(day, [intercessions(*LAUDS[day]["prayers"])])
-    sections.append(prayer("our-father"))
+    sections.append(prayer("our-father-ca"))
     for day in DAYS:
         sections += on(day, [concluding(DAY_PRAYER[day])])
     return sections
@@ -542,7 +542,7 @@ def vespers():
             sections += on(day, [sunday])
         else:
             sections += on(day, [intercessions(*d["prayers"])])
-    sections.append(prayer("our-father"))
+    sections.append(prayer("our-father-ca"))
     for day in DAYS:
         d = VESPERS[day]
         if d["prayer"] is None:

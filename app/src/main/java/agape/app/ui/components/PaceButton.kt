@@ -27,13 +27,18 @@ import androidx.compose.ui.unit.dp
 /**
  * The one way forward while praying on beads or knots: after each step the button fills slowly over [minMillis],
  * and only once it is full can it be pressed. So every bead gets its time and none can be skipped. [step] restarts
- * the filling; [waiting] is shown while it fills.
+ * the filling; [waiting] is shown while it fills. With [minMillis] 0 (the default setting) there is no wait: the
+ * button is ready at once.
  */
 @Composable
 fun PaceButton(text: String, waiting: String, minMillis: Int, step: Any, onClick: () -> Unit, modifier: Modifier = Modifier, enabled: Boolean = true) {
     val c = AgapeTheme.colors
     val fill = remember { Animatable(1f) }
-    LaunchedEffect(step) {
+    LaunchedEffect(step, minMillis) {
+        if (minMillis <= 0) {
+            fill.snapTo(1f)
+            return@LaunchedEffect
+        }
         fill.snapTo(0f)
         fill.animateTo(1f, tween(minMillis, easing = LinearEasing))
     }

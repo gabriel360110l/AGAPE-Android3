@@ -7,6 +7,7 @@ import agape.app.data.content.PrayerSection
 import agape.app.notifications.QuietWhilePraying
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
+import agape.app.ui.LocalSettings
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
 import agape.app.ui.components.Ornament
@@ -173,6 +174,7 @@ private fun PrayerCounter(section: PrayerSection) {
     val lang = LocalLanguage.current
     val c = AgapeTheme.colors
     val haptics = LocalHapticFeedback.current
+    val vibrate = LocalSettings.current.prayerVibration
     val total = section.count.coerceAtLeast(1)
     var done by rememberSaveable(section.hashCode()) { mutableIntStateOf(0) }
     val sweep by animateFloatAsState(done / total.toFloat(), label = "counter")
@@ -185,7 +187,7 @@ private fun PrayerCounter(section: PrayerSection) {
                 .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null) {
                     if (done < total) {
                         done++
-                        haptics.performHapticFeedback(if (done == total) HapticFeedbackType.LongPress else HapticFeedbackType.TextHandleMove)
+                        if (vibrate) haptics.performHapticFeedback(if (done == total) HapticFeedbackType.LongPress else HapticFeedbackType.TextHandleMove)
                     } else done = 0
                 }
                 .semantics { contentDescription = desc; liveRegion = LiveRegionMode.Polite },

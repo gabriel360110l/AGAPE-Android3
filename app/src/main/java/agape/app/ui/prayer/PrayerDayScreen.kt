@@ -220,6 +220,17 @@ fun PrayerDayScreen(onBack: () -> Unit) {
                 }
                 if (settings.quietPrayer && !QuietPrayer.allowed(context)) QuietButton(stringResource(R.string.day_quiet_allow), { QuietPrayer.openPermission(context) })
             }
+
+            AgapeCard {
+                Kicker(stringResource(R.string.day_beads))
+                Spacer(Modifier.height(6.dp))
+                Toggle(stringResource(R.string.day_pace_toggle), stringResource(R.string.day_pace_hint), settings.paceWait) { on ->
+                    scope.launch { container.settings.setPaceWait(on) }
+                }
+                Toggle(stringResource(R.string.day_vibrate_toggle), stringResource(R.string.day_vibrate_hint), settings.prayerVibration) { on ->
+                    scope.launch { container.settings.setPrayerVibration(on) }
+                }
+            }
         }
     }
 

@@ -8,6 +8,13 @@ import agape.app.data.rosary.Rosary
 import agape.app.data.rosary.RosaryStep
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
+import agape.app.data.rosary.RosaryProgress
+import agape.app.notifications.QuietWhilePraying
+import agape.app.ui.LocalSettings
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalDensity
 import agape.app.ui.components.AgapeCard
 import agape.app.ui.components.DetailTopBar
 import agape.app.ui.components.Kicker
@@ -82,13 +89,14 @@ import kotlin.math.sin
 /** The Rosary's entry in the Catholic prayer book; it opens this screen instead of the plain text. */
 const val ROSARY_ID = "rosary"
 
-/** The least time on one bead of the Rosary before Next opens. */
+/** The least time on one bead of the Rosary before Next opens, when waiting on each bead is switched on. */
 private const val ROSARY_BEAD_MILLIS = 10_000
 
 /**
- * The Rosary, bead by bead. Next goes on one bead at a time, and only after at least ten seconds on a bead, so no
- * bead is skipped or rushed. The card shows the mystery and the prayer of the bead, so the beads can be followed
- * without knowing the prayers.
+ * The Rosary, bead by bead. Next goes on one bead at a time; with waiting on each bead switched on (Settings), only
+ * after at least ten seconds on a bead, so no bead is rushed. Tapping a bead goes to its prayer. The card shows the
+ * mystery and the prayer of the bead, so the beads can be followed without knowing the prayers. Where the prayer is
+ * stays kept for the rest of the day, also when the screen is left and opened again.
  */
 @Composable
 fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
@@ -96,25 +104,34 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
     val lang = LocalLanguage.current
     val scope = rememberCoroutineScope()
     val haptics = LocalHapticFeedback.current
+    val settings = LocalSettings.current
     val c = AgapeTheme.colors
-    var setIndex by rememberSaveable { mutableIntStateOf(MysterySet.forDay(LocalDate.now().dayOfWeek).ordinal) }
-    var step by rememberSaveable { mutableIntStateOf(0) }
-    var finished by rememberSaveable { mutableStateOf(false) }
+    val today = remember { LocalDate.now() }
+    val saved = remember { container.prayerProgress.rosary()?.takeIf { it.resumableOn(today.toEpochDay()) } }
+    var setIndex by rememberSaveable { mutableIntStateOf(saved?.set?.ordinal ?: MysterySet.forDay(today.dayOfWeek).ordinal) }
+    var step by rememberSaveable { mutableIntStateOf(saved?.step ?: 0) }
+    var finished by rememberSaveable { mutableStateOf(saved?.finished ?: false) }
+    LaunchedEffect(setIndex, step, finished) {
+        container.prayerProgress.saveRosary(RosaryProgress(MysterySet.entries[setIndex], step, finished, today.toEpochDay()))
+    }
     val set = MysterySet.entries[setIndex]
     val mysteries = Rosary.mysteries.getValue(set)
     val steps = Rosary.steps
     val current = steps[step]
-    agape.app.notifications.QuietWhilePraying()
+    QuietWhilePraying()
     val title = stringResource(R.string.rosary_title)
 
     fun go(to: Int) {
-        if (to in steps.indices) { step = to; haptics.performHapticFeedback(HapticFeedbackType.TextHandleMove) }
+        if (to in steps.indices) {
+            step = to
+            if (settings.prayerVibration) haptics.performHapticFeedback(HapticFeedbackType.TextHandleMove)
+        }
     }
     fun next() {
         if (step < steps.lastIndex) go(step + 1)
         else if (!finished) {
             finished = true
-            haptics.performHapticFeedback(HapticFeedbackType.LongPress)
+            if (settings.prayerVibration) haptics.performHapticFeedback(HapticFeedbackType.LongPress)
             scope.launch { container.user.markPrayed("rosary", title) }
         }
     }
@@ -144,6 +161,10 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
             RosaryBeads(
                 step = step,
                 finished = finished,
+                onBead = { bead ->
+                    val to = Rosary.firstStepOn(bead)
+                    if (to >= 0 && (to != step || finished)) { finished = false; go(to) }
+                },
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 8.dp),
             )
 
@@ -168,7 +189,7 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
             PaceButton(
                 stringResource(if (step == steps.lastIndex) R.string.rosary_amen else R.string.rosary_next),
                 waiting = stringResource(R.string.pace_praying),
-                minMillis = ROSARY_BEAD_MILLIS, step = step, onClick = ::next,
+                minMillis = if (settings.paceWait) ROSARY_BEAD_MILLIS else 0, step = step, onClick = ::next,
                 modifier = Modifier.weight(1f), enabled = !finished,
             )
         }
@@ -288,6 +309,12 @@ private class BeadLayout(w: Float) {
         height = y + w * 0.11f
     }
 
+    /** The bead under [point], the nearest within [touch] of its edge, or null when no bead is that close. */
+    fun beadAt(point: Offset, touch: Float): Int? = centers.indices
+        .map { b -> b to ((centers[b]!! - point).getDistance() - radiusOf(b)) }
+        .filter { (_, gap) -> gap <= touch }
+        .minByOrNull { (_, gap) -> gap }?.first
+
     fun radiusOf(b: Int) = when (Rosary.kind(b)) {
         BeadKind.SMALL -> small
         BeadKind.LARGE -> large
@@ -297,7 +324,7 @@ private class BeadLayout(w: Float) {
 }
 
 @Composable
-private fun RosaryBeads(step: Int, finished: Boolean, modifier: Modifier = Modifier) {
+private fun RosaryBeads(step: Int, finished: Boolean, onBead: (Int) -> Unit, modifier: Modifier = Modifier) {
     val c = AgapeTheme.colors
     val currentBead = Rosary.steps[step].bead
     // Beads already prayed: every bead of an earlier step, plus the current one once it is done.
@@ -307,15 +334,19 @@ private fun RosaryBeads(step: Int, finished: Boolean, modifier: Modifier = Modif
         beads
     }
     val pulse by rememberInfiniteTransition(label = "bead").animateFloat(0.55f, 1f, infiniteRepeatable(tween(1100), RepeatMode.Reverse), label = "pulse")
-    val label = stringResource(R.string.rosary_beads_description)
+    val label = stringResource(R.string.rosary_beads_description, step + 1, Rosary.steps.size)
     BoxWithConstraints(modifier) {
-        val density = androidx.compose.ui.platform.LocalDensity.current
+        val density = LocalDensity.current
         val wPx = with(density) { maxWidth.toPx() }
         val layout = remember(wPx) { BeadLayout(wPx) }
         val heightDp = with(density) { layout.height.toDp() }
+        val touch = with(density) { 22.dp.toPx() }
         Canvas(
             Modifier.fillMaxWidth().height(heightDp)
-                .semantics { contentDescription = label },
+                .semantics { contentDescription = label }
+                .pointerInput(layout) {
+                    detectTapGestures { tap -> layout.beadAt(tap, touch)?.let(onBead) }
+                },
         ) {
             val chain = c.accent.copy(alpha = 0.45f)
             val stroke = 1.2.dp.toPx()

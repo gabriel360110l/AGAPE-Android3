@@ -472,7 +472,7 @@ def build_agpeya():
 
 
 EXTRA_PRAYER_TRADITIONS = {
-    "jezusgebed": [EO, OO], "onze-vader": ALL, "geloof": [EO, OO], "trisagion": [EO, OO],
+    "jezusgebed": [EO, OO], "onze-vader": [EO], "geloof": [EO, OO], "trisagion": [EO, OO],
     "theotokos": ALL, "efrem": [EO, OO], "lezen": ALL, "psalm50": ALL, "morgen": [EO, OO],
     "avond": [EO, OO], "pascha": [EO, OO], "optel": ALL,
 }
@@ -492,6 +492,29 @@ def build_extra_prayers():
         "subtitle": tr(p.get("kickerEn"), p.get("kicker")),
         "body": {"en": p.get("bodyEn") or p.get("body"), "nl": p.get("body") or p.get("bodyEn")},
     } for p in legacy]
+    # The Our Father in the words each tradition prays it (texts and sources: tools/source/common_prayers_nl.json).
+    common = {c["id"]: c["text"] for c in read_json(os.path.join(SRC, "common_prayers_nl.json"))["prayers"]}
+    at = next(i for i, p in enumerate(out) if p["id"] == "our-father") + 1
+    out[at:at] = [
+        {
+            "id": "our-father-oo", "traditions": [OO],
+            "title": tr("Our Father", "Onze Vader"),
+            "subtitle": tr("As prayed in the Agpeya", "Zoals gebeden in de Agpeya"),
+            "body": {
+                "en": ["Our Father who art in heaven, hallowed be Thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one, in Christ Jesus our Lord. For Thine is the kingdom, the power, and the glory, forever. Amen."],
+                "nl": [common["oo-our-father"]],
+            },
+        },
+        {
+            "id": "our-father-ca", "traditions": [CA],
+            "title": tr("Our Father", "Onze Vader"),
+            "subtitle": tr("Matthew 6:9–13", "Matteüs 6:9–13"),
+            "body": {
+                "en": ["Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."],
+                "nl": [common["ca-our-father"]],
+            },
+        },
+    ]
     # The Catholic form of the Creed (with the Filioque) and common Catholic prayers.
     out += [
         {
@@ -520,12 +543,12 @@ def build_extra_prayers():
         {
             "id": "hail-mary", "traditions": [CA],
             "title": tr("Hail Mary", "Weesgegroet"),
-            "subtitle": tr("The Angelic Salutation", "De engelse groet"),
+            "subtitle": tr("The Angelic Salutation", "De Engelse groet"),
             "body": {
                 "en": ["Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.",
                        "Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."],
-                "nl": ["Wees gegroet, Maria, vol van genade, de Heer is met U. Gezegend zijt Gij boven alle vrouwen, en gezegend is Jezus, de vrucht van uw schoot.",
-                       "Heilige Maria, Moeder van God, bid voor ons, zondaars, nu en in het uur van onze dood. Amen."],
+                "nl": ["Wees gegroet, Maria, vol van genade, de Heer is met U. Gij zijt de gezegende onder de vrouwen, en gezegend is Jezus, de vrucht van uw schoot.",
+                       "Heilige Maria, Moeder van God, bid voor ons zondaars, nu en in het uur van onze dood. Amen."],
             },
         },
         {
@@ -553,14 +576,14 @@ def build_extra_prayers():
                        "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
                        "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.",
                        "Through the prayers of our holy fathers, Lord Jesus Christ our God, have mercy on us. Amen."],
-                "nl": ["Eer zij U, onze God, eer zij U.",
-                       "Hemelse Koning, Trooster, Geest der waarheid, die overal aanwezig bent en alles vervult, Schatkamer van het goede en Gever van het leven: kom en woon in ons, reinig ons van alle smet en red, o Goede, onze zielen.",
+                "nl": ["Eer aan U, onze God, eer aan U.",
+                       "Hemelse Koning, Trooster, Geest der waarheid, Die alom tegenwoordig zijt en alles vervult, Schatkamer van het goede, en Schenker van het leven, kom en verblijf in ons, reinig ons van alle smet, en red onze zielen, o Goede.",
                        "Heilige God, heilige Sterke, heilige Onsterfelijke, ontferm U over ons. (3 maal)",
                        "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
-                       "Allerheiligste Drie-eenheid, ontferm U over ons. Heer, reinig ons van onze zonden. Meester, vergeef ons onze overtredingen. Heilige, bezoek en genees onze zwakheden, omwille van Uw Naam.",
+                       "Alheilige Drie-eenheid, ontferm U over ons; Heer, wis onze zonden uit, Meester, vergeef ons onze ongerechtigheden, Heilige, bezoek ons en genees onze zwakheden omwille van Uw Naam.",
                        "Heer, ontferm U. (3 maal)",
                        "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
-                       "Onze Vader, die in de hemelen zijt, Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren. En leid ons niet in bekoring, maar verlos ons van de boze.",
+                       "Onze Vader, Die in de hemelen zijt, Uw Naam worde geheiligd, Uw Koninkrijk kome, Uw wil geschiede, zoals in de hemel, zo ook op aarde. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij onze schuldenaren vergeven, en leid ons niet in verzoeking, maar verlos ons van de boze.",
                        "Door de gebeden van onze heilige vaders, Heer Jezus Christus, onze God, ontferm U over ons. Amen."],
             },
         },

@@ -44,7 +44,7 @@
     <string name="rosary_done_title">The Rosary is prayed</string>
     <string name="rosary_done_body">You prayed %1$s. Thank you for this time of prayer.</string>
     <string name="rosary_again">Pray again</string>
-    <string name="rosary_beads_description">Rosary beads. Tap the glowing bead for the next prayer, or any bead to go there.</string>
+    <string name="rosary_beads_description">Rosary beads: step %1$d of %2$d. Use Next and Back to move on or go back.</string>
     <string name="reader_select_hint">Tap a verse to highlight it, save it or add a note.</string>
     <string name="reader_end_of">End of %1$s</string>
     <string name="reader_previous_chapter">Previous chapter</string>
@@ -67,7 +67,7 @@
     <string name="moment_default">Time to pray</string>
     <string name="delete">Delete</string>
     <string name="day_title">My day of prayer</string>
-    <string name="day_card_hint">Hour times, the sun, own prayer moments, the church bell and quiet mode</string>
+    <string name="day_card_hint">Hour times, the sun, own prayer moments, the church bell, quiet mode and the beads</string>
     <string name="day_reminders">Reminders</string>
     <string name="day_reminders_hint">The church bell rings at the hours you choose below.</string>
     <string name="day_test_bell">Hear the church bell</string>
@@ -94,6 +94,11 @@
     <string name="day_quiet_hint">While an hour, a prayer or a prayer rope is open, calls and messages stay silent and the screen stays on.</string>
     <string name="day_quiet_allow">Allow in Android settings</string>
     <string name="day_quiet_explain">Android lets AGAPE turn on Do Not Disturb only after you allow it once. Find AGAPE in the list and switch it on.</string>
+    <string name="day_beads">Rosary and prayer rope</string>
+    <string name="day_pace_toggle">Wait on each bead</string>
+    <string name="day_pace_hint">Next opens only after 10 seconds on a bead of the Rosary and 2 seconds on a knot, so no prayer is rushed.</string>
+    <string name="day_vibrate_toggle">Vibrate on each bead</string>
+    <string name="day_vibrate_hint">A soft tick on every bead or knot, a firmer one on every tenth.</string>
     <string name="intentions_title">Remembered in prayer</string>
     <string name="intentions_card_hint">Names of the living and the departed, read at the end of every hour</string>
     <string name="intentions_intro">As the Church remembers names at the Liturgy, these names come at the end of every hour you pray.</string>
@@ -113,6 +118,8 @@
     <string name="rope_of">of %1$d</string>
     <string name="rope_rounds">Prayed through: %1$d×</string>
     <string name="rope_restart">Start again</string>
+    <string name="rope_restart_title">Start again?</string>
+    <string name="rope_restart_text">The count goes back to 0 and the rounds prayed are cleared.</string>
     <string name="rope_chotki_about">The chotki (komboskini) is knotted of wool, each knot a small cross. On every knot the Jesus Prayer is said, slowly, with the breath; on the beads, the Mother of God is asked to pray for us.</string>
     <string name="fast_info_none">An ordinary day without a fast. A good day to give thanks and keep the hours of prayer.</string>
     <string name="fast_info_free">A time of joy: the Church does not fast on these days, not even on Wednesday and Friday.</string>

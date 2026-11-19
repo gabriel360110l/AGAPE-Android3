@@ -1,0 +1,179 @@
+{
+ "_about": "The one Dutch text of each prayer the app shares across screens and traditions, with its source. tools/common_prayers.py writes these over every older variant in tools/source and the content assets; PrayerTextTest checks that no older variant comes back. A prayer is only rewritten in the files of its own tradition (see SCOPE in tools/common_prayers.py); Catholic texts everywhere.",
+ "prayers": [
+  {
+   "id": "ca-our-father",
+   "tradition": "CATHOLIC",
+   "text": "Onze Vader, die in de hemel zijt, uw naam worde geheiligd, uw rijk kome, uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood en vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren, en breng ons niet in beproeving maar verlos ons van het kwade. Amen.",
+   "source": "Common text of the Dutch and Flemish bishops, in use since 27 November 2016; rkkerk.nl, Handleiding voor het bidden van de rozenkrans (https://www.rkkerk.nl/wp-content/uploads/2017/12/Handleiding-voor-het-bidden-van-de-rozenkrans.pdf)",
+   "variants": [
+    "Onze Vader, die in de hemel zijt, uw naam worde geheiligd, uw rijk kome, uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schuld, zoals ook wij aan anderen hun schuld vergeven, en breng ons niet in beproeving, maar verlos ons van het kwade. Amen."
+   ]
+  },
+  {
+   "id": "ca-hail-mary",
+   "tradition": "CATHOLIC",
+   "text": "Wees gegroet, Maria, vol van genade, de Heer is met U. Gij zijt de gezegende onder de vrouwen, en gezegend is Jezus, de vrucht van uw schoot. Heilige Maria, Moeder van God, bid voor ons zondaars, nu en in het uur van onze dood. Amen.",
+   "source": "The form used in the Netherlands; rkkerk.nl, Handleiding voor het bidden van de rozenkrans; nl.wikipedia.org/wiki/Weesgegroet (Nederlandse versie)",
+   "variants": [
+    "Wees gegroet, Maria, vol van genade, de Heer is met U. Gezegend zijt Gij boven alle vrouwen, en gezegend is Jezus, de vrucht van uw schoot. Heilige Maria, Moeder van God, bid voor ons, zondaars, nu en in het uur van onze dood. Amen."
+   ],
+   "fragments": [
+    [
+     "Gezegend zijt Gij boven alle vrouwen",
+     "Gij zijt de gezegende onder de vrouwen"
+    ],
+    [
+     "Moeder van God, bid voor ons, zondaars,",
+     "Moeder van God, bid voor ons zondaars,"
+    ]
+   ]
+  },
+  {
+   "id": "ca-glory-be",
+   "tradition": "CATHOLIC",
+   "text": "Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin en nu en altijd en in de eeuwen der eeuwen. Amen.",
+   "source": "rkkerk.nl, Handleiding voor het bidden van de rozenkrans; the same words as the Dutch Getijdengebed",
+   "variants": [
+    "Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin, en nu en altijd, en in de eeuwen der eeuwen. Amen."
+   ]
+  },
+  {
+   "id": "ca-fatima",
+   "tradition": "CATHOLIC",
+   "text": "O mijn Jezus, vergeef ons onze zonden, behoed ons voor het vuur van de hel, breng alle zielen naar de hemel, vooral diegenen die Uw barmhartigheid het meeste nodig hebben.",
+   "source": "rkkerk.nl, Handleiding voor het bidden van de rozenkrans",
+   "variants": [],
+   "fragments": [
+    [
+     "vooral die uw barmhartigheid het meest nodig hebben.",
+     "vooral diegenen die Uw barmhartigheid het meeste nodig hebben."
+    ]
+   ]
+  },
+  {
+   "id": "ca-salve-regina",
+   "tradition": "CATHOLIC",
+   "text": "Wees gegroet, Koningin, Moeder van barmhartigheid, ons leven, onze vreugde en onze hoop, wees gegroet. Tot u roepen wij, ballingen, kinderen van Eva; tot u smeken wij, zuchtend en wenend in dit dal van tranen. Daarom dan, onze voorspreekster, sla op ons uw barmhartige ogen, en toon ons na deze ballingschap Jezus, de gezegende vrucht van uw schoot. O goedertieren, o liefdevolle, o zoete Maagd Maria.",
+   "source": "Nationale Raad voor Liturgie (Vlaanderen) via Kerknet; KRO-NCRV gebeden; cantica.be",
+   "variants": [],
+   "fragments": [
+    [
+     "Tot U roepen wij, ballingen, kinderen van Eva; tot U smeken wij",
+     "Tot u roepen wij, ballingen, kinderen van Eva; tot u smeken wij"
+    ],
+    [
+     "Daarom dan, onze Voorspreekster,",
+     "Daarom dan, onze voorspreekster,"
+    ]
+   ]
+  },
+  {
+   "id": "eo-our-father",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Onze Vader, Die in de hemelen zijt, Uw Naam worde geheiligd, Uw Koninkrijk kome, Uw wil geschiede, zoals in de hemel, zo ook op aarde. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij onze schuldenaren vergeven, en leid ons niet in verzoeking, maar verlos ons van de boze.",
+   "source": "Orthodox Klooster Asten, Horologion (orthodoxasten.nl, Kleine Completen); Goddelijke Liturgie van Johannes Chrysostomos, orthodoxdomein.nl (Liturgie-NL-Johannes-Chrysostomos.pdf)",
+   "variants": [
+    "Onze Vader, die in de hemelen zijt, Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren. En leid ons niet in bekoring, maar verlos ons van de boze.",
+    "Onze Vader, Die in de hemelen zijt! Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede, gelijk in den hemel, alzo ook op de aarde. Geef ons heden ons dagelijks brood. En vergeef ons onze schulden, gelijk ook wij vergeven onzen schuldenaren. En leid ons niet in verzoeking, maar verlos ons van den boze."
+   ]
+  },
+  {
+   "id": "oo-our-father",
+   "tradition": "ORIENTAL_ORTHODOX",
+   "text": "Onze Vader die in de hemelen zijt, Uw Naam worde geheiligd, Uw koninkrijk kome, Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij onze schuldenaars vergeven. En leid ons niet in bekoring, maar verlos ons van het kwade. Door Jezus Christus, onze Heer. Want van U is het koninkrijk en de kracht en de heerlijkheid in eeuwigheid. Amen.",
+   "source": "Koptisch-Orthodoxe Kerk Utrecht, De Heilige Liturgie (koptischeorthodoekerkutrecht.jouwweb.nl)",
+   "variants": [
+    "Onze Vader, die in de hemelen zijt, Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood. En vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren. En leid ons niet in bekoring, maar verlos ons van de boze, in Christus Jezus onze Heer. Want van U is het Koninkrijk en de kracht en de heerlijkheid in eeuwigheid. Amen.",
+    "Onze Vader, Die in de hemel zijt, Uw Naam worde geheiligd. Uw koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij onze schuldenaars vergeven, en leid ons niet in bekoring, maar verlos ons van het kwade. Door Jezus Christus, onze Heer. Want van U is het koninkrijk en de kracht en de heerlijkheid in eeuwigheid. Amen."
+   ]
+  },
+  {
+   "id": "eo-heavenly-king",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Hemelse Koning, Trooster, Geest der waarheid, Die alom tegenwoordig zijt en alles vervult, Schatkamer van het goede, en Schenker van het leven, kom en verblijf in ons, reinig ons van alle smet, en red onze zielen, o Goede.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos; Orthodox Klooster Asten, Horologion",
+   "variants": [
+    "Hemelse Koning, Trooster, Geest der waarheid, die overal aanwezig bent en alles vervult, Schatkamer van het goede en Gever van het leven: kom en woon in ons, reinig ons van alle smet en red, o Goede, onze zielen.",
+    "Hemelse Koning, Trooster, Geest der waarheid, Die alom tegenwoordig zijt en alles vervult, Schat der goeden en Gever des levens, kom en woon in ons, en reinig ons van alle smet, en verlos, o Goede, onze zielen."
+   ]
+  },
+  {
+   "id": "eo-all-holy-trinity",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Alheilige Drie-eenheid, ontferm U over ons; Heer, wis onze zonden uit, Meester, vergeef ons onze ongerechtigheden, Heilige, bezoek ons en genees onze zwakheden omwille van Uw Naam.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos; Orthodox Klooster Asten, Horologion",
+   "variants": [
+    "Allerheiligste Drie-eenheid, ontferm U over ons. Heer, reinig ons van onze zonden. Meester, vergeef ons onze overtredingen. Heilige, bezoek en genees onze zwakheden, omwille van Uw Naam.",
+    "Allerheiligste Drie-eenheid, ontferm U over ons. Heere, reinig onze zonden. Meester, vergeef onze ongerechtigheden. Heilige, bezoek en genees onze gebreken, om Uws Naams wil."
+   ]
+  },
+  {
+   "id": "eo-glory-to-thee",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Eer aan U, onze God, eer aan U.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos",
+   "variants": [
+    "Eer zij U, onze God, eer zij U.",
+    "Eer aan U, onzen God, eer aan U."
+   ]
+  },
+  {
+   "id": "eo-trisagion",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Heilige God, heilige Sterke, heilige Onsterfelijke, ontferm U over ons.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos",
+   "variants": [
+    "Heilige God, Heilige Sterke, Heilige Onsterfelijke, ontferm U over ons."
+   ]
+  },
+  {
+   "id": "eo-glory-be",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
+   "source": "The form used throughout the app's Horologion and by Dutch Orthodox parishes (orthodox-amsterdam.nl)",
+   "variants": [
+    "Eer aan den Vader, en den Zoon, en den Heiligen Geest, nu en altijd en in de eeuwen der eeuwen. Amen."
+   ]
+  },
+  {
+   "id": "jesus-prayer",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Heer Jezus Christus, Zoon van God, ontferm U over mij, zondaar.",
+   "source": "orthodox-amersfoort.nl, Jezusgebed; the same words as PrayerRope.kt",
+   "variants": [
+    "Heere Jezus Christus, Zoon van God, ontferm U over mij, zondaar."
+   ],
+   "fragments": [
+    [
+     "Heere Jezus Christus",
+     "Heer Jezus Christus"
+    ]
+   ]
+  },
+  {
+   "id": "eo-through-the-prayers",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Door de gebeden van onze heilige vaders, Heer Jezus Christus, onze God, ontferm U over ons. Amen.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos",
+   "variants": [
+    "Door de gebeden van onze heilige vaderen, Heere Jezus Christus onze God, ontferm U over ons. Amen."
+   ],
+   "fragments": [
+    [
+     "Heere, ontferm U.",
+     "Heer, ontferm U."
+    ]
+   ]
+  },
+  {
+   "id": "sign-of-the-cross-eo",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "In de Naam van de Vader en de Zoon en de Heilige Geest. Amen.",
+   "source": "The form already used in the app's Horologion",
+   "variants": [
+    "In den naam des Vaders, en des Zoons, en des Heiligen Geestes. Amen."
+   ]
+  }
+ ]
+}

@@ -36,8 +36,8 @@
     <string name="tradition_eo">Oosters-Orthodox</string>
     <string name="tradition_oo">Oriëntaals-Orthodox</string>
     <string name="tradition_ca">Katholiek</string>
-    <string name="tradition_eo_desc">Grieks-, Russisch-, Servisch-, Roemeens-, Antiochisch-Orthodox en andere. Horologion, canon van de Septuagint, zeven Oecumenische Concilies.</string>
-    <string name="tradition_oo_desc">Koptische, Syrische, Armeense, Ethiopische, Eritrese en Malankara-kerken. Agpeya, Koptische canon, drie Oecumenische Concilies.</string>
+    <string name="tradition_eo_desc">Grieks-, Russisch-, Servisch-, Roemeens-, Antiochisch-Orthodox en andere. Horologion, canon van de Septuagint, zeven oecumenische concilies.</string>
+    <string name="tradition_oo_desc">Koptische, Syrische, Armeense, Ethiopische, Eritrese en Malankara-kerken. Agpeya, Koptische canon, drie oecumenische concilies.</string>
     <string name="tradition_ca_desc">De Latijnse Kerk en de Oosters-Katholieke Kerken. Getijdengebed, canon van 73 boeken, alle 21 oecumenische concilies.</string>
     <string name="tradition_change_later">Je kunt dit later wijzigen in Instellingen.</string>
     <string name="style_title">Kies een stijl</string>
