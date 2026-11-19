@@ -140,8 +140,13 @@ fun rememberPrayerCounter(
 
 /** The whole of a counter as one tap target: a tap says one prayer. With [counterSemantics] for TalkBack. */
 fun Modifier.counterTapArea(state: CounterState, description: String, tapLabel: String, backLabel: String): Modifier =
-    pointerInput(state) { detectTapGestures { state.tap() } }
-        .counterSemantics(state, description, tapLabel, backLabel)
+    counterTaps(state).counterSemantics(state, description, tapLabel, backLabel)
+
+/**
+ * Taps only, for a large area such as a whole screen whose texts TalkBack should still read one by one; the counter
+ * itself then carries [counterSemantics]. Buttons inside keep their own taps.
+ */
+fun Modifier.counterTaps(state: CounterState): Modifier = pointerInput(state) { detectTapGestures { state.tap() } }
 
 /**
  * What TalkBack says of every counter: [description] (the prayer and how far), read again when it changes; a double

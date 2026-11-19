@@ -94,7 +94,7 @@ class PrayerCounterTest {
     }
 
     @Test fun ropeMarkersOnEveryTenthKnotAndTheEnd() {
-        val c = counter(33, AtEnd.WRAP) { PrayerRope.isBead(it.done) || it.complete }
+        val c = counter(33, AtEnd.WRAP) { PrayerRope.isMarker(it.done, 10) || it.complete }
         repeat(33) { c.tap() }
         val marks = felt.withIndex().filter { it.value == Buzz.MARK }.map { it.index + 1 }
         assertEquals(listOf(10, 20, 30, 33), marks)

@@ -1,6 +1,12 @@
 package agape.app.ui.prayer
 
 import agape.app.R
+import agape.app.data.rosary.RosaryPrayer
+import agape.app.data.rosary.Mystery
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.foundation.layout.offset
+import androidx.compose.ui.unit.Dp
 import agape.app.core.model.Passage
 import agape.app.data.rosary.BeadKind
 import agape.app.data.rosary.MysterySet
@@ -27,7 +33,6 @@ import agape.app.ui.components.Kicker
 import agape.app.ui.components.Ornament
 import agape.app.ui.components.Pill
 import agape.app.ui.components.PaceButton
-import agape.app.ui.components.ProgressLine
 import agape.app.ui.components.QuietButton
 import agape.app.ui.passageLabel
 import agape.app.ui.theme.AgapeTheme
@@ -130,6 +135,8 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
     val mysteries = Rosary.mysteries.getValue(set)
     val current = steps[step]
     var quiet by rememberSaveable { mutableStateOf(false) }
+    // Whether the prayers are shown in full; it stays as chosen from bead to bead.
+    var expanded by rememberSaveable { mutableStateOf(false) }
     val kicker = stepKicker(current)
     val description = stringResource(R.string.counter_a11y, "$title, $kicker", step + 1, steps.size)
     QuietWhilePraying()
@@ -138,70 +145,90 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
         QuietCounter(
             counter,
             headline = if (finished) stringResource(R.string.rosary_done_title) else kicker,
-            detail = if (finished) set.title[lang] else current.prayers.joinToString(" · ") { it.title[lang] },
+            detail = if (finished) set.title[lang] else shownPrayers(current, settings.rosaryFatima).joinToString(" · ") { it.title[lang] },
             text = null, description = description, onExit = { quiet = false },
         )
         return
     }
 
-    Column(Modifier.fillMaxSize()) {
-        DetailTopBar(title, onBack) { QuietModeButton { quiet = true } }
-        Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
-            Row(
-                Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 4.dp),
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
-            ) {
-                MysterySet.entries.forEach { s ->
-                    Pill(shortSetName(s), s == set, { setIndex = s.ordinal })
+    BoxWithConstraints(Modifier.fillMaxSize()) {
+        val screenH = maxHeight
+        Column(Modifier.fillMaxSize()) {
+            DetailTopBar(title, onBack) { QuietModeButton { quiet = true } }
+            Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
+                Row(
+                    Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 2.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    val todays = stringResource(R.string.rosary_today)
+                    MysterySet.entries.forEach { s ->
+                        val today = s == MysterySet.forDay(LocalDate.now().dayOfWeek)
+                        Pill(shortSetName(s) + if (today) " · $todays" else "", s == set, { setIndex = s.ordinal })
+                    }
                 }
-            }
-            Text(
-                set.title[lang] + if (set == MysterySet.forDay(LocalDate.now().dayOfWeek)) " · " + stringResource(R.string.rosary_today) else "",
-                style = MaterialTheme.typography.bodySmall, color = c.inkMuted,
-                modifier = Modifier.padding(horizontal = 20.dp, vertical = 6.dp),
-            )
+                // The ring gets at most about two fifths of the screen, so the prayer below it is read without scrolling.
+                RosaryBeads(
+                    step = step,
+                    finished = finished,
+                    maxHeight = (screenH * 0.40f).coerceAtLeast(200.dp),
+                    onBead = { bead ->
+                        val to = Rosary.firstStepOn(bead)
+                        if (to >= 0 && (to != step || finished)) counter.jump(to)
+                    },
+                    modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 2.dp)
+                        .counterSemantics(counter, description, stringResource(R.string.counter_tap), stringResource(R.string.counter_back)),
+                ) {
+                    RingCentre(
+                        kicker = if (finished) stringResource(R.string.rosary_done_title) else kicker,
+                        mystery = current.decade?.let { mysteries[it].title[lang] } ?: set.title[lang],
+                        prayer = if (finished) "" else shownPrayers(current, settings.rosaryFatima).joinToString(" · ") { it.title[lang] },
+                    )
+                }
 
-            Row(Modifier.padding(horizontal = 20.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-                ProgressLine(if (finished) 1f else step / steps.lastIndex.toFloat(), Modifier.weight(1f))
-                Spacer(Modifier.width(10.dp))
-                Text(stringResource(R.string.rosary_step_of, step + 1, steps.size), style = MaterialTheme.typography.labelMedium, color = c.inkMuted)
+                val still = rememberReduceMotion()
+                AnimatedContent(
+                    targetState = step to finished,
+                    transitionSpec = { if (still) EnterTransition.None togetherWith ExitTransition.None else fadeIn(tween(220)) togetherWith fadeOut(tween(160)) },
+                    label = "step",
+                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 6.dp),
+                ) { (s, done) ->
+                    if (done) FinishedCard(set.title[lang]) { counter.reset() }
+                    else StepCard(steps[s], mysteries, set, settings.rosaryFatima, expanded, { expanded = it }, openPassage)
+                }
+                Spacer(Modifier.height(12.dp))
             }
-            RosaryBeads(
-                step = step,
-                finished = finished,
-                onBead = { bead ->
-                    val to = Rosary.firstStepOn(bead)
-                    if (to >= 0 && (to != step || finished)) counter.jump(to)
-                },
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 8.dp)
-                    .counterSemantics(counter, description, stringResource(R.string.counter_tap), stringResource(R.string.counter_back)),
-            )
 
-            val still = rememberReduceMotion()
-            AnimatedContent(
-                targetState = step to finished,
-                transitionSpec = { if (still) EnterTransition.None togetherWith ExitTransition.None else fadeIn(tween(220)) togetherWith fadeOut(tween(160)) },
-                label = "step",
-                modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
-            ) { (s, done) ->
-                if (done) FinishedCard(set.title[lang]) { counter.reset() }
-                else StepCard(steps[s], mysteries, set, openPassage)
+            Row(
+                Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(horizontal = 16.dp, vertical = 8.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                QuietButton(stringResource(R.string.rosary_previous), { counter.back() })
+                Spacer(Modifier.width(8.dp))
+                PaceButton(
+                    stringResource(if (step == steps.lastIndex) R.string.rosary_amen else R.string.rosary_next),
+                    waiting = stringResource(R.string.pace_praying),
+                    minMillis = if (settings.paceWait) ROSARY_BEAD_MILLIS.toInt() else 0, step = counter.count, onClick = { counter.tap() },
+                    modifier = Modifier.weight(1f), enabled = !finished,
+                )
             }
-            Spacer(Modifier.height(12.dp))
         }
+    }
+}
 
-        Row(
-            Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(horizontal = 16.dp, vertical = 10.dp),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            QuietButton(stringResource(R.string.rosary_previous), { counter.back() })
-            Spacer(Modifier.width(8.dp))
-            PaceButton(
-                stringResource(if (step == steps.lastIndex) R.string.rosary_amen else R.string.rosary_next),
-                waiting = stringResource(R.string.pace_praying),
-                minMillis = if (settings.paceWait) ROSARY_BEAD_MILLIS.toInt() else 0, step = counter.count, onClick = { counter.tap() },
-                modifier = Modifier.weight(1f), enabled = !finished,
-            )
+/** The prayers of a step as shown: without the Fatima prayer when it is switched off (the count stays the same). */
+private fun shownPrayers(s: RosaryStep, fatima: Boolean) = if (fatima) s.prayers else s.prayers.filter { it != RosaryPrayer.FATIMA }
+
+/** Inside the ring: where we are (the mystery, which decade and bead) and the prayer of this bead. */
+@Composable
+private fun RingCentre(kicker: String, mystery: String, prayer: String) {
+    val c = AgapeTheme.colors
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(kicker.uppercase(), style = MaterialTheme.typography.labelSmall, color = c.accent, textAlign = TextAlign.Center, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Spacer(Modifier.height(2.dp))
+        Text(mystery, style = MaterialTheme.typography.titleSmall, color = c.ink, textAlign = TextAlign.Center, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        if (prayer.isNotEmpty()) {
+            Spacer(Modifier.height(2.dp))
+            Text(prayer, style = MaterialTheme.typography.labelMedium, color = c.primary, textAlign = TextAlign.Center, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
     }
 }
@@ -231,46 +258,45 @@ private fun shortSetName(s: MysterySet): String = stringResource(
     },
 )
 
+/**
+ * The card under the ring: the intention of the bead, its prayers (the first lines, the whole prayer on request) and,
+ * in a decade, the meditation: the scripture of the mystery and its fruit.
+ */
 @Composable
-private fun StepCard(s: RosaryStep, mysteries: List<agape.app.data.rosary.Mystery>, set: MysterySet, openPassage: (Passage) -> Unit) {
+private fun StepCard(
+    s: RosaryStep, mysteries: List<Mystery>, set: MysterySet, fatima: Boolean,
+    expanded: Boolean, onExpand: (Boolean) -> Unit, openPassage: (Passage) -> Unit,
+) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val c = AgapeTheme.colors
     AgapeCard {
-        val kicker = stepKicker(s)
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Kicker(kicker, Modifier.weight(1f))
-            // Five dots: the decades, filled as they are prayed.
-            Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
-                repeat(5) { d ->
-                    val on = (s.decade != null && d <= s.decade) || s.bead == Rosary.MEDAL
-                    Box(Modifier.size(7.dp).clip(CircleShape).background(if (on) c.accent else c.line))
-                }
-            }
+        s.intention?.let {
+            Text(it[lang], style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
+            Spacer(Modifier.height(8.dp))
         }
+        shownPrayers(s, fatima).forEachIndexed { i, p ->
+            if (i > 0) Spacer(Modifier.height(10.dp))
+            Text(p.title[lang], style = MaterialTheme.typography.titleSmall, color = c.primary)
+            Spacer(Modifier.height(4.dp))
+            Text(
+                p.text[lang], style = AgapeTheme.type.scripture, color = c.ink,
+                maxLines = if (expanded) Int.MAX_VALUE else 3, overflow = TextOverflow.Ellipsis,
+            )
+        }
+        QuietButton(stringResource(if (expanded) R.string.rosary_text_less else R.string.rosary_text_more), { onExpand(!expanded) })
         s.decade?.let { d ->
             val m = mysteries[d]
-            Spacer(Modifier.height(8.dp))
-            Text(m.title[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink)
-            if (s.announce) {
-                m.passage?.let { Passage.parse(it) }?.let { p ->
-                    QuietButton(stringResource(R.string.rosary_read, container.passageLabel(p, lang)), { openPassage(p) })
-                }
+            Box(Modifier.fillMaxWidth().padding(vertical = 6.dp).height(1.dp).background(c.line))
+            Kicker(stringResource(R.string.rosary_meditation))
+            Spacer(Modifier.height(4.dp))
+            Text(stringResource(R.string.rosary_fruit, m.fruit[lang]), style = MaterialTheme.typography.bodyMedium, color = c.ink)
+            Passage.parse(m.passage)?.let { p ->
+                QuietButton(stringResource(R.string.rosary_read, container.passageLabel(p, lang)), { openPassage(p) })
             }
-        }
-        s.intention?.let {
-            Spacer(Modifier.height(6.dp))
-            Text(it[lang], style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
-        }
-        s.prayers.forEach { p ->
-            Spacer(Modifier.height(14.dp))
-            Text(p.title[lang], style = MaterialTheme.typography.titleMedium, color = c.primary)
-            Spacer(Modifier.height(6.dp))
-            Text(p.text[lang], style = AgapeTheme.type.scripture, color = c.ink)
-        }
-        if (set == MysterySet.GLORIOUS && s.decade == 3 && s.announce) {
-            Spacer(Modifier.height(8.dp))
-            Text(stringResource(R.string.rosary_assumption_note), style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
+            if (set == MysterySet.GLORIOUS && d == 3) {
+                Text(stringResource(R.string.rosary_assumption_note), style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
+            }
         }
     }
 }
@@ -290,42 +316,58 @@ private fun FinishedCard(setTitle: String, onAgain: () -> Unit) {
     }
 }
 
-/** Where each bead sits, in a box of width [w]: the loop above, the pendant and crucifix below. */
-private class BeadLayout(w: Float) {
-    val small = w * 0.017f
-    val large = w * 0.028f
+/**
+ * Where each bead sits: the loop as an oval of half-width [rx] (wider than high, so it leaves room inside for the
+ * words and stays low), the medal at its bottom, the pendant and crucifix hanging below, in a box of width [w]. All
+ * sizes follow [rx], so a smaller ring is the same rosary, only smaller.
+ */
+private class BeadLayout(w: Float, val rx: Float) {
+    val ry = rx * 0.66f
+    val small = rx * 0.030f
+    val large = rx * 0.048f
     val cx = w / 2
-    val radius = w * 0.40f
-    val cy = radius + large * 2
+    val cy = ry + large * 1.6f
     val centers = arrayOfNulls<Offset>(Rosary.BEAD_COUNT)
     val height: Float
 
     init {
-        // The loop: the medal at the bottom, then the five decades going round clockwise on screen (to the left).
+        // The loop: the medal at the bottom, then the five decades going round clockwise on screen (to the left),
+        // spaced evenly along the oval (by length, not by angle, so the beads at the sides do not crowd).
         val loop = (7 until Rosary.BEAD_COUNT).toList()
-        fun weight(b: Int) = if (Rosary.kind(b) == BeadKind.LARGE) 1.7f else 1f
-        val medalWeight = 2.6f
+        fun weight(b: Int) = if (Rosary.kind(b) == BeadKind.LARGE) 1.8f else 1f
+        val medalWeight = 2.8f
         val total = loop.sumOf { weight(it).toDouble() }.toFloat() + medalWeight
+        val samples = 720
+        val points = (0..samples).map { i ->
+            val a = Math.PI.toFloat() / 2 + i / samples.toFloat() * 2 * Math.PI.toFloat()
+            Offset(cx + cos(a) * rx, cy + sin(a) * ry)
+        }
+        val lengths = FloatArray(samples + 1)
+        for (i in 1..samples) lengths[i] = lengths[i - 1] + (points[i] - points[i - 1]).getDistance()
+        fun at(fraction: Float): Offset {
+            val target = fraction * lengths[samples]
+            val i = lengths.indexOfFirst { it >= target }.coerceIn(1, samples)
+            val t = (target - lengths[i - 1]) / (lengths[i] - lengths[i - 1]).coerceAtLeast(1e-3f)
+            return points[i - 1] + (points[i] - points[i - 1]) * t
+        }
+        centers[Rosary.MEDAL] = points[0]
         var acc = medalWeight / 2
-        val start = Math.PI.toFloat() / 2
-        centers[Rosary.MEDAL] = Offset(cx, cy + radius)
         loop.forEach { b ->
             acc += weight(b) / 2
-            val a = start + acc / total * 2 * Math.PI.toFloat()
-            centers[b] = Offset(cx + cos(a) * radius, cy + sin(a) * radius)
+            centers[b] = at(acc / total)
             acc += weight(b) / 2
         }
         // The pendant hangs from the medal: Our Father bead 5, Hail Marys 4–2, Our Father bead 1, crucifix.
-        var y = cy + radius + large * 2.6f
+        var y = cy + ry + large * 2.2f
         for (b in listOf(5, 4, 3, 2, 1)) {
             val r = if (Rosary.kind(b) == BeadKind.LARGE) large else small
             y += r
             centers[b] = Offset(cx, y)
-            y += r + small * 1.6f
+            y += r + small * 1.1f
         }
-        y += w * 0.07f
+        y += large * 2.4f
         centers[Rosary.CRUCIFIX] = Offset(cx, y)
-        height = y + w * 0.11f
+        height = y + large * 3.6f
     }
 
     /** The bead under [point], the nearest within [touch] of its edge, or null when no bead is that close. */
@@ -340,10 +382,25 @@ private class BeadLayout(w: Float) {
         BeadKind.MEDAL -> large * 1.2f
         BeadKind.CRUCIFIX -> large * 2f
     }
+
+    companion object {
+        /** The largest ring that fits width [w] and height [maxH]. The height grows in step with [rx]. */
+        fun fitting(w: Float, maxH: Float): BeadLayout {
+            val wide = BeadLayout(w, w * 0.45f)
+            return if (wide.height <= maxH) wide else BeadLayout(w, wide.rx * maxH / wide.height)
+        }
+    }
 }
 
+/**
+ * The rosary drawn compactly, no higher than [maxHeight]; [centre] is shown inside the oval. Tapping a bead goes to
+ * its prayer.
+ */
 @Composable
-private fun RosaryBeads(step: Int, finished: Boolean, onBead: (Int) -> Unit, modifier: Modifier = Modifier) {
+private fun RosaryBeads(
+    step: Int, finished: Boolean, maxHeight: Dp, onBead: (Int) -> Unit, modifier: Modifier = Modifier,
+    centre: @Composable () -> Unit,
+) {
     val c = AgapeTheme.colors
     val currentBead = Rosary.steps[step].bead
     // Beads already prayed: every bead of an earlier step, plus the current one once it is done.
@@ -359,36 +416,44 @@ private fun RosaryBeads(step: Int, finished: Boolean, onBead: (Int) -> Unit, mod
     BoxWithConstraints(modifier) {
         val density = LocalDensity.current
         val wPx = with(density) { maxWidth.toPx() }
-        val layout = remember(wPx) { BeadLayout(wPx) }
-        val heightDp = with(density) { layout.height.toDp() }
-        val touch = with(density) { 22.dp.toPx() }
-        Canvas(
-            Modifier.fillMaxWidth().height(heightDp)
-                .pointerInput(layout) {
-                    detectTapGestures { tap -> layout.beadAt(tap, touch)?.let(onBead) }
-                },
+        val hPx = with(density) { maxHeight.toPx() }
+        val layout = remember(wPx, hPx) { BeadLayout.fitting(wPx, hPx) }
+        val touch = with(density) { 16.dp.toPx() }
+        Box(
+            Modifier.fillMaxWidth().height(with(density) { layout.height.toDp() })
+                .pointerInput(layout) { detectTapGestures { tap -> layout.beadAt(tap, touch)?.let(onBead) } },
         ) {
-            val chain = c.accent.copy(alpha = 0.45f)
-            val stroke = 1.2.dp.toPx()
-            // The chain: round the loop, and down the pendant.
-            val loopOrder = listOf(Rosary.MEDAL) + (7 until Rosary.BEAD_COUNT) + Rosary.MEDAL
-            loopOrder.zipWithNext().forEach { (a, b) -> drawLine(chain, layout.centers[a]!!, layout.centers[b]!!, stroke) }
-            listOf(Rosary.MEDAL, 5, 4, 3, 2, 1, Rosary.CRUCIFIX).zipWithNext().forEach { (a, b) ->
-                drawLine(chain, layout.centers[a]!!, layout.centers[b]!!, stroke)
+            Canvas(Modifier.fillMaxSize()) {
+                val chain = c.accent.copy(alpha = 0.45f)
+                val stroke = 1.2.dp.toPx()
+                // The chain: round the loop, and down the pendant.
+                val loopOrder = listOf(Rosary.MEDAL) + (7 until Rosary.BEAD_COUNT) + Rosary.MEDAL
+                loopOrder.zipWithNext().forEach { (a, b) -> drawLine(chain, layout.centers[a]!!, layout.centers[b]!!, stroke) }
+                listOf(Rosary.MEDAL, 5, 4, 3, 2, 1, Rosary.CRUCIFIX).zipWithNext().forEach { (a, b) ->
+                    drawLine(chain, layout.centers[a]!!, layout.centers[b]!!, stroke)
+                }
+                for (b in 0 until Rosary.BEAD_COUNT) {
+                    val center = layout.centers[b]!!
+                    val r = layout.radiusOf(b)
+                    val isCurrent = b == currentBead && !finished
+                    val done = b in prayed
+                    if (isCurrent) {
+                        drawCircle(Brush.radialGradient(listOf(c.accent.copy(alpha = 0.55f * pulse), Color.Transparent), center, r * 4.5f), r * 4.5f, center)
+                    }
+                    when (Rosary.kind(b)) {
+                        BeadKind.CRUCIFIX -> crucifix(center, r, if (done || isCurrent) c.accent else c.inkMuted)
+                        BeadKind.MEDAL -> medal(center, r, if (done || isCurrent) c.accent else c.inkMuted, c.background)
+                        else -> bead(center, if (isCurrent) r * 1.35f else r, done, isCurrent, c.accent, c.inkFaint)
+                    }
+                }
             }
-            for (b in 0 until Rosary.BEAD_COUNT) {
-                val center = layout.centers[b]!!
-                val r = layout.radiusOf(b)
-                val isCurrent = b == currentBead && !finished
-                val done = b in prayed
-                if (isCurrent) {
-                    drawCircle(Brush.radialGradient(listOf(c.accent.copy(alpha = 0.55f * pulse), Color.Transparent), center, r * 4.5f), r * 4.5f, center)
-                }
-                when (Rosary.kind(b)) {
-                    BeadKind.CRUCIFIX -> crucifix(center, r, if (done || isCurrent) c.accent else c.inkMuted)
-                    BeadKind.MEDAL -> medal(center, r, if (done || isCurrent) c.accent else c.inkMuted, c.background)
-                    else -> bead(center, if (isCurrent) r * 1.35f else r, done, isCurrent, c.accent, c.inkFaint)
-                }
+            // The words inside the oval, clear of the beads.
+            with(density) {
+                Box(
+                    Modifier.size((layout.rx * 1.45f).toDp(), (layout.ry * 1.45f).toDp())
+                        .offset((layout.cx - layout.rx * 0.725f).toDp(), (layout.cy - layout.ry * 0.725f).toDp()),
+                    contentAlignment = Alignment.Center,
+                ) { centre() }
             }
         }
     }

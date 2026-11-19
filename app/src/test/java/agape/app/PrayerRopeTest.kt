@@ -1,5 +1,6 @@
 package agape.app
 
+import agape.app.core.model.Tradition
 import agape.app.data.counter.AtEnd
 import agape.app.data.counter.PrayerCount
 import agape.app.data.rosary.PrayerRope
@@ -64,11 +65,21 @@ class PrayerRopeTest {
         assertNull(PrayerCount.decode("rubbish"))
     }
 
-    @Test fun beadEveryTenKnots() {
-        assertTrue(PrayerRope.isBead(10))
-        assertTrue(PrayerRope.isBead(40))
-        assertFalse(PrayerRope.isBead(0))
-        assertFalse(PrayerRope.isBead(41))
+    @Test fun markersFollowTheChoice() {
+        assertEquals(listOf(0, 10, 25, 33), PrayerRope.MARKER_CHOICES)
+        fun marks(size: Int, every: Int) = (1..size).filter { PrayerRope.isMarker(it, every) }
+        assertEquals(listOf(10, 20, 30), marks(33, 10))
+        assertEquals(listOf(25, 50, 75, 100), marks(100, 25))
+        assertEquals(listOf(33), marks(33, 33))
+        assertEquals(listOf(33, 66, 99), marks(100, 33))
+        assertEquals(emptyList<Int>(), marks(100, 0))
+        assertFalse(PrayerRope.isMarker(0, 10))
+    }
+
+    @Test fun onlyTheByzantineRopeHasAMarkerPrayer() {
+        assertEquals("Allerheiligste Moeder Gods, red ons.", PrayerRope.CHOTKI.markerPrayer(Tradition.EASTERN_ORTHODOX)?.nl)
+        assertNull(PrayerRope.CHOTKI.markerPrayer(Tradition.ORIENTAL_ORTHODOX))
+        assertNull(PrayerRope.CHOTKI.markerPrayer(Tradition.CATHOLIC))
     }
 
     @Test fun everyBeadCanBeTappedToItsPrayer() {

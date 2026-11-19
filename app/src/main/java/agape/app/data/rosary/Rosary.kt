@@ -21,12 +21,17 @@ enum class MysterySet(val title: L10n) {
     }
 }
 
-/** One mystery, with the passage to read before its decade (null where the mystery has no single passage). */
-data class Mystery(val title: L10n, val passage: String?)
+/**
+ * One mystery: its title, the passage to read before its decade, and its fruit (the grace asked for while it is
+ * prayed), as given in the common Catholic tradition of the Rosary. The Assumption has no narrative in Scripture; its
+ * passage is the Magnificat's "all generations will call me blessed" (Luke 1:48-49). Every passage was checked
+ * against both Bibles of the app (Statenvertaling and WEB); RosaryTest checks that each one can be opened.
+ */
+data class Mystery(val title: L10n, val passage: String, val fruit: L10n)
 
 /**
- * The prayers of the rosary. The Dutch texts are the ones in tools/source/common_prayers_nl.json (with their
- * sources); PrayerTextTest keeps the two the same.
+ * The prayers of the rosary. The Dutch texts are the ones in tools/source/common_prayers_nl.json and the English
+ * ones those in common_prayers_en.json (with their sources); PrayerTextTest and EnglishPrayerTextTest keep them the same.
  */
 enum class RosaryPrayer(val title: L10n, val text: L10n) {
     SIGN_OF_THE_CROSS(
@@ -67,7 +72,7 @@ enum class RosaryPrayer(val title: L10n, val text: L10n) {
     HAIL_MARY(
         L10n("Hail Mary", "Weesgegroet"),
         L10n(
-            "Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy " +
+            "Hail, Mary, full of grace, the Lord is with thee. Blessed art thou among women and blessed is the fruit of thy " +
                 "womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.",
             "Wees gegroet, Maria, vol van genade, de Heer is met U. Gij zijt de gezegende onder de vrouwen, en gezegend is " +
                 "Jezus, de vrucht van uw schoot. Heilige Maria, Moeder van God, bid voor ons zondaars, nu en in het uur van " +
@@ -77,8 +82,8 @@ enum class RosaryPrayer(val title: L10n, val text: L10n) {
     GLORY_BE(
         L10n("Glory Be", "Eer aan de Vader"),
         L10n(
-            "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever " +
-                "shall be, world without end. Amen.",
+            "Glory be to the Father and to the Son and to the Holy Spirit, as it was in the beginning is now, and ever " +
+                "shall be world without end. Amen.",
             "Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin en nu en altijd en in de eeuwen " +
                 "der eeuwen. Amen.",
         ),
@@ -86,8 +91,8 @@ enum class RosaryPrayer(val title: L10n, val text: L10n) {
     FATIMA(
         L10n("O my Jesus", "O mijn Jezus"),
         L10n(
-            "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those in " +
-                "most need of thy mercy.",
+            "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those who " +
+                "have most need of your mercy.",
             "O mijn Jezus, vergeef ons onze zonden, behoed ons voor het vuur van de hel, breng alle zielen naar de hemel, " +
                 "vooral diegenen die Uw barmhartigheid het meeste nodig hebben.",
         ),
@@ -193,32 +198,32 @@ object Rosary {
 
     val mysteries: Map<MysterySet, List<Mystery>> = mapOf(
         MysterySet.JOYFUL to listOf(
-            Mystery(L10n("The Annunciation", "De boodschap van de engel aan Maria"), "LUK 1:26-38"),
-            Mystery(L10n("The Visitation", "Maria bezoekt haar nicht Elisabet"), "LUK 1:39-56"),
-            Mystery(L10n("The Nativity", "De geboorte van Jezus in Betlehem"), "LUK 2:1-20"),
-            Mystery(L10n("The Presentation in the Temple", "Jezus wordt in de tempel opgedragen"), "LUK 2:22-38"),
-            Mystery(L10n("The Finding in the Temple", "Jezus wordt teruggevonden in de tempel"), "LUK 2:41-52"),
+            Mystery(L10n("The Annunciation", "De boodschap van de engel aan Maria"), "LUK 1:26-38", L10n("Humility", "Nederigheid")),
+            Mystery(L10n("The Visitation", "Maria bezoekt haar nicht Elisabet"), "LUK 1:39-56", L10n("Love of neighbour", "Naastenliefde")),
+            Mystery(L10n("The Nativity", "De geboorte van Jezus in Betlehem"), "LUK 2:1-20", L10n("Poverty of spirit", "Armoede van geest")),
+            Mystery(L10n("The Presentation in the Temple", "Jezus wordt in de tempel opgedragen"), "LUK 2:22-38", L10n("Obedience", "Gehoorzaamheid")),
+            Mystery(L10n("The Finding in the Temple", "Jezus wordt teruggevonden in de tempel"), "LUK 2:41-52", L10n("Joy in finding Jesus", "Vreugde om Jezus te vinden")),
         ),
         MysterySet.LUMINOUS to listOf(
-            Mystery(L10n("The Baptism in the Jordan", "Het doopsel van Jezus in de Jordaan"), "MAT 3:13-17"),
-            Mystery(L10n("The Wedding at Cana", "De bruiloft te Kana"), "JHN 2:1-11"),
-            Mystery(L10n("The Proclamation of the Kingdom", "De verkondiging van het Rijk Gods"), "MRK 1:14-15"),
-            Mystery(L10n("The Transfiguration", "De gedaanteverandering op de berg"), "LUK 9:28-36"),
-            Mystery(L10n("The Institution of the Eucharist", "De instelling van de eucharistie"), "LUK 22:14-20"),
+            Mystery(L10n("The Baptism in the Jordan", "Het doopsel van Jezus in de Jordaan"), "MAT 3:13-17", L10n("Openness to the Holy Spirit", "Openheid voor de heilige Geest")),
+            Mystery(L10n("The Wedding at Cana", "De bruiloft te Kana"), "JHN 2:1-11", L10n("To Jesus through Mary", "Door Maria naar Jezus")),
+            Mystery(L10n("The Proclamation of the Kingdom", "De verkondiging van het Rijk Gods"), "MRK 1:14-15", L10n("Conversion and trust in God", "Bekering en vertrouwen op God")),
+            Mystery(L10n("The Transfiguration", "De gedaanteverandering op de berg"), "LUK 9:28-36", L10n("Desire for holiness", "Verlangen naar heiligheid")),
+            Mystery(L10n("The Institution of the Eucharist", "De instelling van de eucharistie"), "LUK 22:14-20", L10n("Adoration", "Aanbidding")),
         ),
         MysterySet.SORROWFUL to listOf(
-            Mystery(L10n("The Agony in the Garden", "De doodsangst van Jezus in de hof"), "LUK 22:39-46"),
-            Mystery(L10n("The Scourging at the Pillar", "Jezus wordt gegeseld"), "JHN 19:1"),
-            Mystery(L10n("The Crowning with Thorns", "Jezus wordt met doornen gekroond"), "MAT 27:27-31"),
-            Mystery(L10n("The Carrying of the Cross", "Jezus draagt het kruis"), "JHN 19:16-17"),
-            Mystery(L10n("The Crucifixion", "Jezus sterft aan het kruis"), "LUK 23:33-46"),
+            Mystery(L10n("The Agony in the Garden", "De doodsangst van Jezus in de hof"), "LUK 22:39-46", L10n("Sorrow for sin", "Berouw over de zonde")),
+            Mystery(L10n("The Scourging at the Pillar", "Jezus wordt gegeseld"), "JHN 19:1", L10n("Purity", "Zuiverheid")),
+            Mystery(L10n("The Crowning with Thorns", "Jezus wordt met doornen gekroond"), "MAT 27:27-31", L10n("Moral courage", "Moed om het goede te doen")),
+            Mystery(L10n("The Carrying of the Cross", "Jezus draagt het kruis"), "JHN 19:16-17", L10n("Patience", "Geduld")),
+            Mystery(L10n("The Crucifixion", "Jezus sterft aan het kruis"), "LUK 23:33-46", L10n("Perseverance", "Volharding")),
         ),
         MysterySet.GLORIOUS to listOf(
-            Mystery(L10n("The Resurrection", "De verrijzenis van Jezus"), "MAT 28:1-10"),
-            Mystery(L10n("The Ascension", "De hemelvaart van Jezus"), "ACT 1:6-11"),
-            Mystery(L10n("The Descent of the Holy Spirit", "De nederdaling van de heilige Geest"), "ACT 2:1-4"),
-            Mystery(L10n("The Assumption of Mary", "De tenhemelopneming van Maria"), null),
-            Mystery(L10n("The Coronation of Mary", "De kroning van Maria"), "REV 12:1"),
+            Mystery(L10n("The Resurrection", "De verrijzenis van Jezus"), "MAT 28:1-10", L10n("Faith", "Geloof")),
+            Mystery(L10n("The Ascension", "De hemelvaart van Jezus"), "ACT 1:6-11", L10n("Hope", "Hoop")),
+            Mystery(L10n("The Descent of the Holy Spirit", "De nederdaling van de heilige Geest"), "ACT 2:1-4", L10n("Love of God", "Liefde tot God")),
+            Mystery(L10n("The Assumption of Mary", "De tenhemelopneming van Maria"), "LUK 1:48-49", L10n("The grace of a holy death", "De genade van een zalige dood")),
+            Mystery(L10n("The Coronation of Mary", "De kroning van Maria"), "REV 12:1", L10n("Trust in Mary's intercession", "Vertrouwen op de voorspraak van Maria")),
         ),
     )
 }

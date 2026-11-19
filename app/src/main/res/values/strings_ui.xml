@@ -97,7 +97,7 @@
     <string name="day_pace_toggle">Wait on each bead</string>
     <string name="day_pace_hint">Next opens only after 10 seconds on a bead of the Rosary and 2 seconds on a knot, so no prayer is rushed.</string>
     <string name="day_vibrate_toggle">Vibrate on each bead</string>
-    <string name="day_vibrate_hint">A soft tick on every bead or knot; a double pulse on every tenth knot, on every large bead of the Rosary and at the end.</string>
+    <string name="day_vibrate_hint">A soft tick on every bead or knot; a double pulse on every marker of the prayer rope, on every large bead of the Rosary and at the end.</string>
     <string name="intentions_title">Remembered in prayer</string>
     <string name="intentions_card_hint">Names of the living and the departed, read at the end of every hour</string>
     <string name="intentions_intro">As the Church remembers names at the Liturgy, these names come at the end of every hour you pray.</string>
@@ -119,7 +119,7 @@
     <string name="rope_restart">Start again</string>
     <string name="rope_restart_title">Start again?</string>
     <string name="rope_restart_text">The count goes back to 0 and the rounds prayed are cleared.</string>
-    <string name="rope_chotki_about">The chotki (komboskini) is knotted of wool, each knot a small cross. On every knot the Jesus Prayer is said, slowly, with the breath; on the beads, the Mother of God is asked to pray for us.</string>
+    <string name="rope_chotki_about">The chotki (komboskini) is knotted of wool, each knot a small cross. On every knot the Jesus Prayer is said, slowly, with the breath; on the larger knots, the Mother of God is asked to pray for us.</string>
     <string name="fast_info_none">An ordinary day without a fast. A good day to give thanks and keep the hours of prayer.</string>
     <string name="fast_info_free">A time of joy: the Church does not fast on these days, not even on Wednesday and Friday.</string>
     <string name="fast_info_cheesefare">The last week before Great Lent: no more meat, but dairy, eggs and fish are still eaten.</string>
@@ -174,8 +174,22 @@
     <string name="quiet_mode">Quiet mode</string>
     <string name="quiet_exit">Leave quiet mode</string>
     <string name="quiet_hint">Tap anywhere on the screen to count.</string>
-    <string name="quiet_markers_on">Pulse at every ten: on</string>
-    <string name="quiet_markers_off">Pulse at every ten: off</string>
-    <string name="day_quiet_markers_toggle">Pulse at every ten in quiet mode</string>
-    <string name="day_quiet_markers_hint">In quiet mode, where the screen is dark, a double pulse tells you a tenth knot, a new decade or the end without looking.</string>
+    <string name="quiet_markers_on">Pulse at every marker: on</string>
+    <string name="quiet_markers_off">Pulse at every marker: off</string>
+    <string name="day_quiet_markers_toggle">Pulse at every marker in quiet mode</string>
+    <string name="day_quiet_markers_hint">In quiet mode, where the screen is dark, a double pulse tells you a marker on the rope, a new decade or the end without looking.</string>
+    <!-- rope_about_oo: neutral wording, PRIEST REVIEW for the Oriental Orthodox. -->
+    <string name="rope_sub_jesus_prayer">The Jesus Prayer</string>
+    <string name="rope_about_ca">The Jesus Prayer comes from the Eastern Church and is prayed in the West as well (Catechism of the Catholic Church 2667–2668). On every knot it is said once, slowly, with the breath.</string>
+    <string name="rope_about_oo">A prayer rope helps to pray without ceasing: on every knot the Jesus Prayer is said once, slowly and attentively. The markers help to keep count without looking.</string>
+    <string name="rope_markers">Markers</string>
+    <string name="rope_markers_none">None</string>
+    <string name="rope_counter_only">Counter only</string>
+    <string name="rope_show_prayer">Show prayer</string>
+    <string name="rosary_text_more">Show the whole prayer</string>
+    <string name="rosary_text_less">Show less</string>
+    <string name="rosary_meditation">Meditation</string>
+    <string name="rosary_fruit">Fruit of the mystery: %1$s</string>
+    <string name="day_fatima_toggle">Fatima prayer after each decade</string>
+    <string name="day_fatima_hint">“O my Jesus, forgive us our sins…”, after the Glory Be of every decade of the Rosary.</string>
 </resources>

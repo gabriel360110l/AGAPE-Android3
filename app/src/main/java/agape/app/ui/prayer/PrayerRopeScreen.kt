@@ -14,8 +14,11 @@ import agape.app.ui.components.Kicker
 import agape.app.ui.components.PaceButton
 import agape.app.ui.components.Pill
 import agape.app.ui.components.QuietButton
-import agape.app.ui.components.TraditionCross
-import agape.app.ui.components.counterTapArea
+import agape.app.ui.components.counterSemantics
+import agape.app.ui.components.counterTaps
+import agape.app.ui.components.plainCrossPath
+import agape.app.ui.tradition
+import androidx.compose.ui.graphics.Path
 import agape.app.ui.components.rememberPrayerCounter
 import agape.app.ui.components.rememberReduceMotion
 import agape.app.ui.components.crossPath
@@ -66,33 +69,52 @@ import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin
 
-/** The least time on one knot before Next opens, when waiting on each bead is switched on. */
+/** The least time on one knot before a tap counts, when waiting on each bead is switched on. */
 private const val KNOT_MILLIS = 2_000L
 
-/** The rope's names, and the cross that hangs from it. */
 val PrayerRope.title: Int get() = R.string.rope_chotki
-val PrayerRope.subtitle: Int get() = R.string.rope_chotki_sub
-val PrayerRope.cross: Tradition get() = Tradition.EASTERN_ORTHODOX
 
 /**
- * A prayer rope to pray along: Next moves one knot on. With waiting on each bead switched on (Settings), Next opens
- * again only after two seconds, so the prayer is said on every knot. A soft tick on every knot and a marked pulse on
- * every tenth, unless vibration is switched off. The count is kept when the screen is left and opened again. Quiet
- * mode darkens the screen and makes all of it the tap area, to pray without looking.
+ * The rope as each tradition meets it: the cross hanging from it, the line under the title and the explanation.
+ * Eastern Orthodox: the Byzantine chotki with its three-bar cross. Catholic: the Jesus Prayer as the Catechism gives
+ * it (CCC 2667-2668), with the Latin cross. Oriental Orthodox: neutral words and a plain cross; PRIEST REVIEW: the
+ * Coptic wording (rope_about_oo) and whether the Coptic cross belongs on the rope were not verified with a Coptic
+ * source and should be checked by a priest before they are made more specific.
+ */
+private data class RopeLook(val cross: (Size) -> Path, val subtitle: Int, val about: Int)
+
+private fun ropeLook(tradition: Tradition) = when (tradition) {
+    Tradition.EASTERN_ORTHODOX -> RopeLook({ crossPath(Tradition.EASTERN_ORTHODOX, it) }, R.string.rope_chotki_sub, R.string.rope_chotki_about)
+    Tradition.CATHOLIC -> RopeLook({ crossPath(Tradition.CATHOLIC, it) }, R.string.rope_sub_jesus_prayer, R.string.rope_about_ca)
+    Tradition.ORIENTAL_ORTHODOX -> RopeLook(::plainCrossPath, R.string.rope_sub_jesus_prayer, R.string.rope_about_oo)
+}
+
+/** The line under the rope's title for [tradition], as on its card. */
+fun ropeSubtitle(tradition: Tradition): Int = ropeLook(tradition).subtitle
+
+/**
+ * A prayer rope to pray along. The whole screen is the tap target: a tap anywhere moves one knot on (the buttons and
+ * choices keep their own taps). The size (33, 50, 100) and the markers (none, or every 10, 25 or 33 knots) can be
+ * chosen; markers are drawn larger and felt as a double pulse. Counter only hides the prayer and the explanation.
+ * With waiting on each bead switched on (Settings), a tap counts only two seconds after the last. The count is kept
+ * when the screen is left. Quiet mode darkens the screen to pray without looking.
  */
 @Composable
 fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val settings = LocalSettings.current
+    val tradition = tradition
+    val look = ropeLook(tradition)
     val scope = rememberCoroutineScope()
     val c = AgapeTheme.colors
     val title = stringResource(rope.title)
+    val every = settings.ropeMarkers
     val counter = rememberPrayerCounter(
         "rope_${rope.name.lowercase()}", rope.sizes.first(), AtEnd.WRAP, daily = false, accept = { it.total in rope.sizes },
     )
     SideEffect {
-        counter.marker = { PrayerRope.isBead(it.done) || it.complete }
+        counter.marker = { PrayerRope.isMarker(it.done, every) || it.complete }
         counter.onComplete = { scope.launch { container.user.markPrayed("rope:${rope.name.lowercase()}", title) } }
         counter.paceMillis = if (settings.paceWait) KNOT_MILLIS else 0L
     }
@@ -101,9 +123,8 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
     var confirmRestart by remember { mutableStateOf<Int?>(null) }
     var quiet by rememberSaveable { mutableStateOf(false) }
     val size = count.total
-    val prayer = rope.prayer[lang]
-    val bead = rope.bead?.get(lang)
-    val line = if (bead != null && PrayerRope.isBead(count.done)) bead else prayer
+    val markerPrayer = rope.markerPrayer(tradition)?.get(lang)
+    val line = if (markerPrayer != null && PrayerRope.isMarker(count.done, every)) markerPrayer else rope.prayer[lang]
     val description = stringResource(R.string.counter_a11y, title, count.done, size)
     val tapLabel = stringResource(R.string.counter_tap)
     val backLabel = stringResource(R.string.counter_back)
@@ -128,55 +149,74 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
         QuietCounter(
             counter, headline = "${count.done}",
             detail = stringResource(R.string.rope_of, size) + if (count.rounds > 0) " · " + stringResource(R.string.rope_rounds, count.rounds) else "",
-            text = line, description = description, onExit = { quiet = false },
+            text = if (settings.ropeCounterOnly) null else line, description = description, onExit = { quiet = false },
         )
         return
     }
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(title, onBack) { QuietModeButton { quiet = true } }
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-            Kicker(stringResource(rope.subtitle))
+        Column(
+            Modifier.fillMaxSize().counterTaps(counter).verticalScroll(rememberScrollState()).padding(horizontal = 20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            Kicker(stringResource(look.subtitle))
             Spacer(Modifier.height(10.dp))
             if (rope.sizes.size > 1) Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 rope.sizes.forEach { n -> Pill(stringResource(R.string.rope_knots, n), size == n, { if (n != size) restart(n) }) }
             }
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(8.dp))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(stringResource(R.string.rope_markers), style = MaterialTheme.typography.labelMedium, color = c.inkMuted)
+                PrayerRope.MARKER_CHOICES.forEach { n ->
+                    Pill(
+                        if (n == 0) stringResource(R.string.rope_markers_none) else "$n", every == n,
+                        { scope.launch { container.settings.setRopeMarkers(n) } },
+                    )
+                }
+            }
+            Spacer(Modifier.height(8.dp))
             Box(
-                Modifier.fillMaxWidth().aspectRatio(1f)
+                Modifier.fillMaxWidth(0.92f).aspectRatio(1f)
                     .background(Brush.radialGradient(listOf(c.accent.copy(alpha = 0.16f), Color.Transparent)))
-                    .counterTapArea(counter, description, tapLabel, backLabel),
+                    .counterSemantics(counter, description, tapLabel, backLabel),
                 contentAlignment = Alignment.Center,
             ) {
-                RopeRing(size, count.done, rope, Modifier.fillMaxSize())
+                RopeRing(size, count.done, every, look.cross, Modifier.fillMaxSize())
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Text("${count.done}", style = MaterialTheme.typography.displayLarge, color = c.primary)
                     Text(stringResource(R.string.rope_of, size), style = MaterialTheme.typography.labelLarge, color = c.inkMuted)
                     if (count.rounds > 0) Text(stringResource(R.string.rope_rounds, count.rounds), style = MaterialTheme.typography.labelMedium, color = c.accent)
                 }
             }
-            Spacer(Modifier.height(8.dp))
-            Text(line, style = AgapeTheme.type.scripture, color = c.ink, textAlign = TextAlign.Center, modifier = Modifier.padding(horizontal = 8.dp))
-            Spacer(Modifier.height(22.dp))
+            if (!settings.ropeCounterOnly) {
+                Text(line, style = AgapeTheme.type.scripture, color = c.ink, textAlign = TextAlign.Center, modifier = Modifier.padding(horizontal = 8.dp))
+            }
+            Text(stringResource(R.string.quiet_hint), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 6.dp))
+            Spacer(Modifier.height(14.dp))
             PaceButton(
                 stringResource(R.string.rope_next), waiting = stringResource(R.string.pace_praying),
                 minMillis = if (settings.paceWait) KNOT_MILLIS.toInt() else 0, step = count, onClick = { counter.tap() },
             )
-            Spacer(Modifier.height(14.dp))
-            AgapeCard(tonal = true) {
-                Text(stringResource(R.string.rope_chotki_about), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
-            }
-            Row(Modifier.padding(vertical = 8.dp)) {
+            Row(Modifier.padding(vertical = 6.dp), horizontalArrangement = Arrangement.Center) {
                 QuietButton(stringResource(R.string.rosary_previous), { counter.back() })
                 QuietButton(stringResource(R.string.rope_restart), { restart(size) })
+                QuietButton(
+                    stringResource(if (settings.ropeCounterOnly) R.string.rope_show_prayer else R.string.rope_counter_only),
+                    { scope.launch { container.settings.setRopeCounterOnly(!settings.ropeCounterOnly) } },
+                )
             }
+            if (!settings.ropeCounterOnly) AgapeCard(tonal = true) {
+                Text(stringResource(look.about), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
+            }
+            Spacer(Modifier.height(24.dp))
         }
     }
 }
 
-/** The knots around a circle, prayed ones in gold, beads larger, and the cross hanging below. */
+/** The knots around a circle, prayed ones in gold, markers larger, and the cross hanging below. */
 @Composable
-private fun RopeRing(size: Int, knot: Int, rope: PrayerRope, modifier: Modifier = Modifier) {
+private fun RopeRing(size: Int, knot: Int, every: Int, cross: (Size) -> Path, modifier: Modifier = Modifier) {
     val c = AgapeTheme.colors
     val still = rememberReduceMotion()
     val progress by animateFloatAsState(knot / size.toFloat(), if (still) snap() else spring(), label = "rope")
@@ -191,9 +231,9 @@ private fun RopeRing(size: Int, knot: Int, rope: PrayerRope, modifier: Modifier 
             // Knot 1 sits just right of the bottom, where the cross hangs, and the rope runs round anticlockwise.
             val a = PI.toFloat() / 2 - i / (size + 1f) * 2 * PI.toFloat()
             val p = Offset(center.x + cos(a) * r, center.y + sin(a) * r)
-            val isBead = PrayerRope.isBead(i)
+            val marker = PrayerRope.isMarker(i, every)
             val prayed = i <= knot
-            val radius = if (isBead) knotR * 1.35f else knotR
+            val radius = if (marker) knotR * 1.45f else knotR
             drawCircle(if (prayed) c.accent else wool.copy(alpha = if (c.isDark) 0.9f else 0.75f), radius, p)
             if (i == knot) drawCircle(c.primary, radius + 3.dp.toPx(), p, style = Stroke(2.dp.toPx()))
         }
@@ -202,7 +242,7 @@ private fun RopeRing(size: Int, knot: Int, rope: PrayerRope, modifier: Modifier 
         drawLine(wool, bottom, bottom.copy(y = bottom.y + r * 0.16f), 2.dp.toPx())
         val cw = r * 0.22f
         val ch = cw * 1.33f
-        translate(center.x - cw / 2, bottom.y + r * 0.16f) { drawPath(crossPath(rope.cross, Size(cw, ch)), c.accent) }
+        translate(center.x - cw / 2, bottom.y + r * 0.16f) { drawPath(cross(Size(cw, ch)), c.accent) }
     }
 }
 
@@ -210,6 +250,7 @@ private fun RopeRing(size: Int, knot: Int, rope: PrayerRope, modifier: Modifier 
 @Composable
 fun RopeMark(rope: PrayerRope, modifier: Modifier = Modifier) {
     val c = AgapeTheme.colors
+    val cross = ropeLook(tradition).cross
     Box(modifier, contentAlignment = Alignment.TopCenter) {
         Canvas(Modifier.fillMaxSize()) {
             val r = this.size.minDimension * 0.30f
@@ -219,6 +260,6 @@ fun RopeMark(rope: PrayerRope, modifier: Modifier = Modifier) {
                 drawCircle(c.accent.copy(alpha = 0.85f), this.size.minDimension * if (i % 6 == 5) 0.05f else 0.032f, Offset(center.x + cos(a) * r, center.y + sin(a) * r))
             }
         }
-        TraditionCross(rope.cross, Modifier.padding(top = 0.dp).align(Alignment.BottomCenter).size(width = 14.dp, height = 18.dp), color = c.accent)
+        Canvas(Modifier.align(Alignment.BottomCenter).size(width = 14.dp, height = 18.dp)) { drawPath(cross(this.size), c.accent) }
     }
 }

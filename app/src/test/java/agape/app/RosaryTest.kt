@@ -1,10 +1,12 @@
 package agape.app
 
+import agape.app.core.model.Passage
 import agape.app.data.rosary.BeadKind
 import agape.app.data.rosary.MysterySet
 import agape.app.data.rosary.Rosary
 import agape.app.data.rosary.RosaryPrayer
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import java.time.DayOfWeek
@@ -46,5 +48,25 @@ class RosaryTest {
         assertEquals(MysterySet.LUMINOUS, MysterySet.forDay(DayOfWeek.THURSDAY))
         assertEquals(MysterySet.GLORIOUS, MysterySet.forDay(DayOfWeek.SUNDAY))
         MysterySet.entries.forEach { assertEquals(5, Rosary.mysteries.getValue(it).size) }
+    }
+
+    /** Every mystery has its title, scripture and fruit in English and in Dutch, and its scripture can be opened. */
+    @Test fun everyMysteryHasItsMeditationInBothLanguages() {
+        assertEquals(MysterySet.entries.toSet(), Rosary.mysteries.keys)
+        val all = Rosary.mysteries.values.flatten()
+        assertEquals(20, all.size)
+        Rosary.mysteries.values.forEach { assertEquals(5, it.size) }
+        all.forEach { m ->
+            listOf(m.title, m.fruit).forEach { t ->
+                assertTrue("English missing: $t", t.en.isNotBlank())
+                assertTrue("Dutch missing: $t", t.nl.isNotBlank())
+                assertTrue("Not translated: $t", t.en != t.nl || t.en.length < 6)
+            }
+            assertNotNull("Scripture of ${m.title.en} cannot be read: ${m.passage}", Passage.parse(m.passage))
+        }
+        // Twenty different meditations.
+        assertEquals(20, all.map { it.fruit.en }.toSet().size)
+        assertEquals(20, all.map { it.fruit.nl }.toSet().size)
+        assertEquals(20, all.map { it.passage }.toSet().size)
     }
 }
