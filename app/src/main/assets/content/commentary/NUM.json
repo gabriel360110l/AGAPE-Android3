@@ -319,8 +319,8 @@
     "nl": "Na bijna een jaar bij de Sinaï begint de tocht naar het beloofde land, waarbij God voorgaat en het volk in orde volgt."
    },
    "fathers": {
-    "en": "On the two silver trumpets used to gather the assembly or to signal a march or battle (10:1-10), Theodoret notes that different sounds meant different things, and that sounding the trumpet was given to the priests alone, because the trumpet announced the summons of God and recalled the great sound at Sinai. When we gather the whole people we speak of the divine mysteries without plain signs before the uninitiated; when they have been dismissed we teach the initiated clearly (Theodoret of Cyrus, Questions on Numbers, Question 15). The words 'Arise, O Lord, let Your enemies be scattered' became the opening of Psalm 68, which the Church sings at Pascha. The Fathers saw the silver trumpets as the preaching of the Gospel that gathers the Church and as the trumpet of the resurrection.",
-    "nl": "Over de twee zilveren trompetten waarmee de gemeente werd samengeroepen of de opbreking of de strijd werd aangekondigd (10:1-10), merkt Theodoretus op dat verschillende klanken verschillende dingen betekenden, en dat het blazen alleen aan de priesters was gegeven, omdat de trompet de oproep van God aankondigde en herinnerde aan het grote geluid op de Sinaï. Wanneer wij het hele volk samenroepen, spreken wij over de goddelijke geheimen zonder duidelijke tekenen ten overstaan van de oningewijden; wanneer zij zijn heengezonden, onderwijzen wij de ingewijden in het heldere (Theodoretus van Cyrus, Vragen over Numeri, Vraag 15). De woorden 'Sta op, Heer, laat Uw vijanden verstrooid worden' werden het begin van Psalm 68, die de Kerk met Pasen zingt. De kerkvaders zagen de zilveren trompetten als de verkondiging van het Evangelie die de Kerk bijeenroept en als de bazuin van de opstanding."
+    "en": "On the two silver trumpets used to gather the assembly or to signal a march or battle (10:1-10), Theodoret notes that different sounds meant different things, and that sounding the trumpet was given to the priests alone, because the trumpet announced the summons of God and recalled the great sound at Sinai. When we gather the whole people we speak of the divine mysteries without plain signs before the uninitiated; when they have been dismissed we teach the initiated clearly (Theodoret of Cyrus, Questions on Numbers, Question 15). The words 'Arise, O Lord, let Your enemies be scattered' (10:35) became the opening of Psalm 68 (68:1). The Fathers saw the silver trumpets as the preaching of the Gospel that gathers the Church and as the trumpet of the resurrection.",
+    "nl": "Over de twee zilveren trompetten waarmee de gemeente werd samengeroepen of de opbreking of de strijd werd aangekondigd (10:1-10), merkt Theodoretus op dat verschillende klanken verschillende dingen betekenden, en dat het blazen alleen aan de priesters was gegeven, omdat de trompet de oproep van God aankondigde en herinnerde aan het grote geluid op de Sinaï. Wanneer wij het hele volk samenroepen, spreken wij over de goddelijke geheimen zonder duidelijke tekenen ten overstaan van de oningewijden; wanneer zij zijn heengezonden, onderwijzen wij de ingewijden in het heldere (Theodoretus van Cyrus, Vragen over Numeri, Vraag 15). De woorden 'Sta op, Heer, laat Uw vijanden verstrooid worden' (10:35) werden het begin van Psalm 68 (68:1). De kerkvaders zagen de zilveren trompetten als de verkondiging van het Evangelie die de Kerk bijeenroept en als de bazuin van de opstanding."
    },
    "themes": {
     "en": [
@@ -333,6 +333,12 @@
      "God leidt",
      "Sta op, Heer"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "At Pascha the Byzantine rite sings the verses of Psalm 68 that begin 'Let God arise, let His enemies be scattered' (68:1), echoing 10:35, with the Paschal troparion at the start of the services of the Easter season.",
+     "nl": "Met Pasen zingt de Byzantijnse ritus de verzen van Psalm 68 die beginnen met 'Laat God opstaan, laat Zijn vijanden verstrooid worden' (68:1), een echo van 10:35, met het paastroparion aan het begin van de diensten van de paastijd."
+    }
    }
   },
   {

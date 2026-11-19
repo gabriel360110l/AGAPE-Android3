@@ -57,8 +57,8 @@
     "nl": "Christus brengt de nieuwe wijn van het koninkrijk en heiligt het huwelijk door Zijn aanwezigheid. Zijn lichaam is de ware tempel waar God bij ons woont."
    },
    "fathers": {
-    "en": "The Fathers taught that by coming to the wedding Christ blessed marriage; the Byzantine marriage service reads this Gospel. Mary's words, 'do whatever He tells you', were seen as her constant counsel to the Church. St John Chrysostom reads the sign at Cana as an answer to those who ascribe the visible world to another, opposing god: Christ uses matter at hand, and in a moment does what the vine does slowly when it turns rain, drawn up through the root, into wine, showing that He is the Creator (Homilies on John 22). He explains 'My hour has not yet come' not as subjection to times, since He is the Creator of the times, but as meaning that He was not yet known to the company, who had not even noticed that the wine had failed (Homilies on John 22).",
-    "nl": "De kerkvaders leerden dat Christus door naar de bruiloft te komen het huwelijk zegende; de Byzantijnse huwelijksdienst leest dit Evangelie. De woorden van Maria, 'doet maar wat Hij u zegt', werden gezien als haar blijvende raad aan de Kerk. De heilige Johannes Chrysostomus leest het teken te Kana als antwoord aan wie de zichtbare wereld aan een andere, tegenwerkende god toeschrijven: Christus gebruikt de materie die voorhanden is en doet in een ogenblik wat de wijnstok langzaam doet wanneer hij regen, door de wortel opgezogen, in wijn verandert; zo toont Hij dat Hij de Schepper is (Homilieën over Johannes 22). 'Mijn uur is nog niet gekomen' legt hij niet uit als onderworpenheid aan tijden, want Hij is de Schepper van de tijden, maar als: Hij was nog niet bekend bij de aanwezigen, die niet eens gemerkt hadden dat de wijn op was (Homilieën over Johannes 22)."
+    "en": "The Fathers taught that by coming to the wedding Christ blessed marriage. Mary's words, 'do whatever He tells you', were seen as her constant counsel to the Church. St John Chrysostom reads the sign at Cana as an answer to those who ascribe the visible world to another, opposing god: Christ uses matter at hand, and in a moment does what the vine does slowly when it turns rain, drawn up through the root, into wine, showing that He is the Creator (Homilies on John 22). He explains 'My hour has not yet come' not as subjection to times, since He is the Creator of the times, but as meaning that He was not yet known to the company, who had not even noticed that the wine had failed (Homilies on John 22).",
+    "nl": "De kerkvaders leerden dat Christus door naar de bruiloft te komen het huwelijk zegende. De woorden van Maria, 'doet maar wat Hij u zegt', werden gezien als haar blijvende raad aan de Kerk. De heilige Johannes Chrysostomus leest het teken te Kana als antwoord aan wie de zichtbare wereld aan een andere, tegenwerkende god toeschrijven: Christus gebruikt de materie die voorhanden is en doet in een ogenblik wat de wijnstok langzaam doet wanneer hij regen, door de wortel opgezogen, in wijn verandert; zo toont Hij dat Hij de Schepper is (Homilieën over Johannes 22). 'Mijn uur is nog niet gekomen' legt hij niet uit als onderworpenheid aan tijden, want Hij is de Schepper van de tijden, maar als: Hij was nog niet bekend bij de aanwezigen, die niet eens gemerkt hadden dat de wijn op was (Homilieën over Johannes 22)."
    },
    "themes": {
     "en": [
@@ -71,6 +71,16 @@
      "Huwelijk",
      "De nieuwe tempel"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "2:1-11 is the Gospel of the Byzantine service of the Crowning (marriage).",
+     "nl": "2:1-11 is het Evangelie van de Byzantijnse huwelijksdienst (de kroning)."
+    },
+    "ca": {
+     "en": "In the Roman rite 2:1-11 is one of the Gospels offered in the Order of Celebrating Matrimony.",
+     "nl": "In de Romeinse ritus is 2:1-11 een van de Evangelies die de Orde voor de viering van het huwelijk aanbiedt."
+    }
    }
   },
   {
