@@ -288,8 +288,10 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openAchievements = { nav.navigate(AchievementsRoute) },
                 openHelp = { nav.navigate(HelpRoute) },
                 openLegal = { nav.navigate(LegalRoute(it)) },
+                openSignIn = { nav.navigate(SignInRoute) },
             )
         }
+        composable<SignInRoute> { agape.app.ui.me.SignInScreen(onBack = back) }
         composable<ReaderRoute>(deepLinks = listOf(navDeepLink<ReaderRoute>(basePath = "$DEEP_LINK_SCHEME://bible"))) {
             val r = it.toRoute<ReaderRoute>()
             ReaderScreen(

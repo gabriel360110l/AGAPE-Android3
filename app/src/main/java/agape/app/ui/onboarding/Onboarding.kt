@@ -81,7 +81,7 @@ import kotlinx.coroutines.launch
 
 private enum class Step { WELCOME, TERMS, TRADITION, STYLE, ACCOUNT }
 
-/** First launch: Welcome → Terms → Church → Style → Sign in. Each step saves as soon as it is confirmed. */
+/** First launch: Welcome → Terms → Church → Style → Account (optional). Each step saves as soon as it is confirmed. */
 @Composable
 fun Onboarding(settings: Settings, onPreviewStyle: (VisualStyle?) -> Unit) {
     val container = LocalContainer.current
@@ -105,7 +105,7 @@ fun Onboarding(settings: Settings, onPreviewStyle: (VisualStyle?) -> Unit) {
                 Step.TERMS -> TermsStep(accepted = settings.termsAccepted) { scope.launch { container.settings.setTermsAccepted() }; step++ }
                 Step.TRADITION -> TraditionStep(settings.tradition) { t -> scope.launch { container.settings.setTradition(t) }; step++ }
                 Step.STYLE -> StyleStep(settings, onPreviewStyle) { s -> scope.launch { container.settings.setStyle(s) }; onPreviewStyle(null); step++ }
-                Step.ACCOUNT -> AccountStep()
+                Step.ACCOUNT -> AccountForm(onWithoutAccount = { scope.launch { container.settings.setAccountStepDone() } })
             }
         }
     }
@@ -370,8 +370,12 @@ fun ThemeModeSwitch(mode: ThemeMode, onChange: (ThemeMode) -> Unit) {
     }
 }
 
+/**
+ * Sign in or create an account. On the first launch it is step 3 and offers to go on without an account;
+ * from Me it is opened to switch on sync later ([showStep] false, no way to skip).
+ */
 @Composable
-private fun AccountStep() {
+fun AccountForm(modifier: Modifier = Modifier, showStep: Boolean = true, onWithoutAccount: (() -> Unit)? = null) {
     val container = LocalContainer.current
     val auth = container.auth
     val activity = LocalActivity.current
@@ -397,86 +401,102 @@ private fun AccountStep() {
         }
     }
 
-    Column(Modifier.fillMaxSize().imePadding().verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xl)) {
-        Spacer(Modifier.height(Spacing.xl))
-        Kicker(stringResource(R.string.onboarding_step, 3, 4))
-        Spacer(Modifier.height(Spacing.l))
-        Ornament(Modifier.align(Alignment.CenterHorizontally), width = 140.dp)
-        Spacer(Modifier.height(Spacing.l))
-        Text(
-            stringResource(if (createMode) R.string.auth_title_create else R.string.auth_title_signin),
-            style = MaterialTheme.typography.headlineLarge, color = c.ink,
-            modifier = Modifier.align(Alignment.CenterHorizontally), textAlign = TextAlign.Center,
-        )
-        Spacer(Modifier.height(Spacing.s))
-        Text(
-            stringResource(R.string.auth_subtitle), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted,
-            modifier = Modifier.align(Alignment.CenterHorizontally), textAlign = TextAlign.Center,
-        )
-        Spacer(Modifier.height(Spacing.xl))
-        if (!auth.isConfigured) {
-            AgapeCard(tonal = true) {
-                Text(stringResource(R.string.auth_dev_notice), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
+    Column(modifier.fillMaxSize().imePadding()) {
+        Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xl)) {
+            Spacer(Modifier.height(Spacing.xl))
+            if (showStep) {
+                Kicker(stringResource(R.string.onboarding_step, 3, 4))
+                Spacer(Modifier.height(Spacing.l))
             }
+            Ornament(Modifier.align(Alignment.CenterHorizontally), width = 140.dp)
             Spacer(Modifier.height(Spacing.l))
-        }
-        val fieldColors = OutlinedTextFieldDefaults.colors(
-            focusedBorderColor = c.primary, unfocusedBorderColor = c.line, focusedLabelColor = c.primary,
-            cursorColor = c.primary, focusedContainerColor = c.surface, unfocusedContainerColor = c.surface,
-        )
-        OutlinedTextField(
-            value = email, onValueChange = { email = it }, label = { Text(stringResource(R.string.auth_email)) },
-            singleLine = true, shape = cardShape, colors = fieldColors, modifier = Modifier.fillMaxWidth(),
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email, imeAction = ImeAction.Next),
-        )
-        Spacer(Modifier.height(Spacing.m))
-        OutlinedTextField(
-            value = password, onValueChange = { password = it }, label = { Text(stringResource(R.string.auth_password)) },
-            singleLine = true, shape = cardShape, colors = fieldColors, modifier = Modifier.fillMaxWidth(),
-            visualTransformation = PasswordVisualTransformation(),
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password, imeAction = ImeAction.Done),
-        )
-        if (!createMode) {
-            QuietButton(stringResource(R.string.auth_forgot), {
-                if (email.isNotBlank()) run { auth.sendPasswordReset(email); message = resetSent }
-                else error = invalidEmail
-            }, Modifier.align(Alignment.End))
-        }
-        error?.let { Text(it, color = c.danger, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = Spacing.s)) }
-        message?.let { Text(it, color = c.primary, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = Spacing.s)) }
-        Spacer(Modifier.height(Spacing.l))
-        PrimaryButton(
-            stringResource(if (createMode) R.string.auth_create else R.string.auth_signin),
-            onClick = {
-                when {
-                    email.isBlank() || !email.contains('@') -> error = invalidEmail
-                    password.length < 8 -> error = shortPassword
-                    createMode -> run { if (auth.signUp(email, password)) message = checkEmail }
-                    else -> run { auth.signIn(email, password) }
+            Text(
+                stringResource(if (createMode) R.string.auth_title_create else R.string.auth_title_signin),
+                style = MaterialTheme.typography.headlineLarge, color = c.ink,
+                modifier = Modifier.align(Alignment.CenterHorizontally), textAlign = TextAlign.Center,
+            )
+            Spacer(Modifier.height(Spacing.s))
+            Text(
+                stringResource(R.string.auth_subtitle), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted,
+                modifier = Modifier.align(Alignment.CenterHorizontally), textAlign = TextAlign.Center,
+            )
+            Spacer(Modifier.height(Spacing.xl))
+            if (!auth.isConfigured) {
+                AgapeCard(tonal = true) {
+                    Text(stringResource(R.string.auth_dev_notice), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
                 }
-            },
-            loading = busy,
-        )
-        Spacer(Modifier.height(Spacing.m))
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            Box(Modifier.weight(1f).height(1.dp).background(c.line))
-            Text(stringResource(R.string.auth_or), style = MaterialTheme.typography.labelMedium, color = c.inkFaint, modifier = Modifier.padding(horizontal = Spacing.m))
-            Box(Modifier.weight(1f).height(1.dp).background(c.line))
+                Spacer(Modifier.height(Spacing.l))
+            }
+            val fieldColors = OutlinedTextFieldDefaults.colors(
+                focusedBorderColor = c.primary, unfocusedBorderColor = c.line, focusedLabelColor = c.primary,
+                cursorColor = c.primary, focusedContainerColor = c.surface, unfocusedContainerColor = c.surface,
+            )
+            OutlinedTextField(
+                value = email, onValueChange = { email = it }, label = { Text(stringResource(R.string.auth_email)) },
+                singleLine = true, shape = cardShape, colors = fieldColors, modifier = Modifier.fillMaxWidth(),
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email, imeAction = ImeAction.Next),
+            )
+            Spacer(Modifier.height(Spacing.m))
+            OutlinedTextField(
+                value = password, onValueChange = { password = it }, label = { Text(stringResource(R.string.auth_password)) },
+                singleLine = true, shape = cardShape, colors = fieldColors, modifier = Modifier.fillMaxWidth(),
+                visualTransformation = PasswordVisualTransformation(),
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password, imeAction = ImeAction.Done),
+            )
+            if (!createMode) {
+                QuietButton(stringResource(R.string.auth_forgot), {
+                    if (email.isNotBlank()) run { auth.sendPasswordReset(email); message = resetSent }
+                    else error = invalidEmail
+                }, Modifier.align(Alignment.End))
+            }
+            error?.let { Text(it, color = c.danger, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = Spacing.s)) }
+            message?.let { Text(it, color = c.primary, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = Spacing.s)) }
+            Spacer(Modifier.height(Spacing.l))
+            PrimaryButton(
+                stringResource(if (createMode) R.string.auth_create else R.string.auth_signin),
+                onClick = {
+                    when {
+                        email.isBlank() || !email.contains('@') -> error = invalidEmail
+                        password.length < 8 -> error = shortPassword
+                        createMode -> run { if (auth.signUp(email, password)) message = checkEmail }
+                        else -> run { auth.signIn(email, password) }
+                    }
+                },
+                loading = busy,
+            )
+            Spacer(Modifier.height(Spacing.m))
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.weight(1f).height(1.dp).background(c.line))
+                Text(stringResource(R.string.auth_or), style = MaterialTheme.typography.labelMedium, color = c.inkFaint, modifier = Modifier.padding(horizontal = Spacing.m))
+                Box(Modifier.weight(1f).height(1.dp).background(c.line))
+            }
+            Spacer(Modifier.height(Spacing.m))
+            agape.app.ui.components.SecondaryButton(
+                text = stringResource(R.string.auth_google),
+                onClick = { activity?.let { a -> run { auth.signInWithGoogle(a) } } },
+                enabled = !busy,
+                leading = { Text("G", style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold), color = c.primary) },
+            )
+            Spacer(Modifier.height(Spacing.s))
+            QuietButton(
+                stringResource(if (createMode) R.string.auth_have_account else R.string.auth_need_account),
+                { createMode = !createMode; error = null; message = null },
+                Modifier.align(Alignment.CenterHorizontally),
+            )
+            Spacer(Modifier.height(Spacing.xl))
         }
-        Spacer(Modifier.height(Spacing.m))
-        agape.app.ui.components.SecondaryButton(
-            text = stringResource(R.string.auth_google),
-            onClick = { activity?.let { a -> run { auth.signInWithGoogle(a) } } },
-            enabled = !busy,
-            leading = { Text("G", style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold), color = c.primary) },
-        )
-        Spacer(Modifier.height(Spacing.s))
-        QuietButton(
-            stringResource(if (createMode) R.string.auth_have_account else R.string.auth_need_account),
-            { createMode = !createMode; error = null; message = null },
-            Modifier.align(Alignment.CenterHorizontally),
-        )
-        Spacer(Modifier.height(Spacing.xl))
+        // Always in view on the first launch: the app works fully without an account.
+        if (onWithoutAccount != null) {
+            Column(Modifier.fillMaxWidth().background(c.surfaceSunken).padding(horizontal = Spacing.xl, vertical = Spacing.m)) {
+                Text(stringResource(R.string.auth_without_hint), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
+                Spacer(Modifier.height(Spacing.s))
+                agape.app.ui.components.SecondaryButton(
+                    text = stringResource(R.string.auth_without_account),
+                    onClick = onWithoutAccount,
+                    enabled = !busy,
+                )
+            }
+        }
     }
 }
 

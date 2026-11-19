@@ -45,6 +45,7 @@ import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -59,6 +60,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun SettingsScreen(onBack: () -> Unit, openLegal: (String) -> Unit, openPrayerDay: () -> Unit = {}) {
     val container = LocalContainer.current
+    val signedIn = container.auth.state.collectAsStateWithLifecycle().value is agape.app.data.auth.AuthState.SignedIn
     val settings = LocalSettings.current
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
@@ -166,7 +168,7 @@ fun SettingsScreen(onBack: () -> Unit, openLegal: (String) -> Unit, openPrayerDa
                 QuietButton(stringResource(R.string.settings_replay_tour), { scope.launch { container.settings.resetTour() } })
                 QuietButton(stringResource(R.string.legal_privacy), { openLegal("privacy") })
                 QuietButton(stringResource(R.string.legal_terms), { openLegal("terms") })
-                QuietButton(stringResource(R.string.settings_delete_account), { confirmDelete = true })
+                if (signedIn) QuietButton(stringResource(R.string.settings_delete_account), { confirmDelete = true })
             }
         }
     }

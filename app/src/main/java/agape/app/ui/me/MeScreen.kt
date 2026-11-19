@@ -38,6 +38,7 @@ import androidx.compose.material.icons.automirrored.outlined.HelpOutline
 import androidx.compose.material.icons.outlined.History
 import androidx.compose.material.icons.outlined.MailOutline
 import androidx.compose.material.icons.outlined.Settings
+import androidx.compose.material.icons.outlined.Sync
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -66,6 +67,7 @@ fun MeScreen(
     openAchievements: () -> Unit,
     openHelp: () -> Unit,
     openLegal: (String) -> Unit,
+    openSignIn: () -> Unit,
 ) {
     val container = LocalContainer.current
     val context = LocalContext.current
@@ -137,7 +139,12 @@ fun MeScreen(
             })
         }
         item { Spacer(Modifier.height(Spacing.m)) }
-        item { MeRow(Icons.AutoMirrored.Outlined.Logout, stringResource(R.string.me_sign_out), { confirmSignOut = true }, danger = true) }
+        if (auth is AuthState.SignedIn) {
+            item { MeRow(Icons.AutoMirrored.Outlined.Logout, stringResource(R.string.me_sign_out), { confirmSignOut = true }, danger = true) }
+        } else {
+            // The app works fully without an account; signing in only adds sync between devices.
+            item { MeRow(Icons.Outlined.Sync, stringResource(R.string.me_sign_in), openSignIn, subtitle = stringResource(R.string.me_sign_in_hint)) }
+        }
         item {
             Column(Modifier.fillMaxWidth().padding(Spacing.xl), horizontalAlignment = Alignment.CenterHorizontally) {
                 Ornament()
@@ -161,10 +168,11 @@ suspend fun signOut(container: agape.app.AppContainer) {
 }
 
 @Composable
-private fun MeRow(icon: ImageVector, title: String, onClick: () -> Unit, danger: Boolean = false) {
+private fun MeRow(icon: ImageVector, title: String, onClick: () -> Unit, danger: Boolean = false, subtitle: String? = null) {
     val c = AgapeTheme.colors
     ListRow(
         title = title,
+        subtitle = subtitle,
         onClick = onClick,
         leading = { Icon(icon, null, tint = if (danger) c.danger else c.primary) },
         trailing = { if (!danger) Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint) },

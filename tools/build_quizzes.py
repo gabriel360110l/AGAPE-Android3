@@ -11,8 +11,9 @@ Source: tools/source/quizzes/<BOOK>.md, one file per book, written by hand in En
     - Another wrong answer | Nog een fout antwoord
 
 The right answer is written first; the build moves it to a fixed but varied position, so it is not always the
-same button. Output: the "chapter:BOOK.N" entries of app/src/main/assets/content/quizzes.json. Other quizzes
-(plans) are kept. Chapters without written questions keep the quiz the app generates from the Bible text.
+same button. Output: app/src/main/assets/content/quizzes/<BOOK>.json, one file per book with its "chapter:BOOK.N"
+quizzes, so the app reads only the book it needs. quizzes/index.json holds the pass mark and the other quizzes
+(plans); it is kept as it is. Chapters without written questions keep the quiz the app generates from the Bible text.
 
 Run from the repository root:  python -I tools/build_quizzes.py
 """
@@ -25,7 +26,8 @@ import zlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "tools", "source", "quizzes")
-OUT = os.path.join(ROOT, "app", "src", "main", "assets", "content", "quizzes.json")
+OUT_DIR = os.path.join(ROOT, "app", "src", "main", "assets", "content", "quizzes")
+INDEX = os.path.join(OUT_DIR, "index.json")
 DB = os.path.join(ROOT, "app", "src", "main", "assets", "bible", "bible.db")
 ORDER = ["MAT", "MRK", "LUK", "JHN", "ACT", "ROM", "1CO", "2CO", "GAL", "EPH", "PHP", "COL", "1TH", "2TH", "1TI",
          "2TI", "TIT", "PHM", "HEB", "JAS", "1PE", "2PE", "1JN", "2JN", "3JN", "JUD", "REV"]
@@ -78,6 +80,18 @@ def chapter_counts():
         return dict(db.execute("SELECT book, MAX(chapter) FROM verses GROUP BY book"))
 
 
+def write_quizzes(path, quizzes):
+    """One question per line keeps the files readable and their diffs small."""
+    lines = ["{"]
+    for i, (key, questions) in enumerate(quizzes.items()):
+        lines.append(f" {json.dumps(key)}: [")
+        lines.append(",\n".join("  " + json.dumps(q, ensure_ascii=False) for q in questions))
+        lines.append(" ]" + ("," if i < len(quizzes) - 1 else ""))
+    lines += ["}", ""]
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines))
+
+
 def main():
     counts = chapter_counts()
     written = {}
@@ -92,29 +106,20 @@ def main():
                 sys.exit(f"{path}: {book} {chapter} is written twice")
             written[f"{book}.{chapter}"] = questions
 
-    with open(OUT, encoding="utf-8") as f:
-        data = json.load(f)
     books = {key.split(".")[0] for key in written}
-    kept = {k: v for k, v in data["quizzes"].items() if not (k.startswith("chapter:") and k[8:].split(".")[0] in books)}
 
     def order(key):
         book, chapter = key.split(".")
         return (ORDER.index(book) if book in ORDER else len(ORDER), book, int(chapter))
 
-    chapters = {f"chapter:{key}": written[key] for key in sorted(written, key=order)}
-    others = {k: v for k, v in kept.items() if not k.startswith("chapter:")}
-    older = {k: v for k, v in kept.items() if k.startswith("chapter:")}
-    quizzes = {**chapters, **older, **others}
-
-    # One question per line keeps the file readable and its diffs small.
-    lines = ["{", f' "passMark": {json.dumps(data["passMark"])},', ' "quizzes": {']
-    for i, (key, questions) in enumerate(quizzes.items()):
-        lines.append(f"  {json.dumps(key)}: [")
-        lines.append(",\n".join("   " + json.dumps(q, ensure_ascii=False) for q in questions))
-        lines.append("  ]" + ("," if i < len(quizzes) - 1 else ""))
-    lines += [" }", "}", ""]
-    with open(OUT, "w", encoding="utf-8", newline="\n") as f:
-        f.write("\n".join(lines))
+    os.makedirs(OUT_DIR, exist_ok=True)
+    # Every book file is written again; a book without written questions any more loses its file.
+    for path in glob.glob(os.path.join(OUT_DIR, "*.json")):
+        if path != INDEX and os.path.splitext(os.path.basename(path))[0] not in books:
+            os.remove(path)
+    for book in books:
+        keys = sorted((k for k in written if k.split(".")[0] == book), key=order)
+        write_quizzes(os.path.join(OUT_DIR, f"{book}.json"), {f"chapter:{k}": written[k] for k in keys})
     for book in sorted(books, key=lambda b: ORDER.index(b) if b in ORDER else len(ORDER)):
         n = sum(1 for key in written if key.startswith(book + "."))
         q = sum(len(v) for key, v in written.items() if key.startswith(book + "."))

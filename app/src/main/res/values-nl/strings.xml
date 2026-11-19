@@ -24,7 +24,7 @@
     <string name="terms_title">Voordat we beginnen</string>
     <string name="terms_subtitle">Lees en accepteer onze voorwaarden.</string>
     <string name="terms_point_1">AGAPE is gratis en zonder advertenties.</string>
-    <string name="terms_point_2">Je voortgang wordt op je toestel en in je account bewaard.</string>
+    <string name="terms_point_2">Je voortgang wordt op je toestel bewaard, en ook in je account als je inlogt.</string>
     <string name="terms_point_3">De uitleg ondersteunt persoonlijke studie; ze vervangt je priester of pastoor niet.</string>
     <string name="terms_point_4">Je kunt je account en gegevens altijd verwijderen.</string>
     <string name="terms_read_terms">Gebruiksvoorwaarden</string>
@@ -62,6 +62,8 @@
     <string name="auth_create">Account maken</string>
     <string name="auth_signin">Inloggen</string>
     <string name="auth_or">of</string>
+    <string name="auth_without_account">Doorgaan zonder account</string>
+    <string name="auth_without_hint">Alles werkt op dit toestel ook zonder account. Een account houdt alleen je voortgang gelijk tussen toestellen; je kunt later nog inloggen via Profiel en instellingen.</string>
     <string name="auth_google">Doorgaan met Google</string>
     <string name="auth_have_account">Ik heb al een account</string>
     <string name="auth_need_account">Een nieuw account maken</string>
@@ -231,6 +233,8 @@
     <string name="me_feedback">Feedback sturen</string>
     <string name="me_donate">Steun AGAPE</string>
     <string name="me_sign_out">Uitloggen</string>
+    <string name="me_sign_in">Inloggen om te synchroniseren</string>
+    <string name="me_sign_in_hint">Optioneel: houd je voortgang bij op al je toestellen.</string>
     <string name="me_sign_out_text">Je voortgang is bewaard in je account. Ze wordt van dit toestel verwijderd tot je opnieuw inlogt.</string>
     <string name="saved_bookmarks">Bladwijzers</string>
     <string name="saved_highlights">Markeringen</string>

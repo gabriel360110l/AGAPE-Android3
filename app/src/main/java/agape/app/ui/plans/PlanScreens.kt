@@ -73,6 +73,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
@@ -353,7 +354,9 @@ fun PlanDayScreen(planId: String, day: Int, onBack: () -> Unit, openPassage: (Pa
     val planDay = days.firstOrNull { it.number == day } ?: return
     val all by container.user.plans.collectAsStateWithLifecycle(emptyList())
     val progress = all.firstOrNull { it.planId == planId }
-    val quizKey = remember(planDay) { container.content.quizKeyFor(plan, planDay) }
+    // Looked up off the main thread: null until known, then the key, or "" when the day has no quiz.
+    val quizLookup by produceState<String?>(null, planDay) { value = container.content.quizKeyFor(plan, planDay).orEmpty() }
+    val quizKey = quizLookup?.takeIf { it.isNotEmpty() }
     val quizzes by container.user.quizResults.collectAsStateWithLifecycle(emptyList())
     val quizPassed = quizKey != null && quizzes.any { it.key == quizKey && it.passed }
     val needsQuiz = plan.locked && quizKey != null && !quizPassed
@@ -418,6 +421,7 @@ fun PlanDayScreen(planId: String, day: Int, onBack: () -> Unit, openPassage: (Pa
             when {
                 done -> Text(stringResource(R.string.plan_day_done), style = MaterialTheme.typography.titleMedium, color = c.primary)
                 progress == null -> Text(stringResource(R.string.plan_not_started), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
+                quizLookup == null -> Unit // A moment, so a locked day cannot be completed before its quiz is known.
                 needsQuiz -> {
                     Text(stringResource(R.string.plan_quiz_required), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
                     PrimaryButton(stringResource(R.string.reader_take_quiz), { saveThen { openQuiz(quizKey!!, title) } })

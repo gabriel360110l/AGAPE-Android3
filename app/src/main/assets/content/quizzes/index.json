@@ -1,0 +1,15 @@
+{
+ "passMark": 0.7,
+ "quizzes": {
+  "plan:redemptive:1": [
+   {"q": {"en": "Through whom were all things made, according to John 1?", "nl": "Door wie is volgens Johannes 1 alles gemaakt?"}, "options": [{"en": "Through the Word", "nl": "Door het Woord"}, {"en": "Through the angels", "nl": "Door de engelen"}, {"en": "Through Moses", "nl": "Door Mozes"}], "answer": 0},
+   {"q": {"en": "What did God see at the end of Genesis 1?", "nl": "Wat zag God aan het eind van Genesis 1?"}, "options": [{"en": "That it was very good", "nl": "Dat het zeer goed was"}, {"en": "That it was unfinished", "nl": "Dat het onvoltooid was"}, {"en": "That it was dark", "nl": "Dat het donker was"}], "answer": 0}
+  ],
+  "plan:redemptive:2": [
+   {"q": {"en": "Romans 5 contrasts Adam with…", "nl": "Romeinen 5 zet Adam tegenover…"}, "options": [{"en": "Moses", "nl": "Mozes"}, {"en": "Christ", "nl": "Christus"}, {"en": "Abraham", "nl": "Abraham"}], "answer": 1}
+  ],
+  "plan:redemptive:10": [
+   {"q": {"en": "Which feast does 1 Corinthians 5 connect with Christ?", "nl": "Welk feest verbindt 1 Korintiërs 5 met Christus?"}, "options": [{"en": "Passover", "nl": "Pascha"}, {"en": "Tabernacles", "nl": "Loofhutten"}, {"en": "Purim", "nl": "Purim"}], "answer": 0}
+  ]
+ }
+}
