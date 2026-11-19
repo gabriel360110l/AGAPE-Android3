@@ -140,8 +140,8 @@
     "nl": "Voordat Ester haar leven waagt voor de koning, legt zij haar koninklijke waardigheid af en staat zij voor God als iemand die alleen is, zonder helper dan Hem. Haar gebed verbindt de belijdenis van de zonde van het volk met vrijmoedig vertrouwen, en het laat zien dat haar hart nooit aan de pracht van het hof gegeven was."
    },
    "fathers": {
-    "en": "St Clement of Rome, in his Letter to the Corinthians, already holds up Esther, who by fasting and humility asked the all-seeing Lord and saved her people, as an example of courageous love. Christian readers have seen in Queen Esther, who intercedes before the king for her condemned people, an image of the Mother of God interceding for the faithful. In the Roman rite Esther's prayer is read on the Thursday of the first week of Lent.",
-    "nl": "De heilige Clemens van Rome stelt al in zijn Brief aan de Korinthiërs Ester ten voorbeeld, die door vasten en ootmoed de alziende Heer smeekte en haar volk redde, als voorbeeld van moedige liefde. Christelijke lezers zagen in koningin Ester, die voor de koning pleit voor haar ter dood veroordeelde volk, een beeld van de Moeder van God die voor de gelovigen pleit. In de Romeinse ritus wordt het gebed van Ester gelezen op de donderdag van de eerste week van de veertigdagentijd."
+    "en": "St Clement of Rome, in his Letter to the Corinthians, already holds up Esther, who by fasting and humility asked the all-seeing Lord and saved her people, as an example of courageous love. Christian readers have seen in Queen Esther, who intercedes before the king for her condemned people, an image of the Mother of God interceding for the faithful.",
+    "nl": "De heilige Clemens van Rome stelt al in zijn Brief aan de Korinthiërs Ester ten voorbeeld, die door vasten en ootmoed de alziende Heer smeekte en haar volk redde, als voorbeeld van moedige liefde. Christelijke lezers zagen in koningin Ester, die voor de koning pleit voor haar ter dood veroordeelde volk, een beeld van de Moeder van God die voor de gelovigen pleit."
    },
    "themes": {
     "en": [
@@ -154,6 +154,12 @@
      "Geen helper dan U",
      "Vreugde alleen in de Heer"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman rite Esther's prayer is read on the Thursday of the first week of Lent.",
+     "nl": "In de Romeinse ritus wordt het gebed van Ester gelezen op de donderdag van de eerste week van de veertigdagentijd."
+    }
    }
   },
   {

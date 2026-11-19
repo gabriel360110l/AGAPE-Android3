@@ -401,6 +401,7 @@
     <string name="info_tab_refs">Cross-references</string>
     <string name="info_meaning">Why it matters</string>
     <string name="info_fathers_reading">How the Fathers read it</string>
+    <string name="info_liturgy">Liturgy</string>
     <string name="info_about_book">About %1$s</string>
     <string name="info_provisional">Provisional explanation · a fuller one is being written</string>
     <string name="info_none">No explanation for this chapter yet.</string>

@@ -141,7 +141,26 @@ data class ChapterCommentary(
     /** How the Fathers read the chapter, in our own words. */
     val fathers: L10n = L10n(),
     val themes: L10nLines = L10nLines(),
+    /** How the chapter is used in the liturgy, kept apart per tradition so each reader sees only their own. */
+    val liturgy: TraditionL10n = TraditionL10n(),
 )
+
+/** One text per tradition, each in both app languages; a tradition without a text is empty. */
+@Serializable
+data class TraditionL10n(
+    /** Eastern Orthodox (Byzantine rite). */
+    val eo: L10n = L10n(),
+    /** Oriental Orthodox (Coptic and the other non-Chalcedonian Churches). */
+    val oo: L10n = L10n(),
+    /** Catholic (Roman rite). */
+    val ca: L10n = L10n(),
+) {
+    operator fun get(tradition: Tradition): L10n = when (tradition) {
+        Tradition.EASTERN_ORTHODOX -> eo
+        Tradition.ORIENTAL_ORTHODOX -> oo
+        Tradition.CATHOLIC -> ca
+    }
+}
 
 @Serializable
 data class BookCommentary(val book: String, val chapters: List<ChapterCommentary>)
