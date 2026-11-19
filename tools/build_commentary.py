@@ -18,7 +18,11 @@ Optional lines, which a chapter may add (both languages together, in any order w
     SS: / SSL:   short summary, one or two sentences (EN / NL)      -> "shortSummary"
     LS: / LSL:   longer summary (EN / NL)                           -> "longSummary"
     P: / PN:     patterns, hidden names, typology, connections      -> "patterns"
-Chapters without these lines get no such keys in the JSON.
+    LE: / LEN:   liturgical use in the Eastern Orthodox Church (Byzantine rite)       -> "liturgy": {"eo": ...}
+    LO: / LON:   liturgical use in the Oriental Orthodox Churches (Coptic, ...)       -> "liturgy": {"oo": ...}
+    LC: / LCN:   liturgical use in the Catholic Church (Roman rite)                   -> "liturgy": {"ca": ...}
+Chapters without these lines get no such keys in the JSON. The app shows only the liturgy of the reader's
+chosen tradition.
 
 Output: app/src/main/assets/content/commentary/<BOOK>.json. Chapters without written commentary keep the
 provisional guide from the Bible database, which the app marks as provisional.
@@ -38,6 +42,9 @@ FIELDS = {"S": ("summary", "en"), "SN": ("summary", "nl"), "M": ("meaning", "en"
           "F": ("fathers", "en"), "FN": ("fathers", "nl"), "T": ("themes", "en"), "TN": ("themes", "nl"),
           "SS": ("shortSummary", "en"), "SSL": ("shortSummary", "nl"), "LS": ("longSummary", "en"),
           "LSL": ("longSummary", "nl"), "P": ("patterns", "en"), "PN": ("patterns", "nl")}
+# Liturgy per tradition: key -> (tradition, language), emitted as "liturgy": {"eo"|"oo"|"ca": {"en", "nl"}}.
+LITURGY = {"LE": ("eo", "en"), "LEN": ("eo", "nl"), "LO": ("oo", "en"), "LON": ("oo", "nl"),
+           "LC": ("ca", "en"), "LCN": ("ca", "nl")}
 
 
 def parse(path):
@@ -54,8 +61,14 @@ def parse(path):
             chapters.append(current)
         else:
             m = re.match(r"^([A-Z]{1,3}):\s*(.*)$", line)
-            if not m or current is None or m.group(1) not in FIELDS:
+            if not m or current is None or (m.group(1) not in FIELDS and m.group(1) not in LITURGY):
                 sys.exit(f"{path}:{n}: cannot read line: {line[:60]}")
+            if m.group(1) in LITURGY:
+                tradition, lang = LITURGY[m.group(1)]
+                value = m.group(2).strip()
+                if value:
+                    current.setdefault("liturgy", {}).setdefault(tradition, {})[lang] = value
+                continue
             field, lang = FIELDS[m.group(1)]
             value = m.group(2).strip()
             current.setdefault(field, {})[lang] = [t.strip() for t in value.split(";") if t.strip()] if field == "themes" else value
@@ -63,6 +76,9 @@ def parse(path):
         for field in ("summary", "meaning", "fathers", "shortSummary", "longSummary", "patterns"):
             if set(c.get(field, {})) not in (set(), {"en", "nl"}):
                 sys.exit(f"{path}: chapter {c['chapter']} has {field} in only one language")
+        for tradition, text in c.get("liturgy", {}).items():
+            if set(text) != {"en", "nl"}:
+                sys.exit(f"{path}: chapter {c['chapter']} has {tradition} liturgy in only one language")
     return book, chapters
 
 

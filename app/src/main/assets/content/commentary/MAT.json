@@ -140,8 +140,8 @@
     "nl": "De nieuwe Mozes geeft op de berg de nieuwe wet, niet op steen maar in het hart geschreven. De zaligsprekingen beschrijven Christus Zelf en de weg van iedere heilige: weest volmaakt, zoals uw hemelse Vader volmaakt is."
    },
    "fathers": {
-    "en": "St Augustine called the Sermon on the Mount the perfect pattern of the Christian life, and St Gregory of Nyssa wrote homilies on the Beatitudes as a ladder of ascent to God. The Byzantine Liturgy sings the Beatitudes at every Sunday Divine Liturgy.",
-    "nl": "De heilige Augustinus noemde de Bergrede het volmaakte voorbeeld van het christelijk leven, en de heilige Gregorius van Nyssa schreef homilieën over de zaligsprekingen als een ladder van opgang naar God. De Byzantijnse liturgie zingt de zaligsprekingen bij elke zondagse Goddelijke Liturgie."
+    "en": "St Augustine called the Sermon on the Mount the perfect pattern of the Christian life, and St Gregory of Nyssa wrote homilies on the Beatitudes as a ladder of ascent to God.",
+    "nl": "De heilige Augustinus noemde de Bergrede het volmaakte voorbeeld van het christelijk leven, en de heilige Gregorius van Nyssa schreef homilieën over de zaligsprekingen als een ladder van opgang naar God."
    },
    "themes": {
     "en": [
@@ -154,6 +154,12 @@
      "Vervulling van de Wet",
      "Liefde voor de vijand"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "The Byzantine Liturgy sings the Beatitudes at every Sunday Divine Liturgy.",
+     "nl": "De Byzantijnse liturgie zingt de zaligsprekingen bij elke zondagse Goddelijke Liturgie."
+    }
    }
   },
   {
@@ -171,8 +177,8 @@
     "nl": "De drie pijlers van het geestelijk leven krijgen hun ware doel: niet menselijke lof, maar gemeenschap met de Vader. Het Onze Vader is de samenvatting van alle gebed en van heel het Evangelie."
    },
    "fathers": {
-    "en": "St Cyprian and Tertullian wrote treatises on the Lord's Prayer, calling it a summary of the Gospel. The Fathers read 'our daily bread' both as the food we need and as the Eucharist, the Bread of life. In the Roman Lectionary 6:1-6, 16-18 is the Gospel of Ash Wednesday, at the start of Lent, and 6:24-34 that of the Eighth Sunday in Ordinary Time (Year A); in the Byzantine rite 6:14-21 is the Gospel of Forgiveness Sunday (Cheesefare), the last Sunday before Great Lent.",
-    "nl": "De heilige Cyprianus en Tertullianus schreven verhandelingen over het Onze Vader en noemden het een samenvatting van het Evangelie. De kerkvaders lazen 'ons dagelijks brood' zowel als het voedsel dat wij nodig hebben als de eucharistie, het Brood des levens. In het Romeins lectionarium is 6:1-6.16-18 het evangelie van Aswoensdag, aan het begin van de veertigdagentijd, en 6:24-34 dat van de achtste zondag door het jaar (jaar A); in de byzantijnse ritus is 6:14-21 het evangelie van de Zondag van de Vergeving (Kaaszondag), de laatste zondag vóór de Grote Vasten."
+    "en": "St Cyprian and Tertullian wrote treatises on the Lord's Prayer, calling it a summary of the Gospel. The Fathers read 'our daily bread' both as the food we need and as the Eucharist, the Bread of life.",
+    "nl": "De heilige Cyprianus en Tertullianus schreven verhandelingen over het Onze Vader en noemden het een samenvatting van het Evangelie. De kerkvaders lazen 'ons dagelijks brood' zowel als het voedsel dat wij nodig hebben als de eucharistie, het Brood des levens."
    },
    "themes": {
     "en": [
@@ -185,6 +191,16 @@
      "Vasten",
      "Godsvertrouwen"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "In the Byzantine rite 6:14-21 is the Gospel of Forgiveness Sunday (Cheesefare), the last Sunday before Great Lent.",
+     "nl": "In de byzantijnse ritus is 6:14-21 het evangelie van de Zondag van de Vergeving (Kaaszondag), de laatste zondag vóór de Grote Vasten."
+    },
+    "ca": {
+     "en": "In the Roman Lectionary 6:1-6, 16-18 is the Gospel of Ash Wednesday, at the start of Lent, and 6:24-34 that of the Eighth Sunday in Ordinary Time (Year A).",
+     "nl": "In het Romeins lectionarium is 6:1-6.16-18 het evangelie van Aswoensdag, aan het begin van de veertigdagentijd, en 6:24-34 dat van de achtste zondag door het jaar (jaar A)."
+    }
    }
   },
   {
@@ -202,8 +218,8 @@
     "nl": "Horen is niet genoeg; de Bergrede moet gedaan worden. Een leven dat op Christus' woord gebouwd is, blijft staan als de stormen komen."
    },
    "fathers": {
-    "en": "On the command \"Judge not, that you be not judged\" and the beam in one's own eye (7:1-5), Chrysostom clarifies that Christ does not forbid correcting a sinning brother, but condemns bitter, hypocritical fault-finding: we must approach a fallen neighbor not as a vengeful enemy exacting a penalty, but as a tender physician applying medicine after examining his own conscience (St John Chrysostom, Homilies on Matthew, Homily 23). The Fathers apply 'judge not' to the condemnation of persons, not to the discernment of good and evil. St John Chrysostom teaches that the rock is Christ's teaching kept in practice, which no temptation can overthrow. In the Roman Lectionary 7:21-27, the house built on rock, is the Gospel of the Ninth Sunday in Ordinary Time (Year A).",
-    "nl": "Over het gebod \"Oordeelt niet, opdat u niet geoordeeld wordt\" en de balk in het eigen oog (7:1-5), verduidelijkt Chrysostomus dat Christus niet verbiedt om een zondigende broeder terecht te wijzen, maar bittere, schijnheilige vitterij veroordeelt: wij moeten een gevallen naaste niet benaderen als een wraakzuchtige vijand die straf eist, maar als een zorgzame arts die na eigen gewetensonderzoek geneesmiddelen toedient (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 23). De kerkvaders passen 'oordeelt niet' toe op het veroordelen van personen, niet op het onderscheiden van goed en kwaad. De heilige Johannes Chrysostomus leert dat de rots het onderwijs van Christus is dat in praktijk wordt gebracht, en dat geen verzoeking kan omverwerpen. In het Romeins lectionarium is 7:21-27, het huis op de rots, het evangelie van de negende zondag door het jaar (jaar A)."
+    "en": "On the command \"Judge not, that you be not judged\" and the beam in one's own eye (7:1-5), Chrysostom clarifies that Christ does not forbid correcting a sinning brother, but condemns bitter, hypocritical fault-finding: we must approach a fallen neighbor not as a vengeful enemy exacting a penalty, but as a tender physician applying medicine after examining his own conscience (St John Chrysostom, Homilies on Matthew, Homily 23). The Fathers apply 'judge not' to the condemnation of persons, not to the discernment of good and evil. St John Chrysostom teaches that the rock is Christ's teaching kept in practice, which no temptation can overthrow.",
+    "nl": "Over het gebod \"Oordeelt niet, opdat u niet geoordeeld wordt\" en de balk in het eigen oog (7:1-5), verduidelijkt Chrysostomus dat Christus niet verbiedt om een zondigende broeder terecht te wijzen, maar bittere, schijnheilige vitterij veroordeelt: wij moeten een gevallen naaste niet benaderen als een wraakzuchtige vijand die straf eist, maar als een zorgzame arts die na eigen gewetensonderzoek geneesmiddelen toedient (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 23). De kerkvaders passen 'oordeelt niet' toe op het veroordelen van personen, niet op het onderscheiden van goed en kwaad. De heilige Johannes Chrysostomus leert dat de rots het onderwijs van Christus is dat in praktijk wordt gebracht, en dat geen verzoeking kan omverwerpen."
    },
    "themes": {
     "en": [
@@ -216,6 +232,12 @@
      "Gebed",
      "Gehoorzaamheid"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman Lectionary 7:21-27, the house built on rock, is the Gospel of the Ninth Sunday in Ordinary Time (Year A).",
+     "nl": "In het Romeins lectionarium is 7:21-27, het huis op de rots, het evangelie van de negende zondag door het jaar (jaar A)."
+    }
    }
   },
   {
@@ -233,8 +255,8 @@
     "nl": "Na Zijn woorden komen Zijn daden: het gezag van de Leraar is het gezag van de Schepper over ziekte, natuur en demonen. Het geloof van de hoofdman laat zien dat de heidenen aan de tafel van Abraham zullen aanzitten."
    },
    "fathers": {
-    "en": "Commenting on the leper saying \"Lord, if You will, You can make me clean\" and Jesus replying \"I will, be thou clean\" (8:2-3), Chrysostom notes that the leper did not ask Christ to pray to God for healing, but attributed sovereign authority to Christ's own will; by answering \"I will,\" Jesus confirmed the leper's faith that He possesses the very same divine power as the Father (St John Chrysostom, Homilies on Matthew, Homily 25). Matthew 8:5-13 is read in the Byzantine rite on the fourth Sunday after Pentecost. The centurion's words, 'Lord, I am not worthy that You should come under my roof', became part of the preparation for Holy Communion. The Fathers see the boat as the Church, tossed by storms but safe with Christ aboard.",
-    "nl": "Bij de melaatse die zegt \"Heer, als U wilt, kunt U mij reinigen\" en Jezus' antwoord \"Ik wil het, word rein\" (8:2-3), merkt Chrysostomus op dat de melaatse niet vroeg of Christus tot God wilde bidden om genezing, maar soevereine macht toekende aan Christus' eigen wil; door te antwoorden \"Ik wil het\", bevestigde Jezus het geloof van de melaatse dat Hij dezelfde goddelijke macht bezit als de Vader (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 25). Matteüs 8:5-13 wordt in de Byzantijnse ritus gelezen op de vierde zondag na Pinksteren. De woorden van de hoofdman, 'Heer, ik ben niet waardig dat Gij onder mijn dak komt', werden een deel van de voorbereiding op de Heilige Communie. De kerkvaders zien de boot als de Kerk, door stormen geslingerd maar veilig met Christus aan boord."
+    "en": "Commenting on the leper saying \"Lord, if You will, You can make me clean\" and Jesus replying \"I will, be thou clean\" (8:2-3), Chrysostom notes that the leper did not ask Christ to pray to God for healing, but attributed sovereign authority to Christ's own will; by answering \"I will,\" Jesus confirmed the leper's faith that He possesses the very same divine power as the Father (St John Chrysostom, Homilies on Matthew, Homily 25). The centurion's words, 'Lord, I am not worthy that You should come under my roof', became part of the preparation for Holy Communion. The Fathers see the boat as the Church, tossed by storms but safe with Christ aboard.",
+    "nl": "Bij de melaatse die zegt \"Heer, als U wilt, kunt U mij reinigen\" en Jezus' antwoord \"Ik wil het, word rein\" (8:2-3), merkt Chrysostomus op dat de melaatse niet vroeg of Christus tot God wilde bidden om genezing, maar soevereine macht toekende aan Christus' eigen wil; door te antwoorden \"Ik wil het\", bevestigde Jezus het geloof van de melaatse dat Hij dezelfde goddelijke macht bezit als de Vader (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 25). De woorden van de hoofdman, 'Heer, ik ben niet waardig dat Gij onder mijn dak komt', werden een deel van de voorbereiding op de Heilige Communie. De kerkvaders zien de boot als de Kerk, door stormen geslingerd maar veilig met Christus aan boord."
    },
    "themes": {
     "en": [
@@ -247,6 +269,12 @@
      "Genezing",
      "Gezag van Christus"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 8:5-13 is read in the Byzantine rite on the fourth Sunday after Pentecost.",
+     "nl": "Matteüs 8:5-13 wordt in de Byzantijnse ritus gelezen op de vierde zondag na Pinksteren."
+    }
    }
   },
   {
@@ -264,8 +292,8 @@
     "nl": "Christus is de Geneesheer van zielen en lichamen. Hij geneest de wortel van alle ziekte, de zonde, en verzamelt wie door anderen veracht worden."
    },
    "fathers": {
-    "en": "On Jesus reading the unspoken thoughts of the scribes who accused Him of blasphemy when He forgave the paralytic's sins (9:2-4), Chrysostom points out how Christ proved His divinity out of His enemies' own mouths: they claimed that God alone can forgive sins, so Christ demonstrated that He is God by doing what only God can do—exposing the hidden secrets of the human heart (St John Chrysostom, Homilies on Matthew, Homily 29). Matthew 9:1-8 is read in the Byzantine rite on the sixth Sunday after Pentecost. The prayers of the Church often call Christ 'Physician of our souls and bodies'. The Fathers note that Matthew writes humbly about his own calling, naming himself a tax collector.",
-    "nl": "Over Jezus die de onuitgesproken gedachten las van de schriftgeleerden toen zij Hem van godslastering betichtten bij het vergeven van de zonden van de verlamde (9:2-4), wijst Chrysostomus erop hoe Christus Zijn godheid bewees uit de mond van Zijn eigen vijanden: zij stelden dat alleen God zonden kan vergeven, waarop Christus toonde dat Hij God is door te doen wat alleen God kan—het blootleggen van de verborgen geheimen van het hart (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 29). Matteüs 9:1-8 wordt in de Byzantijnse ritus gelezen op de zesde zondag na Pinksteren. De gebeden van de Kerk noemen Christus vaak 'Geneesheer van onze zielen en lichamen'. De kerkvaders merken op dat Matteüs nederig over zijn eigen roeping schrijft en zichzelf tollenaar noemt."
+    "en": "On Jesus reading the unspoken thoughts of the scribes who accused Him of blasphemy when He forgave the paralytic's sins (9:2-4), Chrysostom points out how Christ proved His divinity out of His enemies' own mouths: they claimed that God alone can forgive sins, so Christ demonstrated that He is God by doing what only God can do—exposing the hidden secrets of the human heart (St John Chrysostom, Homilies on Matthew, Homily 29). The prayers of the Church often call Christ 'Physician of our souls and bodies'. The Fathers note that Matthew writes humbly about his own calling, naming himself a tax collector.",
+    "nl": "Over Jezus die de onuitgesproken gedachten las van de schriftgeleerden toen zij Hem van godslastering betichtten bij het vergeven van de zonden van de verlamde (9:2-4), wijst Chrysostomus erop hoe Christus Zijn godheid bewees uit de mond van Zijn eigen vijanden: zij stelden dat alleen God zonden kan vergeven, waarop Christus toonde dat Hij God is door te doen wat alleen God kan—het blootleggen van de verborgen geheimen van het hart (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 29). De gebeden van de Kerk noemen Christus vaak 'Geneesheer van onze zielen en lichamen'. De kerkvaders merken op dat Matteüs nederig over zijn eigen roeping schrijft en zichzelf tollenaar noemt."
    },
    "themes": {
     "en": [
@@ -278,6 +306,12 @@
      "Barmhartigheid voor zondaars",
      "Geloof dat geneest"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 9:1-8 is read in the Byzantine rite on the sixth Sunday after Pentecost.",
+     "nl": "Matteüs 9:1-8 wordt in de Byzantijnse ritus gelezen op de zesde zondag na Pinksteren."
+    }
    }
   },
   {
@@ -295,8 +329,8 @@
     "nl": "De Kerk is apostolisch: gezonden door Christus, delend in Zijn gezag en in Zijn lijden. De leerling staat niet boven zijn meester."
    },
    "fathers": {
-    "en": "On the command not to fear those who kill the body but cannot kill the soul (10:28), Chrysostom remarks that when persecutors destroy the mortal body, they actually do the Christian a favor by destroying mortality itself and translating the soul to a calmer harbor, while the soul's inner beauty remains completely beyond the reach of any earthly sword (St John Chrysostom, Homilies on Matthew, Homily 34). Matthew 10:32-33 and 10:37-38 are read in the Byzantine rite on the first Sunday after Pentecost (Sunday of All Saints). The Fathers saw in this chapter the courage of the martyrs foretold. St John Chrysostom notes that Christ first tells of the dangers, so that the apostles would not be shaken when they came.",
-    "nl": "Over het gebod om niet bang te zijn voor hen die het lichaam doden maar de ziel niet kunnen doden (10:28), merkt Chrysostomus op dat wanneer vervolgers het sterfelijk lichaam doden, zij de christen feitelijk een dienst bewijzen door de sterfelijkheid zelf te vernietigen en de ziel over te brengen naar een veilige haven, terwijl de innerlijke schoonheid van de ziel onbereikbaar blijft voor elk aards zwaard (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 34). Matteüs 10:32-33 en 10:37-38 worden in de Byzantijnse ritus gelezen op de eerste zondag na Pinksteren (Zondag van Alle Heiligen). De kerkvaders zagen in dit hoofdstuk de moed van de martelaren voorzegd. De heilige Johannes Chrysostomus merkt op dat Christus eerst de gevaren noemt, zodat de apostelen niet zouden wankelen als ze kwamen."
+    "en": "On the command not to fear those who kill the body but cannot kill the soul (10:28), Chrysostom remarks that when persecutors destroy the mortal body, they actually do the Christian a favor by destroying mortality itself and translating the soul to a calmer harbor, while the soul's inner beauty remains completely beyond the reach of any earthly sword (St John Chrysostom, Homilies on Matthew, Homily 34). The Fathers saw in this chapter the courage of the martyrs foretold. St John Chrysostom notes that Christ first tells of the dangers, so that the apostles would not be shaken when they came.",
+    "nl": "Over het gebod om niet bang te zijn voor hen die het lichaam doden maar de ziel niet kunnen doden (10:28), merkt Chrysostomus op dat wanneer vervolgers het sterfelijk lichaam doden, zij de christen feitelijk een dienst bewijzen door de sterfelijkheid zelf te vernietigen en de ziel over te brengen naar een veilige haven, terwijl de innerlijke schoonheid van de ziel onbereikbaar blijft voor elk aards zwaard (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 34). De kerkvaders zagen in dit hoofdstuk de moed van de martelaren voorzegd. De heilige Johannes Chrysostomus merkt op dat Christus eerst de gevaren noemt, zodat de apostelen niet zouden wankelen als ze kwamen."
    },
    "themes": {
     "en": [
@@ -309,6 +343,12 @@
      "Zending",
      "Christus belijden"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 10:32-33 and 10:37-38 are read in the Byzantine rite on the first Sunday after Pentecost (Sunday of All Saints).",
+     "nl": "Matteüs 10:32-33 en 10:37-38 worden in de Byzantijnse ritus gelezen op de eerste zondag na Pinksteren (Zondag van Alle Heiligen)."
+    }
    }
   },
   {
@@ -326,8 +366,8 @@
     "nl": "Alleen de Zoon kent de Vader en openbaart Hem. Zijn juk is licht omdat Hij het met ons draagt."
    },
    "fathers": {
-    "en": "Explaining Jesus' thanksgiving to the Father for hiding these mysteries from the \"wise and prudent\" and revealing them to \"babes\" (11:25), Chrysostom stresses that Christ did not rejoice that the scribes remained blind—since He later wept over Jerusalem—but rejoiced that simple, unpretentious fishermen received through humility the grace that arrogant intellectuals rejected (St John Chrysostom, Homilies on Matthew, Homily 38). Matthew 11:27-30 is read in the Byzantine rite on feasts of great monks and ascetics. Several Fathers think John asked not from doubt but so that his disciples would hear Jesus and follow Him. 'Learn from Me, for I am meek and humble' was seen by the desert Fathers as the heart of the spiritual life. In the Roman Lectionary 11:2-11 is the Gospel of the Third Sunday of Advent (Year A) and 11:25-30 that of the Fourteenth Sunday in Ordinary Time (Year A).",
-    "nl": "Bij Jezus' dankgebed tot de Vader omdat Hij deze geheimen heeft verborgen voor \"wijzen en verstandigen\" en geopenbaard aan \"kleinen\" (11:25), benadrukt Chrysostomus dat Christus Zich niet verheugde over de blindheid van de schriftgeleerden—want later weende Hij over Jeruzalem—maar Zich verheugde dat eenvoudige, ongekunstelde vissers door nederigheid de genade ontvingen die hoogmoedige geleerden afwezen (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 38). Matteüs 11:27-30 wordt in de Byzantijnse ritus gelezen op feesten van grote monniken en asceten. Verschillende kerkvaders denken dat Johannes niet uit twijfel vroeg, maar opdat zijn leerlingen Jezus zouden horen en Hem volgen. 'Leert van Mij, want Ik ben zachtmoedig en nederig' gold voor de woestijnvaders als het hart van het geestelijk leven. In het Romeins lectionarium is 11:2-11 het evangelie van de derde zondag van de advent (jaar A) en 11:25-30 dat van de veertiende zondag door het jaar (jaar A)."
+    "en": "Explaining Jesus' thanksgiving to the Father for hiding these mysteries from the \"wise and prudent\" and revealing them to \"babes\" (11:25), Chrysostom stresses that Christ did not rejoice that the scribes remained blind—since He later wept over Jerusalem—but rejoiced that simple, unpretentious fishermen received through humility the grace that arrogant intellectuals rejected (St John Chrysostom, Homilies on Matthew, Homily 38). Several Fathers think John asked not from doubt but so that his disciples would hear Jesus and follow Him. 'Learn from Me, for I am meek and humble' was seen by the desert Fathers as the heart of the spiritual life.",
+    "nl": "Bij Jezus' dankgebed tot de Vader omdat Hij deze geheimen heeft verborgen voor \"wijzen en verstandigen\" en geopenbaard aan \"kleinen\" (11:25), benadrukt Chrysostomus dat Christus Zich niet verheugde over de blindheid van de schriftgeleerden—want later weende Hij over Jeruzalem—maar Zich verheugde dat eenvoudige, ongekunstelde vissers door nederigheid de genade ontvingen die hoogmoedige geleerden afwezen (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 38). Verschillende kerkvaders denken dat Johannes niet uit twijfel vroeg, maar opdat zijn leerlingen Jezus zouden horen en Hem volgen. 'Leert van Mij, want Ik ben zachtmoedig en nederig' gold voor de woestijnvaders als het hart van het geestelijk leven."
    },
    "themes": {
     "en": [
@@ -340,6 +380,16 @@
      "Rust in Christus",
      "Openbaring van de Vader"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 11:27-30 is read in the Byzantine rite on feasts of great monks and ascetics.",
+     "nl": "Matteüs 11:27-30 wordt in de Byzantijnse ritus gelezen op feesten van grote monniken en asceten."
+    },
+    "ca": {
+     "en": "In the Roman Lectionary 11:2-11 is the Gospel of the Third Sunday of Advent (Year A) and 11:25-30 that of the Fourteenth Sunday in Ordinary Time (Year A).",
+     "nl": "In het Romeins lectionarium is 11:2-11 het evangelie van de derde zondag van de advent (jaar A) en 11:25-30 dat van de veertiende zondag door het jaar (jaar A)."
+    }
    }
   },
   {
@@ -357,8 +407,8 @@
     "nl": "Christus is meer dan de tempel, dan Jona en dan Salomo. Het werk van de Geest kwaad noemen, is zich afsluiten van de bron van de vergeving zelf."
    },
    "fathers": {
-    "en": "On the man with the withered hand stretched out in the synagogue (12:10-13), Jerome interprets that withered hand as a figure of the avaricious person who is quick to grasp earthly goods for himself, yet paralyzed and shriveled when asked to stretch out his hand in almsgiving to the poor (St Jerome, Commentary on Matthew, on Matthew 12). The Fathers explain the unforgivable sin as hardened, unrepentant resistance to grace: it is not forgiven because it refuses forgiveness. The sign of Jonah, three days in the whale, points to the Resurrection. In the Roman Lectionary this chapter gives the weekday Gospels at Mass: 12:1-8 on Friday and 12:14-21 on Saturday of the Fifteenth Week in Ordinary Time, and 12:38-42 on Monday and 12:46-50 on Tuesday of the Sixteenth Week in Ordinary Time.",
-    "nl": "Over de man met de verschrompelde hand die hij in de synagoge moest uitstrekken (12:10-13), duidt Hiëronymus die dorre hand als een beeld van de gierigaard die snel klaarstaat om aardse goederen naar zich toe te halen, maar verlamd en krachteloos is zodra hem wordt gevraagd zijn hand uit te strekken voor een aalmoes aan de armen (Hiëronymus, Commentaar op Matteüs, bij Matteüs 12). De kerkvaders verklaren de onvergeeflijke zonde als verharde, onboetvaardige weerstand tegen de genade: ze wordt niet vergeven omdat ze vergeving weigert. Het teken van Jona, drie dagen in de vis, wijst naar de Verrijzenis. In het Romeins lectionarium levert dit hoofdstuk weekdagevangelies in de mis: 12:1-8 op vrijdag en 12:14-21 op zaterdag van de vijftiende week door het jaar, en 12:38-42 op maandag en 12:46-50 op dinsdag van de zestiende week door het jaar."
+    "en": "On the man with the withered hand stretched out in the synagogue (12:10-13), Jerome interprets that withered hand as a figure of the avaricious person who is quick to grasp earthly goods for himself, yet paralyzed and shriveled when asked to stretch out his hand in almsgiving to the poor (St Jerome, Commentary on Matthew, on Matthew 12). The Fathers explain the unforgivable sin as hardened, unrepentant resistance to grace: it is not forgiven because it refuses forgiveness. The sign of Jonah, three days in the whale, points to the Resurrection.",
+    "nl": "Over de man met de verschrompelde hand die hij in de synagoge moest uitstrekken (12:10-13), duidt Hiëronymus die dorre hand als een beeld van de gierigaard die snel klaarstaat om aardse goederen naar zich toe te halen, maar verlamd en krachteloos is zodra hem wordt gevraagd zijn hand uit te strekken voor een aalmoes aan de armen (Hiëronymus, Commentaar op Matteüs, bij Matteüs 12). De kerkvaders verklaren de onvergeeflijke zonde als verharde, onboetvaardige weerstand tegen de genade: ze wordt niet vergeven omdat ze vergeving weigert. Het teken van Jona, drie dagen in de vis, wijst naar de Verrijzenis."
    },
    "themes": {
     "en": [
@@ -371,6 +421,12 @@
      "Heilige Geest",
      "Barmhartigheid"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman Lectionary this chapter gives the weekday Gospels at Mass: 12:1-8 on Friday and 12:14-21 on Saturday of the Fifteenth Week in Ordinary Time, and 12:38-42 on Monday and 12:46-50 on Tuesday of the Sixteenth Week in Ordinary Time.",
+     "nl": "In het Romeins lectionarium levert dit hoofdstuk weekdagevangelies in de mis: 12:1-8 op vrijdag en 12:14-21 op zaterdag van de vijftiende week door het jaar, en 12:38-42 op maandag en 12:46-50 op dinsdag van de zestiende week door het jaar."
+    }
    }
   },
   {
@@ -388,8 +444,8 @@
     "nl": "Het koninkrijk begint klein en verborgen, groeit door Gods kracht en is alles waard wat wij hebben. Goed en kwaad groeien samen tot de oogst aan het einde der tijden."
    },
    "fathers": {
-    "en": "Commenting on the treasure hidden in a field and the merchant seeking goodly pearls who finds one pearl of great price (13:44-46), Origen explains that the other good pearls represent the prophets, who reflect truth like stars, whereas Christ is the one priceless Pearl whose dawn absorbs all lesser lights into His fullness (Origen, Commentary on Matthew, Book 10, on Matthew 13). The Fathers read the four soils as the states of the heart and urged their hearers to become good soil. St Augustine used the wheat and the weeds to teach patience: the Church on earth is a mixed field, and judgement belongs to the Lord. In the Roman Lectionary this chapter gives the Gospels of the Fifteenth, Sixteenth and Seventeenth Sundays in Ordinary Time (Year A): 13:1-23, 13:24-43 and 13:44-52.",
-    "nl": "Bij de schat verborgen in een akker en de koopman die mooie parels zocht totdat hij één parel van grote waarde vond (13:44-46), legt Origenes uit dat de andere goede parels staan voor de profeten die de waarheid weerspiegelen als sterren, terwijl Christus de ene onbetaalbare Parel is wiens opgang alle kleinere lichten opneemt in Zijn volheid (Origenes, Commentaar op Matteüs, Boek 10, bij Matteüs 13). De kerkvaders lazen de vier soorten grond als toestanden van het hart en spoorden hun hoorders aan goede aarde te worden. De heilige Augustinus gebruikte het onkruid tussen de tarwe om geduld te leren: de Kerk op aarde is een gemengd veld, en het oordeel behoort aan de Heer. In het Romeins lectionarium levert dit hoofdstuk de evangelies van de vijftiende, zestiende en zeventiende zondag door het jaar (jaar A): 13:1-23, 13:24-43 en 13:44-52."
+    "en": "Commenting on the treasure hidden in a field and the merchant seeking goodly pearls who finds one pearl of great price (13:44-46), Origen explains that the other good pearls represent the prophets, who reflect truth like stars, whereas Christ is the one priceless Pearl whose dawn absorbs all lesser lights into His fullness (Origen, Commentary on Matthew, Book 10, on Matthew 13). The Fathers read the four soils as the states of the heart and urged their hearers to become good soil. St Augustine used the wheat and the weeds to teach patience: the Church on earth is a mixed field, and judgement belongs to the Lord.",
+    "nl": "Bij de schat verborgen in een akker en de koopman die mooie parels zocht totdat hij één parel van grote waarde vond (13:44-46), legt Origenes uit dat de andere goede parels staan voor de profeten die de waarheid weerspiegelen als sterren, terwijl Christus de ene onbetaalbare Parel is wiens opgang alle kleinere lichten opneemt in Zijn volheid (Origenes, Commentaar op Matteüs, Boek 10, bij Matteüs 13). De kerkvaders lazen de vier soorten grond als toestanden van het hart en spoorden hun hoorders aan goede aarde te worden. De heilige Augustinus gebruikte het onkruid tussen de tarwe om geduld te leren: de Kerk op aarde is een gemengd veld, en het oordeel behoort aan de Heer."
    },
    "themes": {
     "en": [
@@ -402,6 +458,12 @@
      "Gelijkenissen",
      "Het woord horen"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman Lectionary this chapter gives the Gospels of the Fifteenth, Sixteenth and Seventeenth Sundays in Ordinary Time (Year A): 13:1-23, 13:24-43 and 13:44-52.",
+     "nl": "In het Romeins lectionarium levert dit hoofdstuk de evangelies van de vijftiende, zestiende en zeventiende zondag door het jaar (jaar A): 13:1-23, 13:24-43 en 13:44-52."
+    }
    }
   },
   {
@@ -419,8 +481,8 @@
     "nl": "Christus voedt Zijn volk in de woestijn als een nieuwe Mozes, een teken van de eucharistie. Hij heerst over de wateren zoals alleen God dat doet, en tilt hen op wier geloof zwak is."
    },
    "fathers": {
-    "en": "On Peter saying \"Lord, if it be Thou, bid me come unto Thee on the water\" (14:28-31), Chrysostom notes that Peter did not ask out of vainglory merely to walk on the waves, but out of burning love said \"bid me come unto Thee\"; yet God permitted him to grow dizzy before the wind so that even the chief apostle would learn humility and rely solely on Christ's outstretched hand (St John Chrysostom, Homilies on Matthew, Homily 50). Matthew 14:22-34 is read in the Byzantine rite on the ninth Sunday after Pentecost. The Fathers note the eucharistic words: He took, blessed, broke and gave. Peter sinking became for them an image of every soul that looks at the storm instead of at Christ, and his cry 'Lord, save me' a model of prayer.",
-    "nl": "Over Petrus die zegt \"Heer, als U het bent, zeg mij dan dat ik over het water naar U toe moet komen\" (14:28-31), merkt Chrysostomus op dat Petrus niet uit ijdelheid vroeg om zomaar op de golven te lopen, maar uit vurige liefde zei \"laat mij naar U toe komen\"; toch liet God toe dat hij duizelig werd door de wind, opdat zelfs de eerste van de apostelen nederigheid zou leren en alleen op Christus' uitgestrekte hand zou steunen (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 50). Matteüs 14:22-34 wordt in de Byzantijnse ritus gelezen op de negende zondag na Pinksteren. De kerkvaders wijzen op de eucharistische woorden: Hij nam, zegende, brak en gaf. Petrus die zinkt, werd voor hen een beeld van elke ziel die naar de storm kijkt in plaats van naar Christus, en zijn roep 'Heer, red mij' een voorbeeld van gebed."
+    "en": "On Peter saying \"Lord, if it be Thou, bid me come unto Thee on the water\" (14:28-31), Chrysostom notes that Peter did not ask out of vainglory merely to walk on the waves, but out of burning love said \"bid me come unto Thee\"; yet God permitted him to grow dizzy before the wind so that even the chief apostle would learn humility and rely solely on Christ's outstretched hand (St John Chrysostom, Homilies on Matthew, Homily 50). The Fathers note the eucharistic words: He took, blessed, broke and gave. Peter sinking became for them an image of every soul that looks at the storm instead of at Christ, and his cry 'Lord, save me' a model of prayer.",
+    "nl": "Over Petrus die zegt \"Heer, als U het bent, zeg mij dan dat ik over het water naar U toe moet komen\" (14:28-31), merkt Chrysostomus op dat Petrus niet uit ijdelheid vroeg om zomaar op de golven te lopen, maar uit vurige liefde zei \"laat mij naar U toe komen\"; toch liet God toe dat hij duizelig werd door de wind, opdat zelfs de eerste van de apostelen nederigheid zou leren en alleen op Christus' uitgestrekte hand zou steunen (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 50). De kerkvaders wijzen op de eucharistische woorden: Hij nam, zegende, brak en gaf. Petrus die zinkt, werd voor hen een beeld van elke ziel die naar de storm kijkt in plaats van naar Christus, en zijn roep 'Heer, red mij' een voorbeeld van gebed."
    },
    "themes": {
     "en": [
@@ -433,6 +495,12 @@
      "Eucharistie",
      "Geloof en twijfel"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 14:22-34 is read in the Byzantine rite on the ninth Sunday after Pentecost.",
+     "nl": "Matteüs 14:22-34 wordt in de Byzantijnse ritus gelezen op de negende zondag na Pinksteren."
+    }
    }
   },
   {
@@ -450,8 +518,8 @@
     "nl": "Ware reinheid is die van het hart. Het nederige, volhardende geloof van een heidense vrouw opent de deur van de barmhartigheid voor de volken."
    },
    "fathers": {
-    "en": "On Jesus initially remaining silent to the Canaanite woman and then speaking of not casting the children's bread to dogs (15:23-28), Chrysostom explains that Christ delayed and spoke sharply not to insult her, but like a wise physician uncovering a hidden treasure: by humbling herself to accept the title of a dog beneath the Master's table, the Gentile woman proved herself a true child of the Kingdom (St John Chrysostom, Homilies on Matthew, Homily 52). Matthew 15:21-28 is read in the Byzantine rite on the Sunday of the Canaanite Woman. St John Chrysostom admires the Canaanite woman's perseverance and humility, saying Christ delayed only to reveal her faith to all. The Fathers make her a model of unceasing prayer.",
-    "nl": "Over Jezus die eerst zweeg tegenover de Kanaänitische vrouw en vervolgens sprak over het niet voorwerpen van het brood van de kinderen aan de honden (15:23-28), legt Chrysostomus uit dat Christus wachtte en scherp sprak niet om haar te beledigen, maar om een verborgen schat aan het licht te brengen: door zich te vernederen en de plek van de honden onder de tafel te aanvaarden, bewees de heidense vrouw dat zij een waar kind van het Koninkrijk was (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 52). Matteüs 15:21-28 wordt in de Byzantijnse ritus gelezen op de Zondag van de Kanaänitische Vrouw. De heilige Johannes Chrysostomus bewondert de volharding en nederigheid van de Kananese vrouw en zegt dat Christus alleen talmde om haar geloof aan allen te tonen. De kerkvaders maken haar tot voorbeeld van onophoudelijk gebed."
+    "en": "On Jesus initially remaining silent to the Canaanite woman and then speaking of not casting the children's bread to dogs (15:23-28), Chrysostom explains that Christ delayed and spoke sharply not to insult her, but like a wise physician uncovering a hidden treasure: by humbling herself to accept the title of a dog beneath the Master's table, the Gentile woman proved herself a true child of the Kingdom (St John Chrysostom, Homilies on Matthew, Homily 52). St John Chrysostom admires the Canaanite woman's perseverance and humility, saying Christ delayed only to reveal her faith to all. The Fathers make her a model of unceasing prayer.",
+    "nl": "Over Jezus die eerst zweeg tegenover de Kanaänitische vrouw en vervolgens sprak over het niet voorwerpen van het brood van de kinderen aan de honden (15:23-28), legt Chrysostomus uit dat Christus wachtte en scherp sprak niet om haar te beledigen, maar om een verborgen schat aan het licht te brengen: door zich te vernederen en de plek van de honden onder de tafel te aanvaarden, bewees de heidense vrouw dat zij een waar kind van het Koninkrijk was (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 52). De heilige Johannes Chrysostomus bewondert de volharding en nederigheid van de Kananese vrouw en zegt dat Christus alleen talmde om haar geloof aan allen te tonen. De kerkvaders maken haar tot voorbeeld van onophoudelijk gebed."
    },
    "themes": {
     "en": [
@@ -464,6 +532,12 @@
      "Volhardend gebed",
      "Geloof van de volken"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 15:21-28 is read in the Byzantine rite on the Sunday of the Canaanite Woman.",
+     "nl": "Matteüs 15:21-28 wordt in de Byzantijnse ritus gelezen op de Zondag van de Kanaänitische Vrouw."
+    }
    }
   },
   {
@@ -543,8 +617,8 @@
     "nl": "De Kerk is een gezin van nederigen en van wie vergeven is. Wie Gods onmetelijke barmhartigheid ontvangen heeft, moet zonder grens vergeven."
    },
    "fathers": {
-    "en": "On Jesus telling Peter to forgive his brother \"until seventy times seven\" and the parable of the ten thousand talents (18:21-28), Chrysostom teaches that even if we pardon a neighbor endlessly throughout our whole life, our mercy toward a fellow servant compared to the boundless ocean of sins God forgives us every day is less than a single drop of water compared to the sea (St John Chrysostom, Homilies on Matthew, Homily 61). Matthew 18:23-35 is read in the Byzantine rite on the eleventh Sunday after Pentecost. The Fathers see in the lost sheep the whole human race, which the Word went out to seek by becoming man. St John Chrysostom stresses that the debt forgiven to us is beyond counting, while what others owe us is small.",
-    "nl": "Over Jezus die tegen Petrus zegt dat hij zijn broeder \"tot zeventig maal zevenmaal\" moet vergeven en de gelijkenis van de tienduizend talenten (18:21-28), leert Chrysostomus dat zelfs wanneer wij onze naaste een leven lang eindeloos vergeven, onze barmhartigheid vergeleken met de oceaan van schulden die God ons dagelijks kwijtscheldt nog minder is dan één waterdruppel tegenover een eindeloze zee (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 61). Matteüs 18:23-35 wordt in de Byzantijnse ritus gelezen op de elfde zondag na Pinksteren. De kerkvaders zien in het verloren schaap het hele mensengeslacht, dat het Woord ging zoeken door mens te worden. De heilige Johannes Chrysostomus benadrukt dat de schuld die ons vergeven is ontelbaar groot is, terwijl wat anderen ons schuldig zijn klein is."
+    "en": "On Jesus telling Peter to forgive his brother \"until seventy times seven\" and the parable of the ten thousand talents (18:21-28), Chrysostom teaches that even if we pardon a neighbor endlessly throughout our whole life, our mercy toward a fellow servant compared to the boundless ocean of sins God forgives us every day is less than a single drop of water compared to the sea (St John Chrysostom, Homilies on Matthew, Homily 61). The Fathers see in the lost sheep the whole human race, which the Word went out to seek by becoming man. St John Chrysostom stresses that the debt forgiven to us is beyond counting, while what others owe us is small.",
+    "nl": "Over Jezus die tegen Petrus zegt dat hij zijn broeder \"tot zeventig maal zevenmaal\" moet vergeven en de gelijkenis van de tienduizend talenten (18:21-28), leert Chrysostomus dat zelfs wanneer wij onze naaste een leven lang eindeloos vergeven, onze barmhartigheid vergeleken met de oceaan van schulden die God ons dagelijks kwijtscheldt nog minder is dan één waterdruppel tegenover een eindeloze zee (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 61). De kerkvaders zien in het verloren schaap het hele mensengeslacht, dat het Woord ging zoeken door mens te worden. De heilige Johannes Chrysostomus benadrukt dat de schuld die ons vergeven is ontelbaar groot is, terwijl wat anderen ons schuldig zijn klein is."
    },
    "themes": {
     "en": [
@@ -557,6 +631,12 @@
      "Vergeving",
      "Het verloren schaap"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 18:23-35 is read in the Byzantine rite on the eleventh Sunday after Pentecost.",
+     "nl": "Matteüs 18:23-35 wordt in de Byzantijnse ritus gelezen op de elfde zondag na Pinksteren."
+    }
    }
   },
   {
@@ -574,8 +654,8 @@
     "nl": "Zowel het huwelijk als het godgewijde celibaat zijn wegen van heiligheid in Christus. Rijkdom is niet slecht, maar gehechtheid eraan kan ons weerhouden van Hem die roept."
    },
    "fathers": {
-    "en": "Commenting on the rich young man and Christ's warning about how hard it is for the rich to enter the kingdom of heaven (19:21-24), Chrysostom stresses that Christ does not blame riches in themselves—which are God's creation—but those who allow themselves to be enslaved by covetousness, a passion more insatiable than fire because adding more fuel only makes the hunger burn fiercer (St John Chrysostom, Homilies on Matthew, Homily 63). Matthew 19:16-26 is read in the Byzantine rite on the twelfth Sunday after Pentecost. St Anthony the Great heard 'go, sell what you have' read in church and obeyed it literally, beginning the monastic life of the desert. St Clement of Alexandria, in 'Who is the rich man that shall be saved?', teaches that what must be given up is above all the passions of the soul.",
-    "nl": "Bij de rijke jongeman en Christus' waarschuwing hoe moeilijk een rijke het koninkrijk der hemelen binnengaat (19:21-24), benadrukt Chrysostomus dat Christus niet de rijkdom op zichzelf veroordeelt, maar hen die zich tot slaaf laten maken van de hebzucht: een hartstocht die onverzadigbaarder is dan vuur, omdat het toevoegen van meer bezit de honger alleen maar feller doet branden (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 63). Matteüs 19:16-26 wordt in de Byzantijnse ritus gelezen op de twaalfde zondag na Pinksteren. De heilige Antonius de Grote hoorde 'ga, verkoop wat je hebt' in de kerk voorlezen en gehoorzaamde letterlijk, en zo begon het monastieke leven in de woestijn. De heilige Clemens van Alexandrië leert in 'Welke rijke wordt gered?' dat vooral de hartstochten van de ziel opgegeven moeten worden."
+    "en": "Commenting on the rich young man and Christ's warning about how hard it is for the rich to enter the kingdom of heaven (19:21-24), Chrysostom stresses that Christ does not blame riches in themselves—which are God's creation—but those who allow themselves to be enslaved by covetousness, a passion more insatiable than fire because adding more fuel only makes the hunger burn fiercer (St John Chrysostom, Homilies on Matthew, Homily 63). St Anthony the Great heard 'go, sell what you have' read in church and obeyed it literally, beginning the monastic life of the desert. St Clement of Alexandria, in 'Who is the rich man that shall be saved?', teaches that what must be given up is above all the passions of the soul.",
+    "nl": "Bij de rijke jongeman en Christus' waarschuwing hoe moeilijk een rijke het koninkrijk der hemelen binnengaat (19:21-24), benadrukt Chrysostomus dat Christus niet de rijkdom op zichzelf veroordeelt, maar hen die zich tot slaaf laten maken van de hebzucht: een hartstocht die onverzadigbaarder is dan vuur, omdat het toevoegen van meer bezit de honger alleen maar feller doet branden (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 63). De heilige Antonius de Grote hoorde 'ga, verkoop wat je hebt' in de kerk voorlezen en gehoorzaamde letterlijk, en zo begon het monastieke leven in de woestijn. De heilige Clemens van Alexandrië leert in 'Welke rijke wordt gered?' dat vooral de hartstochten van de ziel opgegeven moeten worden."
    },
    "themes": {
     "en": [
@@ -588,6 +668,12 @@
      "Onthechting",
      "Christus volgen"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 19:16-26 is read in the Byzantine rite on the twelfth Sunday after Pentecost.",
+     "nl": "Matteüs 19:16-26 wordt in de Byzantijnse ritus gelezen op de twaalfde zondag na Pinksteren."
+    }
    }
   },
   {
@@ -667,8 +753,8 @@
     "nl": "Allen zijn uitgenodigd voor de bruiloft van het Lam, maar de uitnodiging moet worden aanvaard met een veranderd leven. Liefde tot God en tot de naaste vatten heel de Wet samen."
    },
    "fathers": {
-    "en": "On the guest at the royal wedding banquet who was found without a wedding garment and stood speechless (22:11-13), Chrysostom explains that being invited from the highways and washed clean is entirely a free gift of God's grace in baptism, but keeping the wedding garment of our soul clean afterward requires our own moral diligence: we cannot deck our bodies in golden luxury while leaving the soul sitting in filthy rags (St John Chrysostom, Homilies on Matthew, Homily 69). The Fathers interpret the wedding garment as the love and holiness that clothe the baptised. St Augustine taught that the coin bears Caesar's image, while the human soul bears God's image and must be given back to Him. In the Roman Lectionary 22:1-14, 22:15-21 and 22:34-40 are the Gospels of the Twenty-eighth, Twenty-ninth and Thirtieth Sundays in Ordinary Time (Year A).",
-    "nl": "Over de gast op het koninklijk bruiloftsfeest die werd aangetroffen zonder bruiloftskleed en met de mond vol tanden stond (22:11-13), legt Chrysostomus uit dat het geroepen worden vanaf de kruispunten en het schoongewassen worden in de doop louter genade is, maar dat het schoonhouden van het bruiloftskleed van de ziel onze eigen levenspraktijk vraagt: we kunnen niet ons lichaam in goud hullen en onze ziel in vuile lompen laten zitten (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 69). De kerkvaders verklaren het bruiloftskleed als de liefde en heiligheid die de gedoopten bekleden. De heilige Augustinus leerde dat de munt het beeld van de keizer draagt, terwijl de menselijke ziel Gods beeld draagt en aan Hem moet worden teruggegeven. In het Romeins lectionarium zijn 22:1-14, 22:15-21 en 22:34-40 de evangelies van de achtentwintigste, negenentwintigste en dertigste zondag door het jaar (jaar A)."
+    "en": "On the guest at the royal wedding banquet who was found without a wedding garment and stood speechless (22:11-13), Chrysostom explains that being invited from the highways and washed clean is entirely a free gift of God's grace in baptism, but keeping the wedding garment of our soul clean afterward requires our own moral diligence: we cannot deck our bodies in golden luxury while leaving the soul sitting in filthy rags (St John Chrysostom, Homilies on Matthew, Homily 69). The Fathers interpret the wedding garment as the love and holiness that clothe the baptised. St Augustine taught that the coin bears Caesar's image, while the human soul bears God's image and must be given back to Him.",
+    "nl": "Over de gast op het koninklijk bruiloftsfeest die werd aangetroffen zonder bruiloftskleed en met de mond vol tanden stond (22:11-13), legt Chrysostomus uit dat het geroepen worden vanaf de kruispunten en het schoongewassen worden in de doop louter genade is, maar dat het schoonhouden van het bruiloftskleed van de ziel onze eigen levenspraktijk vraagt: we kunnen niet ons lichaam in goud hullen en onze ziel in vuile lompen laten zitten (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 69). De kerkvaders verklaren het bruiloftskleed als de liefde en heiligheid die de gedoopten bekleden. De heilige Augustinus leerde dat de munt het beeld van de keizer draagt, terwijl de menselijke ziel Gods beeld draagt en aan Hem moet worden teruggegeven."
    },
    "themes": {
     "en": [
@@ -681,6 +767,12 @@
      "Liefde tot God en naaste",
      "Opstanding"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman Lectionary 22:1-14, 22:15-21 and 22:34-40 are the Gospels of the Twenty-eighth, Twenty-ninth and Thirtieth Sundays in Ordinary Time (Year A).",
+     "nl": "In het Romeins lectionarium zijn 22:1-14, 22:15-21 en 22:34-40 de evangelies van de achtentwintigste, negenentwintigste en dertigste zondag door het jaar (jaar A)."
+    }
    }
   },
   {
@@ -698,8 +790,8 @@
     "nl": "Deze woorden zijn een waarschuwing voor iedere gelovige en iedere leider in de Kerk: uiterlijke vroomheid zonder innerlijke bekering is leeg. Achter de strengheid ligt het verdriet van een liefhebbende God."
    },
    "fathers": {
-    "en": "On the scribes and Pharisees whom Christ compares to whitewashed tombs full of dead men's bones (23:27), Chrysostom remarks that if everyone flees in horror from a man carrying a rotting corpse through the street, how much more pitiable is the hypocrite who walks around carrying a soul deadened and paralyzed by injustice inside an outwardly respectable body (St John Chrysostom, Homilies on Matthew, Homily 73). St John Chrysostom applies these woes to Christians, especially to clergy, warning that titles and robes avail nothing without virtue. The image of the hen was loved by the Fathers as a picture of Christ's motherly tenderness. In the Roman Lectionary 23:1-12 is the Gospel of the Thirty-first Sunday in Ordinary Time (Year A).",
-    "nl": "Over de schriftgeleerden en farizeeën die door Christus worden vergeleken met witgekalkte graven vol doodsbeenderen (23:27), merkt Chrysostomus op dat als iedereen vol afschuw wegvlucht voor iemand die een ontbindend lijk over straat draagt, de huichelaar nog veel beklagenswaardiger is die rondloopt met een door onrecht gedode en verlamde ziel in een uiterlijk keurig lichaam (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 73). De heilige Johannes Chrysostomus past deze weeën toe op christenen, vooral op geestelijken, en waarschuwt dat titels en gewaden niets baten zonder deugd. Het beeld van de hen werd door de kerkvaders geliefd als een beeld van Christus' moederlijke tederheid. In het Romeins lectionarium is 23:1-12 het evangelie van de eenendertigste zondag door het jaar (jaar A)."
+    "en": "On the scribes and Pharisees whom Christ compares to whitewashed tombs full of dead men's bones (23:27), Chrysostom remarks that if everyone flees in horror from a man carrying a rotting corpse through the street, how much more pitiable is the hypocrite who walks around carrying a soul deadened and paralyzed by injustice inside an outwardly respectable body (St John Chrysostom, Homilies on Matthew, Homily 73). St John Chrysostom applies these woes to Christians, especially to clergy, warning that titles and robes avail nothing without virtue. The image of the hen was loved by the Fathers as a picture of Christ's motherly tenderness.",
+    "nl": "Over de schriftgeleerden en farizeeën die door Christus worden vergeleken met witgekalkte graven vol doodsbeenderen (23:27), merkt Chrysostomus op dat als iedereen vol afschuw wegvlucht voor iemand die een ontbindend lijk over straat draagt, de huichelaar nog veel beklagenswaardiger is die rondloopt met een door onrecht gedode en verlamde ziel in een uiterlijk keurig lichaam (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 73). De heilige Johannes Chrysostomus past deze weeën toe op christenen, vooral op geestelijken, en waarschuwt dat titels en gewaden niets baten zonder deugd. Het beeld van de hen werd door de kerkvaders geliefd als een beeld van Christus' moederlijke tederheid."
    },
    "themes": {
     "en": [
@@ -712,6 +804,12 @@
      "Innerlijke reinheid",
      "Jeruzalem"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman Lectionary 23:1-12 is the Gospel of the Thirty-first Sunday in Ordinary Time (Year A).",
+     "nl": "In het Romeins lectionarium is 23:1-12 het evangelie van de eenendertigste zondag door het jaar (jaar A)."
+    }
    }
   },
   {
@@ -729,8 +827,8 @@
     "nl": "De val van Jeruzalem in het jaar 70 en het einde van de wereld worden samen gezien. De christen leeft in waakzame hoop, niet in angst of in het uitrekenen van data."
    },
    "fathers": {
-    "en": "On the Second Coming being like lightning that flashes from the east and shines even to the west (24:27), Chrysostom explains that during Christ's first coming in humility people had to go out to Bethlehem or the desert to find Him, whereas at His second coming in glory no one will need a messenger to point Him out: just as lightning requires no herald because it strikes every eye at once, Christ will appear simultaneously to the whole world (St John Chrysostom, Homilies on Matthew, Homily 76). The Fathers distinguish the prophecies fulfilled in AD 70 from those about Christ's second coming. They warn against those who claim to know the day, since the Lord Himself did not reveal it. In the Roman Lectionary 24:37-44 is the Gospel of the First Sunday of Advent (Year A).",
-    "nl": "Over de Wederkomst die zal zijn als de bliksem die uitgaat van het oosten en licht tot in het westen (24:27), legt Chrysostomus uit dat mensen bij Christus' eerste komst in nederigheid naar Bethlehem of de woestijn moesten reizen om Hem te zoeken, maar dat bij Zijn tweede komst in heerlijkheid niemand een boodschapper nodig heeft: net zoals de bliksem geen heraut nodig heeft omdat hij elk oog tegelijk treft, zal Christus op één ogenblik aan heel de wereld verschijnen (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 76). De kerkvaders onderscheiden de profetieën die in het jaar 70 vervuld zijn van die over Christus' wederkomst. Zij waarschuwen tegen wie beweren de dag te kennen, omdat de Heer Zelf die niet geopenbaard heeft. In het Romeins lectionarium is 24:37-44 het evangelie van de eerste zondag van de advent (jaar A)."
+    "en": "On the Second Coming being like lightning that flashes from the east and shines even to the west (24:27), Chrysostom explains that during Christ's first coming in humility people had to go out to Bethlehem or the desert to find Him, whereas at His second coming in glory no one will need a messenger to point Him out: just as lightning requires no herald because it strikes every eye at once, Christ will appear simultaneously to the whole world (St John Chrysostom, Homilies on Matthew, Homily 76). The Fathers distinguish the prophecies fulfilled in AD 70 from those about Christ's second coming. They warn against those who claim to know the day, since the Lord Himself did not reveal it.",
+    "nl": "Over de Wederkomst die zal zijn als de bliksem die uitgaat van het oosten en licht tot in het westen (24:27), legt Chrysostomus uit dat mensen bij Christus' eerste komst in nederigheid naar Bethlehem of de woestijn moesten reizen om Hem te zoeken, maar dat bij Zijn tweede komst in heerlijkheid niemand een boodschapper nodig heeft: net zoals de bliksem geen heraut nodig heeft omdat hij elk oog tegelijk treft, zal Christus op één ogenblik aan heel de wereld verschijnen (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 76). De kerkvaders onderscheiden de profetieën die in het jaar 70 vervuld zijn van die over Christus' wederkomst. Zij waarschuwen tegen wie beweren de dag te kennen, omdat de Heer Zelf die niet geopenbaard heeft."
    },
    "themes": {
     "en": [
@@ -743,6 +841,12 @@
      "Waakzaamheid",
      "Volharding"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman Lectionary 24:37-44 is the Gospel of the First Sunday of Advent (Year A).",
+     "nl": "In het Romeins lectionarium is 24:37-44 het evangelie van de eerste zondag van de advent (jaar A)."
+    }
    }
   },
   {
@@ -760,8 +864,8 @@
     "nl": "Wij zullen geoordeeld worden naar de liefde die in daden getoond is, vooral aan armen, zieken, vreemdelingen en gevangenen, in wie Christus Zich verbergt."
    },
    "fathers": {
-    "en": "Commenting on the five foolish virgins whose lamps went out for lack of oil and who were told \"go to them that sell, and buy\" (25:1-12), Chrysostom identifies the lamps as the gift of bodily purity or virginity, the oil as merciful almsgiving, and the \"sellers\" as the poor standing at our doors: virginity without almsgiving is dark and cast out, because once death comes, the market of the poor is closed forever (St John Chrysostom, Homilies on Matthew, Homily 78). Matthew 25:1-13 is read in the Byzantine rite on Great Tuesday of Holy Week, and Matthew 25:31-46 on the Sunday of the Last Judgment (Meatfare Sunday). St Seraphim of Sarov taught that the oil of the wise virgins is the grace of the Holy Spirit, acquired by prayer and good works. These parables are read in the Orthodox Church at the start of Holy Week, when the 'Bridegroom' services are sung.",
-    "nl": "Bij de vijf dwaze maagden van wie de lampen doofden bij gebrek aan olie en die te horen kregen \"ga naar de verkopers en koop olie\" (25:1-12), duidt Chrysostomus de lampen als de gave van lichamelijke zuiverheid, de olie als barmhartige aalmoezen, en de \"verkopers\" als de armen aan onze deur: zuiverheid zonder barmhartigheid blijft donker en wordt buitengesloten, want na de dood is de markt van de armen voorgoed gesloten (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 78). Matteüs 25:1-13 wordt in de Byzantijnse ritus gelezen op Grote Dinsdag in de Stille Week, en Matteüs 25:31-46 op de Zondag van het Laatste Oordeel (Vleesdervingszondag). De heilige Serafim van Sarov leerde dat de olie van de wijze maagden de genade van de Heilige Geest is, verworven door gebed en goede werken. Deze gelijkenissen worden in de Orthodoxe Kerk aan het begin van de Goede Week gelezen, wanneer de diensten van de 'Bruidegom' gezongen worden."
+    "en": "Commenting on the five foolish virgins whose lamps went out for lack of oil and who were told \"go to them that sell, and buy\" (25:1-12), Chrysostom identifies the lamps as the gift of bodily purity or virginity, the oil as merciful almsgiving, and the \"sellers\" as the poor standing at our doors: virginity without almsgiving is dark and cast out, because once death comes, the market of the poor is closed forever (St John Chrysostom, Homilies on Matthew, Homily 78). St Seraphim of Sarov taught that the oil of the wise virgins is the grace of the Holy Spirit, acquired by prayer and good works.",
+    "nl": "Bij de vijf dwaze maagden van wie de lampen doofden bij gebrek aan olie en die te horen kregen \"ga naar de verkopers en koop olie\" (25:1-12), duidt Chrysostomus de lampen als de gave van lichamelijke zuiverheid, de olie als barmhartige aalmoezen, en de \"verkopers\" als de armen aan onze deur: zuiverheid zonder barmhartigheid blijft donker en wordt buitengesloten, want na de dood is de markt van de armen voorgoed gesloten (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 78). De heilige Serafim van Sarov leerde dat de olie van de wijze maagden de genade van de Heilige Geest is, verworven door gebed en goede werken."
    },
    "themes": {
     "en": [
@@ -774,6 +878,12 @@
      "Werken van barmhartigheid",
      "Paraatheid"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 25:1-13 is read in the Byzantine rite on Great Tuesday of Holy Week, and Matthew 25:31-46 on the Sunday of the Last Judgment (Meatfare Sunday). These parables are read in the Orthodox Church at the start of Holy Week, when the 'Bridegroom' services are sung.",
+     "nl": "Matteüs 25:1-13 wordt in de Byzantijnse ritus gelezen op Grote Dinsdag in de Stille Week, en Matteüs 25:31-46 op de Zondag van het Laatste Oordeel (Vleesdervingszondag). Deze gelijkenissen worden in de Orthodoxe Kerk aan het begin van de Goede Week gelezen, wanneer de diensten van de 'Bruidegom' gezongen worden."
+    }
    }
   },
   {
@@ -853,8 +963,8 @@
     "nl": "De Verrijzenis is het hart van het geloof. De verrezen Heer zendt de Kerk naar alle volken met de doop in de naam van de Drie-eenheid en de belofte van Zijn blijvende aanwezigheid."
    },
    "fathers": {
-    "en": "On the chief priests bribing the Roman soldiers to say \"His disciples came by night and stole Him away while we slept\" (28:12-15), Chrysostom exposes how the lie refutes itself: if the terrified disciples had wanted to steal a corpse, they would have done so on the first night before the tomb was sealed and guarded, nor would grave-robbers have wasted precious minutes carefully unwrapping sticky myrrh-soaked linens and folding the cloths inside a guarded cave (St John Chrysostom, Homilies on Matthew, Homily 90). Matthew 28:1-20 is read at the Liturgy of Holy Saturday (the Paschal Vigil), and Matthew 28:16-20 is the first Matins Gospel (Eothinon) in Byzantine Matins. The Fathers honour the myrrh-bearing women as the first witnesses of the Resurrection, 'apostles to the apostles'. They point out that the baptismal formula names one Name for the three Persons, a witness to the one God in Trinity.",
-    "nl": "Over de hogepriesters die de soldaten omkochten om te zeggen \"Zijn leerlingen zijn 's nachts gekomen en hebben Hem gestolen terwijl wij sliepen\" (28:12-15), legt Chrysostomus bloot hoe de leugen zichzelf weerlegt: als de bange leerlingen een lichaam hadden willen stelen, hadden zij dat op de eerste nacht gedaan voordat het graf verzegeld en bewaakt werd, en grafrovers zouden nooit kostbare tijd hebben verspild met het loswikkelen van kleverige mirrewindsels in een bewaakte grot (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 90). Matteüs 28:1-20 wordt gelezen tijdens de Liturgie van Stille Zaterdag (de Paaswake), en Matteüs 28:16-20 is het eerste Ochtendevangelie (Eothinon) in de Byzantijnse metten. De kerkvaders eren de mirredraagsters als de eerste getuigen van de Verrijzenis, 'apostelen van de apostelen'. Zij wijzen erop dat de doopformule één Naam noemt voor de drie Personen, een getuigenis van de ene God in Drie-eenheid."
+    "en": "On the chief priests bribing the Roman soldiers to say \"His disciples came by night and stole Him away while we slept\" (28:12-15), Chrysostom exposes how the lie refutes itself: if the terrified disciples had wanted to steal a corpse, they would have done so on the first night before the tomb was sealed and guarded, nor would grave-robbers have wasted precious minutes carefully unwrapping sticky myrrh-soaked linens and folding the cloths inside a guarded cave (St John Chrysostom, Homilies on Matthew, Homily 90). The Fathers honour the myrrh-bearing women as the first witnesses of the Resurrection, 'apostles to the apostles'. They point out that the baptismal formula names one Name for the three Persons, a witness to the one God in Trinity.",
+    "nl": "Over de hogepriesters die de soldaten omkochten om te zeggen \"Zijn leerlingen zijn 's nachts gekomen en hebben Hem gestolen terwijl wij sliepen\" (28:12-15), legt Chrysostomus bloot hoe de leugen zichzelf weerlegt: als de bange leerlingen een lichaam hadden willen stelen, hadden zij dat op de eerste nacht gedaan voordat het graf verzegeld en bewaakt werd, en grafrovers zouden nooit kostbare tijd hebben verspild met het loswikkelen van kleverige mirrewindsels in een bewaakte grot (Johannes Chrysostomus, Homilieën op Matteüs, Homilie 90). De kerkvaders eren de mirredraagsters als de eerste getuigen van de Verrijzenis, 'apostelen van de apostelen'. Zij wijzen erop dat de doopformule één Naam noemt voor de drie Personen, een getuigenis van de ene God in Drie-eenheid."
    },
    "themes": {
     "en": [
@@ -867,6 +977,12 @@
      "Zending",
      "Doop"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "Matthew 28:1-20 is read at the Liturgy of Holy Saturday (the Paschal Vigil), and Matthew 28:16-20 is the first Matins Gospel (Eothinon) in Byzantine Matins.",
+     "nl": "Matteüs 28:1-20 wordt gelezen tijdens de Liturgie van Stille Zaterdag (de Paaswake), en Matteüs 28:16-20 is het eerste Ochtendevangelie (Eothinon) in de Byzantijnse metten."
+    }
    }
   }
  ]

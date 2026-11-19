@@ -1,0 +1,155 @@
+# Liturgy sentences left in F/FN (EN shown; NL counterpart also left)
+
+## Names a tradition but not moved
+
+- 1CH 29 [parity]: The words "Thine own of Thine own we offer unto Thee" in the Byzantine Divine Liturgies of St John Chrysostom and St Basil the Great are taken from 1 Chronicles 29:14, and in the Roman Liturgy of the Hours 1 Chronicles 29:10-13 is the canticle at Lauds on Monday of Week I.
+- 1CH 29 [parity]: 'Thine own of Thine own we offer unto Thee', the words at the heart of the Byzantine Divine Liturgy as the holy gifts are lifted up, echo David's prayer, 'of Your own have we given You'.
+- 1ES 1 [mixed]: 1 Esdras, called Esdras A in the Greek Bible, is read as Scripture in the Orthodox Church; in the Latin tradition it was kept in the appendix of the Vulgate as 3 Esdras.
+- 1SA 2 [west]: The song of Hannah (1 Samuel 2:1-10) is the third biblical Ode at Byzantine matins and is prayed at Western lauds on Wednesday of Week 2.
+- 2CH 13 [mixed]: The Fathers loved Abijah's cry, 'God is with us at our head', which echoes Isaiah's 'God with us' sung at Byzantine Great Compline.
+- 2CH 33 [mixed]: The Prayer of Manasseh, the penitent king's prayer from chains, is read at Byzantine Great Compline and was cherished by the Fathers as a model of repentance: 'I am not worthy to look up to the height of heaven because of the multitude of my iniquities'.
+- 2CO 1 [mixed]: The Fathers saw in 'anointed, sealed and given the Spirit' a description of baptism and chrismation; the Byzantine rite anoints with the words 'the seal of the gift of the Holy Spirit'.
+- 2MA 12 [father]: St Augustine, in his work On the Care of the Dead, cites it, and the practice has been kept from the earliest centuries: the Orthodox Church prays for the departed in every Divine Liturgy, in memorial services and on the Saturdays of souls, and the Catholic Church offers the Mass for the dead.
+- 3MA 1 [mixed]: 3 Maccabees is read as Scripture in the Orthodox Church and was well known among the Christians of Alexandria.
+- EXO 15 [west]: The song of Moses (Exodus 15:1-19) is the first of the biblical Odes in Byzantine matins and is sung after the Exodus reading at the Easter Vigil; Exodus 15:22-16:1 is read on the Feast of the Exaltation of the Cross (September 14).
+- EXO 15 [west]: The Song of Moses is the first of the biblical odes of the Orthodox Canon at Matins, and it is sung at the Paschal Vigil in the West; Revelation shows the saints singing the song of Moses and of the Lamb.
+- EZK 46 [mixed]: They saw in the lamb offered every morning a figure of Christ, the Lamb of God, whose sacrifice is made present at every Divine Liturgy and Mass.
+- EZK 3 [father]: St Gregory the Great, commenting on it, confessed with great humility how far he himself fell short of being a true watchman; this homily is read in the Roman Office of Readings on his memorial.
+- GAL 3 [quote]: Alleluia' is sung in place of the Trisagion at baptisms and at the great feasts of the Orthodox Church.
+- GEN 5 [mixed]: The Ethiopian Orthodox Church keeps the Book of Enoch among its sacred books and honours Enoch as one who walked with God.
+- GEN 14 [father]: The Fathers saw in the bread and wine he offered a figure of the Eucharist; St Cyprian and others make this connection, and it is recalled in the Roman Canon of the Mass.
+- GEN 22 [west]: Genesis 22:1-18 is read at the Easter Vigil (and at vespers of Holy Saturday in the Byzantine rite).
+- HAB 3 [west]: The prayer of Habakkuk (Habakkuk 3:1-19) forms the Fourth Ode of the Biblical Odes at Byzantine Matins (and is prayed at Friday Lauds in the Western Divine Office).
+- HAB 3 [father]: The prayer of Habakkuk is the fourth of the biblical odes sung at Byzantine Matins, and the fourth ode of every canon echoes it; St Bede the Venerable wrote a commentary on this Song.
+- ISA 58 [west]: In the West this chapter is read in the first days of Lent, and in the Byzantine rite during the Great Fast.
+- ISA 61 [parity]: Isaiah 61:1-2a, 10-11 is the first reading at Mass on the 3rd Sunday of Advent (Year B) in the Roman lectionary.
+- ISA 61 [parity]: It is read at the Chrism Mass in the West.
+- ISA 27 [mixed]: The Fathers saw in the slaying of Leviathan the twisting serpent Christ's victory over the devil, 'that ancient serpent' of Revelation; the Byzantine Theophany hymns speak of Christ crushing the heads of the dragons in the Jordan.
+- JDG 6 [father]: The Church sings of the Theotokos as Gideon's fleece: as dew fell silently on the fleece, so the Word descended into the Virgin's womb without disturbing her virginity; St Ambrose and many Byzantine hymns use this image.
+- JHN 2 [mixed]: The Fathers taught that by coming to the wedding Christ blessed marriage; the Byzantine marriage service reads this Gospel.
+- LAM 1 [quote]: The Catholic Church sings them in the Tenebrae offices of Holy Week, and applies 'is it nothing to you, all you who pass by?
+- LAM 3 [parity]: Lamentations 3 is sung during Tenebrae of Good Friday and Holy Saturday.
+- MAL 4 [father]: The Church has long called Christ the Sun of righteousness, and the Christmas troparion of the Byzantine rite sings of Him as 'the Sun of righteousness' whom the Magi worshipped; St John Chrysostom and St Ephrem the Syrian also applied the title to Him.
+- MAT 1 [parity]: Matthew 1:1-25 is read in the Byzantine rite on the Sunday before the Nativity (Sunday of the Holy Fathers), and Matthew 1:18-25 at the vigil liturgy of Christmas.
+- MAT 2 [west]: Matthew 2:1-12 is read on the Nativity (in the Byzantine rite) and on Epiphany (in the Western rite).
+- PSA 51 [west]: In the Greek numbering it is Psalm 50; it is said at almost every Byzantine service, in every hour of the Coptic Agpeya, and at Lauds on Fridays in the West, and it is the core of the sacrament of confession.
+- PSA 63 [father]: This psalm is the third of the Six Psalms at Byzantine Matins and the classic morning psalm of the Church, sung at Sunday Lauds in the West; St John Chrysostom says the early Church sang it every morning.
+- PSA 67 [parity]: It is said daily at the beginning of the Western Liturgy of the Hours as an alternative invitatory, and in Byzantine Compline traditions.
+- PSA 74 [mixed]: 'Working salvation in the midst of the earth' was read by many as the cross planted in the centre of the world, at Golgotha; the verse is sung in the Byzantine services of the Holy Cross.
+- PSA 81 [mixed]: The Fathers read 'I would feed you with the finest of the wheat' as the Eucharist; the verse gave its name to the Western Mass of Corpus Christi.
+- PSA 91 [west]: It is said at the Byzantine Sixth Hour and at Compline in the West.
+- PSA 92 [west]: The Byzantine Saturday evening prokeimenon draws on the next psalm, 'The Lord is King', while this psalm is used in Sunday prayer in the West.
+- PSA 95 [west]: This is the Invitatory, the psalm that opens the daily prayer of the Western Church, and 'Come, let us worship and fall down before Christ' is said at the beginning of every Byzantine service.
+- PSA 97 [parity]: The Western Church sings 'Light shall shine upon us this day' with this psalm at the Christmas dawn Mass.
+- PSA 113 [west]: 'Blessed be the name of the Lord from this time forth and for evermore' is said at the end of the Byzantine Liturgy and at episcopal blessings in the West.
+- PSA 116 [quote]: I will take the cup of salvation' is said by the priest before Holy Communion in the Western rite and belongs to the Byzantine preparation for Communion.
+- PSA 117 [mixed]: It is sung in the Byzantine Vespers at 'Lord, I have cried', and the Fathers marvelled that so short a psalm contains the whole mission of the Church.
+- PSA 128 [west]: This psalm is sung in the Byzantine marriage service as the couple is led into the church, and is used at weddings in the West.
+- PSA 145 [mixed]: This acrostic psalm is a favourite of the Western Liturgy of the Hours, and the Fathers read its eternal kingdom as the kingdom of Christ.
+- PSA 148 [west]: Psalms 148–150 are the Lauds, the 'Praises' (Ainoi), sung at the end of morning prayer in every tradition since the early Church; the Byzantine Matins interweaves them with festal hymns.
+- PSA 23 [west]: It is among the psalms of the Byzantine preparation for Holy Communion and was sung by the newly baptised in the early Church.
+- PSA 24 [west]: It belongs to the Byzantine preparation for Holy Communion, and the Western Church uses it at Advent and at the dedication of churches.
+- S3Y 1 [mixed]: Christian readers saw in the angel who came down into the furnace a figure of the Son of God, and the hymns of the Byzantine canon sing of the furnace that did not burn the young men as an image of the Virgin who bore God without being consumed.
+- TIT 2 [parity]: The Western Church reads this passage at the Christmas night Mass: the grace of God has appeared.
+- TOB 7 [parity]: Tobit 7:6-14 is one of the Old Testament readings offered in the Roman Rite of Marriage, and Tobit 7:1, 9-17 forms part of the Thursday reading of the Ninth Week in Ordinary Time (Year I).
+- TOB 7 [parity]: In the Roman Lectionary 6:10-11; 7:1bcde, 9-17; 8:4-9a is the first reading at Mass on Thursday of the Ninth Week in Ordinary Time (Year I).
+- TOB 8 [parity]: The prayer of Tobias and Sarah, recalling God's creation of man and woman, is offered as a reading at Catholic weddings and has long been loved as a model of Christian marriage: entered with prayer, with a pure intention, and with the hope of growing old together under God's mercy.
+- TOB 8 [parity]: Tobit 8:4b-8 is likewise one of the Old Testament readings in the Roman Rite of Marriage, and Tobit 8:4-9a closes the Thursday reading of the Ninth Week in Ordinary Time (Year I).
+- TOB 8 [parity]: In the Roman Lectionary 6:10-11; 7:1bcde, 9-17; 8:4-9a is the first reading at Mass on Thursday of the Ninth Week in Ordinary Time (Year I).
+- ZEP 1 [parity]: The words 'that day is a day of wrath' (in Latin, 'dies irae, dies illa') gave the opening to the medieval hymn Dies irae, long sung in the Latin Requiem Mass.
+- ZEP 3 [mixed]: Christian readers have heard the 'Sing, daughter of Zion' in the angel's greeting 'Rejoice' to the Virgin Mary, and Zephaniah 3:14-18 is read in the Roman liturgy in Advent and on the feast of the Visitation.
+
+## Liturgical wording without an explicit tradition
+
+- 1CO 1: 1 Corinthians 1:18-24 is read on the Feast of the Elevation of the Cross (14 September).
+- 1CO 5: 'Christ our Pascha has been sacrificed' is sung in the Paschal hymns of the Church.
+- 1CO 11: 1 Corinthians 11:23-32 is read on Holy Thursday (the Institution of the Eucharist).
+- 1CO 15: 1 Corinthians 15:1-11 and 15:20-28 are read in the Paschal season and at funeral services.
+- 1JN 5: 1 John 5:5-13 and 5:14-21 are also read on weekdays after Epiphany.
+- 1KI 8: This chapter is read at the Vespers of the Entry of the Theotokos into the Temple: the Fathers saw the Virgin as the living temple filled with God's glory, who contained in her womb the One whom heaven cannot contain.
+- 1PE 5: 'Be sober, be watchful' is read at Compline in the Western Church every night.
+- 2CO 6: 'Now is the day of salvation' is sung in the Lenten services of the Church.
+- 2CO 11: 2 Corinthians 11:21-12:9 is read on feasts of great ascetics and apostles.
+- ACT 1: Acts 1:1-12 is read at Pascha and on the feast of the Ascension of the Lord.
+- ACT 2: Acts 2:1-11 is read on the great feast of Pentecost.
+- ACT 6: Acts 6:8-7:5 and 7:47-60 are read on the feast of the archdeacon and first martyr Stephen.
+- ACT 12: Acts 12:1-11 is read on the feast of the Deliverance of Peter (the Chains of Peter) and on 29 June in the Western rite.
+- BAR 3: Baruch 3:36-4:4 is read at Vespers on the eve of the Nativity.
+- DAN 3: The Song of the Three Youths is sung in the Church's morning prayer in East and West and at the Vesperal Liturgy of Holy Saturday, with the refrain: praise the Lord and exalt Him above all for ever.
+- DAN 7: The Fathers read the coming of the Son of Man to the Ancient of Days as the Ascension and the glory of Christ at His second coming, and the Church sings that His kingdom shall have no end, as the Creed confesses.
+- EXO 29: The morning and evening lamb lies behind the Church's morning and evening prayer, and Psalm 141 is sung at Vespers: let my prayer rise as incense.
+- EXO 3: The Church sees in the bush that burned without being consumed the Theotokos, who bore the fire of the Godhead in her womb without being consumed; this is sung in many hymns and painted in the icon of the Unburnt Bush.
+- EXO 14: Exodus 13:20-15:19 is read at the Easter Vigil (and at vespers of Holy Saturday); Exodus 14:15-18, 21-23 and 27-29 is read at vespers on the eve of Theophany.
+- EXO 14: The crossing is read at the Paschal Vigil, East and West.
+- EZK 28: All these are said to have fallen from heaven, not to have descended.
+- GAL 4: Galatians 4:4-7 is the Epistle reading of the Divine Liturgy of the Nativity of Christ.
+- HEB 2: Hebrews 2:11-18 is read on the Feast of the Meeting of the Lord in the Temple (2 February).
+- HEB 9: Hebrews 9:1-7 is read on feasts of the Mother of God, and 9:11-14 on the fifth Sunday of Great Lent.
+- HEB 11: Hebrews 11:24-40 is read on the first Sunday of Great Lent (Sunday of Orthodoxy) and on the Sunday of the Holy Fathers before Christmas.
+- HEB 13: Hebrews 13:17-21 is read on commemoration days of holy bishops and confessors.
+- ISA 35: It is read in Advent in the West.
+- ISA 38: Hezekiah's song is sung as a canticle at morning prayer in the West and was among the biblical odes of the Greek Church.
+- ISA 40: This chapter begins the 'Book of Consolation' (chapters 40–55) and is read in Advent and on the feasts of the Forerunner.
+- ISA 42: It is read in the West on the feast of the Baptism of the Lord.
+- ISA 49: This second Servant Song is read in the West on the Nativity of St John the Baptist.
+- ISA 50: This third Servant Song is read on Palm Sunday in the West and in Holy Week in the East.
+- ISA 53: It is read on Good Friday in the West and at Vespers of Holy Friday in the East.
+- ISA 54: The Fathers read the enlarged tent as the Church spreading to all nations; this chapter is read at the Easter Vigil in the West.
+- ISA 55: It is read at the Easter Vigil in the West.
+- ISA 62: The Fathers read this chapter of the Church as Christ's bride and of each soul He takes to Himself; it is read at Christmas and at weddings in the West.
+- ISA 9: This chapter is read at Christmas in all traditions; the Greek text calls the child 'Angel of Great Counsel', a title the Church gives to Christ in icons and hymns.
+- ISA 11: It is read at Christmas Eve.
+- ISA 12: This song is sung as a canticle at morning prayer in the West and at the Easter Vigil after the readings.
+- ISA 22: The 'O Key of David' antiphon is sung in Advent.
+- ISA 25: The chapter is read at funerals in the West.
+- JER 14: You are in the midst of us, and we are called by Your name; do not leave us', and the Western Church prays its last words every night at Compline.
+- JOB 14: 'Man born of a woman is few of days' is read in the traditional Western Office of the Dead, and the Fathers saw in Job's question, 'if a man dies, shall he live again?', a question answered only by Christ's resurrection.
+- JOB 19: It is sung in the traditional Western Office of the Dead, and the Fathers saw in 'in my flesh I shall see God' the hope that the same body will rise and behold the Lord.
+- JOS 3: This crossing is read at the Vespers of Theophany, for the Fathers saw it fulfilled when Jesus entered the Jordan and was baptised, opening the way into the kingdom.
+- LUK 22: Luke 22:39-45 and 22:66–23:49 are read during the Passion services of Holy Week.
+- LUK 1: Luke 1:24-38 is read on the feast of the Annunciation (25 March), and Luke 1:39-49 and 56 on all great feasts of the Mother of God.
+- LUK 1: The Church sings the Magnificat daily, at Matins in the East and at Vespers in the West.
+- LUK 2: Luke 2:1-20 is read on Christmas night, and Luke 2:22-40 on the Feast of the Meeting of the Lord in the Temple (Hypapante / Candlemas, 2 February).
+- LUK 2: Simeon's song, the Nunc dimittis, is sung at every Vespers in the East and at Compline in the West.
+- MAT 16: Matthew 16:13-19 is read on the feast of the holy apostles Peter and Paul (29 June).
+- MAT 21: Matthew 21:1-11 and 21:15-17 are read on Palm Sunday (the Entrance of the Lord into Jerusalem).
+- MAT 26: Matthew 26:1–27:2 is read during the services of Holy Thursday and Good Friday.
+- MAT 27: Matthew 27:1-66 is read during the Passion services on Great Friday and the vespers of the Holy Sepulchre.
+- MRK 6: Mark 6:14-30 is read on the feast of the Beheading of John the Baptist (29 August).
+- MRK 8: Mark 8:34-9:1 is read on the Sunday after the Elevation of the Cross and on the third Sunday of Great Lent.
+- MRK 15: Mark 15:16-47 is read during the services of Great Friday (Good Friday).
+- MRK 16: Mark 16:1-8 is read at Paschal Matins and on the Sunday of the Myrrh-bearing Women.
+- MRK 16: The Church reads Mark 16:9–20 at the Resurrection Matins as one of the eleven 'resurrection gospels'.
+- NUM 10: The words 'Arise, O Lord, let Your enemies be scattered' became the opening of Psalm 68, which the Church sings at Pascha.
+- PHP 2: Philippians 2:5-11 is read on the feasts of the Mother of God.
+- PRO 8: In the West it is read on Trinity Sunday and was long read on feasts of the Virgin Mary.
+- PRO 9: This chapter is read at Vespers on feasts of the Theotokos, the house that Wisdom built for Himself.
+- PRO 10: 'The memory of the just is celebrated with praise', as the Greek has it, opens the troparion of St John the Forerunner and is sung on the feasts of saints.
+- PSA 31: The Church has made the verse part of night prayer, the responsory of Western Compline, as each sleep is a small rehearsal of death in trust.
+- PSA 51: No psalm is prayed more often in the Church.
+- PSA 57: It is used in the Western Lauds, the morning prayer, and the image of the shadow of God's wings runs through the Church's prayers of protection.
+- PSA 77: The Fathers saw in 'the waters saw You and were afraid' both the Red Sea and the Jordan at Christ's baptism; the verse is sung at Theophany.
+- PSA 88: The Fathers heard in it the voice of Christ in the tomb, 'free among the dead', and it is sung in Holy Week.
+- PSA 98: This psalm is sung at Christmas in the West: all the ends of the earth have seen the salvation of our God.
+- PSA 110: It opens Sunday Vespers in the West.
+- PSA 112: This acrostic is a companion to Psalm 111: what is said of God there is said of the righteous here.
+- PSA 116: 'Precious in the sight of the Lord is the death of His saints' is sung on the feasts of martyrs.
+- PSA 132: The Fathers read 'Arise, O Lord, into Your rest, You and the ark of Your holiness' of Christ's resurrection and ascension with His holy flesh, and of the Theotokos, the true ark, at her Dormition and Assumption; the verse is sung at her feasts.
+- PSA 134: This psalm is sung at Compline in the Western Church every night, and the Fathers saw in the servants standing by night the monks and all who keep vigil in prayer.
+- PSA 139: The Fathers drew from this psalm the doctrine of God's omnipresence and omniscience, and the Church reads it as a witness to the dignity of every human life, known and formed by God in the womb.
+- PSA 143: 'Teach me to do Your will' is sung in the Great Doxology.
+- PSA 147: In the West it is sung at Lauds, the morning prayer.
+- PSA 149: The psalm belongs to the Lauds sung at every morning prayer.
+- PSA 2: The Fathers read 'today I have begotten You' both of the eternal generation of the Son and of His resurrection; the verse is sung in the Nativity services.
+- PSA 4: It is a classic evening and Compline psalm in the West, and the Fathers taught examining one's conscience 'on your bed' before sleep.
+- PSA 22: It is read in the services of Holy Friday.
+- REV 14: 'Blessed are the dead who die in the Lord' is read in Western funeral rites.
+- REV 21: This chapter is read in the West at the dedication of churches.
+- REV 4: The thrice-holy hymn is sung in every Eucharist.
+- REV 7: This chapter is read on the feast of All Saints in the West.
+- ROM 6: Romans 6:3-11 is read at the baptismal service and on Holy Saturday.
+- ROM 8: Romans 8:28-39 is read on feasts of martyrs.
+- ROM 14: 'Whether we live or die, we are the Lord's' is sung in services for the departed.
+- SIR 43: The Fathers loved this hymn to creation, which resembles the Song of the Three Young Men sung at Matins.
+- SIR 14: For it is said, "The eye of the greedy man is not satisfied with his portion" (14:9).
+- SIR 22: His cry 'O that a guard were set over my mouth' echoes the psalm sung at Vespers: set a guard, O Lord, over my mouth, and keep watch over the door of my lips.

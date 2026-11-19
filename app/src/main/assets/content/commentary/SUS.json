@@ -16,8 +16,8 @@
     "nl": "Susanna kiest ervoor liever de dood te riskeren dan voor God te zondigen, en zij legt haar zaak in de handen van Hem die het verborgene kent. Zij die het recht hadden moeten bewaken, misbruikten hun ambt, maar God doet een jongeman opstaan die weigert te veroordelen zonder onderzoek, en de waarheid komt aan het licht."
    },
    "fathers": {
-    "en": "St Hippolytus of Rome included Susanna in his Commentary on Daniel and read her as a figure of the Church, persecuted by false accusers yet kept pure, with her garden as an image of the communion of the saints. Origen defended the story as part of Scripture in his Letter to Julius Africanus. Susanna appears in the paintings of the Roman catacombs as an image of the soul saved by God from false judgment. In the Roman rite her story is read in the fifth week of Lent.",
-    "nl": "De heilige Hippolytus van Rome nam Susanna op in zijn Commentaar op Daniël en las haar als een beeld van de Kerk, die door valse aanklagers vervolgd wordt en toch rein blijft, met haar tuin als beeld van de gemeenschap der heiligen. Origenes verdedigde het verhaal als onderdeel van de Schrift in zijn Brief aan Julius Africanus. Susanna komt voor op de schilderingen in de Romeinse catacomben als beeld van de ziel die door God van een onrechtvaardig oordeel wordt gered. In de Romeinse ritus wordt haar verhaal gelezen in de vijfde week van de veertigdagentijd."
+    "en": "St Hippolytus of Rome included Susanna in his Commentary on Daniel and read her as a figure of the Church, persecuted by false accusers yet kept pure, with her garden as an image of the communion of the saints. Origen defended the story as part of Scripture in his Letter to Julius Africanus. Susanna appears in the paintings of the Roman catacombs as an image of the soul saved by God from false judgment.",
+    "nl": "De heilige Hippolytus van Rome nam Susanna op in zijn Commentaar op Daniël en las haar als een beeld van de Kerk, die door valse aanklagers vervolgd wordt en toch rein blijft, met haar tuin als beeld van de gemeenschap der heiligen. Origenes verdedigde het verhaal als onderdeel van de Schrift in zijn Brief aan Julius Africanus. Susanna komt voor op de schilderingen in de Romeinse catacomben als beeld van de ziel die door God van een onrechtvaardig oordeel wordt gered."
    },
    "themes": {
     "en": [
@@ -30,6 +30,12 @@
      "Valse getuigen",
      "God die het verborgene kent"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman rite her story is read in the fifth week of Lent.",
+     "nl": "In de Romeinse ritus wordt haar verhaal gelezen in de vijfde week van de veertigdagentijd."
+    }
    }
   }
  ]

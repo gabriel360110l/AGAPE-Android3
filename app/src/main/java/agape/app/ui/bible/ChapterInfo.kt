@@ -17,6 +17,7 @@ import agape.app.ui.components.SegmentedTabs
 import agape.app.ui.components.cardShape
 import agape.app.ui.passageLabel
 import agape.app.ui.theme.AgapeTheme
+import agape.app.ui.tradition
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -115,6 +116,8 @@ private fun ColumnScope.Explanation(commentary: ChapterCommentary?, guide: Chapt
             Body(commentary.summary[lang])
             commentary.meaning[lang].takeIf { it.isNotBlank() }?.let { Section(stringResource(R.string.info_meaning)) { Body(it) } }
             Themes(commentary.themes[lang])
+            // Only the liturgy of the reader's own tradition; the section stays hidden when it has none.
+            commentary.liturgy[tradition][lang].takeIf { it.isNotBlank() }?.let { Section(stringResource(R.string.info_liturgy)) { Body(it) } }
         }
         guide != null -> {
             Provisional()
