@@ -13,8 +13,13 @@ Native Android, Kotlin + Jetpack Compose. English by default, Dutch available.
    google.webClientId=YOUR-WEB-CLIENT-ID.apps.googleusercontent.com
    ```
    Then apply `supabase/migrations/*.sql` to the project and enable the Email and Google providers.
-   Without these keys the app uses a **local development account**, so every screen still works.
+   Without these keys a debug build uses a **local development account**, so every screen still works. A release
+   build stops with a clear message instead (`-PallowReleaseWithoutBackend=true` lets a local test build through; never
+   publish one). The same keys can come from the environment: `AGAPE_SUPABASE_URL`, `AGAPE_SUPABASE_ANON_KEY`,
+   `AGAPE_GOOGLE_WEB_CLIENT_ID`.
 3. Run the `app` configuration, or `./gradlew :app:assembleDebug`. Unit tests: `./gradlew :app:testDebugUnitTest`.
+   CI for GitHub Actions is ready in `docs/ci/ci.yml` (unit tests and `lintDebug` on every pull request and push to
+   main); move it to `.github/workflows/ci.yml` to switch it on.
 
 ## Structure
 
@@ -22,7 +27,7 @@ Native Android, Kotlin + Jetpack Compose. English by default, Dutch available.
 app/src/main/java/agape/app/
   core/            models (Tradition, VisualStyle, Passage…), DataStore settings
   data/
-    bible/         read-only Bible database (WEB + Statenvertaling, cross-refs, chapter guides, Father notes)
+    bible/         read-only Bible database (WEB + Statenvertaling, cross-refs, Father notes and quotes)
     content/       bundled JSON content (books per canon, prayer books, councils, plans, quizzes, Church section)
     plans/         plan generation, quiz gating, current prayer hour (pure, unit-tested)
     user/          Room database: bookmarks, highlights, notes, progress, streaks, achievements
@@ -137,7 +142,7 @@ instead of a weather service, and no build script that downloads or deletes file
 | Saint and feast icons (169) | Wikimedia Commons, listed with title and licence in `assets/content/icons.json` | Public domain / CC0 only |
 | Byzantine menologion: English texts | `tools/source/menologion_en.json` | Own content — review |
 | Coptic and Roman saint summaries (EN + NL) | `tools/source/saint_summaries_oo.tsv`, `saint_summaries_ca.tsv` | Own content — review; Coptic lines marked `?` are provisional |
-| Menologion names and Dutch texts, legacy prayers, provisional chapter guides (OT), Father notes | Legacy AGAPE app | Own content |
+| Menologion names and Dutch texts, legacy prayers, Father notes | Legacy AGAPE app | Own content |
 | Verse notes (EN + NL, per tradition where it differs): best-known verses of every book of the Bible, including the deuterocanon and the books only one translation carries | `tools/source/verse_notes/*.md` | Own content — review |
 | Council stories, Father biographies, Liturgy of the Hours hymns and prayers, plans, quizzes | `app/src/main/assets/content/*.json` | Own content (hymns: Neale/Newman, public domain) |
 
@@ -158,7 +163,7 @@ python tools/build_quizzes.py     # hand-written chapter quizzes from tools/sour
 python tools/build_verse_notes.py # verse notes (verse sheet) from tools/source/verse_notes/
 python tools/build_church.py      # Church articles (history and per tradition) from tools/source/church/
 python tools/build_saints.py      # Coptic Synaxarium and General Roman Calendar
-python tools/build_saint_summaries.py  # adds the saint summaries to saints_oo.json and saints_ca.json (offline)
+python tools/build_saint_summaries.py  # adds the saint summaries to tools/source/saints/saints_oo.json and saints_ca.json (offline)
 python tools/build_icons.py       # icons from Wikimedia Commons (needs Pillow); --new adds missing icons, --patterns updates matching only
 python tools/render_backgrounds.py   # the painted Home backgrounds (needs Pillow and numpy)
 python tools/build_backgrounds.py    # adds public-domain / CC0 church photos from Commons to the Home backgrounds
@@ -190,7 +195,8 @@ note never lands on the wrong verse. Each language only shows its own note.
 
 - Terms and Privacy Policy (`assets/legal/`, EN + NL) are drafts that match what the app does: fill in the parts in
   [square brackets] (publisher name and address, Supabase region, backup period, age limit) and have them
-  reviewed by a lawyer. Set the real donation URL in `app/build.gradle.kts`.
+  reviewed by a lawyer. The donation row in Me stays hidden until a real donation page is set as `donation.url` in
+  `local.properties` (or `AGAPE_DONATION_URL`); check the Google Play payments policy on donation links first.
 - Complete the sample content: extend the verse notes to the remaining Old Testament books. Have the Church articles
   reviewed by someone from each tradition. (The Horologion now has Dutch throughout and the Liturgy of the Hours has a
   full week; both carry provisional own texts that need review.)
@@ -204,13 +210,19 @@ note never lands on the wrong verse. Each language only shows its own note.
   `saints_*.json` or `icons.json` (it keeps the readings and references of the last build). The Catholic readings
   end in 2027 and follow the American versification, so a few Old Testament references open a verse off in WEB and
   the Statenvertaling (Exodus 22:20-26 is WEB 22:21-27); extend them with `--catholic-readings` from a newer checkout.
-- Check author and licence of the seven Home photos taken over from the AI Studio version (marked `"check": true`
-  in `assets/backgrounds/backgrounds.json`): `python tools/verify_backgrounds.py --write` on a machine that can reach
-  Commons. Remove any photo it reports as not found or not free.
+- The seven Home photos taken over from the AI Studio version were checked against their Wikimedia Commons pages on
+  19-11-2026 (author and licence taken from Commons, pictures compared). `python tools/verify_backgrounds.py` checks
+  any new photo marked `"check": true`.
 - Try the new parts on a phone: the opening, the widget, the church bell channel (Android keeps the sound of a
   channel once created; reinstall to hear a changed bell), quiet mode and the sun-following hours.
 - Have the fasting rules checked by someone from each tradition (`data/calendar/Fasting.kt`).
-- Add a release signing config and a Play Store listing (screenshots per style).
+- Release signing: create an upload key (never commit it), copy `keystore.properties.example` to
+  `keystore.properties` and fill it in, or set the `AGAPE_KEYSTORE_*` / `AGAPE_KEY_*` environment variables; then
+  `./gradlew bundleRelease`. A release build stops when the Supabase keys are missing.
+- Choose the final package name (`applicationId` in `app/build.gradle.kts`) before the first upload: it can never
+  change afterwards. If it changes, update the session file name in `res/xml/data_extraction_rules.xml` and
+  `backup_rules.xml` (BackupRulesTest checks this).
+- Add a Play Store listing (screenshots per style).
 
 ## Related repositories
 

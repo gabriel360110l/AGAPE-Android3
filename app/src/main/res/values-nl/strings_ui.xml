@@ -17,6 +17,7 @@
     <string name="home_help">Hulp</string>
     <string name="home_profile">Profiel en instellingen</string>
     <string name="home_background_credit">Achtergrond: %1$s · %2$s</string>
+    <string name="home_background_credit_by">Achtergrond: %1$s, door %2$s · %3$s</string>
     <string name="home_rosary_today">Vandaag: %1$s</string>
     <string name="rosary_title">De rozenkrans</string>
     <string name="rosary_today">vandaag</string>
@@ -47,9 +48,6 @@
     <string name="reader_next_chapter">Volgend hoofdstuk</string>
     <string name="bible_gospels">Evangeliën</string>
     <string name="bible_find_book">Zoek een boek (bijv. Matteüs, Psalmen)</string>
-    <string name="speaker_unavailable">Voorlezen werkt niet op deze telefoon. Installeer een spraakprogramma via de Android-instellingen.</string>
-    <string name="speaker_no_voice_nl">Er is geen Nederlandse stem geïnstalleerd. Voeg er een toe via Instellingen → Systeem → Talen → Tekst-naar-spraak.</string>
-    <string name="speaker_no_voice_en">Er is geen Engelse stem geïnstalleerd. Voeg er een toe via Instellingen → Systeem → Talen → Tekst-naar-spraak.</string>
     <string name="verse_image">Afbeelding</string>
     <string name="verse_image_title">Delen als afbeelding</string>
     <string name="verse_image_share">Afbeelding delen</string>
@@ -162,7 +160,6 @@
     <string name="prayer_pray_this">Bid dit gebed</string>
     <string name="prayer_service_n">%1$d van %2$d</string>
     <string name="prayer_open">Openen</string>
-    <string name="rosary_step_of">%1$d / %2$d</string>
     <string name="pace_praying">Bidden…</string>
     <string name="rope_next">Volgende knoop</string>
     <string name="counter_tap">Tellen</string>

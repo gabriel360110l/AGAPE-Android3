@@ -3,8 +3,8 @@
 
 Inputs (committed, read offline):
   app/src/main/assets/content/saints_eo.json   Byzantine menologion per civil month/day, with summaries
-  app/src/main/assets/content/saints_oo.json   Coptic Synaxarium per Coptic month/day
-  app/src/main/assets/content/saints_ca.json   General Roman Calendar per Gregorian month/day
+  tools/source/saints/saints_oo.json           Coptic Synaxarium per Coptic month/day
+  tools/source/saints/saints_ca.json           General Roman Calendar per Gregorian month/day
   app/src/main/assets/content/icons.json       Bundled Public domain / CC0 icons and the names they match
   app/src/main/assets/content/books.json       Book ids, to write readings in the app's `BOOK C:V-V` notation
 
@@ -35,6 +35,7 @@ CONTENT = os.path.join(ROOT, "app", "src", "main", "assets", "content")
 SCHEMA_DIR = os.path.join(ROOT, "tools", "schema")
 OUT = os.path.join(SCHEMA_DIR, "saints_unified.json")
 APP_OUT = os.path.join(CONTENT, "saints_unified.json")
+SAINT_SOURCES = os.path.join(ROOT, "tools", "source", "saints")
 
 TRADITIONS = ("eastern_orthodox", "catholic", "coptic_orthodox")
 COPTIC_MONTHS = ["Thout", "Paopi", "Hathor", "Koiak", "Tobi", "Meshir", "Paremhat", "Parmouti", "Pashons", "Paoni",
@@ -333,7 +334,7 @@ def build(romcal=None, katameros=None, dated=None, previous=None):
 
     for file, tradition, calendar, source in (("saints_oo.json", "coptic_orthodox", "coptic", "coptic_io"),
                                               ("saints_ca.json", "catholic", "gregorian", "calapi")):
-        for d in read_json(os.path.join(CONTENT, file)):
+        for d in read_json(os.path.join(SAINT_SOURCES, file)):
             m, dd = d["month"], d["day"]
             for i, s in enumerate(d["saints"]):
                 prov = {"name": source, "name_nl": "agape"}
