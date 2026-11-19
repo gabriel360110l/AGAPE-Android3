@@ -1,6 +1,7 @@
 package agape.app
 
 import agape.app.core.model.AppLanguage
+import agape.app.core.prefs.PrayerProgressStore
 import agape.app.core.prefs.SettingsRepository
 import agape.app.data.auth.AuthRepository
 import agape.app.data.auth.LocalDevAuthRepository
@@ -48,6 +49,7 @@ class AppContainer(private val app: Application) {
     } else null
 
     val settings = SettingsRepository(app)
+    val prayerProgress = PrayerProgressStore(app)
     val content = ContentRepository(app)
     val bible = BibleRepository(app)
     val user = UserRepository(UserDatabase.create(app))

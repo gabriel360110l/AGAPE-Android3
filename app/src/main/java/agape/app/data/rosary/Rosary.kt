@@ -24,6 +24,10 @@ enum class MysterySet(val title: L10n) {
 /** One mystery, with the passage to read before its decade (null where the mystery has no single passage). */
 data class Mystery(val title: L10n, val passage: String?)
 
+/**
+ * The prayers of the rosary. The Dutch texts are the ones in tools/source/common_prayers_nl.json (with their
+ * sources); PrayerTextTest keeps the two the same.
+ */
 enum class RosaryPrayer(val title: L10n, val text: L10n) {
     SIGN_OF_THE_CROSS(
         L10n("The Sign of the Cross", "Het kruisteken"),
@@ -56,8 +60,8 @@ enum class RosaryPrayer(val title: L10n, val text: L10n) {
                 "Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; " +
                 "and lead us not into temptation, but deliver us from evil. Amen.",
             "Onze Vader, die in de hemel zijt, uw naam worde geheiligd, uw rijk kome, uw wil geschiede op aarde zoals in de " +
-                "hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schuld, zoals ook wij aan anderen hun schuld " +
-                "vergeven, en breng ons niet in beproeving, maar verlos ons van het kwade. Amen.",
+                "hemel. Geef ons heden ons dagelijks brood en vergeef ons onze schulden, zoals ook wij vergeven aan onze " +
+                "schuldenaren, en breng ons niet in beproeving maar verlos ons van het kwade. Amen.",
         ),
     ),
     HAIL_MARY(
@@ -65,8 +69,8 @@ enum class RosaryPrayer(val title: L10n, val text: L10n) {
         L10n(
             "Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy " +
                 "womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.",
-            "Wees gegroet, Maria, vol van genade, de Heer is met U. Gezegend zijt Gij boven alle vrouwen, en gezegend is " +
-                "Jezus, de vrucht van uw schoot. Heilige Maria, Moeder van God, bid voor ons, zondaars, nu en in het uur van " +
+            "Wees gegroet, Maria, vol van genade, de Heer is met U. Gij zijt de gezegende onder de vrouwen, en gezegend is " +
+                "Jezus, de vrucht van uw schoot. Heilige Maria, Moeder van God, bid voor ons zondaars, nu en in het uur van " +
                 "onze dood. Amen.",
         ),
     ),
@@ -75,7 +79,7 @@ enum class RosaryPrayer(val title: L10n, val text: L10n) {
         L10n(
             "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever " +
                 "shall be, world without end. Amen.",
-            "Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin, en nu en altijd, en in de eeuwen " +
+            "Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin en nu en altijd en in de eeuwen " +
                 "der eeuwen. Amen.",
         ),
     ),
@@ -85,7 +89,7 @@ enum class RosaryPrayer(val title: L10n, val text: L10n) {
             "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those in " +
                 "most need of thy mercy.",
             "O mijn Jezus, vergeef ons onze zonden, behoed ons voor het vuur van de hel, breng alle zielen naar de hemel, " +
-                "vooral die uw barmhartigheid het meest nodig hebben.",
+                "vooral diegenen die Uw barmhartigheid het meeste nodig hebben.",
         ),
     ),
     HAIL_HOLY_QUEEN(

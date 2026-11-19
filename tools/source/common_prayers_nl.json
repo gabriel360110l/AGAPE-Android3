@@ -1,0 +1,264 @@
+{
+ "_about": "The one Dutch text of each prayer the app shares across screens and traditions, with its source. tools/common_prayers.py writes these over every older variant in tools/source and the content assets; PrayerTextTest checks that no older variant comes back. A prayer is only rewritten in the files of its own tradition (see SCOPE in tools/common_prayers.py); Catholic texts everywhere.",
+ "prayers": [
+  {
+   "id": "ca-our-father",
+   "tradition": "CATHOLIC",
+   "text": "Onze Vader, die in de hemel zijt, uw naam worde geheiligd, uw rijk kome, uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood en vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren, en breng ons niet in beproeving maar verlos ons van het kwade. Amen.",
+   "source": "Common text of the Dutch and Flemish bishops, in use since 27 November 2016; rkkerk.nl, Handleiding voor het bidden van de rozenkrans (https://www.rkkerk.nl/wp-content/uploads/2017/12/Handleiding-voor-het-bidden-van-de-rozenkrans.pdf)",
+   "variants": [
+    "Onze Vader, die in de hemel zijt, uw naam worde geheiligd, uw rijk kome, uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schuld, zoals ook wij aan anderen hun schuld vergeven, en breng ons niet in beproeving, maar verlos ons van het kwade. Amen."
+   ]
+  },
+  {
+   "id": "ca-hail-mary",
+   "tradition": "CATHOLIC",
+   "text": "Wees gegroet, Maria, vol van genade, de Heer is met U. Gij zijt de gezegende onder de vrouwen, en gezegend is Jezus, de vrucht van uw schoot. Heilige Maria, Moeder van God, bid voor ons zondaars, nu en in het uur van onze dood. Amen.",
+   "source": "The form used in the Netherlands; rkkerk.nl, Handleiding voor het bidden van de rozenkrans; nl.wikipedia.org/wiki/Weesgegroet (Nederlandse versie)",
+   "variants": [
+    "Wees gegroet, Maria, vol van genade, de Heer is met U. Gezegend zijt Gij boven alle vrouwen, en gezegend is Jezus, de vrucht van uw schoot. Heilige Maria, Moeder van God, bid voor ons, zondaars, nu en in het uur van onze dood. Amen."
+   ],
+   "fragments": [
+    [
+     "Gezegend zijt Gij boven alle vrouwen",
+     "Gij zijt de gezegende onder de vrouwen"
+    ],
+    [
+     "Moeder van God, bid voor ons, zondaars,",
+     "Moeder van God, bid voor ons zondaars,"
+    ]
+   ]
+  },
+  {
+   "id": "ca-glory-be",
+   "tradition": "CATHOLIC",
+   "text": "Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin en nu en altijd en in de eeuwen der eeuwen. Amen.",
+   "source": "rkkerk.nl, Handleiding voor het bidden van de rozenkrans; the same words as the Dutch Getijdengebed",
+   "variants": [
+    "Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin, en nu en altijd, en in de eeuwen der eeuwen. Amen."
+   ]
+  },
+  {
+   "id": "ca-fatima",
+   "tradition": "CATHOLIC",
+   "text": "O mijn Jezus, vergeef ons onze zonden, behoed ons voor het vuur van de hel, breng alle zielen naar de hemel, vooral diegenen die Uw barmhartigheid het meeste nodig hebben.",
+   "source": "rkkerk.nl, Handleiding voor het bidden van de rozenkrans",
+   "variants": [],
+   "fragments": [
+    [
+     "vooral die uw barmhartigheid het meest nodig hebben.",
+     "vooral diegenen die Uw barmhartigheid het meeste nodig hebben."
+    ]
+   ]
+  },
+  {
+   "id": "ca-salve-regina",
+   "tradition": "CATHOLIC",
+   "text": "Wees gegroet, Koningin, Moeder van barmhartigheid, ons leven, onze vreugde en onze hoop, wees gegroet. Tot u roepen wij, ballingen, kinderen van Eva; tot u smeken wij, zuchtend en wenend in dit dal van tranen. Daarom dan, onze voorspreekster, sla op ons uw barmhartige ogen, en toon ons na deze ballingschap Jezus, de gezegende vrucht van uw schoot. O goedertieren, o liefdevolle, o zoete Maagd Maria.",
+   "source": "Nationale Raad voor Liturgie (Vlaanderen) via Kerknet; KRO-NCRV gebeden; cantica.be",
+   "variants": [],
+   "fragments": [
+    [
+     "Tot U roepen wij, ballingen, kinderen van Eva; tot U smeken wij",
+     "Tot u roepen wij, ballingen, kinderen van Eva; tot u smeken wij"
+    ],
+    [
+     "Daarom dan, onze Voorspreekster,",
+     "Daarom dan, onze voorspreekster,"
+    ]
+   ]
+  },
+  {
+   "id": "eo-our-father",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Onze Vader, Die in de hemelen zijt, Uw Naam worde geheiligd, Uw Koninkrijk kome, Uw wil geschiede, zoals in de hemel, zo ook op aarde. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij onze schuldenaren vergeven, en leid ons niet in verzoeking, maar verlos ons van de boze.",
+   "source": "Orthodox Klooster Asten, Horologion (orthodoxasten.nl, Kleine Completen); Goddelijke Liturgie van Johannes Chrysostomos, orthodoxdomein.nl (Liturgie-NL-Johannes-Chrysostomos.pdf)",
+   "variants": [
+    "Onze Vader, die in de hemelen zijt, Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren. En leid ons niet in bekoring, maar verlos ons van de boze.",
+    "Onze Vader, Die in de hemelen zijt! Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede, gelijk in den hemel, alzo ook op de aarde. Geef ons heden ons dagelijks brood. En vergeef ons onze schulden, gelijk ook wij vergeven onzen schuldenaren. En leid ons niet in verzoeking, maar verlos ons van den boze."
+   ]
+  },
+  {
+   "id": "oo-our-father",
+   "tradition": "ORIENTAL_ORTHODOX",
+   "text": "Onze Vader die in de hemelen zijt, Uw Naam worde geheiligd, Uw koninkrijk kome, Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij onze schuldenaars vergeven. En leid ons niet in bekoring, maar verlos ons van het kwade. Door Jezus Christus, onze Heer. Want van U is het koninkrijk en de kracht en de heerlijkheid in eeuwigheid. Amen.",
+   "source": "Koptisch-Orthodoxe Kerk Utrecht, De Heilige Liturgie (koptischeorthodoekerkutrecht.jouwweb.nl)",
+   "variants": [
+    "Onze Vader, die in de hemelen zijt, Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood. En vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren. En leid ons niet in bekoring, maar verlos ons van de boze, in Christus Jezus onze Heer. Want van U is het Koninkrijk en de kracht en de heerlijkheid in eeuwigheid. Amen.",
+    "Onze Vader, Die in de hemel zijt, Uw Naam worde geheiligd. Uw koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij onze schuldenaars vergeven, en leid ons niet in bekoring, maar verlos ons van het kwade. Door Jezus Christus, onze Heer. Want van U is het koninkrijk en de kracht en de heerlijkheid in eeuwigheid. Amen."
+   ]
+  },
+  {
+   "id": "eo-heavenly-king",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Hemelse Koning, Trooster, Geest der waarheid, Die alom tegenwoordig zijt en alles vervult, Schatkamer van het goede, en Schenker van het leven, kom en verblijf in ons, reinig ons van alle smet, en red onze zielen, o Goede.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos; Orthodox Klooster Asten, Horologion",
+   "variants": [
+    "Hemelse Koning, Trooster, Geest der waarheid, die overal aanwezig bent en alles vervult, Schatkamer van het goede en Gever van het leven: kom en woon in ons, reinig ons van alle smet en red, o Goede, onze zielen.",
+    "Hemelse Koning, Trooster, Geest der waarheid, Die alom tegenwoordig zijt en alles vervult, Schat der goeden en Gever des levens, kom en woon in ons, en reinig ons van alle smet, en verlos, o Goede, onze zielen."
+   ]
+  },
+  {
+   "id": "eo-all-holy-trinity",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Alheilige Drie-eenheid, ontferm U over ons; Heer, wis onze zonden uit, Meester, vergeef ons onze ongerechtigheden, Heilige, bezoek ons en genees onze zwakheden omwille van Uw Naam.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos; Orthodox Klooster Asten, Horologion",
+   "variants": [
+    "Allerheiligste Drie-eenheid, ontferm U over ons. Heer, reinig ons van onze zonden. Meester, vergeef ons onze overtredingen. Heilige, bezoek en genees onze zwakheden, omwille van Uw Naam.",
+    "Allerheiligste Drie-eenheid, ontferm U over ons. Heere, reinig onze zonden. Meester, vergeef onze ongerechtigheden. Heilige, bezoek en genees onze gebreken, om Uws Naams wil."
+   ]
+  },
+  {
+   "id": "eo-glory-to-thee",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Eer aan U, onze God, eer aan U.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos",
+   "variants": [
+    "Eer zij U, onze God, eer zij U.",
+    "Eer aan U, onzen God, eer aan U."
+   ]
+  },
+  {
+   "id": "eo-trisagion",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Heilige God, heilige Sterke, heilige Onsterfelijke, ontferm U over ons.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos",
+   "variants": [
+    "Heilige God, Heilige Sterke, Heilige Onsterfelijke, ontferm U over ons."
+   ]
+  },
+  {
+   "id": "eo-glory-be",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
+   "source": "The form used throughout the app's Horologion and by Dutch Orthodox parishes (orthodox-amsterdam.nl)",
+   "variants": [
+    "Eer aan den Vader, en den Zoon, en den Heiligen Geest, nu en altijd en in de eeuwen der eeuwen. Amen."
+   ]
+  },
+  {
+   "id": "jesus-prayer",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Heer Jezus Christus, Zoon van God, ontferm U over mij, zondaar.",
+   "source": "orthodox-amersfoort.nl, Jezusgebed; the same words as PrayerRope.kt",
+   "variants": [
+    "Heere Jezus Christus, Zoon van God, ontferm U over mij, zondaar."
+   ],
+   "fragments": [
+    [
+     "Heere Jezus Christus",
+     "Heer Jezus Christus"
+    ]
+   ]
+  },
+  {
+   "id": "eo-through-the-prayers",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "Door de gebeden van onze heilige vaders, Heer Jezus Christus, onze God, ontferm U over ons. Amen.",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos",
+   "variants": [
+    "Door de gebeden van onze heilige vaderen, Heere Jezus Christus onze God, ontferm U over ons. Amen."
+   ],
+   "fragments": [
+    [
+     "Heere, ontferm U.",
+     "Heer, ontferm U."
+    ]
+   ]
+  },
+  {
+   "id": "sign-of-the-cross-eo",
+   "tradition": "EASTERN_ORTHODOX",
+   "text": "In de Naam van de Vader en de Zoon en de Heilige Geest. Amen.",
+   "source": "The form already used in the app's Horologion",
+   "variants": [
+    "In den naam des Vaders, en des Zoons, en des Heiligen Geestes. Amen."
+   ]
+  },
+  {
+   "id": "oo-creed-intro",
+   "tradition": "ORIENTAL_ORTHODOX",
+   "source": "Koptisch-Orthodoxe Kerk Utrecht, Vespers en Metten (Geloofsbelijdenis, p. 20-21) and De Liturgie van St. Basilius (p. 68) (koptischeorthodoekerkutrecht.jouwweb.nl): the Coptic Creed in the plural, with its own introduction",
+   "lines": [
+    "Wij verheffen u, Moeder van het ware Licht, wij verheerlijken u, heilige Moeder Gods, want u baarde ons de Verlosser van de wereld; Hij kwam en verloste onze zielen.",
+    "Glorie zij U, onze Meester en Koning, Christus, trots van de apostelen, kroon van de martelaren, blijdschap van de rechtvaardigen, standvastigheid van de kerken, vergeving van de zonden.",
+    "Wij verkondigen de Heilige Drie-eenheid; de Ene God. Wij aanbidden Hem, wij verheerlijken Hem."
+   ],
+   "variant_lines": [
+    [
+     "Wij verheffen u, Moeder van het ware Licht. Wij verheerlijken u, o heilige, Theotokos, want u hebt ons de Verlosser van de hele wereld gebaard; Hij is gekomen en heeft onze zielen gered.",
+     "Eer zij U, onze Meester, onze Koning, Christus, roem van de apostelen, kroon van de martelaren, vreugde van de rechtvaardigen, vastheid van de kerken, vergeving van de zonden.",
+     "Wij verkondigen de Heilige Drie-eenheid in één Godheid. Wij aanbidden Hem. Wij verheerlijken Hem."
+    ]
+   ],
+   "text": "Wij verheffen u, Moeder van het ware Licht, wij verheerlijken u, heilige Moeder Gods, want u baarde ons de Verlosser van de wereld; Hij kwam en verloste onze zielen. Glorie zij U, onze Meester en Koning, Christus, trots van de apostelen, kroon van de martelaren, blijdschap van de rechtvaardigen, standvastigheid van de kerken, vergeving van de zonden. Wij verkondigen de Heilige Drie-eenheid; de Ene God. Wij aanbidden Hem, wij verheerlijken Hem."
+  },
+  {
+   "id": "oo-creed",
+   "tradition": "ORIENTAL_ORTHODOX",
+   "source": "Koptisch-Orthodoxe Kerk Utrecht, Vespers en Metten (Geloofsbelijdenis, p. 20-21) and De Liturgie van St. Basilius (p. 68) (koptischeorthodoekerkutrecht.jouwweb.nl): the Coptic Creed in the plural, with its own introduction",
+   "lines": [
+    "In waarheid geloven wij in één God: de Almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
+    "Wij geloven in één Heer Jezus Christus, Eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader, licht uit licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is. Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de Heilige Geest en uit de Maagd Maria, en is mens geworden. Hij werd voor ons gekruisigd onder Pontius Pilatus. Hij heeft geleden, is begraven en is verrezen uit de doden op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel, zit aan de rechterhand van Zijn Vader. Hij zal wederkomen in Zijn heerlijkheid om te oordelen de levenden en de doden, aan Zijn rijk komt geen einde.",
+    "Ja, wij geloven in de Heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader, die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt, die gesproken heeft door de profeten.",
+    "Wij geloven in de Ene, Heilige, Universele en Apostolische Kerk.",
+    "Wij belijden één doopsel tot vergeving van de zonden.",
+    "Wij verwachten de opstanding van de doden en het leven van het komend rijk. Amen."
+   ],
+   "variant_lines": [
+    [
+     "Wij geloven in één God, God de Vader, de Almachtige, die hemel en aarde heeft geschapen, en alle dingen, zichtbaar en onzichtbaar.",
+     "Wij geloven in één Heer Jezus Christus, de eniggeboren Zoon van God, geboren uit de Vader vóór alle eeuwen; Licht uit Licht, ware God uit ware God, geboren, niet geschapen, één van wezen met de Vader, door wie alle dingen zijn gemaakt; die voor ons, mensen, en omwille van ons heil uit de hemel is neergedaald, vlees is geworden uit de Heilige Geest en uit de Maagd Maria, en mens is geworden. Hij werd voor ons gekruisigd onder Pontius Pilatus, heeft geleden en is begraven. Op de derde dag is Hij uit de doden verrezen volgens de Schriften, is opgevaren naar de hemelen en zit aan de rechterhand van Zijn Vader; en Hij komt weer in Zijn heerlijkheid om te oordelen de levenden en de doden, en aan Zijn Koninkrijk komt geen einde.",
+     "Ja, wij geloven in de Heilige Geest, de Heer, de Levendmaker, die uitgaat van de Vader, die met de Vader en de Zoon wordt aanbeden en verheerlijkt, die gesproken heeft door de profeten.",
+     "En in de ene, heilige, katholieke en apostolische Kerk.",
+     "Wij belijden één doop tot vergeving van de zonden.",
+     "Wij verwachten de opstanding van de doden en het leven van de komende eeuw. Amen."
+    ]
+   ],
+   "text": "In waarheid geloven wij in één God: de Almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is. Wij geloven in één Heer Jezus Christus, Eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader, licht uit licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is. Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de Heilige Geest en uit de Maagd Maria, en is mens geworden. Hij werd voor ons gekruisigd onder Pontius Pilatus. Hij heeft geleden, is begraven en is verrezen uit de doden op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel, zit aan de rechterhand van Zijn Vader. Hij zal wederkomen in Zijn heerlijkheid om te oordelen de levenden en de doden, aan Zijn rijk komt geen einde. Ja, wij geloven in de Heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader, die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt, die gesproken heeft door de profeten. Wij geloven in de Ene, Heilige, Universele en Apostolische Kerk. Wij belijden één doopsel tot vergeving van de zonden. Wij verwachten de opstanding van de doden en het leven van het komend rijk. Amen."
+  },
+  {
+   "id": "eo-creed",
+   "tradition": "EASTERN_ORTHODOX",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos (Geloofsbelijdenis); the same words as the Horologion in prayers_eo.json",
+   "lines": [
+    "Ik geloof in één God: de almachtige Vader, Schepper van hemel en aarde, van al het zichtbare en onzichtbare.",
+    "En in één Heer, Jezus Christus, de eniggeboren Zoon van God, geboren uit de Vader vóór alle eeuwen. Licht uit Licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader en door Wie alles geworden is.",
+    "Die om ons, mensen, en om onze verlossing uit de hemel is nedergedaald, en vlees heeft aangenomen door de Heilige Geest uit de Maagd Maria, en mens geworden is.",
+    "Die voor ons onder Pontius Pilatus gekruisigd is, geleden heeft en begraven is;",
+    "Die opgestaan is op de derde dag volgens de Schriften;",
+    "Die opgevaren is ten hemel en zetelt aan de rechterhand van de Vader;",
+    "Die zal wederkomen in heerlijkheid, om levenden en doden te oordelen, en aan Wiens Rijk geen einde zal zijn.",
+    "En in de Heilige Geest, Heer en Levendmaker, Die uitgaat van de Vader, Die aanbeden en verheerlijkt wordt tezamen met de Vader en de Zoon, Die door de profeten gesproken heeft.",
+    "In één heilige, katholieke en apostolische Kerk.",
+    "Ik belijd één doop tot vergeving van zonden.",
+    "Ik verwacht de opstanding van de doden, en het leven van de komende eeuwigheid. Amen."
+   ],
+   "text": "Ik geloof in één God: de almachtige Vader, Schepper van hemel en aarde, van al het zichtbare en onzichtbare. En in één Heer, Jezus Christus, de eniggeboren Zoon van God, geboren uit de Vader vóór alle eeuwen. Licht uit Licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader en door Wie alles geworden is. Die om ons, mensen, en om onze verlossing uit de hemel is nedergedaald, en vlees heeft aangenomen door de Heilige Geest uit de Maagd Maria, en mens geworden is. Die voor ons onder Pontius Pilatus gekruisigd is, geleden heeft en begraven is; Die opgestaan is op de derde dag volgens de Schriften; Die opgevaren is ten hemel en zetelt aan de rechterhand van de Vader; Die zal wederkomen in heerlijkheid, om levenden en doden te oordelen, en aan Wiens Rijk geen einde zal zijn. En in de Heilige Geest, Heer en Levendmaker, Die uitgaat van de Vader, Die aanbeden en verheerlijkt wordt tezamen met de Vader en de Zoon, Die door de profeten gesproken heeft. In één heilige, katholieke en apostolische Kerk. Ik belijd één doop tot vergeving van zonden. Ik verwacht de opstanding van de doden, en het leven van de komende eeuwigheid. Amen."
+  },
+  {
+   "id": "ca-creed",
+   "tradition": "CATHOLIC",
+   "source": "Official Dutch text of the Roman Missal (Credo van Nicea-Constantinopel): rkkerk.nl/geloof/geloofsbelijdenis; rkdocumenten.nl/toondocument/66-credo-van-nicea-constantinopel-nl",
+   "lines": [
+    "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
+    "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, licht uit licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
+    "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria en is mens geworden.",
+    "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel: zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden en aan zijn rijk komt geen einde.",
+    "Ik geloof in de heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt; die gesproken heeft door de profeten.",
+    "Ik geloof in de ene, heilige, katholieke en apostolische kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen."
+   ],
+   "variant_lines": [
+    [
+     "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
+     "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, Licht uit Licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
+     "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria, en is mens geworden.",
+     "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren naar de hemel en zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden, en aan zijn rijk komt geen einde.",
+     "Ik geloof in de heilige Geest, die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon wordt aanbeden en verheerlijkt; Hij heeft gesproken door de profeten.",
+     "Ik geloof in de éne, heilige, katholieke en apostolische Kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen."
+    ]
+   ],
+   "text": "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is. En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, licht uit licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is. Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria en is mens geworden. Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel: zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden en aan zijn rijk komt geen einde. Ik geloof in de heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt; die gesproken heeft door de profeten. Ik geloof in de ene, heilige, katholieke en apostolische kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen."
+  }
+ ]
+}

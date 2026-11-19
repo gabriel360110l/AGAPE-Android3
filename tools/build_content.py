@@ -472,9 +472,11 @@ def build_agpeya():
 
 
 EXTRA_PRAYER_TRADITIONS = {
-    "jezusgebed": [EO, OO], "onze-vader": ALL, "geloof": [EO, OO], "trisagion": [EO, OO],
-    "theotokos": ALL, "efrem": [EO, OO], "lezen": ALL, "psalm50": ALL, "morgen": [EO, OO],
-    "avond": [EO, OO], "pascha": [EO, OO], "optel": ALL,
+    # The Creed, the Trisagion prayers and the morning and evening prayers are the Byzantine texts, so only the
+    # Eastern Orthodox see them; the Coptic Church has its own Creed (creed-oo below) and prays the Agpeya.
+    "jezusgebed": [EO, OO], "onze-vader": [EO], "geloof": [EO], "trisagion": [EO],
+    "theotokos": ALL, "efrem": [EO, OO], "lezen": ALL, "psalm50": ALL, "morgen": [EO],
+    "avond": [EO], "pascha": [EO, OO], "optel": ALL,
 }
 EXTRA_PRAYER_IDS = {
     "jezusgebed": "jesus-prayer", "onze-vader": "our-father", "geloof": "creed-nicene", "trisagion": "trisagion",
@@ -492,6 +494,52 @@ def build_extra_prayers():
         "subtitle": tr(p.get("kickerEn"), p.get("kicker")),
         "body": {"en": p.get("bodyEn") or p.get("body"), "nl": p.get("body") or p.get("bodyEn")},
     } for p in legacy]
+    # The Our Father in the words each tradition prays it (texts and sources: tools/source/common_prayers_nl.json).
+    common_table = read_json(os.path.join(SRC, "common_prayers_nl.json"))["prayers"]
+    common = {c["id"]: c["text"] for c in common_table}
+    lines = {c["id"]: c["lines"] for c in common_table if "lines" in c}
+    at = next(i for i, p in enumerate(out) if p["id"] == "our-father") + 1
+    out[at:at] = [
+        {
+            "id": "our-father-oo", "traditions": [OO],
+            "title": tr("Our Father", "Onze Vader"),
+            "subtitle": tr("As prayed in the Agpeya", "Zoals gebeden in de Agpeya"),
+            "body": {
+                "en": ["Our Father who art in heaven, hallowed be Thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one, in Christ Jesus our Lord. For Thine is the kingdom, the power, and the glory, forever. Amen."],
+                "nl": [common["oo-our-father"]],
+            },
+        },
+        {
+            "id": "our-father-ca", "traditions": [CA],
+            "title": tr("Our Father", "Onze Vader"),
+            "subtitle": tr("Matthew 6:9–13", "Matteüs 6:9–13"),
+            "body": {
+                "en": ["Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."],
+                "nl": [common["ca-our-father"]],
+            },
+        },
+    ]
+    # The Coptic Creed: said in the plural, after its own introduction, as the Coptic Church in Utrecht prays it.
+    at = next(i for i, p in enumerate(out) if p["id"] == "creed-nicene") + 1
+    out[at:at] = [{
+        "id": "creed-oo", "traditions": [OO],
+        "title": tr("The Creed", "De geloofsbelijdenis"),
+        "subtitle": tr("As prayed in the Coptic Church", "Zoals gebeden in de Koptische Kerk"),
+        "body": {
+            "en": [
+                "We exalt you, the Mother of the true Light. We glorify you, O Saint, the Theotokos, for you brought forth unto us the Savior of the whole world; He came and saved our souls.",
+                "Glory to You, our Master, our King, Christ, the pride of the apostles, the crown of the martyrs, the joy of the righteous, the firmness of the churches, the forgiveness of sins.",
+                "We proclaim the Holy Trinity in One Godhead. We worship Him. We glorify Him.",
+                "We believe in one God, God the Father, the Almighty, Who created heaven and earth, and all things, seen and unseen.",
+                "We believe in one Lord Jesus Christ, the Only-Begotten Son of God, begotten of the Father before all ages; Light of Light, true God of true God, begotten not created, of one essence with the Father, by Whom all things were made; Who for us, men, and for our salvation, came down from heaven, and was incarnated of the Holy Spirit and of the Virgin Mary, and became man. And He was crucified for us under Pontius Pilate, suffered and was buried. And on the third day He rose from the dead, according to the Scriptures, and ascended into the heavens; and sat at the right hand of His Father, and also He is coming again in His glory to judge the living and the dead, whose kingdom has no end.",
+                "Yes, we believe in the Holy Spirit, the Lord, the Life-Giver, Who proceeds from the Father, Who, with the Father and the Son, is worshipped and glorified, Who spoke in the prophets.",
+                "And in one holy, catholic and apostolic church.",
+                "We confess one baptism for the remission of sins.",
+                "We look for the resurrection of the dead, and the life of the coming age. Amen.",
+            ],
+            "nl": lines["oo-creed-intro"] + lines["oo-creed"],
+        },
+    }]
     # The Catholic form of the Creed (with the Filioque) and common Catholic prayers.
     out += [
         {
@@ -509,23 +557,23 @@ def build_extra_prayers():
                 ],
                 "nl": [
                     "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
-                    "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, Licht uit Licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
-                    "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria, en is mens geworden.",
-                    "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren naar de hemel en zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden, en aan zijn rijk komt geen einde.",
-                    "Ik geloof in de heilige Geest, die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon wordt aanbeden en verheerlijkt; Hij heeft gesproken door de profeten.",
-                    "Ik geloof in de éne, heilige, katholieke en apostolische Kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen.",
+                    "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, licht uit licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
+                    "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria en is mens geworden.",
+                    "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel: zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden en aan zijn rijk komt geen einde.",
+                    "Ik geloof in de heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt; die gesproken heeft door de profeten.",
+                    "Ik geloof in de ene, heilige, katholieke en apostolische kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen.",
                 ],
             },
         },
         {
             "id": "hail-mary", "traditions": [CA],
             "title": tr("Hail Mary", "Weesgegroet"),
-            "subtitle": tr("The Angelic Salutation", "De engelse groet"),
+            "subtitle": tr("The Angelic Salutation", "De Engelse groet"),
             "body": {
                 "en": ["Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.",
                        "Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."],
-                "nl": ["Wees gegroet, Maria, vol van genade, de Heer is met U. Gezegend zijt Gij boven alle vrouwen, en gezegend is Jezus, de vrucht van uw schoot.",
-                       "Heilige Maria, Moeder van God, bid voor ons, zondaars, nu en in het uur van onze dood. Amen."],
+                "nl": ["Wees gegroet, Maria, vol van genade, de Heer is met U. Gij zijt de gezegende onder de vrouwen, en gezegend is Jezus, de vrucht van uw schoot.",
+                       "Heilige Maria, Moeder van God, bid voor ons zondaars, nu en in het uur van onze dood. Amen."],
             },
         },
         {
@@ -553,14 +601,14 @@ def build_extra_prayers():
                        "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
                        "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.",
                        "Through the prayers of our holy fathers, Lord Jesus Christ our God, have mercy on us. Amen."],
-                "nl": ["Eer zij U, onze God, eer zij U.",
-                       "Hemelse Koning, Trooster, Geest der waarheid, die overal aanwezig bent en alles vervult, Schatkamer van het goede en Gever van het leven: kom en woon in ons, reinig ons van alle smet en red, o Goede, onze zielen.",
+                "nl": ["Eer aan U, onze God, eer aan U.",
+                       "Hemelse Koning, Trooster, Geest der waarheid, Die alom tegenwoordig zijt en alles vervult, Schatkamer van het goede, en Schenker van het leven, kom en verblijf in ons, reinig ons van alle smet, en red onze zielen, o Goede.",
                        "Heilige God, heilige Sterke, heilige Onsterfelijke, ontferm U over ons. (3 maal)",
                        "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
-                       "Allerheiligste Drie-eenheid, ontferm U over ons. Heer, reinig ons van onze zonden. Meester, vergeef ons onze overtredingen. Heilige, bezoek en genees onze zwakheden, omwille van Uw Naam.",
+                       "Alheilige Drie-eenheid, ontferm U over ons; Heer, wis onze zonden uit, Meester, vergeef ons onze ongerechtigheden, Heilige, bezoek ons en genees onze zwakheden omwille van Uw Naam.",
                        "Heer, ontferm U. (3 maal)",
                        "Eer aan de Vader en de Zoon en de Heilige Geest, nu en altijd en tot in de eeuwen der eeuwen. Amen.",
-                       "Onze Vader, die in de hemelen zijt, Uw Naam worde geheiligd. Uw Koninkrijk kome. Uw wil geschiede op aarde zoals in de hemel. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij vergeven aan onze schuldenaren. En leid ons niet in bekoring, maar verlos ons van de boze.",
+                       "Onze Vader, Die in de hemelen zijt, Uw Naam worde geheiligd, Uw Koninkrijk kome, Uw wil geschiede, zoals in de hemel, zo ook op aarde. Geef ons heden ons dagelijks brood, en vergeef ons onze schulden, zoals ook wij onze schuldenaren vergeven, en leid ons niet in verzoeking, maar verlos ons van de boze.",
                        "Door de gebeden van onze heilige vaders, Heer Jezus Christus, onze God, ontferm U over ons. Amen."],
             },
         },
