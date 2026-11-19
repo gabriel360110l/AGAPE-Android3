@@ -7,7 +7,6 @@ import agape.app.ui.components.Section
 import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Passage
-import agape.app.data.bible.ChapterGuide
 import agape.app.data.bible.FatherNote
 import agape.app.data.bible.FatherQuote
 import agape.app.data.content.Book
@@ -75,9 +74,6 @@ fun ChapterInfoSheet(book: String, chapter: Int, onDismiss: () -> Unit, openRefe
     // The book's commentary file is read off the main thread; the sheet fills in when it is there.
     val commentary by produceState<ChapterCommentary?>(null, book, chapter) { value = container.content.commentary(book, chapter) }
     val bookInfo = remember(book) { container.content.book(book) }
-    val guide by produceState<ChapterGuide?>(null, book, chapter) {
-        if (container.content.commentary(book, chapter) == null) value = container.bible.chapterGuide(book, chapter)
-    }
     val quotes by produceState(emptyList<FatherQuote>(), book, chapter) { value = container.bible.chapterQuotes(book, chapter) }
     val notes by produceState(emptyList<FatherNote>(), book, chapter) { value = container.bible.fatherNotes(book, chapter) }
     val refs by produceState(emptyList<RefPreview>(), book, chapter, lang) {
@@ -102,7 +98,7 @@ fun ChapterInfoSheet(book: String, chapter: Int, onDismiss: () -> Unit, openRefe
                 SegmentedTabs(InfoTab.entries.map { stringResource(it.label) }, tab.ordinal, { tab = InfoTab.entries[it] })
             }
             when (tab) {
-                InfoTab.EXPLANATION -> Explanation(commentary, guide, bookInfo, lang)
+                InfoTab.EXPLANATION -> Explanation(commentary, bookInfo, lang)
                 InfoTab.FATHERS -> Fathers(commentary, notes, quotes.distinctBy { it.father }.take(6), lang, go)
                 InfoTab.REFERENCES -> References(refs, lang, go)
             }
@@ -111,7 +107,7 @@ fun ChapterInfoSheet(book: String, chapter: Int, onDismiss: () -> Unit, openRefe
 }
 
 @Composable
-private fun ColumnScope.Explanation(commentary: ChapterCommentary?, guide: ChapterGuide?, book: Book?, lang: AppLanguage) {
+private fun ColumnScope.Explanation(commentary: ChapterCommentary?, book: Book?, lang: AppLanguage) {
     val c = AgapeTheme.colors
     when {
         commentary != null -> {
@@ -121,12 +117,6 @@ private fun ColumnScope.Explanation(commentary: ChapterCommentary?, guide: Chapt
             Themes(commentary.themes[lang])
             // Only the liturgy of the reader's own tradition; the section stays hidden when it has none.
             commentary.liturgy[tradition][lang].takeIf { it.isNotBlank() }?.let { Section(stringResource(R.string.info_liturgy), Modifier.padding(top = Spacing.s)) { Body(it) } }
-        }
-        guide != null -> {
-            Provisional()
-            Text(guide.title, style = MaterialTheme.typography.titleLarge, color = c.primary)
-            Body(guide.summary)
-            Themes(guide.themes)
         }
         else -> Text(stringResource(R.string.info_none), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
     }
@@ -207,17 +197,6 @@ private fun Body(text: String, modifier: Modifier = Modifier) {
 private fun Themes(themes: List<String>) {
     if (themes.isEmpty()) return
     Text(themes.joinToString(" · "), style = MaterialTheme.typography.labelMedium, color = AgapeTheme.colors.accentInk)
-}
-
-/** Marks text that is still a first draft, so readers know a fuller version is coming. */
-@Composable
-private fun Provisional() {
-    val c = AgapeTheme.colors
-    Text(
-        stringResource(R.string.info_provisional),
-        style = MaterialTheme.typography.labelMedium, color = c.inkMuted,
-        modifier = Modifier.clip(CircleShape).border(1.dp, c.line, CircleShape).padding(horizontal = Spacing.m, vertical = Spacing.s),
-    )
 }
 
 /** The quiet close of a chapter: only the quiz, and the book quiz after the last chapter. */

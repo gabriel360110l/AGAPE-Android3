@@ -133,7 +133,8 @@ fun MeScreen(
                 runCatching { context.startActivity(intent) }
             })
         }
-        item {
+        // Shown only once a real donation page is configured (donation.url); there is none yet.
+        if (donationConfigured()) item {
             MeRow(Icons.Outlined.Favorite, stringResource(R.string.me_donate), onClick = {
                 runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(BuildConfig.DONATION_URL))) }
             })
@@ -179,3 +180,7 @@ private fun MeRow(icon: ImageVector, title: String, onClick: () -> Unit, danger:
     )
     Divider()
 }
+
+/** Whether a real donation page is set: not empty and not a placeholder address. */
+internal fun donationConfigured(url: String = BuildConfig.DONATION_URL): Boolean =
+    url.startsWith("https://") && !url.contains("example.org") && !url.contains("example.com")

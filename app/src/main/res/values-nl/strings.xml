@@ -89,26 +89,15 @@
     <string name="tour_me_body">Je reeks, medailles, activiteit en opgeslagen verzen, plus instellingen voor taal, stijl, Kerk en meldingen.</string>
 
     <!-- Home -->
-    <string name="home_greeting_morning">Goedemorgen</string>
-    <string name="home_greeting_afternoon">Goedemiddag</string>
-    <string name="home_greeting_evening">Goedenavond</string>
-    <string name="home_greeting_night">Vrede zij met u</string>
     <string name="home_paschal_orthodox">Christus is opgestaan!</string>
     <string name="home_paschal_catholic">Christus is verrezen, alleluia!</string>
     <string name="home_verse_of_day">Vers van de dag</string>
-    <string name="home_continue">Verder lezen</string>
-    <string name="home_continue_hint">Ga verder waar je gebleven was</string>
     <string name="home_start_reading">Begin met het Evangelie van Johannes</string>
-    <string name="home_start_reading_hint">“In den beginne was het Woord”</string>
     <string name="home_plan">Leesplan</string>
     <string name="home_plan_start">Begin een leesplan</string>
     <string name="home_plan_start_hint">Stapsgewijze plannen voor beginners, de hele Bijbel en de Concilies</string>
-    <string name="home_saved">Opgeslagen</string>
-    <string name="home_plans">Plannen</string>
     <string name="home_saint">Heilige van de dag</string>
     <string name="home_readings">Lezingen van de dag</string>
-    <string name="home_source">Bron: %1$s</string>
-    <string name="home_streak">%1$d dagen op rij. Ga zo door.</string>
 
     <!-- Bible -->
     <string name="bible_books">Boeken</string>
@@ -121,17 +110,13 @@
     <string name="bible_translation_note">Engels: World English Bible (publiek domein). Nederlands: Statenvertaling 1637 met apocriefen (publiek domein). Kruisverwijzingen: OpenBible.info (CC BY).</string>
     <string name="church_your_tradition">Jouw traditie</string>
     <string name="church_councils">Concilies en canons</string>
-    <string name="church_councils_note">De concilies die je Kerk als oecumenisch aanvaardt.</string>
     <string name="church_fathers">Kerkvaders</string>
     <string name="church_history">Kerkgeschiedenis</string>
     <string name="council_number">Concilie %1$d · %2$s</string>
-    <string name="council_convoked">Bijeengeroepen door %1$s</string>
     <string name="council_scripture">Schrift</string>
     <string name="council_why">Waarom het bijeenkwam</string>
-    <string name="council_canons">Belangrijkste besluiten en canons</string>
     <string name="council_outcome">Uitkomst voor de Kerk</string>
     <string name="council_recognized_by">Aanvaard door: %1$s</string>
-    <string name="council_chalcedon_note">De Oriëntaals-Orthodoxe Kerken aanvaarden dit concilie niet.</string>
     <string name="reader_guide">Over dit hoofdstuk</string>
     <string name="reader_mark_read">Markeren als gelezen</string>
     <string name="reader_read_done">Gelezen ✓</string>
@@ -193,9 +178,7 @@
     <string name="quiz_reread">Eerst opnieuw lezen</string>
 
     <!-- Prayer -->
-    <string name="prayer_now">Nu</string>
     <string name="prayer_begin">Begin met bidden</string>
-    <string name="prayer_next">Hierna: %1$s om %2$s</string>
     <string name="prayer_hours">Gebedsuren</string>
     <string name="prayer_more">Andere gebeden</string>
     <string name="prayer_favorites">Favorieten</string>
@@ -359,7 +342,6 @@
     <string name="calendar_next">Volgende maand</string>
     <string name="calendar_legend_feast">Feest</string>
     <string name="calendar_legend_active">Je las of bad</string>
-    <string name="calendar_loading">De heiligen van deze dag worden opgezocht…</string>
     <string name="calendar_your_day">Jouw dag</string>
     <string name="calendar_gregorian">Gregoriaans</string>
     <string name="calendar_julian">Juliaans (oude stijl)</string>
@@ -382,7 +364,6 @@
     <string name="reading_other">Lezing</string>
     <string name="chapter_explanation">Over dit hoofdstuk</string>
     <string name="chapter_fathers">De Vaders over dit hoofdstuk</string>
-    <string name="chapter_cross_refs">Verder lezen</string>
     <string name="chapter_quiz">Quiz over dit hoofdstuk</string>
     <string name="book_end_quiz">Boekquiz · 20 vragen</string>
     <string name="quiz_gen_cloze">Welk woord ontbreekt? (%1$s)</string>
@@ -406,7 +387,6 @@
     <string name="info_fathers_reading">Hoe de Vaders het lazen</string>
     <string name="info_liturgy">Liturgie</string>
     <string name="info_about_book">Over %1$s</string>
-    <string name="info_provisional">Voorlopige uitleg (Engels) · een volledige wordt nog geschreven</string>
     <string name="info_none">Nog geen uitleg bij dit hoofdstuk.</string>
     <string name="info_no_fathers">Nog geen commentaar van de Vaders bij dit hoofdstuk.</string>
     <string name="info_no_refs">Geen verwijzingen bij dit hoofdstuk.</string>

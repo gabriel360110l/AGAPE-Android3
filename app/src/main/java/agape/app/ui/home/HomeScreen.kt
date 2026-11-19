@@ -314,7 +314,9 @@ fun HomeScreen(
         background?.let { b ->
             item {
                 Text(
-                    stringResource(R.string.home_background_credit, b.title, b.licence),
+                    // CC BY and CC BY-SA ask for the author's name with the licence.
+                    if (b.artist.isBlank() || !b.licence.startsWith("CC BY")) stringResource(R.string.home_background_credit, b.title, b.licence)
+                    else stringResource(R.string.home_background_credit_by, b.title, b.artist, b.licence),
                     style = MaterialTheme.typography.labelSmall, color = c.inkFaint, maxLines = 2, overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.padding(horizontal = Spacing.xl, vertical = Spacing.m),
                 )
