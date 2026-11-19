@@ -472,9 +472,11 @@ def build_agpeya():
 
 
 EXTRA_PRAYER_TRADITIONS = {
-    "jezusgebed": [EO, OO], "onze-vader": [EO], "geloof": [EO, OO], "trisagion": [EO, OO],
-    "theotokos": ALL, "efrem": [EO, OO], "lezen": ALL, "psalm50": ALL, "morgen": [EO, OO],
-    "avond": [EO, OO], "pascha": [EO, OO], "optel": ALL,
+    # The Creed, the Trisagion prayers and the morning and evening prayers are the Byzantine texts, so only the
+    # Eastern Orthodox see them; the Coptic Church has its own Creed (creed-oo below) and prays the Agpeya.
+    "jezusgebed": [EO, OO], "onze-vader": [EO], "geloof": [EO], "trisagion": [EO],
+    "theotokos": ALL, "efrem": [EO, OO], "lezen": ALL, "psalm50": ALL, "morgen": [EO],
+    "avond": [EO], "pascha": [EO, OO], "optel": ALL,
 }
 EXTRA_PRAYER_IDS = {
     "jezusgebed": "jesus-prayer", "onze-vader": "our-father", "geloof": "creed-nicene", "trisagion": "trisagion",
@@ -493,7 +495,9 @@ def build_extra_prayers():
         "body": {"en": p.get("bodyEn") or p.get("body"), "nl": p.get("body") or p.get("bodyEn")},
     } for p in legacy]
     # The Our Father in the words each tradition prays it (texts and sources: tools/source/common_prayers_nl.json).
-    common = {c["id"]: c["text"] for c in read_json(os.path.join(SRC, "common_prayers_nl.json"))["prayers"]}
+    common_table = read_json(os.path.join(SRC, "common_prayers_nl.json"))["prayers"]
+    common = {c["id"]: c["text"] for c in common_table}
+    lines = {c["id"]: c["lines"] for c in common_table if "lines" in c}
     at = next(i for i, p in enumerate(out) if p["id"] == "our-father") + 1
     out[at:at] = [
         {
@@ -515,6 +519,27 @@ def build_extra_prayers():
             },
         },
     ]
+    # The Coptic Creed: said in the plural, after its own introduction, as the Coptic Church in Utrecht prays it.
+    at = next(i for i, p in enumerate(out) if p["id"] == "creed-nicene") + 1
+    out[at:at] = [{
+        "id": "creed-oo", "traditions": [OO],
+        "title": tr("The Creed", "De geloofsbelijdenis"),
+        "subtitle": tr("As prayed in the Coptic Church", "Zoals gebeden in de Koptische Kerk"),
+        "body": {
+            "en": [
+                "We exalt you, the Mother of the true Light. We glorify you, O Saint, the Theotokos, for you brought forth unto us the Savior of the whole world; He came and saved our souls.",
+                "Glory to You, our Master, our King, Christ, the pride of the apostles, the crown of the martyrs, the joy of the righteous, the firmness of the churches, the forgiveness of sins.",
+                "We proclaim the Holy Trinity in One Godhead. We worship Him. We glorify Him.",
+                "We believe in one God, God the Father, the Almighty, Who created heaven and earth, and all things, seen and unseen.",
+                "We believe in one Lord Jesus Christ, the Only-Begotten Son of God, begotten of the Father before all ages; Light of Light, true God of true God, begotten not created, of one essence with the Father, by Whom all things were made; Who for us, men, and for our salvation, came down from heaven, and was incarnated of the Holy Spirit and of the Virgin Mary, and became man. And He was crucified for us under Pontius Pilate, suffered and was buried. And on the third day He rose from the dead, according to the Scriptures, and ascended into the heavens; and sat at the right hand of His Father, and also He is coming again in His glory to judge the living and the dead, whose kingdom has no end.",
+                "Yes, we believe in the Holy Spirit, the Lord, the Life-Giver, Who proceeds from the Father, Who, with the Father and the Son, is worshipped and glorified, Who spoke in the prophets.",
+                "And in one holy, catholic and apostolic church.",
+                "We confess one baptism for the remission of sins.",
+                "We look for the resurrection of the dead, and the life of the coming age. Amen.",
+            ],
+            "nl": lines["oo-creed-intro"] + lines["oo-creed"],
+        },
+    }]
     # The Catholic form of the Creed (with the Filioque) and common Catholic prayers.
     out += [
         {
@@ -532,11 +557,11 @@ def build_extra_prayers():
                 ],
                 "nl": [
                     "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
-                    "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, Licht uit Licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
-                    "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria, en is mens geworden.",
-                    "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren naar de hemel en zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden, en aan zijn rijk komt geen einde.",
-                    "Ik geloof in de heilige Geest, die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon wordt aanbeden en verheerlijkt; Hij heeft gesproken door de profeten.",
-                    "Ik geloof in de éne, heilige, katholieke en apostolische Kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen.",
+                    "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, licht uit licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
+                    "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria en is mens geworden.",
+                    "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel: zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden en aan zijn rijk komt geen einde.",
+                    "Ik geloof in de heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt; die gesproken heeft door de profeten.",
+                    "Ik geloof in de ene, heilige, katholieke en apostolische kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen.",
                 ],
             },
         },

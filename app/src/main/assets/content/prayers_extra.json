@@ -110,8 +110,7 @@
  {
   "id": "creed-nicene",
   "traditions": [
-   "EASTERN_ORTHODOX",
-   "ORIENTAL_ORTHODOX"
+   "EASTERN_ORTHODOX"
   ],
   "title": {
    "en": "The Creed",
@@ -151,10 +150,47 @@
   }
  },
  {
+  "id": "creed-oo",
+  "traditions": [
+   "ORIENTAL_ORTHODOX"
+  ],
+  "title": {
+   "en": "The Creed",
+   "nl": "De geloofsbelijdenis"
+  },
+  "subtitle": {
+   "en": "As prayed in the Coptic Church",
+   "nl": "Zoals gebeden in de Koptische Kerk"
+  },
+  "body": {
+   "en": [
+    "We exalt you, the Mother of the true Light. We glorify you, O Saint, the Theotokos, for you brought forth unto us the Savior of the whole world; He came and saved our souls.",
+    "Glory to You, our Master, our King, Christ, the pride of the apostles, the crown of the martyrs, the joy of the righteous, the firmness of the churches, the forgiveness of sins.",
+    "We proclaim the Holy Trinity in One Godhead. We worship Him. We glorify Him.",
+    "We believe in one God, God the Father, the Almighty, Who created heaven and earth, and all things, seen and unseen.",
+    "We believe in one Lord Jesus Christ, the Only-Begotten Son of God, begotten of the Father before all ages; Light of Light, true God of true God, begotten not created, of one essence with the Father, by Whom all things were made; Who for us, men, and for our salvation, came down from heaven, and was incarnated of the Holy Spirit and of the Virgin Mary, and became man. And He was crucified for us under Pontius Pilate, suffered and was buried. And on the third day He rose from the dead, according to the Scriptures, and ascended into the heavens; and sat at the right hand of His Father, and also He is coming again in His glory to judge the living and the dead, whose kingdom has no end.",
+    "Yes, we believe in the Holy Spirit, the Lord, the Life-Giver, Who proceeds from the Father, Who, with the Father and the Son, is worshipped and glorified, Who spoke in the prophets.",
+    "And in one holy, catholic and apostolic church.",
+    "We confess one baptism for the remission of sins.",
+    "We look for the resurrection of the dead, and the life of the coming age. Amen."
+   ],
+   "nl": [
+    "Wij verheffen u, Moeder van het ware Licht, wij verheerlijken u, heilige Moeder Gods, want u baarde ons de Verlosser van de wereld; Hij kwam en verloste onze zielen.",
+    "Glorie zij U, onze Meester en Koning, Christus, trots van de apostelen, kroon van de martelaren, blijdschap van de rechtvaardigen, standvastigheid van de kerken, vergeving van de zonden.",
+    "Wij verkondigen de Heilige Drie-eenheid; de Ene God. Wij aanbidden Hem, wij verheerlijken Hem.",
+    "In waarheid geloven wij in één God: de Almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
+    "Wij geloven in één Heer Jezus Christus, Eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader, licht uit licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is. Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de Heilige Geest en uit de Maagd Maria, en is mens geworden. Hij werd voor ons gekruisigd onder Pontius Pilatus. Hij heeft geleden, is begraven en is verrezen uit de doden op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel, zit aan de rechterhand van Zijn Vader. Hij zal wederkomen in Zijn heerlijkheid om te oordelen de levenden en de doden, aan Zijn rijk komt geen einde.",
+    "Ja, wij geloven in de Heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader, die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt, die gesproken heeft door de profeten.",
+    "Wij geloven in de Ene, Heilige, Universele en Apostolische Kerk.",
+    "Wij belijden één doopsel tot vergeving van de zonden.",
+    "Wij verwachten de opstanding van de doden en het leven van het komend rijk. Amen."
+   ]
+  }
+ },
+ {
   "id": "trisagion",
   "traditions": [
-   "EASTERN_ORTHODOX",
-   "ORIENTAL_ORTHODOX"
+   "EASTERN_ORTHODOX"
   ],
   "title": {
    "en": "Trisagion",
@@ -347,8 +383,7 @@
  {
   "id": "morning-prayer",
   "traditions": [
-   "EASTERN_ORTHODOX",
-   "ORIENTAL_ORTHODOX"
+   "EASTERN_ORTHODOX"
   ],
   "title": {
    "en": "Morning prayer",
@@ -402,8 +437,7 @@
  {
   "id": "evening-prayer",
   "traditions": [
-   "EASTERN_ORTHODOX",
-   "ORIENTAL_ORTHODOX"
+   "EASTERN_ORTHODOX"
   ],
   "title": {
    "en": "Evening prayer",
@@ -535,11 +569,11 @@
    ],
    "nl": [
     "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
-    "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, Licht uit Licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
-    "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria, en is mens geworden.",
-    "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren naar de hemel en zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden, en aan zijn rijk komt geen einde.",
-    "Ik geloof in de heilige Geest, die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon wordt aanbeden en verheerlijkt; Hij heeft gesproken door de profeten.",
-    "Ik geloof in de éne, heilige, katholieke en apostolische Kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen."
+    "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, licht uit licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
+    "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria en is mens geworden.",
+    "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel: zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden en aan zijn rijk komt geen einde.",
+    "Ik geloof in de heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt; die gesproken heeft door de profeten.",
+    "Ik geloof in de ene, heilige, katholieke en apostolische kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen."
    ]
   }
  },

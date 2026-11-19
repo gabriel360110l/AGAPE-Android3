@@ -174,6 +174,91 @@
    "variants": [
     "In den naam des Vaders, en des Zoons, en des Heiligen Geestes. Amen."
    ]
+  },
+  {
+   "id": "oo-creed-intro",
+   "tradition": "ORIENTAL_ORTHODOX",
+   "source": "Koptisch-Orthodoxe Kerk Utrecht, Vespers en Metten (Geloofsbelijdenis, p. 20-21) and De Liturgie van St. Basilius (p. 68) (koptischeorthodoekerkutrecht.jouwweb.nl): the Coptic Creed in the plural, with its own introduction",
+   "lines": [
+    "Wij verheffen u, Moeder van het ware Licht, wij verheerlijken u, heilige Moeder Gods, want u baarde ons de Verlosser van de wereld; Hij kwam en verloste onze zielen.",
+    "Glorie zij U, onze Meester en Koning, Christus, trots van de apostelen, kroon van de martelaren, blijdschap van de rechtvaardigen, standvastigheid van de kerken, vergeving van de zonden.",
+    "Wij verkondigen de Heilige Drie-eenheid; de Ene God. Wij aanbidden Hem, wij verheerlijken Hem."
+   ],
+   "variant_lines": [
+    [
+     "Wij verheffen u, Moeder van het ware Licht. Wij verheerlijken u, o heilige, Theotokos, want u hebt ons de Verlosser van de hele wereld gebaard; Hij is gekomen en heeft onze zielen gered.",
+     "Eer zij U, onze Meester, onze Koning, Christus, roem van de apostelen, kroon van de martelaren, vreugde van de rechtvaardigen, vastheid van de kerken, vergeving van de zonden.",
+     "Wij verkondigen de Heilige Drie-eenheid in één Godheid. Wij aanbidden Hem. Wij verheerlijken Hem."
+    ]
+   ],
+   "text": "Wij verheffen u, Moeder van het ware Licht, wij verheerlijken u, heilige Moeder Gods, want u baarde ons de Verlosser van de wereld; Hij kwam en verloste onze zielen. Glorie zij U, onze Meester en Koning, Christus, trots van de apostelen, kroon van de martelaren, blijdschap van de rechtvaardigen, standvastigheid van de kerken, vergeving van de zonden. Wij verkondigen de Heilige Drie-eenheid; de Ene God. Wij aanbidden Hem, wij verheerlijken Hem."
+  },
+  {
+   "id": "oo-creed",
+   "tradition": "ORIENTAL_ORTHODOX",
+   "source": "Koptisch-Orthodoxe Kerk Utrecht, Vespers en Metten (Geloofsbelijdenis, p. 20-21) and De Liturgie van St. Basilius (p. 68) (koptischeorthodoekerkutrecht.jouwweb.nl): the Coptic Creed in the plural, with its own introduction",
+   "lines": [
+    "In waarheid geloven wij in één God: de Almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
+    "Wij geloven in één Heer Jezus Christus, Eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader, licht uit licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is. Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de Heilige Geest en uit de Maagd Maria, en is mens geworden. Hij werd voor ons gekruisigd onder Pontius Pilatus. Hij heeft geleden, is begraven en is verrezen uit de doden op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel, zit aan de rechterhand van Zijn Vader. Hij zal wederkomen in Zijn heerlijkheid om te oordelen de levenden en de doden, aan Zijn rijk komt geen einde.",
+    "Ja, wij geloven in de Heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader, die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt, die gesproken heeft door de profeten.",
+    "Wij geloven in de Ene, Heilige, Universele en Apostolische Kerk.",
+    "Wij belijden één doopsel tot vergeving van de zonden.",
+    "Wij verwachten de opstanding van de doden en het leven van het komend rijk. Amen."
+   ],
+   "variant_lines": [
+    [
+     "Wij geloven in één God, God de Vader, de Almachtige, die hemel en aarde heeft geschapen, en alle dingen, zichtbaar en onzichtbaar.",
+     "Wij geloven in één Heer Jezus Christus, de eniggeboren Zoon van God, geboren uit de Vader vóór alle eeuwen; Licht uit Licht, ware God uit ware God, geboren, niet geschapen, één van wezen met de Vader, door wie alle dingen zijn gemaakt; die voor ons, mensen, en omwille van ons heil uit de hemel is neergedaald, vlees is geworden uit de Heilige Geest en uit de Maagd Maria, en mens is geworden. Hij werd voor ons gekruisigd onder Pontius Pilatus, heeft geleden en is begraven. Op de derde dag is Hij uit de doden verrezen volgens de Schriften, is opgevaren naar de hemelen en zit aan de rechterhand van Zijn Vader; en Hij komt weer in Zijn heerlijkheid om te oordelen de levenden en de doden, en aan Zijn Koninkrijk komt geen einde.",
+     "Ja, wij geloven in de Heilige Geest, de Heer, de Levendmaker, die uitgaat van de Vader, die met de Vader en de Zoon wordt aanbeden en verheerlijkt, die gesproken heeft door de profeten.",
+     "En in de ene, heilige, katholieke en apostolische Kerk.",
+     "Wij belijden één doop tot vergeving van de zonden.",
+     "Wij verwachten de opstanding van de doden en het leven van de komende eeuw. Amen."
+    ]
+   ],
+   "text": "In waarheid geloven wij in één God: de Almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is. Wij geloven in één Heer Jezus Christus, Eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader, licht uit licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is. Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de Heilige Geest en uit de Maagd Maria, en is mens geworden. Hij werd voor ons gekruisigd onder Pontius Pilatus. Hij heeft geleden, is begraven en is verrezen uit de doden op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel, zit aan de rechterhand van Zijn Vader. Hij zal wederkomen in Zijn heerlijkheid om te oordelen de levenden en de doden, aan Zijn rijk komt geen einde. Ja, wij geloven in de Heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader, die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt, die gesproken heeft door de profeten. Wij geloven in de Ene, Heilige, Universele en Apostolische Kerk. Wij belijden één doopsel tot vergeving van de zonden. Wij verwachten de opstanding van de doden en het leven van het komend rijk. Amen."
+  },
+  {
+   "id": "eo-creed",
+   "tradition": "EASTERN_ORTHODOX",
+   "source": "orthodoxdomein.nl, Goddelijke Liturgie van Johannes Chrysostomos (Geloofsbelijdenis); the same words as the Horologion in prayers_eo.json",
+   "lines": [
+    "Ik geloof in één God: de almachtige Vader, Schepper van hemel en aarde, van al het zichtbare en onzichtbare.",
+    "En in één Heer, Jezus Christus, de eniggeboren Zoon van God, geboren uit de Vader vóór alle eeuwen. Licht uit Licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader en door Wie alles geworden is.",
+    "Die om ons, mensen, en om onze verlossing uit de hemel is nedergedaald, en vlees heeft aangenomen door de Heilige Geest uit de Maagd Maria, en mens geworden is.",
+    "Die voor ons onder Pontius Pilatus gekruisigd is, geleden heeft en begraven is;",
+    "Die opgestaan is op de derde dag volgens de Schriften;",
+    "Die opgevaren is ten hemel en zetelt aan de rechterhand van de Vader;",
+    "Die zal wederkomen in heerlijkheid, om levenden en doden te oordelen, en aan Wiens Rijk geen einde zal zijn.",
+    "En in de Heilige Geest, Heer en Levendmaker, Die uitgaat van de Vader, Die aanbeden en verheerlijkt wordt tezamen met de Vader en de Zoon, Die door de profeten gesproken heeft.",
+    "In één heilige, katholieke en apostolische Kerk.",
+    "Ik belijd één doop tot vergeving van zonden.",
+    "Ik verwacht de opstanding van de doden, en het leven van de komende eeuwigheid. Amen."
+   ],
+   "text": "Ik geloof in één God: de almachtige Vader, Schepper van hemel en aarde, van al het zichtbare en onzichtbare. En in één Heer, Jezus Christus, de eniggeboren Zoon van God, geboren uit de Vader vóór alle eeuwen. Licht uit Licht, ware God uit de ware God, geboren, niet geschapen, één in wezen met de Vader en door Wie alles geworden is. Die om ons, mensen, en om onze verlossing uit de hemel is nedergedaald, en vlees heeft aangenomen door de Heilige Geest uit de Maagd Maria, en mens geworden is. Die voor ons onder Pontius Pilatus gekruisigd is, geleden heeft en begraven is; Die opgestaan is op de derde dag volgens de Schriften; Die opgevaren is ten hemel en zetelt aan de rechterhand van de Vader; Die zal wederkomen in heerlijkheid, om levenden en doden te oordelen, en aan Wiens Rijk geen einde zal zijn. En in de Heilige Geest, Heer en Levendmaker, Die uitgaat van de Vader, Die aanbeden en verheerlijkt wordt tezamen met de Vader en de Zoon, Die door de profeten gesproken heeft. In één heilige, katholieke en apostolische Kerk. Ik belijd één doop tot vergeving van zonden. Ik verwacht de opstanding van de doden, en het leven van de komende eeuwigheid. Amen."
+  },
+  {
+   "id": "ca-creed",
+   "tradition": "CATHOLIC",
+   "source": "Official Dutch text of the Roman Missal (Credo van Nicea-Constantinopel): rkkerk.nl/geloof/geloofsbelijdenis; rkdocumenten.nl/toondocument/66-credo-van-nicea-constantinopel-nl",
+   "lines": [
+    "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
+    "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, licht uit licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
+    "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria en is mens geworden.",
+    "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel: zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden en aan zijn rijk komt geen einde.",
+    "Ik geloof in de heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt; die gesproken heeft door de profeten.",
+    "Ik geloof in de ene, heilige, katholieke en apostolische kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen."
+   ],
+   "variant_lines": [
+    [
+     "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
+     "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, Licht uit Licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
+     "Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria, en is mens geworden.",
+     "Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren naar de hemel en zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden, en aan zijn rijk komt geen einde.",
+     "Ik geloof in de heilige Geest, die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon wordt aanbeden en verheerlijkt; Hij heeft gesproken door de profeten.",
+     "Ik geloof in de éne, heilige, katholieke en apostolische Kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen."
+    ]
+   ],
+   "text": "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is. En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, licht uit licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is. Hij is voor ons, mensen, en omwille van ons heil uit de hemel neergedaald. Hij heeft het vlees aangenomen door de heilige Geest uit de Maagd Maria en is mens geworden. Hij werd voor ons gekruisigd, Hij heeft geleden onder Pontius Pilatus en is begraven. Hij is verrezen op de derde dag, volgens de Schriften. Hij is opgevaren ten hemel: zit aan de rechterhand van de Vader. Hij zal wederkomen in heerlijkheid om te oordelen levenden en doden en aan zijn rijk komt geen einde. Ik geloof in de heilige Geest die Heer is en het leven geeft, die voortkomt uit de Vader en de Zoon; die met de Vader en de Zoon tezamen wordt aanbeden en verheerlijkt; die gesproken heeft door de profeten. Ik geloof in de ene, heilige, katholieke en apostolische kerk. Ik belijd één doopsel tot vergeving van de zonden. Ik verwacht de opstanding van de doden en het leven van het komend rijk. Amen."
   }
  ]
 }

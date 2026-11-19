@@ -41,6 +41,9 @@ def pairs(path):
         if rel in SCOPE[p["tradition"]]:
             out += [(v, p["text"]) for v in p.get("variants", [])]
             out += [tuple(f) for f in p.get("fragments", [])]
+            # A prayer kept line by line (the Creeds): each older line is replaced by the line in its place.
+            for old in p.get("variant_lines", []):
+                out += [(o, n) for o, n in zip(old, p["lines"]) if o != n]
     return out
 
 
