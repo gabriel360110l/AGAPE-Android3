@@ -1,27 +1,33 @@
 package agape.app.core.prefs
 
-import agape.app.data.rosary.PrayerRope
-import agape.app.data.rosary.RopeCount
-import agape.app.data.rosary.RosaryProgress
+import agape.app.data.counter.PrayerCount
 import android.content.Context
 
 /**
- * Keeps the count of the Rosary and the prayer rope when the screen is left, so coming back (or the app being
- * closed in between) continues where the prayer was. Read and written synchronously: a few short strings.
+ * Keeps where a prayer counter was when its screen is left, so coming back (or the app being closed in between)
+ * continues where the prayer was: the prayer rope, the Rosary and the counters of the Agpeya alike. A count saved
+ * with a day ([today], an epoch day) comes back on that day only; one saved without a day always does. Read and
+ * written synchronously: a few short strings.
  */
 class PrayerProgressStore(context: Context) {
     private val prefs = context.getSharedPreferences("agape_prayer_progress", Context.MODE_PRIVATE)
 
-    fun rosary(): RosaryProgress? = RosaryProgress.decode(prefs.getString(ROSARY, null))
-    fun saveRosary(progress: RosaryProgress) = prefs.edit().putString(ROSARY, progress.encode()).apply()
+    fun count(key: String, today: Long? = null): PrayerCount? =
+        text(key, today)?.let { PrayerCount.decode(it) }
 
-    fun rope(rope: PrayerRope): RopeCount? =
-        RopeCount.decode(prefs.getString(ropeKey(rope), null))?.takeIf { it.size in rope.sizes }
-    fun saveRope(rope: PrayerRope, count: RopeCount) = prefs.edit().putString(ropeKey(rope), count.encode()).apply()
+    fun saveCount(key: String, count: PrayerCount, today: Long? = null) = saveText(key, count.encode(), today)
 
-    private fun ropeKey(rope: PrayerRope) = "rope_${rope.name.lowercase()}"
-
-    private companion object {
-        const val ROSARY = "rosary"
+    /** A short text kept with a counter, such as the set of mysteries of the Rosary. */
+    fun text(key: String, today: Long? = null): String? {
+        if (today != null && prefs.getLong(dayKey(key), Long.MIN_VALUE) != today) return null
+        return prefs.getString(key, null)
     }
+
+    fun saveText(key: String, value: String, today: Long? = null) {
+        val edit = prefs.edit().putString(key, value)
+        if (today != null) edit.putLong(dayKey(key), today) else edit.remove(dayKey(key))
+        edit.apply()
+    }
+
+    private fun dayKey(key: String) = "${key}_day"
 }

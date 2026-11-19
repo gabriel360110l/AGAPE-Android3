@@ -211,6 +211,11 @@ def build_agpeya():
         "sections": [text(tr(s.get("kickerEn"), s.get("kicker")), {"en": s.get("linesEn") or [], "nl": s.get("lines") or []})
                      for s in legacy["voorhangsel"]],
     })
+    # The legacy Veil had the Byzantine Trisagion; the Agpeya prays it with the Christological lines, as in Prime.
+    veil = hours[6]["sections"]
+    prime_trisagion = next(s for s in hours[0]["sections"] if (s.get("title") or {}).get("en") == "The Trisagion")
+    at = next(i for i, s in enumerate(veil) if (s.get("title") or {}).get("en") == "Trisagion")
+    veil[at] = dict(prime_trisagion)
     missing = sum(1 for h in hours for s in h["sections"] if s.get("body") and s["kind"] in ("text", "rubric") and not s["body"]["nl"])
     write("prayers_oo.json", {
         "tradition": "ORIENTAL_ORTHODOX",

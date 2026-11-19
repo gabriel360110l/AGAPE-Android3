@@ -475,8 +475,10 @@ EXTRA_PRAYER_TRADITIONS = {
     # The Creed, the Trisagion prayers and the morning and evening prayers are the Byzantine texts, so only the
     # Eastern Orthodox see them; the Coptic Church has its own Creed (creed-oo below) and prays the Agpeya.
     "jezusgebed": [EO, OO], "onze-vader": [EO], "geloof": [EO], "trisagion": [EO],
-    "theotokos": ALL, "efrem": [EO, OO], "lezen": ALL, "psalm50": ALL, "morgen": [EO],
-    "avond": [EO], "pascha": [EO, OO], "optel": ALL,
+    # The hymns to the Theotokos are Byzantine (EO only); the Sub tuum alone goes to the others, below. The prayers
+    # around reading Scripture keep their Orthodox words for EO and OO; Catholics get their own form below.
+    "theotokos": [EO], "efrem": [EO, OO], "lezen": [EO, OO], "psalm50": ALL, "morgen": [EO],
+    "avond": [EO], "pascha": [EO, OO], "optel": [EO, OO],
 }
 EXTRA_PRAYER_IDS = {
     "jezusgebed": "jesus-prayer", "onze-vader": "our-father", "geloof": "creed-nicene", "trisagion": "trisagion",
@@ -540,6 +542,47 @@ def build_extra_prayers():
             "nl": lines["oo-creed-intro"] + lines["oo-creed"],
         },
     }]
+    # The Sub tuum praesidium on its own: for Catholics in the official Dutch of the Nationale Raad voor Liturgie;
+    # for the Oriental Orthodox the ancient Greek prayer (Rylands papyrus 470, Egypt) as the app has it, without the
+    # Byzantine hymns around it, as no Coptic Dutch text of it was found.
+    sub = next(p for p in out if p["id"] == "sub-tuum")
+    i_sub = next(i for i, line in enumerate(sub["body"]["en"]) if line.startswith("Beneath your compassion"))
+    at = out.index(sub) + 1
+    out[at:at] = [
+        {
+            "id": "sub-tuum-oo", "traditions": [OO],
+            "title": sub["title"], "subtitle": tr("Sub tuum praesidium", "Sub tuum praesidium"),
+            "body": {"en": [sub["body"]["en"][i_sub]], "nl": [sub["body"]["nl"][i_sub]]},
+        },
+        {
+            "id": "sub-tuum-ca", "traditions": [CA],
+            "title": tr("To the Mother of God", "Tot de Moeder van God"),
+            "subtitle": tr("Sub tuum praesidium", "Sub tuum praesidium"),
+            "body": {
+                "en": ["We fly to thy protection, O holy Mother of God; despise not our petitions in our necessities, but deliver us always from all dangers, O glorious and blessed Virgin."],
+                "nl": [common["ca-sub-tuum"]],
+            },
+        },
+    ]
+    # The prayers before and after reading Scripture, in Catholic words: the Mother of God, and the sign of the cross
+    # as the Dutch Church says it.
+    def catholic_form(pid, en, nl):
+        src = next(p for p in out if p["id"] == pid)
+        out.insert(out.index(src) + 1, {
+            "id": pid + "-ca", "traditions": [CA], "title": src["title"], "subtitle": src["subtitle"],
+            "body": {"en": en, "nl": nl},
+        })
+    before = next(p for p in out if p["id"] == "before-scripture")["body"]
+    catholic_form("before-scripture",
+        ["In the name of the Father, and of the Son, and of the Holy Spirit. Amen."] + before["en"][1:3] +
+        ["Through the prayers of the holy Mother of God, of the holy apostle and evangelist, and of all the saints, Lord Jesus Christ our God, have mercy on us. Amen."],
+        [common["ca-sign-of-the-cross"]] + before["nl"][1:3] +
+        ["Door de gebeden van de heilige Moeder Gods, van de heilige apostel en evangelist, en van alle heiligen, Heer Jezus Christus, onze God, ontferm U over ons. Amen."])
+    after = next(p for p in out if p["id"] == "after-scripture")["body"]
+    catholic_form("after-scripture",
+        after["en"][:3] + ["Through the prayers of the holy Mother of God and of all Your saints. Amen."],
+        ["Heer, laat Uw woord in mij blijven, niet als letter die doodt, maar als Geest die levend maakt."] + after["nl"][1:3] +
+        ["Door de gebeden van de heilige Moeder Gods en van al Uw heiligen. Amen."])
     # The Catholic form of the Creed (with the Filioque) and common Catholic prayers.
     out += [
         {

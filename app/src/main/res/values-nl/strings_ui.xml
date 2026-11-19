@@ -44,7 +44,6 @@
     <string name="rosary_done_title">De rozenkrans is gebeden</string>
     <string name="rosary_done_body">Je hebt %1$s gebeden. Dank voor deze tijd van gebed.</string>
     <string name="rosary_again">Opnieuw bidden</string>
-    <string name="rosary_beads_description">Kralen van de rozenkrans: stap %1$d van %2$d. Gebruik Volgende en Terug om verder of terug te gaan.</string>
     <string name="reader_select_hint">Tik op een vers om het te markeren, te bewaren of er een notitie bij te maken.</string>
     <string name="reader_end_of">Einde van %1$s</string>
     <string name="reader_previous_chapter">Vorig hoofdstuk</string>
@@ -98,7 +97,7 @@
     <string name="day_pace_toggle">Wachttijd per kraal</string>
     <string name="day_pace_hint">Volgende opent pas na 10 seconden op een kraal van de rozenkrans en 2 seconden op een knoop, zodat geen gebed wordt afgeraffeld.</string>
     <string name="day_vibrate_toggle">Trillen bij elke kraal</string>
-    <string name="day_vibrate_hint">Een zacht tikje bij elke kraal of knoop, een stevigere bij elke tiende.</string>
+    <string name="day_vibrate_hint">Een zacht tikje bij elke kraal of knoop; een dubbele trilling bij elke tiende knoop, bij elke grote kraal van de rozenkrans en aan het eind.</string>
     <string name="intentions_title">Gedachtenis in het gebed</string>
     <string name="intentions_card_hint">Namen van levenden en ontslapenen, aan het eind van elk uur</string>
     <string name="intentions_intro">Zoals de Kerk in de Liturgie namen gedenkt, komen deze namen aan het eind van elk uur dat je bidt.</string>
@@ -170,4 +169,13 @@
     <string name="rosary_step_of">%1$d / %2$d</string>
     <string name="pace_praying">Bidden…</string>
     <string name="rope_next">Volgende knoop</string>
+    <string name="counter_tap">Tellen</string>
+    <string name="counter_back">Eén terug</string>
+    <string name="quiet_mode">Stille modus</string>
+    <string name="quiet_exit">Stille modus verlaten</string>
+    <string name="quiet_hint">Tik ergens op het scherm om te tellen.</string>
+    <string name="quiet_markers_on">Trilling bij elk tiental: aan</string>
+    <string name="quiet_markers_off">Trilling bij elk tiental: uit</string>
+    <string name="day_quiet_markers_toggle">Trilling bij elk tiental in stille modus</string>
+    <string name="day_quiet_markers_hint">In stille modus, als het scherm donker is, voelt u een dubbele trilling bij elke tiende knoop, elk nieuw tientje en aan het eind, zonder te kijken.</string>
 </resources>

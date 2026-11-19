@@ -54,6 +54,8 @@ data class Settings(
     val paceWait: Boolean = false,
     /** A tick on every bead and knot while counting prayers. */
     val prayerVibration: Boolean = true,
+    /** In quiet mode, a marked pulse at every tenth knot, decade and end, so the place is felt without looking. */
+    val quietMarkers: Boolean = true,
 ) {
     /** Onboarding is complete up to (but not including) sign-in. */
     val readyForSignIn: Boolean get() = welcomeSeen && termsAccepted && tradition != null && style != null
@@ -88,6 +90,7 @@ class SettingsRepository(private val context: Context) {
         val quietPrayer = booleanPreferencesKey("quiet_prayer")
         val paceWait = booleanPreferencesKey("pace_wait")
         val prayerVibration = booleanPreferencesKey("prayer_vibration")
+        val quietMarkers = booleanPreferencesKey("quiet_markers")
     }
 
     val settings: Flow<Settings> = context.dataStore.data.map { p ->
@@ -111,6 +114,7 @@ class SettingsRepository(private val context: Context) {
             quietPrayer = p[Keys.quietPrayer] ?: false,
             paceWait = p[Keys.paceWait] ?: false,
             prayerVibration = p[Keys.prayerVibration] ?: true,
+            quietMarkers = p[Keys.quietMarkers] ?: true,
         )
     }
 
@@ -138,6 +142,7 @@ class SettingsRepository(private val context: Context) {
     suspend fun setQuietPrayer(on: Boolean) = context.dataStore.edit { it[Keys.quietPrayer] = on }
     suspend fun setPaceWait(on: Boolean) = context.dataStore.edit { it[Keys.paceWait] = on }
     suspend fun setPrayerVibration(on: Boolean) = context.dataStore.edit { it[Keys.prayerVibration] = on }
+    suspend fun setQuietMarkers(on: Boolean) = context.dataStore.edit { it[Keys.quietMarkers] = on }
 
     suspend fun setLastPosition(pos: ReadingPosition) = context.dataStore.edit {
         it[Keys.lastBook] = pos.book
