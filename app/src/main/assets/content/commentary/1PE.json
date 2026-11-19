@@ -158,8 +158,8 @@
     "nl": "Herders zijn een voorbeeld, geen heersers. God zorgt voor ons; daarom kunnen wij onze zorgen op Hem werpen en standvastig blijven."
    },
    "fathers": {
-    "en": "Bede teaches that the elders are to shepherd the flock not as lords over an inheritance, but as examples (5:2-3). The crown of glory is not a reward for status, but for those who have remained humble under the mighty hand of God (5:4-6; St Bede the Venerable, Commentary on the Seven Catholic Epistles, on 1 Peter 5). The Fathers understood 'Babylon' as Rome, where Peter was with Mark. 'Be sober, be watchful' is read at Compline in the Western Church every night.",
-    "nl": "Beda leert dat de oudsten de kudde moeten weiden niet als heersers over een erfenis, maar als voorbeelden (5:2-3). De krans van heerlijkheid is geen beloning voor status, maar voor hen die nederig zijn gebleven onder de machtige hand van God (5:4-6; Beda de Eerbiedwaardige, Commentaar op de Zeven Katholieke Brieven, op 1 Petrus 5). De kerkvaders verstonden 'Babylon' als Rome, waar Petrus met Marcus was. 'Wees nuchter, wees waakzaam' wordt in de Westerse Kerk elke avond gelezen bij de Completen."
+    "en": "Bede teaches that the elders are to shepherd the flock not as lords over an inheritance, but as examples (5:2-3). The crown of glory is not a reward for status, but for those who have remained humble under the mighty hand of God (5:4-6; St Bede the Venerable, Commentary on the Seven Catholic Epistles, on 1 Peter 5). The Fathers understood 'Babylon' as Rome, where Peter was with Mark.",
+    "nl": "Beda leert dat de oudsten de kudde moeten weiden niet als heersers over een erfenis, maar als voorbeelden (5:2-3). De krans van heerlijkheid is geen beloning voor status, maar voor hen die nederig zijn gebleven onder de machtige hand van God (5:4-6; Beda de Eerbiedwaardige, Commentaar op de Zeven Katholieke Brieven, op 1 Petrus 5). De kerkvaders verstonden 'Babylon' als Rome, waar Petrus met Marcus was."
    },
    "themes": {
     "en": [
@@ -172,6 +172,12 @@
      "Nederigheid",
      "Waakzaamheid"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "In the Roman Liturgy of the Hours 5:8-9a, 'Be sober, be watchful', is the short reading of Night Prayer (Compline) on Tuesday.",
+     "nl": "In het Romeinse getijdengebed is 5:8-9a, 'Wees nuchter, wees waakzaam', de korte lezing van de completen op dinsdag."
+    }
    }
   }
  ]

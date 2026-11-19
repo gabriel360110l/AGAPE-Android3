@@ -17,8 +17,12 @@ S: Teach what accords with sound doctrine: older men sober and steadfast, older 
 SN: Onderwijs wat bij de gezonde leer past: oudere mannen moeten nuchter en standvastig zijn, oudere vrouwen eerbiedig en in staat het goede te onderwijzen, jongere vrouwen moeten hun gezin liefhebben, jonge mannen bezonnen zijn en slaven betrouwbaar, zodat zij in alles de leer van God, onze Redder, tot sieraad zijn. Want de genade van God is verschenen, met redding voor alle mensen. Zij leert ons de goddeloosheid en de wereldse begeerten af te wijzen en in deze tijd bezonnen, rechtvaardig en godvruchtig te leven, terwijl wij uitzien naar de zalige hoop: de verschijning van de heerlijkheid van onze grote God en Redder Jezus Christus. Hij heeft Zichzelf voor ons gegeven om ons vrij te kopen en Zich een volk te reinigen dat ijverig is in goede werken.
 M: Grace is a teacher that forms daily life in every age and state. Christ is called 'our great God and Saviour'.
 MN: Genade is een opvoeder die het dagelijks leven vormt, op elke leeftijd en in elke levensstaat. Christus wordt 'onze grote God en Redder' genoemd.
-F: Chrysostom comments on the duties of older and younger men and women and on the grace of God that teaches us to live soberly, righteously and godly (St John Chrysostom, Homilies on Titus, Homilies 4-5). The Fathers cited 2:13 as a clear confession of Christ's divinity. The Western Church reads this passage at the Christmas night Mass: the grace of God has appeared.
-FN: Chrysostomus becommentarieert de plichten van oudere en jongere mannen en vrouwen en de genade van God die ons leert nuchter, rechtvaardig en godvruchtig te leven (Johannes Chrysostomus, Homilieën op Titus, Homilie 4-5). De kerkvaders haalden 2:13 aan als een duidelijke belijdenis van de godheid van Christus. De Westerse Kerk leest dit gedeelte in de nachtmis van Kerstmis: de genade van God is verschenen.
+F: Chrysostom comments on the duties of older and younger men and women and on the grace of God that teaches us to live soberly, righteously and godly (St John Chrysostom, Homilies on Titus, Homilies 4-5). The Fathers cited 2:13 as a clear confession of Christ's divinity.
+FN: Chrysostomus becommentarieert de plichten van oudere en jongere mannen en vrouwen en de genade van God die ons leert nuchter, rechtvaardig en godvruchtig te leven (Johannes Chrysostomus, Homilieën op Titus, Homilie 4-5). De kerkvaders haalden 2:13 aan als een duidelijke belijdenis van de godheid van Christus.
+LE: In the Byzantine rite 2:11-14; 3:4-7 is read on the eve of Theophany (5 January).
+LEN: In de Byzantijnse ritus wordt 2:11-14; 3:4-7 gelezen op de vooravond van Theofanie (5 januari).
+LC: In the Roman Lectionary 2:11-14 is the second reading of the Christmas Mass at Midnight.
+LCN: In het Romeins lectionarium is 2:11-14 de tweede lezing van de nachtmis van Kerstmis.
 T: Grace; Daily holiness; Divinity of Christ
 TN: Genade; Dagelijkse heiligheid; Godheid van Christus
 

@@ -16,8 +16,8 @@
     "nl": "De Kerk begint in gebed, verzameld rond de apostelen en de Moeder van de Heer, wachtend op de Geest. Vers 8 is de kaart van het hele boek."
    },
    "fathers": {
-    "en": "On the angels asking the disciples why they stand gazing up into heaven after the Ascension (1:10-11), Chrysostom notes that while Elijah was taken up in a fiery chariot as a servant needing transport, Christ ascended by His own divine power onto a royal cloud to show that human nature now sits on the Father's throne (St John Chrysostom, Homilies on Acts, Homily 2). Acts 1:1-12 is read at Pascha and on the feast of the Ascension of the Lord. St John Chrysostom, in his homilies on Acts, notes that Peter, once afraid, now leads the community with humility, consulting all before the choice of Matthias.",
-    "nl": "Over de engelen die na de Hemelvaart aan de leerlingen vragen waarom zij naar de hemel staan te staren (1:10-11), merkt Chrysostomus op dat terwijl Elia als een dienaar in een vurige wagen moest worden vervoerd, Christus op eigen goddelijke kracht opsteeg op een koninklijke wolk om te tonen dat de menselijke natuur nu op de troon van de Vader zit (Johannes Chrysostomus, Homilieën op Handelingen, Homilie 2). Handelingen 1:1-12 wordt gelezen op Pasen en op het feest van de Hemelvaart van de Heer. De heilige Johannes Chrysostomus merkt in zijn homilieën op Handelingen op dat Petrus, eens bang, nu met nederigheid de gemeenschap leidt en allen raadpleegt vóór de keuze van Mattias."
+    "en": "On the angels asking the disciples why they stand gazing up into heaven after the Ascension (1:10-11), Chrysostom notes that while Elijah was taken up in a fiery chariot as a servant needing transport, Christ ascended by His own divine power onto a royal cloud to show that human nature now sits on the Father's throne (St John Chrysostom, Homilies on Acts, Homily 2). St John Chrysostom, in his homilies on Acts, notes that Peter, once afraid, now leads the community with humility, consulting all before the choice of Matthias.",
+    "nl": "Over de engelen die na de Hemelvaart aan de leerlingen vragen waarom zij naar de hemel staan te staren (1:10-11), merkt Chrysostomus op dat terwijl Elia als een dienaar in een vurige wagen moest worden vervoerd, Christus op eigen goddelijke kracht opsteeg op een koninklijke wolk om te tonen dat de menselijke natuur nu op de troon van de Vader zit (Johannes Chrysostomus, Homilieën op Handelingen, Homilie 2). De heilige Johannes Chrysostomus merkt in zijn homilieën op Handelingen op dat Petrus, eens bang, nu met nederigheid de gemeenschap leidt en allen raadpleegt vóór de keuze van Mattias."
    },
    "themes": {
     "en": [
@@ -30,6 +30,16 @@
      "Gebed",
      "Apostolische opvolging"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "In the Byzantine rite 1:1-8 is the Epistle of the Divine Liturgy of Pascha, and 1:1-12 that of the Ascension.",
+     "nl": "In de Byzantijnse ritus is 1:1-8 de epistel van de Goddelijke Liturgie van Pasen, en 1:1-12 die van Hemelvaart."
+    },
+    "ca": {
+     "en": "In the Roman Lectionary 1:1-11 is the first reading of the Ascension of the Lord.",
+     "nl": "In het Romeins lectionarium is 1:1-11 de eerste lezing van Hemelvaart."
+    }
    }
   },
   {
@@ -47,8 +57,8 @@
     "nl": "Pinksteren is de geboortedag van de Kerk. De verwarring van Babel wordt geheeld: één Geest verzamelt alle talen in één belijdenis."
    },
    "fathers": {
-    "en": "On the miracle of Pentecost where every nation heard the apostles speaking in its own native language (2:4-11), Bede explains that the Holy Spirit reversed the curse of the Tower of Babel: what human pride scattered into mutually unintelligible tongues, apostolic humility reunited into one family of praise (St Bede the Venerable, Commentary on Acts, Chapter 2). Acts 2:1-11 is read on the great feast of Pentecost. The Pentecost kontakion contrasts Babel and Pentecost: then the tongues were confused, now the Spirit calls all to unity. Verse 42 was seen by the Fathers as the lasting shape of Church life.",
-    "nl": "Over het wonder van Pinksteren waarbij elk volk de apostelen hoorde spreken in zijn eigen moedertaal (2:4-11), legt Beda uit dat de Heilige Geest de vloek van de Toren van Babel omkeerde: wat menselijke hoogmoed had verstrooid in onverstaanbare talen, verenigde de apostolische nederigheid weer tot één gezin van lofprijzing (Beda, Commentaar op Handelingen, Hoofdstuk 2). Handelingen 2:1-11 wordt gelezen op het hoogfeest van Pinksteren. Het kontakion van Pinksteren stelt Babel en Pinksteren tegenover elkaar: toen werden de talen verward, nu roept de Geest allen tot eenheid. Vers 42 werd door de kerkvaders gezien als de blijvende vorm van het leven van de Kerk."
+    "en": "On the miracle of Pentecost where every nation heard the apostles speaking in its own native language (2:4-11), Bede explains that the Holy Spirit reversed the curse of the Tower of Babel: what human pride scattered into mutually unintelligible tongues, apostolic humility reunited into one family of praise (St Bede the Venerable, Commentary on Acts, Chapter 2). The Pentecost kontakion contrasts Babel and Pentecost: then the tongues were confused, now the Spirit calls all to unity. Verse 42 was seen by the Fathers as the lasting shape of Church life.",
+    "nl": "Over het wonder van Pinksteren waarbij elk volk de apostelen hoorde spreken in zijn eigen moedertaal (2:4-11), legt Beda uit dat de Heilige Geest de vloek van de Toren van Babel omkeerde: wat menselijke hoogmoed had verstrooid in onverstaanbare talen, verenigde de apostolische nederigheid weer tot één gezin van lofprijzing (Beda, Commentaar op Handelingen, Hoofdstuk 2). Het kontakion van Pinksteren stelt Babel en Pinksteren tegenover elkaar: toen werden de talen verward, nu roept de Geest allen tot eenheid. Vers 42 werd door de kerkvaders gezien als de blijvende vorm van het leven van de Kerk."
    },
    "themes": {
     "en": [
@@ -61,6 +71,16 @@
      "Kerk",
      "Bekering en doop"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "In the Byzantine rite 2:1-11 is the Epistle of Pentecost.",
+     "nl": "In de Byzantijnse ritus is 2:1-11 de epistel van Pinksteren."
+    },
+    "ca": {
+     "en": "In the Roman Lectionary 2:1-11 is the first reading of Pentecost Sunday.",
+     "nl": "In het Romeins lectionarium is 2:1-11 de eerste lezing van Pinksteren."
+    }
    }
   },
   {
@@ -193,8 +213,8 @@
     "nl": "Het ambt in de Kerk groeit om aan echte noden te voldoen, door gebed en handoplegging. Dienst aan tafel en dienst aan het woord horen bij elkaar."
    },
    "fathers": {
-    "en": "On the face of Stephen appearing to the Sanhedrin \"as the face of an angel\" (6:15), Bede explains that the inner radiance of the Holy Spirit overflowed into Stephen's physical countenance, offering his judges a visible sign that the man they accused of blasphemy was a dwelling place of heaven (St Bede the Venerable, Commentary on Acts, Chapter 6). Acts 6:8-7:5 and 7:47-60 are read on the feast of the archdeacon and first martyr Stephen. The Fathers saw in the Seven the origin of the diaconate, ordained by the laying on of hands, which the Church has kept ever since.",
-    "nl": "Over het gezicht van Stefanus dat aan het Sanhedrin verscheen \"als het gezicht van een engel\" (6:15), legt Beda uit dat de innerlijke glans van de Heilige Geest overstroomde naar het uiterlijke gelaat van Stefanus, om zijn rechters een zichtbaar teken te geven dat de man die zij van godslastering beschuldigden een woonplaats van de hemel was (Beda, Commentaar op Handelingen, Hoofdstuk 6). Handelingen 6:8-7:5 en 7:47-60 worden gelezen op het feest van de aartsdiaken en eerste martelaar Stefanus. De kerkvaders zagen in de zeven de oorsprong van het diakenambt, gewijd door handoplegging, dat de Kerk sindsdien bewaard heeft."
+    "en": "On the face of Stephen appearing to the Sanhedrin \"as the face of an angel\" (6:15), Bede explains that the inner radiance of the Holy Spirit overflowed into Stephen's physical countenance, offering his judges a visible sign that the man they accused of blasphemy was a dwelling place of heaven (St Bede the Venerable, Commentary on Acts, Chapter 6). The Fathers saw in the Seven the origin of the diaconate, ordained by the laying on of hands, which the Church has kept ever since.",
+    "nl": "Over het gezicht van Stefanus dat aan het Sanhedrin verscheen \"als het gezicht van een engel\" (6:15), legt Beda uit dat de innerlijke glans van de Heilige Geest overstroomde naar het uiterlijke gelaat van Stefanus, om zijn rechters een zichtbaar teken te geven dat de man die zij van godslastering beschuldigden een woonplaats van de hemel was (Beda, Commentaar op Handelingen, Hoofdstuk 6). De kerkvaders zagen in de zeven de oorsprong van het diakenambt, gewijd door handoplegging, dat de Kerk sindsdien bewaard heeft."
    },
    "themes": {
     "en": [
@@ -210,8 +230,8 @@
    },
    "liturgy": {
     "eo": {
-     "en": "In the Roman Lectionary 6:1-7, the choosing of the Seven, is the first reading of the Fifth Sunday of Easter (Year A), and 6:8-10; 7:54-59 that of the Feast of St Stephen (26 December); in the Byzantine rite 6:1-7 is the Apostle reading of the Sunday of the Myrrh-bearing Women.",
-     "nl": "In het Romeins lectionarium is 6:1-7, de keuze van de zeven, de eerste lezing van de vijfde zondag van Pasen (jaar A), en 6:8-10; 7:54-59 die van het feest van de heilige Stefanus (26 december); in de byzantijnse ritus is 6:1-7 de apostellezing van de zondag van de myrrhedraagsters."
+     "en": "In the Roman Lectionary 6:1-7, the choosing of the Seven, is the first reading of the Fifth Sunday of Easter (Year A), and 6:8-10; 7:54-59 that of the Feast of St Stephen (26 December); in the Byzantine rite 6:1-7 is the Apostle reading of the Sunday of the Myrrh-bearing Women. On the feast of St Stephen (27 December) the Byzantine rite reads 6:8-15; 7:1-5, 47-60.",
+     "nl": "In het Romeins lectionarium is 6:1-7, de keuze van de zeven, de eerste lezing van de vijfde zondag van Pasen (jaar A), en 6:8-10; 7:54-59 die van het feest van de heilige Stefanus (26 december); in de byzantijnse ritus is 6:1-7 de apostellezing van de zondag van de myrrhedraagsters. Op het feest van de heilige Stefanus (27 december) leest de Byzantijnse ritus 6:8-15; 7:1-5, 47-60."
     },
     "ca": {
      "en": "In the Roman Lectionary 6:1-7, the choosing of the Seven, is the first reading of the Fifth Sunday of Easter (Year A), and 6:8-10; 7:54-59 that of the Feast of St Stephen (26 December); in the Byzantine rite 6:1-7 is the Apostle reading of the Sunday of the Myrrh-bearing Women.",
@@ -427,8 +447,8 @@
     "nl": "Het gebed van de Kerk is krachtig. Tirannen gaan voorbij, maar het woord van God groeit en vermenigvuldigt zich."
    },
    "fathers": {
-    "en": "On Peter sleeping peacefully between two soldiers bound with two chains on the eve of his planned execution (12:6), Bede remarks that a pure conscience turns a death-row cell into a quiet bedroom, while the angel's light striking the dark prison prefigures the Resurrection morning breaking the chains of death (St Bede the Venerable, Commentary on Acts, Chapter 12). Acts 12:1-11 is read on the feast of the Deliverance of Peter (the Chains of Peter) and on 29 June in the Western rite. The Church remembers James as the first apostle to die a martyr. The Fathers saw Peter's chains as a sign of the Church's freedom; the West keeps a feast of St Peter's Chains.",
-    "nl": "Over Petrus die aan de vooravond van zijn geplande terechtstelling rustig sliep tussen twee soldaten, geboeid met twee ketenen (12:6), merkt Beda op dat een zuiver geweten een dodencel verandert in een rustige slaapkamer, terwijl het licht van de engel in de donkere kerker de Paasmorgen voorafschaduwt die de ketenen van de dood verbreekt (Beda, Commentaar op Handelingen, Hoofdstuk 12). Handelingen 12:1-11 wordt gelezen op het feest van de Bevrijding van Petrus (Petrus' Banden) en op 29 juni in de Westerse ritus. De Kerk gedenkt Jakobus als de eerste apostel die als martelaar stierf. De kerkvaders zagen de ketenen van Petrus als teken van de vrijheid van de Kerk; het Westen viert een feest van de Ketenen van Petrus."
+    "en": "On Peter sleeping peacefully between two soldiers bound with two chains on the eve of his planned execution (12:6), Bede remarks that a pure conscience turns a death-row cell into a quiet bedroom, while the angel's light striking the dark prison prefigures the Resurrection morning breaking the chains of death (St Bede the Venerable, Commentary on Acts, Chapter 12). The Church remembers James as the first apostle to die a martyr. The Fathers saw Peter's chains as a sign of the Church's freedom; the West keeps a feast of St Peter's Chains.",
+    "nl": "Over Petrus die aan de vooravond van zijn geplande terechtstelling rustig sliep tussen twee soldaten, geboeid met twee ketenen (12:6), merkt Beda op dat een zuiver geweten een dodencel verandert in een rustige slaapkamer, terwijl het licht van de engel in de donkere kerker de Paasmorgen voorafschaduwt die de ketenen van de dood verbreekt (Beda, Commentaar op Handelingen, Hoofdstuk 12). De Kerk gedenkt Jakobus als de eerste apostel die als martelaar stierf. De kerkvaders zagen de ketenen van Petrus als teken van de vrijheid van de Kerk; het Westen viert een feest van de Ketenen van Petrus."
    },
    "themes": {
     "en": [
@@ -441,6 +461,16 @@
      "Bevrijding",
      "Martelaarschap"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "In the Byzantine rite 12:1-11 is read on Saturday of the fourth week of Pascha and on feasts of martyrs such as St George (23 April).",
+     "nl": "In de Byzantijnse ritus wordt 12:1-11 gelezen op zaterdag van de vierde week van Pasen en op feesten van martelaren zoals de heilige Joris (23 april)."
+    },
+    "ca": {
+     "en": "In the Roman Lectionary 12:1-11 is the first reading of the Mass of Sts Peter and Paul (29 June).",
+     "nl": "In het Romeins lectionarium is 12:1-11 de eerste lezing van de mis van de heilige Petrus en Paulus (29 juni)."
+    }
    }
   },
   {

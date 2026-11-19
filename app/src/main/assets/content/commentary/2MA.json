@@ -363,8 +363,8 @@
     "nl": "Judas en zijn mannen bidden en offeren voor gevallen kameraden die gezondigd hadden, omdat zij geloven in de opstanding. Liefde voor de overledenen gaat verder in gebed."
    },
    "fathers": {
-    "en": "This passage is the clearest witness in Scripture to prayer and offering for the departed. St Augustine, in his work On the Care of the Dead, cites it, and the practice has been kept from the earliest centuries: the Orthodox Church prays for the departed in every Divine Liturgy, in memorial services and on the Saturdays of souls, and the Catholic Church offers the Mass for the dead. Both see in Judas's 'holy and pious thought' the bond of love between the living and the dead in the hope of the resurrection.",
-    "nl": "Deze passage is het duidelijkste getuigenis in de Schrift over gebed en offer voor de overledenen. De heilige Augustinus haalt haar aan in zijn werk Over de zorg voor de doden, en het gebruik is vanaf de vroegste eeuwen bewaard: de orthodoxe Kerk bidt voor de overledenen in elke Goddelijke Liturgie, in herdenkingsdiensten en op de zielenzaterdagen, en de katholieke Kerk draagt de Mis op voor de doden. Beide zien in de 'heilige en vrome gedachte' van Judas de band van liefde tussen levenden en doden in de hoop op de opstanding."
+    "en": "This passage is the clearest witness in Scripture to prayer and offering for the departed. St Augustine cites it in his work On the Care of the Dead, and prayer for the departed has been kept from the earliest centuries. Both see in Judas's 'holy and pious thought' the bond of love between the living and the dead in the hope of the resurrection.",
+    "nl": "Deze passage is het duidelijkste getuigenis in de Schrift over gebed en offer voor de overledenen. De heilige Augustinus haalt haar aan in zijn werk Over de zorg voor de doden, en het gebed voor de overledenen is vanaf de vroegste eeuwen bewaard. Beide zien in de 'heilige en vrome gedachte' van Judas de band van liefde tussen levenden en doden in de hoop op de opstanding."
    },
    "themes": {
     "en": [
@@ -377,6 +377,16 @@
      "Hoop op de opstanding",
      "Zonde en barmhartigheid"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "The Orthodox Church prays for the departed in every Divine Liturgy and on the memorial Saturdays of the year, such as the Saturday of Meatfare.",
+     "nl": "De orthodoxe Kerk bidt voor de overledenen in elke Goddelijke Liturgie en op de zielenzaterdagen van het jaar, zoals de zaterdag van de Vleesderving."
+    },
+    "ca": {
+     "en": "The Roman rite keeps the Commemoration of All the Faithful Departed (All Souls, 2 November) with its own Masses for the dead.",
+     "nl": "De Romeinse ritus viert de Gedachtenis van alle overleden gelovigen (Allerzielen, 2 november) met eigen missen voor de overledenen."
+    }
    }
   },
   {
