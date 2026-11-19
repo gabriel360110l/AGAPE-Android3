@@ -44,7 +44,7 @@ class ContentRepository(private val context: Context) {
     private val commentaries = ConcurrentHashMap<String, Map<Int, ChapterCommentary>>()
 
     /**
-     * Written commentary for a chapter, or null where only the provisional guide in the Bible database exists yet.
+     * Written commentary for a chapter, or null when there is none.
      * A book's file is read once, off the main thread.
      */
     suspend fun commentary(book: String, chapter: Int): ChapterCommentary? = withContext(Dispatchers.IO) {
