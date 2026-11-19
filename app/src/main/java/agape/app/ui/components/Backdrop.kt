@@ -1,5 +1,7 @@
 package agape.app.ui.components
 
+import androidx.compose.runtime.getValue
+import agape.app.ui.theme.Fixed
 import agape.app.data.content.BackgroundEntry
 import agape.app.ui.theme.AgapeTheme
 import android.graphics.BitmapFactory
@@ -11,11 +13,9 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.produceState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
@@ -24,7 +24,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
 /** The darkest tone the backdrop fades through, so light text stays readable in light mode too. */
-val BackdropInk = Color(0xFF0E0B09)
+val BackdropInk = Fixed.backdropInk
 
 /**
  * A photograph or painting behind the top of a screen. It is darkened for the text on it and fades at the bottom

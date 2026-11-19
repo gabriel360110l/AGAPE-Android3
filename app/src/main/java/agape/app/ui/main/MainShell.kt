@@ -1,5 +1,9 @@
 package agape.app.ui.main
 
+import androidx.compose.runtime.getValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.TrueBlack
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.core.prefs.TourStop
 import agape.app.ui.LocalContainer
@@ -77,7 +81,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -178,15 +181,15 @@ private fun BottomBar(current: Tab?, onSelect: (Tab) -> Unit) {
     val bar = if (c.isDark) c.surfaceRaised else c.ink
     val on = if (c.isDark) c.ink else c.background
     Box(
-        Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(start = 16.dp, end = 16.dp, bottom = 10.dp, top = 4.dp),
+        Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(start = Spacing.l, end = Spacing.l, bottom = Spacing.m, top = Spacing.xs),
     ) {
         Row(
             Modifier.fillMaxWidth()
-                .shadow(24.dp, CircleShape, ambientColor = Color.Black.copy(alpha = 0.35f), spotColor = Color.Black.copy(alpha = 0.45f))
+                .shadow(24.dp, CircleShape, ambientColor = Fixed.scrim.copy(alpha = 0.35f), spotColor = Fixed.scrim.copy(alpha = 0.45f))
                 .clip(CircleShape)
                 .background(bar.copy(alpha = 0.94f))
                 .border(0.8.dp, on.copy(alpha = 0.10f), CircleShape)
-                .padding(horizontal = 6.dp, vertical = 6.dp),
+                .padding(horizontal = Spacing.s, vertical = Spacing.s),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             tabs.forEach { tab ->
@@ -196,14 +199,14 @@ private fun BottomBar(current: Tab?, onSelect: (Tab) -> Unit) {
                 Column(
                     Modifier.weight(1f).clip(CircleShape).background(pill)
                         .selectable(selected = selected, role = Role.Tab, onClick = { onSelect(tab) })
-                        .padding(vertical = 8.dp),
+                        .padding(vertical = Spacing.s),
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
                     Icon(
                         if (selected) tab.selectedIcon else tab.icon, null,
                         tint = if (selected) on else on.copy(alpha = 0.62f), modifier = Modifier.size(25.dp),
                     )
-                    Spacer(Modifier.height(3.dp))
+                    Spacer(Modifier.height(Spacing.xs))
                     Text(
                         label, style = MaterialTheme.typography.labelSmall, maxLines = 1,
                         color = if (selected) on else on.copy(alpha = 0.62f),
@@ -228,11 +231,13 @@ private fun AgapeNavHost(nav: NavHostController) {
                 openHelp = { nav.navigate(HelpRoute) },
                 openProfile = { nav.navigate(MeRoute) },
                 openRosary = { nav.navigate(RosaryRoute) },
+                openRope = { nav.navigate(RopeRoute(PrayerRope.CHOTKI.name)) },
+                openHour = { nav.navigate(if (it == ROSARY_ID) RosaryRoute else HourRoute(it)) },
             )
         }
         composable<CalendarRoute> { CalendarScreen(openPassage = { p -> nav.navigate(ReaderRoute(p.book, p.chapter, p.startVerse ?: 0)) }) }
         composable<RosaryRoute> {
-            RosaryScreen(onBack = back, openPassage = { p -> nav.navigate(ReaderRoute(p.book, p.chapter, p.startVerse ?: 0)) })
+            PrayerBlack { RosaryScreen(onBack = back, openPassage = { p -> nav.navigate(ReaderRoute(p.book, p.chapter, p.startVerse ?: 0)) }) }
         }
         composable<SearchRoute> {
             SearchScreen(open = { t ->
@@ -272,7 +277,7 @@ private fun AgapeNavHost(nav: NavHostController) {
         composable<IntentionsRoute> { IntentionsScreen(onBack = back) }
         composable<RopeRoute> {
             val rope = PrayerRope.entries.firstOrNull { r -> r.name == it.toRoute<RopeRoute>().kind } ?: PrayerRope.CHOTKI
-            PrayerRopeScreen(rope, onBack = back)
+            PrayerBlack { PrayerRopeScreen(rope, onBack = back) }
         }
         composable<MeRoute> {
             MeScreen(
@@ -325,9 +330,9 @@ private fun AgapeNavHost(nav: NavHostController) {
             QuizScreen(quizKey = r.key, title = r.title, planId = r.planId, day = r.day, onDone = back)
         }
         composable<HourRoute>(deepLinks = listOf(navDeepLink<HourRoute>(basePath = "$DEEP_LINK_SCHEME://prayer"))) {
-            HourScreen(it.toRoute<HourRoute>().hourId, onBack = back)
+            PrayerBlack { HourScreen(it.toRoute<HourRoute>().hourId, onBack = back) }
         }
-        composable<PrayerTextRoute> { PrayerTextScreen(it.toRoute<PrayerTextRoute>().prayerId, onBack = back) }
+        composable<PrayerTextRoute> { PrayerBlack { PrayerTextScreen(it.toRoute<PrayerTextRoute>().prayerId, onBack = back) } }
         composable<SettingsRoute> { SettingsScreen(onBack = back, openLegal = { nav.navigate(LegalRoute(it)) }, openPrayerDay = { nav.navigate(PrayerDayRoute) }) }
         composable<SavedRoute> {
             SavedScreen(
@@ -344,3 +349,7 @@ private fun AgapeNavHost(nav: NavHostController) {
         composable<LegalRoute> { LegalScreen(it.toRoute<LegalRoute>().doc, onBack = back) }
     }
 }
+
+/** A prayer screen: on real black in dark mode when that is chosen in Settings. */
+@Composable
+private fun PrayerBlack(content: @Composable () -> Unit) = TrueBlack(LocalSettings.current.prayerTrueBlack, content)

@@ -1,5 +1,10 @@
 package agape.app.ui.bible
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.components.Paragraph
+import agape.app.ui.components.Section
 import agape.app.R
 import agape.app.core.model.Passage
 import agape.app.core.model.Tradition
@@ -47,12 +52,10 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -100,13 +103,13 @@ fun VerseSheet(
     }
 
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = false), containerColor = c.surface) {
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 20.dp).navigationBarsPadding().padding(bottom = 24.dp)) {
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xl).navigationBarsPadding().padding(bottom = Spacing.xl)) {
             Kicker(label)
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(Spacing.s))
             Text(verse.text, style = AgapeTheme.type.scripture, color = c.ink)
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(Spacing.l))
 
-            Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+            Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(Spacing.s), verticalAlignment = Alignment.CenterVertically) {
                 ActionChip(if (bookmarked) Icons.Outlined.Bookmark else Icons.Outlined.BookmarkBorder, stringResource(if (bookmarked) R.string.verse_bookmarked else R.string.verse_bookmark)) {
                     scope.launch { container.user.setBookmark(verse.book, verse.chapter, verse.verse, !bookmarked, label) }
                 }
@@ -117,10 +120,10 @@ fun VerseSheet(
                 }
                 ActionChip(Icons.Outlined.Image, stringResource(R.string.verse_image), shareImage)
             }
-            Spacer(Modifier.height(14.dp))
+            Spacer(Modifier.height(Spacing.m))
             Text(stringResource(R.string.verse_highlight), style = MaterialTheme.typography.labelMedium, color = c.inkMuted)
-            Spacer(Modifier.height(8.dp))
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
+            Spacer(Modifier.height(Spacing.s))
+            Row(horizontalArrangement = Arrangement.spacedBy(Spacing.m), verticalAlignment = Alignment.CenterVertically) {
                 val names = listOf(R.string.color_gold, R.string.color_blue, R.string.color_green, R.string.color_rose)
                 c.highlights.forEachIndexed { i, color ->
                     val chosen = highlight == i
@@ -144,14 +147,14 @@ fun VerseSheet(
             }
 
             if (editingNote || note.isNotBlank()) {
-                Spacer(Modifier.height(16.dp))
+                Spacer(Modifier.height(Spacing.l))
                 OutlinedTextField(
                     value = noteText, onValueChange = { noteText = it },
                     label = { Text(stringResource(R.string.verse_note)) },
                     modifier = Modifier.fillMaxWidth(), shape = cardShape, minLines = 3,
                 )
                 if (noteText != note) {
-                    Spacer(Modifier.height(8.dp))
+                    Spacer(Modifier.height(Spacing.s))
                     PrimaryButton(stringResource(R.string.save), {
                         scope.launch { container.user.saveNote(verse.book, verse.chapter, verse.verse, noteText, label) }
                         editingNote = false
@@ -159,37 +162,37 @@ fun VerseSheet(
                 }
             }
 
-            Section(stringResource(R.string.verse_commentary)) {
+            Section(stringResource(R.string.verse_commentary), Modifier.padding(top = Spacing.xl)) {
                 if (notes.isEmpty()) Text(stringResource(R.string.verse_commentary_soon), style = MaterialTheme.typography.bodyMedium, color = c.inkFaint)
                 notes.forEach { Paragraph(it) }
             }
 
             if (quotes.isNotEmpty()) {
-                Section(stringResource(R.string.verse_father_quotes)) {
+                Section(stringResource(R.string.verse_father_quotes), Modifier.padding(top = Spacing.xl)) {
                     quotes.forEach { q ->
                         Text("${q.father}" + if (q.year > 0) " · ${q.year}" else "", style = MaterialTheme.typography.titleSmall, color = c.primary)
-                        Text(q.text, style = AgapeTheme.type.scripture.copy(fontSize = AgapeTheme.type.scripture.fontSize * 0.82f), color = c.ink, modifier = Modifier.padding(top = 4.dp))
-                        if (q.source.isNotBlank()) Text(q.source, style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(top = 4.dp, bottom = 14.dp))
+                        Text(q.text, style = AgapeTheme.type.scripture.copy(fontSize = AgapeTheme.type.scripture.fontSize * 0.82f), color = c.ink, modifier = Modifier.padding(top = Spacing.xs))
+                        if (q.source.isNotBlank()) Text(q.source, style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(top = Spacing.xs, bottom = Spacing.m))
                     }
                 }
             }
 
             if (fathers.isNotEmpty()) {
-                Section(stringResource(R.string.verse_fathers)) {
+                Section(stringResource(R.string.verse_fathers), Modifier.padding(top = Spacing.xl)) {
                     fathers.forEach { f ->
                         Text("${f.father} · ${f.work} (${f.date})", style = MaterialTheme.typography.titleSmall, color = c.ink)
                         Paragraph(f.note)
-                        Text(f.source, style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(bottom = 10.dp))
+                        Text(f.source, style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(bottom = Spacing.m))
                     }
                 }
             }
 
             if (crossRefs.isNotEmpty()) {
-                Section(stringResource(R.string.verse_cross_refs)) {
+                Section(stringResource(R.string.verse_cross_refs), Modifier.padding(top = Spacing.xl)) {
                     crossRefs.forEach { r ->
                         Column(
                             Modifier.fillMaxWidth().clip(cardShape).clickable { openReference(r.passage.book, r.passage.chapter, r.passage.startVerse ?: 0) }
-                                .padding(vertical = 8.dp, horizontal = 4.dp),
+                                .padding(vertical = Spacing.s, horizontal = Spacing.xs),
                         ) {
                             Text(container.passageLabel(r.passage, lang), style = MaterialTheme.typography.labelLarge, color = c.primary)
                             Text(r.text, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, maxLines = 3)
@@ -203,23 +206,10 @@ fun VerseSheet(
 }
 
 @Composable
-private fun Section(title: String, content: @Composable () -> Unit) {
-    Spacer(Modifier.height(22.dp))
-    Kicker(title)
-    Spacer(Modifier.height(8.dp))
-    content()
-}
-
-@Composable
-private fun Paragraph(text: String) {
-    Text(text, style = MaterialTheme.typography.bodyMedium, color = AgapeTheme.colors.ink, modifier = Modifier.padding(bottom = 6.dp))
-}
-
-@Composable
 private fun ActionChip(icon: ImageVector, label: String, onClick: () -> Unit) {
     val c = AgapeTheme.colors
     Row(
-        Modifier.clip(cardShape).border(1.dp, c.line, cardShape).clickable(onClick = onClick).padding(horizontal = 12.dp, vertical = 8.dp),
+        Modifier.clip(cardShape).border(1.dp, c.line, cardShape).clickable(onClick = onClick).padding(horizontal = Spacing.m, vertical = Spacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(icon, null, tint = c.primary, modifier = Modifier.size(18.dp))

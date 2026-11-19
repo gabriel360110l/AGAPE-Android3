@@ -1,5 +1,9 @@
 package agape.app.ui.components
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.core.model.Tradition
 import agape.app.data.calendar.DayStatus
@@ -24,11 +28,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -55,21 +56,21 @@ fun DayStatusPill(status: DayStatus, tradition: Tradition, modifier: Modifier = 
     val lang = LocalLanguage.current
     var open by rememberSaveable { mutableStateOf(false) }
     val feast = status.feast?.takeIf { it.rank != FeastRank.SEASON }
-    val ink = if (onDark) Color(0xFFF4EEE3) else c.ink
+    val ink = if (onDark) Fixed.onImage else c.ink
     val tint = when {
         feast != null && !status.isFast -> c.accent
-        status.level == FastLevel.STRICT -> if (onDark) Color(0xFFD9B8E8) else c.primary
-        status.isFast -> if (onDark) Color(0xFFD9B8E8) else c.primary
+        status.level == FastLevel.STRICT -> if (onDark) Fixed.fastOnImage else c.primary
+        status.isFast -> if (onDark) Fixed.fastOnImage else c.primary
         else -> if (onDark) ink.copy(alpha = 0.7f) else c.inkMuted
     }
     Row(
         modifier.clip(CircleShape)
-            .background(if (onDark) Color.Black.copy(alpha = 0.28f) else c.surfaceSunken)
+            .background(if (onDark) Fixed.scrim.copy(alpha = 0.28f) else c.surfaceSunken)
             .border(1.dp, tint.copy(alpha = 0.55f), CircleShape)
             .clickable { open = true }
-            .padding(horizontal = 12.dp, vertical = 6.dp),
+            .padding(horizontal = Spacing.m, vertical = Spacing.s),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        horizontalArrangement = Arrangement.spacedBy(Spacing.s),
     ) {
         if (status.isFast) FastMark(status.level, tint) else Box(Modifier.size(6.dp).clip(CircleShape).background(tint))
         Text(
@@ -103,20 +104,20 @@ fun DayStatusDialog(status: DayStatus, tradition: Tradition, onDismiss: () -> Un
             Column {
                 if (status.feast != null && status.feast.rank != FeastRank.SEASON) {
                     Text(status.label[lang], style = MaterialTheme.typography.titleMedium, color = c.primary)
-                    Spacer(Modifier.height(8.dp))
+                    Spacer(Modifier.height(Spacing.s))
                 }
                 Text(stringResource(body), style = MaterialTheme.typography.bodyMedium, color = c.ink)
                 if (status.fish) {
-                    Spacer(Modifier.height(8.dp))
+                    Spacer(Modifier.height(Spacing.s))
                     Text(stringResource(R.string.fast_info_fish), style = MaterialTheme.typography.bodyMedium, color = c.ink)
                 }
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(Spacing.m))
                 Text(
                     stringResource(if (tradition == Tradition.CATHOLIC) R.string.fast_guideline_rc else R.string.fast_guideline),
                     style = MaterialTheme.typography.bodySmall, color = c.inkMuted,
                 )
                 if (tradition == Tradition.EASTERN_ORTHODOX) {
-                    Spacer(Modifier.height(6.dp))
+                    Spacer(Modifier.height(Spacing.s))
                     Text(stringResource(R.string.fast_new_calendar), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
                 }
             }

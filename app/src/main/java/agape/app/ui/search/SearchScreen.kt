@@ -1,5 +1,8 @@
 package agape.app.ui.search
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.L10n
@@ -44,12 +47,10 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -156,12 +157,12 @@ fun SearchScreen(open: (SearchTarget) -> Unit) {
         open(target)
     }
 
-    LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(bottom = 32.dp)) {
+    LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(bottom = Spacing.xxl)) {
         item { TabHeader(kicker = "", title = stringResource(R.string.tab_search)) }
         item {
             OutlinedTextField(
                 value = query, onValueChange = { query = it },
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp).focusRequester(focus),
+                modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.l).focusRequester(focus),
                 placeholder = { Text(stringResource(R.string.search_hint)) },
                 leadingIcon = { Icon(Icons.Outlined.Search, null, tint = c.inkMuted) },
                 trailingIcon = { if (query.isNotEmpty()) IconButton({ query = "" }) { Icon(Icons.Outlined.Close, stringResource(R.string.search_clear), tint = c.inkMuted) } },
@@ -176,7 +177,7 @@ fun SearchScreen(open: (SearchTarget) -> Unit) {
             )
             // What to show: everything, or one kind of result, each with its count.
             val counts = results.hits.groupingBy { it.kind }.eachCount()
-            Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(top = 12.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = Spacing.l).padding(top = Spacing.m), horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
                 Kind.entries.forEach { k ->
                     val n = if (k == Kind.ALL) results.hits.size else counts[k] ?: 0
                     if (k == Kind.ALL || results.hits.isEmpty() || n > 0 || kind == k) {
@@ -186,30 +187,30 @@ fun SearchScreen(open: (SearchTarget) -> Unit) {
             }
             // Where in the Bible to look, and whether to match whole words only.
             if (kind == Kind.ALL || kind == Kind.BIBLE) {
-                Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = Spacing.l).padding(top = Spacing.s), horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
                     Scope.entries.forEach { s -> ScopeChip(stringResource(s.label), bibleScope == s) { bibleScope = s } }
                     ScopeChip(stringResource(R.string.search_whole_word), wholeWord) { wholeWord = !wholeWord }
                 }
             }
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(Spacing.m))
             if (searching) {
                 LinearProgressIndicator(
-                    Modifier.fillMaxWidth().padding(horizontal = 20.dp), color = c.accent, trackColor = c.line,
+                    Modifier.fillMaxWidth().padding(horizontal = Spacing.xl), color = c.accent, trackColor = c.line,
                 )
             }
         }
         if (query.trim().length < 2) {
             if (recent.isNotEmpty()) {
-                item { Kicker(stringResource(R.string.search_recent), Modifier.padding(start = 20.dp, top = 8.dp, bottom = 4.dp)) }
+                item { Kicker(stringResource(R.string.search_recent), Modifier.padding(start = Spacing.xl, top = Spacing.s, bottom = Spacing.xs)) }
                 items(recent, key = { "r$it" }) { r ->
                     ListRow(r, onClick = { query = r }, leading = { Icon(Icons.Outlined.History, null, tint = c.inkFaint) })
                 }
             } else item {
-                Text(stringResource(R.string.search_empty_hint), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(24.dp))
+                Text(stringResource(R.string.search_empty_hint), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(Spacing.xl))
             }
         } else if (results.failed) {
             item {
-                Column(Modifier.padding(24.dp)) {
+                Column(Modifier.padding(Spacing.xl)) {
                     Text(stringResource(R.string.search_failed), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
                     QuietButton(stringResource(R.string.search_retry), { attempt++ })
                 }
@@ -217,17 +218,17 @@ fun SearchScreen(open: (SearchTarget) -> Unit) {
         } else {
             val shown = results.hits.filter { kind == Kind.ALL || it.kind == kind }
             if (shown.isEmpty() && !searching && results.query == query.trim()) item {
-                Text(stringResource(R.string.search_none, query.trim()), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(24.dp))
+                Text(stringResource(R.string.search_none, query.trim()), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(Spacing.xl))
             }
             shown.groupBy { it.kind }.forEach { (k, list) ->
                 val limit = if (kind != Kind.ALL) list.size else if (k == Kind.BIBLE) 12 else 6
-                item(key = "h$k") { Kicker(stringResource(k.label) + " · ${list.size}", Modifier.padding(start = 20.dp, top = 16.dp, bottom = 2.dp)) }
+                item(key = "h$k") { Kicker(stringResource(k.label) + " · ${list.size}", Modifier.padding(start = Spacing.xl, top = Spacing.l, bottom = Spacing.xxs)) }
                 // Keys by position: two results may well look the same (one name on two days, one Father on one verse).
                 itemsIndexed(list.take(limit), key = { i, _ -> "$k#$i" }) { _, h ->
                     ResultRow(h, results.query) { go(h.target) }
                 }
                 if (list.size > limit) item(key = "more$k") {
-                    QuietButton(stringResource(R.string.search_show_all, list.size), { kind = k }, Modifier.padding(start = 8.dp))
+                    QuietButton(stringResource(R.string.search_show_all, list.size), { kind = k }, Modifier.padding(start = Spacing.s))
                 }
             }
         }
@@ -240,7 +241,7 @@ private fun ScopeChip(text: String, selected: Boolean, onClick: () -> Unit) {
     Text(
         text, style = MaterialTheme.typography.labelMedium, color = if (selected) c.primary else c.inkMuted,
         modifier = Modifier.clip(CircleShape).border(1.dp, if (selected) c.primary else c.line, CircleShape)
-            .clickable(onClick = onClick).padding(horizontal = 14.dp, vertical = 7.dp),
+            .clickable(onClick = onClick).padding(horizontal = Spacing.m, vertical = 7.dp),
     )
 }
 
@@ -248,13 +249,13 @@ private fun ScopeChip(text: String, selected: Boolean, onClick: () -> Unit) {
 @Composable
 private fun ResultRow(hit: Hit, query: String, onClick: () -> Unit) {
     val c = AgapeTheme.colors
-    Column(Modifier.fillMaxWidth().clickable(onClick = onClick).padding(horizontal = 20.dp, vertical = 12.dp)) {
+    Column(Modifier.fillMaxWidth().clickable(onClick = onClick).padding(horizontal = Spacing.xl, vertical = Spacing.m)) {
         Text(marked(hit.title, query, c.primary), style = MaterialTheme.typography.titleMedium, color = c.ink)
         if (hit.subtitle.isNotBlank()) {
             Text(marked(hit.subtitle, query, c.primary), style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 3, overflow = TextOverflow.Ellipsis)
         }
     }
-    Box(Modifier.padding(start = 20.dp).fillMaxWidth().height(0.5.dp).background(c.line))
+    Box(Modifier.padding(start = Spacing.xl).fillMaxWidth().height(0.5.dp).background(c.line))
 }
 
 /** [text] with every occurrence of [query] in bold and [color], ignoring case and accents. */

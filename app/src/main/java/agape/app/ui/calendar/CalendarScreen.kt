@@ -1,5 +1,9 @@
 package agape.app.ui.calendar
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Radius
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Passage
@@ -10,7 +14,6 @@ import agape.app.data.calendar.LiturgicalCalendar
 import agape.app.data.calendar.FastLevel
 import agape.app.data.calendar.Fasting
 import agape.app.ui.components.DayStatusPill
-import agape.app.ui.components.FastMark
 import agape.app.data.saints.SaintDayView
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
@@ -32,7 +35,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -51,12 +53,10 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -107,8 +107,8 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
         // The tab header scrolls with the month, so no week is cut off under a fixed title.
         Column(Modifier.verticalScroll(rememberScrollState())) {
             if (onBack == null) TabHeader(kicker = secondaryDate(tradition, today, lang).orEmpty(), title = stringResource(R.string.calendar_title))
-            Column(Modifier.padding(horizontal = 16.dp).padding(bottom = 32.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-                AgapeCard(contentPadding = PaddingValues(start = 10.dp, end = 10.dp, top = 6.dp, bottom = 12.dp)) {
+            Column(Modifier.padding(horizontal = Spacing.l).padding(bottom = Spacing.xxl), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
+                AgapeCard(contentPadding = PaddingValues(start = Spacing.m, end = Spacing.m, top = Spacing.s, bottom = Spacing.m)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         IconButton({ month = ym.minusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowLeft, stringResource(R.string.calendar_previous), tint = c.ink) }
                         Column(Modifier.weight(1f), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -119,13 +119,13 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
                             if (ym != YearMonth.from(today) || day != today) {
                                 Text(
                                     stringResource(R.string.calendar_today), style = MaterialTheme.typography.labelMedium, color = c.primary,
-                                    modifier = Modifier.clip(CircleShape).clickable { month = YearMonth.from(today).toString(); selected = today.toString() }.padding(horizontal = 10.dp, vertical = 2.dp),
+                                    modifier = Modifier.clip(CircleShape).clickable { month = YearMonth.from(today).toString(); selected = today.toString() }.padding(horizontal = Spacing.m, vertical = Spacing.xxs),
                                 )
                             }
                         }
                         IconButton({ month = ym.plusMonths(1).toString() }) { Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, stringResource(R.string.calendar_next), tint = c.ink) }
                     }
-                    Row(Modifier.fillMaxWidth().padding(top = 4.dp, bottom = 6.dp)) {
+                    Row(Modifier.fillMaxWidth().padding(top = Spacing.xs, bottom = Spacing.s)) {
                         DayOfWeek.entries.forEach {
                             Text(
                                 it.getDisplayName(TextStyle.SHORT, locale).take(2).replaceFirstChar { ch -> ch.titlecase(locale) },
@@ -140,7 +140,7 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
                     val cells = (0 until 42).map { first.minusDays((first.dayOfWeek.value - 1).toLong()).plusDays(it.toLong()) }
                     cells.chunked(7).forEach { week ->
                         if (week.first().monthValue != ym.monthValue && week.last().monthValue != ym.monthValue) return@forEach
-                        Row(Modifier.fillMaxWidth().padding(top = 4.dp)) {
+                        Row(Modifier.fillMaxWidth().padding(top = Spacing.xs)) {
                             week.forEach { d ->
                                 DayCell(
                                     d, inMonth = d.monthValue == ym.monthValue, isSelected = d == day, isToday = d == today,
@@ -150,7 +150,7 @@ fun CalendarScreen(onBack: (() -> Unit)? = null, openPassage: (Passage) -> Unit 
                         }
                     }
                 }
-                Row(Modifier.fillMaxWidth().padding(horizontal = 6.dp), horizontalArrangement = Arrangement.spacedBy(16.dp), verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.fillMaxWidth().padding(horizontal = Spacing.s), horizontalArrangement = Arrangement.spacedBy(Spacing.l), verticalAlignment = Alignment.CenterVertically) {
                     LegendItem(stringResource(R.string.calendar_legend_feast)) { Box(Modifier.size(7.dp).clip(CircleShape).background(c.accent)) }
                     LegendItem(stringResource(R.string.calendar_legend_fast)) { Box(Modifier.width(12.dp).height(3.dp).clip(CircleShape).background(c.primary.copy(alpha = 0.7f))) }
                     LegendItem(stringResource(R.string.calendar_legend_active)) { Box(Modifier.size(7.dp).border(1.2.dp, c.inkMuted, CircleShape)) }
@@ -173,9 +173,9 @@ private fun DayCell(d: LocalDate, inMonth: Boolean, isSelected: Boolean, isToday
     val fast = remember(d, tradition) { Fasting.status(tradition, d).level }
     val isFast = fast == FastLevel.FAST || fast == FastLevel.NO_MEAT || fast == FastLevel.STRICT
     Column(
-        modifier.padding(vertical = 2.dp).clip(RoundedCornerShape(12.dp)).clickable(onClick = onClick)
+        modifier.padding(vertical = Spacing.xxs).clip(RoundedCornerShape(Radius.m)).clickable(onClick = onClick)
             .semantics { contentDescription = d.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(locale)) }
-            .padding(vertical = 4.dp),
+            .padding(vertical = Spacing.xs),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Box(
@@ -199,7 +199,7 @@ private fun DayCell(d: LocalDate, inMonth: Boolean, isSelected: Boolean, isToday
         if (tradition == Tradition.ORIENTAL_ORTHODOX) {
             Text(LiturgicalCalendar.coptic(d).day.toString(), style = MaterialTheme.typography.labelSmall, color = c.inkFaint.copy(alpha = if (inMonth) 1f else 0.45f))
         }
-        Row(Modifier.padding(top = 3.dp).height(5.dp), horizontalArrangement = Arrangement.spacedBy(3.dp), verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.padding(top = Spacing.xs).height(5.dp), horizontalArrangement = Arrangement.spacedBy(Spacing.xs), verticalAlignment = Alignment.CenterVertically) {
             if (isFast && inMonth) Box(Modifier.width(if (fast == FastLevel.STRICT) 14.dp else 10.dp).height(3.dp).clip(CircleShape).background(c.primary.copy(alpha = if (fast == FastLevel.STRICT) 0.95f else 0.6f)))
             if (active && inMonth) Box(Modifier.size(5.dp).border(1.dp, c.inkMuted, CircleShape))
         }
@@ -210,7 +210,7 @@ private fun DayCell(d: LocalDate, inMonth: Boolean, isSelected: Boolean, isToday
 private fun LegendItem(text: String, mark: @Composable () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically) {
         mark()
-        Spacer(Modifier.width(6.dp))
+        Spacer(Modifier.width(Spacing.s))
         Text(text, style = MaterialTheme.typography.labelSmall, color = AgapeTheme.colors.inkMuted, maxLines = 1)
     }
 }
@@ -232,22 +232,22 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
 
     // The day itself: its icon large, then who is remembered and their life.
     AgapeCard(contentPadding = PaddingValues(0.dp)) {
-        Row(Modifier.padding(18.dp), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+        Row(Modifier.padding(Spacing.l), horizontalArrangement = Arrangement.spacedBy(Spacing.l)) {
             SaintIcon(icon, title.orEmpty(), width = 118.dp)
             Column(Modifier.weight(1f)) {
                 Kicker(day.format(DateTimeFormatter.ofPattern("EEEE d MMMM", locale)))
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 feasts.forEach { f ->
-                    Text(f.name[lang], style = if (f.rank == FeastRank.SEASON) MaterialTheme.typography.titleSmall else MaterialTheme.typography.titleLarge, color = if (f.rank == FeastRank.SEASON) c.accent else c.primary)
+                    Text(f.name[lang], style = if (f.rank == FeastRank.SEASON) MaterialTheme.typography.titleSmall else MaterialTheme.typography.titleLarge, color = if (f.rank == FeastRank.SEASON) c.accentInk else c.primary)
                 }
                 if (principal != null) Text(principal.entry.name[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink)
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(Spacing.m))
                 DayStatusPill(remember(day, tradition) { Fasting.status(tradition, day) }, tradition)
             }
         }
         principal?.entry?.life?.let { life ->
-            Box(Modifier.padding(horizontal = 18.dp).fillMaxWidth().height(0.5.dp).background(c.line))
-            Column(Modifier.padding(horizontal = 18.dp, vertical = 14.dp)) {
+            Box(Modifier.padding(horizontal = Spacing.l).fillMaxWidth().height(0.5.dp).background(c.line))
+            Column(Modifier.padding(horizontal = Spacing.l, vertical = Spacing.m)) {
                 Kicker(stringResource(R.string.calendar_life), color = c.inkMuted)
                 LifeText(life.text[lang], collapsedLines = 8, style = MaterialTheme.typography.bodyLarge, color = c.ink)
             }
@@ -256,7 +256,7 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
             Text(
                 stringResource(R.string.icon_credit, it.title, it.licence) + if (view.icon == null) " · " + stringResource(R.string.calendar_general_icon) else "",
                 style = MaterialTheme.typography.labelSmall, color = c.inkFaint, maxLines = 2, overflow = TextOverflow.Ellipsis,
-                modifier = Modifier.padding(start = 18.dp, end = 18.dp, bottom = 14.dp),
+                modifier = Modifier.padding(start = Spacing.l, end = Spacing.l, bottom = Spacing.m),
             )
         }
     }
@@ -267,8 +267,8 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
         AgapeCard {
             Kicker(stringResource(R.string.saint_also), color = c.inkMuted)
             others.forEachIndexed { i, o ->
-                if (i > 0) Box(Modifier.padding(top = 12.dp).fillMaxWidth().height(0.5.dp).background(c.line))
-                Row(Modifier.padding(top = 12.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                if (i > 0) Box(Modifier.padding(top = Spacing.m).fillMaxWidth().height(0.5.dp).background(c.line))
+                Row(Modifier.padding(top = Spacing.m), horizontalArrangement = Arrangement.spacedBy(Spacing.m)) {
                     // A small icon only where the saint has one of their own; the general icons would repeat on every row.
                     if (o.ownIcon) SaintIcon(o.icon, o.entry.name[lang], width = 46.dp)
                     Column(Modifier.weight(1f)) {
@@ -286,9 +286,9 @@ private fun DayDetails(day: LocalDate, tradition: Tradition, lang: AppLanguage, 
     AgapeCard(tonal = true) {
         ThreeDates(view, tradition, lang)
         if (done.isNotEmpty()) {
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(Spacing.m))
             Kicker(stringResource(R.string.calendar_your_day), color = c.inkMuted)
-            done.distinct().take(6).forEach { Text("✓ $it", style = MaterialTheme.typography.bodyMedium, color = c.ink, modifier = Modifier.padding(top = 3.dp)) }
+            done.distinct().take(6).forEach { Text("✓ $it", style = MaterialTheme.typography.bodyMedium, color = c.ink, modifier = Modifier.padding(top = Spacing.xs)) }
         }
     }
 }
@@ -304,7 +304,7 @@ private fun ThreeDates(view: SaintDayView, tradition: Tradition, lang: AppLangua
         Triple(R.string.calendar_julian, view.julian.format(format), tradition == Tradition.EASTERN_ORTHODOX),
         Triple(R.string.calendar_coptic, "${coptic.day} ${coptic.monthName(lang == AppLanguage.DUTCH)} ${coptic.year}", tradition == Tradition.ORIENTAL_ORTHODOX),
     ).forEach { (label, date, own) ->
-        Row(Modifier.padding(top = 2.dp)) {
+        Row(Modifier.padding(top = Spacing.xxs)) {
             Text(stringResource(label), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, modifier = Modifier.width(132.dp))
             Text(
                 date, style = MaterialTheme.typography.bodySmall.copy(fontWeight = if (own) FontWeight.SemiBold else FontWeight.Normal),
@@ -325,13 +325,13 @@ private fun LifeText(text: String, collapsedLines: Int, style: androidx.compose.
         text, style = style, color = color,
         maxLines = if (open) Int.MAX_VALUE else collapsedLines, overflow = TextOverflow.Ellipsis,
         onTextLayout = { if (!open) overflows = it.hasVisualOverflow },
-        modifier = Modifier.padding(top = 4.dp).animateContentSize(),
+        modifier = Modifier.padding(top = Spacing.xs).animateContentSize(),
     )
     if (open || overflows) {
         Text(
             stringResource(if (open) R.string.calendar_less else R.string.calendar_more),
             style = MaterialTheme.typography.labelMedium, color = c.primary,
-            modifier = Modifier.clickable { open = !open }.padding(vertical = 4.dp),
+            modifier = Modifier.clickable { open = !open }.padding(vertical = Spacing.xs),
         )
     }
 }
@@ -364,23 +364,23 @@ private fun DayReadings(view: SaintDayView, tradition: Tradition, lang: AppLangu
     }
     val readings = bundled.ifEmpty { online.orEmpty() }
     AgapeCard(contentPadding = PaddingValues(0.dp)) {
-        Kicker(stringResource(R.string.calendar_readings), Modifier.padding(start = 18.dp, end = 18.dp, top = 18.dp, bottom = 6.dp))
+        Kicker(stringResource(R.string.calendar_readings), Modifier.padding(start = Spacing.l, end = Spacing.l, top = Spacing.l, bottom = Spacing.s))
         if (readings.isEmpty()) {
             Text(
                 stringResource(if (online == null) R.string.calendar_readings_loading else R.string.calendar_readings_none),
                 style = MaterialTheme.typography.bodyMedium, color = c.inkMuted,
-                modifier = Modifier.padding(horizontal = 18.dp).padding(bottom = 18.dp),
+                modifier = Modifier.padding(horizontal = Spacing.l).padding(bottom = Spacing.l),
             )
         }
         readings.forEachIndexed { i, r ->
-            if (i > 0) Box(Modifier.padding(horizontal = 18.dp).fillMaxWidth().height(0.5.dp).background(c.line))
+            if (i > 0) Box(Modifier.padding(horizontal = Spacing.l).fillMaxWidth().height(0.5.dp).background(c.line))
             val p = r.passage
             Row(
-                Modifier.fillMaxWidth().then(if (p != null) Modifier.clickable { openPassage(p) } else Modifier).padding(horizontal = 18.dp, vertical = 12.dp),
+                Modifier.fillMaxWidth().then(if (p != null) Modifier.clickable { openPassage(p) } else Modifier).padding(horizontal = Spacing.l, vertical = Spacing.m),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Column(Modifier.weight(1f)) {
-                    Text(stringResource(readingRole(r.role)), style = MaterialTheme.typography.labelMedium, color = c.accent)
+                    Text(stringResource(readingRole(r.role)), style = MaterialTheme.typography.labelMedium, color = c.accentInk)
                     Text(p?.let { container.passageLabel(it, lang) } ?: r.display, style = MaterialTheme.typography.titleMedium, color = c.ink)
                     // The full citation when the passage opened is only its first piece (the Psalm verses, a reading in parts).
                     if (p != null && Regex("""[,;]|\band\b|\d[a-eA-E]""").containsMatchIn(r.display)) {
@@ -390,7 +390,7 @@ private fun DayReadings(view: SaintDayView, tradition: Tradition, lang: AppLangu
                 if (p != null) Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint)
             }
         }
-        if (readings.isNotEmpty()) Spacer(Modifier.height(6.dp))
+        if (readings.isNotEmpty()) Spacer(Modifier.height(Spacing.s))
     }
 }
 

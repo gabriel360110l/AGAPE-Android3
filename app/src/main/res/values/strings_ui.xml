@@ -5,8 +5,6 @@
     <string name="home_read">Read</string>
     <string name="home_share">Share</string>
     <string name="home_share_via">Share the verse</string>
-    <string name="home_reading">Reading</string>
-    <string name="home_open_bible">Open the Bible</string>
     <string name="home_progress">Progress</string>
     <string name="home_stat_streak">Streak</string>
     <string name="home_stat_read">Read</string>
@@ -21,7 +19,6 @@
     <string name="home_background_credit">Background: %1$s · %2$s</string>
     <string name="home_rosary_today">Today: %1$s</string>
     <string name="rosary_title">The Rosary</string>
-    <string name="rosary_card_body">Pray along bead by bead, with the mysteries of the day.</string>
     <string name="rosary_today">today</string>
     <string name="rosary_joyful">Joyful</string>
     <string name="rosary_luminous">Luminous</string>
@@ -161,7 +158,6 @@
     <string name="calendar_today">Today</string>
     <string name="calendar_life">Life</string>
     <string name="calendar_general_icon">general icon, this day has none of its own yet</string>
-    <string name="saint_read_more">Read more in the calendar ›</string>
     <string name="prayer_now_pray">Pray now</string>
     <string name="prayer_pray_this">Pray this hour</string>
     <string name="prayer_service_n">%1$d of %2$d</string>
@@ -192,4 +188,12 @@
     <string name="rosary_fruit">Fruit of the mystery: %1$s</string>
     <string name="day_fatima_toggle">Fatima prayer after each decade</string>
     <string name="day_fatima_hint">“O my Jesus, forgive us our sins…”, after the Glory Be of every decade of the Rosary.</string>
+    <string name="home_action_read">Read</string>
+    <string name="home_action_read_on">Continue in %1$s</string>
+    <string name="home_action_pray">Pray</string>
+    <string name="home_action_pray_hour">%1$s · %2$s</string>
+    <string name="home_action_pray_day">The prayers of the day</string>
+    <string name="home_saint_also">Also: %1$s</string>
+    <string name="settings_true_black">Real black when praying</string>
+    <string name="settings_true_black_hint">In dark mode the prayer screens (hours, prayers, Rosary and prayer rope) use pure black, so the screen gives off as little light as possible.</string>
 </resources>

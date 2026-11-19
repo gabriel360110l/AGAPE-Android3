@@ -1,5 +1,8 @@
 package agape.app.ui.bible
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.core.model.Testament
 import agape.app.ui.LocalContainer
@@ -19,11 +22,9 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -43,9 +44,9 @@ fun BookPickerSheet(currentBook: String, currentChapter: Int, onPick: (String, I
 
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), containerColor = AgapeTheme.colors.surface) {
         Column(Modifier.fillMaxWidth().heightIn(max = 680.dp).navigationBarsPadding()) {
-            Kicker(stringResource(R.string.reader_jump), Modifier.padding(horizontal = 20.dp, vertical = 4.dp))
+            Kicker(stringResource(R.string.reader_jump), Modifier.padding(horizontal = Spacing.xl, vertical = Spacing.xs))
             BookFilterBar(query, { query = it }, section, { section = it })
-            LazyColumn(contentPadding = PaddingValues(bottom = 16.dp)) {
+            LazyColumn(contentPadding = PaddingValues(bottom = Spacing.l)) {
                 items(filterBooks(books, query, section, lang), key = { it.id }) { book ->
                     BookRow(
                         book = book,

@@ -63,6 +63,8 @@ data class Settings(
     val ropeMarkers: Int = 10,
     /** The prayer rope as a counter only, without the prayer and its explanation. */
     val ropeCounterOnly: Boolean = false,
+    /** Real black behind the prayer screens in dark mode. */
+    val prayerTrueBlack: Boolean = false,
 ) {
     /** Onboarding is complete up to (but not including) sign-in. */
     val readyForSignIn: Boolean get() = welcomeSeen && termsAccepted && tradition != null && style != null
@@ -101,6 +103,7 @@ class SettingsRepository(private val context: Context) {
         val rosaryFatima = booleanPreferencesKey("rosary_fatima")
         val ropeMarkers = intPreferencesKey("rope_markers")
         val ropeCounterOnly = booleanPreferencesKey("rope_counter_only")
+        val prayerTrueBlack = booleanPreferencesKey("prayer_true_black")
     }
 
     val settings: Flow<Settings> = context.dataStore.data.map { p ->
@@ -128,6 +131,7 @@ class SettingsRepository(private val context: Context) {
             rosaryFatima = p[Keys.rosaryFatima] ?: true,
             ropeMarkers = p[Keys.ropeMarkers]?.takeIf { it in PrayerRope.MARKER_CHOICES } ?: 10,
             ropeCounterOnly = p[Keys.ropeCounterOnly] ?: false,
+            prayerTrueBlack = p[Keys.prayerTrueBlack] ?: false,
         )
     }
 
@@ -159,6 +163,7 @@ class SettingsRepository(private val context: Context) {
     suspend fun setRosaryFatima(on: Boolean) = context.dataStore.edit { it[Keys.rosaryFatima] = on }
     suspend fun setRopeMarkers(every: Int) = context.dataStore.edit { it[Keys.ropeMarkers] = every }
     suspend fun setRopeCounterOnly(on: Boolean) = context.dataStore.edit { it[Keys.ropeCounterOnly] = on }
+    suspend fun setPrayerTrueBlack(on: Boolean) = context.dataStore.edit { it[Keys.prayerTrueBlack] = on }
 
     suspend fun setLastPosition(pos: ReadingPosition) = context.dataStore.edit {
         it[Keys.lastBook] = pos.book

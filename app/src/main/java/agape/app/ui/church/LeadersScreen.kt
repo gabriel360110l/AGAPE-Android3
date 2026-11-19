@@ -1,5 +1,6 @@
 package agape.app.ui.church
 
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalLanguage
@@ -27,7 +28,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 
 /** The heads of the churches of the user's tradition, today and in history. */
 @Composable
@@ -39,25 +39,25 @@ fun LeadersScreen(onBack: () -> Unit) {
     val c = AgapeTheme.colors
     Column(Modifier.fillMaxSize()) {
         DetailTopBar("", onBack)
-        LazyColumn(contentPadding = PaddingValues(start = 20.dp, end = 20.dp, bottom = 32.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        LazyColumn(contentPadding = PaddingValues(start = Spacing.xl, end = Spacing.xl, bottom = Spacing.xxl), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
             item {
                 Kicker(stringResource(traditionName(tradition)), color = c.inkMuted)
-                Text(stringResource(R.string.leaders_title), style = MaterialTheme.typography.displaySmall, color = c.ink, modifier = Modifier.padding(top = 6.dp))
+                Text(stringResource(R.string.leaders_title), style = MaterialTheme.typography.displaySmall, color = c.ink, modifier = Modifier.padding(top = Spacing.s))
             }
             items(container.content.leaders(tradition)) { l ->
                 AgapeCard {
                     Text(l.church[lang], style = MaterialTheme.typography.titleLarge, color = c.ink)
                     Text(l.title[lang], style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
                     if (l.current.isNotBlank()) {
-                        Spacer(Modifier.height(12.dp))
+                        Spacer(Modifier.height(Spacing.m))
                         Kicker(stringResource(R.string.leaders_current))
                         Text(l.current + if (l.since.isNotBlank()) " · ${l.since}" else "", style = MaterialTheme.typography.headlineSmall, color = c.primary)
                     }
                     if (l.notable.isNotEmpty()) {
-                        Spacer(Modifier.height(12.dp))
+                        Spacer(Modifier.height(Spacing.m))
                         Kicker(stringResource(R.string.leaders_notable))
                         l.notable.forEach { n ->
-                            Text("${n.name} · ${n.years}", style = MaterialTheme.typography.titleSmall, color = c.ink, modifier = Modifier.padding(top = 8.dp))
+                            Text("${n.name} · ${n.years}", style = MaterialTheme.typography.titleSmall, color = c.ink, modifier = Modifier.padding(top = Spacing.s))
                             Text(n.note[lang], style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
                         }
                     }

@@ -56,6 +56,12 @@ fun agapeType(style: VisualStyle, scale: Float): AgapeType {
 
 private data class Quad(val a: FontFamily, val b: FontFamily, val c: FontFamily, val d: TextUnit)
 
+/**
+ * The type scale of the app: display, headline, title, body and label in three sizes each, in the faces of [style] and
+ * scaled by the reader's text size. Screens take their text styles from here (MaterialTheme.typography) or from
+ * [AgapeType] for scripture and kickers, rather than setting sizes of their own. The only fixed sizes left are in
+ * pictures that are drawn to a set size: the shared verse image and the intro's wordmark.
+ */
 fun materialTypography(style: VisualStyle, scale: Float): Typography {
     val t = agapeType(style, scale)
     // Cormorant runs small, so it gets a little more size than the other display faces.

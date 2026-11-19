@@ -1,5 +1,8 @@
 package agape.app.ui.me
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.BuildConfig
 import agape.app.R
 import agape.app.core.model.Passage
@@ -46,11 +49,9 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -87,11 +88,11 @@ fun SavedScreen(
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.me_saved), onBack)
-        Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = Spacing.l, vertical = Spacing.s), horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
             SavedTab.entries.forEach { t -> Pill(stringResource(t.label), tab == t, { tab = t }) }
         }
         val empty = @Composable { EmptyState(stringResource(R.string.saved_empty_title), stringResource(R.string.saved_empty_text)) }
-        LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
+        LazyColumn(contentPadding = PaddingValues(bottom = Spacing.xl)) {
             when (tab) {
                 SavedTab.BOOKMARKS -> {
                     if (bookmarks.isEmpty()) item { empty() }
@@ -157,10 +158,10 @@ fun ActivityScreen(onBack: () -> Unit) {
     val fmt = remember(lang) { DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).withLocale(Locale.forLanguageTag(lang.tag)) }
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.me_activity), onBack)
-        LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
+        LazyColumn(contentPadding = PaddingValues(bottom = Spacing.xl)) {
             if (activity.isEmpty()) item { EmptyState(stringResource(R.string.activity_empty_title), stringResource(R.string.activity_empty_text)) }
             grouped.forEach { (day, items) ->
-                item(key = "d$day") { Kicker(LocalDate.ofEpochDay(day).format(fmt), Modifier.padding(start = 20.dp, top = 20.dp, bottom = 4.dp)) }
+                item(key = "d$day") { Kicker(LocalDate.ofEpochDay(day).format(fmt), Modifier.padding(start = Spacing.xl, top = Spacing.xl, bottom = Spacing.xs)) }
                 items(items, key = { "${it.type}${it.ref}${it.epochDay}" }) { a ->
                     ListRow(a.title, subtitle = stringResource(activityLabel(a.type))); Divider()
                 }
@@ -201,7 +202,7 @@ fun AchievementsScreen(onBack: () -> Unit) {
     val c = AgapeTheme.colors
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.me_achievements), onBack)
-        LazyColumn(contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        LazyColumn(contentPadding = PaddingValues(Spacing.l), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
             items(Achievement.entries) { a ->
                 val earned = a.earned(stats)
                 AgapeCard(tonal = !earned) {
@@ -210,9 +211,9 @@ fun AchievementsScreen(onBack: () -> Unit) {
                         Spacer(Modifier.size(14.dp))
                         Column(Modifier.weight(1f)) {
                             Text(stringResource(achievementTitle(a)), style = MaterialTheme.typography.titleMedium, color = if (earned) c.ink else c.inkMuted)
-                            Spacer(Modifier.height(6.dp))
+                            Spacer(Modifier.height(Spacing.s))
                             ProgressLine(a.progress(stats) / a.target.toFloat())
-                            Text("${a.progress(stats)} / ${a.target}", style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(top = 4.dp))
+                            Text("${a.progress(stats)} / ${a.target}", style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(top = Spacing.xs))
                         }
                     }
                 }
@@ -234,11 +235,11 @@ fun HelpScreen(onBack: () -> Unit, openLegal: (String) -> Unit) {
     )
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.me_help), onBack)
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(Spacing.l), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
             faq.forEach { (q, a) ->
                 AgapeCard {
                     Text(stringResource(q), style = MaterialTheme.typography.titleMedium, color = c.ink)
-                    Spacer(Modifier.height(6.dp))
+                    Spacer(Modifier.height(Spacing.s))
                     Text(stringResource(a), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
                 }
             }

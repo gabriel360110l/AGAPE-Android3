@@ -1,5 +1,7 @@
 package agape.app.ui.prayer
 
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Quiet
 import agape.app.R
 import agape.app.ui.LocalContainer
 import agape.app.ui.LocalSettings
@@ -57,9 +59,9 @@ import kotlinx.coroutines.launch
 private data class QuietColors(val background: Color, val ink: Color, val faint: Color, val accent: Color)
 
 private fun quietColors(dark: Boolean) = if (dark) {
-    QuietColors(Color(0xFF040404), Color(0xFFE9E1D2).copy(alpha = 0.34f), Color(0xFFE9E1D2).copy(alpha = 0.20f), Color(0xFFC9A55A).copy(alpha = 0.40f))
+    QuietColors(Quiet.darkBackground, Quiet.darkInk.copy(alpha = 0.34f), Quiet.darkInk.copy(alpha = 0.20f), Quiet.darkAccent.copy(alpha = 0.40f))
 } else {
-    QuietColors(Color(0xFF14110E), Color(0xFFF1E9DA).copy(alpha = 0.46f), Color(0xFFF1E9DA).copy(alpha = 0.26f), Color(0xFFD4B26A).copy(alpha = 0.50f))
+    QuietColors(Quiet.lightBackground, Quiet.lightInk.copy(alpha = 0.46f), Quiet.lightInk.copy(alpha = 0.26f), Quiet.lightAccent.copy(alpha = 0.50f))
 }
 
 /**
@@ -99,31 +101,31 @@ fun QuietCounter(state: CounterState, headline: String, detail: String, text: St
             .counterTapArea(state, description, stringResource(R.string.counter_tap), stringResource(R.string.counter_back)),
     ) {
         Column(
-            Modifier.fillMaxSize().alpha(shown.value).windowInsetsPadding(WindowInsets.safeDrawing).padding(horizontal = 32.dp),
+            Modifier.fillMaxSize().alpha(shown.value).windowInsetsPadding(WindowInsets.safeDrawing).padding(horizontal = Spacing.xxl),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
         ) {
             // A count is shown large; a longer headline (the Rosary's mystery and bead) a size smaller.
             Text(headline, style = if (headline.length <= 4) MaterialTheme.typography.displayLarge else MaterialTheme.typography.headlineLarge, color = colors.ink, textAlign = TextAlign.Center)
-            Spacer(Modifier.height(4.dp))
+            Spacer(Modifier.height(Spacing.xs))
             Text(detail, style = MaterialTheme.typography.labelLarge, color = colors.faint, textAlign = TextAlign.Center)
             if (!text.isNullOrBlank()) {
-                Spacer(Modifier.height(28.dp))
+                Spacer(Modifier.height(Spacing.xl))
                 Text(text, style = AgapeTheme.type.scripture, color = colors.ink, textAlign = TextAlign.Center)
             }
         }
         // The small controls, each its own tap target, so a tap on them does not count.
         Text(
             "✕", style = MaterialTheme.typography.titleMedium, color = colors.faint,
-            modifier = Modifier.align(Alignment.TopEnd).windowInsetsPadding(WindowInsets.safeDrawing).padding(8.dp)
+            modifier = Modifier.align(Alignment.TopEnd).windowInsetsPadding(WindowInsets.safeDrawing).padding(Spacing.s)
                 .sizeIn(minWidth = 48.dp, minHeight = 48.dp)
                 .clickable(role = Role.Button, onClickLabel = exitLabel, onClick = onExit)
                 .semantics { contentDescription = exitLabel }
-                .padding(14.dp),
+                .padding(Spacing.m),
         )
         val markers = stringResource(if (settings.quietMarkers) R.string.quiet_markers_on else R.string.quiet_markers_off)
         Column(
-            Modifier.align(Alignment.BottomCenter).windowInsetsPadding(WindowInsets.safeDrawing).padding(bottom = 16.dp),
+            Modifier.align(Alignment.BottomCenter).windowInsetsPadding(WindowInsets.safeDrawing).padding(bottom = Spacing.l),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Text(stringResource(R.string.quiet_hint), style = MaterialTheme.typography.bodySmall, color = colors.faint)
@@ -131,7 +133,7 @@ fun QuietCounter(state: CounterState, headline: String, detail: String, text: St
                 markers, style = MaterialTheme.typography.labelMedium, color = colors.accent,
                 modifier = Modifier.sizeIn(minHeight = 48.dp)
                     .clickable(role = Role.Switch) { scope.launch { container.settings.setQuietMarkers(!settings.quietMarkers) } }
-                    .padding(horizontal = 16.dp, vertical = 14.dp),
+                    .padding(horizontal = Spacing.l, vertical = Spacing.m),
             )
         }
     }

@@ -1,5 +1,10 @@
 package agape.app.ui.bible
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Radius
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.core.prefs.ReadingPosition
 import agape.app.data.bible.Verse
@@ -54,13 +59,11 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.Box
 import agape.app.ui.components.AgapeCard
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -141,12 +144,12 @@ fun ReaderScreen(
             }
         }
         Box(Modifier.weight(1f)) {
-        LazyColumn(state = list, modifier = Modifier.fillMaxSize(), contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 104.dp)) {
+        LazyColumn(state = list, modifier = Modifier.fillMaxSize(), contentPadding = PaddingValues(start = Spacing.l, end = Spacing.l, bottom = 104.dp)) {
             item {
                 // A title page for the chapter: large serif title, a gold rule and a quiet hint.
-                Column(Modifier.fillMaxWidth().padding(start = 4.dp, top = 8.dp, bottom = 18.dp)) {
+                Column(Modifier.fillMaxWidth().padding(start = Spacing.xs, top = Spacing.s, bottom = Spacing.l)) {
                     Text(title, style = MaterialTheme.typography.displaySmall, color = c.ink, modifier = Modifier.semantics { heading() })
-                    Box(Modifier.padding(top = 10.dp, bottom = 10.dp).width(32.dp).height(2.dp).background(c.accent))
+                    Box(Modifier.padding(top = Spacing.m, bottom = Spacing.m).width(32.dp).height(2.dp).background(c.accent))
                     Text(stringResource(R.string.reader_select_hint), style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
                 }
             }
@@ -164,17 +167,17 @@ fun ReaderScreen(
                 val hasNote = notes.any { it.book == book && it.chapter == chapter && it.verse == v.verse }
                 val verseLabel = stringResource(R.string.reader_verse_a11y, v.verse)
                 Row(
-                    Modifier.fillMaxWidth().padding(vertical = 1.dp).clip(RoundedCornerShape(10.dp)).background(bg).clickable { selected = v.verse }
+                    Modifier.fillMaxWidth().padding(vertical = 1.dp).clip(RoundedCornerShape(Radius.m)).background(bg).clickable { selected = v.verse }
                         .semantics { contentDescription = "$verseLabel. ${v.text}" }
-                        .padding(vertical = 4.dp, horizontal = 8.dp),
+                        .padding(vertical = Spacing.xs, horizontal = Spacing.s),
                 ) {
                     Text(
                         buildAnnotatedString {
-                            withStyle(SpanStyle(color = c.accent, fontSize = AgapeTheme.type.verseNumber.fontSize, fontFamily = AgapeTheme.type.verseNumber.fontFamily)) {
+                            withStyle(SpanStyle(color = c.accentInk, fontSize = AgapeTheme.type.verseNumber.fontSize, fontFamily = AgapeTheme.type.verseNumber.fontFamily)) {
                                 append("${v.verse}  ")
                             }
                             append(v.text)
-                            if (marked || hasNote) withStyle(SpanStyle(color = c.accent)) { append(if (marked) "  ◆" else "  ✎") }
+                            if (marked || hasNote) withStyle(SpanStyle(color = c.accentInk)) { append(if (marked) "  ◆" else "  ✎") }
                         },
                         style = AgapeTheme.type.scripture, color = c.ink,
                     )
@@ -182,12 +185,12 @@ fun ReaderScreen(
             }
             // The end of the chapter: mark it read and the quizzes, in one quiet card.
             if (vs != null) item {
-                AgapeCard(Modifier.padding(top = 28.dp)) {
+                AgapeCard(Modifier.padding(top = Spacing.xl)) {
                     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                         Ornament(width = 60.dp)
-                        Spacer(Modifier.height(8.dp))
+                        Spacer(Modifier.height(Spacing.s))
                         Text(stringResource(R.string.reader_end_of, title), style = MaterialTheme.typography.titleLarge, color = c.ink)
-                        Spacer(Modifier.height(14.dp))
+                        Spacer(Modifier.height(Spacing.m))
                         if (!isRead) {
                             PrimaryButton(stringResource(R.string.reader_mark_read), {
                                 scope.launch { container.user.markChapterRead(book, chapter, title) }
@@ -204,9 +207,9 @@ fun ReaderScreen(
             }
         }
             Column(
-                Modifier.align(Alignment.BottomCenter).windowInsetsPadding(WindowInsets.navigationBars).padding(bottom = 14.dp),
+                Modifier.align(Alignment.BottomCenter).windowInsetsPadding(WindowInsets.navigationBars).padding(bottom = Spacing.m),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(Spacing.s),
             ) {
                 ChapterPill(
                     title = title,
@@ -250,9 +253,9 @@ private fun ChapterPill(title: String, previous: (() -> Unit)?, next: (() -> Uni
     val bar = if (c.isDark) c.surfaceRaised else c.ink
     val on = if (c.isDark) c.ink else c.background
     Row(
-        modifier.shadow(18.dp, CircleShape, ambientColor = Color.Black.copy(alpha = 0.3f), spotColor = Color.Black.copy(alpha = 0.4f))
+        modifier.shadow(18.dp, CircleShape, ambientColor = Fixed.scrim.copy(alpha = 0.3f), spotColor = Fixed.scrim.copy(alpha = 0.4f))
             .clip(CircleShape).background(bar.copy(alpha = 0.94f)).border(0.8.dp, on.copy(alpha = 0.10f), CircleShape)
-            .padding(horizontal = 4.dp),
+            .padding(horizontal = Spacing.xs),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         IconButton(onClick = { previous?.invoke() }, enabled = previous != null) {
@@ -260,7 +263,7 @@ private fun ChapterPill(title: String, previous: (() -> Unit)?, next: (() -> Uni
         }
         Text(
             title, style = MaterialTheme.typography.labelLarge, color = on,
-            modifier = Modifier.clip(CircleShape).clickable(onClickLabel = stringResource(R.string.reader_jump), onClick = pick).padding(horizontal = 10.dp, vertical = 10.dp),
+            modifier = Modifier.clip(CircleShape).clickable(onClickLabel = stringResource(R.string.reader_jump), onClick = pick).padding(horizontal = Spacing.m, vertical = Spacing.m),
         )
         IconButton(onClick = { next?.invoke() }, enabled = next != null) {
             Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, stringResource(R.string.reader_next_chapter), tint = on.copy(alpha = if (next != null) 0.9f else 0.25f))

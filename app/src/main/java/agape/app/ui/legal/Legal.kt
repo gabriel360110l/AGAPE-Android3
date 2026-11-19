@@ -1,5 +1,6 @@
 package agape.app.ui.legal
 
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.ui.LocalLanguage
 import agape.app.ui.components.DetailTopBar
@@ -19,7 +20,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 
 /** Loads `assets/legal/<doc>_<lang>.md`. Only `#` headings and paragraphs are used. */
 @Composable
@@ -41,9 +41,9 @@ private fun LegalBody(blocks: List<String>, modifier: Modifier = Modifier) {
     Column(modifier) {
         blocks.forEach { block ->
             when {
-                block.startsWith("# ") -> Text(block.removePrefix("# "), style = MaterialTheme.typography.headlineMedium, color = c.ink, modifier = Modifier.padding(bottom = 12.dp))
-                block.startsWith("## ") -> Text(block.removePrefix("## "), style = MaterialTheme.typography.titleLarge, color = c.ink, modifier = Modifier.padding(top = 12.dp, bottom = 6.dp))
-                else -> Text(block, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(bottom = 10.dp))
+                block.startsWith("# ") -> Text(block.removePrefix("# "), style = MaterialTheme.typography.headlineMedium, color = c.ink, modifier = Modifier.padding(bottom = Spacing.m))
+                block.startsWith("## ") -> Text(block.removePrefix("## "), style = MaterialTheme.typography.titleLarge, color = c.ink, modifier = Modifier.padding(top = Spacing.m, bottom = Spacing.s))
+                else -> Text(block, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(bottom = Spacing.m))
             }
         }
     }
@@ -56,7 +56,7 @@ fun LegalScreen(doc: String, onBack: () -> Unit) {
     val blocks = rememberLegalText(doc)
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(docTitle(doc)), onBack)
-        LegalBody(blocks, Modifier.verticalScroll(rememberScrollState()).padding(20.dp))
+        LegalBody(blocks, Modifier.verticalScroll(rememberScrollState()).padding(Spacing.xl))
     }
 }
 
@@ -65,6 +65,6 @@ fun LegalScreen(doc: String, onBack: () -> Unit) {
 fun LegalDocumentSheet(doc: String, onDismiss: () -> Unit) {
     val blocks = rememberLegalText(doc)
     ModalBottomSheet(onDismissRequest = onDismiss, containerColor = AgapeTheme.colors.surface) {
-        LegalBody(blocks, Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 20.dp).navigationBarsPadding().padding(bottom = 24.dp))
+        LegalBody(blocks, Modifier.verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xl).navigationBarsPadding().padding(bottom = Spacing.xl))
     }
 }

@@ -1,5 +1,8 @@
 package agape.app.ui.bible
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Testament
@@ -53,11 +56,9 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -88,10 +89,10 @@ fun BibleScreen(
     val tradition = tradition
     val books = remember(tradition, lang) { container.content.canon(tradition, lang) }
 
-    LazyColumn(Modifier.fillMaxWidth(), contentPadding = PaddingValues(bottom = 24.dp)) {
+    LazyColumn(Modifier.fillMaxWidth(), contentPadding = PaddingValues(bottom = Spacing.xl)) {
         item {
             TabHeader(kicker = stringResource(traditionName(tradition)), title = stringResource(R.string.tab_bible))
-            Row(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(Modifier.padding(horizontal = Spacing.l, vertical = Spacing.s), horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
                 Pill(stringResource(R.string.bible_books), tab == BibleTab.BOOKS, { tab = BibleTab.BOOKS })
                 Pill(stringResource(R.string.bible_church), tab == BibleTab.CHURCH, { tab = BibleTab.CHURCH })
             }
@@ -99,7 +100,7 @@ fun BibleScreen(
         when (tab) {
             BibleTab.BOOKS -> {
                 item {
-                    AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), onClick = openPlans, tonal = true) {
+                    AgapeCard(Modifier.padding(horizontal = Spacing.l, vertical = Spacing.s), onClick = openPlans, tonal = true) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Column(Modifier.weight(1f)) {
                                 Text(stringResource(R.string.plans_title), style = MaterialTheme.typography.titleMedium, color = AgapeTheme.colors.ink)
@@ -123,7 +124,7 @@ fun BibleScreen(
                     Text(
                         stringResource(R.string.bible_translation_note),
                         style = MaterialTheme.typography.bodySmall, color = AgapeTheme.colors.inkFaint,
-                        modifier = Modifier.padding(20.dp),
+                        modifier = Modifier.padding(Spacing.xl),
                     )
                 }
             }
@@ -138,7 +139,7 @@ internal fun BookFilterBar(query: String, onQuery: (String) -> Unit, section: Bo
     val c = AgapeTheme.colors
     OutlinedTextField(
         value = query, onValueChange = onQuery,
-        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
+        modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.l, vertical = Spacing.xs),
         placeholder = { Text(stringResource(R.string.bible_find_book)) },
         leadingIcon = { Icon(Icons.Outlined.Search, null, tint = c.inkMuted) },
         trailingIcon = { if (query.isNotEmpty()) IconButton({ onQuery("") }) { Icon(Icons.Outlined.Close, stringResource(R.string.search_clear), tint = c.inkMuted) } },
@@ -148,7 +149,7 @@ internal fun BookFilterBar(query: String, onQuery: (String) -> Unit, section: Bo
             focusedContainerColor = c.surface, unfocusedContainerColor = c.surface, cursorColor = c.primary,
         ),
     )
-    Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = Spacing.l, vertical = Spacing.s), horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
         BookSection.entries.forEach { s -> Pill(stringResource(s.label), query.isEmpty() && section == s, { onQuery(""); onSection(s) }) }
     }
 }
@@ -180,11 +181,11 @@ internal fun BookRow(book: Book, expanded: Boolean, onToggle: () -> Unit, onChap
             },
         )
         AnimatedVisibility(expanded) {
-            Column(Modifier.padding(horizontal = 16.dp).padding(bottom = 12.dp)) {
+            Column(Modifier.padding(horizontal = Spacing.l).padding(bottom = Spacing.m)) {
                 book.intro?.get(lang)?.takeIf { it.isNotBlank() }?.let {
-                    Text(it, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 4, modifier = Modifier.padding(horizontal = 4.dp, vertical = 6.dp))
+                    Text(it, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 4, modifier = Modifier.padding(horizontal = Spacing.xs, vertical = Spacing.s))
                 }
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(Spacing.s), verticalArrangement = Arrangement.spacedBy(Spacing.s)) {
                     val chapterLabel = stringResource(R.string.bible_chapter)
                     (1..chapters).forEach { ch ->
                         val here = ch == current
@@ -213,7 +214,7 @@ private fun churchSection(
 ) = with(scope) {
     val content = container.content
     item {
-        Row(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Row(Modifier.padding(horizontal = Spacing.l, vertical = Spacing.s), horizontalArrangement = Arrangement.spacedBy(Spacing.m)) {
             ChurchTile(
                 title = stringResource(R.string.church_councils),
                 subtitle = stringResource(R.string.church_councils_count, content.councils(tradition).size),
@@ -227,7 +228,7 @@ private fun churchSection(
         }
     }
     item {
-        AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 4.dp), onClick = openLeaders) {
+        AgapeCard(Modifier.padding(horizontal = Spacing.l, vertical = Spacing.xs), onClick = openLeaders) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(Modifier.weight(1f)) {
                     Text(stringResource(R.string.leaders_title), style = MaterialTheme.typography.titleLarge, color = AgapeTheme.colors.ink)
@@ -239,9 +240,9 @@ private fun churchSection(
     }
     item { ChurchHeading(R.string.church_your_tradition) }
     items(content.articles(tradition, ChurchSection.TRADITION), key = { it.id }) { a ->
-        AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 5.dp), onClick = { openArticle(a.id) }) {
+        AgapeCard(Modifier.padding(horizontal = Spacing.l, vertical = Spacing.xs), onClick = { openArticle(a.id) }) {
             Text(a.title[lang], style = MaterialTheme.typography.titleLarge, color = AgapeTheme.colors.ink)
-            Spacer(Modifier.height(4.dp))
+            Spacer(Modifier.height(Spacing.xs))
             Text(a.summary[lang], style = MaterialTheme.typography.bodyMedium, color = AgapeTheme.colors.inkMuted)
         }
     }
@@ -258,10 +259,10 @@ private fun ChurchTile(title: String, subtitle: String, symbol: String, modifier
     Column(
         modifier.clip(cardShape)
             .background(androidx.compose.ui.graphics.Brush.linearGradient(listOf(c.primary, c.primary.copy(alpha = 0.78f))))
-            .clickable(onClick = onClick).padding(18.dp),
+            .clickable(onClick = onClick).padding(Spacing.l),
     ) {
-        Text(symbol, style = MaterialTheme.typography.headlineMedium, color = c.accent)
-        Spacer(Modifier.height(18.dp))
+        Text(symbol, style = MaterialTheme.typography.headlineMedium, color = c.accentInk)
+        Spacer(Modifier.height(Spacing.l))
         Text(title, style = MaterialTheme.typography.titleLarge, color = c.onPrimary)
         Text(subtitle, style = MaterialTheme.typography.bodySmall, color = c.onPrimary.copy(alpha = 0.75f))
     }
@@ -269,7 +270,7 @@ private fun ChurchTile(title: String, subtitle: String, symbol: String, modifier
 
 @Composable
 private fun ChurchHeading(title: Int) {
-    Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 22.dp, bottom = 4.dp)) {
+    Column(Modifier.padding(start = Spacing.xl, end = Spacing.xl, top = Spacing.xl, bottom = Spacing.xs)) {
         Kicker(stringResource(title))
     }
 }
