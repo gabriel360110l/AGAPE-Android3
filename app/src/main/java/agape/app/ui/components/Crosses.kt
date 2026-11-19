@@ -68,3 +68,17 @@ fun TraditionCross(tradition: Tradition, modifier: Modifier = Modifier, color: C
         else drawPath(path, Brush.verticalGradient(listOf(Color(0xFFF3D98B), Color(0xFFD4AF37), Color(0xFFA67C2E))))
     }
 }
+
+/**
+ * A plain equal-armed cross, centred in [size]: the generic cross where no tradition's own form is meant (the prayer
+ * rope for the Oriental Orthodox, until a priest confirms the form to use there).
+ */
+fun plainCrossPath(size: Size): Path {
+    val s = minOf(size.width, size.height)
+    val ox = (size.width - s) / 2f
+    val oy = (size.height - s) / 2f
+    return Path().apply {
+        addRect(Rect(ox + 0.42f * s, oy + 0.06f * s, ox + 0.58f * s, oy + 0.94f * s))
+        addRect(Rect(ox + 0.06f * s, oy + 0.42f * s, ox + 0.94f * s, oy + 0.58f * s))
+    }
+}

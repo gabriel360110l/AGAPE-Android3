@@ -22,6 +22,7 @@ import agape.app.ui.components.Kicker
 import agape.app.ui.components.QuietButton
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.tradition
+import agape.app.core.model.Tradition
 import android.Manifest
 import android.os.Build
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -232,6 +233,9 @@ fun PrayerDayScreen(onBack: () -> Unit) {
                 }
                 if (settings.prayerVibration) Toggle(stringResource(R.string.day_quiet_markers_toggle), stringResource(R.string.day_quiet_markers_hint), settings.quietMarkers) { on ->
                     scope.launch { container.settings.setQuietMarkers(on) }
+                }
+                if (tradition == Tradition.CATHOLIC) Toggle(stringResource(R.string.day_fatima_toggle), stringResource(R.string.day_fatima_hint), settings.rosaryFatima) { on ->
+                    scope.launch { container.settings.setRosaryFatima(on) }
                 }
             }
         }

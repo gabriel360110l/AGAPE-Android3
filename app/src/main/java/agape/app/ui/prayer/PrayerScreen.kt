@@ -209,7 +209,7 @@ private fun RopePicker(ropes: List<PrayerRope?>, openRosary: () -> Unit, openRop
         HorizontalPager(pager, contentPadding = PaddingValues(horizontal = 16.dp), pageSpacing = 12.dp) { page ->
             val rope = ropes[page]
             val title = if (rope == null) stringResource(R.string.rosary_title) else stringResource(rope.title)
-            val sub = if (rope == null) MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang] else stringResource(rope.subtitle)
+            val sub = if (rope == null) MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang] else stringResource(ropeSubtitle(tradition))
             val open = { if (rope == null) openRosary() else openRope(rope) }
             AgapeCard(
                 Modifier.riseIn(pager.offsetOf(page)),

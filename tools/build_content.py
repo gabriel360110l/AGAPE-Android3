@@ -500,6 +500,13 @@ def build_extra_prayers():
     common_table = read_json(os.path.join(SRC, "common_prayers_nl.json"))["prayers"]
     common = {c["id"]: c["text"] for c in common_table}
     lines = {c["id"]: c["lines"] for c in common_table if "lines" in c}
+    # The English texts per tradition, with their sources: tools/source/common_prayers_en.json.
+    en_table = read_json(os.path.join(SRC, "common_prayers_en.json"))["prayers"]
+    en = {c["id"]: c["text"] for c in en_table}
+    en_lines = {c["id"]: c["lines"] for c in en_table if "lines" in c}
+    # The Byzantine Our Father and Creed in the English of the Orthodox Church in America.
+    next(p for p in out if p["id"] == "our-father")["body"]["en"] = en_lines["eo-our-father"]
+    next(p for p in out if p["id"] == "creed-nicene")["body"]["en"] = en_lines["eo-creed"]
     at = next(i for i, p in enumerate(out) if p["id"] == "our-father") + 1
     out[at:at] = [
         {
@@ -507,7 +514,7 @@ def build_extra_prayers():
             "title": tr("Our Father", "Onze Vader"),
             "subtitle": tr("As prayed in the Agpeya", "Zoals gebeden in de Agpeya"),
             "body": {
-                "en": ["Our Father who art in heaven, hallowed be Thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one, in Christ Jesus our Lord. For Thine is the kingdom, the power, and the glory, forever. Amen."],
+                "en": [en["oo-our-father"]],
                 "nl": [common["oo-our-father"]],
             },
         },
@@ -516,7 +523,7 @@ def build_extra_prayers():
             "title": tr("Our Father", "Onze Vader"),
             "subtitle": tr("Matthew 6:9–13", "Matteüs 6:9–13"),
             "body": {
-                "en": ["Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."],
+                "en": [en["ca-our-father"]],
                 "nl": [common["ca-our-father"]],
             },
         },
@@ -528,17 +535,7 @@ def build_extra_prayers():
         "title": tr("The Creed", "De geloofsbelijdenis"),
         "subtitle": tr("As prayed in the Coptic Church", "Zoals gebeden in de Koptische Kerk"),
         "body": {
-            "en": [
-                "We exalt you, the Mother of the true Light. We glorify you, O Saint, the Theotokos, for you brought forth unto us the Savior of the whole world; He came and saved our souls.",
-                "Glory to You, our Master, our King, Christ, the pride of the apostles, the crown of the martyrs, the joy of the righteous, the firmness of the churches, the forgiveness of sins.",
-                "We proclaim the Holy Trinity in One Godhead. We worship Him. We glorify Him.",
-                "We believe in one God, God the Father, the Almighty, Who created heaven and earth, and all things, seen and unseen.",
-                "We believe in one Lord Jesus Christ, the Only-Begotten Son of God, begotten of the Father before all ages; Light of Light, true God of true God, begotten not created, of one essence with the Father, by Whom all things were made; Who for us, men, and for our salvation, came down from heaven, and was incarnated of the Holy Spirit and of the Virgin Mary, and became man. And He was crucified for us under Pontius Pilate, suffered and was buried. And on the third day He rose from the dead, according to the Scriptures, and ascended into the heavens; and sat at the right hand of His Father, and also He is coming again in His glory to judge the living and the dead, whose kingdom has no end.",
-                "Yes, we believe in the Holy Spirit, the Lord, the Life-Giver, Who proceeds from the Father, Who, with the Father and the Son, is worshipped and glorified, Who spoke in the prophets.",
-                "And in one holy, catholic and apostolic church.",
-                "We confess one baptism for the remission of sins.",
-                "We look for the resurrection of the dead, and the life of the coming age. Amen.",
-            ],
+            "en": en_lines["oo-creed-intro"] + en_lines["oo-creed"],
             "nl": lines["oo-creed-intro"] + lines["oo-creed"],
         },
     }]
@@ -559,7 +556,7 @@ def build_extra_prayers():
             "title": tr("To the Mother of God", "Tot de Moeder van God"),
             "subtitle": tr("Sub tuum praesidium", "Sub tuum praesidium"),
             "body": {
-                "en": ["We fly to thy protection, O holy Mother of God; despise not our petitions in our necessities, but deliver us always from all dangers, O glorious and blessed Virgin."],
+                "en": [en["ca-sub-tuum"]],
                 "nl": [common["ca-sub-tuum"]],
             },
         },
@@ -590,14 +587,7 @@ def build_extra_prayers():
             "title": tr("The Nicene Creed", "De geloofsbelijdenis van Nicea"),
             "subtitle": tr("As prayed in the Roman Rite", "Zoals gebeden in de Romeinse ritus"),
             "body": {
-                "en": [
-                    "I believe in one God, the Father almighty, maker of heaven and earth, of all things visible and invisible.",
-                    "I believe in one Lord Jesus Christ, the Only Begotten Son of God, born of the Father before all ages. God from God, Light from Light, true God from true God, begotten, not made, consubstantial with the Father; through him all things were made.",
-                    "For us men and for our salvation he came down from heaven, and by the Holy Spirit was incarnate of the Virgin Mary, and became man.",
-                    "For our sake he was crucified under Pontius Pilate, he suffered death and was buried, and rose again on the third day in accordance with the Scriptures. He ascended into heaven and is seated at the right hand of the Father. He will come again in glory to judge the living and the dead and his kingdom will have no end.",
-                    "I believe in the Holy Spirit, the Lord, the giver of life, who proceeds from the Father and the Son, who with the Father and the Son is adored and glorified, who has spoken through the prophets.",
-                    "I believe in one, holy, catholic and apostolic Church. I confess one Baptism for the forgiveness of sins and I look forward to the resurrection of the dead and the life of the world to come. Amen.",
-                ],
+                "en": en_lines["ca-creed"],
                 "nl": [
                     "Ik geloof in één God, de almachtige Vader, Schepper van hemel en aarde, van al wat zichtbaar en onzichtbaar is.",
                     "En in één Heer, Jezus Christus, eniggeboren Zoon van God, vóór alle tijden geboren uit de Vader. God uit God, licht uit licht, ware God uit de ware God. Geboren, niet geschapen, één in wezen met de Vader, en door wie alles geschapen is.",
@@ -613,8 +603,7 @@ def build_extra_prayers():
             "title": tr("Hail Mary", "Weesgegroet"),
             "subtitle": tr("The Angelic Salutation", "De Engelse groet"),
             "body": {
-                "en": ["Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.",
-                       "Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."],
+                "en": en_lines["ca-hail-mary"],
                 "nl": ["Wees gegroet, Maria, vol van genade, de Heer is met U. Gij zijt de gezegende onder de vrouwen, en gezegend is Jezus, de vrucht van uw schoot.",
                        "Heilige Maria, Moeder van God, bid voor ons zondaars, nu en in het uur van onze dood. Amen."],
             },
@@ -624,7 +613,7 @@ def build_extra_prayers():
             "title": tr("Glory Be", "Eer aan de Vader"),
             "subtitle": tr("The lesser doxology", "De kleine lofprijzing"),
             "body": {
-                "en": ["Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen."],
+                "en": [en["ca-glory-be"]],
                 "nl": ["Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin en nu en altijd en in de eeuwen der eeuwen. Amen."],
             },
         },
@@ -642,7 +631,7 @@ def build_extra_prayers():
                        "All-holy Trinity, have mercy on us. Lord, cleanse us from our sins. Master, pardon our transgressions. Holy One, visit and heal our infirmities, for Thy name's sake.",
                        "Lord, have mercy. (3 times)",
                        "Glory to the Father, and to the Son, and to the Holy Spirit, now and ever, and unto ages of ages. Amen.",
-                       "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from the evil one.",
+                       "Our Father, Who art in heaven, hallowed be Thy Name; Thy Kingdom come; Thy will be done on earth, as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil.",
                        "Through the prayers of our holy fathers, Lord Jesus Christ our God, have mercy on us. Amen."],
                 "nl": ["Eer aan U, onze God, eer aan U.",
                        "Hemelse Koning, Trooster, Geest der waarheid, Die alom tegenwoordig zijt en alles vervult, Schatkamer van het goede, en Schenker van het leven, kom en verblijf in ons, reinig ons van alle smet, en red onze zielen, o Goede.",
@@ -667,7 +656,7 @@ def build_extra_prayers():
             "id": "deus-in-adiutorium", "traditions": [CA], "listed": False,
             "title": tr("Opening", "Opening"), "subtitle": tr("", ""),
             "body": {
-                "en": ["O God, come to my assistance. — O Lord, make haste to help me.", "Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now, and ever shall be, world without end. Amen."],
+                "en": ["O God, come to my assistance. — O Lord, make haste to help me.", "Glory to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and will be forever. Amen."],
                 "nl": ["God, kom mij te hulp. — Heer, haast U mij te helpen.", "Eer aan de Vader en de Zoon en de heilige Geest, zoals het was in het begin en nu en altijd en in de eeuwen der eeuwen. Amen."],
             },
         },

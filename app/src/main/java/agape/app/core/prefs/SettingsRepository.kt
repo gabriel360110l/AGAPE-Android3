@@ -1,5 +1,6 @@
 package agape.app.core.prefs
 
+import agape.app.data.rosary.PrayerRope
 import agape.app.core.model.ThemeMode
 import agape.app.core.model.Tradition
 import agape.app.core.model.VisualStyle
@@ -56,6 +57,12 @@ data class Settings(
     val prayerVibration: Boolean = true,
     /** In quiet mode, a marked pulse at every tenth knot, decade and end, so the place is felt without looking. */
     val quietMarkers: Boolean = true,
+    /** Whether the Fatima prayer (O my Jesus) is said after each decade of the Rosary. */
+    val rosaryFatima: Boolean = true,
+    /** Every how many knots the prayer rope has a marker (a bead, a firmer pulse): 0 (none), 10, 25 or 33. */
+    val ropeMarkers: Int = 10,
+    /** The prayer rope as a counter only, without the prayer and its explanation. */
+    val ropeCounterOnly: Boolean = false,
 ) {
     /** Onboarding is complete up to (but not including) sign-in. */
     val readyForSignIn: Boolean get() = welcomeSeen && termsAccepted && tradition != null && style != null
@@ -91,6 +98,9 @@ class SettingsRepository(private val context: Context) {
         val paceWait = booleanPreferencesKey("pace_wait")
         val prayerVibration = booleanPreferencesKey("prayer_vibration")
         val quietMarkers = booleanPreferencesKey("quiet_markers")
+        val rosaryFatima = booleanPreferencesKey("rosary_fatima")
+        val ropeMarkers = intPreferencesKey("rope_markers")
+        val ropeCounterOnly = booleanPreferencesKey("rope_counter_only")
     }
 
     val settings: Flow<Settings> = context.dataStore.data.map { p ->
@@ -115,6 +125,9 @@ class SettingsRepository(private val context: Context) {
             paceWait = p[Keys.paceWait] ?: false,
             prayerVibration = p[Keys.prayerVibration] ?: true,
             quietMarkers = p[Keys.quietMarkers] ?: true,
+            rosaryFatima = p[Keys.rosaryFatima] ?: true,
+            ropeMarkers = p[Keys.ropeMarkers]?.takeIf { it in PrayerRope.MARKER_CHOICES } ?: 10,
+            ropeCounterOnly = p[Keys.ropeCounterOnly] ?: false,
         )
     }
 
@@ -143,6 +156,9 @@ class SettingsRepository(private val context: Context) {
     suspend fun setPaceWait(on: Boolean) = context.dataStore.edit { it[Keys.paceWait] = on }
     suspend fun setPrayerVibration(on: Boolean) = context.dataStore.edit { it[Keys.prayerVibration] = on }
     suspend fun setQuietMarkers(on: Boolean) = context.dataStore.edit { it[Keys.quietMarkers] = on }
+    suspend fun setRosaryFatima(on: Boolean) = context.dataStore.edit { it[Keys.rosaryFatima] = on }
+    suspend fun setRopeMarkers(every: Int) = context.dataStore.edit { it[Keys.ropeMarkers] = every }
+    suspend fun setRopeCounterOnly(on: Boolean) = context.dataStore.edit { it[Keys.ropeCounterOnly] = on }
 
     suspend fun setLastPosition(pos: ReadingPosition) = context.dataStore.edit {
         it[Keys.lastBook] = pos.book

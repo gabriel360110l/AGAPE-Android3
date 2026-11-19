@@ -97,7 +97,7 @@
     <string name="day_pace_toggle">Wachttijd per kraal</string>
     <string name="day_pace_hint">Volgende opent pas na 10 seconden op een kraal van de rozenkrans en 2 seconden op een knoop, zodat geen gebed wordt afgeraffeld.</string>
     <string name="day_vibrate_toggle">Trillen bij elke kraal</string>
-    <string name="day_vibrate_hint">Een zacht tikje bij elke kraal of knoop; een dubbele trilling bij elke tiende knoop, bij elke grote kraal van de rozenkrans en aan het eind.</string>
+    <string name="day_vibrate_hint">Een zacht tikje bij elke kraal of knoop; een dubbele trilling bij elke markering van het gebedssnoer, bij elke grote kraal van de rozenkrans en aan het eind.</string>
     <string name="intentions_title">Gedachtenis in het gebed</string>
     <string name="intentions_card_hint">Namen van levenden en ontslapenen, aan het eind van elk uur</string>
     <string name="intentions_intro">Zoals de Kerk in de Liturgie namen gedenkt, komen deze namen aan het eind van elk uur dat je bidt.</string>
@@ -119,7 +119,7 @@
     <string name="rope_restart">Opnieuw beginnen</string>
     <string name="rope_restart_title">Opnieuw beginnen?</string>
     <string name="rope_restart_text">De telling gaat terug naar 0 en de gebeden rondes worden gewist.</string>
-    <string name="rope_chotki_about">De chotki (komboskini) is geknoopt van wol, elke knoop een klein kruis. Bij elke knoop wordt het Jezusgebed gezegd, langzaam, met de adem; bij de kralen wordt de Moeder Gods gevraagd voor ons te bidden.</string>
+    <string name="rope_chotki_about">De chotki (komboskini) is geknoopt van wol, elke knoop een klein kruis. Bij elke knoop wordt het Jezusgebed gezegd, langzaam, met de adem; bij de grotere knopen wordt de Moeder Gods gevraagd voor ons te bidden.</string>
     <string name="fast_info_none">Een gewone dag zonder vasten. Een goede dag om te danken en de gebedsuren te houden.</string>
     <string name="fast_info_free">Een tijd van vreugde: de Kerk vast op deze dagen niet, ook niet op woensdag en vrijdag.</string>
     <string name="fast_info_cheesefare">De laatste week voor de Grote Vasten: geen vlees meer, maar zuivel, eieren en vis worden nog gegeten.</string>
@@ -174,8 +174,22 @@
     <string name="quiet_mode">Stille modus</string>
     <string name="quiet_exit">Stille modus verlaten</string>
     <string name="quiet_hint">Tik ergens op het scherm om te tellen.</string>
-    <string name="quiet_markers_on">Trilling bij elk tiental: aan</string>
-    <string name="quiet_markers_off">Trilling bij elk tiental: uit</string>
-    <string name="day_quiet_markers_toggle">Trilling bij elk tiental in stille modus</string>
-    <string name="day_quiet_markers_hint">In stille modus, als het scherm donker is, voelt u een dubbele trilling bij elke tiende knoop, elk nieuw tientje en aan het eind, zonder te kijken.</string>
+    <string name="quiet_markers_on">Trilling bij elke markering: aan</string>
+    <string name="quiet_markers_off">Trilling bij elke markering: uit</string>
+    <string name="day_quiet_markers_toggle">Trilling bij elke markering in stille modus</string>
+    <string name="day_quiet_markers_hint">In stille modus, als het scherm donker is, voelt u een dubbele trilling bij elke markering van het snoer, elk nieuw tientje en aan het eind, zonder te kijken.</string>
+    <!-- rope_about_oo: neutral wording, PRIEST REVIEW for the Oriental Orthodox. -->
+    <string name="rope_sub_jesus_prayer">Het Jezusgebed</string>
+    <string name="rope_about_ca">Het Jezusgebed komt uit de oosterse Kerk en wordt ook in het westen gebeden (Catechismus van de Katholieke Kerk 2667–2668). Bij elke knoop wordt het één keer gezegd, langzaam, met de adem.</string>
+    <string name="rope_about_oo">Een gebedssnoer helpt om zonder ophouden te bidden: bij elke knoop wordt het Jezusgebed één keer gezegd, langzaam en aandachtig. De markeringen helpen tellen zonder te kijken.</string>
+    <string name="rope_markers">Markering</string>
+    <string name="rope_markers_none">Geen</string>
+    <string name="rope_counter_only">Alleen tellen</string>
+    <string name="rope_show_prayer">Toon gebed</string>
+    <string name="rosary_text_more">Toon het hele gebed</string>
+    <string name="rosary_text_less">Toon minder</string>
+    <string name="rosary_meditation">Overweging</string>
+    <string name="rosary_fruit">Vrucht van dit geheim: %1$s</string>
+    <string name="day_fatima_toggle">Fatimagebed na elk tientje</string>
+    <string name="day_fatima_hint">‘O mijn Jezus, vergeef ons onze zonden…’, na het Eer aan de Vader van elk tientje van de rozenkrans.</string>
 </resources>
