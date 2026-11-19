@@ -1,5 +1,8 @@
 package agape.app.ui.prayer
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.core.prefs.Intention
 import agape.app.core.prefs.IntentionKind
@@ -33,18 +36,15 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
-import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import java.util.UUID
 
@@ -73,8 +73,8 @@ fun IntentionsScreen(onBack: () -> Unit) {
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.intentions_title), onBack)
-        Column(Modifier.verticalScroll(rememberScrollState()).imePadding().padding(16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
-            Text(stringResource(R.string.intentions_intro), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(horizontal = 4.dp))
+        Column(Modifier.verticalScroll(rememberScrollState()).imePadding().padding(Spacing.l), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
+            Text(stringResource(R.string.intentions_intro), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, modifier = Modifier.padding(horizontal = Spacing.xs))
             IntentionKind.entries.forEach { kind ->
                 var draft by rememberSaveable(kind) { mutableStateOf("") }
                 fun add() {
@@ -84,7 +84,7 @@ fun IntentionsScreen(onBack: () -> Unit) {
                 }
                 AgapeCard {
                     Kicker(stringResource(kind.title))
-                    Spacer(Modifier.height(4.dp))
+                    Spacer(Modifier.height(Spacing.xs))
                     Text(stringResource(kind.prayer), style = MaterialTheme.typography.bodySmall.copy(fontStyle = FontStyle.Italic), color = c.inkMuted)
                     all.filter { it.kind == kind }.forEach { i ->
                         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
@@ -92,7 +92,7 @@ fun IntentionsScreen(onBack: () -> Unit) {
                             IconButton(onClick = { store(all - i) }) { Icon(Icons.Outlined.Close, stringResource(R.string.delete), tint = c.inkFaint) }
                         }
                     }
-                    Spacer(Modifier.height(6.dp))
+                    Spacer(Modifier.height(Spacing.s))
                     OutlinedTextField(
                         value = draft, onValueChange = { draft = it.take(60) }, singleLine = true,
                         placeholder = { Text(stringResource(R.string.intentions_add_hint)) },
@@ -104,7 +104,7 @@ fun IntentionsScreen(onBack: () -> Unit) {
                     )
                 }
             }
-            Text(stringResource(R.string.intentions_private), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, modifier = Modifier.padding(horizontal = 4.dp))
+            Text(stringResource(R.string.intentions_private), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, modifier = Modifier.padding(horizontal = Spacing.xs))
         }
     }
 }
@@ -115,14 +115,14 @@ fun IntentionsInHour() {
     val all = LocalSettings.current.intentions
     if (all.isEmpty()) return
     val c = AgapeTheme.colors
-    AgapeCard(Modifier.padding(top = 24.dp), tonal = true) {
+    AgapeCard(Modifier.padding(top = Spacing.xl), tonal = true) {
         Kicker(stringResource(R.string.intentions_title))
         IntentionKind.entries.forEach { kind ->
             val names = all.filter { it.kind == kind }
             if (names.isNotEmpty()) {
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(Spacing.m))
                 Text(stringResource(kind.prayer), style = MaterialTheme.typography.bodyMedium.copy(fontStyle = FontStyle.Italic), color = c.inkMuted)
-                Text(names.joinToString(", ") { it.text }, style = AgapeTheme.type.scripture, color = c.ink, modifier = Modifier.padding(top = 4.dp))
+                Text(names.joinToString(", ") { it.text }, style = AgapeTheme.type.scripture, color = c.ink, modifier = Modifier.padding(top = Spacing.xs))
             }
         }
     }

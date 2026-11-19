@@ -1,5 +1,7 @@
 package agape.app.ui.components
 
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.core.model.VisualStyle
 import agape.app.ui.theme.AgapeTheme
@@ -57,22 +59,18 @@ import androidx.compose.ui.unit.dp
 
 /** Corner radius per style: crisp for Classic Sacred, softer for the others. */
 val cardShape: Shape
-    @Composable get() = when (AgapeTheme.style) {
-        VisualStyle.NAVY_CREAM -> RoundedCornerShape(24.dp)
-        VisualStyle.CLASSIC_SACRED -> RoundedCornerShape(14.dp)
-        VisualStyle.WARM_TERRACOTTA -> RoundedCornerShape(28.dp)
-    }
+    @Composable get() = agape.app.ui.theme.styleCardShape(AgapeTheme.style)
 
 val buttonShape: Shape
     @Composable get() = when (AgapeTheme.style) {
         VisualStyle.NAVY_CREAM -> CircleShape
-        VisualStyle.CLASSIC_SACRED -> RoundedCornerShape(12.dp)
+        VisualStyle.CLASSIC_SACRED -> RoundedCornerShape(agape.app.ui.theme.Radius.m)
         VisualStyle.WARM_TERRACOTTA -> CircleShape
     }
 
 /** A small uppercase label above a title. */
 @Composable
-fun Kicker(text: String, modifier: Modifier = Modifier, color: androidx.compose.ui.graphics.Color = AgapeTheme.colors.accent) {
+fun Kicker(text: String, modifier: Modifier = Modifier, color: androidx.compose.ui.graphics.Color = AgapeTheme.colors.accentInk) {
     Text(text.uppercase(), style = AgapeTheme.type.kicker, color = color, modifier = modifier)
 }
 
@@ -122,7 +120,7 @@ fun AgapeCard(
     modifier: Modifier = Modifier,
     onClick: (() -> Unit)? = null,
     tonal: Boolean = false,
-    contentPadding: PaddingValues = PaddingValues(18.dp),
+    contentPadding: PaddingValues = PaddingValues(Spacing.l),
     content: @Composable ColumnScope.() -> Unit,
 ) {
     val c = AgapeTheme.colors
@@ -139,9 +137,9 @@ fun AgapeCard(
         0.9.dp,
         androidx.compose.ui.graphics.Brush.linearGradient(
             listOf(
-                androidx.compose.ui.graphics.Color(0xFFF3D98B).copy(alpha = (goldAlpha * 1.6f).coerceAtMost(0.8f)),
+                agape.app.ui.theme.Fixed.paleGold.copy(alpha = (goldAlpha * 1.6f).coerceAtMost(0.8f)),
                 c.accent.copy(alpha = goldAlpha),
-                androidx.compose.ui.graphics.Color(0xFFA67C2E).copy(alpha = goldAlpha * 0.8f),
+                agape.app.ui.theme.Fixed.deepGold.copy(alpha = goldAlpha * 0.8f),
             ),
         ),
     ) else null
@@ -181,7 +179,7 @@ fun SecondaryButton(text: String, onClick: () -> Unit, modifier: Modifier = Modi
         border = BorderStroke(1.dp, AgapeTheme.colors.line),
         colors = ButtonDefaults.outlinedButtonColors(contentColor = AgapeTheme.colors.ink),
     ) {
-        if (leading != null) { leading(); Spacer(Modifier.width(10.dp)) }
+        if (leading != null) { leading(); Spacer(Modifier.width(Spacing.m)) }
         Text(text, style = MaterialTheme.typography.labelLarge)
     }
 }
@@ -197,15 +195,15 @@ fun QuietButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifier
 @Composable
 fun TabHeader(kicker: String, title: String, modifier: Modifier = Modifier, trailing: @Composable RowScope.() -> Unit = {}) {
     Row(
-        modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(start = 24.dp, end = 12.dp, top = 28.dp, bottom = 12.dp),
+        modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(start = Spacing.xl, end = Spacing.m, top = Spacing.xl, bottom = Spacing.m),
         verticalAlignment = Alignment.Bottom,
     ) {
         Column(Modifier.weight(1f)) {
             if (kicker.isNotBlank()) Kicker(kicker, color = AgapeTheme.colors.inkMuted)
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(Spacing.s))
             Text(title, style = MaterialTheme.typography.displayMedium, color = AgapeTheme.colors.ink, modifier = Modifier.semantics { heading() })
             // A short gold rule under the title, as on a title page.
-            Box(Modifier.padding(top = 10.dp).width(40.dp).height(1.5.dp).background(AgapeTheme.colors.accent))
+            Box(Modifier.padding(top = Spacing.m).width(40.dp).height(1.5.dp).background(AgapeTheme.colors.accent))
         }
         trailing()
     }
@@ -215,7 +213,7 @@ fun TabHeader(kicker: String, title: String, modifier: Modifier = Modifier, trai
 @Composable
 fun DetailTopBar(title: String, onBack: () -> Unit, modifier: Modifier = Modifier, actions: @Composable RowScope.() -> Unit = {}) {
     Row(
-        modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(horizontal = 4.dp, vertical = 6.dp),
+        modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.statusBars).padding(horizontal = Spacing.xs, vertical = Spacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         IconButton(onClick = onBack) {
@@ -231,7 +229,7 @@ fun DetailTopBar(title: String, onBack: () -> Unit, modifier: Modifier = Modifie
 
 @Composable
 fun SectionTitle(title: String, modifier: Modifier = Modifier, action: String? = null, onAction: (() -> Unit)? = null) {
-    Row(modifier.fillMaxWidth().padding(top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(modifier.fillMaxWidth().padding(top = Spacing.s), verticalAlignment = Alignment.CenterVertically) {
         Text(title, style = MaterialTheme.typography.titleLarge, color = AgapeTheme.colors.ink, modifier = Modifier.weight(1f).semantics { heading() })
         if (action != null && onAction != null) QuietButton(action, onAction)
     }
@@ -245,7 +243,7 @@ fun Pill(text: String, selected: Boolean, onClick: () -> Unit, modifier: Modifie
             .clip(CircleShape)
             .background(if (selected) c.primary else c.surfaceSunken.copy(alpha = 0.6f))
             .clickable(onClick = onClick)
-            .padding(horizontal = 18.dp, vertical = 10.dp),
+            .padding(horizontal = Spacing.l, vertical = Spacing.m),
     ) {
         Text(text, style = MaterialTheme.typography.labelMedium, color = if (selected) c.onPrimary else c.inkMuted)
     }
@@ -262,7 +260,7 @@ fun ProgressLine(progress: Float, modifier: Modifier = Modifier) {
 
 @Composable
 fun EmptyState(title: String, text: String, modifier: Modifier = Modifier) {
-    Column(modifier.fillMaxWidth().padding(32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
+    Column(modifier.fillMaxWidth().padding(Spacing.xxl), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
         Ornament()
         Text(title, style = MaterialTheme.typography.titleLarge, color = AgapeTheme.colors.ink)
         Text(text, style = MaterialTheme.typography.bodyMedium, color = AgapeTheme.colors.inkMuted, textAlign = androidx.compose.ui.text.style.TextAlign.Center)
@@ -273,19 +271,19 @@ fun EmptyState(title: String, text: String, modifier: Modifier = Modifier) {
 @Composable
 fun ListRow(title: String, modifier: Modifier = Modifier, subtitle: String? = null, onClick: (() -> Unit)? = null, leading: (@Composable () -> Unit)? = null, trailing: (@Composable () -> Unit)? = null) {
     Row(
-        modifier.fillMaxWidth().then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier).padding(horizontal = 20.dp, vertical = 14.dp),
+        modifier.fillMaxWidth().then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier).padding(horizontal = Spacing.xl, vertical = Spacing.m),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        if (leading != null) { leading(); Spacer(Modifier.width(14.dp)) }
+        if (leading != null) { leading(); Spacer(Modifier.width(Spacing.m)) }
         Column(Modifier.weight(1f)) {
             Text(title, style = MaterialTheme.typography.titleMedium, color = AgapeTheme.colors.ink)
             if (!subtitle.isNullOrBlank()) Text(subtitle, style = MaterialTheme.typography.bodySmall, color = AgapeTheme.colors.inkMuted, maxLines = 2, overflow = TextOverflow.Ellipsis)
         }
-        if (trailing != null) { Spacer(Modifier.width(10.dp)); trailing() }
+        if (trailing != null) { Spacer(Modifier.width(Spacing.m)); trailing() }
     }
 }
 
 @Composable
 fun Divider(modifier: Modifier = Modifier) {
-    Box(modifier.fillMaxWidth().padding(start = 20.dp, end = 20.dp).height(0.5.dp).background(AgapeTheme.colors.line.copy(alpha = 0.7f)))
+    Box(modifier.fillMaxWidth().padding(start = Spacing.xl, end = Spacing.xl).height(0.5.dp).background(AgapeTheme.colors.line.copy(alpha = 0.7f)))
 }

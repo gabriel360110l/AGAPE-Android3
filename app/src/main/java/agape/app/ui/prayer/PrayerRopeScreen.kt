@@ -1,5 +1,9 @@
 package agape.app.ui.prayer
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.core.model.Tradition
 import agape.app.data.counter.AtEnd
@@ -47,12 +51,10 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
@@ -157,16 +159,16 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(title, onBack) { QuietModeButton { quiet = true } }
         Column(
-            Modifier.fillMaxSize().counterTaps(counter).verticalScroll(rememberScrollState()).padding(horizontal = 20.dp),
+            Modifier.fillMaxSize().counterTaps(counter).verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xl),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Kicker(stringResource(look.subtitle))
-            Spacer(Modifier.height(10.dp))
-            if (rope.sizes.size > 1) Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Spacer(Modifier.height(Spacing.m))
+            if (rope.sizes.size > 1) Row(horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
                 rope.sizes.forEach { n -> Pill(stringResource(R.string.rope_knots, n), size == n, { if (n != size) restart(n) }) }
             }
-            Spacer(Modifier.height(8.dp))
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            Spacer(Modifier.height(Spacing.s))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
                 Text(stringResource(R.string.rope_markers), style = MaterialTheme.typography.labelMedium, color = c.inkMuted)
                 PrayerRope.MARKER_CHOICES.forEach { n ->
                     Pill(
@@ -175,7 +177,7 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
                     )
                 }
             }
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(Spacing.s))
             Box(
                 Modifier.fillMaxWidth(0.92f).aspectRatio(1f)
                     .background(Brush.radialGradient(listOf(c.accent.copy(alpha = 0.16f), Color.Transparent)))
@@ -186,19 +188,19 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Text("${count.done}", style = MaterialTheme.typography.displayLarge, color = c.primary)
                     Text(stringResource(R.string.rope_of, size), style = MaterialTheme.typography.labelLarge, color = c.inkMuted)
-                    if (count.rounds > 0) Text(stringResource(R.string.rope_rounds, count.rounds), style = MaterialTheme.typography.labelMedium, color = c.accent)
+                    if (count.rounds > 0) Text(stringResource(R.string.rope_rounds, count.rounds), style = MaterialTheme.typography.labelMedium, color = c.accentInk)
                 }
             }
             if (!settings.ropeCounterOnly) {
-                Text(line, style = AgapeTheme.type.scripture, color = c.ink, textAlign = TextAlign.Center, modifier = Modifier.padding(horizontal = 8.dp))
+                Text(line, style = AgapeTheme.type.scripture, color = c.ink, textAlign = TextAlign.Center, modifier = Modifier.padding(horizontal = Spacing.s))
             }
-            Text(stringResource(R.string.quiet_hint), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, textAlign = TextAlign.Center, modifier = Modifier.padding(top = 6.dp))
-            Spacer(Modifier.height(14.dp))
+            Text(stringResource(R.string.quiet_hint), style = MaterialTheme.typography.bodySmall, color = c.inkFaint, textAlign = TextAlign.Center, modifier = Modifier.padding(top = Spacing.s))
+            Spacer(Modifier.height(Spacing.m))
             PaceButton(
                 stringResource(R.string.rope_next), waiting = stringResource(R.string.pace_praying),
                 minMillis = if (settings.paceWait) KNOT_MILLIS.toInt() else 0, step = count, onClick = { counter.tap() },
             )
-            Row(Modifier.padding(vertical = 6.dp), horizontalArrangement = Arrangement.Center) {
+            Row(Modifier.padding(vertical = Spacing.s), horizontalArrangement = Arrangement.Center) {
                 QuietButton(stringResource(R.string.rosary_previous), { counter.back() })
                 QuietButton(stringResource(R.string.rope_restart), { restart(size) })
                 QuietButton(
@@ -209,7 +211,7 @@ fun PrayerRopeScreen(rope: PrayerRope, onBack: () -> Unit) {
             if (!settings.ropeCounterOnly) AgapeCard(tonal = true) {
                 Text(stringResource(look.about), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
             }
-            Spacer(Modifier.height(24.dp))
+            Spacer(Modifier.height(Spacing.xl))
         }
     }
 }
@@ -220,8 +222,8 @@ private fun RopeRing(size: Int, knot: Int, every: Int, cross: (Size) -> Path, mo
     val c = AgapeTheme.colors
     val still = rememberReduceMotion()
     val progress by animateFloatAsState(knot / size.toFloat(), if (still) snap() else spring(), label = "rope")
-    val wool = if (c.isDark) Color(0xFF3A3530) else Color(0xFF2B2622)
-    Canvas(modifier.padding(8.dp)) {
+    val wool = if (c.isDark) Fixed.woolOnDark else Fixed.woolOnLight
+    Canvas(modifier.padding(Spacing.s)) {
         val center = Offset(this.size.width / 2, this.size.height * 0.46f)
         val r = this.size.minDimension * 0.40f
         val knotR = (2 * PI.toFloat() * r / size * 0.36f).coerceIn(3.dp.toPx(), 9.dp.toPx())

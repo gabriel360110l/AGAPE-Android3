@@ -1,5 +1,9 @@
 package agape.app.ui.tour
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.core.prefs.TourStop
 import agape.app.ui.components.AgapeCard
@@ -22,18 +26,14 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.LiveRegionMode
 import androidx.compose.ui.semantics.liveRegion
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.unit.dp
 
 private fun title(stop: TourStop) = when (stop) {
     TourStop.HOME -> R.string.tour_home_title
@@ -56,27 +56,27 @@ fun TourOverlay(stop: TourStop, seen: Set<TourStop>, onDismiss: () -> Unit) {
     LaunchedEffect(stop) { visible = true }
     val next = TourStop.entries.firstOrNull { it != stop && it !in seen }
     Box(
-        Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.32f))
+        Modifier.fillMaxSize().background(Fixed.scrim.copy(alpha = 0.32f))
             .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null, onClick = {}),
         contentAlignment = Alignment.BottomCenter,
     ) {
         AnimatedVisibility(visible, enter = slideInVertically { it / 3 } + fadeIn()) {
-            AgapeCard(Modifier.padding(16.dp).semantics { liveRegion = LiveRegionMode.Polite }) {
+            AgapeCard(Modifier.padding(Spacing.l).semantics { liveRegion = LiveRegionMode.Polite }) {
                 Kicker(stringResource(R.string.tour_kicker, seen.size + 1, TourStop.entries.size))
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Text(stringResource(title(stop)), style = MaterialTheme.typography.headlineSmall, color = AgapeTheme.colors.ink)
-                Spacer(Modifier.height(8.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Text(stringResource(body(stop)), style = MaterialTheme.typography.bodyMedium, color = AgapeTheme.colors.inkMuted)
                 if (next != null) {
-                    Spacer(Modifier.height(10.dp))
+                    Spacer(Modifier.height(Spacing.m))
                     Text(
                         stringResource(R.string.tour_next_hint, stringResource(tabName(next))),
-                        style = MaterialTheme.typography.bodySmall, color = AgapeTheme.colors.accent,
+                        style = MaterialTheme.typography.bodySmall, color = AgapeTheme.colors.accentInk,
                     )
                 }
-                Spacer(Modifier.height(14.dp))
+                Spacer(Modifier.height(Spacing.m))
                 Ornament(Modifier.align(Alignment.CenterHorizontally))
-                Spacer(Modifier.height(14.dp))
+                Spacer(Modifier.height(Spacing.m))
                 PrimaryButton(stringResource(R.string.tour_got_it), onDismiss)
             }
         }

@@ -79,7 +79,7 @@
     <string name="tour_got_it">Got it</string>
     <string name="tour_next_hint">Next, tap %1$s below.</string>
     <string name="tour_home_title">Home: your day at a glance</string>
-    <string name="tour_home_body">Start each day here: the verse of the day, where you left off reading, your reading plan and the saint of the day.</string>
+    <string name="tour_home_body">Start each day here: the day with its feast or saint and the fasting rule, then read on, pray the hour, or take the prayer rope or the Rosary. Below are the verse of the day, the readings and your plan.</string>
     <string name="tour_bible_title">Bible: read with the Church</string>
     <string name="tour_bible_body">The books of your Church\'s Bible. Tap a verse for commentary, cross-references and the Fathers. The Church section explains history, councils and Fathers.</string>
     <string name="tour_prayer_title">Prayer: the hours of the day</string>

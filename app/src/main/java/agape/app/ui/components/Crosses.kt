@@ -1,5 +1,6 @@
 package agape.app.ui.components
 
+import agape.app.ui.theme.Fixed
 import agape.app.core.model.Tradition
 import androidx.compose.foundation.Canvas
 import androidx.compose.runtime.Composable
@@ -65,7 +66,7 @@ fun TraditionCross(tradition: Tradition, modifier: Modifier = Modifier, color: C
     Canvas(modifier) {
         val path = crossPath(tradition, size)
         if (color != null) drawPath(path, color)
-        else drawPath(path, Brush.verticalGradient(listOf(Color(0xFFF3D98B), Color(0xFFD4AF37), Color(0xFFA67C2E))))
+        else drawPath(path, Brush.verticalGradient(listOf(Fixed.paleGold, Fixed.gold, Fixed.deepGold)))
     }
 }
 

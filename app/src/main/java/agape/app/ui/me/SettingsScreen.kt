@@ -1,5 +1,8 @@
 package agape.app.ui.me
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.core.model.Tradition
 import agape.app.core.model.VisualStyle
@@ -42,17 +45,14 @@ import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -110,23 +110,27 @@ fun SettingsScreen(onBack: () -> Unit, openLegal: (String) -> Unit, openPrayerDa
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.me_settings), onBack)
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(Spacing.l), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
             SettingsCard(R.string.settings_language) {
                 LanguageSwitch()
             }
             SettingsCard(R.string.settings_style) {
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(Spacing.s), verticalArrangement = Arrangement.spacedBy(Spacing.s)) {
                     VisualStyle.entries.forEach { s ->
                         Pill(stringResource(styleName(s)), settings.style == s, { scope.launch { container.settings.setStyle(s) } })
                     }
                 }
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(Spacing.m))
                 settings.style?.let { StyleSwatches(it) }
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(Spacing.m))
                 ThemeModeSwitch(settings.themeMode) { m -> scope.launch { container.settings.setThemeMode(m) } }
+                Spacer(Modifier.height(Spacing.m))
+                ToggleRow(stringResource(R.string.settings_true_black), stringResource(R.string.settings_true_black_hint), settings.prayerTrueBlack) { on ->
+                    scope.launch { container.settings.setPrayerTrueBlack(on) }
+                }
             }
             SettingsCard(R.string.settings_church) {
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(Spacing.s), verticalArrangement = Arrangement.spacedBy(Spacing.s)) {
                     Tradition.entries.forEach { t ->
                         Pill(stringResource(traditionName(t)), settings.tradition == t, { if (settings.tradition != t) pendingTradition = t })
                     }
@@ -181,7 +185,7 @@ private suspend fun setPrayerNotifications(container: agape.app.AppContainer, on
 private fun SettingsCard(title: Int, content: @Composable () -> Unit) {
     AgapeCard {
         Kicker(stringResource(title))
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(Spacing.m))
         content()
     }
 }
@@ -189,7 +193,7 @@ private fun SettingsCard(title: Int, content: @Composable () -> Unit) {
 @Composable
 private fun ToggleRow(title: String, hint: String, checked: Boolean, onChange: (Boolean) -> Unit) {
     val c = AgapeTheme.colors
-    Row(Modifier.padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.padding(vertical = Spacing.s), verticalAlignment = Alignment.CenterVertically) {
         Column(Modifier.weight(1f)) {
             Text(title, style = MaterialTheme.typography.titleSmall, color = c.ink)
             Text(hint, style = MaterialTheme.typography.bodySmall, color = c.inkMuted)

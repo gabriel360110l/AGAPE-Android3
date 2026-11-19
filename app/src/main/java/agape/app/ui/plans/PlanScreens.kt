@@ -1,5 +1,10 @@
 package agape.app.ui.plans
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Radius
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.core.model.Passage
 import agape.app.data.content.PlanCategory
@@ -66,12 +71,10 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -105,20 +108,20 @@ fun PlansScreen(onBack: () -> Unit, openPlan: (String) -> Unit) {
     val mine = progress.mapNotNull { p -> container.content.plan(p.planId)?.let { it to p } }.sortedByDescending { it.second.active }
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.plans_title), onBack)
-        LazyColumn(contentPadding = PaddingValues(bottom = 28.dp)) {
+        LazyColumn(contentPadding = PaddingValues(bottom = Spacing.xl)) {
             if (mine.isNotEmpty()) {
-                item { Kicker(stringResource(R.string.plans_mine), Modifier.padding(start = 20.dp, top = 12.dp, bottom = 8.dp)) }
+                item { Kicker(stringResource(R.string.plans_mine), Modifier.padding(start = Spacing.xl, top = Spacing.m, bottom = Spacing.s)) }
                 items(mine, key = { "mine:" + it.first.id }) { (plan, p) ->
                     val days = remember(plan, tradition, lang) { container.content.planDays(plan, tradition, lang) }
-                    MyPlanCard(plan, p, days.size, Modifier.padding(horizontal = 16.dp, vertical = 5.dp)) { openPlan(plan.id) }
+                    MyPlanCard(plan, p, days.size, Modifier.padding(horizontal = Spacing.l, vertical = Spacing.xs)) { openPlan(plan.id) }
                 }
             }
             PlanCategory.entries.forEach { cat ->
                 val list = grouped[cat].orEmpty()
                 if (list.isEmpty()) return@forEach
                 item(key = "cat:$cat") {
-                    Kicker(stringResource(categoryName(cat)), Modifier.padding(start = 20.dp, top = 22.dp, bottom = 10.dp))
-                    LazyRow(contentPadding = PaddingValues(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Kicker(stringResource(categoryName(cat)), Modifier.padding(start = Spacing.xl, top = Spacing.xl, bottom = Spacing.m))
+                    LazyRow(contentPadding = PaddingValues(horizontal = Spacing.l), horizontalArrangement = Arrangement.spacedBy(Spacing.m)) {
                         items(list, key = { it.id }) { plan ->
                             PlanTile(plan, progress.firstOrNull { it.planId == plan.id }) { openPlan(plan.id) }
                         }
@@ -138,23 +141,23 @@ private fun PlanTile(plan: PlanDefinition, progress: PlanProgress?, onClick: () 
     val c = AgapeTheme.colors
     val cover = remember(plan.id) { container.backgrounds.forPlan(plan.id) }
     val length = remember(plan, tradition, lang) { container.content.planDays(plan, tradition, lang).size }
-    Column(Modifier.width(232.dp).clip(RoundedCornerShape(18.dp)).clickable(onClick = onClick)) {
-        PlanCover(cover, Modifier.fillMaxWidth().aspectRatio(1.35f).clip(RoundedCornerShape(18.dp)), sample = 2) {
-            Box(Modifier.align(Alignment.TopEnd).padding(10.dp)) {
+    Column(Modifier.width(232.dp).clip(RoundedCornerShape(Radius.l)).clickable(onClick = onClick)) {
+        PlanCover(cover, Modifier.fillMaxWidth().aspectRatio(1.35f).clip(RoundedCornerShape(Radius.l)), sample = 2) {
+            Box(Modifier.align(Alignment.TopEnd).padding(Spacing.m)) {
                 when {
                     progress?.active == true -> Badge(stringResource(R.string.plans_active))
                     progress != null -> Icon(Icons.Outlined.CheckCircle, stringResource(R.string.plan_finished), tint = OnCover)
                     plan.locked -> Icon(Icons.Outlined.Lock, stringResource(R.string.plans_with_quizzes), tint = OnCover.copy(alpha = 0.85f), modifier = Modifier.size(20.dp))
                 }
             }
-            Column(Modifier.align(Alignment.BottomStart).padding(14.dp)) {
+            Column(Modifier.align(Alignment.BottomStart).padding(Spacing.m)) {
                 Text(plan.title[lang], style = MaterialTheme.typography.titleLarge, color = OnCover, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(stringResource(R.string.plan_length, length), style = MaterialTheme.typography.labelMedium, color = OnCover.copy(alpha = 0.8f))
             }
         }
         Text(
             plan.description[lang], style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 2, overflow = TextOverflow.Ellipsis,
-            modifier = Modifier.padding(start = 4.dp, end = 4.dp, top = 8.dp, bottom = 4.dp),
+            modifier = Modifier.padding(start = Spacing.xs, end = Spacing.xs, top = Spacing.s, bottom = Spacing.xs),
         )
     }
 }
@@ -162,8 +165,8 @@ private fun PlanTile(plan: PlanDefinition, progress: PlanProgress?, onClick: () 
 @Composable
 private fun Badge(text: String) {
     Text(
-        text, style = MaterialTheme.typography.labelMedium, color = Color(0xFF1A1512),
-        modifier = Modifier.clip(CircleShape).background(OnCover).padding(horizontal = 10.dp, vertical = 4.dp),
+        text, style = MaterialTheme.typography.labelMedium, color = Fixed.inkOnCream,
+        modifier = Modifier.clip(CircleShape).background(OnCover).padding(horizontal = Spacing.m, vertical = Spacing.xs),
     )
 }
 
@@ -175,17 +178,17 @@ fun MyPlanCard(plan: PlanDefinition, progress: PlanProgress, totalDays: Int, mod
     val c = AgapeTheme.colors
     val cover = remember(plan.id) { container.backgrounds.forPlan(plan.id) }
     val next = PlanEngine.nextDay(totalDays, progress.completedDays)
-    AgapeCard(modifier, onClick = onClick, contentPadding = PaddingValues(12.dp)) {
+    AgapeCard(modifier, onClick = onClick, contentPadding = PaddingValues(Spacing.m)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            PlanCover(cover, Modifier.size(76.dp).clip(RoundedCornerShape(14.dp)), sample = 4)
-            Spacer(Modifier.width(14.dp))
+            PlanCover(cover, Modifier.size(76.dp).clip(RoundedCornerShape(Radius.m)), sample = 4)
+            Spacer(Modifier.width(Spacing.m))
             Column(Modifier.weight(1f)) {
                 Text(plan.title[lang], style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 Text(
                     if (next != null) stringResource(R.string.plan_day_of, next, totalDays) else stringResource(R.string.plan_finished),
                     style = MaterialTheme.typography.bodySmall, color = c.inkMuted,
                 )
-                Spacer(Modifier.height(8.dp))
+                Spacer(Modifier.height(Spacing.s))
                 ProgressLine(progress.completedDays.size / totalDays.coerceAtLeast(1).toFloat())
             }
             Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint)
@@ -222,22 +225,22 @@ fun PlanScreen(planId: String, onBack: () -> Unit, openDay: (String, Int) -> Uni
         )
     }
 
-    LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(bottom = 28.dp)) {
+    LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(bottom = Spacing.xl)) {
         // The cover, with the title on it.
         item {
             PlanCover(cover, Modifier.fillMaxWidth().height(320.dp)) {
                 Column(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.statusBars)) {
-                    IconButton(onClick = onBack, modifier = Modifier.padding(start = 6.dp, top = 4.dp)) {
-                        Box(Modifier.size(40.dp).clip(CircleShape).background(Color.Black.copy(alpha = 0.3f)), contentAlignment = Alignment.Center) {
+                    IconButton(onClick = onBack, modifier = Modifier.padding(start = Spacing.s, top = Spacing.xs)) {
+                        Box(Modifier.size(40.dp).clip(CircleShape).background(Fixed.scrim.copy(alpha = 0.3f)), contentAlignment = Alignment.Center) {
                             Icon(Icons.AutoMirrored.Outlined.ArrowBack, stringResource(R.string.back), tint = OnCover)
                         }
                     }
                     Spacer(Modifier.weight(1f))
-                    Column(Modifier.padding(horizontal = 20.dp, vertical = 18.dp)) {
+                    Column(Modifier.padding(horizontal = Spacing.xl, vertical = Spacing.l)) {
                         Kicker(stringResource(categoryName(plan.category)), color = OnCover.copy(alpha = 0.8f))
-                        Spacer(Modifier.height(6.dp))
+                        Spacer(Modifier.height(Spacing.s))
                         Text(plan.title[lang], style = MaterialTheme.typography.displaySmall, color = OnCover, modifier = Modifier.semantics { heading() })
-                        Spacer(Modifier.height(6.dp))
+                        Spacer(Modifier.height(Spacing.s))
                         Text(
                             stringResource(R.string.plan_length, days.size) + if (plan.locked) " · " + stringResource(R.string.plans_with_quizzes) else "",
                             style = MaterialTheme.typography.labelLarge, color = OnCover.copy(alpha = 0.85f),
@@ -247,13 +250,13 @@ fun PlanScreen(planId: String, onBack: () -> Unit, openDay: (String, Int) -> Uni
             }
         }
         item {
-            Column(Modifier.padding(horizontal = 20.dp, vertical = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Column(Modifier.padding(horizontal = Spacing.xl, vertical = Spacing.l), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
                 Text(plan.description[lang], style = MaterialTheme.typography.bodyLarge, color = c.inkMuted)
                 if (progress != null) {
                     val share = done.size / days.size.coerceAtLeast(1).toFloat()
                     Row(verticalAlignment = Alignment.Bottom) {
                         Text(stringResource(R.string.plan_progress, done.size, days.size), style = MaterialTheme.typography.titleMedium, color = c.ink, modifier = Modifier.weight(1f))
-                        Text(stringResource(R.string.plan_percent, (share * 100).roundToInt()), style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold), color = c.accent)
+                        Text(stringResource(R.string.plan_percent, (share * 100).roundToInt()), style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold), color = c.accentInk)
                     }
                     ProgressLine(share)
                     if (next != null) PrimaryButton(stringResource(R.string.plan_continue_day, next), { openDay(planId, next) }, Modifier.fillMaxWidth())
@@ -266,12 +269,12 @@ fun PlanScreen(planId: String, onBack: () -> Unit, openDay: (String, Int) -> Uni
                 }
             }
         }
-        item { Kicker(stringResource(R.string.plan_days_title), Modifier.padding(start = 20.dp, top = 8.dp, bottom = 4.dp)) }
+        item { Kicker(stringResource(R.string.plan_days_title), Modifier.padding(start = Spacing.xl, top = Spacing.s, bottom = Spacing.xs)) }
         items(days, key = { it.number }) { day ->
             val unlocked = progress != null && PlanEngine.isUnlocked(plan, day.number, done)
             DayRow(day, done = day.number in done, isNext = day.number == next, unlocked = unlocked, note = dayNotes[day.number]) { openDay(planId, day.number) }
         }
-        if (progress != null) item { QuietButton(stringResource(R.string.plan_stop), { confirmStop = true }, Modifier.padding(horizontal = 8.dp, vertical = 12.dp)) }
+        if (progress != null) item { QuietButton(stringResource(R.string.plan_stop), { confirmStop = true }, Modifier.padding(horizontal = Spacing.s, vertical = Spacing.m)) }
         cover?.let { item { CoverCredit(it.title, it.licence) } }
     }
 }
@@ -286,7 +289,7 @@ private fun DayRow(day: PlanDay, done: Boolean, isNext: Boolean, unlocked: Boole
         Modifier.fillMaxWidth()
             .then(if (unlocked) Modifier.clickable(onClick = onClick) else Modifier)
             .background(if (isNext) c.accent.copy(alpha = 0.08f) else Color.Transparent)
-            .padding(horizontal = 20.dp, vertical = 12.dp),
+            .padding(horizontal = Spacing.xl, vertical = Spacing.m),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Box(
@@ -301,7 +304,7 @@ private fun DayRow(day: PlanDay, done: Boolean, isNext: Boolean, unlocked: Boole
                 else -> Text(day.number.toString(), style = MaterialTheme.typography.titleSmall, color = if (isNext) c.primary else c.inkMuted)
             }
         }
-        Spacer(Modifier.width(14.dp))
+        Spacer(Modifier.width(Spacing.m))
         Column(Modifier.weight(1f)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
@@ -310,7 +313,7 @@ private fun DayRow(day: PlanDay, done: Boolean, isNext: Boolean, unlocked: Boole
                     modifier = Modifier.weight(1f, fill = false),
                 )
                 if (isNext) {
-                    Spacer(Modifier.width(8.dp))
+                    Spacer(Modifier.width(Spacing.s))
                     Text(stringResource(R.string.plan_next_badge), style = MaterialTheme.typography.labelSmall, color = c.primary)
                 }
             }
@@ -319,9 +322,9 @@ private fun DayRow(day: PlanDay, done: Boolean, isNext: Boolean, unlocked: Boole
                 style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 2, overflow = TextOverflow.Ellipsis,
             )
             if (!note.isNullOrBlank()) {
-                Row(Modifier.padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.padding(top = Spacing.xs), verticalAlignment = Alignment.CenterVertically) {
                     Icon(Icons.Outlined.EditNote, stringResource(R.string.plan_note_has), tint = c.accent, modifier = Modifier.size(16.dp))
-                    Spacer(Modifier.width(6.dp))
+                    Spacer(Modifier.width(Spacing.s))
                     Text(note, style = MaterialTheme.typography.bodySmall.copy(fontStyle = FontStyle.Italic), color = c.inkMuted, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
             }
@@ -335,7 +338,7 @@ private fun CoverCredit(title: String, licence: String) {
     Text(
         stringResource(R.string.plan_cover_credit, title, licence),
         style = MaterialTheme.typography.labelSmall, color = AgapeTheme.colors.inkFaint, maxLines = 2, overflow = TextOverflow.Ellipsis,
-        modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp),
+        modifier = Modifier.padding(horizontal = Spacing.xl, vertical = Spacing.s),
     )
 }
 
@@ -370,48 +373,48 @@ fun PlanDayScreen(planId: String, day: Int, onBack: () -> Unit, openPassage: (Pa
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.plan_day_of, day, days.size), onBack)
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text(plan.title[lang], style = MaterialTheme.typography.labelLarge, color = c.accent)
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = Spacing.l, vertical = Spacing.s), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
+            Text(plan.title[lang], style = MaterialTheme.typography.labelLarge, color = c.accentInk)
             if (council == null) Text(title, style = MaterialTheme.typography.headlineMedium, color = c.ink)
             ProgressLine(day / days.size.coerceAtLeast(1).toFloat())
             if (council != null) CouncilBody(council, openPassage)
             else AgapeCard(contentPadding = PaddingValues(0.dp)) {
-                Kicker(stringResource(R.string.plan_readings), Modifier.padding(start = 18.dp, end = 18.dp, top = 18.dp, bottom = 4.dp))
+                Kicker(stringResource(R.string.plan_readings), Modifier.padding(start = Spacing.l, end = Spacing.l, top = Spacing.l, bottom = Spacing.xs))
                 planDay.readings.forEachIndexed { i, p ->
-                    if (i > 0) Box(Modifier.padding(horizontal = 18.dp).fillMaxWidth().height(0.5.dp).background(c.line))
+                    if (i > 0) Box(Modifier.padding(horizontal = Spacing.l).fillMaxWidth().height(0.5.dp).background(c.line))
                     Row(
-                        Modifier.fillMaxWidth().clickable { openPassage(p) }.padding(horizontal = 18.dp, vertical = 14.dp),
+                        Modifier.fillMaxWidth().clickable { openPassage(p) }.padding(horizontal = Spacing.l, vertical = Spacing.m),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
                         Text(container.passageLabel(p, lang), style = MaterialTheme.typography.titleMedium, color = c.ink, modifier = Modifier.weight(1f))
                         Icon(Icons.AutoMirrored.Outlined.KeyboardArrowRight, null, tint = c.inkFaint)
                     }
                 }
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
             }
 
             // The reader's own reflection on the day, as in a journal.
             AgapeCard {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Icon(Icons.Outlined.EditNote, null, tint = c.accent, modifier = Modifier.size(22.dp))
-                    Spacer(Modifier.width(8.dp))
+                    Spacer(Modifier.width(Spacing.s))
                     Kicker(stringResource(R.string.plan_note_title))
                 }
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Text(stringResource(R.string.plan_note_hint), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(Spacing.m))
                 OutlinedTextField(
                     value = noteText.orEmpty(), onValueChange = { noteText = it },
                     placeholder = { Text(stringResource(R.string.plan_note_placeholder)) },
                     modifier = Modifier.fillMaxWidth(), shape = cardShape, minLines = 4,
                 )
-                Spacer(Modifier.height(8.dp))
+                Spacer(Modifier.height(Spacing.s))
                 val current = noteText.orEmpty().trim()
                 if (current != savedNote) SecondaryButton(stringResource(R.string.save), { scope.launch { saveNote() } })
                 else if (savedNote.isNotEmpty()) Text("✓ " + stringResource(R.string.plan_note_saved), style = MaterialTheme.typography.labelMedium, color = c.primary)
             }
 
-            Spacer(Modifier.height(4.dp))
+            Spacer(Modifier.height(Spacing.xs))
             when {
                 done -> Text(stringResource(R.string.plan_day_done), style = MaterialTheme.typography.titleMedium, color = c.primary)
                 progress == null -> Text(stringResource(R.string.plan_not_started), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)

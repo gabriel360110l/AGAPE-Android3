@@ -5,8 +5,6 @@
     <string name="home_read">Lees</string>
     <string name="home_share">Deel</string>
     <string name="home_share_via">Deel de tekst</string>
-    <string name="home_reading">Lezen</string>
-    <string name="home_open_bible">Open de Bijbel</string>
     <string name="home_progress">Voortgang</string>
     <string name="home_stat_streak">Reeks</string>
     <string name="home_stat_read">Gelezen</string>
@@ -21,7 +19,6 @@
     <string name="home_background_credit">Achtergrond: %1$s · %2$s</string>
     <string name="home_rosary_today">Vandaag: %1$s</string>
     <string name="rosary_title">De rozenkrans</string>
-    <string name="rosary_card_body">Bid kraal voor kraal mee, met de geheimen van de dag.</string>
     <string name="rosary_today">vandaag</string>
     <string name="rosary_joyful">Blijde</string>
     <string name="rosary_luminous">Van het licht</string>
@@ -161,7 +158,6 @@
     <string name="calendar_today">Vandaag</string>
     <string name="calendar_life">Leven</string>
     <string name="calendar_general_icon">algemeen icoon, voor deze dag is er nog geen eigen icoon</string>
-    <string name="saint_read_more">Lees meer in de kalender ›</string>
     <string name="prayer_now_pray">Bid nu</string>
     <string name="prayer_pray_this">Bid dit gebed</string>
     <string name="prayer_service_n">%1$d van %2$d</string>
@@ -192,4 +188,12 @@
     <string name="rosary_fruit">Vrucht van dit geheim: %1$s</string>
     <string name="day_fatima_toggle">Fatimagebed na elk tientje</string>
     <string name="day_fatima_hint">‘O mijn Jezus, vergeef ons onze zonden…’, na het Eer aan de Vader van elk tientje van de rozenkrans.</string>
+    <string name="home_action_read">Lezen</string>
+    <string name="home_action_read_on">Verder in %1$s</string>
+    <string name="home_action_pray">Bidden</string>
+    <string name="home_action_pray_hour">%1$s · %2$s</string>
+    <string name="home_action_pray_day">De gebeden van de dag</string>
+    <string name="home_saint_also">Ook: %1$s</string>
+    <string name="settings_true_black">Echt zwart bij het bidden</string>
+    <string name="settings_true_black_hint">In donkere modus gebruiken de gebedsschermen (getijden, gebeden, rozenkrans en gebedssnoer) puur zwart, zodat het scherm zo weinig mogelijk licht geeft.</string>
 </resources>

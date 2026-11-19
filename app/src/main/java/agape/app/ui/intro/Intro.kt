@@ -1,5 +1,8 @@
 package agape.app.ui.intro
 
+import androidx.compose.runtime.getValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.core.model.Tradition
 import agape.app.ui.components.TraditionCross
@@ -32,7 +35,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -62,10 +64,10 @@ import kotlin.math.cos
 import kotlin.math.min
 import kotlin.math.sin
 
-private val Night = Color(0xFF050403)
-private val Gold = Color(0xFFD4AF37)
-private val PaleGold = Color(0xFFF3D98B)
-private val DeepGold = Color(0xFFA67C2E)
+private val Night = Fixed.night
+private val Gold = Fixed.gold
+private val PaleGold = Fixed.paleGold
+private val DeepGold = Fixed.deepGold
 private const val LETTERS = "AGAPE"
 
 /**
@@ -160,7 +162,7 @@ fun AgapeIntro(tradition: Tradition, onDone: () -> Unit) {
                 Modifier.align(Alignment.TopCenter).offset(y = middle + halo * 1.12f + 28.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
-                Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                Row(horizontalArrangement = Arrangement.spacedBy(Spacing.m)) {
                     LETTERS.forEachIndexed { i, ch ->
                         val a = letters[i].value
                         Text(
@@ -173,12 +175,12 @@ fun AgapeIntro(tradition: Tradition, onDone: () -> Unit) {
                         )
                     }
                 }
-                Spacer(Modifier.height(16.dp))
+                Spacer(Modifier.height(Spacing.l))
                 Text(
                     subtitle,
                     style = TextStyle(fontFamily = Cinzel, fontSize = 12.sp, letterSpacing = 0.28.em, color = PaleGold.copy(alpha = 0.85f)),
                     textAlign = TextAlign.Center,
-                    modifier = Modifier.padding(horizontal = 24.dp).graphicsLayer { alpha = words.value },
+                    modifier = Modifier.padding(horizontal = Spacing.xl).graphicsLayer { alpha = words.value },
                 )
             }
         }

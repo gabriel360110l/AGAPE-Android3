@@ -1,5 +1,6 @@
 package agape.app.ui.components
 
+import agape.app.ui.theme.Radius
 import agape.app.ui.theme.AgapeTheme
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.LinearEasing
@@ -47,7 +48,7 @@ fun PaceButton(text: String, waiting: String, minMillis: Int, step: Any, onClick
         else fill.animateTo(1f, tween(minMillis, easing = LinearEasing))
     }
     val ready = enabled && fill.value >= 1f
-    val shape = RoundedCornerShape(28.dp)
+    val shape = RoundedCornerShape(Radius.xxl)
     Box(
         modifier.fillMaxWidth().height(58.dp).clip(shape)
             .background(c.primary.copy(alpha = 0.16f))

@@ -1,5 +1,7 @@
 package agape.app.ui.plans
 
+import androidx.compose.runtime.getValue
+import agape.app.ui.theme.Fixed
 import agape.app.data.content.BackgroundEntry
 import agape.app.ui.components.BackdropInk
 import agape.app.ui.theme.AgapeTheme
@@ -14,11 +16,9 @@ import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.produceState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
@@ -29,7 +29,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
 /** Cream text on a cover: the covers are darkened, whatever the style. */
-val OnCover = Color(0xFFF4EEE3)
+val OnCover = Fixed.onImage
 
 /**
  * A reading plan's cover picture, darkened towards the bottom so its title can stand on it, as on the cover of a book.

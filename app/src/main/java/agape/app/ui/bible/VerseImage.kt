@@ -1,5 +1,10 @@
 package agape.app.ui.bible
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Radius
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.VerseCard
 import agape.app.R
 import agape.app.core.model.Tradition
 import agape.app.ui.components.Kicker
@@ -43,11 +48,9 @@ import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -68,9 +71,9 @@ import java.io.File
 
 /** The looks a verse card can have: background gradient, text and gold. */
 private enum class CardStyle(val label: Int, val top: Color, val bottom: Color, val text: Color, val gold: Color) {
-    NIGHT(R.string.card_style_night, Color(0xFF0E1726), Color(0xFF1C2D48), Color(0xFFF9F5EB), Color(0xFFD4AF37)),
-    PARCHMENT(R.string.card_style_parchment, Color(0xFFF7F0E2), Color(0xFFE6D9BF), Color(0xFF281E15), Color(0xFF8C5E32)),
-    OLIVE(R.string.card_style_olive, Color(0xFF1A2922), Color(0xFF2B4136), Color(0xFFF4F1EA), Color(0xFFC8A96A)),
+    NIGHT(R.string.card_style_night, VerseCard.night[0], VerseCard.night[1], VerseCard.night[2], VerseCard.night[3]),
+    PARCHMENT(R.string.card_style_parchment, VerseCard.parchment[0], VerseCard.parchment[1], VerseCard.parchment[2], VerseCard.parchment[3]),
+    OLIVE(R.string.card_style_olive, VerseCard.olive[0], VerseCard.olive[1], VerseCard.olive[2], VerseCard.olive[3]),
 }
 
 /** One verse as a picture to share: a preview, three looks, and the share button. */
@@ -84,19 +87,19 @@ fun VerseImageSheet(text: String, label: String, tradition: Tradition, onDismiss
 
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), containerColor = c.surface) {
         Column(
-            Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).navigationBarsPadding().padding(horizontal = 22.dp).padding(bottom = 24.dp),
+            Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).navigationBarsPadding().padding(horizontal = Spacing.xl).padding(bottom = Spacing.xl),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Kicker(stringResource(R.string.verse_image_title))
-            Spacer(Modifier.height(14.dp))
+            Spacer(Modifier.height(Spacing.m))
             Box(
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(20.dp))
+                Modifier.fillMaxWidth().clip(RoundedCornerShape(Radius.xl))
                     .background(Brush.verticalGradient(listOf(style.top, style.bottom)))
-                    .border(1.5.dp, style.gold.copy(alpha = 0.55f), RoundedCornerShape(20.dp))
-                    .padding(horizontal = 26.dp, vertical = 30.dp),
+                    .border(1.5.dp, style.gold.copy(alpha = 0.55f), RoundedCornerShape(Radius.xl))
+                    .padding(horizontal = Spacing.xl, vertical = Spacing.xxl),
                 contentAlignment = Alignment.Center,
             ) {
-                Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(14.dp)) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
                     TraditionCross(tradition, Modifier.size(width = 24.dp, height = 32.dp), color = style.gold)
                     Text(
                         quoted,
@@ -108,11 +111,11 @@ fun VerseImageSheet(text: String, label: String, tradition: Tradition, onDismiss
                     Text("A G A P E", style = MaterialTheme.typography.labelSmall.copy(letterSpacing = 3.sp), color = style.text.copy(alpha = 0.55f))
                 }
             }
-            Spacer(Modifier.height(16.dp))
-            Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Spacer(Modifier.height(Spacing.l))
+            Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
                 CardStyle.entries.forEach { s -> Pill(stringResource(s.label), style == s, { style = s }) }
             }
-            Spacer(Modifier.height(18.dp))
+            Spacer(Modifier.height(Spacing.l))
             PrimaryButton(stringResource(R.string.verse_image_share), {
                 shareCard(context, quoted, label, tradition, style)
                 onDismiss()

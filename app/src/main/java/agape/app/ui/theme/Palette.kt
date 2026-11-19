@@ -3,6 +3,7 @@ package agape.app.ui.theme
 import agape.app.core.model.VisualStyle
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.lerp
 
 /** The colour tokens every screen draws from. Material's ColorScheme is derived from these. */
 @Immutable
@@ -16,6 +17,7 @@ data class AgapeColors(
     val inkFaint: Color,
     val primary: Color,
     val onPrimary: Color,
+    /** Gold for ornaments, beads, icons and fills: at least 3:1 against every surface (WCAG AA, non-text). */
     val accent: Color,
     val onAccent: Color,
     val line: Color,
@@ -23,25 +25,30 @@ data class AgapeColors(
     /** Verse highlight colours, in a fixed order so a stored index means the same hue in every style. */
     val highlights: List<Color>,
     val isDark: Boolean,
+    /** The accent as text (kickers, verse numbers): at least 4.5:1 against every surface (WCAG AA). */
+    val accentInk: Color = accent,
 )
 
 /**
  * The three styles from the EOC-church style references (colours and mood only), each with a light and a dark mode.
  * Dark modes are deep and warm rather than grey, with gold carrying the accents, as in the reference Agpeya screen.
+ * Every style meets WCAG AA in light and dark: ink, inkMuted, inkFaint, accentInk and primary as text at least 4.5:1
+ * against background, surface, surfaceRaised and surfaceSunken; accent at least 3:1; onPrimary on primary at least
+ * 4.5:1. PaletteContrastTest checks this.
  */
 object Palettes {
     // Style 1 — Modern Navy + Cream: warm cream, deep navy ink, thin gold details.
     private val navyLight = AgapeColors(
         background = Color(0xFFFAF6EE), surface = Color(0xFFFFFDF8), surfaceRaised = Color(0xFFFFFFFF),
         surfaceSunken = Color(0xFFF1EADC), ink = Color(0xFF12203D), inkMuted = Color(0xFF4B5670),
-        inkFaint = Color(0xFF878EA0), primary = Color(0xFF14244A), onPrimary = Color(0xFFFAF6EE),
-        accent = Color(0xFFB08A3E), onAccent = Color(0xFFFFFDF8), line = Color(0xFFE6DCC8), danger = Color(0xFFA23B3B),
-        highlights = listOf(Color(0x66E8C77A), Color(0x5591B4D9), Color(0x55A9C9A0), Color(0x55E3A6A0)), isDark = false,
+        inkFaint = Color(0xFF61687B), primary = Color(0xFF14244A), onPrimary = Color(0xFFFAF6EE),
+        accent = Color(0xFFA4803A), onAccent = Color(0xFFFFFDF8), line = Color(0xFFE6DCC8), danger = Color(0xFFA23B3B),
+        highlights = listOf(Color(0x66E8C77A), Color(0x5591B4D9), Color(0x55A9C9A0), Color(0x55E3A6A0)), isDark = false, accentInk = Color(0xFF80642D),
     )
     private val navyDark = AgapeColors(
         background = Color(0xFF0A0F19), surface = Color(0xFF111827), surfaceRaised = Color(0xFF172036),
         surfaceSunken = Color(0xFF070B13), ink = Color(0xFFF1EBDD), inkMuted = Color(0xFFA9B0BF),
-        inkFaint = Color(0xFF6B7387), primary = Color(0xFFE0B865), onPrimary = Color(0xFF0A0F19),
+        inkFaint = Color(0xFF81899B), primary = Color(0xFFE0B865), onPrimary = Color(0xFF0A0F19),
         accent = Color(0xFFE0B865), onAccent = Color(0xFF0A0F19), line = Color(0xFF243048), danger = Color(0xFFE08A84),
         highlights = listOf(Color(0x55B8963F), Color(0x554F78A8), Color(0x55628A5C), Color(0x55A35E58)), isDark = true,
     )
@@ -50,14 +57,14 @@ object Palettes {
     private val sacredLight = AgapeColors(
         background = Color(0xFFF5EDDC), surface = Color(0xFFFBF6EA), surfaceRaised = Color(0xFFFFFAEF),
         surfaceSunken = Color(0xFFEDE2CA), ink = Color(0xFF2A1612), inkMuted = Color(0xFF684C40),
-        inkFaint = Color(0xFF9C8573), primary = Color(0xFF6E1A26), onPrimary = Color(0xFFFBF6EA),
-        accent = Color(0xFFAE8834), onAccent = Color(0xFFFFFAEF), line = Color(0xFFDCC9A2), danger = Color(0xFF9E2B2B),
-        highlights = listOf(Color(0x66E2BE6A), Color(0x558FA9C9), Color(0x559DBB8E), Color(0x55D99A93)), isDark = false,
+        inkFaint = Color(0xFF736052), primary = Color(0xFF6E1A26), onPrimary = Color(0xFFFBF6EA),
+        accent = Color(0xFF9E7B2F), onAccent = Color(0xFFFFFAEF), line = Color(0xFFDCC9A2), danger = Color(0xFF9E2B2B),
+        highlights = listOf(Color(0x66E2BE6A), Color(0x558FA9C9), Color(0x559DBB8E), Color(0x55D99A93)), isDark = false, accentInk = Color(0xFF7B6025),
     )
     private val sacredDark = AgapeColors(
         background = Color(0xFF110A0B), surface = Color(0xFF1C1214), surfaceRaised = Color(0xFF26191B),
         surfaceSunken = Color(0xFF0B0607), ink = Color(0xFFF3E7CF), inkMuted = Color(0xFFC4AE8F),
-        inkFaint = Color(0xFF80695A), primary = Color(0xFFD6B062), onPrimary = Color(0xFF1C1214),
+        inkFaint = Color(0xFF9A8070), primary = Color(0xFFD6B062), onPrimary = Color(0xFF1C1214),
         accent = Color(0xFFCBA455), onAccent = Color(0xFF1C1214), line = Color(0xFF3A2725), danger = Color(0xFFE28A80),
         highlights = listOf(Color(0x55B08A3A), Color(0x55506E92), Color(0x55607F52), Color(0x559A4B4B)), isDark = true,
     )
@@ -66,14 +73,14 @@ object Palettes {
     private val terracottaLight = AgapeColors(
         background = Color(0xFFFAF1E7), surface = Color(0xFFFFFAF4), surfaceRaised = Color(0xFFFFFDF9),
         surfaceSunken = Color(0xFFF2E4D4), ink = Color(0xFF45291E), inkMuted = Color(0xFF7A5F51),
-        inkFaint = Color(0xFFA8928A), primary = Color(0xFFBF5F3D), onPrimary = Color(0xFFFFF8F1),
-        accent = Color(0xFFC6A05A), onAccent = Color(0xFF45291E), line = Color(0xFFECDAC6), danger = Color(0xFFA63A2E),
-        highlights = listOf(Color(0x66EBC982), Color(0x5598B6CF), Color(0x55AFC79A), Color(0x55E6A592)), isDark = false,
+        inkFaint = Color(0xFF786159), primary = Color(0xFF9F4F33), onPrimary = Color(0xFFFFF8F1),
+        accent = Color(0xFFA27C38), onAccent = Color(0xFF45291E), line = Color(0xFFECDAC6), danger = Color(0xFFA63A2E),
+        highlights = listOf(Color(0x66EBC982), Color(0x5598B6CF), Color(0x55AFC79A), Color(0x55E6A592)), isDark = false, accentInk = Color(0xFF7E612C),
     )
     private val terracottaDark = AgapeColors(
         background = Color(0xFF191310), surface = Color(0xFF231B17), surfaceRaised = Color(0xFF2D241F),
         surfaceSunken = Color(0xFF130E0C), ink = Color(0xFFF4E8DA), inkMuted = Color(0xFFBFAA99),
-        inkFaint = Color(0xFF7E6E62), primary = Color(0xFFE39472), onPrimary = Color(0xFF231A15),
+        inkFaint = Color(0xFF9B8B7E), primary = Color(0xFFE39472), onPrimary = Color(0xFF231A15),
         accent = Color(0xFFD9B672), onAccent = Color(0xFF231A15), line = Color(0xFF3A2F28), danger = Color(0xFFE38F80),
         highlights = listOf(Color(0x55B9944A), Color(0x55577A96), Color(0x55688758), Color(0x55A2594A)), isDark = true,
     )
@@ -84,3 +91,15 @@ object Palettes {
         VisualStyle.WARM_TERRACOTTA -> if (dark) terracottaDark else terracottaLight
     }
 }
+
+/**
+ * The dark palette on real black, for prayer in the dark: the page and sunken areas black, cards a little lifted so they
+ * still read as cards. Text only gains contrast, since every ink of a dark palette is lighter than its background. A
+ * light palette is returned as it is.
+ */
+fun AgapeColors.trueBlack(): AgapeColors = if (!isDark) this else copy(
+    background = Fixed.black,
+    surfaceSunken = Fixed.black,
+    surface = lerp(Fixed.black, surface, 0.6f),
+    surfaceRaised = lerp(Fixed.black, surfaceRaised, 0.75f),
+)

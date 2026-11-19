@@ -1,5 +1,8 @@
 package agape.app.ui.prayer
 
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.theme.Fixed
 import agape.app.R
 import agape.app.data.rosary.RosaryPrayer
 import agape.app.data.rosary.Mystery
@@ -64,7 +67,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -75,10 +77,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Brush
@@ -157,8 +157,8 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
             DetailTopBar(title, onBack) { QuietModeButton { quiet = true } }
             Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
                 Row(
-                    Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 2.dp),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = Spacing.l, vertical = Spacing.xxs),
+                    horizontalArrangement = Arrangement.spacedBy(Spacing.s),
                 ) {
                     val todays = stringResource(R.string.rosary_today)
                     MysterySet.entries.forEach { s ->
@@ -175,7 +175,7 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
                         val to = Rosary.firstStepOn(bead)
                         if (to >= 0 && (to != step || finished)) counter.jump(to)
                     },
-                    modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 2.dp)
+                    modifier = Modifier.fillMaxWidth().padding(horizontal = Spacing.m, vertical = Spacing.xxs)
                         .counterSemantics(counter, description, stringResource(R.string.counter_tap), stringResource(R.string.counter_back)),
                 ) {
                     RingCentre(
@@ -190,20 +190,20 @@ fun RosaryScreen(onBack: () -> Unit, openPassage: (Passage) -> Unit) {
                     targetState = step to finished,
                     transitionSpec = { if (still) EnterTransition.None togetherWith ExitTransition.None else fadeIn(tween(220)) togetherWith fadeOut(tween(160)) },
                     label = "step",
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 6.dp),
+                    modifier = Modifier.padding(horizontal = Spacing.l, vertical = Spacing.s),
                 ) { (s, done) ->
                     if (done) FinishedCard(set.title[lang]) { counter.reset() }
                     else StepCard(steps[s], mysteries, set, settings.rosaryFatima, expanded, { expanded = it }, openPassage)
                 }
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(Spacing.m))
             }
 
             Row(
-                Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(horizontal = 16.dp, vertical = 8.dp),
+                Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.navigationBars).padding(horizontal = Spacing.l, vertical = Spacing.s),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 QuietButton(stringResource(R.string.rosary_previous), { counter.back() })
-                Spacer(Modifier.width(8.dp))
+                Spacer(Modifier.width(Spacing.s))
                 PaceButton(
                     stringResource(if (step == steps.lastIndex) R.string.rosary_amen else R.string.rosary_next),
                     waiting = stringResource(R.string.pace_praying),
@@ -223,11 +223,11 @@ private fun shownPrayers(s: RosaryStep, fatima: Boolean) = if (fatima) s.prayers
 private fun RingCentre(kicker: String, mystery: String, prayer: String) {
     val c = AgapeTheme.colors
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(kicker.uppercase(), style = MaterialTheme.typography.labelSmall, color = c.accent, textAlign = TextAlign.Center, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Spacer(Modifier.height(2.dp))
+        Text(kicker.uppercase(), style = MaterialTheme.typography.labelSmall, color = c.accentInk, textAlign = TextAlign.Center, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Spacer(Modifier.height(Spacing.xxs))
         Text(mystery, style = MaterialTheme.typography.titleSmall, color = c.ink, textAlign = TextAlign.Center, maxLines = 2, overflow = TextOverflow.Ellipsis)
         if (prayer.isNotEmpty()) {
-            Spacer(Modifier.height(2.dp))
+            Spacer(Modifier.height(Spacing.xxs))
             Text(prayer, style = MaterialTheme.typography.labelMedium, color = c.primary, textAlign = TextAlign.Center, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
     }
@@ -273,12 +273,12 @@ private fun StepCard(
     AgapeCard {
         s.intention?.let {
             Text(it[lang], style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(Spacing.s))
         }
         shownPrayers(s, fatima).forEachIndexed { i, p ->
-            if (i > 0) Spacer(Modifier.height(10.dp))
+            if (i > 0) Spacer(Modifier.height(Spacing.m))
             Text(p.title[lang], style = MaterialTheme.typography.titleSmall, color = c.primary)
-            Spacer(Modifier.height(4.dp))
+            Spacer(Modifier.height(Spacing.xs))
             Text(
                 p.text[lang], style = AgapeTheme.type.scripture, color = c.ink,
                 maxLines = if (expanded) Int.MAX_VALUE else 3, overflow = TextOverflow.Ellipsis,
@@ -287,9 +287,9 @@ private fun StepCard(
         QuietButton(stringResource(if (expanded) R.string.rosary_text_less else R.string.rosary_text_more), { onExpand(!expanded) })
         s.decade?.let { d ->
             val m = mysteries[d]
-            Box(Modifier.fillMaxWidth().padding(vertical = 6.dp).height(1.dp).background(c.line))
+            Box(Modifier.fillMaxWidth().padding(vertical = Spacing.s).height(1.dp).background(c.line))
             Kicker(stringResource(R.string.rosary_meditation))
-            Spacer(Modifier.height(4.dp))
+            Spacer(Modifier.height(Spacing.xs))
             Text(stringResource(R.string.rosary_fruit, m.fruit[lang]), style = MaterialTheme.typography.bodyMedium, color = c.ink)
             Passage.parse(m.passage)?.let { p ->
                 QuietButton(stringResource(R.string.rosary_read, container.passageLabel(p, lang)), { openPassage(p) })
@@ -307,9 +307,9 @@ private fun FinishedCard(setTitle: String, onAgain: () -> Unit) {
     AgapeCard {
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
             Ornament()
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(Spacing.m))
             Text(stringResource(R.string.rosary_done_title), style = MaterialTheme.typography.headlineSmall, color = c.ink)
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(Spacing.s))
             Text(stringResource(R.string.rosary_done_body, setTitle), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
             QuietButton(stringResource(R.string.rosary_again), onAgain)
         }
@@ -461,12 +461,12 @@ private fun RosaryBeads(
 
 private fun DrawScope.bead(center: Offset, r: Float, done: Boolean, current: Boolean, gold: Color, plain: Color) {
     val base = when {
-        current -> Color(0xFFFFE6A8)
+        current -> Fixed.litGold
         done -> gold
         else -> plain.copy(alpha = 0.55f)
     }
-    drawCircle(Brush.radialGradient(listOf(Color.White.copy(alpha = if (done || current) 0.85f else 0.35f), base, base.copy(alpha = 0.8f)), center.copy(x = center.x - r * 0.35f, y = center.y - r * 0.35f), r * 1.6f), r, center)
-    drawCircle(Color.Black.copy(alpha = 0.25f), r, center, style = Stroke(0.6f))
+    drawCircle(Brush.radialGradient(listOf(Fixed.white.copy(alpha = if (done || current) 0.85f else 0.35f), base, base.copy(alpha = 0.8f)), center.copy(x = center.x - r * 0.35f, y = center.y - r * 0.35f), r * 1.6f), r, center)
+    drawCircle(Fixed.scrim.copy(alpha = 0.25f), r, center, style = Stroke(0.6f))
 }
 
 private fun DrawScope.medal(center: Offset, r: Float, gold: Color, hole: Color) {

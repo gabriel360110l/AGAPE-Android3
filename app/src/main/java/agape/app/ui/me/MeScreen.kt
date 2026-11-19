@@ -1,5 +1,9 @@
 package agape.app.ui.me
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.components.Stat
 import agape.app.BuildConfig
 import agape.app.R
 import agape.app.data.auth.AuthState
@@ -40,18 +44,15 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.coroutines.launch
@@ -90,13 +91,13 @@ fun MeScreen(
         )
     }
 
-    LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
+    LazyColumn(contentPadding = PaddingValues(bottom = Spacing.xl)) {
         item { DetailTopBar(stringResource(R.string.home_profile), onBack) }
         if (email != null) {
-            item { Text(email, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, modifier = Modifier.padding(start = 20.dp, bottom = 4.dp)) }
+            item { Text(email, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, modifier = Modifier.padding(start = Spacing.xl, bottom = Spacing.xs)) }
         }
         item {
-            AgapeCard(Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
+            AgapeCard(Modifier.padding(horizontal = Spacing.l, vertical = Spacing.s)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f)) {
                         Kicker(stringResource(R.string.me_streak))
@@ -108,12 +109,12 @@ fun MeScreen(
                     }
                     Ornament(width = 64.dp)
                 }
-                Spacer(Modifier.height(16.dp))
+                Spacer(Modifier.height(Spacing.l))
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                    Stat(stats.chaptersRead, stringResource(R.string.me_stat_chapters))
-                    Stat(stats.hoursPrayed, stringResource(R.string.me_stat_hours))
-                    Stat(stats.quizzesPassed, stringResource(R.string.me_stat_quizzes))
-                    Stat(Achievement.entries.count { it.earned(stats) }, stringResource(R.string.me_stat_medals))
+                    Stat(stats.chaptersRead.toString(), stringResource(R.string.me_stat_chapters), stacked = true)
+                    Stat(stats.hoursPrayed.toString(), stringResource(R.string.me_stat_hours), stacked = true)
+                    Stat(stats.quizzesPassed.toString(), stringResource(R.string.me_stat_quizzes), stacked = true)
+                    Stat(Achievement.entries.count { it.earned(stats) }.toString(), stringResource(R.string.me_stat_medals), stacked = true)
                 }
             }
         }
@@ -121,7 +122,7 @@ fun MeScreen(
         item { MeRow(Icons.Outlined.History, stringResource(R.string.me_activity), openActivity) }
         item { MeRow(Icons.Outlined.BookmarkBorder, stringResource(R.string.me_saved), openSaved) }
         item { MeRow(Icons.Outlined.Settings, stringResource(R.string.me_settings), openSettings) }
-        item { Spacer(Modifier.height(12.dp)) }
+        item { Spacer(Modifier.height(Spacing.m)) }
         item { MeRow(Icons.AutoMirrored.Outlined.HelpOutline, stringResource(R.string.me_help), openHelp) }
         item {
             MeRow(Icons.Outlined.MailOutline, stringResource(R.string.me_feedback), onClick = {
@@ -135,12 +136,12 @@ fun MeScreen(
                 runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(BuildConfig.DONATION_URL))) }
             })
         }
-        item { Spacer(Modifier.height(12.dp)) }
+        item { Spacer(Modifier.height(Spacing.m)) }
         item { MeRow(Icons.AutoMirrored.Outlined.Logout, stringResource(R.string.me_sign_out), { confirmSignOut = true }, danger = true) }
         item {
-            Column(Modifier.fillMaxWidth().padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+            Column(Modifier.fillMaxWidth().padding(Spacing.xl), horizontalAlignment = Alignment.CenterHorizontally) {
                 Ornament()
-                Spacer(Modifier.height(8.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Text("AGAPE ${BuildConfig.VERSION_NAME}", style = MaterialTheme.typography.labelSmall, color = c.inkFaint)
                 Row {
                     TextButton({ openLegal("privacy") }) { Text(stringResource(R.string.legal_privacy), style = MaterialTheme.typography.labelSmall, color = c.inkMuted) }
@@ -157,14 +158,6 @@ suspend fun signOut(container: agape.app.AppContainer) {
     container.auth.signOut()
     container.user.clear()
     container.settings.clearPersonal()
-}
-
-@Composable
-private fun Stat(value: Int, label: String) {
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(value.toString(), style = MaterialTheme.typography.headlineSmall, color = AgapeTheme.colors.ink)
-        Text(label, style = MaterialTheme.typography.labelSmall, color = AgapeTheme.colors.inkMuted, textAlign = TextAlign.Center)
-    }
 }
 
 @Composable

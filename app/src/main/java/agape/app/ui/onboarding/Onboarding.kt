@@ -1,5 +1,8 @@
 package agape.app.ui.onboarding
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.ThemeMode
@@ -19,8 +22,8 @@ import agape.app.ui.components.cardShape
 import agape.app.ui.theme.AgapeTheme
 import agape.app.ui.theme.Palettes
 import agape.app.ui.theme.agapeType
-import android.app.Activity
 import androidx.activity.compose.BackHandler
+import androidx.activity.compose.LocalActivity
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -57,17 +60,14 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
@@ -122,20 +122,20 @@ private fun StepScaffold(
     content: @Composable ColumnScope.() -> Unit,
 ) {
     Column(Modifier.fillMaxSize()) {
-        Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp)) {
-            Spacer(Modifier.height(28.dp))
+        Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xl)) {
+            Spacer(Modifier.height(Spacing.xl))
             if (stepNumber != null) Kicker(stringResource(R.string.onboarding_step, stepNumber, 4))
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(Spacing.s))
             Text(title, style = MaterialTheme.typography.headlineLarge, color = AgapeTheme.colors.ink)
             if (subtitle != null) {
-                Spacer(Modifier.height(8.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = AgapeTheme.colors.inkMuted)
             }
-            Spacer(Modifier.height(24.dp))
+            Spacer(Modifier.height(Spacing.xl))
             content()
-            Spacer(Modifier.height(24.dp))
+            Spacer(Modifier.height(Spacing.xl))
         }
-        Box(Modifier.padding(horizontal = 24.dp, vertical = 16.dp)) {
+        Box(Modifier.padding(horizontal = Spacing.xl, vertical = Spacing.l)) {
             PrimaryButton(primary, onPrimary, enabled = primaryEnabled)
         }
     }
@@ -146,7 +146,7 @@ private fun StepScaffold(
 fun LanguageSwitch(modifier: Modifier = Modifier) {
     val container = LocalContainer.current
     val current = LocalLanguage.current
-    Row(modifier, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    Row(modifier, horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
         AppLanguage.entries.forEach { lang ->
             Pill(
                 text = if (lang == AppLanguage.ENGLISH) "English" else "Nederlands",
@@ -161,33 +161,33 @@ fun LanguageSwitch(modifier: Modifier = Modifier) {
 private fun WelcomeStep(onContinue: () -> Unit) {
     val c = AgapeTheme.colors
     Column(Modifier.fillMaxSize()) {
-        LanguageSwitch(Modifier.align(Alignment.End).padding(16.dp))
+        LanguageSwitch(Modifier.align(Alignment.End).padding(Spacing.l))
         Column(
-            Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 32.dp),
+            Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xxl),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
         ) {
             Ornament(width = 160.dp)
-            Spacer(Modifier.height(20.dp))
+            Spacer(Modifier.height(Spacing.xl))
             Text(
                 "AGAPE",
                 style = MaterialTheme.typography.displayLarge.copy(letterSpacing = 10.sp, fontWeight = FontWeight.SemiBold),
                 color = c.primary,
             )
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(Spacing.s))
             Text(stringResource(R.string.welcome_tagline), style = MaterialTheme.typography.titleLarge, color = c.ink, textAlign = TextAlign.Center)
-            Spacer(Modifier.height(28.dp))
+            Spacer(Modifier.height(Spacing.xl))
             Text(stringResource(R.string.welcome_body), style = MaterialTheme.typography.bodyLarge, color = c.inkMuted, textAlign = TextAlign.Center)
-            Spacer(Modifier.height(28.dp))
+            Spacer(Modifier.height(Spacing.xl))
             listOf(R.string.welcome_point_scripture, R.string.welcome_point_prayer, R.string.welcome_point_growth).forEach {
-                Row(Modifier.fillMaxWidth().padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.fillMaxWidth().padding(vertical = Spacing.s), verticalAlignment = Alignment.CenterVertically) {
                     Box(Modifier.size(6.dp).clip(CircleShape).background(c.accent))
-                    Spacer(Modifier.width(12.dp))
+                    Spacer(Modifier.width(Spacing.m))
                     Text(stringResource(it), style = MaterialTheme.typography.bodyMedium, color = c.ink)
                 }
             }
         }
-        Box(Modifier.padding(horizontal = 24.dp, vertical = 16.dp)) {
+        Box(Modifier.padding(horizontal = Spacing.xl, vertical = Spacing.l)) {
             PrimaryButton(stringResource(R.string.welcome_begin), onContinue)
         }
     }
@@ -210,20 +210,20 @@ private fun TermsStep(accepted: Boolean, onAccept: () -> Unit) {
     ) {
         AgapeCard(tonal = true) {
             listOf(R.string.terms_point_1, R.string.terms_point_2, R.string.terms_point_3, R.string.terms_point_4).forEach {
-                Text("•  " + stringResource(it), style = MaterialTheme.typography.bodyMedium, color = AgapeTheme.colors.ink, modifier = Modifier.padding(vertical = 5.dp))
+                Text("•  " + stringResource(it), style = MaterialTheme.typography.bodyMedium, color = AgapeTheme.colors.ink, modifier = Modifier.padding(vertical = Spacing.xs))
             }
         }
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(Spacing.m))
         Row {
             QuietButton(stringResource(R.string.terms_read_terms), { openDoc = "terms" })
             QuietButton(stringResource(R.string.terms_read_privacy), { openDoc = "privacy" })
         }
         Row(
-            Modifier.fillMaxWidth().clip(cardShape).toggleable(value = checked, role = Role.Checkbox, onValueChange = { checked = it }).padding(vertical = 8.dp),
+            Modifier.fillMaxWidth().clip(cardShape).toggleable(value = checked, role = Role.Checkbox, onValueChange = { checked = it }).padding(vertical = Spacing.s),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Checkbox(checked = checked, onCheckedChange = null, colors = CheckboxDefaults.colors(checkedColor = AgapeTheme.colors.primary))
-            Spacer(Modifier.width(8.dp))
+            Spacer(Modifier.width(Spacing.s))
             Text(stringResource(R.string.terms_checkbox), style = MaterialTheme.typography.bodyMedium, color = AgapeTheme.colors.ink)
         }
     }
@@ -240,7 +240,7 @@ private fun TraditionStep(current: Tradition?, onChoose: (Tradition) -> Unit) {
         primaryEnabled = selected != null,
         onPrimary = { selected?.let(onChoose) },
     ) {
-        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
             Tradition.entries.forEach { t ->
                 ChoiceCard(
                     selected = selected == t,
@@ -250,7 +250,7 @@ private fun TraditionStep(current: Tradition?, onChoose: (Tradition) -> Unit) {
                 )
             }
         }
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(Spacing.m))
         Text(stringResource(R.string.tradition_change_later), style = MaterialTheme.typography.bodySmall, color = AgapeTheme.colors.inkFaint)
     }
 }
@@ -275,7 +275,7 @@ private fun ChoiceCard(selected: Boolean, onClick: () -> Unit, title: String, bo
             .background(if (selected) c.surfaceRaised else c.surface)
             .border(if (selected) 2.dp else 1.dp, if (selected) c.primary else c.line, cardShape)
             .selectable(selected = selected, onClick = onClick, role = Role.RadioButton)
-            .padding(18.dp),
+            .padding(Spacing.l),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(title, style = MaterialTheme.typography.titleLarge, color = c.ink, modifier = Modifier.weight(1f))
@@ -284,7 +284,7 @@ private fun ChoiceCard(selected: Boolean, onClick: () -> Unit, title: String, bo
                 contentAlignment = Alignment.Center,
             ) { if (selected) Box(Modifier.size(10.dp).clip(CircleShape).background(c.primary)) }
         }
-        Spacer(Modifier.height(6.dp))
+        Spacer(Modifier.height(Spacing.s))
         Text(body, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
         extra()
     }
@@ -315,17 +315,17 @@ private fun StyleStep(settings: Settings, onPreview: (VisualStyle?) -> Unit, onC
         primary = stringResource(R.string.continue_label),
         onPrimary = { onChoose(selected) },
     ) {
-        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
             VisualStyle.entries.forEach { s ->
                 ChoiceCard(selected = selected == s, onClick = { selected = s }, title = stringResource(styleName(s)), body = stringResource(styleDescription(s))) {
-                    Spacer(Modifier.height(12.dp))
+                    Spacer(Modifier.height(Spacing.m))
                     StyleSwatches(s)
                 }
             }
         }
-        Spacer(Modifier.height(20.dp))
+        Spacer(Modifier.height(Spacing.xl))
         Text(stringResource(R.string.appearance), style = MaterialTheme.typography.titleMedium, color = AgapeTheme.colors.ink)
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(Spacing.s))
         ThemeModeSwitch(settings.themeMode) { m -> scope.launch { container.settings.setThemeMode(m) } }
     }
 }
@@ -333,18 +333,18 @@ private fun StyleStep(settings: Settings, onPreview: (VisualStyle?) -> Unit, onC
 /** Light and dark swatch strips for a style, with a sample of its heading face. */
 @Composable
 fun StyleSwatches(style: VisualStyle) {
-    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+    Row(horizontalArrangement = Arrangement.spacedBy(Spacing.m)) {
         listOf(false, true).forEach { dark ->
             val p = Palettes.of(style, dark)
             val type = agapeType(style, 1f)
             Row(
-                Modifier.weight(1f).clip(cardShape).background(p.background).border(1.dp, p.line, cardShape).padding(10.dp),
+                Modifier.weight(1f).clip(cardShape).background(p.background).border(1.dp, p.line, cardShape).padding(Spacing.m),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Text("Aa", fontFamily = type.display, fontSize = 22.sp, color = p.ink, fontWeight = FontWeight.SemiBold)
-                Spacer(Modifier.width(10.dp))
+                Text("Aa", style = MaterialTheme.typography.headlineSmall.copy(fontFamily = type.display, fontWeight = FontWeight.SemiBold), color = p.ink)
+                Spacer(Modifier.width(Spacing.m))
                 listOf(p.primary, p.accent, p.surfaceSunken).forEach {
-                    Box(Modifier.padding(end = 6.dp).size(14.dp).clip(CircleShape).background(it).border(1.dp, p.line, CircleShape))
+                    Box(Modifier.padding(end = Spacing.s).size(14.dp).clip(CircleShape).background(it).border(1.dp, p.line, CircleShape))
                 }
             }
         }
@@ -353,7 +353,7 @@ fun StyleSwatches(style: VisualStyle) {
 
 @Composable
 fun ThemeModeSwitch(mode: ThemeMode, onChange: (ThemeMode) -> Unit) {
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    Row(horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
         ThemeMode.entries.forEach { m ->
             Pill(
                 text = stringResource(
@@ -374,7 +374,7 @@ fun ThemeModeSwitch(mode: ThemeMode, onChange: (ThemeMode) -> Unit) {
 private fun AccountStep() {
     val container = LocalContainer.current
     val auth = container.auth
-    val activity = LocalContext.current as Activity
+    val activity = LocalActivity.current
     val scope = rememberCoroutineScope()
     var createMode by rememberSaveable { mutableStateOf(true) }
     var email by rememberSaveable { mutableStateOf("") }
@@ -397,28 +397,28 @@ private fun AccountStep() {
         }
     }
 
-    Column(Modifier.fillMaxSize().imePadding().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp)) {
-        Spacer(Modifier.height(28.dp))
+    Column(Modifier.fillMaxSize().imePadding().verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xl)) {
+        Spacer(Modifier.height(Spacing.xl))
         Kicker(stringResource(R.string.onboarding_step, 3, 4))
-        Spacer(Modifier.height(16.dp))
+        Spacer(Modifier.height(Spacing.l))
         Ornament(Modifier.align(Alignment.CenterHorizontally), width = 140.dp)
-        Spacer(Modifier.height(16.dp))
+        Spacer(Modifier.height(Spacing.l))
         Text(
             stringResource(if (createMode) R.string.auth_title_create else R.string.auth_title_signin),
             style = MaterialTheme.typography.headlineLarge, color = c.ink,
             modifier = Modifier.align(Alignment.CenterHorizontally), textAlign = TextAlign.Center,
         )
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(Spacing.s))
         Text(
             stringResource(R.string.auth_subtitle), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted,
             modifier = Modifier.align(Alignment.CenterHorizontally), textAlign = TextAlign.Center,
         )
-        Spacer(Modifier.height(24.dp))
+        Spacer(Modifier.height(Spacing.xl))
         if (!auth.isConfigured) {
             AgapeCard(tonal = true) {
                 Text(stringResource(R.string.auth_dev_notice), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
             }
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(Spacing.l))
         }
         val fieldColors = OutlinedTextFieldDefaults.colors(
             focusedBorderColor = c.primary, unfocusedBorderColor = c.line, focusedLabelColor = c.primary,
@@ -429,7 +429,7 @@ private fun AccountStep() {
             singleLine = true, shape = cardShape, colors = fieldColors, modifier = Modifier.fillMaxWidth(),
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email, imeAction = ImeAction.Next),
         )
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(Spacing.m))
         OutlinedTextField(
             value = password, onValueChange = { password = it }, label = { Text(stringResource(R.string.auth_password)) },
             singleLine = true, shape = cardShape, colors = fieldColors, modifier = Modifier.fillMaxWidth(),
@@ -442,9 +442,9 @@ private fun AccountStep() {
                 else error = invalidEmail
             }, Modifier.align(Alignment.End))
         }
-        error?.let { Text(it, color = c.danger, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 8.dp)) }
-        message?.let { Text(it, color = c.primary, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 8.dp)) }
-        Spacer(Modifier.height(16.dp))
+        error?.let { Text(it, color = c.danger, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = Spacing.s)) }
+        message?.let { Text(it, color = c.primary, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = Spacing.s)) }
+        Spacer(Modifier.height(Spacing.l))
         PrimaryButton(
             stringResource(if (createMode) R.string.auth_create else R.string.auth_signin),
             onClick = {
@@ -457,26 +457,26 @@ private fun AccountStep() {
             },
             loading = busy,
         )
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(Spacing.m))
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.weight(1f).height(1.dp).background(c.line))
-            Text(stringResource(R.string.auth_or), style = MaterialTheme.typography.labelMedium, color = c.inkFaint, modifier = Modifier.padding(horizontal = 12.dp))
+            Text(stringResource(R.string.auth_or), style = MaterialTheme.typography.labelMedium, color = c.inkFaint, modifier = Modifier.padding(horizontal = Spacing.m))
             Box(Modifier.weight(1f).height(1.dp).background(c.line))
         }
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(Spacing.m))
         agape.app.ui.components.SecondaryButton(
             text = stringResource(R.string.auth_google),
-            onClick = { run { auth.signInWithGoogle(activity) } },
+            onClick = { activity?.let { a -> run { auth.signInWithGoogle(a) } } },
             enabled = !busy,
-            leading = { Text("G", fontWeight = FontWeight.Bold, color = c.primary, fontSize = 18.sp) },
+            leading = { Text("G", style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold), color = c.primary) },
         )
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(Spacing.s))
         QuietButton(
             stringResource(if (createMode) R.string.auth_have_account else R.string.auth_need_account),
             { createMode = !createMode; error = null; message = null },
             Modifier.align(Alignment.CenterHorizontally),
         )
-        Spacer(Modifier.height(24.dp))
+        Spacer(Modifier.height(Spacing.xl))
     }
 }
 

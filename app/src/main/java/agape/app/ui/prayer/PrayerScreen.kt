@@ -1,5 +1,7 @@
 package agape.app.ui.prayer
 
+import androidx.compose.runtime.getValue
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.core.model.Tradition
 import agape.app.core.prefs.TourStop
@@ -29,7 +31,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import agape.app.ui.components.AgapeIcons
-import agape.app.ui.components.Divider
 import agape.app.ui.components.Kicker
 import agape.app.ui.components.ListRow
 import agape.app.ui.components.Ornament
@@ -56,7 +57,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material.icons.outlined.Notifications
 import androidx.compose.material.icons.outlined.Schedule
-import androidx.compose.material.icons.outlined.NotificationsNone
 import androidx.compose.material.icons.outlined.Star
 import androidx.compose.material.icons.outlined.StarBorder
 import androidx.compose.material3.Icon
@@ -65,11 +65,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
@@ -82,7 +80,6 @@ import kotlinx.coroutines.launch
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.pager.PagerState
@@ -117,11 +114,11 @@ fun PrayerScreen(
     val reminders = settings.hourReminders.mapNotNull { HourReminder.decode(it) }.associateBy { it.hourId }
     val c = AgapeTheme.colors
 
-    LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
+    LazyColumn(contentPadding = PaddingValues(bottom = Spacing.xl)) {
         item { TabHeader(kicker = book.book[lang], title = stringResource(R.string.tab_prayer)) }
         // The hours, one card each: swipe from hour to hour; it opens on the hour of now.
         if (book.hours.isNotEmpty()) {
-            item { Kicker(stringResource(R.string.prayer_hours), Modifier.padding(start = 20.dp, top = 4.dp, bottom = 8.dp)) }
+            item { Kicker(stringResource(R.string.prayer_hours), Modifier.padding(start = Spacing.xl, top = Spacing.xs, bottom = Spacing.s)) }
             item {
                 HourPager(
                     hours = book.hours,
@@ -136,14 +133,14 @@ fun PrayerScreen(
             }
         }
         // Every rope is open to everyone; the user's own church comes first. Swipe to choose.
-        item { Kicker(stringResource(R.string.ropes_title), Modifier.padding(start = 20.dp, top = 24.dp, bottom = 8.dp)) }
+        item { Kicker(stringResource(R.string.ropes_title), Modifier.padding(start = Spacing.xl, top = Spacing.xl, bottom = Spacing.s)) }
         item {
             val ropes = if (tradition == Tradition.CATHOLIC) listOf(null, PrayerRope.CHOTKI) else listOf(PrayerRope.CHOTKI, null)
             RopePicker(ropes, openRosary, openRope)
         }
         // Two shortcuts side by side, always the same size.
         item {
-            Row(Modifier.padding(horizontal = 16.dp, vertical = 16.dp).height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(Modifier.padding(horizontal = Spacing.l, vertical = Spacing.l).height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(Spacing.m)) {
                 ShortcutCard(stringResource(R.string.day_title), stringResource(R.string.day_card_hint), Icons.Outlined.Schedule, openDay, Modifier.weight(1f).fillMaxHeight())
                 ShortcutCard(stringResource(R.string.intentions_title), stringResource(R.string.intentions_card_hint), Icons.Outlined.FavoriteBorder, openIntentions, Modifier.weight(1f).fillMaxHeight())
             }
@@ -151,23 +148,23 @@ fun PrayerScreen(
         val favHours = book.hours.filter { h -> favorites.any { it.id == "hour:${h.id}" } }
         val favPrayers = prayers.filter { p -> favorites.any { it.id == "prayer:${p.id}" } }
         if (favHours.isNotEmpty() || favPrayers.isNotEmpty()) {
-            item { Kicker(stringResource(R.string.prayer_favorites), Modifier.padding(start = 20.dp, top = 12.dp, bottom = 4.dp)) }
+            item { Kicker(stringResource(R.string.prayer_favorites), Modifier.padding(start = Spacing.xl, top = Spacing.m, bottom = Spacing.xs)) }
             items(favHours, key = { "fh" + it.id }) { h -> ListRow(h.name[lang], subtitle = h.time, onClick = { openHour(h.id) }) }
             items(favPrayers, key = { "fp" + it.id }) { p -> ListRow(p.title[lang], subtitle = p.subtitle[lang], onClick = { openPrayer(p.id) }) }
         }
         // Services and rules of prayer, one card each, swiped like the ropes.
         if (book.extras.isNotEmpty()) {
-            item { Kicker(stringResource(R.string.prayer_services), Modifier.padding(start = 20.dp, top = 24.dp, bottom = 8.dp)) }
+            item { Kicker(stringResource(R.string.prayer_services), Modifier.padding(start = Spacing.xl, top = Spacing.xl, bottom = Spacing.s)) }
             item { ServicePager(book.extras, openHour) }
         }
-        item { Kicker(stringResource(R.string.prayer_more), Modifier.padding(start = 20.dp, top = 24.dp, bottom = 4.dp)) }
+        item { Kicker(stringResource(R.string.prayer_more), Modifier.padding(start = Spacing.xl, top = Spacing.xl, bottom = Spacing.xs)) }
         items(prayers, key = { it.id }) { p ->
             ListRow(p.title[lang], subtitle = p.subtitle[lang], onClick = { openPrayer(p.id) })
         }
         item {
-            Column(Modifier.fillMaxWidth().padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+            Column(Modifier.fillMaxWidth().padding(Spacing.xl), horizontalAlignment = Alignment.CenterHorizontally) {
                 Ornament()
-                Spacer(Modifier.height(10.dp))
+                Spacer(Modifier.height(Spacing.m))
                 Text(book.intro[lang], style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
             }
         }
@@ -187,11 +184,11 @@ private val clock = DateTimeFormatter.ofPattern("HH:mm")
 @Composable
 private fun ShortcutCard(title: String, hint: String, icon: ImageVector, onClick: () -> Unit, modifier: Modifier = Modifier) {
     val c = AgapeTheme.colors
-    AgapeCard(modifier, onClick = onClick, contentPadding = PaddingValues(16.dp)) {
+    AgapeCard(modifier, onClick = onClick, contentPadding = PaddingValues(Spacing.l)) {
         Icon(icon, null, tint = c.primary, modifier = Modifier.size(24.dp))
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(Spacing.m))
         Text(title, style = MaterialTheme.typography.titleMedium, color = c.ink, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Spacer(Modifier.height(4.dp))
+        Spacer(Modifier.height(Spacing.xs))
         Text(hint, style = MaterialTheme.typography.bodySmall, color = c.inkMuted, minLines = 3, maxLines = 3, overflow = TextOverflow.Ellipsis)
     }
 }
@@ -206,26 +203,26 @@ private fun RopePicker(ropes: List<PrayerRope?>, openRosary: () -> Unit, openRop
     val c = AgapeTheme.colors
     val pager = rememberPagerState { ropes.size }
     Column {
-        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = 16.dp), pageSpacing = 12.dp) { page ->
+        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = Spacing.l), pageSpacing = 12.dp) { page ->
             val rope = ropes[page]
             val title = if (rope == null) stringResource(R.string.rosary_title) else stringResource(rope.title)
             val sub = if (rope == null) MysterySet.forDay(java.time.LocalDate.now().dayOfWeek).title[lang] else stringResource(ropeSubtitle(tradition))
             val open = { if (rope == null) openRosary() else openRope(rope) }
             AgapeCard(
                 Modifier.riseIn(pager.offsetOf(page)),
-                onClick = open, contentPadding = PaddingValues(20.dp),
+                onClick = open, contentPadding = PaddingValues(Spacing.xl),
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f)) {
                         Text(title, style = MaterialTheme.typography.headlineSmall, color = c.ink, maxLines = 1)
-                        Spacer(Modifier.height(4.dp))
+                        Spacer(Modifier.height(Spacing.xs))
                         Text(sub, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, minLines = 2, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                        Spacer(Modifier.height(14.dp))
-                        Box(Modifier.clip(CircleShape).background(c.primary).clickable(onClick = open).padding(horizontal = 18.dp, vertical = 9.dp)) {
+                        Spacer(Modifier.height(Spacing.m))
+                        Box(Modifier.clip(CircleShape).background(c.primary).clickable(onClick = open).padding(horizontal = Spacing.l, vertical = 9.dp)) {
                             Text(stringResource(R.string.prayer_begin), style = MaterialTheme.typography.labelLarge, color = c.onPrimary)
                         }
                     }
-                    Spacer(Modifier.width(12.dp))
+                    Spacer(Modifier.width(Spacing.m))
                     if (rope == null) RosaryMark(Modifier.size(84.dp)) else RopeMark(rope, Modifier.size(84.dp))
                 }
             }
@@ -238,10 +235,10 @@ private fun RopePicker(ropes: List<PrayerRope?>, openRosary: () -> Unit, openRop
 @Composable
 private fun PagerDots(count: Int, current: Int) {
     val c = AgapeTheme.colors
-    Row(Modifier.fillMaxWidth().padding(top = 10.dp), horizontalArrangement = Arrangement.Center) {
+    Row(Modifier.fillMaxWidth().padding(top = Spacing.m), horizontalArrangement = Arrangement.Center) {
         repeat(count) { i ->
             val on = i == current
-            Box(Modifier.padding(horizontal = 3.dp).height(6.dp).width(if (on) 18.dp else 6.dp).clip(CircleShape).background(if (on) c.accent else c.line))
+            Box(Modifier.padding(horizontal = Spacing.xs).height(6.dp).width(if (on) 18.dp else 6.dp).clip(CircleShape).background(if (on) c.accent else c.line))
         }
     }
 }
@@ -269,7 +266,7 @@ private fun HourPager(hours: List<PrayerHour>, start: Int, nowId: String?, timeO
     val pager = rememberPagerState(initialPage = start) { hours.size }
     val times = hours.map(timeOf)
     Column {
-        Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp).padding(bottom = 10.dp), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+        Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = Spacing.l).padding(bottom = Spacing.m), horizontalArrangement = Arrangement.spacedBy(Spacing.s)) {
             hours.forEachIndexed { i, h ->
                 val on = i == pager.currentPage
                 Text(
@@ -277,11 +274,11 @@ private fun HourPager(hours: List<PrayerHour>, start: Int, nowId: String?, timeO
                     color = if (on) c.onPrimary else if (h.id == nowId) c.primary else c.inkMuted,
                     modifier = Modifier.clip(CircleShape).background(if (on) c.primary else Color.Transparent)
                         .border(1.dp, if (on) c.primary else c.line, CircleShape)
-                        .clickable { scope.launch { pager.animateScrollToPage(i) } }.padding(horizontal = 12.dp, vertical = 6.dp),
+                        .clickable { scope.launch { pager.animateScrollToPage(i) } }.padding(horizontal = Spacing.m, vertical = Spacing.s),
                 )
             }
         }
-        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = 16.dp), pageSpacing = 12.dp) { page ->
+        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = Spacing.l), pageSpacing = 12.dp) { page ->
             val hour = hours[page]
             val time = times[page]
             val sky = remember(time, c.isDark) { daySky(time, c.isDark) }
@@ -290,20 +287,20 @@ private fun HourPager(hours: List<PrayerHour>, start: Int, nowId: String?, timeO
                 Modifier.riseIn(pager.offsetOf(page)).fillMaxWidth().height(330.dp)
                     .shadow(16.dp, cardShape, spotColor = sky.bottom.copy(alpha = 0.45f))
                     .clip(cardShape).background(Brush.verticalGradient(listOf(sky.top, sky.bottom)))
-                    .clickable { openHour(hour.id) }.padding(24.dp),
+                    .clickable { openHour(hour.id) }.padding(Spacing.xl),
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(time.format(clock), style = MaterialTheme.typography.displayMedium.copy(fontWeight = FontWeight.SemiBold), color = sky.text, modifier = Modifier.weight(1f))
                     if (isNow) Flame(size = 48.dp)
                 }
-                Kicker(stringResource(if (isNow) R.string.prayer_now_pray else R.string.prayer_pray_this), color = sky.muted, modifier = Modifier.padding(top = 6.dp))
-                Spacer(Modifier.height(4.dp))
+                Kicker(stringResource(if (isNow) R.string.prayer_now_pray else R.string.prayer_pray_this), color = sky.muted, modifier = Modifier.padding(top = Spacing.s))
+                Spacer(Modifier.height(Spacing.xs))
                 Text(hour.name[lang], style = MaterialTheme.typography.headlineMedium, color = sky.text, maxLines = 2, overflow = TextOverflow.Ellipsis)
                 if (hour.subtitle[lang].isNotBlank()) Text(hour.subtitle[lang], style = MaterialTheme.typography.titleSmall, color = sky.muted, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(Spacing.m))
                 Text(hour.theme[lang], style = MaterialTheme.typography.bodyMedium, color = sky.text, maxLines = 4, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
                 Box(
-                    Modifier.clip(CircleShape).background(sky.text).clickable { openHour(hour.id) }.padding(horizontal = 24.dp, vertical = 12.dp),
+                    Modifier.clip(CircleShape).background(sky.text).clickable { openHour(hour.id) }.padding(horizontal = Spacing.xl, vertical = Spacing.m),
                 ) { Text(stringResource(R.string.prayer_begin), style = MaterialTheme.typography.labelLarge, color = sky.bottom) }
             }
         }
@@ -318,20 +315,20 @@ private fun ServicePager(extras: List<PrayerHour>, openHour: (String) -> Unit) {
     val c = AgapeTheme.colors
     val pager = rememberPagerState { extras.size }
     Column {
-        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = 16.dp), pageSpacing = 12.dp) { page ->
+        HorizontalPager(pager, contentPadding = PaddingValues(horizontal = Spacing.l), pageSpacing = 12.dp) { page ->
             val e = extras[page]
-            AgapeCard(Modifier.riseIn(pager.offsetOf(page)).height(210.dp), onClick = { openHour(e.id) }, contentPadding = PaddingValues(20.dp)) {
+            AgapeCard(Modifier.riseIn(pager.offsetOf(page)).height(210.dp), onClick = { openHour(e.id) }, contentPadding = PaddingValues(Spacing.xl)) {
                 Row(verticalAlignment = Alignment.Top) {
                     Column(Modifier.weight(1f)) {
                         Kicker(stringResource(R.string.prayer_service_n, page + 1, extras.size), color = c.inkMuted)
-                        Spacer(Modifier.height(6.dp))
+                        Spacer(Modifier.height(Spacing.s))
                         Text(e.name[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink, maxLines = 2, overflow = TextOverflow.Ellipsis)
                     }
                     Icon(AgapeIcons.Candle, null, tint = c.accent, modifier = Modifier.size(30.dp))
                 }
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Text(e.subtitle[lang].ifBlank { e.theme[lang] }, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, maxLines = 3, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
-                Box(Modifier.clip(CircleShape).background(c.primary).clickable { openHour(e.id) }.padding(horizontal = 18.dp, vertical = 9.dp)) {
+                Box(Modifier.clip(CircleShape).background(c.primary).clickable { openHour(e.id) }.padding(horizontal = Spacing.l, vertical = 9.dp)) {
                     Text(stringResource(R.string.prayer_open), style = MaterialTheme.typography.labelLarge, color = c.onPrimary)
                 }
             }
@@ -361,23 +358,23 @@ private fun PrayerIntroSheet(title: String, intro: String, onEnable: () -> Unit,
     val context = LocalContext.current
     val permission = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { onEnable() }
     ModalBottomSheet(onDismissRequest = onLater, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), containerColor = c.surface) {
-        Column(Modifier.padding(horizontal = 24.dp).padding(bottom = 32.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+        Column(Modifier.padding(horizontal = Spacing.xl).padding(bottom = Spacing.xxl), horizontalAlignment = Alignment.CenterHorizontally) {
             Icon(AgapeIcons.Candle, null, tint = c.primary, modifier = Modifier.size(40.dp))
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(Spacing.m))
             Kicker(stringResource(R.string.tour_kicker_prayer))
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(Spacing.s))
             Text(stringResource(R.string.prayer_intro_title, title), style = MaterialTheme.typography.headlineSmall, color = c.ink)
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(Spacing.m))
             Text(stringResource(R.string.tour_prayer_body), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
-            Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(Spacing.s))
             Text(intro, style = MaterialTheme.typography.bodySmall, color = c.inkFaint)
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(Spacing.l))
             Ornament()
-            Spacer(Modifier.height(16.dp))
+            Spacer(Modifier.height(Spacing.l))
             Text(stringResource(R.string.prayer_notify_title), style = MaterialTheme.typography.titleLarge, color = c.ink)
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(Spacing.s))
             Text(stringResource(R.string.prayer_notify_body), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
-            Spacer(Modifier.height(18.dp))
+            Spacer(Modifier.height(Spacing.l))
             PrimaryButton(stringResource(R.string.prayer_notify_enable), {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU && !Notifications.canPost(context)) {
                     permission.launch(Manifest.permission.POST_NOTIFICATIONS)

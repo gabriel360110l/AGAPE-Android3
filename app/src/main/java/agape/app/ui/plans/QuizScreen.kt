@@ -1,5 +1,8 @@
 package agape.app.ui.plans
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.R
 import agape.app.data.plans.PlanEngine
 import agape.app.data.plans.planDays
@@ -34,13 +37,11 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -73,7 +74,7 @@ fun QuizScreen(quizKey: String, title: String, planId: String, day: Int, onDone:
     if (questions.isEmpty()) {
         Column(Modifier.fillMaxSize()) {
             DetailTopBar(stringResource(R.string.quiz_title, title), onDone)
-            Text(stringResource(R.string.quiz_none), style = MaterialTheme.typography.bodyLarge, color = c.inkMuted, modifier = Modifier.padding(24.dp))
+            Text(stringResource(R.string.quiz_none), style = MaterialTheme.typography.bodyLarge, color = c.inkMuted, modifier = Modifier.padding(Spacing.xl))
         }
         return
     }
@@ -81,13 +82,13 @@ fun QuizScreen(quizKey: String, title: String, planId: String, day: Int, onDone:
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.quiz_title, title), onDone)
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(Spacing.xl), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
             if (!finished) {
                 val q = questions[index]
                 ProgressLine((index) / questions.size.toFloat())
                 Kicker(stringResource(R.string.quiz_question_of, index + 1, questions.size))
                 Text(q.q[lang], style = MaterialTheme.typography.headlineSmall, color = c.ink)
-                Spacer(Modifier.height(4.dp))
+                Spacer(Modifier.height(Spacing.xs))
                 q.options.forEachIndexed { i, option ->
                     val revealed = chosen != null
                     val isAnswer = i == q.answer
@@ -103,7 +104,7 @@ fun QuizScreen(quizKey: String, title: String, planId: String, day: Int, onDone:
                             .background(if (revealed && isAnswer) c.surfaceSunken else c.surface)
                             .border(if (revealed && (isAnswer || chosen == i)) 2.dp else 1.dp, border, cardShape)
                             .selectable(selected = chosen == i, enabled = !revealed, role = Role.RadioButton) { chosen = i }
-                            .padding(16.dp),
+                            .padding(Spacing.l),
                     )
                 }
                 chosen?.let { pick ->
@@ -129,12 +130,12 @@ fun QuizScreen(quizKey: String, title: String, planId: String, day: Int, onDone:
             } else {
                 val score = answers.indices.count { answers[it] == questions[it].answer }
                 val passed = score >= needed
-                Column(Modifier.fillMaxWidth().padding(top = 24.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                Column(Modifier.fillMaxWidth().padding(top = Spacing.xl), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
                     Ornament()
                     Text(stringResource(if (passed) R.string.quiz_passed else R.string.quiz_not_passed), style = MaterialTheme.typography.headlineMedium, color = c.ink)
                     Text(stringResource(R.string.quiz_score, score, questions.size), style = MaterialTheme.typography.titleMedium, color = c.inkMuted)
                     if (!passed) Text(stringResource(R.string.quiz_retry_hint, needed), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
-                    Spacer(Modifier.height(8.dp))
+                    Spacer(Modifier.height(Spacing.s))
                     if (passed) PrimaryButton(stringResource(R.string.continue_label), onDone)
                     else {
                         PrimaryButton(stringResource(R.string.quiz_retry), { answers.clear(); index = 0; finished = false })

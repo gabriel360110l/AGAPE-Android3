@@ -1,5 +1,9 @@
 package agape.app.ui.bible
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
+import agape.app.ui.components.Section
 import agape.app.R
 import agape.app.core.model.AppLanguage
 import agape.app.core.model.Passage
@@ -42,12 +46,10 @@ import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -88,14 +90,14 @@ fun ChapterInfoSheet(book: String, chapter: Int, onDismiss: () -> Unit, openRefe
 
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), containerColor = c.surface) {
         Column(
-            Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp).padding(bottom = 28.dp).navigationBarsPadding(),
-            verticalArrangement = Arrangement.spacedBy(14.dp),
+            Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = Spacing.xl).padding(bottom = Spacing.xl).navigationBarsPadding(),
+            verticalArrangement = Arrangement.spacedBy(Spacing.m),
         ) {
             Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                 Kicker(stringResource(R.string.chapter_explanation))
-                Spacer(Modifier.height(4.dp))
+                Spacer(Modifier.height(Spacing.xs))
                 Text("${container.bookName(book, lang)} $chapter", style = MaterialTheme.typography.headlineMedium, color = c.ink)
-                Ornament(Modifier.padding(vertical = 6.dp))
+                Ornament(Modifier.padding(vertical = Spacing.s))
                 SegmentedTabs(InfoTab.entries.map { stringResource(it.label) }, tab.ordinal, { tab = InfoTab.entries[it] })
             }
             when (tab) {
@@ -114,10 +116,10 @@ private fun ColumnScope.Explanation(commentary: ChapterCommentary?, guide: Chapt
         commentary != null -> {
             Text(commentary.title[lang], style = MaterialTheme.typography.titleLarge, color = c.primary)
             Body(commentary.summary[lang])
-            commentary.meaning[lang].takeIf { it.isNotBlank() }?.let { Section(stringResource(R.string.info_meaning)) { Body(it) } }
+            commentary.meaning[lang].takeIf { it.isNotBlank() }?.let { Section(stringResource(R.string.info_meaning), Modifier.padding(top = Spacing.s)) { Body(it) } }
             Themes(commentary.themes[lang])
             // Only the liturgy of the reader's own tradition; the section stays hidden when it has none.
-            commentary.liturgy[tradition][lang].takeIf { it.isNotBlank() }?.let { Section(stringResource(R.string.info_liturgy)) { Body(it) } }
+            commentary.liturgy[tradition][lang].takeIf { it.isNotBlank() }?.let { Section(stringResource(R.string.info_liturgy), Modifier.padding(top = Spacing.s)) { Body(it) } }
         }
         guide != null -> {
             Provisional()
@@ -128,7 +130,7 @@ private fun ColumnScope.Explanation(commentary: ChapterCommentary?, guide: Chapt
         else -> Text(stringResource(R.string.info_none), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
     }
     book?.intro?.get(lang)?.takeIf { it.isNotBlank() }?.let { intro ->
-        Section(stringResource(R.string.info_about_book, book.name[lang])) { Body(intro) }
+        Section(stringResource(R.string.info_about_book, book.name[lang]), Modifier.padding(top = Spacing.s)) { Body(intro) }
     }
 }
 
@@ -147,29 +149,29 @@ private fun ColumnScope.Fathers(
         Text(stringResource(R.string.info_no_fathers), style = MaterialTheme.typography.bodyMedium, color = c.inkMuted)
         return
     }
-    if (reading.isNotBlank()) Section(stringResource(R.string.info_fathers_reading)) { Body(reading) }
+    if (reading.isNotBlank()) Section(stringResource(R.string.info_fathers_reading), Modifier.padding(top = Spacing.s)) { Body(reading) }
     if (lang == AppLanguage.DUTCH && notes.isNotEmpty()) {
         Text(stringResource(R.string.english_only_note), style = MaterialTheme.typography.labelSmall, color = c.inkFaint)
     }
     notes.forEach { n ->
         Column {
             Text("${n.father} · ${n.work}", style = MaterialTheme.typography.titleSmall, color = c.primary)
-            Body(n.note, Modifier.padding(top = 4.dp))
+            Body(n.note, Modifier.padding(top = Spacing.xs))
         }
     }
     if (quotes.isNotEmpty()) {
-        Section(stringResource(R.string.chapter_fathers)) {
+        Section(stringResource(R.string.chapter_fathers), Modifier.padding(top = Spacing.s)) {
             if (lang == AppLanguage.DUTCH) {
                 Text(stringResource(R.string.info_quotes_english), style = MaterialTheme.typography.labelSmall, color = c.inkFaint)
             }
             quotes.forEach { q ->
-                Column(Modifier.fillMaxWidth().clip(cardShape).clickable { go(q.book, q.chapter, q.verse) }.padding(vertical = 8.dp)) {
+                Column(Modifier.fillMaxWidth().clip(cardShape).clickable { go(q.book, q.chapter, q.verse) }.padding(vertical = Spacing.s)) {
                     Text(
                         "${q.father} · ${container.passageLabel(Passage(q.book, q.chapter, q.verse), lang)}",
                         style = MaterialTheme.typography.titleSmall, color = c.primary,
                     )
-                    Text(q.text, style = MaterialTheme.typography.bodyMedium, color = c.ink, maxLines = 8, modifier = Modifier.padding(top = 4.dp))
-                    if (q.source.isNotBlank()) Text(q.source, style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(top = 2.dp))
+                    Text(q.text, style = MaterialTheme.typography.bodyMedium, color = c.ink, maxLines = 8, modifier = Modifier.padding(top = Spacing.xs))
+                    if (q.source.isNotBlank()) Text(q.source, style = MaterialTheme.typography.labelSmall, color = c.inkFaint, modifier = Modifier.padding(top = Spacing.xxs))
                 }
             }
         }
@@ -187,20 +189,11 @@ private fun ColumnScope.References(refs: List<RefPreview>, lang: AppLanguage, go
     refs.forEach { r ->
         Column(
             Modifier.fillMaxWidth().clip(cardShape).background(c.surfaceSunken.copy(alpha = 0.5f))
-                .clickable { go(r.passage.book, r.passage.chapter, r.passage.startVerse ?: 0) }.padding(14.dp),
+                .clickable { go(r.passage.book, r.passage.chapter, r.passage.startVerse ?: 0) }.padding(Spacing.m),
         ) {
             Text(container.passageLabel(r.passage, lang), style = MaterialTheme.typography.labelLarge, color = c.primary)
-            Text(r.text, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, maxLines = 3, modifier = Modifier.padding(top = 2.dp))
+            Text(r.text, style = MaterialTheme.typography.bodyMedium, color = c.inkMuted, maxLines = 3, modifier = Modifier.padding(top = Spacing.xxs))
         }
-    }
-}
-
-@Composable
-private fun Section(title: String, content: @Composable ColumnScope.() -> Unit) {
-    Column(Modifier.fillMaxWidth().padding(top = 6.dp)) {
-        Kicker(title)
-        Spacer(Modifier.height(6.dp))
-        content()
     }
 }
 
@@ -212,7 +205,7 @@ private fun Body(text: String, modifier: Modifier = Modifier) {
 @Composable
 private fun Themes(themes: List<String>) {
     if (themes.isEmpty()) return
-    Text(themes.joinToString(" · "), style = MaterialTheme.typography.labelMedium, color = AgapeTheme.colors.accent)
+    Text(themes.joinToString(" · "), style = MaterialTheme.typography.labelMedium, color = AgapeTheme.colors.accentInk)
 }
 
 /** Marks text that is still a first draft, so readers know a fuller version is coming. */
@@ -222,7 +215,7 @@ private fun Provisional() {
     Text(
         stringResource(R.string.info_provisional),
         style = MaterialTheme.typography.labelMedium, color = c.inkMuted,
-        modifier = Modifier.clip(CircleShape).border(1.dp, c.line, CircleShape).padding(horizontal = 12.dp, vertical = 6.dp),
+        modifier = Modifier.clip(CircleShape).border(1.dp, c.line, CircleShape).padding(horizontal = Spacing.m, vertical = Spacing.s),
     )
 }
 
@@ -232,7 +225,7 @@ fun ChapterQuizRow(book: String, chapter: Int, lastOfBook: Book?, openQuiz: (Str
     val container = LocalContainer.current
     val lang = LocalLanguage.current
     val title = "${container.bookName(book, lang)} $chapter"
-    Row(Modifier.fillMaxWidth().padding(top = 16.dp), horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally)) {
+    Row(Modifier.fillMaxWidth().padding(top = Spacing.l), horizontalArrangement = Arrangement.spacedBy(Spacing.m, Alignment.CenterHorizontally)) {
         QuizChip(stringResource(R.string.chapter_quiz)) { openQuiz("chapter:$book.$chapter", title) }
         lastOfBook?.let { b -> QuizChip(stringResource(R.string.book_end_quiz)) { openQuiz("book:${b.id}", b.name[lang]) } }
     }
@@ -242,8 +235,8 @@ fun ChapterQuizRow(book: String, chapter: Int, lastOfBook: Book?, openQuiz: (Str
 private fun QuizChip(text: String, onClick: () -> Unit) {
     val c = AgapeTheme.colors
     Row(
-        Modifier.clip(CircleShape).border(1.dp, c.line, CircleShape).clickable(onClick = onClick).padding(horizontal = 14.dp, vertical = 9.dp),
-        verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp),
+        Modifier.clip(CircleShape).border(1.dp, c.line, CircleShape).clickable(onClick = onClick).padding(horizontal = Spacing.m, vertical = 9.dp),
+        verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(Spacing.s),
     ) {
         Icon(Icons.Outlined.Quiz, null, tint = c.accent, modifier = Modifier.height(18.dp))
         Text(text, style = MaterialTheme.typography.labelLarge, color = c.ink)

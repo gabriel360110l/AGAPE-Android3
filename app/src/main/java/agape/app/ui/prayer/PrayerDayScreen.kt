@@ -1,9 +1,11 @@
 package agape.app.ui.prayer
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import agape.app.ui.theme.Spacing
 import agape.app.AppContainer
 import agape.app.R
 import agape.app.core.prefs.CustomReminder
-import agape.app.core.prefs.Settings
 import agape.app.data.content.PrayerHour
 import agape.app.data.schedule.Place
 import agape.app.data.schedule.RoughLocation
@@ -62,11 +64,9 @@ import androidx.compose.material3.TimePicker
 import androidx.compose.material3.TimePickerDefaults
 import androidx.compose.material3.rememberTimePickerState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -121,39 +121,39 @@ fun PrayerDayScreen(onBack: () -> Unit) {
 
     Column(Modifier.fillMaxSize()) {
         DetailTopBar(stringResource(R.string.day_title), onBack)
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(Spacing.l), verticalArrangement = Arrangement.spacedBy(Spacing.m)) {
             AgapeCard {
                 Kicker(stringResource(R.string.day_reminders))
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Toggle(stringResource(R.string.settings_notify_hours), stringResource(R.string.day_reminders_hint), settings.prayerNotifications, ::enable)
                 QuietButton(stringResource(R.string.day_test_bell), { Notifications.test(context) })
             }
 
             AgapeCard {
                 Kicker(stringResource(R.string.day_hours))
-                Spacer(Modifier.height(4.dp))
+                Spacer(Modifier.height(Spacing.xs))
                 Text(
                     stringResource(if (settings.sunTimes && settings.place != null) R.string.day_hours_sun_hint else R.string.day_hours_hint),
                     style = MaterialTheme.typography.bodySmall, color = c.inkMuted,
                 )
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 hours.forEach { hour ->
                     val reminder = reminders[hour.id]
                     val fixed = reminder?.time ?: LocalTime.parse(hour.time)
                     val sunny = settings.sunTimes && settings.place != null && SunSchedule.follows(hour.id)
                     val time = SunSchedule.timeOn(hour.id, fixed, settings, today)
                     val on = settings.prayerNotifications && reminder != null
-                    Row(Modifier.fillMaxWidth().padding(vertical = 2.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Row(Modifier.fillMaxWidth().padding(vertical = Spacing.xxs), verticalAlignment = Alignment.CenterVertically) {
                         Column(Modifier.weight(1f)) {
                             Text(hour.name[lang], style = MaterialTheme.typography.titleSmall, color = c.ink)
                             Text(hour.subtitle[lang], style = MaterialTheme.typography.bodySmall, color = c.inkMuted, maxLines = 1)
                         }
                         Row(
-                            Modifier.clickable(enabled = !sunny) { editHour = hour }.padding(horizontal = 8.dp, vertical = 10.dp),
+                            Modifier.clickable(enabled = !sunny) { editHour = hour }.padding(horizontal = Spacing.s, vertical = Spacing.m),
                             verticalAlignment = Alignment.CenterVertically,
                         ) {
-                            if (sunny) Icon(Icons.Outlined.WbSunny, stringResource(R.string.day_follows_sun), tint = c.accent, modifier = Modifier.padding(end = 4.dp).width(16.dp))
-                            Text(time.format(clock), style = MaterialTheme.typography.titleMedium, color = if (sunny) c.accent else c.primary)
+                            if (sunny) Icon(Icons.Outlined.WbSunny, stringResource(R.string.day_follows_sun), tint = c.accent, modifier = Modifier.padding(end = Spacing.xs).width(16.dp))
+                            Text(time.format(clock), style = MaterialTheme.typography.titleMedium, color = if (sunny) c.accentInk else c.primary)
                         }
                         IconButton(onClick = {
                             save {
@@ -175,13 +175,13 @@ fun PrayerDayScreen(onBack: () -> Unit) {
 
             AgapeCard {
                 Kicker(stringResource(R.string.day_sun))
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Toggle(stringResource(R.string.day_sun_toggle), stringResource(R.string.day_sun_hint), settings.sunTimes) { on ->
                     if (on && settings.place == null) choosePlace = true
                     save { this.settings.setSunTimes(on) }
                 }
                 if (settings.place != null) {
-                    Row(Modifier.fillMaxWidth().clickable { choosePlace = true }.padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Row(Modifier.fillMaxWidth().clickable { choosePlace = true }.padding(vertical = Spacing.s), verticalAlignment = Alignment.CenterVertically) {
                         Column(Modifier.weight(1f)) {
                             Text(settings.place.label, style = MaterialTheme.typography.titleSmall, color = c.ink)
                             sun?.let {
@@ -198,10 +198,10 @@ fun PrayerDayScreen(onBack: () -> Unit) {
 
             AgapeCard {
                 Kicker(stringResource(R.string.day_moments))
-                Spacer(Modifier.height(4.dp))
+                Spacer(Modifier.height(Spacing.xs))
                 Text(stringResource(R.string.day_moments_hint), style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
                 moments.forEach { m ->
-                    Row(Modifier.fillMaxWidth().clickable { editMoment = m }.padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Row(Modifier.fillMaxWidth().clickable { editMoment = m }.padding(vertical = Spacing.s), verticalAlignment = Alignment.CenterVertically) {
                         Text(m.time.format(clock), style = MaterialTheme.typography.titleMedium, color = c.primary, modifier = Modifier.width(64.dp))
                         Text(m.label.ifBlank { stringResource(R.string.moment_default) }, style = MaterialTheme.typography.bodyLarge, color = c.ink, modifier = Modifier.weight(1f))
                         IconButton(onClick = { save { this.settings.setCustomReminders(this.settings.current().customReminders.filterNot { it.startsWith("${m.id}|") }.toSet()) } }) {
@@ -214,7 +214,7 @@ fun PrayerDayScreen(onBack: () -> Unit) {
 
             AgapeCard {
                 Kicker(stringResource(R.string.day_quiet))
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Toggle(stringResource(R.string.day_quiet_toggle), stringResource(R.string.day_quiet_hint), settings.quietPrayer) { on ->
                     if (on && !QuietPrayer.allowed(context)) quietAsked = true
                     scope.launch { container.settings.setQuietPrayer(on) }
@@ -224,7 +224,7 @@ fun PrayerDayScreen(onBack: () -> Unit) {
 
             AgapeCard {
                 Kicker(stringResource(R.string.day_beads))
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(Spacing.s))
                 Toggle(stringResource(R.string.day_pace_toggle), stringResource(R.string.day_pace_hint), settings.paceWait) { on ->
                     scope.launch { container.settings.setPaceWait(on) }
                 }
@@ -281,8 +281,8 @@ fun PrayerDayScreen(onBack: () -> Unit) {
 @Composable
 private fun Toggle(title: String, hint: String, checked: Boolean, onChange: (Boolean) -> Unit) {
     val c = AgapeTheme.colors
-    Row(Modifier.padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
-        Column(Modifier.weight(1f).padding(end = 12.dp)) {
+    Row(Modifier.padding(vertical = Spacing.s), verticalAlignment = Alignment.CenterVertically) {
+        Column(Modifier.weight(1f).padding(end = Spacing.m)) {
             Text(title, style = MaterialTheme.typography.titleSmall, color = c.ink)
             Text(hint, style = MaterialTheme.typography.bodySmall, color = c.inkMuted)
         }
@@ -339,10 +339,10 @@ private fun PlaceDialog(onDismiss: () -> Unit, onPick: (Place) -> Unit) {
             LazyColumn(Modifier.heightIn(max = 420.dp)) {
                 item {
                     Row(
-                        Modifier.fillMaxWidth().clickable { if (RoughLocation.permitted(context)) locate() else permission.launch(Manifest.permission.ACCESS_COARSE_LOCATION) }.padding(vertical = 12.dp),
+                        Modifier.fillMaxWidth().clickable { if (RoughLocation.permitted(context)) locate() else permission.launch(Manifest.permission.ACCESS_COARSE_LOCATION) }.padding(vertical = Spacing.m),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        Icon(Icons.Outlined.MyLocation, null, tint = c.primary, modifier = Modifier.padding(end = 10.dp))
+                        Icon(Icons.Outlined.MyLocation, null, tint = c.primary, modifier = Modifier.padding(end = Spacing.m))
                         Column {
                             Text(here, style = MaterialTheme.typography.titleSmall, color = c.primary)
                             Text(stringResource(if (failed) R.string.day_place_failed else R.string.day_place_here_hint), style = MaterialTheme.typography.bodySmall, color = if (failed) c.danger else c.inkMuted)
@@ -351,7 +351,7 @@ private fun PlaceDialog(onDismiss: () -> Unit, onPick: (Place) -> Unit) {
                     Divider()
                 }
                 items(Place.cities, key = { it.label }) { p ->
-                    Text(p.label, style = MaterialTheme.typography.bodyLarge, color = c.ink, modifier = Modifier.fillMaxWidth().clickable { onPick(p) }.padding(vertical = 12.dp))
+                    Text(p.label, style = MaterialTheme.typography.bodyLarge, color = c.ink, modifier = Modifier.fillMaxWidth().clickable { onPick(p) }.padding(vertical = Spacing.m))
                 }
             }
         },
