@@ -980,6 +980,16 @@
      "Gods wijngaard",
      "Verzameling"
     ]
+   },
+   "liturgy": {
+    "eo": {
+     "en": "In the Byzantine rite 26:21-27:9 is read at the Sixth Hour on Wednesday of the Fourth Week of Great Lent.",
+     "nl": "In de Byzantijnse ritus wordt 26:21-27:9 gelezen in het zesde uur op woensdag van de vierde week van de Grote Vasten."
+    },
+    "ca": {
+     "en": "In the Liturgy of the Hours of the Roman rite, the biblical reading of the Office of Readings is 27:1-13 on Friday of the Second Week of Advent.",
+     "nl": "In het getijdengebed van de Romeinse ritus is de Bijbellezing van het officie van de lezingen 27:1-13 op vrijdag van de tweede week van de advent."
+    }
    }
   },
   {
@@ -2076,6 +2086,12 @@
      "Afgoderij",
      "Vrede voor allen"
     ]
+   },
+   "liturgy": {
+    "ca": {
+     "en": "Isaiah 57:15-19 is one of the first readings in the Roman Lectionary at the Mass for peace and justice.",
+     "nl": "Jesaja 57:15-19 is in het Romeins lectionarium een van de eerste lezingen in de mis voor vrede en gerechtigheid."
+    }
    }
   },
   {
