@@ -53,6 +53,8 @@ M: The one repaid with evil for good brings his cause to God instead of taking r
 MN: Wie kwaad voor goed vergolden krijgt, brengt zijn zaak bij God in plaats van wraak te nemen. Hij had gebeden en gevast voor zijn vijanden.
 F: On 35:13, 'I wore sackcloth, I afflicted myself with fasting, I prayed with head bowed', Theodoret says David met his troubles with sackcloth, fasting and prayer, and received what he asked (Theodoret of Cyrus, Commentary on the Psalms, on Psalm 34:13 (LXX; Hebrew Psalm 35)). Christ applies 'they hated Me without cause' to Himself in John 15. The Fathers saw in this psalm the voice of Christ betrayed and falsely accused, and drew the lesson that we too must pray for those who wrong us, as the psalmist mourned for them in their sickness.
 FN: Bij 35:13, 'ik droeg een rouwgewaad, ik kwelde mij met vasten, ik bad met gebogen hoofd', zegt Theodoretus dat David zijn beproevingen tegemoet trad met rouwgewaad, vasten en gebed, en ontving wat hij vroeg (Theodoretus van Cyrus, Commentaar op de Psalmen, bij Psalm 34,13 (LXX; Hebreeuws Psalm 35)). Christus past 'zij hebben Mij zonder reden gehaat' toe op Zichzelf in Johannes 15. De kerkvaders zagen in deze psalm de stem van de verraden en valselijk beschuldigde Christus, en trokken de les dat ook wij moeten bidden voor wie ons onrecht doen, zoals de psalmist om hen rouwde in hun ziekte.
+LC: In the Roman Liturgy of the Hours 35:1-2, 3c, 9-19, 22-23, 27-28 is prayed in three parts at the Office of Readings on Friday of Week I.
+LCN: In het Romeinse getijdengebed wordt 35:1-2, 3c, 9-19, 22-23, 27-28 in drie delen gebeden in het officie van de lezingen op vrijdag van week I.
 T: False accusation; Evil for good; God as defender
 TN: Valse beschuldiging; Kwaad voor goed; God als verdediger
 
@@ -99,6 +101,8 @@ M: Remembering the brevity of life frees us from grasping and turns hope towards
 MN: Het gedenken van de kortheid van het leven bevrijdt ons van grijpen en richt de hoop op God. Wij zijn gasten op aarde.
 F: On 39:9, 'I am mute, I do not open my mouth, for it is you who have done it', Theodoret has David say of Shimei's insults that God permitted them as a scourge and disciplined him through it, so he received the blows in silence, looking past the man to God (Theodoret of Cyrus, Commentary on the Psalms, on Psalm 38:10 (LXX; Hebrew Psalm 39)). The Fathers made 'make me know my end' a foundation for the remembrance of death, which St John Climacus calls a gift of God that cuts off vain cares. St Ambrose commented at length on this psalm, especially on guarding the tongue.
 FN: Bij 39:9, 'ik zwijg, ik open mijn mond niet, want U hebt het gedaan', laat Theodoretus David over de beledigingen van Simeï zeggen dat God ze als een gesel toeliet en hem daardoor tuchtigde, zodat hij de slagen zwijgend ontving en over de mens heen naar God keek (Theodoretus van Cyrus, Commentaar op de Psalmen, bij Psalm 38,10 (LXX; Hebreeuws Psalm 39)). De kerkvaders maakten 'maak mij mijn einde bekend' tot een grondslag voor het gedenken van de dood, dat de heilige Johannes Climacus een gave van God noemt die ijdele zorgen afsnijdt. De heilige Ambrosius gaf uitvoerig commentaar op deze psalm, vooral op het bewaren van de tong.
+LC: In the Roman Liturgy of the Hours it is prayed in two parts (39:2-7 and 39:8-14) at the Office of Readings on Wednesday of Week II.
+LCN: In het Romeinse getijdengebed wordt hij in twee delen (39:2-7 en 39:8-14) gebeden in het officie van de lezingen op woensdag van week II.
 T: Brevity of life; Guarding the tongue; Pilgrims
 TN: Kortheid van het leven; Het bewaren van de tong; Vreemdelingen
 
@@ -263,6 +267,8 @@ M: This psalm repeats Psalm 14 with small changes: godlessness of the heart corr
 MN: Deze psalm herhaalt Psalm 14 met kleine veranderingen: goddeloosheid van het hart bederft het leven, en allen hebben verlossing van God nodig.
 F: On 53:6, 'O that salvation for Israel would come out of Zion!', Theodoret says those already delivered pray for the return of the captives already deported, teaching us to share in others' joys and sorrows (Theodoret of Cyrus, Commentary on the Psalms, on Psalm 52:7 (LXX; Hebrew Psalm 53)). The Fathers explained the repetition as emphasis: what the Holy Spirit says twice must be taken to heart. St Augustine notes that the fool's denial is not with the lips but in the heart, in the way he lives.
 FN: Bij 53:6, 'och, kwam het heil voor Israël maar uit Sion!', zegt Theodoretus dat wie al bevrijd waren bidden om de terugkeer van de reeds weggevoerde ballingen, en ons zo leren in de vreugde en het verdriet van anderen te delen (Theodoretus van Cyrus, Commentaar op de Psalmen, bij Psalm 52,7 (LXX; Hebreeuws Psalm 53)). De kerkvaders legden de herhaling uit als nadruk: wat de Heilige Geest twee keer zegt, moet ter harte genomen worden. De heilige Augustinus merkt op dat de ontkenning van de dwaas niet met de lippen gebeurt maar in het hart, in de manier waarop hij leeft.
+LC: In the Roman Liturgy of the Hours it is prayed at Daytime Prayer on Tuesday of Week II.
+LCN: In het Romeinse getijdengebed wordt hij gebeden in het middaggebed op dinsdag van week II.
 T: Folly; Universal sin; Salvation from Zion
 TN: Dwaasheid; Algemene zondigheid; Heil uit Sion
 

@@ -19,6 +19,8 @@ M: Evil imitates Christ: it has a 'wound healed', looks like a lamb and demands 
 MN: Het kwaad bootst Christus na: het heeft een 'genezen wond', lijkt op een lam en eist aanbidding. Wereldlijke macht die goddelijke eer opeist, is het merkteken van het beest.
 F: Discussing the number of the beast, six hundred and sixty-six, in 13:18, Irenaeus defends the reading preserved in the oldest manuscripts and links the triple repetition of six to the recapitulation of all human rebellion since creation on the sixth day. At the same time, he warns believers against rashly guessing the Antichrist's personal name in advance, urging them instead to await the fulfillment of prophecy in prayerful vigilance (St Irenaeus of Lyons, Against Heresies, Book 5, Chapter 30, Paragraph 1-3). St Irenaeus discussed the number 666 and wisely refused to name the Antichrist, saying that if it were needed, John would have revealed it. The Fathers warned against both fear and speculation.
 FN: Bij de bespreking van het getal van het beest, zeshonderdzesenzestig, in 13:18 verdedigt Irenaeus de lezing van de oudste handschriften en verbindt hij de drievoudige zes met een samenvatting van alle menselijke opstandigheid sinds de zesde scheppingsdag. Tegelijkertijd waarschuwt hij gelovigen om niet voorbarig te gissen naar de eigennaam van de Antichrist, maar in biddende waakzaamheid op de vervulling van de profetie te wachten (Irenaeus van Lyon, Tegen de ketterijen, Boek 5, Hoofdstuk 30, Paragraaf 1-3). De heilige Irenaeus besprak het getal 666 en weigerde wijselijk de antichrist een naam te geven: als het nodig was geweest, zou Johannes het geopenbaard hebben. De kerkvaders waarschuwden zowel tegen angst als tegen speculatie.
+LC: In the Liturgy of the Hours of the Roman rite, the biblical reading of the Office of Readings is 13:1-18 on Monday of the Fourth Week of Easter.
+LCN: In het getijdengebed van de Romeinse ritus is de Bijbellezing van het officie van de lezingen 13:1-18 op maandag van de vierde week van Pasen.
 T: Idolatry of power; Discernment; Endurance
 TN: Afgoderij van de macht; Onderscheiding; Volharding
 
@@ -63,6 +65,8 @@ M: Babylon is the seductive city of wealth, pleasure and power that persecutes t
 MN: Babylon is de verleidelijke stad van rijkdom, genot en macht die de gelovigen vervolgt. Haar glans verbergt haar leegte; het Lam is de ware Koning.
 F: The Fathers identified Babylon with pagan Rome on its seven hills, and more broadly with every society that worships wealth and power against God. St Augustine's City of God contrasts the earthly city with the city of God.
 FN: De kerkvaders vereenzelvigden Babylon met het heidense Rome op zijn zeven heuvels, en breder met elke samenleving die rijkdom en macht aanbidt tegen God in. De Stad van God van de heilige Augustinus stelt de aardse stad tegenover de stad van God.
+LC: In the Liturgy of the Hours of the Roman rite, the biblical reading of the Office of Readings is 17:1-18 on Friday of the Fourth Week of Easter.
+LCN: In het getijdengebed van de Romeinse ritus is de Bijbellezing van het officie van de lezingen 17:1-18 op vrijdag van de vierde week van Pasen.
 T: Seduction of the world; Persecution; Kingship of the Lamb
 TN: Verleiding van de wereld; Vervolging; Koningschap van het Lam
 
