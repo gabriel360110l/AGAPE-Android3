@@ -317,6 +317,10 @@ M: God defeats the ancient serpent and tends His people like a beloved vineyard.
 MN: God verslaat de oude slang en verzorgt Zijn volk als een geliefde wijngaard. Het lied van de wijngaard uit hoofdstuk 5 keert van oordeel naar vreugde.
 F: On 27:1, 'God will bring his holy sword upon the dragon, the fleeing serpent', St Cyril of Alexandria says the sword is the Word, through which the Son executes judgment, and the dragon is Satan, who is slain so that none of the saints unjustly killed is forgotten before God (St Cyril of Alexandria, Commentary on Isaiah, book 3, tome 1, part 16 (on Isaiah 27:1)). The Fathers saw in the slaying of Leviathan the twisting serpent (27:1) Christ's victory over the devil, 'that ancient serpent' of Revelation (Revelation 12:9). The great trumpet was read as the trumpet of the resurrection.
 FN: Bij 27:1, 'God zal zijn heilig zwaard brengen over de draak, de vluchtende slang', zegt de heilige Cyrillus van Alexandrië dat het zwaard het Woord is, waardoor de Zoon het oordeel voltrekt, en de draak Satan, die gedood wordt, zodat geen van de onrechtvaardig gedode heiligen bij God vergeten is (Cyrillus van Alexandrië, Commentaar op Jesaja, boek 3, tomus 1, deel 16 (bij Jesaja 27:1)). De kerkvaders zagen in het doden van Leviatan, de kronkelende slang (27:1), de overwinning van Christus op de duivel, 'de oude slang' van Openbaring (Openbaring 12:9). De grote bazuin werd gelezen als de bazuin van de opstanding.
+LE: In the Byzantine rite 26:21-27:9 is read at the Sixth Hour on Wednesday of the Fourth Week of Great Lent.
+LEN: In de Byzantijnse ritus wordt 26:21-27:9 gelezen in het zesde uur op woensdag van de vierde week van de Grote Vasten.
+LC: In the Liturgy of the Hours of the Roman rite, the biblical reading of the Office of Readings is 27:1-13 on Friday of the Second Week of Advent.
+LCN: In het getijdengebed van de Romeinse ritus is de Bijbellezing van het officie van de lezingen 27:1-13 op vrijdag van de tweede week van de advent.
 T: Victory over evil; God's vineyard; Gathering
 TN: Overwinning op het kwaad; Gods wijngaard; Verzameling
 
