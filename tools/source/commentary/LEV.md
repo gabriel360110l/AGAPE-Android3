@@ -101,6 +101,10 @@ M: Closeness to God brings greater responsibility. Worship invented according to
 MN: Nabijheid tot God brengt grotere verantwoordelijkheid. Eredienst die naar eigen goeddunken bedacht wordt, zonder eerbied, is gevaarlijk.
 F: On Nadab and Abihu offering strange fire before the Lord and being consumed (10:1-2), Theodoret teaches that their strange fire warns Christians to keep the Spirit's gift alive and to add nothing foreign to Scripture, as heretics do (Theodoret of Cyrus, Questions on Leviticus, Question 9). The Fathers used this chapter to warn against approaching the holy mysteries carelessly or with 'strange fire', worship of one's own invention. Aaron's silence before his grief was admired as submission to God's judgment.
 FN: Over Nadab en Abihu die vreemd vuur voor het aangezicht van de Heer brachten en verteerd werden (10:1-2), leert Theodoretus dat hun vreemde vuur de christenen waarschuwt het geschenk van de Geest levend te houden en niets vreemds aan de Schrift toe te voegen, zoals ketters doen (Theodoretus van Cyrus, Vragen over Leviticus, Vraag 9). De kerkvaders gebruikten dit hoofdstuk om te waarschuwen tegen het lichtzinnig naderen van de heilige mysteriën of met 'vreemd vuur', een eredienst van eigen vinding. Het zwijgen van Aäron in zijn verdriet werd bewonderd als onderwerping aan Gods oordeel.
+LE: The Orthodox Church commemorates the Righteous Aaron on 20 July (2 August on the Julian calendar).
+LEN: De Orthodoxe Kerk gedenkt de rechtvaardige Aäron op 20 juli (2 augustus volgens de Juliaanse kalender).
+LO: In the Coptic Orthodox Church the Synaxarium commemorates the departure of Aaron the priest on 1 Baramudah.
+LON: In de Koptisch-orthodoxe Kerk gedenkt het Synaxarium het heengaan van de priester Aäron op 1 Baramudah.
 T: Reverence; Strange fire; Sobriety
 TN: Eerbied; Vreemd vuur; Nuchterheid
 
