@@ -197,6 +197,10 @@ M: Those who serve God receive God Himself as their inheritance. The people supp
 MN: Wie God dienen, ontvangen God Zelf als hun erfdeel. Het volk ondersteunt wie hen dienen, en de dienaren geven ook zelf.
 F: On the Lord giving the priests the firstfruits and telling Aaron that the Levites would have no allotment of land (18:8-24), Theodoret explains that God does not want them to receive a share of the land like the other tribes. The Levites receive the tithes from all the people as a wage for attending on God's service in their place, and they in turn offer a tithe of the tithes to the priests (Theodoret of Cyrus, Questions on Numbers, Question 34). 'I am your portion and your inheritance' became a beloved text for clergy and monastics, who have no earthly inheritance but God. St Paul argues from such laws that those who proclaim the Gospel should live by the Gospel.
 FN: Over de Heer die de priesters de eerstelingen geeft en Aäron zegt dat de Levieten geen aandeel in het land zullen hebben (18:8-24), legt Theodoretus uit dat God niet wil dat zij zoals de andere stammen een stuk land ontvangen. De Levieten ontvangen de tienden van heel het volk als loon omdat zij in hun plaats Gods dienst waarnemen, en zij op hun beurt bieden een tiende van de tienden aan de priesters (Theodoretus van Cyrus, Vragen over Numeri, Vraag 34). 'Ik ben uw deel en uw erfdeel' werd een geliefde tekst voor geestelijken en monniken, die geen aards erfdeel hebben dan God. De heilige Paulus redeneert vanuit zulke wetten dat wie het Evangelie verkondigt, van het Evangelie moet leven.
+LE: The Orthodox Church commemorates the Righteous Aaron on 20 July (2 August on the Julian calendar).
+LEN: De Orthodoxe Kerk gedenkt de rechtvaardige Aäron op 20 juli (2 augustus volgens de Juliaanse kalender).
+LO: In the Coptic Orthodox Church the Synaxarium commemorates the departure of Aaron the priest on 1 Baramudah.
+LON: In de Koptisch-orthodoxe Kerk gedenkt het Synaxarium het heengaan van de priester Aäron op 1 Baramudah.
 T: God as inheritance; Support of ministers; Tithes
 TN: God als erfdeel; Ondersteuning van dienaren; Tienden
 

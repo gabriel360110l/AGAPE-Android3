@@ -41,6 +41,10 @@ M: The prophet preaches not only with words but with his whole body. By bearing 
 MN: De profeet preekt niet alleen met woorden, maar met heel zijn lichaam. Door de ongerechtigheid van het volk in zijn eigen vlees te dragen, laat hij zien dat de zonde echte en bittere gevolgen heeft, en God luistert toch naar de bede van Zijn dienaar.
 F: Christian readers saw in the prophet who lies bound and bears the iniquity of the people a figure of Christ, who bore the sins of many. Theodoret of Cyrus, defending the strange life of St Simeon the Stylite, recalled how God commanded Ezekiel to lie on his side and to act out the captivity, so that by an unusual sight the people might be roused to listen. St Jerome discussed the numbers of years at length in his commentary, and the Fathers generally admitted that their exact meaning is difficult.
 FN: Christelijke lezers zagen in de profeet die gebonden ligt en de ongerechtigheid van het volk draagt een afbeelding van Christus, die de zonden van velen gedragen heeft. Theodoretus van Cyrus herinnerde, toen hij het vreemde leven van de heilige Simeon de Styliet verdedigde, eraan hoe God Ezechiël opdroeg op zijn zijde te liggen en de wegvoering uit te beelden, zodat het volk door een ongewoon schouwspel tot luisteren gewekt zou worden. De heilige Hiëronymus besprak de getallen van de jaren uitvoerig in zijn commentaar, en de kerkvaders gaven in het algemeen toe dat hun precieze betekenis moeilijk is.
+LE: The Orthodox Church commemorates the Prophet Ezekiel on 21 July (3 August on the Julian calendar).
+LEN: De Orthodoxe Kerk gedenkt de profeet Ezechiël op 21 juli (3 augustus volgens de Juliaanse kalender).
+LO: In the Coptic Orthodox Church the Synaxarium commemorates the martyrdom of the Prophet Ezekiel, the son of Buzi, on 5 Baramudah.
+LON: In de Koptisch-orthodoxe Kerk gedenkt het Synaxarium het martelaarschap van de profeet Ezechiël, de zoon van Buzi, op 5 Baramudah.
 T: Prophecy in action; Bearing the iniquity of the people; Bread of the siege
 TN: Profetie in daden; De ongerechtigheid van het volk dragen; Het brood van het beleg
 
